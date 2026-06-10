@@ -13,11 +13,11 @@ const fisherYatesShuffle = (arr: any[]) => {
     return array;
 };
 
-const playAudio = (text: string) => {
+const playAudio = (text: string, isEnglish: boolean = false) => {
     if (!text || typeof window === 'undefined') return;
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
-    u.lang = 'zh-CN';
+    u.lang = isEnglish ? 'en-US' : 'zh-CN';
     u.rate = 0.85;
     window.speechSynthesis.speak(u);
 };
