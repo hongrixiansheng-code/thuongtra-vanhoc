@@ -107,7 +107,8 @@ export async function getLessonsData(levelStr: string) {
     });
 
     if (program && program.lessons.length > 0) {
-      const mappedLessons = program.lessons.map((l: any) => ({
+      // Lọc bỏ bài học "Từ điển" ảo (orderIndex=9999) - chỉ dùng để chứa từ vựng còn thiếu
+      const mappedLessons = program.lessons.filter((l: any) => l.orderIndex !== 9999).map((l: any) => ({
         id: l.id,
         title: l.title,
         theme: l.title.includes("Mở Đầu") ? "CHUYÊN ĐỀ MỞ ĐẦU: NGỮ ÂM" : 
