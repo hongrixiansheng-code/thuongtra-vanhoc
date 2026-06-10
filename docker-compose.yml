@@ -1,0 +1,18 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: edu_platform_postgres
+    environment:
+      POSTGRES_USER: edu_user
+      POSTGRES_PASSWORD: edu_password
+      POSTGRES_DB: edu_platform_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    restart: unless-stopped
+
+volumes:
+  postgres_data:

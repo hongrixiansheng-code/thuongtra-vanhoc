@@ -1,0 +1,127 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id                  String         @id @default(uuid())
+  name                String?
+  email               String?        @unique
+  emailVerified       DateTime?
+  image               String?
+  passwordHash        String?
+  role                String         @default("USER") // "USER" | "ADMIN"
+  subscriptionStatus  String         @default("FREE") // "FREE" | "PREMIUM"
+  subscriptionEndDate DateTime?
+  createdAt           DateTime       @default(now())
+  
+  accounts            Account[]
+  sessions            Session[]
+  progress            UserProgress[]
+  payments            Payment[]
+}
+
+model Account {
+  id                String  @id @default(uuid())
+  userId            String
+  type              String
+  provider          String
+  providerAccountId String
+  refresh_token     String?
+  access_token      String?
+  expires_at        Int?
+  token_type        String?
+  scope             String?
+  id_token          String?
+  session_state     String?
+
+  user User @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([provider, providerAccountId])
+}
+
+model Session {
+  id           String   @id @default(uuid())
+  sessionToken String   @unique
+  userId       String
+  expires      DateTime
+  user         User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model VerificationToken {
+  identifier String
+  token      String   @unique
+  expires    DateTime
+
+  @@unique([identifier, token])
+}
+
+model Subject {
+  id        String    @id @default(uuid())
+  name      String    // e.g., "Tiếng Anh", "Tiếng Trung"
+  code      String    @unique
+  createdAt DateTime  @default(now())
+
+  programs  Program[]
+}
+
+model Program {
+  id        String    @id @default(uuid())
+  subjectId String
+  name      String    // e.g., "HSK1"
+  level     Int
+  createdAt DateTime  @default(now())
+
+  subject   Subject   @relation(fields: [subjectId], references: [id])
+  lessons   Lesson[]
+}
+
+model Lesson {
+  id          String    @id @default(uuid())
+  programId   String
+  title       String
+  orderIndex  Int
+  isPremium   Boolean   @default(false)
+  createdAt   DateTime  @default(now())
+
+  program     Program   @relation(fields: [programId], references: [id])
+  contents    LessonContent[]
+  userProgress UserProgress[]
+}
+
+model LessonContent {
+  id          String    @id @default(uuid())
+  lessonId    String
+  contentType String    // "THEORY", "FORMULA", "EXERCISE", "REVIEW"
+  content     String
+  createdAt   DateTime  @default(now())
+
+  lesson      Lesson    @relation(fields: [lessonId], references: [id])
+}
+
+model UserProgress {
+  id             String    @id @default(uuid())
+  userId         String
+  lessonId       String
+  completed      Boolean   @default(false)
+  score          Int?
+  lastReviewedAt DateTime  @default(now())
+
+  user           User      @relation(fields: [userId], references: [id])
+  lesson         Lesson    @relation(fields: [lessonId], references: [id])
+}
+
+model Payment {
+  id                   String    @id @default(uuid())
+  userId               String
+  amount               Float
+  status               String    // "PENDING", "SUCCESS", "FAILED"
+  gatewayTransactionId String?
+  createdAt            DateTime  @default(now())
+
+  user                 User      @relation(fields: [userId], references: [id])
+}

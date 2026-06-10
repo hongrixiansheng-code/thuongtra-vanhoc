@@ -1,0 +1,17 @@
+{
+  "name": "@edu-platform/shared",
+  "version": "1.0.0",
+  "description": "Shared logic, types and game components",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "typescript": "^5.0.0"
+  }
+}
