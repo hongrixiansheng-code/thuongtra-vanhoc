@@ -6,12 +6,8 @@ async function getAllVocabData(levelStr: string) {
   try {
     const { PrismaClient } = require('database');
     const path = require('path');
-    const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-    const prisma = new PrismaClient({
-      datasources: {
-        db: { url: `file:${dbPath}` }
-      }
-    });
+    
+    const prisma = new PrismaClient();
     // Thay vì lấy từ bài học, ta lấy toàn bộ từ vựng chuẩn từ file gốc của dự án cũ
     const fs = require('fs');
     const isEnglish = levelStr.startsWith('en-');

@@ -3,12 +3,8 @@ import path from "path";
 import { UserCog, ShieldAlert, BadgeCheck } from "lucide-react";
 
 async function getUsers() {
-  const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-  const prisma = new PrismaClient({
-    datasources: {
-      db: { url: `file:${dbPath}` }
-    }
-  });
+  
+  const prisma = new PrismaClient();
 
   return prisma.user.findMany({
     orderBy: { createdAt: 'desc' }

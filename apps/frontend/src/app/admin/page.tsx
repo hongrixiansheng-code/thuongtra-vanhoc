@@ -3,12 +3,8 @@ import path from "path";
 import { Users, GraduationCap, FileText, Activity } from "lucide-react";
 
 async function getStats() {
-  const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-  const prisma = new PrismaClient({
-    datasources: {
-      db: { url: `file:${dbPath}` }
-    }
-  });
+  
+  const prisma = new PrismaClient();
 
   const totalUsers = await prisma.user.count();
   const totalPremium = await prisma.user.count({

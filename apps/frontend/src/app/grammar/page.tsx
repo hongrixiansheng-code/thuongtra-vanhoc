@@ -6,12 +6,8 @@ async function getAllGrammarData(levelStr: string) {
   try {
     const { PrismaClient } = require('database');
     const path = require('path');
-    const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-    const prisma = new PrismaClient({
-      datasources: {
-        db: { url: `file:${dbPath}` }
-      }
-    });
+    
+    const prisma = new PrismaClient();
     const fs = require('fs');
     const isEnglish = levelStr.startsWith('en-');
     const levelNum = isEnglish ? 1 : parseInt(levelStr.replace('hsk', '')) || 1;

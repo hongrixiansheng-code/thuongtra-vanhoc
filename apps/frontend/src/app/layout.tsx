@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { Navigation } from "@/components/legacy/Navigation";
 import { Providers } from "@/components/Providers";
+import { Suspense } from "react";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -28,8 +29,10 @@ export default function RootLayout({
         className={`${inter.className} antialiased min-h-screen bg-gray-50`}
       >
         <Providers>
-          <Navigation />
-          <main className="pt-16 pb-16 md:pb-0">
+          <Suspense fallback={<div>Loading Navigation...</div>}>
+            <Navigation />
+          </Suspense>
+          <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 pb-24 md:pb-6 relative">
             {children}
           </main>
         </Providers>

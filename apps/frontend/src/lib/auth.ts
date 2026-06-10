@@ -8,12 +8,7 @@ import { NextAuthOptions } from "next-auth";
 import path from "path";
 
 // Initialize Prisma
-const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-const prisma = new PrismaClient({
-  datasources: {
-    db: { url: `file:${dbPath}` }
-  }
-});
+const prisma = new PrismaClient();
 
 export const authOptions: NextAuthOptions = {
   adapter: PrismaAdapter(prisma),

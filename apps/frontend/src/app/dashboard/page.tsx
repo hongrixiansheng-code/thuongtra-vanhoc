@@ -13,14 +13,8 @@ async function getLessonsData(levelStr: string) {
     const { PrismaClient } = require('database');
     const path = require('path');
     // Sửa lại cho đúng vị trí dev.db nằm trong thư mục prisma
-    const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-    const prisma = new PrismaClient({
-      datasources: {
-        db: {
-          url: `file:${dbPath}`
-        }
-      }
-    });
+    
+    const prisma = new PrismaClient();
     
     // Fetch the Program that has lessons
     const program = await prisma.program.findFirst({

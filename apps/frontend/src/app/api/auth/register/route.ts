@@ -3,12 +3,8 @@ import { PrismaClient } from "database";
 import bcrypt from "bcryptjs";
 import path from "path";
 
-const dbPath = path.join(process.cwd(), '../../packages/database/prisma/dev.db');
-const prisma = new PrismaClient({
-  datasources: {
-    db: { url: `file:${dbPath}` }
-  }
-});
+
+const prisma = new PrismaClient();
 
 export async function POST(req: Request) {
   try {
