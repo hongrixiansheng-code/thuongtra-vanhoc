@@ -36,11 +36,3 @@ export function getPrimaryMeaning(meaning: string): string {
   return meaning.split(/[,\/]/)[0].trim();
 }
 
-/**
- * Gets the primary meaning of a word for display purposes.
- * Always returns the first meaning before any comma.
- */
-export function getPrimaryMeaning(meaning: string): string {
-  if (!meaning) return "";
-  return meaning.split(',')[0].trim();
-}
