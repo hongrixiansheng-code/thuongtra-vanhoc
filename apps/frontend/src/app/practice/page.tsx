@@ -10,7 +10,7 @@ export default async function PracticePage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      <QuizTab key={level} vocabData={vocabData} />
+      <QuizTab key={level} vocabData={vocabData} levelId={level} />
     </div>
   );
 }

@@ -2,25 +2,45 @@ import { PrismaClient } from 'database';
 
 const prisma = new PrismaClient();
 
-const PROGRAM_MAPPING: Record<string, string> = {
-  'hsk1': 'HSK 1 - Cấp độ Cơ bản',
-  'hsk2': 'HSK 2 - Cấp độ Sơ cấp',
-  'en-starters': 'Starters'
-};
+// =====================================================
+// Lấy chương trình theo code (không cần hardcode mapping)
+// =====================================================
+async function getProgramByCode(code: string) {
+  return prisma.program.findUnique({ where: { code } });
+}
 
-export async function getAllVocabData(levelStr: string) {
+// =====================================================
+// Lấy tất cả Subject + Program để Navigation đọc động
+// =====================================================
+export async function getAllSubjectsWithPrograms() {
   try {
-    const programName = PROGRAM_MAPPING[levelStr];
-    if (!programName) return [];
+    return await prisma.subject.findMany({
+      include: {
+        programs: {
+          where: { isAvailable: true },
+          orderBy: { level: 'asc' }
+        }
+      },
+      orderBy: { name: 'asc' }
+    });
+  } catch (e) {
+    console.warn('DB fetch failed:', e);
+    return [];
+  }
+}
+
+// =====================================================
+// Từ vựng
+// =====================================================
+export async function getAllVocabData(programCode: string) {
+  try {
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
 
     const contents = await prisma.lessonContent.findMany({
       where: {
         contentType: 'THEORY',
-        lesson: {
-          program: {
-            name: programName
-          }
-        }
+        lesson: { programId: program.id }
       }
     });
 
@@ -29,39 +49,32 @@ export async function getAllVocabData(levelStr: string) {
       try {
         const w = JSON.parse(c.content);
         const key = w.hanzi || w.word;
-        if (key && !uniqueVocabMap.has(key)) {
-          uniqueVocabMap.set(key, w);
-        }
-      } catch (e) {
-        // ignore JSON parse error
-      }
+        if (key && !uniqueVocabMap.has(key)) uniqueVocabMap.set(key, w);
+      } catch {}
     });
 
-    const uniqueVocab = Array.from(uniqueVocabMap.values());
-
-    return uniqueVocab.map((w: any, index: number) => ({
+    return Array.from(uniqueVocabMap.values()).map((w: any, i: number) => ({
       ...w,
-      _uuid: w.id ? w.id.toString() : `vocab-${index}`
+      _uuid: w.id ? w.id.toString() : `vocab-${i}`
     }));
   } catch (e) {
-    console.warn("DB fetch failed! Error details:", e);
+    console.warn('DB fetch failed:', e);
     return [];
   }
 }
 
-export async function getAllGrammarData(levelStr: string) {
+// =====================================================
+// Ngữ pháp
+// =====================================================
+export async function getAllGrammarData(programCode: string) {
   try {
-    const programName = PROGRAM_MAPPING[levelStr];
-    if (!programName) return [];
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
 
     const contents = await prisma.lessonContent.findMany({
       where: {
         contentType: 'GRAMMAR',
-        lesson: {
-          program: {
-            name: programName
-          }
-        }
+        lesson: { programId: program.id }
       }
     });
 
@@ -69,86 +82,73 @@ export async function getAllGrammarData(levelStr: string) {
     contents.forEach((c) => {
       try {
         const g = JSON.parse(c.content);
-        if (g.id && !uniqueMap.has(g.id)) {
-          uniqueMap.set(g.id, g);
-        }
-      } catch (e) {
-        // ignore
-      }
+        if (g.id && !uniqueMap.has(g.id)) uniqueMap.set(g.id, g);
+      } catch {}
     });
 
     return Array.from(uniqueMap.values());
   } catch (e) {
-    console.warn("DB fetch failed! Error details:", e);
+    console.warn('DB fetch failed:', e);
     return [];
   }
 }
 
-export async function getLessonsData(levelStr: string) {
+// =====================================================
+// Bài học (dùng theme lưu trong DB, không hardcode)
+// =====================================================
+export async function getLessonsData(programCode: string) {
   try {
-    const programName = PROGRAM_MAPPING[levelStr];
-    if (!programName) return null;
-
-    const program = await prisma.program.findFirst({
-      where: {
-        name: programName,
-        lessons: { some: {} }
-      },
+    const program = await prisma.program.findUnique({
+      where: { code: programCode },
       include: {
         lessons: {
-          include: {
-            contents: true
-          },
-          orderBy: {
-            orderIndex: 'asc'
-          }
+          where: { orderIndex: { not: 9999 } }, // bỏ bài kho từ vựng
+          include: { contents: true },
+          orderBy: { orderIndex: 'asc' }
         }
       }
     });
 
-    if (program && program.lessons.length > 0) {
-      // Lọc bỏ bài học "Từ điển" ảo (orderIndex=9999) - chỉ dùng để chứa từ vựng còn thiếu
-      const mappedLessons = program.lessons.filter((l: any) => l.orderIndex !== 9999).map((l: any) => ({
-        id: l.id,
-        title: l.title,
-        theme: l.title.includes("Mở Đầu") ? "CHUYÊN ĐỀ MỞ ĐẦU: NGỮ ÂM" : 
-               (l.title.includes("Bài 1:") || l.title.includes("Bài 2:") || l.title.includes("Bài 3:")) ? "CHỦ ĐỀ I: CHÀO HỎI & LÀM QUEN" : 
-               (l.title.includes("Bài 4:") || l.title.includes("Bài 5:") || l.title.includes("Bài 6:")) ? "CHỦ ĐỀ II: THỜI GIAN & ĐỜI SỐNG" :
-               (l.title.includes("Bài 7:") || l.title.includes("Bài 8:") || l.title.includes("Bài 9:")) ? "CHỦ ĐỀ III: MUA SẮM & GIAO DỊCH" :
-               (l.title.includes("Bài 10:") || l.title.includes("Bài 11:") || l.title.includes("Bài 12:")) ? "CHỦ ĐỀ IV: GIAO THÔNG & PHƯƠNG HƯỚNG" :
-               "CHỦ ĐỀ V: HOẠT ĐỘNG KHÁC",
-        description: "",
-        vocab: l.contents.filter((c: any) => c.contentType === "THEORY").map((c: any) => {
-           try { return JSON.parse(c.content); } catch { return null; }
-        }).filter(Boolean),
-        grammar: l.contents.filter((c: any) => c.contentType === "GRAMMAR").map((c: any) => {
-           try { return JSON.parse(c.content); } catch { return null; }
-        }).filter(Boolean),
-        dialogues: l.contents.filter((c: any) => c.contentType === "DIALOGUE").map((c: any) => {
-           try { return JSON.parse(c.content); } catch { return null; }
-        }).filter(Boolean)
-      }));
-      return { programName: program.name, lessons: mappedLessons };
-    }
+    if (!program || program.lessons.length === 0) return null;
+
+    const mappedLessons = program.lessons.map((l: any) => ({
+      id: l.id,
+      title: l.title,
+      theme: l.theme || 'Bài học', // dùng theme từ DB, fallback nếu chưa có
+      description: '',
+      vocab: l.contents
+        .filter((c: any) => c.contentType === 'THEORY')
+        .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+        .filter(Boolean),
+      grammar: l.contents
+        .filter((c: any) => c.contentType === 'GRAMMAR')
+        .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+        .filter(Boolean),
+      dialogues: l.contents
+        .filter((c: any) => c.contentType === 'DIALOGUE')
+        .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+        .filter(Boolean)
+    }));
+
+    return { programName: program.name, programCode: program.code, lessons: mappedLessons };
   } catch (e) {
-    console.warn("DB fetch failed! Error details:", e);
+    console.warn('DB fetch failed:', e);
+    return null;
   }
-  return null;
 }
 
-export async function getAllPassagesData(levelStr: string) {
+// =====================================================
+// Hội thoại / Đoạn văn
+// =====================================================
+export async function getAllPassagesData(programCode: string) {
   try {
-    const programName = PROGRAM_MAPPING[levelStr];
-    if (!programName) return [];
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
 
     const contents = await prisma.lessonContent.findMany({
       where: {
         contentType: 'DIALOGUE',
-        lesson: {
-          program: {
-            name: programName
-          }
-        }
+        lesson: { programId: program.id }
       }
     });
 
@@ -156,17 +156,13 @@ export async function getAllPassagesData(levelStr: string) {
     contents.forEach((c) => {
       try {
         const p = JSON.parse(c.content);
-        if (p.id && !uniqueMap.has(p.id)) {
-          uniqueMap.set(p.id, p);
-        }
-      } catch (e) {
-        // ignore
-      }
+        if (p.id && !uniqueMap.has(p.id)) uniqueMap.set(p.id, p);
+      } catch {}
     });
 
     return Array.from(uniqueMap.values());
   } catch (e) {
-    console.warn("DB fetch failed! Error details:", e);
+    console.warn('DB fetch failed:', e);
     return [];
   }
 }

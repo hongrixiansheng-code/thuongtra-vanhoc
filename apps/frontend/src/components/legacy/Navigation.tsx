@@ -1,26 +1,34 @@
 "use client";
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useSession, signOut } from 'next-auth/react';
 
-const LEVELS = [
-    { id: 'hsk1', label: 'HSK 1', available: true, color: 'bg-green-500' },
-    { id: 'hsk2', label: 'HSK 2', available: true, color: 'bg-blue-500' },
-    { id: 'hsk3', label: 'HSK 3', available: false },
-    { id: 'hsk4', label: 'HSK 4', available: false },
-    { id: 'hsk5', label: 'HSK 5', available: false },
-    { id: 'hsk6', label: 'HSK 6', available: false },
+// Fallback tĩnh khi API chưa load xong
+const FALLBACK_SUBJECTS = [
+    {
+        id: 'zh', code: 'zh', name: 'Tiếng Trung', flag: '🇨🇳', color: 'bg-red-500',
+        programs: [
+            { id: 'hsk1', code: 'hsk1', name: 'HSK 1 - Cấp độ Cơ bản', level: 1, isAvailable: true },
+            { id: 'hsk2', code: 'hsk2', name: 'HSK 2 - Cấp độ Sơ cấp', level: 2, isAvailable: true },
+        ]
+    },
+    {
+        id: 'en', code: 'en', name: 'Tiếng Anh', flag: '🇬🇧', color: 'bg-blue-500',
+        programs: [
+            { id: 'en-starters', code: 'en-starters', name: 'Starters', level: 1, isAvailable: true },
+        ]
+    },
 ];
 
-const ENGLISH_LEVELS = [
-    { id: 'en-starters', label: 'Starters', available: true, color: 'bg-blue-500' },
-    { id: 'en-movers', label: 'Movers', available: false },
-    { id: 'en-flyers', label: 'Flyers', available: false },
-    { id: 'en-ket', label: 'KET', available: false },
-    { id: 'en-pet', label: 'PET', available: false },
-];
+// Rút gọn tên chương trình cho nút dropdown
+function shortLabel(name: string, code: string): string {
+    if (code.startsWith('hsk')) return code.toUpperCase().replace('HSK', 'HSK ');
+    if (name === 'Starters') return 'Starters';
+    // Môn khác: lấy phần sau dấu " - " hoặc tên nguyên
+    return name.split(' - ')[0];
+}
 
 export function Navigation() {
     const pathname = usePathname();
@@ -30,11 +38,25 @@ export function Navigation() {
 
     const [openMenu, setOpenMenu] = useState<string | null>(null);
     const [currentLevel, setCurrentLevel] = useState(levelParam);
-    const [currentLanguage, setCurrentLanguage] = useState(levelParam.startsWith('en') ? 'en' : 'zh');
     const [showMore, setShowMore] = useState(false);
+    const [subjects, setSubjects] = useState<any[]>(FALLBACK_SUBJECTS);
     const { data: session } = useSession();
 
-    // Map Next.js routes to legacy tab IDs
+    // Tự động detect subject hiện tại từ level code
+    const currentSubject = subjects.find(s => s.programs.some((p: any) => p.code === currentLevel));
+    const currentProgram = currentSubject?.programs.find((p: any) => p.code === currentLevel);
+
+    // Load danh sách chương trình động từ API
+    useEffect(() => {
+        fetch('/api/subjects')
+            .then(r => r.json())
+            .then(data => {
+                if (Array.isArray(data) && data.length > 0) setSubjects(data);
+            })
+            .catch(() => {}); // giữ fallback nếu lỗi
+    }, []);
+
+    // Map routes → activeTab
     let activeTab = 'curriculum';
     if (pathname?.includes('/lessons')) activeTab = 'vocab';
     if (pathname?.includes('/games')) activeTab = 'flashcard';
@@ -43,9 +65,8 @@ export function Navigation() {
     if (pathname?.includes('/writing')) activeTab = 'writing-test';
     if (pathname?.includes('/reading')) activeTab = 'reading-test';
     if (pathname?.includes('/mock-test')) activeTab = 'mock-test';
-    if (pathname?.includes('/premium-tools')) activeTab = 'settings';
-    if (pathname?.includes('/progress')) activeTab = 'progress';
-    if (pathname?.includes('/settings')) activeTab = 'settings';
+    if (pathname?.includes('/vocab')) activeTab = 'vocab';
+    if (pathname?.includes('/grammar')) activeTab = 'grammar';
 
     const mainTabs = [
         { id: 'curriculum', icon: 'fa-house', label: 'Trang chủ', route: '/dashboard' },
@@ -61,10 +82,17 @@ export function Navigation() {
         { id: 'writing-test', icon: 'fa-pencil-square', label: 'Thi Viết', color: 'text-pink-600', route: '/writing' },
         { id: 'speaking-test', icon: 'fa-headphones', label: 'Luyện Nghe', color: 'text-orange-500', route: '/listening' },
         { id: 'mock-test', icon: 'fa-graduation-cap', label: 'Thi Thử', color: 'text-yellow-600', route: '/mock-test' },
-        { id: 'settings', icon: 'fa-gear', label: 'Cài đặt', color: 'text-gray-600', route: '/dashboard' },
     ];
 
     const isMoreActive = moreTabs.some(t => t.id === activeTab);
+
+    const handleSelectProgram = (programCode: string) => {
+        setCurrentLevel(programCode);
+        setOpenMenu(null);
+        router.push(`${pathname}?level=${programCode}`);
+    };
+
+    const btnColor = currentSubject?.color || 'bg-indigo-500';
 
     return (
         <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
@@ -77,77 +105,48 @@ export function Navigation() {
                     <span className="font-bold text-gray-800 hidden sm:block">HSK Learner</span>
                 </div>
 
-                {/* Dropdown Giáo trình */}
+                {/* Dropdown chọn chương trình — ĐỌC ĐỘNG TỪ DB */}
                 <div className="relative shrink-0" id="curriculum-dropdown">
                     <button
                         onClick={() => setOpenMenu(openMenu === 'curriculum' ? null : 'curriculum')}
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-bold border-2 transition-all
-                            ${currentLanguage === 'zh'
-                                ? (LEVELS.find(l => l.id === currentLevel)?.color || 'bg-indigo-500') + ' text-white border-transparent'
-                                : (ENGLISH_LEVELS.find(l => l.id === currentLevel)?.color || 'bg-emerald-500') + ' text-white border-transparent'
-                            }`}>
-                        <span>{currentLanguage === 'zh' ? '🇨🇳' : '🇬🇧'}</span>
-                        <span>
-                            {currentLanguage === 'zh'
-                                ? LEVELS.find(l => l.id === currentLevel)?.label
-                                : ENGLISH_LEVELS.find(l => l.id === currentLevel)?.label}
-                        </span>
+                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-bold border-2 transition-all ${btnColor} text-white border-transparent`}>
+                        <span>{currentSubject?.flag || '🌐'}</span>
+                        <span>{shortLabel(currentProgram?.name || currentLevel, currentLevel)}</span>
                         <i className="fa-solid fa-chevron-down text-xs"></i>
                     </button>
 
                     {openMenu === 'curriculum' && (
-                        <div className="absolute top-11 left-0 bg-white border border-gray-200 rounded-2xl shadow-xl z-50 w-[300px] overflow-hidden animate-fade-in">
+                        <div className="absolute top-11 left-0 bg-white border border-gray-200 rounded-2xl shadow-xl z-50 min-w-[280px] max-w-[400px] overflow-hidden animate-fade-in">
                             <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
                                 <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Chọn giáo trình</p>
                             </div>
-                            <div className="grid grid-cols-2 divide-x divide-gray-100">
-                                {/* Tiếng Trung */}
-                                <div>
-                                    <div className="flex items-center gap-2 px-3 py-2 bg-red-50 border-b border-gray-100">
-                                        <span className="text-base">🇨🇳</span>
-                                        <span className="text-xs font-bold text-red-600 uppercase tracking-wide">Tiếng Trung</span>
+                            <div className={`grid divide-x divide-gray-100`}
+                                style={{ gridTemplateColumns: `repeat(${subjects.length}, 1fr)` }}>
+                                {subjects.map(subject => (
+                                    <div key={subject.id || subject.code}>
+                                        <div className="flex items-center gap-2 px-3 py-2 border-b border-gray-100 bg-gray-50">
+                                            <span className="text-base">{subject.flag || '📚'}</span>
+                                            <span className="text-xs font-bold text-gray-600 uppercase tracking-wide">{subject.name}</span>
+                                        </div>
+                                        {subject.programs.map((prog: any) => (
+                                            <button key={prog.id || prog.code}
+                                                disabled={!prog.isAvailable}
+                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
+                                                    ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-gray-50 cursor-pointer'}
+                                                    ${currentLevel === prog.code ? 'bg-indigo-50 font-bold text-indigo-600' : 'text-gray-700'}`}>
+                                                <span>{shortLabel(prog.name, prog.code)}</span>
+                                                <span>
+                                                    {!prog.isAvailable
+                                                        ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
+                                                        : currentLevel === prog.code
+                                                            ? <i className="fa-solid fa-check text-xs text-indigo-500"></i>
+                                                            : null}
+                                                </span>
+                                            </button>
+                                        ))}
                                     </div>
-                                    {LEVELS.map(lv => (
-                                        <button key={lv.id} disabled={!lv.available}
-                                            onClick={() => {
-                                                if (!lv.available) return;
-                                                setCurrentLanguage('zh'); setCurrentLevel(lv.id); setOpenMenu(null);
-                                                router.push(`${pathname}?level=${lv.id}`);
-                                            }}
-                                            className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
-                                                ${!lv.available ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-gray-50 cursor-pointer'}
-                                                ${currentLanguage === 'zh' && currentLevel === lv.id ? 'bg-indigo-50 font-bold text-indigo-600' : 'text-gray-700'}`}>
-                                            <span>{lv.label}</span>
-                                            <span>
-                                                {!lv.available ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
-                                                    : currentLanguage === 'zh' && currentLevel === lv.id ? <i className="fa-solid fa-check text-xs text-indigo-500"></i> : null}
-                                            </span>
-                                        </button>
-                                    ))}
-                                </div>
-                                {/* Tiếng Anh */}
-                                <div>
-                                    <div className="flex items-center gap-2 px-3 py-2 bg-blue-50 border-b border-gray-100">
-                                        <span className="text-base">🇬🇧</span>
-                                        <span className="text-xs font-bold text-blue-600 uppercase tracking-wide">Tiếng Anh</span>
-                                    </div>
-                                    {ENGLISH_LEVELS.map(lv => (
-                                        <button key={lv.id} disabled={!lv.available}
-                                            onClick={() => {
-                                                if (!lv.available) return;
-                                                setCurrentLanguage('en'); setCurrentLevel(lv.id); setOpenMenu(null);
-                                            }}
-                                            className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
-                                                ${!lv.available ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-gray-50 cursor-pointer'}
-                                                ${currentLanguage === 'en' && currentLevel === lv.id ? 'bg-indigo-50 font-bold text-indigo-600' : 'text-gray-700'}`}>
-                                            <span>{lv.label}</span>
-                                            <span>
-                                                {!lv.available ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
-                                                    : currentLanguage === 'en' && currentLevel === lv.id ? <i className="fa-solid fa-check text-xs text-indigo-500"></i> : null}
-                                            </span>
-                                        </button>
-                                    ))}
-                                </div>
+                                ))}
                             </div>
                         </div>
                     )}
@@ -214,26 +213,29 @@ export function Navigation() {
                     </div>
                 </nav>
 
-                {/* Right Icons */}
+                {/* Right: user menu */}
                 <div className="flex items-center gap-3 shrink-0 ml-auto relative">
                     {session ? (
                         <>
-                            <button onClick={() => setOpenMenu(openMenu === 'user' ? null : 'user')} className="w-9 h-9 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">
-                                {(session.user?.name || session.user?.email || "U")[0].toUpperCase()}
+                            <button onClick={() => setOpenMenu(openMenu === 'user' ? null : 'user')}
+                                className="w-9 h-9 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">
+                                {(session.user?.name || session.user?.email || 'U')[0].toUpperCase()}
                             </button>
                             {openMenu === 'user' && (
                                 <div className="absolute top-11 right-0 bg-white border border-gray-200 rounded-xl shadow-lg z-50 min-w-[200px] overflow-hidden animate-fade-in">
                                     <div className="px-4 py-3 border-b border-gray-100">
-                                        <p className="text-sm font-bold text-gray-800 truncate">{session.user?.name || "Người dùng"}</p>
+                                        <p className="text-sm font-bold text-gray-800 truncate">{session.user?.name || 'Người dùng'}</p>
                                         <p className="text-xs text-gray-500 truncate">{session.user?.email}</p>
                                     </div>
                                     <div className="p-1">
                                         {(session.user as any)?.role === 'ADMIN' && (
-                                            <Link href="/admin" onClick={() => setOpenMenu(null)} className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-indigo-600 font-medium hover:bg-gray-50 rounded-lg">
+                                            <Link href="/admin" onClick={() => setOpenMenu(null)}
+                                                className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-indigo-600 font-medium hover:bg-gray-50 rounded-lg">
                                                 <i className="fa-solid fa-shield-halved w-4"></i> Quản trị viên
                                             </Link>
                                         )}
-                                        <button onClick={() => { setOpenMenu(null); signOut(); }} className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-rose-600 hover:bg-rose-50 rounded-lg font-medium">
+                                        <button onClick={() => { setOpenMenu(null); signOut(); }}
+                                            className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-rose-600 hover:bg-rose-50 rounded-lg font-medium">
                                             <i className="fa-solid fa-right-from-bracket w-4"></i> Đăng xuất
                                         </button>
                                     </div>

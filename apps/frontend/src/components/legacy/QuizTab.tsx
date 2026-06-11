@@ -439,17 +439,17 @@ export function QuizTab({ vocabData, levelId = 'hsk1' }: { vocabData: any[], lev
     // Load score from localStorage when mount
     useEffect(() => {
         try {
-            setScore(parseInt(localStorage.getItem('hsk1_quiz_score') || '0'));
-            setTotal(parseInt(localStorage.getItem('hsk1_quiz_total') || '0'));
+            setScore(parseInt(localStorage.getItem(`${levelId}_quiz_score`) || '0'));
+            setTotal(parseInt(localStorage.getItem(`${levelId}_quiz_total`) || '0'));
         } catch {}
-    }, []);
+    }, [levelId]);
 
     useEffect(() => {
         try {
-            localStorage.setItem('hsk1_quiz_score', score.toString());
-            localStorage.setItem('hsk1_quiz_total', total.toString());
+            localStorage.setItem(`${levelId}_quiz_score`, score.toString());
+            localStorage.setItem(`${levelId}_quiz_total`, total.toString());
         } catch {}
-    }, [score, total]);
+    }, [score, total, levelId]);
 
     const generateFreeQuestion = useCallback(() => {
         if (!vocabData || vocabData.length === 0) return;

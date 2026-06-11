@@ -63,18 +63,22 @@ model VerificationToken {
 model Subject {
   id        String    @id @default(uuid())
   name      String    // e.g., "Tiếng Anh", "Tiếng Trung"
-  code      String    @unique
+  code      String    @unique // e.g., "zh", "en", "ja", "math"
+  flag      String?   // e.g., "🇨🇳", "🇬🇧", "🇯🇵"
+  color     String?   // e.g., "bg-red-500"
   createdAt DateTime  @default(now())
 
   programs  Program[]
 }
 
 model Program {
-  id        String    @id @default(uuid())
-  subjectId String
-  name      String    // e.g., "HSK1"
-  level     Int
-  createdAt DateTime  @default(now())
+  id          String    @id @default(uuid())
+  subjectId   String
+  name        String    // e.g., "HSK 1 - Cấp độ Cơ bản"
+  code        String    @unique // e.g., "hsk1", "en-starters", "n3"
+  level       Int
+  isAvailable Boolean   @default(true)
+  createdAt   DateTime  @default(now())
 
   subject   Subject   @relation(fields: [subjectId], references: [id])
   lessons   Lesson[]
@@ -84,6 +88,7 @@ model Lesson {
   id          String    @id @default(uuid())
   programId   String
   title       String
+  theme       String?   // e.g., "CHỦ ĐỀ I: CHÀO HỎI & LÀM QUEN"
   orderIndex  Int
   isPremium   Boolean   @default(false)
   createdAt   DateTime  @default(now())
