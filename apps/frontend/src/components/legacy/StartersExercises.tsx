@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useCallback, useEffect, useRef } from 'react';
+import { SpeechEngine } from '@/lib/speech-engine';
 
 // ==================== HELPERS ====================
 const shuffle = <T,>(arr: T[]): T[] => {
@@ -540,10 +541,71 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
     );
 }
 
-// ==================== READING — Đọc và chọn đúng/sai ====================
-function ReadingPart({ vocab }: { vocab: any[] }) {
+// ==================== HELPER FOR ENGLISH READING EVALUATION ====================
+const cleanWord = (w: string) => w.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()?]/g, "").trim().toLowerCase();
+
+const isWordClose = (w1: string, w2: string): boolean => {
+    if (w1 === w2) return true;
+    if (!w1 || !w2) return false;
+    if (w1 + 's' === w2 || w2 + 's' === w1) return true;
+    if (w1 + 'es' === w2 || w2 + 'es' === w1) return true;
+    if (Math.abs(w1.length - w2.length) <= 1) {
+        let diffs = 0;
+        let i = 0, j = 0;
+        while (i < w1.length && j < w2.length) {
+            if (w1[i] !== w2[j]) {
+                diffs++;
+                if (w1.length > w2.length) i++;
+                else if (w2.length > w1.length) j++;
+                else { i++; j++; }
+            } else {
+                i++;
+                j++;
+            }
+        }
+        diffs += (w1.length - i) + (w2.length - j);
+        if (diffs <= 1) return true;
+    }
+    return false;
+};
+
+interface WordAlignment {
+    word: string;
+    correct: boolean;
+}
+
+const alignEnglishWords = (target: string, heard: string): WordAlignment[] => {
+    const targetWords = target.split(/\s+/).filter(Boolean);
+    const heardWords = heard.split(/\s+/).filter(Boolean).map(cleanWord);
+    
+    let heardIdx = 0;
+    return targetWords.map(tWord => {
+        const cleanedT = cleanWord(tWord);
+        if (!cleanedT) return { word: tWord, correct: true };
+        
+        let found = false;
+        for (let j = heardIdx; j < Math.min(heardIdx + 3, heardWords.length); j++) {
+            if (isWordClose(heardWords[j], cleanedT)) {
+                heardIdx = j + 1;
+                found = true;
+                break;
+            }
+        }
+        if (!found) {
+            const idx = heardWords.indexOf(cleanedT, heardIdx);
+            if (idx !== -1 && idx >= heardIdx) {
+                heardIdx = idx + 1;
+                found = true;
+            }
+        }
+        return { word: tWord, correct: found };
+    });
+};
+
+// ==================== MOCK READING — Đọc và chọn đúng/sai (Không dùng mic) ====================
+function MockReadingPart({ vocab, onDone }: { vocab: any[], onDone?: (score: number, total: number) => void }) {
     const [pool] = useState(() => {
-        const words = shuffle(vocab.filter(v => v.word && v.meaning && v.example_en)).slice(0, 12);
+        const words = shuffle(vocab.filter(v => v.word && v.meaning && v.example_en)).slice(0, 10);
         return words.map(w => {
             const isTrue = Math.random() > 0.5;
             const question = isTrue ? w.meaning : (words.find(x => x.word !== w.word)?.meaning || w.meaning + '?');
@@ -569,15 +631,21 @@ function ReadingPart({ vocab }: { vocab: any[] }) {
         }, 1500);
     };
 
+    useEffect(() => {
+        if (done) {
+            onDone?.(score.correct, score.total);
+        }
+    }, [done, score.correct, score.total, onDone]);
+
     if (pool.length === 0) return <div className="text-center text-gray-400 py-16">Chưa có dữ liệu.</div>;
 
     if (done) return (
         <div className="text-center py-16 animate-fade-in">
             <div className="text-6xl mb-4">📖</div>
-            <div className="text-4xl font-bold text-blue-600 mb-2">{score.correct}/{score.total}</div>
-            <p className="text-gray-500 mb-6">Điểm số bài Luyện Đọc</p>
+            <div className="text-4xl font-bold text-emerald-600 mb-2">{score.correct}/{score.total}</div>
+            <p className="text-gray-500 mb-6">Điểm số phần Đọc</p>
             <button onClick={() => { setIdx(0); setSelected(null); setScore({ correct: 0, total: 0 }); setDone(false); }}
-                className="px-8 py-3 bg-blue-600 text-white rounded-xl font-bold hover:bg-blue-700 transition-colors">Làm lại</button>
+                className="px-8 py-3 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 transition-colors">Làm lại</button>
         </div>
     );
 
@@ -586,19 +654,19 @@ function ReadingPart({ vocab }: { vocab: any[] }) {
             <div className="mb-6">
                 <div className="flex justify-between text-sm text-gray-500 mb-2">
                     <span>Câu {idx + 1}/{pool.length}</span>
-                    <span className="font-bold text-blue-600">{score.correct} đúng</span>
+                    <span className="font-bold text-emerald-600">{score.correct} đúng</span>
                 </div>
                 <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                    <div className="h-full bg-blue-500 transition-all" style={{ width: `${((idx + 1) / pool.length) * 100}%` }} />
+                    <div className="h-full bg-emerald-500 transition-all" style={{ width: `${((idx + 1) / pool.length) * 100}%` }} />
                 </div>
             </div>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
                 <p className="text-xs text-gray-400 uppercase tracking-wider mb-4 font-medium">Đọc câu — Nghĩa tiếng Việt Đúng hay Sai?</p>
-                <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-4">
+                <div className="bg-emerald-50 border border-emerald-100 rounded-xl p-4 mb-4">
                     <p className="text-base font-semibold text-gray-800 leading-relaxed">{current.sentence}</p>
                 </div>
                 <div className="bg-yellow-50 border border-yellow-200 rounded-xl p-3">
-                    <p className="text-xs text-gray-400 mb-1">Nghĩa của <strong className="text-blue-600">"{current.word}"</strong> là:</p>
+                    <p className="text-xs text-gray-400 mb-1">Nghĩa của <strong className="text-emerald-600">"{current.word}"</strong> là:</p>
                     <p className="text-sm font-bold text-gray-800">"{current.question}"</p>
                 </div>
             </div>
@@ -628,8 +696,352 @@ function ReadingPart({ vocab }: { vocab: any[] }) {
     );
 }
 
+// ==================== READING — Đọc và AI chấm điểm phát âm ====================
+function ReadingPart({ vocab }: { vocab: any[] }) {
+    const [subMode, setSubMode] = useState<'vocab' | 'sentence' | null>(null);
+    const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
+    const [selectedVoice, setSelectedVoice] = useState<SpeechSynthesisVoice | null>(null);
+    const [speed, setSpeed] = useState(0.85);
+
+    const [pool, setPool] = useState<any[]>([]);
+    const [idx, setIdx] = useState(0);
+
+    const [speechState, setSpeechState] = useState<'idle' | 'listening' | 'evaluating' | 'done' | 'error'>('idle');
+    const [score, setScore] = useState<number | null>(null);
+    const [heard, setHeard] = useState('');
+    const [alignment, setAlignment] = useState<WordAlignment[]>([]);
+    const recognitionRef = useRef<any>(null);
+
+    useEffect(() => {
+        if (typeof window === 'undefined') return;
+        const load = () => {
+            const list = window.speechSynthesis.getVoices().filter(v => v.lang.startsWith('en'));
+            setAvailableVoices(list);
+            const defaultVoice = list.find(v => v.name.includes('Google') || v.name.includes('Natural')) || list[0] || null;
+            setSelectedVoice(defaultVoice);
+        };
+        load();
+        window.speechSynthesis.onvoiceschanged = load;
+    }, []);
+
+    const startSubMode = (mode: 'vocab' | 'sentence') => {
+        let items = [];
+        if (mode === 'vocab') {
+            items = shuffle(vocab.filter(v => v.word && v.ipa && v.meaning)).slice(0, 10);
+        } else {
+            items = shuffle(vocab.filter(v => v.example_en && v.example_vi)).slice(0, 10);
+        }
+        setPool(items);
+        setIdx(0);
+        setSubMode(mode);
+        resetSpeech();
+    };
+
+    const resetSpeech = () => {
+        setSpeechState('idle');
+        setScore(null);
+        setHeard('');
+        setAlignment([]);
+        if (recognitionRef.current) {
+            try { recognitionRef.current.stop(); } catch (e) {}
+        }
+    };
+
+    useEffect(() => {
+        resetSpeech();
+    }, [idx, subMode]);
+
+    const current = pool[idx];
+
+    const handleListen = () => {
+        if (!current) return;
+        window.speechSynthesis.cancel();
+        const textToSpeak = subMode === 'vocab' ? current.word : current.example_en;
+        speakEnglish(textToSpeak, selectedVoice, speed);
+    };
+
+    const handleSpeak = () => {
+        if (!SpeechEngine.isSupported()) {
+            setSpeechState('error');
+            setHeard('Trình duyệt không hỗ trợ nhận dạng giọng nói. Hãy dùng Chrome hoặc Edge.');
+            return;
+        }
+
+        if (speechState === 'listening') {
+            try { recognitionRef.current?.stop(); } catch (e) {}
+            setSpeechState('idle');
+            return;
+        }
+
+        setSpeechState('listening');
+        setScore(null);
+        setHeard('');
+        setAlignment([]);
+
+        window.speechSynthesis.cancel();
+
+        const target = subMode === 'vocab' ? current.word : current.example_en;
+        recognitionRef.current = SpeechEngine.listen({
+            lang: 'en-US',
+            onStart: () => {
+                setSpeechState('listening');
+            },
+            onResult: ({ transcript }) => {
+                setSpeechState('evaluating');
+                setTimeout(() => {
+                    const align = alignEnglishWords(target, transcript);
+                    const correctCount = align.filter(w => w.correct).length;
+                    const calculatedScore = Math.round((correctCount / align.length) * 100);
+                    
+                    setHeard(transcript);
+                    setAlignment(align);
+                    setScore(calculatedScore);
+                    setSpeechState('done');
+                    playTone(calculatedScore >= 80 ? 'success' : 'error');
+                }, 400);
+            },
+            onError: (msg) => {
+                setSpeechState('error');
+                setHeard(msg);
+            }
+        });
+    };
+
+    if (subMode === null) {
+        return (
+            <div className="max-w-lg mx-auto animate-fade-in">
+                {availableVoices.length > 0 && (
+                    <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 mb-4">
+                        <label className="flex items-center gap-2 text-sm font-bold text-gray-700 mb-3">
+                            <i className="fa-solid fa-microphone text-emerald-500"></i> Chọn Giọng Đọc AI (Mẫu):
+                        </label>
+                        <select value={selectedVoice?.name || ''} onChange={e => {
+                            const v = availableVoices.find(v => v.name === e.target.value);
+                            setSelectedVoice(v || null);
+                        }} className="w-full border border-gray-200 rounded-xl px-4 py-2.5 text-sm text-gray-700 focus:outline-none focus:border-emerald-400">
+                            {availableVoices.map(v => (
+                                <option key={v.name} value={v.name}>{v.name}</option>
+                            ))}
+                        </select>
+                        <button onClick={() => selectedVoice && speakEnglish(subMode === 'vocab' ? 'banana' : 'The monkey likes bananas.', selectedVoice, speed)}
+                            className="mt-3 flex items-center gap-2 text-sm text-emerald-600 hover:text-emerald-700 font-medium">
+                            <i className="fa-solid fa-play text-xs"></i> Nghe thử giọng này
+                        </button>
+                    </div>
+                )}
+
+                <div className="bg-white rounded-2xl border border-gray-100 shadow-sm p-5 mb-6">
+                    <label className="flex items-center gap-2 text-sm font-bold text-gray-700 mb-3">
+                        <i className="fa-solid fa-gauge text-emerald-500"></i> Tốc độ đọc mẫu (Speed):
+                    </label>
+                    <div className="flex gap-2">
+                        {[
+                            { label: '🐢 Rất chậm', val: 0.55 },
+                            { label: '🚶 Chậm', val: 0.7 },
+                            { label: '✅ Vừa', val: 0.85 },
+                            { label: '🚴 Nhanh', val: 1.0 },
+                            { label: '🚀 Rất nhanh', val: 1.2 },
+                        ].map(s => (
+                            <button key={s.val} onClick={() => setSpeed(s.val)}
+                                className={`flex-1 py-2 px-1 rounded-xl text-xs font-bold border-2 transition-all text-center
+                                    ${speed === s.val ? 'bg-emerald-600 text-white border-emerald-600 shadow-md' : 'bg-white text-gray-500 border-gray-200 hover:border-emerald-300'}`}>
+                                {s.label}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+
+                <p className="text-sm font-bold text-gray-700 mb-3">
+                    <i className="fa-solid fa-gamepad text-emerald-500 mr-2"></i>Chọn chế độ luyện đọc:
+                </p>
+                <div className="space-y-4">
+                    <button onClick={() => startSubMode('vocab')}
+                        className="w-full flex items-center gap-4 p-5 bg-white rounded-2xl border-2 border-gray-100 hover:border-emerald-400 hover:bg-emerald-50/50 transition-all text-left group">
+                        <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-emerald-200 transition-colors">
+                            <i className="fa-solid fa-font text-xl text-emerald-600"></i>
+                        </div>
+                        <div>
+                            <div className="font-bold text-gray-800">Luyện Đọc Từ Vựng</div>
+                            <div className="text-sm text-gray-500 mt-0.5">Luyện phát âm từng từ tiếng Anh chuẩn IPA</div>
+                        </div>
+                        <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-emerald-500 transition-colors"></i>
+                    </button>
+
+                    <button onClick={() => startSubMode('sentence')}
+                        className="w-full flex items-center gap-4 p-5 bg-white rounded-2xl border-2 border-gray-100 hover:border-emerald-400 hover:bg-emerald-50/50 transition-all text-left group">
+                        <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-emerald-200 transition-colors">
+                            <i className="fa-solid fa-align-left text-xl text-emerald-600"></i>
+                        </div>
+                        <div>
+                            <div className="font-bold text-gray-800">Luyện Đọc Theo Câu</div>
+                            <div className="text-sm text-gray-500 mt-0.5">Luyện đọc cả câu dài, ngữ điệu tự nhiên trôi chảy</div>
+                        </div>
+                        <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-emerald-500 transition-colors"></i>
+                    </button>
+                </div>
+            </div>
+        );
+    }
+
+    if (pool.length === 0) {
+        return (
+            <div className="text-center py-12 bg-white rounded-2xl border border-gray-100">
+                <p className="text-gray-400">Không tìm thấy từ vựng hợp lệ cho chế độ này.</p>
+                <button onClick={() => setSubMode(null)} className="mt-4 px-4 py-2 bg-emerald-600 text-white rounded-xl font-bold">
+                    Quay lại
+                </button>
+            </div>
+        );
+    }
+
+    const barColor = score !== null && score >= 80 ? 'bg-green-500' : score !== null && score >= 50 ? 'bg-yellow-400' : 'bg-red-400';
+    const scoreLabel = score !== null && score >= 90 ? '🌟 Xuất sắc!' : score !== null && score >= 80 ? '✅ Rất tốt!' : score !== null && score >= 50 ? '🟡 Khá ổn, thử lại!' : '❌ Cần luyện thêm!';
+
+    return (
+        <div className="max-w-xl mx-auto animate-fade-in font-sans">
+            <div className="flex justify-between items-center mb-6">
+                <button onClick={() => { window.speechSynthesis.cancel(); resetSpeech(); setSubMode(null); }}
+                    className="flex items-center gap-2 text-sm text-gray-500 hover:text-emerald-600 font-bold transition-colors">
+                    <i className="fa-solid fa-arrow-left"></i> Chọn chế độ khác
+                </button>
+                <span className="text-sm font-bold text-gray-500 bg-gray-100 px-3 py-1 rounded-full">
+                    Câu {idx + 1}/{pool.length}
+                </span>
+            </div>
+
+            <div className="h-2 bg-gray-100 rounded-full overflow-hidden mb-6">
+                <div className="h-full bg-emerald-500 transition-all duration-300" style={{ width: `${((idx + 1) / pool.length) * 100}%` }} />
+            </div>
+
+            <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 text-center relative overflow-hidden mb-6">
+                <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-emerald-50 text-emerald-700 uppercase">
+                    {subMode === 'vocab' ? (current.type_short || current.type || 'Từ vựng') : 'Đọc câu'}
+                </span>
+
+                <div className="my-8">
+                    {subMode === 'vocab' ? (
+                        <div className="text-5xl font-extrabold text-emerald-700 leading-none tracking-wide font-serif mb-3">
+                            {current.word}
+                        </div>
+                    ) : (
+                        <div className="text-2xl font-bold text-emerald-800 leading-relaxed font-serif mb-4">
+                            {current.example_en}
+                        </div>
+                    )}
+                </div>
+
+                <div className="min-h-[48px] flex flex-col items-center justify-center mb-2">
+                    {subMode === 'vocab' && current.ipa && (
+                        <div className="text-emerald-500 font-mono text-lg font-semibold mb-2 bg-emerald-50/50 px-3 py-1 rounded-lg">
+                            {current.ipa}
+                        </div>
+                    )}
+                    <div className="text-gray-600 text-base font-medium">
+                        {subMode === 'vocab' ? current.meaning : current.example_vi}
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-col items-center gap-4 mb-6">
+                <div className="flex gap-4 w-full">
+                    <button onClick={handleListen} className="flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl bg-emerald-50 text-emerald-600 border border-emerald-100 font-bold hover:bg-emerald-100 hover:text-emerald-700 transition-all active:scale-98">
+                        <i className="fa-solid fa-volume-high"></i> Nghe mẫu
+                    </button>
+
+                    <button onClick={handleSpeak} disabled={speechState === 'evaluating'}
+                        className={`flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl font-bold transition-all shadow-sm active:scale-98 disabled:opacity-50
+                        ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/20' : 
+                          speechState === 'done' && score !== null && score >= 80 ? 'bg-green-500 text-white shadow-green-500/20' : 
+                          'bg-emerald-600 text-white hover:bg-emerald-700 shadow-emerald-600/25 hover:-translate-y-0.5'}`}>
+                        <i className={`fa-solid ${speechState === 'listening' ? 'fa-stop' : speechState === 'evaluating' ? 'fa-spinner animate-spin' : 'fa-microphone'}`}></i>
+                        {speechState === 'listening' ? 'Đang nghe...' : speechState === 'evaluating' ? 'AI chấm điểm...' : 'Đọc thử'}
+                    </button>
+                </div>
+            </div>
+
+            {speechState === 'evaluating' && (
+                <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-6 text-center animate-pulse mb-6">
+                    <div className="flex items-center justify-center gap-3 text-emerald-600 font-bold">
+                        <i className="fa-solid fa-circle-notch animate-spin text-xl"></i>
+                        <span>Đang phân tích phát âm của bạn...</span>
+                    </div>
+                </div>
+            )}
+
+            {speechState === 'done' && score !== null && (
+                <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-6 animate-fade-in relative overflow-hidden mb-6">
+                    <div className="flex items-center justify-between mb-4 relative z-10">
+                        <span className="text-base font-bold text-gray-800">{scoreLabel}</span>
+                        <span className={`text-3xl font-black ${score >= 80 ? 'text-green-500' : score >= 50 ? 'text-yellow-500' : 'text-red-500'}`}>
+                            {score}%
+                        </span>
+                    </div>
+                    <div className="w-full h-3 bg-gray-100 rounded-full overflow-hidden mb-5 relative z-10">
+                        <div className={`h-full rounded-full transition-all duration-700 ease-out ${barColor}`} style={{ width: `${score}%` }}></div>
+                    </div>
+
+                    <div className="bg-gray-50 border border-gray-100 p-4 rounded-2xl mb-4 relative z-10">
+                        <p className="text-xs text-gray-400 uppercase font-bold tracking-wider mb-2">Chi tiết phát âm:</p>
+                        <div className="flex flex-wrap gap-2 text-lg font-serif">
+                            {alignment.map((item, wIdx) => (
+                                <span key={wIdx} className={`px-1.5 py-0.5 rounded transition-all font-bold ${
+                                    item.correct ? 'text-green-600 bg-green-50' : 'text-red-500 bg-red-50 line-through decoration-2'
+                                }`}>
+                                    {item.word}
+                                </span>
+                            ))}
+                        </div>
+                        {heard && (
+                            <div className="mt-3 pt-3 border-t border-gray-200/60">
+                                <span className="text-xs text-gray-400 font-semibold block mb-0.5">Hệ thống ghi nhận:</span>
+                                <p className="text-gray-600 font-medium italic">"{heard}"</p>
+                            </div>
+                        )}
+                    </div>
+
+                    <div className="flex gap-3 relative z-10">
+                        <button onClick={handleSpeak} className="flex-1 py-3 text-sm rounded-xl bg-emerald-50 text-emerald-600 font-bold hover:bg-emerald-100 transition-colors">
+                            🔄 Đọc lại
+                        </button>
+                        {score >= 80 && idx < pool.length - 1 && (
+                            <button onClick={() => setIdx(i => i + 1)} className="flex-1 py-3 text-sm rounded-xl bg-green-500 text-white font-bold hover:bg-green-600 transition-colors shadow-sm shadow-green-500/10">
+                                Câu tiếp <i className="fa-solid fa-arrow-right ml-1"></i>
+                            </button>
+                        )}
+                    </div>
+
+                    {score >= 80 && (
+                        <div className="absolute -top-10 -right-10 w-32 h-32 bg-green-400 rounded-full blur-3xl mix-blend-multiply opacity-20 pointer-events-none"></div>
+                    )}
+                </div>
+            )}
+
+            {speechState === 'error' && heard && (
+                <div className="w-full text-center text-sm font-medium text-red-500 bg-red-50 rounded-2xl p-4 border border-red-100 animate-fade-in mb-6">
+                    <i className="fa-solid fa-triangle-exclamation mr-2"></i> {heard}
+                </div>
+            )}
+
+            <div className="flex justify-between items-center bg-white px-6 py-3 rounded-2xl shadow-sm border border-gray-100">
+                <button onClick={() => setIdx(i => Math.max(i - 1, 0))} disabled={idx <= 0}
+                    className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-emerald-50 hover:text-emerald-600 transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
+                    <i className="fa-solid fa-chevron-left"></i>
+                </button>
+                <button onClick={() => setIdx(Math.floor(Math.random() * pool.length))}
+                    className="w-10 h-10 rounded-full bg-emerald-50 text-emerald-600 flex items-center justify-center hover:bg-emerald-100 transition-colors" title="Câu ngẫu nhiên">
+                    <i className="fa-solid fa-shuffle"></i>
+                </button>
+                <button onClick={() => setIdx(i => Math.min(i + 1, pool.length - 1))} disabled={idx >= pool.length - 1}
+                    className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-emerald-50 hover:text-emerald-600 transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
+                    <i className="fa-solid fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    );
+}
+
 // ==================== WRITING — Sắp xếp câu ====================
-function WritingPart({ vocab }: { vocab: any[] }) {
+function WritingPart({ vocab, onDone }: { vocab: any[], onDone?: (score: number, total: number) => void }) {
     const [pool] = useState(() =>
         shuffle(vocab.filter(v => v.example_en && v.example_en.split(' ').length >= 4)).slice(0, 10)
     );
@@ -640,6 +1052,12 @@ function WritingPart({ vocab }: { vocab: any[] }) {
     const [score, setScore] = useState({ correct: 0, total: 0 });
     const [done, setDone] = useState(false);
     const current = pool[idx];
+
+    useEffect(() => {
+        if (done) {
+            onDone?.(score.correct, score.total);
+        }
+    }, [done, score.correct, score.total, onDone]);
 
     useEffect(() => {
         if (!current) return;
@@ -741,6 +1159,7 @@ function MockTestPart({ vocab, passages }: { vocab: any[], passages: any[] }) {
     const [scores, setScores] = useState<Record<string, number>>({});
     const [done, setDone] = useState(false);
     const [voice, setVoice] = useState<SpeechSynthesisVoice | null>(null);
+    const [pool10] = useState(() => shuffle(vocab).slice(0, 10));
 
     useEffect(() => {
         const load = () => {
@@ -776,7 +1195,6 @@ function MockTestPart({ vocab, passages }: { vocab: any[], passages: any[] }) {
         );
     }
 
-    const pool10 = shuffle(vocab).slice(0, 10);
     return (
         <div className="max-w-xl mx-auto">
             <div className="flex gap-2 mb-6">
@@ -791,8 +1209,10 @@ function MockTestPart({ vocab, passages }: { vocab: any[], passages: any[] }) {
             </div>
             {section === 'listening' && <QuizMode pool={pool10} allVocab={vocab} voice={voice} rate={0.85}
                 onDone={(s, t) => setScores(prev => ({ ...prev, listening: Math.round(s / t * 10) }))} />}
-            {section === 'reading' && <ReadingPart vocab={pool10} />}
-            {section === 'writing' && <WritingPart vocab={pool10} />}
+            {section === 'reading' && <MockReadingPart vocab={pool10}
+                onDone={(s, t) => setScores(prev => ({ ...prev, reading: Math.round(s / t * 10) }))} />}
+            {section === 'writing' && <WritingPart vocab={pool10}
+                onDone={(s, t) => setScores(prev => ({ ...prev, writing: Math.round(s / t * 10) }))} />}
             <button onClick={() => setDone(true)} disabled={Object.keys(scores).length < 3}
                 className="w-full mt-6 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 disabled:opacity-40 transition-all">
                 {Object.keys(scores).length < 3 ? `Còn ${3 - Object.keys(scores).length} phần nữa` : 'Xem kết quả'}
@@ -814,7 +1234,7 @@ export function StartersExercises({ vocabData, passagesData = [], mode = 'listen
     // Icon + title config cho từng mode
     const modeConfig: Record<Mode, { faIcon: string, title: string, subtitle: string }> = {
         listening: { faIcon: 'fa-headphones',  title: 'Luyện Nghe Tiếng Anh',       subtitle: 'Rèn luyện phản xạ nghe với giọng đọc AI' },
-        reading:   { faIcon: 'fa-book-open',   title: 'Luyện Đọc',                  subtitle: 'Đọc câu và xác định nghĩa đúng hay sai' },
+        reading:   { faIcon: 'fa-book-open',   title: 'Luyện Đọc Phát Âm',          subtitle: 'Luyện phát âm chuẩn từ vựng và câu tiếng Anh với AI' },
         writing:   { faIcon: 'fa-pen-nib',     title: 'Luyện Viết',                 subtitle: 'Sắp xếp các từ thành câu hoàn chỉnh' },
         mock:      { faIcon: 'fa-graduation-cap', title: 'Thi Thử Cambridge Starters', subtitle: 'Bài thi mô phỏng gồm 3 phần: Nghe, Đọc, Viết' },
     };
