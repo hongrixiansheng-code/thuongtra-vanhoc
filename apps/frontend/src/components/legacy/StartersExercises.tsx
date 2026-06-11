@@ -677,11 +677,13 @@ function WritingPart({ vocab }: { vocab: any[] }) {
 
     if (done) return (
         <div className="text-center py-16 animate-fade-in">
-            <div className="text-6xl mb-4">✍️</div>
-            <div className="text-4xl font-bold text-purple-600 mb-2">{score.correct}/{score.total}</div>
+            <div className="w-20 h-20 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto text-4xl mb-4 shadow-inner">
+                <i className="fa-solid fa-pen-nib"></i>
+            </div>
+            <div className="text-4xl font-bold text-emerald-600 mb-2">{score.correct}/{score.total}</div>
             <p className="text-gray-500 mb-6">Điểm số bài Luyện Viết</p>
             <button onClick={() => { setIdx(0); setScore({ correct: 0, total: 0 }); setDone(false); }}
-                className="px-8 py-3 bg-purple-600 text-white rounded-xl font-bold hover:bg-purple-700 transition-colors">Làm lại</button>
+                className="px-8 py-3 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 transition-colors">Làm lại</button>
         </div>
     );
 
@@ -690,23 +692,23 @@ function WritingPart({ vocab }: { vocab: any[] }) {
             <div className="mb-6">
                 <div className="flex justify-between text-sm text-gray-500 mb-2">
                     <span>Câu {idx + 1}/{pool.length}</span>
-                    <span className="font-bold text-purple-600">{score.correct} đúng</span>
+                    <span className="font-bold text-emerald-600">{score.correct} đúng</span>
                 </div>
                 <div className="h-2 bg-gray-100 rounded-full overflow-hidden">
-                    <div className="h-full bg-purple-500 transition-all" style={{ width: `${((idx + 1) / pool.length) * 100}%` }} />
+                    <div className="h-full bg-emerald-500 transition-all" style={{ width: `${((idx + 1) / pool.length) * 100}%` }} />
                 </div>
             </div>
             <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-4">
                 <p className="text-xs text-gray-400 uppercase tracking-wider mb-3 font-medium">Sắp xếp các từ thành câu hoàn chỉnh</p>
-                <div className="bg-purple-50 border border-purple-100 rounded-xl p-3 mb-3">
+                <div className="bg-emerald-50 border border-emerald-100 rounded-xl p-3 mb-3">
                     <p className="text-xs text-gray-500 mb-1">Nghĩa tiếng Việt:</p>
-                    <p className="text-sm font-semibold text-purple-800">{current.example_vi}</p>
+                    <p className="text-sm font-semibold text-emerald-800">{current.example_vi}</p>
                 </div>
-                <div className="min-h-[52px] bg-gray-50 border-2 border-dashed border-gray-200 rounded-xl p-3 mb-3 flex flex-wrap gap-2">
+                <div className="min-h-[52px] bg-gray-50 border-2 border-dashed border-emerald-200 rounded-xl p-3 mb-3 flex flex-wrap gap-2">
                     {answer.length === 0 && <span className="text-gray-300 text-xs self-center">Nhấn vào từ bên dưới...</span>}
                     {answer.map((w, i) => (
                         <button key={i} onClick={() => { speakEnglish(w, null, 0.85); removeWord(w, i); }}
-                            className="px-3 py-1.5 bg-purple-600 text-white rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors">
+                            className="px-3 py-1.5 bg-emerald-600 text-white rounded-lg text-sm font-medium hover:bg-emerald-700 transition-colors">
                             {w}
                         </button>
                     ))}
@@ -714,7 +716,7 @@ function WritingPart({ vocab }: { vocab: any[] }) {
                 <div className="flex flex-wrap gap-2">
                     {wordBag.map((w, i) => (
                         <button key={i} onClick={() => { speakEnglish(w, null, 0.85); addWord(w, i); }}
-                            className="px-3 py-1.5 bg-white border-2 border-gray-200 rounded-lg text-sm font-medium hover:border-purple-400 hover:bg-purple-50 transition-colors">
+                            className="px-3 py-1.5 bg-white border-2 border-gray-200 rounded-lg text-sm font-medium hover:border-emerald-400 hover:bg-emerald-50 transition-colors">
                             {w}
                         </button>
                     ))}
@@ -726,8 +728,8 @@ function WritingPart({ vocab }: { vocab: any[] }) {
                 </div>
             )}
             <button onClick={handleCheck} disabled={answer.length === 0 || !!checked}
-                className="w-full py-3 bg-purple-600 text-white rounded-xl font-bold hover:bg-purple-700 disabled:opacity-40 transition-all">
-                Kiểm tra
+                className="w-full py-3 bg-emerald-600 text-white rounded-xl font-bold hover:bg-emerald-700 disabled:opacity-40 transition-all">
+                Kiểm tra <i className="fa-solid fa-check ml-1"></i>
             </button>
         </div>
     );
@@ -809,11 +811,12 @@ export function StartersExercises({ vocabData, passagesData = [], mode = 'listen
         return <div className="text-center py-16 text-gray-400">Chưa có dữ liệu từ vựng Starters.</div>;
     }
 
-    const headers: Record<Mode, { icon: string, title: string, subtitle: string }> = {
-        listening: { icon: '🎧', title: 'Luyện Nghe Tiếng Anh', subtitle: 'Rèn luyện phản xạ nghe với giọng đọc AI' },
-        reading:   { icon: '📖', title: 'Luyện Đọc',           subtitle: 'Đọc câu và xác định nghĩa đúng hay sai' },
-        writing:   { icon: '✍️',  title: 'Luyện Viết',          subtitle: 'Sắp xếp các từ thành câu có nghĩa' },
-        mock:      { icon: '🏆', title: 'Thi Thử Cambridge Starters', subtitle: 'Bài thi mô phỏng gồm 3 phần: Nghe, Đọc, Viết' },
+    // Icon + title config cho từng mode
+    const modeConfig: Record<Mode, { faIcon: string, title: string, subtitle: string }> = {
+        listening: { faIcon: 'fa-headphones',  title: 'Luyện Nghe Tiếng Anh',       subtitle: 'Rèn luyện phản xạ nghe với giọng đọc AI' },
+        reading:   { faIcon: 'fa-book-open',   title: 'Luyện Đọc',                  subtitle: 'Đọc câu và xác định nghĩa đúng hay sai' },
+        writing:   { faIcon: 'fa-pen-nib',     title: 'Luyện Viết',                 subtitle: 'Sắp xếp các từ thành câu hoàn chỉnh' },
+        mock:      { faIcon: 'fa-graduation-cap', title: 'Thi Thử Cambridge Starters', subtitle: 'Bài thi mô phỏng gồm 3 phần: Nghe, Đọc, Viết' },
     };
 
     // Listening dùng menu riêng — không cần header chung
@@ -825,11 +828,13 @@ export function StartersExercises({ vocabData, passagesData = [], mode = 'listen
         );
     }
 
-    const h = headers[mode];
+    const h = modeConfig[mode];
     return (
         <div className="max-w-2xl mx-auto px-4 py-8">
             <div className="text-center mb-8">
-                <div className="text-5xl mb-3">{h.icon}</div>
+                <div className="w-16 h-16 bg-emerald-100 text-emerald-600 rounded-2xl flex items-center justify-center mx-auto text-3xl mb-4 shadow-inner">
+                    <i className={`fa-solid ${h.faIcon}`}></i>
+                </div>
                 <h1 className="text-2xl font-bold text-gray-800 mb-1">{h.title}</h1>
                 <p className="text-gray-500 text-sm">{h.subtitle}</p>
                 <div className="mt-3 inline-flex items-center gap-2 bg-emerald-50 text-emerald-700 px-3 py-1 rounded-full text-xs font-medium">
