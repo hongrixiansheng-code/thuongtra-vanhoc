@@ -705,7 +705,7 @@ function WritingPart({ vocab }: { vocab: any[] }) {
                 <div className="min-h-[52px] bg-gray-50 border-2 border-dashed border-gray-200 rounded-xl p-3 mb-3 flex flex-wrap gap-2">
                     {answer.length === 0 && <span className="text-gray-300 text-xs self-center">Nhấn vào từ bên dưới...</span>}
                     {answer.map((w, i) => (
-                        <button key={i} onClick={() => removeWord(w, i)}
+                        <button key={i} onClick={() => { speakEnglish(w, null, 0.85); removeWord(w, i); }}
                             className="px-3 py-1.5 bg-purple-600 text-white rounded-lg text-sm font-medium hover:bg-purple-700 transition-colors">
                             {w}
                         </button>
@@ -713,7 +713,7 @@ function WritingPart({ vocab }: { vocab: any[] }) {
                 </div>
                 <div className="flex flex-wrap gap-2">
                     {wordBag.map((w, i) => (
-                        <button key={i} onClick={() => addWord(w, i)}
+                        <button key={i} onClick={() => { speakEnglish(w, null, 0.85); addWord(w, i); }}
                             className="px-3 py-1.5 bg-white border-2 border-gray-200 rounded-lg text-sm font-medium hover:border-purple-400 hover:bg-purple-50 transition-colors">
                             {w}
                         </button>
