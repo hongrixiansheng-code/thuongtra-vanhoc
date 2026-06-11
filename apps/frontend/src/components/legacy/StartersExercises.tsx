@@ -337,13 +337,236 @@ function DialogueMode({ passages, voice, rate, onDone }: {
     );
 }
 
+// ==================== LISTENING DẠNG 3: MIÊU TẢ TRANH & TÌM NHÂN VẬT ====================
+const pictureCharacters = [
+    {
+        name: 'Tom',
+        audioText: 'Look at Tom. He is flying a red kite. Can you see him? Yes, he is wearing a blue t-shirt.',
+        x: 22,
+        y: 28,
+        description: 'Đang thả diều đỏ'
+    },
+    {
+        name: 'Ben',
+        audioText: 'Here is Ben. He is riding a yellow bicycle. He is riding very fast.',
+        x: 52,
+        y: 72,
+        description: 'Đang đi xe đạp vàng'
+    },
+    {
+        name: 'Ann',
+        audioText: 'Look at Ann. She is climbing a green tree. Ann, be careful!',
+        x: 82,
+        y: 38,
+        description: 'Đang leo cây xanh'
+    },
+    {
+        name: 'Lucy',
+        audioText: 'Where is Lucy? Oh, she is playing with a dog. The dog is brown.',
+        x: 75,
+        y: 82,
+        description: 'Đang chơi với chú chó nâu'
+    },
+    {
+        name: 'Nick',
+        audioText: 'And this is Nick. He is sitting on a bench. He is reading a storybook.',
+        x: 18,
+        y: 65,
+        description: 'Đang ngồi ghế đọc sách'
+    }
+];
+
+function PictureMatchingMode({ voice, rate, onDone }: {
+    voice: SpeechSynthesisVoice | null,
+    rate: number,
+    onDone: (score: number, total: number) => void
+}) {
+    const [selectedName, setSelectedName] = useState<string | null>(null);
+    const [matches, setMatches] = useState<Record<string, number>>({});
+    const [hint, setHint] = useState<string | null>("Hãy chọn một tên, nghe gợi ý rồi nhấp vào nhân vật tương ứng trong tranh!");
+    const [playingName, setPlayingName] = useState<string | null>(null);
+
+    const handleSelectName = (name: string) => {
+        if (matches[name] !== undefined) return;
+        setSelectedName(name);
+        setHint(`Hãy nhấp vào nhân vật "${name}" trên tranh!`);
+        
+        const char = pictureCharacters.find(c => c.name === name);
+        if (char) {
+            setPlayingName(name);
+            window.speechSynthesis.cancel();
+            const u = new SpeechSynthesisUtterance(char.audioText);
+            u.lang = 'en-US';
+            u.rate = rate;
+            if (voice) u.voice = voice;
+            u.onend = () => setPlayingName(null);
+            window.speechSynthesis.speak(u);
+        }
+    };
+
+    const handleMarkerClick = (charIndex: number) => {
+        if (!selectedName) {
+            setHint("❌ Vui lòng chọn một nhãn tên ở danh sách bên dưới trước!");
+            playTone('error');
+            return;
+        }
+
+        const targetChar = pictureCharacters[charIndex];
+        if (targetChar.name === selectedName) {
+            playTone('success');
+            setMatches(prev => ({ ...prev, [selectedName]: charIndex }));
+            setSelectedName(null);
+            setHint(`🎉 Đúng rồi! Đã tìm thấy ${targetChar.name}.`);
+        } else {
+            playTone('error');
+            setHint(`❌ Sai rồi! Đó không phải là ${selectedName}. Thử lại nhé!`);
+        }
+    };
+
+    const isFinished = Object.keys(matches).length === pictureCharacters.length;
+
+    const handleReset = () => {
+        setMatches({});
+        setSelectedName(null);
+        setPlayingName(null);
+        setHint("Đã làm mới! Hãy chọn một tên để bắt đầu tìm.");
+        window.speechSynthesis.cancel();
+    };
+
+    return (
+        <div className="max-w-4xl mx-auto animate-fade-in font-sans">
+            <style>{`
+                @keyframes shake {
+                    0%, 100% { transform: translateX(0); }
+                    25% { transform: translateX(-4px); }
+                    75% { transform: translateX(4px); }
+                }
+                @keyframes scaleUp {
+                    0% { transform: scale(0.85); opacity: 0; }
+                    100% { transform: scale(1); opacity: 1; }
+                }
+                .animate-shake {
+                    animation: shake 0.2s ease-in-out 2;
+                }
+                .animate-scale-up {
+                    animation: scaleUp 0.3s cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
+                }
+            `}</style>
+            
+            <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-6 mb-6">
+                <div className="flex justify-between items-start gap-4 mb-4">
+                    <div>
+                        <h2 className="text-xl font-bold text-gray-800">Bài Tập: Tìm Nhân Vật Trong Tranh</h2>
+                        <p className="text-sm text-gray-500 mt-1">Nghe các gợi ý tiếng Anh của AI để nối tên vào đúng nhân vật trong công viên.</p>
+                    </div>
+                    <button onClick={handleReset} className="px-3 py-1.5 border border-emerald-200 text-emerald-600 rounded-xl text-xs font-bold hover:bg-emerald-50 transition-colors shrink-0">
+                        <i className="fa-solid fa-rotate-left mr-1"></i> Làm lại
+                    </button>
+                </div>
+
+                {hint && (
+                    <div className={`p-3 rounded-2xl text-sm font-semibold transition-all text-center ${
+                        hint.includes('🎉') ? 'bg-green-50 text-green-700' :
+                        hint.includes('❌') ? 'bg-red-50 text-red-600 animate-shake' :
+                        'bg-emerald-50 text-emerald-700'
+                    }`}>
+                        {hint}
+                    </div>
+                )}
+            </div>
+
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6 items-start">
+                {/* Names Panel */}
+                <div className="md:col-span-1 bg-white rounded-3xl border border-gray-100 shadow-sm p-5 space-y-3">
+                    <p className="text-xs text-gray-400 uppercase font-bold tracking-wider mb-2">Danh sách tên</p>
+                    {pictureCharacters.map(char => {
+                        const isMatched = matches[char.name] !== undefined;
+                        const isSelected = selectedName === char.name;
+                        const isPlaying = playingName === char.name;
+
+                        return (
+                            <button key={char.name} onClick={() => handleSelectName(char.name)}
+                                className={`w-full flex items-center justify-between p-3.5 rounded-2xl border-2 font-bold text-base transition-all
+                                    ${isMatched ? 'bg-green-50 border-green-200 text-green-600 opacity-60 cursor-not-allowed' :
+                                      isSelected ? 'bg-emerald-600 border-emerald-600 text-white shadow-md shadow-emerald-600/20 scale-102' :
+                                      'bg-white border-gray-200 text-gray-700 hover:border-emerald-400 hover:bg-emerald-50/50'}`}>
+                                <span className="flex items-center gap-2">
+                                    {isMatched ? <i className="fa-solid fa-circle-check text-green-500"></i> : <i className="fa-solid fa-user text-gray-400"></i>}
+                                    {char.name}
+                                </span>
+                                {!isMatched && (
+                                    <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs transition-colors ${
+                                        isSelected ? 'bg-emerald-700 text-white' : 'bg-emerald-50 text-emerald-600 hover:bg-emerald-100'
+                                    }`}>
+                                        <i className={`fa-solid ${isPlaying ? 'fa-volume-high animate-pulse' : 'fa-play'}`}></i>
+                                    </span>
+                                )}
+                            </button>
+                        );
+                    })}
+                </div>
+
+                {/* Picture Matching Canvas */}
+                <div className="md:col-span-3">
+                    <div className="relative border-4 border-emerald-100 rounded-3xl overflow-hidden shadow-lg bg-gray-50 max-w-full">
+                        <img src="/starters_park_exercise.png" alt="Starters Park" className="w-full h-auto block select-none pointer-events-none" />
+                        
+                        {/* Interactive overlay points */}
+                        {pictureCharacters.map((char, index) => {
+                            const matchedName = Object.keys(matches).find(k => matches[k] === index);
+                            
+                            return (
+                                <div key={index} style={{ top: `${char.y}%`, left: `${char.x}%` }}
+                                    className="absolute -translate-x-1/2 -translate-y-1/2 z-10">
+                                    {matchedName ? (
+                                        <div className="bg-green-600 text-white font-bold text-xs py-1.5 px-3 rounded-full border-2 border-white shadow-lg flex items-center gap-1.5 animate-scale-up select-none whitespace-nowrap">
+                                            <i className="fa-solid fa-check text-white"></i>
+                                            {matchedName}
+                                        </div>
+                                    ) : (
+                                        <button onClick={() => handleMarkerClick(index)}
+                                            className="w-10 h-10 rounded-full bg-emerald-500/90 text-white border-2 border-white shadow-lg flex items-center justify-center hover:scale-115 active:scale-95 transition-all animate-pulse duration-1000">
+                                            <i className="fa-solid fa-question text-sm font-black"></i>
+                                        </button>
+                                    )}
+                                </div>
+                            );
+                        })}
+                    </div>
+                </div>
+            </div>
+
+            {/* Completion Modal/Card */}
+            {isFinished && (
+                <div className="mt-8 bg-emerald-50 border border-emerald-200 rounded-3xl p-8 text-center animate-fade-in">
+                    <div className="text-6xl mb-4">🎉🏆🎉</div>
+                    <h3 className="text-2xl font-bold text-emerald-800 mb-2">Chúc Mừng! Bạn Đã Hoàn Thành!</h3>
+                    <p className="text-emerald-600 max-w-md mx-auto mb-6 font-medium">Bạn đã tìm thấy tất cả 5 nhân vật trong công viên rất chính xác!</p>
+                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-3xl mx-auto mb-8 text-left">
+                        {pictureCharacters.map(char => (
+                            <div key={char.name} className="bg-white rounded-2xl border border-emerald-100 p-3 shadow-sm">
+                                <div className="font-bold text-emerald-700 mb-1">{char.name}</div>
+                                <div className="text-xs text-gray-500 leading-normal">{char.description}</div>
+                            </div>
+                        ))}
+                    </div>
+                    <button onClick={() => onDone(5, 5)}
+                        className="px-8 py-3.5 bg-emerald-600 text-white rounded-2xl font-bold text-lg hover:bg-emerald-700 shadow-lg shadow-emerald-600/25 transition-all">
+                        Hoàn thành bài tập <i className="fa-solid fa-arrow-right ml-2"></i>
+                    </button>
+                </div>
+            )}
+        </div>
+    );
+}
+
 // ==================== LISTENING MENU (giống HSK) ====================
 function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
     const [availableVoices, setAvailableVoices] = useState<SpeechSynthesisVoice[]>([]);
     const [selectedVoice, setSelectedVoice] = useState<SpeechSynthesisVoice | null>(null);
     const [speed, setSpeed] = useState(0.85);
     const [questionCount, setQuestionCount] = useState(10);
-    const [activeMode, setActiveMode] = useState<'quiz' | 'type' | 'dialogue' | null>(null);
+    const [activeMode, setActiveMode] = useState<'quiz' | 'type' | 'dialogue' | 'picture' | null>(null);
     const [result, setResult] = useState<{ score: number, total: number } | null>(null);
     const [pool, setPool] = useState<any[]>([]);
 
@@ -362,7 +585,12 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
         window.speechSynthesis.onvoiceschanged = loadVoices;
     }, []);
 
-    const startMode = (mode: 'quiz' | 'type' | 'dialogue') => {
+    const startMode = (mode: 'quiz' | 'type' | 'dialogue' | 'picture') => {
+        if (mode === 'picture') {
+            setActiveMode('picture');
+            setResult(null);
+            return;
+        }
         const filtered = vocab.filter(v => v.word && v.meaning);
         setPool(shuffle(filtered).slice(0, questionCount));
         setActiveMode(mode);
@@ -421,6 +649,16 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
                 <i className="fa-solid fa-arrow-left"></i> Quay lại
             </button>
             <DialogueMode passages={passages} voice={selectedVoice} rate={speed} onDone={() => setResult({ score: 0, total: 0 })} />
+        </div>
+    );
+
+    if (activeMode === 'picture') return (
+        <div>
+            <button onClick={() => { window.speechSynthesis.cancel(); setActiveMode(null); }}
+                className="flex items-center gap-2 text-sm text-gray-500 hover:text-emerald-600 font-bold mb-6 transition-colors font-sans">
+                <i className="fa-solid fa-arrow-left"></i> Quay lại
+            </button>
+            <PictureMatchingMode voice={selectedVoice} rate={speed} onDone={handleDone} />
         </div>
     );
 
@@ -524,6 +762,18 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
                     <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-orange-400 transition-colors"></i>
                 </button>
 
+                <button onClick={() => startMode('picture')}
+                    className="w-full flex items-center gap-4 p-4 bg-white rounded-2xl border-2 border-gray-100 hover:border-emerald-400 hover:bg-emerald-50 transition-all text-left group">
+                    <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-emerald-200 transition-colors">
+                        <i className="fa-solid fa-image text-xl text-emerald-600"></i>
+                    </div>
+                    <div>
+                        <div className="font-bold text-gray-800">Tìm Nhân Vật Trong Tranh</div>
+                        <div className="text-sm text-gray-500 mt-0.5">Nghe gợi ý và xác định vị trí nhân vật trong tranh</div>
+                    </div>
+                    <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-emerald-500 transition-colors"></i>
+                </button>
+
                 <button onClick={() => startMode('dialogue')}
                     className="w-full flex items-center gap-4 p-4 bg-white rounded-2xl border-2 border-gray-100 hover:border-teal-400 hover:bg-teal-50 transition-all text-left group"
                     disabled={passages.length === 0}>
@@ -538,6 +788,7 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
                 </button>
             </div>
         </div>
+
     );
 }
 
