@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, memo, useCallback } from 'react';
 import { SRS } from '@/lib/srs';
+import { StartersExercises } from './StartersExercises';
 
 const playSoundEffect = (type: 'success' | 'error') => {
     const audio = new Audio(`/audio/${type}.mp3`);
@@ -534,6 +535,9 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
 export function WritingTab({ vocabData, levelId = 'hsk1' }: { vocabData: any[], levelId?: string }) {
     const isEnglish = !!(vocabData?.[0]?.word && !vocabData?.[0]?.hanzi);
     
+    if (levelId === 'en-starters') {
+        return <StartersExercises vocabData={vocabData} mode="writing" />;
+    }
     if (isEnglish) {
         return <EnglishWritingTab vocabData={vocabData} levelId={levelId} />;
     }

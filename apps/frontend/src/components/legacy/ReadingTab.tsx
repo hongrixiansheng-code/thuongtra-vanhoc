@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, memo, useMemo } from 'react';
 import { SpeechEngine } from '@/lib/speech-engine';
+import { StartersExercises } from './StartersExercises';
 
 const playAudio = (text: string, isEnglish: boolean = false) => {
     window.speechSynthesis.cancel();
@@ -185,7 +186,10 @@ const VocabReadingCard = memo(({ word, onNext, onPrev, onRandom, current, total 
     );
 });
 
-export function ReadingTab({ vocabData }: { vocabData: any[] }) {
+export function ReadingTab({ vocabData, levelId = 'hsk1' }: { vocabData: any[], levelId?: string }) {
+    if (levelId === 'en-starters') {
+        return <StartersExercises vocabData={vocabData} mode="reading" />;
+    }
     const [filterType, setFilterType] = useState('all');
     const [currentIdx, setCurrentIdx] = useState(0);
     const [shuffledWords, setShuffledWords] = useState<any[]>([]);

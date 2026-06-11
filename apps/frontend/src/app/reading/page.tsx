@@ -10,7 +10,7 @@ export default async function ReadingPage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      <ReadingTab key={level} vocabData={vocabData} />
+      <ReadingTab key={level} vocabData={vocabData} levelId={level} />
     </div>
   );
 }

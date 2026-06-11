@@ -12,7 +12,7 @@ export default async function ListeningPage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      <ListeningTab key={level} vocabData={vocabData} passagesData={passagesData} />
+      <ListeningTab key={level} vocabData={vocabData} passagesData={passagesData} levelId={level} />
     </div>
   );
 }

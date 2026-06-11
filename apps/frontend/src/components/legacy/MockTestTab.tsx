@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, memo } from 'react';
 import { TestEngine } from '@/lib/test-engine';
+import { StartersExercises } from './StartersExercises';
 
 const playSoundEffect = (type: 'success' | 'error') => {
     const audio = new Audio(`/audio/${type}.mp3`);
@@ -18,6 +19,12 @@ const playAudio = (text: string, isEnglish: boolean = false) => {
 
 export const MockTestTab = memo(({ vocabData, levelId = 'hsk1' }: { vocabData: any[], levelId?: string }) => {
     const isEnglish = !!(vocabData?.[0]?.word && !vocabData?.[0]?.hanzi);
+
+    // Cambridge Starters → bài thi mô phỏng riêng
+    if (levelId === 'en-starters') {
+        return <StartersExercises vocabData={vocabData} mode="mock" />;
+    }
+
     const levelNum = levelId.replace('hsk', '');
     const levelTitle = isEnglish ? 'Starters' : `HSK ${levelNum}`;
     const [phase, setPhase] = useState<'intro' | 'testing' | 'result'>('intro');

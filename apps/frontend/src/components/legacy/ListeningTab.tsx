@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { SRS } from '@/lib/srs';
+import { StartersExercises } from './StartersExercises';
 
 // --- HELPERS ---
 const fisherYatesShuffle = (arr: any[]) => {
@@ -47,6 +48,11 @@ const removePinyinTones = (pinyin: string) => {
 };
 
 export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vocabData: any[], passagesData: any[], levelId?: string }) {
+    // Chương trình Tiếng Anh → hiển thị bài tập Cambridge Starters
+    if (levelId === 'en-starters') {
+        return <StartersExercises vocabData={vocabData} mode="listening" />;
+    }
+
     const [mode, setMode] = useState<'menu' | 'choose' | 'pinyin' | 'passage'>('menu');
     const [speed, setSpeed] = useState(1.0);
     const speedRef = useRef(1.0);

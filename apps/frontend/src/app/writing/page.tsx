@@ -10,7 +10,7 @@ export default async function WritingPage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      <WritingTab key={level} vocabData={vocabData} />
+      <WritingTab key={level} vocabData={vocabData} levelId={level} />
     </div>
   );
 }
