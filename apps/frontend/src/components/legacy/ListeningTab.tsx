@@ -50,7 +50,7 @@ const removePinyinTones = (pinyin: string) => {
 export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vocabData: any[], passagesData: any[], levelId?: string }) {
     // Chương trình Tiếng Anh → hiển thị bài tập Cambridge Starters
     if (levelId === 'en-starters') {
-        return <StartersExercises vocabData={vocabData} mode="listening" />;
+        return <StartersExercises vocabData={vocabData} passagesData={passagesData} mode="listening" />;
     }
 
     const [mode, setMode] = useState<'menu' | 'choose' | 'pinyin' | 'passage'>('menu');
