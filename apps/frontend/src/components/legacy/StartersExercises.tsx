@@ -337,25 +337,29 @@ function DialogueMode({ passages, voice, rate, onDone }: {
     );
 }
 
+
 // ==================== LISTENING DẠNG 3: MIÊU TẢ TRANH & TÌM NHÂN VẬT ====================
 const pictureCharacters = [
     {
         name: 'Tom',
         audioText: 'Look at Tom. He is flying a red kite. Can you see him? Yes, he is wearing a blue t-shirt.',
+        vietnameseText: 'Nhìn Tom kìa. Cậu ấy đang thả một chiếc diều màu đỏ. Bạn có thấy cậu ấy không? Có, cậu ấy đang mặc chiếc áo thun màu xanh dương.',
         x: 22,
         y: 28,
         description: 'Đang thả diều đỏ'
     },
     {
-        name: 'Ben',
-        audioText: 'Here is Ben. He is riding a yellow bicycle. He is riding very fast.',
-        x: 52,
-        y: 72,
+        name: 'Ann',
+        audioText: 'Can you see Ann? She is riding a yellow bicycle. She is wearing a helmet.',
+        vietnameseText: 'Bạn có thấy Ann không? Cô ấy đang đi một chiếc xe đạp màu vàng. Cô ấy đang đội một chiếc mũ bảo hiểm.',
+        x: 18,
+        y: 65,
         description: 'Đang đi xe đạp vàng'
     },
     {
-        name: 'Ann',
-        audioText: 'Look at Ann. She is climbing a green tree. Ann, be careful!',
+        name: 'Ben',
+        audioText: 'Look at Ben. He is climbing a green tree. Ben, be careful!',
+        vietnameseText: 'Nhìn Ben kìa. Cậu ấy đang leo lên một cái cây màu xanh. Ben ơi, cẩn thận nhé!',
         x: 82,
         y: 38,
         description: 'Đang leo cây xanh'
@@ -363,15 +367,17 @@ const pictureCharacters = [
     {
         name: 'Lucy',
         audioText: 'Where is Lucy? Oh, she is playing with a dog. The dog is brown.',
-        x: 75,
-        y: 82,
+        vietnameseText: 'Lucy đâu rồi nhỉ? Ồ, cô ấy đang chơi đùa với một chú chó. Chú chó đó màu nâu.',
+        x: 52,
+        y: 72,
         description: 'Đang chơi với chú chó nâu'
     },
     {
-        name: 'Nick',
-        audioText: 'And this is Nick. He is sitting on a bench. He is reading a storybook.',
-        x: 18,
-        y: 65,
+        name: 'Sophie',
+        audioText: 'And this is Sophie. She is sitting on a bench. She is reading a storybook.',
+        vietnameseText: 'Và đây là Sophie. Cô ấy đang ngồi trên ghế dài. Cô ấy đang đọc một cuốn sách truyện.',
+        x: 75,
+        y: 82,
         description: 'Đang ngồi ghế đọc sách'
     }
 ];
@@ -385,8 +391,10 @@ function PictureMatchingMode({ voice, rate, onDone }: {
     const [matches, setMatches] = useState<Record<string, number>>({});
     const [hint, setHint] = useState<string | null>("Hãy chọn một tên, nghe gợi ý rồi nhấp vào nhân vật tương ứng trong tranh!");
     const [playingName, setPlayingName] = useState<string | null>(null);
+    const [isSubmitted, setIsSubmitted] = useState<boolean>(false);
 
     const handleSelectName = (name: string) => {
+        if (isSubmitted) return;
         if (matches[name] !== undefined) return;
         setSelectedName(name);
         setHint(`Hãy nhấp vào nhân vật "${name}" trên tranh!`);
@@ -404,33 +412,47 @@ function PictureMatchingMode({ voice, rate, onDone }: {
         }
     };
 
-    const handleMarkerClick = (charIndex: number) => {
+    const handleMarkerClick = (markerIndex: number) => {
+        if (isSubmitted) return;
+
         if (!selectedName) {
             setHint("❌ Vui lòng chọn một nhãn tên ở danh sách bên dưới trước!");
             playTone('error');
             return;
         }
 
-        const targetChar = pictureCharacters[charIndex];
-        if (targetChar.name === selectedName) {
-            playTone('success');
-            setMatches(prev => ({ ...prev, [selectedName]: charIndex }));
-            setSelectedName(null);
-            setHint(`🎉 Đúng rồi! Đã tìm thấy ${targetChar.name}.`);
-        } else {
-            playTone('error');
-            setHint(`❌ Sai rồi! Đó không phải là ${selectedName}. Thử lại nhé!`);
-        }
+        const prevMatchedNameForMarker = Object.keys(matches).find(k => matches[k] === markerIndex);
+
+        setMatches(prev => {
+            const next = { ...prev };
+            delete next[selectedName];
+            if (prevMatchedNameForMarker) {
+                delete next[prevMatchedNameForMarker];
+            }
+            next[selectedName] = markerIndex;
+            return next;
+        });
+
+        setSelectedName(null);
+        setHint(`Đã xếp nhãn ${selectedName} vào vị trí chọn. Bạn có thể chọn tiếp nhãn khác.`);
     };
 
-    const isFinished = Object.keys(matches).length === pictureCharacters.length;
+    const isAllMatched = Object.keys(matches).length === pictureCharacters.length;
+    const correctCount = pictureCharacters.filter((char, idx) => matches[char.name] === idx).length;
 
     const handleReset = () => {
         setMatches({});
         setSelectedName(null);
         setPlayingName(null);
+        setIsSubmitted(false);
         setHint("Đã làm mới! Hãy chọn một tên để bắt đầu tìm.");
         window.speechSynthesis.cancel();
+    };
+
+    const handleSubmit = () => {
+        setIsSubmitted(true);
+        playTone(correctCount >= 4 ? 'success' : 'error');
+        setHint(`Đã chấm điểm! Bạn trả lời đúng ${correctCount}/${pictureCharacters.length} nhân vật.`);
     };
 
     return (
@@ -466,7 +488,7 @@ function PictureMatchingMode({ voice, rate, onDone }: {
 
                 {hint && (
                     <div className={`p-3 rounded-2xl text-sm font-semibold transition-all text-center ${
-                        hint.includes('🎉') ? 'bg-green-50 text-green-700' :
+                        hint.includes('🎉') || hint.includes('Đúng') ? 'bg-green-50 text-green-700' :
                         hint.includes('❌') ? 'bg-red-50 text-red-600 animate-shake' :
                         'bg-emerald-50 text-emerald-700'
                     }`}>
@@ -486,15 +508,17 @@ function PictureMatchingMode({ voice, rate, onDone }: {
 
                         return (
                             <button key={char.name} onClick={() => handleSelectName(char.name)}
+                                disabled={isSubmitted}
                                 className={`w-full flex items-center justify-between p-3.5 rounded-2xl border-2 font-bold text-base transition-all
-                                    ${isMatched ? 'bg-green-50 border-green-200 text-green-600 opacity-60 cursor-not-allowed' :
+                                    ${isMatched ? 'bg-emerald-50 border-emerald-200 text-emerald-700 opacity-90' :
                                       isSelected ? 'bg-emerald-600 border-emerald-600 text-white shadow-md shadow-emerald-600/20 scale-102' :
-                                      'bg-white border-gray-200 text-gray-700 hover:border-emerald-400 hover:bg-emerald-50/50'}`}>
+                                      'bg-white border-gray-200 text-gray-700 hover:border-emerald-400 hover:bg-emerald-50/50'}
+                                    ${isSubmitted ? 'opacity-50 cursor-not-allowed' : ''}`}>
                                 <span className="flex items-center gap-2">
-                                    {isMatched ? <i className="fa-solid fa-circle-check text-green-500"></i> : <i className="fa-solid fa-user text-gray-400"></i>}
+                                    {isMatched ? <i className="fa-solid fa-circle-check text-emerald-500"></i> : <i className="fa-solid fa-user text-gray-400"></i>}
                                     {char.name}
                                 </span>
-                                {!isMatched && (
+                                {!isMatched && !isSubmitted && (
                                     <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs transition-colors ${
                                         isSelected ? 'bg-emerald-700 text-white' : 'bg-emerald-50 text-emerald-600 hover:bg-emerald-100'
                                     }`}>
@@ -518,16 +542,41 @@ function PictureMatchingMode({ voice, rate, onDone }: {
                             return (
                                 <div key={index} style={{ top: `${char.y}%`, left: `${char.x}%` }}
                                     className="absolute -translate-x-1/2 -translate-y-1/2 z-10">
-                                    {matchedName ? (
-                                        <div className="bg-green-600 text-white font-bold text-xs py-1.5 px-3 rounded-full border-2 border-white shadow-lg flex items-center gap-1.5 animate-scale-up select-none whitespace-nowrap">
-                                            <i className="fa-solid fa-check text-white"></i>
-                                            {matchedName}
-                                        </div>
+                                    {isSubmitted ? (
+                                        matchedName ? (
+                                            matchedName === char.name ? (
+                                                <div className="bg-green-600 text-white font-bold text-xs py-1.5 px-3 rounded-full border-2 border-white shadow-lg flex items-center gap-1.5 animate-scale-up select-none whitespace-nowrap">
+                                                    <i className="fa-solid fa-check text-white"></i>
+                                                    {matchedName}
+                                                </div>
+                                            ) : (
+                                                <div className="flex flex-col items-center gap-1">
+                                                    <div className="bg-red-500 text-white font-bold text-xs py-1 px-2.5 rounded-full border border-white shadow-lg flex items-center gap-1 animate-scale-up select-none whitespace-nowrap">
+                                                        <i className="fa-solid fa-xmark text-white"></i>
+                                                        {matchedName}
+                                                    </div>
+                                                    <div className="bg-green-600 text-white font-bold text-[10px] py-0.5 px-2 rounded-full border border-white shadow shadow-green-500/20 select-none whitespace-nowrap">
+                                                        Đúng: {char.name}
+                                                    </div>
+                                                </div>
+                                            )
+                                        ) : (
+                                            <div className="bg-green-600 text-white font-bold text-xs py-1.5 px-3 rounded-full border-2 border-white shadow-lg flex items-center gap-1.5 animate-scale-up select-none whitespace-nowrap">
+                                                Đúng: {char.name}
+                                            </div>
+                                        )
                                     ) : (
-                                        <button onClick={() => handleMarkerClick(index)}
-                                            className="w-10 h-10 rounded-full bg-emerald-500/90 text-white border-2 border-white shadow-lg flex items-center justify-center hover:scale-115 active:scale-95 transition-all animate-pulse duration-1000">
-                                            <i className="fa-solid fa-question text-sm font-black"></i>
-                                        </button>
+                                        matchedName ? (
+                                            <button onClick={() => handleMarkerClick(index)}
+                                                className="bg-emerald-600 text-white font-bold text-xs py-1.5 px-3 rounded-full border-2 border-white shadow-lg flex items-center gap-1.5 select-none whitespace-nowrap hover:bg-emerald-700 transition-colors">
+                                                {matchedName}
+                                            </button>
+                                        ) : (
+                                            <button onClick={() => handleMarkerClick(index)}
+                                                className="w-10 h-10 rounded-full bg-emerald-500/90 text-white border-2 border-white shadow-lg flex items-center justify-center hover:scale-115 active:scale-95 transition-all animate-pulse duration-1000">
+                                                <i className="fa-solid fa-question text-sm font-black"></i>
+                                            </button>
+                                        )
                                     )}
                                 </div>
                             );
@@ -536,24 +585,85 @@ function PictureMatchingMode({ voice, rate, onDone }: {
                 </div>
             </div>
 
-            {/* Completion Modal/Card */}
-            {isFinished && (
-                <div className="mt-8 bg-emerald-50 border border-emerald-200 rounded-3xl p-8 text-center animate-fade-in">
-                    <div className="text-6xl mb-4">🎉🏆🎉</div>
-                    <h3 className="text-2xl font-bold text-emerald-800 mb-2">Chúc Mừng! Bạn Đã Hoàn Thành!</h3>
-                    <p className="text-emerald-600 max-w-md mx-auto mb-6 font-medium">Bạn đã tìm thấy tất cả 5 nhân vật trong công viên rất chính xác!</p>
-                    <div className="grid grid-cols-2 sm:grid-cols-5 gap-3 max-w-3xl mx-auto mb-8 text-left">
-                        {pictureCharacters.map(char => (
-                            <div key={char.name} className="bg-white rounded-2xl border border-emerald-100 p-3 shadow-sm">
-                                <div className="font-bold text-emerald-700 mb-1">{char.name}</div>
-                                <div className="text-xs text-gray-500 leading-normal">{char.description}</div>
-                            </div>
-                        ))}
-                    </div>
-                    <button onClick={() => onDone(5, 5)}
-                        className="px-8 py-3.5 bg-emerald-600 text-white rounded-2xl font-bold text-lg hover:bg-emerald-700 shadow-lg shadow-emerald-600/25 transition-all">
-                        Hoàn thành bài tập <i className="fa-solid fa-arrow-right ml-2"></i>
+            {/* Submit Button */}
+            {!isSubmitted && isAllMatched && (
+                <div className="mt-6 text-center">
+                    <button onClick={handleSubmit}
+                        className="px-8 py-3.5 bg-emerald-600 text-white rounded-2xl font-bold text-lg hover:bg-emerald-700 shadow-lg shadow-emerald-600/25 transition-all w-full sm:w-auto">
+                        Nộp bài & Chấm điểm <i className="fa-solid fa-paper-plane ml-2"></i>
                     </button>
+                </div>
+            )}
+
+            {/* Results Panel */}
+            {isSubmitted && (
+                <div className="mt-8 bg-emerald-50 border border-emerald-200 rounded-3xl p-8 animate-fade-in">
+                    <div className="text-center mb-8">
+                        <div className="text-6xl mb-4">{correctCount >= 4 ? '🏆' : correctCount >= 3 ? '🎯' : '📚'}</div>
+                        <h3 className="text-2xl font-bold text-emerald-800 mb-1">Kết Quả Đánh Giá</h3>
+                        <div className="text-5xl font-black text-emerald-600 mb-2">{Math.round((correctCount / pictureCharacters.length) * 100)}%</div>
+                        <p className="text-gray-500 font-bold">{correctCount}/{pictureCharacters.length} nhân vật đúng</p>
+                    </div>
+
+                    <h4 className="text-base font-bold text-emerald-800 mb-4">
+                        <i className="fa-solid fa-circle-info mr-2"></i>Chi tiết bài nghe (Bản dịch Anh - Việt):
+                    </h4>
+                    <div className="space-y-4">
+                        {pictureCharacters.map((char, index) => {
+                            const userMatchedIndex = matches[char.name];
+                            const isMatchedCorrectly = userMatchedIndex === index;
+                            
+                            return (
+                                <div key={char.name} className={`bg-white rounded-2xl p-5 shadow-sm border-l-4 transition-all ${
+                                    isMatchedCorrectly ? 'border-green-500' : 'border-red-400'
+                                }`}>
+                                    <div className="flex justify-between items-start gap-4 mb-2">
+                                        <div className="flex items-center gap-2">
+                                            <span className={`text-sm font-bold px-2.5 py-0.5 rounded-full ${
+                                                isMatchedCorrectly ? 'bg-green-100 text-green-700' : 'bg-red-100 text-red-700'
+                                            }`}>
+                                                {char.name}
+                                            </span>
+                                            <span className="text-xs text-gray-400 font-bold uppercase tracking-wider">
+                                                {char.description}
+                                            </span>
+                                        </div>
+                                        <span className={`text-sm font-bold flex items-center gap-1 ${
+                                            isMatchedCorrectly ? 'text-green-600' : 'text-red-500'
+                                        }`}>
+                                            {isMatchedCorrectly ? (
+                                                <><i className="fa-solid fa-circle-check"></i> Đúng</>
+                                            ) : (
+                                                <><i className="fa-solid fa-circle-xmark"></i> Sai</>
+                                            )}
+                                        </span>
+                                    </div>
+
+                                    {/* English & Vietnamese text translation */}
+                                    <div className="space-y-2.5 text-sm mt-3">
+                                        <div className="bg-gray-50 p-3 rounded-xl border border-gray-100/80">
+                                            <p className="text-xs font-bold text-gray-400 uppercase tracking-widest mb-1">English</p>
+                                            <p className="text-gray-700 font-medium leading-relaxed">{char.audioText}</p>
+                                        </div>
+                                        <div className="bg-emerald-50/30 p-3 rounded-xl border border-emerald-100/50">
+                                            <p className="text-xs font-bold text-emerald-600/80 uppercase tracking-widest mb-1">Tiếng Việt</p>
+                                            <p className="text-emerald-800 font-medium leading-relaxed">{char.vietnameseText}</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            );
+                        })}
+                    </div>
+
+                    <div className="flex gap-4 max-w-md mx-auto mt-8">
+                        <button onClick={handleReset} className="flex-1 py-3.5 border border-emerald-200 text-emerald-600 rounded-2xl font-bold hover:bg-emerald-50 transition-all">
+                            🔄 Làm lại
+                        </button>
+                        <button onClick={() => onDone(correctCount, pictureCharacters.length)}
+                            className="flex-1 py-3.5 bg-emerald-600 text-white rounded-2xl font-bold hover:bg-emerald-700 shadow-lg shadow-emerald-600/25 transition-all">
+                            Hoàn thành bài tập <i className="fa-solid fa-arrow-right ml-2"></i>
+                        </button>
+                    </div>
                 </div>
             )}
         </div>
