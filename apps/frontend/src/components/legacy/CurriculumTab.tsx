@@ -94,7 +94,7 @@ const DialogueLine = ({ line, speak }: { line: any, speak: (t: string) => void }
     );
 };
 
-export function CurriculumTab({ programName, lessons }: { programName?: string, lessons: any[] }) {
+export function CurriculumTab({ programName, lessons, isPremiumUser }: { programName?: string, lessons: any[], isPremiumUser?: boolean }) {
     const [activeLessonId, setActiveLessonId] = useState(lessons?.[0]?.id || null);
     const [lessonTab, setLessonTab] = useState('vocab');
     const [detailWord, setDetailWord] = useState<any | null>(null);
@@ -195,14 +195,21 @@ export function CurriculumTab({ programName, lessons }: { programName?: string, 
                                             {lessons.filter(l => l.theme === theme).map(item => (
                                                 <button key={item.id}
                                                     onClick={() => setActiveLessonId(item.id)}
-                                                    className={`w-full text-left rounded-2xl px-4 py-3 transition-all
+                                                    className={`w-full text-left rounded-2xl px-4 py-3 transition-all flex items-start justify-between
                                                         ${item.id === activeLessonId 
                                                             ? 'bg-indigo-600 text-white shadow-md translate-x-1' 
                                                             : 'bg-white hover:bg-indigo-50 hover:text-indigo-600 text-gray-700 border border-transparent hover:border-indigo-100'}`}>
-                                                    <div className="font-medium leading-snug">{item.title}</div>
-                                                    <div className={`text-xs mt-1 ${item.id === activeLessonId ? 'text-indigo-200' : 'text-gray-400'}`}>
-                                                        {item.vocab?.length || 0} từ
+                                                    <div>
+                                                        <div className="font-medium leading-snug flex items-center gap-2">
+                                                            {item.title}
+                                                        </div>
+                                                        <div className={`text-xs mt-1 ${item.id === activeLessonId ? 'text-indigo-200' : 'text-gray-400'}`}>
+                                                            {item.vocab?.length || 0} từ
+                                                        </div>
                                                     </div>
+                                                    {item.isPremium && !isPremiumUser && (
+                                                        <i className={`fa-solid fa-lock shrink-0 mt-1 ${item.id === activeLessonId ? 'text-indigo-200' : 'text-amber-500'}`}></i>
+                                                    )}
                                                 </button>
                                             ))}
                                         </div>
@@ -214,7 +221,18 @@ export function CurriculumTab({ programName, lessons }: { programName?: string, 
 
                     {/* Cột phải: Nội dung Tab */}
                     <div className="space-y-6">
-                        {activeLesson.title.includes("Mở Đầu") ? (
+                        {activeLesson.isPremium && !isPremiumUser ? (
+                            <div className="bg-white rounded-3xl p-12 border border-gray-100 shadow-sm text-center">
+                                <div className="w-20 h-20 bg-amber-50 rounded-full flex items-center justify-center mx-auto mb-6">
+                                    <i className="fa-solid fa-lock text-3xl text-amber-500"></i>
+                                </div>
+                                <h3 className="text-2xl font-bold text-gray-800 mb-2">Nội dung Premium</h3>
+                                <p className="text-gray-500 mb-8 max-w-md mx-auto">Bài học này thuộc gói Premium. Vui lòng nâng cấp tài khoản hoặc đăng nhập để tiếp tục học.</p>
+                                <button onClick={() => window.location.href = '/login'} className="px-6 py-3 bg-indigo-600 text-white font-medium rounded-xl hover:bg-indigo-700 transition shadow-sm">
+                                    Đăng nhập / Nâng cấp
+                                </button>
+                            </div>
+                        ) : activeLesson.title.includes("Mở Đầu") ? (
                             <div className="bg-white rounded-3xl p-8 border border-gray-100 shadow-sm relative overflow-hidden">
                                 <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-bl from-blue-100 to-transparent rounded-bl-full opacity-50 pointer-events-none"></div>
                                 

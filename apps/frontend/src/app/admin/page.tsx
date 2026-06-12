@@ -1,6 +1,5 @@
 import { PrismaClient } from "database";
-import path from "path";
-import { Users, GraduationCap, FileText, Activity } from "lucide-react";
+import { Users, GraduationCap, BookMarked, FileText, Activity } from "lucide-react";
 
 async function getStats() {
   
@@ -10,10 +9,11 @@ async function getStats() {
   const totalPremium = await prisma.user.count({
     where: { subscriptionStatus: "PREMIUM" }
   });
+  const totalSubjects = await prisma.subject.count();
   const totalPrograms = await prisma.program.count();
   const totalLessons = await prisma.lesson.count();
 
-  return { totalUsers, totalPremium, totalPrograms, totalLessons };
+  return { totalUsers, totalPremium, totalSubjects, totalPrograms, totalLessons };
 }
 
 export default async function AdminDashboard() {
@@ -22,6 +22,7 @@ export default async function AdminDashboard() {
   const cards = [
     { title: "Tổng Người dùng", value: stats.totalUsers, icon: Users, color: "bg-blue-500" },
     { title: "Người dùng Premium", value: stats.totalPremium, icon: Activity, color: "bg-emerald-500" },
+    { title: "Tổng Môn học", value: stats.totalSubjects, icon: BookMarked, color: "bg-indigo-500" },
     { title: "Tổng Chương trình", value: stats.totalPrograms, icon: GraduationCap, color: "bg-purple-500" },
     { title: "Tổng Bài học", value: stats.totalLessons, icon: FileText, color: "bg-orange-500" },
   ];

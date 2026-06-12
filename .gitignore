@@ -15,3 +15,9 @@ dev.db
 *.db
 *.db-journal
 .DS_Store
+
+apps/frontend/.env
+apps/backend/.env
+packages/database/.env
+packages/database/dev.db
+packages/database/prisma/dev.db

@@ -498,29 +498,19 @@ export function ReadingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: {
     // Sentence extraction and shuffle logic
     const sentencePool = useMemo(() => {
         const list: any[] = [];
-        if (passagesData && passagesData.length > 0) {
-            passagesData.forEach((p: any) => {
-                if (p.lines && p.lines.length > 0) {
-                    p.lines.forEach((line: any) => {
-                        if (line.zh) {
-                            list.push({
-                                zh: line.zh,
-                                py: line.py || '',
-                                vi: line.vi || '',
-                                title: p.title || 'Hội thoại'
-                            });
-                        }
-                    });
-                }
-            });
-        }
-        return list;
-    }, [passagesData]);
+        return vocabData
+            .filter(v => v.example_zh && v.example_vi)
+            .map(v => ({
+                zh: v.example_zh,
+                vi: v.example_vi,
+                py: v.example_py || '',
+                title: v.hanzi || v.word
+            }));
+    }, [vocabData]);
 
     useEffect(() => {
         if (subMode === 'sentence') {
-            const list = sentencePool.length > 0 ? sentencePool : FALLBACK_SENTENCES;
-            setShuffledSentences(fisherYatesShuffle([...list]));
+            setShuffledSentences(fisherYatesShuffle([...sentencePool]));
             setSentenceIdx(0);
         }
     }, [sentencePool, subMode]);

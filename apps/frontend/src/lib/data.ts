@@ -116,6 +116,7 @@ export async function getLessonsData(programCode: string) {
       title: l.title,
       theme: l.theme || 'Bài học', // dùng theme từ DB, fallback nếu chưa có
       description: '',
+      isPremium: l.isPremium,
       vocab: l.contents
         .filter((c: any) => c.contentType === 'THEORY')
         .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
