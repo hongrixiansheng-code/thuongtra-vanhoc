@@ -30,10 +30,10 @@ export default async function LessonPage({
     try { return JSON.parse(content); } catch { return {}; }
   };
 
-  const vocabItems    = lesson.contents.filter(c => c.contentType === 'THEORY').map(c => parse(c.content));
-  const grammarItems  = lesson.contents.filter(c => c.contentType === 'GRAMMAR').map(c => parse(c.content));
-  const dialogueItems = lesson.contents.filter(c => c.contentType === 'DIALOGUE').map(c => parse(c.content));
-  const exerciseItems = lesson.contents.filter(c => c.contentType === 'EXERCISE').map(c => parse(c.content));
+  const vocabItems    = lesson.contents.filter((c: any) => c.contentType === 'THEORY').map((c: any) => parse(c.content));
+  const grammarItems  = lesson.contents.filter((c: any) => c.contentType === 'GRAMMAR').map((c: any) => parse(c.content));
+  const dialogueItems = lesson.contents.filter((c: any) => c.contentType === 'DIALOGUE').map((c: any) => parse(c.content));
+  const exerciseItems = lesson.contents.filter((c: any) => c.contentType === 'EXERCISE').map((c: any) => parse(c.content));
 
   return (
     <div className="min-h-screen bg-gray-50">

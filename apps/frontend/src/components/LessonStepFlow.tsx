@@ -143,15 +143,42 @@ export default function LessonStepFlow({
         
         // Tạo 3 câu hỏi MC từ các từ vừa học
         const questions = shuffleArray(recentVocab).slice(0, 3).map((item: any) => {
-          // Tạo 3 đáp án sai từ các từ khác
-          const wrongPool = vocabItems.filter((v: any) => v.word !== item.word);
-          const wrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
-          const options = shuffleArray([item.meaning, ...wrongs]);
+          // Lấy nghĩa chính (trước dấu phẩy đầu tiên) để tránh trùng lặp
+          const mainMeaning = item.meaning?.split(',')[0].trim() || item.meaning;
+
+          // Lọc từ sai: loại bỏ từ có nghĩa chính giống hoặc gần giống
+          const wrongPool = vocabItems.filter((v: any) => {
+            if (v.word === item.word) return false;
+            const vMainMeaning = v.meaning?.split(',')[0].trim() || '';
+            // Loại bỏ nếu nghĩa chính giống nhau
+            if (vMainMeaning === mainMeaning) return false;
+            // Loại bỏ nếu nghĩa chứa nhau (ví dụ: "bố" và "bố, ba, cha")
+            if (mainMeaning.includes(vMainMeaning) || vMainMeaning.includes(mainMeaning)) return false;
+            return true;
+          });
+
+          const wrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) =>
+            v.meaning?.split(',')[0].trim() || v.meaning
+          );
+
+          // Nếu không đủ 3 đáp án sai → dùng nghĩa đầy đủ
+          if (wrongs.length < 3) {
+            const fallbackWrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
+            return {
+              type: 'multiple_choice',
+              question: `"${item.word}" có nghĩa là gì?`,
+              options: shuffleArray([item.meaning, ...fallbackWrongs]),
+              correct: item.meaning,
+              explanation: `"${item.word}" = ${item.meaning}`
+            };
+          }
+
+          const options = shuffleArray([mainMeaning, ...wrongs]);
           return {
             type: 'multiple_choice',
             question: `"${item.word}" có nghĩa là gì?`,
             options,
-            correct: item.meaning,
+            correct: mainMeaning,
             explanation: `"${item.word}" = ${item.meaning}`
           };
         });
