@@ -1,27 +1,50 @@
-import { VocabTab } from "@/components/legacy/VocabTab";
+import { prisma } from 'database';
+import LessonStepFlow from '@/components/LessonStepFlow';
 
-export default async function LessonPage({ 
-  params 
-}: { 
-  params: Promise<{ subject: string; program: string; lessonId: string }> 
+export const dynamic = 'force-dynamic';
+
+export default async function LessonPage({
+  params
+}: {
+  params: Promise<{ subject: string; program: string; lessonId: string }>
 }) {
-  const { subject, program, lessonId } = await params;
-  
-  // Mock content data
-  const contentData = {
-    vocab: [
-      { word: "Hello", translation: subject === "chinese" ? "你好 (Nǐ hǎo)" : "Xin chào" },
-      { word: "Thank you", translation: subject === "chinese" ? "谢谢 (Xièxiè)" : "Cảm ơn" },
-      { word: "Goodbye", translation: subject === "chinese" ? "再见 (Zàijiàn)" : "Tạm biệt" }
-    ]
+  const { lessonId } = await params;
+
+  const lesson = await prisma.lesson.findUnique({
+    where: { id: lessonId },
+    include: {
+      contents: { orderBy: { createdAt: 'asc' } },
+      program: { include: { subject: true } }
+    }
+  });
+
+  if (!lesson) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-gray-500">Không tìm thấy bài học.</p>
+      </div>
+    );
+  }
+
+  const parse = (content: string) => {
+    try { return JSON.parse(content); } catch { return {}; }
   };
 
+  const vocabItems    = lesson.contents.filter(c => c.contentType === 'THEORY').map(c => parse(c.content));
+  const grammarItems  = lesson.contents.filter(c => c.contentType === 'GRAMMAR').map(c => parse(c.content));
+  const dialogueItems = lesson.contents.filter(c => c.contentType === 'DIALOGUE').map(c => parse(c.content));
+  const exerciseItems = lesson.contents.filter(c => c.contentType === 'EXERCISE').map(c => parse(c.content));
+
   return (
-    <div className="container mx-auto p-4 max-w-4xl">
-      <h1 className="text-3xl font-bold mb-2 capitalize">{subject} Lesson</h1>
-      <p className="text-gray-600 mb-6 capitalize">Program: {program} | Lesson: {lessonId}</p>
-      
-      <VocabTab vocabData={contentData.vocab} />
+    <div className="min-h-screen bg-gray-50">
+      <LessonStepFlow
+        vocabItems={vocabItems}
+        grammarItems={grammarItems}
+        dialogueItems={dialogueItems}
+        exerciseItems={exerciseItems}
+        lessonTitle={lesson.title}
+        onComplete={undefined}
+      />
     </div>
   );
 }

@@ -32,7 +32,7 @@ export async function getAllSubjectsWithPrograms() {
 // =====================================================
 // Từ vựng
 // =====================================================
-export async function getAllVocabData(programCode: string) {
+export async function getAllVocabData(programCode: string, completedLessonIds?: string[]) {
   try {
     const program = await getProgramByCode(programCode);
     if (!program) return [];
@@ -40,7 +40,13 @@ export async function getAllVocabData(programCode: string) {
     const contents = await prisma.lessonContent.findMany({
       where: {
         contentType: 'THEORY',
-        lesson: { programId: program.id }
+        lesson: {
+          programId: program.id,
+          // Nếu có danh sách bài đã hoàn thành thì lọc theo đó
+          ...(completedLessonIds && completedLessonIds.length > 0
+            ? { id: { in: completedLessonIds } }
+            : {})
+        }
       }
     });
 
@@ -66,7 +72,7 @@ export async function getAllVocabData(programCode: string) {
 // =====================================================
 // Ngữ pháp
 // =====================================================
-export async function getAllGrammarData(programCode: string) {
+export async function getAllGrammarData(programCode: string, completedLessonIds?: string[]) {
   try {
     const program = await getProgramByCode(programCode);
     if (!program) return [];
@@ -74,7 +80,12 @@ export async function getAllGrammarData(programCode: string) {
     const contents = await prisma.lessonContent.findMany({
       where: {
         contentType: 'GRAMMAR',
-        lesson: { programId: program.id }
+        lesson: {
+          programId: program.id,
+          ...(completedLessonIds && completedLessonIds.length > 0
+            ? { id: { in: completedLessonIds } }
+            : {})
+        }
       }
     });
 
@@ -128,7 +139,11 @@ export async function getLessonsData(programCode: string) {
       dialogues: l.contents
         .filter((c: any) => c.contentType === 'DIALOGUE')
         .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
-        .filter(Boolean)
+        .filter(Boolean),
+      exercises: l.contents
+        .filter((c: any) => c.contentType === 'EXERCISE')
+        .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+        .filter(Boolean),
     }));
 
     return { programName: program.name, programCode: program.code, lessons: mappedLessons };
@@ -162,6 +177,49 @@ export async function getAllPassagesData(programCode: string) {
     });
 
     return Array.from(uniqueMap.values());
+  } catch (e) {
+    console.warn('DB fetch failed:', e);
+    return [];
+  }
+}
+
+// =====================================================
+// Lấy các câu từ Hội thoại để luyện đọc
+// =====================================================
+export async function getDialogueSentences(programCode: string) {
+  try {
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
+
+    const contents = await prisma.lessonContent.findMany({
+      where: {
+        contentType: 'DIALOGUE',
+        lesson: { programId: program.id }
+      }
+    });
+
+    const sentences: any[] = [];
+    contents.forEach((c) => {
+      try {
+        const dialogue = JSON.parse(c.content);
+        const dialogueTitle = dialogue.title || "Hội thoại";
+        if (dialogue.lines && Array.isArray(dialogue.lines)) {
+          dialogue.lines.forEach((line: any) => {
+            const text = line.zh || line.en;
+            if (text) {
+              sentences.push({
+                zh: text,
+                py: line.py || "",
+                vi: line.vi || "",
+                title: dialogueTitle
+              });
+            }
+          });
+        }
+      } catch {}
+    });
+
+    return sentences;
   } catch (e) {
     console.warn('DB fetch failed:', e);
     return [];

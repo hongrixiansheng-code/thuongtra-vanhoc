@@ -457,7 +457,7 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
     );
 });
 
-export function ReadingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: { vocabData: any[], passagesData?: any[], levelId?: string }) {
+export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [], levelId = 'hsk1' }: { vocabData: any[], passagesData?: any[], dialogueSentences?: any[], levelId?: string }) {
     if (levelId === 'en-starters') {
         return <StartersExercises vocabData={vocabData} mode="reading" />;
     }
@@ -497,8 +497,7 @@ export function ReadingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: {
 
     // Sentence extraction and shuffle logic
     const sentencePool = useMemo(() => {
-        const list: any[] = [];
-        return vocabData
+        const existingExampleSentences = vocabData
             .filter(v => v.example_zh && v.example_vi)
             .map(v => ({
                 zh: v.example_zh,
@@ -506,7 +505,8 @@ export function ReadingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: {
                 py: v.example_py || '',
                 title: v.hanzi || v.word
             }));
-    }, [vocabData]);
+        return [...existingExampleSentences, ...(dialogueSentences || [])];
+    }, [vocabData, dialogueSentences]);
 
     useEffect(() => {
         if (subMode === 'sentence') {
