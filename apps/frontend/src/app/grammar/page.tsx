@@ -1,31 +1,14 @@
 export const dynamic = 'force-dynamic';
-import { GrammarTab } from "@/components/legacy/GrammarTab";
+import GrammarClient from "@/components/GrammarClient";
 import { getAllGrammarData } from "@/lib/data";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
-import { PrismaClient } from "database";
+import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import Link from "next/link";
 
 export default async function GrammarPage(props: any) {
   const searchParams = await props.searchParams;
   const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const session = await getServerSession(authOptions);
-  let completedLessonIds: string[] = [];
-
-  if (session?.user?.email) {
-    const prisma = new PrismaClient();
-    const user = await prisma.user.findUnique({
-      where: { email: session.user.email },
-      include: {
-        progress: {
-          where: { completed: true },
-          select: { lessonId: true }
-        }
-      }
-    });
-    if (user) completedLessonIds = user.progress.map(p => p.lessonId);
-  }
+  const { completedLessonIds } = await getCompletedLessonIds(level);
 
   const grammarData = completedLessonIds.length > 0
     ? await getAllGrammarData(level, completedLessonIds)
@@ -48,7 +31,7 @@ export default async function GrammarPage(props: any) {
           </Link>
         </div>
       ) : (
-        <GrammarTab key={level} grammarData={grammarData} />
+        <GrammarClient grammarData={grammarData} level={level} />
       )}
     </div>
   );

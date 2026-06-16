@@ -1,0 +1,824 @@
+[
+  {
+    "orderIndex": 4,
+    "title": "Bài 5: Thời tiết và Mùa",
+    "theme": "CHƯƠNG 5: WEATHER (天气)",
+    "vocab": [
+      {
+        "hanzi": "热",
+        "pinyin": "rè",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "nóng",
+        "example_zh": "今天很热。",
+        "example_vi": "Hôm nay rất nóng."
+      },
+      {
+        "hanzi": "冷",
+        "pinyin": "lěng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "lạnh",
+        "example_zh": "外面有点儿冷。",
+        "example_vi": "Bên ngoài hơi lạnh."
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "trời mưa",
+        "example_zh": "明天下雨。",
+        "example_vi": "Ngày mai trời mưa."
+      },
+      {
+        "hanzi": "晴天",
+        "pinyin": "qíngtiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "trời nắng, trời quang",
+        "example_zh": "今天是晴天。",
+        "example_vi": "Hôm nay là ngày nắng."
+      },
+      {
+        "hanzi": "阴天",
+        "pinyin": "yīntiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "trời râm mát, u ám",
+        "example_zh": "明天是阴天。",
+        "example_vi": "Ngày mai trời râm mát."
+      },
+      {
+        "hanzi": "风",
+        "pinyin": "fēng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "gió",
+        "example_zh": "大风",
+        "example_vi": "Gió lớn."
+      },
+      {
+        "hanzi": "刮风",
+        "pinyin": "guā fēng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "nổi gió, có gió",
+        "example_zh": "今天刮风了。",
+        "example_vi": "Hôm nay nổi gió rồi."
+      },
+      {
+        "hanzi": "季节",
+        "pinyin": "jìjié",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mùa",
+        "example_zh": "你喜欢什么季节？",
+        "example_vi": "Bạn thích mùa nào?"
+      },
+      {
+        "hanzi": "春天",
+        "pinyin": "chūntiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mùa xuân",
+        "example_zh": "春天很暖和。",
+        "example_vi": "Mùa xuân rất ấm áp."
+      },
+      {
+        "hanzi": "夏天",
+        "pinyin": "xiàtiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mùa hè",
+        "example_zh": "夏天很热。",
+        "example_vi": "Mùa hè rất nóng."
+      },
+      {
+        "hanzi": "秋天",
+        "pinyin": "qiūtiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mùa thu",
+        "example_zh": "秋天的天气很好。",
+        "example_vi": "Thời tiết mùa thu rất đẹp."
+      },
+      {
+        "hanzi": "冬天",
+        "pinyin": "dōngtiān",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mùa đông",
+        "example_zh": "冬天很冷。",
+        "example_vi": "Mùa đông rất lạnh."
+      },
+      {
+        "hanzi": "因为",
+        "pinyin": "yīnwèi",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "bởi vì",
+        "example_zh": "因为下雨...",
+        "example_vi": "Bởi vì trời mưa..."
+      },
+      {
+        "hanzi": "所以",
+        "pinyin": "suǒyǐ",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "cho nên",
+        "example_zh": "...所以我不去。",
+        "example_vi": "...cho nên tôi không đi."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Phương vị từ: 上 / 下 / 前 / 后 / 里",
+        "desc": "Chỉ vị trí của sự vật (trên, dưới, trước, sau, trong).",
+        "formula": [
+          {
+            "text": "Danh từ + Phương vị từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "书在桌子上。",
+            "meaning": "Sách ở trên bàn."
+          },
+          {
+            "correct": "在房间里。",
+            "meaning": "Ở trong phòng."
+          }
+        ]
+      },
+      {
+        "title": "2. Khoảng cách: 离",
+        "desc": "Biểu thị khoảng cách giữa hai địa điểm.",
+        "formula": [
+          {
+            "text": "A 离 B 很远/很近",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我家离学校很近。",
+            "meaning": "Nhà tôi cách trường rất gần."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Thời tiết hôm nay",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "今天天气怎么样？",
+            "py": "Jīntiān tiānqì zěnmeyàng?",
+            "vi": "Thời tiết hôm nay thế nào?"
+          },
+          {
+            "speaker": "B",
+            "zh": "今天刮风，有点儿冷。",
+            "py": "Jīntiān guā fēng, yǒudiǎnr lěng.",
+            "vi": "Hôm nay có gió, hơi lạnh."
+          },
+          {
+            "speaker": "A",
+            "zh": "我们还去打篮球吗？",
+            "py": "Wǒmen hái qù dǎ lánqiú ma?",
+            "vi": "Chúng ta còn đi đánh bóng rổ không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "因为外面很冷，所以我们不去打篮球了。",
+            "py": "Yīnwèi wàimiàn hěn lěng, suǒyǐ wǒmen bú qù dǎ lánqiú le.",
+            "vi": "Bởi vì bên ngoài rất lạnh, cho nên chúng ta không đi đánh bóng rổ nữa."
+          },
+          {
+            "speaker": "A",
+            "zh": "你最喜欢什么季节？",
+            "py": "Nǐ zuì xǐhuan shénme jìjié?",
+            "vi": "Bạn thích mùa nào nhất?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我喜欢春天，因为春天很暖和。",
+            "py": "Wǒ xǐhuan chūntiān, yīnwèi chūntiān hěn nuǎnhuo.",
+            "vi": "Tôi thích mùa xuân, bởi vì mùa xuân rất ấm áp."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 5,
+    "title": "Bài 6: Gia đình và Bạn bè",
+    "theme": "CHƯƠNG 6: FAMILY & FRIENDS",
+    "vocab": [
+      {
+        "hanzi": "年轻",
+        "pinyin": "niánqīng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "trẻ tuổi",
+        "example_zh": "她很年轻。",
+        "example_vi": "Cô ấy rất trẻ."
+      },
+      {
+        "hanzi": "漂亮",
+        "pinyin": "piàoliang",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "đẹp, xinh",
+        "example_zh": "漂亮的衣服",
+        "example_vi": "Quần áo đẹp."
+      },
+      {
+        "hanzi": "聪明",
+        "pinyin": "cōngming",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "thông minh",
+        "example_zh": "他是一个聪明的孩子。",
+        "example_vi": "Cậu ấy là một đứa trẻ thông minh."
+      },
+      {
+        "hanzi": "可爱",
+        "pinyin": "kě'ài",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "đáng yêu",
+        "example_zh": "小狗很可爱。",
+        "example_vi": "Chó con rất đáng yêu."
+      },
+      {
+        "hanzi": "帅",
+        "pinyin": "shuài",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "đẹp trai",
+        "example_zh": "他长得很帅。",
+        "example_vi": "Cậu ấy trông rất đẹp trai."
+      },
+      {
+        "hanzi": "胖",
+        "pinyin": "pàng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "béo, mập",
+        "example_zh": "这只猫有点儿胖。",
+        "example_vi": "Con mèo này hơi mập."
+      },
+      {
+        "hanzi": "瘦",
+        "pinyin": "shòu",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "gầy",
+        "example_zh": "她比我瘦。",
+        "example_vi": "Cô ấy gầy hơn tôi."
+      },
+      {
+        "hanzi": "头发",
+        "pinyin": "tóufa",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tóc",
+        "example_zh": "她的头发很长。",
+        "example_vi": "Tóc của cô ấy rất dài."
+      },
+      {
+        "hanzi": "眼睛",
+        "pinyin": "yǎnjing",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mắt",
+        "example_zh": "大眼睛",
+        "example_vi": "Mắt to."
+      },
+      {
+        "hanzi": "长",
+        "pinyin": "cháng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "dài",
+        "example_zh": "长头发",
+        "example_vi": "Tóc dài."
+      },
+      {
+        "hanzi": "短",
+        "pinyin": "duǎn",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "ngắn",
+        "example_zh": "短头发",
+        "example_vi": "Tóc ngắn."
+      },
+      {
+        "hanzi": "性格",
+        "pinyin": "xìnggé",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tính cách",
+        "example_zh": "性格好",
+        "example_vi": "Tính cách tốt."
+      },
+      {
+        "hanzi": "比",
+        "pinyin": "bǐ",
+        "type": "Giới từ",
+        "type_short": "prep",
+        "meaning": "hơn, so với",
+        "example_zh": "我比他高。",
+        "example_vi": "Tôi cao hơn anh ấy."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Đang diễn ra: 正在",
+        "desc": "Nhấn mạnh quá trình đang diễn ra (chú trọng về thời gian).",
+        "formula": [
+          {
+            "text": "Chủ ngữ + 正在 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我正在吃饭。",
+            "meaning": "Tôi đang ăn cơm."
+          }
+        ]
+      },
+      {
+        "title": "2. Đang diễn ra: 在",
+        "desc": "Biểu thị hành động đang được thực hiện (chú trọng về trạng thái hành động).",
+        "formula": [
+          {
+            "text": "Chủ ngữ + 在 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他在学习。",
+            "meaning": "Anh ấy đang học."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Chị em gái",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "那是你姐姐吗？她真漂亮！",
+            "py": "Nà shì nǐ jiějie ma? Tā zhēn piàoliang!",
+            "vi": "Đó là chị gái bạn sao? Chị ấy đẹp thật!"
+          },
+          {
+            "speaker": "B",
+            "zh": "对，那是我姐姐。她今年二十五岁。",
+            "py": "Duì, nà shì wǒ jiějie. Tā jīnnián èrshíwǔ suì.",
+            "vi": "Đúng, đó là chị tôi. Năm nay chị ấy 25 tuổi."
+          },
+          {
+            "speaker": "A",
+            "zh": "她比你大两岁。你们的眼睛很像。",
+            "py": "Tā bǐ nǐ dà liǎng suì. Nǐmen de yǎnjing hěn xiàng.",
+            "vi": "Chị ấy lớn hơn bạn hai tuổi. Mắt của các bạn rất giống nhau."
+          },
+          {
+            "speaker": "B",
+            "zh": "但是她比我高，也比我瘦。",
+            "py": "Dànshì tā bǐ wǒ gāo, yě bǐ wǒ shòu.",
+            "vi": "Nhưng chị ấy cao hơn tôi, và cũng gầy hơn tôi nữa."
+          },
+          {
+            "speaker": "A",
+            "zh": "她的头发很长，你的头发短。",
+            "py": "Tā de tóufa hěn cháng, nǐ de tóufa duǎn.",
+            "vi": "Tóc chị ấy rất dài, tóc bạn thì ngắn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "title": "Bài 7: Sở thích",
+    "theme": "CHƯƠNG 7: HOBBIES",
+    "vocab": [
+      {
+        "hanzi": "爱好",
+        "pinyin": "àihào",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "sở thích",
+        "example_zh": "你的爱好是什么？",
+        "example_vi": "Sở thích của bạn là gì?"
+      },
+      {
+        "hanzi": "足球",
+        "pinyin": "zúqiú",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "bóng đá",
+        "example_zh": "踢足球",
+        "example_vi": "Đá bóng."
+      },
+      {
+        "hanzi": "游泳",
+        "pinyin": "yóuyǒng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "bơi lội",
+        "example_zh": "我喜欢游泳。",
+        "example_vi": "Tôi thích bơi."
+      },
+      {
+        "hanzi": "唱歌",
+        "pinyin": "chànggē",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "hát",
+        "example_zh": "她唱歌很好听。",
+        "example_vi": "Cô ấy hát rất hay."
+      },
+      {
+        "hanzi": "跳舞",
+        "pinyin": "tiàowǔ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "khiêu vũ, múa",
+        "example_zh": "学习跳舞",
+        "example_vi": "Học múa."
+      },
+      {
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "phim",
+        "example_zh": "看电影",
+        "example_vi": "Xem phim."
+      },
+      {
+        "hanzi": "音乐",
+        "pinyin": "yīnyuè",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "âm nhạc",
+        "example_zh": "听音乐",
+        "example_vi": "Nghe nhạc."
+      },
+      {
+        "hanzi": "踢",
+        "pinyin": "tī",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "đá",
+        "example_zh": "踢球",
+        "example_vi": "Đá bóng."
+      },
+      {
+        "hanzi": "比赛",
+        "pinyin": "bǐsài",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "trận đấu, thi đấu",
+        "example_zh": "足球比赛",
+        "example_vi": "Trận đấu bóng đá."
+      },
+      {
+        "hanzi": "喜欢",
+        "pinyin": "xǐhuan",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "thích",
+        "example_zh": "我喜欢你。",
+        "example_vi": "Tôi thích bạn."
+      },
+      {
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "yêu",
+        "example_zh": "我爱你。",
+        "example_vi": "Tôi yêu bạn."
+      },
+      {
+        "hanzi": "常常",
+        "pinyin": "chángcháng",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "thường xuyên",
+        "example_zh": "我常常去图书馆。",
+        "example_vi": "Tôi thường xuyên đến thư viện."
+      },
+      {
+        "hanzi": "很少",
+        "pinyin": "hěn shǎo",
+        "type": "Cụm phó từ",
+        "type_short": "adv",
+        "meaning": "rất ít khi",
+        "example_zh": "我很少看电视。",
+        "example_vi": "Tôi rất ít khi xem TV."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Quá... : 太…了",
+        "desc": "Biểu thị mức độ cao, thường đi kèm cảm thán hoặc than phiền.",
+        "formula": [
+          {
+            "text": "太 + Tính từ + 了",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "太贵了！",
+            "meaning": "Đắt quá!"
+          }
+        ]
+      },
+      {
+        "title": "2. Thật là... : 真",
+        "desc": "Dùng trong câu cảm thán, khen ngợi từ đáy lòng.",
+        "formula": [
+          {
+            "text": "真 + Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "真漂亮！",
+            "meaning": "Đẹp thật!"
+          }
+        ]
+      },
+      {
+        "title": "3. Hơi... : 有点",
+        "desc": "Chỉ mức độ nhẹ nhưng thường mang nghĩa không hài lòng, tiêu cực.",
+        "formula": [
+          {
+            "text": "有点(儿) + Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "有点累。",
+            "meaning": "Hơi mệt."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Bạn thích thể thao không?",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "马克，你的爱好是什么？",
+            "py": "Mǎkè, nǐ de àihào shì shénme?",
+            "vi": "Mark, sở thích của bạn là gì?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我最喜欢运动，特别是踢足球。",
+            "py": "Wǒ zuì xǐhuan yùndòng, tèbié shì tī zúqiú.",
+            "vi": "Tôi thích thể thao nhất, đặc biệt là đá bóng."
+          },
+          {
+            "speaker": "A",
+            "zh": "你常常去踢足球吗？",
+            "py": "Nǐ chángcháng qù tī zúqiú ma?",
+            "vi": "Bạn có thường xuyên đi đá bóng không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "对，我常常和朋友一起踢。你喜欢运动吗？",
+            "py": "Duì, wǒ chángcháng hé péngyou yìqǐ tī. Nǐ xǐhuan yùndòng ma?",
+            "vi": "Đúng, tôi thường đi đá với bạn bè. Bạn có thích thể thao không?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我很少运动，我喜欢听音乐和看电影。",
+            "py": "Wǒ hěn shǎo yùndòng, wǒ xǐhuan tīng yīnyuè hé kàn diànyǐng.",
+            "vi": "Tôi rất ít khi thể thao, tôi thích nghe nhạc và xem phim."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "title": "Bài 8: Lên kế hoạch cuối tuần",
+    "theme": "CHƯƠNG 8: MAKING PLANS",
+    "vocab": [
+      {
+        "hanzi": "周末",
+        "pinyin": "zhōumò",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cuối tuần",
+        "example_zh": "周末快乐！",
+        "example_vi": "Cuối tuần vui vẻ!"
+      },
+      {
+        "hanzi": "计划",
+        "pinyin": "jìhuà",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "kế hoạch, lên kế hoạch",
+        "example_zh": "周末你有什么计划？",
+        "example_vi": "Cuối tuần bạn có kế hoạch gì?"
+      },
+      {
+        "hanzi": "一起",
+        "pinyin": "yìqǐ",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "cùng nhau",
+        "example_zh": "我们一起去吧。",
+        "example_vi": "Chúng ta cùng nhau đi nhé."
+      },
+      {
+        "hanzi": "见面",
+        "pinyin": "jiànmiàn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "gặp mặt",
+        "example_zh": "明天我们在学校见面。",
+        "example_vi": "Ngày mai chúng ta gặp mặt ở trường."
+      },
+      {
+        "hanzi": "打算",
+        "pinyin": "dǎsuàn",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "dự định",
+        "example_zh": "我打算去旅游。",
+        "example_vi": "Tôi dự định đi du lịch."
+      },
+      {
+        "hanzi": "电影院",
+        "pinyin": "diànyǐngyuàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "rạp chiếu phim",
+        "example_zh": "去电影院看电影",
+        "example_vi": "Đến rạp chiếu phim xem phim."
+      },
+      {
+        "hanzi": "忙",
+        "pinyin": "máng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "bận rộn",
+        "example_zh": "今天我很忙。",
+        "example_vi": "Hôm nay tôi rất bận."
+      },
+      {
+        "hanzi": "空",
+        "pinyin": "kòng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "thời gian rảnh (有空: có thời gian)",
+        "example_zh": "明天你有空吗？",
+        "example_vi": "Ngày mai bạn rảnh không?"
+      },
+      {
+        "hanzi": "告诉",
+        "pinyin": "gàosu",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bảo, nói với",
+        "example_zh": "请告诉我。",
+        "example_vi": "Vui lòng nói cho tôi biết."
+      },
+      {
+        "hanzi": "会",
+        "pinyin": "huì",
+        "type": "Động từ năng nguyện",
+        "type_short": "v",
+        "meaning": "sẽ / biết làm (qua học tập)",
+        "example_zh": "明天会下雨。",
+        "example_vi": "Ngày mai sẽ mưa."
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "type": "Động từ năng nguyện",
+        "type_short": "v",
+        "meaning": "có thể (được phép)",
+        "example_zh": "你可以来吗？",
+        "example_vi": "Bạn có thể đến không?"
+      },
+      {
+        "hanzi": "能",
+        "pinyin": "néng",
+        "type": "Động từ năng nguyện",
+        "type_short": "v",
+        "meaning": "có thể (có khả năng, điều kiện)",
+        "example_zh": "你能帮我吗？",
+        "example_vi": "Bạn có thể giúp tôi không?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Cũng: 也",
+        "desc": "Biểu thị sự việc có tính chất giống với sự việc trước đó.",
+        "formula": [
+          {
+            "text": "Chủ ngữ + 也 + Động từ/Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我也去。",
+            "meaning": "Tôi cũng đi."
+          }
+        ]
+      },
+      {
+        "title": "2. Đều, tất cả: 都",
+        "desc": "Gộp tất cả đối tượng ở phía trước.",
+        "formula": [
+          {
+            "text": "Chủ ngữ số nhiều + 都 + Động từ/Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我们都来了。",
+            "meaning": "Tất cả chúng tôi đều đến rồi."
+          }
+        ]
+      },
+      {
+        "title": "3. Vẫn, còn: 还",
+        "desc": "Biểu thị hành động/trạng thái đang tiếp diễn chưa dừng lại.",
+        "formula": [
+          {
+            "text": "还 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他还没来。",
+            "meaning": "Anh ấy vẫn chưa đến."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Hẹn đi xem phim",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "小王，周末你有空吗？",
+            "py": "Xiǎowáng, zhōumò nǐ yǒu kòng ma?",
+            "vi": "Tiểu Vương, cuối tuần bạn có rảnh không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "星期六我有点儿忙，星期天有空。怎么了？",
+            "py": "Xīngqīliù wǒ yǒudiǎnr máng, xīngqītiān yǒu kòng. Zěnme le?",
+            "vi": "Thứ 7 tôi hơi bận, chủ nhật thì rảnh. Sao vậy?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我们打算星期天去电影院看电影。你可以一起去吗？",
+            "py": "Wǒmen dǎsuàn xīngqītiān qù diànyǐngyuàn kàn diànyǐng. Nǐ kěyǐ yìqǐ qù ma?",
+            "vi": "Chúng tôi định chủ nhật đi rạp xem phim. Bạn có thể đi cùng không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "可以啊，没问题。我们几点见面？",
+            "py": "Kěyǐ a, méi wèntí. Wǒmen jǐ diǎn jiànmiàn?",
+            "vi": "Được thôi, không vấn đề gì. Chúng ta gặp nhau lúc mấy giờ?"
+          },
+          {
+            "speaker": "A",
+            "zh": "下午两点，在电影院门口见。",
+            "py": "Xiàwǔ liǎng diǎn, zài diànyǐngyuàn ménkǒu jiàn.",
+            "vi": "2 giờ chiều, gặp ở cửa rạp phim nhé."
+          }
+        ]
+      }
+    ]
+  }
+]

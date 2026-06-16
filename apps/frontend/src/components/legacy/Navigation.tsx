@@ -67,6 +67,7 @@ export function Navigation() {
     if (pathname?.includes('/mock-test')) activeTab = 'mock-test';
     if (pathname?.includes('/vocab')) activeTab = 'vocab';
     if (pathname?.includes('/grammar')) activeTab = 'grammar';
+    if (pathname?.includes('/dialogue')) activeTab = 'dialogue';
 
     const mainTabs = [
         { id: 'curriculum', icon: 'fa-house', label: 'Trang chủ', route: '/dashboard' },
@@ -164,7 +165,7 @@ export function Navigation() {
                     <div className="relative">
                         <button onClick={() => setOpenMenu(openMenu === 'hoctap' ? null : 'hoctap')}
                             className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors
-                                ${['vocab', 'grammar'].includes(activeTab) ? 'bg-indigo-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
+                                ${['vocab', 'grammar', 'dialogue'].includes(activeTab) ? 'bg-indigo-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
                             Học tập <i className="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         {openMenu === 'hoctap' && (
@@ -173,6 +174,7 @@ export function Navigation() {
                                     { id: 'curriculum', icon: 'fa-route', label: 'Giáo trình', route: '/dashboard' },
                                     { id: 'vocab', icon: 'fa-book-open', label: 'Từ vựng', route: '/vocab' },
                                     { id: 'grammar', icon: 'fa-layer-group', label: 'Ngữ pháp', route: '/grammar' },
+                                    { id: 'dialogue', icon: 'fa-comments', label: 'Hội thoại', route: '/dialogue' },
                                 ].map(item => (
                                     <Link href={`${item.route}?level=${currentLevel}`} key={item.id} onClick={() => setOpenMenu(null)}
                                         className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-gray-50

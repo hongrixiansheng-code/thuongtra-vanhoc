@@ -18,10 +18,11 @@ interface DashboardClientProps {
   lessons: Lesson[];
   programName: string;
   isPremiumUser?: boolean;
+  isAdmin?: boolean;
   progressMap: Record<string, boolean>;
 }
 
-export default function DashboardClient({ lessons, programName, isPremiumUser, progressMap }: DashboardClientProps) {
+export default function DashboardClient({ lessons, programName, isPremiumUser, isAdmin, progressMap }: DashboardClientProps) {
   const [activeLessonId, setActiveLessonId] = useState<string | null>(null);
 
   const activeLesson = lessons.find(l => l.id === activeLessonId);
@@ -73,12 +74,12 @@ export default function DashboardClient({ lessons, programName, isPremiumUser, p
                 // Bài thứ 2 mở nếu: bài đầu có 0 từ (bài mở đầu/giới thiệu) HOẶC bài đầu đã hoàn thành
                 const firstLesson = lessons[0];
                 const firstLessonIsIntro = (firstLesson?.vocab?.length || 0) === 0;
-                const isProgressLocked = lessonIndex === 0
+                const isProgressLocked = isAdmin ? false : lessonIndex === 0
                   ? false
                   : lessonIndex === 1
                     ? !firstLessonIsIntro && !progressMap[prevLesson!.id]
                     : !progressMap[prevLesson!.id];
-                const isPremiumLocked = lesson.isPremium && !isPremiumUser;
+                const isPremiumLocked = isAdmin ? false : lesson.isPremium && !isPremiumUser;
                 const isLocked = isProgressLocked || isPremiumLocked;
                 return (
                   <button

@@ -1,0 +1,2762 @@
+[
+  {
+    "orderIndex": 30,
+    "title": "Bài 16A: Các vấn đề xã hội (Phần 1)",
+    "theme": "Các vấn đề xã hội",
+    "words": [
+      {
+        "id": "1",
+        "word": "社会",
+        "pinyin": "shèhuì",
+        "meaning": "Xã hội",
+        "type": "Danh từ",
+        "example": "社会在不断发展。",
+        "exampleMeaning": "Xã hội đang không ngừng phát triển."
+      },
+      {
+        "id": "2",
+        "word": "问题",
+        "pinyin": "wèntí",
+        "meaning": "Vấn đề",
+        "type": "Danh từ",
+        "example": "解决社会问题。",
+        "exampleMeaning": "Giải quyết vấn đề xã hội."
+      },
+      {
+        "id": "3",
+        "word": "发现",
+        "pinyin": "fāxiàn",
+        "meaning": "Phát hiện",
+        "type": "Động/Danh từ",
+        "example": "发现了一些问题。",
+        "exampleMeaning": "Đã phát hiện một số vấn đề."
+      },
+      {
+        "id": "4",
+        "word": "解决",
+        "pinyin": "jiějué",
+        "meaning": "Giải quyết",
+        "type": "Động từ",
+        "example": "解决困难。",
+        "exampleMeaning": "Giải quyết khó khăn."
+      },
+      {
+        "id": "5",
+        "word": "发展",
+        "pinyin": "fāzhǎn",
+        "meaning": "Phát triển",
+        "type": "Động/Danh từ",
+        "example": "经济发展很快。",
+        "exampleMeaning": "Kinh tế phát triển rất nhanh."
+      },
+      {
+        "id": "6",
+        "word": "变化",
+        "pinyin": "biànhuà",
+        "meaning": "Biến hóa, thay đổi",
+        "type": "Danh/Động từ",
+        "example": "城市的变化很大。",
+        "exampleMeaning": "Sự thay đổi của thành phố rất lớn."
+      },
+      {
+        "id": "7",
+        "word": "增加",
+        "pinyin": "zēngjiā",
+        "meaning": "Gia tăng",
+        "type": "Động từ",
+        "example": "人口在增加。",
+        "exampleMeaning": "Dân số đang gia tăng."
+      },
+      {
+        "id": "8",
+        "word": "减少",
+        "pinyin": "jiǎnshǎo",
+        "meaning": "Giảm bớt",
+        "type": "Động từ",
+        "example": "减少浪费。",
+        "exampleMeaning": "Giảm thiểu sự lãng phí."
+      },
+      {
+        "id": "9",
+        "word": "人口",
+        "pinyin": "rénkǒu",
+        "meaning": "Dân số",
+        "type": "Danh từ",
+        "example": "中国人口很多。",
+        "exampleMeaning": "Dân số Trung Quốc rất đông."
+      },
+      {
+        "id": "10",
+        "word": "经济",
+        "pinyin": "jīngjì",
+        "meaning": "Kinh tế",
+        "type": "Danh/Tính từ",
+        "example": "经济危机。",
+        "exampleMeaning": "Khủng hoảng kinh tế."
+      },
+      {
+        "id": "11",
+        "word": "政治",
+        "pinyin": "zhèngzhì",
+        "meaning": "Chính trị",
+        "type": "Danh từ",
+        "example": "政治学。",
+        "exampleMeaning": "Chính trị học."
+      },
+      {
+        "id": "12",
+        "word": "法律",
+        "pinyin": "fǎlǜ",
+        "meaning": "Pháp luật",
+        "type": "Danh từ",
+        "example": "遵守法律。",
+        "exampleMeaning": "Tuân thủ pháp luật."
+      },
+      {
+        "id": "13",
+        "word": "规定",
+        "pinyin": "guīdìng",
+        "meaning": "Quy định",
+        "type": "Danh/Động từ",
+        "example": "学校的规定。",
+        "exampleMeaning": "Quy định của trường học."
+      },
+      {
+        "id": "14",
+        "word": "禁止",
+        "pinyin": "jìnzhǐ",
+        "meaning": "Nghiêm cấm",
+        "type": "Động từ",
+        "example": "禁止停车。",
+        "exampleMeaning": "Cấm đỗ xe."
+      },
+      {
+        "id": "15",
+        "word": "保护",
+        "pinyin": "bǎohù",
+        "meaning": "Bảo vệ",
+        "type": "Động/Danh từ",
+        "example": "保护老人和儿童。",
+        "exampleMeaning": "Bảo vệ người già và trẻ em."
+      },
+      {
+        "id": "16",
+        "word": "环境",
+        "pinyin": "huánjìng",
+        "meaning": "Môi trường",
+        "type": "Danh từ",
+        "example": "社会环境。",
+        "exampleMeaning": "Môi trường xã hội."
+      },
+      {
+        "id": "17",
+        "word": "污染",
+        "pinyin": "wūrǎn",
+        "meaning": "Ô nhiễm",
+        "type": "Động/Danh từ",
+        "example": "空气污染。",
+        "exampleMeaning": "Ô nhiễm không khí."
+      },
+      {
+        "id": "18",
+        "word": "责任",
+        "pinyin": "zérèn",
+        "meaning": "Trách nhiệm",
+        "type": "Danh từ",
+        "example": "这是我们的责任。",
+        "exampleMeaning": "Đây là trách nhiệm của chúng ta."
+      },
+      {
+        "id": "19",
+        "word": "负责",
+        "pinyin": "fùzé",
+        "meaning": "Phụ trách",
+        "type": "Động/Tính từ",
+        "example": "对工作负责。",
+        "exampleMeaning": "Có trách nhiệm với công việc."
+      },
+      {
+        "id": "20",
+        "word": "调查",
+        "pinyin": "diàochá",
+        "meaning": "Điều tra",
+        "type": "Động/Danh从",
+        "example": "调查社会现状。",
+        "exampleMeaning": "Điều tra hiện trạng xã hội."
+      },
+      {
+        "id": "21",
+        "word": "研究",
+        "pinyin": "yánjiū",
+        "meaning": "Nghiên cứu",
+        "type": "Động/Danh从",
+        "example": "研究社会问题。",
+        "exampleMeaning": "Nghiên cứu vấn đề xã hội."
+      },
+      {
+        "id": "22",
+        "word": "结果",
+        "pinyin": "jiéguǒ",
+        "meaning": "Kết quả",
+        "type": "Danh/Liên从",
+        "example": "调查结果。",
+        "exampleMeaning": "Kết quả điều tra."
+      },
+      {
+        "id": "23",
+        "word": "报告",
+        "pinyin": "bàogào",
+        "meaning": "Báo cáo",
+        "type": "Danh/Động从",
+        "example": "写一份报告。",
+        "exampleMeaning": "Viết một bản báo cáo."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 之所以…是因为… (Sở dĩ... là bởi vì...)",
+        "description": "Nhấn mạnh nguyên nhân của một sự việc hoặc kết quả đã được nêu trước.",
+        "formula": "Chủ ngữ + 之所以 + Kết quả，是因为 + Nguyên nhân",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "他之所以成功，是因为他很努力。",
+            "vietnamese": "Anh ấy sở dĩ thành công, là bởi vì anh ấy rất nỗ lực."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 正是…才… (Chính là... mới...)",
+        "description": "Nhấn mạnh điều kiện hoặc nguyên nhân duy nhất dẫn đến kết quả.",
+        "formula": "正是 (因为) + Nguyên nhân，才 + Kết quả",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "正是你的鼓励，我才没有放弃。",
+            "vietnamese": "Chính là nhờ sự khích lệ của bạn, tôi mới không từ bỏ."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Phân tích nguyên nhân",
+        "context": "Hai người bạn đang bàn luận về thành công của một công ty.",
+        "lines": [
+          {
+            "speaker": "小李",
+            "zh": "这家公司之所以成功，是因为他们重视人才。",
+            "py": "Zhè jiā gōngsī zhī suǒyǐ chénggōng, shì yīnwèi tāmen zhòngshì réncái.",
+            "vi": "Công ty này sở dĩ thành công, là bởi vì họ coi trọng nhân tài."
+          },
+          {
+            "speaker": "大卫",
+            "zh": "没错，正是因为这样，大家才愿意为公司效力。",
+            "py": "Méicuò, zhèng shì yīnwèi zhèyàng, dàjiā cái yuànyì wèi gōngsī xiàolì.",
+            "vi": "Không sai, chính là vì như vậy, mọi người mới sẵn lòng cống hiến cho công ty."
+          },
+          {
+            "speaker": "小李",
+            "zh": "而且他们的产品质量也非常好。",
+            "py": "Érqiě tāmen de chǎnpǐn zhìliàng yě fēicháng hǎo.",
+            "vi": "Hơn nữa chất lượng sản phẩm của họ cũng vô cùng tốt."
+          },
+          {
+            "speaker": "大卫",
+            "zh": "这也就是为什么他们能赢得市场。",
+            "py": "Zhè yě jiù shì wèishénme tāmen néng yíngdé shìchǎng.",
+            "vi": "Đó cũng chính là lý do tại sao họ có thể giành được thị trường."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 31,
+    "title": "Bài 16B: Các vấn đề xã hội (Phần 2)",
+    "theme": "Các vấn đề xã hội",
+    "words": [
+      {
+        "id": "1",
+        "word": "证明",
+        "pinyin": "zhèngmíng",
+        "meaning": "Chứng minh",
+        "type": "Động/Danh从",
+        "example": "事实证明这是对的。",
+        "exampleMeaning": "Sự thật chứng minh điều này là đúng."
+      },
+      {
+        "id": "2",
+        "word": "随便",
+        "pinyin": "suíbiàn",
+        "meaning": "Tùy ý",
+        "type": "Tính/Phó从",
+        "example": "不要随便丢垃圾。",
+        "exampleMeaning": "Đừng vứt rác tùy tiện."
+      },
+      {
+        "id": "3",
+        "word": "严重",
+        "pinyin": "yánzhòng",
+        "meaning": "Nghiêm trọng",
+        "type": "Tính从",
+        "example": "情况很严重。",
+        "exampleMeaning": "Tình huống rất nghiêm trọng."
+      },
+      {
+        "id": "4",
+        "word": "危险",
+        "pinyin": "wēixiǎn",
+        "meaning": "Nguy hiểm",
+        "type": "Tính/Danh从",
+        "example": "危险的行为。",
+        "exampleMeaning": "Hành vi nguy hiểm."
+      },
+      {
+        "id": "5",
+        "word": "安全",
+        "pinyin": "ānquán",
+        "meaning": "An toàn",
+        "type": "Tính/Danh从",
+        "example": "注意安全。",
+        "exampleMeaning": "Chú ý an toàn."
+      },
+      {
+        "id": "6",
+        "word": "甚至",
+        "pinyin": "shènzhì",
+        "meaning": "Thậm chí",
+        "type": "Phó/Liên从",
+        "example": "甚至有人不知道。",
+        "exampleMeaning": "Thậm chí có người không biết."
+      },
+      {
+        "id": "7",
+        "word": "引起",
+        "pinyin": "yǐnqǐ",
+        "meaning": "Gây ra, dẫn đến",
+        "type": "Động从",
+        "example": "引起了关注。",
+        "exampleMeaning": "Đã dẫn đến sự chú ý."
+      },
+      {
+        "id": "8",
+        "word": "往往",
+        "pinyin": "wǎngwǎng",
+        "meaning": "Thường hay",
+        "type": "Phó从",
+        "example": "往往会忽视这些细节。",
+        "exampleMeaning": "Thường hay bỏ qua những chi tiết này."
+      },
+      {
+        "id": "9",
+        "word": "复杂",
+        "pinyin": "fùzá",
+        "meaning": "Phức tạp",
+        "type": "Tính从",
+        "example": "社会关系很复杂。",
+        "exampleMeaning": "Quan hệ xã hội rất phức tạp."
+      },
+      {
+        "id": "10",
+        "word": "困难",
+        "pinyin": "kùnnan",
+        "meaning": "Khó khăn",
+        "type": "Tính/Danh从",
+        "example": "生活很困难。",
+        "exampleMeaning": "Cuộc sống rất khó khăn."
+      },
+      {
+        "id": "11",
+        "word": "态度",
+        "pinyin": "tàidù",
+        "meaning": "Thái độ",
+        "type": "Danh从",
+        "example": "他的态度很坚决。",
+        "exampleMeaning": "Thái độ của anh ấy rất kiên quyết."
+      },
+      {
+        "id": "12",
+        "word": "意见",
+        "pinyin": "yìjiàn",
+        "meaning": "Ý kiến",
+        "type": "Danh从",
+        "example": "听取群众意见。",
+        "exampleMeaning": "Lắng nghe ý kiến quần chúng."
+      },
+      {
+        "id": "13",
+        "word": "建议",
+        "pinyin": "jiànyì",
+        "meaning": "Kiến nghị",
+        "type": "Động/Danh从",
+        "example": "提出建议。",
+        "exampleMeaning": "Đưa ra kiến nghị."
+      },
+      {
+        "id": "14",
+        "word": "讨论",
+        "pinyin": "tǎolùn",
+        "meaning": "Thảo luận",
+        "type": "Động/Danh从",
+        "example": "讨论解决方案。",
+        "exampleMeaning": "Thảo luận phương án giải quyết."
+      },
+      {
+        "id": "15",
+        "word": "交流",
+        "pinyin": "jiāoliú",
+        "meaning": "Giao lưu",
+        "type": "Động/Danh从",
+        "example": "多交流思想。",
+        "exampleMeaning": "Tích cực giao lưu tư tưởng."
+      },
+      {
+        "id": "16",
+        "word": "支持",
+        "pinyin": "zhīchí",
+        "meaning": "Ủng hộ",
+        "type": "Động/Danh从",
+        "example": "支持这个政策。",
+        "exampleMeaning": "Ủng hộ chính sách này."
+      },
+      {
+        "id": "17",
+        "word": "反对",
+        "pinyin": "fǎnduì",
+        "meaning": "Phản đối",
+        "type": "Động从",
+        "example": "有人反对。",
+        "exampleMeaning": "Có người phản đối."
+      },
+      {
+        "id": "18",
+        "word": "同意",
+        "pinyin": "tóngyì",
+        "meaning": "Đồng ý",
+        "type": "Động从",
+        "example": "我同意你的看法。",
+        "exampleMeaning": "Tôi đồng ý với cách nhìn của bạn."
+      },
+      {
+        "id": "19",
+        "word": "拒绝",
+        "pinyin": "jùjué",
+        "meaning": "Từ chối",
+        "type": "Động从",
+        "example": "拒绝接受。",
+        "exampleMeaning": "Từ chối tiếp nhận."
+      },
+      {
+        "id": "20",
+        "word": "接受",
+        "pinyin": "jiēshòu",
+        "meaning": "Chấp nhận",
+        "type": "Động从",
+        "example": "接受现实。",
+        "exampleMeaning": "Chấp nhận hiện thực."
+      },
+      {
+        "id": "21",
+        "word": "改变",
+        "pinyin": "gǎibiàn",
+        "meaning": "Thay đổi",
+        "type": "Động/Danh从",
+        "example": "改变现状。",
+        "exampleMeaning": "Thay đổi hiện trạng."
+      },
+      {
+        "id": "22",
+        "word": "情况",
+        "pinyin": "qíngkuàng",
+        "meaning": "Tình huống",
+        "type": "Danh从",
+        "example": "了解情况。",
+        "exampleMeaning": "Tìm hiểu tình huống."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 之所以… (Sở dĩ...)",
+        "description": "Dùng độc lập để nhấn mạnh kết quả trước khi giải thích nguyên nhân.",
+        "formula": "之所以 + Kết quả，(是因为...)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我们之所以这样做，有我们的苦衷。",
+            "vietnamese": "Chúng tôi sở dĩ làm như vậy, là có nỗi khổ riêng."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 恰恰… (Đúng lúc / Trái lại...)",
+        "description": "Nhấn mạnh sự việc xảy ra trùng hợp hoặc hoàn toàn trái ngược với dự đoán.",
+        "formula": "恰恰 + Động từ/Phó từ",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "他说的，恰恰证明了我的观点。",
+            "vietnamese": "Những gì anh ấy nói, vừa đúng chứng minh quan điểm của tôi."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "3. 反而… (Trái lại / Lại còn...)",
+        "description": "Biểu thị kết quả hoàn toàn trái ngược với mong đợi thông thường.",
+        "formula": "A...，反而 + Kết quả trái ngược B",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "吃了药，他的病反而更重了。",
+            "vietnamese": "Uống thuốc rồi, bệnh của anh ta trái lại càng nặng hơn."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Kết quả bất ngờ",
+        "context": "Một cuộc trò chuyện về kết quả kỳ thi.",
+        "lines": [
+          {
+            "speaker": "张老师",
+            "zh": "这次考试，成绩好的同学反而退步了。",
+            "py": "Zhè cì kǎoshì, chéngjì hǎo de tóngxué fǎn'ér tuìbù le.",
+            "vi": "Kỳ thi lần này, học sinh có thành tích tốt trái lại lại lùi bước."
+          },
+          {
+            "speaker": "李老师",
+            "zh": "他们之所以没考好，恰恰是因为太骄傲了。",
+            "py": "Tāmen zhī suǒyǐ méi kǎo hǎo, qiàqià shì yīnwèi tài jiāo'ào le.",
+            "vi": "Họ sở dĩ thi không tốt, đúng lúc lại là vì quá kiêu ngạo."
+          },
+          {
+            "speaker": "张老师",
+            "zh": "那几个基础差的同学呢？",
+            "py": "Nà jǐ ge jīchǔ chà de tóngxué ne?",
+            "vi": "Thế mấy em học sinh nền tảng kém thì sao?"
+          },
+          {
+            "speaker": "李老师",
+            "zh": "他们很努力，所以成绩反而提高了。",
+            "py": "Tāmen hěn nǔlì, suǒyǐ chéngjì fǎn'ér tígāo le.",
+            "vi": "Chúng rất nỗ lực, cho nên thành tích ngược lại lại được nâng cao."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 32,
+    "title": "Bài 17A: Làm việc nhóm (Phần 1)",
+    "theme": "Làm việc nhóm",
+    "words": [
+      {
+        "id": "1",
+        "word": "团队",
+        "pinyin": "tuánduì",
+        "meaning": "Đội ngũ",
+        "type": "Danh从",
+        "example": "团队精神。",
+        "exampleMeaning": "Tinh thần đồng đội."
+      },
+      {
+        "id": "2",
+        "word": "合作",
+        "pinyin": "hézuò",
+        "meaning": "Hợp tác",
+        "type": "Động/Danh从",
+        "example": "希望我们合作愉快。",
+        "exampleMeaning": "Hy vọng chúng ta hợp tác vui vẻ."
+      },
+      {
+        "id": "3",
+        "word": "共同",
+        "pinyin": "gòngtóng",
+        "meaning": "Chung, cùng",
+        "type": "Tính/Phó从",
+        "example": "共同的目标。",
+        "exampleMeaning": "Mục tiêu chung."
+      },
+      {
+        "id": "4",
+        "word": "互相",
+        "pinyin": "hùxiāng",
+        "meaning": "Lẫn nhau",
+        "type": "Phó从",
+        "example": "互相帮助。",
+        "exampleMeaning": "Giúp đỡ lẫn nhau."
+      },
+      {
+        "id": "5",
+        "word": "帮助",
+        "pinyin": "bāngzhù",
+        "meaning": "Giúp đỡ",
+        "type": "Động/Danh从",
+        "example": "谢谢你的帮助。",
+        "exampleMeaning": "Cảm ơn sự giúp đỡ của bạn."
+      },
+      {
+        "id": "6",
+        "word": "帮忙",
+        "pinyin": "bāngmáng",
+        "meaning": "Giúp một tay",
+        "type": "Động从",
+        "example": "能帮个忙吗？",
+        "exampleMeaning": "Có thể giúp một tay không?"
+      },
+      {
+        "id": "7",
+        "word": "组织",
+        "pinyin": "zǔzhī",
+        "meaning": "Tổ chức",
+        "type": "Động/Danh从",
+        "example": "组织一次活动。",
+        "exampleMeaning": "Tổ chức một hoạt động."
+      },
+      {
+        "id": "8",
+        "word": "计划",
+        "pinyin": "jìhuà",
+        "meaning": "Kế hoạch",
+        "type": "Danh/Động从",
+        "example": "工作计划。",
+        "exampleMeaning": "Kế hoạch công việc."
+      },
+      {
+        "id": "9",
+        "word": "安排",
+        "pinyin": "ānpái",
+        "meaning": "Sắp xếp",
+        "type": "Động/Danh从",
+        "example": "安排时间。",
+        "exampleMeaning": "Sắp xếp thời gian."
+      },
+      {
+        "id": "10",
+        "word": "目的",
+        "pinyin": "mùdì",
+        "meaning": "Mục đích",
+        "type": "Danh从",
+        "example": "我们的目的是什么？",
+        "exampleMeaning": "Mục đích của chúng ta là gì?"
+      },
+      {
+        "id": "11",
+        "word": "成功",
+        "pinyin": "chénggōng",
+        "meaning": "Thành công",
+        "type": "Tính/Động/Danh从",
+        "example": "取得了成功。",
+        "exampleMeaning": "Đã giành được thành công."
+      },
+      {
+        "id": "12",
+        "word": "失败",
+        "pinyin": "shībài",
+        "meaning": "Thất bại",
+        "type": "Động/Danh从",
+        "example": "失败是成功之母。",
+        "exampleMeaning": "Thất bại là mẹ thành công."
+      },
+      {
+        "id": "13",
+        "word": "坚持",
+        "pinyin": "jiānchí",
+        "meaning": "Kiên trì",
+        "type": "Động从",
+        "example": "坚持到底。",
+        "exampleMeaning": "Kiên trì đến cùng."
+      },
+      {
+        "id": "14",
+        "word": "放弃",
+        "pinyin": "fàngqì",
+        "meaning": "Từ bỏ",
+        "type": "Động从",
+        "example": "不要放弃。",
+        "exampleMeaning": "Đừng từ bỏ."
+      },
+      {
+        "id": "15",
+        "word": "努力",
+        "pinyin": "nǔlì",
+        "meaning": "Nỗ lực",
+        "type": "Tính/Động从",
+        "example": "继续努力。",
+        "exampleMeaning": "Tiếp tục nỗ lực."
+      },
+      {
+        "id": "16",
+        "word": "辛苦",
+        "pinyin": "xīnkǔ",
+        "meaning": "Vất vả",
+        "type": "Tính从",
+        "example": "大家辛苦了。",
+        "exampleMeaning": "Mọi người vất vả rồi."
+      },
+      {
+        "id": "17",
+        "word": "轻松",
+        "pinyin": "qīngsōng",
+        "meaning": "Nhẹ nhõm, dễ dàng",
+        "type": "Tính从",
+        "example": "工作很轻松。",
+        "exampleMeaning": "Công việc rất nhẹ nhàng."
+      },
+      {
+        "id": "18",
+        "word": "效率",
+        "pinyin": "xiàolǜ",
+        "meaning": "Hiệu suất",
+        "type": "Danh从",
+        "example": "提高工作效率。",
+        "exampleMeaning": "Nâng cao hiệu suất làm việc."
+      },
+      {
+        "id": "19",
+        "word": "速度",
+        "pinyin": "sùdù",
+        "meaning": "Tốc độ",
+        "type": "Danh从",
+        "example": "加快速度。",
+        "exampleMeaning": "Đẩy nhanh tốc độ."
+      },
+      {
+        "id": "20",
+        "word": "质量",
+        "pinyin": "zhìliàng",
+        "meaning": "Chất lượng",
+        "type": "Danh从",
+        "example": "保证质量。",
+        "exampleMeaning": "Đảm bảo chất lượng."
+      },
+      {
+        "id": "21",
+        "word": "信任",
+        "pinyin": "xìnrèn",
+        "meaning": "Tín nhiệm, tin tưởng",
+        "type": "Động/Danh从",
+        "example": "信任队友。",
+        "exampleMeaning": "Tin tưởng đồng đội."
+      },
+      {
+        "id": "22",
+        "word": "怀疑",
+        "pinyin": "huáiyí",
+        "meaning": "Nghi ngờ",
+        "type": "Động从",
+        "example": "不要互相怀疑。",
+        "exampleMeaning": "Đừng nghi ngờ lẫn nhau."
+      },
+      {
+        "id": "23",
+        "word": "尊重",
+        "pinyin": "zūnzhòng",
+        "meaning": "Tôn trọng",
+        "type": "Động/Danh从",
+        "example": "尊重每个人的意见。",
+        "exampleMeaning": "Tôn trọng ý kiến mỗi người."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 既然…就/也… (Đã... thì...)",
+        "description": "Dựa trên tiền đề đã xảy ra để đưa ra kết luận hoặc lời khuyên.",
+        "formula": "既然 + Tiền đề / Sự thật，就 / 也 + Kết luận",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "既然来了，就吃完饭再走吧。",
+            "vietnamese": "Đã đến rồi, thì ăn cơm xong hẵng đi."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 不如… (Không bằng / Thà...)",
+        "description": "So sánh và đưa ra lời khuyên hoặc sự lựa chọn tốt hơn.",
+        "formula": "A 不如 B (Hoặc: 与其 A，不如 B)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "与其在这里等，不如我们自己去。",
+            "vietnamese": "Thay vì ở đây đợi, thà chúng ta tự đi."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Thay đổi kế hoạch",
+        "context": "Hai người bạn đang bàn về việc đi chơi cuối tuần bị hoãn do mưa.",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "外面下大雨了，我们还去爬山吗？",
+            "py": "Wàimiàn xià dà yǔ le, wǒmen hái qù páshān ma?",
+            "vi": "Bên ngoài trời mưa to rồi, chúng ta còn đi leo núi không?"
+          },
+          {
+            "speaker": "朋友",
+            "zh": "既然下雨了，就不去了，太危险了。",
+            "py": "Jìrán xià yǔ le, jiù bú qù le, tài wēixiǎn le.",
+            "vi": "Đã mưa rồi, thì không đi nữa, quá nguy hiểm."
+          },
+          {
+            "speaker": "小明",
+            "zh": "那我们下午做点什么呢？",
+            "py": "Nà wǒmen xiàwǔ zuò diǎn shénme ne?",
+            "vi": "Vậy buổi chiều chúng ta làm gì nhỉ?"
+          },
+          {
+            "speaker": "朋友",
+            "zh": "与其在家里发呆，不如去看看电影吧。",
+            "py": "Yǔqí zài jiālǐ fādāi, bùrú qù kànkan diànyǐng ba.",
+            "vi": "Thà ở nhà ngẩn ngơ, không bằng đi xem phim đi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 33,
+    "title": "Bài 17B: Làm việc nhóm (Phần 2)",
+    "theme": "Làm việc nhóm",
+    "words": [
+      {
+        "id": "1",
+        "word": "交流",
+        "pinyin": "jiāoliú",
+        "meaning": "Giao lưu",
+        "type": "Động/Danh从",
+        "example": "多交流沟通。",
+        "exampleMeaning": "Giao lưu kết nối nhiều hơn."
+      },
+      {
+        "id": "2",
+        "word": "沟通",
+        "pinyin": "gōutōng",
+        "meaning": "Giao tiếp, kết nối",
+        "type": "Động/Danh从",
+        "example": "沟通很顺利。",
+        "exampleMeaning": "Giao tiếp rất thuận lợi."
+      },
+      {
+        "id": "3",
+        "word": "讨论",
+        "pinyin": "tǎolùn",
+        "meaning": "Thảo luận",
+        "type": "Động/Danh从",
+        "example": "开会讨论。",
+        "exampleMeaning": "Mở họp thảo luận."
+      },
+      {
+        "id": "4",
+        "word": "麻烦",
+        "pinyin": "máfan",
+        "meaning": "Phiền phức",
+        "type": "Tính/Động/Danh从",
+        "example": "遇到麻烦了。",
+        "exampleMeaning": "Gặp phiền phức rồi."
+      },
+      {
+        "id": "5",
+        "word": "烦恼",
+        "pinyin": "fánnǎo",
+        "meaning": "Phiền não",
+        "type": "Tính/Danh从",
+        "example": "工作上的烦恼。",
+        "exampleMeaning": "Phiền não trong công việc."
+      },
+      {
+        "id": "6",
+        "word": "解释",
+        "pinyin": "jiěshì",
+        "meaning": "Giải thích",
+        "type": "Động/Danh从",
+        "example": "向大家解释一下。",
+        "exampleMeaning": "Giải thích một chút với mọi người."
+      },
+      {
+        "id": "7",
+        "word": "理解",
+        "pinyin": "lǐjiě",
+        "meaning": "Thấu hiểu",
+        "type": "Động/Danh从",
+        "example": "互相理解。",
+        "exampleMeaning": "Thấu hiểu lẫn nhau."
+      },
+      {
+        "id": "8",
+        "word": "误会",
+        "pinyin": "wùhuì",
+        "meaning": "Hiểu lầm",
+        "type": "Danh/Động从",
+        "example": "解开误会。",
+        "exampleMeaning": "Giải tỏa sự hiểu lầm."
+      },
+      {
+        "id": "9",
+        "word": "原谅",
+        "pinyin": "yuánliàng",
+        "meaning": "Tha thứ",
+        "type": "Động从",
+        "example": "请原谅我的失误。",
+        "exampleMeaning": "Xin tha thứ cho sai sót của tôi."
+      },
+      {
+        "id": "10",
+        "word": "道歉",
+        "pinyin": "dàoqiàn",
+        "meaning": "Xin lỗi",
+        "type": "Động从",
+        "example": "我向大家道歉。",
+        "exampleMeaning": "Tôi xin lỗi mọi người."
+      },
+      {
+        "id": "11",
+        "word": "鼓励",
+        "pinyin": "gǔlì",
+        "meaning": "Khích lệ",
+        "type": "Động/Danh从",
+        "example": "互相鼓励。",
+        "exampleMeaning": "Khích lệ lẫn nhau."
+      },
+      {
+        "id": "12",
+        "word": "表扬",
+        "pinyin": "biǎoyáng",
+        "meaning": "Tuyên dương",
+        "type": "Động/Danh从",
+        "example": "老板表扬了我们的团队。",
+        "exampleMeaning": "Ông chủ đã tuyên dương nhóm chúng tôi."
+      },
+      {
+        "id": "13",
+        "word": "批评",
+        "pinyin": "pīpíng",
+        "meaning": "Phê bình",
+        "type": "Động/Danh从",
+        "example": "接受批评。",
+        "exampleMeaning": "Tiếp nhận phê bình."
+      },
+      {
+        "id": "14",
+        "word": "提醒",
+        "pinyin": "tíxǐng",
+        "meaning": "Nhắc nhở",
+        "type": "Động从",
+        "example": "提醒大家注意时间。",
+        "exampleMeaning": "Nhắc mọi người chú ý thời gian."
+      },
+      {
+        "id": "15",
+        "word": "保证",
+        "pinyin": "bǎozhèng",
+        "meaning": "Đảm bảo",
+        "type": "Động/Danh从",
+        "example": "我保证完成任务。",
+        "exampleMeaning": "Tôi đảm bảo hoàn thành nhiệm vụ."
+      },
+      {
+        "id": "16",
+        "word": "答应",
+        "pinyin": "dāying",
+        "meaning": "Đồng ý, hứa",
+        "type": "Động从",
+        "example": "他答应加入了。",
+        "exampleMeaning": "Anh ấy đã hứa tham gia rồi."
+      },
+      {
+        "id": "17",
+        "word": "真正",
+        "pinyin": "zhēnzhèng",
+        "meaning": "Thực sự",
+        "type": "Tính/Phó从",
+        "example": "真正的团队。",
+        "exampleMeaning": "Đội ngũ thực sự."
+      },
+      {
+        "id": "18",
+        "word": "也许",
+        "pinyin": "yěxǔ",
+        "meaning": "Có lẽ",
+        "type": "Phó从",
+        "example": "也许我们能赢。",
+        "exampleMeaning": "Có lẽ chúng ta có thể thắng."
+      },
+      {
+        "id": "19",
+        "word": "终于",
+        "pinyin": "zhōngyú",
+        "meaning": "Cuối cùng",
+        "type": "Phó从",
+        "example": "项目终于完成了。",
+        "exampleMeaning": "Dự án cuối cùng cũng hoàn thành."
+      },
+      {
+        "id": "20",
+        "word": "责任",
+        "pinyin": "zérèn",
+        "meaning": "Trách nhiệm",
+        "type": "Danh从",
+        "example": "团队的责任。",
+        "exampleMeaning": "Trách nhiệm của nhóm."
+      },
+      {
+        "id": "21",
+        "word": "领导",
+        "pinyin": "lǐngdǎo",
+        "meaning": "Lãnh đạo",
+        "type": "Danh/Động从",
+        "example": "我们的领导很好。",
+        "exampleMeaning": "Lãnh đạo của chúng tôi rất tốt."
+      },
+      {
+        "id": "22",
+        "word": "成员",
+        "pinyin": "chéngyuán",
+        "meaning": "Thành viên",
+        "type": "Danh从",
+        "example": "团队成员。",
+        "exampleMeaning": "Thành viên nhóm."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 宁愿…也不… (Thà... chứ không...)",
+        "description": "Tương đương với 宁可...也不..., thể hiện sự lựa chọn dứt khoát.",
+        "formula": "宁愿 + A (chấp nhận được) + 也不 + B (tuyệt đối không)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "他宁愿饿着，也不吃这种东西。",
+            "vietnamese": "Anh ấy thà chịu đói, chứ không ăn loại đồ này."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 共同… (Cùng nhau...)",
+        "description": "Nhấn mạnh sự hợp tác, cùng chung chí hướng hoặc hành động.",
+        "formula": "共同 + Động từ",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "共同解决问题。",
+            "vietnamese": "Cùng nhau giải quyết vấn đề."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Giải quyết mâu thuẫn nhóm",
+        "context": "Trong cuộc họp nhóm của dự án đại học.",
+        "lines": [
+          {
+            "speaker": "组长",
+            "zh": "我们必须共同努力才能完成这个项目。",
+            "py": "Wǒmen bìxū gòngtóng nǔlì cái néng wánchéng zhège xiàngmù.",
+            "vi": "Chúng ta bắt buộc phải cùng nhau nỗ lực mới có thể hoàn thành dự án này."
+          },
+          {
+            "speaker": "组员",
+            "zh": "可是小王总是不配合，我宁愿自己做，也不想和他合作。",
+            "py": "Kěshì Xiǎo Wáng zǒngshì bù pèihé, wǒ nìngyuàn zìjǐ zuò, yě bù xiǎng hé tā hézuò.",
+            "vi": "Nhưng Tiểu Vương cứ luôn không phối hợp, tôi thà tự mình làm, cũng không muốn hợp tác với cậu ta."
+          },
+          {
+            "speaker": "组长",
+            "zh": "大家是一个团队，不能轻易放弃队友。",
+            "py": "Dàjiā shì yí ge tuánduì, bù néng qīngyì fàngqì duìyǒu.",
+            "vi": "Mọi người là một đội ngũ, không thể dễ dàng từ bỏ đồng đội."
+          },
+          {
+            "speaker": "组员",
+            "zh": "那我们再和他沟通一下吧。",
+            "py": "Nà wǒmen zài hé tā gōutōng yíxià ba.",
+            "vi": "Vậy chúng ta giao tiếp lại với cậu ta xem sao."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 34,
+    "title": "Bài 18A: Giải quyết vấn đề (Phần 1)",
+    "theme": "Giải quyết vấn đề",
+    "words": [
+      {
+        "id": "1",
+        "word": "解决",
+        "pinyin": "jiějué",
+        "meaning": "Giải quyết",
+        "type": "Động从",
+        "example": "解决这个难题。",
+        "exampleMeaning": "Giải quyết vấn đề khó này."
+      },
+      {
+        "id": "2",
+        "word": "问题",
+        "pinyin": "wèntí",
+        "meaning": "Vấn đề",
+        "type": "Danh从",
+        "example": "发现了一个问题。",
+        "exampleMeaning": "Phát hiện ra một vấn đề."
+      },
+      {
+        "id": "3",
+        "word": "困难",
+        "pinyin": "kùnnan",
+        "meaning": "Khó khăn",
+        "type": "Tính/Danh从",
+        "example": "遇到困难不要怕。",
+        "exampleMeaning": "Gặp khó khăn đừng sợ."
+      },
+      {
+        "id": "4",
+        "word": "复杂",
+        "pinyin": "fùzá",
+        "meaning": "Phức tạp",
+        "type": "Tính从",
+        "example": "情况很复杂。",
+        "exampleMeaning": "Tình hình rất phức tạp."
+      },
+      {
+        "id": "5",
+        "word": "简单",
+        "pinyin": "jiǎndān",
+        "meaning": "Đơn giản",
+        "type": "Tính从",
+        "example": "想得太简单了。",
+        "exampleMeaning": "Nghĩ quá đơn giản rồi."
+      },
+      {
+        "id": "6",
+        "word": "麻烦",
+        "pinyin": "máfan",
+        "meaning": "Phiền phức",
+        "type": "Tính/Động/Danh从",
+        "example": "这件事很麻烦。",
+        "exampleMeaning": "Chuyện này rất phiền phức."
+      },
+      {
+        "id": "7",
+        "word": "烦恼",
+        "pinyin": "fánnǎo",
+        "meaning": "Phiền não",
+        "type": "Tính/Danh从",
+        "example": "不要自寻烦恼。",
+        "exampleMeaning": "Đừng tự tìm phiền não."
+      },
+      {
+        "id": "8",
+        "word": "方法",
+        "pinyin": "fāngfǎ",
+        "meaning": "Phương pháp",
+        "type": "Danh从",
+        "example": "找到好方法。",
+        "exampleMeaning": "Tìm ra phương pháp tốt."
+      },
+      {
+        "id": "9",
+        "word": "办法",
+        "pinyin": "bànfǎ",
+        "meaning": "Cách, biện pháp",
+        "type": "Danh从",
+        "example": "没有别的办法了。",
+        "exampleMeaning": "Không có cách nào khác nữa."
+      },
+      {
+        "id": "10",
+        "word": "做法",
+        "pinyin": "zuòfǎ",
+        "meaning": "Cách làm",
+        "type": "Danh从",
+        "example": "他的做法是正确的。",
+        "exampleMeaning": "Cách làm của anh ấy là đúng đắn."
+      },
+      {
+        "id": "11",
+        "word": "过程",
+        "pinyin": "guòchéng",
+        "meaning": "Quá trình",
+        "type": "Danh从",
+        "example": "享受解决问题的过程。",
+        "exampleMeaning": "Tận hưởng quá trình giải quyết vấn đề."
+      },
+      {
+        "id": "12",
+        "word": "结果",
+        "pinyin": "jiéguǒ",
+        "meaning": "Kết quả",
+        "type": "Danh/Liên从",
+        "example": "结果令人满意。",
+        "exampleMeaning": "Kết quả khiến người ta hài lòng."
+      },
+      {
+        "id": "13",
+        "word": "证明",
+        "pinyin": "zhèngmíng",
+        "meaning": "Chứng minh",
+        "type": "Động/Danh从",
+        "example": "证明你的能力。",
+        "exampleMeaning": "Chứng minh năng lực của bạn."
+      },
+      {
+        "id": "14",
+        "word": "发现",
+        "pinyin": "fāxiàn",
+        "meaning": "Phát hiện",
+        "type": "Động/Danh从",
+        "example": "发现了新线索。",
+        "exampleMeaning": "Phát hiện manh mối mới."
+      },
+      {
+        "id": "15",
+        "word": "发生",
+        "pinyin": "fāshēng",
+        "meaning": "Xảy ra",
+        "type": "Động从",
+        "example": "发生了意外。",
+        "exampleMeaning": "Xảy ra chuyện ngoài ý muốn."
+      },
+      {
+        "id": "16",
+        "word": "引起",
+        "pinyin": "yǐnqǐ",
+        "meaning": "Gây ra",
+        "type": "Động从",
+        "example": "引起了麻烦。",
+        "exampleMeaning": "Gây ra phiền phức."
+      },
+      {
+        "id": "17",
+        "word": "改变",
+        "pinyin": "gǎibiàn",
+        "meaning": "Thay đổi",
+        "type": "Động/Danh从",
+        "example": "改变策略。",
+        "exampleMeaning": "Thay đổi chiến lược."
+      },
+      {
+        "id": "18",
+        "word": "适应",
+        "pinyin": "shìyìng",
+        "meaning": "Thích nghi",
+        "type": "Động从",
+        "example": "适应新情况。",
+        "exampleMeaning": "Thích nghi với tình hình mới."
+      },
+      {
+        "id": "19",
+        "word": "决定",
+        "pinyin": "juédìng",
+        "meaning": "Quyết định",
+        "type": "Động/Danh从",
+        "example": "最终的决定。",
+        "exampleMeaning": "Quyết định cuối cùng."
+      },
+      {
+        "id": "20",
+        "word": "考虑",
+        "pinyin": "kǎolǜ",
+        "meaning": "Suy nghĩ, cân nhắc",
+        "type": "Động从",
+        "example": "好好考虑一下。",
+        "exampleMeaning": "Hãy cân nhắc kỹ một chút."
+      },
+      {
+        "id": "21",
+        "word": "选择",
+        "pinyin": "xuǎnzé",
+        "meaning": "Lựa chọn",
+        "type": "Động/Danh从",
+        "example": "做出了选择。",
+        "exampleMeaning": "Đã đưa ra lựa chọn."
+      },
+      {
+        "id": "22",
+        "word": "放弃",
+        "pinyin": "fàngqì",
+        "meaning": "Từ bỏ",
+        "type": "Động从",
+        "example": "绝不放弃。",
+        "exampleMeaning": "Tuyệt đối không từ bỏ."
+      },
+      {
+        "id": "23",
+        "word": "坚持",
+        "pinyin": "jiānchí",
+        "meaning": "Kiên trì",
+        "type": "Động从",
+        "example": "坚持到底。",
+        "exampleMeaning": "Kiên trì đến cùng."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 无法… (Không có cách nào... / Không thể...)",
+        "description": "Văn viết trang trọng của 没办法 / 不能.",
+        "formula": "无法 + Động từ (giải quyết / hiểu...)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我无法理解他的想法。",
+            "vietnamese": "Tôi không có cách nào hiểu được suy nghĩ của anh ấy."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 难以… (Khó mà...)",
+        "description": "Biểu thị sự việc rất khó thực hiện, thường dùng trong văn viết.",
+        "formula": "难以 + Động từ (相信 / 忘记...)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "真是令人难以相信。",
+            "vietnamese": "Thật là khiến người ta khó mà tin được."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Đối mặt với khó khăn",
+        "context": "Hai kỹ sư đang tìm cách sửa chữa một thiết bị hỏng nặng.",
+        "lines": [
+          {
+            "speaker": "工程师A",
+            "zh": "这台机器损坏得太严重了，简直无法修复。",
+            "py": "Zhè tái jīqì sǔnhuài de tài yánzhòng le, jiǎnzhí wúfǎ xiūfù.",
+            "vi": "Cỗ máy này hỏng quá nghiêm trọng rồi, quả thật là không có cách nào sửa chữa."
+          },
+          {
+            "speaker": "工程师B",
+            "zh": "确实，这个问题令人难以解决。",
+            "py": "Quèshí, zhège wèntí lìng rén nányǐ jiějué.",
+            "vi": "Thật vậy, vấn đề này khiến người ta khó mà giải quyết nổi."
+          },
+          {
+            "speaker": "工程师A",
+            "zh": "那我们是不是该向公司申请买一台新的？",
+            "py": "Nà wǒmen shì bu shì gāi xiàng gōngsī shēnqǐng mǎi yì tái xīn de?",
+            "vi": "Vậy chúng ta có phải nên xin công ty mua một cái mới không?"
+          },
+          {
+            "speaker": "工程师B",
+            "zh": "这是唯一的办法了。",
+            "py": "Zhè shì wéiyī de bànfǎ le.",
+            "vi": "Đây là cách duy nhất rồi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 35,
+    "title": "Bài 18B: Giải quyết vấn đề (Phần 2)",
+    "theme": "Giải quyết vấn đề",
+    "words": [
+      {
+        "id": "1",
+        "word": "经验",
+        "pinyin": "jīngyàn",
+        "meaning": "Kinh nghiệm",
+        "type": "Danh/Động从",
+        "example": "他有很多经验。",
+        "exampleMeaning": "Anh ấy có rất nhiều kinh nghiệm."
+      },
+      {
+        "id": "2",
+        "word": "知识",
+        "pinyin": "zhīshi",
+        "meaning": "Kiến thức",
+        "type": "Danh从",
+        "example": "运用知识。",
+        "exampleMeaning": "Vận dụng kiến thức."
+      },
+      {
+        "id": "3",
+        "word": "熟悉",
+        "pinyin": "shúxī",
+        "meaning": "Quen thuộc",
+        "type": "Tính/Động从",
+        "example": "熟悉业务。",
+        "exampleMeaning": "Quen thuộc nghiệp vụ."
+      },
+      {
+        "id": "4",
+        "word": "陌生",
+        "pinyin": "mòshēng",
+        "meaning": "Xa lạ",
+        "type": "Tính从",
+        "example": "陌生的领域。",
+        "exampleMeaning": "Lĩnh vực xa lạ."
+      },
+      {
+        "id": "5",
+        "word": "详细",
+        "pinyin": "xiángxì",
+        "meaning": "Chi tiết",
+        "type": "Tính从",
+        "example": "详细说明。",
+        "exampleMeaning": "Thuyết minh chi tiết."
+      },
+      {
+        "id": "6",
+        "word": "准确",
+        "pinyin": "zhǔnquè",
+        "meaning": "Chính xác",
+        "type": "Tính从",
+        "example": "答案很准确。",
+        "exampleMeaning": "Đáp án rất chính xác."
+      },
+      {
+        "id": "7",
+        "word": "正确",
+        "pinyin": "zhèngquè",
+        "meaning": "Đúng đắn",
+        "type": "Tính从",
+        "example": "正确的做法。",
+        "exampleMeaning": "Cách làm đúng đắn."
+      },
+      {
+        "id": "8",
+        "word": "错误",
+        "pinyin": "cuòwù",
+        "meaning": "Sai lầm, lỗi",
+        "type": "Danh/Tính从",
+        "example": "犯了错误。",
+        "exampleMeaning": "Đã phạm sai lầm."
+      },
+      {
+        "id": "9",
+        "word": "真正",
+        "pinyin": "zhēnzhèng",
+        "meaning": "Thực sự",
+        "type": "Tính/Phó从",
+        "example": "真正的原因。",
+        "exampleMeaning": "Nguyên nhân thực sự."
+      },
+      {
+        "id": "10",
+        "word": "也许",
+        "pinyin": "yěxǔ",
+        "meaning": "Có lẽ",
+        "type": "Phó从",
+        "example": "也许是对的。",
+        "exampleMeaning": "Có lẽ là đúng."
+      },
+      {
+        "id": "11",
+        "word": "往往",
+        "pinyin": "wǎngwǎng",
+        "meaning": "Thường hay",
+        "type": "Phó从",
+        "example": "往往就是这样。",
+        "exampleMeaning": "Thường hay là như vậy."
+      },
+      {
+        "id": "12",
+        "word": "几乎",
+        "pinyin": "jīhū",
+        "meaning": "Hầu như",
+        "type": "Phó从",
+        "example": "几乎成功了。",
+        "exampleMeaning": "Hầu như đã thành công rồi."
+      },
+      {
+        "id": "13",
+        "word": "甚至",
+        "pinyin": "shènzhì",
+        "meaning": "Thậm chí",
+        "type": "Phó/Liên从",
+        "example": "甚至更难。",
+        "exampleMeaning": "Thậm chí còn khó hơn."
+      },
+      {
+        "id": "14",
+        "word": "比如",
+        "pinyin": "bǐrú",
+        "meaning": "Ví dụ như",
+        "type": "Động从",
+        "example": "比如这个问题...",
+        "exampleMeaning": "Ví dụ như vấn đề này..."
+      },
+      {
+        "id": "15",
+        "word": "后来",
+        "pinyin": "hòulái",
+        "meaning": "Sau này, về sau",
+        "type": "Danh从",
+        "example": "后来怎么样了？",
+        "exampleMeaning": "Về sau thế nào rồi?"
+      },
+      {
+        "id": "16",
+        "word": "接着",
+        "pinyin": "jiēzhe",
+        "meaning": "Tiếp theo",
+        "type": "Động/Phó从",
+        "example": "接着做下一题。",
+        "exampleMeaning": "Tiếp theo làm câu sau."
+      },
+      {
+        "id": "17",
+        "word": "然后",
+        "pinyin": "ránhòu",
+        "meaning": "Sau đó",
+        "type": "Liên从",
+        "example": "先想办法，然后去做。",
+        "exampleMeaning": "Nghĩ cách trước, sau đó đi làm."
+      },
+      {
+        "id": "18",
+        "word": "最后",
+        "pinyin": "zuìhòu",
+        "meaning": "Cuối cùng",
+        "type": "Danh从",
+        "example": "最后的结果。",
+        "exampleMeaning": "Kết quả cuối cùng."
+      },
+      {
+        "id": "19",
+        "word": "终于",
+        "pinyin": "zhōngyú",
+        "meaning": "Cuối cùng (cũng)",
+        "type": "Phó从",
+        "example": "终于解决了。",
+        "exampleMeaning": "Cuối cùng cũng giải quyết xong rồi."
+      },
+      {
+        "id": "20",
+        "word": "既然",
+        "pinyin": "jìrán",
+        "meaning": "Đã, nếu đã",
+        "type": "Liên从",
+        "example": "既然发生了，就面对吧。",
+        "exampleMeaning": "Nếu đã xảy ra rồi, thì đối mặt đi."
+      },
+      {
+        "id": "21",
+        "word": "只要",
+        "pinyin": "zhǐyào",
+        "meaning": "Chỉ cần",
+        "type": "Liên从",
+        "example": "只要努力就能成功。",
+        "exampleMeaning": "Chỉ cần nỗ lực là có thể thành công."
+      },
+      {
+        "id": "22",
+        "word": "只有",
+        "pinyin": "zhǐyǒu",
+        "meaning": "Chỉ có",
+        "type": "Liên从",
+        "example": "只有这样才行。",
+        "exampleMeaning": "Chỉ có như vậy mới được."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 以便… (Để tiện cho / Để...)",
+        "description": "Chỉ mục đích của hành động phía trước, thường dùng trong văn viết.",
+        "formula": "Hành động，以便 + Mục đích",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "请留下电话，以便我们联系您。",
+            "vietnamese": "Xin để lại số điện thoại, để tiện cho chúng tôi liên hệ ngài."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 从而… (Từ đó mà...)",
+        "description": "Kết nối nguyên nhân - kết quả hoặc phương pháp - mục đích một cách logic.",
+        "formula": "A...，从而 + Kết quả B",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "他每天练习，从而提高了水平。",
+            "vietnamese": "Anh ấy luyện tập mỗi ngày, từ đó mà nâng cao được trình độ."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "3. 进而… (Hơn thế nữa / Tiến tới...)",
+        "description": "Biểu thị mức độ phát triển thêm một bước so với trước đó.",
+        "formula": "A...，进而 + B (mức độ cao hơn)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "先解决小问题，进而解决大问题。",
+            "vietnamese": "Giải quyết vấn đề nhỏ trước, tiến tới giải quyết vấn đề lớn."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Cải thiện chất lượng dịch vụ",
+        "context": "Cuộc họp của phòng chăm sóc khách hàng.",
+        "lines": [
+          {
+            "speaker": "主管",
+            "zh": "我们要收集客户的意见，以便提高服务质量。",
+            "py": "Wǒmen yào shōují kèhù de yìjiàn, yǐbiàn tígāo fúwù zhìliàng.",
+            "vi": "Chúng ta phải thu thập ý kiến của khách hàng, để tiện cho việc nâng cao chất lượng dịch vụ."
+          },
+          {
+            "speaker": "员工",
+            "zh": "通过这些意见，我们能发现缺点，从而改进工作。",
+            "py": "Tōngguò zhèxiē yìjiàn, wǒmen néng fāxiàn quēdiǎn, cóng'ér gǎijìn gōngzuò.",
+            "vi": "Thông qua những ý kiến này, chúng ta có thể phát hiện khuyết điểm, từ đó mà cải tiến công việc."
+          },
+          {
+            "speaker": "主管",
+            "zh": "没错，进而吸引更多的新客户。",
+            "py": "Méicuò, jìn'ér xīyǐn gèng duō de xīn kèhù.",
+            "vi": "Không sai, tiến tới thu hút thêm nhiều khách hàng mới."
+          },
+          {
+            "speaker": "员工",
+            "zh": "大家一起努力，一定会越做越好的。",
+            "py": "Dàjiā yìqǐ nǔlì, yídìng huì yuè zuò yuè hǎo de.",
+            "vi": "Mọi người cùng nỗ lực, nhất định sẽ càng làm càng tốt."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 36,
+    "title": "Bài 19A: Ước mơ & tương lai (Phần 1)",
+    "theme": "Ước mơ & tương lai",
+    "words": [
+      {
+        "id": "1",
+        "word": "梦想",
+        "pinyin": "mèngxiǎng",
+        "meaning": "Ước mơ",
+        "type": "Danh/Động从",
+        "example": "追逐梦想。",
+        "exampleMeaning": "Theo đuổi ước mơ."
+      },
+      {
+        "id": "2",
+        "word": "未来",
+        "pinyin": "wèilái",
+        "meaning": "Tương lai",
+        "type": "Danh从",
+        "example": "美好的未来。",
+        "exampleMeaning": "Tương lai tươi đẹp."
+      },
+      {
+        "id": "3",
+        "word": "理想",
+        "pinyin": "lǐxiǎng",
+        "meaning": "Lý tưởng",
+        "type": "Danh/Tính从",
+        "example": "他的理想是当医生。",
+        "exampleMeaning": "Lý tưởng của anh ấy là làm bác sĩ."
+      },
+      {
+        "id": "4",
+        "word": "希望",
+        "pinyin": "xīwàng",
+        "meaning": "Hy vọng",
+        "type": "Động/Danh从",
+        "example": "希望一切顺利。",
+        "exampleMeaning": "Hy vọng mọi thứ thuận lợi."
+      },
+      {
+        "id": "5",
+        "word": "失望",
+        "pinyin": "shīwàng",
+        "meaning": "Thất vọng",
+        "type": "Tính/Động从",
+        "example": "别让我失望。",
+        "exampleMeaning": "Đừng làm tôi thất vọng."
+      },
+      {
+        "id": "6",
+        "word": "计划",
+        "pinyin": "jìhuà",
+        "meaning": "Kế hoạch",
+        "type": "Danh/Động从",
+        "example": "未来的计划。",
+        "exampleMeaning": "Kế hoạch tương lai."
+      },
+      {
+        "id": "7",
+        "word": "打算",
+        "pinyin": "dǎsuàn",
+        "meaning": "Dự định",
+        "type": "Động/Danh从",
+        "example": "毕业后有什么打算？",
+        "exampleMeaning": "Sau khi tốt nghiệp có dự định gì?"
+      },
+      {
+        "id": "8",
+        "word": "目的",
+        "pinyin": "mùdì",
+        "meaning": "Mục đích",
+        "type": "Danh从",
+        "example": "达到了目的。",
+        "exampleMeaning": "Đã đạt được mục đích."
+      },
+      {
+        "id": "9",
+        "word": "目标",
+        "pinyin": "mùbiāo",
+        "meaning": "Mục tiêu",
+        "type": "Danh从",
+        "example": "定一个小目标。",
+        "exampleMeaning": "Đặt một mục tiêu nhỏ."
+      },
+      {
+        "id": "10",
+        "word": "成功",
+        "pinyin": "chénggōng",
+        "meaning": "Thành công",
+        "type": "Tính/Động/Danh从",
+        "example": "走向成功。",
+        "exampleMeaning": "Hướng tới thành công."
+      },
+      {
+        "id": "11",
+        "word": "失败",
+        "pinyin": "shībài",
+        "meaning": "Thất bại",
+        "type": "Động/Danh从",
+        "example": "不要害怕失败。",
+        "exampleMeaning": "Đừng sợ hãi thất bại."
+      },
+      {
+        "id": "12",
+        "word": "努力",
+        "pinyin": "nǔlì",
+        "meaning": "Nỗ lực",
+        "type": "Tính/Động从",
+        "example": "努力学习。",
+        "exampleMeaning": "Nỗ lực học tập."
+      },
+      {
+        "id": "13",
+        "word": "坚持",
+        "pinyin": "jiānchí",
+        "meaning": "Kiên trì",
+        "type": "Động从",
+        "example": "坚持梦想。",
+        "exampleMeaning": "Kiên trì ước mơ."
+      },
+      {
+        "id": "14",
+        "word": "放弃",
+        "pinyin": "fàngqì",
+        "meaning": "Từ bỏ",
+        "type": "Động从",
+        "example": "永远不要放弃。",
+        "exampleMeaning": "Mãi mãi đừng từ bỏ."
+      },
+      {
+        "id": "15",
+        "word": "改变",
+        "pinyin": "gǎibiàn",
+        "meaning": "Thay đổi",
+        "type": "Động/Danh从",
+        "example": "改变命运。",
+        "exampleMeaning": "Thay đổi số phận."
+      },
+      {
+        "id": "16",
+        "word": "发展",
+        "pinyin": "fāzhǎn",
+        "meaning": "Phát triển",
+        "type": "Động/Danh从",
+        "example": "未来的发展方向。",
+        "exampleMeaning": "Phương hướng phát triển tương lai."
+      },
+      {
+        "id": "17",
+        "word": "机会",
+        "pinyin": "jīhuì",
+        "meaning": "Cơ hội",
+        "type": "Danh从",
+        "example": "抓住机会。",
+        "exampleMeaning": "Nắm bắt cơ hội."
+      },
+      {
+        "id": "18",
+        "word": "选择",
+        "pinyin": "xuǎnzé",
+        "meaning": "Lựa chọn",
+        "type": "Động/Danh从",
+        "example": "选择自己的人生。",
+        "exampleMeaning": "Lựa chọn cuộc đời mình."
+      },
+      {
+        "id": "19",
+        "word": "决定",
+        "pinyin": "juédìng",
+        "meaning": "Quyết định",
+        "type": "Động/Danh从",
+        "example": "自己做决定。",
+        "exampleMeaning": "Tự mình đưa ra quyết định."
+      },
+      {
+        "id": "20",
+        "word": "考虑",
+        "pinyin": "kǎolǜ",
+        "meaning": "Suy nghĩ, cân nhắc",
+        "type": "Động从",
+        "example": "考虑清楚。",
+        "exampleMeaning": "Suy nghĩ rõ ràng."
+      },
+      {
+        "id": "21",
+        "word": "相信",
+        "pinyin": "xiāngxìn",
+        "meaning": "Tin tưởng",
+        "type": "Động从",
+        "example": "相信未来会更好。",
+        "exampleMeaning": "Tin rằng tương lai sẽ tốt đẹp hơn."
+      },
+      {
+        "id": "22",
+        "word": "怀疑",
+        "pinyin": "huáiyí",
+        "meaning": "Nghi ngờ",
+        "type": "Động从",
+        "example": "不要怀疑自己。",
+        "exampleMeaning": "Đừng nghi ngờ bản thân."
+      },
+      {
+        "id": "23",
+        "word": "信任",
+        "pinyin": "xìnrèn",
+        "meaning": "Tín nhiệm, tin tưởng",
+        "type": "Động/Danh从",
+        "example": "得到别人的信任。",
+        "exampleMeaning": "Có được sự tin tưởng của người khác."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 在我看来… (Theo tôi thấy...)",
+        "description": "Đưa ra quan điểm cá nhân một cách khách quan.",
+        "formula": "在我看来，+ Quan điểm",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "在我看来，这件事没有那么简单。",
+            "vietnamese": "Theo tôi thấy, việc này không đơn giản như vậy."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 我认为… (Tôi cho rằng...)",
+        "description": "Khẳng định ý kiến cá nhân (thường dùng trong văn nói và viết).",
+        "formula": "我认为 + Mệnh đề",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我认为你的计划很好。",
+            "vietnamese": "Tôi cho rằng kế hoạch của bạn rất tốt."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Quan điểm cá nhân",
+        "context": "Hai người bạn đang thảo luận về việc chọn trường đại học.",
+        "lines": [
+          {
+            "speaker": "同学A",
+            "zh": "你觉得应该选名牌大学，还是选自己喜欢的专业？",
+            "py": "Nǐ juéde yīnggāi xuǎn míngpái dàxué, háishì xuǎn zìjǐ xǐhuan de zhuānyè?",
+            "vi": "Cậu thấy nên chọn trường đại học danh tiếng, hay là chọn chuyên ngành mình thích?"
+          },
+          {
+            "speaker": "同学B",
+            "zh": "在我看来，兴趣是最好的老师。",
+            "py": "Zài wǒ kànlái, xìngqù shì zuì hǎo de lǎoshī.",
+            "vi": "Theo tôi thấy, sự hứng thú là người thầy tốt nhất."
+          },
+          {
+            "speaker": "同学A",
+            "zh": "我也这么觉得，我认为专业比学校更重要。",
+            "py": "Wǒ yě zhème juéde, wǒ rènwéi zhuānyè bǐ xuéxiào gèng zhòngyào.",
+            "vi": "Tôi cũng cảm thấy như vậy, tôi cho rằng chuyên ngành quan trọng hơn trường học."
+          },
+          {
+            "speaker": "同学B",
+            "zh": "只要用心学，在哪里都能发光。",
+            "py": "Zhǐyào yòngxīn xué, zài nǎlǐ dōu néng fāguāng.",
+            "vi": "Chỉ cần để tâm vào học, ở đâu cũng có thể tỏa sáng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 37,
+    "title": "Bài 19B: Ước mơ & tương lai (Phần 2)",
+    "theme": "Ước mơ & tương lai",
+    "words": [
+      {
+        "id": "1",
+        "word": "永远",
+        "pinyin": "yǒngyuǎn",
+        "meaning": "Mãi mãi",
+        "type": "Phó从",
+        "example": "永远向前看。",
+        "exampleMeaning": "Mãi mãi nhìn về phía trước."
+      },
+      {
+        "id": "2",
+        "word": "真正",
+        "pinyin": "zhēnzhèng",
+        "meaning": "Thực sự",
+        "type": "Tính/Phó从",
+        "example": "真正的幸福。",
+        "exampleMeaning": "Hạnh phúc thực sự."
+      },
+      {
+        "id": "3",
+        "word": "也许",
+        "pinyin": "yěxǔ",
+        "meaning": "Có lẽ",
+        "type": "Phó从",
+        "example": "也许明天会更好。",
+        "exampleMeaning": "Có lẽ ngày mai sẽ tốt hơn."
+      },
+      {
+        "id": "4",
+        "word": "将来",
+        "pinyin": "jiānglái",
+        "meaning": "Tương lai",
+        "type": "Danh从",
+        "example": "将来我想当老师。",
+        "exampleMeaning": "Tương lai tôi muốn làm giáo viên."
+      },
+      {
+        "id": "5",
+        "word": "过去",
+        "pinyin": "guòqù",
+        "meaning": "Quá khứ",
+        "type": "Danh/Động从",
+        "example": "过去的事情就让它过去吧。",
+        "exampleMeaning": "Chuyện quá khứ thì hãy để nó qua đi."
+      },
+      {
+        "id": "6",
+        "word": "现在",
+        "pinyin": "xiànzài",
+        "meaning": "Hiện tại",
+        "type": "Danh从",
+        "example": "把握现在。",
+        "exampleMeaning": "Nắm bắt hiện tại."
+      },
+      {
+        "id": "7",
+        "word": "现代",
+        "pinyin": "xiàndài",
+        "meaning": "Hiện đại",
+        "type": "Danh/Tính从",
+        "example": "现代人的生活。",
+        "exampleMeaning": "Cuộc sống của người hiện đại."
+      },
+      {
+        "id": "8",
+        "word": "历史",
+        "pinyin": "lìshǐ",
+        "meaning": "Lịch sử",
+        "type": "Danh从",
+        "example": "创造历史。",
+        "exampleMeaning": "Tạo nên lịch sử."
+      },
+      {
+        "id": "9",
+        "word": "经验",
+        "pinyin": "jīngyàn",
+        "meaning": "Kinh nghiệm",
+        "type": "Danh/Động从",
+        "example": "积累经验。",
+        "exampleMeaning": "Tích lũy kinh nghiệm."
+      },
+      {
+        "id": "10",
+        "word": "经历",
+        "pinyin": "jīnglì",
+        "meaning": "Trải qua, trải nghiệm",
+        "type": "Động/Danh从",
+        "example": "丰富的人生经历。",
+        "exampleMeaning": "Trải nghiệm nhân sinh phong phú."
+      },
+      {
+        "id": "11",
+        "word": "体验",
+        "pinyin": "tǐyàn",
+        "meaning": "Trải nghiệm",
+        "type": "Động/Danh从",
+        "example": "体验不同的生活。",
+        "exampleMeaning": "Trải nghiệm cuộc sống khác nhau."
+      },
+      {
+        "id": "12",
+        "word": "感受",
+        "pinyin": "gǎnshòu",
+        "meaning": "Cảm nhận",
+        "type": "Danh/Động从",
+        "example": "感受生活的美好。",
+        "exampleMeaning": "Cảm nhận sự tươi đẹp của cuộc sống."
+      },
+      {
+        "id": "13",
+        "word": "感觉",
+        "pinyin": "gǎnjué",
+        "meaning": "Cảm giác",
+        "type": "Động/Danh从",
+        "example": "感觉很棒。",
+        "exampleMeaning": "Cảm giác rất tuyệt."
+      },
+      {
+        "id": "14",
+        "word": "激动",
+        "pinyin": "jīdòng",
+        "meaning": "Xúc động",
+        "type": "Tính/Động从",
+        "example": "激动人心的时刻。",
+        "exampleMeaning": "Khoảnh khắc làm lòng người xúc động."
+      },
+      {
+        "id": "15",
+        "word": "兴奋",
+        "pinyin": "xīngfèn",
+        "meaning": "Phấn khích",
+        "type": "Tính从",
+        "example": "想到未来就很兴奋。",
+        "exampleMeaning": "Nghĩ đến tương lai liền rất phấn khích."
+      },
+      {
+        "id": "16",
+        "word": "遗憾",
+        "pinyin": "yíhàn",
+        "meaning": "Đáng tiếc",
+        "type": "Tính/Danh从",
+        "example": "不要留下遗憾。",
+        "exampleMeaning": "Đừng để lại sự đáng tiếc."
+      },
+      {
+        "id": "17",
+        "word": "值得",
+        "pinyin": "zhídé",
+        "meaning": "Đáng",
+        "type": "Động从",
+        "example": "为了梦想，值得！",
+        "exampleMeaning": "Vì ước mơ, thật đáng!"
+      },
+      {
+        "id": "18",
+        "word": "勇敢",
+        "pinyin": "yǒnggǎn",
+        "meaning": "Dũng cảm",
+        "type": "Tính从",
+        "example": "勇敢地去追梦。",
+        "exampleMeaning": "Dũng cảm đi theo đuổi ước mơ."
+      },
+      {
+        "id": "19",
+        "word": "骄傲",
+        "pinyin": "jiāo'ào",
+        "meaning": "Tự hào",
+        "type": "Tính/Danh从",
+        "example": "为你感到骄傲。",
+        "exampleMeaning": "Cảm thấy tự hào vì bạn."
+      },
+      {
+        "id": "20",
+        "word": "谦虚",
+        "pinyin": "qiānxū",
+        "meaning": "Khiêm tốn",
+        "type": "Tính从",
+        "example": "保持谦虚。",
+        "exampleMeaning": "Giữ sự khiêm tốn."
+      },
+      {
+        "id": "21",
+        "word": "诚实",
+        "pinyin": "chéngshí",
+        "meaning": "Thành thật",
+        "type": "Tính从",
+        "example": "做个诚实的人。",
+        "exampleMeaning": "Làm một người thành thật."
+      },
+      {
+        "id": "22",
+        "word": "命运",
+        "pinyin": "mìngyùn",
+        "meaning": "Số phận, vận mệnh",
+        "type": "Danh从",
+        "example": "掌握自己的命运。",
+        "exampleMeaning": "Nắm giữ vận mệnh của chính mình."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 总的来说… (Nói tóm lại / Nhìn chung...)",
+        "description": "Đưa ra kết luận tổng quát sau khi phân tích chi tiết.",
+        "formula": "总的来说，+ Kết luận",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "总的来说，今年的成绩不错。",
+            "vietnamese": "Nhìn chung, thành tích năm nay không tồi."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 换句话说… (Nói cách khác...)",
+        "description": "Dùng cách diễn đạt khác để làm rõ ý trước đó.",
+        "formula": "A...，换句话说，+ B (ý nghĩa tương đương)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "他不想去，换句话说，他觉得没意思。",
+            "vietnamese": "Anh ấy không muốn đi, nói cách khác, anh ấy thấy không thú vị."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "3. 也就是说… (Nói cách khác là...)",
+        "description": "Tương đương 换句话说, dùng để giải thích rõ hơn.",
+        "formula": "A...，也就是说，+ B",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我们明天放假，也就是说，不用去上班了。",
+            "vietnamese": "Ngày mai chúng ta được nghỉ, nói cách khác là, không cần đi làm nữa."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Tóm tắt buổi học",
+        "context": "Giáo viên tóm tắt bài giảng cho học sinh.",
+        "lines": [
+          {
+            "speaker": "老师",
+            "zh": "总的来说，学习一门语言需要坚持。",
+            "py": "Zǒng de lái shuō, xuéxí yì mén yǔyán xūyào jiānchí.",
+            "vi": "Nói tóm lại, học một ngôn ngữ cần phải kiên trì."
+          },
+          {
+            "speaker": "学生",
+            "zh": "老师，也就是说，不能三天打鱼两天晒网对吗？",
+            "py": "Lǎoshī, yě jiù shì shuō, bù néng sān tiān dǎ yú liǎng tiān shài wǎng duì ma?",
+            "vi": "Thưa thầy, cũng có nghĩa là, không thể 3 ngày đánh cá 2 ngày phơi lưới (bữa đực bữa cái) đúng không ạ?"
+          },
+          {
+            "speaker": "老师",
+            "zh": "对。换句话说，只有每天练习，才能真正掌握。",
+            "py": "Duì. Huàn jù huà shuō, zhǐyǒu měitiān liànxí, cái néng zhēnzhèng zhǎngwò.",
+            "vi": "Đúng. Nói cách khác, chỉ có mỗi ngày luyện tập, mới có thể thực sự nắm vững."
+          },
+          {
+            "speaker": "学生",
+            "zh": "明白了，我会好好努力的。",
+            "py": "Míngbai le, wǒ huì hǎohǎo nǔlì de.",
+            "vi": "Em hiểu rồi, em sẽ nỗ lực thật tốt."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 38,
+    "title": "Bài 20A: Tổng kết & ôn tập (Phần 1)",
+    "theme": "Tổng kết & ôn tập",
+    "words": [
+      {
+        "id": "1",
+        "word": "总结",
+        "pinyin": "zǒngjié",
+        "meaning": "Tổng kết",
+        "type": "Động/Danh从",
+        "example": "总结学习经验。",
+        "exampleMeaning": "Tổng kết kinh nghiệm học tập."
+      },
+      {
+        "id": "2",
+        "word": "复习",
+        "pinyin": "fùxí",
+        "meaning": "Ôn tập",
+        "type": "Động/Danh从",
+        "example": "复习今天学的内容。",
+        "exampleMeaning": "Ôn tập nội dung đã học hôm nay."
+      },
+      {
+        "id": "3",
+        "word": "练习",
+        "pinyin": "liànxí",
+        "meaning": "Luyện tập",
+        "type": "Động/Danh从",
+        "example": "多做练习题。",
+        "exampleMeaning": "Làm bài tập luyện tập nhiều hơn."
+      },
+      {
+        "id": "4",
+        "word": "测验",
+        "pinyin": "cèyàn",
+        "meaning": "Kiểm tra, bài kiểm tra",
+        "type": "Động/Danh从",
+        "example": "明天有测验。",
+        "exampleMeaning": "Ngày mai có bài kiểm tra."
+      },
+      {
+        "id": "5",
+        "word": "考试",
+        "pinyin": "kǎoshì",
+        "meaning": "Thi, bài thi",
+        "type": "Động/Danh从",
+        "example": "期末考试。",
+        "exampleMeaning": "Kỳ thi cuối kỳ."
+      },
+      {
+        "id": "6",
+        "word": "成绩",
+        "pinyin": "chéngjì",
+        "meaning": "Thành tích, điểm số",
+        "type": "Danh从",
+        "example": "成绩很好。",
+        "exampleMeaning": "Thành tích rất tốt."
+      },
+      {
+        "id": "7",
+        "word": "及格",
+        "pinyin": "jígé",
+        "meaning": "Thi đỗ, đạt yêu cầu",
+        "type": "Động/Tính从",
+        "example": "这次考试及格了。",
+        "exampleMeaning": "Kỳ thi này đỗ rồi."
+      },
+      {
+        "id": "8",
+        "word": "优秀",
+        "pinyin": "yōuxiù",
+        "meaning": "Xuất sắc",
+        "type": "Tính从",
+        "example": "优秀的学生。",
+        "exampleMeaning": "Học sinh xuất sắc."
+      },
+      {
+        "id": "9",
+        "word": "进步",
+        "pinyin": "jìnbù",
+        "meaning": "Tiến bộ",
+        "type": "Động/Danh/Tính从",
+        "example": "取得了很大的进步。",
+        "exampleMeaning": "Đã đạt được sự tiến bộ rất lớn."
+      },
+      {
+        "id": "10",
+        "word": "退步",
+        "pinyin": "tuìbù",
+        "meaning": "Lùi bước, thụt lùi",
+        "type": "Động从",
+        "example": "成绩退步了。",
+        "exampleMeaning": "Thành tích thụt lùi rồi."
+      },
+      {
+        "id": "11",
+        "word": "重点",
+        "pinyin": "zhòngdiǎn",
+        "meaning": "Trọng điểm",
+        "type": "Danh从",
+        "example": "复习重点。",
+        "exampleMeaning": "Ôn tập trọng điểm."
+      },
+      {
+        "id": "12",
+        "word": "基础",
+        "pinyin": "jīchǔ",
+        "meaning": "Cơ sở, nền tảng",
+        "type": "Danh从",
+        "example": "打好基础。",
+        "exampleMeaning": "Xây chắc nền tảng."
+      },
+      {
+        "id": "13",
+        "word": "知识",
+        "pinyin": "zhīshi",
+        "meaning": "Kiến thức",
+        "type": "Danh从",
+        "example": "掌握知识。",
+        "exampleMeaning": "Nắm vững kiến thức."
+      },
+      {
+        "id": "14",
+        "word": "经验",
+        "pinyin": "jīngyàn",
+        "meaning": "Kinh nghiệm",
+        "type": "Danh/Động从",
+        "example": "学习经验。",
+        "exampleMeaning": "Kinh nghiệm học tập."
+      },
+      {
+        "id": "15",
+        "word": "语法",
+        "pinyin": "yǔfǎ",
+        "meaning": "Ngữ pháp",
+        "type": "Danh从",
+        "example": "汉语语法。",
+        "exampleMeaning": "Ngữ pháp tiếng Hán."
+      },
+      {
+        "id": "16",
+        "word": "词语",
+        "pinyin": "cíyǔ",
+        "meaning": "Từ ngữ",
+        "type": "Danh从",
+        "example": "记住这些词语。",
+        "exampleMeaning": "Ghi nhớ những từ ngữ này."
+      },
+      {
+        "id": "17",
+        "word": "句子",
+        "pinyin": "jùzi",
+        "meaning": "Câu",
+        "type": "Danh从",
+        "example": "造一个句子。",
+        "exampleMeaning": "Đặt một câu."
+      },
+      {
+        "id": "18",
+        "word": "文章",
+        "pinyin": "wénzhāng",
+        "meaning": "Bài văn, bài viết",
+        "type": "Danh从",
+        "example": "写一篇文章。",
+        "exampleMeaning": "Viết một bài văn."
+      },
+      {
+        "id": "19",
+        "word": "翻译",
+        "pinyin": "fānyì",
+        "meaning": "Dịch thuật",
+        "type": "Động/Danh从",
+        "example": "翻译成中文。",
+        "exampleMeaning": "Dịch sang tiếng Trung."
+      },
+      {
+        "id": "20",
+        "word": "解释",
+        "pinyin": "jiěshì",
+        "meaning": "Giải thích",
+        "type": "Động/Danh从",
+        "example": "解释词语的意思。",
+        "exampleMeaning": "Giải thích ý nghĩa của từ ngữ."
+      },
+      {
+        "id": "21",
+        "word": "阅读",
+        "pinyin": "yuèdú",
+        "meaning": "Đọc hiểu",
+        "type": "Động/Danh从",
+        "example": "阅读练习。",
+        "exampleMeaning": "Luyện tập đọc hiểu."
+      },
+      {
+        "id": "22",
+        "word": "听力",
+        "pinyin": "tīnglì",
+        "meaning": "Nghe hiểu",
+        "type": "Danh从",
+        "example": "提高听力水平。",
+        "exampleMeaning": "Nâng cao trình độ nghe hiểu."
+      },
+      {
+        "id": "23",
+        "word": "规定",
+        "pinyin": "guīdìng",
+        "meaning": "Quy định",
+        "type": "Danh/Động从",
+        "example": "考试规定。",
+        "exampleMeaning": "Quy định thi cử."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 将… (Sẽ / Đem...)",
+        "description": "Biểu thị tương lai hoặc cấu trúc giống chữ 把 trong văn viết.",
+        "formula": "将 + Động từ (Sẽ) / 将 + Tân ngữ + Động từ (Giống 把)",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "会议将在这周末举行。",
+            "vietnamese": "Cuộc họp sẽ được tổ chức vào cuối tuần này."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 打算… (Dự định...)",
+        "description": "Đưa ra kế hoạch trong tương lai gần.",
+        "formula": "打算 + Động từ",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我打算明年去中国。",
+            "vietnamese": "Tôi dự định sang năm đi Trung Quốc."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "3. 计划… (Kế hoạch...)",
+        "description": "Trang trọng hơn 打算, thường dùng cho kế hoạch cụ thể, rõ ràng.",
+        "formula": "计划 + Động từ",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "我们计划开发新产品。",
+            "vietnamese": "Chúng tôi lên kế hoạch phát triển sản phẩm mới."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Dự định tương lai",
+        "context": "Hai người bạn tâm sự về kế hoạch sau khi tốt nghiệp.",
+        "lines": [
+          {
+            "speaker": "朋友",
+            "zh": "你毕业后有什么计划吗？",
+            "py": "Nǐ bìyè hòu yǒu shénme jìhuà ma?",
+            "vi": "Sau khi tốt nghiệp cậu có kế hoạch gì không?"
+          },
+          {
+            "speaker": "小林",
+            "zh": "我打算先去旅行放松一下。",
+            "py": "Wǒ dǎsuàn xiān qù lǚxíng fàngsōng yíxià.",
+            "vi": "Tôi dự định trước tiên đi du lịch thư giãn một chút."
+          },
+          {
+            "speaker": "朋友",
+            "zh": "听起来不错，那你什么时候找工作？",
+            "py": "Tīng qǐlái búcuò, nà nǐ shénme shíhou zhǎo gōngzuò?",
+            "vi": "Nghe có vẻ không tồi, vậy khi nào cậu tìm việc?"
+          },
+          {
+            "speaker": "小林",
+            "zh": "旅行回来后，我将正式开始投简历。",
+            "py": "Lǚxíng huílai hòu, wǒ jiāng zhèngshì kāishǐ tóu jiǎnlì.",
+            "vi": "Sau khi đi du lịch về, tôi sẽ chính thức bắt đầu nộp hồ sơ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 39,
+    "title": "Bài 20B: Tổng kết & ôn tập (Phần 2)",
+    "theme": "Tổng kết & ôn tập",
+    "words": [
+      {
+        "id": "1",
+        "word": "要求",
+        "pinyin": "yāoqiú",
+        "meaning": "Yêu cầu",
+        "type": "Danh/Động从",
+        "example": "老师的要求很高。",
+        "exampleMeaning": "Yêu cầu của thầy giáo rất cao."
+      },
+      {
+        "id": "2",
+        "word": "标准",
+        "pinyin": "biāozhǔn",
+        "meaning": "Tiêu chuẩn",
+        "type": "Danh/Tính从",
+        "example": "达到标准。",
+        "exampleMeaning": "Đạt tiêu chuẩn."
+      },
+      {
+        "id": "3",
+        "word": "质量",
+        "pinyin": "zhìliàng",
+        "meaning": "Chất lượng",
+        "type": "Danh从",
+        "example": "学习质量。",
+        "exampleMeaning": "Chất lượng học tập."
+      },
+      {
+        "id": "4",
+        "word": "效率",
+        "pinyin": "xiàolǜ",
+        "meaning": "Hiệu suất",
+        "type": "Danh从",
+        "example": "学习效率。",
+        "exampleMeaning": "Hiệu suất học tập."
+      },
+      {
+        "id": "5",
+        "word": "速度",
+        "pinyin": "sùdù",
+        "meaning": "Tốc độ",
+        "type": "Danh从",
+        "example": "做题速度很快。",
+        "exampleMeaning": "Tốc độ làm bài rất nhanh."
+      },
+      {
+        "id": "6",
+        "word": "准确",
+        "pinyin": "zhǔnquè",
+        "meaning": "Chính xác",
+        "type": "Tính从",
+        "example": "发音很准确。",
+        "exampleMeaning": "Phát âm rất chính xác."
+      },
+      {
+        "id": "7",
+        "word": "详细",
+        "pinyin": "xiángxì",
+        "meaning": "Chi tiết",
+        "type": "Tính从",
+        "example": "详细的总结。",
+        "exampleMeaning": "Bản tổng kết chi tiết."
+      },
+      {
+        "id": "8",
+        "word": "复杂",
+        "pinyin": "fùzá",
+        "meaning": "Phức tạp",
+        "type": "Tính从",
+        "example": "这道题很复杂。",
+        "exampleMeaning": "Câu hỏi này rất phức tạp."
+      },
+      {
+        "id": "9",
+        "word": "简单",
+        "pinyin": "jiǎndān",
+        "meaning": "Đơn giản",
+        "type": "Tính从",
+        "example": "越简单越好。",
+        "exampleMeaning": "Càng đơn giản càng tốt."
+      },
+      {
+        "id": "10",
+        "word": "熟悉",
+        "pinyin": "shúxī",
+        "meaning": "Quen thuộc",
+        "type": "Tính/Động从",
+        "example": "熟悉这些内容。",
+        "exampleMeaning": "Quen thuộc những nội dung này."
+      },
+      {
+        "id": "11",
+        "word": "陌生",
+        "pinyin": "mòshēng",
+        "meaning": "Xa lạ",
+        "type": "Tính从",
+        "example": "陌生的单词。",
+        "exampleMeaning": "Từ vựng xa lạ."
+      },
+      {
+        "id": "12",
+        "word": "终于",
+        "pinyin": "zhōngyú",
+        "meaning": "Cuối cùng",
+        "type": "Phó从",
+        "example": "终于学完了！",
+        "exampleMeaning": "Cuối cùng cũng học xong rồi!"
+      },
+      {
+        "id": "13",
+        "word": "既然",
+        "pinyin": "jìrán",
+        "meaning": "Nếu đã",
+        "type": "Liên从",
+        "example": "既然学了，就要学好。",
+        "exampleMeaning": "Nếu đã học, thì phải học cho tốt."
+      },
+      {
+        "id": "14",
+        "word": "甚至",
+        "pinyin": "shènzhì",
+        "meaning": "Thậm chí",
+        "type": "Phó/Liên从",
+        "example": "甚至能和中国人流利交流了。",
+        "exampleMeaning": "Thậm chí có thể giao tiếp lưu loát với người Trung Quốc rồi."
+      },
+      {
+        "id": "15",
+        "word": "几乎",
+        "pinyin": "jīhū",
+        "meaning": "Hầu như",
+        "type": "Phó从",
+        "example": "几乎都能听懂了。",
+        "exampleMeaning": "Hầu như đều có thể nghe hiểu rồi."
+      },
+      {
+        "id": "16",
+        "word": "往往",
+        "pinyin": "wǎngwǎng",
+        "meaning": "Thường hay",
+        "type": "Phó从",
+        "example": "复习往往能发现新问题。",
+        "exampleMeaning": "Ôn tập thường hay phát hiện ra vấn đề mới."
+      },
+      {
+        "id": "17",
+        "word": "永远",
+        "pinyin": "yǒngyuǎn",
+        "meaning": "Mãi mãi",
+        "type": "Phó从",
+        "example": "学无止境，永远保持好奇心。",
+        "exampleMeaning": "Học không có giới hạn, mãi mãi giữ sự tò mò."
+      },
+      {
+        "id": "18",
+        "word": "值得",
+        "pinyin": "zhídé",
+        "meaning": "Đáng",
+        "type": "Động从",
+        "example": "这一切努力都是值得的。",
+        "exampleMeaning": "Tất cả nỗ lực này đều là xứng đáng."
+      },
+      {
+        "id": "19",
+        "word": "比如",
+        "pinyin": "bǐrú",
+        "meaning": "Ví dụ như",
+        "type": "Động从",
+        "example": "比如这个词的用法...",
+        "exampleMeaning": "Ví dụ như cách dùng của từ này..."
+      },
+      {
+        "id": "20",
+        "word": "其实",
+        "pinyin": "qíshí",
+        "meaning": "Thực ra",
+        "type": "Phó从",
+        "example": "其实并不难。",
+        "exampleMeaning": "Thực ra hoàn toàn không khó."
+      },
+      {
+        "id": "21",
+        "word": "另外",
+        "pinyin": "lìngwài",
+        "meaning": "Ngoài ra",
+        "type": "Đại/Phó从",
+        "example": "另外，还要多练习说。",
+        "exampleMeaning": "Ngoài ra, còn phải luyện nói nhiều hơn."
+      },
+      {
+        "id": "22",
+        "word": "否则",
+        "pinyin": "fǒuzé",
+        "meaning": "Nếu không thì",
+        "type": "Liên从",
+        "example": "要多复习，否则会忘记。",
+        "exampleMeaning": "Phải ôn tập nhiều, nếu không thì sẽ quên mất."
+      }
+    ],
+    "grammar": [
+      {
+        "id": "1",
+        "title": "1. 希望… (Hy vọng...)",
+        "description": "Bày tỏ mong muốn tốt đẹp.",
+        "formula": "希望 + Mệnh đề",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "希望你能成功。",
+            "vietnamese": "Hy vọng bạn có thể thành công."
+          }
+        ]
+      },
+      {
+        "id": "2",
+        "title": "2. 展望… (Triển vọng / Nhìn về...)",
+        "description": "Nhìn về tương lai với sự mong đợi, thường dùng trong văn viết.",
+        "formula": "展望 + 未来/前景",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "展望未来，我们充满信心。",
+            "vietnamese": "Nhìn về tương lai, chúng ta tràn đầy niềm tin."
+          }
+        ]
+      },
+      {
+        "id": "3",
+        "title": "3. 总之… (Tóm lại...)",
+        "description": "Đúc kết toàn bộ ý nghĩa của các câu trước thành một kết luận cuối cùng.",
+        "formula": "总之，+ Kết luận cuối",
+        "examples": [
+          {
+            "id": "1",
+            "chinese": "总之，我们要继续努力。",
+            "vietnamese": "Tóm lại, chúng ta phải tiếp tục nỗ lực."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại: Lời chúc tốt đẹp",
+        "context": "Buổi tiệc chia tay cuối năm của công ty.",
+        "lines": [
+          {
+            "speaker": "老板",
+            "zh": "展望未来，我希望公司能取得更大的成绩。",
+            "py": "Zhǎnwàng wèilái, wǒ xīwàng gōngsī néng qǔdé gèng dà de chéngjì.",
+            "vi": "Nhìn về tương lai, tôi hy vọng công ty có thể đạt được những thành tích lớn hơn nữa."
+          },
+          {
+            "speaker": "经理",
+            "zh": "大家辛苦了一年，希望能得到更多的回报。",
+            "py": "Dàjiā xīnkǔ le yì nián, xīwàng néng dédào gèng duō de huíbào.",
+            "vi": "Mọi người đã vất vả một năm rồi, hy vọng có thể nhận được càng nhiều sự đền đáp."
+          },
+          {
+            "speaker": "老板",
+            "zh": "总之，感谢每一位员工的付出！",
+            "py": "Zǒngzhī, gǎnxiè měi yí wèi yuángōng de fùchū!",
+            "vi": "Tóm lại, cảm ơn sự cống hiến của từng vị nhân viên!"
+          },
+          {
+            "speaker": "全体",
+            "zh": "谢谢老板，干杯！",
+            "py": "Xièxie lǎobǎn, gānbēi!",
+            "vi": "Cảm ơn sếp, cạn ly!"
+          }
+        ]
+      }
+    ]
+  }
+]

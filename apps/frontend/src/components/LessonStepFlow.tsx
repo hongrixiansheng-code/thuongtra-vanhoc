@@ -1,6 +1,8 @@
 "use client";
 
 import React, { useState, useMemo, useEffect } from "react";
+import { pinyin } from 'pinyin-pro';
+import { VocabDetailModal } from '@/components/legacy/VocabTab';
 
 function playSound(type: 'correct' | 'wrong') {
   try {
@@ -103,8 +105,9 @@ export default function LessonStepFlow({
 
   useEffect(() => {
     const loadVoices = () => {
+      const isZH = vocabItems?.[0]?.hanzi && !vocabItems?.[0]?.word;
       const available = window.speechSynthesis.getVoices()
-        .filter(v => v.lang.startsWith('en'));
+        .filter(v => isZH ? v.lang.startsWith('zh') : v.lang.startsWith('en'));
       setVoices(available);
       if (available.length > 0 && !selectedVoiceURI) {
         setSelectedVoiceURI(available[0].voiceURI);
@@ -114,7 +117,9 @@ export default function LessonStepFlow({
     window.speechSynthesis.onvoiceschanged = loadVoices;
   }, []);
 
-  const speak = (text: string, lang = 'en-US', onEnd?: () => void) => {
+  const isZH = vocabItems?.[0]?.hanzi && !vocabItems?.[0]?.word;
+  const defaultLang = isZH ? 'zh-CN' : 'en-US';
+  const speak = (text: string, lang = defaultLang, onEnd?: () => void) => {
     window.speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = lang;
@@ -148,7 +153,9 @@ export default function LessonStepFlow({
 
           // Lọc từ sai: loại bỏ từ có nghĩa chính giống hoặc gần giống
           const wrongPool = vocabItems.filter((v: any) => {
-            if (v.word === item.word) return false;
+            const vKey = v.hanzi || v.word;
+            const itemKey = item.hanzi || item.word;
+            if (vKey === itemKey) return false;
             const vMainMeaning = v.meaning?.split(',')[0].trim() || '';
             // Loại bỏ nếu nghĩa chính giống nhau
             if (vMainMeaning === mainMeaning) return false;
@@ -166,20 +173,20 @@ export default function LessonStepFlow({
             const fallbackWrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
             return {
               type: 'multiple_choice',
-              question: `"${item.word}" có nghĩa là gì?`,
+              question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
               options: shuffleArray([item.meaning, ...fallbackWrongs]),
               correct: item.meaning,
-              explanation: `"${item.word}" = ${item.meaning}`
+              explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
             };
           }
 
           const options = shuffleArray([mainMeaning, ...wrongs]);
           return {
             type: 'multiple_choice',
-            question: `"${item.word}" có nghĩa là gì?`,
+            question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
             options,
             correct: mainMeaning,
-            explanation: `"${item.word}" = ${item.meaning}`
+            explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
           };
         });
 
@@ -205,14 +212,14 @@ export default function LessonStepFlow({
 
       // 2 câu MC: hỏi nghĩa từ vựng random
       const mcQuestions = allVocab.slice(0, 2).map((item: any) => {
-        const wrongPool = vocabItems.filter((v: any) => v.word !== item.word);
+        const wrongPool = vocabItems.filter((v: any) => (v.hanzi || v.word) !== (item.hanzi || item.word));
         const wrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
         return {
           type: 'multiple_choice',
-          question: `"${item.word}" có nghĩa là gì?`,
+          question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
           options: shuffleArray([item.meaning, ...wrongs]),
           correct: item.meaning,
-          explanation: `"${item.word}" = ${item.meaning}`
+          explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
         };
       });
 
@@ -223,33 +230,51 @@ export default function LessonStepFlow({
         const example = g.practiceList?.[Math.floor(Math.random() * (g.practiceList?.length || 1))];
         const sentence = example?.correct || '';
 
-        // Tìm từ trong formula để đục lỗ
-        const formulaWords = (g.formula || []).flatMap((f: any) =>
-          f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
-        );
+        let targetWord = '';
+        let blanked = sentence;
+        let wrongOptions: string[] = [];
 
-        // Tách câu thành các từ và loại bỏ dấu câu để so sánh chính xác
-        const wordsInSentence = sentence.split(' ').map((w: string) => w.replace(/[.,!?]/g, ''));
+        if (isZH) {
+          const vocabWords = vocabItems.map((v: any) => v.hanzi).filter(Boolean);
+          const formulaWords = (g.formula || []).flatMap((f: any) =>
+            f.text.split(/[\s\/+→]/).filter((w: string) => /[\u4e00-\u9fa5]/.test(w))
+          );
+          
+          targetWord = formulaWords.find((w: string) => sentence.includes(w)) || 
+                       vocabWords.find((w: string) => sentence.includes(w)) || 
+                       sentence.charAt(1) || sentence.charAt(0);
+          
+          if (targetWord) {
+            blanked = sentence.replace(targetWord, '___');
+          }
+          wrongOptions = shuffleArray(vocabItems.map((v: any) => v.hanzi).filter(Boolean));
+        } else {
+          const formulaWords = (g.formula || []).flatMap((f: any) =>
+            f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
+          );
+          const wordsInSentence = sentence.split(' ').map((w: string) => w.replace(/[.,!?]/g, ''));
+          targetWord = formulaWords.find((w: string) =>
+            wordsInSentence.some((sw: string) => sw.toLowerCase() === w.toLowerCase())
+          ) || wordsInSentence.find((w: string) => w.length > 2) || wordsInSentence[1] || wordsInSentence[0] || '';
 
-        // Tìm từ xuất hiện trong câu để đục lỗ (kiểm tra khớp nguyên từ)
-        const targetWord = formulaWords.find((w: string) =>
-          wordsInSentence.some((sw: string) => sw.toLowerCase() === w.toLowerCase())
-        ) || wordsInSentence.find((w: string) => w.length > 2) || wordsInSentence[1] || wordsInSentence[0] || '';
+          if (targetWord) {
+            blanked = sentence.replace(new RegExp(`\\b${targetWord}\\b`, 'i'), '___');
+          }
 
-        const blanked = targetWord
-          ? sentence.replace(new RegExp(`\\b${targetWord}\\b`, 'i'), '___')
-          : sentence;
-
-        // Tạo options sai từ formula của các grammar khác
-        const wrongOptions = shuffleArray(
-          grammarItems
-            .filter((og: any) => og !== g)
-            .flatMap((og: any) =>
-              (og.formula || []).flatMap((f: any) =>
-                f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
+          wrongOptions = shuffleArray(
+            grammarItems
+              .filter((og: any) => og !== g)
+              .flatMap((og: any) =>
+                (og.formula || []).flatMap((f: any) =>
+                  f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
+                )
               )
-            )
-        ).slice(0, 3);
+          );
+        }
+        if (wrongOptions.length < 3) {
+          wrongOptions = [...wrongOptions, ...shuffleArray(vocabItems.map((v: any) => v.hanzi || v.word))];
+        }
+        wrongOptions = Array.from(new Set(wrongOptions.filter((w: string) => w && w !== targetWord))).slice(0, 3);
 
         return {
           type: 'fill_blank',
@@ -266,8 +291,8 @@ export default function LessonStepFlow({
         const batch = shuffleArray([...vocabItems]).slice(startIdx, startIdx + 4);
         return {
           type: 'drag_drop',
-          question: 'Ghép từ tiếng Anh với nghĩa tiếng Việt',
-          pairs: batch.map((v: any) => ({ en: v.word, vi: v.meaning }))
+          question: isZH ? 'Ghép từ tiếng Trung với nghĩa tiếng Việt' : 'Ghép từ tiếng Anh với nghĩa tiếng Việt',
+          pairs: batch.map((v: any) => ({ en: v.hanzi || v.word, vi: v.meaning }))
         };
       });
 
@@ -407,7 +432,7 @@ export default function LessonStepFlow({
             <MiniTestStep data={step.data} onFinish={handleMiniTestFinish} />
           )}
           {step.type === "grammar" && (
-            <GrammarStep data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+            <GrammarStep data={step.data} isZH={isZH} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
           )}
           {step.type === "dialogue" && (
             <DialogueStep data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
@@ -435,15 +460,23 @@ export default function LessonStepFlow({
 
 function VocabStep({ data, onNext, onPrev }: { data: any[]; onNext: () => void; onPrev?: () => void }) {
   const { speak } = React.useContext(SpeechContext);
+  const isZH = data?.[0]?.hanzi && !data?.[0]?.word;
+  const [detailWord, setDetailWord] = useState<any | null>(null);
+
   return (
     <div className="flex flex-col flex-1">
-      <h2 className="text-2xl font-bold text-slate-800 mb-6">Từ vựng mới</h2>
+      <h2 className="text-2xl font-bold text-slate-800 mb-6 flex justify-between items-center">
+        <span>Từ vựng mới</span>
+        {isZH && <span className="text-sm font-normal text-indigo-500 bg-indigo-50 px-3 py-1 rounded-full"><i className="fa-solid fa-mouse-pointer mr-2"></i>Bấm vào thẻ từ để luyện viết chữ</span>}
+      </h2>
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
         {data.map((item, idx) => (
-          <div key={idx} className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center relative">
+          <div key={idx} 
+               onClick={() => setDetailWord(item)}
+               className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center relative cursor-pointer hover:shadow-md hover:border-indigo-200 transition-all group">
             <button
-              onClick={() => speak(item.word)}
-              className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-blue-50 hover:bg-blue-100 text-blue-500 transition-colors"
+              onClick={(e) => { e.stopPropagation(); speak(item.hanzi || item.word); }}
+              className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-blue-50 hover:bg-blue-100 text-blue-500 transition-colors z-10"
             >
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
@@ -451,12 +484,25 @@ function VocabStep({ data, onNext, onPrev }: { data: any[]; onNext: () => void; 
                 <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
               </svg>
             </button>
-            <div className="text-3xl font-bold text-blue-600 mb-2">{item.word}</div>
+            {(item.type || item.type_short) && (
+              <span className="inline-block text-xs font-bold px-2 py-0.5 rounded-full mb-2 bg-indigo-100 text-indigo-700 uppercase tracking-wide">
+                {isZH ? item.type : (item.type_short || item.type)}
+              </span>
+            )}
+            <div className="text-3xl font-bold text-blue-600 mb-2">
+              {item.hanzi || item.word}
+            </div>
+            {item.pinyin && (
+              <div className="text-sm text-indigo-500 font-medium mb-1">{item.pinyin}</div>
+            )}
+            {item.ipa && (
+              <div className="text-sm text-emerald-500 font-mono mb-1">{item.ipa}</div>
+            )}
             <div className="text-lg text-slate-600 mb-4">{item.meaning}</div>
-            {item.example_en && (
+            {(item.example_en || item.example_zh) && (
               <div
-                onClick={() => speak(item.example_en)}
-                className="text-sm bg-blue-50 text-blue-800 p-3 rounded-lg w-full cursor-pointer hover:bg-blue-100 transition-colors group"
+                onClick={(e) => { e.stopPropagation(); speak(item.example_en || item.example_zh); }}
+                className="text-sm bg-blue-50 text-blue-800 p-3 rounded-lg w-full cursor-pointer hover:bg-blue-100 transition-colors group/ex mt-4"
               >
                 <div className="flex items-center justify-between mb-1">
                   <span className="text-xs text-blue-400 group-hover:text-blue-600">Nhấn để nghe ví dụ</span>
@@ -465,13 +511,19 @@ function VocabStep({ data, onNext, onPrev }: { data: any[]; onNext: () => void; 
                     <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
                   </svg>
                 </div>
-                <div>{item.example_en}</div>
+                <div>{item.example_en || item.example_zh}</div>
+                {(item.example_py || item.example_zh) && (
+                  <div className="text-indigo-400 text-xs mb-1 font-medium">
+                    {item.example_py || (item.example_zh ? pinyin(item.example_zh) : '')}
+                  </div>
+                )}
                 <div className="text-blue-600/80">{item.example_vi}</div>
               </div>
             )}
           </div>
         ))}
       </div>
+      {detailWord && <VocabDetailModal word={detailWord} onClose={() => setDetailWord(null)} />}
       <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-8 flex gap-3">
         {onPrev && (
           <button
@@ -525,9 +577,16 @@ function MiniTestStep({ data, onFinish }: { data: any[]; onFinish: (c: number, t
         <div className="inline-block text-xs font-bold px-3 py-1 rounded-full uppercase tracking-widest bg-blue-100 text-blue-700 mb-4 text-center">
           Mini Test - Câu {qIndex + 1}/{data.length}
         </div>
-        <h3 className="text-2xl font-bold text-blue-700 mb-8 text-center">
-          {currentQ.question}
-        </h3>
+        <div className="text-center mb-8">
+          {/[\u4e00-\u9fa5]/.test(currentQ.question) && (
+            <div className="text-indigo-400 text-lg font-medium mb-1">
+              {pinyin(currentQ.question)}
+            </div>
+          )}
+          <h3 className="text-2xl font-bold text-blue-700">
+            {currentQ.question}
+          </h3>
+        </div>
         <div className="grid grid-cols-1 gap-3">
           {currentQ.options.map((opt: string, idx: number) => {
             const isSelected = selected === opt;
@@ -555,7 +614,12 @@ function MiniTestStep({ data, onFinish }: { data: any[]; onFinish: (c: number, t
                 {selected && isSelected && !isCorrectOpt && (
                   <span className="mr-2">✗</span>
                 )}
-                {opt}
+                <div>{opt}</div>
+                {/[\u4e00-\u9fa5]/.test(opt) && (
+                  <div className="text-indigo-400 text-xs mt-1 font-medium">
+                    {pinyin(opt)}
+                  </div>
+                )}
               </button>
             );
           })}
@@ -571,8 +635,20 @@ function MiniTestStep({ data, onFinish }: { data: any[]; onFinish: (c: number, t
   );
 }
 
-function GrammarStep({ data, onNext, onPrev }: { data: any; onNext: () => void; onPrev?: () => void }) {
+function GrammarStep({ data, isZH, onNext, onPrev }: { data: any; isZH?: boolean; onNext: () => void; onPrev?: () => void }) {
   const { speak } = React.useContext(SpeechContext);
+
+  const getFormulaText = (text: string) => {
+    if (!isZH) return text;
+    return text
+      .replace(/\bS\b/g, 'Chủ ngữ')
+      .replace(/\bV\b/g, 'Động từ')
+      .replace(/\bAdj\b/g, 'Tính từ')
+      .replace(/\bN\b/g, 'Danh từ')
+      .replace(/\bO\b/g, 'Tân ngữ')
+      .replace(/\bPron\b/g, 'Đại từ');
+  };
+
   return (
     <div className="flex flex-col flex-1">
       <div className="flex-1 space-y-4">
@@ -593,7 +669,7 @@ function GrammarStep({ data, onNext, onPrev }: { data: any; onNext: () => void; 
             {data.formula?.map((f: any, idx: number) => (
               <React.Fragment key={idx}>
                 <span className={`px-4 py-2 rounded-xl border-2 font-semibold text-sm ${f.classes}`}>
-                  {f.text}
+                  {getFormulaText(f.text)}
                 </span>
                 {idx < data.formula.length - 1 && (
                   <span className="text-slate-300 font-bold">→</span>
@@ -616,6 +692,12 @@ function GrammarStep({ data, onNext, onPrev }: { data: any; onNext: () => void; 
                 </span>
                 <div>
                   <div className="font-semibold text-slate-800">{p.correct}</div>
+                  {(p.pinyin || (p.correct && /[\u4e00-\u9fa5]/.test(p.correct))) && (
+                    <div className="text-indigo-400 text-xs font-medium">
+                      {p.pinyin || pinyin(p.correct)}
+                    </div>
+                  )}
+                  {p.meaning && <div className="text-slate-400 text-xs">{p.meaning}</div>}
                 </div>
                 <button
                   onClick={() => speak(p.correct)}
@@ -684,7 +766,7 @@ function DialogueStep({ data, onNext, onPrev }: { data: any; onNext: () => void;
     data.lines?.forEach((line: any, idx: number) => {
       const t1 = setTimeout(() => {
         setPlayingLine(idx);
-        speak(line.en);
+        speak(line.en || line.zh, line.zh ? 'zh-CN' : undefined);
       }, delay);
       timeoutsRef.current.push(t1);
       delay += 2500;
@@ -701,7 +783,7 @@ function DialogueStep({ data, onNext, onPrev }: { data: any; onNext: () => void;
   const handlePlayLine = (line: any, idx: number) => {
     clearAllAudio();
     setPlayingLine(idx);
-    speak(line.en, 'en-US', () => setPlayingLine(null));
+    speak(line.en || line.zh, line.zh ? 'zh-CN' : 'en-US', () => setPlayingLine(null));
   };
 
   const handleNext = () => {
@@ -742,8 +824,11 @@ function DialogueStep({ data, onNext, onPrev }: { data: any; onNext: () => void;
         {/* Các dòng hội thoại */}
         <div className="flex-1 overflow-y-auto space-y-4 px-2">
           {data.lines?.map((line: any, idx: number) => {
-            const isA = line.speaker === 'A';
+            const speakers = Array.from(new Set(data.lines.map((l: any) => l.speaker)));
+            const isA = line.speaker === speakers[0];
             const isThisPlaying = playingLine === idx;
+            const speakerName = (line.speaker === 'A' || line.speaker === 'B') ? `Nhân vật ${line.speaker}` : line.speaker;
+            
             return (
               <div key={idx} className={`flex ${isA ? 'justify-start' : 'justify-end'}`}>
                 <div className={`max-w-[80%] rounded-2xl p-4 transition-all
@@ -756,9 +841,14 @@ function DialogueStep({ data, onNext, onPrev }: { data: any; onNext: () => void;
                     : 'bg-slate-100 border border-slate-200 rounded-tr-sm'
                   }`}>
                   <div className={`font-bold mb-1 text-xs ${isA ? 'text-blue-600' : 'text-slate-500'}`}>
-                    {isA ? 'Nhân vật A' : 'Nhân vật B'}
+                    {speakerName}
                   </div>
-                  <div className="text-slate-800 font-medium text-base mb-1">{line.en}</div>
+                  <div className="text-slate-800 font-medium text-base mb-1">{line.en || line.zh}</div>
+                  {(line.py || line.zh) && (
+                    <div className="text-indigo-400 text-sm mb-1 font-medium">
+                      {line.py || pinyin(line.zh)}
+                    </div>
+                  )}
                   <div className={`text-sm ${isA ? 'text-blue-500/80' : 'text-slate-500'}`}>{line.vi}</div>
                   <button
                     onClick={() => handlePlayLine(line, idx)}
@@ -910,9 +1000,16 @@ function QuizQuestion({ ex, onNext }: { ex: any; onNext: (isCorrect: boolean) =>
       </div>
 
       {/* Câu hỏi */}
-      <h3 className="text-2xl font-bold text-blue-700 mb-8 text-center leading-relaxed">
-        {ex.question}
-      </h3>
+      <div className="text-center mb-8">
+        {/[\u4e00-\u9fa5]/.test(ex.question) && (
+          <div className="text-indigo-400 text-lg font-medium mb-1">
+            {pinyin(ex.question)}
+          </div>
+        )}
+        <h3 className="text-2xl font-bold text-blue-700 leading-relaxed">
+          {ex.question}
+        </h3>
+      </div>
 
       {/* Đáp án */}
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -943,7 +1040,12 @@ function QuizQuestion({ ex, onNext }: { ex: any; onNext: (isCorrect: boolean) =>
               {selected && isSelected && !isCorrectOpt && (
                 <span className="mr-2">✗</span>
               )}
-              {opt}
+              <div>{opt}</div>
+              {/[\u4e00-\u9fa5]/.test(opt) && (
+                <div className="text-indigo-400 text-xs mt-1 font-medium">
+                  {pinyin(opt)}
+                </div>
+              )}
             </button>
           );
         })}
@@ -1038,7 +1140,12 @@ function DragDropQuestion({ ex, onNext }: { ex: any; onNext: (isCorrect: boolean
                     : "bg-white border-blue-100 text-slate-700 hover:border-blue-400 hover:bg-blue-50"
                   }`}
               >
-                {en}
+                <div>{en}</div>
+                {/[\u4e00-\u9fa5]/.test(en) && (
+                  <div className="text-indigo-500 text-xs mt-1 font-medium">
+                    {pinyin(en)}
+                  </div>
+                )}
               </button>
             );
           })}

@@ -1,0 +1,1878 @@
+[
+  {
+    "orderIndex": 5,
+    "title": "Bài 6: Công nghệ và Ứng dụng",
+    "theme": "CHƯƠNG 6: TECHNOLOGY (科技)",
+    "vocab": [
+      {
+        "hanzi": "网络",
+        "pinyin": "wǎngluò",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mạng internet",
+        "example_zh": "这里的网络很慢。",
+        "example_vi": "Mạng ở đây rất chậm."
+      },
+      {
+        "hanzi": "下载",
+        "pinyin": "xiàzài",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tải xuống",
+        "example_zh": "我下载了一个新软件。",
+        "example_vi": "Tôi đã tải xuống một phần mềm mới."
+      },
+      {
+        "hanzi": "上传",
+        "pinyin": "shàngchuán",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tải lên",
+        "example_zh": "请把照片上传到网上。",
+        "example_vi": "Xin hãy tải ảnh lên mạng."
+      },
+      {
+        "hanzi": "密码",
+        "pinyin": "mìmǎ",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mật khẩu",
+        "example_zh": "我忘记了Wifi密码。",
+        "example_vi": "Tôi quên mất mật khẩu Wifi rồi."
+      },
+      {
+        "hanzi": "手机",
+        "pinyin": "shǒujī",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "điện thoại di động",
+        "example_zh": "这是最新款的手机。",
+        "example_vi": "Đây là mẫu điện thoại mới nhất."
+      },
+      {
+        "hanzi": "电脑",
+        "pinyin": "diànnǎo",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "máy tính",
+        "example_zh": "我的电脑坏了。",
+        "example_vi": "Máy tính của tôi hỏng rồi."
+      },
+      {
+        "hanzi": "发",
+        "pinyin": "fā",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "gửi",
+        "example_zh": "我给你发了一封邮件。",
+        "example_vi": "Tôi đã gửi cho bạn một bức thư điện tử."
+      },
+      {
+        "hanzi": "找到",
+        "pinyin": "zhǎodào",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tìm thấy",
+        "example_zh": "我找到我的手机了。",
+        "example_vi": "Tôi tìm thấy điện thoại của mình rồi."
+      },
+      {
+        "hanzi": "邮件",
+        "pinyin": "yóujiàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "email, thư",
+        "example_zh": "我每天收很多邮件。",
+        "example_vi": "Mỗi ngày tôi nhận được rất nhiều email."
+      },
+      {
+        "hanzi": "游戏",
+        "pinyin": "yóuxì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "trò chơi, game",
+        "example_zh": "男孩子喜欢玩游戏。",
+        "example_vi": "Con trai thích chơi game."
+      },
+      {
+        "hanzi": "软件",
+        "pinyin": "ruǎnjiàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "phần mềm",
+        "example_zh": "这个软件很好用。",
+        "example_vi": "Phần mềm này rất dễ dùng."
+      },
+      {
+        "hanzi": "遇到",
+        "pinyin": "yùdào",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "gặp phải",
+        "example_zh": "我遇到了一个问题。",
+        "example_vi": "Tôi đã gặp phải một vấn đề."
+      },
+      {
+        "hanzi": "开机",
+        "pinyin": "kāijī",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bật máy",
+        "example_zh": "我的电脑不能开机了。",
+        "example_vi": "Máy tính của tôi không thể bật lên được nữa."
+      },
+      {
+        "hanzi": "关机",
+        "pinyin": "guānjī",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tắt máy",
+        "example_zh": "上课时请关机。",
+        "example_vi": "Trong giờ học xin hãy tắt máy."
+      },
+      {
+        "hanzi": "病毒",
+        "pinyin": "bìngdú",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "virus",
+        "example_zh": "电脑中了病毒。",
+        "example_vi": "Máy tính nhiễm virus rồi."
+      },
+      {
+        "hanzi": "新闻",
+        "pinyin": "xīnwén",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tin tức",
+        "example_zh": "我喜欢在网上看新闻。",
+        "example_vi": "Tôi thích xem tin tức trên mạng."
+      },
+      {
+        "hanzi": "网站",
+        "pinyin": "wǎngzhàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "trang web",
+        "example_zh": "这是我们公司的网站。",
+        "example_vi": "Đây là trang web của công ty chúng tôi."
+      },
+      {
+        "hanzi": "网民",
+        "pinyin": "wǎngmín",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cư dân mạng",
+        "example_zh": "中国的网民很多。",
+        "example_vi": "Cư dân mạng của Trung Quốc rất đông."
+      },
+      {
+        "hanzi": "聊天",
+        "pinyin": "liáotiān",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "trò chuyện, chat",
+        "example_zh": "我们在网上聊天。",
+        "example_vi": "Chúng tôi trò chuyện trên mạng."
+      },
+      {
+        "hanzi": "视频",
+        "pinyin": "shìpín",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "video",
+        "example_zh": "我喜欢看搞笑视频。",
+        "example_vi": "Tôi thích xem video hài hước."
+      },
+      {
+        "hanzi": "声音",
+        "pinyin": "shēngyīn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "âm thanh",
+        "example_zh": "这个视频没有声音。",
+        "example_vi": "Video này không có âm thanh."
+      },
+      {
+        "hanzi": "照片",
+        "pinyin": "zhàopiàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "bức ảnh",
+        "example_zh": "我发给你几张照片。",
+        "example_vi": "Tôi gửi cho bạn mấy bức ảnh."
+      },
+      {
+        "hanzi": "照相机",
+        "pinyin": "zhàoxiàngjī",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "máy ảnh",
+        "example_zh": "现在的手机就像照相机一样好。",
+        "example_vi": "Điện thoại bây giờ tốt như máy ảnh vậy."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Đại từ nghi vấn phiếm chỉ (谁/什么/哪儿 + 都/也)",
+        "desc": "Dùng đại từ nghi vấn kết hợp với 都/也 để biểu thị ý nghĩa 'tất cả' hoặc 'hoàn toàn không' (khi đi với phủ định).",
+        "formula": [
+          {
+            "text": "Ai/Cái gì/Ở đâu + 都/也 + (不/没) + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我什么都不想吃。",
+            "meaning": "Tôi không muốn ăn cái gì cả."
+          }
+        ]
+      },
+      {
+        "title": "2. Phân biệt 怎么 vs 为什么",
+        "desc": "怎么 hỏi phương thức (như thế nào) hoặc sự ngạc nhiên. 为什么 chỉ hỏi nguyên nhân (tại sao).",
+        "formula": [
+          {
+            "text": "怎么 / 为什么 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你怎么没来？",
+            "meaning": "Sao (thế nào mà) bạn không đến?"
+          },
+          {
+            "correct": "为什么没来？",
+            "meaning": "Tại sao bạn không đến?"
+          }
+        ]
+      },
+      {
+        "title": "3. Phân biệt 几 vs 多少",
+        "desc": "几 hỏi số lượng nhỏ (dưới 10), phải đi kèm lượng từ. 多少 hỏi số lượng lớn, có thể không cần lượng từ.",
+        "formula": [
+          {
+            "text": "几 + Lượng từ + Danh từ / 多少 + (Lượng từ) + Danh từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你有几个苹果？",
+            "meaning": "Bạn có mấy quả táo?"
+          },
+          {
+            "correct": "你要多少钱？",
+            "meaning": "Bạn cần bao nhiêu tiền?"
+          }
+        ]
+      },
+      {
+        "title": "4. Cấu trúc 多 + Tính từ",
+        "desc": "Hỏi mức độ (bao nhiêu, tới mức nào).",
+        "formula": [
+          {
+            "text": "多 + Tính từ (大/高/重/远)",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你多高？",
+            "meaning": "Bạn cao bao nhiêu?"
+          }
+        ]
+      },
+      {
+        "title": "5. 才 vs 就",
+        "desc": "才 biểu thị sự việc diễn ra muộn màng, khó khăn. 就 biểu thị sự việc diễn ra sớm, nhanh chóng.",
+        "formula": [
+          {
+            "text": "Thời gian + 才 / 就 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他十点才来。",
+            "meaning": "10 giờ anh ấy MỚI đến."
+          },
+          {
+            "correct": "他六点就来了。",
+            "meaning": "6 giờ anh ấy ĐÃ đến rồi."
+          }
+        ]
+      },
+      {
+        "title": "6. Nhấn mạnh thời gian: …的时候",
+        "desc": "Chỉ thời điểm đang diễn ra hành động.",
+        "formula": [
+          {
+            "text": "Hành động + 的时候",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "吃饭的时候不要说话。",
+            "meaning": "Lúc ăn cơm đừng nói chuyện."
+          }
+        ]
+      },
+      {
+        "title": "7. Nhấn mạnh thời gian: …以前",
+        "desc": "Chỉ khoảng thời gian trước khi xảy ra một việc.",
+        "formula": [
+          {
+            "text": "Hành động/Thời gian + 以前",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "睡觉以前要刷牙。",
+            "meaning": "Trước khi đi ngủ phải đánh răng."
+          }
+        ]
+      },
+      {
+        "title": "8. Nhấn mạnh thời gian: …以后",
+        "desc": "Chỉ khoảng thời gian sau khi xảy ra một việc.",
+        "formula": [
+          {
+            "text": "Hành động/Thời gian + 以后",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "下课以后我们去打球。",
+            "meaning": "Sau khi tan học chúng ta đi đánh bóng."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Sự cố mạng",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你的网络好吗？我下载不了这个文件。",
+            "py": "Nǐ de wǎngluò hǎo ma? Wǒ xiàzài bù liǎo zhège wénjiàn.",
+            "vi": "Mạng của bạn tốt không? Tôi không tải được file này."
+          },
+          {
+            "speaker": "B",
+            "zh": "我的网络挺好的。你要不要连我的Wifi？",
+            "py": "Wǒ de wǎngluò tǐng hǎo de. Nǐ yào bù yào lián wǒ de Wifi?",
+            "vi": "Mạng của tôi khá tốt. Bạn có muốn kết nối Wifi của tôi không?"
+          },
+          {
+            "speaker": "A",
+            "zh": "好啊，Wifi密码是多少？",
+            "py": "Hǎo a, Wifi mìmǎ shì duōshao?",
+            "vi": "Được nha, mật khẩu Wifi là bao nhiêu?"
+          },
+          {
+            "speaker": "B",
+            "zh": "密码是八个八。你连上以后再重新下载吧。",
+            "py": "Mìmǎ shì bā gè bā. Nǐ lián shàng yǐhòu zài chóngxīn xiàzài ba.",
+            "vi": "Mật khẩu là 8 số 8. Bạn kết nối xong rồi tải lại xem sao."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "title": "Bài 7: Rắc rối thường ngày",
+    "theme": "CHƯƠNG 7: DAILY PROBLEMS",
+    "vocab": [
+      {
+        "hanzi": "丢",
+        "pinyin": "diū",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "mất, đánh mất",
+        "example_zh": "我的钥匙丢了。",
+        "example_vi": "Chìa khóa của tôi mất rồi."
+      },
+      {
+        "hanzi": "忘记",
+        "pinyin": "wàngjì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "quên",
+        "example_zh": "我忘记了他的名字。",
+        "example_vi": "Tôi quên mất tên của anh ấy rồi."
+      },
+      {
+        "hanzi": "麻烦",
+        "pinyin": "máfan",
+        "type": "Tính từ/Động từ",
+        "type_short": "adj/v",
+        "meaning": "phiền phức, làm phiền",
+        "example_zh": "这件事很麻烦。",
+        "example_vi": "Việc này rất phiền phức."
+      },
+      {
+        "hanzi": "帮忙",
+        "pinyin": "bāngmáng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "giúp đỡ",
+        "example_zh": "你可以帮我一个忙吗？",
+        "example_vi": "Bạn có thể giúp tôi một việc được không?"
+      },
+      {
+        "hanzi": "钱包",
+        "pinyin": "qiánbāo",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "ví tiền",
+        "example_zh": "他把钱包丢了。",
+        "example_vi": "Anh ấy đánh mất ví tiền rồi."
+      },
+      {
+        "hanzi": "坏",
+        "pinyin": "huài",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "hỏng, tồi",
+        "example_zh": "我的车坏了。",
+        "example_vi": "Xe của tôi hỏng rồi."
+      },
+      {
+        "hanzi": "修理",
+        "pinyin": "xiūlǐ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "sửa chữa",
+        "example_zh": "他正在修理电脑。",
+        "example_vi": "Anh ấy đang sửa máy tính."
+      },
+      {
+        "hanzi": "差",
+        "pinyin": "chà",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "tệ, kém",
+        "example_zh": "这里的服务太差了。",
+        "example_vi": "Dịch vụ ở đây tệ quá."
+      },
+      {
+        "hanzi": "迟到",
+        "pinyin": "chídào",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "đến muộn",
+        "example_zh": "对不起，我迟到了。",
+        "example_vi": "Xin lỗi, tôi đến muộn rồi."
+      },
+      {
+        "hanzi": "找不到",
+        "pinyin": "zhǎo bu dào",
+        "type": "Cụm từ",
+        "type_short": "phrase",
+        "meaning": "tìm không thấy",
+        "example_zh": "我找不到我的眼镜了。",
+        "example_vi": "Tôi tìm không thấy kính của mình nữa."
+      },
+      {
+        "hanzi": "借",
+        "pinyin": "jiè",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "mượn, cho mượn",
+        "example_zh": "我可以借你的车吗？",
+        "example_vi": "Tôi có thể mượn xe của bạn không?"
+      },
+      {
+        "hanzi": "还",
+        "pinyin": "huán",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "trả lại",
+        "example_zh": "我明天还你钱。",
+        "example_vi": "Ngày mai tôi trả lại tiền cho bạn."
+      },
+      {
+        "hanzi": "警察",
+        "pinyin": "jǐngchá",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cảnh sát",
+        "example_zh": "有问题可以找警察。",
+        "example_vi": "Có vấn đề có thể tìm cảnh sát."
+      },
+      {
+        "hanzi": "报警",
+        "pinyin": "bàojǐng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "báo cảnh sát",
+        "example_zh": "快报警！",
+        "example_vi": "Mau báo cảnh sát!"
+      },
+      {
+        "hanzi": "现金",
+        "pinyin": "xiànjīn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tiền mặt",
+        "example_zh": "我没有带现金。",
+        "example_vi": "Tôi không mang theo tiền mặt."
+      },
+      {
+        "hanzi": "发现",
+        "pinyin": "fāxiàn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "phát hiện",
+        "example_zh": "我发现钱包不见了。",
+        "example_vi": "Tôi phát hiện ví tiền không thấy đâu nữa."
+      },
+      {
+        "hanzi": "突然",
+        "pinyin": "tūrán",
+        "type": "Phó từ/Tính từ",
+        "type_short": "adv/adj",
+        "meaning": "đột nhiên",
+        "example_zh": "突然下雨了。",
+        "example_vi": "Đột nhiên trời mưa rồi."
+      },
+      {
+        "hanzi": "害怕",
+        "pinyin": "hàipà",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "sợ hãi",
+        "example_zh": "我有点儿害怕。",
+        "example_vi": "Tôi có chút sợ hãi."
+      },
+      {
+        "hanzi": "担心",
+        "pinyin": "dānxīn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "lo lắng",
+        "example_zh": "别担心，一切都会好的。",
+        "example_vi": "Đừng lo lắng, mọi thứ rồi sẽ ổn thôi."
+      },
+      {
+        "hanzi": "危险",
+        "pinyin": "wēixiǎn",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "nguy hiểm",
+        "example_zh": "晚上一个人出去很危险。",
+        "example_vi": "Buổi tối đi ra ngoài một mình rất nguy hiểm."
+      },
+      {
+        "hanzi": "安全",
+        "pinyin": "ānquán",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "an toàn",
+        "example_zh": "这里非常安全。",
+        "example_vi": "Ở đây vô cùng an toàn."
+      },
+      {
+        "hanzi": "保证",
+        "pinyin": "bǎozhèng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bảo đảm",
+        "example_zh": "我保证以后不迟到了。",
+        "example_vi": "Tôi bảo đảm sau này sẽ không đến muộn nữa."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Câu chữ 把 cơ bản",
+        "desc": "Nhấn mạnh chủ thể xử lý, tác động làm biến đổi tân ngữ xác định.",
+        "formula": [
+          {
+            "text": "S + 把 + O + V + 了/其他",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我把苹果吃了。",
+            "meaning": "Tôi đã ăn quả táo rồi."
+          }
+        ]
+      },
+      {
+        "title": "2. Câu chữ 把: Đưa đến Vị trí",
+        "desc": "Hành động làm thay đổi vị trí của tân ngữ.",
+        "formula": [
+          {
+            "text": "S + 把 + O + V + 在/到 + Nơi chốn",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "把书放在桌子上。",
+            "meaning": "Đặt sách lên trên bàn."
+          }
+        ]
+      },
+      {
+        "title": "3. Câu chữ 把: Chuyển giao",
+        "desc": "Hành động giao/đưa vật cho người khác.",
+        "formula": [
+          {
+            "text": "S + 把 + O + V + 给 + Người",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我把钱还给他了。",
+            "meaning": "Tôi đem tiền trả lại cho anh ấy rồi."
+          }
+        ]
+      },
+      {
+        "title": "4. Câu chữ 把: Trở thành Kết quả",
+        "desc": "Hành động làm tân ngữ biến đổi thành một trạng thái/kết quả khác.",
+        "formula": [
+          {
+            "text": "S + 把 + O + V + 成 + Trạng thái/Sự vật",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "请把这句话翻译成中文。",
+            "meaning": "Hãy dịch câu này thành tiếng Trung."
+          }
+        ]
+      },
+      {
+        "title": "5. Phủ định câu chữ 把",
+        "desc": "Từ phủ định (没, 不) phải đặt TRƯỚC chữ 把, không đặt trước động từ.",
+        "formula": [
+          {
+            "text": "S + 没/不 + 把 + O + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我没把门关上。",
+            "meaning": "Tôi chưa đóng cửa lại."
+          }
+        ]
+      },
+      {
+        "title": "6. Động từ năng nguyện trong câu chữ 把",
+        "desc": "Động từ năng nguyện (想, 要, 能...) phải đứng TRƯỚC chữ 把.",
+        "formula": [
+          {
+            "text": "S + 想/要/能 + 把 + O + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我想把这本书买下来。",
+            "meaning": "Tôi muốn mua lại cuốn sách này."
+          }
+        ]
+      },
+      {
+        "title": "7. Phó từ trong câu chữ 把",
+        "desc": "Phó từ (已经, 都, 还...) đứng TRƯỚC chữ 把.",
+        "formula": [
+          {
+            "text": "S + 已经/都 + 把 + O + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他已经把作业做完了。",
+            "meaning": "Anh ấy đã làm xong bài tập rồi."
+          }
+        ]
+      },
+      {
+        "title": "8. Bổ ngữ xu hướng trong câu chữ 把",
+        "desc": "Hành động làm tân ngữ di chuyển theo một hướng nhất định.",
+        "formula": [
+          {
+            "text": "S + 把 + O + V + Bổ ngữ xu hướng",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他把手机拿出来了。",
+            "meaning": "Anh ấy lấy điện thoại di động ra rồi."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Đánh mất đồ",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你怎么了？看起来不太高兴。",
+            "py": "Nǐ zěnme le? Kàn qǐlai bù tài gāoxìng.",
+            "vi": "Bạn sao vậy? Trông có vẻ không vui lắm."
+          },
+          {
+            "speaker": "B",
+            "zh": "别提了，我把钱包丢了。",
+            "py": "Bié tí le, wǒ bǎ qiánbāo diū le.",
+            "vi": "Đừng nhắc nữa, tôi làm mất ví tiền rồi."
+          },
+          {
+            "speaker": "A",
+            "zh": "丢在哪儿了？需要我帮忙找吗？",
+            "py": "Diū zài nǎr le? Xūyào wǒ bāngmáng zhǎo ma?",
+            "vi": "Mất ở đâu rồi? Có cần tôi giúp tìm không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "太麻烦你了，我已经报警了。",
+            "py": "Tài máfan nǐ le, wǒ yǐjīng bàojǐng le.",
+            "vi": "Phiền bạn quá, tôi đã báo cảnh sát rồi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "title": "Bài 8: Giao tiếp Xã hội",
+    "theme": "CHƯƠNG 8: SOCIAL COMMUNICATION",
+    "vocab": [
+      {
+        "hanzi": "邀请",
+        "pinyin": "yāoqǐng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "mời, lời mời",
+        "example_zh": "谢谢你的邀请。",
+        "example_vi": "Cảm ơn lời mời của bạn."
+      },
+      {
+        "hanzi": "抱歉",
+        "pinyin": "bàoqiàn",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "xin lỗi, áy náy",
+        "example_zh": "很抱歉，我不能参加。",
+        "example_vi": "Rất xin lỗi, tôi không thể tham gia."
+      },
+      {
+        "hanzi": "误会",
+        "pinyin": "wùhuì",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "hiểu lầm",
+        "example_zh": "这是一个误会。",
+        "example_vi": "Đây là một sự hiểu lầm."
+      },
+      {
+        "hanzi": "解释",
+        "pinyin": "jiěshì",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "giải thích",
+        "example_zh": "你能给我解释一下吗？",
+        "example_vi": "Bạn có thể giải thích cho tôi một chút không?"
+      },
+      {
+        "hanzi": "约会",
+        "pinyin": "yuēhuì",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "hẹn hò, cuộc hẹn",
+        "example_zh": "今晚我有个约会。",
+        "example_vi": "Tối nay tôi có một cuộc hẹn."
+      },
+      {
+        "hanzi": "拒绝",
+        "pinyin": "jùjué",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "từ chối",
+        "example_zh": "我不能拒绝他的好意。",
+        "example_vi": "Tôi không thể từ chối lòng tốt của anh ấy."
+      },
+      {
+        "hanzi": "生气",
+        "pinyin": "shēngqì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tức giận",
+        "example_zh": "你别生气了。",
+        "example_vi": "Bạn đừng tức giận nữa."
+      },
+      {
+        "hanzi": "偷",
+        "pinyin": "tōu",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "trộm, lấy cắp",
+        "example_zh": "他的自行车被偷了。",
+        "example_vi": "Xe đạp của cậu ấy bị trộm rồi."
+      },
+      {
+        "hanzi": "礼物",
+        "pinyin": "lǐwù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "quà tặng",
+        "example_zh": "这是送给你的礼物。",
+        "example_vi": "Đây là món quà tặng cho bạn."
+      },
+      {
+        "hanzi": "关系",
+        "pinyin": "guānxi",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mối quan hệ",
+        "example_zh": "我们的关系很好。",
+        "example_vi": "Mối quan hệ của chúng tôi rất tốt."
+      },
+      {
+        "hanzi": "联系",
+        "pinyin": "liánxì",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "liên hệ",
+        "example_zh": "我们保持联系吧。",
+        "example_vi": "Chúng ta giữ liên lạc nhé."
+      },
+      {
+        "hanzi": "开玩笑",
+        "pinyin": "kāi wánxiào",
+        "type": "Cụm từ",
+        "type_short": "phrase",
+        "meaning": "nói đùa",
+        "example_zh": "他只是在开玩笑。",
+        "example_vi": "Anh ấy chỉ đang nói đùa thôi."
+      },
+      {
+        "hanzi": "同意",
+        "pinyin": "tóngyì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "đồng ý",
+        "example_zh": "我同意你的看法。",
+        "example_vi": "Tôi đồng ý với cách nhìn của bạn."
+      },
+      {
+        "hanzi": "反对",
+        "pinyin": "fǎnduì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "phản đối",
+        "example_zh": "家人反对我出国。",
+        "example_vi": "Người nhà phản đối tôi ra nước ngoài."
+      },
+      {
+        "hanzi": "相信",
+        "pinyin": "xiāngxìn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tin tưởng",
+        "example_zh": "请相信我。",
+        "example_vi": "Xin hãy tin tưởng tôi."
+      },
+      {
+        "hanzi": "怀疑",
+        "pinyin": "huáiyí",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "nghi ngờ",
+        "example_zh": "我怀疑他没说实话。",
+        "example_vi": "Tôi nghi ngờ anh ta không nói thật."
+      },
+      {
+        "hanzi": "了解",
+        "pinyin": "liǎojiě",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "hiểu rõ, tìm hiểu",
+        "example_zh": "我很了解他。",
+        "example_vi": "Tôi rất hiểu rõ anh ấy."
+      },
+      {
+        "hanzi": "熟悉",
+        "pinyin": "shúxī",
+        "type": "Tính từ/Động từ",
+        "type_short": "adj/v",
+        "meaning": "quen thuộc",
+        "example_zh": "我对这里很熟悉。",
+        "example_vi": "Tôi rất quen thuộc với nơi này."
+      },
+      {
+        "hanzi": "陌生",
+        "pinyin": "mòshēng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "xa lạ",
+        "example_zh": "这是一个陌生的城市。",
+        "example_vi": "Đây là một thành phố xa lạ."
+      },
+      {
+        "hanzi": "朋友",
+        "pinyin": "péngyou",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "bạn bè",
+        "example_zh": "他是我最好的朋友。",
+        "example_vi": "Anh ấy là người bạn tốt nhất của tôi."
+      },
+      {
+        "hanzi": "热情",
+        "pinyin": "rèqíng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "nhiệt tình",
+        "example_zh": "中国人很热情。",
+        "example_vi": "Người Trung Quốc rất nhiệt tình."
+      },
+      {
+        "hanzi": "客气",
+        "pinyin": "kèqì",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "khách sáo",
+        "example_zh": "不用客气。",
+        "example_vi": "Không cần khách sáo."
+      },
+      {
+        "hanzi": "满意",
+        "pinyin": "mǎnyì",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "hài lòng",
+        "example_zh": "我对他的工作很满意。",
+        "example_vi": "Tôi rất hài lòng với công việc của cậu ấy."
+      },
+      {
+        "hanzi": "失望",
+        "pinyin": "shīwàng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "thất vọng",
+        "example_zh": "不要让父母失望。",
+        "example_vi": "Đừng làm bố mẹ thất vọng."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Câu bị động 被 cơ bản",
+        "desc": "Tân ngữ bị tác động được đưa lên làm chủ ngữ. Thường mang ý nghĩa tiêu cực.",
+        "formula": [
+          {
+            "text": "O + 被 + S + V + 了/过",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我的自行车被他骑走了。",
+            "meaning": "Xe đạp của tôi bị anh ấy đạp đi rồi."
+          }
+        ]
+      },
+      {
+        "title": "2. Câu bị động 被 với Bổ ngữ",
+        "desc": "Động từ trong câu chữ 被 thường phải mang theo thành phần phụ (kết quả, xu hướng).",
+        "formula": [
+          {
+            "text": "O + 被 + S + V + Bổ ngữ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "杯子被弟弟打碎了。",
+            "meaning": "Cái cốc bị em trai làm vỡ rồi."
+          }
+        ]
+      },
+      {
+        "title": "3. Câu chữ 被: Lược bỏ Chủ thể",
+        "desc": "Khi không biết ai làm hoặc không cần thiết nhắc đến, có thể bỏ S đi.",
+        "formula": [
+          {
+            "text": "O + 被 + V + Bổ ngữ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "钱包被偷了。",
+            "meaning": "Ví tiền bị trộm mất rồi."
+          }
+        ]
+      },
+      {
+        "title": "4. Dùng 叫 / 让 thay thế 被",
+        "desc": "Trong khẩu ngữ, 叫 và 让 thường được dùng thay cho 被. Lúc này bắt buộc phải có Chủ thể S.",
+        "formula": [
+          {
+            "text": "O + 叫/让 + S + V + Bổ ngữ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "蛋糕让妹妹吃了。",
+            "meaning": "Bánh kem bị em gái ăn mất rồi."
+          }
+        ]
+      },
+      {
+        "title": "5. Phủ định trong câu bị động",
+        "desc": "Từ phủ định 没 đặt TRƯỚC chữ 被.",
+        "formula": [
+          {
+            "text": "O + 没 + 被 + S + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "花没被风吹倒。",
+            "meaning": "Hoa chưa bị gió thổi ngã."
+          }
+        ]
+      },
+      {
+        "title": "6. Động từ năng nguyện trong câu 被",
+        "desc": "Động từ năng nguyện đặt TRƯỚC chữ 被.",
+        "formula": [
+          {
+            "text": "O + 想/能 + 被 + S + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "这个问题能被解决吗？",
+            "meaning": "Vấn đề này có thể được giải quyết không?"
+          }
+        ]
+      },
+      {
+        "title": "7. Phó từ chỉ thời gian trong câu 被",
+        "desc": "Phó từ đặt TRƯỚC chữ 被.",
+        "formula": [
+          {
+            "text": "O + 已经/都 + 被 + S + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "房间已经被打扫干净了。",
+            "meaning": "Căn phòng đã được dọn dẹp sạch sẽ rồi."
+          }
+        ]
+      },
+      {
+        "title": "8. Bị động mang tính cảm xúc: 让人",
+        "desc": "Cấu trúc 让人 (Khiến người ta) biểu thị sự việc tác động đến cảm xúc.",
+        "formula": [
+          {
+            "text": "让人 + Cảm xúc (生气, 难过...)",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "这个消息真让人难过。",
+            "meaning": "Tin tức này thật khiến người ta buồn."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Giải thích hiểu lầm",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "昨天你为什么不来我的生日聚会？",
+            "py": "Zuótiān nǐ wèishénme bù lái wǒ de shēngrì jùhuì?",
+            "vi": "Hôm qua sao bạn không đến tiệc sinh nhật của tôi?"
+          },
+          {
+            "speaker": "B",
+            "zh": "很抱歉，这是一个误会。我没收到你的邀请。",
+            "py": "Hěn bàoqiàn, zhè shì yī gè wùhuì. Wǒ méi shōudào nǐ de yāoqǐng.",
+            "vi": "Rất xin lỗi, đây là một sự hiểu lầm. Tôi không nhận được lời mời của bạn."
+          },
+          {
+            "speaker": "A",
+            "zh": "怎么可能？我让大卫把邀请信给你了。",
+            "py": "Zěnme kěnéng? Wǒ ràng Dàwèi bǎ yāoqǐngxìn gěi nǐ le.",
+            "vi": "Sao có thể? Tôi đã bảo David đưa thư mời cho bạn rồi mà."
+          },
+          {
+            "speaker": "B",
+            "zh": "可能信被弄丢了吧，他没给我。",
+            "py": "Kěnéng xìn bèi nòng diū le ba, tā méi gěi wǒ.",
+            "vi": "Chắc bức thư bị đánh rơi rồi, cậu ấy không đưa cho tôi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 8,
+    "title": "Bài 9: Giải trí và Sở thích",
+    "theme": "CHƯƠNG 9: ENTERTAINMENT",
+    "vocab": [
+      {
+        "hanzi": "演员",
+        "pinyin": "yǎnyuán",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "diễn viên",
+        "example_zh": "她是一个很有名的演员。",
+        "example_vi": "Cô ấy là một diễn viên rất nổi tiếng."
+      },
+      {
+        "hanzi": "节目",
+        "pinyin": "jiémù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "chương trình, tiết mục",
+        "example_zh": "这个电视节目很有意思。",
+        "example_vi": "Chương trình truyền hình này rất thú vị."
+      },
+      {
+        "hanzi": "比赛",
+        "pinyin": "bǐsài",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "trận đấu, cuộc thi",
+        "example_zh": "明晚有足球比赛。",
+        "example_vi": "Tối mai có trận đấu bóng đá."
+      },
+      {
+        "hanzi": "有意思",
+        "pinyin": "yǒuyìsi",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "thú vị",
+        "example_zh": "这本书很有意思。",
+        "example_vi": "Cuốn sách này rất thú vị."
+      },
+      {
+        "hanzi": "以为",
+        "pinyin": "yǐwéi",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "cho rằng (thường là nhận định sai)",
+        "example_zh": "我以为你不在家。",
+        "example_vi": "Tôi tưởng rằng bạn không có nhà."
+      },
+      {
+        "hanzi": "认为",
+        "pinyin": "rènwéi",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "cho rằng, nhận định (đưa ra quan điểm)",
+        "example_zh": "我认为这个办法很好。",
+        "example_vi": "Tôi cho rằng cách này rất tốt."
+      },
+      {
+        "hanzi": "演出",
+        "pinyin": "yǎnchū",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "biểu diễn, buổi biểu diễn",
+        "example_zh": "今天的演出太精彩了。",
+        "example_vi": "Buổi biểu diễn hôm nay thật xuất sắc."
+      },
+      {
+        "hanzi": "票",
+        "pinyin": "piào",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "vé",
+        "example_zh": "我买了两张电影票。",
+        "example_vi": "Tôi đã mua 2 vé xem phim."
+      },
+      {
+        "hanzi": "音乐",
+        "pinyin": "yīnyuè",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "âm nhạc",
+        "example_zh": "我喜欢听音乐。",
+        "example_vi": "Tôi thích nghe nhạc."
+      },
+      {
+        "hanzi": "唱歌",
+        "pinyin": "chànggē",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "hát",
+        "example_zh": "她唱歌很好听。",
+        "example_vi": "Cô ấy hát rất hay."
+      },
+      {
+        "hanzi": "跳舞",
+        "pinyin": "tiàowǔ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "khiêu vũ, nhảy",
+        "example_zh": "周末我们去跳舞吧。",
+        "example_vi": "Cuối tuần chúng ta đi khiêu vũ nhé."
+      },
+      {
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "phim điện ảnh",
+        "example_zh": "这部电影很感人。",
+        "example_vi": "Bộ phim này rất cảm động."
+      },
+      {
+        "hanzi": "电视",
+        "pinyin": "diànshì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tivi",
+        "example_zh": "小孩子不能看太多电视。",
+        "example_vi": "Trẻ nhỏ không thể xem quá nhiều tivi."
+      },
+      {
+        "hanzi": "体育",
+        "pinyin": "tǐyù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "thể thao",
+        "example_zh": "我不喜欢体育运动。",
+        "example_vi": "Tôi không thích các môn thể thao."
+      },
+      {
+        "hanzi": "锻炼",
+        "pinyin": "duànliàn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tập luyện",
+        "example_zh": "每天锻炼半小时。",
+        "example_vi": "Mỗi ngày tập luyện nửa tiếng."
+      },
+      {
+        "hanzi": "游泳",
+        "pinyin": "yóuyǒng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bơi lội",
+        "example_zh": "你会游泳吗？",
+        "example_vi": "Bạn biết bơi không?"
+      },
+      {
+        "hanzi": "跑步",
+        "pinyin": "pǎobù",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "chạy bộ",
+        "example_zh": "我每天早上跑步。",
+        "example_vi": "Mỗi buổi sáng tôi đều chạy bộ."
+      },
+      {
+        "hanzi": "爱好",
+        "pinyin": "àihào",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "sở thích",
+        "example_zh": "你的爱好是什么？",
+        "example_vi": "Sở thích của bạn là gì?"
+      },
+      {
+        "hanzi": "兴趣",
+        "pinyin": "xìngqù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "hứng thú",
+        "example_zh": "我对历史没有兴趣。",
+        "example_vi": "Tôi không có hứng thú với lịch sử."
+      },
+      {
+        "hanzi": "画画",
+        "pinyin": "huàhuà",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "vẽ tranh",
+        "example_zh": "她从小就喜欢画画。",
+        "example_vi": "Cô ấy từ nhỏ đã thích vẽ tranh."
+      },
+      {
+        "hanzi": "艺术",
+        "pinyin": "yìshù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "nghệ thuật",
+        "example_zh": "这是一件艺术品。",
+        "example_vi": "Đây là một tác phẩm nghệ thuật."
+      },
+      {
+        "hanzi": "照相",
+        "pinyin": "zhàoxiàng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "chụp ảnh",
+        "example_zh": "能帮我们照相吗？",
+        "example_vi": "Có thể giúp chúng tôi chụp ảnh không?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. So sánh hơn cơ bản (比)",
+        "desc": "Dùng 比 để so sánh sự khác biệt mức độ giữa 2 sự vật.",
+        "formula": [
+          {
+            "text": "A + 比 + B + Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "今天比昨天冷。",
+            "meaning": "Hôm nay lạnh hơn hôm qua."
+          }
+        ]
+      },
+      {
+        "title": "2. So sánh mức độ cụ thể",
+        "desc": "Thêm 一点儿, 得多, 多了 vào sau tính từ để làm rõ mức độ chênh lệch.",
+        "formula": [
+          {
+            "text": "A + 比 + B + Tính từ + 一点儿/得多",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "哥哥比我大一点儿。",
+            "meaning": "Anh trai lớn hơn tôi một chút."
+          }
+        ]
+      },
+      {
+        "title": "3. So sánh có bổ ngữ trạng thái",
+        "desc": "So sánh cách thức thực hiện hành động.",
+        "formula": [
+          {
+            "text": "A + V + 得 + 比 + B + Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他跑得比我快。",
+            "meaning": "Anh ấy chạy nhanh hơn tôi."
+          }
+        ]
+      },
+      {
+        "title": "4. So sánh kém (没有)",
+        "desc": "A không bằng B ở một khía cạnh nào đó.",
+        "formula": [
+          {
+            "text": "A + 没有 + B + (那么/这么) + Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我没有他那么高。",
+            "meaning": "Tôi không cao bằng anh ấy."
+          }
+        ]
+      },
+      {
+        "title": "5. So sánh kém (不如)",
+        "desc": "A kém hơn B. Thường đứng trước tính từ tốt.",
+        "formula": [
+          {
+            "text": "A + 不如 + B + (好/大...)",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "这个手机不如那个好。",
+            "meaning": "Cái điện thoại này không tốt bằng cái kia."
+          }
+        ]
+      },
+      {
+        "title": "6. So sánh bằng/giống nhau (一样)",
+        "desc": "A và B có sự tương đồng.",
+        "formula": [
+          {
+            "text": "A + 跟/和 + B + (不)一样",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我的书和你的不一样。",
+            "meaning": "Sách của tôi và của bạn không giống nhau."
+          }
+        ]
+      },
+      {
+        "title": "7. So sánh bằng với Tính từ",
+        "desc": "A và B đạt cùng mức độ về một tính chất nào đó.",
+        "formula": [
+          {
+            "text": "A + 跟/和 + B + 一样 + Tính/Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他跟我一样高。",
+            "meaning": "Anh ấy cao bằng tôi."
+          }
+        ]
+      },
+      {
+        "title": "8. Sự thay đổi: 越来越...",
+        "desc": "Càng ngày càng... diễn tả mức độ thay đổi theo thời gian.",
+        "formula": [
+          {
+            "text": "越来越 + Tính từ/Động từ tâm lý",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "天气越来越热。",
+            "meaning": "Thời tiết càng ngày càng nóng."
+          }
+        ]
+      },
+      {
+        "title": "9. Sự tương quan: 越 A 越 B",
+        "desc": "B thay đổi dựa trên sự thay đổi của A (Càng... càng...).",
+        "formula": [
+          {
+            "text": "越 A 越 B",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他越说越高兴。",
+            "meaning": "Anh ấy càng nói càng vui."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Bàn luận về phim ảnh",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "昨天的电影你觉得怎么样？",
+            "py": "Zuótiān de diànyǐng nǐ juéde zěnmeyàng?",
+            "vi": "Bạn thấy bộ phim hôm qua thế nào?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我觉得非常有意思，特别是那个男演员。",
+            "py": "Wǒ juéde fēicháng yǒuyìsi, tèbié shì nà gè nán yǎnyuán.",
+            "vi": "Tôi thấy vô cùng thú vị, đặc biệt là nam diễn viên đó."
+          },
+          {
+            "speaker": "A",
+            "zh": "是啊，我以为这是个喜剧，没想到结局很感人。",
+            "py": "Shì a, wǒ yǐwéi zhè shì gè xǐjù, méi xiǎngdào jiéjú hěn gǎnrén.",
+            "vi": "Đúng thế, tôi cứ tưởng đây là phim hài, không ngờ kết cục rất cảm động."
+          },
+          {
+            "speaker": "B",
+            "zh": "我认为这是他拍得最好的一部电影。",
+            "py": "Wǒ rènwéi zhè shì tā pāi de zuì hǎo de yī bù diànyǐng.",
+            "vi": "Tôi cho rằng đây là bộ phim anh ấy quay tốt nhất."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 9,
+    "title": "Bài 10: Mua sắm Nâng cao",
+    "theme": "CHƯƠNG 10: SHOPPING UPGRADE",
+    "vocab": [
+      {
+        "hanzi": "折扣",
+        "pinyin": "zhékòu",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "chiết khấu, giảm giá",
+        "example_zh": "现在买有折扣吗？",
+        "example_vi": "Bây giờ mua có giảm giá không?"
+      },
+      {
+        "hanzi": "退款",
+        "pinyin": "tuìkuǎn",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "hoàn tiền",
+        "example_zh": "我想申请退款。",
+        "example_vi": "Tôi muốn yêu cầu hoàn tiền."
+      },
+      {
+        "hanzi": "发票",
+        "pinyin": "fāpiào",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "hóa đơn",
+        "example_zh": "请给我开发票。",
+        "example_vi": "Xin hãy xuất hóa đơn cho tôi."
+      },
+      {
+        "hanzi": "质量",
+        "pinyin": "zhìliàng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "chất lượng",
+        "example_zh": "这件衣服的质量非常好。",
+        "example_vi": "Chất lượng của bộ quần áo này rất tốt."
+      },
+      {
+        "hanzi": "不仅",
+        "pinyin": "bùjǐn",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "không những",
+        "example_zh": "他不仅聪明，而且努力。",
+        "example_vi": "Anh ấy không những thông minh mà còn nỗ lực."
+      },
+      {
+        "hanzi": "而且",
+        "pinyin": "érqiě",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "mà còn",
+        "example_zh": "这个手机不仅便宜，而且好用。",
+        "example_vi": "Điện thoại này không những rẻ mà còn dễ dùng."
+      },
+      {
+        "hanzi": "售货员",
+        "pinyin": "shòuhuòyuán",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "nhân viên bán hàng",
+        "example_zh": "售货员的态度很好。",
+        "example_vi": "Thái độ của nhân viên bán hàng rất tốt."
+      },
+      {
+        "hanzi": "信用卡",
+        "pinyin": "xìnyòngkǎ",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "thẻ tín dụng",
+        "example_zh": "这里可以刷信用卡吗？",
+        "example_vi": "Ở đây có thể quẹt thẻ tín dụng không?"
+      },
+      {
+        "hanzi": "价格",
+        "pinyin": "jiàgé",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "giá cả",
+        "example_zh": "这个价格太高了。",
+        "example_vi": "Giá cả này cao quá."
+      },
+      {
+        "hanzi": "便宜",
+        "pinyin": "piányi",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "rẻ",
+        "example_zh": "这件衣服很便宜。",
+        "example_vi": "Bộ quần áo này rất rẻ."
+      },
+      {
+        "hanzi": "贵",
+        "pinyin": "guì",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "đắt",
+        "example_zh": "这双鞋有点儿贵。",
+        "example_vi": "Đôi giày này hơi đắt."
+      },
+      {
+        "hanzi": "刷卡",
+        "pinyin": "shuākǎ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "quẹt thẻ",
+        "example_zh": "我可以刷卡吗？",
+        "example_vi": "Tôi có thể quẹt thẻ không?"
+      },
+      {
+        "hanzi": "试",
+        "pinyin": "shì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "thử",
+        "example_zh": "我想试一下这件衣服。",
+        "example_vi": "Tôi muốn thử bộ quần áo này."
+      },
+      {
+        "hanzi": "换",
+        "pinyin": "huàn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "đổi",
+        "example_zh": "我能换一个颜色吗？",
+        "example_vi": "Tôi có thể đổi một màu khác không?"
+      },
+      {
+        "hanzi": "退",
+        "pinyin": "tuì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "trả lại",
+        "example_zh": "这个包可以退吗？",
+        "example_vi": "Cái túi này có thể trả lại không?"
+      },
+      {
+        "hanzi": "决定",
+        "pinyin": "juédìng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "quyết định",
+        "example_zh": "你决定买哪一个了？",
+        "example_vi": "Bạn đã quyết định mua cái nào rồi?"
+      },
+      {
+        "hanzi": "各种各样",
+        "pinyin": "gèzhǒng-gèyàng",
+        "type": "Thành ngữ",
+        "type_short": "idiom",
+        "meaning": "đủ các loại",
+        "example_zh": "超市里有各种各样的水果。",
+        "example_vi": "Trong siêu thị có đủ các loại trái cây."
+      },
+      {
+        "hanzi": "流行",
+        "pinyin": "liúxíng",
+        "type": "Tính từ/Động từ",
+        "type_short": "adj/v",
+        "meaning": "lưu hành, thịnh hành",
+        "example_zh": "这首歌现在很流行。",
+        "example_vi": "Bài hát này bây giờ rất thịnh hành."
+      },
+      {
+        "hanzi": "颜色",
+        "pinyin": "yánsè",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "màu sắc",
+        "example_zh": "你喜欢什么颜色？",
+        "example_vi": "Bạn thích màu gì?"
+      },
+      {
+        "hanzi": "比较",
+        "pinyin": "bǐjiào",
+        "type": "Phó từ/Động từ",
+        "type_short": "adv/v",
+        "meaning": "tương đối, so sánh",
+        "example_zh": "今天比较冷。",
+        "example_vi": "Hôm nay tương đối lạnh."
+      },
+      {
+        "hanzi": "选择",
+        "pinyin": "xuǎnzé",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "lựa chọn",
+        "example_zh": "这是一个很难的选择。",
+        "example_vi": "Đây là một sự lựa chọn rất khó."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Phó từ: 几乎 (Hầu như)",
+        "desc": "Biểu thị mức độ rất gần, suýt chút nữa.",
+        "formula": [
+          {
+            "text": "几乎 + Động từ/Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我几乎忘了他。",
+            "meaning": "Tôi hầu như (suýt) quên anh ấy rồi."
+          }
+        ]
+      },
+      {
+        "title": "2. Phó từ: 终于 (Cuối cùng)",
+        "desc": "Biểu thị kết quả đạt được sau thời gian dài chờ đợi hoặc nỗ lực.",
+        "formula": [
+          {
+            "text": "终于 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "考试终于结束了。",
+            "meaning": "Kỳ thi cuối cùng cũng kết thúc."
+          }
+        ]
+      },
+      {
+        "title": "3. Phó từ: 互相 (Lẫn nhau)",
+        "desc": "Hành động qua lại giữa hai hay nhiều đối tượng.",
+        "formula": [
+          {
+            "text": "互相 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我们要互相帮助。",
+            "meaning": "Chúng ta phải giúp đỡ lẫn nhau."
+          }
+        ]
+      },
+      {
+        "title": "4. Phó từ/Động từ năng nguyện: 必须 (Bắt buộc)",
+        "desc": "Không có sự lựa chọn nào khác.",
+        "formula": [
+          {
+            "text": "必须 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你必须完成作业。",
+            "meaning": "Bạn bắt buộc phải hoàn thành bài tập."
+          }
+        ]
+      },
+      {
+        "title": "5. Phó từ: 当然 (Đương nhiên)",
+        "desc": "Điều hiển nhiên, không cần bàn cãi.",
+        "formula": [
+          {
+            "text": "当然 + Động từ/Tính từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我当然知道。",
+            "meaning": "Tôi đương nhiên biết."
+          }
+        ]
+      },
+      {
+        "title": "6. Phó từ: 突然 (Đột nhiên)",
+        "desc": "Sự việc xảy ra bất ngờ, ngoài dự kiến.",
+        "formula": [
+          {
+            "text": "突然 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "天突然下雨了。",
+            "meaning": "Trời đột nhiên đổ mưa."
+          }
+        ]
+      },
+      {
+        "title": "7. Phó từ: 一直 (Luôn luôn, suốt)",
+        "desc": "Hành động hoặc trạng thái không hề gián đoạn.",
+        "formula": [
+          {
+            "text": "一直 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我一直在等你。",
+            "meaning": "Tôi vẫn luôn đợi cậu."
+          }
+        ]
+      },
+      {
+        "title": "8. Câu hỏi phản vấn: 不是...吗?",
+        "desc": "Chẳng phải là... sao? Nhấn mạnh khẳng định qua hình thức câu hỏi.",
+        "formula": [
+          {
+            "text": "不是 + Ý khẳng định + 吗？",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你不是喜欢吃苹果吗？",
+            "meaning": "Chẳng phải bạn thích ăn táo sao?"
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Đổi trả hàng",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好，我想退这条裙子。",
+            "py": "Nǐ hǎo, wǒ xiǎng tuì zhè tiáo qúnzi.",
+            "vi": "Xin chào, tôi muốn trả lại chiếc váy này."
+          },
+          {
+            "speaker": "B",
+            "zh": "请问是质量问题吗？",
+            "py": "Qǐngwèn shì zhìliàng wèntí ma?",
+            "vi": "Cho hỏi là do vấn đề chất lượng phải không ạ?"
+          },
+          {
+            "speaker": "A",
+            "zh": "不是，这条裙子不仅颜色不合适，而且有点儿大。",
+            "py": "Bù shì, zhè tiáo qúnzi bùjǐn yánsè bù héshì, érqiě yǒudiǎnr dà.",
+            "vi": "Không phải, chiếc váy này không những màu sắc không hợp, mà còn hơi rộng."
+          },
+          {
+            "speaker": "B",
+            "zh": "好的，请把发票给我，我现在给您退款。",
+            "py": "Hǎo de, qǐng bǎ fāpiào gěi wǒ, wǒ xiànzài gěi nín tuìkuǎn.",
+            "vi": "Vâng, xin đưa hóa đơn cho tôi, tôi sẽ hoàn tiền cho ngài ngay."
+          }
+        ]
+      }
+    ]
+  }
+]

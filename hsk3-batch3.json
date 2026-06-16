@@ -1,0 +1,1783 @@
+[
+  {
+    "orderIndex": 10,
+    "title": "Bài 11: Môi trường",
+    "theme": "CHƯƠNG 11: ENVIRONMENT (环境)",
+    "vocab": [
+      {
+        "hanzi": "环境",
+        "pinyin": "huánjìng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "môi trường",
+        "example_zh": "保护环境很重要。",
+        "example_vi": "Bảo vệ môi trường rất quan trọng."
+      },
+      {
+        "hanzi": "垃圾",
+        "pinyin": "lājī",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "rác",
+        "example_zh": "请不要乱扔垃圾。",
+        "example_vi": "Xin đừng vứt rác bừa bãi."
+      },
+      {
+        "hanzi": "污染",
+        "pinyin": "wūrǎn",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "ô nhiễm",
+        "example_zh": "这里的空气污染很严重。",
+        "example_vi": "Ô nhiễm không khí ở đây rất nghiêm trọng."
+      },
+      {
+        "hanzi": "节约",
+        "pinyin": "jiéyuē",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tiết kiệm",
+        "example_zh": "我们应该节约用水。",
+        "example_vi": "Chúng ta nên tiết kiệm nước."
+      },
+      {
+        "hanzi": "保护",
+        "pinyin": "bǎohù",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bảo vệ",
+        "example_zh": "我们要保护动物。",
+        "example_vi": "Chúng ta phải bảo vệ động vật."
+      },
+      {
+        "hanzi": "塑料袋",
+        "pinyin": "sùliàodài",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "túi nilon",
+        "example_zh": "去超市要少用塑料袋。",
+        "example_vi": "Đi siêu thị nên ít dùng túi nilon."
+      },
+      {
+        "hanzi": "干净",
+        "pinyin": "gānjìng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "sạch sẽ",
+        "example_zh": "这个公园很干净。",
+        "example_vi": "Công viên này rất sạch sẽ."
+      },
+      {
+        "hanzi": "严重",
+        "pinyin": "yánzhòng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "nghiêm trọng",
+        "example_zh": "他的病很严重。",
+        "example_vi": "Bệnh của anh ấy rất nghiêm trọng."
+      },
+      {
+        "hanzi": "绿化",
+        "pinyin": "lùhuà",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "phủ xanh, xanh hóa",
+        "example_zh": "城市的绿化很好。",
+        "example_vi": "Việc phủ xanh của thành phố rất tốt."
+      },
+      {
+        "hanzi": "树",
+        "pinyin": "shù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cây",
+        "example_zh": "这里有很多大树。",
+        "example_vi": "Ở đây có rất nhiều cây lớn."
+      },
+      {
+        "hanzi": "动物",
+        "pinyin": "dòngwù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "động vật",
+        "example_zh": "你喜欢什么动物？",
+        "example_vi": "Bạn thích động vật gì?"
+      },
+      {
+        "hanzi": "植物",
+        "pinyin": "zhíwù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "thực vật",
+        "example_zh": "我不认识这种植物。",
+        "example_vi": "Tôi không biết loại thực vật này."
+      },
+      {
+        "hanzi": "河",
+        "pinyin": "hé",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "sông",
+        "example_zh": "我家门前有一条河。",
+        "example_vi": "Trước cửa nhà tôi có một con sông."
+      },
+      {
+        "hanzi": "草",
+        "pinyin": "cǎo",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cỏ",
+        "example_zh": "春天来了，草绿了。",
+        "example_vi": "Mùa xuân đến rồi, cỏ xanh rồi."
+      },
+      {
+        "hanzi": "叶子",
+        "pinyin": "yèzi",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "lá cây",
+        "example_zh": "秋天到了，叶子黄了。",
+        "example_vi": "Mùa thu đến rồi, lá cây vàng rồi."
+      },
+      {
+        "hanzi": "太阳",
+        "pinyin": "tàiyáng",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mặt trời",
+        "example_zh": "今天的太阳很好。",
+        "example_vi": "Mặt trời hôm nay rất đẹp."
+      },
+      {
+        "hanzi": "星星",
+        "pinyin": "xīngxing",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "ngôi sao",
+        "example_zh": "晚上的星星很亮。",
+        "example_vi": "Những ngôi sao buổi tối rất sáng."
+      },
+      {
+        "hanzi": "变化",
+        "pinyin": "biànhuà",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "biến hóa, thay đổi",
+        "example_zh": "十年不见，他的变化很大。",
+        "example_vi": "Mười năm không gặp, sự thay đổi của anh ấy rất lớn."
+      },
+      {
+        "hanzi": "习惯",
+        "pinyin": "xíguàn",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "thói quen",
+        "example_zh": "早睡早起是一个好习惯。",
+        "example_vi": "Ngủ sớm dậy sớm là một thói quen tốt."
+      },
+      {
+        "hanzi": "提高",
+        "pinyin": "tígāo",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "nâng cao",
+        "example_zh": "我们要提高生活质量。",
+        "example_vi": "Chúng ta phải nâng cao chất lượng cuộc sống."
+      },
+      {
+        "hanzi": "注意",
+        "pinyin": "zhùyì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "chú ý",
+        "example_zh": "过马路要注意安全。",
+        "example_vi": "Qua đường phải chú ý an toàn."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Vì... nên... (因为…所以…)",
+        "desc": "Biểu đạt quan hệ nguyên nhân - kết quả.",
+        "formula": [
+          {
+            "text": "因为 + Nguyên nhân，所以 + Kết quả",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "因为下雨，所以我们没去。",
+            "meaning": "Bởi vì trời mưa, nên chúng tôi không đi."
+          }
+        ]
+      },
+      {
+        "title": "2. Đã... thì... (既然…就…)",
+        "desc": "Đưa ra một thực tế đã rồi, và theo đó rút ra kết luận/gợi ý.",
+        "formula": [
+          {
+            "text": "既然 + Thực tế，就 + Kết luận",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "既然你累了，就休息吧。",
+            "meaning": "Đã mệt rồi, thì nghỉ ngơi đi."
+          }
+        ]
+      },
+      {
+        "title": "3. Cho dù... cũng... (即使…也…)",
+        "desc": "Giả định một tình huống cực đoan, kết quả vẫn không thay đổi.",
+        "formula": [
+          {
+            "text": "即使 + Giả định，也 + Kết quả không đổi",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "即使下雨，我也要去。",
+            "meaning": "Cho dù trời mưa, tôi cũng phải đi."
+          }
+        ]
+      },
+      {
+        "title": "4. Bất luận... đều... (不管/无论…都/也…)",
+        "desc": "Dù trong bất kỳ điều kiện nào, kết quả cũng không thay đổi.",
+        "formula": [
+          {
+            "text": "不管 + Điều kiện bất kỳ，都 + Kết quả",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "不管多难，我都要做。",
+            "meaning": "Bất luận khó thế nào, tôi đều phải làm."
+          }
+        ]
+      },
+      {
+        "title": "5. Nếu như... thì... (要是…就…)",
+        "desc": "Biểu đạt giả thiết (giống 如果 nhưng dùng nhiều trong khẩu ngữ).",
+        "formula": [
+          {
+            "text": "要是 + Giả thiết，就 + Kết quả",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "要是明天下雨，我就不去。",
+            "meaning": "Nếu như ngày mai trời mưa, tôi sẽ không đi."
+          }
+        ]
+      },
+      {
+        "title": "6. Vừa... vừa... (一边…一边…)",
+        "desc": "Hai hành động diễn ra song song cùng lúc.",
+        "formula": [
+          {
+            "text": "一边 + V1，一边 + V2",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我们一边喝茶，一边聊天。",
+            "meaning": "Chúng tôi vừa uống trà, vừa nói chuyện."
+          }
+        ]
+      },
+      {
+        "title": "7. Trước tiên... sau đó... (先…然后…)",
+        "desc": "Trình tự thực hiện các hành động.",
+        "formula": [
+          {
+            "text": "先 + V1，然后 + V2",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你先洗手，然后吃饭。",
+            "meaning": "Bạn rửa tay trước, sau đó ăn cơm."
+          }
+        ]
+      },
+      {
+        "title": "8. Ngoài ra... còn... (除了…还/也…)",
+        "desc": "Ngoài đối tượng này, bổ sung thêm đối tượng khác.",
+        "formula": [
+          {
+            "text": "除了 A 以外，还/也 B",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "除了汉语，他还学法语。",
+            "meaning": "Ngoài tiếng Trung ra, anh ấy còn học tiếng Pháp."
+          }
+        ]
+      },
+      {
+        "title": "9. Ngay cả... cũng... (连…都/也…)",
+        "desc": "Nhấn mạnh một trường hợp cực đoan để suy ra các trường hợp bình thường.",
+        "formula": [
+          {
+            "text": "连 + Đối tượng cực đoan + 都/也 + V",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "连他都知道了。",
+            "meaning": "Ngay cả anh ấy cũng biết rồi."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Đi siêu thị",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你去超市买东西，带环保袋了吗？",
+            "py": "Nǐ qù chāoshì mǎi dōngxi, dài huánbǎodài le ma?",
+            "vi": "Bạn đi siêu thị mua đồ, có mang theo túi bảo vệ môi trường không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "哎呀，我忘记带了。",
+            "py": "Āiyā, wǒ wàngjì dài le.",
+            "vi": "Ây da, tôi quên mang rồi."
+          },
+          {
+            "speaker": "A",
+            "zh": "如果没有带，就只能买塑料袋了。我们应该节约资源，保护环境。",
+            "py": "Rúguǒ méiyǒu dài, jiù zhǐ néng mǎi sùliàodài le. Wǒmen yīnggāi jiéyuē zīyuán, bǎohù huánjìng.",
+            "vi": "Nếu không mang theo, thì chỉ đành mua túi nilon thôi. Chúng ta nên tiết kiệm tài nguyên, bảo vệ môi trường."
+          },
+          {
+            "speaker": "B",
+            "zh": "你说得对，下次我一定记得带。",
+            "py": "Nǐ shuō de duì, xiàcì wǒ yīdìng jìde dài.",
+            "vi": "Bạn nói đúng, lần sau tôi nhất định nhớ mang."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 11,
+    "title": "Bài 12: Văn hóa và Lễ hội",
+    "theme": "CHƯƠNG 12: CULTURE & FESTIVALS",
+    "vocab": [
+      {
+        "hanzi": "节日",
+        "pinyin": "jiérì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "lễ hội, ngày lễ",
+        "example_zh": "春节是中国最重要的节日。",
+        "example_vi": "Tết âm lịch là ngày lễ quan trọng nhất của Trung Quốc."
+      },
+      {
+        "hanzi": "传统",
+        "pinyin": "chuántǒng",
+        "type": "Danh từ/Tính từ",
+        "type_short": "n/adj",
+        "meaning": "truyền thống",
+        "example_zh": "我们应该保护传统文化。",
+        "example_vi": "Chúng ta nên bảo vệ văn hóa truyền thống."
+      },
+      {
+        "hanzi": "风俗",
+        "pinyin": "fēngsú",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "phong tục",
+        "example_zh": "每个地方都有不同的风俗。",
+        "example_vi": "Mỗi nơi đều có phong tục khác nhau."
+      },
+      {
+        "hanzi": "庆祝",
+        "pinyin": "qìngzhù",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "chúc mừng, kỉ niệm",
+        "example_zh": "大家一起庆祝新年。",
+        "example_vi": "Mọi người cùng nhau chúc mừng năm mới."
+      },
+      {
+        "hanzi": "热闹",
+        "pinyin": "rènào",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "náo nhiệt",
+        "example_zh": "街上非常热闹。",
+        "example_vi": "Trên phố vô cùng náo nhiệt."
+      },
+      {
+        "hanzi": "月亮",
+        "pinyin": "yuèliang",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "mặt trăng",
+        "example_zh": "今晚的月亮很圆。",
+        "example_vi": "Mặt trăng tối nay rất tròn."
+      },
+      {
+        "hanzi": "礼物",
+        "pinyin": "lǐwù",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "quà tặng",
+        "example_zh": "这是送给你的礼物。",
+        "example_vi": "Đây là quà tặng cho bạn."
+      },
+      {
+        "hanzi": "举行",
+        "pinyin": "jǔxíng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tổ chức (sự kiện, lễ hội)",
+        "example_zh": "明天学校将举行比赛。",
+        "example_vi": "Ngày mai trường học sẽ tổ chức cuộc thi."
+      },
+      {
+        "hanzi": "文化",
+        "pinyin": "wénhuà",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "văn hóa",
+        "example_zh": "我对中国文化很感兴趣。",
+        "example_vi": "Tôi rất hứng thú với văn hóa Trung Quốc."
+      },
+      {
+        "hanzi": "历史",
+        "pinyin": "lìshǐ",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "lịch sử",
+        "example_zh": "中国有很长的历史。",
+        "example_vi": "Trung Quốc có lịch sử rất dài."
+      },
+      {
+        "hanzi": "春节",
+        "pinyin": "Chūnjié",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "Tết Nguyên đán",
+        "example_zh": "春节你要回家吗？",
+        "example_vi": "Tết Nguyên đán bạn có về nhà không?"
+      },
+      {
+        "hanzi": "饺子",
+        "pinyin": "jiǎozi",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "bánh chẻo",
+        "example_zh": "过年我们要吃饺子。",
+        "example_vi": "Đón năm mới chúng tôi phải ăn bánh chẻo."
+      },
+      {
+        "hanzi": "晚会",
+        "pinyin": "wǎnhuì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "tiệc tối, liên hoan",
+        "example_zh": "今晚有一个新年晚会。",
+        "example_vi": "Tối nay có một bữa tiệc năm mới."
+      },
+      {
+        "hanzi": "参加",
+        "pinyin": "cānjiā",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tham gia",
+        "example_zh": "你想参加比赛吗？",
+        "example_vi": "Bạn có muốn tham gia thi đấu không?"
+      },
+      {
+        "hanzi": "准备",
+        "pinyin": "zhǔnbèi",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "chuẩn bị",
+        "example_zh": "我们正在准备晚饭。",
+        "example_vi": "Chúng tôi đang chuẩn bị bữa tối."
+      },
+      {
+        "hanzi": "结束",
+        "pinyin": "jiéshù",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "kết thúc",
+        "example_zh": "会议什么时候结束？",
+        "example_vi": "Cuộc họp khi nào kết thúc?"
+      },
+      {
+        "hanzi": "开始",
+        "pinyin": "kāishǐ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bắt đầu",
+        "example_zh": "电影马上就开始了。",
+        "example_vi": "Phim điện ảnh sắp bắt đầu rồi."
+      },
+      {
+        "hanzi": "特别",
+        "pinyin": "tèbié",
+        "type": "Phó từ/Tính từ",
+        "type_short": "adv/adj",
+        "meaning": "đặc biệt",
+        "example_zh": "这个礼物很特别。",
+        "example_vi": "Món quà này rất đặc biệt."
+      },
+      {
+        "hanzi": "别人",
+        "pinyin": "biérén",
+        "type": "Đại từ",
+        "type_short": "pron",
+        "meaning": "người khác",
+        "example_zh": "多关心别人。",
+        "example_vi": "Hãy quan tâm người khác nhiều hơn."
+      },
+      {
+        "hanzi": "世界",
+        "pinyin": "shìjiè",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "thế giới",
+        "example_zh": "世界上有很多国家。",
+        "example_vi": "Trên thế giới có rất nhiều quốc gia."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Câu liên động chỉ Phương thức",
+        "desc": "Động từ thứ nhất chỉ phương thức, cách thức của động từ thứ hai.",
+        "formula": [
+          {
+            "text": "S + V1 (Phương thức) + V2 (Hành động chính)",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他坐飞机去北京。",
+            "meaning": "Anh ấy ngồi máy bay đi Bắc Kinh."
+          }
+        ]
+      },
+      {
+        "title": "2. Câu liên động chỉ Mục đích",
+        "desc": "Động từ thứ hai chỉ mục đích của động từ thứ nhất.",
+        "formula": [
+          {
+            "text": "S + V1 (Hành động) + V2 (Mục đích)",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我去超市买水果。",
+            "meaning": "Tôi đi siêu thị mua trái cây."
+          }
+        ]
+      },
+      {
+        "title": "3. Câu kiêm ngữ (请, 叫, 让, 使)",
+        "desc": "Tân ngữ của V1 đồng thời là Chủ ngữ của V2.",
+        "formula": [
+          {
+            "text": "S1 + 请/叫/让/使 + O (S2) + V2",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "老板让他加班。",
+            "meaning": "Ông chủ bắt (bảo) anh ấy tăng ca."
+          }
+        ]
+      },
+      {
+        "title": "4. Trợ từ cấu trúc: 地",
+        "desc": "Kết nối giữa tính từ và động từ, biến tính từ thành trạng từ chỉ cách thức.",
+        "formula": [
+          {
+            "text": "Tính từ + 地 + Động từ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他慢慢地走过来。",
+            "meaning": "Anh ấy chầm chậm bước tới."
+          }
+        ]
+      },
+      {
+        "title": "5. Bắt đầu hành động (起来)",
+        "desc": "Biểu thị động tác bắt đầu và tiếp diễn.",
+        "formula": [
+          {
+            "text": "Động từ + 起来",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "大家笑了起来。",
+            "meaning": "Mọi người bắt đầu cười lên."
+          }
+        ]
+      },
+      {
+        "title": "6. Nhận ra, bộc lộ (出来)",
+        "desc": "Từ trạng thái che giấu, mơ hồ trở nên rõ ràng, nhận ra được.",
+        "formula": [
+          {
+            "text": "Động từ (听, 看...) + 出来",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我听出来了，你是大卫。",
+            "meaning": "Tôi nghe ra rồi, bạn là David."
+          }
+        ]
+      },
+      {
+        "title": "7. Tiếp tục duy trì (下去)",
+        "desc": "Biểu thị hành động tiếp tục kéo dài từ hiện tại đến tương lai.",
+        "formula": [
+          {
+            "text": "Động/Tính từ + 下去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "请读下去。",
+            "meaning": "Xin hãy đọc tiếp đi."
+          }
+        ]
+      },
+      {
+        "title": "8. Bổ ngữ động lượng: 满 / 遍",
+        "desc": "一遍 chỉ một lần thực hiện toàn bộ quá trình từ đầu tới cuối.",
+        "formula": [
+          {
+            "text": "Động từ + 遍/满",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "请再说一遍。",
+            "meaning": "Xin hãy nói lại một lần nữa."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Tết Trung thu",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "明天就是中秋节了，你们怎么庆祝？",
+            "py": "Míngtiān jiù shì Zhōngqiūjié le, nǐmen zěnme qìngzhù?",
+            "vi": "Ngày mai là Tết Trung thu rồi, các bạn ăn mừng như thế nào?"
+          },
+          {
+            "speaker": "B",
+            "zh": "中秋节是中国人的传统节日。晚上我们一家人会一起吃饭，看月亮。",
+            "py": "Zhōngqiūjié shì Zhōngguórén de chuántǒng jiérì. Wǎnshang wǒmen yī jiā rén huì yìqǐ chīfàn, kàn yuèliang.",
+            "vi": "Tết Trung thu là ngày lễ truyền thống của người Trung Quốc. Buổi tối cả nhà chúng tôi sẽ cùng ăn cơm, ngắm trăng."
+          },
+          {
+            "speaker": "A",
+            "zh": "你们会吃什么特别的食物吗？",
+            "py": "Nǐmen huì chī shénme tèbié de shíwù ma?",
+            "vi": "Các bạn có ăn món gì đặc biệt không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "当然，我们会吃月饼。明天我带一些给你尝尝。",
+            "py": "Dāngrán, wǒmen huì chī yuèbǐng. Míngtiān wǒ dài yìxiē gěi nǐ chángchang.",
+            "vi": "Đương nhiên, chúng tôi sẽ ăn bánh trung thu. Ngày mai tôi mang một ít cho bạn nếm thử."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 12,
+    "title": "Bài 13: Cảm xúc và Tình cảm",
+    "theme": "CHƯƠNG 13: EMOTIONS",
+    "vocab": [
+      {
+        "hanzi": "紧张",
+        "pinyin": "jǐnzhāng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "căng thẳng",
+        "example_zh": "考试前我很紧张。",
+        "example_vi": "Trước khi thi tôi rất căng thẳng."
+      },
+      {
+        "hanzi": "激动",
+        "pinyin": "jīdòng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "kích động, xúc động",
+        "example_zh": "听到这个好消息，他很激动。",
+        "example_vi": "Nghe được tin tốt này, anh ấy rất xúc động."
+      },
+      {
+        "hanzi": "失望",
+        "pinyin": "shīwàng",
+        "type": "Tính từ/Động từ",
+        "type_short": "adj/v",
+        "meaning": "thất vọng",
+        "example_zh": "不要让他失望。",
+        "example_vi": "Đừng làm anh ấy thất vọng."
+      },
+      {
+        "hanzi": "放心",
+        "pinyin": "fàngxīn",
+        "type": "Động từ/Tính từ",
+        "type_short": "v/adj",
+        "meaning": "yên tâm",
+        "example_zh": "你放心吧，我会做好的。",
+        "example_vi": "Bạn yên tâm đi, tôi sẽ làm tốt mà."
+      },
+      {
+        "hanzi": "感动",
+        "pinyin": "gǎndòng",
+        "type": "Động từ/Tính từ",
+        "type_short": "v/adj",
+        "meaning": "cảm động",
+        "example_zh": "那个电影让我很感动。",
+        "example_vi": "Bộ phim đó làm tôi rất cảm động."
+      },
+      {
+        "hanzi": "孤单",
+        "pinyin": "gūdān",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "cô đơn",
+        "example_zh": "一个人在国外，有时候觉得很孤单。",
+        "example_vi": "Một mình ở nước ngoài, đôi khi cảm thấy rất cô đơn."
+      },
+      {
+        "hanzi": "笑",
+        "pinyin": "xiào",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "cười",
+        "example_zh": "他笑得很高兴。",
+        "example_vi": "Anh ấy cười rất vui vẻ."
+      },
+      {
+        "hanzi": "哭",
+        "pinyin": "kū",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "khóc",
+        "example_zh": "孩子哭了。",
+        "example_vi": "Đứa trẻ khóc rồi."
+      },
+      {
+        "hanzi": "高兴",
+        "pinyin": "gāoxìng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "vui vẻ",
+        "example_zh": "认识你很高兴。",
+        "example_vi": "Rất vui được quen biết bạn."
+      },
+      {
+        "hanzi": "快乐",
+        "pinyin": "kuàilè",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "vui vẻ, hạnh phúc",
+        "example_zh": "祝你生日快乐！",
+        "example_vi": "Chúc bạn sinh nhật vui vẻ!"
+      },
+      {
+        "hanzi": "难过",
+        "pinyin": "nánguò",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "buồn bã",
+        "example_zh": "听到这个消息他很难过。",
+        "example_vi": "Nghe được tin này anh ấy rất buồn."
+      },
+      {
+        "hanzi": "害怕",
+        "pinyin": "hàipà",
+        "type": "Động từ/Tính từ",
+        "type_short": "v/adj",
+        "meaning": "sợ hãi",
+        "example_zh": "我害怕一个人走夜路。",
+        "example_vi": "Tôi sợ đi đường đêm một mình."
+      },
+      {
+        "hanzi": "奇怪",
+        "pinyin": "qíguài",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "kỳ lạ",
+        "example_zh": "这件事很奇怪。",
+        "example_vi": "Việc này rất kỳ lạ."
+      },
+      {
+        "hanzi": "相信",
+        "pinyin": "xiāngxìn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "tin tưởng",
+        "example_zh": "我完全相信他。",
+        "example_vi": "Tôi hoàn toàn tin tưởng anh ấy."
+      },
+      {
+        "hanzi": "觉得",
+        "pinyin": "juéde",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "cảm thấy",
+        "example_zh": "我觉得有点儿冷。",
+        "example_vi": "Tôi cảm thấy hơi lạnh."
+      },
+      {
+        "hanzi": "满意",
+        "pinyin": "mǎnyì",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "hài lòng",
+        "example_zh": "顾客对服务很满意。",
+        "example_vi": "Khách hàng rất hài lòng với dịch vụ."
+      },
+      {
+        "hanzi": "愿意",
+        "pinyin": "yuànyì",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bằng lòng",
+        "example_zh": "你愿意嫁给我吗？",
+        "example_vi": "Em có bằng lòng gả cho anh không?"
+      },
+      {
+        "hanzi": "希望",
+        "pinyin": "xīwàng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "hi vọng",
+        "example_zh": "我希望能早点毕业。",
+        "example_vi": "Tôi hi vọng có thể tốt nghiệp sớm."
+      },
+      {
+        "hanzi": "影响",
+        "pinyin": "yǐngxiǎng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "ảnh hưởng",
+        "example_zh": "不要影响别人休息。",
+        "example_vi": "Đừng ảnh hưởng người khác nghỉ ngơi."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Nhận định: 觉得 / 认为",
+        "desc": "Dùng để biểu đạt quan điểm chủ quan. 认为 trang trọng hơn 觉得.",
+        "formula": [
+          {
+            "text": "我觉得 / 我认为 + Nhận định",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我觉得汉字很难。",
+            "meaning": "Tôi cảm thấy chữ Hán rất khó."
+          }
+        ]
+      },
+      {
+        "title": "2. Suy đoán: 看来 / 看起来 (Xem ra)",
+        "desc": "Từ một sự việc để đưa ra suy đoán.",
+        "formula": [
+          {
+            "text": "看来 / 看起来 + Suy đoán",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "看来要下雨了。",
+            "meaning": "Xem ra trời sắp mưa rồi."
+          }
+        ]
+      },
+      {
+        "title": "3. Thính giác: 听起来 (Nghe có vẻ)",
+        "desc": "Cảm giác thông qua việc nghe.",
+        "formula": [
+          {
+            "text": "听起来 + Cảm nhận",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "这个主意听起来不错。",
+            "meaning": "Ý tưởng này nghe có vẻ không tồi."
+          }
+        ]
+      },
+      {
+        "title": "4. Giống như: 好像 / 像…一样",
+        "desc": "So sánh sự giống nhau.",
+        "formula": [
+          {
+            "text": "像 A 一样 / 好像 A",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他好像生气了。",
+            "meaning": "Anh ấy hình như tức giận rồi."
+          }
+        ]
+      },
+      {
+        "title": "5. Sở thích: 对…感兴趣",
+        "desc": "Biểu thị sự yêu thích, có hứng thú với việc gì.",
+        "formula": [
+          {
+            "text": "对 + Noun + 感兴趣",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我对历史很感兴趣。",
+            "meaning": "Tôi rất có hứng thú với lịch sử."
+          }
+        ]
+      },
+      {
+        "title": "6. Lo lắng: 为…着急",
+        "desc": "Lo lắng cho ai/việc gì đó.",
+        "formula": [
+          {
+            "text": "为 + Noun + 着急",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "妈妈为我的学习着急。",
+            "meaning": "Mẹ lo lắng cho việc học của tôi."
+          }
+        ]
+      },
+      {
+        "title": "7. Hài lòng: 对…满意",
+        "desc": "Cảm thấy hài lòng với kết quả nào đó.",
+        "formula": [
+          {
+            "text": "对 + Noun + 满意",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我对这个房间很满意。",
+            "meaning": "Tôi rất hài lòng với căn phòng này."
+          }
+        ]
+      },
+      {
+        "title": "8. Thói quen: 习惯于…",
+        "desc": "Đã quen với một môi trường hoặc hành động.",
+        "formula": [
+          {
+            "text": "习惯 + Noun/Verb",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我习惯早起。",
+            "meaning": "Tôi quen dậy sớm rồi."
+          }
+        ]
+      },
+      {
+        "title": "9. Mức độ cực hạn: 极了/死/坏",
+        "desc": "Chỉ mức độ rất cao của tâm lý, sinh lý (Đói chết đi được, Mệt muốn chết...).",
+        "formula": [
+          {
+            "text": "Tính/Động từ + 死 / 坏 + 了",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我饿死了。",
+            "meaning": "Tôi đói chết đi được."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Lo lắng trước kỳ thi",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "明天就要考试了，我现在紧张得睡不着。",
+            "py": "Míngtiān jiù yào kǎoshì le, wǒ xiànzài jǐnzhāng de shuì bù zháo.",
+            "vi": "Ngày mai thi rồi, tôi bây giờ căng thẳng đến mức không ngủ được."
+          },
+          {
+            "speaker": "B",
+            "zh": "你复习得很好，放心吧！一定能考好的。",
+            "py": "Nǐ fùxí de hěn hǎo, fàngxīn ba! Yīdìng néng kǎo hǎo de.",
+            "vi": "Bạn ôn tập rất tốt rồi, yên tâm đi! Nhất định sẽ thi tốt mà."
+          },
+          {
+            "speaker": "A",
+            "zh": "希望如此。如果考得不好，我会很失望的。",
+            "py": "Xīwàng rúcǐ. Rúguǒ kǎo de bù hǎo, wǒ huì hěn shīwàng de.",
+            "vi": "Hi vọng là vậy. Nếu thi không tốt, tôi sẽ thất vọng lắm."
+          },
+          {
+            "speaker": "B",
+            "zh": "别这么想，早点休息吧。",
+            "py": "Bié zhème xiǎng, zǎo diǎn xiūxi ba.",
+            "vi": "Đừng nghĩ như vậy, nghỉ ngơi sớm đi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 13,
+    "title": "Bài 14: Những trải nghiệm",
+    "theme": "CHƯƠNG 14: EXPERIENCES",
+    "vocab": [
+      {
+        "hanzi": "经历",
+        "pinyin": "jīnglì",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "kinh nghiệm, từng trải qua",
+        "example_zh": "这是一次难忘的经历。",
+        "example_vi": "Đây là một trải nghiệm khó quên."
+      },
+      {
+        "hanzi": "成功",
+        "pinyin": "chénggōng",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "thành công",
+        "example_zh": "他终于成功了。",
+        "example_vi": "Anh ấy cuối cùng đã thành công rồi."
+      },
+      {
+        "hanzi": "失败",
+        "pinyin": "shībài",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "thất bại",
+        "example_zh": "失败是成功之母。",
+        "example_vi": "Thất bại là mẹ của thành công."
+      },
+      {
+        "hanzi": "旅游",
+        "pinyin": "lǚyóu",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "du lịch",
+        "example_zh": "我喜欢去不同的国家旅游。",
+        "example_vi": "Tôi thích đi du lịch ở các quốc gia khác nhau."
+      },
+      {
+        "hanzi": "第一次",
+        "pinyin": "dì yī cì",
+        "type": "Cụm từ",
+        "type_short": "phrase",
+        "meaning": "lần đầu tiên",
+        "example_zh": "这是我第一次来中国。",
+        "example_vi": "Đây là lần đầu tiên tôi đến Trung Quốc."
+      },
+      {
+        "hanzi": "改变",
+        "pinyin": "gǎibiàn",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "thay đổi",
+        "example_zh": "那次经历改变了我。",
+        "example_vi": "Trải nghiệm lần đó đã thay đổi tôi."
+      },
+      {
+        "hanzi": "生活",
+        "pinyin": "shēnghuó",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "cuộc sống, sinh sống",
+        "example_zh": "他在北京生活了五年。",
+        "example_vi": "Anh ấy đã sống ở Bắc Kinh 5 năm."
+      },
+      {
+        "hanzi": "发生",
+        "pinyin": "fāshēng",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "xảy ra, phát sinh",
+        "example_zh": "发生了什么事？",
+        "example_vi": "Có chuyện gì xảy ra vậy?"
+      },
+      {
+        "hanzi": "经验",
+        "pinyin": "jīngyàn",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "kinh nghiệm",
+        "example_zh": "他有很多工作经验。",
+        "example_vi": "Anh ấy có rất nhiều kinh nghiệm làm việc."
+      },
+      {
+        "hanzi": "办法",
+        "pinyin": "bànfǎ",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "biện pháp, cách làm",
+        "example_zh": "你有什么好办法吗？",
+        "example_vi": "Bạn có cách nào hay không?"
+      },
+      {
+        "hanzi": "方法",
+        "pinyin": "fāngfǎ",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "phương pháp",
+        "example_zh": "这是学习汉语的好方法。",
+        "example_vi": "Đây là phương pháp tốt để học tiếng Trung."
+      },
+      {
+        "hanzi": "机会",
+        "pinyin": "jīhuì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "cơ hội",
+        "example_zh": "这是一个难得的机会。",
+        "example_vi": "Đây là một cơ hội hiếm có."
+      },
+      {
+        "hanzi": "帮助",
+        "pinyin": "bāngzhù",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "giúp đỡ",
+        "example_zh": "谢谢你的帮助。",
+        "example_vi": "Cảm ơn sự giúp đỡ của bạn."
+      },
+      {
+        "hanzi": "过去",
+        "pinyin": "guòqù",
+        "type": "Danh từ/Động từ",
+        "type_short": "n/v",
+        "meaning": "quá khứ, đi qua",
+        "example_zh": "过去的就让它过去吧。",
+        "example_vi": "Chuyện quá khứ hãy để nó qua đi."
+      },
+      {
+        "hanzi": "后来",
+        "pinyin": "hòulái",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "sau này, về sau",
+        "example_zh": "后来他去了美国。",
+        "example_vi": "Về sau anh ấy đã đi Mỹ."
+      },
+      {
+        "hanzi": "或者",
+        "pinyin": "huòzhě",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "hoặc là (câu trần thuật)",
+        "example_zh": "喝茶或者喝咖啡都可以。",
+        "example_vi": "Uống trà hoặc uống cà phê đều được."
+      },
+      {
+        "hanzi": "还是",
+        "pinyin": "háishì",
+        "type": "Liên từ",
+        "type_short": "conj",
+        "meaning": "hay là (câu hỏi)",
+        "example_zh": "你喝茶还是喝咖啡？",
+        "example_vi": "Bạn uống trà hay là uống cà phê?"
+      },
+      {
+        "hanzi": "终于",
+        "pinyin": "zhōngyú",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "cuối cùng (cũng)",
+        "example_zh": "我终于写完了。",
+        "example_vi": "Tôi cuối cùng cũng viết xong rồi."
+      },
+      {
+        "hanzi": "其实",
+        "pinyin": "qíshí",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "thực ra",
+        "example_zh": "其实他很聪明。",
+        "example_vi": "Thực ra anh ấy rất thông minh."
+      },
+      {
+        "hanzi": "当然",
+        "pinyin": "dāngrán",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "đương nhiên",
+        "example_zh": "我当然知道这件事。",
+        "example_vi": "Đương nhiên tôi biết việc này."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Xu hướng kép: 上来 / 上去",
+        "desc": "Di chuyển lên trên. 上来: Hướng về người nói. 上去: Rời xa người nói.",
+        "formula": [
+          {
+            "text": "Động từ (走, 拿...) + 上来 / 上去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "走上来。",
+            "meaning": "Đi lên đây."
+          }
+        ]
+      },
+      {
+        "title": "2. Xu hướng kép: 下来 / 下去",
+        "desc": "Di chuyển xuống dưới.",
+        "formula": [
+          {
+            "text": "Động từ + 下来 / 下去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "跳下去。",
+            "meaning": "Nhảy xuống đó."
+          }
+        ]
+      },
+      {
+        "title": "3. Xu hướng kép: 进来 / 进去",
+        "desc": "Di chuyển vào trong.",
+        "formula": [
+          {
+            "text": "Động từ + 进来 / 进去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "走进来。",
+            "meaning": "Đi vào trong này."
+          }
+        ]
+      },
+      {
+        "title": "4. Xu hướng kép: 出来 / 出去",
+        "desc": "Di chuyển ra ngoài.",
+        "formula": [
+          {
+            "text": "Động từ + 出来 / 出去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "跑出去。",
+            "meaning": "Chạy ra ngoài kia."
+          }
+        ]
+      },
+      {
+        "title": "5. Xu hướng kép: 回来 / 回去",
+        "desc": "Quay về.",
+        "formula": [
+          {
+            "text": "Động từ + 回来 / 回去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "买回来。",
+            "meaning": "Mua đem về đây."
+          }
+        ]
+      },
+      {
+        "title": "6. Xu hướng kép: 过来 / 过去",
+        "desc": "Băng qua, sang ngang.",
+        "formula": [
+          {
+            "text": "Động từ + 过来 / 过去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "走过去。",
+            "meaning": "Đi sang bên đó."
+          }
+        ]
+      },
+      {
+        "title": "7. Xu hướng kép: 起来",
+        "desc": "Từ dưới lên trên, gom tụ lại.",
+        "formula": [
+          {
+            "text": "Động từ + 起来",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "站起来。",
+            "meaning": "Đứng lên."
+          }
+        ]
+      },
+      {
+        "title": "8. Vị trí Tân ngữ trong Bổ ngữ xu hướng kép",
+        "desc": "Tân ngữ chỉ địa điểm phải kẹp vào giữa 进/出/上/下 và 来/去.",
+        "formula": [
+          {
+            "text": "Động từ + Xu hướng 1 + Địa điểm + 来/去",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "走回房间去。",
+            "meaning": "Đi về lại phòng."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Nói về những nơi từng đến",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你去过中国吗？",
+            "py": "Nǐ qù guo Zhōngguó ma?",
+            "vi": "Bạn đã từng đi Trung Quốc chưa?"
+          },
+          {
+            "speaker": "B",
+            "zh": "去过，我去年去过一次北京。",
+            "py": "Qù guo, wǒ qùnián qù guo yī cì Běijīng.",
+            "vi": "Đi rồi, năm ngoái tôi đã từng đi Bắc Kinh một lần."
+          },
+          {
+            "speaker": "A",
+            "zh": "你觉得北京怎么样？",
+            "py": "Nǐ juéde Běijīng zěnmeyàng?",
+            "vi": "Bạn thấy Bắc Kinh như thế nào?"
+          },
+          {
+            "speaker": "B",
+            "zh": "北京很大，有很多历史名胜。我还吃过北京烤鸭，非常好吃。",
+            "py": "Běijīng hěn dà, yǒu hěn duō lìshǐ míngshèng. Wǒ hái chī guo Běijīng kǎoyā, fēicháng hǎochī.",
+            "vi": "Bắc Kinh rất lớn, có nhiều danh lam thắng cảnh lịch sử. Tôi còn từng ăn vịt quay Bắc Kinh, vô cùng ngon."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 14,
+    "title": "Bài 15: Kể lại một câu chuyện",
+    "theme": "CHƯƠNG 15: STORYTELLING",
+    "vocab": [
+      {
+        "hanzi": "故事",
+        "pinyin": "gùshì",
+        "type": "Danh từ",
+        "type_short": "n",
+        "meaning": "câu chuyện",
+        "example_zh": "请给我讲一个故事。",
+        "example_vi": "Xin hãy kể cho tôi một câu chuyện."
+      },
+      {
+        "hanzi": "决定",
+        "pinyin": "juédìng",
+        "type": "Động từ/Danh từ",
+        "type_short": "v/n",
+        "meaning": "quyết định",
+        "example_zh": "我决定去中国留学。",
+        "example_vi": "Tôi quyết định đi Trung Quốc du học."
+      },
+      {
+        "hanzi": "解决",
+        "pinyin": "jiějué",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "giải quyết",
+        "example_zh": "这个问题怎么解决？",
+        "example_vi": "Vấn đề này giải quyết như thế nào?"
+      },
+      {
+        "hanzi": "首先",
+        "pinyin": "shǒuxiān",
+        "type": "Phó từ/Liên từ",
+        "type_short": "adv/conj",
+        "meaning": "đầu tiên, trước tiên",
+        "example_zh": "首先，我们需要一个计划。",
+        "example_vi": "Đầu tiên, chúng ta cần một kế hoạch."
+      },
+      {
+        "hanzi": "后来",
+        "pinyin": "hòulái",
+        "type": "Danh từ thời gian",
+        "type_short": "n",
+        "meaning": "sau này, về sau",
+        "example_zh": "后来他成了医生。",
+        "example_vi": "Về sau anh ấy đã trở thành bác sĩ."
+      },
+      {
+        "hanzi": "最后",
+        "pinyin": "zuìhòu",
+        "type": "Danh từ thời gian",
+        "type_short": "n",
+        "meaning": "cuối cùng",
+        "example_zh": "最后，大家都同意了。",
+        "example_vi": "Cuối cùng, mọi người đều đồng ý."
+      },
+      {
+        "hanzi": "结果",
+        "pinyin": "jiéguǒ",
+        "type": "Danh từ/Liên từ",
+        "type_short": "n/conj",
+        "meaning": "kết quả",
+        "example_zh": "结果怎么样？",
+        "example_vi": "Kết quả ra sao?"
+      },
+      {
+        "hanzi": "发现",
+        "pinyin": "fāxiàn",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "phát hiện",
+        "example_zh": "我发现门没锁。",
+        "example_vi": "Tôi phát hiện cửa không khóa."
+      },
+      {
+        "hanzi": "开始",
+        "pinyin": "kāishǐ",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "bắt đầu",
+        "example_zh": "比赛快要开始了。",
+        "example_vi": "Trận đấu sắp bắt đầu rồi."
+      },
+      {
+        "hanzi": "结束",
+        "pinyin": "jiéshù",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "kết thúc",
+        "example_zh": "会议结束了。",
+        "example_vi": "Cuộc họp đã kết thúc."
+      },
+      {
+        "hanzi": "一样",
+        "pinyin": "yīyàng",
+        "type": "Tính từ",
+        "type_short": "adj",
+        "meaning": "như nhau, giống nhau",
+        "example_zh": "这两件衣服颜色一样。",
+        "example_vi": "Màu sắc của hai bộ quần áo này giống nhau."
+      },
+      {
+        "hanzi": "不断",
+        "pinyin": "bùduàn",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "không ngừng",
+        "example_zh": "我们要不断学习。",
+        "example_vi": "Chúng ta phải không ngừng học tập."
+      },
+      {
+        "hanzi": "以前",
+        "pinyin": "yǐqián",
+        "type": "Danh từ thời gian",
+        "type_short": "n",
+        "meaning": "trước đây, trước khi",
+        "example_zh": "以前我不会说汉语。",
+        "example_vi": "Trước đây tôi không biết nói tiếng Trung."
+      },
+      {
+        "hanzi": "以后",
+        "pinyin": "yǐhòu",
+        "type": "Danh từ thời gian",
+        "type_short": "n",
+        "meaning": "sau này, sau khi",
+        "example_zh": "毕业以后我想当老师。",
+        "example_vi": "Sau khi tốt nghiệp tôi muốn làm giáo viên."
+      },
+      {
+        "hanzi": "刚才",
+        "pinyin": "gāngcái",
+        "type": "Danh từ thời gian",
+        "type_short": "n",
+        "meaning": "vừa nãy",
+        "example_zh": "你刚才去哪儿了？",
+        "example_vi": "Bạn vừa nãy đi đâu vậy?"
+      },
+      {
+        "hanzi": "经常",
+        "pinyin": "jīngcháng",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "thường xuyên",
+        "example_zh": "他经常运动。",
+        "example_vi": "Anh ấy thường xuyên vận động."
+      },
+      {
+        "hanzi": "总是",
+        "pinyin": "zǒngshì",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "luôn luôn",
+        "example_zh": "他总是迟到。",
+        "example_vi": "Anh ấy luôn luôn đến muộn."
+      },
+      {
+        "hanzi": "突然",
+        "pinyin": "tūrán",
+        "type": "Phó từ/Tính từ",
+        "type_short": "adv/adj",
+        "meaning": "đột nhiên",
+        "example_zh": "天突然黑了。",
+        "example_vi": "Trời đột nhiên tối lại."
+      },
+      {
+        "hanzi": "必须",
+        "pinyin": "bìxū",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "bắt buộc, phải",
+        "example_zh": "我今天必须做完作业。",
+        "example_vi": "Tôi hôm nay bắt buộc phải làm xong bài tập."
+      },
+      {
+        "hanzi": "需要",
+        "pinyin": "xūyào",
+        "type": "Động từ",
+        "type_short": "v",
+        "meaning": "cần",
+        "example_zh": "你需要帮忙吗？",
+        "example_vi": "Bạn có cần giúp đỡ không?"
+      },
+      {
+        "hanzi": "可能",
+        "pinyin": "kěnéng",
+        "type": "Phó từ",
+        "type_short": "adv",
+        "meaning": "có thể",
+        "example_zh": "明天可能下雨。",
+        "example_vi": "Ngày mai có thể trời mưa."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "1. Bổ ngữ thời lượng cơ bản",
+        "desc": "Nói rõ hành động kéo dài trong bao lâu.",
+        "formula": [
+          {
+            "text": "S + V + 了 + Thời lượng",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我睡了八个小时。",
+            "meaning": "Tôi đã ngủ 8 tiếng đồng hồ."
+          }
+        ]
+      },
+      {
+        "title": "2. Thời lượng có Tân ngữ (Lặp Động từ)",
+        "desc": "Khi có tân ngữ, ta lặp lại động từ lần 2 rồi mới thêm thời lượng.",
+        "formula": [
+          {
+            "text": "S + V + O + V + 了 + Thời lượng",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "他学汉语学了一年。",
+            "meaning": "Anh ấy học tiếng Trung (học) được 1 năm rồi."
+          }
+        ]
+      },
+      {
+        "title": "3. Thời lượng kéo dài đến hiện tại",
+        "desc": "Sử dụng hai chữ 了 (sau động từ và cuối câu) để báo hiệu hành động bắt đầu từ quá khứ và VẪN ĐANG tiếp tục.",
+        "formula": [
+          {
+            "text": "V + 了 + Thời lượng + O + 了",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "我学了一年汉语了。",
+            "meaning": "Tôi đã học tiếng Trung được 1 năm rồi (và bây giờ vẫn đang học)."
+          }
+        ]
+      },
+      {
+        "title": "4. Kể chuyện: 首先 / 第一 (Đầu tiên)",
+        "desc": "Dùng mở đầu cho một chuỗi sự kiện hoặc bài luận.",
+        "formula": [
+          {
+            "text": "首先 + Sự kiện 1",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "首先，我们要准备好材料。",
+            "meaning": "Đầu tiên, chúng ta phải chuẩn bị sẵn sàng tài liệu."
+          }
+        ]
+      },
+      {
+        "title": "5. Kể chuyện: 后来 (Về sau / Sau đó)",
+        "desc": "Dùng cho sự việc đã xảy ra trong quá khứ.",
+        "formula": [
+          {
+            "text": "后来 + Sự kiện quá khứ",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "后来他去国外了。",
+            "meaning": "Về sau anh ấy đã đi nước ngoài."
+          }
+        ]
+      },
+      {
+        "title": "6. Kể chuyện: 然后 / 接着 (Sau đó / Tiếp theo)",
+        "desc": "Liên kết các sự việc nối tiếp nhau theo trình tự thời gian.",
+        "formula": [
+          {
+            "text": "然后 + Sự kiện tiếp theo",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "你先吃饭，然后做作业。",
+            "meaning": "Con ăn cơm trước, sau đó làm bài tập."
+          }
+        ]
+      },
+      {
+        "title": "7. Kể chuyện: 最后 (Cuối cùng)",
+        "desc": "Kết thúc của một chuỗi hành động.",
+        "formula": [
+          {
+            "text": "最后 + Sự kiện cuối",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "最后，大家都回家了。",
+            "meaning": "Cuối cùng, mọi người đều về nhà."
+          }
+        ]
+      },
+      {
+        "title": "8. Kể chuyện: 总的来说 (Nhìn chung / Kết luận)",
+        "desc": "Dùng để tóm tắt, đưa ra kết luận tổng quát.",
+        "formula": [
+          {
+            "text": "总的来说 + Kết luận",
+            "classes": "border-blue-200 bg-blue-50 text-blue-700"
+          }
+        ],
+        "practiceList": [
+          {
+            "correct": "总的来说，这次旅行很愉快。",
+            "meaning": "Nhìn chung, chuyến du lịch lần này rất vui vẻ."
+          }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại: Kể lại trải nghiệm học tập",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你学习汉语多久了？",
+            "py": "Nǐ xuéxí Hànyǔ duōjiǔ le?",
+            "vi": "Bạn học tiếng Trung bao lâu rồi?"
+          },
+          {
+            "speaker": "B",
+            "zh": "两年了。首先，我觉得汉字很难写，有点想放弃。",
+            "py": "Liǎng nián le. Shǒuxiān, wǒ juéde Hànzì hěn nán xiě, yǒudiǎnr xiǎng fàngqì.",
+            "vi": "2 năm rồi. Đầu tiên, tôi thấy chữ Hán rất khó viết, hơi muốn bỏ cuộc."
+          },
+          {
+            "speaker": "A",
+            "zh": "后来呢？",
+            "py": "Hòulái ne?",
+            "vi": "Về sau thì sao?"
+          },
+          {
+            "speaker": "B",
+            "zh": "后来，我找到了好的学习方法。最后，我决定去中国留学。",
+            "py": "Hòulái, wǒ zhǎodào le hǎo de xuéxí fāngfǎ. Zuìhòu, wǒ juédìng qù Zhōngguó liúxué.",
+            "vi": "Về sau, tôi tìm được phương pháp học tốt. Cuối cùng, tôi quyết định đi Trung Quốc du học."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -86,18 +86,26 @@ export async function getAllGrammarData(programCode: string, completedLessonIds?
             ? { id: { in: completedLessonIds } }
             : {})
         }
-      }
+      },
+      include: {
+        lesson: { select: { title: true, orderIndex: true } }
+      },
+      orderBy: { lesson: { orderIndex: 'asc' } }
     });
 
-    const uniqueMap = new Map();
-    contents.forEach((c) => {
+    const results: any[] = [];
+    contents.forEach((c: any) => {
       try {
         const g = JSON.parse(c.content);
-        if (g.id && !uniqueMap.has(g.id)) uniqueMap.set(g.id, g);
+        results.push({
+          ...g,
+          _lessonId: c.lessonId,
+          _lessonTitle: c.lesson?.title || '',
+          _lessonOrderIndex: c.lesson?.orderIndex || 0,
+        });
       } catch {}
     });
-
-    return Array.from(uniqueMap.values());
+    return results;
   } catch (e) {
     console.warn('DB fetch failed:', e);
     return [];
@@ -220,6 +228,44 @@ export async function getDialogueSentences(programCode: string) {
     });
 
     return sentences;
+  } catch (e) {
+    console.warn('DB fetch failed:', e);
+    return [];
+  }
+}
+
+export async function getAllDialogueData(programCode: string, completedLessonIds?: string[]) {
+  try {
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
+
+    const contents = await prisma.lessonContent.findMany({
+      where: {
+        contentType: 'DIALOGUE',
+        lesson: {
+          programId: program.id,
+          ...(completedLessonIds && completedLessonIds.length > 0
+            ? { id: { in: completedLessonIds } }
+            : {})
+        }
+      },
+      include: {
+        lesson: { select: { id: true, title: true, orderIndex: true } }
+      },
+      orderBy: { lesson: { orderIndex: 'asc' } }
+    });
+
+    return contents.map(c => {
+      try {
+        const data = JSON.parse(c.content);
+        return {
+          ...data,
+          lessonId: c.lesson.id,
+          lessonTitle: c.lesson.title,
+          lessonOrderIndex: c.lesson.orderIndex
+        };
+      } catch { return null; }
+    }).filter(Boolean);
   } catch (e) {
     console.warn('DB fetch failed:', e);
     return [];

@@ -1,36 +1,15 @@
 export const dynamic = 'force-dynamic';
 import { QuizTab } from "@/components/legacy/QuizTab";
 import { getAllVocabData } from "@/lib/data";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
-import { PrismaClient } from "database";
+import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import Link from "next/link";
 
 export default async function PracticePage(props: any) {
   const searchParams = await props.searchParams;
   const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const session = await getServerSession(authOptions);
+  const { completedLessonIds } = await getCompletedLessonIds(level);
 
-  // Lấy danh sách lessonId đã hoàn thành
-  let completedLessonIds: string[] = [];
-  if (session?.user?.email) {
-    const prisma = new PrismaClient();
-    const user = await prisma.user.findUnique({
-      where: { email: session.user.email },
-      include: {
-        progress: {
-          where: { completed: true },
-          select: { lessonId: true }
-        }
-      }
-    });
-    if (user) {
-      completedLessonIds = user.progress.map(p => p.lessonId);
-    }
-  }
-
-  // Chưa hoàn thành bài nào → không có từ để luyện tập
   const vocabData = completedLessonIds.length > 0
     ? await getAllVocabData(level, completedLessonIds)
     : [];

@@ -33,10 +33,14 @@ export default async function DashboardPage(props: any) {
   }
 
   let isPremiumUser = false;
+  let isAdmin = false;
   if (session?.user?.email) {
     const prisma = new PrismaClient();
     const user = await prisma.user.findUnique({ where: { email: session.user.email } });
-    if (user && (user.role === "ADMIN" || user.subscriptionStatus === "PREMIUM")) {
+    if (user && user.role === "ADMIN") {
+      isAdmin = true;
+      isPremiumUser = true;
+    } else if (user && user.subscriptionStatus === "PREMIUM") {
       isPremiumUser = true;
     }
   }
@@ -48,6 +52,7 @@ export default async function DashboardPage(props: any) {
           lessons={data.lessons}
           programName={data.programName}
           isPremiumUser={isPremiumUser}
+          isAdmin={isAdmin}
           progressMap={progressMap}
         />
       ) : (

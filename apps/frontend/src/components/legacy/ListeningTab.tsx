@@ -131,7 +131,7 @@ export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vo
 
     useEffect(() => {
         if (mode !== 'choose' || !currentWord) return;
-        const wrong = fisherYatesShuffle(vocabData.filter(w => w.id !== currentWord.id)).slice(0, 3);
+        const wrong = fisherYatesShuffle(vocabData.filter(w => (w.hanzi || w.word) !== (currentWord.hanzi || currentWord.word))).slice(0, 3);
         setOptions(fisherYatesShuffle([currentWord, ...wrong]));
         setSelected(null);
         setHasPlayed(false);
@@ -168,7 +168,7 @@ export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vo
     const handleChoose = (opt: any) => {
         if (selected) return;
         setSelected(opt);
-        const isCorrect = opt.id === currentWord.id;
+        const isCorrect = (opt.hanzi || opt.word) === (currentWord.hanzi || currentWord.word);
         if (isCorrect) {
             playSoundEffect('success');
             setSessionStats(s => ({ ...s, correct: s.correct + 1 }));
@@ -735,9 +735,9 @@ export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vo
                         let cls = 'w-full p-5 rounded-2xl border-2 text-4xl font-bold transition-all flex items-center justify-center shadow-sm ';
                         if (!selected) {
                             cls += 'border-gray-200 hover:border-indigo-400 hover:bg-indigo-50 hover:-translate-y-1 bg-white text-gray-800';
-                        } else if (opt.id === currentWord.id) {
+                        } else if ((opt.hanzi || opt.word) === (currentWord.hanzi || currentWord.word)) {
                             cls += 'border-green-500 bg-green-50 text-green-700 shadow-none';
-                        } else if (opt.id === selected.id) {
+                        } else if ((opt.hanzi || opt.word) === (selected.hanzi || selected.word)) {
                             cls += 'border-red-400 bg-red-50 text-red-600 shadow-none scale-95';
                         } else {
                             cls += 'border-gray-100 bg-gray-50 text-gray-300 shadow-none';
