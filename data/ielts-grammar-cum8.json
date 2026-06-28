@@ -1,0 +1,118 @@
+[
+  {
+    "lessonOrder": 15,
+    "grammar": [
+      {
+        "title": "Danh từ số nhiều — Quy tắc & Bất quy tắc",
+        "desc": "Cách chuyển danh từ từ số ít (1 cái) sang số nhiều (từ 2 cái trở lên).",
+        "formula": [
+          {
+            "text": "Số nhiều quy tắc: Noun + s / es / ies",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          },
+          {
+            "text": "Bất quy tắc: man -> men, child -> children, ...",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I have two big cars.",
+            "vi": "Tôi có hai chiếc xe lớn."
+          },
+          {
+            "en": "The children are happy.",
+            "vi": "Những đứa trẻ đang vui vẻ."
+          },
+          {
+            "en": "There are three women in the room.",
+            "vi": "Có ba người phụ nữ trong phòng."
+          }
+        ],
+        "note": "Quy tắc chung là thêm \"s\". Đuôi s, x, z, ch, sh thêm \"es\". Tận cùng là phụ âm + \"y\" thì đổi thành \"ies\".",
+        "practiceList": [
+          {
+            "question": "She has two small ___. (dog)",
+            "correct": "dogs",
+            "meaning": "Cô ấy có hai con chó nhỏ.",
+            "explanation": "Danh từ quy tắc bình thường thêm \"s\"."
+          },
+          {
+            "question": "Look at those ___. (man)",
+            "correct": "men",
+            "meaning": "Nhìn những người đàn ông kia kìa.",
+            "explanation": "Dạng số nhiều bất quy tắc của \"man\" là \"men\"."
+          },
+          {
+            "question": "There are many ___ in the park. (child)",
+            "correct": "children",
+            "meaning": "Có nhiều trẻ em trong công viên.",
+            "explanation": "Dạng số nhiều bất quy tắc của \"child\" là \"children\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "grammar": [
+      {
+        "title": "Cấu trúc This is / These are",
+        "desc": "Dùng để giới thiệu hoặc chỉ một/nhiều vật ở gần người nói.",
+        "formula": [
+          {
+            "text": "This is",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Singular Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          },
+          {
+            "text": "| These are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Plural Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "This is my phone.",
+            "vi": "Đây là điện thoại của tôi."
+          },
+          {
+            "en": "These are my keys.",
+            "vi": "Đây là những chiếc chìa khóa của tôi."
+          },
+          {
+            "en": "These are his glasses.",
+            "vi": "Đây là mắt kính của anh ấy."
+          }
+        ],
+        "note": "\"This is\" dùng cho danh từ số ít. \"These are\" dùng cho danh từ số nhiều.",
+        "practiceList": [
+          {
+            "question": "___ is a pen.",
+            "correct": "This",
+            "meaning": "Đây là một cây bút.",
+            "explanation": "Danh từ số ít (a pen) nên dùng \"This\"."
+          },
+          {
+            "question": "___ are my bags.",
+            "correct": "These",
+            "meaning": "Đây là những chiếc túi của tôi.",
+            "explanation": "Danh từ số nhiều (bags) nên dùng \"These\"."
+          },
+          {
+            "question": "These ___ her tickets.",
+            "correct": "are",
+            "meaning": "Đây là những chiếc vé của cô ấy.",
+            "explanation": "\"These\" phải đi kèm với động từ \"are\"."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 21,
+    "dialogue": [
+      {
+        "title": "Interview questions",
+        "lines": [
+          { "speaker": "Hoa", "en": "What time do you start work?", "vi": "Bạn bắt đầu làm việc lúc mấy giờ?" },
+          { "speaker": "Sarah", "en": "I start work at eight o'clock.", "vi": "Tôi bắt đầu làm việc lúc tám giờ." },
+          { "speaker": "Hoa", "en": "Where do you work?", "vi": "Bạn làm việc ở đâu?" },
+          { "speaker": "Sarah", "en": "I work in a small office downtown.", "vi": "Tôi làm việc trong một văn phòng nhỏ ở trung tâm." },
+          { "speaker": "Hoa", "en": "Why do you like your job?", "vi": "Tại sao bạn thích công việc của mình?" },
+          { "speaker": "Sarah", "en": "I like it because I meet many people every day.", "vi": "Tôi thích nó vì tôi gặp nhiều người mỗi ngày." }
+        ]
+      },
+      {
+        "title": "Asking about a friend",
+        "lines": [
+          { "speaker": "Hoa", "en": "Who does she live with?", "vi": "Cô ấy sống với ai?" },
+          { "speaker": "Sarah", "en": "She lives with her parents.", "vi": "Cô ấy sống với bố mẹ." },
+          { "speaker": "Hoa", "en": "How does she go to work?", "vi": "Cô ấy đi làm bằng cách nào?" },
+          { "speaker": "Sarah", "en": "She goes to work by bus.", "vi": "Cô ấy đi làm bằng xe buýt." },
+          { "speaker": "Hoa", "en": "What does she do at work?", "vi": "Cô ấy làm gì ở chỗ làm?" },
+          { "speaker": "Sarah", "en": "She answers phone calls and writes reports.", "vi": "Cô ấy trả lời điện thoại và viết báo cáo." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "dialogue": [
+      {
+        "title": "Disagreeing politely",
+        "lines": [
+          { "speaker": "Hoa", "en": "I think this answer is correct.", "vi": "Tôi nghĩ câu trả lời này đúng." },
+          { "speaker": "Sarah", "en": "I disagree. I think the answer is wrong.", "vi": "Tôi không đồng ý. Tôi nghĩ câu trả lời sai." },
+          { "speaker": "Hoa", "en": "Why do you think it's incorrect?", "vi": "Tại sao bạn nghĩ nó không đúng?" },
+          { "speaker": "Sarah", "en": "Because the number doesn't match the question.", "vi": "Vì con số không khớp với câu hỏi." },
+          { "speaker": "Hoa", "en": "I don't avoid mistakes, but let's check again.", "vi": "Tôi không tránh sai sót, nhưng hãy kiểm tra lại." },
+          { "speaker": "Sarah", "en": "Good idea. I refuse to guess.", "vi": "Ý hay. Tôi không chấp nhận đoán bừa." }
+        ]
+      },
+      {
+        "title": "Daily habits and exceptions",
+        "lines": [
+          { "speaker": "Hoa", "en": "Does he often eat fast food?", "vi": "Anh ấy có thường ăn đồ ăn nhanh không?" },
+          { "speaker": "Sarah", "en": "No, he never eats fast food.", "vi": "Không, anh ấy không bao giờ ăn đồ ăn nhanh." },
+          { "speaker": "Hoa", "en": "Does he rarely watch TV?", "vi": "Anh ấy hiếm khi xem TV phải không?" },
+          { "speaker": "Sarah", "en": "Yes, he rarely watches TV at night.", "vi": "Vâng, anh ấy hiếm khi xem TV vào ban đêm." },
+          { "speaker": "Hoa", "en": "He doesn't like loud places, right?", "vi": "Anh ấy không thích những nơi ồn ào, đúng không?" },
+          { "speaker": "Sarah", "en": "That's right, he doesn't like noisy places at all.", "vi": "Đúng vậy, anh ấy hoàn toàn không thích những nơi ồn ào." }
+        ]
+      }
+    ]
+  }
+]

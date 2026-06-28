@@ -1,0 +1,111 @@
+[
+  {
+    "lessonOrder": 35,
+    "vocab": [
+      {
+        "word": "understand",
+        "ipa": "/ˌʌn.dəˈstænd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hiểu",
+        "example_en": "I understand you.",
+        "example_vi": "Tôi hiểu bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "know",
+        "ipa": "/nəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "biết",
+        "example_en": "I know him.",
+        "example_vi": "Tôi biết anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "like",
+        "ipa": "/laɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thích",
+        "example_en": "I like apples.",
+        "example_vi": "Tôi thích táo.",
+        "level": "A2"
+      },
+      {
+        "word": "love",
+        "ipa": "/lʌv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "yêu",
+        "example_en": "I love my family.",
+        "example_vi": "Tôi yêu gia đình tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "hate",
+        "ipa": "/heɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ghét",
+        "example_en": "I hate the cold.",
+        "example_vi": "Tôi ghét trời lạnh.",
+        "level": "A2"
+      },
+      {
+        "word": "want",
+        "ipa": "/wɒnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "muốn",
+        "example_en": "I want a book.",
+        "example_vi": "Tôi muốn một cuốn sách.",
+        "level": "A2"
+      },
+      {
+        "word": "need",
+        "ipa": "/niːd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cần",
+        "example_en": "I need water.",
+        "example_vi": "Tôi cần nước.",
+        "level": "A2"
+      },
+      {
+        "word": "prefer",
+        "ipa": "/prɪˈfɜːr/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thích hơn",
+        "example_en": "I prefer tea.",
+        "example_vi": "Tôi thích trà hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "believe",
+        "ipa": "/bɪˈliːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tin tưởng",
+        "example_en": "I believe you.",
+        "example_vi": "Tôi tin bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "remember",
+        "ipa": "/rɪˈmem.bər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhớ",
+        "example_en": "I remember her.",
+        "example_vi": "Tôi nhớ cô ấy.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "vocab": []
+  }
+]

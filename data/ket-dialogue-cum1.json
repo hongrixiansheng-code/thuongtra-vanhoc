@@ -1,0 +1,114 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "dialogue": [
+        {
+          "title": "A big family dinner",
+          "desc": "Nghe cuộc trò chuyện giữa hai người đồng nghiệp về gia đình và các mối quan hệ.",
+          "characters": [
+            "Sarah",
+            "Mark"
+          ],
+          "lines": [
+            {
+              "speaker": "Sarah",
+              "vi": "Chào Mark. Đó có phải là bạn gái của bạn trong bức ảnh không?",
+              "en": "Hi Mark. Is that your girlfriend in the photo?"
+            },
+            {
+              "speaker": "Mark",
+              "vi": "Không, đó là em họ tôi, Emily. Cô ấy đến thăm từ New York.",
+              "en": "No, that's my cousin, Emily. She's visiting from New York."
+            },
+            {
+              "speaker": "Sarah",
+              "vi": "Trông cô ấy rất trẻ. Hai người có thân thiết không?",
+              "en": "She looks very young. Are you two close?"
+            },
+            {
+              "speaker": "Mark",
+              "vi": "Có, chúng tôi lớn lên cùng nhau. Tối nay chúng tôi sẽ có một bữa tối gia đình lớn.",
+              "en": "Yes, we grew up together. We are having a big family dinner tonight."
+            },
+            {
+              "speaker": "Sarah",
+              "vi": "Nghe thật tuyệt. Bố mẹ và những người họ hàng khác của bạn cũng sẽ đến chứ?",
+              "en": "That sounds lovely. Are your parents and other relatives coming too?"
+            },
+            {
+              "speaker": "Mark",
+              "vi": "Đúng vậy, mọi người đều sẽ có mặt. Thậm chí một vài đồng nghiệp của bố mẹ tôi và những người hàng xóm cũng sẽ tham gia.",
+              "en": "Yes, everyone will be there. Even some of my parents' colleagues and our neighbours are joining us."
+            },
+            {
+              "speaker": "Sarah",
+              "vi": "Chà, nghe giống như một bữa tiệc lớn. Chúc bạn có khoảng thời gian tuyệt vời!",
+              "en": "Wow, it sounds like a big party. Have a great time!"
+            },
+            {
+              "speaker": "Mark",
+              "vi": "Cảm ơn Sarah. Ngày mai tôi sẽ cho bạn xem vài bức ảnh.",
+              "en": "Thanks, Sarah. I will show you some photos tomorrow."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "dialogue": [
+        {
+          "title": "Nervous about an interview",
+          "desc": "Nghe cuộc trò chuyện tâm sự về cảm xúc trước một sự kiện quan trọng.",
+          "characters": [
+            "Tom",
+            "Emma"
+          ],
+          "lines": [
+            {
+              "speaker": "Tom",
+              "vi": "Chào Emma. Trông bạn hơi nhợt nhạt. Bạn có cảm thấy ổn không?",
+              "en": "Hi Emma. You look a bit pale. Are you feeling okay?"
+            },
+            {
+              "speaker": "Emma",
+              "vi": "Nói thật thì tôi đang rất lo lắng về buổi phỏng vấn xin việc ngày mai.",
+              "en": "To be honest, I am very nervous about my job interview tomorrow."
+            },
+            {
+              "speaker": "Tom",
+              "vi": "Đừng sợ! Bạn rất thông minh và lịch sự. Họ sẽ thích bạn thôi.",
+              "en": "Don't be scared! You are very smart and polite. They will love you."
+            },
+            {
+              "speaker": "Emma",
+              "vi": "Cảm ơn Tom. Nhưng tôi luôn trở nên nhút nhát khi gặp những người mới.",
+              "en": "Thanks, Tom. But I always get shy when I meet new people."
+            },
+            {
+              "speaker": "Tom",
+              "vi": "Hãy cứ cố gắng tự tin. Nhớ mỉm cười và đừng trông quá nghiêm túc.",
+              "en": "Just try to be confident. Remember to smile and don't look too serious."
+            },
+            {
+              "speaker": "Emma",
+              "vi": "Tôi sẽ cố gắng. Nhưng nhỡ tôi nói điều gì đó ngớ ngẩn và khiến họ tức giận thì sao?",
+              "en": "I will try. But what if I say something silly and make them angry?"
+            },
+            {
+              "speaker": "Tom",
+              "vi": "Điều đó sẽ không xảy ra đâu. Tôi rất vui vì bạn đã chuẩn bị tốt cho điều này. Bạn sẽ ổn thôi!",
+              "en": "That won't happen. I am glad you prepared well for this. You will be fine!"
+            },
+            {
+              "speaker": "Emma",
+              "vi": "Bạn đúng là một người bạn tốt. Những lời của bạn làm tôi cảm thấy tốt hơn nhiều.",
+              "en": "You are a good friend. Your words make me feel much better."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

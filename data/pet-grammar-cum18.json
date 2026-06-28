@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 34,
+      "grammar": [
+        {
+          "title": "So sánh trong thảo luận",
+          "desc": "Dùng cấu trúc so sánh hơn/nhất để ưu tiên các giải pháp khi làm bài tập thảo luận nhóm.",
+          "formula": [
+            {
+              "text": "more important / better than / the most",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I think it's more important to save money.",
+              "meaning": "Tôi nghĩ việc tiết kiệm tiền quan trọng hơn."
+            },
+            {
+              "correct": "This option is much better than the other one.",
+              "meaning": "Lựa chọn này tốt hơn nhiều so với lựa chọn kia."
+            },
+            {
+              "correct": "That is the most difficult part.",
+              "meaning": "Đó là phần khó nhất."
+            },
+            {
+              "correct": "It's not as easy as it looks.",
+              "meaning": "Nó không dễ như vẻ ngoài đâu."
+            }
+          ]
+        },
+        {
+          "title": "Cân nhắc 2 phía",
+          "desc": "Phân tích mặt lợi và mặt hại của một vấn đề (On the one hand... on the other hand).",
+          "formula": [
+            {
+              "text": "On the one hand... On the other hand...",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "On the one hand, it is cheap. On the other hand, it's slow.",
+              "meaning": "Một mặt thì nó rẻ. Mặt khác thì nó lại chậm."
+            },
+            {
+              "correct": "Although it's expensive, it's very useful.",
+              "meaning": "Mặc dù đắt đỏ, nó lại rất hữu dụng."
+            },
+            {
+              "correct": "It has both advantages and disadvantages.",
+              "meaning": "Nó có cả ưu điểm lẫn nhược điểm."
+            },
+            {
+              "correct": "We need to consider both sides of the argument.",
+              "meaning": "Chúng ta cần xem xét cả hai khía cạnh của cuộc tranh luận."
+            }
+          ]
+        },
+        {
+          "title": "Conditional trong đề xuất",
+          "desc": "Sử dụng câu điều kiện loại 1 và 2 để đưa ra đề xuất mang tính thuyết phục.",
+          "formula": [
+            {
+              "text": "If we do... / If I were you...",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "If I were you, I would take the job.",
+              "meaning": "Nếu tôi là bạn, tôi sẽ nhận công việc đó."
+            },
+            {
+              "correct": "If we do this, it will save time.",
+              "meaning": "Nếu chúng ta làm điều này, nó sẽ giúp tiết kiệm thời gian."
+            },
+            {
+              "correct": "If we went there, we could see the museum.",
+              "meaning": "Nếu chúng ta đến đó, chúng ta có thể tham quan bảo tàng."
+            },
+            {
+              "correct": "If we leave now, we will catch the train.",
+              "meaning": "Nếu chúng ta rời đi bây giờ, chúng ta sẽ bắt kịp tàu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 35,
+      "grammar": [
+        {
+          "title": "Hệ thống thì hoàn chỉnh",
+          "desc": "Tổng hợp toàn bộ các thì Hiện tại, Quá khứ, Hoàn thành, Tương lai phục vụ cho kỳ thi PET.",
+          "formula": [
+            {
+              "text": "Tense Review",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "You need to master all basic tenses for the exam.",
+              "meaning": "Bạn cần nắm vững tất cả các thì cơ bản cho kỳ thi."
+            },
+            {
+              "correct": "Pay attention to time markers.",
+              "meaning": "Hãy chú ý đến các dấu hiệu thời gian."
+            },
+            {
+              "correct": "Understand the difference between present perfect and past simple.",
+              "meaning": "Hiểu rõ sự khác biệt giữa hiện tại hoàn thành và quá khứ đơn."
+            },
+            {
+              "correct": "Practice mixed tense exercises.",
+              "meaning": "Hãy luyện tập các bài tập chia thì hỗn hợp."
+            }
+          ]
+        },
+        {
+          "title": "Bị động toàn tầng",
+          "desc": "Ôn tập câu bị động kết hợp với mọi thì và với động từ khuyết thiếu.",
+          "formula": [
+            {
+              "text": "Passive Review",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Remember the structure: be + V3.",
+              "meaning": "Hãy nhớ cấu trúc: động từ tobe + V3/ed."
+            },
+            {
+              "correct": "Modal passives are very common.",
+              "meaning": "Câu bị động với động từ khuyết thiếu rất phổ biến."
+            },
+            {
+              "correct": "Don't forget 'have something done'.",
+              "meaning": "Đừng quên cấu trúc 'nhờ vả ai đó'."
+            },
+            {
+              "correct": "Active sentences can be transformed into passive ones.",
+              "meaning": "Câu chủ động có thể được chuyển thành câu bị động."
+            }
+          ]
+        },
+        {
+          "title": "Conditionals & Wish",
+          "desc": "Ôn tập và phân biệt nhanh Điều kiện loại 1/2/3 và cấu trúc Wish.",
+          "formula": [
+            {
+              "text": "Conditional / Wish Review",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Review types 1, 2, and 3 conditionals.",
+              "meaning": "Hãy ôn lại câu điều kiện loại 1, 2 và 3."
+            },
+            {
+              "correct": "Understand mixed conditionals.",
+              "meaning": "Hãy hiểu rõ về câu điều kiện hỗn hợp."
+            },
+            {
+              "correct": "Use 'wish' for regrets.",
+              "meaning": "Sử dụng 'wish' cho những sự hối tiếc."
+            },
+            {
+              "correct": "Practice rewriting sentences using 'if only'.",
+              "meaning": "Hãy thực hành viết lại câu sử dụng 'giá như'."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

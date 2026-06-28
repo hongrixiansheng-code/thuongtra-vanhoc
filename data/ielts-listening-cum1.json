@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 1,
+    "listening": [
+      {
+        "title": "Listening: Registration form",
+        "transcript": "Good morning. My name is David Brown. I am twenty-two years old. I am American. My occupation is an engineer. My email is david dot brown at email dot com.",
+        "questions": [
+          { "type": "form_completion", "question": "Name: David ___", "options": ["Brown", "Smith", "Green"], "correct": "Brown", "explanation": "Người nói nói \"My name is David Brown\"." },
+          { "type": "multiple_choice", "question": "How old is David?", "options": ["20", "22", "25"], "correct": "22", "explanation": "\"I am twenty-two years old.\"" },
+          { "type": "multiple_choice", "question": "What is David's occupation?", "options": ["Doctor", "Engineer", "Teacher"], "correct": "Engineer", "explanation": "\"My occupation is an engineer.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "listening": [
+      {
+        "title": "Listening: Introducing the family",
+        "transcript": "This is my family. My father is a farmer and my mother is a teacher. I have two brothers. We are not a small family. We are very close.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the father's job?", "options": ["Farmer", "Teacher", "Doctor"], "correct": "Farmer", "explanation": "\"My father is a farmer\"." },
+          { "type": "form_completion", "question": "Number of brothers: ___", "options": ["one", "two", "three"], "correct": "two", "explanation": "\"I have two brothers.\"" }
+        ]
+      }
+    ]
+  }
+]

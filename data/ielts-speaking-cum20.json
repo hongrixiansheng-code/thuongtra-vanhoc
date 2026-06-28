@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 39,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Sports and competitions",
+        "part": 1,
+        "questions": ["Did you play any sports when you were young?", "Did your team ever win a competition?", "How did you train for it?"],
+        "sampleAnswer": "Yes, I played football when I was young. Yes, my team defeated every other team in a competition once. We trained every afternoon before the match."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a fun weekend",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a fun weekend you had with friends.",
+          "bullets": ["where you went", "what you did there", "who came with you", "and explain why it was fun"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about a weekend at the beach. We went there with some friends. We had a wonderful time, and we saw a beautiful sunset together. It was fun because everyone came and we made a small bonfire."
+      }
+    ]
+  }
+]

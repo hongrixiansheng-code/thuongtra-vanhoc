@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 19,
+      "grammar": [
+        {
+          "title": "Sở thích: like / love + V-ing",
+          "desc": "Dùng 'like' (thích) hoặc 'love' (rất thích/yêu) cộng với một động từ thêm đuôi '-ing' để nói về những việc bạn thích làm trong thời gian rảnh.",
+          "formula": [
+            { "text": "I like", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "reading", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "comics.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I love listening to music.", "meaning": "Tớ rất thích nghe nhạc." },
+            { "correct": "He likes playing football.", "meaning": "Cậu ấy thích chơi bóng đá." },
+            { "correct": "Do you like watching movies?", "meaning": "Cậu có thích xem phim không?" }
+          ]
+        },
+        {
+          "title": "Mong muốn: want to + Động từ nguyên thể",
+          "desc": "Dùng 'want to' kết hợp với một động từ giữ nguyên để nói về việc bạn đang muốn làm ngay lúc này hoặc trong tương lai.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "want to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "go home.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I want to eat an apple.", "meaning": "Tớ muốn ăn một quả táo." },
+            { "correct": "She wants to buy a new dress.", "meaning": "Cô ấy muốn mua một chiếc váy mới." },
+            { "correct": "They don't want to play inside.", "meaning": "Họ không muốn chơi ở trong nhà." }
+          ]
+        },
+        {
+          "title": "Ôn tập: can + Động từ (Giải trí)",
+          "desc": "Dùng 'can' (có thể) để nói về những việc bạn có khả năng làm, hoặc xin phép làm một việc gì đó (như mua vé, đi chơi).",
+          "formula": [
+            { "text": "Can", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "buy a ticket?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Can we go to the cinema?", "meaning": "Chúng ta có thể đi đến rạp chiếu phim không?" },
+            { "correct": "I can ride a bike.", "meaning": "Tớ có thể đạp xe đạp." },
+            { "correct": "You can play games here.", "meaning": "Cậu có thể chơi trò chơi ở đây." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Free time",
+          "lines": [
+            { "speaker": "A", "en": "What do you like doing in your free time?", "vi": "Cậu thích làm gì trong thời gian rảnh rỗi?" },
+            { "speaker": "B", "en": "I love drawing pictures. And you?", "vi": "Tớ rất thích vẽ tranh. Còn cậu thì sao?" },
+            { "speaker": "A", "en": "I like reading books. It is very quiet.", "vi": "Tớ thích đọc sách. Nó rất yên tĩnh." },
+            { "speaker": "B", "en": "Do you want to play a game now?", "vi": "Bây giờ cậu có muốn chơi một trò chơi không?" },
+            { "speaker": "A", "en": "Yes, I want to play football outside.", "vi": "Có, tớ muốn chơi bóng đá ở ngoài trời." },
+            { "speaker": "B", "en": "Great! We can go to the park.", "vi": "Tuyệt quá! Chúng ta có thể đi đến công viên." }
+          ]
+        },
+        {
+          "title": "At the cinema",
+          "lines": [
+            { "speaker": "A", "en": "Can I buy two tickets, please?", "vi": "Làm ơn cho tôi mua hai vé được không?" },
+            { "speaker": "B", "en": "Yes, of course. Which film do you want to watch?", "vi": "Vâng, tất nhiên rồi. Bạn muốn xem bộ phim nào?" },
+            { "speaker": "A", "en": "I want to watch the funny animal film.", "vi": "Tôi muốn xem bộ phim động vật hài hước." },
+            { "speaker": "B", "en": "Here are your tickets. Enjoy the film!", "vi": "Vé của bạn đây. Chúc bạn xem phim vui vẻ!" },
+            { "speaker": "A", "en": "Thanks! I love watching funny films.", "vi": "Cảm ơn! Tôi rất thích xem những bộ phim hài hước." },
+            { "speaker": "B", "en": "You can buy some popcorn over there.", "vi": "Bạn có thể mua một ít bắp rang bơ ở đằng kia." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 20,
+      "grammar": [
+        {
+          "title": "Tương lai dự định: going to + Động từ",
+          "desc": "Dùng 'be + going to' cộng với một động từ nguyên thể để kể về một kế hoạch hoặc dự định mà bạn CHẮC CHẮN sẽ làm trong tương lai.",
+          "formula": [
+            { "text": "I am", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "going to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "read.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I am going to visit my grandma tomorrow.", "meaning": "Tớ dự định sẽ đi thăm bà tớ vào ngày mai." },
+            { "correct": "She is going to buy a new bag.", "meaning": "Cô ấy dự định sẽ mua một chiếc cặp mới." },
+            { "correct": "We are going to play basketball.", "meaning": "Chúng tớ dự định sẽ chơi bóng rổ." }
+          ]
+        },
+        {
+          "title": "Lời mời lịch sự: would like to + Động từ",
+          "desc": "Giống như 'want to', nhưng 'would like to' lịch sự hơn rất nhiều. Thường dùng khi mời ai đó làm gì hoặc khi bạn yêu cầu một cách trang trọng.",
+          "formula": [
+            { "text": "Would you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "like to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "dance?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Would you like to come to my party?", "meaning": "Bạn có muốn đến dự bữa tiệc của tớ không?" },
+            { "correct": "I would like to have some water.", "meaning": "Tớ muốn (xin) một ít nước." },
+            { "correct": "He would like to sit here.", "meaning": "Cậu ấy muốn ngồi ở đây." }
+          ]
+        },
+        {
+          "title": "Ôn tập: like / love + V-ing",
+          "desc": "Nhớ rằng sau 'like' và 'love' để chỉ sở thích, động từ theo sau phải thêm đuôi '-ing'.",
+          "formula": [
+            { "text": "They", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "love", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "singing.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "My dad likes cooking dinner.", "meaning": "Bố tớ thích nấu bữa tối." },
+            { "correct": "We love listening to stories.", "meaning": "Chúng tớ rất thích nghe kể chuyện." },
+            { "correct": "Do they like swimming?", "meaning": "Họ có thích bơi lội không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Weekend plans",
+          "lines": [
+            { "speaker": "A", "en": "What are you going to do this weekend?", "vi": "Cậu dự định sẽ làm gì vào cuối tuần này?" },
+            { "speaker": "B", "en": "I am going to visit my uncle's farm.", "vi": "Tớ dự định sẽ đi thăm nông trại của chú tớ." },
+            { "speaker": "A", "en": "That sounds fun. I love seeing farm animals.", "vi": "Nghe vui đấy. Tớ rất thích ngắm nhìn các con vật ở nông trại." },
+            { "speaker": "B", "en": "Would you like to come with me?", "vi": "Cậu có muốn đi cùng tớ không?" },
+            { "speaker": "A", "en": "Yes, I would love to! Thank you.", "vi": "Có, tớ rất muốn! Cảm ơn cậu." },
+            { "speaker": "B", "en": "We are going to have a picnic there.", "vi": "Chúng ta dự định sẽ có một buổi dã ngoại ở đó." }
+          ]
+        },
+        {
+          "title": "At the restaurant",
+          "lines": [
+            { "speaker": "A", "en": "Welcome! What would you like to eat?", "vi": "Chào mừng! Bạn muốn ăn gì nào?" },
+            { "speaker": "B", "en": "I would like to have a sandwich, please.", "vi": "Làm ơn cho tôi một chiếc bánh mì kẹp." },
+            { "speaker": "A", "en": "And would you like to drink something?", "vi": "Và bạn có muốn uống thứ gì không?" },
+            { "speaker": "B", "en": "Yes, I am going to have some orange juice.", "vi": "Có, tôi định sẽ uống một chút nước cam." },
+            { "speaker": "A", "en": "Okay. Do you like eating ice cream?", "vi": "Được rồi. Bạn có thích ăn kem không?" },
+            { "speaker": "B", "en": "Yes, I love eating chocolate ice cream.", "vi": "Có, tôi rất thích ăn kem sô-cô-la." }
+          ]
+        }
+      ]
+    }
+  ]
+}

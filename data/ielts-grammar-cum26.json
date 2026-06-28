@@ -1,0 +1,49 @@
+[
+  {
+    "lessonOrder": 51,
+    "grammar": [
+      {
+        "title": "So sánh nhất (Superlative)",
+        "desc": "Dùng để so sánh một người/vật với tất cả những người/vật còn lại trong một nhóm.",
+        "formula": [
+          { "text": "the + Adj-est / the most + Adj", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "This is the highest mountain in Vietnam.", "vi": "Đây là ngọn núi cao nhất Việt Nam." },
+          { "en": "She is the most successful student in our class.", "vi": "Cô ấy là học sinh thành công nhất trong lớp." },
+          { "en": "Today is the hottest day this year.", "vi": "Hôm nay là ngày nóng nhất năm nay." }
+        ],
+        "note": "Tính từ ngắn: the + adj-est (high→the highest). Tính từ dài: the most + adj (successful→the most successful). Bất quy tắc: good→the best, bad→the worst.",
+        "practiceList": [
+          { "question": "This is ___ (cheap) shop in the city.", "correct": "the cheapest", "meaning": "Đây là cửa hàng rẻ nhất trong thành phố.", "explanation": "Tính từ ngắn dùng \"the + adj-est\"." },
+          { "question": "He is ___ (intelligent) person I know.", "correct": "the most intelligent", "meaning": "Anh ấy là người thông minh nhất tôi biết.", "explanation": "Tính từ dài dùng \"the most + adj\"." },
+          { "question": "This was ___ (bad) day of my life.", "correct": "the worst", "meaning": "Đây là ngày tồi tệ nhất trong đời tôi.", "explanation": "bad là tính từ bất quy tắc: bad→the worst." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "grammar": [
+      {
+        "title": "So sánh bằng (as...as) và không bằng (not as...as)",
+        "desc": "Dùng để so sánh sự tương đương hoặc khác biệt giữa hai người/vật.",
+        "formula": [
+          { "text": "as + Adj + as", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "not as + Adj + as", "classes": "border-red-500 text-red-600 bg-red-50" }
+        ],
+        "examples": [
+          { "en": "This house is as big as that one.", "vi": "Nhà này to bằng nhà kia." },
+          { "en": "The city isn't as quiet as the countryside.", "vi": "Thành phố không yên tĩnh bằng nông thôn." },
+          { "en": "Is your school as old as mine?", "vi": "Trường bạn có lâu đời như trường tôi không?" }
+        ],
+        "note": "as + adj + as = bằng nhau. not as + adj + as = kém hơn (không bằng).",
+        "practiceList": [
+          { "question": "This bag is ___ (expensive) as that one. (bằng)", "correct": "as expensive", "meaning": "Cái túi này đắt bằng cái kia.", "explanation": "So sánh bằng dùng \"as + adj + as\"." },
+          { "question": "My hometown isn't ___ (crowded) as the capital.", "correct": "as crowded", "meaning": "Quê tôi không đông đúc bằng thủ đô.", "explanation": "So sánh không bằng dùng \"not as + adj + as\"." },
+          { "question": "Is this road ___ (long) as that one?", "correct": "as long", "meaning": "Con đường này có dài bằng con đường kia không?", "explanation": "Câu hỏi so sánh bằng vẫn giữ cấu trúc \"as + adj + as\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 61,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Things you enjoy",
+        "part": 1,
+        "questions": ["What do you enjoy doing in your free time?", "Is there anything you hate doing?", "Do you miss anything from your childhood?"],
+        "sampleAnswer": "I enjoy reading books and listening to music. Yes, I hate waiting in long queues. I miss living in my hometown."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Limits and problems",
+        "part": 3,
+        "questions": ["Is public transport big enough for everyone in your city?", "Are some prices too high for young people?", "What problems are too difficult to solve quickly?"],
+        "sampleAnswer": "No, public transport isn't big enough for everyone during rush hour. Yes, some prices are too high for young people. Traffic problems are too difficult to solve quickly."
+      }
+    ]
+  }
+]

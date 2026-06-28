@@ -1,0 +1,140 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 20,
+      "dialogue": [
+        {
+          "title": "Going to a concert",
+          "desc": "Nghe cuộc trò chuyện về việc đi xem buổi hòa nhạc.",
+          "characters": [
+            "Lisa",
+            "John"
+          ],
+          "lines": [
+            {
+              "speaker": "Lisa",
+              "vi": "Bạn có định đi xem buổi hòa nhạc rock tối nay không?",
+              "en": "Are you going to the rock concert tonight?"
+            },
+            {
+              "speaker": "John",
+              "vi": "Có chứ, tôi có hai vé. Bạn có muốn đi cùng không?",
+              "en": "Yes, I've got two tickets. Do you want to come?"
+            },
+            {
+              "speaker": "Lisa",
+              "vi": "Tôi rất thích! Ban nhạc bắt đầu chơi lúc mấy giờ?",
+              "en": "I'd love to! What time does the band start playing?"
+            },
+            {
+              "speaker": "John",
+              "vi": "Lúc tám rưỡi. Hãy gặp nhau bên ngoài sân vận động nhé.",
+              "en": "At half past eight. Let's meet outside the stadium."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "grammar": [
+        {
+          "title": "Present Perfect",
+          "desc": "Thì Hiện tại hoàn thành dùng để nói về trải nghiệm hoặc sự việc xảy ra trong quá khứ kéo dài đến hiện tại.",
+          "formula": [
+            {
+              "text": "S + have / has + P2 (V-ed/bất quy tắc)",
+              "meaning": "Câu khẳng định"
+            },
+            {
+              "text": "S + haven't / hasn't + P2",
+              "meaning": "Câu phủ định"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have seen this movie three times.",
+              "meaning": "Tôi đã xem bộ phim này ba lần rồi."
+            },
+            {
+              "correct": "She hasn't finished her homework yet.",
+              "meaning": "Cô ấy vẫn chưa hoàn thành bài tập về nhà của mình."
+            },
+            {
+              "correct": "Have you ever been to Japan?",
+              "meaning": "Bạn đã bao giờ đến Nhật Bản chưa?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "dialogue": [
+        {
+          "title": "Talking about the weather",
+          "desc": "Nghe cuộc trò chuyện về thời tiết và thiên nhiên.",
+          "characters": [
+            "David",
+            "Sarah"
+          ],
+          "lines": [
+            {
+              "speaker": "David",
+              "vi": "Hãy nhìn những đám mây đen kìa. Tôi nghĩ sẽ có một cơn bão.",
+              "en": "Look at those dark clouds. I think there will be a storm."
+            },
+            {
+              "speaker": "Sarah",
+              "vi": "Ồ không, chúng ta đã lên kế hoạch đi bộ đường dài trong rừng hôm nay mà.",
+              "en": "Oh no, we planned to go hiking in the forest today."
+            },
+            {
+              "speaker": "David",
+              "vi": "Quá nguy hiểm đấy. Gió đang thổi rất mạnh.",
+              "en": "It's too dangerous. The wind is very strong."
+            },
+            {
+              "speaker": "Sarah",
+              "vi": "Bạn nói đúng. Thay vào đó hãy ở nhà và xem một bộ phim.",
+              "en": "You are right. Let's stay home and watch a film instead."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "grammar": [
+        {
+          "title": "Future with 'going to'",
+          "desc": "Sử dụng 'be going to' để nói về kế hoạch và dự định trong tương lai.",
+          "formula": [
+            {
+              "text": "S + am/is/are + going to + V",
+              "meaning": "Kế hoạch đã định trước"
+            },
+            {
+              "text": "S + am/is/are + not + going to + V",
+              "meaning": "Dự định không làm gì"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We are going to build a new house next year.",
+              "meaning": "Chúng tôi dự định sẽ xây một ngôi nhà mới vào năm sau."
+            },
+            {
+              "correct": "I am not going to buy that expensive car.",
+              "meaning": "Tôi không định mua chiếc xe đắt tiền đó đâu."
+            },
+            {
+              "correct": "Are you going to visit your grandparents this weekend?",
+              "meaning": "Bạn có định đi thăm ông bà vào cuối tuần này không?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

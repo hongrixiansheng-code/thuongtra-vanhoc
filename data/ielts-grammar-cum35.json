@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 69,
+    "grammar": [
+      {
+        "title": "Phân biệt Present Perfect và Past Simple",
+        "desc": "Present Perfect: không nói rõ thời điểm, nhấn mạnh trải nghiệm/kết quả. Past Simple: nói rõ thời điểm cụ thể trong quá khứ (yesterday, last year, in 2020...).",
+        "formula": [
+          { "text": "have/has + V3 (không có thời điểm cụ thể)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "V2/V-ed (+ thời điểm cụ thể: yesterday, last...)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have visited Hoi An. (không rõ khi nào)", "vi": "Tôi đã từng đến Hội An. (không rõ khi nào)" },
+          { "en": "I visited Hoi An last summer. (rõ thời điểm)", "vi": "Tôi đã đến Hội An mùa hè trước. (rõ thời điểm)" },
+          { "en": "She has already eaten, so she isn't hungry now.", "vi": "Cô ấy đã ăn rồi, nên giờ cô ấy không đói." }
+        ],
+        "note": "Không dùng Present Perfect với mốc thời gian cụ thể (yesterday, last week, in 2020) — phải dùng Past Simple trong trường hợp đó.",
+        "practiceList": [
+          { "question": "I ___ (see) that film yesterday.", "correct": "saw", "meaning": "Tôi đã xem bộ phim đó hôm qua.", "explanation": "Có mốc thời gian cụ thể \"yesterday\" nên dùng Past Simple." },
+          { "question": "I ___ (see) that film before, but I don't remember the ending.", "correct": "have seen", "meaning": "Tôi đã từng xem bộ phim đó, nhưng tôi không nhớ đoạn kết.", "explanation": "Không có thời điểm cụ thể, nhấn mạnh trải nghiệm nên dùng Present Perfect." },
+          { "question": "She ___ (move) to this city in 2018.", "correct": "moved", "meaning": "Cô ấy đã chuyển đến thành phố này vào năm 2018.", "explanation": "\"in 2018\" là mốc thời gian cụ thể, dùng Past Simple." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "grammar": [
+      {
+        "title": "Câu bị động (Passive Voice) — Hiện tại đơn",
+        "desc": "Dùng để nhấn mạnh đối tượng chịu tác động của hành động, đặc biệt khi nói về quy trình/sản xuất, không cần biết ai làm.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "am/is/are + V3", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "(by + agent)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "Rice is grown in many parts of Vietnam.", "vi": "Lúa được trồng ở nhiều nơi tại Việt Nam." },
+          { "en": "These cars are made in Japan.", "vi": "Những chiếc xe này được sản xuất ở Nhật Bản." },
+          { "en": "The boxes are packed by machines.", "vi": "Những thùng hàng được đóng gói bởi máy." }
+        ],
+        "note": "Bị động: Object (của câu chủ động) → Subject (của câu bị động). Chỉ thêm \"by + agent\" khi cần nói rõ ai/cái gì thực hiện hành động.",
+        "practiceList": [
+          { "question": "Coffee ___ (grow) in the highlands.", "correct": "is grown", "meaning": "Cà phê được trồng ở vùng cao nguyên.", "explanation": "Chủ ngữ số ít \"Coffee\" dùng \"is\" + V3." },
+          { "question": "These products ___ (sell) all over the country.", "correct": "are sold", "meaning": "Những sản phẩm này được bán khắp cả nước.", "explanation": "Chủ ngữ số nhiều \"products\" dùng \"are\" + V3." },
+          { "question": "This bread ___ (bake) every morning.", "correct": "is baked", "meaning": "Bánh mì này được nướng mỗi sáng.", "explanation": "Hành động lặp lại thường xuyên, bị động hiện tại đơn." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 13,
+      "grammar": [
+        {
+          "title": "different from: khác với",
+          "desc": "Dùng cụm từ 'different from' để miêu tả một thứ gì đó không giống với một thứ khác.",
+          "formula": [
+            { "text": "My bag is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "different from", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "your bag.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The new teacher is different from the old teacher.", "meaning": "Giáo viên mới thì khác với giáo viên cũ." },
+            { "correct": "This book is different from that one.", "meaning": "Quyển sách này thì khác với quyển sách kia." },
+            { "correct": "Her hair is different from my hair.", "meaning": "Tóc của cô ấy khác với tóc của tớ." }
+          ]
+        },
+        {
+          "title": "Câu hỏi: What does ... mean?",
+          "desc": "Khi bạn nhìn thấy một từ mới và không hiểu nghĩa của nó, hãy dùng câu hỏi 'What does [từ mới] mean?' để hỏi giáo viên.",
+          "formula": [
+            { "text": "What", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "does 'difficult'", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "mean?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What does this word mean?", "meaning": "Từ này có nghĩa là gì?" },
+            { "correct": "What does 'clever' mean?", "meaning": "Từ 'clever' có nghĩa là gì?" },
+            { "correct": "I don't know what it means.", "meaning": "Tớ không biết nó có nghĩa là gì." }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + đồ dùng học tập",
+          "desc": "Dùng cấu trúc 'have got' (có) để nói về những đồ dùng học tập mà bạn mang theo.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "have got", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "a new dictionary.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have got a map in my bag.", "meaning": "Tớ có một tấm bản đồ ở trong cặp." },
+            { "correct": "Has she got a rubber?", "meaning": "Cô ấy có cục tẩy không?" },
+            { "correct": "We have got our books.", "meaning": "Chúng tớ đã có sách của mình." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "In the English class",
+          "lines": [
+            { "speaker": "A", "en": "What does 'different' mean?", "vi": "Từ 'different' có nghĩa là gì vậy?" },
+            { "speaker": "B", "en": "It means not the same.", "vi": "Nó có nghĩa là không giống nhau." },
+            { "speaker": "A", "en": "Ah, I see. My pencil case is different from yours.", "vi": "À, tớ hiểu rồi. Hộp bút của tớ khác với hộp bút của cậu." },
+            { "speaker": "B", "en": "Yes, I have got a blue pencil case.", "vi": "Đúng vậy, tớ có một hộp bút màu xanh dương." },
+            { "speaker": "A", "en": "Have you got a dictionary?", "vi": "Cậu có từ điển không?" },
+            { "speaker": "B", "en": "Yes, I have. We will use it today.", "vi": "Có, tớ có. Hôm nay chúng ta sẽ dùng nó." }
+          ]
+        },
+        {
+          "title": "A new school bag",
+          "lines": [
+            { "speaker": "A", "en": "Look at my new school bag.", "vi": "Hãy nhìn chiếc cặp sách mới của tớ này." },
+            { "speaker": "B", "en": "It is very big. What have you got in it?", "vi": "Nó rất to. Cậu có những gì ở trong đó vậy?" },
+            { "speaker": "A", "en": "I have got two books, a rubber, and a map.", "vi": "Tớ có hai quyển sách, một cục tẩy và một tấm bản đồ." },
+            { "speaker": "B", "en": "Your bag is different from my bag. Mine is small.", "vi": "Cặp của cậu khác với cặp của tớ. Cặp của tớ thì nhỏ." },
+            { "speaker": "A", "en": "Yes, but I like both of them.", "vi": "Ừ, nhưng tớ thích cả hai chiếc." },
+            { "speaker": "B", "en": "Me too. Let's go to the classroom.", "vi": "Tớ cũng vậy. Hãy đi vào phòng học thôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "grammar": [
+        {
+          "title": "I think: Tớ nghĩ là... (Động từ ý kiến)",
+          "desc": "Dùng 'I think (that)' đứng ở đầu câu để đưa ra ý kiến, suy nghĩ hoặc dự đoán cá nhân của bạn về một vấn đề nào đó.",
+          "formula": [
+            { "text": "I think", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "(that)", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "it is fun.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I think this lesson is easy.", "meaning": "Tớ nghĩ là bài học này dễ." },
+            { "correct": "I think that we must go now.", "meaning": "Tớ nghĩ là bây giờ chúng ta phải đi thôi." },
+            { "correct": "Do you think she is nice?", "meaning": "Cậu có nghĩ là cô ấy tốt bụng không?" }
+          ]
+        },
+        {
+          "title": "Phân biệt: practice (n) vs practise (v)",
+          "desc": "Trong tiếng Anh-Anh (Anh Quốc), 'practice' là Danh từ (sự luyện tập), còn 'practise' là Động từ (hành động luyện tập). Chúng phát âm giống hệt nhau.",
+          "formula": [
+            { "text": "need some", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "practice", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "vs. I must practise.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "You need more practice.", "meaning": "Bạn cần nhiều sự luyện tập hơn." },
+            { "correct": "I must practise English every day.", "meaning": "Tớ phải luyện tập tiếng Anh mỗi ngày." },
+            { "correct": "Practise playing the guitar.", "meaning": "Hãy luyện tập chơi đàn ghi-ta." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 5",
+          "desc": "Cùng ôn lại các điểm ngữ pháp về Trường học: different from, what does it mean, I think, have got.",
+          "formula": [
+            { "text": "School", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Grammar", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "Review", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I think my answer is different from your answer.", "meaning": "Tớ nghĩ là câu trả lời của tớ khác với câu trả lời của cậu." },
+            { "correct": "What does this homework mean?", "meaning": "Bài tập về nhà này có ý nghĩa gì?" },
+            { "correct": "I have got to practise more.", "meaning": "Tớ phải luyện tập nhiều hơn." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A hard lesson",
+          "lines": [
+            { "speaker": "A", "en": "I think this maths lesson is very difficult.", "vi": "Tớ nghĩ tiết học toán này rất khó." },
+            { "speaker": "B", "en": "Yes, it is different from yesterday's lesson.", "vi": "Đúng vậy, nó khác với tiết học ngày hôm qua." },
+            { "speaker": "A", "en": "I don't understand it. What does it mean?", "vi": "Tớ không hiểu nó. Nó có ý nghĩa gì vậy?" },
+            { "speaker": "B", "en": "I can help you. You just need some practice.", "vi": "Tớ có thể giúp cậu. Cậu chỉ cần sự luyện tập thôi." },
+            { "speaker": "A", "en": "Thanks. I must practise every evening.", "vi": "Cảm ơn nhé. Tớ phải luyện tập vào mỗi buổi tối." },
+            { "speaker": "B", "en": "I think you will be very good at maths soon.", "vi": "Tớ nghĩ cậu sẽ rất giỏi toán sớm thôi." }
+          ]
+        },
+        {
+          "title": "Music class",
+          "lines": [
+            { "speaker": "A", "en": "Have you got your guitar for the music class?", "vi": "Cậu có mang theo đàn ghi-ta cho tiết học âm nhạc không?" },
+            { "speaker": "B", "en": "Yes, I have. I think we will learn a new song.", "vi": "Có, tớ có mang. Tớ nghĩ chúng ta sẽ học một bài hát mới." },
+            { "speaker": "A", "en": "I must practise playing the piano more.", "vi": "Tớ phải luyện tập chơi đàn dương cầm nhiều hơn." },
+            { "speaker": "B", "en": "Piano is different from guitar.", "vi": "Đàn dương cầm thì khác với đàn ghi-ta." },
+            { "speaker": "A", "en": "Yes, I think it is more difficult.", "vi": "Đúng vậy, tớ nghĩ là nó khó hơn." },
+            { "speaker": "B", "en": "If we have lots of practice, it will be easy.", "vi": "Nếu chúng ta có nhiều sự rèn luyện, nó sẽ trở nên dễ dàng." }
+          ]
+        }
+      ]
+    }
+  ]
+}

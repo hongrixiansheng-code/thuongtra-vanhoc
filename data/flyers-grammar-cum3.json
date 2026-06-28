@@ -1,0 +1,148 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 4,
+      "grammar": [
+        {
+          "title": "usually / normally: thường xuyên / thông thường",
+          "desc": "Dùng 'usually' hoặc 'normally' trước động từ thường (hoặc sau động từ to-be) để nói về những thói quen hay điều thường xuyên xảy ra.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "usually / normally", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "go to bed at 9 p.m.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "She usually walks to school.", "meaning": "Cô ấy thường đi bộ đến trường." },
+            { "correct": "I normally eat cereal for breakfast.", "meaning": "Tớ thông thường ăn ngũ cốc vào bữa sáng." },
+            { "correct": "He is usually happy.", "meaning": "Cậu ấy thường xuyên vui vẻ." }
+          ]
+        },
+        {
+          "title": "Tiền tố phủ định un-",
+          "desc": "Thêm 'un-' vào trước một số tính từ để tạo ra một từ có nghĩa ngược lại (phủ định). Ví dụ: happy -> unhappy.",
+          "formula": [
+            { "text": "un-", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "+", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "happy", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "= unhappy", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The cat is unhappy.", "meaning": "Con mèo đang không vui." },
+            { "correct": "This story is very unusual.", "meaning": "Câu chuyện này rất bất thường." },
+            { "correct": "He was unkind to his friends.", "meaning": "Cậu ấy đã không tử tế với bạn bè của mình." }
+          ]
+        },
+        {
+          "title": "be + tính từ trạng thái (Ôn tập)",
+          "desc": "Dùng động từ 'to be' (am/is/are) kết hợp với các tính từ chỉ cảm xúc (bored, pleased, worried) để diễn tả trạng thái của ai đó.",
+          "formula": [
+            { "text": "My mom is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "worried", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "about me.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "The boy is bored.", "meaning": "Cậu bé đang cảm thấy chán nản." },
+            { "correct": "I am pleased to meet you.", "meaning": "Tôi rất vui lòng được gặp bạn." },
+            { "correct": "Don't be worried.", "meaning": "Đừng lo lắng nhé." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A rainy day",
+          "lines": [
+            { "speaker": "A", "en": "I am normally happy, but today I am unhappy.", "vi": "Tớ thông thường rất vui vẻ, nhưng hôm nay tớ không vui." },
+            { "speaker": "B", "en": "Why are you unhappy?", "vi": "Tại sao cậu lại không vui?" },
+            { "speaker": "A", "en": "Because it is raining. I usually play outside.", "vi": "Bởi vì trời đang mưa. Tớ thường xuyên chơi ở ngoài trời." },
+            { "speaker": "B", "en": "Don't be worried. The rain will stop soon.", "vi": "Đừng lo lắng. Mưa sẽ tạnh sớm thôi." },
+            { "speaker": "A", "en": "I am bored right now.", "vi": "Bây giờ tớ đang cảm thấy chán nản." },
+            { "speaker": "B", "en": "Let's read this unusual book.", "vi": "Hãy cùng đọc cuốn sách bất thường này đi." }
+          ]
+        },
+        {
+          "title": "The test results",
+          "lines": [
+            { "speaker": "A", "en": "I am usually worried before a test.", "vi": "Tớ thường lo lắng trước một bài kiểm tra." },
+            { "speaker": "B", "en": "Me too. But my teacher is very kind.", "vi": "Tớ cũng vậy. Nhưng giáo viên của tớ rất tử tế." },
+            { "speaker": "A", "en": "My test is finished. I am very pleased.", "vi": "Bài kiểm tra của tớ đã xong. Tớ rất hài lòng." },
+            { "speaker": "B", "en": "Did you get a good mark?", "vi": "Cậu có được điểm tốt không?" },
+            { "speaker": "A", "en": "Yes, I did. I am not unhappy anymore.", "vi": "Có chứ. Tớ không còn buồn bã nữa." },
+            { "speaker": "B", "en": "That's great! You are normally very smart.", "vi": "Thật tuyệt vời! Thông thường cậu rất thông minh mà." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "grammar": [
+        {
+          "title": "Hậu tố -ful / -less",
+          "desc": "Thêm '-ful' vào danh từ để tạo tính từ mang nghĩa 'đầy...', và thêm '-less' để mang nghĩa 'không có...'.",
+          "formula": [
+            { "text": "care", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "+", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "-ful / -less", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "= careful / careless", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The butterfly is very colourful.", "meaning": "Con bướm rất đầy màu sắc." },
+            { "correct": "He is a careless boy.", "meaning": "Cậu ấy là một cậu bé bất cẩn (không cẩn thận)." },
+            { "correct": "Thank you, you are very helpful.", "meaning": "Cảm ơn bạn, bạn rất hay giúp đỡ người khác." }
+          ]
+        },
+        {
+          "title": "such a/an + tính từ + danh từ: thật là một...",
+          "desc": "Dùng 'such a/an' cộng với một cụm danh từ (tính từ + danh từ) để nhấn mạnh sự ngạc nhiên, cảm thán về đặc điểm của nó.",
+          "formula": [
+            { "text": "It is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "such a", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "wonderful day!", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "It is such a wonderful day!", "meaning": "Thật là một ngày tuyệt vời!" },
+            { "correct": "She is such a kind girl.", "meaning": "Cô bé thật là một cô gái tốt bụng." },
+            { "correct": "They are such funny clowns.", "meaning": "Họ thật là những chú hề vui nhộn." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 2",
+          "desc": "Cùng ôn lại các cấu trúc đã học trong cụm bài này: as...as, enough, quite/really, và các tiền tố/hậu tố của tính từ.",
+          "formula": [
+            { "text": "Ôn tập", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Ngữ pháp", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "Chương 2", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "This puzzle is quite difficult.", "meaning": "Câu đố này khá khó." },
+            { "correct": "He is not as careful as his brother.", "meaning": "Cậu ấy không cẩn thận bằng anh trai của mình." },
+            { "correct": "It is such an unusual story.", "meaning": "Thật là một câu chuyện khác thường." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A beautiful painting",
+          "lines": [
+            { "speaker": "A", "en": "Look at this picture. It is very colourful.", "vi": "Hãy nhìn bức tranh này. Nó rất đầy màu sắc." },
+            { "speaker": "B", "en": "Yes, it is such a beautiful painting!", "vi": "Đúng vậy, thật là một bức tranh tuyệt đẹp!" },
+            { "speaker": "A", "en": "You are a very careful artist.", "vi": "Cậu là một họa sĩ rất cẩn thận." },
+            { "speaker": "B", "en": "Thank you! I am really pleased.", "vi": "Cảm ơn cậu! Tớ thực sự rất hài lòng." },
+            { "speaker": "A", "en": "Is this painting big enough for the wall?", "vi": "Bức tranh này có đủ to cho bức tường không?" },
+            { "speaker": "B", "en": "Yes, it is as big as the window.", "vi": "Có, nó to bằng cái cửa sổ." }
+          ]
+        },
+        {
+          "title": "A helpful friend",
+          "lines": [
+            { "speaker": "A", "en": "Oh no, I dropped my books.", "vi": "Ôi không, tớ làm rơi sách rồi." },
+            { "speaker": "B", "en": "Let me help you. You are a bit careless.", "vi": "Để tớ giúp cậu. Cậu hơi bất cẩn đấy." },
+            { "speaker": "A", "en": "I know. It is such a bad day for me.", "vi": "Tớ biết. Thật là một ngày tồi tệ đối với tớ." },
+            { "speaker": "B", "en": "Don't be worried. I will pick them up.", "vi": "Đừng lo lắng. Tớ sẽ nhặt chúng lên." },
+            { "speaker": "A", "en": "You are such a helpful friend.", "vi": "Cậu đúng là một người bạn hay giúp đỡ người khác." },
+            { "speaker": "B", "en": "You're welcome. It's quite easy.", "vi": "Không có gì đâu. Việc đó khá dễ mà." }
+          ]
+        }
+      ]
+    }
+  ]
+}

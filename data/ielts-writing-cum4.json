@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 7,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your neighbourhood",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing the places near your home. Use a/an and the correctly.",
+        "minWords": 30,
+        "sampleAnswer": "There is a supermarket near my house. The supermarket is open every day. There is also a small park next to it.",
+        "checklist": ["Dùng a/an khi nhắc lần đầu, the khi nhắc lại", "Có ít nhất 2 địa điểm trong khu phố", "Câu văn rõ nghĩa, mạch lạc"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "writing": [
+      {
+        "title": "Writing Task 1: Give a location",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing the location of a place using prepositions of place (in/on/at/next to/opposite/between).",
+        "minWords": 30,
+        "sampleAnswer": "The pharmacy is next to the post office, between the café and the bank. The cinema is opposite the market.",
+        "checklist": ["Dùng ít nhất 3 giới từ nơi chốn khác nhau", "Vị trí được mô tả rõ ràng, dễ hình dung", "Không trộn lẫn in/on/at sai nghĩa"]
+      }
+    ]
+  }
+]

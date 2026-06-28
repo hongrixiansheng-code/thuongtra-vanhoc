@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 61,
+    "listening": [
+      {
+        "title": "Listening: Likes and dislikes",
+        "transcript": "I enjoy reading books in my free time. She hates waiting in long queues. I miss living in my hometown.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the speaker enjoy?", "options": ["Cooking", "Reading books", "Driving"], "correct": "Reading books", "explanation": "\"I enjoy reading books in my free time.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "listening": [
+      {
+        "title": "Listening: Size and capacity",
+        "transcript": "This bag is too heavy for me to carry. He isn't tall enough to reach the shelf. The room is too small for ten people.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Why can't the writer carry the bag?", "options": ["It's too expensive", "It's too heavy", "It's too small"], "correct": "It's too heavy", "explanation": "\"This bag is too heavy for me to carry.\"" }
+        ]
+      }
+    ]
+  }
+]

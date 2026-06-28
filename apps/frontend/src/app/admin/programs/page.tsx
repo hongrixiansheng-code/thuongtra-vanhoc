@@ -1,8 +1,9 @@
+import prisma from '@/lib/prisma';
 import { PrismaClient } from "database";
 import ProgramClient from "./ProgramClient";
 
 async function getData() {
-  const prisma = new PrismaClient();
+
 
   const programs = await prisma.program.findMany({
     include: { subject: true },

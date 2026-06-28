@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 17,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your schedule",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a date or schedule, using ordinal numbers (first, second, third...) and dates.",
+        "minWords": 30,
+        "sampleAnswer": "My birthday is on the first of June this year. The party is on the third of June, a Saturday. It is my twentieth birthday, so it is a special one.",
+        "checklist": ["Dùng đúng số thứ tự (first/second/third...)", "Dùng đúng cấu trúc ngày tháng (on the ... of ...)", "Có ít nhất 2 ngày/sự kiện được nhắc đến"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — A helpful note",
+        "taskType": "task1",
+        "prompt": "Write a short note (about 50 words) combining can/can't, imperatives, adjectives, plural nouns, this/that, and dates from Chương 2.",
+        "minWords": 40,
+        "sampleAnswer": "Can you help me? I can fill in this form, but I can't sign it correctly. First, check the date, then sign at the bottom. The meeting is on the second of May. This is my pen, and these are my forms. They are small but useful.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 2", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 71,
+    "dialogue": [
+      {
+        "title": "Who invented it?",
+        "lines": [
+          { "speaker": "Tuan", "en": "Who invented the telephone?", "vi": "Ai đã phát minh ra điện thoại?" },
+          { "speaker": "Vy", "en": "It was invented by Alexander Graham Bell.", "vi": "Nó được phát minh bởi Alexander Graham Bell." },
+          { "speaker": "Tuan", "en": "When was this bridge built?", "vi": "Cây cầu này được xây khi nào?" },
+          { "speaker": "Vy", "en": "It was built about thirty years ago.", "vi": "Nó được xây khoảng ba mươi năm trước." },
+          { "speaker": "Tuan", "en": "Was this company founded recently?", "vi": "Công ty này được thành lập gần đây không?" },
+          { "speaker": "Vy", "en": "No, it was founded a hundred years ago.", "vi": "Không, nó được thành lập một trăm năm trước." }
+        ]
+      },
+      {
+        "title": "An old discovery",
+        "lines": [
+          { "speaker": "David", "en": "Was this ancient temple discovered by accident?", "vi": "Ngôi đền cổ này được phát hiện một cách tình cờ không?" },
+          { "speaker": "Lan", "en": "Yes, it was discovered by a farmer in 1950.", "vi": "Vâng, nó được phát hiện bởi một người nông dân vào năm 1950." },
+          { "speaker": "David", "en": "Was the museum designed by a local architect?", "vi": "Bảo tàng được thiết kế bởi một kiến trúc sư địa phương không?" },
+          { "speaker": "Lan", "en": "Yes, it was designed by a famous architect.", "vi": "Vâng, nó được thiết kế bởi một kiến trúc sư nổi tiếng." },
+          { "speaker": "David", "en": "Was this organisation established long ago?", "vi": "Tổ chức này được thành lập từ lâu chưa?" },
+          { "speaker": "Lan", "en": "Yes, it was established many decades ago.", "vi": "Vâng, nó được thành lập nhiều thập kỷ trước." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "dialogue": [
+      {
+        "title": "In the news",
+        "lines": [
+          { "speaker": "Hung", "en": "Has the news been published yet?", "vi": "Tin tức đã được đăng chưa?" },
+          { "speaker": "Thao", "en": "Yes, it has already been published online.", "vi": "Vâng, nó đã được đăng trực tuyến rồi." },
+          { "speaker": "Hung", "en": "Has the event been announced yet?", "vi": "Sự kiện đã được thông báo chưa?" },
+          { "speaker": "Thao", "en": "Yes, it has been announced on the radio.", "vi": "Vâng, nó đã được thông báo trên radio." },
+          { "speaker": "Hung", "en": "Have the results been reported yet?", "vi": "Kết quả đã được báo cáo chưa?" },
+          { "speaker": "Thao", "en": "Yes, they have just been reported on TV.", "vi": "Vâng, chúng vừa được báo cáo trên TV." }
+        ]
+      },
+      {
+        "title": "Advertising campaign",
+        "lines": [
+          { "speaker": "An", "en": "Has the new advertisement been broadcast yet?", "vi": "Quảng cáo mới đã được phát sóng chưa?" },
+          { "speaker": "Quang", "en": "Yes, it has been broadcast many times this week.", "vi": "Vâng, nó đã được phát sóng nhiều lần trong tuần này." },
+          { "speaker": "An", "en": "Has the poster been displayed in the shop yet?", "vi": "Tấm áp phích đã được trưng bày trong cửa hàng chưa?" },
+          { "speaker": "Quang", "en": "Yes, it has been displayed since Monday.", "vi": "Vâng, nó đã được trưng bày từ thứ Hai." },
+          { "speaker": "An", "en": "Have the flyers been printed yet?", "vi": "Tờ rơi đã được in chưa?" },
+          { "speaker": "Quang", "en": "Yes, they have already been printed and distributed.", "vi": "Vâng, chúng đã được in và phân phối rồi." }
+        ]
+      }
+    ]
+  }
+]

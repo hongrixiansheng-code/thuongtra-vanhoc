@@ -1,0 +1,52 @@
+[
+  {
+    "lessonOrder": 57,
+    "grammar": [
+      {
+        "title": "Động từ khuyết thiếu \"should / shouldn't\" — Lời khuyên",
+        "desc": "Dùng \"should\" để đưa ra lời khuyên (nên làm gì), và \"shouldn't\" để khuyên không nên làm gì.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "should / shouldn't", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "You should drink more water every day.", "vi": "Bạn nên uống nhiều nước hơn mỗi ngày." },
+          { "en": "You shouldn't eat too much sugar.", "vi": "Bạn không nên ăn quá nhiều đường." },
+          { "en": "She should see a doctor about her cough.", "vi": "Cô ấy nên đi khám bác sĩ về cơn ho của mình." }
+        ],
+        "note": "\"should\" nhẹ hơn \"must\" — đây là lời khuyên, không phải bắt buộc.",
+        "practiceList": [
+          { "question": "You ___ rest if you feel tired.", "correct": "should", "meaning": "Bạn nên nghỉ ngơi nếu cảm thấy mệt.", "explanation": "Lời khuyên dùng \"should\"." },
+          { "question": "He ___ stay up too late before an exam.", "correct": "shouldn't", "meaning": "Anh ấy không nên thức quá khuya trước kỳ thi.", "explanation": "Lời khuyên phủ định dùng \"shouldn't\"." },
+          { "question": "What ___ I do if I have a headache?", "correct": "should", "meaning": "Tôi nên làm gì nếu bị đau đầu?", "explanation": "Câu hỏi xin lời khuyên dùng \"should\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 58,
+    "grammar": [
+      {
+        "title": "\"have to / don't have to\" — Bắt buộc & Tự nguyện",
+        "desc": "Dùng \"have to\" để nói về điều cần thiết (do hoàn cảnh/quy định bên ngoài), và \"don't have to\" để nói điều không bắt buộc.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "have to / don't have to", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have to wear a uniform at school.", "vi": "Tôi phải mặc đồng phục ở trường." },
+          { "en": "You don't have to come if you're busy.", "vi": "Bạn không cần phải đến nếu bạn bận." },
+          { "en": "Does she have to work on weekends?", "vi": "Cô ấy có phải làm việc vào cuối tuần không?" }
+        ],
+        "note": "\"don't have to\" khác \"mustn't\": \"don't have to\" = không bắt buộc (có thể làm hoặc không), \"mustn't\" = bị cấm.",
+        "practiceList": [
+          { "question": "We ___ to pay for parking here. It's free.", "correct": "don't have", "meaning": "Chúng tôi không cần phải trả tiền đỗ xe ở đây. Nó miễn phí.", "explanation": "Không bắt buộc dùng \"don't have to\"." },
+          { "question": "He ___ to finish the report by Friday.", "correct": "has", "meaning": "Anh ấy phải hoàn thành báo cáo trước thứ Sáu.", "explanation": "Chủ ngữ số ít \"he\" dùng \"has to\"." },
+          { "question": "___ you have to wake up early tomorrow?", "correct": "Do", "meaning": "Ngày mai bạn có phải dậy sớm không?", "explanation": "Câu hỏi với have to dùng trợ động từ Do/Does." }
+        ]
+      }
+    ]
+  }
+]

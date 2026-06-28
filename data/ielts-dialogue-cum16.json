@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 31,
+    "dialogue": [
+      {
+        "title": "Ordering drinks",
+        "lines": [
+          { "speaker": "Thao", "en": "I have some juice. Would you like some?", "vi": "Tôi có một ít nước ép. Bạn muốn dùng một ít không?" },
+          { "speaker": "Mark", "en": "Yes, please. Do you have any tea too?", "vi": "Có, làm ơn. Bạn cũng có trà không?" },
+          { "speaker": "Thao", "en": "No, I don't have any tea, but I have some coffee.", "vi": "Không, tôi không có trà, nhưng tôi có một ít cà phê." },
+          { "speaker": "Mark", "en": "Is there any soup left?", "vi": "Còn súp nào không?" },
+          { "speaker": "Thao", "en": "Yes, there is some soup in the pot.", "vi": "Có, có một ít súp trong nồi." },
+          { "speaker": "Mark", "en": "Great, I don't want any salad today.", "vi": "Tuyệt, hôm nay tôi không muốn salad." }
+        ]
+      },
+      {
+        "title": "At a small restaurant",
+        "lines": [
+          { "speaker": "Thao", "en": "Do you have any pasta?", "vi": "Quán có mì Ý không?" },
+          { "speaker": "Mark", "en": "Yes, we have some pasta and some pizza.", "vi": "Có, chúng tôi có mì Ý và pizza." },
+          { "speaker": "Thao", "en": "Is there any seafood on the menu?", "vi": "Trong menu có hải sản không?" },
+          { "speaker": "Mark", "en": "No, there isn't any seafood today.", "vi": "Không, hôm nay không có hải sản." },
+          { "speaker": "Thao", "en": "Can I have some dessert, please?", "vi": "Tôi có thể dùng một ít món tráng miệng không?" },
+          { "speaker": "Mark", "en": "Of course, we have some cake and some fruit.", "vi": "Tất nhiên, chúng tôi có bánh và trái cây." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "dialogue": [
+      {
+        "title": "Shopping for the week",
+        "lines": [
+          { "speaker": "Thao", "en": "We need a lot of vegetables this week.", "vi": "Tuần này chúng ta cần rất nhiều rau." },
+          { "speaker": "Mark", "en": "There is plenty of fruit at the market today.", "vi": "Hôm nay ở chợ có rất nhiều trái cây." },
+          { "speaker": "Thao", "en": "I only have a few onions at home.", "vi": "Tôi chỉ có vài củ hành ở nhà." },
+          { "speaker": "Mark", "en": "And I have a little rice left.", "vi": "Và tôi còn một ít gạo." },
+          { "speaker": "Thao", "en": "Let's check the price first.", "vi": "Hãy kiểm tra giá trước." },
+          { "speaker": "Mark", "en": "Good idea, this fresh fruit looks expensive.", "vi": "Ý hay, trái cây tươi này trông có vẻ đắt." }
+        ]
+      },
+      {
+        "title": "At the checkout counter",
+        "lines": [
+          { "speaker": "Thao", "en": "Is there a discount today?", "vi": "Hôm nay có giảm giá không?" },
+          { "speaker": "Mark", "en": "Yes, there is plenty of discount on organic food.", "vi": "Có, có nhiều giảm giá cho đồ ăn hữu cơ." },
+          { "speaker": "Thao", "en": "I have a few packets of biscuits.", "vi": "Tôi có vài bao bánh quy." },
+          { "speaker": "Mark", "en": "And a little money left for a tin of soup.", "vi": "Và còn một ít tiền cho một hộp súp." },
+          { "speaker": "Thao", "en": "Can I see the receipt, please?", "vi": "Tôi có thể xem hóa đơn không?" },
+          { "speaker": "Mark", "en": "Sure, here is the total.", "vi": "Được, đây là tổng tiền." }
+        ]
+      }
+    ]
+  }
+]

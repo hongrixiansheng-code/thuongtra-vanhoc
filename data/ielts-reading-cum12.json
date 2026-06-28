@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 23,
+    "reading": [
+      {
+        "title": "Reading: Healthy habits",
+        "passage": "I usually exercise three times a week. I always wake up at six o'clock. I sometimes go to the cinema, maybe once a month. I rarely drink coffee, but I often drink tea every day.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer always wakes up at six o'clock.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I always wake up at six o'clock.\"" },
+          { "type": "multiple_choice", "question": "How often does the writer exercise?", "options": ["Once a week", "Three times a week", "Every day"], "correct": "Three times a week", "explanation": "\"I usually exercise three times a week.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "reading": [
+      {
+        "title": "Reading: A study schedule",
+        "passage": "I am busy in the morning, so I usually study at night. I study from eight in the evening until midnight. The meeting is on a weekday, on Tuesday afternoon. I am free on the weekend.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer studies in the morning.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I am busy in the morning, so I usually study at night.\"" },
+          { "type": "multiple_choice", "question": "When is the meeting?", "options": ["Monday morning", "Tuesday afternoon", "Saturday evening"], "correct": "Tuesday afternoon", "explanation": "\"The meeting is on a weekday, on Tuesday afternoon.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 55,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — The future of my city",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) about the future of your city, combining will, going to, and comparison structures from Chương 6.",
+        "minWords": 40,
+        "sampleAnswer": "The population is going to grow quickly. The city will probably be the busiest city in the region, but maybe not as crowded as the capital. Many people are planning to move to the suburbs because they are quieter and more peaceful than the city centre.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 6", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 56,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe rules and regulations",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing rules at school or work, using must/mustn't.",
+        "minWords": 30,
+        "sampleAnswer": "Employees must arrive on time every day. We mustn't smoke inside the building. All visitors must show their ID card at the gate, and they mustn't enter without permission.",
+        "checklist": ["Dùng must cho điều bắt buộc", "Dùng mustn't cho điều bị cấm", "Có ít nhất 2 quy định khác nhau"]
+      }
+    ]
+  }
+]

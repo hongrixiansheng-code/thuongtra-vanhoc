@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 67,
+    "grammar": [
+      {
+        "title": "Hiện tại hoàn thành — \"already / just / yet\"",
+        "desc": "\"already\" = đã (việc xảy ra sớm hơn dự kiến). \"just\" = vừa mới xong. \"yet\" = chưa (dùng trong câu phủ định/câu hỏi).",
+        "formula": [
+          { "text": "have/has + already/just + V3", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "haven't/hasn't + V3 + yet", "classes": "border-red-500 text-red-600 bg-red-50" }
+        ],
+        "examples": [
+          { "en": "I have already finished my homework.", "vi": "Tôi đã làm xong bài tập rồi." },
+          { "en": "She has just arrived at the airport.", "vi": "Cô ấy vừa mới đến sân bay." },
+          { "en": "They haven't started the meeting yet.", "vi": "Họ vẫn chưa bắt đầu cuộc họp." }
+        ],
+        "note": "\"already\" và \"just\" đứng giữa have/has và V3. \"yet\" đứng cuối câu, dùng trong câu phủ định hoặc câu hỏi.",
+        "practiceList": [
+          { "question": "We have ___ (already/eat) lunch.", "correct": "already eaten", "meaning": "Chúng tôi đã ăn trưa rồi.", "explanation": "\"already\" diễn tả việc đã hoàn thành." },
+          { "question": "He has ___ (just/leave) the office.", "correct": "just left", "meaning": "Anh ấy vừa mới rời văn phòng.", "explanation": "\"just\" diễn tả việc vừa mới xảy ra." },
+          { "question": "Has she finished the report ___?", "correct": "yet", "meaning": "Cô ấy đã làm xong báo cáo chưa?", "explanation": "\"yet\" đứng cuối câu hỏi." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "grammar": [
+      {
+        "title": "Hiện tại hoàn thành — \"since / for\"",
+        "desc": "\"for\" + khoảng thời gian (bao lâu). \"since\" + điểm mốc thời gian (từ khi nào).",
+        "formula": [
+          { "text": "for + duration (3 years, a week...)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "since + point in time (2020, last June...)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have lived here for five years.", "vi": "Tôi đã sống ở đây năm năm rồi." },
+          { "en": "She has worked at this company since 2019.", "vi": "Cô ấy đã làm việc ở công ty này từ năm 2019." },
+          { "en": "We haven't met for a long time.", "vi": "Chúng tôi đã không gặp nhau một thời gian dài rồi." }
+        ],
+        "note": "for = khoảng thời gian kéo dài (for two weeks, for ten years). since = điểm bắt đầu (since Monday, since 2020, since I was young).",
+        "practiceList": [
+          { "question": "I have studied English ___ five years.", "correct": "for", "meaning": "Tôi đã học tiếng Anh năm năm rồi.", "explanation": "\"for\" + khoảng thời gian." },
+          { "question": "She has lived in Hanoi ___ 2015.", "correct": "since", "meaning": "Cô ấy đã sống ở Hà Nội từ năm 2015.", "explanation": "\"since\" + điểm mốc thời gian cụ thể." },
+          { "question": "We have been friends ___ a long time.", "correct": "for", "meaning": "Chúng tôi đã là bạn một thời gian dài rồi.", "explanation": "\"a long time\" là khoảng thời gian, dùng \"for\"." }
+        ]
+      }
+    ]
+  }
+]

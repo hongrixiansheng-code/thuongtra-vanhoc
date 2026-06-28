@@ -1,0 +1,190 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 4,
+      "grammar": [
+        {
+          "title": "in order to / so as to",
+          "desc": "Dùng để chỉ mục đích của hành động (để làm gì). Phủ định thêm 'not' phía trước 'to'.",
+          "formula": [
+            {
+              "text": "in order to / so as to + V(nguyên thể)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "in order not to / so as not to + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She studied hard in order to pass.",
+              "meaning": "Cô ấy đã học chăm chỉ để thi đậu."
+            },
+            {
+              "correct": "He got up early so as not to be late.",
+              "meaning": "Anh ấy dậy sớm để không bị trễ."
+            },
+            {
+              "correct": "We ran in order to catch the bus.",
+              "meaning": "Chúng tôi đã chạy để bắt kịp xe buýt."
+            },
+            {
+              "correct": "I am saving money in order to buy a car.",
+              "meaning": "Tôi đang tiết kiệm tiền để mua ô tô."
+            }
+          ]
+        },
+        {
+          "title": "be able to & manage to",
+          "desc": "Dùng để chỉ khả năng hoặc sự xoay xở thành công để làm việc gì đó khó khăn.",
+          "formula": [
+            {
+              "text": "be able to / manage to + V(nguyên thể)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Did you manage to finish the essay?",
+              "meaning": "Bạn có xoay xở hoàn thành được bài luận không?"
+            },
+            {
+              "correct": "I was able to solve the math problem.",
+              "meaning": "Tôi đã có khả năng giải bài toán."
+            },
+            {
+              "correct": "She didn't manage to find the keys.",
+              "meaning": "Cô ấy đã không tìm được chìa khóa."
+            },
+            {
+              "correct": "We were able to see the stars.",
+              "meaning": "Chúng tôi đã có thể nhìn thấy những vì sao."
+            }
+          ]
+        },
+        {
+          "title": "apply for / apply to",
+          "desc": "Apply for (nộp đơn xin việc/học bổng), Apply to (nộp đơn đến tổ chức/trường học).",
+          "formula": [
+            {
+              "text": "apply for + Noun (công việc)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "apply to + Noun (tổ chức)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I will apply for the job.",
+              "meaning": "Tôi sẽ nộp đơn xin công việc đó."
+            },
+            {
+              "correct": "I applied to the university.",
+              "meaning": "Tôi đã nộp đơn vào trường đại học."
+            },
+            {
+              "correct": "He is applying for a scholarship.",
+              "meaning": "Anh ấy đang làm đơn xin học bổng."
+            },
+            {
+              "correct": "She applied to three different colleges.",
+              "meaning": "Cô ấy đã nộp đơn vào ba trường cao đẳng khác nhau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "grammar": [
+        {
+          "title": "used to vs would",
+          "desc": "Used to dùng cho cả trạng thái và hành động lặp lại trong quá khứ. Would chỉ dùng cho hành động lặp lại.",
+          "formula": [
+            {
+              "text": "used to / would + V(nguyên thể)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I used to live in London.",
+              "meaning": "Tôi đã từng sống ở London."
+            },
+            {
+              "correct": "We would go fishing every summer.",
+              "meaning": "Chúng tôi thường đi câu cá vào mỗi mùa hè."
+            },
+            {
+              "correct": "She used to have long hair.",
+              "meaning": "Cô ấy đã từng có mái tóc dài."
+            },
+            {
+              "correct": "My grandfather would tell us stories.",
+              "meaning": "Ông tôi thường hay kể chuyện cho chúng tôi nghe."
+            }
+          ]
+        },
+        {
+          "title": "be responsible for + V-ing",
+          "desc": "Chịu trách nhiệm cho việc gì.",
+          "formula": [
+            {
+              "text": "be responsible for + V-ing / Noun",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She is responsible for training new staff.",
+              "meaning": "Cô ấy chịu trách nhiệm đào tạo nhân viên mới."
+            },
+            {
+              "correct": "Who is responsible for cleaning the room?",
+              "meaning": "Ai chịu trách nhiệm dọn phòng?"
+            },
+            {
+              "correct": "I am responsible for organizing the event.",
+              "meaning": "Tôi chịu trách nhiệm tổ chức sự kiện."
+            },
+            {
+              "correct": "The manager is responsible for making decisions.",
+              "meaning": "Quản lý chịu trách nhiệm đưa ra quyết định."
+            }
+          ]
+        },
+        {
+          "title": "Reported Questions",
+          "desc": "Câu hỏi gián tiếp: lùi thì và đổi trật tự từ thành giống câu khẳng định.",
+          "formula": [
+            {
+              "text": "ask + if/whether/Từ để hỏi + S + V(lùi thì)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "They asked me if I had experience.",
+              "meaning": "Họ hỏi tôi xem tôi có kinh nghiệm không."
+            },
+            {
+              "correct": "She asked where I lived.",
+              "meaning": "Cô ấy hỏi tôi sống ở đâu."
+            },
+            {
+              "correct": "He asked if I could help him.",
+              "meaning": "Anh ấy hỏi liệu tôi có thể giúp anh ấy không."
+            },
+            {
+              "correct": "I wondered what time the train left.",
+              "meaning": "Tôi tự hỏi lúc mấy giờ thì tàu chạy."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

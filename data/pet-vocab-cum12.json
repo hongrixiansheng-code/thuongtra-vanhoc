@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 33,
+      "vocab": [
+        { "word": "introduce", "ipa": "/ˌɪn.trəˈdʒuːs/", "type": "v.", "meaning": "giới thiệu", "example_en": "Allow me to introduce my new colleague.", "example_vi": "Cho phép tôi giới thiệu đồng nghiệp mới của mình." },
+        { "word": "describe", "ipa": "/dɪˈskraɪb/", "type": "v.", "meaning": "miêu tả", "example_en": "Can you describe the man you saw?", "example_vi": "Bạn có thể miêu tả người đàn ông mà bạn nhìn thấy không?" },
+        { "word": "compare", "ipa": "/kəmˈpeər/", "type": "v.", "meaning": "so sánh", "example_en": "You can't really compare the two cities.", "example_vi": "Bạn không thể thực sự so sánh hai thành phố đó." },
+        { "word": "contrast", "ipa": "/kənˈtrɑːst/", "type": "v.", "meaning": "đối chiếu, làm nổi bật sự khác biệt", "example_en": "The essay contrasts city life with country life.", "example_vi": "Bài luận đối chiếu cuộc sống thành thị với cuộc sống nông thôn." },
+        { "word": "prefer", "ipa": "/prɪˈfɜːr/", "type": "v.", "meaning": "thích hơn", "example_en": "I prefer tea to coffee.", "example_vi": "Tôi thích trà hơn cà phê." },
+        { "word": "suggest", "ipa": "/səˈdʒest/", "type": "v.", "meaning": "đề nghị, gợi ý", "example_en": "I suggest we go to the cinema tonight.", "example_vi": "Tôi gợi ý chúng ta đi xem phim tối nay." },
+        { "word": "agree", "ipa": "/əˈɡriː/", "type": "v.", "meaning": "đồng ý", "example_en": "I completely agree with you.", "example_vi": "Tôi hoàn toàn đồng ý với bạn." },
+        { "word": "disagree", "ipa": "/ˌdɪs.əˈɡriː/", "type": "v.", "meaning": "không đồng ý", "example_en": "I'm afraid I have to disagree with your point.", "example_vi": "Tôi e là tôi phải không đồng ý với quan điểm của bạn." },
+        { "word": "explain", "ipa": "/ɪkˈspleɪn/", "type": "v.", "meaning": "giải thích", "example_en": "Could you explain how this machine works?", "example_vi": "Bạn có thể giải thích cách cái máy này hoạt động không?" },
+        { "word": "conclude", "ipa": "/kənˈkluːd/", "type": "v.", "meaning": "kết luận", "example_en": "The report concluded that the project was a success.", "example_vi": "Bản báo cáo kết luận rằng dự án đã thành công." }
+      ]
+    },
+    {
+      "orderIndex": 34,
+      "vocab": [
+        { "word": "encourage", "ipa": "/ɪnˈkʌr.ɪdʒ/", "type": "v.", "meaning": "khuyến khích, động viên", "example_en": "My parents always encouraged me to study hard.", "example_vi": "Bố mẹ tôi luôn khuyến khích tôi học hành chăm chỉ." },
+        { "word": "persuade", "ipa": "/pəˈsweɪd/", "type": "v.", "meaning": "thuyết phục (làm gì)", "example_en": "She managed to persuade him to change his mind.", "example_vi": "Cô ấy đã xoay xở để thuyết phục anh ta đổi ý." },
+        { "word": "convince", "ipa": "/kənˈvɪns/", "type": "v.", "meaning": "thuyết phục (tin vào điều gì)", "example_en": "I hope this will convince you that I'm right.", "example_vi": "Tôi hy vọng điều này sẽ thuyết phục bạn rằng tôi đúng." },
+        { "word": "negotiate", "ipa": "/nəˈɡəʊ.ʃi.eɪt/", "type": "v.", "meaning": "đàm phán, thương lượng", "example_en": "They are negotiating a new contract.", "example_vi": "Họ đang đàm phán một hợp đồng mới." },
+        { "word": "compromise", "ipa": "/ˈkɒm.prə.maɪz/", "type": "n., v.", "meaning": "sự thỏa hiệp, thỏa hiệp", "example_en": "We need to reach a compromise on this issue.", "example_vi": "Chúng ta cần đạt được một sự thỏa hiệp về vấn đề này." },
+        { "word": "priority", "ipa": "/praɪˈɒr.ə.ti/", "type": "n.", "meaning": "sự ưu tiên", "example_en": "My first priority is to find a job.", "example_vi": "Ưu tiên hàng đầu của tôi là tìm một công việc." },
+        { "word": "solution", "ipa": "/səˈluː.ʃən/", "type": "n.", "meaning": "giải pháp", "example_en": "We are looking for a quick solution to the problem.", "example_vi": "Chúng tôi đang tìm kiếm một giải pháp nhanh chóng cho vấn đề." },
+        { "word": "alternative", "ipa": "/ɒlˈtɜː.nə.tɪv/", "type": "n.", "meaning": "sự lựa chọn thay thế", "example_en": "Do we have any alternative to this plan?", "example_vi": "Chúng ta có sự lựa chọn thay thế nào cho kế hoạch này không?" },
+        { "word": "decision", "ipa": "/dɪˈsɪʒ.ən/", "type": "n.", "meaning": "quyết định", "example_en": "She made a quick decision to leave the party.", "example_vi": "Cô ấy đã đưa ra một quyết định nhanh chóng là rời khỏi bữa tiệc." },
+        { "word": "conclusion", "ipa": "/kənˈkluː.ʒən/", "type": "n.", "meaning": "kết luận", "example_en": "Let's bring this meeting to a conclusion.", "example_vi": "Hãy đưa cuộc họp này đi đến một kết luận." }
+      ]
+    },
+    {
+      "orderIndex": 35,
+      "vocab": [
+        { "word": "basically", "ipa": "/ˈbeɪ.sɪ.kəl.i/", "type": "adv.", "meaning": "về cơ bản", "example_en": "Basically, the problem is that we don't have enough money.", "example_vi": "Về cơ bản, vấn đề là chúng ta không có đủ tiền." },
+        { "word": "essentially", "ipa": "/ɪˈsen.ʃəl.i/", "type": "adv.", "meaning": "về bản chất", "example_en": "It is essentially a dictionary, but it has pictures.", "example_vi": "Về bản chất nó là một cuốn từ điển, nhưng nó có hình ảnh." },
+        { "word": "generally", "ipa": "/ˈdʒen.ər.əl.i/", "type": "adv.", "meaning": "nói chung", "example_en": "I generally wake up early.", "example_vi": "Tôi nói chung thức dậy sớm." },
+        { "word": "specifically", "ipa": "/spəˈsɪf.ɪ.kəl.i/", "type": "adv.", "meaning": "cụ thể", "example_en": "I specifically asked you not to do that.", "example_vi": "Tôi đã cụ thể yêu cầu bạn đừng làm điều đó." },
+        { "word": "particularly", "ipa": "/pəˈtɪk.jə.lə.li/", "type": "adv.", "meaning": "đặc biệt", "example_en": "I don't particularly like this type of music.", "example_vi": "Tôi không đặc biệt thích thể loại nhạc này." },
+        { "word": "approximately", "ipa": "/əˈprɒk.sɪ.mət.li/", "type": "adv.", "meaning": "xấp xỉ, khoảng chừng", "example_en": "The journey takes approximately two hours.", "example_vi": "Chuyến đi mất khoảng hai giờ." },
+        { "word": "relatively", "ipa": "/ˈrel.ə.tɪv.li/", "type": "adv.", "meaning": "tương đối", "example_en": "The exam was relatively easy.", "example_vi": "Kỳ thi tương đối dễ." },
+        { "word": "significantly", "ipa": "/sɪɡˈnɪf.ɪ.kənt.li/", "type": "adv.", "meaning": "đáng kể", "example_en": "Profits have increased significantly this year.", "example_vi": "Lợi nhuận đã tăng đáng kể trong năm nay." },
+        { "word": "considerably", "ipa": "/kənˈsɪd.ər.ə.bli/", "type": "adv.", "meaning": "đáng kể, nhiều", "example_en": "It is considerably colder today than yesterday.", "example_vi": "Hôm nay lạnh hơn đáng kể so với ngày hôm qua." },
+        { "word": "entirely", "ipa": "/ɪnˈtaɪə.li/", "type": "adv.", "meaning": "hoàn toàn", "example_en": "I entirely agree with you.", "example_vi": "Tôi hoàn toàn đồng ý với bạn." }
+      ]
+    }
+  ]
+}

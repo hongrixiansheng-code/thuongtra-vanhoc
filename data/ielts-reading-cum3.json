@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 5,
+    "reading": [
+      {
+        "title": "Reading: A house for rent",
+        "passage": "FOR RENT: A small house with a garden. There are two bedrooms and one bathroom. There is a kitchen and a living room with a balcony. The house is quiet and comfortable.",
+        "questions": [
+          { "type": "true_false_ng", "question": "There are three bedrooms.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Chỉ có \"two bedrooms\"." },
+          { "type": "true_false_ng", "question": "There is a balcony in the living room.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"a living room with a balcony\"." },
+          { "type": "true_false_ng", "question": "The house is expensive.", "options": ["True", "False", "Not Given"], "correct": "Not Given", "explanation": "Đoạn văn không nói về giá thuê." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "reading": [
+      {
+        "title": "Reading: Moving into a new room",
+        "passage": "There isn't a sofa in my new room yet, but there is a bed and a desk. There aren't any shelves, so my books are on the floor. Is there a mirror? Yes, there is one next to the door.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is missing from the room?", "options": ["A bed", "A sofa and shelves", "A mirror"], "correct": "A sofa and shelves", "explanation": "\"There isn't a sofa... There aren't any shelves\"." },
+          { "type": "true_false_ng", "question": "There is a mirror next to the door.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"Yes, there is one next to the door.\"" }
+        ]
+      }
+    ]
+  }
+]

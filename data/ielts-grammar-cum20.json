@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 39,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Quy tắc đặc biệt khi thêm -ed",
+        "desc": "Một số động từ có quy tắc đặc biệt khi thêm \"-ed\": đổi \"y\" thành \"i\" rồi thêm \"-ed\", hoặc gấp đôi phụ âm cuối.",
+        "formula": [
+          { "text": "Verb tận cùng \"y\" → ied", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb 1 âm tiết, 1 nguyên âm + 1 phụ âm → gấp đôi phụ âm + ed", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "She studied English every evening last year.", "vi": "Năm ngoái cô ấy học tiếng Anh mỗi tối." },
+          { "en": "He stopped the car suddenly.", "vi": "Anh ấy đã dừng xe đột ngột." },
+          { "en": "They tried hard in the competition.", "vi": "Họ đã cố gắng hết sức trong cuộc thi." }
+        ],
+        "note": "study → studied, try → tried (đổi y → i + ed). stop → stopped, plan → planned (gấp đôi phụ âm cuối vì 1 âm tiết, 1 nguyên âm + 1 phụ âm).",
+        "practiceList": [
+          { "question": "He ___ (study) hard before the match.", "correct": "studied", "meaning": "Anh ấy đã học hành chăm chỉ trước trận đấu.", "explanation": "\"study\" tận cùng \"y\", đổi thành \"studied\"." },
+          { "question": "She ___ (stop) playing when it rained.", "correct": "stopped", "meaning": "Cô ấy đã ngừng chơi khi trời mưa.", "explanation": "\"stop\" gấp đôi phụ âm cuối thành \"stopped\"." },
+          { "question": "We ___ (plan) the trip last week.", "correct": "planned", "meaning": "Chúng tôi đã lên kế hoạch chuyến đi tuần trước.", "explanation": "\"plan\" gấp đôi phụ âm cuối thành \"planned\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Động từ bất quy tắc (nhóm 1)",
+        "desc": "Một số động từ thông dụng có dạng quá khứ bất quy tắc, không thêm \"-ed\": go/went, have/had, see/saw, come/came, get/got, make/made.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "went / had / saw / came / got / made", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "We went to the stadium last Saturday.", "vi": "Chúng tôi đã đến sân vận động thứ Bảy trước." },
+          { "en": "She had a great time at the match.", "vi": "Cô ấy đã có một khoảng thời gian tuyệt vời tại trận đấu." },
+          { "en": "I saw the winning goal.", "vi": "Tôi đã thấy cú ghi bàn quyết định." }
+        ],
+        "note": "Những động từ này phải học thuộc dạng quá khứ vì không theo quy tắc thêm -ed.",
+        "practiceList": [
+          { "question": "They ___ (go) to the final last night.", "correct": "went", "meaning": "Họ đã đến trận chung kết tối qua.", "explanation": "go → went (bất quy tắc)." },
+          { "question": "He ___ (get) a gold medal.", "correct": "got", "meaning": "Anh ấy đã giành huy chương vàng.", "explanation": "get → got (bất quy tắc)." },
+          { "question": "We ___ (make) a plan before the game.", "correct": "made", "meaning": "Chúng tôi đã lập kế hoạch trước trận đấu.", "explanation": "make → made (bất quy tắc)." }
+        ]
+      }
+    ]
+  }
+]

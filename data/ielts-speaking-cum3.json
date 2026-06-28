@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 5,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Your house",
+        "part": 1,
+        "questions": ["Do you live in a house or an apartment?", "How many bedrooms are there in your home?", "Is there a garden?", "What is your favourite room?"],
+        "sampleAnswer": "I live in a house. There are three bedrooms and one bathroom. Yes, there is a small garden in front of the house. My favourite room is the living room."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Furniture",
+        "part": 1,
+        "questions": ["Is there a sofa in your living room?", "Are there any shelves in your bedroom?", "Do you want to buy any new furniture?"],
+        "sampleAnswer": "Yes, there is a big sofa in my living room. There are two shelves in my bedroom. I want to buy a new lamp for my desk."
+      }
+    ]
+  }
+]

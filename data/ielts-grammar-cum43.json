@@ -1,0 +1,31 @@
+[
+  {
+    "lessonOrder": 85,
+    "grammar": [
+      {
+        "title": "Từ nối học thuật B1 — furthermore / moreover / nevertheless / in contrast / as a result",
+        "desc": "Dùng để liên kết ý tưởng một cách mạch lạc và học thuật hơn trong tranh luận/bài luận.",
+        "formula": [
+          { "text": "furthermore / moreover (bổ sung)", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "nevertheless / in contrast (tương phản)", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "as a result (kết quả)", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "This policy is expensive. Furthermore, it is difficult to manage.", "vi": "Chính sách này tốn kém. Hơn nữa, nó khó quản lý." },
+          { "en": "The team played well. Nevertheless, they lost the match.", "vi": "Đội đã chơi tốt. Tuy nhiên, họ vẫn thua trận." },
+          { "en": "Prices increased. As a result, fewer people went shopping.", "vi": "Giá cả tăng. Kết quả là, ít người đi mua sắm hơn." }
+        ],
+        "note": "Các từ nối này thường đứng đầu câu, theo sau là dấu phẩy. \"In contrast\" dùng để so sánh hai ý đối lập giữa hai câu/đoạn.",
+        "practiceList": [
+          { "question": "The plan saved money. ___, it took more time. (tương phản)", "correct": "Nevertheless", "meaning": "Kế hoạch đã tiết kiệm tiền. Tuy nhiên, nó tốn nhiều thời gian hơn.", "explanation": "\"Nevertheless\" diễn tả sự tương phản." },
+          { "question": "It rained all day. ___, the event was cancelled. (kết quả)", "correct": "As a result", "meaning": "Trời mưa cả ngày. Kết quả là, sự kiện đã bị hủy.", "explanation": "\"As a result\" diễn tả kết quả." },
+          { "question": "The product is cheap. ___, it is good quality. (bổ sung)", "correct": "Furthermore", "meaning": "Sản phẩm rẻ. Hơn nữa, nó có chất lượng tốt.", "explanation": "\"Furthermore\" dùng để bổ sung ý." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "grammar": []
+  }
+]

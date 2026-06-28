@@ -1,0 +1,31 @@
+[
+  {
+    "lessonOrder": 63,
+    "grammar": [
+      {
+        "title": "Liên từ chỉ nguyên nhân, kết quả & tương phản",
+        "desc": "Dùng \"because\" để nêu nguyên nhân, \"so\" để nêu kết quả, và \"although/but/however\" để diễn tả sự tương phản.",
+        "formula": [
+          { "text": "because + lý do", "classes": "border-amber-500 text-amber-600 bg-amber-50" },
+          { "text": "..., so + kết quả", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "although / but / however", "classes": "border-red-500 text-red-600 bg-red-50" }
+        ],
+        "examples": [
+          { "en": "I was late because the traffic was heavy.", "vi": "Tôi đến muộn vì giao thông đông đúc." },
+          { "en": "It was raining, so we stayed at home.", "vi": "Trời đang mưa, vì vậy chúng tôi ở nhà." },
+          { "en": "Although it was expensive, she bought the dress.", "vi": "Mặc dù nó đắt, cô ấy vẫn mua chiếc váy đó." }
+        ],
+        "note": "\"because\" trả lời cho câu hỏi Why. \"so\" diễn tả kết quả của một việc. \"however\" thường đứng đầu câu mới, có dấu phẩy sau.",
+        "practiceList": [
+          { "question": "She passed the exam ___ she studied hard.", "correct": "because", "meaning": "Cô ấy đã đỗ kỳ thi vì cô ấy học chăm chỉ.", "explanation": "\"because\" nêu nguyên nhân." },
+          { "question": "He was tired, ___ he went to bed early.", "correct": "so", "meaning": "Anh ấy mệt, vì vậy anh ấy đi ngủ sớm.", "explanation": "\"so\" nêu kết quả." },
+          { "question": "___ the weather was bad, we still went out.", "correct": "Although", "meaning": "Mặc dù thời tiết xấu, chúng tôi vẫn ra ngoài.", "explanation": "\"Although\" diễn tả sự tương phản, đứng đầu câu." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "grammar": []
+  }
+]

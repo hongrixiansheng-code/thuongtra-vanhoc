@@ -1,0 +1,186 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "grammar": [
+        {
+          "title": "however / nevertheless",
+          "desc": "Tuy nhiên (thường đứng đầu câu hoặc giữa hai dấu phẩy/chấm phẩy, thể hiện sự tương phản mạnh).",
+          "formula": [
+            {
+              "text": "Mệnh đề 1; however/nevertheless, Mệnh đề 2",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He was tired; however, he finished the work.",
+              "meaning": "Anh ấy rất mệt; tuy nhiên, anh ấy vẫn hoàn thành công việc."
+            },
+            {
+              "correct": "The weather was bad; nevertheless, we played.",
+              "meaning": "Thời tiết rất xấu; dẫu vậy, chúng tôi vẫn chơi."
+            },
+            {
+              "correct": "It is cheap; however, the quality is poor.",
+              "meaning": "Nó rẻ; tuy nhiên, chất lượng lại kém."
+            },
+            {
+              "correct": "She was ill; nevertheless, she attended the meeting.",
+              "meaning": "Cô ấy ốm; tuy nhiên, cô ấy vẫn dự họp."
+            }
+          ]
+        },
+        {
+          "title": "therefore / consequently",
+          "desc": "Do đó, kết quả là (chỉ mối quan hệ nguyên nhân - kết quả).",
+          "formula": [
+            {
+              "text": "Nguyên nhân; therefore/consequently, Kết quả",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She studied hard; therefore, she passed.",
+              "meaning": "Cô ấy học chăm chỉ; do đó, cô ấy đã thi đậu."
+            },
+            {
+              "correct": "It rained heavily; consequently, the game was canceled.",
+              "meaning": "Mưa lớn; hậu quả là trận đấu bị hủy."
+            },
+            {
+              "correct": "He was late; as a result, he missed the train.",
+              "meaning": "Anh ấy đến trễ; kết quả là, anh ấy lỡ chuyến tàu."
+            },
+            {
+              "correct": "I have no money; therefore, I can't buy it.",
+              "meaning": "Tôi không có tiền; do đó, tôi không thể mua nó."
+            }
+          ]
+        },
+        {
+          "title": "furthermore / moreover",
+          "desc": "Hơn nữa, ngoài ra (dùng để bổ sung thêm thông tin cùng chiều lập luận).",
+          "formula": [
+            {
+              "text": "Câu 1. Furthermore/Moreover, Câu 2",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The house is beautiful. Furthermore, it's cheap.",
+              "meaning": "Ngôi nhà rất đẹp. Hơn nữa, nó lại rẻ."
+            },
+            {
+              "correct": "He is smart. Moreover, he is very kind.",
+              "meaning": "Anh ấy thông minh. Ngoài ra, anh ấy còn rất tốt bụng."
+            },
+            {
+              "correct": "In addition to his salary, he gets a bonus.",
+              "meaning": "Bên cạnh lương, anh ấy còn nhận được tiền thưởng."
+            },
+            {
+              "correct": "The car is fast; moreover, it's safe.",
+              "meaning": "Chiếc xe chạy nhanh; hơn nữa, nó rất an toàn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "grammar": [
+        {
+          "title": "Phrasal verbs tách được vs không",
+          "desc": "Một số cụm động từ có thể tách rời (tân ngữ đứng giữa), một số thì không được tách.",
+          "formula": [
+            {
+              "text": "turn it on",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "look after it (KHÔNG: look it after)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Turn on the light / Turn it on.",
+              "meaning": "Bật đèn lên."
+            },
+            {
+              "correct": "Take off your shoes / Take them off.",
+              "meaning": "Cởi giày của bạn ra."
+            },
+            {
+              "correct": "Look after the baby.",
+              "meaning": "Chăm sóc em bé. (Không thể tách)"
+            },
+            {
+              "correct": "She gave up smoking.",
+              "meaning": "Cô ấy đã từ bỏ việc hút thuốc."
+            }
+          ]
+        },
+        {
+          "title": "end up + V-ing",
+          "desc": "Cuối cùng thì lại làm gì (thường là ngoài dự kiến ban đầu).",
+          "formula": [
+            {
+              "text": "end up + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We got lost and ended up staying at home.",
+              "meaning": "Chúng tôi bị lạc và cuối cùng đành phải ở nhà."
+            },
+            {
+              "correct": "He ended up buying a new car.",
+              "meaning": "Cuối cùng anh ấy lại mua một chiếc ô tô mới."
+            },
+            {
+              "correct": "If you don't study, you will end up failing.",
+              "meaning": "Nếu bạn không học, kết cục bạn sẽ rớt."
+            },
+            {
+              "correct": "We ended up going to a different restaurant.",
+              "meaning": "Cuối cùng chúng tôi lại đến một nhà hàng khác."
+            }
+          ]
+        },
+        {
+          "title": "keep on / go on + V-ing",
+          "desc": "Tiếp tục làm gì đó một cách bền bỉ hoặc không dừng lại.",
+          "formula": [
+            {
+              "text": "keep on / go on + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She kept on talking despite the noise.",
+              "meaning": "Cô ấy vẫn tiếp tục nói bất chấp tiếng ồn."
+            },
+            {
+              "correct": "He went on working until midnight.",
+              "meaning": "Anh ấy tiếp tục làm việc cho đến nửa đêm."
+            },
+            {
+              "correct": "Don't give up, keep on trying.",
+              "meaning": "Đừng bỏ cuộc, hãy tiếp tục cố gắng."
+            },
+            {
+              "correct": "The rain kept on falling.",
+              "meaning": "Cơn mưa vẫn tiếp tục rơi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

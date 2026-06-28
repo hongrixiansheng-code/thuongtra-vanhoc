@@ -1,0 +1,120 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 31,
+      "exercise": [
+        {
+          "title": "Reading Part 1 - Notices",
+          "desc": "Đọc biển hiệu/thông báo sau và chọn ý nghĩa đúng nhất.",
+          "type": "multiple_choice",
+          "question": "NO BICYCLES AGAINST GLASS PLEASE",
+          "options": [
+            "Do not leave your bicycle touching the window.",
+            "Do not ride your bicycle in this area.",
+            "Broken glass may damage your bicycle tyres."
+          ],
+          "correct": "Do not leave your bicycle touching the window.",
+          "explanation": "Against glass = chạm/dựa vào cửa kính."
+        },
+        {
+          "title": "Reading Part 1 - Notices",
+          "desc": "Đọc email sau và chọn ý nghĩa đúng nhất.",
+          "type": "multiple_choice",
+          "question": "From: Mrs. Jones\nTo: All students\n\nPlease remember to bring your sports clothes tomorrow. The sports hall is closed, so we will have the lesson outside.",
+          "options": [
+            "Students must wear sports clothes tomorrow.",
+            "The sports lesson will be inside the hall.",
+            "Students don't have a sports lesson tomorrow."
+          ],
+          "correct": "Students must wear sports clothes tomorrow.",
+          "explanation": "Cô Jones nhắc học sinh nhớ mang đồ thể thao."
+        }
+      ]
+    },
+    {
+      "orderIndex": 32,
+      "exercise": [
+        {
+          "title": "Writing Part 7 - Short Email",
+          "desc": "Bạn đang viết email. Chọn từ phù hợp để điền vào chỗ trống.",
+          "type": "multiple_choice",
+          "question": "Hi Alex,\nI can't wait for the weekend. Let's meet _____ Saturday morning at the park.",
+          "options": [
+            "on",
+            "in",
+            "at"
+          ],
+          "correct": "on",
+          "explanation": "Dùng 'on' trước các ngày trong tuần (on Saturday)."
+        },
+        {
+          "title": "Writing Part 7 - Short Email",
+          "desc": "Chọn lời kết thư phù hợp nhất cho email gửi bạn bè.",
+          "type": "multiple_choice",
+          "question": "Email kết thúc bằng...",
+          "options": [
+            "See you soon,",
+            "Yours faithfully,",
+            "Dear friend,"
+          ],
+          "correct": "See you soon,",
+          "explanation": "'See you soon' là cách chào thân mật phù hợp với bạn bè."
+        }
+      ]
+    },
+    {
+      "orderIndex": 33,
+      "exercise": [
+        {
+          "title": "Listening Part 1 - Multiple Choice",
+          "desc": "Bạn nghe một đoạn hội thoại tại nhà hàng. Đọc kỹ câu hỏi trước khi chọn.",
+          "type": "multiple_choice",
+          "question": "Hội thoại: \nMan: Can I have the chicken with rice, please?\nWoman: I'm sorry, we don't have any rice left. Would you like chips instead?\nMan: Okay, chicken and chips then.\n\nQuestion: What will the man eat?",
+          "options": [
+            "Chicken and chips",
+            "Chicken and rice",
+            "Only chicken"
+          ],
+          "correct": "Chicken and chips",
+          "explanation": "Nhà hàng hết cơm (rice) nên anh ấy chọn khoai tây chiên (chips)."
+        }
+      ]
+    },
+    {
+      "orderIndex": 34,
+      "exercise": [
+        {
+          "title": "KET Mock Test - Reading",
+          "desc": "Đây là câu hỏi ôn tập tổng hợp KET.",
+          "type": "multiple_choice",
+          "question": "I usually go to school _____ bus.",
+          "options": [
+            "by",
+            "on",
+            "in"
+          ],
+          "correct": "by",
+          "explanation": "Đi bằng phương tiện giao thông dùng 'by' (by bus, by car)."
+        }
+      ]
+    },
+    {
+      "orderIndex": 35,
+      "exercise": [
+        {
+          "title": "KET Mock Test - Vocabulary",
+          "desc": "Chọn từ đúng nhất để hoàn thành câu.",
+          "type": "multiple_choice",
+          "question": "If you have a problem with your teeth, you should go to the _____.",
+          "options": [
+            "dentist",
+            "chemist",
+            "mechanic"
+          ],
+          "correct": "dentist",
+          "explanation": "Dentist là nha sĩ, chuyên chữa răng."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 49,
+    "reading": [
+      {
+        "title": "Reading: Plans after graduation",
+        "passage": "I am going to study abroad after graduation. I already applied to a university. I'm not completely sure about everything, but I'm sure something good will happen. Maybe I will travel for a year first.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer has already applied to a university.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I already applied to a university.\"" },
+          { "type": "multiple_choice", "question": "What might the writer do first?", "options": ["Work full-time", "Travel for a year", "Get married"], "correct": "Travel for a year", "explanation": "\"Maybe I will travel for a year first.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "reading": [
+      {
+        "title": "Reading: Comparing two apartments",
+        "passage": "This apartment is bigger than the other one, but it is also noisier because it's near the road. The other apartment is quieter, but the rooms are smaller. This one is more expensive, but the furniture is more modern.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The bigger apartment is quieter.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Căn to hơn lại ồn hơn vì gần đường." },
+          { "type": "multiple_choice", "question": "Which apartment has more modern furniture?", "options": ["The bigger one", "The quieter one", "Neither"], "correct": "The bigger one", "explanation": "\"This one is more expensive, but the furniture is more modern.\"" }
+        ]
+      }
+    ]
+  }
+]

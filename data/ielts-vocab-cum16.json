@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 31,
+    "vocab": [
+      {
+        "word": "cup",
+        "ipa": "/kʌp/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái tách",
+        "example_en": "A cup of tea.",
+        "example_vi": "Một tách trà.",
+        "level": "A2"
+      },
+      {
+        "word": "glass",
+        "ipa": "/ɡlɑːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái ly",
+        "example_en": "A glass of water.",
+        "example_vi": "Một ly nước.",
+        "level": "A2"
+      },
+      {
+        "word": "bowl",
+        "ipa": "/bəʊl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái bát",
+        "example_en": "A bowl of soup.",
+        "example_vi": "Một bát súp.",
+        "level": "A2"
+      },
+      {
+        "word": "plate",
+        "ipa": "/pleɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái đĩa",
+        "example_en": "A plate of rice.",
+        "example_vi": "Một đĩa cơm.",
+        "level": "A2"
+      },
+      {
+        "word": "spoon",
+        "ipa": "/spuːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái thìa",
+        "example_en": "Take a spoon.",
+        "example_vi": "Lấy một cái thìa.",
+        "level": "A2"
+      },
+      {
+        "word": "fork",
+        "ipa": "/fɔːk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái nĩa",
+        "example_en": "Take a fork.",
+        "example_vi": "Lấy một cái nĩa.",
+        "level": "A2"
+      },
+      {
+        "word": "knife",
+        "ipa": "/naɪf/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "con dao",
+        "example_en": "Take a knife.",
+        "example_vi": "Lấy một con dao.",
+        "level": "A2"
+      },
+      {
+        "word": "bottle",
+        "ipa": "/ˈbɒt.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái chai",
+        "example_en": "A bottle of water.",
+        "example_vi": "Một chai nước.",
+        "level": "A2"
+      },
+      {
+        "word": "pot",
+        "ipa": "/pɒt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái nồi",
+        "example_en": "The pot is hot.",
+        "example_vi": "Cái nồi thì nóng.",
+        "level": "A2"
+      },
+      {
+        "word": "pan",
+        "ipa": "/pæn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái chảo",
+        "example_en": "The pan is hot.",
+        "example_vi": "Cái chảo thì nóng.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "vocab": [
+      {
+        "word": "buy",
+        "ipa": "/baɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mua",
+        "example_en": "I buy a book.",
+        "example_vi": "Tôi mua một cuốn sách.",
+        "level": "A2"
+      },
+      {
+        "word": "sell",
+        "ipa": "/sel/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bán",
+        "example_en": "I sell a car.",
+        "example_vi": "Tôi bán một chiếc ô tô.",
+        "level": "A2"
+      },
+      {
+        "word": "pay",
+        "ipa": "/peɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trả tiền",
+        "example_en": "I pay the money.",
+        "example_vi": "Tôi trả tiền.",
+        "level": "A2"
+      },
+      {
+        "word": "cost",
+        "ipa": "/kɒst/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có giá",
+        "example_en": "How much does it cost?",
+        "example_vi": "Nó có giá bao nhiêu?",
+        "level": "A2"
+      },
+      {
+        "word": "cheap",
+        "ipa": "/tʃiːp/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "rẻ",
+        "example_en": "It is cheap.",
+        "example_vi": "Nó rẻ.",
+        "level": "A2"
+      },
+      {
+        "word": "expensive",
+        "ipa": "/ɪkˈspen.sɪv/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đắt",
+        "example_en": "It is expensive.",
+        "example_vi": "Nó đắt.",
+        "level": "A2"
+      },
+      {
+        "word": "price",
+        "ipa": "/praɪs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giá cả",
+        "example_en": "What is the price?",
+        "example_vi": "Giá là bao nhiêu?",
+        "level": "A2"
+      },
+      {
+        "word": "money",
+        "ipa": "/ˈmʌn.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tiền",
+        "example_en": "I have money.",
+        "example_vi": "Tôi có tiền.",
+        "level": "A2"
+      },
+      {
+        "word": "cash",
+        "ipa": "/kæʃ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tiền mặt",
+        "example_en": "Pay in cash.",
+        "example_vi": "Trả bằng tiền mặt.",
+        "level": "A2"
+      },
+      {
+        "word": "card",
+        "ipa": "/kɑːd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thẻ",
+        "example_en": "Pay by card.",
+        "example_vi": "Trả bằng thẻ.",
+        "level": "A2"
+      }
+    ]
+  }
+]

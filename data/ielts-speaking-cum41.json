@@ -1,0 +1,32 @@
+[
+  {
+    "lessonOrder": 81,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe an interruption",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a time when something interrupted you.",
+          "bullets": ["what you were doing", "what happened suddenly", "how you reacted", "and explain how you felt about it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I was cooking dinner when the phone rang suddenly. I was surprised because I wasn't expecting any calls. I felt a little annoyed, but it wasn't a big problem in the end."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — An unexpected story",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe an unexpected event that happened to you.",
+          "bullets": ["what you were doing before it happened", "what someone told you", "how the situation was different from usual", "and explain how you would react if it happened again"]
+        },
+        "questions": [],
+        "sampleAnswer": "I was walking to the shop where I used to buy bread every morning. While I was walking, a man who I knew told me that the shop was closed. If that happened to me again, I would simply try a different shop nearby."
+      }
+    ]
+  }
+]

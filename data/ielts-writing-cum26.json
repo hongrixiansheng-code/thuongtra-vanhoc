@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 51,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a record or ranking",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a record/ranking (highest, biggest, best...), using superlative adjectives.",
+        "minWords": 30,
+        "sampleAnswer": "Fansipan is the highest mountain in Vietnam. Ho Chi Minh City has the largest population in the country. This was the most difficult test of the year.",
+        "checklist": ["Dùng đúng the + adj-est hoặc the most + adj", "Có ít nhất 2 ví dụ xếp hạng khác nhau", "Câu văn rõ ràng, có dữ kiện cụ thể"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe similarities and differences",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing similarities and differences, using as...as and not as...as.",
+        "minWords": 30,
+        "sampleAnswer": "My hometown isn't as crowded as the capital, but it's growing fast. It's quite similar to other small towns nearby. It is common for students here to work part-time.",
+        "checklist": ["Dùng as...as cho sự tương đương", "Dùng not as...as cho sự khác biệt", "Có ít nhất 1 ví dụ so sánh cụ thể"]
+      }
+    ]
+  }
+]

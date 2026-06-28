@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 1,
+    "dialogue": [
+      {
+        "title": "At the front desk",
+        "lines": [
+          { "speaker": "Linh", "en": "Hello, what's your name?", "vi": "Xin chào, tên bạn là gì?" },
+          { "speaker": "Tom", "en": "My name is Linh.", "vi": "Tên tôi là Linh." },
+          { "speaker": "Linh", "en": "Nice to meet you, Linh. How old are you?", "vi": "Rất vui được gặp bạn, Linh. Bạn bao nhiêu tuổi?" },
+          { "speaker": "Tom", "en": "I am twenty years old.", "vi": "Tôi hai mươi tuổi." },
+          { "speaker": "Linh", "en": "What is your occupation?", "vi": "Nghề nghiệp của bạn là gì?" },
+          { "speaker": "Tom", "en": "I am a student.", "vi": "Tôi là sinh viên." }
+        ]
+      },
+      {
+        "title": "Filling in a form",
+        "lines": [
+          { "speaker": "Linh", "en": "What is your nationality?", "vi": "Quốc tịch của bạn là gì?" },
+          { "speaker": "Tom", "en": "I am Vietnamese.", "vi": "Tôi là người Việt Nam." },
+          { "speaker": "Linh", "en": "And what is your address?", "vi": "Và địa chỉ của bạn là gì?" },
+          { "speaker": "Tom", "en": "My address is 12 Tran Phu Street, Hanoi.", "vi": "Địa chỉ của tôi là 12 đường Trần Phú, Hà Nội." },
+          { "speaker": "Linh", "en": "What is your email address?", "vi": "Địa chỉ email của bạn là gì?" },
+          { "speaker": "Tom", "en": "My email is linh@email.com.", "vi": "Email của tôi là linh@email.com." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "dialogue": [
+      {
+        "title": "Talking about family",
+        "lines": [
+          { "speaker": "Linh", "en": "Is this your brother?", "vi": "Đây có phải là anh trai bạn không?" },
+          { "speaker": "Tom", "en": "No, he isn't my brother. He is my husband.", "vi": "Không, anh ấy không phải anh trai tôi. Anh ấy là chồng tôi." },
+          { "speaker": "Linh", "en": "Oh, I'm sorry. Are your parents at home?", "vi": "Ồ, tôi xin lỗi. Bố mẹ bạn có ở nhà không?" },
+          { "speaker": "Tom", "en": "Yes, they are. My mother and father are in the kitchen.", "vi": "Có. Mẹ và bố tôi đang ở trong bếp." },
+          { "speaker": "Linh", "en": "Is your sister here too?", "vi": "Em gái bạn cũng ở đây sao?" },
+          { "speaker": "Tom", "en": "No, she isn't. She is at school.", "vi": "Không. Cô ấy ở trường." }
+        ]
+      },
+      {
+        "title": "A new colleague",
+        "lines": [
+          { "speaker": "Linh", "en": "Are you a couple?", "vi": "Hai bạn có phải một cặp đôi không?" },
+          { "speaker": "Tom", "en": "No, we aren't a couple. She is my sister.", "vi": "Không, chúng tôi không phải một cặp đôi. Cô ấy là em gái tôi." },
+          { "speaker": "Linh", "en": "Is she your daughter?", "vi": "Cô ấy có phải con gái bạn không?" },
+          { "speaker": "Tom", "en": "No, she isn't my daughter. She is my sister.", "vi": "Không, cô ấy không phải con gái tôi. Cô ấy là em gái tôi." },
+          { "speaker": "Linh", "en": "Are your parents from this city?", "vi": "Bố mẹ bạn có phải người thành phố này không?" },
+          { "speaker": "Tom", "en": "No, they aren't. They are from Hue.", "vi": "Không. Họ từ Huế." }
+        ]
+      }
+    ]
+  }
+]

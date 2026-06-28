@@ -1,0 +1,758 @@
+[
+  {
+    "orderIndex": 1,
+    "title": "Bài 1: Chào hỏi cơ bản",
+    "theme": "CHÀO HỎI",
+    "isPremium": false,
+    "vocab": [
+      {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "type": "Đại từ nhân xưng",
+        "type_short": "đại từ",
+        "meaning": "bạn, anh, chị",
+        "example_zh": "你好！",
+        "example_vi": "Xin chào!"
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "tốt, khỏe",
+        "example_zh": "我很好。",
+        "example_vi": "Tôi rất khỏe."
+      },
+      {
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "type": "Đại từ nhân xưng",
+        "type_short": "đại từ",
+        "meaning": "tôi",
+        "example_zh": "我是学生。",
+        "example_vi": "Tôi là học sinh."
+      },
+      {
+        "hanzi": "是",
+        "pinyin": "shì",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "là",
+        "example_zh": "我是老师。",
+        "example_vi": "Tôi là giáo viên."
+      },
+      {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "không",
+        "example_zh": "我不好。",
+        "example_vi": "Tôi không khỏe."
+      },
+      {
+        "hanzi": "谢谢",
+        "pinyin": "xièxiè",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "cảm ơn",
+        "example_zh": "谢谢你！",
+        "example_vi": "Cảm ơn bạn!"
+      },
+      {
+        "hanzi": "再见",
+        "pinyin": "zàijiàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tạm biệt",
+        "example_zh": "再见，朋友！",
+        "example_vi": "Tạm biệt, bạn nhé!"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Câu hỏi với 吗",
+        "desc": "Trợ từ nghi vấn '吗' (ma) được đặt ở cuối câu kể để biến nó thành câu hỏi Có/Không.",
+        "formula": "Chủ ngữ + V/Adj + 吗？",
+        "practiceList": [
+          {
+            "correct": "你好吗？",
+            "pinyin": "Nǐ hǎo ma?",
+            "meaning": "Bạn có khỏe không?"
+          },
+          {
+            "correct": "你是老师吗？",
+            "pinyin": "Nǐ shì lǎoshī ma?",
+            "meaning": "Bạn có phải là giáo viên không?"
+          },
+          {
+            "correct": "他是学生吗？",
+            "pinyin": "Tā shì xuéshēng ma?",
+            "meaning": "Cậu ấy là học sinh phải không?"
+          }
+        ]
+      },
+      {
+        "title": "Phủ định với 不",
+        "desc": "Dùng '不' (bù) đặt trước động từ hoặc tính từ để tạo câu phủ định.",
+        "formula": "Chủ ngữ + 不 + V/Adj",
+        "practiceList": [
+          {
+            "correct": "我不好。",
+            "pinyin": "Wǒ bù hǎo.",
+            "meaning": "Tôi không khỏe."
+          },
+          {
+            "correct": "我不是老师。",
+            "pinyin": "Wǒ bù shì lǎoshī.",
+            "meaning": "Tôi không phải là giáo viên."
+          },
+          {
+            "correct": "他不是学生。",
+            "pinyin": "Tā bù shì xuéshēng.",
+            "meaning": "Cậu ấy không phải là học sinh."
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Gặp nhau lần đầu",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好！",
+            "py": "Nǐ hǎo!",
+            "vi": "Xin chào!"
+          },
+          {
+            "speaker": "B",
+            "zh": "你好！你好吗？",
+            "py": "Nǐ hǎo! Nǐ hǎo ma?",
+            "vi": "Xin chào! Bạn có khỏe không?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我很好，谢谢。你呢？",
+            "py": "Wǒ hěn hǎo, xièxiè. Nǐ ne?",
+            "vi": "Tôi rất khỏe, cảm ơn. Còn bạn?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我也很好。再见！",
+            "py": "Wǒ yě hěn hǎo. Zàijiàn!",
+            "vi": "Tôi cũng rất khỏe. Tạm biệt!"
+          },
+          {
+            "speaker": "A",
+            "zh": "再见！",
+            "py": "Zàijiàn!",
+            "vi": "Tạm biệt!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 2,
+    "title": "Bài 2: Tên & Quốc tịch",
+    "theme": "GIỚI THIỆU BẢN THÂN",
+    "isPremium": false,
+    "vocab": [
+      {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tên là, gọi là",
+        "example_zh": "我叫明。",
+        "example_vi": "Tôi tên là Minh."
+      },
+      {
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cái gì, gì",
+        "example_zh": "你叫什么？",
+        "example_vi": "Bạn tên là gì?"
+      },
+      {
+        "hanzi": "名字",
+        "pinyin": "míngzi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tên",
+        "example_zh": "你叫什么名字？",
+        "example_vi": "Bạn tên là gì?"
+      },
+      {
+        "hanzi": "中国",
+        "pinyin": "Zhōngguó",
+        "type": "Danh từ riêng",
+        "type_short": "danh từ",
+        "meaning": "Trung Quốc",
+        "example_zh": "我是中国人。",
+        "example_vi": "Tôi là người Trung Quốc."
+      },
+      {
+        "hanzi": "越南",
+        "pinyin": "Yuènán",
+        "type": "Danh từ riêng",
+        "type_short": "danh từ",
+        "meaning": "Việt Nam",
+        "example_zh": "我是越南人。",
+        "example_vi": "Tôi là người Việt Nam."
+      },
+      {
+        "hanzi": "人",
+        "pinyin": "rén",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "người",
+        "example_zh": "中国人",
+        "example_vi": "Người Trung Quốc"
+      },
+      {
+        "hanzi": "哪",
+        "pinyin": "nǎ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "nào, đâu",
+        "example_zh": "哪国人？",
+        "example_vi": "Người nước nào?"
+      },
+      {
+        "hanzi": "国",
+        "pinyin": "guó",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "quốc gia, nước",
+        "example_zh": "你是哪国人？",
+        "example_vi": "Bạn là người nước nào?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Câu hỏi với 什么 (Cái gì)",
+        "desc": "Dùng '什么' (shénme) để hỏi thông tin chi tiết về sự vật hoặc sự việc.",
+        "formula": "Chủ ngữ + Động từ + 什么 + (Danh từ)？",
+        "practiceList": [
+          {
+            "correct": "你叫什么名字？",
+            "pinyin": "Nǐ jiào shénme míngzi?",
+            "meaning": "Bạn tên là gì?"
+          },
+          {
+            "correct": "这是什么？",
+            "pinyin": "Zhè shì shénme?",
+            "meaning": "Đây là cái gì?"
+          },
+          {
+            "correct": "你看什么？",
+            "pinyin": "Nǐ kàn shénme?",
+            "meaning": "Bạn xem gì?"
+          }
+        ]
+      },
+      {
+        "title": "Kết cấu giới thiệu quốc tịch",
+        "desc": "Dùng kết cấu '是 + [quốc gia] + 人' để nói về quốc tịch của một người.",
+        "formula": "Chủ ngữ + 是 + Tên quốc gia + 人",
+        "practiceList": [
+          {
+            "correct": "我是越南人。",
+            "pinyin": "Wǒ shì Yuènán rén.",
+            "meaning": "Tôi là người Việt Nam."
+          },
+          {
+            "correct": "他是中国人。",
+            "pinyin": "Tā shì Zhōngguó rén.",
+            "meaning": "Anh ấy là người Trung Quốc."
+          },
+          {
+            "correct": "你是哪国人？",
+            "pinyin": "Nǐ shì nǎ guó rén?",
+            "meaning": "Bạn là người nước nào?"
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Tự giới thiệu tên và quốc tịch",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好，你叫什么名字？",
+            "py": "Nǐ hǎo, nǐ jiào shénme míngzi?",
+            "vi": "Xin chào, bạn tên là gì?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我叫安。你呢？",
+            "py": "Wǒ jiào Ān. Nǐ ne?",
+            "vi": "Tôi tên là An. Còn bạn?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我叫明。你是哪国人？",
+            "py": "Wǒ jiào Míng. Nǐ shì nǎ guó rén?",
+            "vi": "Tôi tên là Minh. Bạn là người nước nào?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我是越南人。你是中国人吗？",
+            "py": "Wǒ shì Yuènán rén. Nǐ shì Zhōngguó rén ma?",
+            "vi": "Tôi là người Việt Nam. Bạn là người Trung Quốc phải không?"
+          },
+          {
+            "speaker": "A",
+            "zh": "是的，我是中国人。",
+            "py": "Shì de, wǒ shì Zhōngguó rén.",
+            "vi": "Đúng vậy, tôi là người Trung Quốc."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "title": "Bài 3: Gia đình (Phần 1)",
+    "theme": "GIA ĐÌNH",
+    "isPremium": false,
+    "vocab": [
+      {
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bố",
+        "example_zh": "我爸爸是老师。",
+        "example_vi": "Bố tôi là giáo viên."
+      },
+      {
+        "hanzi": "妈妈",
+        "pinyin": "māma",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "mẹ",
+        "example_zh": "我妈妈是越南人。",
+        "example_vi": "Mẹ tôi là người Việt Nam."
+      },
+      {
+        "hanzi": "哥哥",
+        "pinyin": "gēgē",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "anh trai",
+        "example_zh": "我没有哥哥。",
+        "example_vi": "Tôi không có anh trai."
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiějiě",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "chị gái",
+        "example_zh": "我有一个姐姐。",
+        "example_vi": "Tôi có một người chị gái."
+      },
+      {
+        "hanzi": "弟弟",
+        "pinyin": "dìdi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "em trai",
+        "example_zh": "我有弟弟。",
+        "example_vi": "Tôi có em trai."
+      },
+      {
+        "hanzi": "妹妹",
+        "pinyin": "mèimei",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "em gái",
+        "example_zh": "我没有妹妹。",
+        "example_vi": "Tôi không có em gái."
+      },
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "nhà, gia đình",
+        "example_zh": "这是我家。",
+        "example_vi": "Đây là nhà tôi."
+      },
+      {
+        "hanzi": "有",
+        "pinyin": "yǒu",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "có",
+        "example_zh": "我有哥哥。",
+        "example_vi": "Tôi có anh trai."
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Động từ 有 (Có / Không có)",
+        "desc": "Động từ '有' (yǒu) dùng để chỉ sự sở hữu. Khi muốn nói 'không có', bắt buộc phải dùng '没有', không được dùng '不有'.",
+        "formula": "Khẳng định: Chủ ngữ + 有 + Danh từ / Phủ định: Chủ ngữ + 没有 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "我有哥哥。",
+            "pinyin": "Wǒ yǒu gēgē.",
+            "meaning": "Tôi có anh trai."
+          },
+          {
+            "correct": "我没有弟弟。",
+            "pinyin": "Wǒ méiyǒu dìdi.",
+            "meaning": "Tôi không có em trai."
+          },
+          {
+            "correct": "你有姐姐吗？",
+            "pinyin": "Nǐ yǒu jiějiě ma?",
+            "meaning": "Bạn có chị gái không?"
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hỏi về gia đình",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你好，你家有几口人？",
+            "py": "Nǐ hǎo, nǐ jiā yǒu jǐ kǒu rén?",
+            "vi": "Xin chào, nhà bạn có mấy người?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我家有四口人。",
+            "py": "Wǒ jiā yǒu sì kǒu rén.",
+            "vi": "Nhà tôi có bốn người."
+          },
+          {
+            "speaker": "A",
+            "zh": "你有哥哥姐姐吗？",
+            "py": "Nǐ yǒu gēgē jiějiě ma?",
+            "vi": "Bạn có anh chị không?"
+          },
+          {
+            "speaker": "B",
+            "zh": "有，我有一个姐姐。你呢？",
+            "py": "Yǒu, wǒ yǒu yī gè jiějiě. Nǐ ne?",
+            "vi": "Có, tôi có một chị gái. Còn bạn?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我没有姐姐，我有一个弟弟。",
+            "py": "Wǒ méi yǒu jiějiě, wǒ yǒu yī gè dìdi.",
+            "vi": "Tôi không có chị gái, tôi có một đứa em trai."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 4,
+    "title": "Bài 4: Số đếm 0-10",
+    "theme": "SỐ ĐẾM",
+    "isPremium": false,
+    "vocab": [
+      {
+        "hanzi": "零",
+        "pinyin": "líng",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 0",
+        "example_zh": "零，一，二",
+        "example_vi": "Không, một, hai"
+      },
+      {
+        "hanzi": "一",
+        "pinyin": "yī",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 1",
+        "example_zh": "一个哥哥",
+        "example_vi": "Một người anh trai"
+      },
+      {
+        "hanzi": "二",
+        "pinyin": "èr",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 2",
+        "example_zh": "第二",
+        "example_vi": "Thứ hai"
+      },
+      {
+        "hanzi": "三",
+        "pinyin": "sān",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 3",
+        "example_zh": "三个弟弟",
+        "example_vi": "Ba người em trai"
+      },
+      {
+        "hanzi": "四",
+        "pinyin": "sì",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 4",
+        "example_zh": "四口人",
+        "example_vi": "Bốn nhân khẩu (người)"
+      },
+      {
+        "hanzi": "五",
+        "pinyin": "wǔ",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 5",
+        "example_zh": "五个人",
+        "example_vi": "Năm người"
+      },
+      {
+        "hanzi": "六",
+        "pinyin": "liù",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 6",
+        "example_zh": "六个朋友",
+        "example_vi": "Sáu người bạn"
+      },
+      {
+        "hanzi": "七",
+        "pinyin": "qī",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 7",
+        "example_zh": "七个",
+        "example_vi": "Bảy cái"
+      },
+      {
+        "hanzi": "八",
+        "pinyin": "bā",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 8",
+        "example_zh": "八个人",
+        "example_vi": "Tám người"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Lượng từ phổ biến 个",
+        "desc": "'个' (gè) là lượng từ được sử dụng rộng rãi nhất trong tiếng Trung, có thể dùng cho người và nhiều đồ vật. Khi kết hợp với số lượng thì phải dùng công thức sau.",
+        "formula": "Số từ + 个 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "三个人",
+            "pinyin": "sān gè rén",
+            "meaning": "ba người"
+          },
+          {
+            "correct": "一个苹果",
+            "pinyin": "yī gè píngguǒ",
+            "meaning": "một quả táo"
+          },
+          {
+            "correct": "五个杯子",
+            "pinyin": "wǔ gè bēizi",
+            "meaning": "năm cái cốc"
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Đếm đồ vật",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你有几个苹果？",
+            "py": "Nǐ yǒu jǐ gè píngguǒ?",
+            "vi": "Bạn có mấy quả táo?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我有三个苹果。",
+            "py": "Wǒ yǒu sān gè píngguǒ.",
+            "vi": "Tôi có ba quả táo."
+          },
+          {
+            "speaker": "A",
+            "zh": "桌子上有几个杯子？",
+            "py": "Zhuōzi shàng yǒu jǐ gè bēizi?",
+            "vi": "Trên bàn có mấy cái cốc?"
+          },
+          {
+            "speaker": "B",
+            "zh": "有五个杯子。",
+            "py": "Yǒu wǔ gè bēizi.",
+            "vi": "Có năm cái cốc."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 5,
+    "title": "Bài 5: Số đếm 10-100 & Tuổi",
+    "theme": "HỎI TUỔI",
+    "isPremium": false,
+    "vocab": [
+      {
+        "hanzi": "九",
+        "pinyin": "jiǔ",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 9",
+        "example_zh": "九个人",
+        "example_vi": "Chín người"
+      },
+      {
+        "hanzi": "十",
+        "pinyin": "shí",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 10",
+        "example_zh": "十岁",
+        "example_vi": "Mười tuổi"
+      },
+      {
+        "hanzi": "百",
+        "pinyin": "bǎi",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "số 100",
+        "example_zh": "一百",
+        "example_vi": "Một trăm"
+      },
+      {
+        "hanzi": "岁",
+        "pinyin": "suì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tuổi",
+        "example_zh": "我二十岁。",
+        "example_vi": "Tôi hai mươi tuổi."
+      },
+      {
+        "hanzi": "多",
+        "pinyin": "duō",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nhiều",
+        "example_zh": "很多人",
+        "example_vi": "Rất nhiều người"
+      },
+      {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "ít",
+        "example_zh": "很少人",
+        "example_vi": "Rất ít người"
+      },
+      {
+        "hanzi": "几",
+        "pinyin": "jǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "mấy, bao nhiêu (dưới 10)",
+        "example_zh": "几岁？",
+        "example_vi": "Mấy tuổi?"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Hỏi tuổi: 几岁 và 多大",
+        "desc": "Dùng '几岁' (jǐ suì) để hỏi tuổi trẻ em (thường dưới 10 tuổi). Dùng '多大' (duō dà) để hỏi tuổi người lớn hoặc thanh thiếu niên.",
+        "formula": "Trẻ em: 你几岁？ / Người lớn: 你多大？",
+        "practiceList": [
+          {
+            "correct": "你今年多大？",
+            "pinyin": "Nǐ jīnnián duō dà?",
+            "meaning": "Năm nay bạn bao nhiêu tuổi?"
+          },
+          {
+            "correct": "我二十岁。",
+            "pinyin": "Wǒ èrshí suì.",
+            "meaning": "Tôi hai mươi tuổi."
+          },
+          {
+            "correct": "妹妹几岁？",
+            "pinyin": "Mèimei jǐ suì?",
+            "meaning": "Em gái mấy tuổi?"
+          }
+        ]
+      },
+      {
+        "title": "Cách đọc số hàng chục từ 11–99",
+        "desc": "Số hàng chục được tạo bằng cách ghép: Số hàng chục + 十 + Số hàng đơn vị. Ví dụ: 11 là '十一' (Mười một), 25 là '二十五' (Hai mươi lăm).",
+        "formula": "Hàng chục + 十 + Hàng đơn vị",
+        "practiceList": [
+          {
+            "correct": "十一",
+            "pinyin": "shí yī",
+            "meaning": "mười một (11)"
+          },
+          {
+            "correct": "二十",
+            "pinyin": "èr shí",
+            "meaning": "hai mươi (20)"
+          },
+          {
+            "correct": "九十九",
+            "pinyin": "jiǔ shí jiǔ",
+            "meaning": "chín mươi chín (99)"
+          }
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hỏi tuổi",
+        "lines": [
+          {
+            "speaker": "A",
+            "zh": "你今年多大？",
+            "py": "Nǐ jīnnián duō dà?",
+            "vi": "Năm nay bạn bao nhiêu tuổi?"
+          },
+          {
+            "speaker": "B",
+            "zh": "我二十岁。你呢？",
+            "py": "Wǒ èrshí suì. Nǐ ne?",
+            "vi": "Tôi hai mươi tuổi. Còn bạn?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我二十三岁。",
+            "py": "Wǒ èrshísān suì.",
+            "vi": "Tôi hai mươi ba tuổi."
+          },
+          {
+            "speaker": "B",
+            "zh": "你有弟弟妹妹吗？他们多大？",
+            "py": "Nǐ yǒu dìdi mèimei ma? Tāmen duō dà?",
+            "vi": "Bạn có em trai em gái không? Các em ấy bao nhiêu tuổi?"
+          },
+          {
+            "speaker": "A",
+            "zh": "我有一个妹妹，她十八岁。",
+            "py": "Wǒ yǒu yī gè mèimei, tā shíbā suì.",
+            "vi": "Tôi có một đứa em gái, em ấy mười tám tuổi."
+          }
+        ]
+      }
+    ]
+  }
+]

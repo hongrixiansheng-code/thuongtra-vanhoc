@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 41,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a gift or purchase",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) about something you bought or gave, using buy/bought, think/thought, tell/told, take/took, give/gave.",
+        "minWords": 30,
+        "sampleAnswer": "I bought some fruit and a new bag at the market. I thought it was a little expensive, but I bought it anyway. I told my sister, and she gave me some advice.",
+        "checklist": ["Dùng ít nhất 3 động từ bất quy tắc nhóm 2", "Không thêm -ed vào các động từ này", "Có một câu chuyện rõ ràng, mạch lạc"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a historical place",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) about a historical place or event, using build/built, find/found, begin/began.",
+        "minWords": 30,
+        "sampleAnswer": "They built this museum about a hundred years ago. I found some old photographs inside. The exhibition began last month, and a lot of visitors came to see it.",
+        "checklist": ["Dùng cả 3 động từ build/find/begin ở dạng quá khứ", "Có mốc thời gian lịch sử rõ ràng", "Câu văn mạch lạc, đúng ngữ pháp"]
+      }
+    ]
+  }
+]

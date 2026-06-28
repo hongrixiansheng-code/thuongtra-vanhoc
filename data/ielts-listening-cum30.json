@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 59,
+    "listening": [
+      {
+        "title": "Listening: Uncertain plans",
+        "transcript": "It might rain later, so take an umbrella. She could be at home now. We might not finish the project on time.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the speaker suggest taking?", "options": ["A coat", "An umbrella", "A hat"], "correct": "An umbrella", "explanation": "\"so take an umbrella.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "listening": [
+      {
+        "title": "Listening: Hopes and decisions",
+        "transcript": "I want to learn a new language this year. She decided to apply for the job. We hope to see you again soon.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did she decide to do?", "options": ["Travel abroad", "Apply for the job", "Change her major"], "correct": "Apply for the job", "explanation": "\"She decided to apply for the job.\"" }
+        ]
+      }
+    ]
+  }
+]

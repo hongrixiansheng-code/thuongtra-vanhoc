@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 16,
+      "grammar": [
+        {
+          "title": "Mệnh đề quan hệ: who (thay thế cho người)",
+          "desc": "Dùng 'who' (người mà) đứng ngay sau một danh từ chỉ người để giải thích rõ đó là ai, làm nghề gì.",
+          "formula": [
+            { "text": "He is the person", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "who", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "works in space.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "An astronaut is a person who travels in space.", "meaning": "Phi hành gia là người mà du hành trong không gian." },
+            { "correct": "The boy who is wearing a red hat is my brother.", "meaning": "Cậu bé người mà đang đội chiếc mũ màu đỏ là anh trai tôi." },
+            { "correct": "I know a man who lives on an island.", "meaning": "Tôi biết một người đàn ông người mà sống trên một hòn đảo." }
+          ]
+        },
+        {
+          "title": "Mệnh đề quan hệ: that (dùng chung cho người và vật)",
+          "desc": "Thay vì dùng 'who' cho người và 'which' cho vật, bạn cũng có thể dùng chung chữ 'that' trong nhiều trường hợp.",
+          "formula": [
+            { "text": "The people", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "that", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "live here are kind.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The doctor that helped me was very nice.", "meaning": "Vị bác sĩ người mà đã giúp tôi thì rất tốt bụng." },
+            { "correct": "Where are the friends that came yesterday?", "meaning": "Những người bạn mà đã đến vào hôm qua đâu rồi?" },
+            { "correct": "He is the king that ruled the castle.", "meaning": "Ông ấy là vị vua người mà đã cai trị lâu đài." }
+          ]
+        },
+        {
+          "title": "There is / There are + Thiên nhiên (Ôn tập)",
+          "desc": "Dùng 'There is' (có một) hoặc 'There are' (có nhiều) để nói về sự tồn tại của các sự vật trong thiên nhiên.",
+          "formula": [
+            { "text": "There are", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "many stars", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "in the sky.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "There is a deep cave in the mountain.", "meaning": "Có một hang động sâu ở trong ngọn núi." },
+            { "correct": "There are many trees in the environment.", "meaning": "Có rất nhiều cây cối trong môi trường." },
+            { "correct": "Is there life on other planets?", "meaning": "Có sự sống trên các hành tinh khác không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "The space museum",
+          "lines": [
+            { "speaker": "A", "en": "Look at that picture. Who is that?", "vi": "Hãy nhìn bức tranh kia. Đó là ai vậy?" },
+            { "speaker": "B", "en": "He is the person who walked on the moon.", "vi": "Ông ấy là người mà đã bước đi trên mặt trăng." },
+            { "speaker": "A", "en": "Wow, there are many planets in space.", "vi": "Chà, có rất nhiều hành tinh trong không gian." },
+            { "speaker": "B", "en": "Yes, our planet is called Earth.", "vi": "Đúng vậy, hành tinh của chúng ta được gọi là Trái Đất." },
+            { "speaker": "A", "en": "I want to be an astronaut who travels in a rocket.", "vi": "Tớ muốn trở thành một phi hành gia người mà du hành trong một tên lửa." },
+            { "speaker": "B", "en": "Me too! We will explore the universe.", "vi": "Tớ cũng thế! Chúng ta sẽ khám phá vũ trụ." }
+          ]
+        },
+        {
+          "title": "A beautiful view",
+          "lines": [
+            { "speaker": "A", "en": "There is a beautiful stream near here.", "vi": "Có một con suối tuyệt đẹp ở gần đây." },
+            { "speaker": "B", "en": "Let's go and see it.", "vi": "Hãy đi và xem nó nào." },
+            { "speaker": "A", "en": "There is an old man who is fishing there.", "vi": "Có một ông lão người mà đang câu cá ở đó." },
+            { "speaker": "B", "en": "Is he the man that we saw yesterday?", "vi": "Ông ấy có phải là người đàn ông mà chúng ta đã thấy hôm qua không?" },
+            { "speaker": "A", "en": "Yes, he knows a lot about the environment.", "vi": "Đúng vậy, ông ấy biết rất nhiều về môi trường." },
+            { "speaker": "B", "en": "Let's ask him about the fish.", "vi": "Hãy hỏi ông ấy về những con cá nhé." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "grammar": [
+        {
+          "title": "Giới từ hành trình: through / across",
+          "desc": "Dùng 'through' khi đi xuyên qua không gian 3 chiều (khu rừng, đường hầm). Dùng 'across' khi băng qua một mặt phẳng (con sông, cánh đồng).",
+          "formula": [
+            { "text": "Walk", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "through / across", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the forest.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The train goes through the tunnel.", "meaning": "Đoàn tàu đi xuyên qua đường hầm." },
+            { "correct": "We must walk across the desert.", "meaning": "Chúng ta phải đi bộ băng qua sa mạc." },
+            { "correct": "The bird flew through the open window.", "meaning": "Con chim đã bay xuyên qua chiếc cửa sổ mở." }
+          ]
+        },
+        {
+          "title": "Giới từ hành trình: over",
+          "desc": "Dùng 'over' khi bay, nhảy, hoặc di chuyển vòng qua phía trên một vật gì đó (ngọn núi, cây cầu).",
+          "formula": [
+            { "text": "Fly", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "over", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "the mountain.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The helicopter flew over the ocean.", "meaning": "Chiếc trực thăng đã bay qua đại dương." },
+            { "correct": "The dog jumped over the fence.", "meaning": "Con chó đã nhảy qua hàng rào." },
+            { "correct": "We drove over a high bridge.", "meaning": "Chúng tôi đã lái xe qua một cây cầu cao." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 7",
+          "desc": "Ôn tập lại các mệnh đề quan hệ (who, which, that) và các giới từ chỉ hành trình bạn vừa học.",
+          "formula": [
+            { "text": "Ôn tập", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Ngữ pháp", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "Chương 7", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "This is the plane which flew over the sea.", "meaning": "Đây là chiếc máy bay cái mà đã bay qua biển." },
+            { "correct": "She is the girl who walked across the bridge.", "meaning": "Cô ấy là cô gái người mà đã đi bộ băng qua cây cầu." },
+            { "correct": "They drove through the dark forest.", "meaning": "Họ đã lái xe xuyên qua khu rừng tối." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A long journey",
+          "lines": [
+            { "speaker": "A", "en": "How did you get to the island?", "vi": "Cậu đã đi đến hòn đảo bằng cách nào?" },
+            { "speaker": "B", "en": "We flew over the ocean in a helicopter.", "vi": "Chúng tớ đã bay qua đại dương bằng một chiếc trực thăng." },
+            { "speaker": "A", "en": "Was it an exciting journey?", "vi": "Đó có phải là một chuyến đi thú vị không?" },
+            { "speaker": "B", "en": "Yes! We also walked through a big forest.", "vi": "Có chứ! Chúng tớ cũng đã đi bộ xuyên qua một khu rừng lớn." },
+            { "speaker": "A", "en": "Did you see any wild animals?", "vi": "Cậu có nhìn thấy con động vật hoang dã nào không?" },
+            { "speaker": "B", "en": "I saw a monkey which was climbing a tree.", "vi": "Tớ đã thấy một con khỉ cái mà đang trèo cây." }
+          ]
+        },
+        {
+          "title": "Crossing the desert",
+          "lines": [
+            { "speaker": "A", "en": "Look at the map. We must go across the desert.", "vi": "Hãy nhìn bản đồ. Chúng ta phải đi băng qua sa mạc." },
+            { "speaker": "B", "en": "It is very hot. We need a lot of water.", "vi": "Trời rất nóng. Chúng ta cần rất nhiều nước." },
+            { "speaker": "A", "en": "There is a river which is near the mountains.", "vi": "Có một con sông cái mà ở gần những ngọn núi." },
+            { "speaker": "B", "en": "Good. We will drive through the mountains.", "vi": "Tốt. Chúng ta sẽ lái xe xuyên qua những ngọn núi." },
+            { "speaker": "A", "en": "I hope we can find the old castle.", "vi": "Tớ hy vọng chúng ta có thể tìm thấy tòa lâu đài cũ." },
+            { "speaker": "B", "en": "Me too. It is an adventure which I love.", "vi": "Tớ cũng vậy. Đó là một cuộc phiêu lưu mà tớ rất thích." }
+          ]
+        }
+      ]
+    }
+  ]
+}

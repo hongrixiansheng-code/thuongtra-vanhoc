@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 3,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a friend",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a friend of yours.",
+          "bullets": ["who this friend is", "what he/she looks like", "what his/her personality is like", "and explain why you like this friend"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about my best friend, Mai. She is tall and young, with long, curly hair. She is very friendly and kind, so I really enjoy spending time with her."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Personality",
+        "part": 1,
+        "questions": ["Are you a calm person?", "Do you have a lot of energy?", "Are you ever nervous before a test?", "What is your best quality?"],
+        "sampleAnswer": "Yes, I am a calm person. I have a lot of energy in the morning. I am a little nervous before tests, but I always try my best."
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 53,
+    "reading": [
+      {
+        "title": "Reading: Urban vs rural",
+        "passage": "Rural life is more peaceful than city life. The city is more developed, but it's also more crowded and more polluted. The suburbs are quieter than the city centre, but still convenient. The population here is the highest it has ever been.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The city is more peaceful than the countryside.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"Rural life is more peaceful than city life.\"" },
+          { "type": "multiple_choice", "question": "What is the population like now?", "options": ["The lowest ever", "The highest it has ever been", "Stable"], "correct": "The highest it has ever been", "explanation": "\"The population here is the highest it has ever been.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "reading": [
+      {
+        "title": "Reading: Predicting urban growth",
+        "passage": "The population will grow a lot, based on the current trend. The city is going to expand into the countryside. More and more people will migrate to the city for work. The population here will probably double in ten years.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The population will grow a lot.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"The population will grow a lot\"." },
+          { "type": "multiple_choice", "question": "What is the city going to do?", "options": ["Shrink", "Expand into the countryside", "Stay the same"], "correct": "Expand into the countryside", "explanation": "\"The city is going to expand into the countryside.\"" }
+        ]
+      }
+    ]
+  }
+]

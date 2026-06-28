@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 19,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your morning routine",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your morning routine, using Present Simple (I/You/We/They).",
+        "minWords": 30,
+        "sampleAnswer": "I wake up at six o'clock every day. I brush my teeth, then I take a shower. I get dressed and eat breakfast at home. I leave home at seven thirty.",
+        "checklist": ["Dùng Present Simple đúng dạng với I (không thêm -s)", "Liệt kê ít nhất 4 hoạt động theo thứ tự", "Có mốc thời gian cụ thể"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe someone's housework",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what a family member does at home, using Present Simple (He/She/It).",
+        "minWords": 30,
+        "sampleAnswer": "My mother cleans the house and washes the clothes on Saturday. She cooks lunch and tidies the kitchen. My father waters the plants and repairs things.",
+        "checklist": ["Dùng đúng -s/-es/-ies với chủ ngữ He/She/It", "Mô tả ít nhất 3 việc nhà", "Câu văn rõ ràng, đúng thứ tự"]
+      }
+    ]
+  }
+]

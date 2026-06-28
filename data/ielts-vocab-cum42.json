@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 80,
+    "vocab": [
+      {
+        "word": "say",
+        "ipa": "/seɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nói",
+        "example_en": "He said hello.",
+        "example_vi": "Anh ấy đã nói xin chào.",
+        "level": "B1"
+      },
+      {
+        "word": "tell",
+        "ipa": "/tel/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bảo, kể",
+        "example_en": "Tell me the truth.",
+        "example_vi": "Hãy kể cho tôi sự thật.",
+        "level": "B1"
+      },
+      {
+        "word": "ask",
+        "ipa": "/ɑːsk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hỏi, yêu cầu",
+        "example_en": "I asked him.",
+        "example_vi": "Tôi đã hỏi anh ấy.",
+        "level": "B1"
+      },
+      {
+        "word": "reply",
+        "ipa": "/rɪˈplaɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trả lời",
+        "example_en": "She replied quickly.",
+        "example_vi": "Cô ấy đã trả lời nhanh chóng.",
+        "level": "B1"
+      },
+      {
+        "word": "answer",
+        "ipa": "/ˈɑːn.sər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trả lời",
+        "example_en": "Answer the question.",
+        "example_vi": "Trả lời câu hỏi đi.",
+        "level": "B1"
+      },
+      {
+        "word": "state",
+        "ipa": "/steɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phát biểu",
+        "example_en": "He stated the fact.",
+        "example_vi": "Anh ấy đã phát biểu sự thật.",
+        "level": "B1"
+      },
+      {
+        "word": "claim",
+        "ipa": "/kleɪm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tuyên bố, khẳng định",
+        "example_en": "She claimed it was true.",
+        "example_vi": "Cô ấy đã khẳng định điều đó là thật.",
+        "level": "B1"
+      },
+      {
+        "word": "report",
+        "ipa": "/rɪˈpɔːt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "báo cáo",
+        "example_en": "They reported the news.",
+        "example_vi": "Họ đã báo cáo tin tức.",
+        "level": "B1"
+      },
+      {
+        "word": "announce",
+        "ipa": "/əˈnaʊns/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thông báo",
+        "example_en": "They announced the winner.",
+        "example_vi": "Họ đã thông báo người chiến thắng.",
+        "level": "B1"
+      },
+      {
+        "word": "mention",
+        "ipa": "/ˈmen.ʃən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhắc đến",
+        "example_en": "He mentioned your name.",
+        "example_vi": "Anh ấy đã nhắc đến tên bạn.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 81,
+    "vocab": [
+      {
+        "word": "cut",
+        "ipa": "/kʌt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cắt",
+        "example_en": "Cut the cake.",
+        "example_vi": "Cắt chiếc bánh đi.",
+        "level": "B1"
+      },
+      {
+        "word": "interrupt",
+        "ipa": "/ˌɪn.təˈrʌpt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ngắt lời, làm gián đoạn",
+        "example_en": "Do not interrupt me.",
+        "example_vi": "Đừng ngắt lời tôi.",
+        "level": "B1"
+      },
+      {
+        "word": "pause",
+        "ipa": "/pɔːz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tạm dừng",
+        "example_en": "Pause the music.",
+        "example_vi": "Tạm dừng bản nhạc.",
+        "level": "B1"
+      },
+      {
+        "word": "stop",
+        "ipa": "/stɒp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dừng lại",
+        "example_en": "Stop the car.",
+        "example_vi": "Dừng xe lại.",
+        "level": "B1"
+      },
+      {
+        "word": "sudden",
+        "ipa": "/ˈsʌd.ən/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đột ngột",
+        "example_en": "A sudden change.",
+        "example_vi": "Một sự thay đổi đột ngột.",
+        "level": "B1"
+      },
+      {
+        "word": "break",
+        "ipa": "/breɪk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giờ nghỉ",
+        "example_en": "Take a break.",
+        "example_vi": "Hãy nghỉ ngơi một lát.",
+        "level": "B1"
+      },
+      {
+        "word": "quick",
+        "ipa": "/kwɪk/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhanh",
+        "example_en": "A quick run.",
+        "example_vi": "Một cuộc chạy nhanh.",
+        "level": "B1"
+      },
+      {
+        "word": "fast",
+        "ipa": "/fɑːst/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhanh",
+        "example_en": "He runs fast.",
+        "example_vi": "Anh ấy chạy nhanh.",
+        "level": "B1"
+      },
+      {
+        "word": "unexpected",
+        "ipa": "/ˌʌn.ɪkˈspek.tɪd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "không mong đợi, bất ngờ",
+        "example_en": "An unexpected visit.",
+        "example_vi": "Một chuyến thăm bất ngờ.",
+        "level": "B1"
+      },
+      {
+        "word": "surprising",
+        "ipa": "/səˈpraɪ.zɪŋ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đáng ngạc nhiên",
+        "example_en": "A surprising event.",
+        "example_vi": "Một sự kiện đáng ngạc nhiên.",
+        "level": "B1"
+      }
+    ]
+  }
+]

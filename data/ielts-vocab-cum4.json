@@ -1,0 +1,202 @@
+[
+  {
+    "lessonOrder": 7,
+    "vocab": [
+      {
+        "word": "supermarket",
+        "ipa": "/ˈsuː.pəˌmɑː.kɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "siêu thị",
+        "example_en": "The supermarket is big.",
+        "example_vi": "Siêu thị thì lớn.",
+        "level": "A1"
+      },
+      {
+        "word": "hospital",
+        "ipa": "/ˈhɒs.pɪ.təl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bệnh viện",
+        "example_en": "The hospital is clean.",
+        "example_vi": "Bệnh viện thì sạch sẽ.",
+        "level": "A1"
+      },
+      {
+        "word": "school",
+        "ipa": "/skuːl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trường học",
+        "example_en": "A school is near.",
+        "example_vi": "Một trường học ở gần đây.",
+        "level": "A1"
+      },
+      {
+        "word": "park",
+        "ipa": "/pɑːk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "công viên",
+        "example_en": "The park is beautiful.",
+        "example_vi": "Công viên thật đẹp.",
+        "level": "A1"
+      },
+      {
+        "word": "bank",
+        "ipa": "/bæŋk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ngân hàng",
+        "example_en": "A bank is open.",
+        "example_vi": "Một ngân hàng đang mở cửa.",
+        "level": "A1"
+      },
+      {
+        "word": "library",
+        "ipa": "/ˈlaɪ.brər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thư viện",
+        "example_en": "The library is quiet.",
+        "example_vi": "Thư viện thì yên tĩnh.",
+        "level": "A1"
+      },
+      {
+        "word": "restaurant",
+        "ipa": "/ˈres.trɒnt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà hàng",
+        "example_en": "The restaurant is nice.",
+        "example_vi": "Nhà hàng thì đẹp.",
+        "level": "A1"
+      },
+      {
+        "word": "church",
+        "ipa": "/tʃɜːtʃ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà thờ",
+        "example_en": "The church is old.",
+        "example_vi": "Nhà thờ thì cổ.",
+        "level": "A1"
+      },
+      {
+        "word": "station",
+        "ipa": "/ˈsteɪ.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà ga, trạm",
+        "example_en": "The station is busy.",
+        "example_vi": "Nhà ga thì đông đúc.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "vocab": [
+      {
+        "word": "post office",
+        "ipa": "/ˈpəʊst ˌɒf.ɪs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bưu điện",
+        "example_en": "The post office is next to the bank.",
+        "example_vi": "Bưu điện nằm cạnh ngân hàng.",
+        "level": "A1"
+      },
+      {
+        "word": "pharmacy",
+        "ipa": "/ˈfɑː.mə.si/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "hiệu thuốc",
+        "example_en": "The pharmacy is opposite the hospital.",
+        "example_vi": "Hiệu thuốc đối diện bệnh viện.",
+        "level": "A1"
+      },
+      {
+        "word": "gym",
+        "ipa": "/dʒɪm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phòng tập thể hình",
+        "example_en": "The gym is in the park.",
+        "example_vi": "Phòng gym ở trong công viên.",
+        "level": "A1"
+      },
+      {
+        "word": "cinema",
+        "ipa": "/ˈsɪn.ə.mə/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "rạp chiếu phim",
+        "example_en": "The cinema is next to the restaurant.",
+        "example_vi": "Rạp chiếu phim nằm cạnh nhà hàng.",
+        "level": "A1"
+      },
+      {
+        "word": "museum",
+        "ipa": "/mjuːˈziː.əm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bảo tàng",
+        "example_en": "The museum is old.",
+        "example_vi": "Bảo tàng thì cổ kính.",
+        "level": "A1"
+      },
+      {
+        "word": "market",
+        "ipa": "/ˈmɑː.kɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chợ",
+        "example_en": "The market is opposite the school.",
+        "example_vi": "Chợ đối diện trường học.",
+        "level": "A1"
+      },
+      {
+        "word": "café",
+        "ipa": "/ˈkæf.eɪ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quán cà phê",
+        "example_en": "The café is between the bank and the pharmacy.",
+        "example_vi": "Quán cà phê nằm giữa ngân hàng và hiệu thuốc.",
+        "level": "A1"
+      },
+      {
+        "word": "hotel",
+        "ipa": "/həʊˈtel/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "khách sạn",
+        "example_en": "The hotel is next to the station.",
+        "example_vi": "Khách sạn ở cạnh nhà ga.",
+        "level": "A1"
+      },
+      {
+        "word": "bridge",
+        "ipa": "/brɪdʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cây cầu",
+        "example_en": "The bridge is long.",
+        "example_vi": "Cây cầu thì dài.",
+        "level": "A1"
+      },
+      {
+        "word": "road",
+        "ipa": "/rəʊd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "con đường",
+        "example_en": "The road is wide.",
+        "example_vi": "Con đường thì rộng.",
+        "level": "A1"
+      }
+    ]
+  }
+]

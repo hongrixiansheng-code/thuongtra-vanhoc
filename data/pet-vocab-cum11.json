@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 30,
+      "vocab": [
+        { "word": "sincerely", "ipa": "/sɪnˈsɪə.li/", "type": "adv.", "meaning": "một cách chân thành", "example_en": "Yours sincerely, John Smith.", "example_vi": "Trân trọng (dùng cuối thư), John Smith." },
+        { "word": "faithfully", "ipa": "/ˈfeɪθ.fəl.i/", "type": "adv.", "meaning": "một cách trung thành", "example_en": "Yours faithfully, Mary Jones.", "example_vi": "Trân trọng (dùng cuối thư trang trọng khi không biết tên người nhận), Mary Jones." },
+        { "word": "regarding", "ipa": "/rɪˈɡɑː.dɪŋ/", "type": "prep.", "meaning": "về việc, liên quan đến", "example_en": "I am writing to you regarding your recent order.", "example_vi": "Tôi viết thư cho bạn liên quan đến đơn đặt hàng gần đây của bạn." },
+        { "word": "enquire", "ipa": "/ɪnˈkwaɪər/", "type": "v.", "meaning": "hỏi thăm, yêu cầu thông tin", "example_en": "I am writing to enquire about the English course.", "example_vi": "Tôi viết thư để hỏi thông tin về khóa học tiếng Anh." },
+        { "word": "request", "ipa": "/rɪˈkwest/", "type": "v., n.", "meaning": "yêu cầu, lời yêu cầu", "example_en": "We request that you pay the bill immediately.", "example_vi": "Chúng tôi yêu cầu bạn thanh toán hóa đơn ngay lập tức." },
+        { "word": "apologise", "ipa": "/əˈpɒl.ə.dʒaɪz/", "type": "v.", "meaning": "xin lỗi", "example_en": "I apologise for the delay in replying to your email.", "example_vi": "Tôi xin lỗi vì sự chậm trễ trong việc trả lời email của bạn." },
+        { "word": "complaint", "ipa": "/kəmˈpleɪnt/", "type": "n.", "meaning": "lời phàn nàn, khiếu nại", "example_en": "I wish to make a complaint about the poor service.", "example_vi": "Tôi muốn đưa ra một lời khiếu nại về dịch vụ kém." },
+        { "word": "suggest", "ipa": "/səˈdʒest/", "type": "v.", "meaning": "gợi ý, đề nghị", "example_en": "I suggest that we meet tomorrow to discuss this.", "example_vi": "Tôi đề nghị chúng ta gặp nhau vào ngày mai để thảo luận về việc này." },
+        { "word": "recommend", "ipa": "/ˌrek.əˈmend/", "type": "v.", "meaning": "giới thiệu, tiến cử", "example_en": "I highly recommend this book to anyone interested in history.", "example_vi": "Tôi đánh giá cao cuốn sách này cho bất kỳ ai quan tâm đến lịch sử." },
+        { "word": "attach", "ipa": "/əˈtætʃ/", "type": "v.", "meaning": "đính kèm", "example_en": "Please find attached a copy of my CV.", "example_vi": "Vui lòng xem bản sao sơ yếu lý lịch của tôi được đính kèm." }
+      ]
+    },
+    {
+      "orderIndex": 31,
+      "vocab": [
+        { "word": "opinion", "ipa": "/əˈpɪn.jən/", "type": "n.", "meaning": "ý kiến", "example_en": "In my opinion, this is the best solution.", "example_vi": "Theo ý kiến của tôi, đây là giải pháp tốt nhất." },
+        { "word": "point of view", "ipa": "/ˌpɔɪnt əv ˈvjuː/", "type": "phrase", "meaning": "quan điểm", "example_en": "From my point of view, it is a bad idea.", "example_vi": "Từ quan điểm của tôi, đó là một ý tưởng tồi." },
+        { "word": "advantage", "ipa": "/ədˈvɑːn.tɪdʒ/", "type": "n.", "meaning": "lợi thế, ưu điểm", "example_en": "One advantage of living in the city is the public transport.", "example_vi": "Một ưu điểm của việc sống ở thành phố là giao thông công cộng." },
+        { "word": "disadvantage", "ipa": "/ˌdɪs.ədˈvɑːn.tɪdʒ/", "type": "n.", "meaning": "bất lợi, nhược điểm", "example_en": "A major disadvantage of the plan is its high cost.", "example_vi": "Một nhược điểm lớn của kế hoạch là chi phí cao." },
+        { "word": "argument", "ipa": "/ˈɑːɡ.jə.mənt/", "type": "n.", "meaning": "lập luận", "example_en": "He presented a convincing argument for his proposal.", "example_vi": "Anh ấy đã trình bày một lập luận thuyết phục cho đề xuất của mình." },
+        { "word": "reason", "ipa": "/ˈriː.zən/", "type": "n.", "meaning": "lý do", "example_en": "The main reason for my decision is the lack of time.", "example_vi": "Lý do chính cho quyết định của tôi là thiếu thời gian." },
+        { "word": "example", "ipa": "/ɪɡˈzɑːm.pəl/", "type": "n.", "meaning": "ví dụ", "example_en": "Can you give me an example of what you mean?", "example_vi": "Bạn có thể cho tôi một ví dụ về điều bạn đang nói không?" },
+        { "word": "conclusion", "ipa": "/kənˈkluː.ʒən/", "type": "n.", "meaning": "kết luận", "example_en": "What conclusion did you reach after reading the report?", "example_vi": "Bạn đã đạt được kết luận gì sau khi đọc bản báo cáo?" },
+        { "word": "introduction", "ipa": "/ˌɪn.trəˈdʌk.ʃən/", "type": "n.", "meaning": "phần mở đầu", "example_en": "The introduction of the essay should be clear and concise.", "example_vi": "Phần mở đầu của bài luận nên rõ ràng và súc tích." },
+        { "word": "body", "ipa": "/ˈbɒd.i/", "type": "n.", "meaning": "phần thân (bài viết)", "example_en": "The body of the letter contains all the details.", "example_vi": "Phần thân của bức thư chứa tất cả các chi tiết." }
+      ]
+    },
+    {
+      "orderIndex": 32,
+      "vocab": [
+        { "word": "confirm", "ipa": "/kənˈfɜːm/", "type": "v.", "meaning": "xác nhận", "example_en": "Please write to confirm your reservation.", "example_vi": "Vui lòng viết thư để xác nhận việc đặt chỗ của bạn." },
+        { "word": "clarify", "ipa": "/ˈklær.ɪ.faɪ/", "type": "v.", "meaning": "làm rõ", "example_en": "Could you clarify what you mean by that?", "example_vi": "Bạn có thể làm rõ ý bạn là gì không?" },
+        { "word": "interrupt", "ipa": "/ˌɪn.təˈrʌpt/", "type": "v.", "meaning": "ngắt lời", "example_en": "Please don't interrupt me while I'm speaking.", "example_vi": "Làm ơn đừng ngắt lời tôi trong khi tôi đang nói." },
+        { "word": "hesitate", "ipa": "/ˈhez.ɪ.teɪt/", "type": "v.", "meaning": "do dự, chần chừ", "example_en": "Don't hesitate to ask if you need help.", "example_vi": "Đừng ngần ngại hỏi nếu bạn cần giúp đỡ." },
+        { "word": "elaborate", "ipa": "/iˈlæb.ə.reɪt/", "type": "v.", "meaning": "giải thích chi tiết", "example_en": "Could you elaborate on that point?", "example_vi": "Bạn có thể giải thích chi tiết hơn về điểm đó không?" },
+        { "word": "summarise", "ipa": "/ˈsʌm.ər.aɪz/", "type": "v.", "meaning": "tóm tắt", "example_en": "To summarise, we need to improve our sales.", "example_vi": "Tóm lại, chúng ta cần cải thiện doanh số bán hàng." },
+        { "word": "contradict", "ipa": "/ˌkɒn.trəˈdɪkt/", "type": "v.", "meaning": "mâu thuẫn, phản bác", "example_en": "Her statement contradicts what she said earlier.", "example_vi": "Lời tuyên bố của cô ấy mâu thuẫn với những gì cô ấy nói trước đó." },
+        { "word": "emphasise", "ipa": "/ˈem.fə.saɪz/", "type": "v.", "meaning": "nhấn mạnh", "example_en": "I want to emphasise the importance of this project.", "example_vi": "Tôi muốn nhấn mạnh tầm quan trọng của dự án này." },
+        { "word": "agree", "ipa": "/əˈɡriː/", "type": "v.", "meaning": "đồng ý", "example_en": "I completely agree with your proposal.", "example_vi": "Tôi hoàn toàn đồng ý với đề xuất của bạn." },
+        { "word": "disagree", "ipa": "/ˌdɪs.əˈɡriː/", "type": "v.", "meaning": "không đồng ý", "example_en": "I strongly disagree with that decision.", "example_vi": "Tôi kịch liệt phản đối quyết định đó." }
+      ]
+    }
+  ]
+}

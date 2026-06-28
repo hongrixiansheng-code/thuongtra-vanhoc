@@ -1,0 +1,93 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 36,
+      "grammar": [
+        {
+          "title": "Collocations B1 phổ biến",
+          "desc": "Các cụm từ cố định thường gặp trong bài thi PET.",
+          "formula": [
+            {
+              "text": "make progress / achieve a goal",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He made a lot of progress this year.",
+              "meaning": "Anh ấy đã tiến bộ rất nhiều trong năm nay."
+            },
+            {
+              "correct": "We need to achieve our goals.",
+              "meaning": "Chúng ta cần phải đạt được những mục tiêu của mình."
+            },
+            {
+              "correct": "You will gain valuable experience.",
+              "meaning": "Bạn sẽ thu được những kinh nghiệm quý báu."
+            },
+            {
+              "correct": "Make sure to do your homework.",
+              "meaning": "Hãy đảm bảo là bạn làm bài tập về nhà nhé."
+            }
+          ]
+        },
+        {
+          "title": "Word formation",
+          "desc": "Cấu tạo từ vựng: nhận biết danh từ, động từ, tính từ dựa vào đuôi từ (hậu tố).",
+          "formula": [
+            {
+              "text": "Verb -> Noun (achieve -> achievement)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Her success is well-deserved.",
+              "meaning": "Sự thành công của cô ấy là hoàn toàn xứng đáng."
+            },
+            {
+              "correct": "This is a great achievement.",
+              "meaning": "Đây là một thành tựu vĩ đại."
+            },
+            {
+              "correct": "The failure was a lesson for us.",
+              "meaning": "Sự thất bại đó là một bài học cho chúng tôi."
+            },
+            {
+              "correct": "You need imagination to solve this.",
+              "meaning": "Bạn cần có trí tưởng tượng để giải quyết việc này."
+            }
+          ]
+        },
+        {
+          "title": "have + noun trong collocations",
+          "desc": "Sử dụng have kết hợp với danh từ để tạo cụm hành động thay vì dùng động từ thường.",
+          "formula": [
+            {
+              "text": "have + an argument / a conversation",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We had a long conversation.",
+              "meaning": "Chúng tôi đã có một cuộc trò chuyện dài."
+            },
+            {
+              "correct": "They had a heated argument.",
+              "meaning": "Họ đã có một cuộc cãi vã nảy lửa."
+            },
+            {
+              "correct": "I need to have a rest.",
+              "meaning": "Tôi cần phải nghỉ ngơi một chút."
+            },
+            {
+              "correct": "Let's have a chat later.",
+              "meaning": "Chúng ta hãy tán gẫu sau nhé."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

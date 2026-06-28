@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 7,
+    "dialogue": [
+      {
+        "title": "Asking about the neighbourhood",
+        "lines": [
+          { "speaker": "Lan", "en": "Is there a supermarket near here?", "vi": "Gần đây có siêu thị không?" },
+          { "speaker": "James", "en": "Yes, there is a supermarket on the corner.", "vi": "Có, có một siêu thị ở góc đường." },
+          { "speaker": "Lan", "en": "What about a hospital?", "vi": "Còn bệnh viện thì sao?" },
+          { "speaker": "James", "en": "There is a hospital next to the school.", "vi": "Có một bệnh viện cạnh trường học." },
+          { "speaker": "Lan", "en": "Is there a library too?", "vi": "Có thư viện không?" },
+          { "speaker": "James", "en": "Yes, the library is near the station.", "vi": "Có, thư viện gần nhà ga." }
+        ]
+      },
+      {
+        "title": "A new park",
+        "lines": [
+          { "speaker": "Lan", "en": "Is there a park in this area?", "vi": "Khu này có công viên không?" },
+          { "speaker": "James", "en": "Yes, the park is opposite a bank.", "vi": "Có, công viên đối diện một ngân hàng." },
+          { "speaker": "Lan", "en": "Is there a restaurant near the park?", "vi": "Gần công viên có nhà hàng không?" },
+          { "speaker": "James", "en": "Yes, there is a small restaurant next to it.", "vi": "Có, có một nhà hàng nhỏ cạnh đó." },
+          { "speaker": "Lan", "en": "Is there a church in this neighbourhood?", "vi": "Khu phố này có nhà thờ không?" },
+          { "speaker": "James", "en": "No, there isn't a church here.", "vi": "Không, ở đây không có nhà thờ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "dialogue": [
+      {
+        "title": "Giving a location",
+        "lines": [
+          { "speaker": "Lan", "en": "Where is the pharmacy?", "vi": "Nhà thuốc ở đâu?" },
+          { "speaker": "James", "en": "It's next to the post office, between the café and the bank.", "vi": "Nó ở cạnh bưu điện, giữa quán cà phê và ngân hàng." },
+          { "speaker": "Lan", "en": "Is the cinema near here too?", "vi": "Rạp chiếu phim có gần đây không?" },
+          { "speaker": "James", "en": "Yes, it's opposite the market.", "vi": "Có, nó đối diện chợ." },
+          { "speaker": "Lan", "en": "And where is the museum?", "vi": "Còn bảo tàng ở đâu?" },
+          { "speaker": "James", "en": "It's on Le Loi Road, near the bridge.", "vi": "Nó ở đường Lê Lợi, gần cây cầu." }
+        ]
+      },
+      {
+        "title": "At the hotel reception",
+        "lines": [
+          { "speaker": "Lan", "en": "Where is the gym?", "vi": "Phòng gym ở đâu?" },
+          { "speaker": "James", "en": "It's on the second floor, next to the restaurant.", "vi": "Nó ở tầng hai, cạnh nhà hàng." },
+          { "speaker": "Lan", "en": "Is there a café in the hotel?", "vi": "Trong khách sạn có quán cà phê không?" },
+          { "speaker": "James", "en": "Yes, it's on the first floor, opposite the market entrance.", "vi": "Có, nó ở tầng một, đối diện lối vào chợ." },
+          { "speaker": "Lan", "en": "Where can I find the market?", "vi": "Tôi có thể tìm chợ ở đâu?" },
+          { "speaker": "James", "en": "It's just across the road, between the hotel and the bank.", "vi": "Nó ngay bên kia đường, giữa khách sạn và ngân hàng." }
+        ]
+      }
+    ]
+  }
+]

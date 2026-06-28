@@ -1,8 +1,9 @@
 # CLAUDE.md — Vấn Học / ThuongTra-VanHoc
 
 ## 🎯 Project Overview
-Nền tảng học ngôn ngữ đa môn (Tiếng Trung HSK, Tiếng Anh Cambridge YLE, Nhật, Hàn).
-Brand: **Thưởng Trà - Tầm Đạo** | Owner: DuDu Châu | Solo developer.
+Nền tảng học ngôn ngữ đa môn (Tiếng Trung HSK, Tiếng Anh Cambridge YLE; kế hoạch mở rộng Nhật, Hàn).
+Brand: **Thưởng Trà - Vấn Học** (Tầm Đạo là tên công ty dự kiến thành lập sau, không phải tên brand) | Owner: DuDu Châu | Solo developer.
+Cộng tác viên: **Claude** (chat — chiến lược, kiến trúc) · **Claude Code** (thực thi file/code) · **A / Gemini** (soạn nội dung: vocab, grammar, dialogue).
 
 ---
 
@@ -12,38 +13,25 @@ Brand: **Thưởng Trà - Tầm Đạo** | Owner: DuDu Châu | Solo developer.
 edu-platform/
 ├── apps/
 │   ├── frontend/     # Next.js 14 (App Router) — deploy Vercel
-│   └── backend/      # Node.js + Express — REST API
-└── packages/
-    ├── database/     # Prisma ORM + schema + seed scripts
-    └── shared/       # TypeScript types, game components, logic
+│   └── backend/      # Node.js + Express — REST API (legacy, ít dùng)
+├── packages/
+│   ├── database/     # Prisma ORM + schema
+│   └── shared/       # TypeScript types, game components, logic
+├── docs/             # UserFlow docs (01-05)
+├── data/             # Batch JSON nội dung (HSK1-4)
+└── scripts/          # Check/seed/fix scripts dùng 1 lần
 ```
 
 ### Frontend (apps/frontend)
-- **Framework**: Next.js 14.2.3, App Router, TypeScript
-- **Styling**: Tailwind CSS 3.4
+- **Framework**: Next.js 14, App Router, TypeScript
+- **Styling**: Tailwind CSS
 - **Auth**: NextAuth v4 + @next-auth/prisma-adapter
-- **UI libs**: lucide-react, hanzi-writer
-- **Shared**: imports `database` and `@edu-platform/shared` packages
-- **Key pages**: `/lessons/[subject]/[program]/[lessonId]`, `/admin/*`, `/games`, `/vocab`, `/grammar`, `/listening`, `/reading`, `/writing`, `/mock-test`, `/practice`
-- **Legacy**: `src/components/legacy/` — JS components đang migrate sang TSX
-
-### Backend (apps/backend)
-- **Framework**: Node.js + Express 4
-- **Auth**: JWT (jsonwebtoken) + bcryptjs
-- **Routes**: `auth.js`, `lessons.js`, `payments.js`
-- **Middleware**: `auth.js` (JWT verify), `premium.js` (subscription check)
+- **Audio**: Web Speech API (SpeechSynthesis), không dùng thư viện ngoài
+- **Viết chữ Hán**: HanziWriter (kế hoạch — modal luyện viết khi nhấn vào từ vựng tiếng Trung, CHƯA build)
 
 ### Database (packages/database)
-- **ORM**: Prisma Client JS
-- **Dev DB**: SQLite (`dev.db`)
-- **Production DB**: PostgreSQL (`DATABASE_URL` env)
-- **Seed scripts**: `seed-hsk1.js`, `seed-starters-new-lessons.js`, `seed-all.js`, v.v.
-
-### Shared (packages/shared)
-- **Components**: `DragAndDropGame.tsx`, `MultipleChoiceQuiz.tsx`
-- **Logic**: `answerChecker.ts`, `srs.ts`
-- **Types**: `schema.ts`
-- **Build**: TypeScript → `dist/`
+- **ORM**: Prisma Client
+- **Production DB**: PostgreSQL (Neon), `DATABASE_URL` env
 
 ---
 
@@ -51,20 +39,90 @@ edu-platform/
 
 ### Content hierarchy
 ```
-Subject (zh, en, ja, ko)
-  └── Program (hsk1, hsk2, en-starters, n3...)
-        └── Lesson (orderIndex, isPremium)
-              └── LessonContent (THEORY | FORMULA | EXERCISE | REVIEW)
+Subject (zh, en...)
+  └── Program (hsk1, hsk2, en-starters, en-movers, en-flyers, en-ket, en-pet...)
+        └── Lesson (orderIndex, theme, isPremium)
+              └── LessonContent (contentType: THEORY | GRAMMAR | DIALOGUE | EXERCISE)
 ```
+
+- **THEORY** (vocab): tiếng Trung dùng field `hanzi/pinyin/type/type_short/meaning/example_zh/example_vi`; tiếng Anh dùng `word/ipa/type/meaning/example_en/example_vi`
+- **GRAMMAR**: `title/desc/formula[]/practiceList[]` — formula dùng Tailwind classes có sẵn màu
+- **DIALOGUE**: tiếng Trung dùng `zh/py/vi`; tiếng Anh dùng `en/vi` — KHÔNG trộn field giữa 2 ngôn ngữ
 
 ### User & Auth
 ```
-User (id, email, role: USER|ADMIN, subscriptionStatus: FREE|PREMIUM)
-  ├── Account (NextAuth OAuth)
-  ├── Session (NextAuth sessions)
-  ├── UserProgress (lessonId, completed, score)
-  └── Payment (amount, status: PENDING|SUCCESS|FAILED)
+User (id, email, role: USER|ADMIN|TEACHER, subscriptionStatus: FREE|PREMIUM, subscriptionEndDate)
+  ├── Account / Session (NextAuth)
+  ├── UserProgress (lessonId, completed, score) — unique [userId, lessonId]
+  ├── Payment (amount, status, gatewayTransactionId) — model đã có, CHƯA tích hợp cổng thanh toán thật (chỉ có UI xem ở /admin/payments)
+  ├── Class (programId, teacherId, name, isActive) — lớp học do TEACHER tạo, gắn với 1 Program
+  └── ClassEnrollment (classId, studentId) — unique [classId, studentId], học sinh trong lớp chỉ dùng đúng program của lớp (xem `programLocked` ở `getCompletedLessonIds`)
 ```
+
+Role `TEACHER` mới — học sinh thuộc lớp (`ClassEnrollment` với `class.isActive`) được tự động hưởng quyền Premium cho đúng program của lớp đó (mở bài `isPremium`), nhưng vẫn mở bài dần theo `progressMap` thật, không bypass điều kiện điểm số. Nếu học sinh thuộc lớp nhưng vào program khác lớp mình thì bị `programLocked` (hiện `ProgramLocked` component).
+
+---
+
+## 🧭 Routing hiện tại
+
+| Route | Mục đích |
+|---|---|
+| `/dashboard?level=...` | Danh sách bài học theo chương trình, chọn bài → Step Flow |
+| `/vocab?level=...` | Từ điển tổng hợp các từ đã mở khóa |
+| `/grammar?level=...` | Ngữ pháp — sidebar theo bài, content bên phải |
+| `/dialogue?level=...` | Hội thoại — sidebar theo bài, content bên phải |
+| `/practice`, `/games`, `/mock-test` | Luyện tập, lọc theo `completedLessonIds` |
+| `/reading`, `/listening`, `/writing` | Chỉ hoạt động đầy đủ cho HSK (component legacy); với `level=en-*` tạm thời không tương thích — CHƯA build bản tiếng Anh riêng |
+| `/admin/*` | Quản lý subjects/programs/lessons/data/users (CRUD cơ bản); `/admin/payments` xem danh sách giao dịch (Payment model) — chỉ là UI xem, CHƯA tích hợp cổng thanh toán thật; `/admin/users/[id]` trang chi tiết 1 user (tiến độ theo program, lịch sử thanh toán) |
+| `/teacher/*` | Cổng giáo viên (role TEACHER hoặc ADMIN) — `/teacher/classes` tạo/quản lý lớp học gắn với 1 Program, `/teacher/classes/[id]` chi tiết lớp + danh sách học sinh ghi danh (`ClassEnrollment`) |
+| `/premium-tools` | Trang Premium (dùng `components/legacy/Paywall.tsx`) |
+| `/lessons/[subject]/[program]/[lessonId]` | Route legacy vẫn còn trong code (`apps/frontend/src/app/lessons/`), đang được sửa gần đây — KHÔNG xóa khi chưa xác nhận với owner |
+
+**Lưu ý:** một số route (`dashboard`, `vocab`, `games`, `mock-test`) có file `*-page.tsx` nằm cạnh `page.tsx` (ví dụ `dashboard/dashboard-page.tsx`). Đây KHÔNG phải convention đang dùng — Next.js App Router chỉ render `page.tsx`; các file `*-page.tsx` là bản cũ trước khi thêm logic Class/Premium/ProgramLocked, còn sót lại chưa dọn. KHÔNG sửa logic ở các file `*-page.tsx` này, luôn sửa `page.tsx`.
+
+---
+
+## 🔑 Helper quan trọng: `getCompletedLessonIds`
+
+File: `src/lib/getProgressIds.ts`
+
+```ts
+const { completedLessonIds, isAdmin, isPremiumUser, programLocked, enrolledProgramCodes } = await getCompletedLessonIds(programCode);
+```
+
+- Luôn truyền `programCode` (level) để lọc đúng theo chương trình — KHÔNG gọi không tham số
+- Admin tự động nhận toàn bộ `lessonId` của program đó (bypass mọi khóa)
+- Học sinh thuộc `ClassEnrollment` (lớp active) chỉ được dùng đúng program của lớp — nếu truy cập program khác, `programLocked: true` và page phải render `<ProgramLocked />` thay vì nội dung
+- `isPremiumUser` đã gộp 3 trường hợp: ADMIN, subscription PREMIUM còn hạn (`isSubscriptionActive`), hoặc học sinh trong lớp active — page chỉ cần đọc field này, KHÔNG tự suy luận lại
+- TẤT CẢ page (vocab/grammar/dialogue/practice/listening/reading/writing/mock-test/games/dashboard) phải dùng helper này — KHÔNG viết lại logic `PrismaClient` + `getServerSession` inline trong từng page
+
+## 🔑 Helper quan trọng: `prisma` singleton & `subscription.ts`
+
+- File: `src/lib/prisma.ts` — export default singleton `PrismaClient` (dùng `globalThis` để tránh tạo nhiều connection lúc hot-reload dev). TẤT CẢ page/route PHẢI `import prisma from '@/lib/prisma'` — KHÔNG gọi `new PrismaClient()` trực tiếp trong page/component (một số file cũ còn import `{ PrismaClient } from "database"` cạnh đó chỉ để lấy type, không dùng để khởi tạo client mới).
+- File: `src/lib/subscription.ts` — `PREMIUM_DURATIONS`, `computeExpiryDate()`, `isSubscriptionActive(user)`, `syncExpiredSubscription(user)` (tự hạ `subscriptionStatus` về FREE khi `subscriptionEndDate` đã qua). Dùng helper này ở bất kỳ đâu cần check Premium còn hạn hay không — KHÔNG tự so sánh `subscriptionEndDate` inline.
+
+---
+
+## 🧩 Component chính
+
+```
+components/
+├── DashboardClient.tsx   # Danh sách bài học + lock logic (admin bypass)
+├── LessonStepFlow.tsx    # Step Flow 13 bước: vocab → mini-test → grammar → dialogue → hoàn thành
+├── GrammarClient.tsx     # Sidebar bài học + nội dung ngữ pháp
+├── DialogueClient.tsx    # Sidebar bài học + bubble chat hội thoại
+├── KhaiMonClient.tsx     # Render nội dung bài "Khai môn" (HSK1 bài 0, dạy Pinyin) theo Scroll Layout riêng — không dùng layout vocab/grammar thường
+├── PremiumLocked.tsx     # Chặn nội dung khi user chưa Premium (vd. /games, /mock-test) — CTA sang /premium-tools
+├── ProgramLocked.tsx     # Chặn nội dung khi học sinh trong lớp (ClassEnrollment) truy cập program khác lớp mình
+├── ThemeSwitcher.tsx     # Cho user tự chọn theme mode (light/dark/system) + accent color (amber/emerald/orange/rose/blue/purple) qua localStorage + `data-accent` trên `<html>` — xem DESIGN.md
+└── legacy/
+    ├── Navigation.tsx     # Nav chính của toàn site — ĐANG DÙNG, không xóa
+    ├── Paywall.tsx        # Dùng trong /premium-tools — ĐANG DÙNG
+    ├── VocabTab.tsx, ReadingTab.tsx, ListeningTab.tsx, WritingTab.tsx, MockTestTab.tsx, GameTab.tsx
+    └── StartersExercises.tsx
+```
+
+Đã dọn (xóa) vì không còn được import: `GrammarTab.tsx` (legacy), `CurriculumTab.tsx` (legacy), `LessonComponents.tsx`, `Paywall.tsx` (bản gốc components/, không phải legacy/), `LayoutWrapper.tsx`, `Header.tsx`, `Sidebar.tsx` (cả hai ở `components/` gốc — admin layout giờ dùng `AdminSidebar.tsx` riêng trong `app/admin/`).
 
 ---
 
@@ -77,129 +135,85 @@ NEXTAUTH_URL=
 NEXTAUTH_SECRET=
 ```
 
-### apps/backend/.env
-```
-DATABASE_URL=
-JWT_SECRET=
-```
-
-### packages/database/.env
-```
-DATABASE_URL=
-```
-
 ---
 
 ## 🚀 Dev Commands
 
 ```bash
-# Root — chạy tất cả
-npm run dev
-
-# Chỉ frontend
 cd apps/frontend && npm run dev        # localhost:3000
 
-# Chỉ backend
-cd apps/backend && npm run dev         # port khác
-
-# Database
-npm run db:up                          # docker-compose up
-npm run db:down                        # docker-compose down
-cd packages/database && npx prisma migrate dev
-cd packages/database && node seed-all.js
-
-# Build shared package (cần chạy trước khi build frontend)
-cd packages/shared && npm run build
+# Mỗi program có seed script riêng trong apps/frontend/scripts/, ví dụ:
+node apps/frontend/scripts/seed-hsk2.js
+node apps/frontend/scripts/seed-hsk4.js
+node apps/frontend/scripts/seed-ket-lessons.js
+node apps/frontend/scripts/seed-movers.js
 ```
 
----
-
-## 📐 Coding Conventions
-
-### TypeScript
-- Dùng TypeScript cho tất cả file mới trong `frontend` và `shared`
-- Import types từ `@edu-platform/shared` — KHÔNG định nghĩa lại
-- File `.tsx` cho React components, `.ts` cho logic/utils
-
-### Next.js App Router
-- Server Components là default — chỉ thêm `"use client"` khi cần interactivity
-- API routes đặt tại `src/app/api/[endpoint]/route.ts`
-- Dynamic routes: `/lessons/[subject]/[program]/[lessonId]/page.tsx`
-
-### Naming
-- Components: PascalCase (`LessonCard.tsx`)
-- Utils/hooks: camelCase (`useProgress.ts`)
-- Constants: UPPER_SNAKE_CASE
-- DB models: PascalCase (theo Prisma schema)
-
-### Prisma
-- Luôn dùng Prisma Client từ `packages/database`
-- KHÔNG query DB trực tiếp từ frontend components — dùng Server Actions hoặc API routes
-- Enum values: `role` = "USER" | "ADMIN", `subscriptionStatus` = "FREE" | "PREMIUM"
-- `contentType` = "THEORY" | "FORMULA" | "EXERCISE" | "REVIEW"
-
-### Tailwind
-- Dynamic class names KHÔNG hoạt động — dùng complete class strings
-- Ví dụ SAI: `` `bg-${color}-500` ``
-- Ví dụ ĐÚNG: map color sang full class `{ red: 'bg-red-500', blue: 'bg-blue-500' }`
+`prisma migrate dev` KHÔNG chạy trên production data — luôn chạy SQL thủ công hoặc seed script riêng để tránh reset toàn bộ DB.
 
 ---
 
-## 🚫 KHÔNG được làm
+## 📐 Coding Conventions & 🚫 Cấm làm
 
-- KHÔNG xóa hoặc sửa file trong `components/legacy/` trừ khi được yêu cầu rõ ràng
-- KHÔNG thêm package mới mà không hỏi — check xem shared package có sẵn chưa
-- KHÔNG hardcode `DATABASE_URL` hay secrets vào code
-- KHÔNG dùng `any` trong TypeScript nếu có thể tránh
-- KHÔNG tạo migration Prisma trong môi trường production
-- KHÔNG commit file `.env`
+Xem **RULES.md** — coding conventions (TypeScript/Next.js, format nội dung Vocab/Grammar/Dialogue, quy trình làm việc 3 bên) và danh sách việc KHÔNG được làm.
 
----
+## 🎨 Chuẩn thiết kế UI/UX
 
-## 🧪 Testing & Debug
+Xem **DESIGN.md** trước khi làm bất kỳ việc gì liên quan giao diện (tạo page mới, audit/redesign, chọn màu sắc) — gồm tone, hệ màu accent, component pattern, và skill global nên dùng cho từng tình huống thiết kế.
 
-```bash
-# Test files hiện có (root level)
-node test-all.js
-node test-vocab.js
-node test-ting.js
+## 📦 Chuẩn dữ liệu nội dung
 
-# Check database
-cd packages/database && node check-grammar.js
-```
+Xem **DATA_CONTRACTS.md** — single source of truth cho format vocab/grammar/dialogue (tiếng Trung + tiếng Anh), cấu trúc file JSON batch, field nào đã deprecated, component nào đọc field nào. Mọi thay đổi schema nội dung phải cập nhật file này trước khi soạn batch mới hoặc sửa component đọc nội dung.
 
 ---
 
-## 📦 Legacy Migration Pattern
+## 🎮 Trạng thái Module
 
-Trong `src/components/legacy/` có cả file `.js` (cũ) lẫn `.tsx` (mới):
-- `quiz-tab.js` → `QuizTab.tsx` ✅
-- `game-tab.js` → `GameTab.tsx` ✅
-- Khi migrate: giữ nguyên logic, chuyển sang TypeScript, dùng proper React hooks
-
----
-
-## 🎮 Feature Modules
-
-| Module | Route | Status |
-|--------|-------|--------|
-| Lessons | `/lessons/[subject]/[program]/[lessonId]` | ✅ Active |
-| Vocab | `/vocab` | ✅ Active |
-| Games | `/games` | ✅ Active |
-| Grammar | `/grammar` | ✅ Active |
-| Listening | `/listening` | ✅ Active |
-| Reading | `/reading` | ✅ Active |
-| Writing | `/writing` | ✅ Active |
-| Mock Test | `/mock-test` | ✅ Active |
-| Admin | `/admin/*` | ✅ Active |
-| Premium Tools | `/premium-tools` | 🔒 Premium only |
+| Module | Route | Trạng thái |
+|---|---|---|
+| Dashboard / Step Flow | `/dashboard` | ✅ Hoạt động (HSK1 đầy đủ, YLE đầy đủ) |
+| Vocab / Grammar / Dialogue | `/vocab` `/grammar` `/dialogue` | ✅ Hoạt động, lọc theo bài đã học |
+| Games / Practice / Mock Test | `/games` `/practice` `/mock-test` | ✅ Hoạt động |
+| Reading / Listening / Writing | `/reading` `/listening` `/writing` | ⚠️ Chỉ hoạt động cho HSK (component cũ dùng field tiếng Trung); tiếng Anh chưa có bản tương thích |
+| Admin CRUD | `/admin/*` | ✅ Hoạt động cơ bản |
+| Admin — quản lý user/giao dịch | `/admin/users`, `/admin/users/[id]`, `/admin/payments` | ✅ Hoạt động — xem chi tiết tiến độ/thanh toán từng user, danh sách giao dịch; CHƯA có thống kê tổng quan (revenue, growth...) |
+| Cổng giáo viên (Class/Enrollment) | `/teacher/*` | ✅ Hoạt động cơ bản — TEACHER tạo lớp gắn 1 Program, quản lý học sinh ghi danh; học sinh trong lớp tự động Premium cho đúng program của lớp |
+| Payment (MoMo/VNPay) | `/admin/payments` | ⚠️ Model `Payment` + UI xem giao dịch đã có, nhưng CHƯA tích hợp cổng thanh toán thật (chưa có flow tạo giao dịch/webhook) |
+| Modal luyện viết chữ Hán (HanziWriter) | — | ❌ Chưa build — có kế hoạch |
 
 ---
 
-## 💳 Business Logic
+## 💳 Business Model (đã chốt)
 
-- **FREE**: truy cập bài học cơ bản (`isPremium: false`)
-- **PREMIUM**: toàn bộ content + premium-tools
-- Check premium qua `middleware/premium.js` (backend) hoặc `<Paywall>` component (frontend)
-- Payment flow: `payments.js` route → `Payment` model → update `User.subscriptionStatus`
+| Gói | Giá |
+|---|---|
+| Free | Toàn bộ nội dung HSK1-4, 6 chương trình YLE — miễn phí vĩnh viễn |
+| Premium | Theo thời hạn (xem bảng dưới) — mốc tham chiếu 30 ngày = 99.000đ |
+| Premium AI (tương lai) | ~129.000đ/tháng — test AI Credits trước khi tách gói riêng |
 
+### Premium — gói theo thời hạn (đã chốt)
+
+| Thời hạn | Giá | Giá/ngày | Tiết kiệm so với 30 ngày |
+|---|---|---|---|
+| 3 ngày | 30.000đ | 10.000đ | — |
+| 7 ngày | 50.000đ | 7.143đ | — |
+| 15 ngày | 75.000đ | 5.000đ | — |
+| 30 ngày | 99.000đ | 3.300đ | mốc tham chiếu |
+| 90 ngày | 249.000đ | 2.767đ | ~16% |
+| 180 ngày | 449.000đ | 2.494đ | ~24% |
+| 360 ngày | 669.000đ | 1.858đ | ~44% (tiết kiệm nhất) |
+
+- Các gói ngắn (3/7/15 ngày) cố tình có giá/ngày cao hơn — dùng cho trải nghiệm thử, không phải lựa chọn tối ưu chi phí
+- Khi hiển thị UI, luôn nhấn mạnh giá/ngày + % tiết kiệm cho gói 90/180/360 ngày để đẩy người dùng lên gói lớn — KHÔNG đổi mốc giá này khi chưa được yêu cầu
+
+- Khóa bài theo điểm: HSK1-2 cần 7/10, HSK3-4 cần 8/10 để mở bài tiếp
+- Premium mở khóa: flashcard, listening drills, reading drills — chỉ cho bài đã hoàn thành (Contextual Unlock)
+- Tăng trưởng: dùng thử Premium 7 ngày không cần thẻ; giải đấu tuần tặng mã Premium
+
+⚠️ **Lệch dữ liệu cần đối soát**: `apps/frontend/src/lib/subscription.ts` (`PREMIUM_DURATIONS`) hiện chỉ định nghĩa 4 mốc 3/7/15/30 ngày với giá 25.000đ/50.000đ/75.000đ/99.000đ — giá 3 ngày (25.000đ) khác bảng trên (30.000đ) và CHƯA có mốc 90/180/360 ngày. Cần đối soát lại với owner trước khi build flow mua Premium thật.
+
+---
+
+## 📄 Tài liệu UserFlow
+
+Xem `docs/01-auth-flow.md` đến `docs/05-payment-flow.md` để biết chi tiết từng luồng (Auth, Learning, Content Access, Admin, Payment).

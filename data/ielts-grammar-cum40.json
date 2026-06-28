@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 79,
+    "grammar": [
+      {
+        "title": "\"used to\" — Thói quen quá khứ không còn",
+        "desc": "Dùng \"used to + V nguyên mẫu\" để nói về một thói quen hoặc trạng thái đã từng đúng trong quá khứ nhưng không còn ở hiện tại.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "used to / didn't use to", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I used to play football every weekend.", "vi": "Tôi đã từng chơi bóng đá mỗi cuối tuần." },
+          { "en": "She used to live in the countryside.", "vi": "Cô ấy đã từng sống ở nông thôn." },
+          { "en": "We didn't use to have a car.", "vi": "Chúng tôi đã từng không có xe hơi." }
+        ],
+        "note": "\"used to\" không thay đổi theo chủ ngữ (không thêm -s). Phủ định: didn't use to. Câu hỏi: Did + S + use to + V?",
+        "practiceList": [
+          { "question": "He ___ (use to) smoke, but he stopped last year.", "correct": "used to", "meaning": "Anh ấy đã từng hút thuốc, nhưng anh ấy đã ngừng năm ngoái.", "explanation": "Thói quen quá khứ không còn dùng \"used to\"." },
+          { "question": "They ___ (not/use to) eat fast food.", "correct": "didn't use to", "meaning": "Họ đã từng không ăn đồ ăn nhanh.", "explanation": "Phủ định của \"used to\" là \"didn't use to\"." },
+          { "question": "___ you use to live in this neighbourhood?", "correct": "Did", "meaning": "Bạn đã từng sống ở khu phố này phải không?", "explanation": "Câu hỏi: Did + S + use to + V." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "grammar": [
+      {
+        "title": "Câu trần thuật (Reported Speech) — \"said that\"",
+        "desc": "Dùng để báo cáo lại lời người khác đã nói. Khi tường thuật, động từ thường lùi một bậc thời gian (Present Simple → Past Simple).",
+        "formula": [
+          { "text": "S + said (that) + S + V (lùi thì)", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "\"I am tired,\" she said. → She said that she was tired.", "vi": "\"Tôi mệt,\" cô ấy nói. → Cô ấy nói rằng cô ấy mệt." },
+          { "en": "\"I like coffee,\" he said. → He said that he liked coffee.", "vi": "\"Tôi thích cà phê,\" anh ấy nói. → Anh ấy nói rằng anh ấy thích cà phê." },
+          { "en": "\"We will come,\" they said. → They said that they would come.", "vi": "\"Chúng tôi sẽ đến,\" họ nói. → Họ nói rằng họ sẽ đến." }
+        ],
+        "note": "Quy tắc lùi thì: am/is/are → was/were; Present Simple → Past Simple; will → would. \"that\" có thể bỏ qua trong câu nói.",
+        "practiceList": [
+          { "question": "\"I am busy,\" she said. → She said that she ___ busy.", "correct": "was", "meaning": "Cô ấy nói rằng cô ấy bận.", "explanation": "am → was khi tường thuật." },
+          { "question": "\"I work here,\" he said. → He said that he ___ there.", "correct": "worked", "meaning": "Anh ấy nói rằng anh ấy làm việc ở đó.", "explanation": "Present Simple → Past Simple khi tường thuật." },
+          { "question": "\"I will help you,\" she said. → She said that she ___ help me.", "correct": "would", "meaning": "Cô ấy nói rằng cô ấy sẽ giúp tôi.", "explanation": "will → would khi tường thuật." }
+        ]
+      }
+    ]
+  }
+]

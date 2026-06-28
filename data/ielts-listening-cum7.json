@@ -1,0 +1,27 @@
+[
+  {
+    "lessonOrder": 13,
+    "listening": [
+      {
+        "title": "Listening: Following instructions",
+        "transcript": "First, add the flour. Then mix it with the milk. Turn on the oven. Check the bread after fifteen minutes. Press the button when it is ready.",
+        "questions": [
+          { "type": "form_completion", "question": "Check the bread after ___ minutes.", "options": ["ten", "fifteen", "twenty"], "correct": "fifteen", "explanation": "\"Check the bread after fifteen minutes.\"" },
+          { "type": "multiple_choice", "question": "What should you mix the flour with?", "options": ["Water", "Milk", "Sugar"], "correct": "Milk", "explanation": "\"Then mix it with the milk.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "listening": [
+      {
+        "title": "Listening: Describing a hotel room",
+        "transcript": "The room is clean and comfortable, but it is a little cold. It is also quite quiet, which I like. It can be dry in winter.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the room like?", "options": ["Dirty and loud", "Clean and comfortable", "Hot and noisy"], "correct": "Clean and comfortable", "explanation": "\"The room is clean and comfortable\"." }
+        ]
+      }
+    ]
+  }
+]

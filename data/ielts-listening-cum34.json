@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 67,
+    "listening": [
+      {
+        "title": "Listening: Status update",
+        "transcript": "I have already finished the report. The store has just opened. They haven't launched the new product yet.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Has the new product launched yet?", "options": ["Yes, already", "No, not yet", "Not given"], "correct": "No, not yet", "explanation": "\"They haven't launched the new product yet.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "listening": [
+      {
+        "title": "Listening: For how long?",
+        "transcript": "I have lived in this city for ten years. I have worked at this company since 2018.",
+        "questions": [
+          { "type": "form_completion", "question": "Worked at the company since: ___", "options": ["2015", "2018", "2020"], "correct": "2018", "explanation": "\"I have worked at this company since 2018.\"" }
+        ]
+      }
+    ]
+  }
+]

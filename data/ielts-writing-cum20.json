@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 39,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a competition",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a sports event, using Past Simple verbs with special spelling rules (-ied, doubled consonant).",
+        "minWords": 30,
+        "sampleAnswer": "We trained really hard last week. We scored three goals, and we defeated the other team easily. The game finished quite late, but everyone enjoyed it.",
+        "checklist": ["Dùng ít nhất 1 động từ tận cùng -y đổi thành -ied", "Dùng ít nhất 1 động từ gấp đôi phụ âm cuối", "Mô tả được kết quả cụ thể (tỉ số, thành tích)"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a weekend activity",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a weekend activity, using go/went, have/had, see/saw, come/came, get/got, make/made.",
+        "minWords": 30,
+        "sampleAnswer": "We went to the beach with some friends. We had a wonderful time, and we saw a beautiful sunset together. Our friends came early, and we made a small bonfire.",
+        "checklist": ["Dùng ít nhất 3 động từ bất quy tắc nhóm 1", "Không thêm -ed vào các động từ này", "Kể chuyện theo trình tự hợp lý"]
+      }
+    ]
+  }
+]

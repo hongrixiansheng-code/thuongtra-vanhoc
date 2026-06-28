@@ -2,10 +2,10 @@
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { BookOpen, Users, Database, Settings, LogOut, LayoutDashboard, GraduationCap, BookMarked } from "lucide-react";
+import { BookOpen, Users, Database, Settings, LogOut, LayoutDashboard, GraduationCap, BookMarked, CreditCard } from "lucide-react";
 
 const iconMap: Record<string, any> = {
-  LayoutDashboard, Users, BookMarked, GraduationCap, BookOpen, Database, Settings,
+  LayoutDashboard, Users, BookMarked, GraduationCap, BookOpen, Database, Settings, CreditCard,
 };
 
 export default function AdminSidebar({ navItems, user }: { 

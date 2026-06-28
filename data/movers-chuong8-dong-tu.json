@@ -1,0 +1,394 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 23,
+      "title": "Bài 11.a: Động từ thường gặp (1/3)",
+      "theme": "Động từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "be called",
+          "ipa": "/bi kɔːld/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "được gọi là",
+          "example_en": "My dog is called Max.",
+          "example_vi": "Con chó của tôi được gọi là Max."
+        },
+        {
+          "word": "bring",
+          "ipa": "/brɪŋ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "mang lại, đem lại",
+          "example_en": "Bring me the book.",
+          "example_vi": "Mang cho tôi quyển sách."
+        },
+        {
+          "word": "build",
+          "ipa": "/bɪld/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "xây dựng",
+          "example_en": "They build a house.",
+          "example_vi": "Họ xây dựng một ngôi nhà."
+        },
+        {
+          "word": "buy",
+          "ipa": "/baɪ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "mua",
+          "example_en": "I buy a new toy.",
+          "example_vi": "Tôi mua một món đồ chơi mới."
+        },
+        {
+          "word": "call",
+          "ipa": "/kɔːl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "gọi điện, gọi tên",
+          "example_en": "Call me tomorrow.",
+          "example_vi": "Gọi cho tôi vào ngày mai nhé."
+        },
+        {
+          "word": "carry",
+          "ipa": "/ˈkæri/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "mang, vác",
+          "example_en": "He carries a heavy bag.",
+          "example_vi": "Cậu ấy mang một chiếc túi nặng."
+        },
+        {
+          "word": "change",
+          "ipa": "/tʃeɪndʒ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "thay đổi, đổi",
+          "example_en": "I change my clothes.",
+          "example_vi": "Tôi thay quần áo."
+        },
+        {
+          "word": "cook",
+          "ipa": "/kʊk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nấu ăn",
+          "example_en": "My mum cooks dinner.",
+          "example_vi": "Mẹ tôi nấu bữa tối."
+        },
+        {
+          "word": "cry",
+          "ipa": "/kraɪ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "khóc",
+          "example_en": "The baby cries.",
+          "example_vi": "Em bé khóc."
+        },
+        {
+          "word": "feed",
+          "ipa": "/fiːd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cho ăn",
+          "example_en": "I feed my cat.",
+          "example_vi": "Tôi cho con mèo của tôi ăn."
+        },
+        {
+          "word": "get dressed",
+          "ipa": "/ɡet drest/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "mặc quần áo",
+          "example_en": "I get dressed quickly.",
+          "example_vi": "Tôi mặc quần áo thật nhanh."
+        },
+        {
+          "word": "get off",
+          "ipa": "/ɡet ɒf/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "xuống (xe buýt, tàu)",
+          "example_en": "We get off the bus.",
+          "example_vi": "Chúng tôi xuống xe buýt."
+        },
+        {
+          "word": "get on",
+          "ipa": "/ɡet ɒn/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "lên (xe buýt, tàu)",
+          "example_en": "Get on the train.",
+          "example_vi": "Lên tàu đi."
+        },
+        {
+          "word": "get undressed",
+          "ipa": "/ɡet ʌnˈdrest/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "cởi quần áo",
+          "example_en": "I get undressed for bed.",
+          "example_vi": "Tôi cởi quần áo để đi ngủ."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 24,
+      "title": "Bài 11.b: Động từ thường gặp (2/3)",
+      "theme": "Động từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "get up",
+          "ipa": "/ɡet ʌp/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "thức dậy",
+          "example_en": "I get up at 7 o'clock.",
+          "example_vi": "Tôi thức dậy lúc 7 giờ."
+        },
+        {
+          "word": "go shopping",
+          "ipa": "/ɡoʊ ˈʃɒpɪŋ/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "đi mua sắm",
+          "example_en": "We go shopping today.",
+          "example_vi": "Hôm nay chúng tôi đi mua sắm."
+        },
+        {
+          "word": "grow",
+          "ipa": "/ɡroʊ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "lớn lên, trồng trọt",
+          "example_en": "Plants grow in the sun.",
+          "example_vi": "Cây cối lớn lên dưới ánh nắng mặt trời."
+        },
+        {
+          "word": "have to",
+          "ipa": "/hæv tuː/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "phải (làm gì)",
+          "example_en": "I have to go now.",
+          "example_vi": "Bây giờ tôi phải đi rồi."
+        },
+        {
+          "word": "help",
+          "ipa": "/help/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "giúp đỡ",
+          "example_en": "Can you help me?",
+          "example_vi": "Bạn có thể giúp tôi không?"
+        },
+        {
+          "word": "hide",
+          "ipa": "/haɪd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trốn, giấu",
+          "example_en": "The dog hides under the bed.",
+          "example_vi": "Con chó trốn dưới gầm giường."
+        },
+        {
+          "word": "invite",
+          "ipa": "/ɪnˈvaɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "mời",
+          "example_en": "I invite my friends.",
+          "example_vi": "Tôi mời bạn bè của mình."
+        },
+        {
+          "word": "look for",
+          "ipa": "/lʊk fɔːr/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "tìm kiếm",
+          "example_en": "I look for my bag.",
+          "example_vi": "Tôi tìm kiếm cái túi của mình."
+        },
+        {
+          "word": "lose",
+          "ipa": "/luːz/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đánh mất",
+          "example_en": "Don't lose your ticket.",
+          "example_vi": "Đừng làm mất vé của bạn."
+        },
+        {
+          "word": "move",
+          "ipa": "/muːv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "di chuyển",
+          "example_en": "Please move the chair.",
+          "example_vi": "Xin hãy di chuyển cái ghế."
+        },
+        {
+          "word": "need",
+          "ipa": "/niːd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cần",
+          "example_en": "I need a pen.",
+          "example_vi": "Tôi cần một cây bút."
+        },
+        {
+          "word": "put on",
+          "ipa": "/pʊt ɒn/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "mặc vào, đội vào",
+          "example_en": "Put on your coat.",
+          "example_vi": "Hãy mặc áo khoác vào."
+        },
+        {
+          "word": "send",
+          "ipa": "/send/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "gửi",
+          "example_en": "I send a text.",
+          "example_vi": "Tôi gửi một tin nhắn văn bản."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 25,
+      "title": "Bài 11.c: Động từ thường gặp (3/3)",
+      "theme": "Động từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "shout",
+          "ipa": "/ʃaʊt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "la hét",
+          "example_en": "Don't shout in the house.",
+          "example_vi": "Đừng la hét trong nhà."
+        },
+        {
+          "word": "take",
+          "ipa": "/teɪk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "lấy, mang đi, đi (xe)",
+          "example_en": "Take this book.",
+          "example_vi": "Hãy lấy cuốn sách này."
+        },
+        {
+          "word": "take off",
+          "ipa": "/teɪk ɒf/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "cởi ra",
+          "example_en": "Take off your hat.",
+          "example_vi": "Hãy cởi mũ ra."
+        },
+        {
+          "word": "teach",
+          "ipa": "/tiːtʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "dạy học",
+          "example_en": "She teaches English.",
+          "example_vi": "Cô ấy dạy tiếng Anh."
+        },
+        {
+          "word": "travel",
+          "ipa": "/ˈtrævl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "du lịch, đi lại",
+          "example_en": "We travel by bus.",
+          "example_vi": "Chúng tôi đi bằng xe buýt."
+        },
+        {
+          "word": "wait",
+          "ipa": "/weɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đợi",
+          "example_en": "Wait for me!",
+          "example_vi": "Đợi tôi với!"
+        },
+        {
+          "word": "wake",
+          "ipa": "/weɪk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đánh thức",
+          "example_en": "Wake the baby up.",
+          "example_vi": "Hãy đánh thức em bé dậy."
+        },
+        {
+          "word": "walk",
+          "ipa": "/wɔːk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đi bộ",
+          "example_en": "I walk to school.",
+          "example_vi": "Tôi đi bộ đến trường."
+        },
+        {
+          "word": "wash",
+          "ipa": "/wɒʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "rửa, giặt",
+          "example_en": "Wash your hands.",
+          "example_vi": "Hãy rửa tay đi."
+        },
+        {
+          "word": "water",
+          "ipa": "/ˈwɔːtər/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "tưới nước",
+          "example_en": "Water the plants, please.",
+          "example_vi": "Xin hãy tưới cây."
+        },
+        {
+          "word": "work",
+          "ipa": "/wɜːrk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "làm việc",
+          "example_en": "My dad works here.",
+          "example_vi": "Bố tôi làm việc ở đây."
+        },
+        {
+          "word": "dress up",
+          "ipa": "/dres ʌp/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "hóa trang, ăn diện",
+          "example_en": "We dress up for the party.",
+          "example_vi": "Chúng tôi hóa trang cho bữa tiệc."
+        },
+        {
+          "word": "fall",
+          "ipa": "/fɔːl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "ngã, rơi",
+          "example_en": "Don't fall down.",
+          "example_vi": "Đừng ngã nhé."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

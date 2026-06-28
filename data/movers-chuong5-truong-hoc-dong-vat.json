@@ -1,0 +1,313 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 13,
+      "title": "Bài 6.a: Trường học (1/2)",
+      "theme": "Trường học & Động vật",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "app",
+          "ipa": "/æp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ứng dụng",
+          "example_en": "I play games on a new app.",
+          "example_vi": "Tôi chơi game trên một ứng dụng mới."
+        },
+        {
+          "word": "circle",
+          "ipa": "/ˈsɜːrkl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hình tròn",
+          "example_en": "Draw a big circle.",
+          "example_vi": "Hãy vẽ một hình tròn lớn."
+        },
+        {
+          "word": "comic",
+          "ipa": "/ˈkɒmɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "truyện tranh",
+          "example_en": "I love reading comics.",
+          "example_vi": "Tôi thích đọc truyện tranh."
+        },
+        {
+          "word": "comic book",
+          "ipa": "/ˈkɒmɪk bʊk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sách truyện tranh",
+          "example_en": "He buys a comic book.",
+          "example_vi": "Cậu ấy mua một cuốn sách truyện tranh."
+        },
+        {
+          "word": "difference",
+          "ipa": "/ˈdɪfrəns/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sự khác biệt",
+          "example_en": "What is the difference?",
+          "example_vi": "Sự khác biệt là gì?"
+        },
+        {
+          "word": "different",
+          "ipa": "/ˈdɪfrənt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khác nhau",
+          "example_en": "We wear different clothes.",
+          "example_vi": "Chúng tôi mặc quần áo khác nhau."
+        },
+        {
+          "word": "homework",
+          "ipa": "/ˈhoʊmwɜːrk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bài tập về nhà",
+          "example_en": "I must do my homework.",
+          "example_vi": "Tôi phải làm bài tập về nhà."
+        },
+        {
+          "word": "idea",
+          "ipa": "/aɪˈdiːə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ý tưởng",
+          "example_en": "That is a good idea!",
+          "example_vi": "Đó là một ý tưởng hay!"
+        },
+        {
+          "word": "mean",
+          "ipa": "/miːn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "có nghĩa là",
+          "example_en": "What does this word mean?",
+          "example_vi": "Từ này có nghĩa là gì?"
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 14,
+      "title": "Bài 6.b: Trường học (2/2)",
+      "theme": "Trường học & Động vật",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "mistake",
+          "ipa": "/mɪˈsteɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lỗi sai",
+          "example_en": "I made a mistake.",
+          "example_vi": "Tôi đã mắc một lỗi sai."
+        },
+        {
+          "word": "model",
+          "ipa": "/ˈmɒdl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mô hình",
+          "example_en": "This is a model plane.",
+          "example_vi": "Đây là một mô hình máy bay."
+        },
+        {
+          "word": "noise",
+          "ipa": "/nɔɪz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tiếng ồn",
+          "example_en": "Don't make a noise.",
+          "example_vi": "Đừng làm ồn."
+        },
+        {
+          "word": "practice",
+          "ipa": "/ˈpræktɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sự luyện tập",
+          "example_en": "Basketball takes a lot of practice.",
+          "example_vi": "Bóng rổ cần rất nhiều sự luyện tập."
+        },
+        {
+          "word": "practise",
+          "ipa": "/ˈpræktɪs/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "luyện tập",
+          "example_en": "I practise English every day.",
+          "example_vi": "Tôi luyện tập tiếng Anh mỗi ngày."
+        },
+        {
+          "word": "square",
+          "ipa": "/skweər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hình vuông",
+          "example_en": "Look at the red square.",
+          "example_vi": "Hãy nhìn vào hình vuông màu đỏ."
+        },
+        {
+          "word": "text",
+          "ipa": "/tekst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "văn bản, tin nhắn",
+          "example_en": "Read the text, please.",
+          "example_vi": "Xin hãy đọc văn bản."
+        },
+        {
+          "word": "think",
+          "ipa": "/θɪŋk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "suy nghĩ, cho rằng",
+          "example_en": "I think it is hot.",
+          "example_vi": "Tôi nghĩ trời đang nóng."
+        },
+        {
+          "word": "break",
+          "ipa": "/breɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giờ nghỉ giải lao",
+          "example_en": "Let's have a break.",
+          "example_vi": "Cùng nghỉ giải lao nào."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 15,
+      "title": "Bài 7: Động vật",
+      "theme": "Trường học & Động vật",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "bat",
+          "ipa": "/bæt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con dơi",
+          "example_en": "A bat flies at night.",
+          "example_vi": "Con dơi bay vào ban đêm."
+        },
+        {
+          "word": "dolphin",
+          "ipa": "/ˈdɒlfɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cá heo",
+          "example_en": "The dolphin is clever.",
+          "example_vi": "Cá heo rất thông minh."
+        },
+        {
+          "word": "kangaroo",
+          "ipa": "/ˌkæŋɡəˈruː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chuột túi",
+          "example_en": "A kangaroo can jump.",
+          "example_vi": "Chuột túi có thể nhảy."
+        },
+        {
+          "word": "kitten",
+          "ipa": "/ˈkɪtn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mèo con",
+          "example_en": "The kitten is asleep.",
+          "example_vi": "Mèo con đang ngủ."
+        },
+        {
+          "word": "lion",
+          "ipa": "/ˈlaɪən/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sư tử",
+          "example_en": "The lion is strong.",
+          "example_vi": "Sư tử rất khỏe."
+        },
+        {
+          "word": "panda",
+          "ipa": "/ˈpændə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "gấu trúc",
+          "example_en": "I see a panda.",
+          "example_vi": "Tôi thấy một chú gấu trúc."
+        },
+        {
+          "word": "parrot",
+          "ipa": "/ˈpærət/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con vẹt",
+          "example_en": "The parrot is loud.",
+          "example_vi": "Con vẹt thì ồn ào."
+        },
+        {
+          "word": "penguin",
+          "ipa": "/ˈpeŋɡwɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chim cánh cụt",
+          "example_en": "The penguin loves ice.",
+          "example_vi": "Chim cánh cụt thích băng giá."
+        },
+        {
+          "word": "puppy",
+          "ipa": "/ˈpʌpi/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chó con",
+          "example_en": "This puppy is naughty.",
+          "example_vi": "Chú chó con này nghịch ngợm."
+        },
+        {
+          "word": "rabbit",
+          "ipa": "/ˈræbɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con thỏ",
+          "example_en": "The rabbit runs quickly.",
+          "example_vi": "Con thỏ chạy nhanh."
+        },
+        {
+          "word": "shark",
+          "ipa": "/ʃɑːrk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cá mập",
+          "example_en": "Sharks are dangerous.",
+          "example_vi": "Cá mập rất nguy hiểm."
+        },
+        {
+          "word": "snail",
+          "ipa": "/sneɪl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ốc sên",
+          "example_en": "A snail is very slow.",
+          "example_vi": "Ốc sên thì rất chậm."
+        },
+        {
+          "word": "whale",
+          "ipa": "/weɪl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cá voi",
+          "example_en": "That is a huge whale.",
+          "example_vi": "Đó là một con cá voi khổng lồ."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

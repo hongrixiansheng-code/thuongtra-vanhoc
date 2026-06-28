@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 17,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Dates and schedules",
+        "part": 1,
+        "questions": ["When is your birthday?", "What is today's date?", "Do you have any plans this month?"],
+        "sampleAnswer": "My birthday is on the first of June. Today is the fifth of March. I have a meeting on the tenth of this month."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — Describe a helpful person",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe someone who helped you recently.",
+          "bullets": ["who this person is", "what you asked them to do", "how they helped you", "and explain how you felt about it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about my colleague. I asked, 'Can you help me fill in this form?' First, she checked the date, then she helped me sign at the bottom. The meeting was on the second of May, so I felt relieved she helped me on time."
+      }
+    ]
+  }
+]

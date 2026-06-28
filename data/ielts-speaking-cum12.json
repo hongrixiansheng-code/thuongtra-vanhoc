@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 23,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: How often...?",
+        "part": 1,
+        "questions": ["How often do you exercise?", "Do you always wake up early?", "How often do you go to the cinema?"],
+        "sampleAnswer": "I usually exercise three times a week. Yes, I always wake up at six. I sometimes go to the cinema, maybe once a month."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Your schedule",
+        "part": 1,
+        "questions": ["What do you do in the morning?", "What do you do at night?", "Are you free on the weekend?"],
+        "sampleAnswer": "In the morning, I go to work. At night, I usually study until midnight. Yes, I am free on the weekend."
+      }
+    ]
+  }
+]

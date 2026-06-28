@@ -1,0 +1,30 @@
+[
+  {
+    "lessonOrder": 81,
+    "grammar": [
+      {
+        "title": "Quá khứ tiếp diễn (Past Continuous) + when + Past Simple",
+        "desc": "Dùng Past Continuous để diễn tả một hành động đang xảy ra trong quá khứ, bị gián đoạn bởi một hành động khác (Past Simple) xảy ra đột ngột.",
+        "formula": [
+          { "text": "S + was/were + V-ing", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "when + S + Past Simple", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "I was cooking dinner when the phone rang.", "vi": "Tôi đang nấu bữa tối khi điện thoại reo." },
+          { "en": "She was sleeping when the accident happened.", "vi": "Cô ấy đang ngủ khi vụ tai nạn xảy ra." },
+          { "en": "They were walking home when it started to rain.", "vi": "Họ đang đi bộ về nhà khi trời bắt đầu mưa." }
+        ],
+        "note": "Hành động dài hơn (đang xảy ra) dùng Past Continuous (was/were + V-ing); hành động ngắn, đột ngột xảy ra giữa lúc đó dùng Past Simple, nối bằng \"when\".",
+        "practiceList": [
+          { "question": "I ___ (watch) TV when the lights went out.", "correct": "was watching", "meaning": "Tôi đang xem TV khi đèn tắt.", "explanation": "Hành động đang diễn ra dùng Past Continuous." },
+          { "question": "They ___ (have) dinner when she arrived.", "correct": "were having", "meaning": "Họ đang ăn tối khi cô ấy đến.", "explanation": "Chủ ngữ \"they\" dùng \"were\" + V-ing." },
+          { "question": "While he was driving, his phone ___ (ring).", "correct": "rang", "meaning": "Trong khi anh ấy đang lái xe, điện thoại của anh ấy reo.", "explanation": "Hành động đột ngột xảy ra dùng Past Simple." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "grammar": []
+  }
+]

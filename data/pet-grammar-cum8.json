@@ -1,0 +1,186 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 14,
+      "grammar": [
+        {
+          "title": "Past Continuous ôn tập",
+          "desc": "Quá khứ tiếp diễn dùng để mô tả một hành động đang xảy ra tại một thời điểm xác định trong quá khứ.",
+          "formula": [
+            {
+              "text": "S + was/were + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "They were playing football at 5 PM yesterday.",
+              "meaning": "Họ đang chơi bóng đá lúc 5 giờ chiều qua."
+            },
+            {
+              "correct": "What were you doing last night?",
+              "meaning": "Tối qua bạn đang làm gì?"
+            },
+            {
+              "correct": "She was reading a book while he was cooking.",
+              "meaning": "Cô ấy đang đọc sách trong khi anh ấy đang nấu ăn."
+            },
+            {
+              "correct": "It was raining hard at that time.",
+              "meaning": "Lúc đó trời đang mưa rất to."
+            }
+          ]
+        },
+        {
+          "title": "Past Continuous + Past Simple",
+          "desc": "Dùng để diễn tả một hành động đang xảy ra (QKTD) thì bị một hành động khác cắt ngang (QKĐ).",
+          "formula": [
+            {
+              "text": "When/While + S + was/were + V-ing, S + V2/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I was driving when it started to rain.",
+              "meaning": "Tôi đang lái xe thì trời bắt đầu mưa."
+            },
+            {
+              "correct": "When she arrived, I was waiting.",
+              "meaning": "Khi cô ấy đến, tôi đang đợi."
+            },
+            {
+              "correct": "I was sleeping when the phone rang.",
+              "meaning": "Tôi đang ngủ thì điện thoại reo."
+            },
+            {
+              "correct": "He broke his leg while he was playing soccer.",
+              "meaning": "Anh ấy bị gãy chân khi đang chơi bóng đá."
+            }
+          ]
+        },
+        {
+          "title": "Phrasal verbs giao thông",
+          "desc": "Các cụm động từ phổ biến về xe cộ: break down (hỏng xe), fill up (đổ đầy xăng), pick up (đón).",
+          "formula": [
+            {
+              "text": "break down / fill up / pick up",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My car broke down on the motorway.",
+              "meaning": "Xe của tôi bị hỏng trên đường cao tốc."
+            },
+            {
+              "correct": "I need to fill up the tank.",
+              "meaning": "Tôi cần phải đổ đầy bình xăng."
+            },
+            {
+              "correct": "Can you pick me up at the station?",
+              "meaning": "Bạn có thể đón tôi ở nhà ga không?"
+            },
+            {
+              "correct": "We ran out of gas.",
+              "meaning": "Chúng tôi đã hết sạch xăng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 15,
+      "grammar": [
+        {
+          "title": "by the time + Past Perfect",
+          "desc": "Vào lúc một việc gì đó xảy ra trong quá khứ, thì một việc khác đã hoàn thành xong trước đó rồi.",
+          "formula": [
+            {
+              "text": "By the time + S + V2/ed, S + had + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "By the time I arrived, the train had left.",
+              "meaning": "Vào lúc tôi đến, chuyến tàu đã rời đi mất rồi."
+            },
+            {
+              "correct": "By the time we got to the cinema, the movie had started.",
+              "meaning": "Lúc chúng tôi đến rạp, bộ phim đã bắt đầu."
+            },
+            {
+              "correct": "She had finished cooking by the time I woke up.",
+              "meaning": "Cô ấy đã nấu xong trước lúc tôi thức dậy."
+            },
+            {
+              "correct": "By the time he came, everyone had gone.",
+              "meaning": "Vào lúc anh ấy tới, mọi người đã về hết."
+            }
+          ]
+        },
+        {
+          "title": "Passive Past Perfect",
+          "desc": "Câu bị động của thì Quá khứ hoàn thành.",
+          "formula": [
+            {
+              "text": "S + had + been + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The road had been closed before we got there.",
+              "meaning": "Con đường đã bị rào lại trước khi chúng tôi đến."
+            },
+            {
+              "correct": "The letter had been sent before I called him.",
+              "meaning": "Lá thư đã được gửi đi trước khi tôi gọi cho anh ấy."
+            },
+            {
+              "correct": "The cake had been eaten before I arrived.",
+              "meaning": "Chiếc bánh đã bị ăn hết trước khi tôi đến."
+            },
+            {
+              "correct": "The problem had been solved.",
+              "meaning": "Vấn đề đó đã được giải quyết xong xuôi."
+            }
+          ]
+        },
+        {
+          "title": "How long does it take...?",
+          "desc": "Cấu trúc để hỏi và trả lời về việc mất bao lâu để làm một việc hoặc đi một quãng đường.",
+          "formula": [
+            {
+              "text": "How long does it take to + V?",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "It takes/took + (sb) + time + to V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "How long does it take to get there?",
+              "meaning": "Mất bao lâu để đến được đó?"
+            },
+            {
+              "correct": "It takes about an hour.",
+              "meaning": "Mất khoảng một giờ đồng hồ."
+            },
+            {
+              "correct": "It took me two hours to finish the homework.",
+              "meaning": "Tôi đã mất hai tiếng để làm xong bài tập về nhà."
+            },
+            {
+              "correct": "How long will it take to fix the car?",
+              "meaning": "Sẽ mất bao lâu để sửa xong chiếc xe?"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

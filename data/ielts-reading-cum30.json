@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 59,
+    "reading": [
+      {
+        "title": "Reading: Maybe or maybe not",
+        "passage": "It might rain later, so take an umbrella. She could be at home now, but I'm not sure. We might not finish the project on time. The price could increase next month.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer is certain it will rain.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"It might rain later\" cho thấy không chắc chắn." },
+          { "type": "multiple_choice", "question": "What might happen with the price?", "options": ["It could increase", "It will definitely fall", "It won't change"], "correct": "It could increase", "explanation": "\"The price could increase next month.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "reading": [
+      {
+        "title": "Reading: Plans and wishes",
+        "passage": "I want to learn a new language this year. He plans to study abroad next year. She decided to apply for the job. We hope to see you again soon. They refused to pay more money.",
+        "questions": [
+          { "type": "true_false_ng", "question": "He plans to study abroad.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"He plans to study abroad next year.\"" },
+          { "type": "multiple_choice", "question": "What did they refuse to do?", "options": ["Sign the contract", "Pay more money", "Travel abroad"], "correct": "Pay more money", "explanation": "\"They refused to pay more money.\"" }
+        ]
+      }
+    ]
+  }
+]

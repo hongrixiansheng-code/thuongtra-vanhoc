@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 31,
+    "writing": [
+      {
+        "title": "Writing Task 1: A restaurant menu note",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) about food at a restaurant, using some (khẳng định) and any (phủ định/câu hỏi).",
+        "minWords": 30,
+        "sampleAnswer": "Do you have any pasta? Yes, we have some pasta and some pizza. There isn't any seafood today. We have some cake and some fruit for dessert.",
+        "checklist": ["Dùng some trong câu khẳng định", "Dùng any trong câu phủ định hoặc câu hỏi", "Có ít nhất 3 món ăn được nhắc đến"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "writing": [
+      {
+        "title": "Writing Task 1: Weekly shopping plan",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) about your shopping plan, using a lot of, plenty of, a few, a little.",
+        "minWords": 30,
+        "sampleAnswer": "We need a lot of vegetables this week. There is plenty of fruit at the market today. I only have a few onions at home, and a little rice left.",
+        "checklist": ["Dùng a lot of hoặc plenty of ít nhất 1 lần", "Dùng a few với danh từ đếm được", "Dùng a little với danh từ không đếm được"]
+      }
+    ]
+  }
+]

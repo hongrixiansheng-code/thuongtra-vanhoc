@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 25,
+      "grammar": [
+        {
+          "title": "Quá khứ đơn (Bất quy tắc Nhóm 2)",
+          "desc": "Cùng học thêm một số động từ bất quy tắc: take -> took, teach -> taught, wake -> woke, fall -> fell. (Lưu ý: 'walk' là có quy tắc -> walked).",
+          "formula": [
+            { "text": "He", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "took", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "a photo.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The teacher taught us a new song.", "meaning": "Giáo viên đã dạy cho chúng tớ một bài hát mới." },
+            { "correct": "I woke up at seven.", "meaning": "Tớ đã thức dậy lúc bảy giờ." },
+            { "correct": "He fell off the bike.", "meaning": "Cậu ấy đã ngã khỏi chiếc xe đạp." }
+          ]
+        },
+        {
+          "title": "Ôn tập mở rộng: have to / had to",
+          "desc": "Khi nói về việc 'phải làm' ở trong Quá khứ, 'have to' sẽ đổi thành 'had to'.",
+          "formula": [
+            { "text": "Yesterday,", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I had to", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "walk.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I had to walk to school yesterday.", "meaning": "Hôm qua tớ đã phải đi bộ đến trường." },
+            { "correct": "Did you have to clean your room?", "meaning": "Cậu đã phải dọn dẹp phòng của cậu đúng không?" },
+            { "correct": "She didn't have to cook.", "meaning": "Cô ấy đã không phải nấu ăn." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Quá khứ đơn",
+          "desc": "Cùng ôn lại Quá khứ đơn: Thêm '-ed' đối với động từ có quy tắc, và học thuộc lòng các động từ bất quy tắc (went, got, took...).",
+          "formula": [
+            { "text": "I walked", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "and", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "she ran.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "We walked in the park.", "meaning": "Chúng tớ đã đi bộ trong công viên." },
+            { "correct": "He didn't wake up early.", "meaning": "Cậu ấy đã không thức dậy sớm." },
+            { "correct": "Did they take a bus?", "meaning": "Họ đã bắt xe buýt phải không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A bad morning",
+          "lines": [
+            { "speaker": "A", "en": "Why were you late for school today?", "vi": "Tại sao hôm nay cậu lại đến trường muộn vậy?" },
+            { "speaker": "B", "en": "Because I woke up very late.", "vi": "Bởi vì tớ đã thức dậy rất muộn." },
+            { "speaker": "A", "en": "Did you have to walk to school?", "vi": "Cậu đã phải đi bộ đến trường à?" },
+            { "speaker": "B", "en": "Yes, I ran and then I fell down.", "vi": "Đúng, tớ đã chạy và sau đó tớ bị ngã." },
+            { "speaker": "A", "en": "Oh no! Did it hurt?", "vi": "Ôi không! Có đau không?" },
+            { "speaker": "B", "en": "A little bit. My mum took me to the nurse.", "vi": "Một chút thôi. Mẹ tớ đã đưa tớ đến gặp y tá." }
+          ]
+        },
+        {
+          "title": "An English lesson",
+          "lines": [
+            { "speaker": "A", "en": "What did you do at school yesterday?", "vi": "Hôm qua cậu đã làm gì ở trường?" },
+            { "speaker": "B", "en": "Our teacher taught us some new words.", "vi": "Giáo viên của chúng tớ đã dạy cho chúng tớ vài từ mới." },
+            { "speaker": "A", "en": "Did you have to write them down?", "vi": "Cậu có phải viết chúng xuống không?" },
+            { "speaker": "B", "en": "Yes, we did. We had to write a lot.", "vi": "Có, chúng tớ có. Chúng tớ đã phải viết rất nhiều." },
+            { "speaker": "A", "en": "I took a picture of the board.", "vi": "Tớ đã chụp một bức ảnh của tấm bảng." },
+            { "speaker": "B", "en": "That is a good idea. You are very clever.", "vi": "Đó là một ý kiến hay. Cậu rất thông minh." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "grammar": [
+        {
+          "title": "Trạng từ tần suất: always / sometimes / never",
+          "desc": "Dùng 'always' (luôn luôn), 'sometimes' (thỉnh thoảng) và 'never' (không bao giờ) để nói về mức độ thường xuyên. Các từ này đứng TRƯỚC động từ thường, nhưng đứng SAU động từ 'to be'.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "always", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "wake up early.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I always do my homework.", "meaning": "Tớ luôn luôn làm bài tập về nhà của tớ." },
+            { "correct": "She is never late.", "meaning": "Cô ấy không bao giờ bị muộn." },
+            { "correct": "We sometimes play tennis on Sundays.", "meaning": "Chúng tớ thỉnh thoảng chơi quần vợt vào những ngày Chủ Nhật." }
+          ]
+        },
+        {
+          "title": "Đại từ bất định: everyone / everything / nothing",
+          "desc": "Dùng 'everyone' (mọi người), 'everything' (mọi thứ) và 'nothing' (không có gì). Chú ý: Động từ đi sau chúng luôn chia ở số ít (is/has/goes).",
+          "formula": [
+            { "text": "Everyone", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "here.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Everyone is happy today.", "meaning": "Hôm nay mọi người đều vui vẻ." },
+            { "correct": "I have got everything in my bag.", "meaning": "Tớ có mọi thứ ở trong cặp tớ." },
+            { "correct": "There is nothing in the box.", "meaning": "Không có gì ở trong cái hộp cả." }
+          ]
+        },
+        {
+          "title": "Quá khứ đơn + Trạng từ thời gian",
+          "desc": "Sử dụng thì Quá khứ đơn kết hợp với các từ chỉ thời gian trong quá khứ như: yesterday (hôm qua), last week (tuần trước), last weekend (cuối tuần trước).",
+          "formula": [
+            { "text": "We went", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "there", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "last week.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "I saw him yesterday.", "meaning": "Tớ đã nhìn thấy cậu ấy vào hôm qua." },
+            { "correct": "We played basketball last week.", "meaning": "Chúng tớ đã chơi bóng rổ vào tuần trước." },
+            { "correct": "Did she come here last weekend?", "meaning": "Cô ấy có đến đây vào cuối tuần trước không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Always late",
+          "lines": [
+            { "speaker": "A", "en": "You are sometimes late for school.", "vi": "Cậu thỉnh thoảng đi học muộn." },
+            { "speaker": "B", "en": "I know. But my sister is never late.", "vi": "Tớ biết. Nhưng em gái tớ không bao giờ bị muộn." },
+            { "speaker": "A", "en": "Why are you late today?", "vi": "Tại sao hôm nay cậu lại muộn thế?" },
+            { "speaker": "B", "en": "Because I couldn't find my shoes this morning.", "vi": "Bởi vì sáng nay tớ đã không thể tìm thấy đôi giày của mình." },
+            { "speaker": "A", "en": "Did you ask your mum?", "vi": "Cậu có hỏi mẹ cậu không?" },
+            { "speaker": "B", "en": "Yes, everyone helped me to look for them.", "vi": "Có, mọi người đều đã giúp tớ tìm kiếm chúng." }
+          ]
+        },
+        {
+          "title": "A fun weekend",
+          "lines": [
+            { "speaker": "A", "en": "What did you do last weekend?", "vi": "Cậu đã làm gì vào cuối tuần trước?" },
+            { "speaker": "B", "en": "We went to the beach. We always go there in summer.", "vi": "Chúng tớ đã đi đến bãi biển. Chúng tớ luôn đến đó vào mùa hè." },
+            { "speaker": "A", "en": "Did you take everything with you?", "vi": "Cậu có mang theo mọi thứ cùng với cậu không?" },
+            { "speaker": "B", "en": "Yes, we took our towels and balls.", "vi": "Có, chúng tớ đã mang theo khăn tắm và bóng." },
+            { "speaker": "A", "en": "Did you catch any fish?", "vi": "Cậu có bắt được con cá nào không?" },
+            { "speaker": "B", "en": "No, we caught nothing.", "vi": "Không, chúng tớ đã không bắt được gì cả." }
+          ]
+        }
+      ]
+    }
+  ]
+}

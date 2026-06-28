@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 85,
+    "writing": [
+      {
+        "title": "Writing Task 2: A discussion essay",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 50 words) discussing both sides of an issue, using furthermore/moreover/nevertheless/in contrast/as a result.",
+        "minWords": 40,
+        "sampleAnswer": "Some people support online learning because it saves time. Moreover, it is flexible. Nevertheless, many students argue that they learn better in person. As a result, schools usually offer both options nowadays.",
+        "checklist": ["Dùng ít nhất 2 từ nối học thuật khác nhau", "Trình bày được cả hai mặt của vấn đề", "Đoạn văn mạch lạc, có kết luận"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "writing": [
+      {
+        "title": "Writing Task 2: Education, work, and technology",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 50 words) about how technology affects education and work, combining grammar from earlier chapters (Present Perfect, Conditional, relative clauses, used to).",
+        "minWords": 40,
+        "sampleAnswer": "Technology has changed education a lot in recent years. If schools had more computers, students would learn faster. I used to write everything by hand, but things have changed. Many jobs will require digital skills in the future.",
+        "checklist": ["Kết hợp được ít nhất 3 cấu trúc đã học trước đó", "Chủ đề bám sát giáo dục/công nghệ/công việc", "Đoạn văn có mở-thân-kết đơn giản"]
+      }
+    ]
+  }
+]

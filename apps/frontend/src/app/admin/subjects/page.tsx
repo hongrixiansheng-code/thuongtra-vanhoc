@@ -1,8 +1,9 @@
+import prisma from '@/lib/prisma';
 import { PrismaClient } from "database";
 import SubjectClient from "./SubjectClient";
 
 async function getData() {
-  const prisma = new PrismaClient();
+
 
   const subjects = await prisma.subject.findMany({
     include: {

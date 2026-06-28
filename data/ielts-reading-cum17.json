@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 33,
+    "reading": [
+      {
+        "title": "Reading: A rainy day",
+        "passage": "Look, it is raining now. The wind is blowing hard, and the sun is shining behind the clouds. I am watching the storm from the window. Some leaves are falling from the tree.",
+        "questions": [
+          { "type": "true_false_ng", "question": "It is raining now.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"it is raining now\"." },
+          { "type": "multiple_choice", "question": "What is the writer doing?", "options": ["Cooking dinner", "Watching the storm", "Reading a book"], "correct": "Watching the storm", "explanation": "\"I am watching the storm from the window.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "reading": [
+      {
+        "title": "Reading: A changing market",
+        "passage": "Prices are increasing this month. Fruit prices are growing fast. The shop is improving its service, and it isn't selling old food anymore. The market is expanding every year.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Fruit prices are falling.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"Fruit prices are growing fast.\"" },
+          { "type": "true_false_ng", "question": "The market is expanding every year.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu cuối nêu rõ điều này." }
+        ]
+      }
+    ]
+  }
+]

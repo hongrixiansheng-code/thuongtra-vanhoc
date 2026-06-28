@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 13,
+    "vocab": [
+      {
+        "word": "add",
+        "ipa": "/æd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thêm vào",
+        "example_en": "Add water to the bowl.",
+        "example_vi": "Thêm nước vào bát.",
+        "level": "A1"
+      },
+      {
+        "word": "mix",
+        "ipa": "/mɪks/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trộn",
+        "example_en": "Mix them together.",
+        "example_vi": "Trộn chúng với nhau.",
+        "level": "A1"
+      },
+      {
+        "word": "turn",
+        "ipa": "/tɜːn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xoay, rẽ",
+        "example_en": "Turn left.",
+        "example_vi": "Rẽ trái.",
+        "level": "A1"
+      },
+      {
+        "word": "press",
+        "ipa": "/pres/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhấn",
+        "example_en": "Press the button.",
+        "example_vi": "Nhấn nút.",
+        "level": "A1"
+      },
+      {
+        "word": "click",
+        "ipa": "/klɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhấn chuột",
+        "example_en": "Click here.",
+        "example_vi": "Nhấn chuột vào đây.",
+        "level": "A1"
+      },
+      {
+        "word": "follow",
+        "ipa": "/ˈfɒl.əʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi theo, theo dõi",
+        "example_en": "Follow me.",
+        "example_vi": "Đi theo tôi.",
+        "level": "A1"
+      },
+      {
+        "word": "check",
+        "ipa": "/tʃek/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "kiểm tra",
+        "example_en": "Check your email.",
+        "example_vi": "Kiểm tra email của bạn.",
+        "level": "A1"
+      },
+      {
+        "word": "fill",
+        "ipa": "/fɪl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lấp đầy, điền",
+        "example_en": "Fill the form.",
+        "example_vi": "Điền vào biểu mẫu.",
+        "level": "A1"
+      },
+      {
+        "word": "sign",
+        "ipa": "/saɪn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ký tên",
+        "example_en": "Sign your name here.",
+        "example_vi": "Ký tên của bạn ở đây.",
+        "level": "A1"
+      },
+      {
+        "word": "enter",
+        "ipa": "/ˈen.tər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi vào, nhập",
+        "example_en": "Enter the password.",
+        "example_vi": "Nhập mật khẩu.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "vocab": [
+      {
+        "word": "hot",
+        "ipa": "/hɒt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nóng",
+        "example_en": "The water is hot.",
+        "example_vi": "Nước nóng.",
+        "level": "A1"
+      },
+      {
+        "word": "cold",
+        "ipa": "/kəʊld/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "lạnh",
+        "example_en": "It is cold.",
+        "example_vi": "Trời lạnh.",
+        "level": "A1"
+      },
+      {
+        "word": "warm",
+        "ipa": "/wɔːm/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "ấm áp",
+        "example_en": "The room is warm.",
+        "example_vi": "Căn phòng ấm áp.",
+        "level": "A1"
+      },
+      {
+        "word": "wet",
+        "ipa": "/wet/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "ướt",
+        "example_en": "My hair is wet.",
+        "example_vi": "Tóc tôi bị ướt.",
+        "level": "A1"
+      },
+      {
+        "word": "dry",
+        "ipa": "/draɪ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "khô",
+        "example_en": "The clothes are dry.",
+        "example_vi": "Quần áo đã khô.",
+        "level": "A1"
+      },
+      {
+        "word": "loud",
+        "ipa": "/laʊd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "ồn ào, to tiếng",
+        "example_en": "The music is loud.",
+        "example_vi": "Nhạc to quá.",
+        "level": "A1"
+      },
+      {
+        "word": "quiet",
+        "ipa": "/ˈkwaɪ.ət/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "yên tĩnh",
+        "example_en": "Please be quiet.",
+        "example_vi": "Làm ơn trật tự.",
+        "level": "A1"
+      },
+      {
+        "word": "clean",
+        "ipa": "/kliːn/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sạch sẽ",
+        "example_en": "The house is clean.",
+        "example_vi": "Ngôi nhà sạch sẽ.",
+        "level": "A1"
+      },
+      {
+        "word": "dirty",
+        "ipa": "/ˈdɜː.ti/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bẩn",
+        "example_en": "My hands are dirty.",
+        "example_vi": "Tay tôi bẩn.",
+        "level": "A1"
+      },
+      {
+        "word": "comfortable",
+        "ipa": "/ˈkʌm.fə.tə.bəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thoải mái",
+        "example_en": "The bed is comfortable.",
+        "example_vi": "Giường rất thoải mái.",
+        "level": "A1"
+      }
+    ]
+  }
+]

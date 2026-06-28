@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 41,
+    "vocab": [
+      {
+        "word": "think",
+        "ipa": "/θɪŋk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghĩ",
+        "example_en": "I thought about you.",
+        "example_vi": "Tôi đã nghĩ về bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "know",
+        "ipa": "/nəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "biết",
+        "example_en": "I knew it.",
+        "example_vi": "Tôi đã biết điều đó.",
+        "level": "A2"
+      },
+      {
+        "word": "understand",
+        "ipa": "/ˌʌn.dəˈstænd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hiểu",
+        "example_en": "She understood me.",
+        "example_vi": "Cô ấy đã hiểu tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "believe",
+        "ipa": "/bɪˈliːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tin",
+        "example_en": "I believed him.",
+        "example_vi": "Tôi đã tin anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "feel",
+        "ipa": "/fiːl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cảm thấy",
+        "example_en": "I felt happy.",
+        "example_vi": "Tôi đã cảm thấy vui.",
+        "level": "A2"
+      },
+      {
+        "word": "find",
+        "ipa": "/faɪnd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tìm thấy",
+        "example_en": "He found his key.",
+        "example_vi": "Anh ấy đã tìm thấy chìa khóa.",
+        "level": "A2"
+      },
+      {
+        "word": "leave",
+        "ipa": "/liːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "rời đi, để lại",
+        "example_en": "They left early.",
+        "example_vi": "Họ đã rời đi sớm.",
+        "level": "A2"
+      },
+      {
+        "word": "give",
+        "ipa": "/ɡɪv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cho, đưa",
+        "example_en": "She gave me a book.",
+        "example_vi": "Cô ấy đã tặng tôi một cuốn sách.",
+        "level": "A2"
+      },
+      {
+        "word": "take",
+        "ipa": "/teɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lấy",
+        "example_en": "He took my bag.",
+        "example_vi": "Anh ấy đã lấy túi của tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "get",
+        "ipa": "/ɡet/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhận được",
+        "example_en": "I got a letter.",
+        "example_vi": "Tôi đã nhận được một lá thư.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "vocab": [
+      {
+        "word": "king",
+        "ipa": "/kɪŋ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà vua",
+        "example_en": "He was a king.",
+        "example_vi": "Ông ấy đã là một nhà vua.",
+        "level": "A2"
+      },
+      {
+        "word": "queen",
+        "ipa": "/kwiːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nữ hoàng",
+        "example_en": "She was a queen.",
+        "example_vi": "Bà ấy đã là một nữ hoàng.",
+        "level": "A2"
+      },
+      {
+        "word": "war",
+        "ipa": "/wɔːr/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chiến tranh",
+        "example_en": "There was a war.",
+        "example_vi": "Đã có một cuộc chiến tranh.",
+        "level": "A2"
+      },
+      {
+        "word": "peace",
+        "ipa": "/piːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "hòa bình",
+        "example_en": "We want peace.",
+        "example_vi": "Chúng tôi muốn hòa bình.",
+        "level": "A2"
+      },
+      {
+        "word": "history",
+        "ipa": "/ˈhɪs.tər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lịch sử",
+        "example_en": "I read history.",
+        "example_vi": "Tôi đã đọc lịch sử.",
+        "level": "A2"
+      },
+      {
+        "word": "event",
+        "ipa": "/ɪˈvent/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự kiện",
+        "example_en": "It was a big event.",
+        "example_vi": "Đó đã là một sự kiện lớn.",
+        "level": "A2"
+      },
+      {
+        "word": "hero",
+        "ipa": "/ˈhɪə.rəʊ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "anh hùng",
+        "example_en": "He is my hero.",
+        "example_vi": "Anh ấy là người anh hùng của tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "leader",
+        "ipa": "/ˈliː.dər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lãnh đạo",
+        "example_en": "She was a great leader.",
+        "example_vi": "Bà ấy đã là một nhà lãnh đạo xuất sắc.",
+        "level": "A2"
+      },
+      {
+        "word": "battle",
+        "ipa": "/ˈbæt.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trận chiến",
+        "example_en": "They won the battle.",
+        "example_vi": "Họ đã thắng trận chiến.",
+        "level": "A2"
+      },
+      {
+        "word": "victory",
+        "ipa": "/ˈvɪk.tər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chiến thắng",
+        "example_en": "It was a victory.",
+        "example_vi": "Đó đã là một chiến thắng.",
+        "level": "A2"
+      }
+    ]
+  }
+]

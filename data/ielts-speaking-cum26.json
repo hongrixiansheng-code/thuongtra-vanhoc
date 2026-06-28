@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 51,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Records and rankings",
+        "part": 1,
+        "questions": ["What is the highest mountain in your country?", "What is the best restaurant you know?", "What was the most difficult exam you ever took?"],
+        "sampleAnswer": "The highest mountain in my country is Fansipan. The best restaurant I know is near my house. The most difficult exam I ever took was my final English exam."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Similarities and differences",
+        "part": 1,
+        "questions": ["Is your daily routine similar to your friend's?", "Is it common for people in your country to work part-time?", "Is your hometown as crowded as the capital?"],
+        "sampleAnswer": "Yes, my routine is quite similar to my friend's. Yes, it's common for students to work part-time. No, my hometown isn't as crowded as the capital."
+      }
+    ]
+  }
+]

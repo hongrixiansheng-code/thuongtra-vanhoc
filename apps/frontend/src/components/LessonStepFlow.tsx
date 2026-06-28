@@ -62,14 +62,20 @@ interface LessonStepFlowProps {
   grammarItems: any[];
   dialogueItems: any[];
   exerciseItems: any[];
+  readingItems?: any[];
+  listeningItems?: any[];
+  writingItems?: any[];
+  speakingItems?: any[];
   lessonTitle: string;
   lessonId?: string;
+  programName?: string;
+  programCode?: string;
   nextLessonTitle?: string;
   onComplete?: (score: number) => void;
   onBack?: () => void;
 }
 
-type StepType = "vocab" | "mini-test" | "grammar" | "dialogue" | "final-test" | "completion";
+type StepType = "vocab" | "mini-test" | "grammar" | "dialogue" | "reading" | "listening" | "writing" | "speaking" | "final-test" | "completion";
 
 interface Step {
   id: string;
@@ -87,17 +93,32 @@ function shuffleArray<T>(array: T[]): T[] {
   return newArr;
 }
 
+// Bỏ phần phiên âm IPA (vd "sea /siː/" → "sea") trước khi gửi cho Web Speech API,
+// vì TTS đọc luôn cả ký hiệu /.../ thành tiếng nếu không lọc.
+function stripIPA(text: string): string {
+  return text?.replace(/\/[^/]*\//g, '').replace(/\s+/g, ' ').trim();
+}
+
 export default function LessonStepFlow({
   vocabItems,
   grammarItems,
   dialogueItems,
   exerciseItems,
+  readingItems = [],
+  listeningItems = [],
+  writingItems = [],
+  speakingItems = [],
   lessonTitle,
   lessonId,
+  programCode,
   nextLessonTitle,
   onComplete,
   onBack,
 }: LessonStepFlowProps) {
+  // EPF (Tiếng Anh Cơ Bản — phát âm) tạm bỏ test tự sinh vì test hiện tại
+  // chỉ kiểm tra nghĩa từ, không phù hợp nội dung phát âm — sẽ thay bằng
+  // bài test phân biệt âm chuyên biệt sau.
+  const skipAutoTest = programCode === 'en-epf';
   // Speech settings
   const [speechRate, setSpeechRate] = useState(1.0);
   const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
@@ -133,15 +154,17 @@ export default function LessonStepFlow({
   // 1. Build steps
   const steps = useMemo(() => {
     const s: Step[] = [];
+    const vocabBlock: Step[] = [];
+    const grammarBlock: Step[] = [];
     let batchCount = 0;
 
     // Vocab + Mini-test
     for (let i = 0; i < vocabItems.length; i += 5) {
       const batch = vocabItems.slice(i, i + 5);
-      s.push({ type: "vocab", id: `vocab-${i}`, data: batch });
+      vocabBlock.push({ type: "vocab", id: `vocab-${i}`, data: batch });
       batchCount++;
 
-      if (batchCount % 2 === 0) {
+      if (batchCount % 2 === 0 && !skipAutoTest) {
         // Lấy 10 từ của 2 batch vừa học
         const startIdx = Math.max(0, i - 4);
         const recentVocab = vocabItems.slice(startIdx, i + 5);
@@ -191,23 +214,50 @@ export default function LessonStepFlow({
         });
 
         if (questions.length > 0) {
-          s.push({ type: "mini-test", id: `mini-test-${i}`, data: questions });
+          vocabBlock.push({ type: "mini-test", id: `mini-test-${i}`, data: questions });
         }
       }
     }
 
     // Grammar
     grammarItems.forEach((g, i) => {
-      s.push({ type: "grammar", id: `grammar-${i}`, data: g });
+      grammarBlock.push({ type: "grammar", id: `grammar-${i}`, data: g });
     });
+
+    // EPF: phần giải thích (grammar) lên đầu bài, trước flashcard từ vựng
+    if (skipAutoTest) {
+      s.push(...grammarBlock, ...vocabBlock);
+    } else {
+      s.push(...vocabBlock, ...grammarBlock);
+    }
 
     // Dialogue
     dialogueItems.forEach((d, i) => {
       s.push({ type: "dialogue", id: `dialogue-${i}`, data: d });
     });
 
+    // Reading
+    readingItems.forEach((r, i) => {
+      s.push({ type: "reading", id: `reading-${i}`, data: r });
+    });
+
+    // Listening
+    listeningItems.forEach((l, i) => {
+      s.push({ type: "listening", id: `listening-${i}`, data: l });
+    });
+
+    // Writing
+    writingItems.forEach((w, i) => {
+      s.push({ type: "writing", id: `writing-${i}`, data: w });
+    });
+
+    // Speaking
+    speakingItems.forEach((sp, i) => {
+      s.push({ type: "speaking", id: `speaking-${i}`, data: sp });
+    });
+
     // Final test
-    if (vocabItems.length > 0) {
+    if (vocabItems.length > 0 && !skipAutoTest) {
       const allVocab = shuffleArray([...vocabItems]);
 
       // 2 câu MC: hỏi nghĩa từ vựng random
@@ -228,6 +278,33 @@ export default function LessonStepFlow({
       const fbQuestions = grammarPool.slice(0, 2).map((g: any) => {
         // Lấy 1 câu ví dụ từ practiceList, đục lỗ 1 từ quan trọng
         const example = g.practiceList?.[Math.floor(Math.random() * (g.practiceList?.length || 1))];
+        
+        // IELTS Schema: đã có sẵn câu hỏi đục lỗ trong practiceList
+        if (example?.question && example?.question.includes('___')) {
+          let wrongOptions = shuffleArray(
+            grammarItems
+              .filter((og: any) => og !== g)
+              .flatMap((og: any) =>
+                (og.formula || []).flatMap((f: any) =>
+                  f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
+                )
+              )
+          );
+          if (wrongOptions.length < 3) {
+            wrongOptions = [...wrongOptions, ...shuffleArray(vocabItems.map((v: any) => v.hanzi || v.word))];
+          }
+          wrongOptions = Array.from(new Set(wrongOptions.filter((w: string) => w && w !== example.correct))).slice(0, 3);
+          
+          return {
+            type: 'fill_blank',
+            question: example.question,
+            options: shuffleArray([example.correct, ...wrongOptions].filter(Boolean).slice(0, 4)),
+            correct: example.correct,
+            explanation: example.explanation || g.desc || ''
+          };
+        }
+
+        // Legacy HSK Schema: đục lỗ từ câu correct
         const sentence = example?.correct || '';
 
         let targetWord = '';
@@ -309,7 +386,7 @@ export default function LessonStepFlow({
     s.push({ type: "completion", id: "completion" });
 
     return s;
-  }, [vocabItems, grammarItems, dialogueItems, exerciseItems]);
+  }, [vocabItems, grammarItems, dialogueItems, exerciseItems, readingItems, listeningItems, writingItems, speakingItems, skipAutoTest]);
 
   // Global State
   const [currentStep, setCurrentStep] = useState(0);
@@ -426,22 +503,35 @@ export default function LessonStepFlow({
         {/* Content Area */}
         <div className="flex-1 max-w-3xl w-full mx-auto p-4 sm:p-6 lg:p-8 flex flex-col">
           {step.type === "vocab" && (
-            <VocabStep data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+            <VocabStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
           )}
           {step.type === "mini-test" && (
-            <MiniTestStep data={step.data} onFinish={handleMiniTestFinish} />
+            <MiniTestStep key={currentStep} data={step.data} onFinish={handleMiniTestFinish} />
           )}
           {step.type === "grammar" && (
-            <GrammarStep data={step.data} isZH={isZH} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+            <GrammarStep key={currentStep} data={step.data} isZH={isZH} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
           )}
           {step.type === "dialogue" && (
-            <DialogueStep data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+            <DialogueStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+          )}
+          {step.type === "reading" && (
+            <ReadingStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+          )}
+          {step.type === "listening" && (
+            <ListeningStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+          )}
+          {step.type === "writing" && (
+            <WritingStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+          )}
+          {step.type === "speaking" && (
+            <SpeakingStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
           )}
           {step.type === "final-test" && (
-            <FinalTestStep data={step.data} onFinish={handleFinalTestFinish} />
+            <FinalTestStep key={currentStep} data={step.data} onFinish={handleFinalTestFinish} />
           )}
           {step.type === "completion" && (
             <CompletionStep
+              key={currentStep}
               score={totalQuestions > 0 ? Math.round((totalCorrect / totalQuestions) * 100) : 100}
               lessonTitle={lessonTitle}
               nextLessonTitle={nextLessonTitle}
@@ -684,38 +774,64 @@ function GrammarStep({ data, isZH, onNext, onPrev }: { data: any; isZH?: boolean
           <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4">
             💬 Ví dụ thực tế
           </div>
-          <div className="space-y-3">
-            {data.practiceList?.map((p: any, idx: number) => (
-              <div key={idx} className="flex items-center gap-3 p-3 bg-green-50 rounded-xl border border-green-100">
-                <span className="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">
-                  {idx + 1}
-                </span>
-                <div>
-                  <div className="font-semibold text-slate-800">{p.correct}</div>
-                  {(p.pinyin || (p.correct && /[\u4e00-\u9fa5]/.test(p.correct))) && (
-                    <div className="text-indigo-400 text-xs font-medium">
-                      {p.pinyin || pinyin(p.correct)}
-                    </div>
-                  )}
-                  {p.meaning && <div className="text-slate-400 text-xs">{p.meaning}</div>}
+          <div className={data.pairGrid ? "grid grid-cols-1 sm:grid-cols-2 gap-3" : "space-y-3"}>
+            {data.examples ? (
+              // IELTS Schema
+              data.examples.map((ex: any, idx: number) => (
+                <div key={idx} className="flex items-center gap-3 p-3 bg-blue-50 rounded-xl border border-blue-100">
+                  <span className="w-6 h-6 bg-blue-500 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">
+                    {idx + 1}
+                  </span>
+                  <div>
+                    <div className="font-semibold text-slate-800">{ex.en}</div>
+                    {ex.vi && <div className="text-slate-400 text-xs">{ex.vi}</div>}
+                  </div>
+                  <button
+                    onClick={() => speak(ex.en)}
+                    className="ml-auto text-blue-400 hover:text-blue-600 transition-colors"
+                  >
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                      <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                    </svg>
+                  </button>
                 </div>
-                <button
-                  onClick={() => speak(p.correct)}
-                  className="ml-auto text-green-400 hover:text-green-600 transition-colors"
-                >
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-                    <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
-                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
-                  </svg>
-                </button>
-              </div>
-            ))}
+              ))
+            ) : (
+              // Legacy HSK Schema
+              data.practiceList?.map((p: any, idx: number) => (
+                <div key={idx} className="flex items-center gap-3 p-3 bg-green-50 rounded-xl border border-green-100">
+                  <span className="w-6 h-6 bg-green-500 text-white rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0">
+                    {idx + 1}
+                  </span>
+                  <div>
+                    <div className="font-semibold text-slate-800">{p.correct}</div>
+                    {(p.pinyin || (p.correct && /[\u4e00-\u9fa5]/.test(p.correct))) && (
+                      <div className="text-indigo-400 text-xs font-medium">
+                        {p.pinyin || pinyin(p.correct)}
+                      </div>
+                    )}
+                    {p.meaning && <div className="text-slate-400 text-xs">{p.meaning}</div>}
+                  </div>
+                  {!data.noAudio && (
+                    <button
+                      onClick={() => speak(stripIPA(p.correct))}
+                      className="ml-auto text-green-400 hover:text-green-600 transition-colors"
+                    >
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                        <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                        <path d="M19.07 4.93a10 10 0 0 1 0 14.14"/>
+                        <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                      </svg>
+                    </button>
+                  )}
+                </div>
+              ))
+            )}
           </div>
         </div>
-      </div>
-
-      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
+      </div>      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
         {onPrev && (
           <button
             onClick={onPrev}
@@ -882,6 +998,255 @@ function DialogueStep({ data, onNext, onPrev }: { data: any; onNext: () => void;
           onClick={handleNext}
           className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold text-lg transition-colors"
         >
+          Tiếp theo →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+// Danh sách câu hỏi tự luyện (Reading/Listening) — chọn đáp án, xem giải thích ngay, không tính điểm
+function SkillQuestionList({ questions }: { questions: any[] }) {
+  const [selected, setSelected] = useState<Record<number, string>>({});
+
+  return (
+    <div className="space-y-4">
+      {questions?.map((q: any, qIdx: number) => {
+        const options = q.options && q.options.length > 0 ? q.options : ['True', 'False', 'Not Given'];
+        return (
+          <div key={qIdx} className="border border-slate-100 rounded-xl p-4 bg-white">
+            <div className="font-semibold text-slate-800 mb-3">{qIdx + 1}. {q.question}</div>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {options.map((opt: string, oIdx: number) => {
+                const isSelected = selected[qIdx] === opt;
+                const isCorrectOpt = opt === q.correct;
+                let cls = "bg-white border-2 border-slate-200 text-slate-700 hover:border-emerald-400 hover:bg-emerald-50";
+                if (selected[qIdx]) {
+                  if (isCorrectOpt) cls = "bg-green-50 border-2 border-green-400 text-green-700";
+                  else if (isSelected) cls = "bg-red-50 border-2 border-red-400 text-red-700";
+                  else cls = "bg-white border-2 border-slate-100 text-slate-300 opacity-60";
+                }
+                return (
+                  <button
+                    key={oIdx}
+                    onClick={() => setSelected(prev => ({ ...prev, [qIdx]: opt }))}
+                    className={`p-3 rounded-xl text-sm font-medium text-left transition-all ${cls}`}
+                  >
+                    {opt}
+                  </button>
+                );
+              })}
+            </div>
+            {selected[qIdx] && q.explanation && (
+              <div className="mt-3 text-sm text-slate-500 bg-slate-50 p-3 rounded-lg">{q.explanation}</div>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
+}
+
+function ReadingStep({ data, onNext, onPrev }: { data: any; onNext: () => void; onPrev?: () => void }) {
+  return (
+    <div className="flex flex-col flex-1">
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 flex flex-col">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-slate-800">{data.title}</h2>
+          <span className="text-xs font-bold px-3 py-1 rounded-full bg-emerald-100 text-emerald-700 uppercase tracking-wide flex-shrink-0">Reading</span>
+        </div>
+        {data.passage && (
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700 leading-relaxed mb-6 whitespace-pre-line">
+            {data.passage}
+          </div>
+        )}
+        <SkillQuestionList questions={data.questions} />
+      </div>
+      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
+        {onPrev && (
+          <button onClick={onPrev} className="flex-shrink-0 px-5 py-4 rounded-xl border-2 border-slate-200 text-slate-600 font-semibold hover:bg-slate-50 transition-colors">
+            ← Trước
+          </button>
+        )}
+        <button onClick={onNext} className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold text-lg transition-colors">
+          Tiếp theo →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function ListeningStep({ data, onNext, onPrev }: { data: any; onNext: () => void; onPrev?: () => void }) {
+  const { speak } = React.useContext(SpeechContext);
+  const [showTranscript, setShowTranscript] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(false);
+
+  const handlePlay = () => {
+    setIsPlaying(true);
+    speak(data.transcript, 'en-US', () => setIsPlaying(false));
+  };
+
+  return (
+    <div className="flex flex-col flex-1">
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 flex flex-col">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-slate-800">{data.title}</h2>
+          <span className="text-xs font-bold px-3 py-1 rounded-full bg-amber-100 text-amber-700 uppercase tracking-wide flex-shrink-0">Listening</span>
+        </div>
+        <div className="flex items-center gap-3 mb-6">
+          <button
+            onClick={handlePlay}
+            className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold transition-colors ${isPlaying ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'}`}
+          >
+            {isPlaying ? '⏸ Đang phát...' : '▶ Nghe transcript'}
+          </button>
+          <button
+            onClick={() => setShowTranscript(prev => !prev)}
+            className="text-sm font-medium text-slate-500 hover:text-slate-700 underline"
+          >
+            {showTranscript ? 'Ẩn transcript' : 'Xem transcript'}
+          </button>
+        </div>
+        {showTranscript && (
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700 leading-relaxed mb-6 whitespace-pre-line">
+            {data.transcript}
+          </div>
+        )}
+        <SkillQuestionList questions={data.questions} />
+      </div>
+      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
+        {onPrev && (
+          <button onClick={onPrev} className="flex-shrink-0 px-5 py-4 rounded-xl border-2 border-slate-200 text-slate-600 font-semibold hover:bg-slate-50 transition-colors">
+            ← Trước
+          </button>
+        )}
+        <button onClick={onNext} className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold text-lg transition-colors">
+          Tiếp theo →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function WritingStep({ data, onNext, onPrev }: { data: any; onNext: () => void; onPrev?: () => void }) {
+  const [draft, setDraft] = useState('');
+  const [showSample, setShowSample] = useState(false);
+  const wordCount = draft.trim() ? draft.trim().split(/\s+/).length : 0;
+
+  return (
+    <div className="flex flex-col flex-1">
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 flex flex-col">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-slate-800">{data.title}</h2>
+          <span className="text-xs font-bold px-3 py-1 rounded-full bg-purple-100 text-purple-700 uppercase tracking-wide flex-shrink-0">Writing</span>
+        </div>
+        <div className="bg-purple-50 border border-purple-100 p-4 rounded-xl text-slate-700 mb-4">
+          {data.prompt}
+        </div>
+        <textarea
+          value={draft}
+          onChange={e => setDraft(e.target.value)}
+          placeholder={`Viết bài của bạn ở đây (tối thiểu ${data.minWords || 0} từ)...`}
+          className="w-full min-h-[160px] p-4 border border-slate-200 rounded-xl text-sm focus:outline-none focus:border-purple-400 mb-2"
+        />
+        <div className={`text-xs mb-4 ${wordCount >= (data.minWords || 0) ? 'text-green-600' : 'text-slate-400'}`}>
+          {wordCount} từ {data.minWords ? `/ tối thiểu ${data.minWords}` : ''}
+        </div>
+        <button
+          onClick={() => setShowSample(prev => !prev)}
+          className="self-start text-sm font-semibold text-purple-600 hover:text-purple-800 underline mb-4"
+        >
+          {showSample ? 'Ẩn đáp án mẫu' : 'Xem đáp án mẫu & checklist'}
+        </button>
+        {showSample && (
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 space-y-3">
+            {data.sampleAnswer && (
+              <div>
+                <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Đáp án mẫu</div>
+                <div className="text-slate-700 whitespace-pre-line">{data.sampleAnswer}</div>
+              </div>
+            )}
+            {data.checklist?.length > 0 && (
+              <div>
+                <div className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-1">Checklist Band 4.0</div>
+                <ul className="list-disc list-inside text-slate-600 space-y-1">
+                  {data.checklist.map((c: string, idx: number) => <li key={idx}>{c}</li>)}
+                </ul>
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
+        {onPrev && (
+          <button onClick={onPrev} className="flex-shrink-0 px-5 py-4 rounded-xl border-2 border-slate-200 text-slate-600 font-semibold hover:bg-slate-50 transition-colors">
+            ← Trước
+          </button>
+        )}
+        <button onClick={onNext} className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold text-lg transition-colors">
+          Tiếp theo →
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function SpeakingStep({ data, onNext, onPrev }: { data: any; onNext: () => void; onPrev?: () => void }) {
+  const { speak } = React.useContext(SpeechContext);
+  const [showSample, setShowSample] = useState(false);
+
+  return (
+    <div className="flex flex-col flex-1">
+      <div className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex-1 flex flex-col">
+        <div className="flex items-center justify-between mb-4">
+          <h2 className="text-xl font-bold text-slate-800">{data.title}</h2>
+          <span className="text-xs font-bold px-3 py-1 rounded-full bg-rose-100 text-rose-700 uppercase tracking-wide flex-shrink-0">Speaking{data.part ? ` Part ${data.part}` : ''}</span>
+        </div>
+
+        {data.cueCard && (
+          <div className="bg-rose-50 border border-rose-100 p-5 rounded-xl mb-4">
+            <div className="font-bold text-slate-800 mb-2">{data.cueCard.topic}</div>
+            <ul className="list-disc list-inside text-slate-600 space-y-1">
+              {data.cueCard.bullets?.map((b: string, idx: number) => <li key={idx}>{b}</li>)}
+            </ul>
+          </div>
+        )}
+
+        {data.questions?.length > 0 && (
+          <div className="space-y-3 mb-4">
+            {data.questions.map((q: string, idx: number) => (
+              <div key={idx} className="flex items-center justify-between gap-3 p-3 bg-slate-50 rounded-xl border border-slate-100">
+                <div className="text-slate-800 font-medium">{q}</div>
+                <button onClick={() => speak(q)} className="flex-shrink-0 text-rose-400 hover:text-rose-600 transition-colors">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                  </svg>
+                </button>
+              </div>
+            ))}
+          </div>
+        )}
+
+        <button
+          onClick={() => setShowSample(prev => !prev)}
+          className="self-start text-sm font-semibold text-rose-600 hover:text-rose-800 underline mb-4"
+        >
+          {showSample ? 'Ẩn gợi ý trả lời' : 'Xem gợi ý trả lời mẫu'}
+        </button>
+        {showSample && data.sampleAnswer && (
+          <div className="bg-slate-50 p-4 rounded-xl border border-slate-100 text-slate-700 whitespace-pre-line">
+            {data.sampleAnswer}
+          </div>
+        )}
+      </div>
+      <div className="sticky bottom-0 bg-white/95 backdrop-blur border-t border-slate-100 p-4 -mx-4 mt-6 flex gap-3">
+        {onPrev && (
+          <button onClick={onPrev} className="flex-shrink-0 px-5 py-4 rounded-xl border-2 border-slate-200 text-slate-600 font-semibold hover:bg-slate-50 transition-colors">
+            ← Trước
+          </button>
+        )}
+        <button onClick={onNext} className="flex-1 bg-blue-600 hover:bg-blue-700 text-white py-4 rounded-xl font-semibold text-lg transition-colors">
           Tiếp theo →
         </button>
       </div>
@@ -1114,66 +1479,68 @@ function DragDropQuestion({ ex, onNext }: { ex: any; onNext: (isCorrect: boolean
         </div>
       </div>
       <h3 className="text-xl font-bold text-slate-800 mb-6 text-center">{ex.question}</h3>
-      <div className="flex gap-8 justify-center">
-        {/* EN Column */}
-        <div className="flex flex-col gap-3 w-48">
-          {enList.map((en, idx) => {
-            const isMatched = matchedEn.includes(en);
-            const isSelected = selectedEn === en;
-            return (
-              <button
-                key={`en-${idx}`}
-                disabled={isMatched}
-                onClick={() => {
-                  setSelectedEn(en);
-                  window.speechSynthesis.cancel();
-                  const u = new SpeechSynthesisUtterance(en);
-                  u.lang = 'en-US';
-                  u.rate = 0.85;
-                  window.speechSynthesis.speak(u);
-                }}
-                className={`p-3 rounded-xl border-2 font-medium transition-all text-center
-                  ${isMatched
-                    ? "opacity-0 invisible"
-                    : isSelected
-                    ? "bg-blue-100 border-blue-500 text-blue-800 shadow-sm"
-                    : "bg-white border-blue-100 text-slate-700 hover:border-blue-400 hover:bg-blue-50"
-                  }`}
-              >
-                <div>{en}</div>
-                {/[\u4e00-\u9fa5]/.test(en) && (
-                  <div className="text-indigo-500 text-xs mt-1 font-medium">
-                    {pinyin(en)}
-                  </div>
-                )}
-              </button>
-            );
-          })}
-        </div>
+      <div className="bg-slate-50 p-8 rounded-3xl border border-slate-100">
+        <div className="flex gap-12 sm:gap-16 justify-center">
+          {/* EN Column */}
+          <div className="flex flex-col gap-4 w-52 sm:w-64">
+            {enList.map((en, idx) => {
+              const isMatched = matchedEn.includes(en);
+              const isSelected = selectedEn === en;
+              return (
+                <button
+                  key={`en-${idx}`}
+                  disabled={isMatched}
+                  onClick={() => {
+                    setSelectedEn(en);
+                    window.speechSynthesis.cancel();
+                    const u = new SpeechSynthesisUtterance(en);
+                    u.lang = 'en-US';
+                    u.rate = 0.85;
+                    window.speechSynthesis.speak(u);
+                  }}
+                  className={`p-4 rounded-2xl border-2 font-semibold transition-all text-center min-h-[64px] flex flex-col items-center justify-center
+                    ${isMatched
+                      ? "opacity-0 invisible"
+                      : isSelected
+                      ? "bg-blue-100 border-blue-500 text-blue-800 shadow-md scale-105"
+                      : "bg-white border-transparent shadow-sm text-slate-700 hover:border-blue-300 hover:shadow-md"
+                    }`}
+                >
+                  <div>{en}</div>
+                  {/[\u4e00-\u9fa5]/.test(en) && (
+                    <div className="text-indigo-500 text-xs mt-1 font-medium">
+                      {pinyin(en)}
+                    </div>
+                  )}
+                </button>
+              );
+            })}
+          </div>
 
-        {/* VI Column */}
-        <div className="flex flex-col gap-3 w-48">
-          {viList.map((vi, idx) => {
-            const enPair = ex.pairs.find((p: any) => p.vi === vi)?.en;
-            const isMatched = enPair ? matchedEn.includes(enPair) : false;
-            const isSelected = selectedVi === vi;
-            return (
-              <button
-                key={`vi-${idx}`}
-                disabled={isMatched}
-                onClick={() => setSelectedVi(vi)}
-                className={`p-3 rounded-xl border-2 font-medium transition-all text-center
-                  ${isMatched
-                    ? "opacity-0 invisible"
-                    : isSelected
-                    ? "bg-blue-100 border-blue-500 text-blue-800 shadow-sm"
-                    : "bg-white border-blue-100 text-slate-700 hover:border-blue-400 hover:bg-blue-50"
-                  }`}
-              >
-                {vi}
-              </button>
-            );
-          })}
+          {/* VI Column */}
+          <div className="flex flex-col gap-4 w-52 sm:w-64">
+            {viList.map((vi, idx) => {
+              const enPair = ex.pairs.find((p: any) => p.vi === vi)?.en;
+              const isMatched = enPair ? matchedEn.includes(enPair) : false;
+              const isSelected = selectedVi === vi;
+              return (
+                <button
+                  key={`vi-${idx}`}
+                  disabled={isMatched}
+                  onClick={() => setSelectedVi(vi)}
+                  className={`p-4 rounded-2xl border-2 font-semibold transition-all text-center min-h-[64px] flex items-center justify-center
+                    ${isMatched
+                      ? "opacity-0 invisible"
+                      : isSelected
+                      ? "bg-blue-100 border-blue-500 text-blue-800 shadow-md scale-105"
+                      : "bg-white border-transparent shadow-sm text-slate-700 hover:border-blue-300 hover:shadow-md"
+                    }`}
+                >
+                  {vi}
+                </button>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

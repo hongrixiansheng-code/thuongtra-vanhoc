@@ -1,0 +1,57 @@
+[
+  {
+    "lessonOrder": 51,
+    "dialogue": [
+      {
+        "title": "The best and the worst",
+        "lines": [
+          { "speaker": "Mai", "en": "What is the highest mountain in Vietnam?", "vi": "Ngọn núi cao nhất ở Việt Nam là gì?" },
+          { "speaker": "David", "en": "I think it's Fansipan. It's the highest peak in the country.", "vi": "Tôi nghĩ là Fansipan. Đó là đỉnh núi cao nhất trong nước." },
+          { "speaker": "Mai", "en": "Which city has the largest population?", "vi": "Thành phố nào có dân số lớn nhất?" },
+          { "speaker": "David", "en": "Ho Chi Minh City has the largest population in Vietnam.", "vi": "Thành phố Hồ Chí Minh có dân số lớn nhất ở Việt Nam." },
+          { "speaker": "Mai", "en": "What was the worst part of your trip?", "vi": "Phần tồi tệ nhất của chuyến đi bạn là gì?" },
+          { "speaker": "David", "en": "The worst part was the traffic. It was the busiest road I have ever seen.", "vi": "Phần tồi tệ nhất là giao thông. Đó là con đường đông đúc nhất tôi từng thấy." }
+        ]
+      },
+      {
+        "title": "Class statistics",
+        "lines": [
+          { "speaker": "Mai", "en": "Who got the best score in the test?", "vi": "Ai đạt điểm tốt nhất trong bài kiểm tra?" },
+          { "speaker": "David", "en": "Linh got the best score this time.", "vi": "Linh đạt điểm tốt nhất lần này." },
+          { "speaker": "Mai", "en": "And who got the lowest score?", "vi": "Và ai đạt điểm thấp nhất?" },
+          { "speaker": "David", "en": "I'm not sure, but Minh said his score was the lowest in the class.", "vi": "Tôi không chắc, nhưng Minh nói điểm của anh ấy thấp nhất trong lớp." },
+          { "speaker": "Mai", "en": "This must be the most difficult test of the year.", "vi": "Đây phải là bài kiểm tra khó nhất trong năm." },
+          { "speaker": "David", "en": "I agree, it was definitely the hardest one so far.", "vi": "Tôi đồng ý, đó chắc chắn là bài khó nhất từ trước đến nay." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "dialogue": [
+      {
+        "title": "Are they similar?",
+        "lines": [
+          { "speaker": "Mai", "en": "Is this bag as expensive as that one?", "vi": "Cái túi này có đắt bằng cái kia không?" },
+          { "speaker": "David", "en": "No, it isn't as expensive as that one. This one is cheaper.", "vi": "Không, nó không đắt bằng cái kia. Cái này rẻ hơn." },
+          { "speaker": "Mai", "en": "Is your hometown as crowded as the capital?", "vi": "Quê bạn có đông đúc bằng thủ đô không?" },
+          { "speaker": "David", "en": "Not at all. It isn't as crowded as the capital, but it's growing fast.", "vi": "Hoàn toàn không. Nó không đông đúc bằng thủ đô, nhưng đang phát triển nhanh." },
+          { "speaker": "Mai", "en": "Are these two phones the same price?", "vi": "Hai cái điện thoại này có cùng giá không?" },
+          { "speaker": "David", "en": "Almost. They are roughly the same, but this one is a little cheaper.", "vi": "Gần như vậy. Chúng gần như bằng nhau, nhưng cái này rẻ hơn một chút." },
+          { "speaker": "Mai", "en": "Good to know. I'll think about it.", "vi": "Tốt khi biết điều đó. Tôi sẽ suy nghĩ về nó." }
+        ]
+      },
+      {
+        "title": "A common situation",
+        "lines": [
+          { "speaker": "Mai", "en": "Is your daily routine similar to mine?", "vi": "Lịch trình hàng ngày của bạn có giống tôi không?" },
+          { "speaker": "David", "en": "Yes, it's quite similar. We both wake up early and study at night.", "vi": "Vâng, nó khá giống. Cả hai chúng ta đều dậy sớm và học vào ban đêm." },
+          { "speaker": "Mai", "en": "Is it common for students here to work part-time?", "vi": "Sinh viên ở đây có thường làm thêm không?" },
+          { "speaker": "David", "en": "Yes, it's quite common, but it isn't as common for first-year students.", "vi": "Vâng, khá phổ biến, nhưng không phổ biến bằng với sinh viên năm nhất." },
+          { "speaker": "Mai", "en": "Is your score average, or above average?", "vi": "Điểm của bạn trung bình, hay trên trung bình?" },
+          { "speaker": "David", "en": "I think it's about average, nothing special.", "vi": "Tôi nghĩ nó khoảng trung bình, không có gì đặc biệt." }
+        ]
+      }
+    ]
+  }
+]

@@ -2,13 +2,15 @@ export const dynamic = 'force-dynamic';
 import { QuizTab } from "@/components/legacy/QuizTab";
 import { getAllVocabData } from "@/lib/data";
 import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import ProgramLocked from "@/components/ProgramLocked";
+import PremiumLocked from "@/components/PremiumLocked";
 import Link from "next/link";
 
 export default async function PracticePage(props: any) {
   const searchParams = await props.searchParams;
   const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const { completedLessonIds } = await getCompletedLessonIds(level);
+  const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
   const vocabData = completedLessonIds.length > 0
     ? await getAllVocabData(level, completedLessonIds)
@@ -16,7 +18,11 @@ export default async function PracticePage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      {completedLessonIds.length === 0 ? (
+      {programLocked ? (
+        <ProgramLocked />
+      ) : !isPremiumUser ? (
+        <PremiumLocked />
+      ) : completedLessonIds.length === 0 ? (
         <div className="max-w-2xl mx-auto px-4 py-16 text-center">
           <div className="text-6xl mb-4">📚</div>
           <h2 className="text-2xl font-bold text-slate-800 mb-2">

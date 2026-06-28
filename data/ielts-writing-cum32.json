@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 63,
+    "writing": [
+      {
+        "title": "Writing Task 2: Explain cause and contrast",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) explaining cause, result, and contrast, using because/so/although/however.",
+        "minWords": 30,
+        "sampleAnswer": "I was late because the traffic was heavy. It rained heavily, so we stayed at home. Although it was expensive, she bought the dress. However, she didn't regret it.",
+        "checklist": ["Dùng because để nêu nguyên nhân", "Dùng so để nêu kết quả", "Dùng although hoặc however để diễn tả tương phản"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — Rules, advice, and reasons",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) combining modal verbs (must/should/have to/might), verb patterns, too/enough, and connectors from Chương 7.",
+        "minWords": 40,
+        "sampleAnswer": "You must wear a helmet, and you shouldn't ride too fast. You don't have to wear a uniform, but you have to arrive on time. It might rain, so take an umbrella. I enjoy walking to work because it isn't too far to walk.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 7", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

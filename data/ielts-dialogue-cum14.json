@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 27,
+    "dialogue": [
+      {
+        "title": "Talking about hobbies",
+        "lines": [
+          { "speaker": "Ha", "en": "What do you do in your free time?", "vi": "Bạn làm gì trong thời gian rảnh?" },
+          { "speaker": "Jack", "en": "I usually read books and listen to music.", "vi": "Tôi thường đọc sách và nghe nhạc." },
+          { "speaker": "Ha", "en": "Do you like to travel?", "vi": "Bạn có thích đi du lịch không?" },
+          { "speaker": "Jack", "en": "Yes, I love to travel. I also like to play games.", "vi": "Vâng, tôi rất thích đi du lịch. Tôi cũng thích chơi game." },
+          { "speaker": "Ha", "en": "Does your sister have any hobbies?", "vi": "Em gái bạn có sở thích nào không?" },
+          { "speaker": "Jack", "en": "Yes, she likes to paint and watch TV.", "vi": "Vâng, cô ấy thích vẽ tranh và xem TV." }
+        ]
+      },
+      {
+        "title": "Outdoor activities",
+        "lines": [
+          { "speaker": "Ha", "en": "Does he enjoy hiking?", "vi": "Anh ấy có thích đi bộ đường dài không?" },
+          { "speaker": "Jack", "en": "Yes, he hikes every weekend.", "vi": "Vâng, anh ấy đi bộ đường dài mỗi cuối tuần." },
+          { "speaker": "Ha", "en": "Do you garden too?", "vi": "Bạn cũng làm vườn chứ?" },
+          { "speaker": "Jack", "en": "Yes, I garden on Sundays. It's very relaxing.", "vi": "Vâng, tôi làm vườn vào Chủ Nhật. Việc đó rất thư giãn." },
+          { "speaker": "Ha", "en": "What kind of music do you listen to?", "vi": "Bạn nghe loại nhạc gì?" },
+          { "speaker": "Jack", "en": "I usually listen to pop music.", "vi": "Tôi thường nghe nhạc pop." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "dialogue": [
+      {
+        "title": "Review: A typical day",
+        "lines": [
+          { "speaker": "Ha", "en": "What time do you wake up every day?", "vi": "Bạn thức dậy lúc mấy giờ mỗi ngày?" },
+          { "speaker": "Jack", "en": "I always wake up at six in the morning.", "vi": "Tôi luôn dậy lúc sáu giờ sáng." },
+          { "speaker": "Ha", "en": "What do you do at work?", "vi": "Bạn làm gì ở chỗ làm?" },
+          { "speaker": "Jack", "en": "I am a teacher. I teach English in the afternoon.", "vi": "Tôi là giáo viên. Tôi dạy tiếng Anh vào buổi chiều." },
+          { "speaker": "Ha", "en": "Don't you watch TV at night?", "vi": "Bạn không xem TV vào ban đêm sao?" },
+          { "speaker": "Jack", "en": "I rarely watch TV. I usually read books instead.", "vi": "Tôi hiếm khi xem TV. Tôi thường đọc sách thay vào đó." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 35,
+    "listening": [
+      {
+        "title": "Listening: Habit vs now",
+        "transcript": "I usually work in an office, but I am working from home today. She usually cooks dinner at seven, but right now, she is cleaning the kitchen instead.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is the speaker working today?", "options": ["At the office", "At home", "At a café"], "correct": "At home", "explanation": "\"I am working from home today.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "listening": [
+      {
+        "title": "Listening: Review — Shopping and cooking now",
+        "transcript": "I have some rice and a few vegetables for dinner. I have plenty of rice, but I don't have any meat. I am cooking some soup right now.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the speaker doing right now?", "options": ["Shopping", "Cooking soup", "Eating dinner"], "correct": "Cooking soup", "explanation": "\"I am cooking some soup right now.\"" }
+        ]
+      }
+    ]
+  }
+]

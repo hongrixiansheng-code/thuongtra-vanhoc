@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 83,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Rules and society",
+        "part": 3,
+        "questions": ["What rules must be followed in public places in your country?", "Should stricter rules be enforced for traffic safety?", "What problems can be solved by better regulations?"],
+        "sampleAnswer": "In my country, helmets must be worn by motorbike riders. Yes, I think stricter rules should be enforced for traffic safety. Traffic accidents can be solved by better regulations and more police checks."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Statistics and trends",
+        "part": 3,
+        "questions": ["What proportion of people in your country use smartphones?", "Do you think the vast majority of young people prefer technology to books?", "What percentage of your free time do you spend online?"],
+        "sampleAnswer": "I think a large number of people in my country use smartphones. Yes, the vast majority of young people prefer technology to books nowadays. I probably spend about half of my free time online."
+      }
+    ]
+  }
+]

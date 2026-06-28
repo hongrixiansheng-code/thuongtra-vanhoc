@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 78,
+    "vocab": [
+      {
+        "word": "where",
+        "ipa": "/weər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "nơi mà",
+        "example_en": "The house where I live.",
+        "example_vi": "Ngôi nhà nơi mà tôi sống.",
+        "level": "B1"
+      },
+      {
+        "word": "when",
+        "ipa": "/wen/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "khi mà",
+        "example_en": "The day when we met.",
+        "example_vi": "Ngày mà chúng ta gặp nhau.",
+        "level": "B1"
+      },
+      {
+        "word": "why",
+        "ipa": "/waɪ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "tại sao mà",
+        "example_en": "The reason why he left.",
+        "example_vi": "Lý do tại sao anh ấy rời đi.",
+        "level": "B1"
+      },
+      {
+        "word": "place",
+        "ipa": "/pleɪs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nơi chốn",
+        "example_en": "A beautiful place.",
+        "example_vi": "Một nơi chốn xinh đẹp.",
+        "level": "B1"
+      },
+      {
+        "word": "location",
+        "ipa": "/ləʊˈkeɪ.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vị trí",
+        "example_en": "A good location.",
+        "example_vi": "Một vị trí tốt.",
+        "level": "B1"
+      },
+      {
+        "word": "time",
+        "ipa": "/taɪm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thời gian",
+        "example_en": "I have no time.",
+        "example_vi": "Tôi không có thời gian.",
+        "level": "B1"
+      },
+      {
+        "word": "moment",
+        "ipa": "/ˈməʊ.mənt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "khoảnh khắc",
+        "example_en": "A happy moment.",
+        "example_vi": "Một khoảnh khắc hạnh phúc.",
+        "level": "B1"
+      },
+      {
+        "word": "reason",
+        "ipa": "/ˈriː.zən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lý do",
+        "example_en": "Give me a reason.",
+        "example_vi": "Hãy cho tôi một lý do.",
+        "level": "B1"
+      },
+      {
+        "word": "purpose",
+        "ipa": "/ˈpɜː.pəs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mục đích",
+        "example_en": "What is your purpose?",
+        "example_vi": "Mục đích của bạn là gì?",
+        "level": "B1"
+      },
+      {
+        "word": "goal",
+        "ipa": "/ɡəʊl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mục tiêu",
+        "example_en": "A big goal.",
+        "example_vi": "Một mục tiêu lớn.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 79,
+    "vocab": [
+      {
+        "word": "used to",
+        "ipa": "/ˈjuːst tuː/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "đã từng",
+        "example_en": "I used to swim.",
+        "example_vi": "Tôi đã từng đi bơi.",
+        "level": "B1"
+      },
+      {
+        "word": "habit",
+        "ipa": "/ˈhæb.ɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thói quen",
+        "example_en": "A bad habit.",
+        "example_vi": "Một thói quen xấu.",
+        "level": "B1"
+      },
+      {
+        "word": "past",
+        "ipa": "/pɑːst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quá khứ",
+        "example_en": "In the past.",
+        "example_vi": "Trong quá khứ.",
+        "level": "B1"
+      },
+      {
+        "word": "normal",
+        "ipa": "/ˈnɔː.məl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bình thường",
+        "example_en": "It is normal.",
+        "example_vi": "Điều đó là bình thường.",
+        "level": "B1"
+      },
+      {
+        "word": "common",
+        "ipa": "/ˈkɒm.ən/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "phổ biến",
+        "example_en": "A common name.",
+        "example_vi": "Một cái tên phổ biến.",
+        "level": "B1"
+      },
+      {
+        "word": "regular",
+        "ipa": "/ˈreɡ.jə.lər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đều đặn",
+        "example_en": "A regular customer.",
+        "example_vi": "Một khách hàng thường xuyên.",
+        "level": "B1"
+      },
+      {
+        "word": "frequent",
+        "ipa": "/ˈfriː.kwənt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thường xuyên",
+        "example_en": "A frequent visitor.",
+        "example_vi": "Một du khách thường xuyên.",
+        "level": "B1"
+      },
+      {
+        "word": "usual",
+        "ipa": "/ˈjuː.ʒu.əl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thông thường",
+        "example_en": "As usual.",
+        "example_vi": "Như thường lệ.",
+        "level": "B1"
+      },
+      {
+        "word": "familiar",
+        "ipa": "/fəˈmɪl.i.ər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "quen thuộc",
+        "example_en": "A familiar face.",
+        "example_vi": "Một khuôn mặt quen thuộc.",
+        "level": "B1"
+      },
+      {
+        "word": "custom",
+        "ipa": "/ˈkʌs.təm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phong tục, thói quen",
+        "example_en": "A local custom.",
+        "example_vi": "Một phong tục địa phương.",
+        "level": "B1"
+      }
+    ]
+  }
+]

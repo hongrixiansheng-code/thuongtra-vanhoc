@@ -1,0 +1,32 @@
+[
+  {
+    "lessonOrder": 77,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe someone you admire",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a person you admire.",
+          "bullets": ["who this person is", "what they have achieved", "what job they do", "and explain why you admire them"]
+        },
+        "questions": [],
+        "sampleAnswer": "I admire a teacher who has helped many students. She is a person who works very hard every day. I admire her because she always cares about her students' future."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a place that is special to you",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a place that is special to you.",
+          "bullets": ["where this place is", "when you first went there", "what happened there", "and explain why it is special to you"]
+        },
+        "questions": [],
+        "sampleAnswer": "This is the café where I first met my best friend. I remember the day when we started talking about our dreams. It is special to me because it is the place where our friendship began."
+      }
+    ]
+  }
+]

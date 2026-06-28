@@ -1,0 +1,602 @@
+[
+  {
+    "orderIndex": 1,
+    "title": "[V/G] Bài 1: AWL Sublist 1 – nhóm 1 + Present Perfect vs Past Simple nâng cao",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 2,
+    "title": "[R] Bài 2: Reading: True/False/Not Given — chiến lược phân biệt False vs Not Given",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 3,
+    "title": "[V/G] Bài 3: AWL Sublist 1 – nhóm 2 + Present Perfect Continuous",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 4,
+    "title": "[W] Bài 4: Writing Task 1: Describing trends — Line graphs với Perfect tenses",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 5,
+    "title": "[V/G] Bài 5: AWL Sublist 1 – nhóm 3 + Passive voice nâng cao (2 objects)",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 6,
+    "title": "[L] Bài 6: Listening Section 3: Academic Discussion — chiến lược nghe 2 speaker tranh luận",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 7,
+    "title": "[V/G] Bài 7: AWL Sublist 1 – nhóm 4 + Narrative Tenses tổng hợp",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 8,
+    "title": "[S] Bài 8: Speaking Part 2: Describing a past academic/work experience — sử dụng narrative tenses",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 9,
+    "title": "[V/G] Bài 9: AWL Sublist 2 – nhóm 1 + Question tags & Auxiliary verbs",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 10,
+    "title": "[ÔN] Bài 10: Ôn Chương 1 — Perfect tenses, Passive, Narrative, AWL Sublist 1",
+    "theme": "Chương 1 — Consolidation: Ôn & Nâng cấp nền tảng"
+  },
+  {
+    "orderIndex": 11,
+    "title": "[V/G] Bài 11: Technology & Innovation + Future Perfect",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 12,
+    "title": "[W] Bài 12: Writing Task 1: Line graph với dự báo tương lai",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 13,
+    "title": "[V/G] Bài 13: Climate & Environment + Future Continuous",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 14,
+    "title": "[R] Bài 14: Reading: Matching Headings — passage học thuật về môi trường",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 15,
+    "title": "[V/G] Bài 15: Demographics & Society + be about to / be due to / be on the verge of",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 16,
+    "title": "[L] Bài 16: Listening Section 4: Academic Lecture — monologue về demographics",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 17,
+    "title": "[V/G] Bài 17: Economics & Development + Future in the Past (was going to / would)",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 18,
+    "title": "[W] Bài 18: Writing Task 2: Introduction & Thesis statement — dùng Future forms để dự đoán hậu quả",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 19,
+    "title": "[V/G] Bài 19: AWL Sublist 2 – nhóm 2 + Future Perfect Continuous",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 20,
+    "title": "[ÔN] Bài 20: Ôn Chương 2",
+    "theme": "Chương 2 — Future Forms Nâng cao & Academic Prediction"
+  },
+  {
+    "orderIndex": 21,
+    "title": "[V/G] Bài 21: Education & Learning + Conditional 3",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 22,
+    "title": "[W] Bài 22: Writing Task 2: Conditional 3 trong Problem-Solution essay",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 23,
+    "title": "[V/G] Bài 23: Health & Medicine + Mixed Conditional (Past→Present)",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 24,
+    "title": "[R] Bài 24: Reading: Yes/No/Not Given — chiến lược phân biệt với T/F/NG",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 25,
+    "title": "[V/G] Bài 25: Social Issues & Inequality + Mixed Conditional (Present→Past)",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 26,
+    "title": "[L] Bài 26: Listening Section 3: Discussion about social policy",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 27,
+    "title": "[V/G] Bài 27: Crime & Justice + wish / if only / would rather",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 28,
+    "title": "[S] Bài 28: Speaking Part 3: Hypothetical discussion — If the government were to…",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 29,
+    "title": "[V/G] Bài 29: AWL Sublist 3 – nhóm 1 + Inverted Conditional (formal)",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 30,
+    "title": "[ÔN] Bài 30: Ôn Chương 3",
+    "theme": "Chương 3 — Conditional Nâng cao & Hypothetical Academic Argument"
+  },
+  {
+    "orderIndex": 31,
+    "title": "[V/G] Bài 31: Science & Research + Non-defining relative clauses",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 32,
+    "title": "[W] Bài 32: Writing Task 1: Process diagram — dùng relative clauses để mô tả",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 33,
+    "title": "[V/G] Bài 33: Urban Planning & Architecture + Reduced relative clauses",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 34,
+    "title": "[R] Bài 34: Reading: Matching Information — xác định đoạn chứa thông tin cụ thể",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 35,
+    "title": "[V/G] Bài 35: Media & Communication + Cleft sentences",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 36,
+    "title": "[L] Bài 36: Listening Section 4: Academic lecture về media",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 37,
+    "title": "[V/G] Bài 37: Globalisation & Trade + Prepositional relative clauses",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 38,
+    "title": "[S] Bài 38: Speaking Part 2 + 3: Describe a significant change in your country",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 39,
+    "title": "[V/G] Bài 39: AWL Sublist 3 – nhóm 2 + Ôn tổng hợp relative & cleft",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 40,
+    "title": "[MT] Bài 40: MOCK TEST 1",
+    "theme": "Chương 4 — Relative Clauses Nâng cao & Academic Description"
+  },
+  {
+    "orderIndex": 41,
+    "title": "[V/G] Bài 41: Psychology & Behaviour + Gerund vs Infinitive B2",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 42,
+    "title": "[R] Bài 42: Reading: Matching Features / Matching Viewpoints",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 43,
+    "title": "[V/G] Bài 43: Philosophy & Ethics + Reporting verbs học thuật nhóm 1",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 44,
+    "title": "[W] Bài 44: Writing Task 2: Sử dụng reporting verbs để dẫn chứng",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 45,
+    "title": "[V/G] Bài 45: Environmental Science + Reporting verbs nhóm 2 (verb + object + infinitive)",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 46,
+    "title": "[L] Bài 46: Listening Section 3: Research project discussion",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 47,
+    "title": "[V/G] Bài 47: Law & Governance + Complex verb phrases",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 48,
+    "title": "[S] Bài 48: Speaking Part 3: Academic discussion về luật và đạo đức",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 49,
+    "title": "[V/G] Bài 49: AWL Sublist 4 – nhóm 1 + Ôn verb patterns",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 50,
+    "title": "[ÔN] Bài 50: Ôn Chương 5",
+    "theme": "Chương 5 — Verb Patterns Nâng cao & Academic Reporting"
+  },
+  {
+    "orderIndex": 51,
+    "title": "[V/G] Bài 51: Energy & Sustainability + Inversion sau negative adverbials",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 52,
+    "title": "[W] Bài 52: Writing Task 2: Essay mở đầu bằng inversion",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 53,
+    "title": "[V/G] Bài 53: Food & Agriculture + Fronting & Topicalization",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 54,
+    "title": "[R] Bài 54: Reading: Summary Completion — dạng bài điền từ từ passage",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 55,
+    "title": "[V/G] Bài 55: Transport & Infrastructure + Formal Academic Vocabulary",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 56,
+    "title": "[L] Bài 56: Listening Section 4: Lecture về infrastructure",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 57,
+    "title": "[V/G] Bài 57: History & Civilisation + Emphatic do/does/did",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 58,
+    "title": "[S] Bài 58: Speaking Part 2 + 3: Describe a historical place or event",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 59,
+    "title": "[V/G] Bài 59: AWL Sublist 4 – nhóm 2 + Ôn inversion & emphasis",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 60,
+    "title": "[ÔN] Bài 60: Ôn Chương 6",
+    "theme": "Chương 6 — Inversion, Emphasis & Formal Academic Register"
+  },
+  {
+    "orderIndex": 61,
+    "title": "[V/G] Bài 61: Manufacturing & Industry + Passive + modal nâng cao",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 62,
+    "title": "[W] Bài 62: Writing Task 1: Process diagram — passive voice hoàn chỉnh",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 63,
+    "title": "[V/G] Bài 63: Biology & Medicine (Academic) + have something done",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 64,
+    "title": "[R] Bài 64: Reading: Sentence Completion — điền từ từ passage",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 65,
+    "title": "[V/G] Bài 65: Sociology & Demography + Passive of reporting verbs",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 66,
+    "title": "[L] Bài 66: Listening Section 4: Lecture về sociology",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 67,
+    "title": "[V/G] Bài 67: Chemistry & Physics (Academic) + Passive gerunds & infinitives",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 68,
+    "title": "[S] Bài 68: Speaking Part 3: Explaining a process or system",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 69,
+    "title": "[V/G] Bài 69: AWL Sublist 5 – nhóm 1 + Ôn passive nâng cao",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 70,
+    "title": "[ÔN] Bài 70: Ôn Chương 7",
+    "theme": "Chương 7 — Passive Nâng cao & Academic Process Description"
+  },
+  {
+    "orderIndex": 71,
+    "title": "[V/G] Bài 71: Politics & International Relations + Compound nouns",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 72,
+    "title": "[W] Bài 72: Writing Task 2: Nominalization để tạo academic style",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 73,
+    "title": "[V/G] Bài 73: Finance & Banking + Pre-modification noun phrases",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 74,
+    "title": "[R] Bài 74: Reading: Matching Headings — passage học thuật về kinh tế",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 75,
+    "title": "[V/G] Bài 75: Art & Culture + Post-modification (multiple layers)",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 76,
+    "title": "[L] Bài 76: Listening Section 3: Discussion về art & culture project",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 77,
+    "title": "[V/G] Bài 77: Psychology of Learning + Compound adjectives",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 78,
+    "title": "[S] Bài 78: Speaking Part 2 + 3: Describe an important development in education",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 79,
+    "title": "[V/G] Bài 79: AWL Sublist 5 – nhóm 2 + Ôn noun phrases",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 80,
+    "title": "[MT] Bài 80: MOCK TEST 2",
+    "theme": "Chương 8 — Noun Phrases Phức tạp & Nominalization"
+  },
+  {
+    "orderIndex": 81,
+    "title": "[V/G] Bài 81: Public Health & Policy + Discourse markers B2 (addition & contrast)",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 82,
+    "title": "[W] Bài 82: Writing Task 2: Cohesion trong Discussion essay",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 83,
+    "title": "[V/G] Bài 83: Space & Technology + Hedging language",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 84,
+    "title": "[R] Bài 84: Reading: True/False/Not Given nâng cao — passage chứa nhiều hedging",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 85,
+    "title": "[V/G] Bài 85: Migration & Globalisation + Stance adverbials",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 86,
+    "title": "[L] Bài 86: Listening Section 3: Seminar về migration",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 87,
+    "title": "[V/G] Bài 87: Economics & Inequality + Concession nâng cao",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 88,
+    "title": "[S] Bài 88: Speaking Part 3: Abstract discussion về inequality",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 89,
+    "title": "[V/G] Bài 89: AWL Sublist 5 – nhóm 3 + Ôn cohesion & hedging",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 90,
+    "title": "[ÔN] Bài 90: Ôn Chương 9",
+    "theme": "Chương 9 — Cohesion, Hedging & Academic Stance"
+  },
+  {
+    "orderIndex": 91,
+    "title": "[V/G] Bài 91: Research & Academia + Phrasal verbs học thuật nhóm 1",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 92,
+    "title": "[W] Bài 92: Writing Task 1: Maps (before & after) — phrasal verbs trong mô tả thay đổi",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 93,
+    "title": "[V/G] Bài 93: Technology & Society + Phrasal verbs học thuật nhóm 2",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 94,
+    "title": "[R] Bài 94: Reading: Diagram / Flow Chart Completion",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 95,
+    "title": "[V/G] Bài 95: Environment & Development + Collocations: Verb + Noun",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 96,
+    "title": "[L] Bài 96: Listening Section 4: Lecture về development economics",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 97,
+    "title": "[V/G] Bài 97: Social Science + Collocations: Adjective + Noun & Noun + Noun",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 98,
+    "title": "[S] Bài 98: Speaking Part 2 + 3: Describe a problem in your society + solutions",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 99,
+    "title": "[V/G] Bài 99: AWL Sublist 5 – nhóm 4 + Word families & Affixation",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 100,
+    "title": "[ÔN] Bài 100: Ôn Chương 10",
+    "theme": "Chương 10 — Phrasal Verbs Học thuật & Collocation Nâng cao"
+  },
+  {
+    "orderIndex": 101,
+    "title": "[V/G] Bài 101: Academic Vocabulary Revision: AWL Sublist 1–3 — 45 từ quan trọng nhất",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 102,
+    "title": "[L] Bài 102: Listening: Full Section 4 practice — chủ đề học thuật tổng hợp",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 103,
+    "title": "[V/G] Bài 103: Academic Vocabulary Revision: AWL Sublist 4–5 — 45 từ quan trọng nhất",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 104,
+    "title": "[R] Bài 104: Reading: Mixed question types — passage 1 đầy đủ (~750 từ)",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 105,
+    "title": "[V/G] Bài 105: Grammar Revision: Conditionals + Inversion + Cleft",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 106,
+    "title": "[W] Bài 106: Writing Task 1: Mixed chart (Bar + Line trên cùng 1 đề)",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 107,
+    "title": "[V/G] Bài 107: Grammar Revision: Passive nâng cao + Noun phrases + Nominalization",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 108,
+    "title": "[S] Bài 108: Speaking Part 3: Full practice — 4 chủ đề học thuật (Education / Environment / Technology / Society)",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 109,
+    "title": "[V/G] Bài 109: Grammar Revision: Relative clauses + Reporting verbs + Verb patterns",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 110,
+    "title": "[ÔN] Bài 110: Ôn Chương 11 — Exam Strategy Session",
+    "theme": "Chương 11 — Ôn tổng hợp theo 4 Skills"
+  },
+  {
+    "orderIndex": 111,
+    "title": "[W] Bài 111: Writing Task 2: 4 essay types hoàn chỉnh — chiến lược cho từng loại",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 112,
+    "title": "[L] Bài 112: Listening: Sections 1–4 chiến lược — common traps theo từng section",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 113,
+    "title": "[R] Bài 113: Reading: Time management — 60 phút cho 3 passages",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 114,
+    "title": "[S] Bài 114: Speaking: Band descriptors & self-assessment",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 115,
+    "title": "[W] Bài 115: Writing Task 1: Pie chart + Bar chart kết hợp",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 116,
+    "title": "[V/G] Bài 116: Academic Vocabulary: High-frequency Band 5.5 words — 15 từ dễ nhầm nhất",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 117,
+    "title": "[R] Bài 117: Reading: Passage 3 practice (khó nhất — abstract/theoretical topic)",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 118,
+    "title": "[V/G] Bài 118: Final vocabulary consolidation — AWL + collocations + phrasal verbs",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 119,
+    "title": "[S] Bài 119: Speaking: Full mock interview — Parts 1 + 2 + 3 (11–14 phút)",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  },
+  {
+    "orderIndex": 120,
+    "title": "[MT] Bài 120: MOCK TEST 3 — Full Academic IELTS",
+    "theme": "Chương 12 — Luyện thi nâng cao & Mock Test 3"
+  }
+]

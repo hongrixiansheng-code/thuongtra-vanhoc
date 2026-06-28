@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 12,
+      "grammar": [
+        {
+          "title": "will (dự đoán tương lai)",
+          "desc": "Bên cạnh việc đưa ra quyết định, 'will' còn dùng để dự đoán một điều gì đó sẽ xảy ra trong tương lai (theo suy nghĩ của người nói).",
+          "formula": [
+            { "text": "I think", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "it will", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "rain tomorrow.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I think she will pass the exam.", "meaning": "Tôi nghĩ cô ấy sẽ đỗ kỳ thi." },
+            { "correct": "They will be late for the movie.", "meaning": "Họ sẽ bị trễ buổi xem phim." },
+            { "correct": "It will be sunny next week.", "meaning": "Trời sẽ nắng vào tuần tới." }
+          ]
+        },
+        {
+          "title": "by myself / by yourself: tự mình làm",
+          "desc": "Dùng 'by myself' (tự tôi) hoặc 'by yourself' (tự bạn) ở cuối câu để nhấn mạnh rằng ai đó tự làm việc gì mà không cần người khác giúp đỡ.",
+          "formula": [
+            { "text": "I can", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "do it", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "by myself.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I will clean the room by myself.", "meaning": "Tôi sẽ tự dọn phòng một mình." },
+            { "correct": "Can you do the homework by yourself?", "meaning": "Bạn có thể tự làm bài tập về nhà không?" },
+            { "correct": "He fixed the bike by himself.", "meaning": "Cậu ấy đã tự mình sửa chiếc xe đạp." }
+          ]
+        },
+        {
+          "title": "will vs. be going to (Ôn tập)",
+          "desc": "Dùng 'be going to' cho một kế hoạch đã định sẵn từ trước. Dùng 'will' cho một quyết định đưa ra ngay lúc nói.",
+          "formula": [
+            { "text": "will", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "vs.", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "going to", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I am going to visit my grandma.", "meaning": "Tớ dự định đi thăm bà của tớ." },
+            { "correct": "I will open the gate.", "meaning": "Tớ sẽ mở cổng." },
+            { "correct": "She is going to buy a new brush.", "meaning": "Cô ấy dự định mua một cái bàn chải mới." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A difficult puzzle",
+          "lines": [
+            { "speaker": "A", "en": "This math puzzle is very hard.", "vi": "Câu đố toán này rất khó." },
+            { "speaker": "B", "en": "Do you need my help?", "vi": "Cậu có cần tớ giúp không?" },
+            { "speaker": "A", "en": "No, thanks. I will try to do it by myself.", "vi": "Không, cảm ơn. Tớ sẽ cố gắng tự mình làm." },
+            { "speaker": "B", "en": "Okay. I think you will find the answer.", "vi": "Được rồi. Tớ nghĩ cậu sẽ tìm ra câu trả lời thôi." },
+            { "speaker": "A", "en": "Yes, I am going to read the book again.", "vi": "Ừ, tớ dự định sẽ đọc lại quyển sách." },
+            { "speaker": "B", "en": "I'll wait for you here.", "vi": "Tớ sẽ đợi cậu ở đây." }
+          ]
+        },
+        {
+          "title": "Tidying the room",
+          "lines": [
+            { "speaker": "A", "en": "Your bedroom is very untidy.", "vi": "Phòng ngủ của cậu rất bừa bộn." },
+            { "speaker": "B", "en": "I know. I am going to tidy it this afternoon.", "vi": "Tớ biết. Tớ dự định sẽ dọn dẹp nó vào chiều nay." },
+            { "speaker": "A", "en": "I'll help you pick up the toys.", "vi": "Tớ sẽ giúp cậu nhặt những món đồ chơi." },
+            { "speaker": "B", "en": "That's very kind of you.", "vi": "Cậu thật tốt bụng." },
+            { "speaker": "A", "en": "Where should I put this brush?", "vi": "Tớ nên đặt chiếc bàn chải này ở đâu?" },
+            { "speaker": "B", "en": "Put it on the shelf. I will do the rest by myself.", "vi": "Hãy đặt nó lên kệ. Tớ sẽ tự làm phần còn lại." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "grammar": [
+        {
+          "title": "Mệnh đề thời gian: after (sau khi)",
+          "desc": "Dùng 'after' (sau khi) để nối hai câu, chỉ ra hành động nào xảy ra sau một hành động khác.",
+          "formula": [
+            { "text": "After", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I finish school,", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "I will go home.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "After I eat breakfast, I brush my teeth.", "meaning": "Sau khi tôi ăn sáng, tôi đánh răng." },
+            { "correct": "We played games after we finished homework.", "meaning": "Chúng tôi đã chơi game sau khi chúng tôi làm xong bài tập về nhà." },
+            { "correct": "She will call you after she arrives.", "meaning": "Cô ấy sẽ gọi cho bạn sau khi cô ấy đến nơi." }
+          ]
+        },
+        {
+          "title": "Mệnh đề thời gian: before (trước khi)",
+          "desc": "Dùng 'before' (trước khi) để nối hai câu, chỉ ra hành động nào phải xảy ra trước hành động kia.",
+          "formula": [
+            { "text": "Wash your hands", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "before", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "you eat.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I pack my bag before I go to school.", "meaning": "Tôi xếp đồ vào cặp trước khi tôi đi đến trường." },
+            { "correct": "Please knock before you open the door.", "meaning": "Vui lòng gõ cửa trước khi bạn mở cửa." },
+            { "correct": "Before I sleep, I read a book.", "meaning": "Trước khi tôi đi ngủ, tôi đọc một quyển sách." }
+          ]
+        },
+        {
+          "title": "after / before + (cụm danh từ)",
+          "desc": "Bạn cũng có thể dùng 'after' hoặc 'before' đi kèm trực tiếp với một sự kiện, khoảng thời gian (như lunch, school, class).",
+          "formula": [
+            { "text": "I will study", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "after", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "lunch.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "Let's play football after school.", "meaning": "Hãy chơi bóng đá sau giờ học." },
+            { "correct": "I have to finish it before dinner.", "meaning": "Tôi phải hoàn thành nó trước bữa tối." },
+            { "correct": "We talked a lot before the lesson.", "meaning": "Chúng tôi đã nói chuyện rất nhiều trước buổi học." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "School morning",
+          "lines": [
+            { "speaker": "A", "en": "What do you do before you go to school?", "vi": "Cậu làm gì trước khi cậu đi đến trường?" },
+            { "speaker": "B", "en": "Before I go to school, I pack my rucksack.", "vi": "Trước khi đi đến trường, tớ xếp đồ vào ba lô của tớ." },
+            { "speaker": "A", "en": "Do you check your timetable?", "vi": "Cậu có kiểm tra thời khóa biểu của cậu không?" },
+            { "speaker": "B", "en": "Yes, I always check it after breakfast.", "vi": "Có, tớ luôn kiểm tra nó sau bữa sáng." },
+            { "speaker": "A", "en": "Don't forget your dictionary.", "vi": "Đừng quên từ điển của cậu nhé." },
+            { "speaker": "B", "en": "I already put it in my bag.", "vi": "Tớ đã đặt nó vào trong cặp rồi." }
+          ]
+        },
+        {
+          "title": "A new club",
+          "lines": [
+            { "speaker": "A", "en": "Will you join the art club after school?", "vi": "Cậu sẽ tham gia câu lạc bộ mỹ thuật sau giờ học chứ?" },
+            { "speaker": "B", "en": "Yes, I love drawing. What about you?", "vi": "Có, tớ thích vẽ. Còn cậu thì sao?" },
+            { "speaker": "A", "en": "I will go home after classes finish.", "vi": "Tớ sẽ đi về nhà sau khi các tiết học kết thúc." },
+            { "speaker": "B", "en": "You should finish your project before tomorrow.", "vi": "Cậu nên hoàn thành dự án của cậu trước ngày mai." },
+            { "speaker": "A", "en": "I know. I will do it by myself tonight.", "vi": "Tớ biết. Tối nay tớ sẽ tự mình làm nó." },
+            { "speaker": "B", "en": "Good luck! See you tomorrow.", "vi": "Chúc may mắn! Hẹn gặp lại cậu vào ngày mai." }
+          ]
+        }
+      ]
+    }
+  ]
+}

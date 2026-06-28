@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 17,
+    "grammar": [
+      {
+        "title": "Số thứ tự & Cách nói ngày tháng",
+        "desc": "Dùng số thứ tự (first, second...) để chỉ ngày trong tháng hoặc thứ tự. Kết hợp giới từ \"on\" + ngày.",
+        "formula": [
+          {
+            "text": "on the + Số thứ tự + of + Tháng",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "My birthday is on the first of May.",
+            "vi": "Sinh nhật của tôi là vào ngày mùng 1 tháng Năm."
+          },
+          {
+            "en": "The meeting is on the tenth of June.",
+            "vi": "Cuộc họp diễn ra vào ngày 10 tháng Sáu."
+          },
+          {
+            "en": "He is the first person to arrive.",
+            "vi": "Anh ấy là người đầu tiên đến."
+          }
+        ],
+        "note": "Cách viết tắt: 1st (first), 2nd (second), 3rd (third), 4th (fourth)...",
+        "practiceList": [
+          {
+            "question": "I was born on the ___ of July. (ngày mùng 2)",
+            "correct": "second",
+            "meaning": "Tôi sinh vào ngày mùng 2 tháng Bảy.",
+            "explanation": "Số thứ tự của 2 là \"second\"."
+          },
+          {
+            "question": "This is his ___ time in Vietnam. (lần thứ 3)",
+            "correct": "third",
+            "meaning": "Đây là lần thứ 3 của anh ấy ở Việt Nam.",
+            "explanation": "Số thứ tự của 3 là \"third\"."
+          },
+          {
+            "question": "The party is ___ the fifth of August.",
+            "correct": "on",
+            "meaning": "Bữa tiệc diễn ra vào ngày mùng 5 tháng Tám.",
+            "explanation": "Đứng trước ngày tháng đầy đủ phải dùng giới từ \"on\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "grammar": []
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 47,
+    "listening": [
+      {
+        "title": "Listening: A quick forecast",
+        "transcript": "I think it will rain tomorrow. It's getting cold, so I will close the window now. The meeting probably won't be too long.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the speaker think about tomorrow?", "options": ["It will be sunny", "It will rain", "It will be windy"], "correct": "It will rain", "explanation": "\"I think it will rain tomorrow.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "listening": [
+      {
+        "title": "Listening: Weekend plan",
+        "transcript": "I am going to visit my hometown this weekend. I already booked the train ticket. My goal this year is to improve my English.",
+        "questions": [
+          { "type": "form_completion", "question": "Transport booked: ___ ticket", "options": ["bus", "train", "plane"], "correct": "train", "explanation": "\"I already booked the train ticket.\"" }
+        ]
+      }
+    ]
+  }
+]

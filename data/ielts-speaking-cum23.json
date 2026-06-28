@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 45,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Describing a sequence",
+        "part": 1,
+        "questions": ["What did you do yesterday, in order?", "What happened after that?", "When did your family move to your current home?"],
+        "sampleAnswer": "First, I finished my homework. After that, I called my friend, then we came together at the park. My family moved here ten years ago."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — Describe a memorable trip",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a memorable trip you took.",
+          "bullets": ["where you went and when", "what you did first", "if anything went wrong", "and explain why you remember it"]
+        },
+        "questions": [],
+        "sampleAnswer": "Two years ago, I visited Hue with my classmates. First, we explored the old citadel, then we took a lot of photos. We didn't have a map at first, so we got lost. Finally, a kind local helped us. I remember this trip because everything turned out fine in the end."
+      }
+    ]
+  }
+]

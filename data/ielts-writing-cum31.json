@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 61,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe things you enjoy or avoid",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what you enjoy or dislike doing, using verb + V-ing (enjoy/hate/avoid/miss...).",
+        "minWords": 30,
+        "sampleAnswer": "I enjoy reading books in my free time. I hate waiting in long queues. I miss living in my hometown. I should avoid wasting too much time.",
+        "checklist": ["Dùng ít nhất 2 động từ + V-ing khác nhau", "Có ít nhất 1 điều thích và 1 điều không thích", "Câu văn rõ ràng"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a problem of size or degree",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a problem, using too + adj and adj + enough.",
+        "minWords": 30,
+        "sampleAnswer": "This bag is too heavy for me to carry. He isn't tall enough to reach the shelf. The room is too small for ten people.",
+        "checklist": ["Dùng too + adj đúng vị trí (trước tính từ)", "Dùng adj + enough đúng vị trí (sau tính từ)", "Có kèm to + V để giải thích kết quả"]
+      }
+    ]
+  }
+]

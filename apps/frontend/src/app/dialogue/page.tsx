@@ -2,12 +2,13 @@ export const dynamic = 'force-dynamic';
 import { getAllDialogueData } from "@/lib/data";
 import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import DialogueClient from "@/components/DialogueClient";
+import ProgramLocked from "@/components/ProgramLocked";
 
 export default async function DialoguePage(props: any) {
   const searchParams = await props.searchParams;
   const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const { completedLessonIds } = await getCompletedLessonIds(level);
+  const { completedLessonIds, programLocked } = await getCompletedLessonIds(level);
 
   const dialogueData = completedLessonIds.length > 0
     ? await getAllDialogueData(level, completedLessonIds)
@@ -15,7 +16,9 @@ export default async function DialoguePage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      {completedLessonIds.length === 0 ? (
+      {programLocked ? (
+        <ProgramLocked />
+      ) : completedLessonIds.length === 0 ? (
         <div className="max-w-2xl mx-auto px-4 py-16 text-center">
           <div className="text-6xl mb-4">💬</div>
           <h2 className="text-2xl font-bold text-slate-800 mb-2">Chưa có hội thoại</h2>
@@ -25,7 +28,7 @@ export default async function DialoguePage(props: any) {
           </a>
         </div>
       ) : (
-        <DialogueClient dialogueData={dialogueData} level={level} />
+        <DialogueClient key={level} dialogueData={dialogueData} level={level} />
       )}
     </div>
   );

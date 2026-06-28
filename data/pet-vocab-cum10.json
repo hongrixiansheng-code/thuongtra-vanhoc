@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 27,
+      "vocab": [
+        { "word": "although", "ipa": "/ɔːlˈðəʊ/", "type": "conj.", "meaning": "mặc dù", "example_en": "Although it was raining, we still went for a walk.", "example_vi": "Mặc dù trời đang mưa, chúng tôi vẫn đi dạo." },
+        { "word": "even though", "ipa": "/ˈiː.vən ˌðəʊ/", "type": "conj.", "meaning": "mặc dù (nhấn mạnh)", "example_en": "Even though he was tired, he finished his work.", "example_vi": "Mặc dù rất mệt mỏi, anh ấy vẫn hoàn thành công việc của mình." },
+        { "word": "in spite of", "ipa": "/ɪn ˈspaɪt əv/", "type": "prep.", "meaning": "mặc dù, bất chấp", "example_en": "They went out in spite of the heavy rain.", "example_vi": "Họ đã ra ngoài bất chấp trời mưa to." },
+        { "word": "despite", "ipa": "/dɪˈspaɪt/", "type": "prep.", "meaning": "mặc dù", "example_en": "He still loves her, despite the fact that she lied to him.", "example_vi": "Anh ấy vẫn yêu cô ta, mặc dù sự thật là cô ta đã nói dối anh ấy." },
+        { "word": "whereas", "ipa": "/weərˈæz/", "type": "conj.", "meaning": "trong khi (ngược lại)", "example_en": "He loves sports, whereas his brother prefers reading.", "example_vi": "Anh ấy thích thể thao, trong khi em trai anh ấy thích đọc sách hơn." },
+        { "word": "while", "ipa": "/waɪl/", "type": "conj.", "meaning": "trong khi (đối lập hoặc thời gian)", "example_en": "While I enjoy the city, I prefer living in the countryside.", "example_vi": "Mặc dù tôi thích thành phố, nhưng tôi thích sống ở nông thôn hơn." },
+        { "word": "as", "ipa": "/æz/", "type": "conj.", "meaning": "bởi vì, khi", "example_en": "As it was getting late, we decided to go home.", "example_vi": "Vì trời đã muộn, chúng tôi quyết định về nhà." },
+        { "word": "since", "ipa": "/sɪns/", "type": "conj.", "meaning": "bởi vì, từ khi", "example_en": "Since you are already here, let's have lunch together.", "example_vi": "Vì bạn đã ở đây rồi, chúng ta hãy cùng ăn trưa nhé." },
+        { "word": "until", "ipa": "/ənˈtɪl/", "type": "conj.", "meaning": "cho đến khi", "example_en": "Wait here until I come back.", "example_vi": "Hãy đợi ở đây cho đến khi tôi quay lại." },
+        { "word": "unless", "ipa": "/ənˈles/", "type": "conj.", "meaning": "trừ khi", "example_en": "I won't go to the party unless you come with me.", "example_vi": "Tôi sẽ không đi dự tiệc trừ khi bạn đi cùng tôi." }
+      ]
+    },
+    {
+      "orderIndex": 28,
+      "vocab": [
+        { "word": "instructions", "ipa": "/ɪnˈstrʌk.ʃənz/", "type": "n.", "meaning": "lời chỉ dẫn", "example_en": "Make sure you read all the instructions carefully.", "example_vi": "Hãy đảm bảo bạn đọc kỹ tất cả các lời chỉ dẫn." },
+        { "word": "announcement", "ipa": "/əˈnaʊns.mənt/", "type": "n.", "meaning": "thông báo", "example_en": "The headmaster made an important announcement this morning.", "example_vi": "Hiệu trưởng đã đưa ra một thông báo quan trọng vào sáng nay." },
+        { "word": "notice", "ipa": "/ˈnəʊ.tɪs/", "type": "n.", "meaning": "thông báo (trên bảng, tường)", "example_en": "There was a notice on the door saying the shop was closed.", "example_vi": "Có một tờ thông báo trên cửa nói rằng cửa hàng đã đóng cửa." },
+        { "word": "advertisement", "ipa": "/ədˈvɜː.tɪs.mənt/", "type": "n.", "meaning": "mẩu quảng cáo", "example_en": "I saw an advertisement for a new smartphone.", "example_vi": "Tôi đã nhìn thấy một mẩu quảng cáo cho một chiếc điện thoại thông minh mới." },
+        { "word": "brochure", "ipa": "/ˈbrəʊ.ʃər/", "type": "n.", "meaning": "tài liệu quảng cáo nhỏ", "example_en": "The travel agent gave us a brochure about holidays in Spain.", "example_vi": "Đại lý du lịch đã đưa cho chúng tôi một cuốn tài liệu về kỳ nghỉ ở Tây Ban Nha." },
+        { "word": "leaflet", "ipa": "/ˈliː.flət/", "type": "n.", "meaning": "tờ rơi", "example_en": "Someone handed me a leaflet about a new gym.", "example_vi": "Ai đó đã đưa cho tôi một tờ rơi về một phòng tập thể dục mới." },
+        { "word": "report", "ipa": "/rɪˈpɔːt/", "type": "n.", "meaning": "bản báo cáo", "example_en": "The committee has published its final report.", "example_vi": "Ủy ban đã công bố bản báo cáo cuối cùng của mình." },
+        { "word": "review", "ipa": "/rɪˈvjuː/", "type": "n.", "meaning": "bài đánh giá", "example_en": "The film got mixed reviews from critics.", "example_vi": "Bộ phim đã nhận được những đánh giá trái chiều từ các nhà phê bình." },
+        { "word": "guide", "ipa": "/ɡaɪd/", "type": "n.", "meaning": "hướng dẫn, sách hướng dẫn", "example_en": "This book is a useful guide for tourists visiting London.", "example_vi": "Cuốn sách này là một hướng dẫn hữu ích cho du khách đến thăm London." },
+        { "word": "menu", "ipa": "/ˈmen.juː/", "type": "n.", "meaning": "thực đơn", "example_en": "Could you bring us the dessert menu, please?", "example_vi": "Bạn có thể mang cho chúng tôi thực đơn tráng miệng được không?" }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "vocab": [
+        { "word": "plot", "ipa": "/plɒt/", "type": "n.", "meaning": "cốt truyện", "example_en": "The movie has a very predictable plot.", "example_vi": "Bộ phim có một cốt truyện rất dễ đoán." },
+        { "word": "narrator", "ipa": "/nəˈreɪ.tər/", "type": "n.", "meaning": "người kể chuyện", "example_en": "The story is told by a first-person narrator.", "example_vi": "Câu chuyện được kể bởi một người kể chuyện ngôi thứ nhất." },
+        { "word": "setting", "ipa": "/ˈset.ɪŋ/", "type": "n.", "meaning": "bối cảnh", "example_en": "The historical setting makes the novel very interesting.", "example_vi": "Bối cảnh lịch sử làm cho cuốn tiểu thuyết rất thú vị." },
+        { "word": "theme", "ipa": "/θiːm/", "type": "n.", "meaning": "chủ đề", "example_en": "Love and betrayal are the main themes of the play.", "example_vi": "Tình yêu và sự phản bội là những chủ đề chính của vở kịch." },
+        { "word": "conflict", "ipa": "/ˈkɒn.flɪkt/", "type": "n.", "meaning": "sự xung đột, mâu thuẫn", "example_en": "The story focuses on the conflict between two families.", "example_vi": "Câu chuyện tập trung vào sự xung đột giữa hai gia đình." },
+        { "word": "resolution", "ipa": "/ˌrez.əˈluː.ʃən/", "type": "n.", "meaning": "cách giải quyết, phần kết", "example_en": "The novel has a very satisfying resolution.", "example_vi": "Cuốn tiểu thuyết có một phần kết rất thỏa mãn." },
+        { "word": "dialogue", "ipa": "/ˈdaɪ.ə.lɒɡ/", "type": "n.", "meaning": "đoạn hội thoại", "example_en": "The dialogue in this movie is very realistic.", "example_vi": "Hội thoại trong bộ phim này rất chân thực." },
+        { "word": "description", "ipa": "/dɪˈskrɪp.ʃən/", "type": "n.", "meaning": "sự miêu tả", "example_en": "The author provides a detailed description of the landscape.", "example_vi": "Tác giả cung cấp một sự miêu tả chi tiết về phong cảnh." },
+        { "word": "atmosphere", "ipa": "/ˈæt.mə.sfɪər/", "type": "n.", "meaning": "bầu không khí", "example_en": "The dark lighting helped create a scary atmosphere.", "example_vi": "Ánh sáng tối tăm đã giúp tạo ra một bầu không khí đáng sợ." },
+        { "word": "tone", "ipa": "/təʊn/", "type": "n.", "meaning": "giọng điệu", "example_en": "The poem has a very sad tone.", "example_vi": "Bài thơ có một giọng điệu rất buồn." }
+      ]
+    }
+  ]
+}

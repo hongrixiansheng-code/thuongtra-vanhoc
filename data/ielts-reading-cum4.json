@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 7,
+    "reading": [
+      {
+        "title": "Reading: Notice in the neighbourhood",
+        "passage": "NEW SUPERMARKET OPENING THIS WEEK\nVisit the new supermarket on Le Loi Street. It is next to the old bank and opposite a small park. The supermarket is open every day from 7 a.m. to 10 p.m.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The supermarket is opposite a school.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Nó đối diện một công viên, không phải trường học." },
+          { "type": "true_false_ng", "question": "The supermarket opens at 7 a.m.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"open every day from 7 a.m.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "reading": [
+      {
+        "title": "Reading: Where is everything?",
+        "passage": "The pharmacy is between the café and the bank. The cinema is opposite the market. The gym is on the second floor of the hotel, next to the restaurant.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is the pharmacy?", "options": ["Between the café and the bank", "Opposite the market", "Next to the restaurant"], "correct": "Between the café and the bank", "explanation": "Câu đầu nêu rõ vị trí của nhà thuốc." },
+          { "type": "true_false_ng", "question": "The gym is on the first floor.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Gym ở tầng hai (\"second floor\")." }
+        ]
+      }
+    ]
+  }
+]

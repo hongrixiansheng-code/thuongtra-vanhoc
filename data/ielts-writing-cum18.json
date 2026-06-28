@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 35,
+    "writing": [
+      {
+        "title": "Writing Task 1: Habit vs right now",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) comparing your usual habit with what is happening right now, using Present Simple and Present Continuous.",
+        "minWords": 30,
+        "sampleAnswer": "I usually work in an office, but I am working from home today. She usually cooks dinner at seven, but right now, she is cleaning the kitchen instead.",
+        "checklist": ["Có ít nhất 1 câu Present Simple chỉ thói quen", "Có ít nhất 1 câu Present Continuous chỉ hành động đang xảy ra", "Dùng từ nối \"but\" để so sánh hai thời điểm"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — Shopping and cooking now",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) combining countable/uncountable nouns, some/any, quantifiers, and Present Continuous from Chương 4.",
+        "minWords": 40,
+        "sampleAnswer": "I have some rice and a few vegetables for dinner. I have plenty of rice, but I don't have any meat. I am cooking some soup right now. Prices are increasing at the market this week, so I am shopping early today.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 4", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

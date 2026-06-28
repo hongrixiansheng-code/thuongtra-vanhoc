@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 43,
+    "writing": [
+      {
+        "title": "Writing Task 1: Tell about a past experience",
+        "taskType": "task1",
+        "prompt": "Write 3 short questions about someone's past experience (using Did/When/Why/How long), then answer them.",
+        "minWords": 30,
+        "sampleAnswer": "When did you start learning English? Why did you decide to learn it? I started when I was ten. I decided to learn it because I wanted to travel one day.",
+        "checklist": ["Có ít nhất 2 câu hỏi quá khứ với Did/Wh-word", "Trả lời đầy đủ bằng câu có chủ ngữ + động từ", "Không thêm -ed sau did"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "writing": [
+      {
+        "title": "Writing Task 1: Explain why something didn't happen",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) explaining why you didn't do something, using didn't + V.",
+        "minWords": 30,
+        "sampleAnswer": "I didn't go to the meeting yesterday. I didn't have any time, and I was very busy. I told my manager, but he wasn't angry about it.",
+        "checklist": ["Dùng didn't + V nguyên mẫu (không chia quá khứ)", "Giải thích được lý do rõ ràng", "Có ít nhất 1 câu was/wasn't kết hợp"]
+      }
+    ]
+  }
+]

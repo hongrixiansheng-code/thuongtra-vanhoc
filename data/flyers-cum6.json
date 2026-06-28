@@ -1,0 +1,322 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 11,
+      "title": "Bài 7.a: Ngôi nhà (1/2)",
+      "theme": "Ngôi nhà",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "brush",
+          "ipa": "/brʌʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bàn chải, cây cọ",
+          "example_en": "I need a paint brush.",
+          "example_vi": "Tôi cần một cây cọ vẽ."
+        },
+        {
+          "word": "comb",
+          "ipa": "/koʊm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái lược",
+          "example_en": "She uses a comb for her hair.",
+          "example_vi": "Cô ấy dùng một chiếc lược cho mái tóc của mình."
+        },
+        {
+          "word": "cooker",
+          "ipa": "/ˈkʊkər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bếp (lò, bếp điện)",
+          "example_en": "The pot is on the cooker.",
+          "example_vi": "Cái nồi đang nằm trên bếp."
+        },
+        {
+          "word": "cushion",
+          "ipa": "/ˈkʊʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đệm, gối tựa",
+          "example_en": "There is a cushion on the sofa.",
+          "example_vi": "Có một cái gối tựa trên ghế sô-pha."
+        },
+        {
+          "word": "diary",
+          "ipa": "/ˈdaɪəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhật ký",
+          "example_en": "I write in my diary every day.",
+          "example_vi": "Tôi viết nhật ký mỗi ngày."
+        },
+        {
+          "word": "entrance",
+          "ipa": "/ˈentrəns/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lối vào",
+          "example_en": "Wait for me at the entrance.",
+          "example_vi": "Hãy đợi tôi ở lối vào."
+        },
+        {
+          "word": "envelope",
+          "ipa": "/ˈenvəloʊp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phong bì",
+          "example_en": "Put the letter in an envelope.",
+          "example_vi": "Hãy bỏ lá thư vào một chiếc phong bì."
+        },
+        {
+          "word": "fridge",
+          "ipa": "/frɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tủ lạnh",
+          "example_en": "The milk is in the fridge.",
+          "example_vi": "Sữa ở trong tủ lạnh."
+        },
+        {
+          "word": "gate",
+          "ipa": "/ɡeɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cổng",
+          "example_en": "Please close the gate.",
+          "example_vi": "Xin hãy đóng cổng lại."
+        },
+        {
+          "word": "key",
+          "ipa": "/kiː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chìa khóa",
+          "example_en": "I lost my house key.",
+          "example_vi": "Tôi đã đánh mất chìa khóa nhà."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 12,
+      "title": "Bài 7.b: Ngôi nhà (2/2)",
+      "theme": "Ngôi nhà",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "letter",
+          "ipa": "/ˈletər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bức thư",
+          "example_en": "I sent a letter to my friend.",
+          "example_vi": "Tôi đã gửi một bức thư cho bạn tôi."
+        },
+        {
+          "word": "oven",
+          "ipa": "/ˈʌvn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lò nướng",
+          "example_en": "The pizza is in the oven.",
+          "example_vi": "Chiếc bánh pizza đang ở trong lò nướng."
+        },
+        {
+          "word": "screen",
+          "ipa": "/skriːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "màn hình",
+          "example_en": "Look at the computer screen.",
+          "example_vi": "Hãy nhìn vào màn hình máy tính."
+        },
+        {
+          "word": "shampoo",
+          "ipa": "/ʃæmˈpuː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dầu gội",
+          "example_en": "We need to buy some shampoo.",
+          "example_vi": "Chúng ta cần mua một ít dầu gội."
+        },
+        {
+          "word": "shelf",
+          "ipa": "/ʃelf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái kệ, giá sách",
+          "example_en": "Put the books on the shelf.",
+          "example_vi": "Hãy đặt những quyển sách lên kệ."
+        },
+        {
+          "word": "soap",
+          "ipa": "/soʊp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xà phòng",
+          "example_en": "Wash your hands with soap.",
+          "example_vi": "Hãy rửa tay của bạn bằng xà phòng."
+        },
+        {
+          "word": "stamp",
+          "ipa": "/stæmp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con tem",
+          "example_en": "I need a stamp for this letter.",
+          "example_vi": "Tôi cần một con tem cho bức thư này."
+        },
+        {
+          "word": "step",
+          "ipa": "/step/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bậc thang",
+          "example_en": "Be careful on the steps.",
+          "example_vi": "Hãy cẩn thận trên những bậc thang."
+        },
+        {
+          "word": "swing",
+          "ipa": "/swɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái xích đu",
+          "example_en": "She plays on the swing.",
+          "example_vi": "Cô bé chơi trên chiếc xích đu."
+        },
+        {
+          "word": "telephone",
+          "ipa": "/ˈtelɪfoʊn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "điện thoại bàn",
+          "example_en": "The telephone is ringing.",
+          "example_vi": "Điện thoại đang reo."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 13,
+      "title": "Bài 8.a: Trường học (1/2)",
+      "theme": "Trường học",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "art",
+          "ipa": "/ɑːrt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn mỹ thuật, nghệ thuật",
+          "example_en": "I like art class.",
+          "example_vi": "Tôi thích lớp học mỹ thuật."
+        },
+        {
+          "word": "backpack",
+          "ipa": "/ˈbækpæk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ba lô (Anh Mỹ)",
+          "example_en": "I put my books in my backpack.",
+          "example_vi": "Tôi đặt những quyển sách vào trong ba lô của mình."
+        },
+        {
+          "word": "bin",
+          "ipa": "/bɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thùng rác",
+          "example_en": "Put the rubbish in the bin.",
+          "example_vi": "Hãy bỏ rác vào thùng rác."
+        },
+        {
+          "word": "competition",
+          "ipa": "/ˌkɒmpəˈtɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuộc thi",
+          "example_en": "I won the drawing competition.",
+          "example_vi": "Tôi đã chiến thắng cuộc thi vẽ."
+        },
+        {
+          "word": "dictionary",
+          "ipa": "/ˈdɪkʃəneri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "từ điển",
+          "example_en": "Look up the word in a dictionary.",
+          "example_vi": "Hãy tra từ này trong một cuốn từ điển."
+        },
+        {
+          "word": "flag",
+          "ipa": "/flæɡ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lá cờ",
+          "example_en": "That is the national flag.",
+          "example_vi": "Đó là lá cờ quốc gia."
+        },
+        {
+          "word": "geography",
+          "ipa": "/dʒiˈɒɡrəfi/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn địa lý",
+          "example_en": "We learn about maps in geography.",
+          "example_vi": "Chúng ta học về bản đồ trong môn địa lý."
+        },
+        {
+          "word": "glue",
+          "ipa": "/ɡluː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hồ dán, keo dán",
+          "example_en": "Use some glue to stick the paper.",
+          "example_vi": "Hãy sử dụng một ít hồ dán để dán giấy."
+        },
+        {
+          "word": "group",
+          "ipa": "/ɡruːp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhóm",
+          "example_en": "Work in a group of four.",
+          "example_vi": "Hãy làm việc trong một nhóm bốn người."
+        },
+        {
+          "word": "gym",
+          "ipa": "/dʒɪm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phòng tập thể dục",
+          "example_en": "We play basketball in the gym.",
+          "example_vi": "Chúng tôi chơi bóng rổ trong phòng tập thể dục."
+        },
+        {
+          "word": "history",
+          "ipa": "/ˈhɪstəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn lịch sử",
+          "example_en": "History is a very interesting subject.",
+          "example_vi": "Lịch sử là một môn học rất thú vị."
+        },
+        {
+          "word": "language",
+          "ipa": "/ˈlæŋɡwɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngôn ngữ",
+          "example_en": "English is a popular language.",
+          "example_vi": "Tiếng Anh là một ngôn ngữ phổ biến."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

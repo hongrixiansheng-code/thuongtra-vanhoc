@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 89,
+    "speaking": [
+      {
+        "title": "Mock Test — Speaking Part 1",
+        "part": 1,
+        "questions": ["What is your name?", "Where are you from?", "Do you work or study?", "What do you usually do in your free time?"],
+        "sampleAnswer": "My name is Linh. I am from Da Nang. I am a student. In my free time, I usually read books and listen to music."
+      },
+      {
+        "title": "Mock Test — Speaking Part 2",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a place you have visited that you really enjoyed.",
+          "bullets": ["where it is", "when you went there", "what you did there", "and explain why you enjoyed it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about Hoi An. I visited it last year with my family. We explored the old town and tried local food. I enjoyed it because the old streets were peaceful and the food was delicious."
+      },
+      {
+        "title": "Mock Test — Speaking Part 3",
+        "part": 3,
+        "questions": ["Why do you think tourism is important for a country?", "What problems can too much tourism cause?", "Do you think tourism will increase in your country in the future?"],
+        "sampleAnswer": "Tourism is important because it creates jobs and brings in money. However, too much tourism can cause pollution and overcrowding. I think tourism will probably increase in my country because more people are interested in travelling nowadays."
+      }
+    ]
+  }
+]

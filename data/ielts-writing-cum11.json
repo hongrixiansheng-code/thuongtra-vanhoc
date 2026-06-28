@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 21,
+    "writing": [
+      {
+        "title": "Writing Task 1: Interview questions",
+        "taskType": "task1",
+        "prompt": "Write 4 short questions (using Do/Does) you would ask someone about their daily life, and answer one of them.",
+        "minWords": 30,
+        "sampleAnswer": "What time do you start work? Where do you work? Why do you like your job? I start work at eight o'clock. I work in a small office downtown.",
+        "checklist": ["Dùng đúng Do/Does theo chủ ngữ", "Có ít nhất 3 câu hỏi khác nhau", "Trả lời được ít nhất 1 câu bằng câu đầy đủ"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "writing": [
+      {
+        "title": "Writing Task 1: Express disagreement",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) disagreeing with an idea, using don't/doesn't and never/rarely.",
+        "minWords": 30,
+        "sampleAnswer": "I disagree. I think the answer is wrong. He never eats fast food, and he rarely watches TV. He doesn't like noisy places at all.",
+        "checklist": ["Dùng don't/doesn't ít nhất 1 lần", "Dùng never hoặc rarely ít nhất 1 lần", "Thể hiện rõ quan điểm không đồng ý"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 21,
+      "grammar": [
+        {
+          "title": "Hiện tại tiếp diễn: Đang làm gì",
+          "desc": "Dùng 'am / is / are' cộng với một động từ đuôi '-ing' để diễn tả một hành động đang xảy ra ngay lúc này.",
+          "formula": [
+            { "text": "He", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is playing", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "tennis.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I am playing football with my friends.", "meaning": "Tớ đang chơi bóng đá cùng với các bạn của tớ." },
+            { "correct": "She is swimming in the pool.", "meaning": "Cô ấy đang bơi ở trong hồ bơi." },
+            { "correct": "They are watching a game.", "meaning": "Họ đang xem một trận đấu." }
+          ]
+        },
+        {
+          "title": "Câu hỏi: What are you doing?",
+          "desc": "Dùng 'What are you doing?' (Cậu đang làm gì thế?) để hỏi xem ai đó đang làm gì ngay lúc này.",
+          "formula": [
+            { "text": "What", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "are you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "doing?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What are you doing?", "meaning": "Cậu đang làm gì thế?" },
+            { "correct": "What is she doing?", "meaning": "Cô ấy đang làm gì vậy?" },
+            { "correct": "What are they doing in the park?", "meaning": "Họ đang làm gì trong công viên thế?" }
+          ]
+        },
+        {
+          "title": "Ôn tập: can + Động từ thể thao",
+          "desc": "Dùng 'can' để nói về những môn thể thao mà bạn biết chơi hoặc có khả năng chơi.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "can", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "catch the ball.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Can you catch the ball?", "meaning": "Cậu có thể bắt quả bóng không?" },
+            { "correct": "I can run very fast.", "meaning": "Tớ có thể chạy rất nhanh." },
+            { "correct": "He can climb the tree.", "meaning": "Cậu ấy có thể leo cây." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the sports centre",
+          "lines": [
+            { "speaker": "A", "en": "Hello! What are you doing?", "vi": "Chào cậu! Cậu đang làm gì vậy?" },
+            { "speaker": "B", "en": "I am playing tennis with my brother.", "vi": "Tớ đang chơi quần vợt với anh trai tớ." },
+            { "speaker": "A", "en": "You are running very fast!", "vi": "Cậu đang chạy rất nhanh!" },
+            { "speaker": "B", "en": "Yes, I can play tennis well.", "vi": "Đúng vậy, tớ có thể chơi quần vợt giỏi." },
+            { "speaker": "A", "en": "Can I play with you?", "vi": "Tớ có thể chơi cùng các cậu không?" },
+            { "speaker": "B", "en": "Sure. You can hit the ball.", "vi": "Chắc chắn rồi. Cậu có thể đánh quả bóng." }
+          ]
+        },
+        {
+          "title": "Watching a game",
+          "lines": [
+            { "speaker": "A", "en": "What is John doing?", "vi": "John đang làm gì vậy?" },
+            { "speaker": "B", "en": "He is playing basketball.", "vi": "Cậu ấy đang chơi bóng rổ." },
+            { "speaker": "A", "en": "Is he throwing the ball?", "vi": "Cậu ấy đang ném quả bóng đúng không?" },
+            { "speaker": "B", "en": "Yes, he is. He is very tall.", "vi": "Đúng vậy. Cậu ấy rất cao." },
+            { "speaker": "A", "en": "Can he catch the ball well?", "vi": "Cậu ấy có thể bắt bóng giỏi không?" },
+            { "speaker": "B", "en": "Yes, he can. He is the best player.", "vi": "Có, cậu ấy có thể. Cậu ấy là người chơi giỏi nhất." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "grammar": [
+        {
+          "title": "Hiện tại tiếp diễn (Mở rộng)",
+          "desc": "Cùng luyện tập thêm việc sử dụng 'am/is/are + V-ing' để kể về các hành động đang diễn ra xung quanh chúng ta.",
+          "formula": [
+            { "text": "They", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "are", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "jumping.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The children are jumping in the garden.", "meaning": "Những đứa trẻ đang nhảy múa trong vườn." },
+            { "correct": "Are you reading a book?", "meaning": "Cậu đang đọc sách à?" },
+            { "correct": "No, I am not sleeping.", "meaning": "Không, tớ không đang ngủ." }
+          ]
+        },
+        {
+          "title": "Hiện tại đơn vs. Hiện tại tiếp diễn",
+          "desc": "Dùng Hiện tại đơn (play) cho thói quen hàng ngày. Dùng Hiện tại tiếp diễn (am playing) cho việc đang xảy ra lúc này.",
+          "formula": [
+            { "text": "I usually play", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "but now", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "I am sleeping.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I usually play tennis, but today I am swimming.", "meaning": "Tớ thường chơi quần vợt, nhưng hôm nay tớ đang bơi lội." },
+            { "correct": "He always wears a red shirt, but now he is wearing a blue one.", "meaning": "Cậu ấy luôn mặc áo sơ mi đỏ, nhưng bây giờ cậu ấy đang mặc một cái màu xanh." },
+            { "correct": "They eat apples every day, but now they are eating bananas.", "meaning": "Họ ăn táo mỗi ngày, nhưng bây giờ họ đang ăn chuối." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 7",
+          "desc": "Cùng ôn lại: Các môn thể thao, Tương lai dự định (going to) và Hiện tại tiếp diễn (am/is/are + V-ing).",
+          "formula": [
+            { "text": "Sports", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "and", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "Games", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What are you going to do?", "meaning": "Cậu dự định sẽ làm gì thế?" },
+            { "correct": "I am going to play table tennis.", "meaning": "Tớ dự định sẽ chơi bóng bàn." },
+            { "correct": "Look! The dog is catching the ball.", "meaning": "Nhìn kìa! Con chó đang bắt quả bóng." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Different habits",
+          "lines": [
+            { "speaker": "A", "en": "You usually play basketball on Sundays.", "vi": "Cậu thường chơi bóng rổ vào những ngày Chủ Nhật." },
+            { "speaker": "B", "en": "Yes, but today I am playing tennis.", "vi": "Đúng vậy, nhưng hôm nay tớ đang chơi quần vợt." },
+            { "speaker": "A", "en": "Why are you playing tennis today?", "vi": "Tại sao hôm nay cậu lại đang chơi quần vợt?" },
+            { "speaker": "B", "en": "Because I am going to have a match tomorrow.", "vi": "Bởi vì ngày mai tớ dự định sẽ có một trận đấu." },
+            { "speaker": "A", "en": "I see. Are you practicing hard?", "vi": "Tớ hiểu rồi. Cậu có đang luyện tập chăm chỉ không?" },
+            { "speaker": "B", "en": "Yes, I am. I want to win.", "vi": "Có, tớ có. Tớ muốn giành chiến thắng." }
+          ]
+        },
+        {
+          "title": "At the beach",
+          "lines": [
+            { "speaker": "A", "en": "What are your friends doing?", "vi": "Các bạn của cậu đang làm gì thế?" },
+            { "speaker": "B", "en": "They are swimming in the sea.", "vi": "Họ đang bơi ở ngoài biển." },
+            { "speaker": "A", "en": "They usually play football at the park.", "vi": "Họ thường chơi bóng đá ở công viên mà." },
+            { "speaker": "B", "en": "Yes, but it is very hot today.", "vi": "Đúng vậy, nhưng hôm nay trời rất nóng." },
+            { "speaker": "A", "en": "Are you going to swim too?", "vi": "Cậu cũng định sẽ bơi à?" },
+            { "speaker": "B", "en": "No, I am reading a book now.", "vi": "Không, bây giờ tớ đang đọc một quyển sách." }
+          ]
+        }
+      ]
+    }
+  ]
+}

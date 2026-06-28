@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 23,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your habits",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing how often you do things, using adverbs of frequency (always, usually, sometimes, rarely, never).",
+        "minWords": 30,
+        "sampleAnswer": "I usually exercise three times a week. I always wake up at six o'clock. I sometimes go to the cinema, maybe once a month. I rarely drink coffee.",
+        "checklist": ["Dùng ít nhất 3 trạng từ tần suất khác nhau", "Đặt trạng từ đúng vị trí trong câu", "Có ít nhất 1 cụm chỉ tần suất (times a week, once a month...)"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your schedule",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a schedule, using prepositions of time (in/on/at).",
+        "minWords": 30,
+        "sampleAnswer": "The meeting is on a weekday, on Tuesday afternoon. I am busy in the morning, so let's meet at three o'clock.",
+        "checklist": ["Dùng đúng in cho buổi/tháng/mùa", "Dùng đúng on cho ngày/thứ", "Dùng đúng at cho giờ cụ thể"]
+      }
+    ]
+  }
+]

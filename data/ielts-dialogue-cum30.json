@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 59,
+    "dialogue": [
+      {
+        "title": "Maybe, maybe not",
+        "lines": [
+          { "speaker": "Ha", "en": "Do you think it will rain today?", "vi": "Bạn nghĩ hôm nay sẽ mưa không?" },
+          { "speaker": "Jack", "en": "It might rain later, so take an umbrella just in case.", "vi": "Có thể trời sẽ mưa sau, nên mang theo dù để phòng hờ." },
+          { "speaker": "Ha", "en": "Where is Lan? She isn't answering her phone.", "vi": "Lan đâu rồi? Cô ấy không trả lời điện thoại." },
+          { "speaker": "Jack", "en": "She could be at home now, or maybe she is still at work.", "vi": "Có thể giờ cô ấy đang ở nhà, hoặc có thể cô ấy vẫn còn ở chỗ làm." },
+          { "speaker": "Ha", "en": "Will we finish the project by Friday?", "vi": "Chúng ta có hoàn thành dự án trước thứ Sáu không?" },
+          { "speaker": "Jack", "en": "We might not finish on time, but we could ask for one more day.", "vi": "Chúng ta có thể không hoàn thành đúng hạn, nhưng chúng ta có thể xin thêm một ngày." }
+        ]
+      },
+      {
+        "title": "Talking about prices",
+        "lines": [
+          { "speaker": "Ha", "en": "The price of rice could increase next month.", "vi": "Giá gạo có thể sẽ tăng tháng sau." },
+          { "speaker": "Jack", "en": "Really? It might also affect other food prices.", "vi": "Thật sao? Nó có thể cũng ảnh hưởng đến giá các loại thực phẩm khác." },
+          { "speaker": "Ha", "en": "Could this shop close soon? It looks quiet lately.", "vi": "Cửa hàng này có thể sẽ đóng cửa sớm không? Gần đây nó trông vắng vẻ." },
+          { "speaker": "Jack", "en": "It might, but I'm not sure. Business could improve too.", "vi": "Có thể, nhưng tôi không chắc. Việc kinh doanh cũng có thể cải thiện." },
+          { "speaker": "Ha", "en": "Might there be a sale this weekend?", "vi": "Cuối tuần này có thể có giảm giá không?" },
+          { "speaker": "Jack", "en": "There could be. Let's check their page tomorrow.", "vi": "Có thể có. Mình kiểm tra trang của họ vào ngày mai nhé." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "dialogue": [
+      {
+        "title": "Plans for the future",
+        "lines": [
+          { "speaker": "Ha", "en": "What do you want to do after this course?", "vi": "Bạn muốn làm gì sau khóa học này?" },
+          { "speaker": "Jack", "en": "I want to take the IELTS exam. I plan to study every day.", "vi": "Tôi muốn thi IELTS. Tôi định học mỗi ngày." },
+          { "speaker": "Ha", "en": "Did you decide to apply for a scholarship too?", "vi": "Bạn cũng đã quyết định nộp đơn xin học bổng chứ?" },
+          { "speaker": "Jack", "en": "Yes, I decided to apply last week. I hope to get good news soon.", "vi": "Vâng, tôi đã quyết định nộp đơn tuần trước. Tôi hy vọng sẽ có tin tốt sớm." },
+          { "speaker": "Ha", "en": "Do you intend to study abroad?", "vi": "Bạn có định đi học ở nước ngoài không?" },
+          { "speaker": "Jack", "en": "Yes, I intend to study in Australia, but I need to save money first.", "vi": "Vâng, tôi định học ở Úc, nhưng tôi cần tiết kiệm tiền trước." }
+        ]
+      },
+      {
+        "title": "Negotiating a deal",
+        "lines": [
+          { "speaker": "Ha", "en": "We expect to finish the contract by next week.", "vi": "Chúng tôi mong sẽ hoàn thành hợp đồng vào tuần sau." },
+          { "speaker": "Jack", "en": "We agreed to pay half now and half later.", "vi": "Chúng tôi đã đồng ý trả nửa số tiền bây giờ và nửa sau." },
+          { "speaker": "Ha", "en": "Did they refuse to lower the price?", "vi": "Họ có từ chối giảm giá không?" },
+          { "speaker": "Jack", "en": "Yes, they refused to lower it, but they offered to deliver for free.", "vi": "Vâng, họ từ chối giảm giá, nhưng họ đề nghị giao hàng miễn phí." },
+          { "speaker": "Ha", "en": "What do you choose to do in this situation?", "vi": "Trong tình huống này bạn chọn làm gì?" },
+          { "speaker": "Jack", "en": "I choose to accept the offer. It seems fair to me.", "vi": "Tôi chọn chấp nhận đề nghị. Nó có vẻ công bằng với tôi." }
+        ]
+      }
+    ]
+  }
+]

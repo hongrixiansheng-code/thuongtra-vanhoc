@@ -1,0 +1,71 @@
+[
+  {
+    "lessonOrder": 27,
+    "vocab": [
+      {
+        "word": "watch",
+        "ipa": "/wɒtʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xem",
+        "example_en": "Watch TV.",
+        "example_vi": "Xem TV.",
+        "level": "A1"
+      },
+      {
+        "word": "listen",
+        "ipa": "/ˈlɪs.ən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghe",
+        "example_en": "Listen to music.",
+        "example_vi": "Nghe nhạc.",
+        "level": "A1"
+      },
+      {
+        "word": "collect",
+        "ipa": "/kəˈlekt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sưu tầm",
+        "example_en": "Collect stamps.",
+        "example_vi": "Sưu tầm tem.",
+        "level": "A1"
+      },
+      {
+        "word": "paint",
+        "ipa": "/peɪnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sơn, vẽ sơn",
+        "example_en": "Paint a picture.",
+        "example_vi": "Vẽ một bức tranh.",
+        "level": "A1"
+      },
+      {
+        "word": "run",
+        "ipa": "/rʌn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chạy",
+        "example_en": "Run fast.",
+        "example_vi": "Chạy nhanh.",
+        "level": "A1"
+      },
+      {
+        "word": "jump",
+        "ipa": "/dʒʌmp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhảy",
+        "example_en": "Jump high.",
+        "example_vi": "Nhảy cao.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "vocab": []
+  }
+]

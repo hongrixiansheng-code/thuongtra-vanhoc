@@ -1,3 +1,9 @@
+---
+name: game_logic_engineer
+description: Chuyên gia logic học tập và game cho Vấn Học — SRS, answer checking, scoring, interactive components trong packages/shared. Dùng khi sửa logic chấm điểm, SRS, hoặc game components (quiz/drag-drop).
+tools: Read, Edit, Write, Bash, Grep, Glob
+---
+
 # Game Logic Engineer Agent
 
 ## Vai trò

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 39,
+    "listening": [
+      {
+        "title": "Listening: Match result",
+        "transcript": "We trained really hard last week. We scored three goals, and we defeated the other team easily. The game finished quite late.",
+        "questions": [
+          { "type": "form_completion", "question": "Goals scored: ___", "options": ["one", "two", "three"], "correct": "three", "explanation": "\"We scored three goals\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "listening": [
+      {
+        "title": "Listening: Weekend at the beach",
+        "transcript": "We went to the beach with some friends. We had a wonderful time, and we saw a beautiful sunset together. We made a small bonfire on the sand.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did they see together?", "options": ["A sunset", "A boat", "Fireworks"], "correct": "A sunset", "explanation": "\"we saw a beautiful sunset together.\"" }
+        ]
+      }
+    ]
+  }
+]

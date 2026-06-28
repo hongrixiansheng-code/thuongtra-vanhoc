@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 33,
+    "dialogue": [
+      {
+        "title": "What's happening outside?",
+        "lines": [
+          { "speaker": "Linh", "en": "Look, it is raining now.", "vi": "Nhìn, trời đang mưa." },
+          { "speaker": "Tom", "en": "Yes, and the wind is blowing hard.", "vi": "Vâng, và gió đang thổi mạnh." },
+          { "speaker": "Linh", "en": "The sun is shining behind the clouds.", "vi": "Mặt trời đang chiếu sau những đám mây." },
+          { "speaker": "Tom", "en": "I am watching the storm from the window.", "vi": "Tôi đang xem trận bão từ cửa sổ." },
+          { "speaker": "Linh", "en": "Some leaves are falling from the tree.", "vi": "Vài chiếc lá đang rơi khỏi cây." },
+          { "speaker": "Tom", "en": "Everything is changing so fast today.", "vi": "Mọi thứ đang thay đổi rất nhanh hôm nay." }
+        ]
+      },
+      {
+        "title": "In the kitchen right now",
+        "lines": [
+          { "speaker": "Linh", "en": "I am cooking rice for dinner.", "vi": "Tôi đang nấu cơm cho bữa tối." },
+          { "speaker": "Tom", "en": "She is cutting some vegetables.", "vi": "Cô ấy đang cắt vài cọng rau." },
+          { "speaker": "Linh", "en": "They are washing the dishes now.", "vi": "Họ đang rửa bát ngay bây giờ." },
+          { "speaker": "Tom", "en": "He is making some tea.", "vi": "Anh ấy đang pha một ít trà." },
+          { "speaker": "Linh", "en": "We are eating a little bread.", "vi": "Chúng tôi đang ăn một ít bánh mì." },
+          { "speaker": "Tom", "en": "The kitchen is getting very busy now.", "vi": "Nhà bếp đang trở nên bận rộn." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "dialogue": [
+      {
+        "title": "Talking about changes",
+        "lines": [
+          { "speaker": "Linh", "en": "Prices are increasing this month.", "vi": "Giá cả đang tăng trong tháng này." },
+          { "speaker": "Tom", "en": "Are they rising for fruit too?", "vi": "Chúng có tăng cho trái cây không?" },
+          { "speaker": "Linh", "en": "Yes, fruit prices are growing fast.", "vi": "Vâng, giá trái cây đang tăng nhanh." },
+          { "speaker": "Tom", "en": "Is the shop improving its service?", "vi": "Cửa hàng có đang cải thiện dịch vụ không?" },
+          { "speaker": "Linh", "en": "Yes, it is. They aren't selling old food anymore.", "vi": "Vâng. Họ không bán đồ ăn cũ nữa." },
+          { "speaker": "Tom", "en": "That's good news for everyone.", "vi": "Đó là tin tốt cho mọi người." }
+        ]
+      },
+      {
+        "title": "A market in transition",
+        "lines": [
+          { "speaker": "Linh", "en": "Is the market growing bigger?", "vi": "Khu chợ có đang lớn hơn không?" },
+          { "speaker": "Tom", "en": "Yes, it is expanding every year.", "vi": "Vâng, nó đang mở rộng mỗi năm." },
+          { "speaker": "Linh", "en": "Are old shops disappearing?", "vi": "Những cửa hàng cũ có đang biến mất không?" },
+          { "speaker": "Tom", "en": "Some are, but new ones are spreading too.", "vi": "Một số có, nhưng cửa hàng mới cũng đang lan rộng." },
+          { "speaker": "Linh", "en": "We aren't shopping here as much now.", "vi": "Giờ chúng tôi không mua sắm ở đây nhiều nữa." },
+          { "speaker": "Tom", "en": "I'm not surprised, things are changing fast.", "vi": "Tôi không ngạc nhiên, mọi thứ đang thay đổi nhanh." }
+        ]
+      }
+    ]
+  }
+]

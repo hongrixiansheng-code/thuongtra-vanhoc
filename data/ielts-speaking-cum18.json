@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 35,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Habits and exceptions",
+        "part": 1,
+        "questions": ["What do you usually do in the evening?", "What are you doing differently today?", "Does your routine ever change?"],
+        "sampleAnswer": "I usually watch TV in the evening. Today, I am studying English instead. Yes, my routine changes sometimes on weekends."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — Cooking right now",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe what you are cooking or preparing right now.",
+          "bullets": ["what food you have", "how much or how many you have of it", "what you are doing with it right now", "and explain whether you enjoy cooking"]
+        },
+        "questions": [],
+        "sampleAnswer": "I have some rice and a few vegetables for dinner. I have plenty of rice, but I don't have any meat. I am cooking some soup right now. I enjoy cooking because it is relaxing."
+      }
+    ]
+  }
+]

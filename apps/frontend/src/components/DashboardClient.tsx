@@ -2,6 +2,7 @@
 
 import React, { useState } from "react";
 import LessonStepFlow from "@/components/LessonStepFlow";
+import KhaiMonClient from "@/components/KhaiMonClient";
 
 interface Lesson {
   id: string;
@@ -12,17 +13,22 @@ interface Lesson {
   grammar: any[];
   dialogues: any[];
   exercises: any[];
+  reading?: any[];
+  listening?: any[];
+  writing?: any[];
+  speaking?: any[];
 }
 
 interface DashboardClientProps {
   lessons: Lesson[];
   programName: string;
+  programCode?: string;
   isPremiumUser?: boolean;
   isAdmin?: boolean;
   progressMap: Record<string, boolean>;
 }
 
-export default function DashboardClient({ lessons, programName, isPremiumUser, isAdmin, progressMap }: DashboardClientProps) {
+export default function DashboardClient({ lessons, programName, programCode, isPremiumUser, isAdmin, progressMap }: DashboardClientProps) {
   const [activeLessonId, setActiveLessonId] = useState<string | null>(null);
 
   const activeLesson = lessons.find(l => l.id === activeLessonId);
@@ -30,16 +36,40 @@ export default function DashboardClient({ lessons, programName, isPremiumUser, i
   // Group lessons by theme
   const themes = Array.from(new Set(lessons.map(l => l.theme)));
 
+  // Determine accent color classes
+  let borderColor = "border-primary-100 dark:border-primary-900/30";
+  let hoverBorderColor = "hover:border-primary-400 dark:hover:border-primary-600";
+  let badgeBgColor = "bg-primary-100 dark:bg-primary-900/50";
+  let badgeTextColor = "text-primary-700 dark:text-primary-300";
+  let arrowColor = "text-primary-400 dark:text-primary-500";
+
   // Đang học bài → hiện Step Flow full screen
   if (activeLesson) {
+    if (programCode === 'khai-mon') {
+      return (
+        <KhaiMonClient
+          lesson={activeLesson}
+          lessonId={activeLesson.id}
+          programName={programName}
+          onComplete={async () => { setActiveLessonId(null); window.location.reload(); }}
+          onBack={() => setActiveLessonId(null)}
+        />
+      );
+    }
     return (
       <LessonStepFlow
         vocabItems={activeLesson.vocab || []}
         grammarItems={activeLesson.grammar || []}
         dialogueItems={activeLesson.dialogues || []}
         exerciseItems={activeLesson.exercises || []}
+        readingItems={activeLesson.reading || []}
+        listeningItems={activeLesson.listening || []}
+        writingItems={activeLesson.writing || []}
+        speakingItems={activeLesson.speaking || []}
         lessonTitle={activeLesson.title}
         lessonId={activeLesson.id}
+        programName={programName}
+        programCode={programCode}
         onComplete={async (score) => {
           setActiveLessonId(null);
           // Reload trang để đọc progress mới từ DB
@@ -55,15 +85,15 @@ export default function DashboardClient({ lessons, programName, isPremiumUser, i
     <div className="max-w-4xl mx-auto px-4 py-8">
       {/* Header */}
       <div className="mb-8">
-        <h1 className="text-3xl font-bold text-slate-800">{programName}</h1>
-        <p className="text-slate-500 mt-1">{lessons.length} bài học • Chọn bài để bắt đầu</p>
+        <h1 className="text-3xl font-bold text-slate-800 dark:text-white">{programName}</h1>
+        <p className="text-slate-500 dark:text-slate-400 mt-1">{lessons.length} bài học • Chọn bài để bắt đầu</p>
       </div>
 
       {/* Danh sách bài theo theme */}
       <div className="space-y-8">
         {themes.map(theme => (
           <div key={theme}>
-            <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-3 pl-1">
+            <h2 className="text-xs font-bold uppercase tracking-widest text-slate-400 dark:text-slate-500 mb-3 pl-1">
               {theme}
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
@@ -88,22 +118,31 @@ export default function DashboardClient({ lessons, programName, isPremiumUser, i
                     disabled={isLocked}
                     className={`text-left p-5 rounded-2xl border-2 transition-all
                       ${isLocked
-                        ? 'border-slate-100 bg-slate-50 opacity-60 cursor-not-allowed'
-                        : 'border-blue-100 bg-white hover:border-blue-400 hover:shadow-md cursor-pointer active:scale-[0.98]'
+                        ? 'border-slate-100 bg-slate-50 dark:border-slate-800 dark:bg-slate-900/50 opacity-60 cursor-not-allowed'
+                        : `${borderColor} bg-white dark:bg-slate-900 ${hoverBorderColor} hover:shadow-md cursor-pointer active:scale-[0.98]`
                       }`}
                   >
                     <div className="flex items-start justify-between gap-3">
                       <div>
                         <div className="flex items-center gap-2 mb-1">
-                          <span className="w-6 h-6 rounded-full bg-blue-100 text-blue-700 text-xs font-bold flex items-center justify-center flex-shrink-0">
+                          <span className={`w-6 h-6 rounded-full ${badgeBgColor} ${badgeTextColor} text-xs font-bold flex items-center justify-center flex-shrink-0`}>
                             {idx + 1}
                           </span>
-                          <span className="font-semibold text-slate-800 text-sm">{lesson.title}</span>
+                          <span className="font-semibold text-slate-800 dark:text-slate-200 text-sm whitespace-pre-line leading-relaxed">{lesson.title}</span>
                         </div>
-                        <div className="flex gap-3 text-xs text-slate-400 pl-8">
-                          <span>{lesson.vocab?.length || 0} từ</span>
-                          <span>{lesson.grammar?.length || 0} ngữ pháp</span>
-                          <span>{lesson.dialogues?.length || 0} hội thoại</span>
+                        <div className="flex gap-3 text-xs text-slate-400 dark:text-slate-500 pl-8">
+                          {programCode === 'khai-mon' ? (
+                            <>
+                              <span>{lesson.vocab?.length > 0 ? '📖 Lý thuyết' : ''}</span>
+                              <span>{lesson.exercises?.length > 0 ? '🔊 Luyện đọc' : ''}</span>
+                            </>
+                          ) : (
+                            <>
+                              <span>{lesson.vocab?.length || 0} từ</span>
+                              <span>{lesson.grammar?.length || 0} ngữ pháp</span>
+                              <span>{lesson.dialogues?.length || 0} hội thoại</span>
+                            </>
+                          )}
                         </div>
                       </div>
                       {isProgressLocked ? (
@@ -111,7 +150,7 @@ export default function DashboardClient({ lessons, programName, isPremiumUser, i
                       ) : isPremiumLocked ? (
                         <span className="text-amber-400 flex-shrink-0">💎</span>
                       ) : (
-                        <span className="text-blue-400 flex-shrink-0 text-lg">→</span>
+                        <span className={`${arrowColor} flex-shrink-0 text-lg`}>→</span>
                       )}
                     </div>
                   </button>

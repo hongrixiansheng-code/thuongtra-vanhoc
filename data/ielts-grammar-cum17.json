@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 33,
+    "grammar": [
+      {
+        "title": "Hiện tại tiếp diễn (Present Continuous) — Khẳng định",
+        "desc": "Dùng để diễn tả một hành động ĐANG XẢY RA ngay tại thời điểm nói.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "am / is / are", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb-ing", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I am eating breakfast now.", "vi": "Bây giờ tôi đang ăn sáng." },
+          { "en": "She is cooking dinner in the kitchen.", "vi": "Cô ấy đang nấu bữa tối trong nhà bếp." },
+          { "en": "They are buying vegetables at the market.", "vi": "Họ đang mua rau ở chợ." }
+        ],
+        "note": "Quy tắc thêm -ing: động từ tận cùng \"e\" thì bỏ \"e\" rồi thêm \"-ing\" (make → making). Động từ 1 âm tiết, tận cùng 1 nguyên âm + 1 phụ âm thì gấp đôi phụ âm cuối (cut → cutting).",
+        "practiceList": [
+          { "question": "She ___ (eat) some rice right now.", "correct": "is eating", "meaning": "Cô ấy đang ăn cơm ngay bây giờ.", "explanation": "Chủ ngữ số ít \"She\" dùng \"is\" + V-ing." },
+          { "question": "We ___ (buy) some bread at the shop.", "correct": "are buying", "meaning": "Chúng tôi đang mua bánh mì ở cửa hàng.", "explanation": "Chủ ngữ \"We\" dùng \"are\" + V-ing." },
+          { "question": "I ___ (drink) a little water now.", "correct": "am drinking", "meaning": "Bây giờ tôi đang uống một ít nước.", "explanation": "Chủ ngữ \"I\" luôn dùng \"am\" + V-ing." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "grammar": [
+      {
+        "title": "Hiện tại tiếp diễn — Phủ định & Câu hỏi",
+        "desc": "Dùng am/is/are + not + V-ing để phủ định, và đảo am/is/are lên trước chủ ngữ để tạo câu hỏi.",
+        "formula": [
+          { "text": "Subject + am/is/are + not + V-ing", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "Am/Is/Are + Subject + V-ing?", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I am not eating much sugar today.", "vi": "Hôm nay tôi không ăn nhiều đường." },
+          { "en": "Is she buying any vegetables?", "vi": "Cô ấy có đang mua rau gì không?" },
+          { "en": "They aren't cooking dinner yet.", "vi": "Họ chưa đang nấu bữa tối." }
+        ],
+        "note": "is not = isn't, are not = aren't. \"am not\" không có dạng viết tắt chung.",
+        "practiceList": [
+          { "question": "He ___ (not/drink) much coffee today.", "correct": "isn't drinking", "meaning": "Hôm nay anh ấy không uống nhiều cà phê.", "explanation": "Phủ định với \"He\" dùng \"isn't\" + V-ing." },
+          { "question": "___ you (buy) any fruit at the market?", "correct": "Are you buying", "meaning": "Bạn có đang mua trái cây nào ở chợ không?", "explanation": "Câu hỏi đảo \"Are\" lên trước chủ ngữ \"you\"." },
+          { "question": "___ she (cook) rice right now?", "correct": "Is she cooking", "meaning": "Cô ấy có đang nấu cơm ngay bây giờ không?", "explanation": "Câu hỏi đảo \"Is\" lên trước chủ ngữ \"she\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+[
+  {
+    "lessonOrder": 90,
+    "reading": [
+      {
+        "title": "Reading: Test strategy review",
+        "passage": "After the mock test, many students realised that time management was their biggest problem. A large number of mistakes happened because students rushed at the end of the reading section. Furthermore, some students forgot grammar rules which they used to know well. As a result, teachers recommend reviewing weak areas before the real exam. If students practise regularly, their scores will improve.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Time management was a common problem.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"many students realised that time management was their biggest problem.\"" },
+          { "type": "multiple_choice", "question": "What do teachers recommend?", "options": ["Taking more mock tests only", "Reviewing weak areas", "Skipping reading practice"], "correct": "Reviewing weak areas", "explanation": "\"teachers recommend reviewing weak areas before the real exam.\"" }
+        ]
+      }
+    ]
+  }
+]

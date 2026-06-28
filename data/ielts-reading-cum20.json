@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 39,
+    "reading": [
+      {
+        "title": "Reading: A great football match",
+        "passage": "We trained really hard last week, and it worked. We scored three goals, and we defeated the other team easily. The game finished quite late, but everyone enjoyed it.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The team scored three goals.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"We scored three goals\"." },
+          { "type": "true_false_ng", "question": "The game finished early.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"The game finished quite late\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "reading": [
+      {
+        "title": "Reading: A beach weekend",
+        "passage": "We went to the beach with some friends. We had a wonderful time, and we saw a beautiful sunset together. Our friends came early, and we made a small bonfire on the sand.",
+        "questions": [
+          { "type": "true_false_ng", "question": "They saw a sunset together.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"we saw a beautiful sunset together\"." },
+          { "type": "multiple_choice", "question": "What did they make on the sand?", "options": ["A sandcastle", "A small bonfire", "A picnic table"], "correct": "A small bonfire", "explanation": "\"we made a small bonfire on the sand.\"" }
+        ]
+      }
+    ]
+  }
+]

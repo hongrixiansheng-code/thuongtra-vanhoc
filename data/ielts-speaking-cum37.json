@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 73,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — An achievement",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe an achievement you are proud of.",
+          "bullets": ["what the achievement is", "how long you worked on it", "when it was completed or published", "and explain why you are proud of it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I have already finished my first book. I have worked on it since I was in university, about two years. It has just been published last month. I am proud of it because it took a lot of hard work."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 74,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Discussing rules and consequences",
+        "part": 3,
+        "questions": ["What will happen if people don't follow traffic rules?", "If the government makes stricter regulations, will safety improve?", "What will you do if you see someone breaking a rule?"],
+        "sampleAnswer": "If people don't follow traffic rules, there will be more accidents. If the government makes stricter regulations, safety will probably improve. If I see someone breaking a rule, I will remind them politely."
+      }
+    ]
+  }
+]

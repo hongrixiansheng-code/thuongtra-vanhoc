@@ -1,0 +1,19 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 36,
+      "vocab": [
+        { "word": "achieve", "ipa": "/əˈtʃiːv/", "type": "v.", "meaning": "đạt được", "example_en": "She eventually achieved her goal of becoming a doctor.", "example_vi": "Cuối cùng cô ấy cũng đạt được mục tiêu trở thành bác sĩ." },
+        { "word": "accomplish", "ipa": "/əˈkʌm.plɪʃ/", "type": "v.", "meaning": "hoàn thành, đạt được", "example_en": "We have accomplished a lot today.", "example_vi": "Hôm nay chúng ta đã hoàn thành được rất nhiều việc." },
+        { "word": "succeed", "ipa": "/səkˈsiːd/", "type": "v.", "meaning": "thành công", "example_en": "If you work hard, you will succeed.", "example_vi": "Nếu bạn làm việc chăm chỉ, bạn sẽ thành công." },
+        { "word": "fail", "ipa": "/feɪl/", "type": "v.", "meaning": "thất bại, trượt", "example_en": "He failed his driving test the first time.", "example_vi": "Anh ấy đã trượt bài kiểm tra lái xe ở lần đầu tiên." },
+        { "word": "improve", "ipa": "/ɪmˈpruːv/", "type": "v.", "meaning": "cải thiện", "example_en": "I want to improve my English speaking skills.", "example_vi": "Tôi muốn cải thiện kỹ năng nói tiếng Anh của mình." },
+        { "word": "progress", "ipa": "/prəˈɡres/", "type": "v.", "meaning": "tiến bộ", "example_en": "The project is progressing slowly.", "example_vi": "Dự án đang tiến bộ một cách chậm chạp." },
+        { "word": "develop", "ipa": "/dɪˈvel.əp/", "type": "v.", "meaning": "phát triển", "example_en": "They are trying to develop a new medicine.", "example_vi": "Họ đang cố gắng phát triển một loại thuốc mới." },
+        { "word": "maintain", "ipa": "/meɪnˈteɪn/", "type": "v.", "meaning": "duy trì", "example_en": "It is important to maintain a healthy lifestyle.", "example_vi": "Việc duy trì một lối sống lành mạnh là rất quan trọng." },
+        { "word": "establish", "ipa": "/ɪˈstæb.lɪʃ/", "type": "v.", "meaning": "thành lập, thiết lập", "example_en": "The company was established in 1990.", "example_vi": "Công ty được thành lập vào năm 1990." },
+        { "word": "evaluate", "ipa": "/ɪˈvæl.ju.eɪt/", "type": "v.", "meaning": "đánh giá", "example_en": "We need to evaluate the results of the experiment.", "example_vi": "Chúng ta cần đánh giá kết quả của cuộc thí nghiệm." }
+      ]
+    }
+  ]
+}

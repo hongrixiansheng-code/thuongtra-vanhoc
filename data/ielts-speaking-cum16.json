@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 31,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Eating out",
+        "part": 1,
+        "questions": ["Do you have any favourite restaurants?", "Is there any food you don't like?", "What do you usually order to drink?"],
+        "sampleAnswer": "Yes, I have some favourite restaurants near my home. I don't like any seafood. I usually order some juice or tea."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a shopping trip",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a recent shopping trip for food.",
+          "bullets": ["where you went shopping", "what you bought", "how much it cost", "and explain whether the prices were cheap or expensive"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about a trip to the market. I bought a lot of vegetables and a few onions. There was a discount on organic food, so it wasn't too expensive."
+      }
+    ]
+  }
+]

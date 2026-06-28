@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 35,
+    "reading": [
+      {
+        "title": "Reading: Habit vs right now",
+        "passage": "I usually work in an office, but I am working from home today. She usually cooks dinner at seven, but right now, she is cleaning the kitchen instead.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer is working from home today.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I am working from home today.\"" },
+          { "type": "multiple_choice", "question": "What is she doing right now?", "options": ["Cooking dinner", "Cleaning the kitchen", "Watching TV"], "correct": "Cleaning the kitchen", "explanation": "\"right now, she is cleaning the kitchen instead.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "reading": [
+      {
+        "title": "Reading: Review — Shopping and cooking now",
+        "passage": "I have some rice and a few vegetables for dinner. I have plenty of rice, but I don't have any meat. I am cooking some soup right now. Prices are increasing at the market this week.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer has a lot of meat.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I don't have any meat.\"" },
+          { "type": "true_false_ng", "question": "Prices are increasing this week.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"Prices are increasing at the market this week.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 14,
+      "dialogues": [
+        {
+          "title": "Commuting to work",
+          "lines": [
+            {
+              "speaker": "Dan",
+              "en": "The traffic jam on the highway was terrible this morning, which caused me to be late for work. I spent an hour just sitting in my car.",
+              "vi": "Trận kẹt xe trên đường cao tốc sáng nay thật tồi tệ, điều đó khiến tôi bị trễ giờ làm. Tôi đã dành cả một giờ chỉ để ngồi trong xe ô tô của mình."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "I always take the subway because it avoids all the traffic on the roads. It is much faster and you don't have to worry about parking.",
+              "vi": "Tôi luôn đi tàu điện ngầm vì nó tránh được mọi sự tắc nghẽn trên đường. Nó nhanh hơn nhiều và bạn không phải lo lắng về việc đỗ xe."
+            },
+            {
+              "speaker": "Dan",
+              "en": "I considered taking the train, but the station is too far from my house. I would have to walk for twenty minutes in the rain.",
+              "vi": "Tôi đã cân nhắc việc đi tàu, nhưng nhà ga lại quá xa nhà tôi. Tôi sẽ phải đi bộ trong hai mươi phút dưới trời mưa."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "You could buy a bicycle and ride it to the station every day. There is a secure parking area where you can leave your bike safely.",
+              "vi": "Bạn có thể mua một chiếc xe đạp và đạp nó đến nhà ga mỗi ngày. Có một khu vực đỗ xe an ninh nơi bạn có thể để xe đạp một cách an toàn."
+            },
+            {
+              "speaker": "Dan",
+              "en": "That is actually a brilliant idea, which would also help me get some exercise. Driving in the city center is becoming too stressful.",
+              "vi": "Đó thực ra là một ý tưởng xuất sắc, điều này cũng sẽ giúp tôi tập thể dục. Việc lái xe ở trung tâm thành phố đang trở nên quá căng thẳng."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "Public transport is also better for the environment than driving a car alone. A monthly pass is quite affordable if you buy it in advance.",
+              "vi": "Giao thông công cộng cũng tốt hơn cho môi trường so với việc lái xe ô tô một mình. Một vé tháng khá phải chăng nếu bạn mua nó trước."
+            },
+            {
+              "speaker": "Dan",
+              "en": "I will check the train schedules tonight to see if they match my working hours. If it works out, I will sell my old car soon.",
+              "vi": "Tôi sẽ kiểm tra lịch trình tàu tối nay để xem liệu chúng có khớp với giờ làm việc của tôi không. Nếu ổn thỏa, tôi sẽ sớm bán chiếc xe cũ của mình."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "I am sure you will notice the difference immediately. Reading a book on the train is much more relaxing than navigating through heavy traffic.",
+              "vi": "Tôi chắc chắn bạn sẽ nhận thấy sự khác biệt ngay lập tức. Đọc một cuốn sách trên tàu thì thư giãn hơn nhiều so với việc loay hoay vượt qua dòng giao thông đông đúc."
+            }
+          ]
+        },
+        {
+          "title": "Asking for directions",
+          "lines": [
+            {
+              "speaker": "Tourist",
+              "en": "Excuse me, I am trying to find the central railway station. Is there a direct bus which goes there from this stop?",
+              "vi": "Xin lỗi, tôi đang cố tìm ga đường sắt trung tâm. Có chuyến xe buýt trực tiếp nào đi đến đó từ bến này không?"
+            },
+            {
+              "speaker": "Local",
+              "en": "Yes, bus number 45 goes straight to the station, but it just left five minutes ago. You will have to wait twenty minutes for the next one.",
+              "vi": "Có, xe buýt số 45 đi thẳng đến nhà ga, nhưng nó vừa mới rời đi năm phút trước. Bạn sẽ phải đợi hai mươi phút cho chuyến tiếp theo."
+            },
+            {
+              "speaker": "Tourist",
+              "en": "I have a train to catch at three o'clock, so I am in a bit of a hurry. Can I walk there if it is not too far?",
+              "vi": "Tôi có một chuyến tàu phải bắt lúc ba giờ, vì vậy tôi đang hơi vội. Tôi có thể đi bộ đến đó nếu nó không quá xa không?"
+            },
+            {
+              "speaker": "Local",
+              "en": "It is a long walk, which would take you at least forty minutes. I recommend taking a taxi if you want to arrive on time.",
+              "vi": "Đó là một đoạn đi bộ dài, việc đó sẽ mất của bạn ít nhất bốn mươi phút. Tôi khuyên bạn nên đi taxi nếu bạn muốn đến đúng giờ."
+            },
+            {
+              "speaker": "Tourist",
+              "en": "Where can I find a taxi stand near here? I don't see any empty cabs driving along this street.",
+              "vi": "Tôi có thể tìm thấy một trạm taxi gần đây ở đâu? Tôi không thấy bất kỳ chiếc taxi trống nào chạy dọc theo con đường này."
+            },
+            {
+              "speaker": "Local",
+              "en": "There is a taxi rank just opposite the supermarket, which is about two blocks away. You can easily get a ride from there.",
+              "vi": "Có một bãi đỗ taxi ngay đối diện siêu thị, nơi cách đây khoảng hai dãy nhà. Bạn có thể dễ dàng bắt một chuyến xe từ đó."
+            },
+            {
+              "speaker": "Tourist",
+              "en": "Thank you for the detailed information. I will hurry over to the supermarket so that I don't miss my train.",
+              "vi": "Cảm ơn bạn vì thông tin chi tiết. Tôi sẽ nhanh chóng đi tới siêu thị để không lỡ chuyến tàu của mình."
+            },
+            {
+              "speaker": "Local",
+              "en": "You are welcome, and I hope you have a safe journey. The drivers here know the quickest routes to the station.",
+              "vi": "Không có chi, và tôi chúc bạn có một chuyến đi an toàn. Các tài xế ở đây biết những tuyến đường nhanh nhất để đến nhà ga."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 15,
+      "dialogues": [
+        {
+          "title": "Discussing modern vehicles",
+          "lines": [
+            {
+              "speaker": "Sam",
+              "en": "Electric cars are becoming increasingly popular, and many people are buying them. The government provides subsidies which make these vehicles more affordable.",
+              "vi": "Ô tô điện đang trở nên ngày càng phổ biến, và nhiều người đang mua chúng. Chính phủ cung cấp các khoản trợ cấp cái mà làm cho những phương tiện này có giá phải chăng hơn."
+            },
+            {
+              "speaker": "Rachel",
+              "en": "I am thinking about buying a hybrid car because I worry about running out of battery. Finding a charging station can be difficult in rural areas.",
+              "vi": "Tôi đang suy nghĩ về việc mua một chiếc xe lai (hybrid) vì tôi lo lắng về việc hết pin. Việc tìm kiếm một trạm sạc có thể khó khăn ở các khu vực nông thôn."
+            },
+            {
+              "speaker": "Sam",
+              "en": "The charging infrastructure has improved significantly, and there are fast chargers everywhere now. An electric vehicle is much cheaper to maintain than a petrol car.",
+              "vi": "Cơ sở hạ tầng sạc đã được cải thiện đáng kể, và hiện tại có các bộ sạc nhanh ở khắp mọi nơi. Một phương tiện điện thì rẻ hơn nhiều để bảo trì so với xe xăng."
+            },
+            {
+              "speaker": "Rachel",
+              "en": "That is true, but the initial cost is still quite high for an average family. I also read that replacing the battery is extremely expensive.",
+              "vi": "Điều đó đúng, nhưng chi phí ban đầu vẫn còn khá cao đối với một gia đình trung bình. Tôi cũng đọc được rằng việc thay pin là cực kỳ đắt đỏ."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Technology is advancing rapidly, which means prices will continue to drop in the future. Self-driving cars will probably be the next big revolution in transport.",
+              "vi": "Công nghệ đang tiến bộ nhanh chóng, điều đó có nghĩa là giá cả sẽ tiếp tục giảm trong tương lai. Xe tự lái có lẽ sẽ là cuộc cách mạng lớn tiếp theo trong giao thông."
+            },
+            {
+              "speaker": "Rachel",
+              "en": "I don't trust autonomous vehicles yet because I like to be in control when I drive. A machine cannot react to unexpected situations like a human can.",
+              "vi": "Tôi vẫn chưa tin tưởng các phương tiện tự trị vì tôi thích được làm chủ khi tôi lái xe. Một cỗ máy không thể phản ứng với những tình huống bất ngờ giống như một con người có thể làm."
+            },
+            {
+              "speaker": "Sam",
+              "en": "Computers are actually much faster than human brains, which reduces the risk of accidents. Most crashes are caused by human errors, such as distraction.",
+              "vi": "Máy tính thực ra nhanh hơn nhiều so với bộ não con người, điều này làm giảm nguy cơ tai nạn. Hầu hết các vụ va chạm đều do lỗi của con người gây ra, chẳng hạn như sự xao nhãng."
+            },
+            {
+              "speaker": "Rachel",
+              "en": "I suppose you are right, but it will take time for people to adapt. The transition to smart transport will definitely change our cities completely.",
+              "vi": "Tôi cho là bạn đúng, nhưng sẽ cần thời gian để mọi người thích nghi. Việc chuyển đổi sang giao thông thông minh chắc chắn sẽ thay đổi hoàn toàn các thành phố của chúng ta."
+            }
+          ]
+        },
+        {
+          "title": "Problems with a flight",
+          "lines": [
+            {
+              "speaker": "Passenger",
+              "en": "Excuse me, the departure board says that flight BA205 has been delayed by three hours. Can you explain the reason which caused this delay?",
+              "vi": "Xin lỗi, bảng khởi hành ghi rằng chuyến bay BA205 đã bị hoãn ba tiếng đồng hồ. Bạn có thể giải thích lý do cái mà đã gây ra sự chậm trễ này không?"
+            },
+            {
+              "speaker": "Agent",
+              "en": "I apologize for the inconvenience, sir. The aircraft has experienced a minor technical issue which needs to be inspected by the engineers.",
+              "vi": "Tôi xin lỗi vì sự bất tiện này, thưa ông. Máy bay đã gặp một vấn đề kỹ thuật nhỏ thứ mà cần được kiểm tra bởi các kỹ sư."
+            },
+            {
+              "speaker": "Passenger",
+              "en": "I have an important business meeting in London, and I cannot afford to be late. Are there any alternative flights which I can take this morning?",
+              "vi": "Tôi có một cuộc họp kinh doanh quan trọng ở London, và tôi không thể để bị trễ. Có chuyến bay thay thế nào mà tôi có thể đi vào sáng nay không?"
+            },
+            {
+              "speaker": "Agent",
+              "en": "Let me check the system for you immediately. There is another flight operated by our partner airline, which departs in forty-five minutes.",
+              "vi": "Hãy để tôi kiểm tra hệ thống cho ông ngay lập tức. Có một chuyến bay khác được điều hành bởi hãng hàng không đối tác của chúng tôi, chuyến bay này khởi hành trong bốn mươi lăm phút nữa."
+            },
+            {
+              "speaker": "Passenger",
+              "en": "That would be perfect! Is it possible to transfer my ticket to that flight without paying extra fees?",
+              "vi": "Thế thì thật hoàn hảo! Có khả năng nào để chuyển vé của tôi sang chuyến bay đó mà không phải trả thêm phí không?"
+            },
+            {
+              "speaker": "Agent",
+              "en": "Yes, we can transfer your booking for free because the delay is our responsibility. I will print your new boarding pass right away.",
+              "vi": "Có, chúng tôi có thể chuyển đặt chỗ của ông miễn phí vì sự chậm trễ là trách nhiệm của chúng tôi. Tôi sẽ in thẻ lên máy bay mới của ông ngay lập tức."
+            },
+            {
+              "speaker": "Passenger",
+              "en": "Thank you for handling the situation so efficiently. Where is the gate which I need to go to for this new flight?",
+              "vi": "Cảm ơn bạn đã xử lý tình huống một cách hiệu quả như vậy. Cổng nào mà tôi cần đi tới cho chuyến bay mới này ở đâu?"
+            },
+            {
+              "speaker": "Agent",
+              "en": "You need to proceed to Gate 8, which is located in Terminal 2. You will have to take the shuttle bus to get there quickly.",
+              "vi": "Ông cần tiến tới Cổng 8, cái mà nằm ở Nhà ga số 2. Ông sẽ phải đi xe buýt đưa đón để đến đó thật nhanh."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

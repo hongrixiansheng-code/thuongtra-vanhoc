@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 6,
+      "vocab": [
+        { "word": "accountant", "ipa": "/əˈkaʊn.tənt/", "type": "n.", "meaning": "kế toán viên", "example_en": "My brother works as an accountant in a bank.", "example_vi": "Anh trai tôi làm kế toán viên trong một ngân hàng." },
+        { "word": "architect", "ipa": "/ˈɑː.kɪ.tekt/", "type": "n.", "meaning": "kiến trúc sư", "example_en": "The building was designed by a famous architect.", "example_vi": "Tòa nhà được thiết kế bởi một kiến trúc sư nổi tiếng." },
+        { "word": "lawyer", "ipa": "/ˈlɔɪ.ər/", "type": "n.", "meaning": "luật sư", "example_en": "You should speak to a lawyer before signing the contract.", "example_vi": "Bạn nên nói chuyện với một luật sư trước khi ký hợp đồng." },
+        { "word": "librarian", "ipa": "/laɪˈbreə.ri.ən/", "type": "n.", "meaning": "thủ thư", "example_en": "The librarian helped me find the book I was looking for.", "example_vi": "Người thủ thư đã giúp tôi tìm cuốn sách tôi đang tìm kiếm." },
+        { "word": "scientist", "ipa": "/ˈsaɪən.tɪst/", "type": "n.", "meaning": "nhà khoa học", "example_en": "Scientists are trying to find a cure for the disease.", "example_vi": "Các nhà khoa học đang cố gắng tìm ra cách chữa trị căn bệnh." },
+        { "word": "journalist", "ipa": "/ˈdʒɜː.nə.lɪst/", "type": "n.", "meaning": "nhà báo", "example_en": "The journalist asked the politician some difficult questions.", "example_vi": "Nhà báo đã hỏi vị chính trị gia một vài câu hỏi hóc búa." },
+        { "word": "editor", "ipa": "/ˈed.ɪ.tər/", "type": "n.", "meaning": "biên tập viên", "example_en": "She works as an editor for a local newspaper.", "example_vi": "Cô ấy làm biên tập viên cho một tờ báo địa phương." },
+        { "word": "broadcaster", "ipa": "/ˈbrɔːdˌkɑː.stər/", "type": "n.", "meaning": "phát thanh viên, đài phát thanh/truyền hình", "example_en": "He is a well-known sports broadcaster.", "example_vi": "Anh ấy là một phát thanh viên thể thao nổi tiếng." },
+        { "word": "politician", "ipa": "/ˌpɒl.ɪˈtɪʃ.ən/", "type": "n.", "meaning": "chính trị gia", "example_en": "The politician gave a long speech to the crowd.", "example_vi": "Vị chính trị gia đã có một bài phát biểu dài trước đám đông." },
+        { "word": "researcher", "ipa": "/rɪˈsɜː.tʃər/", "type": "n.", "meaning": "nhà nghiên cứu", "example_en": "Medical researchers have made a new discovery.", "example_vi": "Các nhà nghiên cứu y học vừa có một phát hiện mới." }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "vocab": [
+        { "word": "charity", "ipa": "/ˈtʃær.ə.ti/", "type": "n.", "meaning": "tổ chức từ thiện, lòng từ thiện", "example_en": "She gives a lot of money to charity.", "example_vi": "Cô ấy quyên góp rất nhiều tiền cho tổ chức từ thiện." },
+        { "word": "government", "ipa": "/ˈɡʌv.ən.mənt/", "type": "n.", "meaning": "chính phủ", "example_en": "The government is trying to reduce unemployment.", "example_vi": "Chính phủ đang cố gắng giảm tỷ lệ thất nghiệp." },
+        { "word": "community", "ipa": "/kəˈmjuː.nə.ti/", "type": "n.", "meaning": "cộng đồng", "example_en": "There is a strong sense of community in this town.", "example_vi": "Có một ý thức cộng đồng rất mạnh mẽ ở thị trấn này." },
+        { "word": "generation", "ipa": "/ˌdʒen.əˈreɪ.ʃən/", "type": "n.", "meaning": "thế hệ", "example_en": "The older generation often has different views from the younger one.", "example_vi": "Thế hệ lớn tuổi thường có những quan điểm khác biệt so với thế hệ trẻ." },
+        { "word": "tradition", "ipa": "/trəˈdɪʃ.ən/", "type": "n.", "meaning": "truyền thống", "example_en": "It is a tradition to have turkey for Thanksgiving.", "example_vi": "Có một truyền thống là ăn gà tây vào Lễ Tạ Ơn." },
+        { "word": "custom", "ipa": "/ˈkʌs.təm/", "type": "n.", "meaning": "phong tục", "example_en": "In many countries, it is the custom to bow when greeting someone.", "example_vi": "Ở nhiều quốc gia, có phong tục cúi chào khi chào hỏi ai đó." },
+        { "word": "population", "ipa": "/ˌpɒp.jəˈleɪ.ʃən/", "type": "n.", "meaning": "dân số", "example_en": "The population of the city has grown rapidly.", "example_vi": "Dân số của thành phố đã tăng lên nhanh chóng." },
+        { "word": "equality", "ipa": "/iˈkwɒl.ə.ti/", "type": "n.", "meaning": "sự bình đẳng", "example_en": "They are fighting for gender equality in the workplace.", "example_vi": "Họ đang đấu tranh cho sự bình đẳng giới tại nơi làm việc." },
+        { "word": "freedom", "ipa": "/ˈfriː.dəm/", "type": "n.", "meaning": "sự tự do", "example_en": "Everyone has the right to freedom of speech.", "example_vi": "Mọi người đều có quyền tự do ngôn luận." },
+        { "word": "culture", "ipa": "/ˈkʌl.tʃər/", "type": "n.", "meaning": "văn hóa", "example_en": "When visiting a new country, it's important to respect its culture.", "example_vi": "Khi đến thăm một quốc gia mới, việc tôn trọng văn hóa của họ là rất quan trọng." }
+      ]
+    },
+    {
+      "orderIndex": 8,
+      "vocab": [
+        { "word": "climate", "ipa": "/ˈklaɪ.mət/", "type": "n.", "meaning": "khí hậu", "example_en": "Tropical countries usually have a hot climate.", "example_vi": "Các quốc gia nhiệt đới thường có khí hậu nóng bức." },
+        { "word": "climate change", "ipa": "/ˈklaɪ.mət ˌtʃeɪndʒ/", "type": "n.", "meaning": "sự biến đổi khí hậu", "example_en": "Climate change is one of the biggest problems we face today.", "example_vi": "Biến đổi khí hậu là một trong những vấn đề lớn nhất mà chúng ta phải đối mặt ngày nay." },
+        { "word": "global warming", "ipa": "/ˌɡləʊ.bəl ˈwɔː.mɪŋ/", "type": "n.", "meaning": "sự nóng lên toàn cầu", "example_en": "Global warming causes the ice at the poles to melt.", "example_vi": "Sự nóng lên toàn cầu làm cho băng ở hai cực tan chảy." },
+        { "word": "pollution", "ipa": "/pəˈluː.ʃən/", "type": "n.", "meaning": "sự ô nhiễm", "example_en": "Air pollution in the city has reached dangerous levels.", "example_vi": "Tình trạng ô nhiễm không khí trong thành phố đã đạt đến mức nguy hiểm." },
+        { "word": "recycle", "ipa": "/ˌriːˈsaɪ.kəl/", "type": "v.", "meaning": "tái chế", "example_en": "We should recycle plastic bottles instead of throwing them away.", "example_vi": "Chúng ta nên tái chế chai nhựa thay vì vứt chúng đi." },
+        { "word": "environment", "ipa": "/ɪnˈvaɪ.rən.mənt/", "type": "n.", "meaning": "môi trường", "example_en": "We need to do more to protect the environment.", "example_vi": "Chúng ta cần làm nhiều hơn nữa để bảo vệ môi trường." },
+        { "word": "flood", "ipa": "/flʌd/", "type": "n.", "meaning": "lũ lụt", "example_en": "The heavy rain caused a severe flood in the village.", "example_vi": "Trận mưa lớn đã gây ra một trận lũ lụt nghiêm trọng trong ngôi làng." },
+        { "word": "earthquake", "ipa": "/ˈɜːθ.kweɪk/", "type": "n.", "meaning": "trận động đất", "example_en": "The earthquake destroyed many buildings in the area.", "example_vi": "Trận động đất đã phá hủy nhiều tòa nhà trong khu vực." },
+        { "word": "disaster", "ipa": "/dɪˈzɑː.stər/", "type": "n.", "meaning": "thảm họa", "example_en": "The hurricane was a terrible natural disaster.", "example_vi": "Trận cuồng phong là một thảm họa thiên nhiên tồi tệ." },
+        { "word": "wildlife", "ipa": "/ˈwaɪld.laɪf/", "type": "n.", "meaning": "động vật hoang dã", "example_en": "The national park is home to a lot of beautiful wildlife.", "example_vi": "Công viên quốc gia là nhà của rất nhiều loài động vật hoang dã tuyệt đẹp." }
+      ]
+    }
+  ]
+}

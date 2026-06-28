@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "vocab": [
+        { "word": "handsome", "ipa": "/ˈhæn.səm/", "type": "adj.", "meaning": "đẹp trai", "example_en": "He is a very handsome young man.", "example_vi": "Anh ấy là một thanh niên rất đẹp trai." },
+        { "word": "bald", "ipa": "/bɔːld/", "type": "adj.", "meaning": "hói đầu", "example_en": "My uncle started going bald in his twenties.", "example_vi": "Chú tôi bắt đầu bị hói đầu ở độ tuổi hai mươi." },
+        { "word": "slim", "ipa": "/slɪm/", "type": "adj.", "meaning": "mảnh khảnh, thon thả", "example_en": "She has a tall, slim figure.", "example_vi": "Cô ấy có vóc dáng cao và thon thả." },
+        { "word": "casual", "ipa": "/ˈkæʒ.u.əl/", "type": "adj.", "meaning": "bình thường, giản dị (trang phục)", "example_en": "He wore casual clothes to the party.", "example_vi": "Anh ấy đã mặc trang phục giản dị đến bữa tiệc." },
+        { "word": "charming", "ipa": "/ˈtʃɑː.mɪŋ/", "type": "adj.", "meaning": "quyến rũ, duyên dáng", "example_en": "We had dinner in a charming little restaurant.", "example_vi": "Chúng tôi đã ăn tối ở một nhà hàng nhỏ duyên dáng." },
+        { "word": "easygoing", "ipa": "/ˌiː.ziˈɡəʊ.ɪŋ/", "type": "adj.", "meaning": "dễ tính, thoải mái", "example_en": "He is an easygoing guy who gets along with everyone.", "example_vi": "Anh ấy là một anh chàng dễ tính, hòa thuận với tất cả mọi người." },
+        { "word": "generous", "ipa": "/ˈdʒen.ər.əs/", "type": "adj.", "meaning": "rộng lượng, hào phóng", "example_en": "It was very generous of you to pay for the meal.", "example_vi": "Bạn thật hào phóng khi trả tiền cho bữa ăn." },
+        { "word": "intelligent", "ipa": "/ɪnˈtel.ɪ.dʒənt/", "type": "adj.", "meaning": "thông minh", "example_en": "She is a highly intelligent student.", "example_vi": "Cô ấy là một học sinh cực kỳ thông minh." },
+        { "word": "independent", "ipa": "/ˌɪn.dɪˈpen.dənt/", "type": "adj.", "meaning": "độc lập, tự lập", "example_en": "He has been financially independent since he was 18.", "example_vi": "Anh ấy đã độc lập về tài chính từ năm 18 tuổi." },
+        { "word": "bossy", "ipa": "/ˈbɒs.i/", "type": "adj.", "meaning": "hống hách, hay ra lệnh", "example_en": "My older sister was very bossy when we were kids.", "example_vi": "Chị gái tôi rất hay ra lệnh khi chúng tôi còn nhỏ." }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "vocab": [
+        { "word": "anxious", "ipa": "/ˈæŋk.ʃəs/", "type": "adj.", "meaning": "lo âu, băn khoăn", "example_en": "I saw my mother's anxious face at the window.", "example_vi": "Tôi nhìn thấy khuôn mặt lo âu của mẹ ở cửa sổ." },
+        { "word": "ashamed", "ipa": "/əˈʃeɪmd/", "type": "adj.", "meaning": "xấu hổ, hổ thẹn", "example_en": "He was ashamed to admit his mistake.", "example_vi": "Anh ấy đã rất xấu hổ khi phải thừa nhận lỗi lầm của mình." },
+        { "word": "embarrassed", "ipa": "/ɪmˈbær.əst/", "type": "adj.", "meaning": "bối rối, ngượng ngùng", "example_en": "She felt embarrassed about sleeping during the meeting.", "example_vi": "Cô ấy cảm thấy ngượng ngùng vì đã ngủ trong cuộc họp." },
+        { "word": "guilty", "ipa": "/ˈɡɪl.ti/", "type": "adj.", "meaning": "có tội, cảm thấy tội lỗi", "example_en": "I feel so guilty about forgetting her birthday.", "example_vi": "Tôi cảm thấy rất tội lỗi vì đã quên sinh nhật của cô ấy." },
+        { "word": "jealous", "ipa": "/ˈdʒel.əs/", "type": "adj.", "meaning": "ghen tị, ghen tuông", "example_en": "He gets really jealous if his girlfriend talks to other boys.", "example_vi": "Anh ấy trở nên rất ghen tuông nếu bạn gái nói chuyện với những chàng trai khác." },
+        { "word": "depressed", "ipa": "/dɪˈprest/", "type": "adj.", "meaning": "trầm cảm, chán nản", "example_en": "He became severely depressed after losing his job.", "example_vi": "Anh ấy trở nên chán nản trầm trọng sau khi mất việc." },
+        { "word": "hopeful", "ipa": "/ˈhəʊp.fəl/", "type": "adj.", "meaning": "đầy hy vọng, lạc quan", "example_en": "They are hopeful that the situation will improve.", "example_vi": "Họ lạc quan rằng tình hình sẽ được cải thiện." },
+        { "word": "relieved", "ipa": "/rɪˈliːvd/", "type": "adj.", "meaning": "nhẹ nhõm, bớt căng thẳng", "example_en": "I was relieved to hear that he had arrived safely.", "example_vi": "Tôi cảm thấy nhẹ nhõm khi biết anh ấy đã đến nơi an toàn." },
+        { "word": "frustrated", "ipa": "/frʌsˈtreɪ.tɪd/", "type": "adj.", "meaning": "bực bội, nản lòng", "example_en": "Are you feeling frustrated in your present job?", "example_vi": "Bạn có đang cảm thấy nản lòng với công việc hiện tại không?" },
+        { "word": "proud", "ipa": "/praʊd/", "type": "adj.", "meaning": "tự hào", "example_en": "Her parents are very proud of her achievements.", "example_vi": "Bố mẹ cô ấy rất tự hào về những thành tựu của cô." }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "vocab": [
+        { "word": "miserable", "ipa": "/ˈmɪz.ər.ə.bəl/", "type": "adj.", "meaning": "khốn khổ, vô cùng bất hạnh", "example_en": "She felt miserable after failing the exam.", "example_vi": "Cô ấy cảm thấy khốn khổ sau khi trượt kỳ thi." },
+        { "word": "exhausted", "ipa": "/ɪɡˈzɔː.stɪd/", "type": "adj.", "meaning": "kiệt sức", "example_en": "By the time they reached the top of the mountain, they were exhausted.", "example_vi": "Đến lúc họ lên tới đỉnh núi, họ đã kiệt sức." },
+        { "word": "delighted", "ipa": "/dɪˈlaɪ.tɪd/", "type": "adj.", "meaning": "vui mừng, vô cùng hài lòng", "example_en": "I am delighted to accept your invitation.", "example_vi": "Tôi rất vui mừng chấp nhận lời mời của bạn." },
+        { "word": "confident", "ipa": "/ˈkɒn.fɪ.dənt/", "type": "adj.", "meaning": "tự tin", "example_en": "He is confident that he will pass the driving test.", "example_vi": "Anh ấy tự tin rằng mình sẽ vượt qua kỳ thi lái xe." },
+        { "word": "curious", "ipa": "/ˈkjʊə.ri.əs/", "type": "adj.", "meaning": "tò mò, hiếu kỳ", "example_en": "I was curious to know what would happen next.", "example_vi": "Tôi đã tò mò muốn biết điều gì sẽ xảy ra tiếp theo." },
+        { "word": "amazed", "ipa": "/əˈmeɪzd/", "type": "adj.", "meaning": "kinh ngạc, sửng sốt", "example_en": "She was amazed at how much he had grown.", "example_vi": "Cô ấy đã kinh ngạc trước việc cậu bé lớn nhanh như thế nào." },
+        { "word": "cheerful", "ipa": "/ˈtʃɪə.fəl/", "type": "adj.", "meaning": "vui vẻ, hớn hở", "example_en": "He is usually a very cheerful boy.", "example_vi": "Cậu ấy thường là một chàng trai rất vui vẻ." },
+        { "word": "calm", "ipa": "/kɑːm/", "type": "adj.", "meaning": "bình tĩnh, yên lặng", "example_en": "You need to stay calm in an emergency.", "example_vi": "Bạn cần phải giữ bình tĩnh trong trường hợp khẩn cấp." },
+        { "word": "hopeless", "ipa": "/ˈhəʊp.ləs/", "type": "adj.", "meaning": "vô vọng", "example_en": "The situation seemed completely hopeless.", "example_vi": "Tình hình có vẻ hoàn toàn vô vọng." },
+        { "word": "upset", "ipa": "/ʌpˈset/", "type": "adj.", "meaning": "buồn bã, thất vọng", "example_en": "Don't get upset about the mistake.", "example_vi": "Đừng buồn bã về lỗi lầm đó." }
+      ]
+    }
+  ]
+}

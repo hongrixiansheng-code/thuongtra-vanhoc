@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 67,
+    "writing": [
+      {
+        "title": "Writing Task 1: Status update",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing the status of some tasks, using already/just/yet.",
+        "minWords": 30,
+        "sampleAnswer": "I have already finished the report. The store has just opened a few minutes ago. They haven't launched the new product yet, but it's coming soon.",
+        "checklist": ["Dùng already cho việc đã hoàn thành", "Dùng just cho việc vừa mới xảy ra", "Dùng yet trong câu phủ định hoặc câu hỏi"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "writing": [
+      {
+        "title": "Writing Task 1: Duration of time",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing how long something has lasted, using since/for.",
+        "minWords": 30,
+        "sampleAnswer": "I have lived in this city for ten years. I have worked at this company since 2018. We haven't met for a long time.",
+        "checklist": ["Dùng for + khoảng thời gian", "Dùng since + điểm mốc thời gian", "Phân biệt đúng for và since"]
+      }
+    ]
+  }
+]

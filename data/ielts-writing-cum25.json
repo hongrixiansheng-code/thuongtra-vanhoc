@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 49,
+    "writing": [
+      {
+        "title": "Writing Task 1: Will vs going to",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) about your future, using both will (uncertain prediction) and going to (clear plan).",
+        "minWords": 30,
+        "sampleAnswer": "I am going to study abroad after graduation. I already applied to a university. I'm sure something good will happen. Maybe I will travel for a year first.",
+        "checklist": ["Có ít nhất 1 câu dùng going to cho kế hoạch rõ ràng", "Có ít nhất 1 câu dùng will cho dự đoán không chắc chắn", "Phân biệt được rõ hai trường hợp dùng"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "writing": [
+      {
+        "title": "Writing Task 1: Compare two things",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) comparing two things (rooms, bags, places...), using comparative adjectives.",
+        "minWords": 30,
+        "sampleAnswer": "This apartment is bigger than the other one, but it is also noisier. The other apartment is quieter, but the rooms are smaller. This one is more expensive.",
+        "checklist": ["Dùng ít nhất 2 tính từ so sánh hơn (-er hoặc more)", "Có dùng than đúng vị trí", "So sánh được ít nhất 3 đặc điểm khác nhau"]
+      }
+    ]
+  }
+]

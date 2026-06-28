@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 59,
+    "grammar": [
+      {
+        "title": "Động từ khuyết thiếu \"might / could\" — Khả năng & Dự đoán",
+        "desc": "Dùng \"might\" hoặc \"could\" để nói về khả năng có thể xảy ra trong tương lai, không chắc chắn như \"will\".",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "might / could (+ not)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "It might rain later, so take an umbrella.", "vi": "Có thể trời sẽ mưa sau, nên mang theo dù." },
+          { "en": "She could be at home now.", "vi": "Có thể giờ cô ấy đang ở nhà." },
+          { "en": "We might not finish the project on time.", "vi": "Chúng tôi có thể sẽ không hoàn thành dự án đúng hạn." }
+        ],
+        "note": "\"might\" và \"could\" đều diễn tả khả năng không chắc chắn (50% hoặc thấp hơn), yếu hơn \"will\".",
+        "practiceList": [
+          { "question": "He ___ be busy, so let's call him first.", "correct": "might", "meaning": "Anh ấy có thể đang bận, nên hãy gọi cho anh ấy trước.", "explanation": "Khả năng không chắc chắn dùng \"might\"." },
+          { "question": "The price ___ increase next month.", "correct": "could", "meaning": "Giá có thể sẽ tăng tháng sau.", "explanation": "Dự đoán khả năng dùng \"could\"." },
+          { "question": "They ___ not come because of the rain.", "correct": "might", "meaning": "Họ có thể sẽ không đến vì mưa.", "explanation": "Phủ định: might not + V nguyên mẫu." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "grammar": [
+      {
+        "title": "Cấu trúc \"Verb + to-infinitive\" — Ước muốn & Quyết định",
+        "desc": "Một số động từ (want, need, decide, plan, hope, expect, agree, refuse, offer, choose) được theo sau bởi động từ nguyên thể có \"to\".",
+        "formula": [
+          { "text": "Subject + want/decide/hope...", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "to + Verb", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I want to learn a new language.", "vi": "Tôi muốn học một ngôn ngữ mới." },
+          { "en": "She decided to apply for the job.", "vi": "Cô ấy đã quyết định nộp đơn cho công việc này." },
+          { "en": "We hope to see you again soon.", "vi": "Chúng tôi hy vọng sẽ gặp lại bạn sớm." }
+        ],
+        "note": "Các động từ thường gặp đi với to-infinitive: want, need, decide, plan, hope, expect, agree, refuse, offer, choose.",
+        "practiceList": [
+          { "question": "He plans ___ (study) abroad next year.", "correct": "to study", "meaning": "Anh ấy định đi học ở nước ngoài năm sau.", "explanation": "\"plan\" + to-infinitive." },
+          { "question": "I need ___ (finish) this report today.", "correct": "to finish", "meaning": "Tôi cần hoàn thành báo cáo này hôm nay.", "explanation": "\"need\" + to-infinitive." },
+          { "question": "They refused ___ (pay) more money.", "correct": "to pay", "meaning": "Họ từ chối trả thêm tiền.", "explanation": "\"refuse\" + to-infinitive." }
+        ]
+      }
+    ]
+  }
+]

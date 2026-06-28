@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 33,
+    "vocab": [
+      {
+        "word": "now",
+        "ipa": "/naʊ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "bây giờ",
+        "example_en": "I am eating now.",
+        "example_vi": "Bây giờ tôi đang ăn.",
+        "level": "A2"
+      },
+      {
+        "word": "right now",
+        "ipa": "/raɪt naʊ/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "ngay bây giờ",
+        "example_en": "I am reading right now.",
+        "example_vi": "Tôi đang đọc ngay bây giờ.",
+        "level": "A2"
+      },
+      {
+        "word": "at the moment",
+        "ipa": "/ət ðə ˈməʊ.mənt/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "lúc này",
+        "example_en": "She is sleeping at the moment.",
+        "example_vi": "Lúc này cô ấy đang ngủ.",
+        "level": "A2"
+      },
+      {
+        "word": "currently",
+        "ipa": "/ˈkʌr.ənt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hiện tại",
+        "example_en": "He is currently working.",
+        "example_vi": "Hiện tại anh ấy đang làm việc.",
+        "level": "A2"
+      },
+      {
+        "word": "presently",
+        "ipa": "/ˈprez.ənt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hiện nay",
+        "example_en": "We are presently playing.",
+        "example_vi": "Hiện nay chúng tôi đang chơi.",
+        "level": "A2"
+      },
+      {
+        "word": "still",
+        "ipa": "/stɪl/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "vẫn",
+        "example_en": "I am still waiting.",
+        "example_vi": "Tôi vẫn đang đợi.",
+        "level": "A2"
+      },
+      {
+        "word": "today",
+        "ipa": "/təˈdeɪ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hôm nay",
+        "example_en": "I am cooking today.",
+        "example_vi": "Hôm nay tôi đang nấu ăn.",
+        "level": "A2"
+      },
+      {
+        "word": "tonight",
+        "ipa": "/təˈnaɪt/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "tối nay",
+        "example_en": "We are watching TV tonight.",
+        "example_vi": "Tối nay chúng tôi đang xem TV.",
+        "level": "A2"
+      },
+      {
+        "word": "this week",
+        "ipa": "/ðɪs wiːk/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "tuần này",
+        "example_en": "I am studying this week.",
+        "example_vi": "Tuần này tôi đang học.",
+        "level": "A2"
+      },
+      {
+        "word": "this year",
+        "ipa": "/ðɪs jɪər/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "năm nay",
+        "example_en": "I am working this year.",
+        "example_vi": "Năm nay tôi đang làm việc.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "vocab": [
+      {
+        "word": "change",
+        "ipa": "/tʃeɪndʒ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thay đổi",
+        "example_en": "The weather is changing.",
+        "example_vi": "Thời tiết đang thay đổi.",
+        "level": "A2"
+      },
+      {
+        "word": "grow",
+        "ipa": "/ɡrəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lớn lên, phát triển",
+        "example_en": "The tree is growing.",
+        "example_vi": "Cây đang lớn lên.",
+        "level": "A2"
+      },
+      {
+        "word": "increase",
+        "ipa": "/ɪnˈkriːs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tăng lên",
+        "example_en": "The price is increasing.",
+        "example_vi": "Giá cả đang tăng lên.",
+        "level": "A2"
+      },
+      {
+        "word": "decrease",
+        "ipa": "/dɪˈkriːs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "giảm xuống",
+        "example_en": "The price is decreasing.",
+        "example_vi": "Giá cả đang giảm xuống.",
+        "level": "A2"
+      },
+      {
+        "word": "rise",
+        "ipa": "/raɪz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tăng, mọc",
+        "example_en": "Prices are rising.",
+        "example_vi": "Giá cả đang tăng.",
+        "level": "A2"
+      },
+      {
+        "word": "fall",
+        "ipa": "/fɔːl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "rơi, giảm",
+        "example_en": "Prices are falling.",
+        "example_vi": "Giá cả đang giảm.",
+        "level": "A2"
+      },
+      {
+        "word": "improve",
+        "ipa": "/ɪmˈpruːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cải thiện",
+        "example_en": "My English is improving.",
+        "example_vi": "Tiếng Anh của tôi đang cải thiện.",
+        "level": "A2"
+      },
+      {
+        "word": "get",
+        "ipa": "/ɡet/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trở nên",
+        "example_en": "It is getting hot.",
+        "example_vi": "Trời đang trở nên nóng.",
+        "level": "A2"
+      },
+      {
+        "word": "become",
+        "ipa": "/bɪˈkʌm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trở thành, trở nên",
+        "example_en": "She is becoming angry.",
+        "example_vi": "Cô ấy đang trở nên tức giận.",
+        "level": "A2"
+      },
+      {
+        "word": "start",
+        "ipa": "/stɑːt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bắt đầu",
+        "example_en": "It is starting.",
+        "example_vi": "Nó đang bắt đầu.",
+        "level": "A2"
+      }
+    ]
+  }
+]

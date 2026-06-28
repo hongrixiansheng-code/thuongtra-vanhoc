@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 43,
+    "vocab": [
+      {
+        "word": "did",
+        "ipa": "/dɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đã làm (trợ động từ)",
+        "example_en": "Did you go?",
+        "example_vi": "Bạn có đi không?",
+        "level": "A2"
+      },
+      {
+        "word": "what",
+        "ipa": "/wɒt/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cái gì",
+        "example_en": "What did you do?",
+        "example_vi": "Bạn đã làm gì?",
+        "level": "A2"
+      },
+      {
+        "word": "where",
+        "ipa": "/weər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "ở đâu",
+        "example_en": "Where did they go?",
+        "example_vi": "Họ đã đi đâu?",
+        "level": "A2"
+      },
+      {
+        "word": "when",
+        "ipa": "/wen/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "khi nào",
+        "example_en": "When did he leave?",
+        "example_vi": "Anh ấy đã rời đi khi nào?",
+        "level": "A2"
+      },
+      {
+        "word": "why",
+        "ipa": "/waɪ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "tại sao",
+        "example_en": "Why did she cry?",
+        "example_vi": "Tại sao cô ấy khóc?",
+        "level": "A2"
+      },
+      {
+        "word": "how",
+        "ipa": "/haʊ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "như thế nào",
+        "example_en": "How did you know?",
+        "example_vi": "Làm sao bạn biết?",
+        "level": "A2"
+      },
+      {
+        "word": "who",
+        "ipa": "/huː/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "ai",
+        "example_en": "Who did you meet?",
+        "example_vi": "Bạn đã gặp ai?",
+        "level": "A2"
+      },
+      {
+        "word": "which",
+        "ipa": "/wɪtʃ/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cái nào",
+        "example_en": "Which one did you choose?",
+        "example_vi": "Bạn đã chọn cái nào?",
+        "level": "A2"
+      },
+      {
+        "word": "happen",
+        "ipa": "/ˈhæp.ən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xảy ra",
+        "example_en": "What happened?",
+        "example_vi": "Chuyện gì đã xảy ra?",
+        "level": "A2"
+      },
+      {
+        "word": "occur",
+        "ipa": "/əˈkɜːr/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xảy ra",
+        "example_en": "It occurred yesterday.",
+        "example_vi": "Nó đã xảy ra hôm qua.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "vocab": [
+      {
+        "word": "didn't",
+        "ipa": "/ˈdɪd.ənt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đã không (trợ động từ)",
+        "example_en": "I didn't see him.",
+        "example_vi": "Tôi đã không nhìn thấy anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "mistake",
+        "ipa": "/mɪˈsteɪk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lỗi lầm",
+        "example_en": "I made a mistake.",
+        "example_vi": "Tôi đã mắc một sai lầm.",
+        "level": "A2"
+      },
+      {
+        "word": "error",
+        "ipa": "/ˈer.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lỗi",
+        "example_en": "It was an error.",
+        "example_vi": "Đó đã là một lỗi.",
+        "level": "A2"
+      },
+      {
+        "word": "wrong",
+        "ipa": "/rɒŋ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sai",
+        "example_en": "You were wrong.",
+        "example_vi": "Bạn đã sai.",
+        "level": "A2"
+      },
+      {
+        "word": "false",
+        "ipa": "/fɒls/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sai, không đúng",
+        "example_en": "That is false.",
+        "example_vi": "Điều đó là sai.",
+        "level": "A2"
+      },
+      {
+        "word": "fail",
+        "ipa": "/feɪl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thất bại, trượt",
+        "example_en": "He failed the test.",
+        "example_vi": "Anh ấy đã thi trượt.",
+        "level": "A2"
+      },
+      {
+        "word": "forget",
+        "ipa": "/fəˈɡet/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "quên",
+        "example_en": "I forgot my book.",
+        "example_vi": "Tôi đã quên sách của tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "lose",
+        "ipa": "/luːz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đánh mất",
+        "example_en": "I lost my keys.",
+        "example_vi": "Tôi đã làm mất chìa khóa.",
+        "level": "A2"
+      },
+      {
+        "word": "miss",
+        "ipa": "/mɪs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bỏ lỡ, nhớ",
+        "example_en": "I missed the bus.",
+        "example_vi": "Tôi đã bị lỡ xe buýt.",
+        "level": "A2"
+      },
+      {
+        "word": "drop",
+        "ipa": "/drɒp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đánh rơi",
+        "example_en": "He dropped the glass.",
+        "example_vi": "Anh ấy đã đánh rơi cái ly.",
+        "level": "A2"
+      }
+    ]
+  }
+]

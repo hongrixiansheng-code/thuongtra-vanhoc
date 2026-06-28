@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 17,
+    "dialogue": [
+      {
+        "title": "Talking about a birthday",
+        "lines": [
+          { "speaker": "Linh", "en": "When is your birthday?", "vi": "Sinh nhật bạn là khi nào?" },
+          { "speaker": "Tom", "en": "It's on the first of June.", "vi": "Là vào ngày một tháng Sáu." },
+          { "speaker": "Linh", "en": "Mine is on the tenth of December.", "vi": "Của tôi là vào ngày mười tháng Mười Hai." },
+          { "speaker": "Tom", "en": "What season is that?", "vi": "Đó là mùa nào?" },
+          { "speaker": "Linh", "en": "That's winter. December is a cold month.", "vi": "Đó là mùa đông. Tháng Mười Hai là tháng lạnh." },
+          { "speaker": "Tom", "en": "I see. June is in the summer season.", "vi": "Tôi hiểu. Tháng Sáu thuộc mùa hè." }
+        ]
+      },
+      {
+        "title": "Planning an event",
+        "lines": [
+          { "speaker": "Linh", "en": "The meeting is on the fifth of July, this year.", "vi": "Cuộc họp là vào ngày năm tháng Bảy, năm nay." },
+          { "speaker": "Tom", "en": "Is that the third meeting this season?", "vi": "Đó có phải cuộc họp thứ ba mùa này không?" },
+          { "speaker": "Linh", "en": "Yes, it is.", "vi": "Đúng vậy." },
+          { "speaker": "Tom", "en": "When is the second meeting?", "vi": "Cuộc họp thứ hai là khi nào?" },
+          { "speaker": "Linh", "en": "It was on the twentieth of June.", "vi": "Nó đã diễn ra vào ngày hai mươi tháng Sáu." },
+          { "speaker": "Tom", "en": "Okay, I will remember the date.", "vi": "Được rồi, tôi sẽ nhớ ngày này." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "dialogue": [
+      {
+        "title": "Review: A busy day",
+        "lines": [
+          { "speaker": "Linh", "en": "Can you help me? First, fill in this form, then sign at the bottom.", "vi": "Bạn giúp tôi được không? Đầu tiên, điền vào mẫu này, sau đó ký ở dưới." },
+          { "speaker": "Tom", "en": "Sure, I can do that. This pen is small, but it works well.", "vi": "Được, tôi làm được. Cái bút này nhỏ, nhưng nó viết tốt." },
+          { "speaker": "Linh", "en": "The meeting is on the second of May. Can you come?", "vi": "Cuộc họp là vào ngày hai tháng Năm. Bạn đến được không?" },
+          { "speaker": "Tom", "en": "Yes, I can.", "vi": "Được." },
+          { "speaker": "Linh", "en": "Can you also bring those documents?", "vi": "Bạn cũng mang giúp những tài liệu đó được không?" },
+          { "speaker": "Tom", "en": "Of course. I can bring them tomorrow morning.", "vi": "Tất nhiên. Tôi có thể mang chúng vào sáng mai." }
+        ]
+      }
+    ]
+  }
+]

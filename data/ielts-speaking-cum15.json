@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 29,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Food you have",
+        "part": 1,
+        "questions": ["What fruit do you have at home?", "How many eggs do you usually buy?", "Do you eat a lot of vegetables?"],
+        "sampleAnswer": "I have some apples and bananas at home. I usually buy six eggs a week. Yes, I eat a lot of vegetables."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Drinks and food at home",
+        "part": 1,
+        "questions": ["How much water do you drink every day?", "Do you have much rice at home?", "How much sugar do you use in your tea?"],
+        "sampleAnswer": "I drink a lot of water every day. Yes, I have some rice at home. I use a little sugar in my tea."
+      }
+    ]
+  }
+]

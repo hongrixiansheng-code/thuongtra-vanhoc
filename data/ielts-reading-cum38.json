@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 75,
+    "reading": [
+      {
+        "title": "Reading: An ideal world",
+        "passage": "If I had a lot of money, I would travel around the world. If everyone were kind, the world would be a better place. If I were a leader, I would invest more in education. If only we had more time to discuss this.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer is currently travelling around the world.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Đây là câu giả định (Conditional 2), chưa xảy ra thật." },
+          { "type": "multiple_choice", "question": "What would the writer invest more in as a leader?", "options": ["Technology", "Education", "Tourism"], "correct": "Education", "explanation": "\"If I were a leader, I would invest more in education.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "reading": [
+      {
+        "title": "Reading: Real or hypothetical?",
+        "passage": "If it rains tomorrow, the match will be cancelled. If I were the coach, I would change the schedule. If I won the lottery, I would buy a big house. If you save money, you will buy a small house someday.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Winning the lottery is a real, likely event for the writer.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Đây là câu điều kiện loại 2 (giả định, khó xảy ra)." },
+          { "type": "multiple_choice", "question": "What is a realistic plan mentioned in the passage?", "options": ["Winning the lottery", "Saving money to buy a house", "Becoming a coach"], "correct": "Saving money to buy a house", "explanation": "\"If you save money, you will buy a small house someday.\" là câu điều kiện loại 1 (thực tế)." }
+        ]
+      }
+    ]
+  }
+]

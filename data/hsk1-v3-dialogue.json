@@ -1,0 +1,1046 @@
+[
+  {
+    "orderIndex": 1,
+    "dialogues": [
+      {
+        "title": "Gặp nhau lần đầu",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "你好！",
+            "py": "Nǐ hǎo!",
+            "vi": "Xin chào!"
+          },
+          {
+            "speaker": "小安",
+            "zh": "你好！",
+            "py": "Nǐ hǎo!",
+            "vi": "Xin chào!"
+          },
+          {
+            "speaker": "小明",
+            "zh": "你好吗？",
+            "py": "Nǐ hǎo ma?",
+            "vi": "Bạn có khỏe không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我很好。你呢？",
+            "py": "Wǒ hěn hǎo. Nǐ ne?",
+            "vi": "Tôi rất khỏe. Còn bạn?"
+          },
+          {
+            "speaker": "小明",
+            "zh": "我也很好。",
+            "py": "Wǒ yě hěn hǎo.",
+            "vi": "Tôi cũng rất khỏe."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 2,
+    "dialogues": [
+      {
+        "title": "Bạn tên là gì?",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "你好！你叫什么名字？",
+            "py": "Nǐ hǎo! Nǐ jiào shénme míngzi?",
+            "vi": "Xin chào! Bạn tên là gì?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "你好！我叫小安。你呢？",
+            "py": "Nǐ hǎo! Wǒ jiào Xiǎo Ān. Nǐ ne?",
+            "vi": "Xin chào! Tôi tên là Tiểu An. Còn bạn?"
+          },
+          {
+            "speaker": "小明",
+            "zh": "我叫小明。他是谁？",
+            "py": "Wǒ jiào Xiǎo Míng. Tā shì shéi?",
+            "vi": "Tôi tên là Tiểu Minh. Anh ấy là ai?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "他是我的朋友。",
+            "py": "Tā shì wǒ de péngyou.",
+            "vi": "Anh ấy là bạn của tôi."
+          },
+          {
+            "speaker": "小明",
+            "zh": "你们好！",
+            "py": "Nǐmen hǎo!",
+            "vi": "Chào các bạn!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "dialogues": [
+      {
+        "title": "Gia đình tôi",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "那是谁？",
+            "py": "Nà shì shéi?",
+            "vi": "Kia là ai?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "那是我哥哥。",
+            "py": "Nà shì wǒ gēge.",
+            "vi": "Đó là anh trai tôi."
+          },
+          {
+            "speaker": "小明",
+            "zh": "你有妹妹吗？",
+            "py": "Nǐ yǒu mèimei ma?",
+            "vi": "Bạn có em gái không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "没有。我有一个弟弟。",
+            "py": "Méiyǒu. Wǒ yǒu yí gè dìdi.",
+            "vi": "Không có. Tôi có một người em trai."
+          },
+          {
+            "speaker": "小明",
+            "zh": "他也是学生吗？",
+            "py": "Tā yě shì xuéshēng ma?",
+            "vi": "Cậu ấy cũng là học sinh phải không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "对，他是学生。",
+            "py": "Duì, tā shì xuéshēng.",
+            "vi": "Đúng, cậu ấy là học sinh."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 4,
+    "dialogues": [
+      {
+        "title": "Một, hai, ba…",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "你有几个苹果？",
+            "py": "Nǐ yǒu jǐ gè píngguǒ?",
+            "vi": "Bạn có mấy quả táo?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我有三个苹果。",
+            "py": "Wǒ yǒu sān gè píngguǒ.",
+            "vi": "Tôi có ba quả táo."
+          },
+          {
+            "speaker": "小明",
+            "zh": "老师有几个？",
+            "py": "Lǎoshī yǒu jǐ gè?",
+            "vi": "Giáo viên có mấy quả?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "老师有五个。",
+            "py": "Lǎoshī yǒu wǔ gè.",
+            "vi": "Giáo viên có năm quả."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 5,
+    "dialogues": [
+      {
+        "title": "Năm nay bạn bao nhiêu tuổi?",
+        "lines": [
+          {
+            "speaker": "小明",
+            "zh": "你今年多大？",
+            "py": "Nǐ jīnnián duō dà?",
+            "vi": "Năm nay bạn bao nhiêu tuổi?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我今年二十岁。你呢？",
+            "py": "Wǒ jīnnián èrshí suì. Nǐ ne?",
+            "vi": "Năm nay tôi hai mươi tuổi. Còn bạn?"
+          },
+          {
+            "speaker": "小明",
+            "zh": "我二十二岁。你有弟弟吗？",
+            "py": "Wǒ èrshí'èr suì. Nǐ yǒu dìdi ma?",
+            "vi": "Tôi hai mươi hai tuổi. Bạn có em trai không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "有，他十岁。",
+            "py": "Yǒu, tā shí suì.",
+            "vi": "Có, em ấy mười tuổi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "dialogues": [
+      {
+        "title": "Hôm nay là ngày mấy?",
+        "lines": [
+          {
+            "speaker": "大力",
+            "zh": "今天几月几号？",
+            "py": "Jīntiān jǐ yuè jǐ hào?",
+            "vi": "Hôm nay là ngày mấy tháng mấy?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "今天六月八号。",
+            "py": "Jīntiān liù yuè bā hào.",
+            "vi": "Hôm nay là mùng tám tháng sáu."
+          },
+          {
+            "speaker": "大力",
+            "zh": "明天你来吗？",
+            "py": "Míngtiān nǐ lái ma?",
+            "vi": "Ngày mai bạn có đến không?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "明天我不来。",
+            "py": "Míngtiān wǒ bù lái.",
+            "vi": "Ngày mai tôi không đến."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "dialogues": [
+      {
+        "title": "Bây giờ là mấy giờ?",
+        "lines": [
+          {
+            "speaker": "大力",
+            "zh": "现在几点？",
+            "py": "Xiànzài jǐ diǎn?",
+            "vi": "Bây giờ là mấy giờ?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "现在上午十点。",
+            "py": "Xiànzài shàngwǔ shí diǎn.",
+            "vi": "Bây giờ là mười giờ sáng."
+          },
+          {
+            "speaker": "大力",
+            "zh": "我们什么时候见？",
+            "py": "Wǒmen shénme shíhou jiàn?",
+            "vi": "Khi nào chúng ta gặp nhau?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "中午十二点见。",
+            "py": "Zhōngwǔ shí'èr diǎn jiàn.",
+            "vi": "Mười hai giờ trưa gặp nhé."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 8,
+    "dialogues": [
+      {
+        "title": "Buổi sáng bạn ăn gì?",
+        "lines": [
+          {
+            "speaker": "大力",
+            "zh": "你早上几点起床？",
+            "py": "Nǐ zǎoshang jǐ diǎn qǐchuáng?",
+            "vi": "Buổi sáng bạn thức dậy lúc mấy giờ?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "我早上七点起床。",
+            "py": "Wǒ zǎoshang qī diǎn qǐchuáng.",
+            "vi": "Buổi sáng tôi dậy lúc bảy giờ."
+          },
+          {
+            "speaker": "大力",
+            "zh": "几点上班？",
+            "py": "Jǐ diǎn shàngbān?",
+            "vi": "Mấy giờ đi làm?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "八点上班。",
+            "py": "Bā diǎn shàngbān.",
+            "vi": "Tám giờ đi làm."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 9,
+    "dialogues": [
+      {
+        "title": "Bạn muốn uống gì?",
+        "lines": [
+          {
+            "speaker": "大力",
+            "zh": "你要吃什么？",
+            "py": "Nǐ yào chī shénme?",
+            "vi": "Bạn muốn ăn gì?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "我要吃面条儿。",
+            "py": "Wǒ yào chī miàntiáor.",
+            "vi": "Tôi muốn ăn mì."
+          },
+          {
+            "speaker": "大力",
+            "zh": "你要喝牛奶吗？",
+            "py": "Nǐ yào hē niúnǎi ma?",
+            "vi": "Bạn muốn uống sữa không?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "不要，我喝水。",
+            "py": "Bú yào, wǒ hē shuǐ.",
+            "vi": "Không muốn, tôi uống nước."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 10,
+    "dialogues": [
+      {
+        "title": "Món ăn ngon",
+        "lines": [
+          {
+            "speaker": "大力",
+            "zh": "这个菜很好吃！",
+            "py": "Zhège cài hěn hǎochī!",
+            "vi": "Món ăn này rất ngon!"
+          },
+          {
+            "speaker": "小云",
+            "zh": "对，我妈妈做的饭很好吃。",
+            "py": "Duì, wǒ māma zuò de fàn hěn hǎochī.",
+            "vi": "Đúng, cơm mẹ tôi nấu rất ngon."
+          },
+          {
+            "speaker": "大力",
+            "zh": "你喜欢吃包子吗？",
+            "py": "Nǐ xǐhuan chī bāozi ma?",
+            "vi": "Bạn thích ăn bánh bao không?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "喜欢，包子也很好吃。",
+            "py": "Xǐhuan, bāozi yě hěn hǎochī.",
+            "vi": "Thích, bánh bao cũng rất ngon."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 11,
+    "dialogues": [
+      {
+        "title": "Phòng của tôi",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "这是什么？",
+            "py": "Zhè shì shénme?",
+            "vi": "Đây là gì?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "这是我的房间。",
+            "py": "Zhè shì wǒ de fángjiān.",
+            "vi": "Đây là phòng của tôi."
+          },
+          {
+            "speaker": "小东",
+            "zh": "那是谁的书？",
+            "py": "Nà shì shéi de shū?",
+            "vi": "Kia là sách của ai?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "那些书是我的。",
+            "py": "Nàxiē shū shì wǒ de.",
+            "vi": "Những quyển sách kia là của tôi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 12,
+    "dialogues": [
+      {
+        "title": "Đồ vật ở đâu?",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "我的书在哪里？",
+            "py": "Wǒ de shū zài nǎlǐ?",
+            "vi": "Sách của tôi ở đâu?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "在桌子上。",
+            "py": "Zài zhuōzi shàng.",
+            "vi": "Ở trên bàn."
+          },
+          {
+            "speaker": "小东",
+            "zh": "椅子下有什么？",
+            "py": "Yǐzi xià yǒu shénme?",
+            "vi": "Dưới ghế có gì thế?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "有一个苹果。",
+            "py": "Yǒu yí gè píngguǒ.",
+            "vi": "Có một quả táo."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 13,
+    "dialogues": [
+      {
+        "title": "Đi siêu thị",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你去哪里？",
+            "py": "Nǐ qù nǎlǐ?",
+            "vi": "Bạn đi đâu đấy?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "我去超市。",
+            "py": "Wǒ qù chāoshì.",
+            "vi": "Tôi đi siêu thị."
+          },
+          {
+            "speaker": "小东",
+            "zh": "超市里有书吗？",
+            "py": "Chāoshì lǐ yǒu shū ma?",
+            "vi": "Trong siêu thị có sách không?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "没有，书店里有。",
+            "py": "Méiyǒu, shūdiàn lǐ yǒu.",
+            "vi": "Không có, trong hiệu sách mới có."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 14,
+    "dialogues": [
+      {
+        "title": "Bạn đi bằng gì?",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你怎么去学校？",
+            "py": "Nǐ zěnme qù xuéxiào?",
+            "vi": "Bạn đi đến trường bằng gì?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "我坐火车去。",
+            "py": "Wǒ zuò huǒchē qù.",
+            "vi": "Tôi đi bằng xe lửa."
+          },
+          {
+            "speaker": "小东",
+            "zh": "去医院呢？",
+            "py": "Qù yīyuàn ne?",
+            "vi": "Thế đi bệnh viện thì sao?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "我坐出租车去。",
+            "py": "Wǒ zuò chūzūchē qù.",
+            "vi": "Tôi đi taxi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 15,
+    "dialogues": [
+      {
+        "title": "Hỏi giá và mua sắm",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "这件衣服多少钱？",
+            "py": "Zhè jiàn yīfu duōshao qián?",
+            "vi": "Bộ quần áo này bao nhiêu tiền?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "五十块。",
+            "py": "Wǔshí kuài.",
+            "vi": "Năm mươi đồng."
+          },
+          {
+            "speaker": "小东",
+            "zh": "太贵了，便宜点儿，好吗？",
+            "py": "Tài guì le, piányi diǎnr, hǎo ma?",
+            "vi": "Đắt quá, rẻ một chút được không?"
+          },
+          {
+            "speaker": "小红",
+            "zh": "好，四十块钱。",
+            "py": "Hǎo, sìshí kuài qián.",
+            "vi": "Được, bốn mươi đồng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 16,
+    "dialogues": [
+      {
+        "title": "Bạn làm nghề gì?",
+        "lines": [
+          {
+            "speaker": "大明",
+            "zh": "你做什么工作？",
+            "py": "Nǐ zuò shénme gōngzuò?",
+            "vi": "Bạn làm nghề gì?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "我是老师。你呢？",
+            "py": "Wǒ shì lǎoshī. Nǐ ne?",
+            "vi": "Tôi là giáo viên. Còn bạn?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "我在公司工作。",
+            "py": "Wǒ zài gōngsī gōngzuò.",
+            "vi": "Tôi làm việc ở công ty."
+          },
+          {
+            "speaker": "小云",
+            "zh": "好，明天我给你打电话。",
+            "py": "Hǎo, míngtiān wǒ gěi nǐ dǎ diànhuà.",
+            "vi": "Tốt, ngày mai tôi sẽ gọi điện cho bạn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 17,
+    "dialogues": [
+      {
+        "title": "Sở thích",
+        "lines": [
+          {
+            "speaker": "大明",
+            "zh": "你喜欢看电影吗？",
+            "py": "Nǐ xǐhuan kàn diànyǐng ma?",
+            "vi": "Bạn có thích xem phim không?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "喜欢。我还喜欢听歌。",
+            "py": "Xǐhuan. Wǒ hái xǐhuan tīng gē.",
+            "vi": "Thích. Tôi còn thích nghe nhạc."
+          },
+          {
+            "speaker": "大明",
+            "zh": "你在听什么歌？",
+            "py": "Nǐ zài tīng shénme gē?",
+            "vi": "Bạn đang nghe bài hát gì vậy?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "中国歌。很好听。",
+            "py": "Zhōngguó gē. Hěn hǎotīng.",
+            "vi": "Bài hát Trung Quốc. Rất hay."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 18,
+    "dialogues": [
+      {
+        "title": "Thời tiết hôm nay",
+        "lines": [
+          {
+            "speaker": "大明",
+            "zh": "今天天气怎么样？",
+            "py": "Jīntiān tiānqì zěnmeyàng?",
+            "vi": "Hôm nay thời tiết thế nào?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "太热了！",
+            "py": "Tài rè le!",
+            "vi": "Nóng quá đi!"
+          },
+          {
+            "speaker": "大明",
+            "zh": "明天会下雨吗？",
+            "py": "Míngtiān huì xià yǔ ma?",
+            "vi": "Ngày mai trời có mưa không?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "不会下雨。",
+            "py": "Bú huì xià yǔ.",
+            "vi": "Sẽ không mưa."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 19,
+    "dialogues": [
+      {
+        "title": "Sức khỏe",
+        "lines": [
+          {
+            "speaker": "大明",
+            "zh": "你怎么了？生病了吗？",
+            "py": "Nǐ zěnme le? Shēngbìng le ma?",
+            "vi": "Bạn sao vậy? Bị ốm rồi à?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "我有点儿不舒服。",
+            "py": "Wǒ yǒudiǎnr bù shūfu.",
+            "vi": "Tôi hơi khó chịu."
+          },
+          {
+            "speaker": "大明",
+            "zh": "去医院看医生吧。",
+            "py": "Qù yīyuàn kàn yīshēng ba.",
+            "vi": "Đến bệnh viện khám bác sĩ đi."
+          },
+          {
+            "speaker": "小云",
+            "zh": "好的，我想睡觉。",
+            "py": "Hǎo de, wǒ xiǎng shuìjiào.",
+            "vi": "Được, tôi muốn đi ngủ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 20,
+    "dialogues": [
+      {
+        "title": "Hỏi đường",
+        "lines": [
+          {
+            "speaker": "大明",
+            "zh": "请问，超市怎么走？",
+            "py": "Qǐngwèn, chāoshì zěnme zǒu?",
+            "vi": "Xin hỏi, đi siêu thị thế nào?"
+          },
+          {
+            "speaker": "小云",
+            "zh": "在前面。不远。",
+            "py": "Zài qiánmiàn. Bù yuǎn.",
+            "vi": "Ở phía trước. Không xa đâu."
+          },
+          {
+            "speaker": "大明",
+            "zh": "谢谢您！",
+            "py": "Xièxie nín!",
+            "vi": "Cảm ơn ngài!"
+          },
+          {
+            "speaker": "小云",
+            "zh": "不客气。",
+            "py": "Bú kèqi.",
+            "vi": "Không có gì."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 21,
+    "dialogues": [
+      {
+        "title": "Học tiếng Trung",
+        "lines": [
+          {
+            "speaker": "小力",
+            "zh": "你会说汉语吗？",
+            "py": "Nǐ huì shuō Hànyǔ ma?",
+            "vi": "Bạn biết nói tiếng Trung không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我会说一点儿汉语。",
+            "py": "Wǒ huì shuō yìdiǎnr Hànyǔ.",
+            "vi": "Tôi biết nói một chút tiếng Trung."
+          },
+          {
+            "speaker": "小力",
+            "zh": "你认识汉字吗？",
+            "py": "Nǐ rènshi Hànzì ma?",
+            "vi": "Bạn có biết chữ Hán không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "认识一些。",
+            "py": "Rènshi yìxiē.",
+            "vi": "Biết một vài chữ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 22,
+    "dialogues": [
+      {
+        "title": "Liên lạc",
+        "lines": [
+          {
+            "speaker": "小力",
+            "zh": "可以给我你的电话吗？",
+            "py": "Kěyǐ gěi wǒ nǐ de diànhuà ma?",
+            "vi": "Bạn có thể cho tôi số điện thoại không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "可以。",
+            "py": "Kěyǐ.",
+            "vi": "Có thể."
+          },
+          {
+            "speaker": "小力",
+            "zh": "明天一起去玩吧？",
+            "py": "Míngtiān yìqǐ qù wán ba?",
+            "vi": "Ngày mai cùng đi chơi nhé?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "好，明天见！",
+            "py": "Hǎo, míngtiān jiàn!",
+            "vi": "Được, ngày mai gặp!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 23,
+    "dialogues": [
+      {
+        "title": "Giờ giấc sinh hoạt",
+        "lines": [
+          {
+            "speaker": "小力",
+            "zh": "你几点起床？",
+            "py": "Nǐ jǐ diǎn qǐchuáng?",
+            "vi": "Bạn mấy giờ thức dậy?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我六点起床。八点上课。",
+            "py": "Wǒ liù diǎn qǐchuáng. Bā diǎn shàngkè.",
+            "vi": "Tôi dậy lúc sáu giờ. Tám giờ vào học."
+          },
+          {
+            "speaker": "小力",
+            "zh": "你几点下课？",
+            "py": "Nǐ jǐ diǎn xiàkè?",
+            "vi": "Bạn mấy giờ tan học?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "下午四点下课。",
+            "py": "Xiàwǔ sì diǎn xiàkè.",
+            "vi": "Chiều bốn giờ tan học."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 24,
+    "dialogues": [
+      {
+        "title": "Buổi tối làm gì",
+        "lines": [
+          {
+            "speaker": "小力",
+            "zh": "晚上你做什么？",
+            "py": "Wǎnshang nǐ zuò shénme?",
+            "vi": "Buổi tối bạn làm gì?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我在家跟家人吃饭。",
+            "py": "Wǒ zài jiā gēn jiārén chīfàn.",
+            "vi": "Tôi ở nhà ăn cơm cùng gia đình."
+          },
+          {
+            "speaker": "小力",
+            "zh": "你女朋友呢？",
+            "py": "Nǐ nǚpéngyou ne?",
+            "vi": "Thế còn bạn gái bạn?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "她今天很忙。",
+            "py": "Tā jīntiān hěn máng.",
+            "vi": "Cô ấy hôm nay rất bận."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 25,
+    "dialogues": [
+      {
+        "title": "Kế hoạch",
+        "lines": [
+          {
+            "speaker": "小力",
+            "zh": "星期天你有空吗？",
+            "py": "Xīngqītiān nǐ yǒu kòng ma?",
+            "vi": "Chủ nhật bạn có rảnh không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "我有些事。你哪天方便？",
+            "py": "Wǒ yǒuxiē shì. Nǐ nǎ tiān fāngbiàn?",
+            "vi": "Tôi có chút việc. Ngày nào bạn rảnh?"
+          },
+          {
+            "speaker": "小力",
+            "zh": "星期一可以吗？",
+            "py": "Xīngqīyī kěyǐ ma?",
+            "vi": "Thứ hai có được không?"
+          },
+          {
+            "speaker": "小安",
+            "zh": "可以。我们一起吃饭。",
+            "py": "Kěyǐ. Wǒmen yìqǐ chīfàn.",
+            "vi": "Được. Chúng ta cùng đi ăn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 26,
+    "dialogues": [
+      {
+        "title": "Tâm trạng",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你今天高兴吗？",
+            "py": "Nǐ jīntiān gāoxìng ma?",
+            "vi": "Hôm nay bạn có vui không?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "我非常高兴。",
+            "py": "Wǒ fēicháng gāoxìng.",
+            "vi": "Tôi vô cùng vui vẻ."
+          },
+          {
+            "speaker": "小东",
+            "zh": "为什么？",
+            "py": "Wèishénme?",
+            "vi": "Tại sao vậy?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "因为我买了一本书。",
+            "py": "Yīnwèi wǒ mǎi le yì běn shū.",
+            "vi": "Vì tôi mới mua một cuốn sách."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 27,
+    "dialogues": [
+      {
+        "title": "Khách đến nhà",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你好！欢迎来我家！",
+            "py": "Nǐ hǎo! Huānyíng lái wǒ jiā!",
+            "vi": "Xin chào! Chào mừng đến nhà tôi!"
+          },
+          {
+            "speaker": "大明",
+            "zh": "谢谢！这是给你的。",
+            "py": "Xièxie! Zhè shì gěi nǐ de.",
+            "vi": "Cảm ơn! Cái này tặng cho bạn."
+          },
+          {
+            "speaker": "小东",
+            "zh": "不客气，请坐吧。",
+            "py": "Bú kèqi, qǐng zuò ba.",
+            "vi": "Đừng khách sáo, mời ngồi."
+          },
+          {
+            "speaker": "大明",
+            "zh": "好的，谢谢。",
+            "py": "Hǎo de, xièxie.",
+            "vi": "Vâng, cảm ơn."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 28,
+    "dialogues": [
+      {
+        "title": "Du lịch Trung Quốc",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你去过中国吗？",
+            "py": "Nǐ qù guò Zhōngguó ma?",
+            "vi": "Bạn đã từng đến Trung Quốc chưa?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "去过。你去过哪里？",
+            "py": "Qù guò. Nǐ qù guò nǎlǐ?",
+            "vi": "Đã từng đi. Bạn đã đi những đâu?"
+          },
+          {
+            "speaker": "小东",
+            "zh": "我去过北京。那边很大。",
+            "py": "Wǒ qù guò Běijīng. Nàbiān hěn dà.",
+            "vi": "Tôi từng đến Bắc Kinh. Nơi đó rất lớn."
+          },
+          {
+            "speaker": "大明",
+            "zh": "是的，那边非常漂亮。",
+            "py": "Shì de, nàbiān fēicháng piàoliang.",
+            "vi": "Đúng thế, bên đó cực kỳ đẹp."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 29,
+    "dialogues": [
+      {
+        "title": "Biết làm gì",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "你会写汉字吗？",
+            "py": "Nǐ huì xiě Hànzì ma?",
+            "vi": "Bạn biết viết chữ Hán không?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "会一点儿。",
+            "py": "Huì yìdiǎnr.",
+            "vi": "Biết một chút."
+          },
+          {
+            "speaker": "小东",
+            "zh": "你会做中国菜吗？",
+            "py": "Nǐ huì zuò Zhōngguó cài ma?",
+            "vi": "Bạn biết nấu món Trung Quốc không?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "不会，我妈妈会做。",
+            "py": "Bú huì, wǒ māma huì zuò.",
+            "vi": "Không biết, mẹ tôi biết nấu."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 30,
+    "dialogues": [
+      {
+        "title": "Cố lên!",
+        "lines": [
+          {
+            "speaker": "小东",
+            "zh": "我们学了很多字。",
+            "py": "Wǒmen xué le hěn duō zì.",
+            "vi": "Chúng ta đã học được rất nhiều chữ."
+          },
+          {
+            "speaker": "大明",
+            "zh": "是的，太高兴了！",
+            "py": "Shì de, tài gāoxìng le!",
+            "vi": "Đúng vậy, vui quá!"
+          },
+          {
+            "speaker": "小东",
+            "zh": "明天我们继续学习吧？",
+            "py": "Míngtiān wǒmen jìxù xuéxí ba?",
+            "vi": "Ngày mai chúng ta tiếp tục học nhé?"
+          },
+          {
+            "speaker": "大明",
+            "zh": "没问题。加油！",
+            "py": "Méi wèntí. Jiāyóu!",
+            "vi": "Không vấn đề gì. Cố lên!"
+          }
+        ]
+      }
+    ]
+  }
+]

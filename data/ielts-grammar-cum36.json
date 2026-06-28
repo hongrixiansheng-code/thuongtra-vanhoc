@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 71,
+    "grammar": [
+      {
+        "title": "Câu bị động — Quá khứ đơn",
+        "desc": "Dùng was/were + V3 để nói về một sự việc trong quá khứ theo hướng nhấn mạnh đối tượng chịu tác động, thường dùng khi kể về lịch sử/phát minh.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "was/were + V3", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "(by + agent)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "The telephone was invented by Alexander Graham Bell.", "vi": "Điện thoại được phát minh bởi Alexander Graham Bell." },
+          { "en": "This bridge was built in 1990.", "vi": "Cây cầu này được xây vào năm 1990." },
+          { "en": "These paintings were discovered last year.", "vi": "Những bức tranh này được phát hiện năm ngoái." }
+        ],
+        "note": "Chủ ngữ số ít dùng \"was\", số nhiều dùng \"were\". Thường kết hợp với mốc thời gian quá khứ cụ thể.",
+        "practiceList": [
+          { "question": "This museum ___ (build) in 1920.", "correct": "was built", "meaning": "Bảo tàng này được xây vào năm 1920.", "explanation": "Chủ ngữ số ít dùng \"was\" + V3." },
+          { "question": "These rules ___ (create) many years ago.", "correct": "were created", "meaning": "Những quy tắc này được tạo ra nhiều năm trước.", "explanation": "Chủ ngữ số nhiều dùng \"were\" + V3." },
+          { "question": "The book ___ (write) by a famous author.", "correct": "was written", "meaning": "Cuốn sách được viết bởi một tác giả nổi tiếng.", "explanation": "write → written (V3 bất quy tắc)." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "grammar": [
+      {
+        "title": "Câu bị động — Hiện tại hoàn thành",
+        "desc": "Dùng has/have been + V3 để nhấn mạnh kết quả của một hành động cho đến hiện tại, thường dùng khi nói về truyền thông/tin tức.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "has/have been + V3", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "The news has been published online.", "vi": "Tin tức đã được đăng trực tuyến." },
+          { "en": "Many reports have been written about this event.", "vi": "Nhiều báo cáo đã được viết về sự việc này." },
+          { "en": "The announcement has just been broadcast.", "vi": "Thông báo vừa được phát sóng." }
+        ],
+        "note": "Chủ ngữ số ít dùng \"has been\", số nhiều dùng \"have been\", theo sau là V3.",
+        "practiceList": [
+          { "question": "The article ___ (publish) already.", "correct": "has been published", "meaning": "Bài báo đã được xuất bản rồi.", "explanation": "Chủ ngữ số ít dùng \"has been\" + V3." },
+          { "question": "Several videos ___ (upload) this week.", "correct": "have been uploaded", "meaning": "Vài video đã được tải lên trong tuần này.", "explanation": "Chủ ngữ số nhiều dùng \"have been\" + V3." },
+          { "question": "The advertisement ___ (show) on TV many times.", "correct": "has been shown", "meaning": "Quảng cáo đã được chiếu trên TV nhiều lần.", "explanation": "show → shown (V3 bất quy tắc)." }
+        ]
+      }
+    ]
+  }
+]

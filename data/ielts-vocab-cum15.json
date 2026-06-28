@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 29,
+    "vocab": [
+      {
+        "word": "apple",
+        "ipa": "/ˈæp.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quả táo",
+        "example_en": "I eat an apple.",
+        "example_vi": "Tôi ăn một quả táo.",
+        "level": "A2"
+      },
+      {
+        "word": "banana",
+        "ipa": "/bəˈnɑː.nə/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quả chuối",
+        "example_en": "She likes banana.",
+        "example_vi": "Cô ấy thích chuối.",
+        "level": "A2"
+      },
+      {
+        "word": "orange",
+        "ipa": "/ˈɒr.ɪndʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quả cam",
+        "example_en": "Buy an orange.",
+        "example_vi": "Mua một quả cam.",
+        "level": "A2"
+      },
+      {
+        "word": "milk",
+        "ipa": "/mɪlk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sữa",
+        "example_en": "Drink milk.",
+        "example_vi": "Uống sữa.",
+        "level": "A2"
+      },
+      {
+        "word": "water",
+        "ipa": "/ˈwɔː.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nước",
+        "example_en": "I need water.",
+        "example_vi": "Tôi cần nước.",
+        "level": "A2"
+      },
+      {
+        "word": "bread",
+        "ipa": "/bred/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bánh mì",
+        "example_en": "Eat bread.",
+        "example_vi": "Ăn bánh mì.",
+        "level": "A2"
+      },
+      {
+        "word": "meat",
+        "ipa": "/miːt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thịt",
+        "example_en": "Cook the meat.",
+        "example_vi": "Nấu thịt.",
+        "level": "A2"
+      },
+      {
+        "word": "fish",
+        "ipa": "/fɪʃ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cá",
+        "example_en": "I eat fish.",
+        "example_vi": "Tôi ăn cá.",
+        "level": "A2"
+      },
+      {
+        "word": "chicken",
+        "ipa": "/ˈtʃɪk.ɪn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thịt gà",
+        "example_en": "Cook chicken.",
+        "example_vi": "Nấu thịt gà.",
+        "level": "A2"
+      },
+      {
+        "word": "egg",
+        "ipa": "/eɡ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trứng",
+        "example_en": "Fry an egg.",
+        "example_vi": "Rán trứng.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "vocab": [
+      {
+        "word": "sugar",
+        "ipa": "/ˈʃʊɡ.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "đường",
+        "example_en": "Add sugar.",
+        "example_vi": "Thêm đường vào.",
+        "level": "A2"
+      },
+      {
+        "word": "salt",
+        "ipa": "/sɒlt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "muối",
+        "example_en": "Add salt.",
+        "example_vi": "Thêm muối vào.",
+        "level": "A2"
+      },
+      {
+        "word": "rice",
+        "ipa": "/raɪs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "gạo, cơm",
+        "example_en": "Cook rice.",
+        "example_vi": "Nấu cơm.",
+        "level": "A2"
+      },
+      {
+        "word": "soup",
+        "ipa": "/suːp/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "súp, canh",
+        "example_en": "Hot soup.",
+        "example_vi": "Súp nóng.",
+        "level": "A2"
+      },
+      {
+        "word": "butter",
+        "ipa": "/ˈbʌt.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bơ",
+        "example_en": "Bread and butter.",
+        "example_vi": "Bánh mì và bơ.",
+        "level": "A2"
+      },
+      {
+        "word": "cheese",
+        "ipa": "/tʃiːz/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phô mai",
+        "example_en": "I like cheese.",
+        "example_vi": "Tôi thích phô mai.",
+        "level": "A2"
+      },
+      {
+        "word": "flour",
+        "ipa": "/flaʊər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bột mì",
+        "example_en": "Add flour.",
+        "example_vi": "Thêm bột mì.",
+        "level": "A2"
+      },
+      {
+        "word": "tea",
+        "ipa": "/tiː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trà",
+        "example_en": "Drink tea.",
+        "example_vi": "Uống trà.",
+        "level": "A2"
+      },
+      {
+        "word": "coffee",
+        "ipa": "/ˈkɒf.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cà phê",
+        "example_en": "Drink coffee.",
+        "example_vi": "Uống cà phê.",
+        "level": "A2"
+      },
+      {
+        "word": "juice",
+        "ipa": "/dʒuːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nước ép",
+        "example_en": "Drink juice.",
+        "example_vi": "Uống nước ép.",
+        "level": "A2"
+      }
+    ]
+  }
+]

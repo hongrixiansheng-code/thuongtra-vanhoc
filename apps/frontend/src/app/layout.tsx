@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Bilingual Education App",
-  description: "Learn English and Chinese",
+  title: "Thưởng Trà - Vấn Học",
+  description: "Học Tiếng Trung HSK và Tiếng Anh Cambridge YLE theo lộ trình rõ ràng",
 };
 
 export default function RootLayout({
@@ -20,13 +20,31 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="vi" translate="no">
+    <html lang="vi" translate="no" suppressHydrationWarning>
       <head>
         <meta name="google" content="notranslate" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              try {
+                var accent = localStorage.getItem('theme-accent') || 'amber';
+                document.documentElement.setAttribute('data-accent', accent);
+                
+                var mode = localStorage.getItem('theme-mode') || 'system';
+                if (mode === 'dark' || (mode === 'system' && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+                  document.documentElement.classList.add('dark');
+                } else {
+                  document.documentElement.classList.remove('dark');
+                }
+              } catch (e) {}
+            `,
+          }}
+        />
       </head>
       <body
         className={`${inter.className} antialiased min-h-screen bg-gray-50`}
+        suppressHydrationWarning
       >
         <Providers>
           <Suspense fallback={<div>Loading Navigation...</div>}>

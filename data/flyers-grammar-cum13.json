@@ -1,0 +1,145 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "grammar": [
+        {
+          "title": "Phân biệt get to / arrive at",
+          "desc": "Dùng 'get to' để chỉ quá trình đi đến một nơi nào đó. Dùng 'arrive at' (hoặc arrive in) để chỉ việc đã đến đích.",
+          "formula": [
+            { "text": "get to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "vs.", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "arrive at", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "How do we get to the station?", "meaning": "Làm thế nào để chúng ta đi đến nhà ga?" },
+            { "correct": "We will arrive at the station at 9 o'clock.", "meaning": "Chúng ta sẽ đến (đích) nhà ga lúc 9 giờ." },
+            { "correct": "He arrived at the hotel late.", "meaning": "Anh ấy đã đến (đích) khách sạn muộn." }
+          ]
+        },
+        {
+          "title": "Đại từ chỉ nơi chốn bất định",
+          "desc": "Các từ chỉ nơi chốn chung chung: somewhere (một nơi nào đó), nowhere (không nơi nào), everywhere (mọi nơi), anywhere (bất cứ nơi nào).",
+          "formula": [
+            { "text": "I looked", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "everywhere", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "for my keys.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I want to go somewhere quiet.", "meaning": "Tớ muốn đi đến một nơi nào đó yên tĩnh." },
+            { "correct": "He has nowhere to sleep.", "meaning": "Cậu ấy không có nơi nào để ngủ." },
+            { "correct": "I can't find it anywhere.", "meaning": "Tớ không thể tìm thấy nó ở bất cứ nơi nào." }
+          ]
+        },
+        {
+          "title": "Chỉ đường cơ bản (Ôn tập)",
+          "desc": "Khi hướng dẫn ai đó, hãy dùng các câu mệnh lệnh như 'Turn right' (rẽ phải), 'Turn left' (rẽ trái), 'Go straight on' (đi thẳng).",
+          "formula": [
+            { "text": "Go", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "straight on.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "Turn left at the next street.", "meaning": "Hãy rẽ trái ở con phố tiếp theo." },
+            { "correct": "Go straight on until you see the bank.", "meaning": "Hãy đi thẳng cho đến khi bạn nhìn thấy ngân hàng." },
+            { "correct": "Turn right and stop.", "meaning": "Hãy rẽ phải và dừng lại." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Going on a holiday",
+          "lines": [
+            { "speaker": "A", "en": "I want to go somewhere exciting.", "vi": "Tớ muốn đi đến một nơi nào đó thú vị." },
+            { "speaker": "B", "en": "Let's take the train to the city.", "vi": "Hãy bắt tàu hỏa đi đến thành phố." },
+            { "speaker": "A", "en": "What time will we arrive at the station?", "vi": "Mấy giờ chúng ta sẽ đến nhà ga?" },
+            { "speaker": "B", "en": "We will arrive at half past ten.", "vi": "Chúng ta sẽ đến nơi lúc mười rưỡi." },
+            { "speaker": "A", "en": "And how do we get to the hotel?", "vi": "Và làm thế nào để chúng ta đi đến khách sạn?" },
+            { "speaker": "B", "en": "We just go straight on from the station.", "vi": "Chúng ta chỉ cần đi thẳng từ nhà ga." }
+          ]
+        },
+        {
+          "title": "A lost dog",
+          "lines": [
+            { "speaker": "A", "en": "I can't find my dog anywhere.", "vi": "Tớ không thể tìm thấy con chó của tớ ở bất cứ nơi nào." },
+            { "speaker": "B", "en": "Did you look everywhere in the house?", "vi": "Cậu đã tìm khắp mọi nơi trong nhà chưa?" },
+            { "speaker": "A", "en": "Yes, I did. I have nowhere else to look.", "vi": "Có, tớ tìm rồi. Tớ không còn nơi nào khác để tìm nữa." },
+            { "speaker": "B", "en": "Maybe he ran outside. Let's go and check.", "vi": "Có thể nó đã chạy ra ngoài. Hãy ra ngoài và kiểm tra." },
+            { "speaker": "A", "en": "We should turn left and ask our neighbour.", "vi": "Chúng ta nên rẽ trái và hỏi người hàng xóm." },
+            { "speaker": "B", "en": "Good idea. I hope he is somewhere near here.", "vi": "Ý hay đấy. Tớ hy vọng nó đang ở một nơi nào đó gần đây." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "grammar": [
+        {
+          "title": "Ôn tập tổng hợp chỉ đường",
+          "desc": "Kết hợp các hướng 'right/left' và 'straight on' để đưa ra lời chỉ đường chi tiết hơn.",
+          "formula": [
+            { "text": "Turn right,", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "then", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "go straight on.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Go straight on, then turn right.", "meaning": "Hãy đi thẳng, sau đó rẽ phải." },
+            { "correct": "Turn left at the hospital.", "meaning": "Hãy rẽ trái tại bệnh viện." },
+            { "correct": "The police station is on your right.", "meaning": "Đồn cảnh sát nằm ở phía bên phải của bạn." }
+          ]
+        },
+        {
+          "title": "Giới từ chỉ hướng (Ôn tập)",
+          "desc": "Ôn lại các giới từ quan trọng khi chỉ đường: past (ngang qua), over (vòng qua trên), through (xuyên qua), along (dọc theo), across (băng qua).",
+          "formula": [
+            { "text": "Walk", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "past", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the cinema.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "Walk across the street safely.", "meaning": "Hãy đi bộ băng qua đường một cách an toàn." },
+            { "correct": "Go past the supermarket.", "meaning": "Hãy đi ngang qua siêu thị." },
+            { "correct": "Run along the beach.", "meaning": "Hãy chạy dọc theo bãi biển." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 9",
+          "desc": "Ôn lại Câu điều kiện loại 1 (If... will...) kết hợp với từ vựng chỉ đường.",
+          "formula": [
+            { "text": "If", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "you get lost,", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "I will help you.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "If you turn right, you will see the post office.", "meaning": "Nếu bạn rẽ phải, bạn sẽ nhìn thấy bưu điện." },
+            { "correct": "If you walk through the park, it will be faster.", "meaning": "Nếu bạn đi bộ xuyên qua công viên, nó sẽ nhanh hơn." },
+            { "correct": "If she takes a taxi, she will arrive early.", "meaning": "Nếu cô ấy bắt taxi, cô ấy sẽ đến nơi sớm." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Finding the post office",
+          "lines": [
+            { "speaker": "A", "en": "Excuse me, how do I get to the post office?", "vi": "Xin lỗi, làm thế nào để tôi đi đến bưu điện?" },
+            { "speaker": "B", "en": "Go straight on and walk across the bridge.", "vi": "Hãy đi thẳng và đi bộ băng qua cây cầu." },
+            { "speaker": "A", "en": "Should I turn left or right after the bridge?", "vi": "Tôi nên rẽ trái hay phải sau cây cầu?" },
+            { "speaker": "B", "en": "Turn right. It is next to the cinema.", "vi": "Hãy rẽ phải. Nó nằm cạnh rạp chiếu phim." },
+            { "speaker": "A", "en": "Thank you. Is it far?", "vi": "Cảm ơn bạn. Nó có xa không?" },
+            { "speaker": "B", "en": "If you walk quickly, it will take five minutes.", "vi": "Nếu bạn đi bộ nhanh, nó sẽ mất năm phút." }
+          ]
+        },
+        {
+          "title": "A trip to the castle",
+          "lines": [
+            { "speaker": "A", "en": "Look at the map. The castle is over there.", "vi": "Hãy nhìn bản đồ. Tòa lâu đài ở đằng kia." },
+            { "speaker": "B", "en": "If we walk through the forest, we will get lost.", "vi": "Nếu chúng ta đi bộ xuyên qua khu rừng, chúng ta sẽ bị lạc." },
+            { "speaker": "A", "en": "You are right. Let's go along the river.", "vi": "Cậu nói đúng. Hãy đi dọc theo con sông." },
+            { "speaker": "B", "en": "Okay. Go past the big tree and turn left.", "vi": "Được rồi. Hãy đi ngang qua cái cây lớn và rẽ trái." },
+            { "speaker": "A", "en": "Yes, then we go straight on.", "vi": "Ừ, sau đó chúng ta đi thẳng." },
+            { "speaker": "B", "en": "I can see the castle on the right!", "vi": "Tớ có thể nhìn thấy tòa lâu đài ở phía bên phải rồi!" }
+          ]
+        }
+      ]
+    }
+  ]
+}

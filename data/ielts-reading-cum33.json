@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 65,
+    "reading": [
+      {
+        "title": "Reading: My recent experiences",
+        "passage": "I have had so many great experiences this year. I have completed my first marathon, which was a real challenge. I have also had a new opportunity at work. It has been a memorable year.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer has completed a marathon.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I have completed my first marathon\"." },
+          { "type": "multiple_choice", "question": "What new thing has the writer had at work?", "options": ["A promotion", "A new opportunity", "A new office"], "correct": "A new opportunity", "explanation": "\"I have also had a new opportunity at work.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "reading": [
+      {
+        "title": "Reading: Have you ever...?",
+        "passage": "I have visited Da Lat twice. I have tried Vietnamese coffee many times. However, I have never met a famous person, and I have never travelled alone.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer has met a famous person.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I have never met a famous person.\"" },
+          { "type": "multiple_choice", "question": "How many times has the writer visited Da Lat?", "options": ["Once", "Twice", "Three times"], "correct": "Twice", "explanation": "\"I have visited Da Lat twice.\"" }
+        ]
+      }
+    ]
+  }
+]

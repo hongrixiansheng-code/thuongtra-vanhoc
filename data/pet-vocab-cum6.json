@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "vocab": [
+        { "word": "jet", "ipa": "/dʒet/", "type": "n.", "meaning": "máy bay phản lực", "example_en": "They flew to Paris in a private jet.", "example_vi": "Họ bay đến Paris bằng máy bay phản lực riêng." },
+        { "word": "helicopter", "ipa": "/ˈhel.ɪˌkɒp.tər/", "type": "n.", "meaning": "máy bay trực thăng", "example_en": "The injured man was taken to hospital by helicopter.", "example_vi": "Người đàn ông bị thương đã được đưa đến bệnh viện bằng trực thăng." },
+        { "word": "ferry", "ipa": "/ˈfer.i/", "type": "n.", "meaning": "phà", "example_en": "We will take the passenger ferry to the island.", "example_vi": "Chúng tôi sẽ đi phà chở khách ra đảo." },
+        { "word": "canal", "ipa": "/kəˈnæl/", "type": "n.", "meaning": "kênh đào", "example_en": "The city is famous for its beautiful canals.", "example_vi": "Thành phố nổi tiếng với những con kênh đào tuyệt đẹp." },
+        { "word": "cable car", "ipa": "/ˈkeɪ.bəl ˌkɑːr/", "type": "n.", "meaning": "cáp treo", "example_en": "We took a cable car to the top of the mountain.", "example_vi": "Chúng tôi đã đi cáp treo lên đỉnh núi." },
+        { "word": "underground", "ipa": "/ˌʌn.dəˈɡraʊnd/", "type": "n.", "meaning": "tàu điện ngầm", "example_en": "I usually take the underground to work.", "example_vi": "Tôi thường đi tàu điện ngầm đến chỗ làm." },
+        { "word": "tram", "ipa": "/træm/", "type": "n.", "meaning": "xe điện", "example_en": "There is a tram stop right outside the museum.", "example_vi": "Có một trạm xe điện ngay bên ngoài bảo tàng." },
+        { "word": "scooter", "ipa": "/ˈskuː.tər/", "type": "n.", "meaning": "xe tay ga", "example_en": "He drives a scooter because it's easy to park.", "example_vi": "Anh ấy lái một chiếc xe tay ga vì nó dễ đỗ." },
+        { "word": "timetable", "ipa": "/ˈtaɪmˌteɪ.bəl/", "type": "n.", "meaning": "lịch trình, thời gian biểu", "example_en": "I need to check the train timetable before we leave.", "example_vi": "Tôi cần kiểm tra lịch trình tàu hỏa trước khi chúng ta rời đi." },
+        { "word": "delay", "ipa": "/dɪˈleɪ/", "type": "n., v.", "meaning": "sự chậm trễ, trì hoãn", "example_en": "There was a long delay due to the bad weather.", "example_vi": "Đã có một sự chậm trễ dài do thời tiết xấu." }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "vocab": [
+        { "word": "ballet", "ipa": "/ˈbæl.eɪ/", "type": "n.", "meaning": "múa ba lê", "example_en": "My daughter goes to ballet classes every Saturday.", "example_vi": "Con gái tôi đến lớp múa ba lê vào mỗi thứ Bảy." },
+        { "word": "opera", "ipa": "/ˈɒp.ər.ə/", "type": "n.", "meaning": "nhạc kịch", "example_en": "We went to see a famous Italian opera last night.", "example_vi": "Chúng tôi đã đi xem một vở nhạc kịch Ý nổi tiếng vào tối qua." },
+        { "word": "sculpture", "ipa": "/ˈskʌlp.tʃər/", "type": "n.", "meaning": "tác phẩm điêu khắc", "example_en": "The museum has a large collection of modern sculpture.", "example_vi": "Bảo tàng có một bộ sưu tập lớn các tác phẩm điêu khắc hiện đại." },
+        { "word": "architecture", "ipa": "/ˈɑː.kɪ.tek.tʃər/", "type": "n.", "meaning": "kiến trúc", "example_en": "He is studying architecture at university.", "example_vi": "Anh ấy đang học ngành kiến trúc tại trường đại học." },
+        { "word": "landscape", "ipa": "/ˈlænd.skeɪp/", "type": "n.", "meaning": "phong cảnh", "example_en": "She likes to paint landscapes in watercolours.", "example_vi": "Cô ấy thích vẽ phong cảnh bằng màu nước." },
+        { "word": "portrait", "ipa": "/ˈpɔː.trət/", "type": "n.", "meaning": "bức chân dung", "example_en": "He painted a portrait of his wife.", "example_vi": "Ông ấy đã vẽ một bức chân dung của vợ mình." },
+        { "word": "composer", "ipa": "/kəmˈpəʊ.zər/", "type": "n.", "meaning": "nhà soạn nhạc", "example_en": "Mozart was a famous classical composer.", "example_vi": "Mozart là một nhà soạn nhạc cổ điển nổi tiếng." },
+        { "word": "musician", "ipa": "/mjuːˈzɪʃ.ən/", "type": "n.", "meaning": "nhạc sĩ", "example_en": "She is a talented musician who plays the piano beautifully.", "example_vi": "Cô ấy là một nhạc sĩ tài năng, chơi piano tuyệt hay." },
+        { "word": "playwright", "ipa": "/ˈpleɪ.raɪt/", "type": "n.", "meaning": "nhà soạn kịch", "example_en": "Shakespeare is the most famous English playwright.", "example_vi": "Shakespeare là nhà soạn kịch người Anh nổi tiếng nhất." },
+        { "word": "performance", "ipa": "/pəˈfɔː.məns/", "type": "n.", "meaning": "màn trình diễn", "example_en": "The band gave a wonderful performance.", "example_vi": "Ban nhạc đã có một màn trình diễn tuyệt vời." }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "vocab": [
+        { "word": "headline", "ipa": "/ˈhed.laɪn/", "type": "n.", "meaning": "tiêu đề bài báo", "example_en": "The scandal was on the front page headlines.", "example_vi": "Vụ bê bối đã xuất hiện trên các tiêu đề trang nhất." },
+        { "word": "documentary", "ipa": "/ˌdɒk.jəˈmen.tər.i/", "type": "n.", "meaning": "phim tài liệu", "example_en": "We watched an interesting documentary about wildlife.", "example_vi": "Chúng tôi đã xem một bộ phim tài liệu thú vị về động vật hoang dã." },
+        { "word": "broadcast", "ipa": "/ˈbrɔːd.kɑːst/", "type": "v., n.", "meaning": "phát sóng, chương trình phát sóng", "example_en": "The concert will be broadcast live tomorrow evening.", "example_vi": "Buổi hòa nhạc sẽ được phát sóng trực tiếp vào tối mai." },
+        { "word": "channel", "ipa": "/ˈtʃæn.əl/", "type": "n.", "meaning": "kênh truyền hình", "example_en": "Can you change the channel? I want to watch the news.", "example_vi": "Bạn có thể chuyển kênh được không? Tôi muốn xem tin tức." },
+        { "word": "editor", "ipa": "/ˈed.ɪ.tər/", "type": "n.", "meaning": "tổng biên tập", "example_en": "She is the editor of a famous fashion magazine.", "example_vi": "Cô ấy là tổng biên tập của một tạp chí thời trang nổi tiếng." },
+        { "word": "columnist", "ipa": "/ˈkɒl.əm.nɪst/", "type": "n.", "meaning": "người phụ trách chuyên mục (trên báo)", "example_en": "He works as a sports columnist for a daily newspaper.", "example_vi": "Anh ấy làm việc với tư cách là người phụ trách chuyên mục thể thao cho một tờ báo hàng ngày." },
+        { "word": "article", "ipa": "/ˈɑː.tɪ.kəl/", "type": "n.", "meaning": "bài báo", "example_en": "There was an article about our school in the paper.", "example_vi": "Đã có một bài báo viết về trường của chúng ta trên báo." },
+        { "word": "review", "ipa": "/rɪˈvjuː/", "type": "n.", "meaning": "bài đánh giá", "example_en": "The new restaurant got excellent reviews online.", "example_vi": "Nhà hàng mới đã nhận được những bài đánh giá xuất sắc trên mạng." },
+        { "word": "interview", "ipa": "/ˈɪn.tə.vjuː/", "type": "n., v.", "meaning": "cuộc phỏng vấn, phỏng vấn", "example_en": "I have a job interview tomorrow morning.", "example_vi": "Tôi có một cuộc phỏng vấn xin việc vào sáng mai." },
+        { "word": "editorial", "ipa": "/ˌed.ɪˈtɔː.ri.əl/", "type": "n.", "meaning": "bài xã luận", "example_en": "The newspaper published a strong editorial against the new law.", "example_vi": "Tờ báo đã xuất bản một bài xã luận mạnh mẽ phản đối đạo luật mới." }
+      ]
+    }
+  ]
+}

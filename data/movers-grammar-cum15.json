@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 29,
+      "grammar": [
+        {
+          "title": "Giới từ: between / opposite / round",
+          "desc": "Cùng học thêm các từ chỉ vị trí: 'between' (ở giữa hai vật), 'opposite' (ở đối diện), và 'round' / 'around' (xung quanh một vật).",
+          "formula": [
+            { "text": "He is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "between", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "the trees.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The bank is between the school and the shop.", "meaning": "Ngân hàng nằm ở giữa trường học và cửa hàng." },
+            { "correct": "She sat opposite me.", "meaning": "Cô ấy đã ngồi đối diện tớ." },
+            { "correct": "We walked round the lake.", "meaning": "Chúng tớ đã đi bộ xung quanh cái hồ." }
+          ]
+        },
+        {
+          "title": "Đại từ: both (Cả hai)",
+          "desc": "Dùng 'both' khi bạn muốn nói đến 'cả hai' người hoặc 'cả hai' vật cùng một lúc.",
+          "formula": [
+            { "text": "I like", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "both", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "of them.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I want to buy both of these books.", "meaning": "Tớ muốn mua cả hai quyển sách này." },
+            { "correct": "Both my brother and I love football.", "meaning": "Cả anh trai tớ và tớ đều rất thích bóng đá." },
+            { "correct": "Are they both your friends?", "meaning": "Có phải cả hai người họ đều là bạn của cậu không?" }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp: Nơi chốn & Quá khứ đơn",
+          "desc": "Cùng ôn lại các giới từ chỉ vị trí (near, next to, opposite) và thì Quá khứ đơn.",
+          "formula": [
+            { "text": "I went", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "to a shop", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "near here.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "I saw him near the hospital yesterday.", "meaning": "Tớ đã nhìn thấy cậu ấy ở gần bệnh viện vào hôm qua." },
+            { "correct": "Did you go round the park?", "meaning": "Cậu đã đi một vòng quanh công viên phải không?" },
+            { "correct": "There was a car next to the house.", "meaning": "Đã có một chiếc ô tô ở bên cạnh ngôi nhà." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the town square",
+          "lines": [
+            { "speaker": "A", "en": "Where is the new toy shop?", "vi": "Cửa hàng đồ chơi mới nằm ở đâu vậy?" },
+            { "speaker": "B", "en": "It is between the bank and the library.", "vi": "Nó nằm ở giữa ngân hàng và thư viện." },
+            { "speaker": "A", "en": "Did you go there yesterday?", "vi": "Hôm qua cậu đã đến đó phải không?" },
+            { "speaker": "B", "en": "Yes. We walked round the square to find it.", "vi": "Đúng vậy. Chúng tớ đã đi bộ vòng quanh quảng trường để tìm nó." },
+            { "speaker": "A", "en": "What did you buy?", "vi": "Cậu đã mua những gì?" },
+            { "speaker": "B", "en": "I saw two cars, and I bought both of them.", "vi": "Tớ đã nhìn thấy hai chiếc ô tô đồ chơi, và tớ đã mua cả hai chiếc." }
+          ]
+        },
+        {
+          "title": "Meeting a friend",
+          "lines": [
+            { "speaker": "A", "en": "Where were you last weekend?", "vi": "Cậu đã ở đâu vào cuối tuần trước thế?" },
+            { "speaker": "B", "en": "I was at the café opposite the school.", "vi": "Tớ đã ở quán cà phê đối diện trường học." },
+            { "speaker": "A", "en": "Was anyone there with you?", "vi": "Có ai ở đó cùng cậu không?" },
+            { "speaker": "B", "en": "Yes, I met both Peter and Mary.", "vi": "Có, tớ đã gặp cả Peter và Mary." },
+            { "speaker": "A", "en": "What did you do?", "vi": "Các cậu đã làm gì vậy?" },
+            { "speaker": "B", "en": "We just sat and talked.", "vi": "Chúng tớ chỉ ngồi và nói chuyện thôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 30,
+      "grammar": [
+        {
+          "title": "Số thứ tự: first / second / third",
+          "desc": "Dùng Số thứ tự để chỉ ngày tháng hoặc xếp hạng. Lưu ý 3 từ đầu tiên là bất quy tắc (first, second, third), các từ còn lại thường chỉ cần thêm '-th' (fourth, fifth...).",
+          "formula": [
+            { "text": "He is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "the first", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "person.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I am the first in the line.", "meaning": "Tớ là người đầu tiên trong hàng." },
+            { "correct": "Today is the third day of the month.", "meaning": "Hôm nay là ngày thứ ba của tháng." },
+            { "correct": "My brother was second in the race.", "meaning": "Anh trai tớ đã về thứ hai trong cuộc đua." }
+          ]
+        },
+        {
+          "title": "Ngày trong tuần + on",
+          "desc": "Dùng giới từ 'on' trước các ngày trong tuần (on Monday, on Friday). Chữ cái đầu tiên của các ngày luôn luôn phải được Viết Hoa.",
+          "formula": [
+            { "text": "I play", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "tennis", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "on Sunday.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "We go to school on Monday.", "meaning": "Chúng tớ đi học vào ngày thứ Hai." },
+            { "correct": "I watched a movie on Friday.", "meaning": "Tớ đã xem một bộ phim vào thứ Sáu." },
+            { "correct": "What do you do on weekends?", "meaning": "Cậu làm gì vào những ngày cuối tuần?" }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng kết toàn khóa Movers",
+          "desc": "Chúc mừng bạn đã đến bài học cuối cùng! Hãy cùng ôn lại Quá khứ đơn, Hiện tại tiếp diễn và Tương lai dự định nhé.",
+          "formula": [
+            { "text": "Movers", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Grammar", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "Master", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I played football yesterday.", "meaning": "Tớ đã chơi bóng đá vào hôm qua." },
+            { "correct": "I am studying English now.", "meaning": "Bây giờ tớ đang học tiếng Anh." },
+            { "correct": "I am going to read a book tomorrow.", "meaning": "Tớ dự định sẽ đọc một quyển sách vào ngày mai." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A busy week",
+          "lines": [
+            { "speaker": "A", "en": "What did you do on Monday?", "vi": "Cậu đã làm gì vào thứ Hai?" },
+            { "speaker": "B", "en": "I went to the library. It was the first day of my holidays.", "vi": "Tớ đã đi đến thư viện. Đó là ngày đầu tiên trong kỳ nghỉ của tớ." },
+            { "speaker": "A", "en": "Are you going to travel on Friday?", "vi": "Cậu dự định sẽ đi du lịch vào thứ Sáu à?" },
+            { "speaker": "B", "en": "Yes, I am. I am packing my bags now.", "vi": "Đúng vậy. Bây giờ tớ đang đóng gói hành lý." },
+            { "speaker": "A", "en": "Have a great trip!", "vi": "Chúc cậu có một chuyến đi tuyệt vời nhé!" },
+            { "speaker": "B", "en": "Thank you! See you next week.", "vi": "Cảm ơn cậu! Hẹn gặp cậu vào tuần tới." }
+          ]
+        },
+        {
+          "title": "The big race",
+          "lines": [
+            { "speaker": "A", "en": "Did you run in the school race yesterday?", "vi": "Hôm qua cậu có chạy trong cuộc đua của trường không?" },
+            { "speaker": "B", "en": "Yes, I did. Both my brother and I ran.", "vi": "Có, tớ có. Cả anh trai tớ và tớ đều đã chạy." },
+            { "speaker": "A", "en": "Who was the first?", "vi": "Ai là người về đích đầu tiên?" },
+            { "speaker": "B", "en": "My brother was first. I was second.", "vi": "Anh trai tớ về đích đầu tiên. Tớ thì về thứ hai." },
+            { "speaker": "A", "en": "That is very good! What are you doing now?", "vi": "Thế là rất tốt rồi! Bây giờ cậu đang làm gì thế?" },
+            { "speaker": "B", "en": "I am resting. I am very tired.", "vi": "Tớ đang nghỉ ngơi. Tớ cảm thấy rất mệt mỏi." }
+          ]
+        }
+      ]
+    }
+  ]
+}

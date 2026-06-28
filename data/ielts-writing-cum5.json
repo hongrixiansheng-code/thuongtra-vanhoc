@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 9,
+    "writing": [
+      {
+        "title": "Writing Task 1: Directions to my house",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) giving directions to your house, using this/that/these/those.",
+        "minWords": 30,
+        "sampleAnswer": "Go straight along this street, then turn left at the corner. That building is the library, next to my house. Those shops are open until 9 p.m.",
+        "checklist": ["Dùng đúng this/that cho vật gần/xa", "Dùng đúng these/those cho số nhiều", "Chỉ đường rõ ràng, có thứ tự"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — Describe your hometown",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) describing your hometown. Use vocabulary and grammar from Chương 1 (be, have/has, there is/are, prepositions of place).",
+        "minWords": 40,
+        "sampleAnswer": "I am from a small town. There is a small house near my hometown with a beautiful garden. My family isn't big, but we are happy. There is a park opposite the supermarket, and the school is between the bank and the post office.",
+        "checklist": ["Kết hợp được ít nhất 3 cấu trúc đã học trong Chương 1", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

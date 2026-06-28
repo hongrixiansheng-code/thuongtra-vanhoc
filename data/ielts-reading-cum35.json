@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 69,
+    "reading": [
+      {
+        "title": "Reading: Experience vs detail",
+        "passage": "I have visited Hue before. I visited it last summer, with my family. I have also tried Hue cuisine. I tried it three years ago, at a small restaurant.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer visited Hue last summer.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I visited it last summer\"." },
+          { "type": "multiple_choice", "question": "When did the writer try Hue cuisine?", "options": ["Last summer", "Three years ago", "Last week"], "correct": "Three years ago", "explanation": "\"I tried it three years ago\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "reading": [
+      {
+        "title": "Reading: How coffee is made",
+        "passage": "Coffee is grown in the highlands. It is then processed in factories and packaged. After that, it is delivered to shops and distributed to many countries around the world.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Coffee is grown in the highlands.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu đầu nêu rõ điều này." },
+          { "type": "multiple_choice", "question": "What happens after coffee is packaged?", "options": ["It is grown", "It is delivered to shops", "It is processed"], "correct": "It is delivered to shops", "explanation": "\"After that, it is delivered to shops\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 37,
+    "listening": [
+      {
+        "title": "Listening: Childhood memories",
+        "transcript": "I was very shy when I was a child, and I wasn't interested in sports. My best friend and I were in the same class for years. My school wasn't far from home.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What was the speaker like as a child?", "options": ["Shy", "Sporty", "Loud"], "correct": "Shy", "explanation": "\"I was very shy when I was a child.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "listening": [
+      {
+        "title": "Listening: A travel story",
+        "transcript": "Last summer, I visited Hoi An with my family. We booked a small hotel and stayed for four days. We explored the old streets every evening.",
+        "questions": [
+          { "type": "form_completion", "question": "Length of stay: ___ days", "options": ["two", "four", "six"], "correct": "four", "explanation": "\"stayed for four days\"." }
+        ]
+      }
+    ]
+  }
+]

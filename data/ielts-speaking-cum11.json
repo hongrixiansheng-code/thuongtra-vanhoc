@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 21,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Daily questions",
+        "part": 1,
+        "questions": ["What time do you start work or school?", "Where do you study or work?", "Why do you like it there?"],
+        "sampleAnswer": "I start school at eight o'clock. I study at a school downtown. I like it because I have many good friends there."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Likes and dislikes",
+        "part": 1,
+        "questions": ["Do you ever disagree with your friends?", "Is there something you never do?", "Is there something you rarely do?"],
+        "sampleAnswer": "Yes, I sometimes disagree with my friends. I never eat fast food. I rarely watch TV at night."
+      }
+    ]
+  }
+]

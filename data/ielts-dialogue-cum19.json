@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 37,
+    "dialogue": [
+      {
+        "title": "Talking about childhood",
+        "lines": [
+          { "speaker": "Hoa", "en": "What were you like when you were a child?", "vi": "Bạn đã như thế nào khi còn nhỏ?" },
+          { "speaker": "Sarah", "en": "I was very shy, and I wasn't interested in sports at all.", "vi": "Tôi rất nhút nhát, và tôi hoàn toàn không quan tâm đến thể thao." },
+          { "speaker": "Hoa", "en": "Were you close to your neighbourhood friends?", "vi": "Bạn có thân với những người bạn trong khu phố không?" },
+          { "speaker": "Sarah", "en": "Yes, we were very close. My best friend and I were in the same class for years.", "vi": "Có, chúng tôi rất thân. Bạn thân nhất của tôi và tôi đã học cùng lớp suốt nhiều năm." },
+          { "speaker": "Hoa", "en": "Was your school far from home?", "vi": "Trường học của bạn có xa nhà không?" },
+          { "speaker": "Sarah", "en": "No, it wasn't far. It was just a five-minute walk from my house.", "vi": "Không, không xa. Nó chỉ cách nhà tôi năm phút đi bộ." }
+        ]
+      },
+      {
+        "title": "A favourite memory",
+        "lines": [
+          { "speaker": "Hoa", "en": "Do you have a favourite memory from your childhood?", "vi": "Bạn có kỷ niệm yêu thích nào từ thời thơ ấu không?" },
+          { "speaker": "Sarah", "en": "Yes, I remember the summers were always exciting in my neighbourhood.", "vi": "Có, tôi nhớ những mùa hè luôn rất thú vị ở khu phố tôi." },
+          { "speaker": "Hoa", "en": "What made them so special?", "vi": "Điều gì làm cho chúng đặc biệt như vậy?" },
+          { "speaker": "Sarah", "en": "All the children were outside, and we were never bored.", "vi": "Tất cả trẻ con đều ở ngoài, và chúng tôi không bao giờ thấy chán." },
+          { "speaker": "Hoa", "en": "Were your parents strict about playing outside?", "vi": "Bố mẹ bạn có nghiêm khắc về việc chơi ngoài trời không?" },
+          { "speaker": "Sarah", "en": "Not really. They were quite relaxed as long as we were home before dinner.", "vi": "Không hẳn. Họ khá thoải mái miễn là chúng tôi về nhà trước bữa tối." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "dialogue": [
+      {
+        "title": "A trip last summer",
+        "lines": [
+          { "speaker": "Hoa", "en": "Where did you travel last summer?", "vi": "Mùa hè trước bạn đã đi du lịch đâu?" },
+          { "speaker": "Sarah", "en": "I visited Hoi An with my family. We booked a small hotel near the old town.", "vi": "Tôi đã đến thăm Hội An cùng gia đình. Chúng tôi đã đặt một khách sạn nhỏ gần phố cổ." },
+          { "speaker": "Hoa", "en": "Did you stay there for long?", "vi": "Bạn ở đó lâu không?" },
+          { "speaker": "Sarah", "en": "We stayed for four days. We explored the old streets every evening.", "vi": "Chúng tôi đã ở đó bốn ngày. Mỗi tối chúng tôi đi khám phá các con phố cổ." },
+          { "speaker": "Hoa", "en": "What did you discover there?", "vi": "Bạn đã phát hiện được điều gì ở đó?" },
+          { "speaker": "Sarah", "en": "We discovered a wonderful little restaurant, and we returned there twice.", "vi": "Chúng tôi đã phát hiện ra một nhà hàng nhỏ tuyệt vời, và chúng tôi đã trở lại đó hai lần." }
+        ]
+      },
+      {
+        "title": "Packing for the airport",
+        "lines": [
+          { "speaker": "Hoa", "en": "Did you pack everything before you left?", "vi": "Bạn đã đóng gói hết mọi thứ trước khi đi chưa?" },
+          { "speaker": "Sarah", "en": "Yes, I packed my bag the night before, and I arrived at the airport early.", "vi": "Vâng, tôi đã đóng gói hành lý đêm trước, và tôi đã đến sân bay từ sớm." },
+          { "speaker": "Hoa", "en": "What time did you start your journey?", "vi": "Bạn đã bắt đầu hành trình lúc mấy giờ?" },
+          { "speaker": "Sarah", "en": "We started our journey at five in the morning.", "vi": "Chúng tôi đã bắt đầu hành trình lúc năm giờ sáng." },
+          { "speaker": "Hoa", "en": "That sounds tiring. Did you rest on the plane?", "vi": "Nghe có vẻ mệt. Bạn có nghỉ ngơi trên máy bay không?" },
+          { "speaker": "Sarah", "en": "Yes, I rested for most of the flight, and I enjoyed the rest of the trip.", "vi": "Vâng, tôi đã nghỉ ngơi suốt phần lớn chuyến bay, và tôi đã thích thú phần còn lại của chuyến đi." }
+        ]
+      }
+    ]
+  }
+]

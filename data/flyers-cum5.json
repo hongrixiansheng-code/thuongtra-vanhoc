@@ -1,0 +1,313 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 8,
+      "title": "Bài 5: Vật liệu & màu sắc",
+      "theme": "Quần áo, màu sắc & vật liệu",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "gold",
+          "ipa": "/ɡoʊld/",
+          "type": "Danh từ / Tính từ",
+          "type_short": "n",
+          "meaning": "vàng, bằng vàng",
+          "example_en": "She has a gold ring.",
+          "example_vi": "Cô ấy có một chiếc nhẫn vàng."
+        },
+        {
+          "word": "silver",
+          "ipa": "/ˈsɪlvər/",
+          "type": "Danh từ / Tính từ",
+          "type_short": "n",
+          "meaning": "bạc, bằng bạc",
+          "example_en": "I like silver jewelry.",
+          "example_vi": "Tôi thích trang sức bằng bạc."
+        },
+        {
+          "word": "card",
+          "ipa": "/kɑːrd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thẻ, bìa cứng",
+          "example_en": "I made a birthday card.",
+          "example_vi": "Tôi đã làm một tấm thiệp sinh nhật."
+        },
+        {
+          "word": "glass",
+          "ipa": "/ɡlæs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thủy tinh",
+          "example_en": "The window is made of glass.",
+          "example_vi": "Cửa sổ được làm bằng thủy tinh."
+        },
+        {
+          "word": "metal",
+          "ipa": "/ˈmetl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kim loại",
+          "example_en": "Keys are made of metal.",
+          "example_vi": "Chìa khóa được làm bằng kim loại."
+        },
+        {
+          "word": "plastic",
+          "ipa": "/ˈplæstɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhựa",
+          "example_en": "Don't throw away plastic bags.",
+          "example_vi": "Đừng vứt bỏ túi nhựa."
+        },
+        {
+          "word": "wood",
+          "ipa": "/wʊd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "gỗ",
+          "example_en": "The desk is made of wood.",
+          "example_vi": "Cái bàn được làm bằng gỗ."
+        },
+        {
+          "word": "wool",
+          "ipa": "/wʊl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "len",
+          "example_en": "This sweater is made of wool.",
+          "example_vi": "Chiếc áo len này được làm từ len."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 9,
+      "title": "Bài 6.a: Đồ ăn thức uống (1/2)",
+      "theme": "Đồ ăn thức uống",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "biscuit",
+          "ipa": "/ˈbɪskɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh quy (Anh Anh)",
+          "example_en": "Would you like a biscuit?",
+          "example_vi": "Bạn có muốn một chiếc bánh quy không?"
+        },
+        {
+          "word": "butter",
+          "ipa": "/ˈbʌtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bơ",
+          "example_en": "I put butter on my bread.",
+          "example_vi": "Tôi phết bơ lên bánh mì của tôi."
+        },
+        {
+          "word": "cereal",
+          "ipa": "/ˈsɪriəl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngũ cốc",
+          "example_en": "I eat cereal for breakfast.",
+          "example_vi": "Tôi ăn ngũ cốc vào bữa sáng."
+        },
+        {
+          "word": "chopsticks",
+          "ipa": "/ˈtʃɒpstɪks/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đũa",
+          "example_en": "Can you use chopsticks?",
+          "example_vi": "Bạn có biết sử dụng đũa không?"
+        },
+        {
+          "word": "cookie",
+          "ipa": "/ˈkʊki/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh quy (Anh Mỹ)",
+          "example_en": "I baked a chocolate cookie.",
+          "example_vi": "Tôi đã nướng một chiếc bánh quy sô-cô-la."
+        },
+        {
+          "word": "flour",
+          "ipa": "/ˈflaʊər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bột mì",
+          "example_en": "We need flour to make a cake.",
+          "example_vi": "Chúng ta cần bột mì để làm một chiếc bánh."
+        },
+        {
+          "word": "fork",
+          "ipa": "/fɔːrk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái nĩa",
+          "example_en": "Please give me a fork.",
+          "example_vi": "Làm ơn đưa cho tôi một cái nĩa."
+        },
+        {
+          "word": "honey",
+          "ipa": "/ˈhʌni/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mật ong",
+          "example_en": "Bears love honey.",
+          "example_vi": "Những chú gấu rất thích mật ong."
+        },
+        {
+          "word": "jam",
+          "ipa": "/dʒæm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mứt",
+          "example_en": "I like strawberry jam.",
+          "example_vi": "Tôi thích mứt dâu tây."
+        },
+        {
+          "word": "knife",
+          "ipa": "/naɪf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con dao",
+          "example_en": "Be careful with that knife.",
+          "example_vi": "Hãy cẩn thận với con dao đó."
+        },
+        {
+          "word": "meal",
+          "ipa": "/miːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bữa ăn",
+          "example_en": "Dinner is my favourite meal.",
+          "example_vi": "Bữa tối là bữa ăn yêu thích của tôi."
+        },
+        {
+          "word": "olives",
+          "ipa": "/ˈɒlɪvz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "quả ô liu",
+          "example_en": "She put olives on the pizza.",
+          "example_vi": "Cô ấy đặt những quả ô liu lên chiếc bánh pizza."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 10,
+      "title": "Bài 6.b: Đồ ăn thức uống (2/2)",
+      "theme": "Đồ ăn thức uống",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "pepper",
+          "ipa": "/ˈpepər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hạt tiêu",
+          "example_en": "Add some salt and pepper.",
+          "example_vi": "Hãy thêm một chút muối và hạt tiêu."
+        },
+        {
+          "word": "piece",
+          "ipa": "/piːs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "miếng, mẩu",
+          "example_en": "I want a piece of cake.",
+          "example_vi": "Tôi muốn một miếng bánh ngọt."
+        },
+        {
+          "word": "pizza",
+          "ipa": "/ˈpiːtsə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh pizza",
+          "example_en": "We ordered a large pizza.",
+          "example_vi": "Chúng tôi đã gọi một chiếc pizza lớn."
+        },
+        {
+          "word": "salt",
+          "ipa": "/sɔːlt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "muối",
+          "example_en": "There is too much salt in the soup.",
+          "example_vi": "Có quá nhiều muối trong món súp."
+        },
+        {
+          "word": "smell",
+          "ipa": "/smel/",
+          "type": "Động từ / Danh từ",
+          "type_short": "v",
+          "meaning": "ngửi, mùi hương",
+          "example_en": "The flowers smell nice.",
+          "example_vi": "Những bông hoa có mùi rất thơm."
+        },
+        {
+          "word": "snack",
+          "ipa": "/snæk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bữa ăn nhẹ",
+          "example_en": "I have an apple for a snack.",
+          "example_vi": "Tôi ăn một quả táo cho bữa ăn nhẹ."
+        },
+        {
+          "word": "spoon",
+          "ipa": "/spuːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái thìa, cái muỗng",
+          "example_en": "Use a spoon to eat the soup.",
+          "example_vi": "Hãy dùng một cái thìa để ăn súp."
+        },
+        {
+          "word": "strawberry",
+          "ipa": "/ˈstrɔːbəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "quả dâu tây",
+          "example_en": "This strawberry is very sweet.",
+          "example_vi": "Quả dâu tây này rất ngọt."
+        },
+        {
+          "word": "sugar",
+          "ipa": "/ˈʃʊɡər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đường",
+          "example_en": "Do you take sugar in your tea?",
+          "example_vi": "Bạn có bỏ đường vào trà của mình không?"
+        },
+        {
+          "word": "taste",
+          "ipa": "/teɪst/",
+          "type": "Động từ / Danh từ",
+          "type_short": "v",
+          "meaning": "nếm, mùi vị",
+          "example_en": "Can I taste the soup?",
+          "example_vi": "Tôi có thể nếm thử món súp không?"
+        },
+        {
+          "word": "yoghurt",
+          "ipa": "/ˈjoʊɡərt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sữa chua",
+          "example_en": "I eat yoghurt every morning.",
+          "example_vi": "Tôi ăn sữa chua mỗi buổi sáng."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

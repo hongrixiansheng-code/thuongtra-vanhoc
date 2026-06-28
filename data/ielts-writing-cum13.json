@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 25,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a family member's job",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a family member's job and daily tasks.",
+        "minWords": 30,
+        "sampleAnswer": "My father is a doctor. He works at a hospital and helps many patients every day. My mother is a nurse. She takes care of patients and gives them medicine.",
+        "checklist": ["Nêu rõ tên nghề nghiệp", "Mô tả ít nhất 1 nhiệm vụ cụ thể", "Dùng đúng Present Simple với He/She"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "writing": [
+      {
+        "title": "Writing Task 1: What do they do?",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what different people in your family do for work, using What do/does...do?",
+        "minWords": 30,
+        "sampleAnswer": "I am a programmer. I write computer code. My sister is an architect. She designs buildings. My father is a pilot, and my mother is a journalist.",
+        "checklist": ["Nêu được ít nhất 3 nghề nghiệp khác nhau", "Mô tả công việc cụ thể cho mỗi người", "Câu văn mạch lạc, không lặp cấu trúc quá nhiều"]
+      }
+    ]
+  }
+]

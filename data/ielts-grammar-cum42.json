@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 83,
+    "grammar": [
+      {
+        "title": "Câu bị động kết hợp Modal Verbs — Quy định & xã hội",
+        "desc": "Dùng modal verb + be + V3 để nói về quy định/nghĩa vụ/khả năng theo hướng bị động, nhấn mạnh đối tượng chịu tác động.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "must/should/can + be + V3", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "This form must be completed before Friday.", "vi": "Mẫu đơn này phải được hoàn thành trước thứ Sáu." },
+          { "en": "The rules should be followed by everyone.", "vi": "Các quy tắc nên được tuân theo bởi mọi người." },
+          { "en": "This problem can be solved easily.", "vi": "Vấn đề này có thể được giải quyết dễ dàng." }
+        ],
+        "note": "Sau modal verb, động từ \"be\" luôn ở dạng nguyên mẫu (không chia), theo sau là V3.",
+        "practiceList": [
+          { "question": "This report ___ (must/finish) by tomorrow.", "correct": "must be finished", "meaning": "Báo cáo này phải được hoàn thành trước ngày mai.", "explanation": "must + be + V3." },
+          { "question": "These rules ___ (should/respect) by all citizens.", "correct": "should be respected", "meaning": "Những quy tắc này nên được tôn trọng bởi mọi công dân.", "explanation": "should + be + V3." },
+          { "question": "This issue ___ (can/solve) with more discussion.", "correct": "can be solved", "meaning": "Vấn đề này có thể được giải quyết với nhiều thảo luận hơn.", "explanation": "can + be + V3." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "grammar": [
+      {
+        "title": "Lượng từ nâng cao — a great deal of / a large number of / the vast majority",
+        "desc": "Dùng để diễn tả số lượng lớn một cách học thuật hơn, thường dùng trong Writing Task 1 khi mô tả số liệu/biểu đồ.",
+        "formula": [
+          { "text": "a great deal of + uncountable", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "a large number of + countable", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "the vast majority of + N", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "A great deal of money was spent on this project.", "vi": "Một lượng lớn tiền đã được chi cho dự án này." },
+          { "en": "A large number of students passed the exam.", "vi": "Một số lượng lớn học sinh đã đỗ kỳ thi." },
+          { "en": "The vast majority of people agree with this policy.", "vi": "Đại đa số người dân đồng ý với chính sách này." }
+        ],
+        "note": "\"a great deal of\" đi với danh từ không đếm được. \"a large number of\" đi với danh từ đếm được số nhiều. \"the vast majority of\" nghĩa là phần lớn áp đảo.",
+        "practiceList": [
+          { "question": "___ time is needed to complete this task. (a great deal of/a large number of)", "correct": "A great deal of", "meaning": "Cần một lượng lớn thời gian để hoàn thành công việc này.", "explanation": "\"time\" không đếm được, dùng \"a great deal of\"." },
+          { "question": "___ workers lost their jobs last year. (a large number of/a great deal of)", "correct": "A large number of", "meaning": "Một số lượng lớn công nhân đã mất việc năm ngoái.", "explanation": "\"workers\" đếm được số nhiều, dùng \"a large number of\"." },
+          { "question": "The vast majority ___ students prefer online classes.", "correct": "of", "meaning": "Đại đa số học sinh thích lớp học trực tuyến.", "explanation": "Cấu trúc \"the vast majority of + N\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 53,
+    "vocab": [
+      {
+        "word": "environment",
+        "ipa": "/ɪnˈvaɪ.rən.mənt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "môi trường",
+        "example_en": "Protect the environment.",
+        "example_vi": "Hãy bảo vệ môi trường.",
+        "level": "A2"
+      },
+      {
+        "word": "pollution",
+        "ipa": "/pəˈluː.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự ô nhiễm",
+        "example_en": "Pollution is bad.",
+        "example_vi": "Ô nhiễm là xấu.",
+        "level": "A2"
+      },
+      {
+        "word": "nature",
+        "ipa": "/ˈneɪ.tʃər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thiên nhiên",
+        "example_en": "I love nature.",
+        "example_vi": "Tôi yêu thiên nhiên.",
+        "level": "A2"
+      },
+      {
+        "word": "climate",
+        "ipa": "/ˈklaɪ.mət/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "khí hậu",
+        "example_en": "The climate is warm.",
+        "example_vi": "Khí hậu thì ấm áp.",
+        "level": "A2"
+      },
+      {
+        "word": "weather",
+        "ipa": "/ˈweð.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thời tiết",
+        "example_en": "The weather is cold.",
+        "example_vi": "Thời tiết lạnh.",
+        "level": "A2"
+      },
+      {
+        "word": "protect",
+        "ipa": "/prəˈtekt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bảo vệ",
+        "example_en": "Protect the trees.",
+        "example_vi": "Bảo vệ những cái cây.",
+        "level": "A2"
+      },
+      {
+        "word": "save",
+        "ipa": "/seɪv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cứu, tiết kiệm",
+        "example_en": "Save water.",
+        "example_vi": "Tiết kiệm nước.",
+        "level": "A2"
+      },
+      {
+        "word": "destroy",
+        "ipa": "/dɪˈstrɔɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phá hủy",
+        "example_en": "Fire destroyed the house.",
+        "example_vi": "Lửa đã phá hủy ngôi nhà.",
+        "level": "A2"
+      },
+      {
+        "word": "waste",
+        "ipa": "/weɪst/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lãng phí",
+        "example_en": "Don't waste time.",
+        "example_vi": "Đừng lãng phí thời gian.",
+        "level": "A2"
+      },
+      {
+        "word": "recycle",
+        "ipa": "/ˌriːˈsaɪ.kəl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tái chế",
+        "example_en": "Recycle plastic bottles.",
+        "example_vi": "Tái chế chai nhựa.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "vocab": [
+      {
+        "word": "population",
+        "ipa": "/ˌpɒp.jəˈleɪ.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "dân số",
+        "example_en": "The population is big.",
+        "example_vi": "Dân số thì lớn.",
+        "level": "A2"
+      },
+      {
+        "word": "city",
+        "ipa": "/ˈsɪt.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thành phố",
+        "example_en": "I live in a city.",
+        "example_vi": "Tôi sống ở một thành phố.",
+        "level": "A2"
+      },
+      {
+        "word": "country",
+        "ipa": "/ˈkʌn.tri/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quốc gia, nông thôn",
+        "example_en": "My country is beautiful.",
+        "example_vi": "Đất nước tôi rất đẹp.",
+        "level": "A2"
+      },
+      {
+        "word": "urban",
+        "ipa": "/ˈɜː.bən/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thuộc đô thị",
+        "example_en": "Urban areas are busy.",
+        "example_vi": "Khu vực đô thị rất bận rộn.",
+        "level": "A2"
+      },
+      {
+        "word": "rural",
+        "ipa": "/ˈrʊə.rəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thuộc nông thôn",
+        "example_en": "Rural life is quiet.",
+        "example_vi": "Cuộc sống nông thôn yên tĩnh.",
+        "level": "A2"
+      },
+      {
+        "word": "citizen",
+        "ipa": "/ˈsɪt.ɪ.zən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "công dân",
+        "example_en": "I am a citizen.",
+        "example_vi": "Tôi là một công dân.",
+        "level": "A2"
+      },
+      {
+        "word": "public",
+        "ipa": "/ˈpʌb.lɪk/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "công cộng",
+        "example_en": "A public park.",
+        "example_vi": "Một công viên công cộng.",
+        "level": "A2"
+      },
+      {
+        "word": "private",
+        "ipa": "/ˈpraɪ.vət/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "riêng tư",
+        "example_en": "A private room.",
+        "example_vi": "Một phòng riêng tư.",
+        "level": "A2"
+      },
+      {
+        "word": "local",
+        "ipa": "/ˈləʊ.kəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "địa phương",
+        "example_en": "Local food is good.",
+        "example_vi": "Đồ ăn địa phương rất ngon.",
+        "level": "A2"
+      },
+      {
+        "word": "global",
+        "ipa": "/ˈɡləʊ.bəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "toàn cầu",
+        "example_en": "A global problem.",
+        "example_vi": "Một vấn đề toàn cầu.",
+        "level": "A2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 45,
+    "writing": [
+      {
+        "title": "Writing Task 1: Sequence of events",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a sequence of past events, using ago, last, then, after that, finally.",
+        "minWords": 30,
+        "sampleAnswer": "First, I finished my homework. After that, I called my friend. Then we came together at the park, and finally we had dinner together.",
+        "checklist": ["Dùng ít nhất 3 từ nối thời gian khác nhau", "Các sự kiện theo đúng trình tự thời gian", "Câu văn mạch lạc, dễ theo dõi"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — A memorable trip",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) describing a memorable trip, combining was/were, regular & irregular Past Simple, and time connectors from Chương 5.",
+        "minWords": 40,
+        "sampleAnswer": "Two years ago, I visited Hue with my classmates. First, we explored the old citadel. Then we took a lot of photos. We didn't have a map at first, so we got lost. Finally, a kind local helped us, and everything was fine.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 5", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

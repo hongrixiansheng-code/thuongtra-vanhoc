@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 18,
+      "grammar": [
+        {
+          "title": "I wish / If only + Past Simple",
+          "desc": "Điều ước trái ngược với hiện tại. Động từ luôn chia ở quá khứ đơn (tobe chia 'were' cho mọi ngôi).",
+          "formula": [
+            {
+              "text": "S + wish + S + V2/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I wish I had more time to read.",
+              "meaning": "Tôi ước gì mình có nhiều thời gian hơn để đọc sách."
+            },
+            {
+              "correct": "If only I knew the answer.",
+              "meaning": "Giá như tôi biết câu trả lời."
+            },
+            {
+              "correct": "I wish I lived closer to the beach.",
+              "meaning": "Tôi ước tôi sống gần biển hơn."
+            },
+            {
+              "correct": "I wish it wasn't raining.",
+              "meaning": "Tôi ước gì trời không mưa."
+            }
+          ]
+        },
+        {
+          "title": "I wish + Past Perfect",
+          "desc": "Điều ước trái ngược với một việc đã xảy ra trong quá khứ (sự hối tiếc).",
+          "formula": [
+            {
+              "text": "S + wish + S + had + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I wish I had read that book before.",
+              "meaning": "Tôi ước gì mình đã đọc cuốn sách đó trước đây."
+            },
+            {
+              "correct": "I wish I had studied harder.",
+              "meaning": "Tôi ước gì mình đã học chăm chỉ hơn."
+            },
+            {
+              "correct": "If only I hadn't eaten so much.",
+              "meaning": "Giá như tôi đã không ăn quá nhiều."
+            },
+            {
+              "correct": "I wish I had brought my umbrella.",
+              "meaning": "Tôi ước mình đã mang theo ô."
+            }
+          ]
+        },
+        {
+          "title": "I wish + would",
+          "desc": "Diễn tả sự phàn nàn và mong muốn ai đó/điều gì đó thay đổi hành động trong tương lai.",
+          "formula": [
+            {
+              "text": "S + wish + S + would + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I wish you would stop talking.",
+              "meaning": "Tôi ước gì bạn ngừng nói chuyện đi."
+            },
+            {
+              "correct": "I wish it would stop raining.",
+              "meaning": "Ước gì trời tạnh mưa."
+            },
+            {
+              "correct": "I wish he would listen to me.",
+              "meaning": "Tôi ước anh ấy chịu lắng nghe tôi."
+            },
+            {
+              "correct": "I wish they would arrive sooner.",
+              "meaning": "Ước gì họ sẽ đến sớm hơn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "grammar": [
+        {
+          "title": "Passive Future",
+          "desc": "Bị động thì tương lai đơn.",
+          "formula": [
+            {
+              "text": "S + will + be + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The update will be released next week.",
+              "meaning": "Bản cập nhật sẽ được phát hành vào tuần tới."
+            },
+            {
+              "correct": "The new bridge will be built next year.",
+              "meaning": "Cây cầu mới sẽ được xây dựng vào năm sau."
+            },
+            {
+              "correct": "You will be informed soon.",
+              "meaning": "Bạn sẽ được thông báo sớm thôi."
+            },
+            {
+              "correct": "The results will be announced tomorrow.",
+              "meaning": "Kết quả sẽ được công bố vào ngày mai."
+            }
+          ]
+        },
+        {
+          "title": "Passive with modal verbs",
+          "desc": "Bị động đi kèm với các động từ khuyết thiếu (must, should, can...).",
+          "formula": [
+            {
+              "text": "S + modal + be + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The data should be backed up.",
+              "meaning": "Dữ liệu nên được sao lưu."
+            },
+            {
+              "correct": "Rules must be followed.",
+              "meaning": "Các quy tắc phải được tuân thủ."
+            },
+            {
+              "correct": "This problem can be solved.",
+              "meaning": "Vấn đề này có thể được giải quyết."
+            },
+            {
+              "correct": "The work has to be finished today.",
+              "meaning": "Công việc bắt buộc phải được hoàn thành trong hôm nay."
+            }
+          ]
+        },
+        {
+          "title": "have been + V-ing",
+          "desc": "Thì Hiện tại hoàn thành tiếp diễn thường dùng để nói về quá trình làm việc liên tục đến hiện tại.",
+          "formula": [
+            {
+              "text": "S + have/has + been + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "They have been developing this software for years.",
+              "meaning": "Họ đã và đang phát triển phần mềm này trong nhiều năm."
+            },
+            {
+              "correct": "I have been learning English for five years.",
+              "meaning": "Tôi đã học tiếng Anh được 5 năm rồi."
+            },
+            {
+              "correct": "She has been waiting for two hours.",
+              "meaning": "Cô ấy đã đợi suốt hai tiếng đồng hồ."
+            },
+            {
+              "correct": "We have been living here since 2010.",
+              "meaning": "Chúng tôi đã sống ở đây từ năm 2010."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

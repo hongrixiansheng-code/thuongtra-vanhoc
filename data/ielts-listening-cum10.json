@@ -1,0 +1,27 @@
+[
+  {
+    "lessonOrder": 19,
+    "listening": [
+      {
+        "title": "Listening: Daily routine form",
+        "transcript": "I wake up at six o'clock every day. I brush my teeth, then I take a shower and get dressed. I eat breakfast at home and leave home at seven thirty. I arrive at school at eight o'clock.",
+        "questions": [
+          { "type": "form_completion", "question": "Wake-up time: ___ o'clock", "options": ["six", "seven", "eight"], "correct": "six", "explanation": "\"I wake up at six o'clock\"." },
+          { "type": "multiple_choice", "question": "What time does the speaker arrive at school?", "options": ["Seven thirty", "Eight o'clock", "Eight fifteen"], "correct": "Eight o'clock", "explanation": "\"I arrive at school at eight o'clock.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "listening": [
+      {
+        "title": "Listening: Who does what at home",
+        "transcript": "My mother cleans the house and washes the clothes. My father waters the plants and repairs things. My sister irons the clothes every weekend, and I take out the rubbish every evening.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Who irons the clothes?", "options": ["Mother", "Father", "Sister"], "correct": "Sister", "explanation": "\"My sister irons the clothes every weekend.\"" }
+        ]
+      }
+    ]
+  }
+]

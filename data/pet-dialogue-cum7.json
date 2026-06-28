@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 12,
+      "dialogues": [
+        {
+          "title": "Planning a summer holiday",
+          "lines": [
+            {
+              "speaker": "Ethan",
+              "en": "I am looking forward to our summer holiday, which is only two weeks away. Have you booked the flights to Spain yet?",
+              "vi": "Tôi đang rất mong chờ kỳ nghỉ hè của chúng ta, cái mà chỉ còn hai tuần nữa. Bạn đã đặt chuyến bay đến Tây Ban Nha chưa?"
+            },
+            {
+              "speaker": "Mia",
+              "en": "I booked them yesterday evening, and I also found a beautiful hotel near the beach. We will have a spectacular view of the ocean from our balcony.",
+              "vi": "Tôi đã đặt chúng vào tối hôm qua, và tôi cũng tìm thấy một khách sạn tuyệt đẹp gần bãi biển. Chúng ta sẽ có một tầm nhìn ngoạn mục ra đại dương từ ban công của mình."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "That sounds absolutely wonderful. I need to buy a new suitcase because my old one is broken.",
+              "vi": "Nghe thật sự tuyệt vời. Tôi cần mua một chiếc vali mới vì cái cũ của tôi đã bị hỏng."
+            },
+            {
+              "speaker": "Mia",
+              "en": "You should get a lightweight suitcase, which is much easier to carry around. Don't forget to pack plenty of sunscreen and your sunglasses.",
+              "vi": "Bạn nên mua một chiếc vali nhẹ, thứ mà dễ mang theo hơn nhiều. Đừng quên mang theo nhiều kem chống nắng và kính râm của bạn."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "I will make a packing list so that I don't leave anything important behind. I also want to buy a guidebook about the local attractions.",
+              "vi": "Tôi sẽ lập một danh sách đóng gói để không bỏ quên bất cứ thứ gì quan trọng. Tôi cũng muốn mua một cuốn sách hướng dẫn về các điểm tham quan địa phương."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I have already downloaded a travel app which has all the maps and recommendations. We can explore the historic castle on our second day.",
+              "vi": "Tôi đã tải xuống một ứng dụng du lịch cái mà có tất cả các bản đồ và đề xuất. Chúng ta có thể khám phá lâu đài lịch sử vào ngày thứ hai của mình."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "We should also try the traditional food at the local markets. Tasting new dishes is my favorite part of traveling to a foreign country.",
+              "vi": "Chúng ta cũng nên thử thức ăn truyền thống tại các khu chợ địa phương. Nếm thử các món ăn mới là phần tôi yêu thích nhất khi đi du lịch đến một quốc gia xa lạ."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I completely agree, and I heard that the seafood there is incredibly fresh. This trip will definitely be an unforgettable experience.",
+              "vi": "Tôi hoàn toàn đồng ý, và tôi nghe nói rằng hải sản ở đó vô cùng tươi ngon. Chuyến đi này chắc chắn sẽ là một trải nghiệm khó quên."
+            }
+          ]
+        },
+        {
+          "title": "Arriving at the airport",
+          "lines": [
+            {
+              "speaker": "Noah",
+              "en": "We need to check in our luggage immediately because the queue is getting very long. Our flight to Paris departs in exactly two hours.",
+              "vi": "Chúng ta cần làm thủ tục ký gửi hành lý ngay lập tức vì hàng người đang trở nên rất dài. Chuyến bay của chúng ta đến Paris sẽ khởi hành trong đúng hai giờ nữa."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "I have our passports and boarding passes ready in my handbag. Did you remember to attach the name tags to your bags?",
+              "vi": "Tôi đã có sẵn hộ chiếu và thẻ lên máy bay trong túi xách của mình. Bạn có nhớ gắn thẻ tên vào túi của mình chưa?"
+            },
+            {
+              "speaker": "Noah",
+              "en": "Yes, I did that last night before we went to sleep. The security check usually takes a long time, so we shouldn't waste any minutes.",
+              "vi": "Có, tôi đã làm điều đó tối qua trước khi chúng ta đi ngủ. Việc kiểm tra an ninh thường tốn nhiều thời gian, vì vậy chúng ta không nên lãng phí phút nào."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "Once we pass through security, we can buy some snacks at the duty-free shop. I want to get some chocolates for my friends in France.",
+              "vi": "Sau khi đi qua cửa an ninh, chúng ta có thể mua vài món ăn nhẹ tại cửa hàng miễn thuế. Tôi muốn mua một ít sôcôla cho những người bạn của tôi ở Pháp."
+            },
+            {
+              "speaker": "Noah",
+              "en": "We also need to check the screens to find our departure gate. The gate number was not printed on the ticket which I received.",
+              "vi": "Chúng ta cũng cần kiểm tra các màn hình để tìm cổng khởi hành của mình. Số cổng đã không được in trên vé cái mà tôi nhận được."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "The screen says that our flight will board from Gate 14. We should head there early so that we can find some empty seats.",
+              "vi": "Màn hình nói rằng chuyến bay của chúng ta sẽ lên máy bay từ Cổng 14. Chúng ta nên đến đó sớm để có thể tìm được một số ghế trống."
+            },
+            {
+              "speaker": "Noah",
+              "en": "I feel a bit nervous because I haven't flown in a long time. However, I am really excited about visiting the Eiffel Tower.",
+              "vi": "Tôi cảm thấy hơi lo lắng vì tôi đã không đi máy bay trong một thời gian dài. Tuy nhiên, tôi thực sự háo hức về việc đến thăm tháp Eiffel."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "Don't worry, the flight is very short, and we will be there before you know it. It will be a fantastic adventure for both of us.",
+              "vi": "Đừng lo lắng, chuyến bay rất ngắn, và chúng ta sẽ đến nơi trước khi bạn kịp nhận ra. Nó sẽ là một cuộc phiêu lưu tuyệt vời cho cả hai chúng ta."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "dialogues": [
+        {
+          "title": "Checking into a hotel",
+          "lines": [
+            {
+              "speaker": "William",
+              "en": "Good afternoon, I have a reservation under the name of William Smith. I booked a double room with a sea view for three nights.",
+              "vi": "Chào buổi chiều, tôi có một đặt phòng dưới tên William Smith. Tôi đã đặt một phòng đôi có tầm nhìn ra biển cho ba đêm."
+            },
+            {
+              "speaker": "Receptionist",
+              "en": "Welcome to our hotel, Mr. Smith. Let me find your booking in the system, which will just take a moment.",
+              "vi": "Chào mừng đến với khách sạn của chúng tôi, ông Smith. Hãy để tôi tìm đặt phòng của ông trong hệ thống, việc này sẽ chỉ mất một chút thời gian."
+            },
+            {
+              "speaker": "William",
+              "en": "Thank you, and I also requested a room which is located on a higher floor. It is usually quieter and the view is much better.",
+              "vi": "Cảm ơn, và tôi cũng đã yêu cầu một căn phòng cái mà nằm ở tầng cao hơn. Nó thường yên tĩnh hơn và tầm nhìn thì tốt hơn nhiều."
+            },
+            {
+              "speaker": "Receptionist",
+              "en": "I can see your request here, and I have assigned you a beautiful room on the tenth floor. Can I please see your passport and credit card?",
+              "vi": "Tôi có thể thấy yêu cầu của ông ở đây, và tôi đã sắp xếp cho ông một căn phòng tuyệt đẹp trên tầng mười. Tôi có thể xem hộ chiếu và thẻ tín dụng của ông không?"
+            },
+            {
+              "speaker": "William",
+              "en": "Here are my documents. Could you also tell me what time the breakfast is served in the morning?",
+              "vi": "Đây là các giấy tờ của tôi. Cô có thể cho tôi biết bữa sáng được phục vụ lúc mấy giờ vào buổi sáng không?"
+            },
+            {
+              "speaker": "Receptionist",
+              "en": "Breakfast is served from 7:00 AM to 10:00 AM in the restaurant, which is situated on the ground floor. Here is your room key.",
+              "vi": "Bữa sáng được phục vụ từ 7:00 sáng đến 10:00 sáng tại nhà hàng, nơi mà tọa lạc ở tầng trệt. Đây là chìa khóa phòng của ông."
+            },
+            {
+              "speaker": "William",
+              "en": "That is perfect, and we would like to use the swimming pool this evening. Do we need to bring towels from our room?",
+              "vi": "Tuyệt vời, và chúng tôi muốn sử dụng hồ bơi vào tối nay. Chúng tôi có cần mang khăn tắm từ phòng của mình đi không?"
+            },
+            {
+              "speaker": "Receptionist",
+              "en": "Fresh towels are provided at the pool area, so you don't need to bring anything. Have a wonderful stay with us, Mr. Smith.",
+              "vi": "Khăn tắm sạch được cung cấp tại khu vực hồ bơi, vì vậy ông không cần mang theo thứ gì. Chúc ông có một kỳ nghỉ tuyệt vời cùng chúng tôi, ông Smith."
+            }
+          ]
+        },
+        {
+          "title": "Getting lost in a city",
+          "lines": [
+            {
+              "speaker": "Jack",
+              "en": "I think we have been walking in the wrong direction for twenty minutes. The museum which we are trying to find is not on this street.",
+              "vi": "Tôi nghĩ chúng ta đã đi sai hướng trong hai mươi phút rồi. Bảo tàng cái mà chúng ta đang cố tìm không nằm trên con đường này."
+            },
+            {
+              "speaker": "Grace",
+              "en": "My phone battery has died, so I can't check the digital map anymore. We should ask a local person for directions.",
+              "vi": "Pin điện thoại của tôi đã hết, nên tôi không thể kiểm tra bản đồ kỹ thuật số được nữa. Chúng ta nên hỏi một người dân địa phương để được chỉ đường."
+            },
+            {
+              "speaker": "Jack",
+              "en": "Excuse me, could you tell us how to get to the National History Museum? We seem to be completely lost in this neighborhood.",
+              "vi": "Xin lỗi, bạn có thể cho chúng tôi biết làm thế nào để đi đến Bảo tàng Lịch sử Quốc gia không? Chúng tôi có vẻ như đã hoàn toàn bị lạc trong khu vực này."
+            },
+            {
+              "speaker": "Passerby",
+              "en": "You are quite far away from the museum, which is located near the central square. You should take the subway to get there faster.",
+              "vi": "Bạn đang ở khá xa bảo tàng, nơi mà nằm gần quảng trường trung tâm. Bạn nên đi tàu điện ngầm để đến đó nhanh hơn."
+            },
+            {
+              "speaker": "Jack",
+              "en": "We haven't used the public transport here yet. Is the subway station far from where we are standing right now?",
+              "vi": "Chúng tôi vẫn chưa sử dụng giao thông công cộng ở đây. Trạm tàu điện ngầm có xa nơi chúng ta đang đứng bây giờ không?"
+            },
+            {
+              "speaker": "Passerby",
+              "en": "No, it is just around the corner, and you need to take the blue line. You will get off at the third stop, which is exactly opposite the museum.",
+              "vi": "Không, nó chỉ ở ngay góc đường, và bạn cần đi tuyến màu xanh lam. Bạn sẽ xuống ở trạm thứ ba, nơi mà nằm chính xác đối diện với bảo tàng."
+            },
+            {
+              "speaker": "Grace",
+              "en": "Thank you very much for your help! We would have walked for another hour if we hadn't met you.",
+              "vi": "Cảm ơn bạn rất nhiều vì sự giúp đỡ! Chúng tôi lẽ ra đã phải đi bộ thêm một giờ nữa nếu không gặp bạn."
+            },
+            {
+              "speaker": "Passerby",
+              "en": "You are very welcome! Be careful with your bags when you are on the train, as it can get very crowded.",
+              "vi": "Không có chi! Hãy cẩn thận với túi xách của bạn khi bạn ở trên tàu, vì nó có thể trở nên rất đông đúc."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

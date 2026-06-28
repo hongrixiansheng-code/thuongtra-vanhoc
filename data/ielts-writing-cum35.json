@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 69,
+    "writing": [
+      {
+        "title": "Writing Task 2: Experience and detail",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) first mentioning an experience with Present Perfect, then giving a specific detail with Past Simple.",
+        "minWords": 30,
+        "sampleAnswer": "I have visited Hue before. I visited it last summer, with my family. I have also tried Hue cuisine. I tried it three years ago.",
+        "checklist": ["Câu đầu dùng Present Perfect (không có thời điểm)", "Câu sau dùng Past Simple (có thời điểm cụ thể)", "Không trộn lẫn hai thì sai cách dùng"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a process",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a production process, using Passive Voice (Present Simple).",
+        "minWords": 30,
+        "sampleAnswer": "Coffee is grown in the highlands. It is then processed in factories and packaged. After that, it is delivered to shops and distributed to many countries.",
+        "checklist": ["Dùng is/are + V3 đúng dạng", "Mô tả các bước theo đúng thứ tự", "Có dùng từ nối (then, after that)"]
+      }
+    ]
+  }
+]

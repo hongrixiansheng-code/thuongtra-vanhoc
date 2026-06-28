@@ -1,0 +1,294 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 31,
+      "title": "Bài 16.a: Động từ thường gặp (1/5)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "act",
+          "ipa": "/ækt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "diễn xuất, hành động",
+          "example_en": "She wants to act in a play.",
+          "example_vi": "Cô ấy muốn diễn xuất trong một vở kịch."
+        },
+        {
+          "word": "agree",
+          "ipa": "/əˈɡriː/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đồng ý",
+          "example_en": "I agree with you.",
+          "example_vi": "Tôi đồng ý với bạn."
+        },
+        {
+          "word": "appear",
+          "ipa": "/əˈpɪr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "xuất hiện",
+          "example_en": "A rabbit appeared from the hat.",
+          "example_vi": "Một con thỏ đã xuất hiện từ chiếc mũ."
+        },
+        {
+          "word": "arrive",
+          "ipa": "/əˈraɪv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đến nơi",
+          "example_en": "We arrive at the station.",
+          "example_vi": "Chúng tôi đến nhà ga."
+        },
+        {
+          "word": "begin",
+          "ipa": "/bɪˈɡɪn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "bắt đầu",
+          "example_en": "The film begins at 8 p.m.",
+          "example_vi": "Bộ phim bắt đầu lúc 8 giờ tối."
+        },
+        {
+          "word": "believe",
+          "ipa": "/bɪˈliːv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "tin tưởng",
+          "example_en": "I believe in you.",
+          "example_vi": "Tôi tin tưởng bạn."
+        },
+        {
+          "word": "borrow",
+          "ipa": "/ˈbɒroʊ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "mượn",
+          "example_en": "Can I borrow your pen?",
+          "example_vi": "Tôi có thể mượn bút của bạn không?"
+        },
+        {
+          "word": "burn",
+          "ipa": "/bɜːrn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đốt, cháy",
+          "example_en": "Don't burn the paper.",
+          "example_vi": "Đừng đốt giấy nhé."
+        },
+        {
+          "word": "camp",
+          "ipa": "/kæmp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cắm trại",
+          "example_en": "We camp in the forest.",
+          "example_vi": "Chúng tôi cắm trại trong khu rừng."
+        },
+        {
+          "word": "chat",
+          "ipa": "/tʃæt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trò chuyện",
+          "example_en": "I chat with my friends.",
+          "example_vi": "Tôi trò chuyện với bạn bè của mình."
+        },
+        {
+          "word": "collect",
+          "ipa": "/kəˈlekt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "sưu tầm, nhặt lấy",
+          "example_en": "She collects beautiful shells.",
+          "example_vi": "Cô ấy sưu tầm những vỏ sò tuyệt đẹp."
+        },
+        {
+          "word": "decide",
+          "ipa": "/dɪˈsaɪd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "quyết định",
+          "example_en": "You must decide now.",
+          "example_vi": "Bạn phải quyết định ngay bây giờ."
+        },
+        {
+          "word": "disappear",
+          "ipa": "/ˌdɪsəˈpɪr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "biến mất",
+          "example_en": "The ghost disappeared.",
+          "example_vi": "Con ma đã biến mất."
+        },
+        {
+          "word": "explain",
+          "ipa": "/ɪkˈspleɪn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "giải thích",
+          "example_en": "Can you explain this rule?",
+          "example_vi": "Bạn có thể giải thích quy tắc này không?"
+        },
+        {
+          "word": "explore",
+          "ipa": "/ɪkˈsplɔːr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "khám phá",
+          "example_en": "We explore the dark cave.",
+          "example_vi": "Chúng tôi khám phá hang động tối tăm."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 32,
+      "title": "Bài 16.b: Động từ thường gặp (2/5)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "feel",
+          "ipa": "/fiːl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cảm thấy",
+          "example_en": "I feel very happy today.",
+          "example_vi": "Hôm nay tôi cảm thấy rất vui."
+        },
+        {
+          "word": "fetch",
+          "ipa": "/fetʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đi lấy, mang về",
+          "example_en": "Fetch the ball, boy!",
+          "example_vi": "Hãy đi lấy quả bóng đi, chàng trai!"
+        },
+        {
+          "word": "find out",
+          "ipa": "/faɪnd aʊt/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "tìm ra, phát hiện ra",
+          "example_en": "I will find out the answer.",
+          "example_vi": "Tôi sẽ tìm ra câu trả lời."
+        },
+        {
+          "word": "finish",
+          "ipa": "/ˈfɪnɪʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "hoàn thành, kết thúc",
+          "example_en": "I finish my homework.",
+          "example_vi": "Tôi hoàn thành bài tập về nhà của mình."
+        },
+        {
+          "word": "follow",
+          "ipa": "/ˈfɒloʊ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "theo, đi theo",
+          "example_en": "Follow me, please.",
+          "example_vi": "Làm ơn hãy đi theo tôi."
+        },
+        {
+          "word": "forget",
+          "ipa": "/fərˈɡet/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "quên",
+          "example_en": "Don't forget your keys.",
+          "example_vi": "Đừng quên chìa khóa của bạn nhé."
+        },
+        {
+          "word": "get to",
+          "ipa": "/ɡet tuː/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "đi tới (nơi nào đó)",
+          "example_en": "We get to the park at noon.",
+          "example_vi": "Chúng tôi đi tới công viên vào buổi trưa."
+        },
+        {
+          "word": "hate",
+          "ipa": "/heɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "ghét",
+          "example_en": "I hate eating onions.",
+          "example_vi": "Tôi ghét ăn hành tây."
+        },
+        {
+          "word": "hear",
+          "ipa": "/hɪr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nghe thấy",
+          "example_en": "I can hear a bird singing.",
+          "example_vi": "Tôi có thể nghe thấy một con chim đang hót."
+        },
+        {
+          "word": "hope",
+          "ipa": "/hoʊp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "hy vọng",
+          "example_en": "I hope you like this gift.",
+          "example_vi": "Tôi hy vọng bạn thích món quà này."
+        },
+        {
+          "word": "hurry",
+          "ipa": "/ˈhɜːri/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "vội vã, nhanh lên",
+          "example_en": "We need to hurry.",
+          "example_vi": "Chúng ta cần phải nhanh lên."
+        },
+        {
+          "word": "improve",
+          "ipa": "/ɪmˈpruːv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cải thiện",
+          "example_en": "You need to improve your English.",
+          "example_vi": "Bạn cần cải thiện tiếng Anh của mình."
+        },
+        {
+          "word": "invent",
+          "ipa": "/ɪnˈvent/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "phát minh",
+          "example_en": "He wants to invent a new machine.",
+          "example_vi": "Cậu ấy muốn phát minh ra một loại máy mới."
+        },
+        {
+          "word": "keep",
+          "ipa": "/kiːp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "giữ lại, tiếp tục",
+          "example_en": "Keep this secret, please.",
+          "example_vi": "Làm ơn hãy giữ bí mật này."
+        },
+        {
+          "word": "land",
+          "ipa": "/lænd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "hạ cánh",
+          "example_en": "The plane lands at the airport.",
+          "example_vi": "Máy bay hạ cánh ở sân bay."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "lessonOrder": 27,
+    "grammar": [
+      {
+        "title": "Hỏi và trả lời về Sở thích",
+        "desc": "Dùng thì Hiện tại đơn để nói về những sở thích, thói quen giải trí.",
+        "formula": [
+          {
+            "text": "S + like / love / enjoy",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "V-ing / Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I like reading books.",
+            "vi": "Tôi thích đọc sách."
+          },
+          {
+            "en": "She loves listening to music.",
+            "vi": "Cô ấy yêu việc nghe nhạc."
+          },
+          {
+            "en": "Do you enjoy traveling?",
+            "vi": "Bạn có tận hưởng việc đi du lịch không?"
+          }
+        ],
+        "note": "Sau các động từ chỉ sự yêu thích (like, love, enjoy), động từ chính thường ở dạng V-ing.",
+        "practiceList": [
+          {
+            "question": "I enjoy ___ games. (play)",
+            "correct": "playing",
+            "meaning": "Tôi tận hưởng việc chơi game.",
+            "explanation": "Sau \"enjoy\", động từ thêm \"-ing\"."
+          },
+          {
+            "question": "She ___ watching TV.",
+            "correct": "likes",
+            "meaning": "Cô ấy thích xem tivi.",
+            "explanation": "Chủ ngữ \"She\" nên động từ \"like\" phải thêm \"s\"."
+          },
+          {
+            "question": "Do you like ___ to music?",
+            "correct": "listening",
+            "meaning": "Bạn có thích nghe nhạc không?",
+            "explanation": "Sau \"like\" dùng V-ing (listening)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "grammar": []
+  }
+]

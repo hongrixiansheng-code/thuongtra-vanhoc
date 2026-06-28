@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 63,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Giving reasons",
+        "part": 3,
+        "questions": ["Why do people move to big cities?", "Although life is harder there, why do they stay?", "What problems do they face, and how do they solve them?"],
+        "sampleAnswer": "People move to big cities because there are more jobs. Although life is harder there, they stay because of better opportunities. They face high living costs, so many of them share apartments."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Review — Rules and choices",
+        "part": 3,
+        "questions": ["What rules must people follow in your country?", "What should people do to live a healthier life?", "Why do you enjoy or dislike your daily routine?"],
+        "sampleAnswer": "People must follow traffic rules and pay taxes. They should exercise and eat healthy food. I enjoy my daily routine because it isn't too stressful, although it is sometimes busy."
+      }
+    ]
+  }
+]

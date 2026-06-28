@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname, useRouter, useSearchParams } from 'next/navigation';
 import { useSession, signOut } from 'next-auth/react';
+import ThemeSwitcher from '@/components/ThemeSwitcher';
 
 // Fallback tĩnh khi API chưa load xong
 const FALLBACK_SUBJECTS = [
@@ -26,6 +27,7 @@ const FALLBACK_SUBJECTS = [
 function shortLabel(name: string, code: string): string {
     if (code.startsWith('hsk')) return code.toUpperCase().replace('HSK', 'HSK ');
     if (name === 'Starters') return 'Starters';
+    if (code.includes('ielts')) return name;
     // Môn khác: lấy phần sau dấu " - " hoặc tên nguyên
     return name.split(' - ')[0];
 }
@@ -58,6 +60,7 @@ export function Navigation() {
 
     // Map routes → activeTab
     let activeTab = 'curriculum';
+    if (pathname === '/') activeTab = 'home';
     if (pathname?.includes('/lessons')) activeTab = 'vocab';
     if (pathname?.includes('/games')) activeTab = 'flashcard';
     if (pathname?.includes('/practice')) activeTab = 'quiz';
@@ -70,7 +73,7 @@ export function Navigation() {
     if (pathname?.includes('/dialogue')) activeTab = 'dialogue';
 
     const mainTabs = [
-        { id: 'curriculum', icon: 'fa-house', label: 'Trang chủ', route: '/dashboard' },
+        { id: 'home', icon: 'fa-house', label: 'Trang chủ', route: '/' },
         { id: 'flashcard', icon: 'fa-clone', label: 'Trò chơi', route: '/games' },
         { id: 'quiz', icon: 'fa-brain', label: 'Ôn tập', route: '/practice' },
         { id: 'progress', icon: 'fa-chart-line', label: 'Tiến độ', route: '/dashboard' },
@@ -99,12 +102,12 @@ export function Navigation() {
         <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
             <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-4">
                 {/* Logo */}
-                <div className="flex items-center gap-2 shrink-0">
-                    <div className="bg-indigo-600 text-white p-2 rounded-lg">
+                <Link href="/" className="flex items-center gap-2 shrink-0">
+                    <div className="bg-primary-600 text-white p-2 rounded-lg">
                         <i className="fa-solid fa-graduation-cap text-lg"></i>
                     </div>
-                    <span className="font-bold text-gray-800 hidden sm:block">HSK Learner</span>
-                </div>
+                    <span className="font-bold text-gray-800 hidden sm:block">Thưởng Trà - Vấn Học</span>
+                </Link>
 
                 {/* Dropdown chọn chương trình — ĐỌC ĐỘNG TỪ DB */}
                 <div className="relative shrink-0" id="curriculum-dropdown">
@@ -117,37 +120,91 @@ export function Navigation() {
                     </button>
 
                     {openMenu === 'curriculum' && (
-                        <div className="absolute top-11 left-0 bg-white border border-gray-200 rounded-2xl shadow-xl z-50 min-w-[280px] max-w-[400px] overflow-hidden animate-fade-in">
+                        <div className="absolute top-11 left-0 bg-white border border-gray-200 rounded-2xl shadow-xl z-50 min-w-[400px] max-w-[600px] overflow-hidden animate-fade-in">
                             <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
                                 <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Chọn giáo trình</p>
                             </div>
-                            <div className={`grid divide-x divide-gray-100`}
-                                style={{ gridTemplateColumns: `repeat(${subjects.length}, 1fr)` }}>
-                                {subjects.map(subject => (
-                                    <div key={subject.id || subject.code}>
-                                        <div className="flex items-center gap-2 px-3 py-2 border-b border-gray-100 bg-gray-50">
-                                            <span className="text-base">{subject.flag || '📚'}</span>
-                                            <span className="text-xs font-bold text-gray-600 uppercase tracking-wide">{subject.name}</span>
-                                        </div>
-                                        {subject.programs.map((prog: any) => (
-                                            <button key={prog.id || prog.code}
-                                                disabled={!prog.isAvailable}
-                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
-                                                className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
-                                                    ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-gray-50 cursor-pointer'}
-                                                    ${currentLevel === prog.code ? 'bg-indigo-50 font-bold text-indigo-600' : 'text-gray-700'}`}>
-                                                <span>{shortLabel(prog.name, prog.code)}</span>
-                                                <span>
-                                                    {!prog.isAvailable
-                                                        ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
-                                                        : currentLevel === prog.code
-                                                            ? <i className="fa-solid fa-check text-xs text-indigo-500"></i>
-                                                            : null}
-                                                </span>
-                                            </button>
-                                        ))}
-                                    </div>
-                                ))}
+                            <div className="flex divide-x divide-gray-100">
+                                {subjects.map(subject => {
+                                    if (subject.code === 'en') {
+                                        return (
+                                            <div key={subject.id || subject.code} className="flex-[2] min-w-0 bg-blue-50/30">
+                                                <div className="flex items-center gap-2 px-3 py-2 border-b border-blue-100 bg-blue-100/50">
+                                                    <span className="text-base">{subject.flag || '📚'}</span>
+                                                    <span className="text-xs font-bold text-blue-800 uppercase tracking-wide">{subject.name}</span>
+                                                </div>
+                                                <div className="flex divide-x divide-gray-100">
+                                                    <div className="flex-1 min-w-0">
+                                                        <div className="px-3 py-1 bg-blue-50 text-[10px] font-bold text-blue-600 uppercase tracking-wider border-b border-blue-100/50">Cambridge</div>
+                                                        {subject.programs.filter((p: any) => !p.code.includes('ielts')).map((prog: any) => (
+                                                            <button key={prog.id || prog.code}
+                                                                disabled={!prog.isAvailable}
+                                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                                className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
+                                                                    ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-blue-100/50 cursor-pointer'}
+                                                                    ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>
+                                                                <span>{shortLabel(prog.name, prog.code)}</span>
+                                                                <span>
+                                                                    {!prog.isAvailable
+                                                                        ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
+                                                                        : currentLevel === prog.code
+                                                                            ? <i className="fa-solid fa-check text-xs text-primary-500"></i>
+                                                                            : null}
+                                                                </span>
+                                                            </button>
+                                                        ))}
+                                                    </div>
+                                                    <div className="flex-1 min-w-0">
+                                                        <div className="px-3 py-1 bg-blue-50 text-[10px] font-bold text-blue-600 uppercase tracking-wider border-b border-blue-100/50">IELTS</div>
+                                                        {subject.programs.filter((p: any) => p.code.includes('ielts')).map((prog: any) => (
+                                                            <button key={prog.id || prog.code}
+                                                                disabled={!prog.isAvailable}
+                                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                                className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
+                                                                    ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-blue-100/50 cursor-pointer'}
+                                                                    ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>
+                                                                <span>{shortLabel(prog.name, prog.code)}</span>
+                                                                <span>
+                                                                    {!prog.isAvailable
+                                                                        ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
+                                                                        : currentLevel === prog.code
+                                                                            ? <i className="fa-solid fa-check text-xs text-primary-500"></i>
+                                                                            : null}
+                                                                </span>
+                                                            </button>
+                                                        ))}
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        );
+                                    } else {
+                                        return (
+                                            <div key={subject.id || subject.code} className="flex-1 min-w-0 bg-red-50/30">
+                                                <div className="flex items-center gap-2 px-3 py-2 border-b border-red-100 bg-red-100/50">
+                                                    <span className="text-base">{subject.flag || '📚'}</span>
+                                                    <span className="text-xs font-bold text-red-800 uppercase tracking-wide">{subject.name}</span>
+                                                </div>
+                                                {subject.programs.map((prog: any) => (
+                                                    <button key={prog.id || prog.code}
+                                                        disabled={!prog.isAvailable}
+                                                        onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                        className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
+                                                            ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-red-100/50 cursor-pointer'}
+                                                            ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>
+                                                        <span>{shortLabel(prog.name, prog.code)}</span>
+                                                        <span>
+                                                            {!prog.isAvailable
+                                                                ? <i className="fa-solid fa-lock text-xs text-gray-300"></i>
+                                                                : currentLevel === prog.code
+                                                                    ? <i className="fa-solid fa-check text-xs text-primary-500"></i>
+                                                                    : null}
+                                                        </span>
+                                                    </button>
+                                                ))}
+                                            </div>
+                                        );
+                                    }
+                                })}
                             </div>
                         </div>
                     )}
@@ -155,9 +212,9 @@ export function Navigation() {
 
                 {/* Desktop Nav */}
                 <nav className="desktop-nav flex items-center gap-1 flex-1">
-                    <Link href={`/dashboard?level=${currentLevel}`}
+                    <Link href="/"
                         className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
-                            ${activeTab === 'curriculum' ? 'bg-indigo-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
+                            ${activeTab === 'home' ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
                         Trang chủ
                     </Link>
 
@@ -165,7 +222,7 @@ export function Navigation() {
                     <div className="relative">
                         <button onClick={() => setOpenMenu(openMenu === 'hoctap' ? null : 'hoctap')}
                             className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors
-                                ${['vocab', 'grammar', 'dialogue'].includes(activeTab) ? 'bg-indigo-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
+                                ${['vocab', 'grammar', 'dialogue'].includes(activeTab) ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
                             Học tập <i className="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         {openMenu === 'hoctap' && (
@@ -178,7 +235,7 @@ export function Navigation() {
                                 ].map(item => (
                                     <Link href={`${item.route}?level=${currentLevel}`} key={item.id} onClick={() => setOpenMenu(null)}
                                         className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-gray-50
-                                            ${activeTab === item.id ? 'text-indigo-600 font-medium bg-indigo-50' : 'text-gray-700'}`}>
+                                            ${activeTab === item.id ? 'text-primary-600 font-medium bg-primary-50' : 'text-gray-700'}`}>
                                         <i className={`fa-solid ${item.icon} w-4 text-center`}></i> {item.label}
                                     </Link>
                                 ))}
@@ -191,7 +248,7 @@ export function Navigation() {
                         <button onClick={() => setOpenMenu(openMenu === 'luyentap' ? null : 'luyentap')}
                             className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors
                                 ${['flashcard', 'quiz', 'speaking-test', 'writing-test', 'mock-test', 'reading-test'].includes(activeTab)
-                                    ? 'bg-indigo-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
+                                    ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
                             Luyện tập <i className="fa-solid fa-chevron-down text-xs"></i>
                         </button>
                         {openMenu === 'luyentap' && (
@@ -206,7 +263,7 @@ export function Navigation() {
                                 ].map(item => (
                                     <Link href={`${item.route}?level=${currentLevel}`} key={item.id} onClick={() => setOpenMenu(null)}
                                         className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-gray-50
-                                            ${activeTab === item.id ? 'text-indigo-600 font-medium bg-indigo-50' : 'text-gray-700'}`}>
+                                            ${activeTab === item.id ? 'text-primary-600 font-medium bg-primary-50' : 'text-gray-700'}`}>
                                         <i className={`fa-solid ${item.icon} w-4 text-center`}></i> {item.label}
                                     </Link>
                                 ))}
@@ -217,10 +274,11 @@ export function Navigation() {
 
                 {/* Right: user menu */}
                 <div className="flex items-center gap-3 shrink-0 ml-auto relative">
+                    <ThemeSwitcher />
                     {session ? (
                         <>
                             <button onClick={() => setOpenMenu(openMenu === 'user' ? null : 'user')}
-                                className="w-9 h-9 rounded-full bg-indigo-100 text-indigo-600 flex items-center justify-center font-bold">
+                                className="w-9 h-9 rounded-full bg-primary-100 text-primary-600 flex items-center justify-center font-bold">
                                 {(session.user?.name || session.user?.email || 'U')[0].toUpperCase()}
                             </button>
                             {openMenu === 'user' && (
@@ -232,8 +290,14 @@ export function Navigation() {
                                     <div className="p-1">
                                         {(session.user as any)?.role === 'ADMIN' && (
                                             <Link href="/admin" onClick={() => setOpenMenu(null)}
-                                                className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-indigo-600 font-medium hover:bg-gray-50 rounded-lg">
+                                                className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-primary-600 font-medium hover:bg-gray-50 rounded-lg">
                                                 <i className="fa-solid fa-shield-halved w-4"></i> Quản trị viên
+                                            </Link>
+                                        )}
+                                        {((session.user as any)?.role === 'TEACHER' || (session.user as any)?.role === 'ADMIN') && (
+                                            <Link href="/teacher/classes" onClick={() => setOpenMenu(null)}
+                                                className="w-full text-left px-3 py-2.5 text-sm flex items-center gap-3 text-primary-600 font-medium hover:bg-gray-50 rounded-lg">
+                                                <i className="fa-solid fa-chalkboard-user w-4"></i> Lớp học của tôi
                                             </Link>
                                         )}
                                         <button onClick={() => { setOpenMenu(null); signOut(); }}
@@ -246,10 +310,10 @@ export function Navigation() {
                         </>
                     ) : (
                         <>
-                            <Link href="/login" className="px-4 py-2 text-sm font-bold text-indigo-600 hover:bg-indigo-50 rounded-full transition-colors hidden sm:block">
+                            <Link href="/login" className="px-4 py-2 text-sm font-bold text-primary-600 hover:bg-primary-50 rounded-full transition-colors hidden sm:block">
                                 Đăng nhập
                             </Link>
-                            <Link href="/login" className="px-4 py-2 text-sm font-bold text-white bg-indigo-600 hover:bg-indigo-700 rounded-full shadow-sm transition-colors">
+                            <Link href="/register" className="px-4 py-2 text-sm font-bold text-white bg-primary-600 hover:bg-primary-700 rounded-full shadow-sm transition-colors">
                                 Đăng ký
                             </Link>
                         </>
@@ -268,7 +332,7 @@ export function Navigation() {
                         {moreTabs.map(tab => (
                             <Link href={`${tab.route}?level=${currentLevel}`} key={tab.id} onClick={() => setShowMore(false)}
                                 className={`flex flex-col items-center gap-2 p-4 rounded-2xl transition-all
-                                    ${activeTab === tab.id ? 'bg-indigo-50 border-2 border-indigo-300' : 'bg-gray-50 border-2 border-transparent'}`}>
+                                    ${activeTab === tab.id ? 'bg-primary-50 border-2 border-primary-300' : 'bg-gray-50 border-2 border-transparent'}`}>
                                 <i className={`fa-solid ${tab.icon} text-2xl ${tab.color}`}></i>
                                 <span className="text-xs font-medium text-gray-700">{tab.label}</span>
                             </Link>
@@ -278,17 +342,17 @@ export function Navigation() {
             )}
             <nav className="mobile-bottom-nav md:hidden fixed bottom-0 left-0 right-0 z-[100] bg-white border-t border-gray-200 shadow-lg flex items-center justify-around px-2 h-16">
                 {mainTabs.map(tab => (
-                    <Link href={`${tab.route}?level=${currentLevel}`} key={tab.id}
-                        className={`flex flex-col items-center gap-1 flex-1 py-2 rounded-xl transition-all ${activeTab === tab.id ? 'text-indigo-600' : 'text-gray-400'}`}>
-                        <div className={`w-10 h-10 rounded-2xl flex items-center justify-center ${activeTab === tab.id ? 'bg-indigo-100' : ''}`}>
+                    <Link href={tab.route === '/' ? '/' : `${tab.route}?level=${currentLevel}`} key={tab.id}
+                        className={`flex flex-col items-center gap-1 flex-1 py-2 rounded-xl transition-all ${activeTab === tab.id ? 'text-primary-600' : 'text-gray-400'}`}>
+                        <div className={`w-10 h-10 rounded-2xl flex items-center justify-center ${activeTab === tab.id ? 'bg-primary-100' : ''}`}>
                             <i className={`fa-solid ${tab.icon} text-xl`}></i>
                         </div>
                         <span className="text-[10px] font-medium">{tab.label}</span>
                     </Link>
                 ))}
                 <button onClick={() => setShowMore(v => !v)}
-                    className={`flex flex-col items-center gap-1 flex-1 py-2 rounded-xl ${isMoreActive || showMore ? 'text-indigo-600' : 'text-gray-400'}`}>
-                    <div className={`w-10 h-10 rounded-2xl flex items-center justify-center ${isMoreActive || showMore ? 'bg-indigo-100' : ''}`}>
+                    className={`flex flex-col items-center gap-1 flex-1 py-2 rounded-xl ${isMoreActive || showMore ? 'text-primary-600' : 'text-gray-400'}`}>
+                    <div className={`w-10 h-10 rounded-2xl flex items-center justify-center ${isMoreActive || showMore ? 'bg-primary-100' : ''}`}>
                         <i className={`fa-solid ${showMore ? 'fa-xmark' : 'fa-ellipsis'} text-xl`}></i>
                     </div>
                     <span className="text-[10px] font-medium">Thêm</span>

@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 63,
+    "dialogue": [
+      {
+        "title": "Explaining reasons",
+        "lines": [
+          { "speaker": "Thao", "en": "Why were you late this morning?", "vi": "Tại sao sáng nay bạn đến muộn?" },
+          { "speaker": "Mark", "en": "I was late because the traffic was heavy.", "vi": "Tôi đến muộn vì giao thông đông đúc." },
+          { "speaker": "Thao", "en": "It rained heavily, so the roads were wet.", "vi": "Trời mưa to, nên đường ướt." },
+          { "speaker": "Mark", "en": "Although it was difficult, I still arrived before the meeting started.", "vi": "Mặc dù khó khăn, tôi vẫn đến trước khi cuộc họp bắt đầu." },
+          { "speaker": "Thao", "en": "I was tired, so I went to bed early last night.", "vi": "Tôi mệt, vì vậy tôi đi ngủ sớm tối qua." },
+          { "speaker": "Mark", "en": "However, you still look a little sleepy today.", "vi": "Tuy nhiên, hôm nay bạn vẫn trông có vẻ buồn ngủ." }
+        ]
+      },
+      {
+        "title": "A difficult decision",
+        "lines": [
+          { "speaker": "Thao", "en": "Although the dress was expensive, she bought it anyway.", "vi": "Mặc dù chiếc váy đắt, cô ấy vẫn mua nó." },
+          { "speaker": "Mark", "en": "Why did she want it so much?", "vi": "Tại sao cô ấy muốn nó nhiều như vậy?" },
+          { "speaker": "Thao", "en": "She wanted it because it was perfect for the party.", "vi": "Cô ấy muốn nó vì nó hoàn hảo cho buổi tiệc." },
+          { "speaker": "Mark", "en": "The shop was closing soon, so she decided quickly.", "vi": "Cửa hàng sắp đóng cửa, vì vậy cô ấy quyết định nhanh." },
+          { "speaker": "Thao", "en": "However, she didn't regret the decision at all.", "vi": "Tuy nhiên, cô ấy hoàn toàn không hối hận về quyết định đó." },
+          { "speaker": "Mark", "en": "That's good. Sometimes a quick decision is the right one.", "vi": "Vậy tốt. Đôi khi một quyết định nhanh lại là quyết định đúng." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "dialogue": [
+      {
+        "title": "Review: Rules, advice, and choices",
+        "lines": [
+          { "speaker": "Thao", "en": "You must wear a helmet, and you shouldn't ride too fast.", "vi": "Bạn phải đội mũ bảo hiểm, và bạn không nên đi quá nhanh." },
+          { "speaker": "Mark", "en": "I know. I don't have to drive today, so I will take the bus.", "vi": "Tôi biết. Hôm nay tôi không cần lái xe, nên tôi sẽ đi xe buýt." },
+          { "speaker": "Thao", "en": "It might rain later, so take an umbrella.", "vi": "Có thể trời sẽ mưa sau, nên mang theo dù." },
+          { "speaker": "Mark", "en": "Good idea. I enjoy walking when it isn't too hot.", "vi": "Ý hay. Tôi thích đi bộ khi trời không quá nóng." },
+          { "speaker": "Thao", "en": "Is the bus too crowded at this time?", "vi": "Xe buýt vào giờ này có quá đông không?" },
+          { "speaker": "Mark", "en": "It might be, but I want to try because it's cheaper than a taxi.", "vi": "Có thể vậy, nhưng tôi muốn thử vì nó rẻ hơn taxi." }
+        ]
+      }
+    ]
+  }
+]

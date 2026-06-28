@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 3,
+    "vocab": [
+      {
+        "word": "tall",
+        "ipa": "/tɔːl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "cao",
+        "example_en": "My father is tall.",
+        "example_vi": "Bố tôi cao.",
+        "level": "A1"
+      },
+      {
+        "word": "short",
+        "ipa": "/ʃɔːt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thấp, ngắn",
+        "example_en": "My mother is short.",
+        "example_vi": "Mẹ tôi thấp.",
+        "level": "A1"
+      },
+      {
+        "word": "young",
+        "ipa": "/jʌŋ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "trẻ",
+        "example_en": "My sister is young.",
+        "example_vi": "Chị tôi trẻ.",
+        "level": "A1"
+      },
+      {
+        "word": "old",
+        "ipa": "/əʊld/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "già, cũ",
+        "example_en": "My grandfather is old.",
+        "example_vi": "Ông tôi đã già.",
+        "level": "A1"
+      },
+      {
+        "word": "fat",
+        "ipa": "/fæt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "béo",
+        "example_en": "The cat is fat.",
+        "example_vi": "Con mèo béo.",
+        "level": "A1"
+      },
+      {
+        "word": "thin",
+        "ipa": "/θɪn/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "gầy",
+        "example_en": "My brother is thin.",
+        "example_vi": "Anh trai tôi gầy.",
+        "level": "A1"
+      },
+      {
+        "word": "long",
+        "ipa": "/lɒŋ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "dài",
+        "example_en": "Her hair is long.",
+        "example_vi": "Tóc cô ấy dài.",
+        "level": "A1"
+      },
+      {
+        "word": "curly",
+        "ipa": "/ˈkɜː.li/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "xoăn",
+        "example_en": "My hair is curly.",
+        "example_vi": "Tóc tôi xoăn.",
+        "level": "A1"
+      },
+      {
+        "word": "blonde",
+        "ipa": "/blɒnd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "vàng hoe",
+        "example_en": "She is blonde.",
+        "example_vi": "Cô ấy có mái tóc vàng hoe.",
+        "level": "A1"
+      },
+      {
+        "word": "friendly",
+        "ipa": "/ˈfrend.li/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thân thiện",
+        "example_en": "My family is friendly.",
+        "example_vi": "Gia đình tôi thân thiện.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "vocab": [
+      {
+        "word": "happy",
+        "ipa": "/ˈhæp.i/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "vui vẻ",
+        "example_en": "I am happy.",
+        "example_vi": "Tôi vui vẻ.",
+        "level": "A1"
+      },
+      {
+        "word": "sad",
+        "ipa": "/sæd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "buồn",
+        "example_en": "He is sad.",
+        "example_vi": "Anh ấy buồn.",
+        "level": "A1"
+      },
+      {
+        "word": "nervous",
+        "ipa": "/ˈnɜː.vəs/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "lo lắng",
+        "example_en": "She is nervous.",
+        "example_vi": "Cô ấy lo lắng.",
+        "level": "A1"
+      },
+      {
+        "word": "shy",
+        "ipa": "/ʃaɪ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhút nhát",
+        "example_en": "My son is shy.",
+        "example_vi": "Con trai tôi nhút nhát.",
+        "level": "A1"
+      },
+      {
+        "word": "kind",
+        "ipa": "/kaɪnd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tốt bụng",
+        "example_en": "My mother is kind.",
+        "example_vi": "Mẹ tôi tốt bụng.",
+        "level": "A1"
+      },
+      {
+        "word": "clever",
+        "ipa": "/ˈklev.ər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thông minh",
+        "example_en": "My brother is clever.",
+        "example_vi": "Anh tôi thông minh.",
+        "level": "A1"
+      },
+      {
+        "word": "lazy",
+        "ipa": "/ˈleɪ.zi/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "lười biếng",
+        "example_en": "He is lazy.",
+        "example_vi": "Anh ấy lười biếng.",
+        "level": "A1"
+      },
+      {
+        "word": "busy",
+        "ipa": "/ˈbɪz.i/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bận rộn",
+        "example_en": "My father is busy.",
+        "example_vi": "Bố tôi bận rộn.",
+        "level": "A1"
+      },
+      {
+        "word": "angry",
+        "ipa": "/ˈæŋ.ɡri/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tức giận",
+        "example_en": "She is angry.",
+        "example_vi": "Cô ấy đang tức giận.",
+        "level": "A1"
+      },
+      {
+        "word": "calm",
+        "ipa": "/kɑːm/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bình tĩnh",
+        "example_en": "I am calm.",
+        "example_vi": "Tôi bình tĩnh.",
+        "level": "A1"
+      }
+    ]
+  }
+]

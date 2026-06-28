@@ -1,0 +1,249 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 17,
+      "title": "Bài 10.b: Thế giới quanh ta (2/2)",
+      "theme": "Động vật & thế giới quanh ta",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "pond",
+          "ipa": "/pɒnd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái ao",
+          "example_en": "There are frogs in the pond.",
+          "example_vi": "Có những con ếch ở trong ao."
+        },
+        {
+          "word": "space",
+          "ipa": "/speɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "không gian, vũ trụ",
+          "example_en": "Stars are in space.",
+          "example_vi": "Các vì sao ở ngoài vũ trụ."
+        },
+        {
+          "word": "stone",
+          "ipa": "/stoʊn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hòn đá, đá",
+          "example_en": "He threw a stone into the water.",
+          "example_vi": "Cậu ấy đã ném một hòn đá xuống nước."
+        },
+        {
+          "word": "stream",
+          "ipa": "/striːm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dòng suối",
+          "example_en": "The stream flows fast.",
+          "example_vi": "Dòng suối chảy rất nhanh."
+        },
+        {
+          "word": "view",
+          "ipa": "/vjuː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cảnh quan, tầm nhìn",
+          "example_en": "We have a beautiful view of the sea.",
+          "example_vi": "Chúng tôi có một tầm nhìn tuyệt đẹp ra biển."
+        },
+        {
+          "word": "wood",
+          "ipa": "/wʊd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khu rừng nhỏ",
+          "example_en": "We went for a walk in the wood.",
+          "example_vi": "Chúng tôi đã đi dạo trong khu rừng nhỏ."
+        },
+        {
+          "word": "hole",
+          "ipa": "/hoʊl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái hố, lỗ hổng",
+          "example_en": "There is a hole in my sock.",
+          "example_vi": "Có một cái lỗ trên chiếc tất của tôi."
+        },
+        {
+          "word": "fog",
+          "ipa": "/fɒɡ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sương mù",
+          "example_en": "The fog is very thick today.",
+          "example_vi": "Hôm nay sương mù rất dày."
+        },
+        {
+          "word": "foggy",
+          "ipa": "/ˈfɒɡi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có sương mù",
+          "example_en": "It is a foggy morning.",
+          "example_vi": "Đó là một buổi sáng có sương mù."
+        },
+        {
+          "word": "storm",
+          "ipa": "/stɔːrm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cơn bão",
+          "example_en": "We stayed home during the storm.",
+          "example_vi": "Chúng tôi đã ở nhà trong suốt cơn bão."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 18,
+      "title": "Bài 11.a: Sở thích & giải trí (1/3)",
+      "theme": "Sở thích, giải trí & phương tiện",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "cartoon",
+          "ipa": "/kɑːrˈtuːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phim hoạt hình",
+          "example_en": "I watch a cartoon on TV.",
+          "example_vi": "Tôi xem một bộ phim hoạt hình trên tivi."
+        },
+        {
+          "word": "channel",
+          "ipa": "/ˈtʃænl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kênh (truyền hình)",
+          "example_en": "Change the channel, please.",
+          "example_vi": "Làm ơn hãy chuyển kênh."
+        },
+        {
+          "word": "chess",
+          "ipa": "/tʃes/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cờ vua",
+          "example_en": "We play chess after school.",
+          "example_vi": "Chúng tôi chơi cờ vua sau giờ học."
+        },
+        {
+          "word": "collect",
+          "ipa": "/kəˈlekt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "sưu tầm, thu thập",
+          "example_en": "I collect old stamps.",
+          "example_vi": "Tôi sưu tầm những con tem cũ."
+        },
+        {
+          "word": "concert",
+          "ipa": "/ˈkɒnsərt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "buổi hòa nhạc",
+          "example_en": "We went to a pop concert.",
+          "example_vi": "Chúng tôi đã đi đến một buổi hòa nhạc pop."
+        },
+        {
+          "word": "drum",
+          "ipa": "/drʌm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái trống",
+          "example_en": "He plays the drum in a band.",
+          "example_vi": "Cậu ấy chơi trống trong một ban nhạc."
+        },
+        {
+          "word": "festival",
+          "ipa": "/ˈfestɪvl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lễ hội",
+          "example_en": "There is a music festival today.",
+          "example_vi": "Hôm nay có một lễ hội âm nhạc."
+        },
+        {
+          "word": "flashlight",
+          "ipa": "/ˈflæʃlaɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đèn pin (Anh Mỹ)",
+          "example_en": "Bring a flashlight when you go camping.",
+          "example_vi": "Hãy mang theo đèn pin khi bạn đi cắm trại."
+        },
+        {
+          "word": "golf",
+          "ipa": "/ɡɒlf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn đánh gôn",
+          "example_en": "My dad plays golf on Sundays.",
+          "example_vi": "Bố tôi chơi gôn vào các ngày Chủ nhật."
+        },
+        {
+          "word": "instrument",
+          "ipa": "/ˈɪnstrəmənt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhạc cụ",
+          "example_en": "Can you play a musical instrument?",
+          "example_vi": "Bạn có thể chơi một loại nhạc cụ không?"
+        },
+        {
+          "word": "invitation",
+          "ipa": "/ˌɪnvɪˈteɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lời mời, thiệp mời",
+          "example_en": "I got an invitation to her party.",
+          "example_vi": "Tôi đã nhận được một tấm thiệp mời đến bữa tiệc của cô ấy."
+        },
+        {
+          "word": "join",
+          "ipa": "/dʒɔɪn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "tham gia (câu lạc bộ)",
+          "example_en": "I want to join the sports club.",
+          "example_vi": "Tôi muốn tham gia câu lạc bộ thể thao."
+        },
+        {
+          "word": "magazine",
+          "ipa": "/ˈmæɡəziːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tạp chí",
+          "example_en": "She is reading a magazine.",
+          "example_vi": "Cô ấy đang đọc một cuốn tạp chí."
+        },
+        {
+          "word": "match",
+          "ipa": "/mætʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trận đấu",
+          "example_en": "We watched a football match.",
+          "example_vi": "Chúng tôi đã xem một trận bóng đá."
+        },
+        {
+          "word": "meet",
+          "ipa": "/miːt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "gặp gỡ",
+          "example_en": "I will meet you at the park.",
+          "example_vi": "Tôi sẽ gặp bạn ở công viên."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

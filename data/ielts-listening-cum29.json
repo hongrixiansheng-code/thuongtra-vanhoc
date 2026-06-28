@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 57,
+    "listening": [
+      {
+        "title": "Listening: Doctor's advice",
+        "transcript": "You should drink more water and rest. You shouldn't stay up too late before work. You should see a doctor if the headache continues.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What should you do if the headache continues?", "options": ["Drink coffee", "See a doctor", "Sleep less"], "correct": "See a doctor", "explanation": "\"you should see a doctor if the headache continues.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 58,
+    "listening": [
+      {
+        "title": "Listening: Workplace rules",
+        "transcript": "You don't have to work on weekends, but you have to wear formal clothes on Mondays and Fridays. Everyone has to arrive on time, no exceptions.",
+        "questions": [
+          { "type": "form_completion", "question": "Formal clothes required on: ___ and Fridays", "options": ["Tuesdays", "Mondays", "Sundays"], "correct": "Mondays", "explanation": "\"you have to wear formal clothes on Mondays and Fridays.\"" }
+        ]
+      }
+    ]
+  }
+]

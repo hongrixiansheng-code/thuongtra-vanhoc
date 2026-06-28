@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 71,
+    "reading": [
+      {
+        "title": "Reading: Famous inventions",
+        "passage": "The telephone was invented by Alexander Graham Bell. This bridge was built about thirty years ago. The company was founded a hundred years ago.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The telephone was invented by Alexander Graham Bell.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu đầu nêu rõ điều này." },
+          { "type": "multiple_choice", "question": "When was the company founded?", "options": ["Thirty years ago", "Fifty years ago", "A hundred years ago"], "correct": "A hundred years ago", "explanation": "\"the company was founded a hundred years ago.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "reading": [
+      {
+        "title": "Reading: In the media",
+        "passage": "The news has already been published online. The event has been announced on the radio. The results have just been reported on TV.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The results have not been reported yet.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"The results have just been reported on TV.\"" },
+          { "type": "multiple_choice", "question": "Where was the event announced?", "options": ["On TV", "On the radio", "In a newspaper"], "correct": "On the radio", "explanation": "\"The event has been announced on the radio.\"" }
+        ]
+      }
+    ]
+  }
+]

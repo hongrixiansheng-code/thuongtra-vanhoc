@@ -1,0 +1,276 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 33,
+      "title": "Bài 16.c: Động từ thường gặp (3/5)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "leave",
+          "ipa": "/liːv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "rời đi, để lại",
+          "example_en": "I leave for school at 7 a.m.",
+          "example_vi": "Tôi rời nhà đi học lúc 7 giờ sáng."
+        },
+        {
+          "word": "lie",
+          "ipa": "/laɪ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nằm xuống",
+          "example_en": "I lie on the bed.",
+          "example_vi": "Tôi nằm trên giường."
+        },
+        {
+          "word": "lift",
+          "ipa": "/lɪft/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nâng lên, nhấc lên",
+          "example_en": "Can you lift this heavy box?",
+          "example_vi": "Bạn có thể nhấc chiếc hộp nặng này lên không?"
+        },
+        {
+          "word": "look after",
+          "ipa": "/lʊk ˈæftər/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "chăm sóc",
+          "example_en": "I look after my little sister.",
+          "example_vi": "Tôi chăm sóc em gái nhỏ của mình."
+        },
+        {
+          "word": "look like",
+          "ipa": "/lʊk laɪk/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "trông giống như",
+          "example_en": "You look like your mother.",
+          "example_vi": "Bạn trông giống mẹ của mình."
+        },
+        {
+          "word": "make sure",
+          "ipa": "/meɪk ʃʊr/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "đảm bảo, chắc chắn",
+          "example_en": "Make sure you lock the door.",
+          "example_vi": "Hãy đảm bảo rằng bạn đã khóa cửa."
+        },
+        {
+          "word": "mind",
+          "ipa": "/maɪnd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "phiền, bận tâm",
+          "example_en": "Do you mind if I sit here?",
+          "example_vi": "Bạn có phiền nếu tôi ngồi đây không?"
+        },
+        {
+          "word": "mix",
+          "ipa": "/mɪks/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trộn lẫn",
+          "example_en": "Mix the flour and eggs.",
+          "example_vi": "Hãy trộn bột mì và trứng lại với nhau."
+        },
+        {
+          "word": "post",
+          "ipa": "/poʊst/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "gửi qua bưu điện",
+          "example_en": "I post a letter to my friend.",
+          "example_vi": "Tôi gửi một bức thư cho bạn của tôi qua bưu điện."
+        },
+        {
+          "word": "prefer",
+          "ipa": "/prɪˈfɜːr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "thích hơn",
+          "example_en": "I prefer tea to coffee.",
+          "example_vi": "Tôi thích trà hơn cà phê."
+        },
+        {
+          "word": "prepare",
+          "ipa": "/prɪˈper/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "chuẩn bị",
+          "example_en": "We prepare for the exam.",
+          "example_vi": "Chúng tôi chuẩn bị cho bài kiểm tra."
+        },
+        {
+          "word": "pull",
+          "ipa": "/pʊl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "kéo",
+          "example_en": "Pull the door to open it.",
+          "example_vi": "Hãy kéo cánh cửa để mở nó."
+        },
+        {
+          "word": "push",
+          "ipa": "/pʊʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đẩy",
+          "example_en": "Push the heavy table.",
+          "example_vi": "Hãy đẩy cái bàn nặng đó."
+        },
+        {
+          "word": "remember",
+          "ipa": "/rɪˈmembər/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nhớ",
+          "example_en": "I remember his name.",
+          "example_vi": "Tôi nhớ tên của anh ấy."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 34,
+      "title": "Bài 16.d: Động từ thường gặp (4/5)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "repair",
+          "ipa": "/rɪˈper/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "sửa chữa",
+          "example_en": "He repairs the broken bike.",
+          "example_vi": "Anh ấy sửa chiếc xe đạp bị hỏng."
+        },
+        {
+          "word": "repeat",
+          "ipa": "/rɪˈpiːt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "lặp lại",
+          "example_en": "Please repeat the question.",
+          "example_vi": "Làm ơn hãy lặp lại câu hỏi."
+        },
+        {
+          "word": "save",
+          "ipa": "/seɪv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cứu, lưu trữ, tiết kiệm",
+          "example_en": "I save money to buy a toy.",
+          "example_vi": "Tôi tiết kiệm tiền để mua một món đồ chơi."
+        },
+        {
+          "word": "search",
+          "ipa": "/sɜːrtʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "tìm kiếm",
+          "example_en": "I search for information online.",
+          "example_vi": "Tôi tìm kiếm thông tin trên mạng."
+        },
+        {
+          "word": "sell",
+          "ipa": "/sel/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "bán",
+          "example_en": "They sell fresh fruit.",
+          "example_vi": "Họ bán trái cây tươi."
+        },
+        {
+          "word": "speak",
+          "ipa": "/spiːk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nói",
+          "example_en": "Can you speak English?",
+          "example_vi": "Bạn có thể nói tiếng Anh không?"
+        },
+        {
+          "word": "spend",
+          "ipa": "/spend/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "dành (thời gian), tiêu (tiền)",
+          "example_en": "I spend time with my family.",
+          "example_vi": "Tôi dành thời gian cho gia đình mình."
+        },
+        {
+          "word": "stay",
+          "ipa": "/steɪ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "ở lại",
+          "example_en": "We stay at a hotel.",
+          "example_vi": "Chúng tôi ở lại tại một khách sạn."
+        },
+        {
+          "word": "study",
+          "ipa": "/ˈstʌdi/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "học tập",
+          "example_en": "I study hard for the test.",
+          "example_vi": "Tôi học tập chăm chỉ cho bài kiểm tra."
+        },
+        {
+          "word": "thank",
+          "ipa": "/θæŋk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cảm ơn",
+          "example_en": "I thank him for his help.",
+          "example_vi": "Tôi cảm ơn anh ấy vì sự giúp đỡ của anh ấy."
+        },
+        {
+          "word": "touch",
+          "ipa": "/tʌtʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "chạm vào",
+          "example_en": "Don't touch the hot stove.",
+          "example_vi": "Đừng chạm vào cái lò nóng."
+        },
+        {
+          "word": "turn",
+          "ipa": "/tɜːrn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "quay, rẽ",
+          "example_en": "Turn right at the corner.",
+          "example_vi": "Hãy rẽ phải ở góc đường."
+        },
+        {
+          "word": "turn off",
+          "ipa": "/tɜːrn ɒf/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "tắt",
+          "example_en": "Turn off the lights.",
+          "example_vi": "Hãy tắt đèn đi."
+        },
+        {
+          "word": "turn on",
+          "ipa": "/tɜːrn ɒn/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "bật",
+          "example_en": "Turn on the TV, please.",
+          "example_vi": "Làm ơn hãy bật tivi lên."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

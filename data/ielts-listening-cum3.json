@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 5,
+    "listening": [
+      {
+        "title": "Listening: Describing a house",
+        "transcript": "There is a small garden in front of my house. There are three bedrooms and one bathroom. There is also a kitchen next to the living room.",
+        "questions": [
+          { "type": "form_completion", "question": "Number of bedrooms: ___", "options": ["two", "three", "four"], "correct": "three", "explanation": "\"There are three bedrooms\"." },
+          { "type": "multiple_choice", "question": "What is in front of the house?", "options": ["A garden", "A garage", "A balcony"], "correct": "A garden", "explanation": "\"There is a small garden in front of my house.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "listening": [
+      {
+        "title": "Listening: At the furniture shop",
+        "transcript": "Is there a sofa in this room? No, there isn't a sofa, but there is a table and two chairs. Are there any lamps? No, there aren't any lamps yet.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Is there a sofa in the room?", "options": ["Yes, there is", "No, there isn't", "Not given"], "correct": "No, there isn't", "explanation": "\"No, there isn't a sofa\"." },
+          { "type": "form_completion", "question": "There ___ any lamps yet.", "options": ["is", "isn't", "aren't"], "correct": "aren't", "explanation": "\"there aren't any lamps yet\"." }
+        ]
+      }
+    ]
+  }
+]

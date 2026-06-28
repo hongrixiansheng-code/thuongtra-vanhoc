@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 11,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your skills",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what you can and can't do, using can/can't.",
+        "minWords": 30,
+        "sampleAnswer": "I can swim and cook very well. I can also speak two languages. I can't drive a car yet, but I can ride a bike.",
+        "checklist": ["Dùng can ít nhất 2 lần", "Dùng can't ít nhất 1 lần", "Liệt kê được ít nhất 3 kỹ năng"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "writing": [
+      {
+        "title": "Writing Task 1: A polite request email",
+        "taskType": "task1",
+        "prompt": "Write a short email (about 40 words) asking for permission or help, using Can I...? / Can you...?",
+        "minWords": 30,
+        "sampleAnswer": "Dear Sir, Can I take a day off next week? I have a family event. Can you also help me find someone to cover my work? Thank you.",
+        "checklist": ["Dùng Can I...? để xin phép", "Dùng Can you...? để yêu cầu giúp đỡ", "Có lời cảm ơn ở cuối"]
+      }
+    ]
+  }
+]

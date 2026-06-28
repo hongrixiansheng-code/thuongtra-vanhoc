@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 23,
+    "dialogue": [
+      {
+        "title": "How often do you...?",
+        "lines": [
+          { "speaker": "Lan", "en": "How often do you exercise?", "vi": "Bạn tập thể dục thường xuyên như thế nào?" },
+          { "speaker": "James", "en": "I usually exercise three times a week.", "vi": "Tôi thường tập thể dục ba lần một tuần." },
+          { "speaker": "Lan", "en": "Do you always wake up early?", "vi": "Bạn luôn dậy sớm chứ?" },
+          { "speaker": "James", "en": "Yes, I always wake up at six o'clock.", "vi": "Vâng, tôi luôn dậy lúc sáu giờ." },
+          { "speaker": "Lan", "en": "How often do you go to the cinema?", "vi": "Bạn đi xem phim thường xuyên như thế nào?" },
+          { "speaker": "James", "en": "I sometimes go to the cinema, maybe once a month.", "vi": "Tôi đôi khi đi xem phim, có thể một lần một tháng." }
+        ]
+      },
+      {
+        "title": "Talking about habits",
+        "lines": [
+          { "speaker": "Lan", "en": "She rarely drinks coffee.", "vi": "Cô ấy hiếm khi uống cà phê." },
+          { "speaker": "James", "en": "Really? I often drink coffee every day.", "vi": "Thật sao? Tôi thường uống cà phê mỗi ngày." },
+          { "speaker": "Lan", "en": "He never eats meat.", "vi": "Anh ấy không bao giờ ăn thịt." },
+          { "speaker": "James", "en": "I see, but I sometimes eat meat.", "vi": "Tôi hiểu, nhưng tôi đôi khi ăn thịt." },
+          { "speaker": "Lan", "en": "We usually meet twice a week.", "vi": "Chúng tôi thường gặp nhau hai lần một tuần." },
+          { "speaker": "James", "en": "That's nice. Let's meet every week instead.", "vi": "Vậy hay đấy. Chúng ta gặp mỗi tuần thay vào đó nhé." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "dialogue": [
+      {
+        "title": "Planning a meeting time",
+        "lines": [
+          { "speaker": "Lan", "en": "Can we meet in the morning?", "vi": "Chúng ta có thể gặp vào buổi sáng không?" },
+          { "speaker": "James", "en": "I am busy in the morning. What about in the afternoon?", "vi": "Tôi bận vào buổi sáng. Còn buổi chiều thì sao?" },
+          { "speaker": "Lan", "en": "The afternoon is fine. Let's meet at three o'clock.", "vi": "Buổi chiều được. Mình gặp lúc ba giờ nhé." },
+          { "speaker": "James", "en": "Okay. Is the meeting on the weekend or on a weekday?", "vi": "Được. Cuộc họp vào cuối tuần hay ngày thường?" },
+          { "speaker": "Lan", "en": "It's on a weekday, on Tuesday.", "vi": "Nó vào ngày thường, thứ Ba." },
+          { "speaker": "James", "en": "Good, I am free on Tuesday afternoon.", "vi": "Tốt, tôi rảnh vào chiều thứ Ba." }
+        ]
+      },
+      {
+        "title": "Talking about night and day",
+        "lines": [
+          { "speaker": "Lan", "en": "I usually study at night.", "vi": "Tôi thường học vào ban đêm." },
+          { "speaker": "James", "en": "What time at night?", "vi": "Mấy giờ vào ban đêm?" },
+          { "speaker": "Lan", "en": "I study from eight in the evening until midnight.", "vi": "Tôi học từ tám giờ tối đến nửa đêm." },
+          { "speaker": "James", "en": "That's quite late. I prefer to study at noon.", "vi": "Vậy là khá muộn. Tôi thích học vào buổi trưa hơn." },
+          { "speaker": "Lan", "en": "At noon? Don't you feel sleepy then?", "vi": "Vào buổi trưa? Bạn không thấy buồn ngủ lúc đó sao?" },
+          { "speaker": "James", "en": "No, I feel quite fresh at noon.", "vi": "Không, tôi cảm thấy khá tỉnh táo vào buổi trưa." }
+        ]
+      }
+    ]
+  }
+]

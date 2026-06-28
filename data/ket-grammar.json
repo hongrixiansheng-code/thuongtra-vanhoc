@@ -1,0 +1,122 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "grammar": [
+        {
+          "title": "Tenses & Modal Verbs Review",
+          "desc": "Ôn tập các thì cơ bản (Hiện tại, Quá khứ, Tương lai) và Động từ khuyết thiếu (can, could, should, must, might).",
+          "formula": [
+            { "text": "S + V(s/es)", "meaning": "Thì Hiện tại đơn" },
+            { "text": "S + am/is/are + V-ing", "meaning": "Thì Hiện tại tiếp diễn" },
+            { "text": "S + modal verb + V(inf)", "meaning": "Động từ khuyết thiếu" }
+          ],
+          "practiceList": [
+            { "correct": "I go to school every day.", "vi": "Tôi đi học mỗi ngày." },
+            { "correct": "She is reading a book now.", "vi": "Bây giờ cô ấy đang đọc sách." },
+            { "correct": "You must wear a seatbelt.", "vi": "Bạn phải thắt dây an toàn." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "grammar": [
+        {
+          "title": "Reported Speech (Câu tường thuật)",
+          "desc": "Dùng để kể lại lời của ai đó. Nhớ lùi 1 thì (hiện tại -> quá khứ) và đổi đại từ phù hợp.",
+          "formula": [
+            { "text": "S + said (that) + S + V(lùi thì)", "meaning": "Tường thuật lời nói" }
+          ],
+          "practiceList": [
+            { "correct": "He said that he liked pizza.", "vi": "Anh ấy nói rằng anh ấy thích pizza." },
+            { "correct": "She told me she was tired.", "vi": "Cô ấy bảo tôi là cô ấy bị mệt." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "grammar": [
+        {
+          "title": "Conditionals (Câu điều kiện Loại 1 & 2)",
+          "desc": "Dùng để diễn tả điều kiện và kết quả.",
+          "formula": [
+            { "text": "If + S + V(HTĐ), S + will + V", "meaning": "Loại 1: Có thể xảy ra ở hiện tại/tương lai" },
+            { "text": "If + S + V(QKĐ), S + would + V", "meaning": "Loại 2: Trái với thực tế ở hiện tại" }
+          ],
+          "practiceList": [
+            { "correct": "If it rains, we will stay at home.", "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà." },
+            { "correct": "If I were you, I would buy that car.", "vi": "Nếu tôi là bạn, tôi sẽ mua chiếc ô tô đó." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 27,
+      "grammar": [
+        {
+          "title": "Passive Voice Review (Câu bị động)",
+          "desc": "Dùng khi hành động quan trọng hơn người thực hiện hành động.",
+          "formula": [
+            { "text": "S + to be + P2 (+ by O)", "meaning": "Cấu trúc chung câu bị động" }
+          ],
+          "practiceList": [
+            { "correct": "The letter was written by Mary.", "vi": "Bức thư đã được viết bởi Mary." },
+            { "correct": "My bike is being repaired.", "vi": "Chiếc xe đạp của tôi đang được sửa chữa." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 28,
+      "grammar": [
+        {
+          "title": "Phrasal Verbs (Cụm động từ)",
+          "desc": "Động từ kết hợp với giới từ tạo ra nghĩa mới.",
+          "formula": [
+            { "text": "Verb + Preposition", "meaning": "Cụm động từ" }
+          ],
+          "practiceList": [
+            { "correct": "Please turn off the lights.", "vi": "Làm ơn hãy tắt đèn." },
+            { "correct": "I need to look for my keys.", "vi": "Tôi cần tìm kiếm những chiếc chìa khóa của tôi." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "grammar": [
+        {
+          "title": "Verb + infinitive / gerund",
+          "desc": "Một số động từ theo sau là To V, một số theo sau là V-ing.",
+          "formula": [
+            { "text": "want / decide / hope + To V", "meaning": "Động từ + To V" },
+            { "text": "enjoy / mind / suggest + V-ing", "meaning": "Động từ + V-ing" }
+          ],
+          "practiceList": [
+            { "correct": "I decided to learn English.", "vi": "Tôi đã quyết định học tiếng Anh." },
+            { "correct": "She enjoys playing tennis.", "vi": "Cô ấy thích chơi quần vợt." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 30,
+      "grammar": [
+        {
+          "title": "Question Tags & Conjunctions",
+          "desc": "Câu hỏi đuôi để xác nhận thông tin và Các từ nối để liên kết câu.",
+          "formula": [
+            { "text": "S + V(khẳng định), trợ động từ(phủ định) + S?", "meaning": "Câu hỏi đuôi" },
+            { "text": "and, but, or, so, because", "meaning": "Từ nối" }
+          ],
+          "practiceList": [
+            { "correct": "You are a student, aren't you?", "vi": "Bạn là học sinh, phải không?" },
+            { "correct": "I was sick, so I didn't go to work.", "vi": "Tôi đã bị ốm, vì vậy tôi đã không đi làm." }
+          ]
+        }
+      ]
+    }
+  ]
+}

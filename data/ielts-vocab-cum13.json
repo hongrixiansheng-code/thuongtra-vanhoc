@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 25,
+    "vocab": [
+      {
+        "word": "doctor",
+        "ipa": "/ˈdɒk.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bác sĩ",
+        "example_en": "She is a doctor.",
+        "example_vi": "Cô ấy là bác sĩ.",
+        "level": "A1"
+      },
+      {
+        "word": "nurse",
+        "ipa": "/nɜːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "y tá",
+        "example_en": "He is a nurse.",
+        "example_vi": "Anh ấy là y tá.",
+        "level": "A1"
+      },
+      {
+        "word": "teacher",
+        "ipa": "/ˈtiː.tʃər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giáo viên",
+        "example_en": "I am a teacher.",
+        "example_vi": "Tôi là giáo viên.",
+        "level": "A1"
+      },
+      {
+        "word": "student",
+        "ipa": "/ˈstjuː.dənt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "học sinh",
+        "example_en": "Are you a student?",
+        "example_vi": "Bạn có phải là học sinh không?",
+        "level": "A1"
+      },
+      {
+        "word": "pilot",
+        "ipa": "/ˈpaɪ.lət/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phi công",
+        "example_en": "The pilot is busy.",
+        "example_vi": "Người phi công đang bận.",
+        "level": "A1"
+      },
+      {
+        "word": "driver",
+        "ipa": "/ˈdraɪ.vər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tài xế",
+        "example_en": "The driver is kind.",
+        "example_vi": "Tài xế rất tốt bụng.",
+        "level": "A1"
+      },
+      {
+        "word": "chef",
+        "ipa": "/ʃef/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "đầu bếp",
+        "example_en": "The chef cooks well.",
+        "example_vi": "Đầu bếp nấu ăn ngon.",
+        "level": "A1"
+      },
+      {
+        "word": "waiter",
+        "ipa": "/ˈweɪ.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bồi bàn",
+        "example_en": "Call the waiter.",
+        "example_vi": "Gọi bồi bàn.",
+        "level": "A1"
+      },
+      {
+        "word": "farmer",
+        "ipa": "/ˈfɑː.mər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nông dân",
+        "example_en": "The farmer works hard.",
+        "example_vi": "Người nông dân làm việc chăm chỉ.",
+        "level": "A1"
+      },
+      {
+        "word": "worker",
+        "ipa": "/ˈwɜː.kər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "công nhân",
+        "example_en": "The worker is tired.",
+        "example_vi": "Người công nhân đang mệt.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "vocab": [
+      {
+        "word": "engineer",
+        "ipa": "/ˌen.dʒɪˈnɪər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kỹ sư",
+        "example_en": "He is an engineer.",
+        "example_vi": "Anh ấy là kỹ sư.",
+        "level": "A1"
+      },
+      {
+        "word": "artist",
+        "ipa": "/ˈɑː.tɪst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nghệ sĩ",
+        "example_en": "She is an artist.",
+        "example_vi": "Cô ấy là nghệ sĩ.",
+        "level": "A1"
+      },
+      {
+        "word": "actor",
+        "ipa": "/ˈæk.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "diễn viên nam",
+        "example_en": "He is an actor.",
+        "example_vi": "Anh ấy là nam diễn viên.",
+        "level": "A1"
+      },
+      {
+        "word": "singer",
+        "ipa": "/ˈsɪŋ.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ca sĩ",
+        "example_en": "She is a singer.",
+        "example_vi": "Cô ấy là ca sĩ.",
+        "level": "A1"
+      },
+      {
+        "word": "dancer",
+        "ipa": "/ˈdɑːn.sər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vũ công",
+        "example_en": "He is a dancer.",
+        "example_vi": "Anh ấy là vũ công.",
+        "level": "A1"
+      },
+      {
+        "word": "writer",
+        "ipa": "/ˈraɪ.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà văn",
+        "example_en": "I am a writer.",
+        "example_vi": "Tôi là nhà văn.",
+        "level": "A1"
+      },
+      {
+        "word": "manager",
+        "ipa": "/ˈmæn.ɪ.dʒər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quản lý",
+        "example_en": "Call the manager.",
+        "example_vi": "Gọi quản lý đi.",
+        "level": "A1"
+      },
+      {
+        "word": "assistant",
+        "ipa": "/əˈsɪs.tənt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trợ lý",
+        "example_en": "She is my assistant.",
+        "example_vi": "Cô ấy là trợ lý của tôi.",
+        "level": "A1"
+      },
+      {
+        "word": "guard",
+        "ipa": "/ɡɑːd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bảo vệ",
+        "example_en": "The guard is here.",
+        "example_vi": "Bảo vệ đang ở đây.",
+        "level": "A1"
+      },
+      {
+        "word": "police",
+        "ipa": "/pəˈliːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cảnh sát",
+        "example_en": "Call the police.",
+        "example_vi": "Gọi cảnh sát.",
+        "level": "A1"
+      }
+    ]
+  }
+]

@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 28,
+      "grammar": [
+        {
+          "title": "Skimming & scanning",
+          "desc": "Chiến thuật làm bài đọc hiểu: Đọc lướt lấy ý chính (Skim) và Quét tìm chi tiết cụ thể (Scan).",
+          "formula": [
+            {
+              "text": "Skim (Ý chính) - Scan (Chi tiết)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Skim the text to get the main idea quickly.",
+              "meaning": "Đọc lướt văn bản để nắm ý chính một cách nhanh chóng."
+            },
+            {
+              "correct": "Scan the text to find specific names or dates.",
+              "meaning": "Quét văn bản để tìm các cái tên hoặc ngày tháng cụ thể."
+            },
+            {
+              "correct": "Skimming helps you understand the overall topic.",
+              "meaning": "Đọc lướt giúp bạn hiểu chủ đề tổng thể."
+            },
+            {
+              "correct": "Scanning is useful for finding numbers.",
+              "meaning": "Kỹ năng quét rất hữu ích khi muốn tìm các con số."
+            }
+          ]
+        },
+        {
+          "title": "Câu hỏi suy luận",
+          "desc": "Tìm câu trả lời dựa trên những ẩn ý của tác giả mà không được viết thẳng ra trong bài.",
+          "formula": [
+            {
+              "text": "Infer/Suggest/Imply",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It can be inferred that the author is angry.",
+              "meaning": "Có thể suy luận ra rằng tác giả đang tức giận."
+            },
+            {
+              "correct": "The text suggests that the problem is serious.",
+              "meaning": "Văn bản ngụ ý rằng vấn đề này đang rất nghiêm trọng."
+            },
+            {
+              "correct": "What can be inferred from paragraph 2?",
+              "meaning": "Có thể suy luận được gì từ đoạn 2?"
+            },
+            {
+              "correct": "The writer implies that the solution is not easy.",
+              "meaning": "Người viết ám chỉ rằng giải pháp không hề dễ dàng."
+            }
+          ]
+        },
+        {
+          "title": "Vocabulary in context",
+          "desc": "Kỹ năng đoán nghĩa của từ vựng mới dựa vào các từ xung quanh và ngữ cảnh của đoạn văn.",
+          "formula": [
+            {
+              "text": "Đoán nghĩa qua ngữ cảnh",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Guess the meaning of the word from the surrounding words.",
+              "meaning": "Đoán nghĩa của từ dựa vào các từ xung quanh."
+            },
+            {
+              "correct": "The context helps you understand new vocabulary.",
+              "meaning": "Ngữ cảnh giúp bạn hiểu từ vựng mới."
+            },
+            {
+              "correct": "Read the whole sentence to guess the word's meaning.",
+              "meaning": "Đọc toàn bộ câu để đoán nghĩa của từ."
+            },
+            {
+              "correct": "Look for clues in the previous sentence.",
+              "meaning": "Tìm kiếm các manh mối ở câu ngay trước đó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "grammar": [
+        {
+          "title": "Past Simple vs Past Continuous",
+          "desc": "Trong văn tường thuật: Quá khứ tiếp diễn mô tả bối cảnh nền, Quá khứ đơn mô tả sự kiện chính cắt ngang.",
+          "formula": [
+            {
+              "text": "Nền (Past Cont.) + Sự kiện (Past Simple)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The sun was shining when the murder happened.",
+              "meaning": "Mặt trời đang chiếu sáng khi vụ án mạng xảy ra."
+            },
+            {
+              "correct": "I was sleeping when you knocked on the door.",
+              "meaning": "Tôi đang ngủ thì bạn gõ cửa."
+            },
+            {
+              "correct": "It was raining hard when we left the house.",
+              "meaning": "Trời đang mưa to lúc chúng tôi rời khỏi nhà."
+            },
+            {
+              "correct": "She was reading while he was cooking.",
+              "meaning": "Cô ấy đang đọc sách trong khi anh ấy đang nấu ăn."
+            }
+          ]
+        },
+        {
+          "title": "Time expressions in narratives",
+          "desc": "Các từ chỉ thời gian giúp tạo liên kết và nhịp điệu cho câu chuyện (suddenly, eventually...).",
+          "formula": [
+            {
+              "text": "Suddenly/Immediately/Eventually/Finally",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Suddenly, the door opened.",
+              "meaning": "Đột nhiên, cánh cửa mở ra."
+            },
+            {
+              "correct": "Immediately, he called the police.",
+              "meaning": "Ngay lập tức, anh ta gọi điện cho cảnh sát."
+            },
+            {
+              "correct": "Eventually, they found the treasure.",
+              "meaning": "Cuối cùng, họ cũng tìm thấy kho báu."
+            },
+            {
+              "correct": "Finally, the truth was revealed.",
+              "meaning": "Cuối cùng thì sự thật cũng đã được phơi bày."
+            }
+          ]
+        },
+        {
+          "title": "Mệnh đề quan hệ trong văn học",
+          "desc": "Sử dụng mệnh đề quan hệ không xác định để bổ sung chi tiết miêu tả về nhân vật hoặc địa điểm.",
+          "formula": [
+            {
+              "text": "Noun, who/which ..., V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The man, who was wearing a dark coat, ran away.",
+              "meaning": "Người đàn ông, người mà đang mặc áo khoác tối màu, đã bỏ chạy."
+            },
+            {
+              "correct": "The castle, which stood on the hill, was old.",
+              "meaning": "Tòa lâu đài, cái nằm trên đỉnh đồi, đã rất cũ kĩ."
+            },
+            {
+              "correct": "The ring, which he had lost years ago, was found.",
+              "meaning": "Chiếc nhẫn, thứ mà anh đã làm mất nhiều năm trước, đã được tìm thấy."
+            },
+            {
+              "correct": "The woman whose son was missing cried loudly.",
+              "meaning": "Người phụ nữ có đứa con bị mất tích đã khóc rất to."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

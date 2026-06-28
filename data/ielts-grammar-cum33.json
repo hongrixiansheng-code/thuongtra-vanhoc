@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 65,
+    "grammar": [
+      {
+        "title": "Hiện tại hoàn thành (Present Perfect) — Giới thiệu",
+        "desc": "Dùng have/has + V3 (quá khứ phân từ) để nói về trải nghiệm/hành động xảy ra trong quá khứ nhưng không nói rõ thời điểm cụ thể, vẫn còn liên quan đến hiện tại.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "have / has", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "V3 (Past Participle)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have visited Japan.", "vi": "Tôi đã từng đến Nhật Bản." },
+          { "en": "She has tried sushi before.", "vi": "Cô ấy đã từng ăn thử sushi." },
+          { "en": "We have had many great experiences together.", "vi": "Chúng tôi đã có nhiều trải nghiệm tuyệt vời cùng nhau." }
+        ],
+        "note": "I/you/we/they dùng \"have\"; he/she/it dùng \"has\". Động từ có quy tắc: V3 = V2 (thêm -ed); động từ bất quy tắc cần học riêng (go→gone, see→seen, do→done...).",
+        "practiceList": [
+          { "question": "I ___ (visit) three countries in Asia.", "correct": "have visited", "meaning": "Tôi đã đến thăm ba quốc gia ở châu Á.", "explanation": "Chủ ngữ \"I\" dùng \"have\" + V3." },
+          { "question": "He ___ (try) Vietnamese food.", "correct": "has tried", "meaning": "Anh ấy đã thử món ăn Việt Nam.", "explanation": "Chủ ngữ số ít \"he\" dùng \"has\" + V3." },
+          { "question": "They ___ (have) a wonderful trip.", "correct": "have had", "meaning": "Họ đã có một chuyến đi tuyệt vời.", "explanation": "\"have\" làm động từ chính có V3 là \"had\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "grammar": [
+      {
+        "title": "Hiện tại hoàn thành — \"ever / never\"",
+        "desc": "Dùng \"ever\" trong câu hỏi để hỏi về kinh nghiệm đã từng có, và \"never\" để nói chưa từng làm điều gì.",
+        "formula": [
+          { "text": "Have/Has + S + ever + V3 ?", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "S + have/has + never + V3", "classes": "border-red-500 text-red-600 bg-red-50" }
+        ],
+        "examples": [
+          { "en": "Have you ever been to Da Lat?", "vi": "Bạn đã từng đến Đà Lạt chưa?" },
+          { "en": "She has never eaten durian.", "vi": "Cô ấy chưa từng ăn sầu riêng." },
+          { "en": "Have they ever seen snow?", "vi": "Họ đã từng thấy tuyết chưa?" }
+        ],
+        "note": "\"ever\" đứng giữa have/has và chủ ngữ trong câu hỏi (sau khi đảo). \"never\" đứng giữa have/has và V3 trong câu khẳng định mang nghĩa phủ định.",
+        "practiceList": [
+          { "question": "___ you ever read this book?", "correct": "Have", "meaning": "Bạn đã từng đọc cuốn sách này chưa?", "explanation": "Câu hỏi kinh nghiệm dùng \"Have/Has + ever\"." },
+          { "question": "He has ___ (never/eat) crab before.", "correct": "never eaten", "meaning": "Anh ấy chưa từng ăn cua trước đây.", "explanation": "\"never\" + V3 diễn tả chưa từng làm." },
+          { "question": "Have you ___ (ever/win) a competition?", "correct": "ever won", "meaning": "Bạn đã từng thắng một cuộc thi chưa?", "explanation": "\"ever\" trong câu hỏi đặt trước V3." }
+        ]
+      }
+    ]
+  }
+]

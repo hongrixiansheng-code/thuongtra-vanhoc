@@ -1,0 +1,111 @@
+[
+  {
+    "lessonOrder": 9,
+    "vocab": [
+      {
+        "word": "left",
+        "ipa": "/left/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bên trái",
+        "example_en": "The hospital is on the left.",
+        "example_vi": "Bệnh viện ở bên trái.",
+        "level": "A1"
+      },
+      {
+        "word": "right",
+        "ipa": "/raɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bên phải",
+        "example_en": "The park is on the right.",
+        "example_vi": "Công viên ở bên phải.",
+        "level": "A1"
+      },
+      {
+        "word": "straight",
+        "ipa": "/streɪt/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thẳng",
+        "example_en": "Go straight.",
+        "example_vi": "Đi thẳng.",
+        "level": "A1"
+      },
+      {
+        "word": "corner",
+        "ipa": "/ˈkɔː.nər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "góc đường",
+        "example_en": "The café is at the corner.",
+        "example_vi": "Quán cà phê ở góc đường.",
+        "level": "A1"
+      },
+      {
+        "word": "turn",
+        "ipa": "/tɜːn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "rẽ",
+        "example_en": "Turn left.",
+        "example_vi": "Rẽ trái.",
+        "level": "A1"
+      },
+      {
+        "word": "pass",
+        "ipa": "/pɑːs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi qua",
+        "example_en": "Pass the bank.",
+        "example_vi": "Đi ngang qua ngân hàng.",
+        "level": "A1"
+      },
+      {
+        "word": "cross",
+        "ipa": "/krɒs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "băng qua",
+        "example_en": "Cross the road.",
+        "example_vi": "Băng qua đường.",
+        "level": "A1"
+      },
+      {
+        "word": "near",
+        "ipa": "/nɪər/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "gần",
+        "example_en": "The station is near.",
+        "example_vi": "Nhà ga ở gần.",
+        "level": "A1"
+      },
+      {
+        "word": "far",
+        "ipa": "/fɑːr/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "xa",
+        "example_en": "The hospital is far.",
+        "example_vi": "Bệnh viện ở xa.",
+        "level": "A1"
+      },
+      {
+        "word": "behind",
+        "ipa": "/bɪˈhaɪnd/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "đằng sau",
+        "example_en": "The market is behind the school.",
+        "example_vi": "Chợ ở đằng sau trường học.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "vocab": []
+  }
+]

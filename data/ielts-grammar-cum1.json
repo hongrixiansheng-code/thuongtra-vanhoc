@@ -1,0 +1,147 @@
+[
+  {
+    "lessonOrder": 1,
+    "grammar": [
+      {
+        "title": "Động từ \"be\" — Khẳng định",
+        "desc": "Dùng am/is/are để giới thiệu tên, tuổi, quốc tịch của bản thân và người khác.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "am / is / are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun / Adjective",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I am a student.",
+            "vi": "Tôi là học sinh."
+          },
+          {
+            "en": "He is a teacher.",
+            "vi": "Anh ấy là giáo viên."
+          }
+        ],
+        "note": "\"I\" luôn đi với \"am\". Số ít (he/she/it) đi với \"is\". Số nhiều (you/we/they) đi với \"are\".",
+        "practiceList": [
+          {
+            "question": "I ___ a student.",
+            "correct": "am",
+            "meaning": "Tôi là học sinh.",
+            "explanation": "Chủ ngữ \"I\" luôn đi với động từ \"be\" là \"am\"."
+          },
+          {
+            "question": "He ___ a teacher.",
+            "correct": "is",
+            "meaning": "Anh ấy là giáo viên.",
+            "explanation": "Chủ ngữ \"He\" là ngôi thứ 3 số ít, nên dùng \"is\"."
+          },
+          {
+            "question": "They ___ doctors.",
+            "correct": "are",
+            "meaning": "Họ là bác sĩ.",
+            "explanation": "Chủ ngữ \"They\" là số nhiều, nên dùng \"are\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "grammar": [
+      {
+        "title": "Động từ \"be\" — Phủ định",
+        "desc": "Dùng để phủ nhận một thông tin hoặc trạng thái.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "am / is / are + not",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun / Adjective",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "He isn't a father.",
+            "vi": "Anh ấy không phải là bố."
+          },
+          {
+            "en": "They aren't a couple.",
+            "vi": "Họ không phải là một cặp đôi."
+          }
+        ],
+        "note": "is not = isn't, are not = aren't. \"am not\" không có dạng viết tắt chung.",
+        "practiceList": [
+          {
+            "question": "She ___ my sister. (Phủ định)",
+            "correct": "isn't",
+            "meaning": "Cô ấy không phải là chị của tôi.",
+            "explanation": "Chủ ngữ \"She\" đi với \"is\", phủ định là \"isn't\"."
+          },
+          {
+            "question": "They ___ parents yet. (Phủ định)",
+            "correct": "aren't",
+            "meaning": "Họ chưa phải là cha mẹ.",
+            "explanation": "Chủ ngữ \"They\" đi với \"are\", phủ định là \"aren't\"."
+          }
+        ]
+      },
+      {
+        "title": "Động từ \"be\" — Câu hỏi",
+        "desc": "Dùng để đặt câu hỏi xác nhận thông tin.",
+        "formula": [
+          {
+            "text": "Am / Is / Are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "Noun / Adjective ?",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Are they a couple?",
+            "vi": "Họ có phải là một cặp đôi không?"
+          },
+          {
+            "en": "Is she a mother?",
+            "vi": "Cô ấy có phải là một người mẹ không?"
+          }
+        ],
+        "note": "Đảo động từ to be (am/is/are) lên trước chủ ngữ để tạo câu hỏi.",
+        "practiceList": [
+          {
+            "question": "___ you a student?",
+            "correct": "Are",
+            "meaning": "Bạn có phải là học sinh không?",
+            "explanation": "Trong câu hỏi với \"you\", động từ \"be\" đảo lên đầu là \"Are\"."
+          },
+          {
+            "question": "___ he your brother?",
+            "correct": "Is",
+            "meaning": "Anh ấy có phải là anh của bạn không?",
+            "explanation": "Chủ ngữ \"he\" đi với \"is\", đảo lên đầu câu hỏi."
+          }
+        ]
+      }
+    ]
+  }
+]

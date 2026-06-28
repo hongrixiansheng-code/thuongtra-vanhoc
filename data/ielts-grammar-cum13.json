@@ -1,0 +1,122 @@
+[
+  {
+    "lessonOrder": 25,
+    "grammar": [
+      {
+        "title": "Hiện tại đơn (Present Simple) — Mô tả nghề nghiệp",
+        "desc": "Khi mô tả nghề nghiệp và nhiệm vụ công việc, ta dùng thì hiện tại đơn vì đó là một sự thật, một tình trạng bền vững.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "am / is / are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "a / an + Tên nghề nghiệp",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I am a doctor.",
+            "vi": "Tôi là bác sĩ."
+          },
+          {
+            "en": "She is an engineer.",
+            "vi": "Cô ấy là một kỹ sư."
+          },
+          {
+            "en": "My father drives a taxi. He is a driver.",
+            "vi": "Bố tôi lái xe taxi. Ông ấy là tài xế."
+          }
+        ],
+        "note": "Phải dùng mạo từ a/an trước danh từ chỉ nghề nghiệp đếm được số ít.",
+        "practiceList": [
+          {
+            "question": "He is ___ farmer.",
+            "correct": "a",
+            "meaning": "Anh ấy là một nông dân.",
+            "explanation": "Trước danh từ nghề nghiệp số ít bắt đầu bằng phụ âm dùng \"a\"."
+          },
+          {
+            "question": "My sister is ___ artist.",
+            "correct": "an",
+            "meaning": "Chị gái tôi là một họa sĩ.",
+            "explanation": "Trước danh từ bắt đầu bằng nguyên âm (artist) dùng \"an\"."
+          },
+          {
+            "question": "Doctors ___ people. (help)",
+            "correct": "help",
+            "meaning": "Bác sĩ giúp đỡ mọi người.",
+            "explanation": "Danh từ số nhiều (Doctors) nên động từ giữ nguyên."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "grammar": [
+      {
+        "title": "Câu hỏi nghề nghiệp (What do you do?)",
+        "desc": "Dùng để hỏi ai đó làm nghề gì thay vì hỏi \"What is your job?\".",
+        "formula": [
+          {
+            "text": "What",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          },
+          {
+            "text": "do / does",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "do ?",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "What do you do?",
+            "vi": "Bạn làm nghề gì?"
+          },
+          {
+            "en": "What does your mother do?",
+            "vi": "Mẹ bạn làm nghề gì?"
+          },
+          {
+            "en": "What do they do?",
+            "vi": "Họ làm nghề gì?"
+          }
+        ],
+        "note": "Chữ \"do\" đầu tiên là trợ động từ (chia theo chủ ngữ). Chữ \"do\" thứ hai là động từ chính (luôn ở nguyên mẫu).",
+        "practiceList": [
+          {
+            "question": "What ___ your brother do?",
+            "correct": "does",
+            "meaning": "Anh trai bạn làm nghề gì?",
+            "explanation": "Chủ ngữ \"your brother\" là số ít nên dùng trợ động từ \"does\"."
+          },
+          {
+            "question": "___ do you do?",
+            "correct": "What",
+            "meaning": "Bạn làm nghề gì?",
+            "explanation": "Từ để hỏi nghề nghiệp là \"What\"."
+          },
+          {
+            "question": "What does a pilot ___?",
+            "correct": "do",
+            "meaning": "Một phi công làm công việc gì?",
+            "explanation": "Động từ chính ở cuối luôn là \"do\"."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 1,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Personal information",
+        "part": 1,
+        "questions": ["What's your name?", "How old are you?", "What is your nationality?", "What is your occupation?", "What is your address?"],
+        "sampleAnswer": "My name is Linh. I am twenty years old. I am Vietnamese. I am a student. My address is in Hanoi."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Family",
+        "part": 1,
+        "questions": ["Do you have a big family?", "Who is in your family?", "Is your mother a teacher?", "Are you close to your brother or sister?"],
+        "sampleAnswer": "I don't have a big family. My father is a doctor and my mother is a nurse. I have one sister. We are very close."
+      }
+    ]
+  }
+]

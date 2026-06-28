@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 26,
+      "dialogues": [
+        {
+          "title": "Learning new skills",
+          "lines": [
+            {
+              "speaker": "Lucas",
+              "en": "I am interested in learning how to play the guitar, but I don't know where to begin. Do you recommend taking online classes or hiring a private tutor?",
+              "vi": "Tôi quan tâm đến việc học cách chơi guitar, nhưng tôi không biết bắt đầu từ đâu. Bạn khuyên nên học các lớp trực tuyến hay thuê một gia sư riêng?"
+            },
+            {
+              "speaker": "Hannah",
+              "en": "I suggest watching YouTube tutorials first to see if you really enjoy practicing. Buying a cheap instrument is a good way to start without spending too much.",
+              "vi": "Tôi đề nghị xem các video hướng dẫn trên YouTube trước để xem liệu bạn có thực sự thích việc luyện tập hay không. Mua một nhạc cụ rẻ tiền là một cách tốt để bắt đầu mà không tốn quá nhiều tiền."
+            },
+            {
+              "speaker": "Lucas",
+              "en": "That makes sense because I usually give up playing after a few weeks. It is quite difficult to memorize all the different chords.",
+              "vi": "Điều đó có lý vì tôi thường từ bỏ việc chơi nhạc sau vài tuần. Thật khá khó để ghi nhớ tất cả các hợp âm khác nhau."
+            },
+            {
+              "speaker": "Hannah",
+              "en": "You should avoid practicing for long hours at the beginning. It is better to play for twenty minutes every day to build a strong habit.",
+              "vi": "Bạn nên tránh luyện tập trong nhiều giờ liền lúc ban đầu. Tốt hơn là chơi hai mươi phút mỗi ngày để xây dựng một thói quen vững chắc."
+            },
+            {
+              "speaker": "Lucas",
+              "en": "I am looking forward to playing my favorite songs, which are mostly acoustic rock. I remember listening to them when I was a teenager.",
+              "vi": "Tôi đang mong đợi được chơi những bài hát yêu thích của mình, những bài chủ yếu là acoustic rock. Tôi nhớ đã nghe chúng khi tôi còn là một thiếu niên."
+            },
+            {
+              "speaker": "Hannah",
+              "en": "Don't forget to tune your guitar before you start playing any notes. Tuning the strings properly is essential for producing a beautiful sound.",
+              "vi": "Đừng quên chỉnh âm guitar của bạn trước khi bạn bắt đầu chơi bất kỳ nốt nhạc nào. Việc chỉnh dây đúng cách là thiết yếu để tạo ra một âm thanh đẹp."
+            },
+            {
+              "speaker": "Lucas",
+              "en": "I hope to perform in front of my friends when we have a party next month. I need to practice hard to avoid embarrassing myself.",
+              "vi": "Tôi hy vọng sẽ biểu diễn trước mặt bạn bè khi chúng tôi có một bữa tiệc vào tháng tới. Tôi cần luyện tập chăm chỉ để tránh làm bản thân xấu hổ."
+            },
+            {
+              "speaker": "Hannah",
+              "en": "I am sure they will enjoy listening to your music regardless of your skill level. Just focus on having fun and expressing your emotions.",
+              "vi": "Tôi chắc chắn họ sẽ thích nghe âm nhạc của bạn bất kể cấp độ kỹ năng của bạn. Chỉ cần tập trung vào việc tận hưởng và thể hiện cảm xúc của bạn."
+            }
+          ]
+        },
+        {
+          "title": "Discussing extreme sports",
+          "lines": [
+            {
+              "speaker": "Alex",
+              "en": "I am thinking about trying skydiving next summer because I love experiencing intense thrills. Jumping out of an airplane sounds like an incredible adventure.",
+              "vi": "Tôi đang suy nghĩ về việc thử nhảy dù vào mùa hè tới vì tôi thích trải nghiệm những cảm giác mạnh dữ dội. Nhảy ra khỏi một chiếc máy bay nghe có vẻ như một cuộc phiêu lưu đáng kinh ngạc."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I can't imagine doing something so dangerous! I am terrified of heights, so I avoid climbing tall buildings or looking down from bridges.",
+              "vi": "Tôi không thể tưởng tượng được việc làm điều gì đó nguy hiểm như vậy! Tôi sợ độ cao, vì vậy tôi tránh việc leo lên các tòa nhà cao tầng hay nhìn xuống từ những cây cầu."
+            },
+            {
+              "speaker": "Alex",
+              "en": "You don't need to worry because they provide professional training before you jump. Being strapped to an experienced instructor makes it completely safe.",
+              "vi": "Bạn không cần phải lo lắng vì họ cung cấp đào tạo chuyên nghiệp trước khi bạn nhảy. Việc được buộc chặt vào một người hướng dẫn giàu kinh nghiệm khiến nó hoàn toàn an toàn."
+            },
+            {
+              "speaker": "Mia",
+              "en": "Even so, I prefer staying on the ground where I feel much more secure. Have you ever considered trying scuba diving instead?",
+              "vi": "Mặc dù vậy, tôi thích ở trên mặt đất hơn nơi tôi cảm thấy an tâm hơn nhiều. Bạn đã bao giờ cân nhắc việc thử lặn biển có bình dưỡng khí thay thế chưa?"
+            },
+            {
+              "speaker": "Alex",
+              "en": "I enjoy swimming in the ocean, but exploring deep underwater caves seems a bit claustrophobic. I want to feel the wind hitting my face at high speed.",
+              "vi": "Tôi thích bơi trong đại dương, nhưng việc khám phá những hang động sâu dưới nước có vẻ hơi gây hội chứng sợ không gian hẹp. Tôi muốn cảm nhận gió đập vào mặt mình ở tốc độ cao."
+            },
+            {
+              "speaker": "Mia",
+              "en": "Well, you must remember to follow all the safety instructions carefully. Taking unnecessary risks is foolish when you are doing extreme sports.",
+              "vi": "Chà, bạn phải nhớ tuân theo tất cả các hướng dẫn an toàn một cách cẩn thận. Chấp nhận những rủi ro không cần thiết là ngu ngốc khi bạn đang chơi thể thao mạo hiểm."
+            },
+            {
+              "speaker": "Alex",
+              "en": "I promise to pay close attention to everything which the instructor says. I am looking forward to recording a video of my first jump.",
+              "vi": "Tôi hứa sẽ đặc biệt chú ý đến mọi điều mà người hướng dẫn nói. Tôi đang mong đợi việc quay một video về cú nhảy đầu tiên của mình."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I will be happy to watch the video from the comfort of my living room. I hope you have a wonderful and safe experience.",
+              "vi": "Tôi sẽ rất vui khi xem video đó từ sự thoải mái trong phòng khách của mình. Tôi hy vọng bạn có một trải nghiệm tuyệt vời và an toàn."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 27,
+      "dialogues": [
+        {
+          "title": "Applying for a visa",
+          "lines": [
+            {
+              "speaker": "Applicant",
+              "en": "I am submitting my visa application today so that I can study in Canada next semester. I have brought all the documents which were listed on your website.",
+              "vi": "Hôm nay tôi đang nộp đơn xin thị thực của mình để tôi có thể học ở Canada vào học kỳ tới. Tôi đã mang theo tất cả các tài liệu những thứ được liệt kê trên trang web của bạn."
+            },
+            {
+              "speaker": "Officer",
+              "en": "Please hand me your passport and the admission letter which you received from the university. I need to verify your identity before we proceed.",
+              "vi": "Vui lòng đưa tôi hộ chiếu của bạn và thư nhập học cái mà bạn đã nhận được từ trường đại học. Tôi cần xác minh danh tính của bạn trước khi chúng ta tiếp tục."
+            },
+            {
+              "speaker": "Applicant",
+              "en": "Here they are. I also included my bank statements, which prove that I have enough money to cover my living expenses.",
+              "vi": "Chúng đây ạ. Tôi cũng đã bao gồm các bản sao kê ngân hàng của mình, những thứ chứng minh rằng tôi có đủ tiền để trang trải chi phí sinh hoạt."
+            },
+            {
+              "speaker": "Officer",
+              "en": "Thank you. The financial proof is crucial because international students are not allowed to work full-time while they are studying.",
+              "vi": "Cảm ơn. Bằng chứng tài chính là cực kỳ quan trọng bởi vì sinh viên quốc tế không được phép làm việc toàn thời gian trong khi họ đang học."
+            },
+            {
+              "speaker": "Applicant",
+              "en": "I understand that rule, and my parents, who are sponsoring my education, have deposited the required funds. How long does it usually take to process the application?",
+              "vi": "Tôi hiểu quy định đó, và bố mẹ tôi, những người đang tài trợ cho việc học của tôi, đã gửi khoản tiền được yêu cầu. Thường mất bao lâu để xử lý hồ sơ?"
+            },
+            {
+              "speaker": "Officer",
+              "en": "It usually takes about four weeks, provided that no additional information is required. You will receive an email as soon as a decision has been made.",
+              "vi": "Thường mất khoảng bốn tuần, với điều kiện là không có thông tin bổ sung nào được yêu cầu. Bạn sẽ nhận được một email ngay khi một quyết định đã được đưa ra."
+            },
+            {
+              "speaker": "Applicant",
+              "en": "I hope everything is in order, as I have booked my flight for the first week of September. I want to arrive early so as to find an apartment.",
+              "vi": "Tôi hy vọng mọi thứ đều ổn thỏa, vì tôi đã đặt chuyến bay cho tuần đầu tiên của tháng Chín. Tôi muốn đến sớm để tìm một căn hộ."
+            },
+            {
+              "speaker": "Officer",
+              "en": "Your documents seem complete, so there shouldn't be any major problems. We wish you the best of luck with your studies in Canada.",
+              "vi": "Các tài liệu của bạn có vẻ đầy đủ, vì vậy không nên có bất kỳ vấn đề lớn nào. Chúng tôi chúc bạn may mắn nhất với việc học tập của bạn tại Canada."
+            }
+          ]
+        },
+        {
+          "title": "Organizing a charity marathon",
+          "lines": [
+            {
+              "speaker": "Julia",
+              "en": "We need to plan the charity marathon carefully so that we can raise as much money as possible. The funds, which will be collected, are going to the local children's hospital.",
+              "vi": "Chúng ta cần lên kế hoạch cho cuộc thi marathon từ thiện một cách cẩn thận để chúng ta có thể quyên góp được nhiều tiền nhất có thể. Các quỹ, những thứ sẽ được thu thập, sẽ được chuyển đến bệnh viện nhi đồng địa phương."
+            },
+            {
+              "speaker": "Ben",
+              "en": "I agree completely. We should create a website where people can register online easily. The simpler the process is, the more participants we will get.",
+              "vi": "Tôi hoàn toàn đồng ý. Chúng ta nên tạo một trang web nơi mọi người có thể đăng ký trực tuyến một cách dễ dàng. Quy trình càng đơn giản thì chúng ta sẽ càng có nhiều người tham gia."
+            },
+            {
+              "speaker": "Julia",
+              "en": "I will contact the city council tomorrow in order to get permission to use the main roads. It is essential that we ensure the safety of all the runners.",
+              "vi": "Ngày mai tôi sẽ liên hệ với hội đồng thành phố để xin phép sử dụng các con đường chính. Việc chúng ta đảm bảo an toàn cho tất cả những người chạy bộ là điều thiết yếu."
+            },
+            {
+              "speaker": "Ben",
+              "en": "We also need to ask local businesses whether they would like to sponsor the event. Companies which sponsor charity events often receive good publicity.",
+              "vi": "Chúng ta cũng cần hỏi các doanh nghiệp địa phương xem họ có muốn tài trợ cho sự kiện không. Các công ty những nơi tài trợ cho các sự kiện từ thiện thường nhận được sự quảng bá tốt."
+            },
+            {
+              "speaker": "Julia",
+              "en": "I have already drafted a letter which explains our mission clearly. I will send it to fifty companies as soon as you review the content.",
+              "vi": "Tôi đã phác thảo một bức thư cái mà giải thích rõ ràng sứ mệnh của chúng ta. Tôi sẽ gửi nó cho năm mươi công ty ngay khi bạn xem xét nội dung."
+            },
+            {
+              "speaker": "Ben",
+              "en": "The letter looks great, but you should add some photos of the hospital so that it touches people's hearts. Visual elements make the message much more powerful.",
+              "vi": "Bức thư trông rất tuyệt, nhưng bạn nên thêm một vài bức ảnh của bệnh viện để nó chạm đến trái tim mọi người. Các yếu tố hình ảnh làm cho thông điệp mạnh mẽ hơn nhiều."
+            },
+            {
+              "speaker": "Julia",
+              "en": "That is a brilliant suggestion, and I will insert a few pictures before I print the letters. We must work hard if we want this marathon to be successful.",
+              "vi": "Đó là một gợi ý xuất sắc, và tôi sẽ chèn một vài bức ảnh trước khi in các bức thư. Chúng ta phải làm việc chăm chỉ nếu chúng ta muốn cuộc thi marathon này thành công."
+            },
+            {
+              "speaker": "Ben",
+              "en": "With such careful preparation, I am confident that we will exceed our fundraising goal. Let's schedule a meeting with the volunteers next Friday.",
+              "vi": "Với sự chuẩn bị cẩn thận như vậy, tôi tự tin rằng chúng ta sẽ vượt qua mục tiêu gây quỹ. Hãy lên lịch một cuộc họp với các tình nguyện viên vào thứ Sáu tới."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

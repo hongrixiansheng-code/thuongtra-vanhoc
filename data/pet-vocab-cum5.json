@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 12,
+      "vocab": [
+        { "word": "expedition", "ipa": "/ˌek.spəˈdɪʃ.ən/", "type": "n.", "meaning": "cuộc thám hiểm", "example_en": "They are going on an expedition to the Amazon.", "example_vi": "Họ đang thực hiện một cuộc thám hiểm đến vùng Amazon." },
+        { "word": "backpacker", "ipa": "/ˈbæk.pæk.ər/", "type": "n.", "meaning": "người đi du lịch bụi", "example_en": "The hostel is full of young backpackers.", "example_vi": "Nhà trọ chật kín những du khách trẻ đi du lịch bụi." },
+        { "word": "backpacking", "ipa": "/ˈbæk.pæk.ɪŋ/", "type": "n.", "meaning": "việc đi du lịch bụi", "example_en": "They went backpacking in Europe for three months.", "example_vi": "Họ đã đi du lịch bụi ở Châu Âu trong ba tháng." },
+        { "word": "cruise", "ipa": "/kruːz/", "type": "n.", "meaning": "chuyến du ngoạn trên biển", "example_en": "We went on a luxury cruise around the Caribbean.", "example_vi": "Chúng tôi đã đi một chuyến du ngoạn sang trọng quanh vùng Caribe." },
+        { "word": "ferry", "ipa": "/ˈfer.i/", "type": "n.", "meaning": "phà", "example_en": "We took the ferry across the river.", "example_vi": "Chúng tôi đã đi phà qua sông." },
+        { "word": "destination", "ipa": "/ˌdes.tɪˈneɪ.ʃən/", "type": "n.", "meaning": "điểm đến", "example_en": "Spain is a popular holiday destination.", "example_vi": "Tây Ban Nha là một điểm đến nghỉ lễ phổ biến." },
+        { "word": "hitchhike", "ipa": "/ˈhɪtʃ.haɪk/", "type": "v.", "meaning": "đi nhờ xe", "example_en": "They hitchhiked all the way across the country.", "example_vi": "Họ đã đi nhờ xe dọc theo suốt cả đất nước." },
+        { "word": "fare", "ipa": "/feər/", "type": "n.", "meaning": "tiền vé (xe, tàu, máy bay)", "example_en": "Train fares are going up again next month.", "example_vi": "Giá vé tàu lại sắp tăng vào tháng tới." },
+        { "word": "immigration", "ipa": "/ˌɪm.ɪˈɡreɪ.ʃən/", "type": "n.", "meaning": "sự nhập cư, khu vực kiểm tra nhập cảnh", "example_en": "You have to show your passport at immigration.", "example_vi": "Bạn phải xuất trình hộ chiếu tại khu vực kiểm tra nhập cảnh." },
+        { "word": "customs", "ipa": "/ˈkʌs.təmz/", "type": "n.", "meaning": "hải quan", "example_en": "It took us a long time to get through customs.", "example_vi": "Chúng tôi đã mất một thời gian dài để qua khỏi cửa hải quan." }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "vocab": [
+        { "word": "accommodation", "ipa": "/əˌkɒm.əˈdeɪ.ʃən/", "type": "n.", "meaning": "chỗ ở", "example_en": "The price of the holiday includes flights and accommodation.", "example_vi": "Giá của kỳ nghỉ bao gồm cả vé máy bay và chỗ ở." },
+        { "word": "booking", "ipa": "/ˈbʊk.ɪŋ/", "type": "n.", "meaning": "sự đặt chỗ", "example_en": "Can I make a booking for two people for tonight?", "example_vi": "Tôi có thể đặt chỗ cho hai người vào tối nay được không?" },
+        { "word": "reservation", "ipa": "/ˌrez.əˈveɪ.ʃən/", "type": "n.", "meaning": "sự đặt trước", "example_en": "I'd like to make a table reservation for 8 p.m.", "example_vi": "Tôi muốn đặt bàn trước cho lúc 8 giờ tối." },
+        { "word": "hostel", "ipa": "/ˈhɒs.təl/", "type": "n.", "meaning": "nhà trọ giá rẻ", "example_en": "We stayed at a youth hostel to save money.", "example_vi": "Chúng tôi đã ở một nhà trọ thanh niên để tiết kiệm tiền." },
+        { "word": "facilities", "ipa": "/fəˈsɪl.ə.tiz/", "type": "n.", "meaning": "cơ sở vật chất, tiện nghi", "example_en": "The hotel has excellent sports facilities.", "example_vi": "Khách sạn có cơ sở vật chất thể thao xuất sắc." },
+        { "word": "brochure", "ipa": "/ˈbrəʊ.ʃər/", "type": "n.", "meaning": "cuốn sách mỏng quảng cáo", "example_en": "We looked through a travel brochure to choose our holiday.", "example_vi": "Chúng tôi đã xem qua một cuốn sách quảng cáo du lịch để chọn kỳ nghỉ." },
+        { "word": "guidebook", "ipa": "/ˈɡaɪd.bʊk/", "type": "n.", "meaning": "sách hướng dẫn du lịch", "example_en": "The guidebook has a lot of useful information about the city.", "example_vi": "Cuốn sách hướng dẫn du lịch có rất nhiều thông tin hữu ích về thành phố." },
+        { "word": "landmark", "ipa": "/ˈlænd.mɑːk/", "type": "n.", "meaning": "địa danh nổi bật, cột mốc", "example_en": "The Eiffel Tower is a famous landmark in Paris.", "example_vi": "Tháp Eiffel là một địa danh nổi tiếng ở Paris." },
+        { "word": "itinerary", "ipa": "/aɪˈtɪn.ər.ər.i/", "type": "n.", "meaning": "lịch trình chuyến đi", "example_en": "We carefully planned our itinerary before the trip.", "example_vi": "Chúng tôi đã lên lịch trình chuyến đi một cách cẩn thận trước chuyến đi." },
+        { "word": "souvenir", "ipa": "/ˌsuː.vənˈɪər/", "type": "n.", "meaning": "quà lưu niệm", "example_en": "I bought a small souvenir to remember the trip.", "example_vi": "Tôi đã mua một món quà lưu niệm nhỏ để nhớ về chuyến đi." }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "vocab": [
+        { "word": "motorway", "ipa": "/ˈməʊ.tə.weɪ/", "type": "n.", "meaning": "đường cao tốc", "example_en": "There is a speed limit on the motorway.", "example_vi": "Có giới hạn tốc độ trên đường cao tốc." },
+        { "word": "roundabout", "ipa": "/ˈraʊnd.ə.baʊt/", "type": "n.", "meaning": "vòng xuyến, bùng binh", "example_en": "Take the second exit at the roundabout.", "example_vi": "Hãy rẽ vào lối ra thứ hai tại bùng binh." },
+        { "word": "crossing", "ipa": "/ˈkrɒs.ɪŋ/", "type": "n.", "meaning": "vạch kẻ qua đường, ngã tư", "example_en": "Always wait for the green light at the pedestrian crossing.", "example_vi": "Hãy luôn đợi đèn xanh tại vạch qua đường dành cho người đi bộ." },
+        { "word": "junction", "ipa": "/ˈdʒʌŋk.ʃən/", "type": "n.", "meaning": "giao lộ, ngã ba/ngã tư", "example_en": "Turn left at the next junction.", "example_vi": "Hãy rẽ trái tại giao lộ tiếp theo." },
+        { "word": "traffic jam", "ipa": "/ˈtræf.ɪk ˌdʒæm/", "type": "n.", "meaning": "sự tắc đường", "example_en": "We were stuck in a traffic jam for an hour.", "example_vi": "Chúng tôi đã bị kẹt trong một vụ tắc đường suốt một giờ đồng hồ." },
+        { "word": "breakdown", "ipa": "/ˈbreɪk.daʊn/", "type": "n.", "meaning": "sự hỏng hóc (xe cộ)", "example_en": "I had a breakdown on the motorway and had to call for help.", "example_vi": "Xe của tôi bị hỏng trên đường cao tốc và tôi phải gọi người giúp đỡ." },
+        { "word": "insurance", "ipa": "/ɪnˈʃʊə.rəns/", "type": "n.", "meaning": "bảo hiểm", "example_en": "You must have car insurance to drive on the roads.", "example_vi": "Bạn phải có bảo hiểm xe hơi để lái xe trên đường." },
+        { "word": "licence", "ipa": "/ˈlaɪ.səns/", "type": "n.", "meaning": "giấy phép, bằng lái", "example_en": "He got his driving licence when he was 18.", "example_vi": "Anh ấy đã lấy được bằng lái xe khi 18 tuổi." },
+        { "word": "commute", "ipa": "/kəˈmjuːt/", "type": "v.", "meaning": "đi làm hàng ngày (quãng đường dài)", "example_en": "It takes him an hour to commute to work every day.", "example_vi": "Anh ấy mất một giờ đồng hồ để đi làm mỗi ngày." },
+        { "word": "rush hour", "ipa": "/ˈrʌʃ ˌaʊər/", "type": "n.", "meaning": "giờ cao điểm", "example_en": "Traffic is always heavy during rush hour.", "example_vi": "Giao thông luôn luôn đông đúc trong giờ cao điểm." }
+      ]
+    }
+  ]
+}

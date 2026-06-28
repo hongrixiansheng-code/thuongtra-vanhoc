@@ -1,0 +1,828 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 10,
+      "title": "Bài 5.a: Ngôi nhà (1/3)",
+      "theme": "Ngôi nhà & công nghệ",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "address",
+          "ipa": "/əˈdres/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "địa chỉ",
+          "example_en": "What is your address?",
+          "example_vi": "Địa chỉ của bạn là gì?"
+        },
+        {
+          "word": "balcony",
+          "ipa": "/ˈbælkəni/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ban công",
+          "example_en": "I am on the balcony.",
+          "example_vi": "Tôi đang ở trên ban công."
+        },
+        {
+          "word": "basement",
+          "ipa": "/ˈbeɪsmənt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tầng hầm",
+          "example_en": "The car is in the basement.",
+          "example_vi": "Xe ô tô ở trong tầng hầm."
+        },
+        {
+          "word": "blanket",
+          "ipa": "/ˈblæŋkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chăn, mền",
+          "example_en": "I have got a blanket on my bed.",
+          "example_vi": "Tôi có một cái chăn trên giường."
+        },
+        {
+          "word": "bottom",
+          "ipa": "/ˈbɒtəm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phần dưới cùng, đáy",
+          "example_en": "The cat is at the bottom of the building.",
+          "example_vi": "Con mèo ở dưới chân tòa nhà."
+        },
+        {
+          "word": "building",
+          "ipa": "/ˈbɪldɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tòa nhà",
+          "example_en": "This is a big building.",
+          "example_vi": "Đây là một tòa nhà lớn."
+        },
+        {
+          "word": "café",
+          "ipa": "/ˈkæfeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "quán cà phê",
+          "example_en": "We are at the café.",
+          "example_vi": "Chúng tôi đang ở quán cà phê."
+        },
+        {
+          "word": "city",
+          "ipa": "/ˈsɪti/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thành phố",
+          "example_en": "I live in a city.",
+          "example_vi": "Tôi sống ở một thành phố."
+        },
+        {
+          "word": "city/town centre (US center)",
+          "ipa": "/ˈsɪti ˈsentər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trung tâm thành phố/thị trấn",
+          "example_en": "The café is in the town centre.",
+          "example_vi": "Quán cà phê ở trung tâm thị trấn."
+        },
+        {
+          "word": "coat",
+          "ipa": "/koʊt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "áo khoác",
+          "example_en": "Wear your coat, it is cold.",
+          "example_vi": "Mặc áo khoác vào, trời lạnh đấy."
+        },
+        {
+          "word": "downstairs",
+          "ipa": "/ˌdaʊnˈsteərz/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "ở/xuống tầng dưới",
+          "example_en": "My mum is downstairs.",
+          "example_vi": "Mẹ tôi đang ở tầng dưới."
+        },
+        {
+          "word": "e-book",
+          "ipa": "/ˈiː bʊk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sách điện tử",
+          "example_en": "I would like an e-book.",
+          "example_vi": "Tôi muốn một cuốn sách điện tử."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "What is your address? : hỏi địa chỉ",
+          "desc": "Dùng 'What is your address?' để hỏi địa chỉ, trả lời bằng 'My address is...'.",
+          "formula": [
+            {
+              "text": "What is",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "your address?",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "What is your address?",
+              "meaning": "Địa chỉ của bạn là gì?"
+            },
+            {
+              "correct": "I live in a city.",
+              "meaning": "Tôi sống ở một thành phố."
+            },
+            {
+              "correct": "We live in the town centre.",
+              "meaning": "Chúng tôi sống ở trung tâm thị trấn."
+            }
+          ]
+        },
+        {
+          "title": "in/on + vị trí trong nhà",
+          "desc": "Ôn 'in' (trong) và 'on' (trên) áp dụng với các vị trí mới: basement, balcony, bottom.",
+          "formula": [
+            {
+              "text": "S + is/am",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "in/on",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "the basement/balcony",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am on the balcony.",
+              "meaning": "Tôi đang ở trên ban công."
+            },
+            {
+              "correct": "The car is in the basement.",
+              "meaning": "Xe ô tô ở trong tầng hầm."
+            },
+            {
+              "correct": "My mum is downstairs.",
+              "meaning": "Mẹ tôi đang ở tầng dưới."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + đồ vật trong nhà",
+          "desc": "Ôn 'have got' với các danh từ mới: blanket, coat, e-book.",
+          "formula": [
+            {
+              "text": "I",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a blanket/coat/e-book",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got a blanket on my bed.",
+              "meaning": "Tôi có một cái chăn trên giường."
+            },
+            {
+              "correct": "Wear your coat, it is cold.",
+              "meaning": "Mặc áo khoác vào, trời lạnh đấy."
+            },
+            {
+              "correct": "This is a big building.",
+              "meaning": "Đây là một tòa nhà lớn."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "What is your address?",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "What is your address?",
+              "vi": "Địa chỉ của bạn là gì?"
+            },
+            {
+              "speaker": "B",
+              "en": "I live in a big building in the city.",
+              "vi": "Tôi sống trong một tòa nhà lớn ở thành phố."
+            },
+            {
+              "speaker": "A",
+              "en": "Is there a balcony?",
+              "vi": "Có ban công không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, and there is a basement too.",
+              "vi": "Có, và còn có cả tầng hầm nữa."
+            },
+            {
+              "speaker": "A",
+              "en": "Is the café in your city?",
+              "vi": "Quán cà phê có trong thành phố của bạn không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, it is in the town centre.",
+              "vi": "Có, nó ở trung tâm thị trấn."
+            }
+          ]
+        },
+        {
+          "title": "It is cold!",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "It is cold today!",
+              "vi": "Hôm nay trời lạnh quá!"
+            },
+            {
+              "speaker": "B",
+              "en": "Wear your coat. Have you got your blanket?",
+              "vi": "Mặc áo khoác vào. Cậu có chăn chưa?"
+            },
+            {
+              "speaker": "A",
+              "en": "Where is my mum?",
+              "vi": "Mẹ tớ đâu rồi?"
+            },
+            {
+              "speaker": "B",
+              "en": "She is downstairs.",
+              "vi": "Mẹ đang ở tầng dưới."
+            },
+            {
+              "speaker": "A",
+              "en": "I would like an e-book too.",
+              "vi": "Tớ cũng muốn một cuốn sách điện tử."
+            },
+            {
+              "speaker": "B",
+              "en": "OK, it is on the table.",
+              "vi": "Được rồi, nó ở trên bàn đấy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "title": "Bài 5.b: Ngôi nhà (2/3)",
+      "theme": "Ngôi nhà & công nghệ",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "elevator (UK lift)",
+          "ipa": "/ˈelɪveɪtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thang máy",
+          "example_en": "We must go in the elevator.",
+          "example_vi": "Chúng ta phải đi thang máy."
+        },
+        {
+          "word": "email",
+          "ipa": "/ˈiːmeɪl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thư điện tử",
+          "example_en": "I have got an email.",
+          "example_vi": "Tôi có một email."
+        },
+        {
+          "word": "internet",
+          "ipa": "/ˈɪntərnet/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mạng internet",
+          "example_en": "The internet is good.",
+          "example_vi": "Mạng internet tốt."
+        },
+        {
+          "word": "laptop",
+          "ipa": "/ˈlæptɒp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "máy tính xách tay",
+          "example_en": "I have got a laptop.",
+          "example_vi": "Tôi có một chiếc máy tính xách tay."
+        },
+        {
+          "word": "library",
+          "ipa": "/ˈlaɪbreri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thư viện",
+          "example_en": "We are at the library.",
+          "example_vi": "Chúng tôi đang ở thư viện."
+        },
+        {
+          "word": "machine",
+          "ipa": "/məˈʃiːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "máy móc",
+          "example_en": "This is a big machine.",
+          "example_vi": "Đây là một cái máy lớn."
+        },
+        {
+          "word": "map",
+          "ipa": "/mæp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bản đồ",
+          "example_en": "Is there a map?",
+          "example_vi": "Có bản đồ không?"
+        },
+        {
+          "word": "message",
+          "ipa": "/ˈmesɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tin nhắn",
+          "example_en": "I have got a message.",
+          "example_vi": "Tôi có một tin nhắn."
+        },
+        {
+          "word": "roof",
+          "ipa": "/ruːf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mái nhà",
+          "example_en": "The bird is on the roof.",
+          "example_vi": "Con chim ở trên mái nhà."
+        },
+        {
+          "word": "scarf",
+          "ipa": "/skɑːrf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khăn quàng cổ",
+          "example_en": "Wear your scarf, it is cold.",
+          "example_vi": "Quàng khăn vào, trời lạnh đấy."
+        },
+        {
+          "word": "shower",
+          "ipa": "/ˈʃaʊər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vòi sen, tắm vòi sen",
+          "example_en": "I have got a shower in the morning.",
+          "example_vi": "Tôi tắm vòi sen vào buổi sáng."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "must + công nghệ: bắt buộc làm gì với thiết bị",
+          "desc": "Ôn 'must' với các tình huống công nghệ, nhà cửa mới.",
+          "formula": [
+            {
+              "text": "We/You",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "must",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "take the elevator",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We must go in the elevator.",
+              "meaning": "Chúng ta phải đi thang máy."
+            },
+            {
+              "correct": "You mustn't have the laptop now.",
+              "meaning": "Bạn không được dùng máy tính xách tay bây giờ."
+            },
+            {
+              "correct": "I must write an email.",
+              "meaning": "Tôi phải viết một email."
+            }
+          ]
+        },
+        {
+          "title": "is there a/an...? : hỏi sự tồn tại",
+          "desc": "Dùng 'Is there a/an...?' để hỏi có vật gì đó hay không, trả lời 'Yes, there is.' / 'No, there isn't.'",
+          "formula": [
+            {
+              "text": "Is there",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "a/an + noun",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "?",
+              "classes": "border-orange-200 bg-orange-50 text-orange-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Is there a map?",
+              "meaning": "Có bản đồ không?"
+            },
+            {
+              "correct": "Is there a library in the city?",
+              "meaning": "Có thư viện trong thành phố không?"
+            },
+            {
+              "correct": "Is there an elevator in this building?",
+              "meaning": "Tòa nhà này có thang máy không?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + đồ công nghệ & vật dụng",
+          "desc": "Ôn 'have got' với email, message, laptop, shower, scarf.",
+          "formula": [
+            {
+              "text": "I",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a laptop/an email",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got an email and a message.",
+              "meaning": "Tôi có một email và một tin nhắn."
+            },
+            {
+              "correct": "I have got a shower in the morning.",
+              "meaning": "Tôi tắm vòi sen vào buổi sáng."
+            },
+            {
+              "correct": "Wear your scarf, it is cold.",
+              "meaning": "Quàng khăn vào, trời lạnh đấy."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the library",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "We are at the library.",
+              "vi": "Chúng tôi đang ở thư viện."
+            },
+            {
+              "speaker": "B",
+              "en": "Is there a map?",
+              "vi": "Có bản đồ không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, there is. And there is internet too.",
+              "vi": "Có. Và còn có cả internet nữa."
+            },
+            {
+              "speaker": "B",
+              "en": "Brilliant! Is the internet good?",
+              "vi": "Tuyệt quá! Mạng internet có tốt không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, it is very good.",
+              "vi": "Có, tốt lắm."
+            },
+            {
+              "speaker": "B",
+              "en": "I would like my laptop here.",
+              "vi": "Tớ muốn có máy tính xách tay ở đây."
+            }
+          ]
+        },
+        {
+          "title": "Take the elevator",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "We must go in the elevator.",
+              "vi": "Chúng ta phải đi thang máy."
+            },
+            {
+              "speaker": "B",
+              "en": "Is there a machine here too?",
+              "vi": "Ở đây cũng có máy móc à?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes. And a bird is on the roof!",
+              "vi": "Có. Và có một con chim đang ở trên mái nhà nữa!"
+            },
+            {
+              "speaker": "B",
+              "en": "Wear your scarf, it is cold.",
+              "vi": "Quàng khăn vào, trời lạnh đấy."
+            },
+            {
+              "speaker": "A",
+              "en": "I have got a message. I must write an email too.",
+              "vi": "Tớ có một tin nhắn. Tớ cũng phải viết một email nữa."
+            },
+            {
+              "speaker": "B",
+              "en": "OK, do it now.",
+              "vi": "Được rồi, làm ngay đi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 12,
+      "title": "Bài 5.c: Ngôi nhà (3/3)",
+      "theme": "Ngôi nhà & công nghệ",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "stair(s)",
+          "ipa": "/steər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cầu thang",
+          "example_en": "The cat is on the stairs.",
+          "example_vi": "Con mèo ở trên cầu thang."
+        },
+        {
+          "word": "sweater",
+          "ipa": "/ˈswetər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "áo len",
+          "example_en": "Wear your sweater, it is cold.",
+          "example_vi": "Mặc áo len vào, trời lạnh đấy."
+        },
+        {
+          "word": "top",
+          "ipa": "/tɒp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đỉnh, phần trên cùng",
+          "example_en": "The cat is at the top of the stairs.",
+          "example_vi": "Con mèo ở trên đỉnh cầu thang."
+        },
+        {
+          "word": "towel",
+          "ipa": "/ˈtaʊəl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khăn tắm",
+          "example_en": "I have got a towel.",
+          "example_vi": "Tôi có một cái khăn tắm."
+        },
+        {
+          "word": "town",
+          "ipa": "/taʊn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thị trấn",
+          "example_en": "I live in a small town.",
+          "example_vi": "Tôi sống ở một thị trấn nhỏ."
+        },
+        {
+          "word": "town/city centre (US center)",
+          "ipa": "/taʊn ˈsentər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trung tâm thị trấn/thành phố",
+          "example_en": "The library is in the town centre.",
+          "example_vi": "Thư viện ở trung tâm thị trấn."
+        },
+        {
+          "word": "upstairs",
+          "ipa": "/ˌʌpˈsteərz/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "ở/lên tầng trên",
+          "example_en": "My dad is upstairs.",
+          "example_vi": "Bố tôi đang ở tầng trên."
+        },
+        {
+          "word": "village",
+          "ipa": "/ˈvɪlɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "làng",
+          "example_en": "My grandma lives in a village.",
+          "example_vi": "Bà tôi sống ở một ngôi làng."
+        },
+        {
+          "word": "website",
+          "ipa": "/ˈwebsaɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trang web",
+          "example_en": "Is there a website?",
+          "example_vi": "Có trang web không?"
+        },
+        {
+          "word": "CD",
+          "ipa": "/ˌsiː ˈdiː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đĩa CD",
+          "example_en": "I have got a CD.",
+          "example_vi": "Tôi có một đĩa CD."
+        },
+        {
+          "word": "DVD",
+          "ipa": "/ˌdiː viː ˈdiː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đĩa DVD",
+          "example_en": "I have got a DVD too.",
+          "example_vi": "Tôi cũng có một đĩa DVD nữa."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "upstairs / downstairs: ở tầng trên / tầng dưới",
+          "desc": "Ôn lại cặp từ trái nghĩa upstairs (Bài 5.c) và downstairs (Bài 5.a) để mô tả vị trí trong nhà nhiều tầng.",
+          "formula": [
+            {
+              "text": "S + is/am",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "upstairs / downstairs",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My dad is upstairs and my mum is downstairs.",
+              "meaning": "Bố tôi đang ở tầng trên và mẹ tôi đang ở tầng dưới."
+            },
+            {
+              "correct": "The cat is on the stairs.",
+              "meaning": "Con mèo ở trên cầu thang."
+            },
+            {
+              "correct": "Is your room upstairs?",
+              "meaning": "Phòng của bạn ở tầng trên à?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: live in + nơi chốn (town/village)",
+          "desc": "Ôn cấu trúc 'live in' với các danh từ chỉ nơi sinh sống mới: town, village.",
+          "formula": [
+            {
+              "text": "I/My grandma",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "live(s) in",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a town/village",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I live in a small town.",
+              "meaning": "Tôi sống ở một thị trấn nhỏ."
+            },
+            {
+              "correct": "My grandma lives in a village.",
+              "meaning": "Bà tôi sống ở một ngôi làng."
+            },
+            {
+              "correct": "The library is in the town centre.",
+              "meaning": "Thư viện ở trung tâm thị trấn."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 4: Ngôi nhà & công nghệ",
+          "desc": "Kết hợp toàn bộ từ vựng và cấu trúc must/is there/live in của Chương 4.",
+          "formula": [
+            {
+              "text": "Tổng hợp Bài 5.a-5.c",
+              "classes": "border-indigo-200 bg-indigo-50 text-indigo-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Is there a website for the village library?",
+              "meaning": "Có trang web cho thư viện của làng không?"
+            },
+            {
+              "correct": "I have got a CD and a DVD upstairs.",
+              "meaning": "Tôi có một đĩa CD và một đĩa DVD ở tầng trên."
+            },
+            {
+              "correct": "Wear your sweater. It is cold in the basement.",
+              "meaning": "Mặc áo len vào. Tầng hầm lạnh lắm."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Upstairs or downstairs?",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Where is your dad?",
+              "vi": "Bố cậu đâu rồi?"
+            },
+            {
+              "speaker": "B",
+              "en": "He is upstairs. My mum is downstairs.",
+              "vi": "Bố tớ đang ở tầng trên. Mẹ tớ thì ở tầng dưới."
+            },
+            {
+              "speaker": "A",
+              "en": "Is your room at the top of the stairs?",
+              "vi": "Phòng cậu có ở trên đỉnh cầu thang không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, it is.",
+              "vi": "Đúng vậy."
+            },
+            {
+              "speaker": "A",
+              "en": "I have got a CD for you.",
+              "vi": "Tớ có một đĩa CD cho cậu nè."
+            },
+            {
+              "speaker": "B",
+              "en": "Brilliant! Thank you!",
+              "vi": "Tuyệt quá! Cảm ơn cậu!"
+            }
+          ]
+        },
+        {
+          "title": "A small village",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "My grandma lives in a small village.",
+              "vi": "Bà tớ sống ở một ngôi làng nhỏ."
+            },
+            {
+              "speaker": "B",
+              "en": "Is there a town centre in the village?",
+              "vi": "Trong làng có trung tâm thị trấn không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, there is a library and a café.",
+              "vi": "Có, có một thư viện và một quán cà phê."
+            },
+            {
+              "speaker": "B",
+              "en": "Is there a website for the village?",
+              "vi": "Có trang web cho ngôi làng không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, there is!",
+              "vi": "Có chứ!"
+            },
+            {
+              "speaker": "B",
+              "en": "That is great.",
+              "vi": "Vậy thì hay quá."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

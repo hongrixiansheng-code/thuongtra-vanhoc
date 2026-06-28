@@ -1,0 +1,95 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "grammar": [
+        {
+          "title": "look / seem / appear + adj",
+          "desc": "Dùng để diễn tả ấn tượng, vẻ bề ngoài hoặc trạng thái của ai/cái gì.",
+          "formula": [
+            { "text": "S + look/seem/appear + Adj", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "She seems nervous.", "meaning": "Cô ấy có vẻ lo lắng." },
+            { "correct": "He appears confident.", "meaning": "Anh ấy trông có vẻ tự tin." },
+            { "correct": "The house looks empty.", "meaning": "Ngôi nhà trông có vẻ trống trải." },
+            { "correct": "They seem happy together.", "meaning": "Họ có vẻ hạnh phúc khi ở bên nhau." }
+          ]
+        },
+        {
+          "title": "be supposed to",
+          "desc": "Dùng để nói về bổn phận, trách nhiệm hoặc những gì được mong đợi phải làm.",
+          "formula": [
+            { "text": "S + be supposed to + V(nguyên thể)", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "You're supposed to be on time.", "meaning": "Bạn đáng lẽ phải đến đúng giờ." },
+            { "correct": "I'm supposed to finish this by Friday.", "meaning": "Tôi đáng lẽ phải hoàn thành việc này trước thứ Sáu." },
+            { "correct": "He was supposed to call me yesterday.", "meaning": "Đáng lẽ hôm qua anh ấy phải gọi cho tôi." },
+            { "correct": "What are we supposed to do now?", "meaning": "Bây giờ chúng ta nên làm gì?" }
+          ]
+        },
+        {
+          "title": "look like + noun vs look + adj",
+          "desc": "Look like đi với danh từ để so sánh ngoại hình, look đi với tính từ để miêu tả trạng thái.",
+          "formula": [
+            { "text": "S + look like + Noun", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "S + look + Adj", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "She looks like her mother.", "meaning": "Cô ấy trông giống mẹ." },
+            { "correct": "He looks angry.", "meaning": "Anh ấy trông có vẻ tức giận." },
+            { "correct": "It looks like rain.", "meaning": "Trời trông có vẻ sắp mưa." },
+            { "correct": "That looks delicious.", "meaning": "Món đó trông có vẻ ngon." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "grammar": [
+        {
+          "title": "feel + adj",
+          "desc": "Dùng để diễn tả cảm xúc, cảm giác của bản thân.",
+          "formula": [
+            { "text": "S + feel + Adj", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I feel embarrassed about it.", "meaning": "Tôi cảm thấy xấu hổ về điều đó." },
+            { "correct": "She feels lonely sometimes.", "meaning": "Đôi khi cô ấy cảm thấy cô đơn." },
+            { "correct": "We felt relieved when we heard the news.", "meaning": "Chúng tôi cảm thấy nhẹ nhõm khi nghe tin." },
+            { "correct": "Do you feel tired after the trip?", "meaning": "Bạn có cảm thấy mệt sau chuyến đi không?" }
+          ]
+        },
+        {
+          "title": "make + object + adj/verb",
+          "desc": "Diễn tả việc làm cho ai đó cảm thấy thế nào hoặc bắt/khiến ai đó làm gì.",
+          "formula": [
+            { "text": "make + O + Adj / V(nguyên thể)", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "It makes me feel nervous.", "meaning": "Nó làm tôi cảm thấy lo lắng." },
+            { "correct": "She made me laugh.", "meaning": "Cô ấy đã làm tôi cười." },
+            { "correct": "The onion made my eyes water.", "meaning": "Hành tây làm tôi chảy nước mắt." },
+            { "correct": "Don't make him angry.", "meaning": "Đừng làm anh ấy tức giận." }
+          ]
+        },
+        {
+          "title": "be/get + adj",
+          "desc": "Phân biệt trạng thái (be) và quá trình thay đổi trạng thái (get).",
+          "formula": [
+            { "text": "be + Adj (Trạng thái)", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "get + Adj (Quá trình)", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I was confused.", "meaning": "Tôi đã (ở trạng thái) bối rối." },
+            { "correct": "I got confused.", "meaning": "Tôi đã trở nên bối rối." },
+            { "correct": "The food is cold.", "meaning": "Đồ ăn bị lạnh." },
+            { "correct": "The food is getting cold.", "meaning": "Đồ ăn đang dần nguội đi." },
+            { "correct": "He got angry when I told him.", "meaning": "Anh ấy trở nên tức giận khi tôi kể cho anh ấy nghe." }
+          ]
+        }
+      ]
+    }
+  ]
+}

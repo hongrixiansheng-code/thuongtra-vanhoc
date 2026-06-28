@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 73,
+    "reading": [
+      {
+        "title": "Reading: Review — An achievement",
+        "passage": "I have already finished my first book. I started it two years ago, and I have worked on it since I was in university. It has just been published last month.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The book started two years ago.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I started it two years ago.\"" },
+          { "type": "multiple_choice", "question": "When was the book published?", "options": ["Two years ago", "Last month", "Last year"], "correct": "Last month", "explanation": "\"it has just been published last month.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 74,
+    "reading": [
+      {
+        "title": "Reading: Safety warning",
+        "passage": "If you don't wear a helmet, you will get a fine. If we follow the safety rules, there will be fewer accidents. If the company breaks this regulation, it will face a penalty.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Following safety rules will mean fewer accidents.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"If we follow the safety rules, there will be fewer accidents.\"" },
+          { "type": "multiple_choice", "question": "What happens if you don't wear a helmet?", "options": ["Nothing", "You will get a fine", "You will be arrested"], "correct": "You will get a fine", "explanation": "\"If you don't wear a helmet, you will get a fine.\"" }
+        ]
+      }
+    ]
+  }
+]

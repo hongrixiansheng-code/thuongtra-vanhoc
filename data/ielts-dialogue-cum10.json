@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 19,
+    "dialogue": [
+      {
+        "title": "Comparing morning routines",
+        "lines": [
+          { "speaker": "Mai", "en": "I wake up at six o'clock every day.", "vi": "Tôi thức dậy lúc sáu giờ mỗi ngày." },
+          { "speaker": "David", "en": "I wake up at six thirty.", "vi": "Tôi thức dậy lúc sáu giờ ba mươi." },
+          { "speaker": "Mai", "en": "I brush my teeth, then I take a shower.", "vi": "Tôi đánh răng, sau đó tôi đi tắm." },
+          { "speaker": "David", "en": "I get dressed first, then I eat breakfast.", "vi": "Tôi mặc quần áo trước, sau đó tôi ăn sáng." },
+          { "speaker": "Mai", "en": "I leave home at seven thirty and arrive at school at eight.", "vi": "Tôi rời nhà lúc bảy giờ ba mươi và đến trường lúc tám giờ." },
+          { "speaker": "David", "en": "I leave home a little later, at eight o'clock.", "vi": "Tôi rời nhà muộn hơn một chút, lúc tám giờ." }
+        ]
+      },
+      {
+        "title": "A busy family morning",
+        "lines": [
+          { "speaker": "Mai", "en": "We wake up early every morning.", "vi": "Chúng tôi thức dậy sớm mỗi sáng." },
+          { "speaker": "David", "en": "We eat breakfast together at seven o'clock.", "vi": "Chúng tôi ăn sáng cùng nhau lúc bảy giờ." },
+          { "speaker": "Mai", "en": "Then we get dressed and leave home at seven thirty.", "vi": "Sau đó chúng tôi mặc quần áo và rời nhà lúc bảy giờ ba mươi." },
+          { "speaker": "David", "en": "We arrive at school at eight o'clock.", "vi": "Chúng tôi đến trường lúc tám giờ." },
+          { "speaker": "Mai", "en": "Our class starts at eight fifteen.", "vi": "Lớp của chúng tôi bắt đầu lúc tám giờ mười lăm." },
+          { "speaker": "David", "en": "It is a busy morning, but I like it.", "vi": "Đó là một buổi sáng bận rộn, nhưng tôi thích nó." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "dialogue": [
+      {
+        "title": "Saturday housework",
+        "lines": [
+          { "speaker": "Mai", "en": "My mother cleans the house and washes the clothes on Saturday.", "vi": "Mẹ tôi dọn nhà và giặt quần áo vào thứ Bảy." },
+          { "speaker": "David", "en": "My mother cooks lunch and tidies the kitchen on Saturday too.", "vi": "Mẹ tôi cũng nấu bữa trưa và dọn dẹp nhà bếp vào thứ Bảy." },
+          { "speaker": "Mai", "en": "My father waters the plants and repairs things around the house.", "vi": "Bố tôi tưới cây và sửa chữa đồ đạc trong nhà." },
+          { "speaker": "David", "en": "My father shops for food every Saturday morning.", "vi": "Bố tôi đi mua đồ ăn vào mỗi sáng thứ Bảy." },
+          { "speaker": "Mai", "en": "My sister irons the clothes every weekend.", "vi": "Em gái tôi ủi quần áo mỗi cuối tuần." },
+          { "speaker": "David", "en": "I take out the rubbish every evening.", "vi": "Tôi đổ rác mỗi tối." }
+        ]
+      },
+      {
+        "title": "Sharing chores",
+        "lines": [
+          { "speaker": "Mai", "en": "My brother washes the dishes every day.", "vi": "Anh tôi rửa bát mỗi ngày." },
+          { "speaker": "David", "en": "My sister cooks dinner on weekdays.", "vi": "Em gái tôi nấu bữa tối vào các ngày trong tuần." },
+          { "speaker": "Mai", "en": "Our grandmother cleans the garden every morning.", "vi": "Bà tôi dọn vườn mỗi buổi sáng." },
+          { "speaker": "David", "en": "Our grandfather waters the plants in the evening.", "vi": "Ông tôi tưới cây vào buổi tối." },
+          { "speaker": "Mai", "en": "Everyone in my family has a job at home.", "vi": "Mọi người trong gia đình tôi đều có một việc ở nhà." },
+          { "speaker": "David", "en": "That sounds like a great team.", "vi": "Nghe có vẻ là một nhóm tuyệt vời." }
+        ]
+      }
+    ]
+  }
+]

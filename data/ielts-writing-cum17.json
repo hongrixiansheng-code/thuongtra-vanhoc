@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 33,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe what is happening now",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what is happening right now (weather or an activity), using Present Continuous.",
+        "minWords": 30,
+        "sampleAnswer": "Look, it is raining now. The wind is blowing hard, and the sun is shining behind the clouds. I am watching the storm from the window.",
+        "checklist": ["Dùng am/is/are + V-ing đúng dạng", "Mô tả ít nhất 3 hành động đang xảy ra", "Có từ hiệu \"now\" hoặc \"right now\""]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a changing trend",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a changing trend, using Present Continuous phủ định và câu hỏi.",
+        "minWords": 30,
+        "sampleAnswer": "Prices are increasing this month. Fruit prices are growing fast. The shop is improving its service, and it isn't selling old food anymore. Is the market growing bigger? Yes, it is expanding every year.",
+        "checklist": ["Dùng câu phủ định với am/is/are + not + V-ing", "Dùng câu hỏi đảo am/is/are lên trước chủ ngữ", "Mô tả được một xu hướng thay đổi rõ ràng"]
+      }
+    ]
+  }
+]

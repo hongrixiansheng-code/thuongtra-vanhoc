@@ -1,0 +1,376 @@
+[
+  {
+    "orderIndex": 5,
+    "title": "Bài 6: Thời gian: buổi trong ngày, sinh hoạt",
+    "vocab": [
+      {"hanzi": "下午", "pinyin": "xiàwǔ", "type": "danh từ", "type_short": "dt", "meaning": "buổi chiều", "example_zh": "下午见。", "example_vi": "Buổi chiều gặp."},
+      {"hanzi": "晚上", "pinyin": "wǎnshang", "type": "danh từ", "type_short": "dt", "meaning": "buổi tối", "example_zh": "晚上见！", "example_vi": "Buổi tối gặp!"},
+      {"hanzi": "白天", "pinyin": "báitiān", "type": "danh từ", "type_short": "dt", "meaning": "ban ngày", "example_zh": "白天我上班。", "example_vi": "Ban ngày tôi đi làm."},
+      {"hanzi": "晚", "pinyin": "wǎn", "type": "tính từ", "type_short": "tt", "meaning": "muộn", "example_zh": "我不晚。", "example_vi": "Tôi không muộn."},
+      {"hanzi": "早", "pinyin": "zǎo", "type": "tính từ", "type_short": "tt", "meaning": "sớm", "example_zh": "你早！", "example_vi": "Bạn sớm thế (Chào buổi sáng)!"},
+      {"hanzi": "星期", "pinyin": "xīngqī", "type": "danh từ", "type_short": "dt", "meaning": "tuần, thứ", "example_zh": "一个星期", "example_vi": "Một tuần"},
+      {"hanzi": "星期日", "pinyin": "xīngqīrì", "type": "danh từ", "type_short": "dt", "meaning": "chủ nhật (văn viết)", "example_zh": "星期日不上班。", "example_vi": "Chủ nhật không đi làm."},
+      {"hanzi": "星期天", "pinyin": "xīngqītiān", "type": "danh từ", "type_short": "dt", "meaning": "chủ nhật (khẩu ngữ)", "example_zh": "星期天见。", "example_vi": "Chủ nhật gặp."},
+      {"hanzi": "上班", "pinyin": "shàngbān", "type": "động từ", "type_short": "đ", "meaning": "đi làm", "example_zh": "早上八点上班。", "example_vi": "8 giờ sáng đi làm."},
+      {"hanzi": "下班", "pinyin": "xiàbān", "type": "động từ", "type_short": "đ", "meaning": "tan làm", "example_zh": "下午五点下班。", "example_vi": "5 giờ chiều tan làm."},
+      {"hanzi": "上课", "pinyin": "shàngkè", "type": "động từ", "type_short": "đ", "meaning": "lên lớp", "example_zh": "老师上课。", "example_vi": "Giáo viên lên lớp."},
+      {"hanzi": "下课", "pinyin": "xiàkè", "type": "động từ", "type_short": "đ", "meaning": "tan lớp", "example_zh": "十点下课。", "example_vi": "Mười giờ tan lớp."},
+      {"hanzi": "上学", "pinyin": "shàngxué", "type": "động từ", "type_short": "đ", "meaning": "đi học", "example_zh": "学生上学。", "example_vi": "Học sinh đi học."},
+      {"hanzi": "起床", "pinyin": "qǐchuáng", "type": "động từ", "type_short": "đ", "meaning": "thức dậy", "example_zh": "我六点起床。", "example_vi": "Tôi 6 giờ thức dậy."},
+      {"hanzi": "睡觉", "pinyin": "shuìjiào", "type": "động từ", "type_short": "đ", "meaning": "ngủ", "example_zh": "晚上睡觉。", "example_vi": "Buổi tối ngủ."},
+      {"hanzi": "睡", "pinyin": "shuì", "type": "động từ", "type_short": "đ", "meaning": "ngủ", "example_zh": "我不睡。", "example_vi": "Tôi không ngủ."},
+      {"hanzi": "休息", "pinyin": "xiūxi", "type": "động từ", "type_short": "đ", "meaning": "nghỉ ngơi", "example_zh": "请休息。", "example_vi": "Xin hãy nghỉ ngơi."},
+      {"hanzi": "玩", "pinyin": "wán", "type": "động từ", "type_short": "đ", "meaning": "chơi", "example_zh": "小朋友玩。", "example_vi": "Bạn nhỏ chơi."},
+      {"hanzi": "看", "pinyin": "kàn", "type": "động từ", "type_short": "đ", "meaning": "nhìn, xem", "example_zh": "看什么？", "example_vi": "Nhìn cái gì?"},
+      {"hanzi": "看见", "pinyin": "kànjiàn", "type": "động từ", "type_short": "đ", "meaning": "nhìn thấy", "example_zh": "我看见他。", "example_vi": "Tôi nhìn thấy anh ấy."}
+    ],
+    "grammar": [
+      {
+        "title": "1. Trạng ngữ thời gian đứng trước động từ",
+        "desc": "Trong tiếng Trung, từ chỉ thời gian luôn phải đặt TRƯỚC động từ (hoặc trước cả chủ ngữ). Không được đặt ở cuối câu như tiếng Việt.",
+        "formula": [{"text": "Thời gian + Động từ", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "我明天休息。", "pinyin": "wǒ míngtiān xiūxi.", "meaning": "Ngày mai tôi nghỉ ngơi."},
+          {"correct": "下午见！", "pinyin": "xiàwǔ jiàn!", "meaning": "Buổi chiều gặp!"}
+        ]
+      },
+      {
+        "title": "2. Câu liên động đơn giản",
+        "desc": "Khi có nhiều hành động xảy ra liên tiếp, các động từ được xếp theo thứ tự trước sau.",
+        "formula": [{"text": "Động từ 1 + Động từ 2", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "我六点起床，七点上学。", "pinyin": "wǒ liù diǎn qǐchuáng, qī diǎn shàngxué.", "meaning": "Tôi 6 giờ thức dậy, 7 giờ đi học."},
+          {"correct": "我们休息，睡觉。", "pinyin": "wǒmen xiūxi, shuìjiào.", "meaning": "Chúng tôi nghỉ ngơi, đi ngủ."}
+        ]
+      },
+      {
+        "title": "3. Hỏi thứ với 星期几",
+        "desc": "Dùng 星期几 để hỏi về thứ trong tuần. Trả lời bằng cách thay 几 bằng số từ 1-6 (Thứ 2 đến thứ 7). Riêng Chủ nhật là 星期天/星期日.",
+        "formula": [{"text": "今天 + 星期几？", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "今天星期几？", "pinyin": "jīntiān xīngqī jǐ?", "meaning": "Hôm nay là thứ mấy?"},
+          {"correct": "今天星期一。", "pinyin": "jīntiān xīngqī yī.", "meaning": "Hôm nay là thứ hai."}
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại 1: Sinh hoạt một ngày",
+        "lines": [
+          {"speaker": "A", "zh": "你几点起床？", "py": "nǐ jǐ diǎn qǐchuáng?", "vi": "Bạn mấy giờ thức dậy?"},
+          {"speaker": "B", "zh": "我六点起床，七点上班。", "py": "wǒ liù diǎn qǐchuáng, qī diǎn shàngbān.", "vi": "Tôi 6 giờ thức dậy, 7 giờ đi làm."},
+          {"speaker": "A", "zh": "你几点休息？", "py": "nǐ jǐ diǎn xiūxi?", "vi": "Bạn mấy giờ nghỉ ngơi?"},
+          {"speaker": "B", "zh": "中午十二点休息。", "py": "zhōngwǔ shí'èr diǎn xiūxi.", "vi": "12 giờ trưa nghỉ ngơi."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Hẹn thứ trong tuần",
+        "lines": [
+          {"speaker": "A", "zh": "今天星期几？", "py": "jīntiān xīngqī jǐ?", "vi": "Hôm nay thứ mấy?"},
+          {"speaker": "B", "zh": "今天星期四。", "py": "jīntiān xīngqī sì.", "vi": "Hôm nay thứ năm."},
+          {"speaker": "A", "zh": "明天你上班吗？", "py": "míngtiān nǐ shàngbān ma?", "vi": "Ngày mai bạn đi làm không?"},
+          {"speaker": "B", "zh": "我不上班，明天休息。", "py": "wǒ bù shàngbān, míngtiān xiūxi.", "vi": "Tôi không đi làm, ngày mai nghỉ ngơi."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "title": "Bài 7: Đồ vật, chỉ định 这/那",
+    "vocab": [
+      {"hanzi": "这", "pinyin": "zhè", "type": "đại từ", "type_short": "đt", "meaning": "đây, này", "example_zh": "这是什么？", "example_vi": "Đây là cái gì?"},
+      {"hanzi": "这个", "pinyin": "zhège", "type": "đại từ", "type_short": "đt", "meaning": "cái này", "example_zh": "这个学生", "example_vi": "Học sinh này"},
+      {"hanzi": "这里", "pinyin": "zhèlǐ", "type": "đại từ", "type_short": "đt", "meaning": "ở đây", "example_zh": "我在这里。", "example_vi": "Tôi ở đây."},
+      {"hanzi": "这儿", "pinyin": "zhèr", "type": "đại từ", "type_short": "đt", "meaning": "ở đây (khẩu ngữ)", "example_zh": "看这儿！", "example_vi": "Nhìn đây!"},
+      {"hanzi": "这边", "pinyin": "zhèbiān", "type": "đại từ", "type_short": "đt", "meaning": "bên này", "example_zh": "看这边。", "example_vi": "Nhìn bên này."},
+      {"hanzi": "这些", "pinyin": "zhèxiē", "type": "đại từ", "type_short": "đt", "meaning": "những cái này", "example_zh": "这些朋友", "example_vi": "Những người bạn này"},
+      {"hanzi": "那", "pinyin": "nà", "type": "đại từ", "type_short": "đt", "meaning": "đó, kia", "example_zh": "那是谁？", "example_vi": "Kia là ai?"},
+      {"hanzi": "那个", "pinyin": "nàge", "type": "đại từ", "type_short": "đt", "meaning": "cái kia, người kia", "example_zh": "那个老师", "example_vi": "Giáo viên kia"},
+      {"hanzi": "那里", "pinyin": "nàlǐ", "type": "đại từ", "type_short": "đt", "meaning": "ở đó, chỗ kia", "example_zh": "他在那里。", "example_vi": "Anh ấy ở kia."},
+      {"hanzi": "那儿", "pinyin": "nàr", "type": "đại từ", "type_short": "đt", "meaning": "ở đó (khẩu ngữ)", "example_zh": "他在那儿。", "example_vi": "Anh ấy ở đó."},
+      {"hanzi": "那边", "pinyin": "nàbiān", "type": "đại từ", "type_short": "đt", "meaning": "bên kia", "example_zh": "那边的朋友", "example_vi": "Bạn ở bên kia"},
+      {"hanzi": "那些", "pinyin": "nàxiē", "type": "đại từ", "type_short": "đt", "meaning": "những cái kia", "example_zh": "那些学生", "example_vi": "Những học sinh kia"},
+      {"hanzi": "桌子", "pinyin": "zhuōzi", "type": "danh từ", "type_short": "dt", "meaning": "cái bàn", "example_zh": "一个桌子", "example_vi": "Một cái bàn"},
+      {"hanzi": "椅子", "pinyin": "yǐzi", "type": "danh từ", "type_short": "dt", "meaning": "cái ghế", "example_zh": "四个椅子", "example_vi": "Bốn cái ghế"},
+      {"hanzi": "书", "pinyin": "shū", "type": "danh từ", "type_short": "dt", "meaning": "sách", "example_zh": "看书", "example_vi": "Đọc sách"},
+      {"hanzi": "本", "pinyin": "běn", "type": "lượng từ", "type_short": "lt", "meaning": "quyển, cuốn (cho sách)", "example_zh": "一本书", "example_vi": "Một cuốn sách"},
+      {"hanzi": "件", "pinyin": "jiàn", "type": "lượng từ", "type_short": "lt", "meaning": "chiếc, món (đồ vật/sự việc)", "example_zh": "这件", "example_vi": "Chiếc này"},
+      {"hanzi": "些", "pinyin": "xiē", "type": "lượng từ", "type_short": "lt", "meaning": "một vài, những", "example_zh": "哪些书？", "example_vi": "Những quyển sách nào?"},
+      {"hanzi": "一些", "pinyin": "yìxiē", "type": "lượng từ", "type_short": "lt", "meaning": "một số, một ít", "example_zh": "一些朋友", "example_vi": "Một vài người bạn"},
+      {"hanzi": "有的", "pinyin": "yǒude", "type": "đại từ", "type_short": "đt", "meaning": "có cái, có người", "example_zh": "有的看书。", "example_vi": "Có người đọc sách."}
+    ],
+    "grammar": [
+      {
+        "title": "1. Câu chỉ định 这是/那是",
+        "desc": "Dùng 这 (zhè) để chỉ người/vật ở gần, 那 (nà) để chỉ người/vật ở xa.",
+        "formula": [{"text": "这/那 + 是 + Danh từ", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "这是桌子。", "pinyin": "zhè shì zhuōzi.", "meaning": "Đây là cái bàn."},
+          {"correct": "那不是椅子。", "pinyin": "nà bú shì yǐzi.", "meaning": "Kia không phải cái ghế."}
+        ]
+      },
+      {
+        "title": "2. Lượng từ mở rộng 本/件",
+        "desc": "Ngoài 个, ta có 本 (dùng cho sách, tạp chí) và 件 (dùng cho quần áo, đồ vật, sự việc).",
+        "formula": [{"text": "Số từ + 本/件 + Danh từ", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "三本书", "pinyin": "sān běn shū", "meaning": "ba cuốn sách"},
+          {"correct": "那件", "pinyin": "nà jiàn", "meaning": "chiếc kia"}
+        ]
+      },
+      {
+        "title": "3. Cấu trúc 这/那 + Lượng từ + Danh từ",
+        "desc": "Khi dùng đại từ chỉ định đi kèm danh từ đếm được, bắt buộc phải có lượng từ đứng giữa.",
+        "formula": [{"text": "这/那 + Lượng từ + Danh từ", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "这本书", "pinyin": "zhè běn shū", "meaning": "cuốn sách này"},
+          {"correct": "那个学生", "pinyin": "nà ge xuéshēng", "meaning": "học sinh kia"}
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại 1: Đồ vật trong phòng",
+        "lines": [
+          {"speaker": "A", "zh": "这是什么？", "py": "zhè shì shénme?", "vi": "Đây là cái gì?"},
+          {"speaker": "B", "zh": "这是椅子。", "py": "zhè shì yǐzi.", "vi": "Đây là cái ghế."},
+          {"speaker": "A", "zh": "那些是什么？", "py": "nàxiē shì shénme?", "vi": "Những cái kia là gì?"},
+          {"speaker": "B", "zh": "那些是书。", "py": "nàxiē shì shū.", "vi": "Những cái kia là sách."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Vị trí của người",
+        "lines": [
+          {"speaker": "A", "zh": "老师在哪里？", "py": "lǎoshī zài nǎlǐ?", "vi": "Giáo viên ở đâu?"},
+          {"speaker": "B", "zh": "老师在那边。", "py": "lǎoshī zài nàbiān.", "vi": "Giáo viên ở bên kia."},
+          {"speaker": "A", "zh": "大卫呢？", "py": "Dàwèi ne?", "vi": "Còn David?"},
+          {"speaker": "B", "zh": "大卫在这里看书。", "py": "Dàwèi zài zhèlǐ kàn shū.", "vi": "David đọc sách ở đây."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "title": "Bài 8: Vị trí, phương hướng, địa điểm",
+    "vocab": [
+      {"hanzi": "在", "pinyin": "zài", "type": "động từ", "type_short": "đ", "meaning": "ở, đang", "example_zh": "在家", "example_vi": "Ở nhà"},
+      {"hanzi": "里", "pinyin": "lǐ", "type": "danh từ", "type_short": "dt", "meaning": "bên trong", "example_zh": "在房间里", "example_vi": "Ở trong phòng"},
+      {"hanzi": "外", "pinyin": "wài", "type": "danh từ", "type_short": "dt", "meaning": "bên ngoài", "example_zh": "外边", "example_vi": "Bên ngoài"},
+      {"hanzi": "外边", "pinyin": "wàibian", "type": "danh từ", "type_short": "dt", "meaning": "bên ngoài", "example_zh": "学校外边", "example_vi": "Bên ngoài trường học"},
+      {"hanzi": "前", "pinyin": "qián", "type": "danh từ", "type_short": "dt", "meaning": "trước", "example_zh": "桌子前", "example_vi": "Trước bàn"},
+      {"hanzi": "后", "pinyin": "hòu", "type": "danh từ", "type_short": "dt", "meaning": "sau", "example_zh": "椅子后", "example_vi": "Sau ghế"},
+      {"hanzi": "上", "pinyin": "shàng", "type": "danh từ", "type_short": "dt", "meaning": "trên", "example_zh": "桌子上", "example_vi": "Trên bàn"},
+      {"hanzi": "下", "pinyin": "xià", "type": "danh từ", "type_short": "dt", "meaning": "dưới", "example_zh": "椅子下", "example_vi": "Dưới ghế"},
+      {"hanzi": "找", "pinyin": "zhǎo", "type": "động từ", "type_short": "đ", "meaning": "tìm", "example_zh": "找朋友", "example_vi": "Tìm bạn"},
+      {"hanzi": "住", "pinyin": "zhù", "type": "động từ", "type_short": "đ", "meaning": "sống, ở", "example_zh": "住哪儿？", "example_vi": "Sống ở đâu?"},
+      {"hanzi": "房间", "pinyin": "fángjiān", "type": "danh từ", "type_short": "dt", "meaning": "phòng", "example_zh": "这个房间", "example_vi": "Căn phòng này"},
+      {"hanzi": "店", "pinyin": "diàn", "type": "danh từ", "type_short": "dt", "meaning": "cửa hàng", "example_zh": "那是店。", "example_vi": "Kia là cửa hàng."},
+      {"hanzi": "商店", "pinyin": "shāngdiàn", "type": "danh từ", "type_short": "dt", "meaning": "cửa hàng, tiệm", "example_zh": "去商店", "example_vi": "Đi cửa hàng"},
+      {"hanzi": "超市", "pinyin": "chāoshì", "type": "danh từ", "type_short": "dt", "meaning": "siêu thị", "example_zh": "去超市找他。", "example_vi": "Đến siêu thị tìm anh ấy."},
+      {"hanzi": "书店", "pinyin": "shūdiàn", "type": "danh từ", "type_short": "dt", "meaning": "hiệu sách", "example_zh": "书店在哪里？", "example_vi": "Hiệu sách ở đâu?"},
+      {"hanzi": "公司", "pinyin": "gōngsī", "type": "danh từ", "type_short": "dt", "meaning": "công ty", "example_zh": "他在公司上班。", "example_vi": "Anh ấy làm việc ở công ty."},
+      {"hanzi": "学校", "pinyin": "xuéxiào", "type": "danh từ", "type_short": "dt", "meaning": "trường học", "example_zh": "去学校", "example_vi": "Đến trường học"},
+      {"hanzi": "大学", "pinyin": "dàxué", "type": "danh từ", "type_short": "dt", "meaning": "đại học", "example_zh": "在中国上大学", "example_vi": "Học đại học ở Trung Quốc"},
+      {"hanzi": "中学", "pinyin": "zhōngxué", "type": "danh từ", "type_short": "dt", "meaning": "trung học", "example_zh": "去中学", "example_vi": "Đến trường trung học"},
+      {"hanzi": "小学", "pinyin": "xiǎoxué", "type": "danh từ", "type_short": "dt", "meaning": "tiểu học", "example_zh": "去小学", "example_vi": "Đến trường tiểu học"}
+    ],
+    "grammar": [
+      {
+        "title": "1. 在 làm vị ngữ chỉ nơi chốn",
+        "desc": "Trong tiếng Trung, 在 có thể đứng độc lập đóng vai trò vị ngữ để chỉ vị trí của ai đó/cái gì đó.",
+        "formula": [{"text": "Chủ ngữ + 在 + Nơi chốn", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "我在家。", "pinyin": "wǒ zài jiā.", "meaning": "Tôi ở nhà."},
+          {"correct": "书在桌子上。", "pinyin": "shū zài zhuōzi shàng.", "meaning": "Sách ở trên bàn."}
+        ]
+      },
+      {
+        "title": "2. Phương vị từ chỉ phương hướng/vị trí",
+        "desc": "Các từ chỉ phương hướng (里/外/上/下/前/后) luôn phải đặt SAU danh từ chỉ sự vật/địa điểm.",
+        "formula": [{"text": "Danh từ + Phương vị từ", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "房间里", "pinyin": "fángjiān lǐ", "meaning": "trong phòng"},
+          {"correct": "椅子下", "pinyin": "yǐzi xià", "meaning": "dưới ghế"}
+        ]
+      },
+      {
+        "title": "3. Động từ 住 (sống, ở)",
+        "desc": "Khi nói sống ở đâu, ta dùng 住 + 在 + Địa điểm.",
+        "formula": [{"text": "Chủ ngữ + 住 + 在 + Địa điểm", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "我住在中国。", "pinyin": "wǒ zhù zài Zhōngguó.", "meaning": "Tôi sống ở Trung Quốc."},
+          {"correct": "他住在哪里？", "pinyin": "tā zhù zài nǎlǐ?", "meaning": "Anh ấy sống ở đâu?"}
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại 1: Hỏi tìm người",
+        "lines": [
+          {"speaker": "A", "zh": "请问，大卫在学校吗？", "py": "qǐngwèn, Dàwèi zài xuéxiào ma?", "vi": "Xin hỏi, David có ở trường không?"},
+          {"speaker": "B", "zh": "他不在学校，他在公司。", "py": "tā bú zài xuéxiào, tā zài gōngsī.", "vi": "Cậu ấy không ở trường, cậu ấy ở công ty."},
+          {"speaker": "A", "zh": "你在找他吗？", "py": "nǐ zài zhǎo tā ma?", "vi": "Bạn đang tìm cậu ấy phải không?"},
+          {"speaker": "B", "zh": "是，我找他。", "py": "shì, wǒ zhǎo tā.", "vi": "Vâng, tôi tìm cậu ấy."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Vị trí đồ vật",
+        "lines": [
+          {"speaker": "A", "zh": "我的书在哪里？", "py": "wǒ de shū zài nǎlǐ?", "vi": "Sách của tôi ở đâu?"},
+          {"speaker": "B", "zh": "书在桌子上。", "py": "shū zài zhuōzi shàng.", "vi": "Sách ở trên bàn."},
+          {"speaker": "A", "zh": "那本书呢？", "py": "nà běn shū ne?", "vi": "Còn quyển sách kia?"},
+          {"speaker": "B", "zh": "在椅子下。", "py": "zài yǐzi xià.", "vi": "Ở dưới ghế."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 8,
+    "title": "Bài 9: Ăn uống",
+    "vocab": [
+      {"hanzi": "菜", "pinyin": "cài", "type": "danh từ", "type_short": "dt", "meaning": "món ăn, rau", "example_zh": "中国菜", "example_vi": "Món ăn Trung Quốc"},
+      {"hanzi": "茶", "pinyin": "chá", "type": "danh từ", "type_short": "dt", "meaning": "trà", "example_zh": "喝茶", "example_vi": "Uống trà"},
+      {"hanzi": "吃", "pinyin": "chī", "type": "động từ", "type_short": "đ", "meaning": "ăn", "example_zh": "吃饭", "example_vi": "Ăn cơm"},
+      {"hanzi": "饭", "pinyin": "fàn", "type": "danh từ", "type_short": "dt", "meaning": "cơm, bữa ăn", "example_zh": "做饭", "example_vi": "Nấu ăn"},
+      {"hanzi": "喝", "pinyin": "hē", "type": "động từ", "type_short": "đ", "meaning": "uống", "example_zh": "喝水", "example_vi": "Uống nước"},
+      {"hanzi": "米饭", "pinyin": "mǐfàn", "type": "danh từ", "type_short": "dt", "meaning": "cơm tẻ", "example_zh": "吃米饭", "example_vi": "Ăn cơm"},
+      {"hanzi": "面包", "pinyin": "miànbāo", "type": "danh từ", "type_short": "dt", "meaning": "bánh mì", "example_zh": "吃面包", "example_vi": "Ăn bánh mì"},
+      {"hanzi": "面条儿", "pinyin": "miàntiáor", "type": "danh từ", "type_short": "dt", "meaning": "mì sợi", "example_zh": "吃面条儿", "example_vi": "Ăn mì sợi"},
+      {"hanzi": "鸡蛋", "pinyin": "jīdàn", "type": "danh từ", "type_short": "dt", "meaning": "trứng gà", "example_zh": "两个鸡蛋", "example_vi": "Hai quả trứng gà"},
+      {"hanzi": "苹果", "pinyin": "píngguǒ", "type": "danh từ", "type_short": "dt", "meaning": "quả táo", "example_zh": "三个苹果", "example_vi": "Ba quả táo"},
+      {"hanzi": "牛奶", "pinyin": "niúnǎi", "type": "danh từ", "type_short": "dt", "meaning": "sữa bò", "example_zh": "喝牛奶", "example_vi": "Uống sữa bò"},
+      {"hanzi": "包子", "pinyin": "bāozi", "type": "danh từ", "type_short": "dt", "meaning": "bánh bao", "example_zh": "吃包子", "example_vi": "Ăn bánh bao"},
+      {"hanzi": "饺子", "pinyin": "jiǎozi", "type": "danh từ", "type_short": "dt", "meaning": "sủi cảo", "example_zh": "十个饺子", "example_vi": "Mười cái sủi cảo"},
+      {"hanzi": "早饭", "pinyin": "zǎofàn", "type": "danh từ", "type_short": "dt", "meaning": "bữa sáng", "example_zh": "吃早饭", "example_vi": "Ăn sáng"},
+      {"hanzi": "午饭", "pinyin": "wǔfàn", "type": "danh từ", "type_short": "dt", "meaning": "bữa trưa", "example_zh": "吃午饭", "example_vi": "Ăn trưa"},
+      {"hanzi": "晚饭", "pinyin": "wǎnfàn", "type": "danh từ", "type_short": "dt", "meaning": "bữa tối", "example_zh": "吃晚饭", "example_vi": "Ăn tối"},
+      {"hanzi": "好吃", "pinyin": "hǎochī", "type": "tính từ", "type_short": "tt", "meaning": "ngon (đồ ăn)", "example_zh": "苹果好吃。", "example_vi": "Táo rất ngon."},
+      {"hanzi": "水果", "pinyin": "shuǐguǒ", "type": "danh từ", "type_short": "dt", "meaning": "hoa quả, trái cây", "example_zh": "吃水果", "example_vi": "Ăn hoa quả"},
+      {"hanzi": "水", "pinyin": "shuǐ", "type": "danh từ", "type_short": "dt", "meaning": "nước", "example_zh": "喝水", "example_vi": "Uống nước"},
+      {"hanzi": "做饭", "pinyin": "zuò fàn", "type": "cụm từ", "type_short": "c", "meaning": "nấu ăn", "example_zh": "妈妈做饭。", "example_vi": "Mẹ nấu ăn."}
+    ],
+    "grammar": [
+      {
+        "title": "1. Câu hỏi ăn uống 你吃什么？",
+        "desc": "Để hỏi đối phương ăn/uống gì, sử dụng cấu trúc Động từ + 什么.",
+        "formula": [{"text": "Chủ ngữ + 吃/喝 + 什么？", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "你吃什么？", "pinyin": "nǐ chī shénme?", "meaning": "Bạn ăn gì?"},
+          {"correct": "他喝什么？", "pinyin": "tā hē shénme?", "meaning": "Anh ấy uống gì?"}
+        ]
+      },
+      {
+        "title": "2. Tính từ làm vị ngữ (好吃)",
+        "desc": "Trong tiếng Trung, tính từ có thể trực tiếp làm vị ngữ miêu tả tính chất mà KHÔNG CẦN động từ 是.",
+        "formula": [{"text": "Chủ ngữ + Tính từ", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "苹果好吃。", "pinyin": "píngguǒ hǎochī.", "meaning": "Táo ngon."},
+          {"correct": "中国菜好吃。", "pinyin": "Zhōngguó cài hǎochī.", "meaning": "Món ăn Trung Quốc ngon."}
+        ]
+      },
+      {
+        "title": "3. Động từ + Tân ngữ chỉ đồ ăn/thức uống",
+        "desc": "Các động từ 吃 (ăn) và 喝 (uống) luôn đi kèm với danh từ chỉ thực phẩm phía sau.",
+        "formula": [{"text": "吃/喝 + Danh từ đồ ăn/uống", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "我吃面条儿。", "pinyin": "wǒ chī miàntiáor.", "meaning": "Tôi ăn mì sợi."},
+          {"correct": "我们喝牛奶。", "pinyin": "wǒmen hē niúnǎi.", "meaning": "Chúng tôi uống sữa bò."}
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại 1: Hỏi món ăn",
+        "lines": [
+          {"speaker": "A", "zh": "你吃什么水果？", "py": "nǐ chī shénme shuǐguǒ?", "vi": "Bạn ăn trái cây gì?"},
+          {"speaker": "B", "zh": "我吃苹果。你吃什么？", "py": "wǒ chī píngguǒ. nǐ chī shénme?", "vi": "Tôi ăn táo. Bạn ăn gì?"},
+          {"speaker": "A", "zh": "我吃饺子，不吃水果。", "py": "wǒ chī jiǎozi, bù chī shuǐguǒ.", "vi": "Tôi ăn sủi cảo, không ăn trái cây."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Đánh giá món ăn",
+        "lines": [
+          {"speaker": "A", "zh": "这是什么菜？", "py": "zhè shì shénme cài?", "vi": "Đây là món gì?"},
+          {"speaker": "B", "zh": "这是中国菜。", "py": "zhè shì Zhōngguó cài.", "vi": "Đây là món ăn Trung Quốc."},
+          {"speaker": "A", "zh": "好吃吗？", "py": "hǎochī ma?", "vi": "Có ngon không?"},
+          {"speaker": "B", "zh": "中国菜好吃！", "py": "Zhōngguó cài hǎochī!", "vi": "Món ăn Trung Quốc ngon!"}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 9,
+    "title": "Bài 10: Di chuyển, liên lạc",
+    "vocab": [
+      {"hanzi": "车", "pinyin": "chē", "type": "danh từ", "type_short": "dt", "meaning": "xe cộ", "example_zh": "这是什么车？", "example_vi": "Đây là xe gì?"},
+      {"hanzi": "出租车", "pinyin": "chūzūchē", "type": "danh từ", "type_short": "dt", "meaning": "xe taxi", "example_zh": "坐出租车", "example_vi": "Đi xe taxi"},
+      {"hanzi": "火车", "pinyin": "huǒchē", "type": "danh từ", "type_short": "dt", "meaning": "tàu hỏa", "example_zh": "坐火车", "example_vi": "Đi tàu hỏa"},
+      {"hanzi": "飞机", "pinyin": "fēijī", "type": "danh từ", "type_short": "dt", "meaning": "máy bay", "example_zh": "坐飞机", "example_vi": "Đi máy bay"},
+      {"hanzi": "开车", "pinyin": "kāi chē", "type": "cụm từ", "type_short": "c", "meaning": "lái xe", "example_zh": "我开车。", "example_vi": "Tôi lái xe."},
+      {"hanzi": "来", "pinyin": "lái", "type": "động từ", "type_short": "đ", "meaning": "đến, tới", "example_zh": "你来吗？", "example_vi": "Bạn đến không?"},
+      {"hanzi": "去", "pinyin": "qù", "type": "động từ", "type_short": "đ", "meaning": "đi", "example_zh": "去学校", "example_vi": "Đi trường học"},
+      {"hanzi": "到", "pinyin": "dào", "type": "động từ", "type_short": "đ", "meaning": "đến nơi, tới", "example_zh": "你到学校吗？", "example_vi": "Bạn đến trường không?"},
+      {"hanzi": "打电话", "pinyin": "dǎ diànhuà", "type": "cụm từ", "type_short": "c", "meaning": "gọi điện thoại", "example_zh": "我打电话。", "example_vi": "Tôi gọi điện thoại."},
+      {"hanzi": "电话", "pinyin": "diànhuà", "type": "danh từ", "type_short": "dt", "meaning": "điện thoại", "example_zh": "这是电话。", "example_vi": "Đây là điện thoại."},
+      {"hanzi": "手机", "pinyin": "shǒujī", "type": "danh từ", "type_short": "dt", "meaning": "điện thoại di động", "example_zh": "我的手机", "example_vi": "Điện thoại của tôi"},
+      {"hanzi": "喂", "pinyin": "wèi", "type": "thán từ", "type_short": "th", "meaning": "alo (khi nghe máy)", "example_zh": "喂，你好！", "example_vi": "Alo, xin chào!"},
+      {"hanzi": "问", "pinyin": "wèn", "type": "động từ", "type_short": "đ", "meaning": "hỏi", "example_zh": "问老师", "example_vi": "Hỏi giáo viên"},
+      {"hanzi": "问题", "pinyin": "wèntí", "type": "danh từ", "type_short": "dt", "meaning": "vấn đề, câu hỏi", "example_zh": "什么问题？", "example_vi": "Vấn đề gì?"},
+      {"hanzi": "坐", "pinyin": "zuò", "type": "động từ", "type_short": "đ", "meaning": "ngồi, đi (phương tiện)", "example_zh": "坐车", "example_vi": "Ngồi xe / Đi xe"},
+      {"hanzi": "回", "pinyin": "huí", "type": "động từ", "type_short": "đ", "meaning": "về, trở về", "example_zh": "回家", "example_vi": "Về nhà"},
+      {"hanzi": "东西", "pinyin": "dōngxi", "type": "danh từ", "type_short": "dt", "meaning": "đồ vật, thứ", "example_zh": "吃东西", "example_vi": "Ăn đồ ăn"},
+      {"hanzi": "怎么", "pinyin": "zěnme", "type": "đại từ", "type_short": "đt", "meaning": "thế nào, làm sao", "example_zh": "怎么去？", "example_vi": "Đi thế nào?"},
+      {"hanzi": "人", "pinyin": "rén", "type": "danh từ", "type_short": "dt", "meaning": "người", "example_zh": "什么人？", "example_vi": "Người nào?"},
+      {"hanzi": "工作", "pinyin": "gōngzuò", "type": "danh từ", "type_short": "dt", "meaning": "công việc, làm việc", "example_zh": "去工作", "example_vi": "Đi làm việc"}
+    ],
+    "grammar": [
+      {
+        "title": "1. 怎么 hỏi phương thức (làm thế nào)",
+        "desc": "Dùng 怎么 (zěnme) + Động từ để hỏi cách thức thực hiện hành động (như đi bằng phương tiện gì).",
+        "formula": [{"text": "Chủ ngữ + 怎么 + Động từ？", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "你怎么去学校？", "pinyin": "nǐ zěnme qù xuéxiào?", "meaning": "Bạn đi đến trường bằng cách nào?"},
+          {"correct": "你怎么回公司？", "pinyin": "nǐ zěnme huí gōngsī?", "meaning": "Bạn về công ty bằng cách nào?"}
+        ]
+      },
+      {
+        "title": "2. 坐 + Phương tiện giao thông",
+        "desc": "Động từ 坐 (ngồi) được dùng khi bạn là hành khách đi các phương tiện giao thông (như xe taxi, tàu hỏa, máy bay).",
+        "formula": [{"text": "Chủ ngữ + 坐 + Phương tiện", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "我坐出租车去。", "pinyin": "wǒ zuò chūzūchē qù.", "meaning": "Tôi đi bằng xe taxi."},
+          {"correct": "他们坐飞机来。", "pinyin": "tāmen zuò fēijī lái.", "meaning": "Họ đến bằng máy bay."}
+        ]
+      },
+      {
+        "title": "3. Động từ 问 (Hỏi)",
+        "desc": "问 dùng để hỏi ai đó hoặc hỏi một vấn đề. Cấu trúc thường gặp: 问 + Người, hoặc 问 + 问题.",
+        "formula": [{"text": "Chủ ngữ + 问 + Đối tượng / 问题", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "我问老师。", "pinyin": "wǒ wèn lǎoshī.", "meaning": "Tôi hỏi giáo viên."},
+          {"correct": "你问什么问题？", "pinyin": "nǐ wèn shénme wèntí?", "meaning": "Bạn hỏi vấn đề gì?"}
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hội thoại 1: Hỏi cách đi lại",
+        "lines": [
+          {"speaker": "A", "zh": "你怎么去学校？", "py": "nǐ zěnme qù xuéxiào?", "vi": "Bạn đi đến trường bằng cách nào?"},
+          {"speaker": "B", "zh": "我坐出租车去学校。", "py": "wǒ zuò chūzūchē qù xuéxiào.", "vi": "Tôi đi taxi đến trường."},
+          {"speaker": "A", "zh": "大卫呢？", "py": "Dàwèi ne?", "vi": "Còn David?"},
+          {"speaker": "B", "zh": "大卫坐火车去。", "py": "Dàwèi zuò huǒchē qù.", "vi": "David đi tàu hỏa."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Gọi điện thoại",
+        "lines": [
+          {"speaker": "A", "zh": "喂，你在哪儿？", "py": "wèi, nǐ zài nǎr?", "vi": "Alo, bạn đang ở đâu?"},
+          {"speaker": "B", "zh": "我在大学。你来吗？", "py": "wǒ zài dàxué. nǐ lái ma?", "vi": "Tôi ở đại học. Bạn đến không?"},
+          {"speaker": "A", "zh": "我去。我打电话问老师。", "py": "wǒ qù. wǒ dǎ diànhuà wèn lǎoshī.", "vi": "Tôi đi. Tôi gọi điện thoại hỏi giáo viên."},
+          {"speaker": "B", "zh": "下午见。", "py": "xiàwǔ jiàn.", "vi": "Buổi chiều gặp."}
+        ]
+      }
+    ]
+  }
+]

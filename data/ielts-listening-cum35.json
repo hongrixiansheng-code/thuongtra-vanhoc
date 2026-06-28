@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 69,
+    "listening": [
+      {
+        "title": "Listening: A trip detail",
+        "transcript": "I have visited Hue before. I visited it last summer, with my family.",
+        "questions": [
+          { "type": "multiple_choice", "question": "When did the speaker visit Hue?", "options": ["Last summer", "Last winter", "Two years ago"], "correct": "Last summer", "explanation": "\"I visited it last summer\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "listening": [
+      {
+        "title": "Listening: A factory process",
+        "transcript": "Coffee is grown in the highlands. It is processed in factories and packaged, then it is delivered to shops.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is coffee grown?", "options": ["In factories", "In the highlands", "In shops"], "correct": "In the highlands", "explanation": "\"Coffee is grown in the highlands.\"" }
+        ]
+      }
+    ]
+  }
+]

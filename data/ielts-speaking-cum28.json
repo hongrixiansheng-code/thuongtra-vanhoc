@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 55,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Review — The future of cities",
+        "part": 3,
+        "questions": ["Do you think your city will become more crowded?", "Will it become as crowded as the capital?", "Why are some people planning to move to the suburbs?"],
+        "sampleAnswer": "Yes, I think my city will become more crowded because the population is going to grow quickly. Maybe not as crowded as the capital, but it will probably be the busiest city in the region. Some people are planning to move to the suburbs because they are quieter and more peaceful."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 56,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Rules you must follow",
+        "part": 1,
+        "questions": ["What rules must you follow at school or work?", "Must you wear a uniform?", "What mustn't you do in your classroom or office?"],
+        "sampleAnswer": "We must arrive on time every day. No, we mustn't wear a uniform, but we must keep our desks clean. We mustn't make loud noises during meetings."
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 13,
+    "reading": [
+      {
+        "title": "Reading: Recipe instructions",
+        "passage": "Add two eggs to the bowl. Mix them well. Turn on the oven. Check the cake after twenty minutes. Press the button to stop the timer.",
+        "questions": [
+          { "type": "true_false_ng", "question": "You should add three eggs.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Công thức ghi \"two eggs\"." },
+          { "type": "multiple_choice", "question": "When should you check the cake?", "options": ["After ten minutes", "After twenty minutes", "After thirty minutes"], "correct": "After twenty minutes", "explanation": "\"Check the cake after twenty minutes.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "reading": [
+      {
+        "title": "Reading: A quiet café",
+        "passage": "This café is quiet and comfortable. The room is clean, but it is a little cold. Some customers say it is too dry inside in winter.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The café is loud.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"This café is quiet\"." },
+          { "type": "true_false_ng", "question": "The café is dirty.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"The room is clean\"." }
+        ]
+      }
+    ]
+  }
+]

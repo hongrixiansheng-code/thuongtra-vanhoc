@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 3,
+    "listening": [
+      {
+        "title": "Listening: Describing a person",
+        "transcript": "My new classmate is tall and young. Her hair is long and straight, not curly. She is very friendly and kind to everyone in the class.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the classmate look like?", "options": ["Short and old", "Tall and young", "Tall and fat"], "correct": "Tall and young", "explanation": "\"tall and young\"." },
+          { "type": "form_completion", "question": "Hair: long and ___", "options": ["curly", "straight", "short"], "correct": "straight", "explanation": "\"long and straight, not curly\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "listening": [
+      {
+        "title": "Listening: A busy week",
+        "transcript": "I have a lot of work this week, so I am busy. My brother has a calm personality; he is never nervous. He has clever ideas and he isn't lazy at all.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Why is the speaker busy?", "options": ["A lot of work", "A test tomorrow", "A holiday"], "correct": "A lot of work", "explanation": "\"I have a lot of work this week\"." },
+          { "type": "multiple_choice", "question": "What is the brother's personality like?", "options": ["Nervous and lazy", "Calm and clever", "Angry and shy"], "correct": "Calm and clever", "explanation": "\"calm personality... clever ideas\"." }
+        ]
+      }
+    ]
+  }
+]

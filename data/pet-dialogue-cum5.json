@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 8,
+      "dialogues": [
+        {
+          "title": "Climate change consequences",
+          "lines": [
+            {
+              "speaker": "Ryan",
+              "en": "Unless we reduce carbon emissions, the global temperatures will continue to rise rapidly. The polar ice caps might melt completely in the next few decades.",
+              "vi": "Trừ khi chúng ta giảm lượng khí thải carbon, nhiệt độ toàn cầu sẽ tiếp tục tăng nhanh chóng. Các chỏm băng ở hai cực có thể tan chảy hoàn toàn trong vài thập kỷ tới."
+            },
+            {
+              "speaker": "Lily",
+              "en": "If the ice melts, sea levels will rise and flood many coastal cities. Millions of people could lose their homes, which is a terrifying thought.",
+              "vi": "Nếu băng tan, mực nước biển sẽ dâng cao và làm ngập nhiều thành phố ven biển. Hàng triệu người có khả năng mất đi nhà cửa, điều đó là một suy nghĩ thật đáng sợ."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If we start using renewable energy, we will protect the environment for future generations. However, this transition might take a lot of time and money.",
+              "vi": "Nếu chúng ta bắt đầu sử dụng năng lượng tái tạo, chúng ta sẽ bảo vệ được môi trường cho các thế hệ tương lai. Tuy nhiên, sự chuyển đổi này có thể sẽ tốn rất nhiều thời gian và tiền bạc."
+            },
+            {
+              "speaker": "Lily",
+              "en": "Unless governments take immediate action, the situation will become irreversible. Many animal species could become extinct if their habitats are destroyed.",
+              "vi": "Trừ khi các chính phủ hành động ngay lập tức, tình hình sẽ trở nên không thể đảo ngược. Nhiều loài động vật có khả năng tuyệt chủng nếu môi trường sống của chúng bị phá hủy."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If everyone plants a tree, the air quality will improve significantly. A small effort could make a massive difference to our planet.",
+              "vi": "Nếu mỗi người đều trồng một cái cây, chất lượng không khí sẽ cải thiện đáng kể. Một nỗ lực nhỏ có thể tạo ra một sự khác biệt to lớn cho hành tinh của chúng ta."
+            },
+            {
+              "speaker": "Lily",
+              "en": "We will face severe droughts in the summer unless we stop wasting water. Our agriculture might suffer heavily if the rain patterns change.",
+              "vi": "Chúng ta sẽ đối mặt với hạn hán nghiêm trọng vào mùa hè trừ khi chúng ta ngừng lãng phí nước. Nông nghiệp của chúng ta có thể bị thiệt hại nặng nề nếu các kiểu hình mưa thay đổi."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If we educate children about recycling, they will grow up to be responsible citizens. I believe human ingenuity will solve this crisis eventually.",
+              "vi": "Nếu chúng ta giáo dục trẻ em về việc tái chế, chúng sẽ lớn lên trở thành những công dân có trách nhiệm. Tôi tin rằng sự khéo léo của con người rốt cuộc sẽ giải quyết được cuộc khủng hoảng này."
+            },
+            {
+              "speaker": "Lily",
+              "en": "The future could be bright, but it will definitely depend on our choices today. We won't survive unless we learn to live in harmony with nature.",
+              "vi": "Tương lai có thể sẽ tươi sáng, nhưng nó chắc chắn sẽ phụ thuộc vào những lựa chọn của chúng ta hôm nay. Chúng ta sẽ không sống sót trừ khi chúng ta học cách sống hòa hợp với thiên nhiên."
+            }
+          ]
+        },
+        {
+          "title": "Planning an eco-friendly event",
+          "lines": [
+            {
+              "speaker": "Jake",
+              "en": "If we organize a beach cleanup, many local residents will join us. Unless we advertise it properly, nobody will know about the event.",
+              "vi": "Nếu chúng ta tổ chức một buổi dọn dẹp bãi biển, nhiều cư dân địa phương sẽ tham gia cùng chúng ta. Trừ khi chúng ta quảng cáo nó đúng cách, sẽ không ai biết về sự kiện này."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "I will create a Facebook page which will help spread the information quickly. We might need to ask the local council for some trash bags.",
+              "vi": "Tôi sẽ tạo một trang Facebook thứ mà sẽ giúp lan truyền thông tin nhanh chóng. Chúng ta có thể sẽ cần xin hội đồng địa phương một số túi đựng rác."
+            },
+            {
+              "speaker": "Jake",
+              "en": "Unless the weather is terrible, the event will take place this Saturday morning. If it rains heavily, we will postpone it to the next week.",
+              "vi": "Trừ khi thời tiết quá tồi tệ, sự kiện sẽ diễn ra vào sáng thứ Bảy này. Nếu trời mưa lớn, chúng ta sẽ hoãn nó sang tuần sau."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "I will bring some sandwiches and drinks for the volunteers who come to help. The kids could play games after the cleanup is finished.",
+              "vi": "Tôi sẽ mang một ít bánh mì sandwich và đồ uống cho những tình nguyện viên đến giúp. Bọn trẻ có khả năng sẽ chơi các trò chơi sau khi việc dọn dẹp hoàn tất."
+            },
+            {
+              "speaker": "Jake",
+              "en": "If we collect enough plastic bottles, we will send them to the recycling center. The ocean might become cleaner if every community does this.",
+              "vi": "Nếu chúng ta thu gom đủ chai nhựa, chúng ta sẽ gửi chúng đến trung tâm tái chế. Đại dương có thể sẽ trở nên sạch hơn nếu mọi cộng đồng đều làm điều này."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "Unless people change their habits, the pollution problem will never be solved. We will need to educate tourists about protecting marine life.",
+              "vi": "Trừ khi con người thay đổi thói quen của họ, vấn đề ô nhiễm sẽ không bao giờ được giải quyết. Chúng ta sẽ cần giáo dục du khách về việc bảo vệ sinh vật biển."
+            },
+            {
+              "speaker": "Jake",
+              "en": "If the local news reporter comes, our campaign will get a lot of attention. We could become a role model for other coastal towns.",
+              "vi": "Nếu phóng viên tin tức địa phương đến, chiến dịch của chúng ta sẽ nhận được nhiều sự chú ý. Chúng ta có thể trở thành một hình mẫu cho các thị trấn ven biển khác."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "I am sure the event will be highly successful if we work hard together. The beaches won't stay clean unless we maintain them regularly.",
+              "vi": "Tôi chắc chắn sự kiện sẽ rất thành công nếu chúng ta cùng nhau làm việc chăm chỉ. Các bãi biển sẽ không giữ được sự sạch sẽ trừ khi chúng ta duy trì chúng thường xuyên."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "dialogues": [
+        {
+          "title": "Environmental protection efforts",
+          "lines": [
+            {
+              "speaker": "Oscar",
+              "en": "Thousands of trees are being cut down in the Amazon rainforest every day. It is important that governments should ban illegal logging immediately.",
+              "vi": "Hàng ngàn cái cây đang bị đốn hạ trong rừng mưa Amazon mỗi ngày. Việc các chính phủ nên cấm khai thác gỗ bất hợp pháp ngay lập tức là rất quan trọng."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "Many endangered species have been driven to the edge of extinction because of this. It is essential that we must protect their natural habitats.",
+              "vi": "Nhiều loài có nguy cơ tuyệt chủng đã bị đẩy đến bờ vực diệt vong vì điều này. Điều thiết yếu là chúng ta phải bảo vệ môi trường sống tự nhiên của chúng."
+            },
+            {
+              "speaker": "Oscar",
+              "en": "A new solar power plant is being built near our city, which is great news. The old coal factory has been shut down permanently.",
+              "vi": "Một nhà máy năng lượng mặt trời mới đang được xây dựng gần thành phố của chúng ta, đó là một tin tuyệt vời. Nhà máy than cũ đã bị đóng cửa vĩnh viễn."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "The local river has been heavily polluted by industrial waste for years. It is vital that companies must treat their wastewater before releasing it.",
+              "vi": "Con sông địa phương đã bị ô nhiễm nặng nề bởi chất thải công nghiệp trong nhiều năm. Sống còn là việc các công ty phải xử lý nước thải của họ trước khi xả ra."
+            },
+            {
+              "speaker": "Oscar",
+              "en": "Fortunately, the river is being cleaned up by a group of environmental activists right now. Millions of dollars have been donated to this cause.",
+              "vi": "May mắn thay, con sông hiện đang được làm sạch bởi một nhóm các nhà hoạt động môi trường ngay lúc này. Hàng triệu đô la đã được quyên góp cho mục đích này."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "It is necessary that everyone should participate in reducing plastic consumption. Too much plastic trash is being thrown into the ocean every minute.",
+              "vi": "Tất cả mọi người cần thiết nên tham gia vào việc giảm tiêu thụ nhựa. Quá nhiều rác thải nhựa đang bị ném xuống đại dương mỗi phút."
+            },
+            {
+              "speaker": "Oscar",
+              "en": "Paper bags are being used in supermarkets instead of plastic ones. Eco-friendly policies have been implemented by many countries around the world.",
+              "vi": "Túi giấy đang được sử dụng trong các siêu thị thay cho túi nhựa. Các chính sách thân thiện với môi trường đã được thực thi bởi nhiều quốc gia trên toàn thế giới."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "It is important that children must be taught about the environment at school. Awareness has been raised significantly over the last decade.",
+              "vi": "Việc trẻ em phải được dạy về môi trường ở trường học là rất quan trọng. Nhận thức đã được nâng cao đáng kể trong vòng một thập kỷ qua."
+            }
+          ]
+        },
+        {
+          "title": "Discussing local pollution",
+          "lines": [
+            {
+              "speaker": "Liam",
+              "en": "The air quality in our town has been monitored closely since last year. It is crucial that factories must install air filters to reduce smoke.",
+              "vi": "Chất lượng không khí ở thị trấn của chúng ta đã được theo dõi sát sao từ năm ngoái. Yếu tố then chốt là các nhà máy phải lắp đặt bộ lọc không khí để giảm khói."
+            },
+            {
+              "speaker": "Emma",
+              "en": "A new public transport system is being developed, which will reduce the number of cars. It is essential that citizens should use buses more often.",
+              "vi": "Một hệ thống giao thông công cộng mới đang được phát triển, cái mà sẽ giảm thiểu số lượng xe hơi. Điều thiết yếu là công dân nên sử dụng xe buýt thường xuyên hơn."
+            },
+            {
+              "speaker": "Liam",
+              "en": "Old diesel buses have been replaced by electric ones in the city center. The roads are being repaired to encourage people to ride bicycles.",
+              "vi": "Các xe buýt chạy bằng diesel cũ đã được thay thế bằng xe điện ở trung tâm thành phố. Những con đường đang được sửa chữa để khuyến khích người dân đi xe đạp."
+            },
+            {
+              "speaker": "Emma",
+              "en": "It is necessary that heavy vehicles must be banned during rush hours. The traffic congestion has been improved a lot since the new law passed.",
+              "vi": "Việc các xe cộ hạng nặng phải bị cấm trong giờ cao điểm là cần thiết. Tình trạng ùn tắc giao thông đã được cải thiện rất nhiều kể từ khi luật mới được thông qua."
+            },
+            {
+              "speaker": "Liam",
+              "en": "Several green parks are being constructed in areas where factories used to be. Trees have been planted along the main streets to provide shade.",
+              "vi": "Một vài công viên xanh đang được xây dựng ở những khu vực từng là nhà máy. Cây xanh đã được trồng dọc theo các con đường chính để cung cấp bóng mát."
+            },
+            {
+              "speaker": "Emma",
+              "en": "It is important that strict fines should be given to people who litter. Too much rubbish is being left on the streets by careless tourists.",
+              "vi": "Việc nên áp dụng các khoản tiền phạt nghiêm ngặt đối với những người xả rác là rất quan trọng. Quá nhiều rác thải đang bị bỏ lại trên đường phố bởi những du khách bất cẩn."
+            },
+            {
+              "speaker": "Liam",
+              "en": "Trash bins for recycling have been placed at every corner of the city. The recycling rate is being increased thanks to these new facilities.",
+              "vi": "Thùng rác dành cho tái chế đã được đặt ở mỗi góc của thành phố. Tỷ lệ tái chế đang được gia tăng nhờ vào những cơ sở vật chất mới này."
+            },
+            {
+              "speaker": "Emma",
+              "en": "Our town has been transformed into a much cleaner and greener place. It is vital that we must maintain this progress for our future.",
+              "vi": "Thị trấn của chúng ta đã được biến đổi thành một nơi sạch hơn và xanh hơn nhiều. Sống còn là chúng ta phải duy trì sự tiến bộ này cho tương lai của chúng ta."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

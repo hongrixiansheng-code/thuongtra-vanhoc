@@ -1,0 +1,276 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 4,
+      "title": "Bài 3.c: Tính từ thường gặp (3/4)",
+      "theme": "Tính từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "lazy",
+          "ipa": "/ˈleɪzi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "lười biếng",
+          "example_en": "Don't be a lazy boy.",
+          "example_vi": "Đừng làm một cậu bé lười biếng."
+        },
+        {
+          "word": "light",
+          "ipa": "/laɪt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nhẹ, sáng sủa",
+          "example_en": "This box is very light.",
+          "example_vi": "Cái hộp này rất nhẹ."
+        },
+        {
+          "word": "lovely",
+          "ipa": "/ˈlʌvli/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đáng yêu, tuyệt vời",
+          "example_en": "She has a lovely dress.",
+          "example_vi": "Cô ấy có một chiếc váy đáng yêu."
+        },
+        {
+          "word": "low",
+          "ipa": "/loʊ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thấp",
+          "example_en": "The wall is low.",
+          "example_vi": "Bức tường này thấp."
+        },
+        {
+          "word": "lucky",
+          "ipa": "/ˈlʌki/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "may mắn",
+          "example_en": "You are a lucky girl.",
+          "example_vi": "Bạn là một cô gái may mắn."
+        },
+        {
+          "word": "missing",
+          "ipa": "/ˈmɪsɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "bị mất tích, thiếu",
+          "example_en": "My pen is missing.",
+          "example_vi": "Cây bút của tôi bị mất rồi."
+        },
+        {
+          "word": "noisy",
+          "ipa": "/ˈnɔɪzi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ồn ào",
+          "example_en": "The children are noisy.",
+          "example_vi": "Bọn trẻ thật ồn ào."
+        },
+        {
+          "word": "pleased",
+          "ipa": "/pliːzd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "hài lòng, vui vẻ",
+          "example_en": "I am pleased to meet you.",
+          "example_vi": "Tôi rất vui được gặp bạn."
+        },
+        {
+          "word": "poor",
+          "ipa": "/pʊr/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nghèo, đáng thương",
+          "example_en": "He helps poor people.",
+          "example_vi": "Cậu ấy giúp đỡ những người nghèo."
+        },
+        {
+          "word": "popular",
+          "ipa": "/ˈpɒpjələr/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "phổ biến, được yêu thích",
+          "example_en": "Football is a popular sport.",
+          "example_vi": "Bóng đá là một môn thể thao phổ biến."
+        },
+        {
+          "word": "racing",
+          "ipa": "/ˈreɪsɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "dành cho đua (xe)",
+          "example_en": "He drives a racing car.",
+          "example_vi": "Anh ấy lái một chiếc xe đua."
+        },
+        {
+          "word": "ready",
+          "ipa": "/ˈredi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "sẵn sàng",
+          "example_en": "Are you ready to go?",
+          "example_vi": "Bạn đã sẵn sàng để đi chưa?"
+        },
+        {
+          "word": "rich",
+          "ipa": "/rɪtʃ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "giàu có",
+          "example_en": "The king is very rich.",
+          "example_vi": "Nhà vua rất giàu có."
+        },
+        {
+          "word": "several",
+          "ipa": "/ˈsevrəl/",
+          "type": "Từ hạn định",
+          "type_short": "adj",
+          "meaning": "vài, một số",
+          "example_en": "I have several books.",
+          "example_vi": "Tôi có vài quyển sách."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 5,
+      "title": "Bài 3.d: Tính từ thường gặp (4/4)",
+      "theme": "Tính từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "soft",
+          "ipa": "/sɒft/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "mềm mại",
+          "example_en": "This pillow is soft.",
+          "example_vi": "Cái gối này rất mềm mại."
+        },
+        {
+          "word": "sore",
+          "ipa": "/sɔːr/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đau nhức",
+          "example_en": "I have a sore throat.",
+          "example_vi": "Tôi bị đau họng."
+        },
+        {
+          "word": "special",
+          "ipa": "/ˈspeʃl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đặc biệt",
+          "example_en": "Today is a special day.",
+          "example_vi": "Hôm nay là một ngày đặc biệt."
+        },
+        {
+          "word": "strange",
+          "ipa": "/streɪndʒ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "kỳ lạ",
+          "example_en": "I heard a strange noise.",
+          "example_vi": "Tôi nghe thấy một tiếng ồn kỳ lạ."
+        },
+        {
+          "word": "sure",
+          "ipa": "/ʃʊr/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "chắc chắn",
+          "example_en": "Are you sure about that?",
+          "example_vi": "Bạn có chắc về điều đó không?"
+        },
+        {
+          "word": "tidy",
+          "ipa": "/ˈtaɪdi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "gọn gàng, ngăn nắp",
+          "example_en": "Keep your room tidy.",
+          "example_vi": "Hãy giữ phòng của bạn gọn gàng."
+        },
+        {
+          "word": "unfriendly",
+          "ipa": "/ʌnˈfrendli/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "không thân thiện",
+          "example_en": "The man was unfriendly.",
+          "example_vi": "Người đàn ông đó không thân thiện."
+        },
+        {
+          "word": "unhappy",
+          "ipa": "/ʌnˈhæpi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "không vui, buồn bã",
+          "example_en": "Why are you unhappy?",
+          "example_vi": "Tại sao bạn lại buồn bã?"
+        },
+        {
+          "word": "unkind",
+          "ipa": "/ˌʌnˈkaɪnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tàn nhẫn, không tốt bụng",
+          "example_en": "Don't be unkind to animals.",
+          "example_vi": "Đừng tàn nhẫn với động vật."
+        },
+        {
+          "word": "untidy",
+          "ipa": "/ʌnˈtaɪdi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "bừa bộn",
+          "example_en": "His desk is very untidy.",
+          "example_vi": "Bàn học của cậu ấy rất bừa bộn."
+        },
+        {
+          "word": "unusual",
+          "ipa": "/ʌnˈjuːʒuəl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "bất thường, kỳ lạ",
+          "example_en": "That is an unusual bird.",
+          "example_vi": "Đó là một loài chim bất thường."
+        },
+        {
+          "word": "warm",
+          "ipa": "/wɔːrm/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ấm áp",
+          "example_en": "The weather is warm today.",
+          "example_vi": "Hôm nay thời tiết ấm áp."
+        },
+        {
+          "word": "wonderful",
+          "ipa": "/ˈwʌndərfl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tuyệt vời",
+          "example_en": "We had a wonderful time.",
+          "example_vi": "Chúng tôi đã có một thời gian tuyệt vời."
+        },
+        {
+          "word": "worried",
+          "ipa": "/ˈwɜːrid/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "lo lắng",
+          "example_en": "My mum is worried about me.",
+          "example_vi": "Mẹ tôi lo lắng cho tôi."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 18,
+      "dialogues": [
+        {
+          "title": "Talking about a novel",
+          "lines": [
+            {
+              "speaker": "Sarah",
+              "en": "I have just finished reading the fantasy novel which you lent me last week. The author created a magical world which is incredibly imaginative.",
+              "vi": "Tôi vừa mới đọc xong cuốn tiểu thuyết giả tưởng mà bạn đã cho tôi mượn tuần trước. Tác giả đã tạo ra một thế giới phép thuật cái mà vô cùng giàu trí tưởng tượng."
+            },
+            {
+              "speaker": "John",
+              "en": "I am glad you liked it! The plot twists in the second half of the book were completely unexpected, weren't they?",
+              "vi": "Tôi rất vui vì bạn đã thích nó! Những cú ngoặt cốt truyện ở nửa sau của cuốn sách hoàn toàn không thể lường trước được, đúng không?"
+            },
+            {
+              "speaker": "Sarah",
+              "en": "Absolutely, I couldn't put the book down until I reached the final page. The main character, who starts as an ordinary farmer, develops into a brave hero.",
+              "vi": "Chắc chắn rồi, tôi đã không thể đặt cuốn sách xuống cho đến khi tôi đọc đến trang cuối cùng. Nhân vật chính, người bắt đầu như một nông dân bình thường, phát triển thành một anh hùng dũng cảm."
+            },
+            {
+              "speaker": "John",
+              "en": "The character development is excellent, and the descriptive language makes you feel like you are there. I have already bought the sequel, which was published yesterday.",
+              "vi": "Sự phát triển nhân vật rất xuất sắc, và ngôn ngữ miêu tả khiến bạn cảm thấy như mình đang ở đó. Tôi đã mua luôn phần tiếp theo, cuốn mà được xuất bản hôm qua."
+            },
+            {
+              "speaker": "Sarah",
+              "en": "Oh, please lend it to me as soon as you finish reading it! I am dying to know what happens to the kingdom next.",
+              "vi": "Ồ, làm ơn cho tôi mượn nó ngay khi bạn đọc xong nhé! Tôi đang chết mê chết mệt muốn biết điều gì sẽ xảy ra với vương quốc tiếp theo."
+            },
+            {
+              "speaker": "John",
+              "en": "I am a fast reader, so I should be done with it by this weekend. We can discuss both books when we meet for coffee.",
+              "vi": "Tôi là một người đọc nhanh, vì vậy tôi sẽ đọc xong nó vào cuối tuần này. Chúng ta có thể thảo luận về cả hai cuốn sách khi gặp nhau uống cà phê."
+            },
+            {
+              "speaker": "Sarah",
+              "en": "That sounds perfect! Reading fiction is such a wonderful way to escape from the stress of daily life.",
+              "vi": "Nghe thật hoàn hảo! Đọc tiểu thuyết hư cấu là một cách tuyệt vời để thoát khỏi những căng thẳng của cuộc sống hằng ngày."
+            },
+            {
+              "speaker": "John",
+              "en": "Indeed, a good story can transport you to places which you have never imagined. Literature is truly a powerful form of art.",
+              "vi": "Quả thật, một câu chuyện hay có thể đưa bạn đến những nơi mà bạn chưa từng tưởng tượng. Văn học thực sự là một hình thức nghệ thuật đầy sức mạnh."
+            }
+          ]
+        },
+        {
+          "title": "Visiting a library",
+          "lines": [
+            {
+              "speaker": "Student",
+              "en": "Excuse me, I am looking for a biography of Albert Einstein which was recommended by my physics professor. Could you help me find it?",
+              "vi": "Xin lỗi, tôi đang tìm một cuốn tiểu sử về Albert Einstein cuốn mà đã được giáo sư vật lý của tôi giới thiệu. Bạn có thể giúp tôi tìm nó không?"
+            },
+            {
+              "speaker": "Librarian",
+              "en": "Of course! Biographies are located on the second floor, in the non-fiction section. Do you know the exact title or the author's name?",
+              "vi": "Tất nhiên rồi! Các cuốn tiểu sử được đặt ở tầng hai, trong khu vực sách phi hư cấu. Bạn có biết tựa đề chính xác hoặc tên tác giả không?"
+            },
+            {
+              "speaker": "Student",
+              "en": "I think the author's surname is Isaacson, but I am not entirely sure. It is supposed to be a very detailed book about his life and theories.",
+              "vi": "Tôi nghĩ họ của tác giả là Isaacson, nhưng tôi không hoàn toàn chắc chắn. Nó được cho là một cuốn sách rất chi tiết về cuộc đời và các lý thuyết của ông ấy."
+            },
+            {
+              "speaker": "Librarian",
+              "en": "Let me search the catalog on the computer. Yes, we have two copies of that book, which are currently available on the shelf.",
+              "vi": "Để tôi tìm kiếm trong danh mục trên máy tính. Vâng, chúng tôi có hai bản sao của cuốn sách đó, những cuốn mà hiện đang có sẵn trên kệ."
+            },
+            {
+              "speaker": "Student",
+              "en": "That is wonderful news because I need it for an essay which is due next week. How many books am I allowed to borrow at the same time?",
+              "vi": "Đó là một tin tuyệt vời vì tôi cần nó cho một bài luận bài mà đến hạn vào tuần sau. Tôi được phép mượn bao nhiêu cuốn sách cùng một lúc?"
+            },
+            {
+              "speaker": "Librarian",
+              "en": "With a student card, you can borrow up to five books for a period of three weeks. Please bring the books to the front desk when you are ready.",
+              "vi": "Với thẻ sinh viên, bạn có thể mượn tối đa năm cuốn sách trong khoảng thời gian ba tuần. Vui lòng mang sách đến quầy lễ tân khi bạn đã sẵn sàng."
+            },
+            {
+              "speaker": "Student",
+              "en": "I will also look for a poetry collection while I am upstairs. I enjoy reading poems which explore the beauty of nature.",
+              "vi": "Tôi cũng sẽ tìm kiếm một tập thơ trong khi tôi ở trên lầu. Tôi thích đọc những bài thơ những bài mà khám phá vẻ đẹp của thiên nhiên."
+            },
+            {
+              "speaker": "Librarian",
+              "en": "The poetry section is right next to the biographies, so you will find it easily. Let me know if you need any further assistance.",
+              "vi": "Khu vực thơ ca nằm ngay cạnh khu tiểu sử, vì vậy bạn sẽ tìm thấy nó dễ dàng. Hãy cho tôi biết nếu bạn cần bất kỳ sự hỗ trợ nào thêm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "dialogues": [
+        {
+          "title": "Buying a new smartphone",
+          "lines": [
+            {
+              "speaker": "Mark",
+              "en": "I am looking for a new smartphone which has a high-quality camera. My current phone is five years old, and it has become very slow.",
+              "vi": "Tôi đang tìm kiếm một chiếc điện thoại thông minh mới cái mà có camera chất lượng cao. Điện thoại hiện tại của tôi đã năm năm tuổi, và nó đã trở nên rất chậm."
+            },
+            {
+              "speaker": "Salesperson",
+              "en": "We have the latest model from TechPro, which features an incredible camera system. It takes stunning photos even in low light conditions.",
+              "vi": "Chúng tôi có mẫu mới nhất từ TechPro, mẫu mà sở hữu hệ thống camera đáng kinh ngạc. Nó chụp được những bức ảnh tuyệt đẹp ngay cả trong điều kiện ánh sáng yếu."
+            },
+            {
+              "speaker": "Mark",
+              "en": "That sounds perfect, but I am also concerned about the battery life. I often use my phone for navigation when I am driving.",
+              "vi": "Nghe hoàn hảo đấy, nhưng tôi cũng quan tâm đến thời lượng pin. Tôi thường sử dụng điện thoại của mình để điều hướng khi tôi đang lái xe."
+            },
+            {
+              "speaker": "Salesperson",
+              "en": "This model has a massive battery which can last for two days on a single charge. It also supports fast charging, which is very convenient.",
+              "vi": "Mẫu này có một viên pin khổng lồ cái mà có thể kéo dài trong hai ngày chỉ với một lần sạc. Nó cũng hỗ trợ sạc nhanh, điều này rất tiện lợi."
+            },
+            {
+              "speaker": "Mark",
+              "en": "How much storage capacity does it have? I download a lot of large applications which take up a lot of space.",
+              "vi": "Nó có dung lượng lưu trữ bao nhiêu? Tôi tải xuống rất nhiều ứng dụng lớn những ứng dụng chiếm rất nhiều không gian."
+            },
+            {
+              "speaker": "Salesperson",
+              "en": "It comes with 256 gigabytes of storage, and you can also expand it using a memory card. Would you like to test the device yourself?",
+              "vi": "Nó đi kèm với 256 gigabyte bộ nhớ, và bạn cũng có thể mở rộng nó bằng cách sử dụng thẻ nhớ. Bạn có muốn tự mình thử nghiệm thiết bị không?"
+            },
+            {
+              "speaker": "Mark",
+              "en": "Yes, please. The screen resolution is remarkably clear, and the interface is very smooth to operate.",
+              "vi": "Vâng, làm ơn. Độ phân giải màn hình rõ ràng một cách đáng chú ý, và giao diện rất mượt mà khi thao tác."
+            },
+            {
+              "speaker": "Salesperson",
+              "en": "It is currently on sale, so you get a twenty percent discount if you buy it today. It is definitely the best deal which we offer.",
+              "vi": "Nó hiện đang được giảm giá, vì vậy bạn được giảm giá hai mươi phần trăm nếu bạn mua nó hôm nay. Nó chắc chắn là thỏa thuận tốt nhất cái mà chúng tôi cung cấp."
+            }
+          ]
+        },
+        {
+          "title": "Discussing artificial intelligence",
+          "lines": [
+            {
+              "speaker": "Daniel",
+              "en": "I watched a fascinating documentary about artificial intelligence last night. The robots which are being developed can perform complex surgeries with extreme precision.",
+              "vi": "Tôi đã xem một bộ phim tài liệu hấp dẫn về trí tuệ nhân tạo tối qua. Những robot mà đang được phát triển có thể thực hiện các ca phẫu thuật phức tạp với độ chính xác cực cao."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "Technology is advancing so fast that it is sometimes scary to think about the future. Will machines replace doctors completely one day?",
+              "vi": "Công nghệ đang tiến bộ quá nhanh đến nỗi đôi khi thật đáng sợ khi nghĩ về tương lai. Liệu máy móc có thay thế hoàn toàn bác sĩ vào một ngày nào đó không?"
+            },
+            {
+              "speaker": "Daniel",
+              "en": "I don't think they will replace doctors entirely, but they will serve as powerful tools. An AI system can analyze medical data much faster than a human.",
+              "vi": "Tôi không nghĩ chúng sẽ thay thế bác sĩ hoàn toàn, nhưng chúng sẽ đóng vai trò như những công cụ mạnh mẽ. Một hệ thống AI có thể phân tích dữ liệu y tế nhanh hơn nhiều so với con người."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "That is definitely an advantage, but what about the jobs which involve creative thinking? Computers cannot write emotional poetry or compose original music.",
+              "vi": "Đó chắc chắn là một lợi thế, nhưng còn những công việc đòi hỏi tư duy sáng tạo thì sao? Máy tính không thể viết thơ giàu cảm xúc hoặc sáng tác âm nhạc nguyên bản."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "Actually, some programs have been trained to compose music which sounds surprisingly good. However, they lack the true human emotions which make art special.",
+              "vi": "Thực ra, một số chương trình đã được đào tạo để sáng tác âm nhạc thứ mà nghe hay một cách đáng ngạc nhiên. Tuy nhiên, chúng thiếu đi những cảm xúc chân thực của con người thứ tạo nên sự đặc biệt cho nghệ thuật."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "I worry about privacy issues when algorithms collect so much personal data. Companies know exactly what we want to buy before we even search for it.",
+              "vi": "Tôi lo lắng về các vấn đề quyền riêng tư khi các thuật toán thu thập quá nhiều dữ liệu cá nhân. Các công ty biết chính xác chúng ta muốn mua gì trước cả khi chúng ta tìm kiếm nó."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "That is a valid concern, and governments need to pass strict laws to regulate AI. We must ensure that technology benefits society instead of controlling it.",
+              "vi": "Đó là một mối quan tâm chính đáng, và các chính phủ cần thông qua những luật lệ nghiêm ngặt để quản lý AI. Chúng ta phải đảm bảo rằng công nghệ mang lại lợi ích cho xã hội thay vì kiểm soát nó."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "It is a complex issue, but we cannot stop the progress of innovation. We must learn to adapt to these new technologies responsibly.",
+              "vi": "Đó là một vấn đề phức tạp, nhưng chúng ta không thể ngăn cản sự tiến bộ của đổi mới. Chúng ta phải học cách thích nghi với những công nghệ mới này một cách có trách nhiệm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 21,
+    "vocab": [
+      {
+        "word": "what",
+        "ipa": "/wɒt/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cái gì",
+        "example_en": "What is this?",
+        "example_vi": "Cái này là gì?",
+        "level": "A1"
+      },
+      {
+        "word": "who",
+        "ipa": "/huː/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "ai",
+        "example_en": "Who is she?",
+        "example_vi": "Cô ấy là ai?",
+        "level": "A1"
+      },
+      {
+        "word": "where",
+        "ipa": "/weər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "ở đâu",
+        "example_en": "Where are you?",
+        "example_vi": "Bạn ở đâu?",
+        "level": "A1"
+      },
+      {
+        "word": "when",
+        "ipa": "/wen/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "khi nào",
+        "example_en": "When do you get up?",
+        "example_vi": "Khi nào bạn thức dậy?",
+        "level": "A1"
+      },
+      {
+        "word": "why",
+        "ipa": "/waɪ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "tại sao",
+        "example_en": "Why are you sad?",
+        "example_vi": "Tại sao bạn buồn?",
+        "level": "A1"
+      },
+      {
+        "word": "how",
+        "ipa": "/haʊ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "như thế nào",
+        "example_en": "How are you?",
+        "example_vi": "Bạn có khỏe không?",
+        "level": "A1"
+      },
+      {
+        "word": "which",
+        "ipa": "/wɪtʃ/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cái nào",
+        "example_en": "Which one?",
+        "example_vi": "Cái nào?",
+        "level": "A1"
+      },
+      {
+        "word": "whose",
+        "ipa": "/huːz/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "của ai",
+        "example_en": "Whose bag is this?",
+        "example_vi": "Cái túi này của ai?",
+        "level": "A1"
+      },
+      {
+        "word": "how much",
+        "ipa": "/haʊ mʌtʃ/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "bao nhiêu (không đếm được)",
+        "example_en": "How much water?",
+        "example_vi": "Bao nhiêu nước?",
+        "level": "A1"
+      },
+      {
+        "word": "how many",
+        "ipa": "/haʊ ˈmen.i/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "bao nhiêu (đếm được)",
+        "example_en": "How many books?",
+        "example_vi": "Bao nhiêu cuốn sách?",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "vocab": [
+      {
+        "word": "not",
+        "ipa": "/nɒt/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "không",
+        "example_en": "I am not happy.",
+        "example_vi": "Tôi không vui.",
+        "level": "A1"
+      },
+      {
+        "word": "no",
+        "ipa": "/nəʊ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "không",
+        "example_en": "No, I don't.",
+        "example_vi": "Không, tôi không.",
+        "level": "A1"
+      },
+      {
+        "word": "never",
+        "ipa": "/ˈnev.ər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "không bao giờ",
+        "example_en": "I never swim.",
+        "example_vi": "Tôi không bao giờ bơi.",
+        "level": "A1"
+      },
+      {
+        "word": "don't",
+        "ipa": "/dəʊnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "không (trợ động từ)",
+        "example_en": "I don't know.",
+        "example_vi": "Tôi không biết.",
+        "level": "A1"
+      },
+      {
+        "word": "doesn't",
+        "ipa": "/ˈdʌz.ənt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "không (trợ động từ)",
+        "example_en": "He doesn't know.",
+        "example_vi": "Anh ấy không biết.",
+        "level": "A1"
+      },
+      {
+        "word": "disagree",
+        "ipa": "/ˌdɪs.əˈɡriː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "không đồng ý",
+        "example_en": "I disagree with you.",
+        "example_vi": "Tôi không đồng ý với bạn.",
+        "level": "A1"
+      },
+      {
+        "word": "wrong",
+        "ipa": "/rɒŋ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sai",
+        "example_en": "It is wrong.",
+        "example_vi": "Điều đó sai.",
+        "level": "A1"
+      },
+      {
+        "word": "false",
+        "ipa": "/fɒls/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sai, giả",
+        "example_en": "That is false.",
+        "example_vi": "Điều đó là sai.",
+        "level": "A1"
+      },
+      {
+        "word": "impossible",
+        "ipa": "/ɪmˈpɒs.ə.bəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "không thể",
+        "example_en": "It is impossible.",
+        "example_vi": "Điều đó là không thể.",
+        "level": "A1"
+      },
+      {
+        "word": "can't",
+        "ipa": "/kɑːnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "không thể",
+        "example_en": "I can't swim.",
+        "example_vi": "Tôi không thể bơi.",
+        "level": "A1"
+      }
+    ]
+  }
+]

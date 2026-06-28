@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 33,
+    "listening": [
+      {
+        "title": "Listening: Weather right now",
+        "transcript": "Look, it is raining now. The wind is blowing hard. The sun is shining behind the clouds.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is happening right now?", "options": ["It is sunny and calm", "It is raining and windy", "It is snowing"], "correct": "It is raining and windy", "explanation": "\"it is raining now... The wind is blowing hard.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "listening": [
+      {
+        "title": "Listening: Market changes",
+        "transcript": "Prices are increasing this month. Fruit prices are growing fast. The market is expanding every year.",
+        "questions": [
+          { "type": "form_completion", "question": "Fruit prices are ___ fast.", "options": ["falling", "growing", "staying"], "correct": "growing", "explanation": "\"Fruit prices are growing fast.\"" }
+        ]
+      }
+    ]
+  }
+]

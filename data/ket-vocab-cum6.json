@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 25,
+      "vocab": [
+        { "word": "describe", "ipa": "/dɪˈskraɪb/", "type": "v.", "meaning": "miêu tả", "example_en": "Can you describe the man you saw?", "example_vi": "Bạn có thể miêu tả người đàn ông mà bạn đã nhìn thấy không?" },
+        { "word": "explain", "ipa": "/ɪkˈspleɪn/", "type": "v.", "meaning": "giải thích", "example_en": "He explained the rules of the game to us.", "example_vi": "Anh ấy đã giải thích các luật chơi cho chúng tôi." },
+        { "word": "discuss", "ipa": "/dɪˈskʌs/", "type": "v.", "meaning": "thảo luận", "example_en": "We need to discuss our plans for the weekend.", "example_vi": "Chúng ta cần thảo luận về kế hoạch của chúng ta cho dịp cuối tuần." },
+        { "word": "suggest", "ipa": "/səˈdʒest/", "type": "v.", "meaning": "đề nghị, gợi ý", "example_en": "I suggest that we leave early to avoid the traffic.", "example_vi": "Tôi gợi ý rằng chúng ta nên rời đi sớm để tránh tắc đường." },
+        { "word": "advise", "ipa": "/ədˈvaɪz/", "type": "v.", "meaning": "khuyên bảo", "example_en": "The doctor advised him to stop smoking.", "example_vi": "Bác sĩ đã khuyên anh ấy bỏ hút thuốc." },
+        { "word": "warn", "ipa": "/wɔːn/", "type": "v.", "meaning": "cảnh báo", "example_en": "She warned me about the dangerous dog.", "example_vi": "Cô ấy đã cảnh báo tôi về con chó dữ." },
+        { "word": "remind", "ipa": "/rɪˈmaɪnd/", "type": "v.", "meaning": "nhắc nhở", "example_en": "Please remind me to call my mother tonight.", "example_vi": "Làm ơn nhắc tôi gọi điện cho mẹ tôi vào tối nay." },
+        { "word": "promise", "ipa": "/ˈprɒm.ɪs/", "type": "v., n.", "meaning": "hứa, lời hứa", "example_en": "I promise I will not tell anyone your secret.", "example_vi": "Tôi hứa tôi sẽ không kể cho ai nghe bí mật của bạn." },
+        { "word": "announce", "ipa": "/əˈnaʊns/", "type": "v.", "meaning": "thông báo", "example_en": "The school announced that tomorrow is a holiday.", "example_vi": "Nhà trường đã thông báo rằng ngày mai là một ngày nghỉ." },
+        { "word": "admit", "ipa": "/ədˈmɪt/", "type": "v.", "meaning": "thừa nhận", "example_en": "He admitted that he had made a mistake.", "example_vi": "Anh ấy đã thừa nhận rằng mình đã phạm một sai lầm." }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "vocab": [
+        { "word": "suppose", "ipa": "/səˈpəʊz/", "type": "v.", "meaning": "cho rằng, giả sử", "example_en": "I suppose you are right.", "example_vi": "Tôi cho rằng bạn nói đúng." },
+        { "word": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "type": "v.", "meaning": "tưởng tượng", "example_en": "Imagine winning a million dollars!", "example_vi": "Hãy thử tưởng tượng việc trúng một triệu đô-la xem sao!" },
+        { "word": "chance", "ipa": "/tʃɑːns/", "type": "n.", "meaning": "cơ hội, khả năng", "example_en": "Is there any chance of rain tomorrow?", "example_vi": "Có khả năng nào trời sẽ mưa vào ngày mai không?" },
+        { "word": "opportunity", "ipa": "/ˌɒp.əˈtʃuː.nə.ti/", "type": "n.", "meaning": "cơ hội (tốt)", "example_en": "This is a great opportunity to learn a new language.", "example_vi": "Đây là một cơ hội tuyệt vời để học một ngôn ngữ mới." },
+        { "word": "manage", "ipa": "/ˈmæn.ɪdʒ/", "type": "v.", "meaning": "xoay xở, quản lý", "example_en": "Did you manage to find the keys?", "example_vi": "Bạn đã xoay xở tìm được những chiếc chìa khóa chưa?" },
+        { "word": "succeed", "ipa": "/səkˈsiːd/", "type": "v.", "meaning": "thành công", "example_en": "If you try hard, you will succeed.", "example_vi": "Nếu bạn cố gắng chăm chỉ, bạn sẽ thành công." },
+        { "word": "fail", "ipa": "/feɪl/", "type": "v.", "meaning": "thất bại, trượt", "example_en": "He failed his driving test twice.", "example_vi": "Anh ấy đã trượt bài thi lấy bằng lái xe hai lần." },
+        { "word": "avoid", "ipa": "/əˈvɔɪd/", "type": "v.", "meaning": "tránh, né tránh", "example_en": "We left early to avoid the heavy traffic.", "example_vi": "Chúng tôi đã rời đi sớm để tránh giao thông đông đúc." },
+        { "word": "unless", "ipa": "/ʌnˈles/", "type": "conj.", "meaning": "trừ khi", "example_en": "I won't go unless you come with me.", "example_vi": "Tôi sẽ không đi trừ khi bạn đi cùng tôi." },
+        { "word": "in case", "ipa": "/ɪn keɪs/", "type": "phr.", "meaning": "phòng khi", "example_en": "Take an umbrella in case it rains.", "example_vi": "Hãy mang theo ô phòng khi trời mưa." }
+      ]
+    },
+    {
+      "orderIndex": 27,
+      "vocab": [
+        { "word": "produce", "ipa": "/prəˈdʒuːs/", "type": "v.", "meaning": "sản xuất", "example_en": "This region produces a lot of wine.", "example_vi": "Khu vực này sản xuất rất nhiều rượu vang." },
+        { "word": "manufacture", "ipa": "/ˌmæn.jəˈfæk.tʃər/", "type": "v.", "meaning": "sản xuất, chế tạo (công nghiệp)", "example_en": "The company manufactures parts for aeroplanes.", "example_vi": "Công ty chế tạo các bộ phận cho máy bay." },
+        { "word": "discover", "ipa": "/dɪˈskʌv.ər/", "type": "v.", "meaning": "khám phá, phát hiện ra", "example_en": "Who discovered America?", "example_vi": "Ai là người đã khám phá ra châu Mỹ?" },
+        { "word": "invent", "ipa": "/ɪnˈvent/", "type": "v.", "meaning": "phát minh", "example_en": "Alexander Graham Bell invented the telephone.", "example_vi": "Alexander Graham Bell đã phát minh ra chiếc điện thoại." },
+        { "word": "perform", "ipa": "/pəˈfɔːm/", "type": "v.", "meaning": "trình diễn, thực hiện", "example_en": "The doctor will perform the operation tomorrow.", "example_vi": "Bác sĩ sẽ thực hiện ca phẫu thuật vào ngày mai." },
+        { "word": "create", "ipa": "/kriˈeɪt/", "type": "v.", "meaning": "tạo ra", "example_en": "The artist created a beautiful painting.", "example_vi": "Người nghệ sĩ đã tạo ra một bức tranh tuyệt đẹp." },
+        { "word": "deliver", "ipa": "/dɪˈlɪv.ər/", "type": "v.", "meaning": "giao hàng", "example_en": "The postman delivers letters every morning.", "example_vi": "Người đưa thư giao những bức thư vào mỗi buổi sáng." },
+        { "word": "publish", "ipa": "/ˈpʌb.lɪʃ/", "type": "v.", "meaning": "xuất bản", "example_en": "Her new book was published last month.", "example_vi": "Cuốn sách mới của cô ấy đã được xuất bản vào tháng trước." },
+        { "word": "celebrate", "ipa": "/ˈsel.ə.breɪt/", "type": "v.", "meaning": "kỷ niệm, ăn mừng", "example_en": "How do you celebrate your birthday?", "example_vi": "Bạn kỷ niệm ngày sinh nhật của mình như thế nào?" },
+        { "word": "organise", "ipa": "/ˈɔː.ɡən.aɪz/", "type": "v.", "meaning": "tổ chức", "example_en": "They are organising a party for him.", "example_vi": "Họ đang tổ chức một bữa tiệc cho anh ấy." }
+      ]
+    },
+    {
+      "orderIndex": 28,
+      "vocab": [
+        { "word": "find out", "ipa": "/faɪnd aʊt/", "type": "phr. v.", "meaning": "tìm hiểu ra, phát hiện ra", "example_en": "I need to find out what time the train leaves.", "example_vi": "Tôi cần tìm hiểu xem chuyến tàu rời đi lúc mấy giờ." },
+        { "word": "look after", "ipa": "/lʊk ˈɑːf.tər/", "type": "phr. v.", "meaning": "chăm sóc", "example_en": "Could you look after my cat while I am on holiday?", "example_vi": "Bạn có thể chăm sóc con mèo của tôi trong khi tôi đi nghỉ không?" },
+        { "word": "look forward to", "ipa": "/lʊk ˈfɔː.wəd tuː/", "type": "phr. v.", "meaning": "mong đợi", "example_en": "I am looking forward to seeing you soon.", "example_vi": "Tôi rất mong đợi được gặp bạn sớm." },
+        { "word": "give up", "ipa": "/ɡɪv ʌp/", "type": "phr. v.", "meaning": "từ bỏ", "example_en": "Don't give up! You can do it.", "example_vi": "Đừng từ bỏ! Bạn có thể làm được mà." },
+        { "word": "take up", "ipa": "/teɪk ʌp/", "type": "phr. v.", "meaning": "bắt đầu một sở thích/thói quen", "example_en": "He decided to take up swimming to get fit.", "example_vi": "Anh ấy đã quyết định bắt đầu môn bơi lội để rèn luyện vóc dáng." },
+        { "word": "break down", "ipa": "/breɪk daʊn/", "type": "phr. v.", "meaning": "bị hỏng (máy móc)", "example_en": "Our car broke down on the motorway.", "example_vi": "Chiếc ô tô của chúng tôi đã bị hỏng trên đường cao tốc." },
+        { "word": "get back", "ipa": "/ɡet bæk/", "type": "phr. v.", "meaning": "trở lại, lấy lại", "example_en": "What time did you get back from work?", "example_vi": "Bạn đã trở về nhà từ chỗ làm lúc mấy giờ?" },
+        { "word": "come back", "ipa": "/kʌm bæk/", "type": "phr. v.", "meaning": "quay trở lại", "example_en": "Please come back soon!", "example_vi": "Làm ơn hãy quay trở lại sớm nhé!" },
+        { "word": "set off", "ipa": "/set ɒf/", "type": "phr. v.", "meaning": "khởi hành", "example_en": "We will set off early tomorrow morning.", "example_vi": "Chúng tôi sẽ khởi hành sớm vào sáng ngày mai." },
+        { "word": "pick up", "ipa": "/pɪk ʌp/", "type": "phr. v.", "meaning": "nhặt lên, đón ai đó", "example_en": "I will pick you up at the station at 6 p.m.", "example_vi": "Tôi sẽ đón bạn ở nhà ga lúc 6 giờ tối." }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "vocab": [
+        { "word": "manage", "ipa": "/ˈmæn.ɪdʒ/", "type": "v.", "meaning": "quản lý, điều hành", "example_en": "He manages a team of 10 people.", "example_vi": "Anh ấy quản lý một đội gồm 10 người." },
+        { "word": "afford", "ipa": "/əˈfɔːd/", "type": "v.", "meaning": "đủ khả năng chi trả", "example_en": "I cannot afford to buy a new car right now.", "example_vi": "Hiện tại tôi không đủ khả năng chi trả để mua một chiếc ô tô mới." },
+        { "word": "refuse", "ipa": "/rɪˈfjuːz/", "type": "v.", "meaning": "từ chối", "example_en": "She refused to help me with the homework.", "example_vi": "Cô ấy đã từ chối giúp đỡ tôi làm bài tập về nhà." },
+        { "word": "agree", "ipa": "/əˈɡriː/", "type": "v.", "meaning": "đồng ý", "example_en": "I agree with you completely.", "example_vi": "Tôi hoàn toàn đồng ý với bạn." },
+        { "word": "offer", "ipa": "/ˈɒf.ər/", "type": "v.", "meaning": "đề nghị, cung cấp", "example_en": "He offered to carry my heavy bags.", "example_vi": "Anh ấy đã đề nghị mang giúp những chiếc túi nặng của tôi." },
+        { "word": "decide", "ipa": "/dɪˈsaɪd/", "type": "v.", "meaning": "quyết định", "example_en": "Have you decided what to wear to the party?", "example_vi": "Bạn đã quyết định sẽ mặc gì đến bữa tiệc chưa?" },
+        { "word": "hope", "ipa": "/həʊp/", "type": "v.", "meaning": "hy vọng", "example_en": "I hope that the weather will be nice tomorrow.", "example_vi": "Tôi hy vọng rằng thời tiết ngày mai sẽ đẹp." },
+        { "word": "expect", "ipa": "/ɪkˈspekt/", "type": "v.", "meaning": "mong đợi, dự đoán", "example_en": "We expect to arrive at the hotel by 5 p.m.", "example_vi": "Chúng tôi dự đoán sẽ đến khách sạn trước 5 giờ chiều." },
+        { "word": "avoid", "ipa": "/əˈvɔɪd/", "type": "v.", "meaning": "tránh né", "example_en": "You should avoid eating too much sugar.", "example_vi": "Bạn nên tránh việc ăn quá nhiều đường." },
+        { "word": "enjoy", "ipa": "/ɪnˈdʒɔɪ/", "type": "v.", "meaning": "thích thú, tận hưởng", "example_en": "I really enjoy reading books in my free time.", "example_vi": "Tôi thực sự rất thích đọc sách trong thời gian rảnh rỗi của mình." }
+      ]
+    }
+  ]
+}

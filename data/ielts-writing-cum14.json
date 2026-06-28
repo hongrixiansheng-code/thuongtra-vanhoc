@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 27,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your hobbies",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your hobbies and free time activities.",
+        "minWords": 30,
+        "sampleAnswer": "I usually read books and listen to music in my free time. I love to travel, and I also like to play games. My sister likes to paint and watch TV.",
+        "checklist": ["Nêu được ít nhất 3 sở thích", "Dùng đúng Present Simple", "Có thể nhắc đến sở thích của người khác"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "writing": [
+      {
+        "title": "Writing Task 1: Review — A typical day",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 50 words) describing a typical day, combining Present Simple, frequency adverbs, and prepositions of time from Chương 3.",
+        "minWords": 40,
+        "sampleAnswer": "I always wake up at six in the morning. I am a teacher, and I teach English in the afternoon. I rarely watch TV at night. I usually read books instead, and on weekends I sometimes garden.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 3", "Đoạn văn có mở-thân-kết đơn giản", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

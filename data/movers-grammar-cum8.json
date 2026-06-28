@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "grammar": [
+        {
+          "title": "Danh từ số nhiều đặc biệt",
+          "desc": "Đa số từ thêm 's' để thành số nhiều (kitten -> kittens). Nhưng tận cùng là 'y' đổi thành 'ies' (puppy -> puppies), tận cùng 'f' đổi thành 'ves' (leaf -> leaves).",
+          "formula": [
+            { "text": "puppy -> puppies", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "/", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "leaf -> leaves", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have two puppies.", "meaning": "Tớ có hai con chó con." },
+            { "correct": "Look at the green leaves.", "meaning": "Hãy nhìn những chiếc lá xanh kia." },
+            { "correct": "There are three kittens.", "meaning": "Có ba con mèo con." }
+          ]
+        },
+        {
+          "title": "So sánh hơn / nhất (Quy tắc chung)",
+          "desc": "Thêm '-er' vào sau tính từ ngắn để so sánh hơn (bigger). Thêm '-est' để so sánh nhất (the biggest). Chú ý gấp đôi chữ cái cuối nếu cần.",
+          "formula": [
+            { "text": "big", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "-> bigger ->", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the biggest", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "My dog is bigger than your dog.", "meaning": "Con chó của tớ thì to hơn con chó của cậu." },
+            { "correct": "It is the biggest bear in the zoo.", "meaning": "Nó là con gấu to nhất trong sở thú." },
+            { "correct": "A mouse is smaller than a cat.", "meaning": "Một con chuột thì nhỏ hơn một con mèo." }
+          ]
+        },
+        {
+          "title": "Ôn tập: can + động từ",
+          "desc": "Dùng 'can' (có thể) kết hợp với một động từ nguyên thể để miêu tả khả năng của các loài động vật.",
+          "formula": [
+            { "text": "A bird", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "can", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "fly.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "A kangaroo can jump very high.", "meaning": "Kangaroo có thể nhảy rất cao." },
+            { "correct": "Can the puppies swim?", "meaning": "Những chú chó con có thể bơi không?" },
+            { "correct": "A fish can't walk.", "meaning": "Một con cá không thể đi bộ." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Playing with pets",
+          "lines": [
+            { "speaker": "A", "en": "Look at my new puppies.", "vi": "Hãy nhìn những chú chó con mới của tớ này." },
+            { "speaker": "B", "en": "They are so cute! Are they bigger than kittens?", "vi": "Chúng thật dễ thương! Chúng có to hơn những con mèo con không?" },
+            { "speaker": "A", "en": "Yes, they are. They can run very fast.", "vi": "Có, chúng to hơn. Chúng có thể chạy rất nhanh." },
+            { "speaker": "B", "en": "What do they like to eat?", "vi": "Chúng thích ăn gì vậy?" },
+            { "speaker": "A", "en": "They like meat. They don't eat leaves.", "vi": "Chúng thích ăn thịt. Chúng không ăn lá cây." },
+            { "speaker": "B", "en": "I think they are the best pets.", "vi": "Tớ nghĩ chúng là những thú cưng tuyệt vời nhất." }
+          ]
+        },
+        {
+          "title": "At the zoo",
+          "lines": [
+            { "speaker": "A", "en": "Which animal is the biggest here?", "vi": "Con vật nào to nhất ở đây vậy?" },
+            { "speaker": "B", "en": "I think the elephant is the biggest animal.", "vi": "Tớ nghĩ voi là loài vật to nhất." },
+            { "speaker": "A", "en": "Can it carry heavy things?", "vi": "Nó có thể mang những vật nặng không?" },
+            { "speaker": "B", "en": "Yes, it can. But it is slower than a horse.", "vi": "Có, nó có thể. Nhưng nó thì chậm hơn một con ngựa." },
+            { "speaker": "A", "en": "Look at the monkey. It is eating some leaves.", "vi": "Hãy nhìn con khỉ kìa. Nó đang ăn một vài chiếc lá." },
+            { "speaker": "B", "en": "Monkeys are very clever.", "vi": "Những con khỉ thì rất thông minh." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "grammar": [
+        {
+          "title": "Miêu tả thời tiết: It is + Tính từ",
+          "desc": "Dùng cấu trúc 'It is' cộng với một tính từ chỉ thời tiết (cloudy, sunny, windy) để nói về thời tiết hiện tại.",
+          "formula": [
+            { "text": "It", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "sunny / cloudy.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "It is very sunny today.", "meaning": "Hôm nay trời rất nắng." },
+            { "correct": "Look at the sky. It is cloudy.", "meaning": "Hãy nhìn bầu trời kìa. Trời đang nhiều mây." },
+            { "correct": "It is windy in the afternoon.", "meaning": "Trời có gió vào buổi chiều." }
+          ]
+        },
+        {
+          "title": "Giới từ chỉ nơi chốn: near + Danh từ",
+          "desc": "Dùng 'near' (ở gần) đứng trước một danh từ chỉ địa điểm để miêu tả vị trí của một vật gì đó ở khoảng cách gần.",
+          "formula": [
+            { "text": "The tree is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "near", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the river.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "My house is near the park.", "meaning": "Nhà của tớ ở gần công viên." },
+            { "correct": "There is a river near the mountain.", "meaning": "Có một con sông ở gần ngọn núi." },
+            { "correct": "Don't go near the water.", "meaning": "Đừng đi đến gần dòng nước." }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got (miêu tả cảnh quan)",
+          "desc": "Sử dụng 'have got' (có) để kể về những đặc điểm nổi bật của một khu vực hoặc cảnh quan.",
+          "formula": [
+            { "text": "The park", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "has got", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "many trees.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Our town has got a beautiful lake.", "meaning": "Thị trấn của chúng tớ có một cái hồ tuyệt đẹp." },
+            { "correct": "The mountain has got some snow.", "meaning": "Ngọn núi có một chút tuyết." },
+            { "correct": "Have you got a garden?", "meaning": "Nhà bạn có khu vườn không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Going for a walk",
+          "lines": [
+            { "speaker": "A", "en": "It is very sunny today. Let's go out.", "vi": "Hôm nay trời rất nắng. Hãy đi ra ngoài nào." },
+            { "speaker": "B", "en": "Where should we go?", "vi": "Chúng ta nên đi đâu đây?" },
+            { "speaker": "A", "en": "Let's go to the park near my house.", "vi": "Hãy đi đến công viên ở gần nhà tớ." },
+            { "speaker": "B", "en": "Is it a big park?", "vi": "Nó có phải là một công viên lớn không?" },
+            { "speaker": "A", "en": "Yes. It has got many beautiful trees.", "vi": "Có. Nó có rất nhiều cây đẹp." },
+            { "speaker": "B", "en": "Great! We can sit under a tree.", "vi": "Tuyệt quá! Chúng ta có thể ngồi dưới một gốc cây." }
+          ]
+        },
+        {
+          "title": "A windy day",
+          "lines": [
+            { "speaker": "A", "en": "Look at the clouds. It is very windy.", "vi": "Hãy nhìn những đám mây kìa. Trời rất nhiều gió." },
+            { "speaker": "B", "en": "I think it will rain soon.", "vi": "Tớ nghĩ trời sẽ mưa sớm thôi." },
+            { "speaker": "A", "en": "There is a cafe near here. Let's go there.", "vi": "Có một quán cà phê ở gần đây. Hãy đi đến đó." },
+            { "speaker": "B", "en": "Okay. Has it got hot drinks?", "vi": "Được thôi. Nó có đồ uống nóng không?" },
+            { "speaker": "A", "en": "Yes, it has got hot chocolate and tea.", "vi": "Có, nó có sô-cô-la nóng và trà." },
+            { "speaker": "B", "en": "That is perfect for a cloudy day.", "vi": "Thật hoàn hảo cho một ngày nhiều mây." }
+          ]
+        }
+      ]
+    }
+  ]
+}

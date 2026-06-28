@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 43,
+    "reading": [
+      {
+        "title": "Reading: Learning a new skill",
+        "passage": "I started learning English when I was ten years old. I decided to learn it because I wanted to travel one day. I studied for about five hours every week, and I still remember my first teacher.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer started learning English at ten.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I started learning English when I was ten years old.\"" },
+          { "type": "multiple_choice", "question": "Why did the writer learn English?", "options": ["For a job", "To travel one day", "For school exams"], "correct": "To travel one day", "explanation": "\"because I wanted to travel one day.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "reading": [
+      {
+        "title": "Reading: A common mistake",
+        "passage": "I didn't go to the meeting yesterday. I didn't have any time, and I was very busy. I told my manager, but I didn't explain it very well. He wasn't angry about it.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer went to the meeting.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I didn't go to the meeting yesterday.\"" },
+          { "type": "true_false_ng", "question": "The manager was angry.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"He wasn't angry about it.\"" }
+        ]
+      }
+    ]
+  }
+]

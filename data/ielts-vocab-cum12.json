@@ -1,0 +1,172 @@
+[
+  {
+    "lessonOrder": 23,
+    "vocab": [
+      {
+        "word": "always",
+        "ipa": "/ˈɔːl.weɪz/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "luôn luôn",
+        "example_en": "I always clean the room.",
+        "example_vi": "Tôi luôn luôn dọn phòng.",
+        "level": "A1"
+      },
+      {
+        "word": "usually",
+        "ipa": "/ˈjuː.ʒu.ə.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thường thường",
+        "example_en": "I usually cook.",
+        "example_vi": "Tôi thường nấu ăn.",
+        "level": "A1"
+      },
+      {
+        "word": "often",
+        "ipa": "/ˈɒf.ən/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thường xuyên",
+        "example_en": "I often swim.",
+        "example_vi": "Tôi thường xuyên bơi.",
+        "level": "A1"
+      },
+      {
+        "word": "sometimes",
+        "ipa": "/ˈsʌm.taɪmz/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thỉnh thoảng",
+        "example_en": "I sometimes read.",
+        "example_vi": "Thỉnh thoảng tôi đọc sách.",
+        "level": "A1"
+      },
+      {
+        "word": "rarely",
+        "ipa": "/ˈreə.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hiếm khi",
+        "example_en": "I rarely sing.",
+        "example_vi": "Tôi hiếm khi hát.",
+        "level": "A1"
+      },
+      {
+        "word": "hardly",
+        "ipa": "/ˈhɑːd.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hầu như không",
+        "example_en": "I hardly watch TV.",
+        "example_vi": "Tôi hầu như không xem TV.",
+        "level": "A1"
+      },
+      {
+        "word": "daily",
+        "ipa": "/ˈdeɪ.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hàng ngày",
+        "example_en": "I work daily.",
+        "example_vi": "Tôi làm việc hàng ngày.",
+        "level": "A1"
+      },
+      {
+        "word": "weekly",
+        "ipa": "/ˈwiːk.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hàng tuần",
+        "example_en": "I swim weekly.",
+        "example_vi": "Tôi bơi hàng tuần.",
+        "level": "A1"
+      },
+      {
+        "word": "monthly",
+        "ipa": "/ˈmʌnθ.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hàng tháng",
+        "example_en": "I check it monthly.",
+        "example_vi": "Tôi kiểm tra nó hàng tháng.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "vocab": [
+      {
+        "word": "night",
+        "ipa": "/naɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "đêm",
+        "example_en": "Good night.",
+        "example_vi": "Chúc ngủ ngon.",
+        "level": "A1"
+      },
+      {
+        "word": "midnight",
+        "ipa": "/ˈmɪd.naɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nửa đêm",
+        "example_en": "It is midnight.",
+        "example_vi": "Bây giờ là nửa đêm.",
+        "level": "A1"
+      },
+      {
+        "word": "dawn",
+        "ipa": "/dɔːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bình minh",
+        "example_en": "I get up at dawn.",
+        "example_vi": "Tôi thức dậy lúc bình minh.",
+        "level": "A1"
+      },
+      {
+        "word": "dusk",
+        "ipa": "/dʌsk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "hoàng hôn",
+        "example_en": "It is dusk.",
+        "example_vi": "Bây giờ là hoàng hôn.",
+        "level": "A1"
+      },
+      {
+        "word": "noon",
+        "ipa": "/nuːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trưa",
+        "example_en": "It is noon.",
+        "example_vi": "Bây giờ là buổi trưa.",
+        "level": "A1"
+      },
+      {
+        "word": "today",
+        "ipa": "/təˈdeɪ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "hôm nay",
+        "example_en": "How are you today?",
+        "example_vi": "Hôm nay bạn thế nào?",
+        "level": "A1"
+      },
+      {
+        "word": "tomorrow",
+        "ipa": "/təˈmɒr.əʊ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ngày mai",
+        "example_en": "See you tomorrow.",
+        "example_vi": "Hẹn gặp bạn vào ngày mai.",
+        "level": "A1"
+      }
+    ]
+  }
+]

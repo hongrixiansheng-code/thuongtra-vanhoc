@@ -1,0 +1,30 @@
+[
+  {
+    "lessonOrder": 45,
+    "grammar": [
+      {
+        "title": "Trạng từ & liên từ thời gian với Past Simple",
+        "desc": "Dùng các từ chỉ thời gian (ago, last, yesterday, before, after, then, finally) để sắp xếp các sự kiện trong quá khứ theo trình tự.",
+        "formula": [
+          { "text": "Time word", "classes": "border-amber-500 text-amber-600 bg-amber-50" },
+          { "text": "Subject + Verb (Past Simple)", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "Two years ago, we moved to this city.", "vi": "Hai năm trước, chúng tôi đã chuyển đến thành phố này." },
+          { "en": "We packed our bags, then we left home.", "vi": "Chúng tôi đóng gói hành lý, sau đó rời nhà." },
+          { "en": "Finally, we arrived at the hotel.", "vi": "Cuối cùng, chúng tôi đã đến khách sạn." }
+        ],
+        "note": "\"ago\" đứng sau khoảng thời gian (two years ago). \"last\" đứng trước danh từ thời gian (last week, last year).",
+        "practiceList": [
+          { "question": "We visited Hoi An three days ___.", "correct": "ago", "meaning": "Chúng tôi đã thăm Hội An ba ngày trước.", "explanation": "\"ago\" đứng sau khoảng thời gian." },
+          { "question": "___ year, I travelled to Da Nang.", "correct": "Last", "meaning": "Năm ngoái, tôi đã đi du lịch Đà Nẵng.", "explanation": "\"Last year\" = năm ngoái." },
+          { "question": "First we checked in, ___ we went to our room.", "correct": "then", "meaning": "Đầu tiên chúng tôi nhận phòng, sau đó chúng tôi đi vào phòng.", "explanation": "\"then\" nối các hành động liên tiếp trong quá khứ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "grammar": []
+  }
+]

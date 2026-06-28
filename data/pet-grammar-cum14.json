@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 26,
+      "grammar": [
+        {
+          "title": "Verb + gerund (B1 nâng cao)",
+          "desc": "Các động từ B1 nâng cao mà theo sau bắt buộc là V-ing: consider, deny, involve, risk, stand, tolerate.",
+          "formula": [
+            {
+              "text": "deny/involve/risk/can't stand + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He denied stealing the money.",
+              "meaning": "Anh ta phủ nhận việc ăn trộm tiền."
+            },
+            {
+              "correct": "I enjoy reading books.",
+              "meaning": "Tôi rất thích đọc sách."
+            },
+            {
+              "correct": "The job involves travelling a lot.",
+              "meaning": "Công việc này đòi hỏi phải đi lại nhiều."
+            },
+            {
+              "correct": "I can't stand waiting.",
+              "meaning": "Tôi không thể chịu đựng được việc chờ đợi."
+            }
+          ]
+        },
+        {
+          "title": "Verb + infinitive (B1 nâng cao)",
+          "desc": "Các động từ B1 nâng cao theo sau bắt buộc là To-V: afford, attempt, refuse, manage, fail.",
+          "formula": [
+            {
+              "text": "afford/refuse/manage/fail + to-V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She refused to answer the question.",
+              "meaning": "Cô ấy từ chối trả lời câu hỏi."
+            },
+            {
+              "correct": "We managed to finish the project.",
+              "meaning": "Chúng tôi đã xoay xở hoàn thành được dự án."
+            },
+            {
+              "correct": "They decided to stay.",
+              "meaning": "Họ quyết định ở lại."
+            },
+            {
+              "correct": "I can't afford to buy this car.",
+              "meaning": "Tôi không đủ khả năng tài chính để mua chiếc xe này."
+            }
+          ]
+        },
+        {
+          "title": "Verb + object + infinitive",
+          "desc": "Yêu cầu/muốn/cho phép ai làm gì: ask/tell/want/allow/expect + tân ngữ + to-verb.",
+          "formula": [
+            {
+              "text": "ask/want/allow + Object + to-V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My parents allowed me to go to the party.",
+              "meaning": "Bố mẹ tôi đã cho phép tôi đi dự tiệc."
+            },
+            {
+              "correct": "He asked me to help him.",
+              "meaning": "Anh ấy yêu cầu tôi giúp anh ấy."
+            },
+            {
+              "correct": "I want you to be happy.",
+              "meaning": "Tôi muốn bạn hạnh phúc."
+            },
+            {
+              "correct": "They told us to wait outside.",
+              "meaning": "Họ bảo chúng tôi đứng đợi ở ngoài."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 27,
+      "grammar": [
+        {
+          "title": "although / even though",
+          "desc": "Mặc dù (cộng với một mệnh đề). Even though mang nghĩa nhấn mạnh hơn although.",
+          "formula": [
+            {
+              "text": "Although/Even though + S + V, Mệnh đề",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Although it rained, we went out.",
+              "meaning": "Mặc dù trời mưa, chúng tôi vẫn ra ngoài."
+            },
+            {
+              "correct": "Even though he was tired, he kept working.",
+              "meaning": "Dù rất mệt, anh ấy vẫn tiếp tục làm việc."
+            },
+            {
+              "correct": "Although I don't like him, I agree with his idea.",
+              "meaning": "Mặc dù không thích anh ta, tôi đồng ý với ý tưởng của anh ta."
+            },
+            {
+              "correct": "She passed the exam although she didn't study.",
+              "meaning": "Cô ấy đậu kỳ thi mặc dù không hề học bài."
+            }
+          ]
+        },
+        {
+          "title": "despite / in spite of",
+          "desc": "Mặc dù (cộng với danh từ, cụm danh từ hoặc V-ing).",
+          "formula": [
+            {
+              "text": "Despite/In spite of + Noun/V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Despite being tired, she worked late.",
+              "meaning": "Mặc dù rất mệt mỏi, cô ấy vẫn làm việc muộn."
+            },
+            {
+              "correct": "In spite of the rain, we enjoyed the trip.",
+              "meaning": "Bất chấp cơn mưa, chúng tôi vẫn tận hưởng chuyến đi."
+            },
+            {
+              "correct": "Despite his age, he is very active.",
+              "meaning": "Dù tuổi đã cao, ông ấy vẫn rất năng động."
+            },
+            {
+              "correct": "She went out in spite of feeling ill.",
+              "meaning": "Cô ấy vẫn đi ra ngoài bất chấp việc cảm thấy ốm."
+            }
+          ]
+        },
+        {
+          "title": "whereas / while",
+          "desc": "Trong khi (dùng để đối chiếu sự khác biệt giữa hai đối tượng trong cùng một câu).",
+          "formula": [
+            {
+              "text": "Mệnh đề 1, whereas/while + Mệnh đề 2",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He likes coffee, whereas I like tea.",
+              "meaning": "Anh ấy thích cà phê, trong khi tôi thích trà."
+            },
+            {
+              "correct": "While I was reading, she was watching TV.",
+              "meaning": "Trong lúc tôi đang đọc sách, cô ấy đang xem TV."
+            },
+            {
+              "correct": "She is very tall, whereas her sister is short.",
+              "meaning": "Cô ấy rất cao, trong khi em gái cô ấy thì nấm lùn."
+            },
+            {
+              "correct": "Some people like summer, while others prefer winter.",
+              "meaning": "Vài người thích mùa hè, trong khi số khác thích mùa đông hơn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

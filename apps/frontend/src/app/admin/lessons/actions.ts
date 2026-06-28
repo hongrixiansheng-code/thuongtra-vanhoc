@@ -1,9 +1,9 @@
 "use server";
+import prisma from '@/lib/prisma';
 
 import { PrismaClient } from "database";
 import { revalidatePath } from "next/cache";
 
-const prisma = new PrismaClient();
 
 export async function createLesson(formData: FormData) {
   const title = formData.get("title") as string;

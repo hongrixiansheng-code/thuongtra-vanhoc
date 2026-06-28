@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 23,
+    "listening": [
+      {
+        "title": "Listening: Frequency survey",
+        "transcript": "I usually exercise three times a week. I always wake up at six o'clock. I sometimes go to the cinema, maybe once a month.",
+        "questions": [
+          { "type": "form_completion", "question": "Exercise frequency: ___ times a week", "options": ["two", "three", "four"], "correct": "three", "explanation": "\"I usually exercise three times a week.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "listening": [
+      {
+        "title": "Listening: Scheduling a meeting",
+        "transcript": "The meeting is on a weekday, on Tuesday afternoon. I am busy in the morning, so let's meet at three o'clock.",
+        "questions": [
+          { "type": "multiple_choice", "question": "When is the meeting?", "options": ["Monday morning", "Tuesday afternoon", "Saturday evening"], "correct": "Tuesday afternoon", "explanation": "\"The meeting is on a weekday, on Tuesday afternoon.\"" }
+        ]
+      }
+    ]
+  }
+]

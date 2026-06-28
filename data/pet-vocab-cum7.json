@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 18,
+      "vocab": [
+        { "word": "bestseller", "ipa": "/ˌbestˈsel.ər/", "type": "n.", "meaning": "sách bán chạy nhất", "example_en": "Her new novel quickly became a bestseller.", "example_vi": "Cuốn tiểu thuyết mới của cô ấy nhanh chóng trở thành cuốn sách bán chạy nhất." },
+        { "word": "biography", "ipa": "/baɪˈɒɡ.rə.fi/", "type": "n.", "meaning": "tiểu sử", "example_en": "He is writing a biography of a famous historical figure.", "example_vi": "Ông ấy đang viết tiểu sử của một nhân vật lịch sử nổi tiếng." },
+        { "word": "fiction", "ipa": "/ˈfɪk.ʃən/", "type": "n.", "meaning": "tiểu thuyết viễn tưởng, hư cấu", "example_en": "The book is a work of fiction, not a true story.", "example_vi": "Cuốn sách là một tác phẩm hư cấu, không phải là một câu chuyện có thật." },
+        { "word": "non-fiction", "ipa": "/ˌnɒnˈfɪk.ʃən/", "type": "n.", "meaning": "sách phi hư cấu (người thật việc thật)", "example_en": "I prefer reading non-fiction books about science.", "example_vi": "Tôi thích đọc sách phi hư cấu về khoa học hơn." },
+        { "word": "novelist", "ipa": "/ˈnɒv.əl.ɪst/", "type": "n.", "meaning": "tiểu thuyết gia", "example_en": "She is a successful novelist who has written ten books.", "example_vi": "Cô ấy là một tiểu thuyết gia thành công, người đã viết mười cuốn sách." },
+        { "word": "chapter", "ipa": "/ˈtʃæp.tər/", "type": "n.", "meaning": "chương (sách)", "example_en": "I'm only on the first chapter of the book.", "example_vi": "Tôi mới đọc đến chương đầu tiên của cuốn sách." },
+        { "word": "plot", "ipa": "/plɒt/", "type": "n.", "meaning": "cốt truyện", "example_en": "The film has a very complicated plot.", "example_vi": "Bộ phim có một cốt truyện rất phức tạp." },
+        { "word": "character", "ipa": "/ˈkær.ək.tər/", "type": "n.", "meaning": "nhân vật", "example_en": "Harry Potter is my favourite fictional character.", "example_vi": "Harry Potter là nhân vật hư cấu yêu thích của tôi." },
+        { "word": "theme", "ipa": "/θiːm/", "type": "n.", "meaning": "chủ đề", "example_en": "The main theme of the novel is the power of love.", "example_vi": "Chủ đề chính của cuốn tiểu thuyết là sức mạnh của tình yêu." },
+        { "word": "setting", "ipa": "/ˈset.ɪŋ/", "type": "n.", "meaning": "bối cảnh", "example_en": "The setting of the story is a small village in winter.", "example_vi": "Bối cảnh của câu chuyện là một ngôi làng nhỏ vào mùa đông." }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "vocab": [
+        { "word": "software", "ipa": "/ˈsɒft.weər/", "type": "n.", "meaning": "phần mềm", "example_en": "He installed some new security software on his computer.", "example_vi": "Anh ấy đã cài đặt một số phần mềm bảo mật mới trên máy tính của mình." },
+        { "word": "hardware", "ipa": "/ˈhɑːd.weər/", "type": "n.", "meaning": "phần cứng", "example_en": "The computer needs an upgrade in both hardware and software.", "example_vi": "Máy tính cần được nâng cấp cả phần cứng lẫn phần mềm." },
+        { "word": "database", "ipa": "/ˈdeɪ.tə.beɪs/", "type": "n.", "meaning": "cơ sở dữ liệu", "example_en": "Customer information is stored in a secure database.", "example_vi": "Thông tin khách hàng được lưu trữ trong một cơ sở dữ liệu an toàn." },
+        { "word": "install", "ipa": "/ɪnˈstɔːl/", "type": "v.", "meaning": "cài đặt", "example_en": "I need to install the latest update for this app.", "example_vi": "Tôi cần cài đặt bản cập nhật mới nhất cho ứng dụng này." },
+        { "word": "upload", "ipa": "/ʌpˈləʊd/", "type": "v.", "meaning": "tải lên", "example_en": "She uploaded the photos from her phone to the computer.", "example_vi": "Cô ấy đã tải những bức ảnh từ điện thoại lên máy tính." },
+        { "word": "download", "ipa": "/ˌdaʊnˈləʊd/", "type": "v.", "meaning": "tải xuống", "example_en": "You can download the game for free from the internet.", "example_vi": "Bạn có thể tải trò chơi miễn phí từ trên mạng." },
+        { "word": "broadcast", "ipa": "/ˈbrɔːd.kɑːst/", "type": "v.", "meaning": "phát sóng", "example_en": "The news will be broadcast live at 8 p.m.", "example_vi": "Tin tức sẽ được phát sóng trực tiếp vào lúc 8 giờ tối." },
+        { "word": "stream", "ipa": "/striːm/", "type": "v.", "meaning": "phát trực tuyến, xem trực tuyến", "example_en": "Many people stream movies instead of going to the cinema.", "example_vi": "Nhiều người xem phim trực tuyến thay vì đi đến rạp chiếu phim." },
+        { "word": "digital", "ipa": "/ˈdɪdʒ.ɪ.təl/", "type": "adj.", "meaning": "kỹ thuật số", "example_en": "I bought a new digital camera for my holiday.", "example_vi": "Tôi đã mua một chiếc máy ảnh kỹ thuật số mới cho kỳ nghỉ của mình." },
+        { "word": "network", "ipa": "/ˈnet.wɜːk/", "type": "n.", "meaning": "mạng lưới", "example_en": "All the computers in the office are connected to the same network.", "example_vi": "Tất cả các máy tính trong văn phòng đều được kết nối vào cùng một mạng lưới." }
+      ]
+    },
+    {
+      "orderIndex": 20,
+      "vocab": [
+        { "word": "recently", "ipa": "/ˈriː.sənt.li/", "type": "adv.", "meaning": "gần đây", "example_en": "Have you seen any good films recently?", "example_vi": "Gần đây bạn có xem bộ phim nào hay không?" },
+        { "word": "currently", "ipa": "/ˈkʌr.ənt.li/", "type": "adv.", "meaning": "hiện tại", "example_en": "She is currently working on a new project.", "example_vi": "Cô ấy hiện đang làm việc cho một dự án mới." },
+        { "word": "previously", "ipa": "/ˈpriː.vi.əs.li/", "type": "adv.", "meaning": "trước đó, trước đây", "example_en": "He previously worked as a teacher before becoming a writer.", "example_vi": "Trước đây anh ấy từng làm giáo viên trước khi trở thành một nhà văn." },
+        { "word": "eventually", "ipa": "/ɪˈven.tʃu.ə.li/", "type": "adv.", "meaning": "cuối cùng", "example_en": "It took a long time, but eventually they found the house.", "example_vi": "Đã mất rất nhiều thời gian, nhưng cuối cùng họ cũng tìm thấy ngôi nhà." },
+        { "word": "meanwhile", "ipa": "/ˈmiːn.waɪl/", "type": "adv.", "meaning": "trong khi đó", "example_en": "The boys were playing outside; meanwhile, the girls were reading.", "example_vi": "Các cậu bé đang chơi ngoài trời; trong khi đó, các cô bé đang đọc sách." },
+        { "word": "afterwards", "ipa": "/ˈɑːf.tə.wədz/", "type": "adv.", "meaning": "sau đó", "example_en": "We had dinner and went for a walk afterwards.", "example_vi": "Chúng tôi đã ăn tối và đi dạo sau đó." },
+        { "word": "initially", "ipa": "/ɪˈnɪʃ.əl.i/", "type": "adv.", "meaning": "ban đầu", "example_en": "Initially, I didn't like the idea, but then I changed my mind.", "example_vi": "Ban đầu, tôi không thích ý tưởng này, nhưng sau đó tôi đã đổi ý." },
+        { "word": "gradually", "ipa": "/ˈɡrædʒ.u.ə.li/", "type": "adv.", "meaning": "dần dần", "example_en": "The weather gradually improved as the day went on.", "example_vi": "Thời tiết dần dần cải thiện khi ngày trôi qua." },
+        { "word": "constantly", "ipa": "/ˈkɒn.stənt.li/", "type": "adv.", "meaning": "liên tục", "example_en": "The fashion industry is constantly changing.", "example_vi": "Ngành công nghiệp thời trang đang liên tục thay đổi." },
+        { "word": "immediately", "ipa": "/ɪˈmiː.di.ət.li/", "type": "adv.", "meaning": "ngay lập tức", "example_en": "We must deal with the problem immediately.", "example_vi": "Chúng ta phải giải quyết vấn đề đó ngay lập tức." }
+      ]
+    }
+  ]
+}

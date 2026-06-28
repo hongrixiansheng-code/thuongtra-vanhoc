@@ -1,0 +1,31 @@
+[
+  {
+    "lessonOrder": 87,
+    "reading": [
+      {
+        "title": "Reading: Environment and health",
+        "passage": "A great deal of plastic is thrown away every day. These rules must be followed to protect the environment. Scientists claim that the air quality has improved this year. Nevertheless, the vast majority of people still use cars every day. If people exercised more, they would be healthier. A large number of people now prefer a healthier lifestyle, and this trend is likely to continue.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The air quality has improved this year.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"Scientists claim that the air quality has improved this year.\"" },
+          { "type": "multiple_choice", "question": "What would happen if people exercised more?", "options": ["They would be healthier", "They would save money", "They would travel more"], "correct": "They would be healthier", "explanation": "\"If people exercised more, they would be healthier.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 88,
+    "reading": [
+      {
+        "title": "Mock Test — Reading Passage",
+        "passage": "Hoi An is a small town on the coast of Vietnam. It used to be a quiet fishing village, but it has changed a lot over the past few decades. A large number of tourists visit Hoi An every year because of its old buildings and peaceful streets. The old town, which was built hundreds of years ago, is one of the most popular attractions in the area. Visitors who walk through the old streets can see traditional houses, small shops, and a famous bridge. If you visit in the evening, you will see colourful lanterns everywhere. Furthermore, local food in Hoi An is famous all over the country. Some dishes can only be found in this town. Although the town is small, it attracts a great deal of attention from both local and foreign tourists. As a result, the local government has introduced rules to protect the old buildings. For example, new buildings must be designed in a traditional style, and some areas are closed to cars in the evening.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Hoi An used to be a quiet fishing village.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"It used to be a quiet fishing village\"." },
+          { "type": "true_false_ng", "question": "New buildings can be designed in any style.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"new buildings must be designed in a traditional style.\"" },
+          { "type": "multiple_choice", "question": "What can visitors see in the evening?", "options": ["Colourful lanterns", "Empty streets", "New buildings"], "correct": "Colourful lanterns", "explanation": "\"If you visit in the evening, you will see colourful lanterns everywhere.\"" },
+          { "type": "multiple_choice", "question": "Why are some areas closed to cars in the evening?", "options": ["To protect the old buildings", "Because of bad weather", "Because of a festival"], "correct": "To protect the old buildings", "explanation": "Đoạn cuối liên kết quy định này với việc bảo vệ phố cổ." },
+          { "type": "sentence_completion", "question": "The old town was built ___ years ago.", "options": ["fifty", "hundreds of", "ten"], "correct": "hundreds of", "explanation": "\"The old town, which was built hundreds of years ago...\"" }
+        ]
+      }
+    ]
+  }
+]

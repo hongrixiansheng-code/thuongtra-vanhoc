@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 26,
+      "grammar": [
+        {
+          "title": "want to be / would like to be: muốn trở thành",
+          "desc": "Dùng 'want to be' hoặc 'would like to be' (trang trọng hơn) để nói về ước mơ nghề nghiệp của bạn trong tương lai.",
+          "formula": [
+            { "text": "I want", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "to be", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "a pilot.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I want to be an engineer.", "meaning": "Tôi muốn trở thành một kỹ sư." },
+            { "correct": "She would like to be a journalist.", "meaning": "Cô ấy muốn trở thành một nhà báo." },
+            { "correct": "He wants to be a manager.", "meaning": "Cậu ấy muốn trở thành một người quản lý." }
+          ]
+        },
+        {
+          "title": "Hỏi về ước mơ nghề nghiệp",
+          "desc": "Dùng câu hỏi 'What do you want to be (when you grow up)?' để hỏi bạn bè xem họ muốn làm nghề gì khi lớn lên.",
+          "formula": [
+            { "text": "What", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "do you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "want to be?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What do you want to be?", "meaning": "Bạn muốn trở thành gì?" },
+            { "correct": "What does he want to be?", "meaning": "Cậu ấy muốn làm nghề gì?" },
+            { "correct": "What would you like to be?", "meaning": "Bạn muốn trở thành gì?" }
+          ]
+        },
+        {
+          "title": "Mệnh đề who chỉ nghề nghiệp (Ôn tập)",
+          "desc": "Sử dụng mệnh đề 'who' để giải thích chi tiết hơn về công việc của một người nào đó.",
+          "formula": [
+            { "text": "A pilot", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is a person", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "who flies planes.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "A photographer is a person who takes photos.", "meaning": "Nhiếp ảnh gia là người chụp ảnh." },
+            { "correct": "A mechanic is someone who fixes cars.", "meaning": "Thợ máy là người sửa chữa ô tô." },
+            { "correct": "An actor is a person who works in a theatre.", "meaning": "Diễn viên là người làm việc trong một nhà hát." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Dream jobs",
+          "lines": [
+            { "speaker": "A", "en": "What do you want to be when you grow up?", "vi": "Cậu muốn trở thành gì khi cậu lớn lên?" },
+            { "speaker": "B", "en": "I want to be an engineer. How about you?", "vi": "Tớ muốn trở thành một kỹ sư. Còn cậu thì sao?" },
+            { "speaker": "A", "en": "I would like to be a journalist.", "vi": "Tớ muốn trở thành một nhà báo." },
+            { "speaker": "B", "en": "That's cool! A journalist is a person who writes news.", "vi": "Thật tuyệt! Nhà báo là người viết tin tức." },
+            { "speaker": "A", "en": "Yes. And an engineer is a person who builds bridges.", "vi": "Ừ. Và kỹ sư là người xây dựng những cây cầu." },
+            { "speaker": "B", "en": "We must study hard to get our dream jobs.", "vi": "Chúng ta phải học hành chăm chỉ để có được những công việc mơ ước." }
+          ]
+        },
+        {
+          "title": "A clever mechanic",
+          "lines": [
+            { "speaker": "A", "en": "My dad's car is broken.", "vi": "Xe ô tô của bố tớ bị hỏng rồi." },
+            { "speaker": "B", "en": "You should take it to a mechanic.", "vi": "Cậu nên mang nó đến cho thợ máy." },
+            { "speaker": "A", "en": "Yes, my uncle is a mechanic. He is very clever.", "vi": "Ừ, chú của tớ là thợ máy. Chú ấy rất thông minh." },
+            { "speaker": "B", "en": "What does a mechanic do?", "vi": "Một thợ máy thì làm gì?" },
+            { "speaker": "A", "en": "He is a person who fixes cars and motorbikes.", "vi": "Chú ấy là người sửa chữa ô tô và xe máy." },
+            { "speaker": "B", "en": "I hope he can fix your dad's car quickly.", "vi": "Tớ hy vọng chú ấy có thể sửa xong xe của bố cậu nhanh chóng." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 27,
+      "grammar": [
+        {
+          "title": "let + tân ngữ + động từ: để cho ai đó làm gì",
+          "desc": "Dùng 'let' kết hợp với một tân ngữ (me, him, her) và một động từ nguyên thể để cho phép hoặc đề nghị ai đó làm gì.",
+          "formula": [
+            { "text": "Let", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "me", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "help you.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Let me carry this heavy bag.", "meaning": "Hãy để tớ mang chiếc túi nặng này." },
+            { "correct": "My mom let me watch TV.", "meaning": "Mẹ tớ đã để tớ xem TV." },
+            { "correct": "Let him try again.", "meaning": "Hãy để cậu ấy thử lại lần nữa." }
+          ]
+        },
+        {
+          "title": "Câu bị động mở rộng: is called / was built",
+          "desc": "Mở rộng cấu trúc câu bị động để nói về tên gọi ('is called') hoặc việc được xây dựng ('was built') của các công trình.",
+          "formula": [
+            { "text": "The bridge", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "was built", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "in 1990.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "This old castle was built by the king.", "meaning": "Tòa lâu đài cũ này đã được xây dựng bởi nhà vua." },
+            { "correct": "The new manager is called David.", "meaning": "Người quản lý mới được gọi là David." },
+            { "correct": "This bridge was built ten years ago.", "meaning": "Cây cầu này đã được xây cách đây 10 năm." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Nghề nghiệp & Nơi chốn",
+          "desc": "Kết hợp các chủ điểm: want to be, let me, câu bị động, và các từ vựng nghề nghiệp/nơi chốn.",
+          "formula": [
+            { "text": "If", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "you want to be", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "a pilot...", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Let me show you the building which was built yesterday.", "meaning": "Hãy để tớ cho cậu xem tòa nhà cái mà đã được xây vào hôm qua." },
+            { "correct": "If you want to be a police officer, you must be brave.", "meaning": "Nếu bạn muốn trở thành cảnh sát, bạn phải thật dũng cảm." },
+            { "correct": "The restaurant is called 'The Golden Spoon'.", "meaning": "Nhà hàng này được gọi là 'Chiếc Thìa Vàng'." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the factory",
+          "lines": [
+            { "speaker": "A", "en": "Wow, this factory is very big.", "vi": "Chà, nhà máy này rất lớn." },
+            { "speaker": "B", "en": "Yes, it was built five years ago.", "vi": "Đúng vậy, nó đã được xây dựng cách đây 5 năm." },
+            { "speaker": "A", "en": "What do they make here?", "vi": "Họ sản xuất gì ở đây vậy?" },
+            { "speaker": "B", "en": "They make toys. The factory is called 'Happy Toys'.", "vi": "Họ sản xuất đồ chơi. Nhà máy được gọi là 'Happy Toys'." },
+            { "speaker": "A", "en": "Can we go inside to see?", "vi": "Chúng ta có thể đi vào bên trong để xem không?" },
+            { "speaker": "B", "en": "Let me ask the manager first.", "vi": "Hãy để tớ hỏi người quản lý trước đã." }
+          ]
+        },
+        {
+          "title": "Helping out",
+          "lines": [
+            { "speaker": "A", "en": "The kitchen is very messy.", "vi": "Nhà bếp rất là bừa bộn." },
+            { "speaker": "B", "en": "My dad is a cook. He is cooking dinner.", "vi": "Bố tớ là đầu bếp. Bố đang nấu bữa tối." },
+            { "speaker": "A", "en": "Let me help him clean the table.", "vi": "Hãy để tớ giúp chú ấy lau bàn." },
+            { "speaker": "B", "en": "That's very kind of you. Thanks.", "vi": "Cậu thật tốt bụng. Cảm ơn nhé." },
+            { "speaker": "A", "en": "I want to be a cook when I grow up.", "vi": "Tớ muốn trở thành một đầu bếp khi tớ lớn lên." },
+            { "speaker": "B", "en": "If you want to be a cook, you should learn from my dad.", "vi": "Nếu cậu muốn trở thành một đầu bếp, cậu nên học hỏi từ bố tớ." }
+          ]
+        }
+      ]
+    }
+  ]
+}

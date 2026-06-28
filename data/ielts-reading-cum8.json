@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 15,
+    "reading": [
+      {
+        "title": "Reading: Shopping list",
+        "passage": "I need a small red bag and a big blue box. I also want two white pens and three green cards. The shop has tiny boxes too, but I prefer the wide ones.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer wants a small red bag.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I need a small red bag\"." },
+          { "type": "multiple_choice", "question": "How many pens does the writer want?", "options": ["One", "Two", "Three"], "correct": "Two", "explanation": "\"I also want two white pens\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "reading": [
+      {
+        "title": "Reading: Lost items",
+        "passage": "This is my key, and these are my glasses. I can't find my phone. These tickets are for tomorrow's concert. Is this your wallet? These are not my cards.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer found their phone.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I can't find my phone.\"" },
+          { "type": "true_false_ng", "question": "The tickets are for today's concert.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Vé là cho buổi hòa nhạc \"tomorrow\", không phải hôm nay." }
+        ]
+      }
+    ]
+  }
+]

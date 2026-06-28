@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 9,
+      "vocab": [
+        { "word": "fuel", "ipa": "/ˈfjuː.əl/", "type": "n.", "meaning": "nhiên liệu", "example_en": "Wood, coal, and oil are different kinds of fuel.", "example_vi": "Gỗ, than đá và dầu mỏ là những loại nhiên liệu khác nhau." },
+        { "word": "energy", "ipa": "/ˈen.ə.dʒi/", "type": "n.", "meaning": "năng lượng", "example_en": "We need to find new sources of renewable energy.", "example_vi": "Chúng ta cần tìm các nguồn năng lượng tái tạo mới." },
+        { "word": "solar", "ipa": "/ˈsəʊ.lər/", "type": "adj.", "meaning": "thuộc về mặt trời, năng lượng mặt trời", "example_en": "They installed solar panels on the roof of their house.", "example_vi": "Họ đã lắp đặt các tấm pin năng lượng mặt trời trên mái nhà." },
+        { "word": "renewable", "ipa": "/rɪˈnjuː.ə.bəl/", "type": "adj.", "meaning": "có thể tái tạo", "example_en": "Wind power is a clean and renewable energy source.", "example_vi": "Năng lượng gió là một nguồn năng lượng sạch và có thể tái tạo." },
+        { "word": "carbon", "ipa": "/ˈkɑː.bən/", "type": "n.", "meaning": "các-bon", "example_en": "We must reduce our carbon emissions to save the planet.", "example_vi": "Chúng ta phải giảm lượng khí thải các-bon để cứu lấy hành tinh." },
+        { "word": "recycle", "ipa": "/ˌriːˈsaɪ.kəl/", "type": "v.", "meaning": "tái chế", "example_en": "Please recycle your paper and plastic waste.", "example_vi": "Làm ơn hãy tái chế rác thải giấy và nhựa của bạn." },
+        { "word": "waste", "ipa": "/weɪst/", "type": "n.", "meaning": "rác thải, sự lãng phí", "example_en": "A lot of household waste can be recycled.", "example_vi": "Rất nhiều rác thải sinh hoạt có thể được tái chế." },
+        { "word": "damage", "ipa": "/ˈdæm.ɪdʒ/", "type": "v.", "meaning": "gây thiệt hại, phá hủy", "example_en": "Pollution can seriously damage the environment.", "example_vi": "Sự ô nhiễm có thể gây thiệt hại nghiêm trọng cho môi trường." },
+        { "word": "protect", "ipa": "/prəˈtekt/", "type": "v.", "meaning": "bảo vệ", "example_en": "We should all do something to protect our planet.", "example_vi": "Tất cả chúng ta nên làm gì đó để bảo vệ hành tinh của mình." },
+        { "word": "sustainability", "ipa": "/səˌsteɪ.nəˈbɪl.ə.ti/", "type": "n.", "meaning": "sự bền vững", "example_en": "The company is committed to environmental sustainability.", "example_vi": "Công ty cam kết về sự bền vững môi trường." }
+      ]
+    },
+    {
+      "orderIndex": 10,
+      "vocab": [
+        { "word": "illness", "ipa": "/ˈɪl.nəs/", "type": "n.", "meaning": "sự ốm đau, bệnh tật", "example_en": "He missed a week of school because of illness.", "example_vi": "Cậu ấy đã nghỉ học một tuần vì ốm." },
+        { "word": "disease", "ipa": "/dɪˈziːz/", "type": "n.", "meaning": "căn bệnh, bệnh lý", "example_en": "Heart disease is a major cause of death.", "example_vi": "Bệnh tim là một nguyên nhân gây tử vong chính." },
+        { "word": "fever", "ipa": "/ˈfiː.vər/", "type": "n.", "meaning": "cơn sốt", "example_en": "The child has a high fever and needs to see a doctor.", "example_vi": "Đứa trẻ bị sốt cao và cần gặp bác sĩ." },
+        { "word": "flu", "ipa": "/fluː/", "type": "n.", "meaning": "bệnh cúm", "example_en": "She caught the flu and had to stay in bed.", "example_vi": "Cô ấy bị mắc bệnh cúm và phải nằm nghỉ trên giường." },
+        { "word": "injury", "ipa": "/ˈɪn.dʒər.i/", "type": "n.", "meaning": "chấn thương", "example_en": "He suffered a severe leg injury in the accident.", "example_vi": "Anh ấy đã bị chấn thương chân nghiêm trọng trong vụ tai nạn." },
+        { "word": "operation", "ipa": "/ˌɒp.ərˈeɪ.ʃən/", "type": "n.", "meaning": "ca phẫu thuật", "example_en": "The doctor says you will need a minor operation.", "example_vi": "Bác sĩ nói bạn sẽ cần một ca phẫu thuật nhỏ." },
+        { "word": "clinic", "ipa": "/ˈklɪn.ɪk/", "type": "n.", "meaning": "phòng khám", "example_en": "Bring your baby to the local health clinic for a check-up.", "example_vi": "Hãy đưa em bé của bạn đến phòng khám y tế địa phương để kiểm tra." },
+        { "word": "treatment", "ipa": "/ˈtriːt.mənt/", "type": "n.", "meaning": "sự điều trị", "example_en": "This medical treatment is highly effective.", "example_vi": "Phương pháp điều trị y tế này có hiệu quả rất cao." },
+        { "word": "symptom", "ipa": "/ˈsɪmp.təm/", "type": "n.", "meaning": "triệu chứng", "example_en": "Fever and a cough are common symptoms of a cold.", "example_vi": "Sốt và ho là những triệu chứng thường gặp của cảm lạnh." },
+        { "word": "prescription", "ipa": "/prɪˈskrɪp.ʃən/", "type": "n.", "meaning": "đơn thuốc", "example_en": "The doctor wrote me a prescription for some antibiotics.", "example_vi": "Bác sĩ đã viết cho tôi một đơn thuốc kháng sinh." }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "vocab": [
+        { "word": "fitness", "ipa": "/ˈfɪt.nəs/", "type": "n.", "meaning": "sự sung sức, thể trạng khỏe mạnh", "example_en": "I'm trying to improve my physical fitness by running every morning.", "example_vi": "Tôi đang cố gắng cải thiện thể trạng của mình bằng cách chạy bộ mỗi sáng." },
+        { "word": "diet", "ipa": "/ˈdaɪ.ət/", "type": "n.", "meaning": "chế độ ăn uống", "example_en": "A healthy diet is important for everyone.", "example_vi": "Một chế độ ăn uống lành mạnh là rất quan trọng đối với mọi người." },
+        { "word": "recover", "ipa": "/rɪˈkʌv.ər/", "type": "v.", "meaning": "hồi phục", "example_en": "It took him a long time to recover from the injury.", "example_vi": "Anh ấy đã mất một thời gian dài để hồi phục sau chấn thương." },
+        { "word": "lifestyle", "ipa": "/ˈlaɪf.staɪl/", "type": "n.", "meaning": "lối sống", "example_en": "He has a very active lifestyle and plays sports daily.", "example_vi": "Anh ấy có một lối sống rất năng động và chơi thể thao hàng ngày." },
+        { "word": "extreme sport", "ipa": "/ɪkˌstriːm ˈspɔːt/", "type": "n.", "meaning": "thể thao mạo hiểm", "example_en": "Snowboarding is considered an extreme sport.", "example_vi": "Trượt tuyết bằng ván được coi là một môn thể thao mạo hiểm." },
+        { "word": "athletics", "ipa": "/æθˈlet.ɪks/", "type": "n.", "meaning": "điền kinh", "example_en": "She has always been interested in athletics.", "example_vi": "Cô ấy luôn có niềm đam mê với điền kinh." },
+        { "word": "gymnastics", "ipa": "/dʒɪmˈnæs.tɪks/", "type": "n.", "meaning": "thể dục dụng cụ", "example_en": "My daughter goes to gymnastics classes twice a week.", "example_vi": "Con gái tôi tham gia các lớp thể dục dụng cụ hai lần một tuần." },
+        { "word": "martial arts", "ipa": "/ˌmɑː.ʃəl ˈɑːts/", "type": "n.", "meaning": "võ thuật", "example_en": "Kung fu and karate are popular martial arts.", "example_vi": "Kung fu và karate là những môn võ thuật phổ biến." },
+        { "word": "yoga", "ipa": "/ˈjəʊ.ɡə/", "type": "n.", "meaning": "yoga", "example_en": "Doing yoga helps me relax after a hard day's work.", "example_vi": "Tập yoga giúp tôi thư giãn sau một ngày làm việc mệt mỏi." },
+        { "word": "meditation", "ipa": "/ˌmed.ɪˈteɪ.ʃən/", "type": "n.", "meaning": "thiền định", "example_en": "Meditation can bring you a sense of inner peace.", "example_vi": "Thiền định có thể mang lại cho bạn cảm giác bình yên trong tâm hồn." }
+      ]
+    }
+  ]
+}

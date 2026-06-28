@@ -1,0 +1,340 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "title": "Bài 13.b: Nơi chốn & phương hướng (2/3)",
+      "theme": "Nơi chốn & nghề nghiệp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "get to",
+          "ipa": "/ɡet tuː/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "đi đến",
+          "example_en": "How do I get to the station?",
+          "example_vi": "Làm thế nào để tôi đi đến nhà ga?"
+        },
+        {
+          "word": "hotel",
+          "ipa": "/hoʊˈtel/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khách sạn",
+          "example_en": "We stayed in a nice hotel.",
+          "example_vi": "Chúng tôi đã ở trong một khách sạn đẹp."
+        },
+        {
+          "word": "kilometre",
+          "ipa": "/kɪˈlɒmɪtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ki-lô-mét",
+          "example_en": "The park is one kilometre away.",
+          "example_vi": "Công viên cách đây một ki-lô-mét."
+        },
+        {
+          "word": "left",
+          "ipa": "/left/",
+          "type": "Danh từ / Trạng từ",
+          "type_short": "n",
+          "meaning": "bên trái",
+          "example_en": "Turn left at the corner.",
+          "example_vi": "Rẽ trái ở góc đường."
+        },
+        {
+          "word": "London",
+          "ipa": "/ˈlʌndən/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Luân Đôn",
+          "example_en": "London is a big city.",
+          "example_vi": "Luân Đôn là một thành phố lớn."
+        },
+        {
+          "word": "middle",
+          "ipa": "/ˈmɪdl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ở giữa",
+          "example_en": "The cat is in the middle of the room.",
+          "example_vi": "Con mèo đang ở giữa căn phòng."
+        },
+        {
+          "word": "museum",
+          "ipa": "/mjuˈziːəm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bảo tàng",
+          "example_en": "We saw old things in the museum.",
+          "example_vi": "Chúng tôi đã thấy những món đồ cũ trong bảo tàng."
+        },
+        {
+          "word": "north",
+          "ipa": "/nɔːrθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hướng Bắc",
+          "example_en": "The wind blows from the north.",
+          "example_vi": "Gió thổi từ hướng Bắc."
+        },
+        {
+          "word": "path",
+          "ipa": "/pæθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con đường nhỏ, đường mòn",
+          "example_en": "Follow the path to the river.",
+          "example_vi": "Hãy đi theo con đường nhỏ đến con sông."
+        },
+        {
+          "word": "police station",
+          "ipa": "/pəˈliːs ˌsteɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đồn cảnh sát",
+          "example_en": "The police officer is at the police station.",
+          "example_vi": "Viên cảnh sát đang ở đồn cảnh sát."
+        },
+        {
+          "word": "post office",
+          "ipa": "/poʊst ˈɒfɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bưu điện",
+          "example_en": "I buy stamps at the post office.",
+          "example_vi": "Tôi mua tem ở bưu điện."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 25,
+      "title": "Bài 13.c: Nơi chốn & phương hướng (3/3)",
+      "theme": "Nơi chốn & nghề nghiệp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "restaurant",
+          "ipa": "/ˈrestrɒnt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà hàng",
+          "example_en": "We eat dinner at a restaurant.",
+          "example_vi": "Chúng tôi ăn tối tại một nhà hàng."
+        },
+        {
+          "word": "right",
+          "ipa": "/raɪt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đúng",
+          "example_en": "Yes, that is the right answer.",
+          "example_vi": "Đúng vậy, đó là câu trả lời đúng."
+        },
+        {
+          "word": "right",
+          "ipa": "/raɪt/",
+          "type": "Danh từ / Trạng từ",
+          "type_short": "n",
+          "meaning": "bên phải",
+          "example_en": "Turn right at the hospital.",
+          "example_vi": "Hãy rẽ phải ở chỗ bệnh viện."
+        },
+        {
+          "word": "skyscraper",
+          "ipa": "/ˈskaɪskreɪpər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tòa nhà chọc trời",
+          "example_en": "That is a very tall skyscraper.",
+          "example_vi": "Đó là một tòa nhà chọc trời rất cao."
+        },
+        {
+          "word": "south",
+          "ipa": "/saʊθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hướng Nam",
+          "example_en": "Birds fly south in the winter.",
+          "example_vi": "Những chú chim bay về hướng Nam vào mùa đông."
+        },
+        {
+          "word": "stadium",
+          "ipa": "/ˈsteɪdiəm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sân vận động",
+          "example_en": "There are many people in the stadium.",
+          "example_vi": "Có rất nhiều người trong sân vận động."
+        },
+        {
+          "word": "straight on",
+          "ipa": "/streɪt ɒn/",
+          "type": "Cụm trạng từ",
+          "type_short": "adv",
+          "meaning": "đi thẳng",
+          "example_en": "Go straight on and then turn left.",
+          "example_vi": "Hãy đi thẳng rồi sau đó rẽ trái."
+        },
+        {
+          "word": "theatre",
+          "ipa": "/ˈθiːətər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà hát",
+          "example_en": "We watched a play at the theatre.",
+          "example_vi": "Chúng tôi đã xem một vở kịch ở nhà hát."
+        },
+        {
+          "word": "university",
+          "ipa": "/ˌjuːnɪˈvɜːrsəti/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trường đại học",
+          "example_en": "My sister studies at university.",
+          "example_vi": "Chị gái tôi học ở trường đại học."
+        },
+        {
+          "word": "way",
+          "ipa": "/weɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đường đi, lối đi",
+          "example_en": "Can you show me the way?",
+          "example_vi": "Bạn có thể chỉ đường cho tôi không?"
+        },
+        {
+          "word": "west",
+          "ipa": "/west/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hướng Tây",
+          "example_en": "The sun sets in the west.",
+          "example_vi": "Mặt trời lặn ở hướng Tây."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 26,
+      "title": "Bài 14.a: Nghề nghiệp (1/2)",
+      "theme": "Nơi chốn & nghề nghiệp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "actor",
+          "ipa": "/ˈæktər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "diễn viên nam",
+          "example_en": "He is a famous actor.",
+          "example_vi": "Anh ấy là một nam diễn viên nổi tiếng."
+        },
+        {
+          "word": "artist",
+          "ipa": "/ˈɑːrtɪst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "họa sĩ, nghệ sĩ",
+          "example_en": "The artist paints a beautiful picture.",
+          "example_vi": "Người họa sĩ vẽ một bức tranh tuyệt đẹp."
+        },
+        {
+          "word": "astronaut",
+          "ipa": "/ˈæstrənɔːt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phi hành gia",
+          "example_en": "An astronaut travels to space.",
+          "example_vi": "Một phi hành gia du hành vào không gian."
+        },
+        {
+          "word": "business",
+          "ipa": "/ˈbɪznəs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kinh doanh, doanh nghiệp",
+          "example_en": "My dad has a big business.",
+          "example_vi": "Bố tôi có một doanh nghiệp lớn."
+        },
+        {
+          "word": "businessman",
+          "ipa": "/ˈbɪznəsmæn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "doanh nhân nam",
+          "example_en": "He is a rich businessman.",
+          "example_vi": "Anh ấy là một nam doanh nhân giàu có."
+        },
+        {
+          "word": "businesswoman",
+          "ipa": "/ˈbɪznəswʊmən/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "doanh nhân nữ",
+          "example_en": "She is a smart businesswoman.",
+          "example_vi": "Cô ấy là một nữ doanh nhân thông minh."
+        },
+        {
+          "word": "designer",
+          "ipa": "/dɪˈzaɪnər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà thiết kế",
+          "example_en": "She is a clothes designer.",
+          "example_vi": "Cô ấy là một nhà thiết kế quần áo."
+        },
+        {
+          "word": "engineer",
+          "ipa": "/ˌendʒɪˈnɪr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kỹ sư",
+          "example_en": "The engineer builds a bridge.",
+          "example_vi": "Người kỹ sư xây dựng một cây cầu."
+        },
+        {
+          "word": "fire fighter",
+          "ipa": "/ˈfaɪər ˌfaɪtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lính cứu hỏa",
+          "example_en": "The fire fighter put out the fire.",
+          "example_vi": "Người lính cứu hỏa đã dập tắt ngọn lửa."
+        },
+        {
+          "word": "job",
+          "ipa": "/dʒɒb/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "công việc, nghề nghiệp",
+          "example_en": "What is your job?",
+          "example_vi": "Công việc của bạn là gì?"
+        },
+        {
+          "word": "journalist",
+          "ipa": "/ˈdʒɜːrnəlɪst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà báo",
+          "example_en": "The journalist writes for a newspaper.",
+          "example_vi": "Nhà báo viết bài cho một tờ báo."
+        },
+        {
+          "word": "manager",
+          "ipa": "/ˈmænɪdʒər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người quản lý",
+          "example_en": "He is the manager of the shop.",
+          "example_vi": "Anh ấy là quản lý của cửa hàng."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

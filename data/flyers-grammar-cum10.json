@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 18,
+      "grammar": [
+        {
+          "title": "Mệnh đề thời gian: while (trong khi)",
+          "desc": "Dùng 'while' để nối hai câu, diễn tả hai hành động đang diễn ra cùng một lúc (thường dùng với thì Hiện tại tiếp diễn hoặc Quá khứ tiếp diễn).",
+          "formula": [
+            { "text": "While", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I was reading,", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "she was sleeping.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "While I was eating, the phone rang.", "meaning": "Trong khi tớ đang ăn, điện thoại đã reo." },
+            { "correct": "He is watching TV while she is drawing.", "meaning": "Cậu ấy đang xem TV trong khi cô ấy đang vẽ." },
+            { "correct": "I lost my pen while I was walking.", "meaning": "Tớ đã đánh rơi cây bút trong khi đang đi bộ." }
+          ]
+        },
+        {
+          "title": "while đứng ở giữa câu",
+          "desc": "Bạn cũng có thể đặt 'while' ở giữa câu để nối hai vế. Lúc này không cần dùng dấu phẩy.",
+          "formula": [
+            { "text": "The phone rang", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "while", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I was eating.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I fell asleep while I was watching a film.", "meaning": "Tớ đã ngủ gật trong khi đang xem một bộ phim." },
+            { "correct": "She sang a song while she was painting.", "meaning": "Cô ấy đã hát một bài trong khi đang tô màu." },
+            { "correct": "They found a shell while they were swimming.", "meaning": "Họ đã tìm thấy một vỏ sò trong khi đang bơi." }
+          ]
+        },
+        {
+          "title": "like / love + V-ing (Ôn tập)",
+          "desc": "Dùng 'like' (thích) hoặc 'love' (yêu thích) cộng với một động từ thêm đuôi '-ing' để nói về sở thích của bạn.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "love", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "collecting stamps.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I love acting in plays.", "meaning": "Tớ yêu thích diễn xuất trong các vở kịch." },
+            { "correct": "He likes taking photographs.", "meaning": "Cậu ấy thích chụp ảnh." },
+            { "correct": "Do you like listening to music?", "meaning": "Cậu có thích nghe nhạc không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the theatre",
+          "lines": [
+            { "speaker": "A", "en": "Do you like going to the theatre?", "vi": "Cậu có thích đi đến nhà hát không?" },
+            { "speaker": "B", "en": "Yes, I love watching plays.", "vi": "Có, tớ rất thích xem các vở kịch." },
+            { "speaker": "A", "en": "While I was watching the play, I ate popcorn.", "vi": "Trong khi tớ đang xem vở kịch, tớ đã ăn bắp rang bơ." },
+            { "speaker": "B", "en": "I took some photographs while the actors were singing.", "vi": "Tớ đã chụp vài bức ảnh trong khi các diễn viên đang hát." },
+            { "speaker": "A", "en": "Can you show me the pictures?", "vi": "Cậu có thể cho tớ xem những bức ảnh không?" },
+            { "speaker": "B", "en": "Sure. Look at this one. It's beautiful.", "vi": "Chắc chắn rồi. Nhìn tấm này này. Nó rất đẹp." }
+          ]
+        },
+        {
+          "title": "Hobbies",
+          "lines": [
+            { "speaker": "A", "en": "What are your hobbies?", "vi": "Những sở thích của cậu là gì?" },
+            { "speaker": "B", "en": "I like collecting stamps and reading.", "vi": "Tớ thích sưu tập tem và đọc sách." },
+            { "speaker": "A", "en": "I like playing chess with my brother.", "vi": "Tớ thích chơi cờ vua với anh trai của tớ." },
+            { "speaker": "B", "en": "My brother usually listens to music while he reads.", "vi": "Anh trai tớ thường xuyên nghe nhạc trong khi anh ấy đọc sách." },
+            { "speaker": "A", "en": "That sounds nice. I love listening to music too.", "vi": "Nghe hay đấy. Tớ cũng yêu thích việc nghe nhạc." },
+            { "speaker": "B", "en": "Let's listen to my new CD.", "vi": "Hãy cùng nghe đĩa CD mới của tớ nhé." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "grammar": [
+        {
+          "title": "ever: đã từng (trong câu hỏi)",
+          "desc": "Dùng 'ever' (đã từng bao giờ chưa) trong câu hỏi thì Hiện tại hoàn thành để hỏi về một trải nghiệm trong đời.",
+          "formula": [
+            { "text": "Have you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "ever", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "visited London?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Have you ever seen a dinosaur?", "meaning": "Bạn đã từng bao giờ nhìn thấy một con khủng long chưa?" },
+            { "correct": "Has she ever played golf?", "meaning": "Cô ấy đã từng chơi gôn bao giờ chưa?" },
+            { "correct": "Have they ever visited a castle?", "meaning": "Họ đã từng đến thăm một tòa lâu đài bao giờ chưa?" }
+          ]
+        },
+        {
+          "title": "never: chưa bao giờ (trong câu phủ định)",
+          "desc": "Dùng 'never' để diễn đạt một việc gì đó bạn chưa từng làm trong đời (tính đến thời điểm hiện tại).",
+          "formula": [
+            { "text": "I have", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "never", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "tried skiing.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have never tried skiing.", "meaning": "Tôi chưa bao giờ thử trượt tuyết." },
+            { "correct": "He has never won a race.", "meaning": "Cậu ấy chưa bao giờ chiến thắng một cuộc đua." },
+            { "correct": "We have never been to Paris.", "meaning": "Chúng tôi chưa bao giờ đến Paris." }
+          ]
+        },
+        {
+          "title": "Cách trả lời ngắn: Yes/No",
+          "desc": "Để trả lời cho câu hỏi 'Have you ever...?', bạn dùng 'Yes, I have' hoặc 'No, I haven't' (hoặc 'No, never').",
+          "formula": [
+            { "text": "Yes, I have.", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "/", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "No, I haven't.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "Have you ever made a cake? Yes, I have.", "meaning": "Bạn đã từng làm bánh bao giờ chưa? Có, tôi đã từng." },
+            { "correct": "Has he ever ridden a camel? No, he hasn't.", "meaning": "Anh ấy đã từng cưỡi lạc đà bao giờ chưa? Không, anh ấy chưa từng." },
+            { "correct": "Have you ever flown a kite? No, never.", "meaning": "Bạn đã từng thả diều bao giờ chưa? Chưa, chưa bao giờ." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A winter holiday",
+          "lines": [
+            { "speaker": "A", "en": "I am going to the mountains for a holiday.", "vi": "Tớ chuẩn bị đi đến vùng núi để nghỉ mát." },
+            { "speaker": "B", "en": "Have you ever tried skiing?", "vi": "Cậu đã từng thử trượt tuyết bao giờ chưa?" },
+            { "speaker": "A", "en": "No, I have never tried skiing.", "vi": "Chưa, tớ chưa bao giờ thử trượt tuyết." },
+            { "speaker": "B", "en": "It is very fun. You should try it.", "vi": "Nó rất vui. Cậu nên thử nó." },
+            { "speaker": "A", "en": "I will. Have you ever built a snowman?", "vi": "Tớ sẽ thử. Cậu đã từng đắp người tuyết chưa?" },
+            { "speaker": "B", "en": "Yes, I have. It was great.", "vi": "Có, tớ đã từng. Nó thật tuyệt." }
+          ]
+        },
+        {
+          "title": "Playing an instrument",
+          "lines": [
+            { "speaker": "A", "en": "Look at this old violin.", "vi": "Hãy nhìn cây đàn vĩ cầm cũ này." },
+            { "speaker": "B", "en": "Have you ever played the violin?", "vi": "Cậu đã từng chơi đàn vĩ cầm bao giờ chưa?" },
+            { "speaker": "A", "en": "Yes, I have. But I am not very good.", "vi": "Có, tớ đã từng. Nhưng tớ chơi không giỏi lắm." },
+            { "speaker": "B", "en": "I have never played an instrument.", "vi": "Tớ chưa bao giờ chơi một loại nhạc cụ nào." },
+            { "speaker": "A", "en": "You can learn. It takes a long time.", "vi": "Cậu có thể học mà. Phải mất một thời gian dài đấy." },
+            { "speaker": "B", "en": "I might learn to play the guitar.", "vi": "Tớ có thể sẽ học chơi đàn ghi-ta." }
+          ]
+        }
+      ]
+    }
+  ]
+}

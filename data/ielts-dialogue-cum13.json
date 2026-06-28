@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 25,
+    "dialogue": [
+      {
+        "title": "Talking about jobs",
+        "lines": [
+          { "speaker": "Trang", "en": "My father is a doctor. He works at a hospital.", "vi": "Bố tôi là bác sĩ. Anh ấy làm việc ở bệnh viện." },
+          { "speaker": "Emma", "en": "Does he help many patients every day?", "vi": "Anh ấy có giúp nhiều bệnh nhân mỗi ngày không?" },
+          { "speaker": "Trang", "en": "Yes, he helps many patients every day.", "vi": "Vâng, anh ấy giúp nhiều bệnh nhân mỗi ngày." },
+          { "speaker": "Emma", "en": "My mother is a nurse. She works with him.", "vi": "Mẹ tôi là điều dưỡng. Mẹ làm việc với anh ấy." },
+          { "speaker": "Trang", "en": "What does a nurse do exactly?", "vi": "Điều dưỡng làm chính xác là gì?" },
+          { "speaker": "Emma", "en": "A nurse takes care of patients and gives them medicine.", "vi": "Điều dưỡng chăm sóc bệnh nhân và cho họ uống thuốc." }
+        ]
+      },
+      {
+        "title": "Different professions",
+        "lines": [
+          { "speaker": "Trang", "en": "My uncle is a farmer. He grows rice and vegetables.", "vi": "Chú tôi là nông dân. Chú trồng lúa và rau." },
+          { "speaker": "Emma", "en": "My brother is an engineer. He builds bridges.", "vi": "Anh tôi là kỹ sư. Anh ấy xây cầu." },
+          { "speaker": "Trang", "en": "Does he work outside often?", "vi": "Anh ấy có thường làm việc ngoài trời không?" },
+          { "speaker": "Emma", "en": "Yes, he often works outside on big projects.", "vi": "Vâng, anh ấy thường làm việc ngoài trời với các dự án lớn." },
+          { "speaker": "Trang", "en": "My friend is a chef. He cooks at a restaurant.", "vi": "Bạn tôi là bếp trưởng. Anh ấy nấu ăn ở nhà hàng." },
+          { "speaker": "Emma", "en": "That sounds like a fun job.", "vi": "Nghe có vẻ là một công việc thú vị." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "dialogue": [
+      {
+        "title": "What do you do?",
+        "lines": [
+          { "speaker": "Trang", "en": "What do you do?", "vi": "Bạn làm nghề gì?" },
+          { "speaker": "Emma", "en": "I am a programmer. I write computer code.", "vi": "Tôi là lập trình viên. Tôi viết mã máy tính." },
+          { "speaker": "Trang", "en": "What does your sister do?", "vi": "Em gái bạn làm nghề gì?" },
+          { "speaker": "Emma", "en": "She is an architect. She designs buildings.", "vi": "Cô ấy là kiến trúc sư. Cô ấy thiết kế các tòa nhà." },
+          { "speaker": "Trang", "en": "What do your parents do?", "vi": "Bố mẹ bạn làm nghề gì?" },
+          { "speaker": "Emma", "en": "My father is a pilot, and my mother is a journalist.", "vi": "Bố tôi là phi công, và mẹ tôi là nhà báo." }
+        ]
+      },
+      {
+        "title": "Career talk",
+        "lines": [
+          { "speaker": "Trang", "en": "What does a scientist do?", "vi": "Nhà khoa học làm gì?" },
+          { "speaker": "Emma", "en": "A scientist does research and studies new ideas.", "vi": "Nhà khoa học làm nghiên cứu và tìm hiểu những ý tưởng mới." },
+          { "speaker": "Trang", "en": "What does an accountant do?", "vi": "Kế toán làm gì?" },
+          { "speaker": "Emma", "en": "An accountant manages money and reports for companies.", "vi": "Kế toán quản lý tiền và báo cáo cho các công ty." },
+          { "speaker": "Trang", "en": "And what does a police officer do?", "vi": "Còn cảnh sát làm gì?" },
+          { "speaker": "Emma", "en": "A police officer keeps the city safe.", "vi": "Cảnh sát giữ an toàn cho thành phố." }
+        ]
+      }
+    ]
+  }
+]

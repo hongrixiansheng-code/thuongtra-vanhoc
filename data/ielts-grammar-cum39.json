@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 77,
+    "grammar": [
+      {
+        "title": "Mệnh đề quan hệ — \"who\" (chỉ người)",
+        "desc": "Dùng \"who\" để bổ sung thông tin về một người đã được nhắc đến trước đó, thay cho việc lặp lại đại từ.",
+        "formula": [
+          { "text": "Noun (person)", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "who + Verb...", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "The scientist who discovered this is famous.", "vi": "Nhà khoa học người đã phát hiện ra điều này rất nổi tiếng." },
+          { "en": "She is the athlete who won the gold medal.", "vi": "Cô ấy là vận động viên đã giành huy chương vàng." },
+          { "en": "I know a man who speaks five languages.", "vi": "Tôi biết một người đàn ông nói được năm ngôn ngữ." }
+        ],
+        "note": "\"who\" luôn đứng sau danh từ chỉ người và đóng vai trò chủ ngữ trong mệnh đề quan hệ.",
+        "practiceList": [
+          { "question": "The woman ___ lives next door is a doctor.", "correct": "who", "meaning": "Người phụ nữ sống cạnh nhà là bác sĩ.", "explanation": "\"who\" thay cho danh từ chỉ người \"the woman\"." },
+          { "question": "He is the inventor ___ created this product.", "correct": "who", "meaning": "Anh ấy là nhà phát minh đã tạo ra sản phẩm này.", "explanation": "\"who\" bổ sung thông tin về \"the inventor\"." },
+          { "question": "I have a friend ___ works as an engineer.", "correct": "who", "meaning": "Tôi có một người bạn làm kỹ sư.", "explanation": "\"who\" dùng cho danh từ chỉ người \"a friend\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "grammar": [
+      {
+        "title": "Mệnh đề quan hệ — \"which/that\" (vật), \"where/when\" (nơi/thời gian)",
+        "desc": "Dùng \"which/that\" cho vật, \"where\" cho địa điểm, \"when\" cho thời gian để bổ sung thông tin trong câu.",
+        "formula": [
+          { "text": "Noun (thing) + which/that + V", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "Noun (place) + where + S+V", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Noun (time) + when + S+V", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "This is the book which/that changed my life.", "vi": "Đây là cuốn sách đã thay đổi cuộc đời tôi." },
+          { "en": "That is the café where we first met.", "vi": "Đó là quán cà phê nơi chúng tôi gặp nhau lần đầu." },
+          { "en": "I remember the day when I graduated.", "vi": "Tôi nhớ ngày mà tôi tốt nghiệp." }
+        ],
+        "note": "\"that\" có thể thay cho \"which\" trong nhiều trường hợp. \"where\" theo sau là một câu đầy đủ chỉ địa điểm; \"when\" theo sau là một câu đầy đủ chỉ thời gian.",
+        "practiceList": [
+          { "question": "This is the city ___ I was born.", "correct": "where", "meaning": "Đây là thành phố mà tôi được sinh ra.", "explanation": "\"where\" dùng cho địa điểm." },
+          { "question": "The car ___ he bought is very expensive.", "correct": "which", "meaning": "Chiếc xe mà anh ấy mua rất đắt.", "explanation": "\"which\" dùng cho vật \"the car\"." },
+          { "question": "I will never forget the moment ___ we won the prize.", "correct": "when", "meaning": "Tôi sẽ không bao giờ quên khoảnh khắc chúng tôi giành được giải thưởng.", "explanation": "\"when\" dùng cho thời gian \"the moment\"." }
+        ]
+      }
+    ]
+  }
+]

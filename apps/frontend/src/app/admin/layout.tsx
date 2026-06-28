@@ -21,6 +21,7 @@ export default async function AdminLayout({ children }: { children: React.ReactN
     { name: "Chương trình học", href: "/admin/programs", icon: "GraduationCap" },
     { name: "Bài học", href: "/admin/lessons", icon: "BookOpen" },
     { name: "Quản lý Nội dung", href: "/admin/data", icon: "Database" },
+    { name: "Giao dịch", href: "/admin/payments", icon: "CreditCard" },
     { name: "Cài đặt", href: "/admin/settings", icon: "Settings" },
   ];
 

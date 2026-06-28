@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 20,
+      "vocab": [
+        { "word": "classical", "ipa": "/ˈklæs.ɪ.kəl/", "type": "adj.", "meaning": "cổ điển", "example_en": "She enjoys listening to classical music like Mozart.", "example_vi": "Cô ấy thích nghe nhạc cổ điển như nhạc của Mozart." },
+        { "word": "jazz", "ipa": "/dʒæz/", "type": "n.", "meaning": "nhạc jazz", "example_en": "There is a jazz festival in town this weekend.", "example_vi": "Có một lễ hội nhạc jazz trong thị trấn vào cuối tuần này." },
+        { "word": "hip hop", "ipa": "/ˈhɪp.hɒp/", "type": "n.", "meaning": "nhạc hip hop", "example_en": "Many teenagers love hip hop dancing.", "example_vi": "Nhiều thanh thiếu niên yêu thích điệu nhảy hip hop." },
+        { "word": "rap", "ipa": "/ræp/", "type": "n.", "meaning": "nhạc rap", "example_en": "He wants to be a famous rap singer.", "example_vi": "Anh ấy muốn trở thành một ca sĩ hát rap nổi tiếng." },
+        { "word": "album", "ipa": "/ˈæl.bəm/", "type": "n.", "meaning": "tập nhạc, quyển a-bum", "example_en": "The band has just released their new album.", "example_vi": "Ban nhạc vừa mới phát hành tập nhạc mới của họ." },
+        { "word": "band", "ipa": "/bænd/", "type": "n.", "meaning": "ban nhạc", "example_en": "My favourite band is playing a concert tonight.", "example_vi": "Ban nhạc yêu thích của tôi sẽ biểu diễn một buổi hòa nhạc vào tối nay." },
+        { "word": "musical", "ipa": "/ˈmjuː.zɪ.kəl/", "type": "n.", "meaning": "vở nhạc kịch", "example_en": "We went to London to see a musical.", "example_vi": "Chúng tôi đã đến Luân Đôn để xem một vở nhạc kịch." },
+        { "word": "opera", "ipa": "/ˈɒp.ər.ə/", "type": "n.", "meaning": "nhạc kịch ô-pê-ra", "example_en": "They bought expensive tickets for the opera.", "example_vi": "Họ đã mua những tấm vé đắt tiền cho buổi biểu diễn ô-pê-ra." },
+        { "word": "gallery", "ipa": "/ˈɡæl.ər.i/", "type": "n.", "meaning": "phòng trưng bày nghệ thuật", "example_en": "We visited an art gallery to see the new paintings.", "example_vi": "Chúng tôi đã đến thăm một phòng trưng bày nghệ thuật để xem các bức tranh mới." },
+        { "word": "exhibition", "ipa": "/ˌek.sɪˈbɪʃ.ən/", "type": "n.", "meaning": "buổi triển lãm", "example_en": "There is an exhibition of old photographs at the museum.", "example_vi": "Có một buổi triển lãm những bức ảnh cũ ở bảo tàng." }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "vocab": [
+        { "word": "comedy", "ipa": "/ˈkɒm.ə.di/", "type": "n.", "meaning": "phim hài, kịch hài", "example_en": "We watched a comedy and laughed a lot.", "example_vi": "Chúng tôi đã xem một bộ phim hài và cười rất nhiều." },
+        { "word": "horror", "ipa": "/ˈhɒr.ər/", "type": "n.", "meaning": "sự kinh dị", "example_en": "I don't like horror movies because they scare me.", "example_vi": "Tôi không thích những bộ phim kinh dị bởi vì chúng làm tôi sợ." },
+        { "word": "action", "ipa": "/ˈæk.ʃən/", "type": "n.", "meaning": "hành động", "example_en": "My brother loves watching action films.", "example_vi": "Anh trai tôi rất thích xem phim hành động." },
+        { "word": "character", "ipa": "/ˈkær.ək.tər/", "type": "n.", "meaning": "nhân vật", "example_en": "Who is your favourite character in the book?", "example_vi": "Nhân vật yêu thích của bạn trong cuốn sách là ai?" },
+        { "word": "review", "ipa": "/rɪˈvjuː/", "type": "n.", "meaning": "bài đánh giá", "example_en": "The film got very good reviews online.", "example_vi": "Bộ phim đã nhận được những lời đánh giá rất tốt ở trên mạng." },
+        { "word": "article", "ipa": "/ˈɑː.tɪ.kəl/", "type": "n.", "meaning": "bài báo", "example_en": "I read an interesting article about the new movie.", "example_vi": "Tôi đã đọc một bài báo thú vị về bộ phim mới." },
+        { "word": "performance", "ipa": "/pəˈfɔː.məns/", "type": "n.", "meaning": "màn trình diễn", "example_en": "The singer gave a fantastic performance on stage.", "example_vi": "Ca sĩ đã có một màn trình diễn tuyệt vời trên sân khấu." },
+        { "word": "event", "ipa": "/ɪˈvent/", "type": "n.", "meaning": "sự kiện", "example_en": "The music festival is a big event every summer.", "example_vi": "Lễ hội âm nhạc là một sự kiện lớn vào mỗi mùa hè." },
+        { "word": "programme", "ipa": "/ˈprəʊ.ɡræm/", "type": "n.", "meaning": "chương trình truyền hình", "example_en": "What time does your favourite TV programme start?", "example_vi": "Chương trình truyền hình yêu thích của bạn bắt đầu lúc mấy giờ?" },
+        { "word": "channel", "ipa": "/ˈtʃæn.əl/", "type": "n.", "meaning": "kênh truyền hình", "example_en": "Can you change the channel to the sports network?", "example_vi": "Bạn có thể chuyển kênh sang mạng lưới thể thao không?" }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "vocab": [
+        { "word": "nature", "ipa": "/ˈneɪ.tʃər/", "type": "n.", "meaning": "thiên nhiên", "example_en": "She loves taking photos of nature.", "example_vi": "Cô ấy thích chụp ảnh về thiên nhiên." },
+        { "word": "natural", "ipa": "/ˈnætʃ.ər.əl/", "type": "adj.", "meaning": "thuộc về tự nhiên", "example_en": "We should protect natural resources like water.", "example_vi": "Chúng ta nên bảo vệ các nguồn tài nguyên tự nhiên như nước." },
+        { "word": "environment", "ipa": "/ɪnˈvaɪ.rən.mənt/", "type": "n.", "meaning": "môi trường", "example_en": "Pollution is bad for the environment.", "example_vi": "Sự ô nhiễm thì rất tồi tệ cho môi trường." },
+        { "word": "rainforest", "ipa": "/ˈreɪn.fɒr.ɪst/", "type": "n.", "meaning": "rừng nhiệt đới", "example_en": "Many animals live in the Amazon rainforest.", "example_vi": "Rất nhiều động vật sinh sống ở trong khu rừng nhiệt đới Amazon." },
+        { "word": "coast", "ipa": "/kəʊst/", "type": "n.", "meaning": "bờ biển", "example_en": "They live in a small village on the east coast.", "example_vi": "Họ sống trong một ngôi làng nhỏ trên bờ biển phía đông." },
+        { "word": "harbour", "ipa": "/ˈhɑː.bər/", "type": "n.", "meaning": "bến cảng", "example_en": "We saw many beautiful boats in the harbour.", "example_vi": "Chúng tôi đã nhìn thấy rất nhiều chiếc thuyền đẹp ở trong bến cảng." },
+        { "word": "wildlife", "ipa": "/ˈwaɪld.laɪf/", "type": "n.", "meaning": "động vật hoang dã", "example_en": "The island is famous for its unique wildlife.", "example_vi": "Hòn đảo nổi tiếng vì hệ động vật hoang dã độc đáo của nó." },
+        { "word": "pollution", "ipa": "/pəˈluː.ʃən/", "type": "n.", "meaning": "sự ô nhiễm", "example_en": "Air pollution is a big problem in the city.", "example_vi": "Sự ô nhiễm không khí là một vấn đề lớn trong thành phố." },
+        { "word": "recycle", "ipa": "/ˌriːˈsaɪ.kəl/", "type": "v.", "meaning": "tái chế", "example_en": "We must recycle paper and plastic to save the planet.", "example_vi": "Chúng ta phải tái chế giấy và nhựa để cứu lấy hành tinh." },
+        { "word": "climate", "ipa": "/ˈklaɪ.mət/", "type": "n.", "meaning": "khí hậu", "example_en": "The climate in this country is very hot and dry.", "example_vi": "Khí hậu ở đất nước này thì rất nóng và khô." }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "vocab": [
+        { "word": "gallery", "ipa": "/ˈɡæl.ər.i/", "type": "n.", "meaning": "phòng trưng bày nghệ thuật", "example_en": "The national gallery has many famous paintings.", "example_vi": "Phòng trưng bày quốc gia có rất nhiều những bức tranh nổi tiếng." },
+        { "word": "stadium", "ipa": "/ˈsteɪ.di.əm/", "type": "n.", "meaning": "sân vận động", "example_en": "Thousands of fans went to the stadium to watch the match.", "example_vi": "Hàng ngàn người hâm mộ đã đổ về sân vận động để xem trận đấu." },
+        { "word": "castle", "ipa": "/ˈkɑː.səl/", "type": "n.", "meaning": "lâu đài", "example_en": "The old castle is on top of a hill.", "example_vi": "Tòa lâu đài cổ nằm trên đỉnh của một ngọn đồi." },
+        { "word": "harbour", "ipa": "/ˈhɑː.bər/", "type": "n.", "meaning": "bến cảng", "example_en": "The ships sailed slowly into the harbour.", "example_vi": "Những con tàu đã chầm chậm chèo vào trong bến cảng." },
+        { "word": "port", "ipa": "/pɔːt/", "type": "n.", "meaning": "hải cảng", "example_en": "Goods from all over the world arrive at this port.", "example_vi": "Hàng hóa từ khắp nơi trên thế giới cập bến tại hải cảng này." },
+        { "word": "factory", "ipa": "/ˈfæk.tər.i/", "type": "n.", "meaning": "nhà máy", "example_en": "He works in a car factory.", "example_vi": "Anh ấy làm việc trong một nhà máy sản xuất ô tô." },
+        { "word": "campsite", "ipa": "/ˈkæmp.saɪt/", "type": "n.", "meaning": "khu cắm trại", "example_en": "We put up our tent at the campsite.", "example_vi": "Chúng tôi đã dựng lều của mình ở khu cắm trại." },
+        { "word": "farm", "ipa": "/fɑːm/", "type": "n.", "meaning": "nông trại", "example_en": "They grow vegetables on their family farm.", "example_vi": "Họ trồng rau củ ở trên nông trại của gia đình họ." },
+        { "word": "coast", "ipa": "/kəʊst/", "type": "n.", "meaning": "bờ biển", "example_en": "We drove along the beautiful coast.", "example_vi": "Chúng tôi đã lái xe dọc theo bờ biển xinh đẹp." },
+        { "word": "cathedral", "ipa": "/kəˈθiː.drəl/", "type": "n.", "meaning": "nhà thờ lớn", "example_en": "The cathedral is the oldest building in the city.", "example_vi": "Nhà thờ lớn là công trình kiến trúc lâu đời nhất trong thành phố." }
+      ]
+    },
+    {
+      "orderIndex": 24,
+      "vocab": [
+        { "word": "immediately", "ipa": "/ɪˈmiː.di.ət.li/", "type": "adv.", "meaning": "ngay lập tức", "example_en": "You must call the doctor immediately.", "example_vi": "Bạn phải gọi cho bác sĩ ngay lập tức." },
+        { "word": "certainly", "ipa": "/ˈsɜː.tən.li/", "type": "adv.", "meaning": "chắc chắn", "example_en": "I will certainly help you with your project.", "example_vi": "Tôi chắc chắn sẽ giúp bạn hoàn thành dự án của bạn." },
+        { "word": "probably", "ipa": "/ˈprɒb.ə.bli/", "type": "adv.", "meaning": "có lẽ, có khả năng", "example_en": "It will probably rain later this afternoon.", "example_vi": "Có lẽ trời sẽ mưa vào chiều muộn hôm nay." },
+        { "word": "nearly", "ipa": "/ˈnɪə.li/", "type": "adv.", "meaning": "gần như, suýt nữa", "example_en": "It is nearly time to go home.", "example_vi": "Gần như đã đến giờ về nhà rồi." },
+        { "word": "already", "ipa": "/ɔːlˈred.i/", "type": "adv.", "meaning": "đã... rồi", "example_en": "Have you already finished your homework?", "example_vi": "Bạn đã làm xong bài tập về nhà của mình rồi à?" },
+        { "word": "yet", "ipa": "/jet/", "type": "adv.", "meaning": "chưa (dùng trong câu phủ định, nghi vấn)", "example_en": "I haven't eaten breakfast yet.", "example_vi": "Tôi vẫn chưa ăn sáng." },
+        { "word": "still", "ipa": "/stɪl/", "type": "adv.", "meaning": "vẫn", "example_en": "Are you still working on that report?", "example_vi": "Bạn vẫn đang làm bản báo cáo đó à?" },
+        { "word": "however", "ipa": "/ˌhaʊˈev.ər/", "type": "adv.", "meaning": "tuy nhiên", "example_en": "He studied hard; however, he failed the exam.", "example_vi": "Anh ấy đã học rất chăm chỉ; tuy nhiên, anh ấy vẫn trượt kỳ thi." },
+        { "word": "although", "ipa": "/ɔːlˈðəʊ/", "type": "conj.", "meaning": "mặc dù", "example_en": "Although it was raining, we went for a walk.", "example_vi": "Mặc dù trời đang mưa, chúng tôi vẫn đi dạo." },
+        { "word": "despite", "ipa": "/dɪˈspaɪt/", "type": "prep.", "meaning": "mặc dù, bất chấp", "example_en": "She went to school despite her illness.", "example_vi": "Cô ấy đã đi học bất chấp việc bị ốm." }
+      ]
+    }
+  ]
+}

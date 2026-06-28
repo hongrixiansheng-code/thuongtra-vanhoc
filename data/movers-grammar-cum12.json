@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 23,
+      "grammar": [
+        {
+          "title": "Quá khứ đơn (Có quy tắc): V + -ed",
+          "desc": "Dùng thì Quá khứ đơn để kể về những việc đã xảy ra và kết thúc trong quá khứ. Đa số các động từ chỉ cần thêm đuôi '-ed' (cook -> cooked).",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "cooked", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "dinner yesterday.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I called my friend yesterday.", "meaning": "Tớ đã gọi cho bạn của tớ vào hôm qua." },
+            { "correct": "He carried the heavy box.", "meaning": "Cậu ấy đã mang cái hộp nặng." },
+            { "correct": "She changed her clothes.", "meaning": "Cô ấy đã thay quần áo." }
+          ]
+        },
+        {
+          "title": "Câu phủ định: didn't + Động từ nguyên thể",
+          "desc": "Để nói 'đã không làm gì', dùng 'didn't' (viết tắt của did not) cộng với một động từ ở dạng giữ nguyên không chia.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "didn't", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "cook.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I didn't call my friend.", "meaning": "Tớ đã không gọi cho bạn tớ." },
+            { "correct": "We didn't play football yesterday.", "meaning": "Chúng tớ đã không chơi bóng đá vào hôm qua." },
+            { "correct": "The cat didn't jump.", "meaning": "Con mèo đã không nhảy." }
+          ]
+        },
+        {
+          "title": "Câu hỏi: Did you ...?",
+          "desc": "Để hỏi xem ai đó 'đã làm gì chưa', đặt 'Did' ở đầu câu và động từ giữ nguyên. Trả lời: Yes, I did / No, I didn't.",
+          "formula": [
+            { "text": "Did", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "cook?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Did you carry the bag?", "meaning": "Cậu đã mang chiếc cặp phải không?" },
+            { "correct": "Yes, I did.", "meaning": "Đúng, tớ đã mang." },
+            { "correct": "Did they drop the ball?", "meaning": "Họ đã làm rơi quả bóng phải không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Yesterday's dinner",
+          "lines": [
+            { "speaker": "A", "en": "Did you cook dinner yesterday?", "vi": "Hôm qua cậu đã nấu bữa tối phải không?" },
+            { "speaker": "B", "en": "No, I didn't cook. My mum cooked.", "vi": "Không, tớ đã không nấu. Mẹ tớ đã nấu." },
+            { "speaker": "A", "en": "Did you help her?", "vi": "Cậu có giúp cô ấy không?" },
+            { "speaker": "B", "en": "Yes, I did. I carried the vegetables.", "vi": "Có, tớ có giúp. Tớ đã mang rau củ." },
+            { "speaker": "A", "en": "That is very nice of you.", "vi": "Cậu thật là tốt bụng." },
+            { "speaker": "B", "en": "Thanks. We enjoyed the dinner very much.", "vi": "Cảm ơn. Chúng tớ đã rất thích bữa tối đó." }
+          ]
+        },
+        {
+          "title": "A dropped ice cream",
+          "lines": [
+            { "speaker": "A", "en": "Did you call me this morning?", "vi": "Cậu đã gọi cho tớ vào sáng nay phải không?" },
+            { "speaker": "B", "en": "Yes, I did. But you didn't answer.", "vi": "Đúng, tớ đã gọi. Nhưng cậu đã không trả lời." },
+            { "speaker": "A", "en": "I was at the park. I dropped my ice cream.", "vi": "Tớ đã ở công viên. Tớ đã làm rơi cây kem của tớ." },
+            { "speaker": "B", "en": "Oh no! Did you cry?", "vi": "Ôi không! Cậu có khóc không?" },
+            { "speaker": "A", "en": "No, I didn't. I just washed my hands.", "vi": "Không, tớ đã không khóc. Tớ chỉ rửa tay của mình thôi." },
+            { "speaker": "B", "en": "I can buy you another ice cream.", "vi": "Tớ có thể mua cho cậu một cây kem khác." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 24,
+      "grammar": [
+        {
+          "title": "Quá khứ đơn (Bất quy tắc Nhóm 1)",
+          "desc": "Một số động từ khi chuyển sang Quá khứ sẽ biến đổi hoàn toàn thành từ mới. Ví dụ: get -> got, go -> went, grow -> grew, hide -> hid, lose -> lost, send -> sent.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "went", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "shopping.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I got up late today.", "meaning": "Hôm nay tớ đã thức dậy muộn." },
+            { "correct": "She lost her key.", "meaning": "Cô ấy đã đánh mất chìa khóa của mình." },
+            { "correct": "He sent me a letter.", "meaning": "Cậu ấy đã gửi cho tớ một bức thư." }
+          ]
+        },
+        {
+          "title": "Bắt buộc: have (got) to + Động từ",
+          "desc": "Cấu trúc 'have to' hoặc 'have got to' mang nghĩa là 'phải làm gì đó', giống hệt như 'must'.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "have to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "go now.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have to do my homework.", "meaning": "Tớ phải làm bài tập về nhà của tớ." },
+            { "correct": "She has got to clean her room.", "meaning": "Cô ấy phải dọn dẹp phòng của mình." },
+            { "correct": "We have to sleep early.", "meaning": "Chúng ta phải ngủ sớm." }
+          ]
+        },
+        {
+          "title": "Ôn tập: didn't / Did...? với động từ bất quy tắc",
+          "desc": "Với câu phủ định và câu hỏi, bạn vẫn dùng 'didn't' và 'Did', và nhớ trả động từ về DẠNG NGUYÊN THỂ (ví dụ: didn't go, không phải didn't went).",
+          "formula": [
+            { "text": "I didn't", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "go", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "shopping.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "I didn't lose my toy.", "meaning": "Tớ đã không đánh mất đồ chơi của tớ." },
+            { "correct": "Did you go to school?", "meaning": "Cậu đã đi học phải không?" },
+            { "correct": "She didn't send the email.", "meaning": "Cô ấy đã không gửi bức thư điện tử đó." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Lost and found",
+          "lines": [
+            { "speaker": "A", "en": "Did you lose your book?", "vi": "Cậu đã đánh mất quyển sách của cậu phải không?" },
+            { "speaker": "B", "en": "Yes, I lost it yesterday.", "vi": "Đúng, tớ đã đánh mất nó vào ngày hôm qua." },
+            { "speaker": "A", "en": "Did you go to the library to find it?", "vi": "Cậu đã đi đến thư viện để tìm nó chưa?" },
+            { "speaker": "B", "en": "I went there, but I didn't see it.", "vi": "Tớ đã đến đó, nhưng tớ đã không nhìn thấy nó." },
+            { "speaker": "A", "en": "You have to tell the teacher.", "vi": "Cậu phải nói với giáo viên thôi." },
+            { "speaker": "B", "en": "I know. I will tell her now.", "vi": "Tớ biết rồi. Tớ sẽ nói với cô ấy ngay bây giờ." }
+          ]
+        },
+        {
+          "title": "A busy morning",
+          "lines": [
+            { "speaker": "A", "en": "What time did you get up today?", "vi": "Hôm nay cậu đã thức dậy lúc mấy giờ?" },
+            { "speaker": "B", "en": "I got up very early. I had to feed my dog.", "vi": "Tớ đã thức dậy rất sớm. Tớ phải cho chú chó của tớ ăn." },
+            { "speaker": "A", "en": "Did you go shopping with your mum?", "vi": "Cậu có đi mua sắm cùng mẹ của cậu không?" },
+            { "speaker": "B", "en": "No, I didn't go shopping. I went to the park.", "vi": "Không, tớ đã không đi mua sắm. Tớ đã đi đến công viên." },
+            { "speaker": "A", "en": "Did your dog grow bigger?", "vi": "Con chó của cậu đã lớn hơn chưa?" },
+            { "speaker": "B", "en": "Yes, he grew a lot!", "vi": "Rồi, nó đã lớn lên rất nhiều!" }
+          ]
+        }
+      ]
+    }
+  ]
+}

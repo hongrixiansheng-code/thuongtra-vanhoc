@@ -1,0 +1,145 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 32,
+      "grammar": [
+        {
+          "title": "remember / forget + to V (việc cần làm)",
+          "desc": "Dùng 'remember to' (nhớ phải làm gì) hoặc 'forget to' (quên làm gì) với một động từ nguyên thể để nhắc nhở về một việc BẮT BUỘC cần làm ở hiện tại/tương lai.",
+          "formula": [
+            { "text": "Remember", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "to bring", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "your book.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Remember to lock the door.", "meaning": "Hãy nhớ phải khóa cửa nhé." },
+            { "correct": "I forgot to bring my dictionary.", "meaning": "Tớ đã quên mang theo từ điển của tớ rồi." },
+            { "correct": "Don't forget to wash your hands.", "meaning": "Đừng quên phải rửa tay của bạn nhé." }
+          ]
+        },
+        {
+          "title": "remember / forget + V-ing (việc đã làm)",
+          "desc": "Dùng 'remember + V-ing' (nhớ là đã làm gì) hoặc 'forget + V-ing' (quên mất là mình đã làm gì) để nói về một ký ức TRONG QUÁ KHỨ.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "remember", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "seeing him.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I remember visiting this museum.", "meaning": "Tớ nhớ là tớ đã từng đến thăm viện bảo tàng này." },
+            { "correct": "She forgot leaving her bag here.", "meaning": "Cô ấy quên mất là mình đã để quên cái túi ở đây." },
+            { "correct": "Do you remember meeting her?", "meaning": "Cậu có nhớ là đã từng gặp cô ấy không?" }
+          ]
+        },
+        {
+          "title": "hope / decide / agree + to V (Ôn tập)",
+          "desc": "Theo sau các động từ như hope (hy vọng), decide (quyết định), agree (đồng ý) luôn luôn là 'to + động từ nguyên thể'.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "hope", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "to pass the exam.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "We decided to go to the park.", "meaning": "Chúng tôi đã quyết định đi đến công viên." },
+            { "correct": "He agreed to help me.", "meaning": "Cậu ấy đã đồng ý giúp tôi." },
+            { "correct": "I hope to see you soon.", "meaning": "Tôi hy vọng sẽ gặp bạn sớm." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Packing for a trip",
+          "lines": [
+            { "speaker": "A", "en": "We are going on a trip tomorrow.", "vi": "Ngày mai chúng ta sẽ đi du lịch." },
+            { "speaker": "B", "en": "Remember to pack your warm clothes.", "vi": "Hãy nhớ phải xếp quần áo ấm của cậu vào nhé." },
+            { "speaker": "A", "en": "I will. I decided to take my blue jacket.", "vi": "Tớ sẽ làm vậy. Tớ đã quyết định mang theo chiếc áo khoác màu xanh dương." },
+            { "speaker": "B", "en": "Don't forget to bring your camera.", "vi": "Đừng quên phải mang theo máy ảnh của cậu đấy." },
+            { "speaker": "A", "en": "I won't. I remember taking lots of beautiful photos last year.", "vi": "Tớ sẽ không quên đâu. Tớ nhớ là năm ngoái tớ đã chụp rất nhiều bức ảnh đẹp." },
+            { "speaker": "B", "en": "I hope to see them soon.", "vi": "Tớ hy vọng sẽ sớm được xem chúng." }
+          ]
+        },
+        {
+          "title": "Meeting an old friend",
+          "lines": [
+            { "speaker": "A", "en": "Do you remember meeting that boy?", "vi": "Cậu có nhớ là đã từng gặp cậu bé kia không?" },
+            { "speaker": "B", "en": "Yes, I remember playing football with him.", "vi": "Có, tớ nhớ là tớ đã từng chơi bóng đá với cậu ấy." },
+            { "speaker": "A", "en": "He forgot to bring his ball today.", "vi": "Hôm nay cậu ấy đã quên mang theo bóng của cậu ấy rồi." },
+            { "speaker": "B", "en": "It's okay. We agreed to share our ball.", "vi": "Không sao đâu. Chúng ta đã đồng ý chia sẻ bóng của mình mà." },
+            { "speaker": "A", "en": "Should we say hello to him?", "vi": "Chúng ta có nên đến chào cậu ấy không?" },
+            { "speaker": "B", "en": "Yes, remember to ask him to join us.", "vi": "Có chứ, hãy nhớ mời cậu ấy tham gia cùng chúng ta nhé." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 33,
+      "grammar": [
+        {
+          "title": "look after / look like / make sure",
+          "desc": "Học thuộc các cụm từ này: look after (chăm sóc), look like (trông giống như), make sure (đảm bảo chắc chắn điều gì).",
+          "formula": [
+            { "text": "Please", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "look after", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "my pet.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have to look after my little sister.", "meaning": "Tớ phải chăm sóc em gái nhỏ của tớ." },
+            { "correct": "He looks like his father.", "meaning": "Trông cậu ấy giống hệt bố của cậu ấy." },
+            { "correct": "Make sure you lock the door.", "meaning": "Hãy đảm bảo là bạn khóa cửa nhé." }
+          ]
+        },
+        {
+          "title": "Cụm động từ: turn on/off, look for, pull/push",
+          "desc": "Các cụm động từ hành động: turn on (bật), turn off (tắt), look for (tìm kiếm), pull (kéo), push (đẩy).",
+          "formula": [
+            { "text": "Turn off", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the light.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Please turn off the TV.", "meaning": "Làm ơn hãy tắt TV đi." },
+            { "correct": "I am looking for my keys.", "meaning": "Tôi đang tìm kiếm chiếc chìa khóa của tôi." },
+            { "correct": "Push the door to open it.", "meaning": "Hãy đẩy cánh cửa để mở nó ra." }
+          ]
+        },
+        {
+          "title": "Mệnh đề if kết hợp prefer / mind (Ôn tập)",
+          "desc": "Bạn có thể kết hợp 'If' với 'prefer' (thích hơn) hoặc 'mind' (phiền) để đưa ra các lựa chọn hay lời đề nghị lịch sự.",
+          "formula": [
+            { "text": "If", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "you prefer,", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "we can walk.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "If you prefer, we will eat outside.", "meaning": "Nếu bạn thích, chúng ta sẽ ăn ở ngoài." },
+            { "correct": "I don't mind if you sit here.", "meaning": "Tôi không phiền nếu bạn ngồi ở đây." },
+            { "correct": "If you don't mind, please wait a minute.", "meaning": "Nếu bạn không phiền, xin hãy đợi một chút." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Looking after a pet",
+          "lines": [
+            { "speaker": "A", "en": "Can you look after my dog today?", "vi": "Cậu có thể chăm sóc con chó của tớ vào hôm nay không?" },
+            { "speaker": "B", "en": "Sure. He looks like a little bear.", "vi": "Chắc chắn rồi. Trông nó giống như một chú gấu nhỏ vậy." },
+            { "speaker": "A", "en": "Make sure you feed him at noon.", "vi": "Hãy đảm bảo là cậu cho nó ăn vào buổi trưa nhé." },
+            { "speaker": "B", "en": "If you prefer, I will take him to the park.", "vi": "Nếu cậu thích, tớ sẽ đưa nó ra công viên." },
+            { "speaker": "A", "en": "That's great. He likes running.", "vi": "Tuyệt quá. Nó rất thích chạy." },
+            { "speaker": "B", "en": "I will look for his favourite ball.", "vi": "Tớ sẽ đi tìm quả bóng yêu thích của nó." }
+          ]
+        },
+        {
+          "title": "A dark room",
+          "lines": [
+            { "speaker": "A", "en": "It is very dark in here.", "vi": "Ở trong này tối quá." },
+            { "speaker": "B", "en": "Please turn on the light.", "vi": "Làm ơn hãy bật đèn lên." },
+            { "speaker": "A", "en": "I can't open the door. I am pulling it.", "vi": "Tớ không thể mở được cánh cửa. Tớ đang kéo nó đây." },
+            { "speaker": "B", "en": "You must push it, not pull it.", "vi": "Cậu phải đẩy nó, chứ không phải kéo." },
+            { "speaker": "A", "en": "Oh, I see. Turn off the TV before we leave.", "vi": "Ồ, tớ hiểu rồi. Hãy tắt TV trước khi chúng ta rời đi nhé." },
+            { "speaker": "B", "en": "If you don't mind, let me stay here.", "vi": "Nếu cậu không phiền, hãy để tớ ở lại đây." }
+          ]
+        }
+      ]
+    }
+  ]
+}

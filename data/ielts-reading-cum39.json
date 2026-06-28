@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 77,
+    "reading": [
+      {
+        "title": "Reading: Notable people",
+        "passage": "She is the woman who won a major award last year. I know a runner who has competed in many countries. He is an engineer who works for a big company. I have a friend who works at that company too.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The woman won an award last year.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"She is the woman who won a major award last year.\"" },
+          { "type": "multiple_choice", "question": "What does the engineer do?", "options": ["Runs marathons", "Works for a big company", "Teaches students"], "correct": "Works for a big company", "explanation": "\"He is an engineer who works for a big company.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "reading": [
+      {
+        "title": "Reading: A special place",
+        "passage": "This is the café where we first met. I remember the day when we started this project. That is the building which was designed by a famous architect. I will never forget the moment when we won the prize.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer met someone at a café.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"This is the café where we first met.\"" },
+          { "type": "multiple_choice", "question": "Who designed the building?", "options": ["The writer", "A famous architect", "An engineer"], "correct": "A famous architect", "explanation": "\"That is the building which was designed by a famous architect.\"" }
+        ]
+      }
+    ]
+  }
+]

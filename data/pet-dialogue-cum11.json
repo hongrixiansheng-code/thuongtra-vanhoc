@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 20,
+      "dialogues": [
+        {
+          "title": "Discussing recent events",
+          "lines": [
+            {
+              "speaker": "Leo",
+              "en": "I have been trying to call you all morning, but your phone was switched off. What were you doing when I tried to contact you?",
+              "vi": "Tôi đã cố gắng gọi cho bạn cả buổi sáng, nhưng điện thoại của bạn đã bị tắt. Bạn đang làm gì khi tôi cố gắng liên lạc với bạn?"
+            },
+            {
+              "speaker": "Grace",
+              "en": "I was attending a long seminar which started at eight o'clock. By the time it finished, my phone had already run out of battery.",
+              "vi": "Tôi đang tham dự một buổi hội thảo kéo dài cái mà bắt đầu lúc tám giờ. Vào thời điểm nó kết thúc, điện thoại của tôi đã hết pin."
+            },
+            {
+              "speaker": "Leo",
+              "en": "Have you heard the news about the new manager who was hired yesterday? He has already introduced several changes to our daily schedule.",
+              "vi": "Bạn đã nghe tin tức về người quản lý mới người đã được thuê hôm qua chưa? Ông ấy đã giới thiệu một số thay đổi đối với lịch trình hàng ngày của chúng ta."
+            },
+            {
+              "speaker": "Grace",
+              "en": "I haven't met him yet, but my colleagues were talking about him during the break. They said that he is very strict and professional.",
+              "vi": "Tôi vẫn chưa gặp ông ấy, nhưng các đồng nghiệp của tôi đang nói về ông ấy trong giờ nghỉ. Họ nói rằng ông ấy rất nghiêm khắc và chuyên nghiệp."
+            },
+            {
+              "speaker": "Leo",
+              "en": "He had worked in Germany for five years before he moved to our company. He will probably expect us to work much harder now.",
+              "vi": "Ông ấy đã làm việc ở Đức trong năm năm trước khi ông ấy chuyển đến công ty chúng ta. Có lẽ bây giờ ông ấy sẽ mong đợi chúng ta làm việc chăm chỉ hơn nhiều."
+            },
+            {
+              "speaker": "Grace",
+              "en": "I am currently working on a big project, which takes up all my time. I will be sending the final report to him by Friday.",
+              "vi": "Tôi hiện đang làm việc cho một dự án lớn, cái mà chiếm toàn bộ thời gian của tôi. Tôi sẽ gửi bản báo cáo cuối cùng cho ông ấy trước thứ Sáu."
+            },
+            {
+              "speaker": "Leo",
+              "en": "We are having a team meeting tomorrow afternoon where he will present his plans. You should definitely attend it if you want to know his expectations.",
+              "vi": "Chúng ta sẽ có một cuộc họp nhóm vào chiều mai nơi ông ấy sẽ trình bày các kế hoạch của mình. Bạn chắc chắn nên tham dự nếu bạn muốn biết những kỳ vọng của ông ấy."
+            },
+            {
+              "speaker": "Grace",
+              "en": "I will make sure to be there because I want to make a good impression. Hopefully, the changes which he makes will benefit everyone.",
+              "vi": "Tôi sẽ đảm bảo có mặt ở đó vì tôi muốn tạo ấn tượng tốt. Hy vọng rằng, những thay đổi mà ông ấy thực hiện sẽ mang lại lợi ích cho mọi người."
+            }
+          ]
+        },
+        {
+          "title": "Catching up with an old friend",
+          "lines": [
+            {
+              "speaker": "Sam",
+              "en": "I haven't seen you since we graduated from university five years ago! What have you been doing lately in this big city?",
+              "vi": "Tôi đã không gặp bạn kể từ khi chúng ta tốt nghiệp đại học năm năm trước! Gần đây bạn đang làm gì ở thành phố lớn này?"
+            },
+            {
+              "speaker": "Lily",
+              "en": "I have been working as a graphic designer for a marketing agency. I moved here last year because I wanted to find better opportunities.",
+              "vi": "Tôi đang làm thiết kế đồ họa cho một công ty tiếp thị. Tôi đã chuyển đến đây vào năm ngoái vì tôi muốn tìm kiếm những cơ hội tốt hơn."
+            },
+            {
+              "speaker": "Sam",
+              "en": "That is amazing, and I am currently running my own small business. I started it after I had quit my boring office job.",
+              "vi": "Điều đó thật tuyệt vời, và tôi hiện đang điều hành doanh nghiệp nhỏ của riêng mình. Tôi đã bắt đầu nó sau khi tôi từ bỏ công việc văn phòng nhàm chán của mình."
+            },
+            {
+              "speaker": "Lily",
+              "en": "You were always very creative, so I am not surprised at all. Has your business been growing well over the past few months?",
+              "vi": "Bạn đã luôn rất sáng tạo, vì vậy tôi hoàn toàn không ngạc nhiên. Doanh nghiệp của bạn có đang phát triển tốt trong vài tháng qua không?"
+            },
+            {
+              "speaker": "Sam",
+              "en": "Yes, we have opened two new shops, which are doing quite well. By the end of this year, we will have expanded to another city.",
+              "vi": "Có, chúng tôi đã mở hai cửa hàng mới, những nơi đang làm ăn khá tốt. Vào cuối năm nay, chúng tôi sẽ mở rộng sang một thành phố khác."
+            },
+            {
+              "speaker": "Lily",
+              "en": "I am so happy for you, and we should definitely stay in touch. Let's exchange numbers so that we can meet up again soon.",
+              "vi": "Tôi rất mừng cho bạn, và chúng ta chắc chắn nên giữ liên lạc. Hãy trao đổi số điện thoại để chúng ta có thể gặp lại nhau sớm."
+            },
+            {
+              "speaker": "Sam",
+              "en": "I will text you my new address, which is near the central park. We can have dinner together when you have some free time.",
+              "vi": "Tôi sẽ nhắn tin cho bạn địa chỉ mới của tôi, cái mà nằm gần công viên trung tâm. Chúng ta có thể ăn tối cùng nhau khi bạn có chút thời gian rảnh."
+            },
+            {
+              "speaker": "Lily",
+              "en": "I would love that, and I will call you next weekend. It was so wonderful to see you after such a long time.",
+              "vi": "Tôi rất thích điều đó, và tôi sẽ gọi cho bạn vào cuối tuần tới. Thật tuyệt vời khi được gặp bạn sau một thời gian dài như vậy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "dialogues": [
+        {
+          "title": "Discussing hypothetical situations",
+          "lines": [
+            {
+              "speaker": "Max",
+              "en": "If I win the lottery this weekend, I will buy a huge house near the beach. What would you do if you had a million dollars?",
+              "vi": "Nếu tôi trúng xổ số cuối tuần này, tôi sẽ mua một ngôi nhà khổng lồ gần bãi biển. Bạn sẽ làm gì nếu bạn có một triệu đô la?"
+            },
+            {
+              "speaker": "Chloe",
+              "en": "If I had that much money, I would travel around the world for a year. I would visit countries which I have never seen before.",
+              "vi": "Nếu tôi có ngần ấy tiền, tôi sẽ đi du lịch vòng quanh thế giới trong một năm. Tôi sẽ đến thăm những quốc gia mà tôi chưa từng thấy trước đây."
+            },
+            {
+              "speaker": "Max",
+              "en": "That sounds like a great dream, but we won't win unless we buy a ticket. If you don't take risks, you will never achieve anything extraordinary.",
+              "vi": "Điều đó nghe có vẻ là một giấc mơ tuyệt vời, nhưng chúng ta sẽ không trúng trừ khi chúng ta mua một tấm vé. Nếu bạn không chấp nhận rủi ro, bạn sẽ không bao giờ đạt được điều gì phi thường."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "If I had known the winning numbers yesterday, I would be rich right now. Unfortunately, predicting the future is something which is impossible.",
+              "vi": "Nếu tôi biết những con số trúng thưởng ngày hôm qua, tôi đã giàu có ngay bây giờ rồi. Thật không may, dự đoán tương lai là một việc cái mà bất khả thi."
+            },
+            {
+              "speaker": "Max",
+              "en": "If I were the president, I would spend more money on education and healthcare. Society would be much better if everyone had equal opportunities.",
+              "vi": "Nếu tôi là tổng thống, tôi sẽ chi nhiều tiền hơn cho giáo dục và chăm sóc sức khỏe. Xã hội sẽ tốt hơn nhiều nếu mọi người đều có cơ hội bình đẳng."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "If people cared more about the environment, the planet wouldn't be suffering from climate change. We must act now if we want to save our home.",
+              "vi": "Nếu mọi người quan tâm nhiều hơn đến môi trường, hành tinh sẽ không phải chịu đựng biến đổi khí hậu. Chúng ta phải hành động ngay bây giờ nếu chúng ta muốn cứu lấy ngôi nhà của mình."
+            },
+            {
+              "speaker": "Max",
+              "en": "I completely agree with you, and I will start recycling if my town provides the bins. Every small action matters when we face global challenges.",
+              "vi": "Tôi hoàn toàn đồng ý với bạn, và tôi sẽ bắt đầu tái chế nếu thị trấn của tôi cung cấp các thùng rác. Mỗi hành động nhỏ đều quan trọng khi chúng ta đối mặt với những thách thức toàn cầu."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "If we all work together, we can make a huge difference. Let's hope that more people will realize this before it is too late.",
+              "vi": "Nếu tất cả chúng ta cùng làm việc, chúng ta có thể tạo ra một sự khác biệt lớn. Hãy hy vọng rằng nhiều người hơn sẽ nhận ra điều này trước khi quá muộn."
+            }
+          ]
+        },
+        {
+          "title": "Planning for the weekend",
+          "lines": [
+            {
+              "speaker": "Ryan",
+              "en": "If it doesn't rain tomorrow, we will go hiking in the mountains. However, if the weather is bad, we will stay at home and watch movies.",
+              "vi": "Nếu ngày mai trời không mưa, chúng ta sẽ đi bộ đường dài trên núi. Tuy nhiên, nếu thời tiết xấu, chúng ta sẽ ở nhà và xem phim."
+            },
+            {
+              "speaker": "Mia",
+              "en": "If you had checked the forecast earlier, we could have planned something else indoors. The weatherman said that heavy storms are approaching our area.",
+              "vi": "Nếu bạn kiểm tra dự báo thời tiết sớm hơn, chúng ta đã có thể lên kế hoạch cho thứ gì đó khác ở trong nhà. Người dẫn chương trình thời tiết nói rằng những cơn bão lớn đang đến gần khu vực của chúng ta."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If we stay inside, I will bake the chocolate cake which you like so much. It is a perfect treat for a cold and rainy day.",
+              "vi": "Nếu chúng ta ở trong nhà, tôi sẽ nướng chiếc bánh sôcôla cái mà bạn rất thích. Nó là một món ngon hoàn hảo cho một ngày lạnh và mưa."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I would be very happy if you did that! If I had bought some strawberries, we could have used them for the cake decoration.",
+              "vi": "Tôi sẽ rất vui nếu bạn làm vậy! Nếu tôi mua một ít dâu tây, chúng ta đã có thể sử dụng chúng để trang trí bánh."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If the supermarket is still open, I will drive there quickly and buy some. I wouldn't mind going out if the rain hasn't started yet.",
+              "vi": "Nếu siêu thị vẫn còn mở cửa, tôi sẽ lái xe đến đó nhanh chóng và mua một ít. Tôi sẽ không ngại ra ngoài nếu trời vẫn chưa bắt đầu mưa."
+            },
+            {
+              "speaker": "Mia",
+              "en": "Unless you hurry, the shop will close before you arrive. If you go now, you will definitely make it on time.",
+              "vi": "Trừ khi bạn nhanh lên, cửa hàng sẽ đóng cửa trước khi bạn đến. Nếu bạn đi ngay bây giờ, bạn chắc chắn sẽ đến kịp lúc."
+            },
+            {
+              "speaker": "Ryan",
+              "en": "If I am late, I will just buy some vanilla ice cream from the local convenience store. It also tastes great with hot chocolate cake.",
+              "vi": "Nếu tôi bị trễ, tôi sẽ chỉ mua một ít kem vani từ cửa hàng tiện lợi địa phương. Nó cũng rất ngon khi ăn cùng bánh sôcôla nóng."
+            },
+            {
+              "speaker": "Mia",
+              "en": "That is a fantastic alternative, so don't drive too fast on the slippery roads. Call me if you need anything else from the shop.",
+              "vi": "Đó là một sự thay thế tuyệt vời, vì vậy đừng lái xe quá nhanh trên những con đường trơn trượt. Hãy gọi cho tôi nếu bạn cần bất cứ thứ gì khác từ cửa hàng."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

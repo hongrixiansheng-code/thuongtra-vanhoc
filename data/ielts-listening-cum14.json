@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 27,
+    "listening": [
+      {
+        "title": "Listening: Hobbies survey",
+        "transcript": "I usually read books and listen to music in my free time. I love to travel, and I also like to play games.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the speaker love to do?", "options": ["Cook", "Travel", "Drive"], "correct": "Travel", "explanation": "\"I love to travel\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "listening": [
+      {
+        "title": "Listening: Review — A teacher's day",
+        "transcript": "I always wake up at six in the morning. I am a teacher, and I teach English in the afternoon. I rarely watch TV at night.",
+        "questions": [
+          { "type": "form_completion", "question": "Wake-up time: ___ in the morning", "options": ["five", "six", "seven"], "correct": "six", "explanation": "\"I always wake up at six in the morning.\"" }
+        ]
+      }
+    ]
+  }
+]

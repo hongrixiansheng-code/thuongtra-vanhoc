@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 57,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Health advice",
+        "part": 1,
+        "questions": ["What should people do to stay healthy?", "What shouldn't people eat too much of?", "Should you see a doctor often?"],
+        "sampleAnswer": "People should exercise and drink enough water. They shouldn't eat too much sugar or fast food. Yes, you should see a doctor for regular check-ups."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 58,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: School and work obligations",
+        "part": 1,
+        "questions": ["Do you have to wear a uniform?", "Do you have to work on weekends?", "What do you have to do every morning?"],
+        "sampleAnswer": "No, I don't have to wear a uniform. I don't have to work on weekends either. I have to check my emails every morning."
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 67,
+    "vocab": [
+      {
+        "word": "open",
+        "ipa": "/ˈəʊ.pən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mở",
+        "example_en": "The door was opened.",
+        "example_vi": "Cửa đã được mở.",
+        "level": "A2"
+      },
+      {
+        "word": "close",
+        "ipa": "/kləʊz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đóng",
+        "example_en": "The shop is closed.",
+        "example_vi": "Cửa hàng đã đóng cửa.",
+        "level": "A2"
+      },
+      {
+        "word": "break",
+        "ipa": "/breɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "làm vỡ",
+        "example_en": "The glass was broken.",
+        "example_vi": "Cái ly đã bị vỡ.",
+        "level": "A2"
+      },
+      {
+        "word": "fix",
+        "ipa": "/fɪks/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sửa chữa",
+        "example_en": "The car is fixed.",
+        "example_vi": "Chiếc xe đã được sửa.",
+        "level": "A2"
+      },
+      {
+        "word": "build",
+        "ipa": "/bɪld/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xây dựng",
+        "example_en": "The house was built.",
+        "example_vi": "Ngôi nhà đã được xây.",
+        "level": "A2"
+      },
+      {
+        "word": "destroy",
+        "ipa": "/dɪˈstrɔɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phá hủy",
+        "example_en": "The building was destroyed.",
+        "example_vi": "Tòa nhà đã bị phá hủy.",
+        "level": "A2"
+      },
+      {
+        "word": "create",
+        "ipa": "/kriˈeɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tạo ra",
+        "example_en": "The art was created.",
+        "example_vi": "Tác phẩm nghệ thuật đã được tạo ra.",
+        "level": "A2"
+      },
+      {
+        "word": "make",
+        "ipa": "/meɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "làm, chế tạo",
+        "example_en": "The cake was made.",
+        "example_vi": "Chiếc bánh đã được làm.",
+        "level": "A2"
+      },
+      {
+        "word": "finish",
+        "ipa": "/ˈfɪn.ɪʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hoàn thành",
+        "example_en": "The job is finished.",
+        "example_vi": "Công việc đã được hoàn thành.",
+        "level": "A2"
+      },
+      {
+        "word": "complete",
+        "ipa": "/kəmˈpliːt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hoàn tất",
+        "example_en": "The task is completed.",
+        "example_vi": "Nhiệm vụ đã hoàn tất.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "vocab": [
+      {
+        "word": "for",
+        "ipa": "/fɔːr/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "trong (khoảng thời gian)",
+        "example_en": "For two years.",
+        "example_vi": "Trong vòng hai năm.",
+        "level": "A2"
+      },
+      {
+        "word": "since",
+        "ipa": "/sɪns/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "từ khi",
+        "example_en": "Since yesterday.",
+        "example_vi": "Từ hôm qua.",
+        "level": "A2"
+      },
+      {
+        "word": "during",
+        "ipa": "/ˈdʒʊə.rɪŋ/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "trong suốt (quá trình)",
+        "example_en": "During the game.",
+        "example_vi": "Trong suốt trận đấu.",
+        "level": "A2"
+      },
+      {
+        "word": "while",
+        "ipa": "/waɪl/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "trong khi",
+        "example_en": "While I was sleeping.",
+        "example_vi": "Trong khi tôi đang ngủ.",
+        "level": "A2"
+      },
+      {
+        "word": "from",
+        "ipa": "/frɒm/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "từ",
+        "example_en": "From morning to night.",
+        "example_vi": "Từ sáng đến tối.",
+        "level": "A2"
+      },
+      {
+        "word": "to",
+        "ipa": "/tuː/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "đến",
+        "example_en": "From here to there.",
+        "example_vi": "Từ đây đến đó.",
+        "level": "A2"
+      },
+      {
+        "word": "until",
+        "ipa": "/ʌnˈtɪl/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "cho đến khi",
+        "example_en": "Wait until tomorrow.",
+        "example_vi": "Đợi cho đến ngày mai.",
+        "level": "A2"
+      },
+      {
+        "word": "by",
+        "ipa": "/baɪ/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "trước (thời điểm)",
+        "example_en": "Finish by tomorrow.",
+        "example_vi": "Hoàn thành trước ngày mai.",
+        "level": "A2"
+      },
+      {
+        "word": "within",
+        "ipa": "/wɪˈðɪn/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "trong vòng",
+        "example_en": "Within an hour.",
+        "example_vi": "Trong vòng một giờ.",
+        "level": "A2"
+      },
+      {
+        "word": "throughout",
+        "ipa": "/θruːˈaʊt/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "xuyên suốt",
+        "example_en": "Throughout the year.",
+        "example_vi": "Xuyên suốt năm.",
+        "level": "A2"
+      }
+    ]
+  }
+]

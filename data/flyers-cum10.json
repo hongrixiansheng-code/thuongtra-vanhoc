@@ -1,0 +1,286 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 21,
+      "title": "Bài 12.a: Phương tiện (1/2)",
+      "theme": "Sở thích, giải trí & phương tiện",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "ambulance",
+          "ipa": "/ˈæmbjələns/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xe cứu thương",
+          "example_en": "The ambulance goes to the hospital.",
+          "example_vi": "Xe cứu thương đi đến bệnh viện."
+        },
+        {
+          "word": "bicycle",
+          "ipa": "/ˈbaɪsɪkl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xe đạp",
+          "example_en": "I ride my bicycle to school.",
+          "example_vi": "Tôi đạp xe đạp đến trường."
+        },
+        {
+          "word": "fire engine",
+          "ipa": "/ˈfaɪər ˌendʒɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xe cứu hỏa",
+          "example_en": "The red fire engine is loud.",
+          "example_vi": "Chiếc xe cứu hỏa màu đỏ kêu rất to."
+        },
+        {
+          "word": "journey",
+          "ipa": "/ˈdʒɜːrni/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hành trình, chuyến đi",
+          "example_en": "It is a long journey to the mountains.",
+          "example_vi": "Đó là một hành trình dài đến vùng núi."
+        },
+        {
+          "word": "lift",
+          "ipa": "/lɪft/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thang máy (Anh Anh), sự quá giang",
+          "example_en": "We take the lift to the tenth floor.",
+          "example_vi": "Chúng tôi đi thang máy lên tầng mười."
+        },
+        {
+          "word": "motorway",
+          "ipa": "/ˈmoʊtərweɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đường cao tốc",
+          "example_en": "Cars go fast on the motorway.",
+          "example_vi": "Những chiếc xe hơi chạy rất nhanh trên đường cao tốc."
+        },
+        {
+          "word": "passenger",
+          "ipa": "/ˈpæsɪndʒər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hành khách",
+          "example_en": "There are many passengers on the train.",
+          "example_vi": "Có rất nhiều hành khách trên chuyến tàu."
+        },
+        {
+          "word": "platform",
+          "ipa": "/ˈplætfɔːrm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sân ga",
+          "example_en": "Wait for the train on the platform.",
+          "example_vi": "Hãy đợi tàu ở trên sân ga."
+        },
+        {
+          "word": "racing",
+          "ipa": "/ˈreɪsɪŋ/",
+          "type": "Danh từ / Tính từ",
+          "type_short": "n",
+          "meaning": "việc đua xe, dành cho đua",
+          "example_en": "He likes motor racing.",
+          "example_vi": "Anh ấy thích đua xe mô tô."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 22,
+      "title": "Bài 12.b: Phương tiện (2/2)",
+      "theme": "Sở thích, giải trí & phương tiện",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "railway",
+          "ipa": "/ˈreɪlweɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đường sắt",
+          "example_en": "The train travels on the railway.",
+          "example_vi": "Đoàn tàu di chuyển trên đường sắt."
+        },
+        {
+          "word": "rocket",
+          "ipa": "/ˈrɒkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tên lửa",
+          "example_en": "The rocket flew into space.",
+          "example_vi": "Tên lửa đã bay vào không gian."
+        },
+        {
+          "word": "spaceship",
+          "ipa": "/ˈspeɪsʃɪp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tàu vũ trụ",
+          "example_en": "Astronauts travel in a spaceship.",
+          "example_vi": "Các phi hành gia du hành trong một chiếc tàu vũ trụ."
+        },
+        {
+          "word": "taxi",
+          "ipa": "/ˈtæksi/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xe tắc-xi",
+          "example_en": "We took a taxi to the airport.",
+          "example_vi": "Chúng tôi đã đi xe tắc-xi đến sân bay."
+        },
+        {
+          "word": "tour",
+          "ipa": "/tʊr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chuyến tham quan",
+          "example_en": "We went on a tour of the city.",
+          "example_vi": "Chúng tôi đã tham gia một chuyến tham quan thành phố."
+        },
+        {
+          "word": "traffic",
+          "ipa": "/ˈtræfɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giao thông, xe cộ",
+          "example_en": "There is a lot of traffic today.",
+          "example_vi": "Hôm nay có rất nhiều xe cộ đi lại."
+        },
+        {
+          "word": "wheel",
+          "ipa": "/wiːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh xe",
+          "example_en": "A car has four wheels.",
+          "example_vi": "Một chiếc ô tô có bốn bánh xe."
+        },
+        {
+          "word": "engine",
+          "ipa": "/ˈendʒɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "động cơ",
+          "example_en": "The car has a powerful engine.",
+          "example_vi": "Chiếc xe có một động cơ mạnh mẽ."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 23,
+      "title": "Bài 13.a: Nơi chốn & phương hướng (1/3)",
+      "theme": "Nơi chốn & nghề nghiệp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "airport",
+          "ipa": "/ˈerpɔːrt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sân bay",
+          "example_en": "We wait for the plane at the airport.",
+          "example_vi": "Chúng tôi đợi máy bay ở sân bay."
+        },
+        {
+          "word": "bank",
+          "ipa": "/bæŋk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngân hàng",
+          "example_en": "I need to get money from the bank.",
+          "example_vi": "Tôi cần rút tiền từ ngân hàng."
+        },
+        {
+          "word": "bridge",
+          "ipa": "/brɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cây cầu",
+          "example_en": "We walked over the bridge.",
+          "example_vi": "Chúng tôi đã đi bộ qua cây cầu."
+        },
+        {
+          "word": "castle",
+          "ipa": "/ˈkæsl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lâu đài",
+          "example_en": "The king lives in a big castle.",
+          "example_vi": "Nhà vua sống trong một lâu đài lớn."
+        },
+        {
+          "word": "club",
+          "ipa": "/klʌb/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "câu lạc bộ",
+          "example_en": "I joined the football club.",
+          "example_vi": "Tôi đã tham gia câu lạc bộ bóng đá."
+        },
+        {
+          "word": "college",
+          "ipa": "/ˈkɒlɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trường cao đẳng, đại học",
+          "example_en": "My brother studies at college.",
+          "example_vi": "Anh trai tôi học ở trường đại học."
+        },
+        {
+          "word": "corner",
+          "ipa": "/ˈkɔːrnər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "góc (đường, phòng)",
+          "example_en": "The shop is on the corner of the street.",
+          "example_vi": "Cửa hàng nằm ở góc phố."
+        },
+        {
+          "word": "east",
+          "ipa": "/iːst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hướng Đông",
+          "example_en": "The sun rises in the east.",
+          "example_vi": "Mặt trời mọc ở hướng Đông."
+        },
+        {
+          "word": "factory",
+          "ipa": "/ˈfæktəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà máy",
+          "example_en": "He works in a shoe factory.",
+          "example_vi": "Anh ấy làm việc trong một nhà máy giày."
+        },
+        {
+          "word": "fire station",
+          "ipa": "/ˈfaɪər ˌsteɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trạm cứu hỏa",
+          "example_en": "The fire engine is at the fire station.",
+          "example_vi": "Xe cứu hỏa đang ở trạm cứu hỏa."
+        },
+        {
+          "word": "front",
+          "ipa": "/frʌnt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phía trước",
+          "example_en": "Meet me at the front of the school.",
+          "example_vi": "Gặp tôi ở phía trước trường học nhé."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

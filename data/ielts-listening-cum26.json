@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 51,
+    "listening": [
+      {
+        "title": "Listening: Records",
+        "transcript": "Fansipan is the highest mountain in Vietnam. Ho Chi Minh City has the largest population in the country.",
+        "questions": [
+          { "type": "form_completion", "question": "Highest mountain in Vietnam: ___", "options": ["Fansipan", "Bach Ma", "Lang Bian"], "correct": "Fansipan", "explanation": "\"Fansipan is the highest mountain in Vietnam.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "listening": [
+      {
+        "title": "Listening: Comparing prices",
+        "transcript": "This bag isn't as expensive as that one. This one is cheaper. These two phones are roughly the same price.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Which bag is cheaper?", "options": ["This one", "That one", "Both the same"], "correct": "This one", "explanation": "\"This one is cheaper.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,232 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "grammar": [
+        {
+          "title": "Trọng âm danh từ vs động từ (từ 2 âm tiết)",
+          "desc": "Nhiều từ tiếng Anh 2 âm tiết có DANH TỪ nhấn âm tiết 1, ĐỘNG TỪ nhấn âm tiết 2 — thay đổi trọng âm làm thay đổi từ loại (và đôi khi cả nghĩa).",
+          "formula": [
+            { "text": "Danh từ: TRỌNG-âm-tiết-1", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Động từ: âm-tiết-1-TRỌNG-âm-tiết-2", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "REcord /ˈrekɔːd/ (n) — reCORD /rɪˈkɔːd/ (v)", "meaning": "bản ghi âm (n) vs ghi âm (v)" },
+            { "correct": "PREsent /ˈprezənt/ (n) — preSENT /prɪˈzent/ (v)", "meaning": "món quà (n) vs trình bày (v)" },
+            { "correct": "EXport /ˈekspɔːt/ (n) — exPORT /ɪkˈspɔːt/ (v)", "meaning": "hàng xuất khẩu (n) vs xuất khẩu (v)" }
+          ],
+          "note": "Quy tắc này không áp dụng cho TẤT CẢ từ 2 âm tiết — chỉ là một xu hướng phổ biến, vẫn cần tra IPA cho từ mới."
+        }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "grammar": [
+        {
+          "title": "Trọng âm theo hậu tố (suffix)",
+          "desc": "Một số hậu tố (suffix) kéo trọng âm của từ về một vị trí cố định, bất kể từ gốc dài bao nhiêu âm tiết.",
+          "formula": [
+            { "text": "-tion, -ic, -ical, -ity", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "trọng âm rơi vào âm tiết NGAY TRƯỚC hậu tố", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "infor-MA-tion /ˌɪnfəˈmeɪʃən/", "meaning": "thông tin — trọng âm ngay trước '-tion'" },
+            { "correct": "eco-NOM-ic /ˌiːkəˈnɒmɪk/", "meaning": "thuộc kinh tế — trọng âm ngay trước '-ic'" },
+            { "correct": "MU-sical /ˈmjuːzɪkəl/", "meaning": "thuộc âm nhạc — trọng âm ngay trước '-ical'" },
+            { "correct": "elec-TRI-city /ɪˌlekˈtrɪsəti/", "meaning": "điện — trọng âm ngay trước '-ity'" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "grammar": [
+        {
+          "title": "Từ nội dung (content words) vs từ chức năng (function words)",
+          "desc": "Content words (danh từ, động từ, tính từ, trạng từ) mang nghĩa chính của câu → được NHẤN rõ. Function words (mạo từ, giới từ, liên từ, đại từ, trợ động từ) → nói NHẸ và NHANH.",
+          "formula": [
+            { "text": "Content word", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "nhấn mạnh, đọc rõ — Function word → nhẹ, nhanh, thường giảm về /ə/", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I WANT a BOOK.", "meaning": "WANT và BOOK (content) được nhấn; 'I', 'a' (function) đọc nhẹ" },
+            { "correct": "She EATS BREAKFAST QUICKLY.", "meaning": "EATS, BREAKFAST, QUICKLY là content words, đều được nhấn" },
+            { "correct": "He IS a TEACHER.", "meaning": "'is' (function, to be) đọc nhẹ; TEACHER (content) được nhấn" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 18,
+      "grammar": [
+        {
+          "title": "Weak forms (dạng yếu) của từ chức năng",
+          "desc": "Từ chức năng trong câu nói tự nhiên hầu như KHÔNG đọc dạng đầy đủ (strong form) mà rút về dạng yếu (weak form), thường biến thành schwa /ə/.",
+          "formula": [
+            { "text": "and→/ənd/, to→/tə/, of→/əv/, can→/kən/", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "chỉ đọc dạng đầy đủ khi đứng cuối câu hoặc được nhấn để nhấn mạnh", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Fish and chips /fɪʃ ən tʃɪps/", "meaning": "cá và khoai tây chiên — 'and' rút về /ən/" },
+            { "correct": "I want to go. /aɪ wɒnt tə gəʊ/", "meaning": "Tôi muốn đi — 'to' rút về /tə/" },
+            { "correct": "A cup of tea. /ə kʌp əv tiː/", "meaning": "Một cốc trà — 'of' rút về /əv/" }
+          ],
+          "note": "Đây là lý do người mới học nghe người bản ngữ nói rất khó hiểu — vì luôn chờ nghe dạng đầy đủ 'and /ænd/' nhưng thực tế nghe được /ən/."
+        }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "grammar": [
+        {
+          "title": "Nhịp Stress-timed",
+          "desc": "Tiếng Việt là ngôn ngữ 'syllable-timed' — mỗi âm tiết có độ dài gần bằng nhau. Tiếng Anh là 'stress-timed' — khoảng cách giữa các âm tiết NHẤN gần bằng nhau, bất kể có bao nhiêu âm tiết không nhấn ở giữa.",
+          "formula": [
+            { "text": "Số âm tiết không nhấn giữa 2 trọng âm liên tiếp", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "KHÔNG làm câu chậm lại — bị nói nhanh, nhẹ để 'kịp nhịp'", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "WALK to the SHOP.", "meaning": "2 âm tiết nhấn (WALK, SHOP), nhịp đều" },
+            { "correct": "I WALKED to the SHOP yesterday.", "meaning": "vẫn 2 trọng âm chính, các từ thêm (I, to, the, yesterday) bị nói nhanh hơn để giữ nhịp" },
+            { "correct": "She is GOing to BUY some MILK.", "meaning": "3 trọng âm chính, nhịp giữa chúng vẫn đều dù câu dài hơn nhiều" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 20,
+      "grammar": [
+        {
+          "title": "Nối âm 1: Phụ âm + Nguyên âm",
+          "desc": "Khi từ kết thúc bằng PHỤ ÂM và từ sau bắt đầu bằng NGUYÊN ÂM, hai từ được nối liền như một, phụ âm 'chuyển' sang đầu từ sau.",
+          "formula": [
+            { "text": "Từ kết thúc bằng phụ âm + từ sau bắt đầu bằng nguyên âm", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "nối liền thành một âm", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "pick it up → /pɪ.kɪ.tʌp/", "meaning": "nhặt nó lên — 3 từ nối liền như 1 từ" },
+            { "correct": "turn off → /tɜː.nɒf/", "meaning": "tắt (đi) — phụ âm 'n' nối sang 'off'" },
+            { "correct": "an apple → /ə.næpl/", "meaning": "một quả táo — 'n' nối sang 'apple'" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "grammar": [
+        {
+          "title": "Nối âm 2: Âm bị nuốt (Elision)",
+          "desc": "Khi 2 phụ âm giống hoặc gần giống nhau gặp nhau ở ranh giới giữa 2 từ, phụ âm cuối của từ trước thường bị NUỐT, không bật ra rõ.",
+          "formula": [
+            { "text": "Phụ âm cuối từ 1 giống/gần giống phụ âm đầu từ 2", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "phụ âm cuối từ 1 bị nuốt, không bật ra", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "next day → /neks deɪ/", "meaning": "ngày kế tiếp — âm /t/ trong 'next' bị nuốt" },
+            { "correct": "most people → /məʊs piːpl/", "meaning": "đa số người — âm /t/ trong 'most' bị nuốt" },
+            { "correct": "good day → nghe gần như /gʊ deɪ/", "meaning": "chào (ngày tốt) — phụ âm /d/ cuối 'good' bị nuốt nhẹ" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "grammar": [
+        {
+          "title": "Nối âm 3: Âm thêm vào (Intrusion)",
+          "desc": "Khi nguyên âm cuối từ 1 và nguyên âm đầu từ 2 gặp nhau, người nói tự nhiên CHÊM thêm một âm lướt /w/ hoặc /j/ để nối mượt, dù chính tả không có chữ này.",
+          "formula": [
+            { "text": "Nguyên âm cuối từ 1 + nguyên âm đầu từ 2", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "chêm /w/ (sau âm tròn môi) hoặc /j/ (sau âm bè môi)", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "go on → /gəʊ‿wɒn/", "meaning": "tiếp tục — chêm /w/ vì 'go' kết thúc bằng âm tròn môi /əʊ/" },
+            { "correct": "see it → /siː‿jɪt/", "meaning": "nhìn thấy nó — chêm /j/ vì 'see' kết thúc bằng âm bè môi /iː/" },
+            { "correct": "she asked → /ʃiː‿jɑːskt/", "meaning": "cô ấy đã hỏi — tương tự chêm /j/" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "grammar": [
+        {
+          "title": "Ngữ điệu cơ bản (Rising vs Falling)",
+          "desc": "Ngữ điệu lên hay xuống ở cuối câu phụ thuộc vào LOẠI câu, không phải cảm xúc tùy ý.",
+          "formula": [
+            { "text": "Câu hỏi Yes/No → lên giọng cuối câu (↗)", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Câu khẳng định & câu hỏi Wh- → xuống giọng cuối câu (↘)", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "Do you like tea? ↗", "meaning": "Câu hỏi Yes/No — lên giọng ở cuối câu" },
+            { "correct": "I like tea. ↘", "meaning": "Câu khẳng định — xuống giọng ở cuối câu" },
+            { "correct": "What do you like? ↘", "meaning": "Câu hỏi Wh- — vẫn xuống giọng, khác với câu hỏi Yes/No" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 24,
+      "grammar": [
+        {
+          "title": "Ngữ điệu nâng cao: liệt kê & câu điều kiện",
+          "desc": "Khi liệt kê nhiều mục, lên giọng ở các mục giữa và xuống giọng ở mục CUỐI. Câu điều kiện lên giọng ở mệnh đề điều kiện, xuống giọng ở mệnh đề kết quả.",
+          "formula": [
+            { "text": "Liệt kê: ↗ ↗ ↗ ↘ (mục cuối xuống giọng)", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "Điều kiện: mệnh đề IF ↗, mệnh đề chính ↘", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I need apples↗, bananas↗, and oranges↘.", "meaning": "liệt kê 3 thứ, mục cuối xuống giọng" },
+            { "correct": "If it rains↗, I will stay home↘.", "meaning": "mệnh đề điều kiện lên giọng, mệnh đề chính xuống giọng" },
+            { "correct": "Are you happy↗, sad↗, or angry↘?", "meaning": "câu hỏi lựa chọn — lên ở các lựa chọn, xuống ở lựa chọn cuối" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "grammar": [
+        {
+          "title": "Tốc độ & Ngắt câu (Chunking)",
+          "desc": "Ngắt câu theo CỤM Ý NGHĨA (chunk), không ngắt theo từng từ — thường ngắt trước/sau liên từ, sau dấu phẩy, hoặc giữa các mệnh đề.",
+          "formula": [
+            { "text": "Ngắt trước liên từ, sau dấu phẩy, giữa mệnh đề", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "→", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "giữ nguyên cụm ý nghĩa, không ngắt giữa cụm", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "When I get home, // I will call you.", "meaning": "ngắt sau mệnh đề điều kiện thời gian" },
+            { "correct": "My brother, // who is a teacher, // lives in Hanoi.", "meaning": "ngắt quanh mệnh đề chen vào (relative clause)" },
+            { "correct": "I like apples // but not bananas.", "meaning": "ngắt trước liên từ tương phản 'but'" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "grammar": [
+        {
+          "title": "Ôn tập Giai đoạn 2: Áp dụng tổng hợp",
+          "desc": "Tổng hợp toàn bộ Giai đoạn 2 — áp dụng trọng âm từ, weak form, nhịp stress-timed, linking, và ngữ điệu vào một đoạn nói liền mạch.",
+          "formula": [
+            { "text": "1) Content word nhấn rõ", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "2) Function word đọc nhẹ (weak form)", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "3) Nối âm đúng chỗ + 4) Ngữ điệu đúng loại câu", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "A: Do you want to go to the PARK?↗ B: Sure, // let's GO.↘", "meaning": "ví dụ hội thoại ngắn áp dụng toàn bộ kỹ năng Giai đoạn 2" },
+            { "correct": "Tự ghi âm đoạn trên và so sánh với bản nghe mẫu.", "meaning": "dùng công cụ luyện nói (Speaking Practice) để tự kiểm tra" },
+            { "correct": "Lặp lại 3 lần, mỗi lần tự chấm theo checklist trên.", "meaning": "luyện tập lặp lại để hình thành phản xạ" }
+          ]
+        }
+      ]
+    }
+  ]
+}

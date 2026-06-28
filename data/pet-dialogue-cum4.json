@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 6,
+      "dialogues": [
+        {
+          "title": "Talking about professions",
+          "lines": [
+            {
+              "speaker": "Harry",
+              "en": "I currently work as a graphic designer for a large advertising agency. The campaigns are usually created by a team of highly skilled artists.",
+              "vi": "Hiện tại tôi làm nghề thiết kế đồ họa cho một công ty quảng cáo lớn. Các chiến dịch thường được tạo ra bởi một đội ngũ các nghệ sĩ có tay nghề cao."
+            },
+            {
+              "speaker": "Jane",
+              "en": "That sounds amazing! I met a woman whose son works for the same company, and she said the working environment is excellent.",
+              "vi": "Nghe tuyệt quá! Tôi đã gặp một người phụ nữ có con trai làm việc cho cùng công ty đó, và bà ấy nói môi trường làm việc rất xuất sắc."
+            },
+            {
+              "speaker": "Harry",
+              "en": "Yes, our projects are often managed by senior directors whose experience is vast. I used to work as a freelancer before I joined them.",
+              "vi": "Đúng vậy, các dự án của chúng tôi thường được quản lý bởi các giám đốc cấp cao, những người có kinh nghiệm rất sâu rộng. Tôi từng làm nghề tự do trước khi gia nhập công ty họ."
+            },
+            {
+              "speaker": "Jane",
+              "en": "I work for the local hospital where patient records are strictly protected by the system. My sister, whose husband is a doctor, also works there.",
+              "vi": "Tôi làm việc cho bệnh viện địa phương nơi mà hồ sơ bệnh nhân được bảo vệ nghiêm ngặt bởi hệ thống. Chị gái tôi, người có chồng là một bác sĩ, cũng làm việc ở đó."
+            },
+            {
+              "speaker": "Harry",
+              "en": "It must be challenging to work as a nurse in such a busy place. Medicine is ordered and distributed by the pharmacy every hour.",
+              "vi": "Chắc hẳn rất thử thách khi làm y tá ở một nơi bận rộn như vậy. Thuốc men được đặt hàng và phân phối bởi nhà thuốc mỗi giờ."
+            },
+            {
+              "speaker": "Jane",
+              "en": "It is, but the patients whose health improves make me feel very happy. The hospital is supported by the government and many local charities.",
+              "vi": "Đúng vậy, nhưng những bệnh nhân có sức khỏe được cải thiện làm tôi cảm thấy rất hạnh phúc. Bệnh viện được hỗ trợ bởi chính phủ và nhiều tổ chức từ thiện địa phương."
+            },
+            {
+              "speaker": "Harry",
+              "en": "You are doing a noble job which requires a lot of patience. My designs are just seen by people on the internet.",
+              "vi": "Bạn đang làm một công việc cao quý thứ mà đòi hỏi rất nhiều sự kiên nhẫn. Các thiết kế của tôi chỉ được nhìn thấy bởi mọi người trên internet thôi."
+            },
+            {
+              "speaker": "Jane",
+              "en": "Your work is also important because beautiful art is appreciated by everyone. We both contribute to society in our own different ways.",
+              "vi": "Công việc của bạn cũng quan trọng vì nghệ thuật đẹp đẽ được trân trọng bởi tất cả mọi người. Cả hai chúng ta đều đóng góp cho xã hội theo những cách khác nhau của riêng mình."
+            }
+          ]
+        },
+        {
+          "title": "Office discussions",
+          "lines": [
+            {
+              "speaker": "Kevin",
+              "en": "I work for a software company whose main office is located in London. The daily reports are written by the junior developers.",
+              "vi": "Tôi làm việc cho một công ty phần mềm có văn phòng chính tọa lạc ở London. Các báo cáo hàng ngày được viết bởi các lập trình viên cấp dưới."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "I work as an accountant, and all the financial data is reviewed by me at the end of the month. The manager whose office is next to mine is very strict.",
+              "vi": "Tôi làm nghề kế toán, và tất cả dữ liệu tài chính được xem xét bởi tôi vào cuối tháng. Người quản lý có văn phòng nằm cạnh tôi thì rất nghiêm khắc."
+            },
+            {
+              "speaker": "Kevin",
+              "en": "In my company, emails are sent to the clients automatically by the new system. I work as a project manager, so I oversee the whole process.",
+              "vi": "Trong công ty tôi, email được gửi cho khách hàng một cách tự động bởi hệ thống mới. Tôi làm nghề quản lý dự án, vì vậy tôi giám sát toàn bộ quy trình."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "The employees whose performance is outstanding are rewarded by the board of directors. A lot of effort is required to get a promotion.",
+              "vi": "Những nhân viên có thành tích xuất sắc được khen thưởng bởi hội đồng quản trị. Rất nhiều nỗ lực được yêu cầu để có được sự thăng tiến."
+            },
+            {
+              "speaker": "Kevin",
+              "en": "Meetings are organized by the secretary every Monday morning. We discuss issues with the clients whose projects are currently active.",
+              "vi": "Các cuộc họp được tổ chức bởi thư ký vào mỗi sáng thứ Hai. Chúng tôi thảo luận các vấn đề với những khách hàng có dự án hiện đang hoạt động."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "Our salaries are paid by the finance department on the last day of the month. I know a guy whose salary was delayed, and he was very angry.",
+              "vi": "Lương của chúng tôi được trả bởi bộ phận tài chính vào ngày cuối cùng của tháng. Tôi biết một anh chàng có tiền lương bị chậm trễ, và anh ấy đã rất tức giận."
+            },
+            {
+              "speaker": "Kevin",
+              "en": "That rarely happens where I work because the accounting software is updated regularly. We try to avoid mistakes which cost the company money.",
+              "vi": "Điều đó hiếm khi xảy ra ở nơi tôi làm việc vì phần mềm kế toán được cập nhật thường xuyên. Chúng tôi cố gắng tránh những sai lầm làm tiêu tốn tiền bạc của công ty."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "Working for a large organization is stressful, but the benefits are provided generously. I am quite satisfied with my current position.",
+              "vi": "Làm việc cho một tổ chức lớn rất căng thẳng, nhưng các phúc lợi được cung cấp rất hào phóng. Tôi khá hài lòng với vị trí hiện tại của mình."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "dialogues": [
+        {
+          "title": "Community volunteering",
+          "lines": [
+            {
+              "speaker": "Leo",
+              "en": "Not only is the local park dirty, but it is also unsafe for children to play. We ought to organize a cleaning event this weekend.",
+              "vi": "Công viên địa phương không những bẩn thỉu, mà còn không an toàn cho trẻ em vui chơi. Chúng ta nên tổ chức một sự kiện dọn dẹp vào cuối tuần này."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I agree, and both the teenagers and the adults should participate in this activity. Neither the government nor the council has done anything about it.",
+              "vi": "Tôi đồng ý, và cả thanh thiếu niên lẫn người lớn đều nên tham gia vào hoạt động này. Cả chính phủ và hội đồng đều chưa làm bất cứ điều gì về nó."
+            },
+            {
+              "speaker": "Leo",
+              "en": "We should print some posters and distribute them around the neighborhood. Not only will this raise awareness, but it will also attract more volunteers.",
+              "vi": "Chúng ta nên in một vài tấm áp phích và phân phát chúng quanh khu phố. Việc này không những sẽ nâng cao nhận thức, mà nó còn thu hút thêm nhiều tình nguyện viên."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I can buy both gloves and trash bags, which are essential for the cleaning process. People ought to care more about their living environment.",
+              "vi": "Tôi có thể mua cả găng tay và túi đựng rác, những thứ rất cần thiết cho quá trình dọn dẹp. Mọi người nên quan tâm nhiều hơn đến môi trường sống của họ."
+            },
+            {
+              "speaker": "Leo",
+              "en": "Neither my brother nor my sister is busy on Sunday, so they can come to help. We should start early in the morning before it gets too hot.",
+              "vi": "Cả anh trai và chị gái tôi đều không bận vào Chủ nhật, vì vậy họ có thể đến giúp. Chúng ta nên bắt đầu vào sáng sớm trước khi trời trở nên quá nóng."
+            },
+            {
+              "speaker": "Mia",
+              "en": "That is not only a great idea, but it is also a wonderful way to bring people together. The community ought to be united when facing such problems.",
+              "vi": "Đó không chỉ là một ý tưởng tuyệt vời, mà nó còn là một cách tuyệt hay để gắn kết mọi người lại với nhau. Cộng đồng nên đoàn kết khi đối mặt với những vấn đề như thế này."
+            },
+            {
+              "speaker": "Leo",
+              "en": "We should contact the local newspaper, which might write an article about our efforts. Both the schools and the local businesses will see it.",
+              "vi": "Chúng ta nên liên hệ với tờ báo địa phương, thứ có thể sẽ viết một bài báo về những nỗ lực của chúng ta. Cả các trường học và doanh nghiệp địa phương sẽ nhìn thấy nó."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I am excited because neither bad weather nor hard work will stop us. We ought to make our community a better place to live.",
+              "vi": "Tôi đang rất hào hứng vì cả thời tiết xấu lẫn công việc cực nhọc đều sẽ không ngăn cản được chúng ta. Chúng ta nên biến cộng đồng của mình thành một nơi tốt đẹp hơn để sống."
+            }
+          ]
+        },
+        {
+          "title": "Discussing social issues",
+          "lines": [
+            {
+              "speaker": "Paul",
+              "en": "Poverty is a serious issue, and we ought to find ways to support homeless people. Not only do they lack food, but they also have no shelter.",
+              "vi": "Nghèo đói là một vấn đề nghiêm trọng, và chúng ta nên tìm cách hỗ trợ những người vô gia cư. Họ không chỉ thiếu thức ăn, mà họ còn không có chỗ trú ẩn."
+            },
+            {
+              "speaker": "Nancy",
+              "en": "Both the charities and the citizens should take action immediately. Neither ignoring the problem nor blaming the economy will solve anything.",
+              "vi": "Cả các tổ chức từ thiện và công dân đều nên hành động ngay lập tức. Cả việc làm ngơ vấn đề lẫn việc đổ lỗi cho nền kinh tế đều sẽ không giải quyết được gì."
+            },
+            {
+              "speaker": "Paul",
+              "en": "I think the government ought to build more affordable houses for low-income families. Both education and healthcare should be accessible to everyone.",
+              "vi": "Tôi nghĩ chính phủ nên xây dựng nhiều nhà ở giá rẻ hơn cho các gia đình thu nhập thấp. Cả giáo dục và chăm sóc sức khỏe đều nên được tiếp cận bởi tất cả mọi người."
+            },
+            {
+              "speaker": "Nancy",
+              "en": "The new policy is not only expensive, but it is also difficult to implement. People shouldn't wait for others to act, but they should start volunteering.",
+              "vi": "Chính sách mới không những tốn kém, mà nó còn khó thực thi. Mọi người không nên chờ đợi người khác hành động, mà họ nên bắt đầu làm tình nguyện."
+            },
+            {
+              "speaker": "Paul",
+              "en": "Neither my friends nor my colleagues knew about the charity event which happened yesterday. We ought to advertise these events more widely on social media.",
+              "vi": "Cả bạn bè lẫn đồng nghiệp của tôi đều đã không biết về sự kiện từ thiện cái mà diễn ra hôm qua. Chúng ta nên quảng cáo các sự kiện này rộng rãi hơn trên mạng xã hội."
+            },
+            {
+              "speaker": "Nancy",
+              "en": "I agree, and not only should we donate money, but we also ought to donate clothes. Helping others brings both joy and meaning to our lives.",
+              "vi": "Tôi đồng ý, và chúng ta không những nên quyên góp tiền, mà chúng ta còn nên quyên góp quần áo. Giúp đỡ người khác mang lại cả niềm vui và ý nghĩa cho cuộc sống của chúng ta."
+            },
+            {
+              "speaker": "Paul",
+              "en": "You ought to talk to the local manager, who organizes the food banks. Both you and I can spend a few hours there next weekend.",
+              "vi": "Bạn nên nói chuyện với quản lý địa phương, người tổ chức các ngân hàng thực phẩm. Cả bạn và tôi đều có thể dành vài giờ ở đó vào cuối tuần tới."
+            },
+            {
+              "speaker": "Nancy",
+              "en": "Neither distance nor lack of time should be an excuse when people need help. We ought to do our best to make a difference.",
+              "vi": "Cả khoảng cách lẫn sự thiếu thời gian đều không nên là cái cớ khi có người cần giúp đỡ. Chúng ta nên làm hết sức mình để tạo ra sự khác biệt."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

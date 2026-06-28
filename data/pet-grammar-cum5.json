@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 8,
+      "grammar": [
+        {
+          "title": "will & might/could",
+          "desc": "Will dùng để dự đoán chắc chắn trong tương lai, might/could chỉ khả năng có thể xảy ra (không chắc chắn).",
+          "formula": [
+            {
+              "text": "will / might / could + V(nguyên thể)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Temperatures will rise.",
+              "meaning": "Nhiệt độ sẽ tăng lên."
+            },
+            {
+              "correct": "It might get worse.",
+              "meaning": "Tình hình có thể sẽ tệ hơn."
+            },
+            {
+              "correct": "They could win the match.",
+              "meaning": "Họ có khả năng sẽ thắng trận đấu."
+            },
+            {
+              "correct": "It will rain tomorrow.",
+              "meaning": "Ngày mai trời sẽ mưa."
+            }
+          ]
+        },
+        {
+          "title": "Conditional 1",
+          "desc": "Câu điều kiện loại 1 diễn tả sự việc có khả năng xảy ra ở hiện tại hoặc tương lai.",
+          "formula": [
+            {
+              "text": "If + S + V(hiện tại), S + will + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "If we don't act, the planet will suffer.",
+              "meaning": "Nếu chúng ta không hành động, hành tinh sẽ phải gánh chịu hậu quả."
+            },
+            {
+              "correct": "If it rains, I will stay at home.",
+              "meaning": "Nếu trời mưa, tôi sẽ ở nhà."
+            },
+            {
+              "correct": "She will pass the exam if she studies hard.",
+              "meaning": "Cô ấy sẽ đậu kỳ thi nếu cô ấy học chăm."
+            },
+            {
+              "correct": "If you eat too much, you will get fat.",
+              "meaning": "Nếu bạn ăn quá nhiều, bạn sẽ bị béo."
+            }
+          ]
+        },
+        {
+          "title": "unless",
+          "desc": "Unless có nghĩa là If ... not (Trừ khi). Động từ đi sau unless luôn ở thể khẳng định.",
+          "formula": [
+            {
+              "text": "Unless + S + V (khẳng định)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We must act unless we want the situation to get worse.",
+              "meaning": "Chúng ta phải hành động trừ khi chúng ta muốn tình hình trở nên tồi tệ hơn."
+            },
+            {
+              "correct": "I won't go unless you come with me.",
+              "meaning": "Tôi sẽ không đi trừ khi bạn đi cùng tôi."
+            },
+            {
+              "correct": "You will fail unless you try harder.",
+              "meaning": "Bạn sẽ rớt trừ khi bạn cố gắng hơn."
+            },
+            {
+              "correct": "Unless it rains, we will play football.",
+              "meaning": "Trừ khi trời mưa, chúng tôi sẽ chơi bóng đá."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "grammar": [
+        {
+          "title": "Passive Present Continuous",
+          "desc": "Câu bị động thì hiện tại tiếp diễn, nhấn mạnh hành động đang bị tác động lúc này.",
+          "formula": [
+            {
+              "text": "S + am/is/are + being + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Trees are being cut down every day.",
+              "meaning": "Cây cối đang bị chặt phá mỗi ngày."
+            },
+            {
+              "correct": "A new hospital is being built.",
+              "meaning": "Một bệnh viện mới đang được xây dựng."
+            },
+            {
+              "correct": "The car is being repaired.",
+              "meaning": "Chiếc xe đang được sửa chữa."
+            },
+            {
+              "correct": "The problem is being discussed.",
+              "meaning": "Vấn đề đang được thảo luận."
+            }
+          ]
+        },
+        {
+          "title": "Passive Present Perfect",
+          "desc": "Câu bị động thì hiện tại hoàn thành, dùng cho việc đã bị tác động và kéo dài tới hiện tại.",
+          "formula": [
+            {
+              "text": "S + have/has + been + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The river has been polluted for years.",
+              "meaning": "Con sông đã bị ô nhiễm trong nhiều năm."
+            },
+            {
+              "correct": "My bike has been stolen.",
+              "meaning": "Xe đạp của tôi đã bị lấy cắp."
+            },
+            {
+              "correct": "The work has been finished.",
+              "meaning": "Công việc đã được hoàn thành."
+            },
+            {
+              "correct": "Many trees have been planted.",
+              "meaning": "Nhiều cây xanh đã được trồng."
+            }
+          ]
+        },
+        {
+          "title": "It is important that + should/must",
+          "desc": "Cấu trúc nhấn mạnh tính cấp thiết, quan trọng của một hành động.",
+          "formula": [
+            {
+              "text": "It is important/essential that + S + should/must + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It is important that we should reduce waste.",
+              "meaning": "Việc chúng ta nên giảm thiểu rác thải là rất quan trọng."
+            },
+            {
+              "correct": "It is essential that you must be here on time.",
+              "meaning": "Điều thiết yếu là bạn phải có mặt đúng giờ."
+            },
+            {
+              "correct": "It is vital that we should protect the environment.",
+              "meaning": "Bảo vệ môi trường là một việc sống còn."
+            },
+            {
+              "correct": "It is necessary that everyone should participate.",
+              "meaning": "Tất cả mọi người cần thiết phải tham gia."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

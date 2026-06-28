@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 61,
+    "grammar": [
+      {
+        "title": "Cấu trúc \"Verb + V-ing\" — Hoạt động yêu thích",
+        "desc": "Một số động từ (enjoy, love, hate, avoid, miss, practise, consider, imagine, suggest) được theo sau bởi V-ing.",
+        "formula": [
+          { "text": "Subject + enjoy/love/hate...", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "Verb-ing", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I enjoy reading books in my free time.", "vi": "Tôi thích đọc sách lúc rảnh." },
+          { "en": "She hates waiting in long queues.", "vi": "Cô ấy ghét việc phải đợi trong hàng dài." },
+          { "en": "We should avoid wasting too much time.", "vi": "Chúng ta nên tránh lãng phí quá nhiều thời gian." }
+        ],
+        "note": "Các động từ thường gặp đi với V-ing: enjoy, love, hate, avoid, miss, practise, consider, imagine, suggest.",
+        "practiceList": [
+          { "question": "He enjoys ___ (play) football with friends.", "correct": "playing", "meaning": "Anh ấy thích chơi bóng đá với bạn bè.", "explanation": "\"enjoy\" + V-ing." },
+          { "question": "I miss ___ (live) in my hometown.", "correct": "living", "meaning": "Tôi nhớ việc sống ở quê hương mình.", "explanation": "\"miss\" + V-ing." },
+          { "question": "She suggested ___ (go) to the new café.", "correct": "going", "meaning": "Cô ấy gợi ý đi đến quán cà phê mới.", "explanation": "\"suggest\" + V-ing." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "grammar": [
+      {
+        "title": "\"too + adj\" và \"adj + enough\" — Vấn đề & Giới hạn",
+        "desc": "\"too + adjective\" diễn tả mức độ quá nhiều (không tốt). \"adjective + enough\" diễn tả mức độ đủ.",
+        "formula": [
+          { "text": "too + Adjective", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "Adjective + enough", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "This bag is too heavy for me to carry.", "vi": "Cái túi này quá nặng để tôi mang." },
+          { "en": "He isn't tall enough to reach the shelf.", "vi": "Anh ấy không đủ cao để chạm tới cái kệ." },
+          { "en": "The room is too small for ten people.", "vi": "Căn phòng quá nhỏ cho mười người." }
+        ],
+        "note": "\"too\" đứng TRƯỚC tính từ. \"enough\" đứng SAU tính từ. Cả hai thường theo sau bởi \"to + V\" để giải thích kết quả.",
+        "practiceList": [
+          { "question": "This coffee is ___ hot to drink now.", "correct": "too", "meaning": "Cà phê này quá nóng để uống ngay bây giờ.", "explanation": "\"too\" + adj đứng trước tính từ." },
+          { "question": "She isn't old ___ to drive yet.", "correct": "enough", "meaning": "Cô ấy chưa đủ tuổi để lái xe.", "explanation": "\"adj + enough\" đứng sau tính từ." },
+          { "question": "The test was ___ difficult for beginners.", "correct": "too", "meaning": "Bài kiểm tra quá khó cho người mới bắt đầu.", "explanation": "\"too\" diễn tả mức độ quá nhiều." }
+        ]
+      }
+    ]
+  }
+]

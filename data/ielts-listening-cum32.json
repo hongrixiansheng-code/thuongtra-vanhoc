@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 63,
+    "listening": [
+      {
+        "title": "Listening: Reasons and results",
+        "transcript": "I was late because the traffic was heavy. It rained heavily, so we stayed at home. Although it was expensive, she bought the dress.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Why was the speaker late?", "options": ["The weather was bad", "The traffic was heavy", "The bus didn't come"], "correct": "The traffic was heavy", "explanation": "\"I was late because the traffic was heavy.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "listening": [
+      {
+        "title": "Listening: Review — Rules and advice",
+        "transcript": "You must wear a helmet, but you don't have to wear a uniform. You should see a doctor if a headache continues. I enjoy walking to work because it isn't too far.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is compulsory?", "options": ["Wearing a uniform", "Wearing a helmet", "Driving to work"], "correct": "Wearing a helmet", "explanation": "\"You must wear a helmet\"." }
+        ]
+      }
+    ]
+  }
+]

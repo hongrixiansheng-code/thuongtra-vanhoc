@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 83,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe rules and regulations",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing rules in society, using Passive Voice + Modal Verbs (must be done/should be done/can be done).",
+        "minWords": 30,
+        "sampleAnswer": "Smoking is forbidden in this building. This form must be completed before Friday. These rules should be followed by everyone, and this issue can be solved with clearer signs.",
+        "checklist": ["Dùng modal + be + V3 đúng dạng", "Có ít nhất 2 quy định khác nhau", "Câu văn rõ ràng, mang tính trang trọng"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe statistics",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing some statistics, using a great deal of/a large number of/the vast majority.",
+        "minWords": 30,
+        "sampleAnswer": "A large number of students passed the exam this year. The vast majority of people agree with this policy. About half of the population lives in urban areas.",
+        "checklist": ["Dùng đúng lượng từ với danh từ đếm được/không đếm được", "Có ít nhất 1 số liệu cụ thể (half, quarter...)", "Văn phong học thuật, phù hợp Writing Task 1"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 45,
+    "listening": [
+      {
+        "title": "Listening: My afternoon in order",
+        "transcript": "First, I finished my homework. After that, I called my friend. Then we came together at the park, and finally we had dinner together.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did the speaker do first?", "options": ["Called a friend", "Finished homework", "Had dinner"], "correct": "Finished homework", "explanation": "\"First, I finished my homework.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "listening": [
+      {
+        "title": "Listening: Review — A trip to Hue",
+        "transcript": "Two years ago, I visited Hue with my classmates. First, we explored the old citadel. We didn't have a map at first, so we got lost. Finally, a kind local helped us.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Who helped them?", "options": ["A kind local", "A tour guide", "A teacher"], "correct": "A kind local", "explanation": "\"a kind local helped us.\"" }
+        ]
+      }
+    ]
+  }
+]

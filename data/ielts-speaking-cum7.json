@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 13,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe how to make something",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe how to cook a simple dish.",
+          "bullets": ["what the dish is", "what ingredients you need", "the steps you follow", "and explain why you like cooking it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about a simple fried rice. First, add the rice and vegetables to the pan. Mix them well. Turn on the heat. Check the rice after five minutes. I like cooking it because it's quick and easy."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Describing places",
+        "part": 1,
+        "questions": ["Is your home quiet or loud?", "Do you prefer hot or cold weather?", "Is your classroom comfortable?"],
+        "sampleAnswer": "My home is usually quiet. I prefer warm weather, not too hot or cold. My classroom is clean and comfortable."
+      }
+    ]
+  }
+]

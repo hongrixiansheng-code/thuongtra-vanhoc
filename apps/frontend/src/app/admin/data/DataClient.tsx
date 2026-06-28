@@ -162,7 +162,11 @@ export default function DataClient({ programs, lessons, contents }: { programs: 
     { id: "THEORY", label: "Từ vựng" },
     { id: "GRAMMAR", label: "Ngữ pháp" },
     { id: "DIALOGUE", label: "Hội thoại" },
-    { id: "EXERCISE", label: "Bài tập" }
+    { id: "EXERCISE", label: "Bài tập" },
+    { id: "READING", label: "Reading" },
+    { id: "LISTENING", label: "Listening" },
+    { id: "WRITING", label: "Writing" },
+    { id: "SPEAKING", label: "Speaking" }
   ];
 
   const renderPreview = (content: any) => {
@@ -198,6 +202,13 @@ export default function DataClient({ programs, lessons, contents }: { programs: 
     } else if (content.contentType === "EXERCISE") {
       return (
         <span className="font-bold text-gray-800 text-sm truncate max-w-lg">{parsed.question || JSON.stringify(parsed).substring(0, 50)}</span>
+      );
+    } else if (["READING", "LISTENING", "WRITING", "SPEAKING"].includes(content.contentType)) {
+      return (
+        <div className="flex items-center gap-2">
+          <span className="font-bold text-gray-800 text-sm">{parsed.title}</span>
+          {parsed.questions && <span className="text-gray-500 text-xs">({parsed.questions.length} câu hỏi)</span>}
+        </div>
       );
     }
     return <span className="font-mono text-xs truncate max-w-md">{JSON.stringify(parsed).substring(0, 50)}...</span>;

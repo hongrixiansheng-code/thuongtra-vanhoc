@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 28,
+      "grammar": [
+        {
+          "title": "since: kể từ khi",
+          "desc": "Dùng 'since' cộng với một mốc thời gian cụ thể (Monday, 2010, yesterday) để chỉ thời điểm bắt đầu của một sự việc.",
+          "formula": [
+            { "text": "I have lived here", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "since", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "2015.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have been sick since Monday.", "meaning": "Tôi đã bị ốm kể từ thứ Hai." },
+            { "correct": "She has worked here since January.", "meaning": "Cô ấy đã làm việc ở đây kể từ tháng Một." },
+            { "correct": "We have known him since yesterday.", "meaning": "Chúng tôi đã biết anh ấy kể từ ngày hôm qua." }
+          ]
+        },
+        {
+          "title": "Phân biệt for / during / since",
+          "desc": "'for' + khoảng thời gian (for 2 days). 'since' + mốc thời gian (since Monday). 'during' + danh từ chỉ sự kiện (during the summer).",
+          "formula": [
+            { "text": "for 2 days", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "vs", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "since Monday", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "He played games for three hours.", "meaning": "Cậu ấy đã chơi game trong 3 giờ đồng hồ." },
+            { "correct": "It rained a lot during the night.", "meaning": "Trời đã mưa rất nhiều trong suốt buổi đêm." },
+            { "correct": "I haven't eaten since morning.", "meaning": "Tớ đã không ăn gì kể từ buổi sáng." }
+          ]
+        },
+        {
+          "title": "ago vs. for (Ôn tập)",
+          "desc": "Dùng 'ago' (cách đây) đứng sau khoảng thời gian trong thì Quá khứ đơn. Dùng 'for' đứng trước khoảng thời gian.",
+          "formula": [
+            { "text": "for 2 hours", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "vs", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "2 hours ago", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I met him two years ago.", "meaning": "Tớ đã gặp cậu ấy cách đây 2 năm." },
+            { "correct": "I waited for him for two hours.", "meaning": "Tớ đã đợi cậu ấy trong hai giờ đồng hồ." },
+            { "correct": "She went to Paris a month ago.", "meaning": "Cô ấy đã đi Paris cách đây một tháng." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Waiting for a friend",
+          "lines": [
+            { "speaker": "A", "en": "How long have you been here?", "vi": "Cậu đã ở đây bao lâu rồi?" },
+            { "speaker": "B", "en": "I have waited for you for an hour.", "vi": "Tớ đã đợi cậu trong một giờ đồng hồ." },
+            { "speaker": "A", "en": "I am so sorry. I missed the bus.", "vi": "Tớ rất xin lỗi. Tớ đã lỡ chuyến xe buýt." },
+            { "speaker": "B", "en": "It's okay. I have read my book since 2 o'clock.", "vi": "Không sao đâu. Tớ đã đọc sách của tớ kể từ lúc 2 giờ." },
+            { "speaker": "A", "en": "Did it rain during the afternoon?", "vi": "Trời có mưa trong suốt buổi chiều không?" },
+            { "speaker": "B", "en": "No, the rain stopped two hours ago.", "vi": "Không, mưa đã tạnh cách đây hai giờ rồi." }
+          ]
+        },
+        {
+          "title": "A long holiday",
+          "lines": [
+            { "speaker": "A", "en": "Have you seen David?", "vi": "Cậu có nhìn thấy David không?" },
+            { "speaker": "B", "en": "No, I haven't seen him since Monday.", "vi": "Không, tớ đã không gặp cậu ấy kể từ thứ Hai." },
+            { "speaker": "A", "en": "Where did he go?", "vi": "Cậu ấy đã đi đâu vậy?" },
+            { "speaker": "B", "en": "He went to the beach a few days ago.", "vi": "Cậu ấy đã đi đến bãi biển cách đây vài ngày." },
+            { "speaker": "A", "en": "He will stay there for a week.", "vi": "Cậu ấy sẽ ở đó trong một tuần." },
+            { "speaker": "B", "en": "I hope he is having fun during the holiday.", "vi": "Tớ hy vọng cậu ấy đang có một khoảng thời gian vui vẻ trong suốt kỳ nghỉ." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "grammar": [
+        {
+          "title": "until: cho đến khi",
+          "desc": "Dùng 'until' (hoặc 'till') để chỉ một sự việc kéo dài và kết thúc tại một thời điểm nào đó.",
+          "formula": [
+            { "text": "Wait here", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "until", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I come back.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "We played outside until it was dark.", "meaning": "Chúng tôi đã chơi ở ngoài cho đến khi trời tối." },
+            { "correct": "I will wait until 5 o'clock.", "meaning": "Tôi sẽ đợi cho đến lúc 5 giờ." },
+            { "correct": "Don't open the box until tomorrow.", "meaning": "Đừng mở chiếc hộp cho đến ngày mai." }
+          ]
+        },
+        {
+          "title": "by: trước lúc (thời hạn)",
+          "desc": "Dùng 'by' cộng với thời gian để đưa ra một thời hạn (deadline) mà bạn phải hoàn thành xong một việc gì đó.",
+          "formula": [
+            { "text": "Finish your homework", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "by", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "tomorrow.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I must finish this book by Friday.", "meaning": "Tớ phải hoàn thành quyển sách này trước lúc thứ Sáu." },
+            { "correct": "Please come back by dinner time.", "meaning": "Làm ơn hãy trở về trước lúc bữa tối." },
+            { "correct": "She will arrive by 8 o'clock.", "meaning": "Cô ấy sẽ đến nơi trước lúc 8 giờ." }
+          ]
+        },
+        {
+          "title": "Hiện tại hoàn thành với since / for",
+          "desc": "Thì Hiện tại hoàn thành thường được dùng với 'since' và 'for' để nói một việc bắt đầu từ quá khứ và vẫn còn tiếp tục ở hiện tại.",
+          "formula": [
+            { "text": "I have studied", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "for / since", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "this morning.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have studied English for three years.", "meaning": "Tôi đã học tiếng Anh được ba năm rồi." },
+            { "correct": "He has lived here since 2010.", "meaning": "Anh ấy đã sống ở đây kể từ năm 2010." },
+            { "correct": "We have known each other for a long time.", "meaning": "Chúng tôi đã biết nhau trong một thời gian dài." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Doing homework",
+          "lines": [
+            { "speaker": "A", "en": "I have done my homework since 4 o'clock.", "vi": "Tớ đã làm bài tập về nhà kể từ lúc 4 giờ." },
+            { "speaker": "B", "en": "Have you finished it yet?", "vi": "Cậu đã hoàn thành nó chưa?" },
+            { "speaker": "A", "en": "Not yet. I must finish it by tomorrow.", "vi": "Chưa. Tớ phải hoàn thành nó trước lúc ngày mai." },
+            { "speaker": "B", "en": "You should study until dinner time.", "vi": "Cậu nên học cho đến lúc ăn tối." },
+            { "speaker": "A", "en": "Yes, then I will rest.", "vi": "Ừ, sau đó tớ sẽ nghỉ ngơi." },
+            { "speaker": "B", "en": "I'll wait for you until you finish.", "vi": "Tớ sẽ đợi cậu cho đến khi cậu học xong." }
+          ]
+        },
+        {
+          "title": "A project deadline",
+          "lines": [
+            { "speaker": "A", "en": "We must finish our school project by Friday.", "vi": "Chúng ta phải hoàn thành dự án của trường trước lúc thứ Sáu." },
+            { "speaker": "B", "en": "Yes, we have worked on it for two weeks.", "vi": "Ừ, chúng ta đã làm việc với nó được hai tuần rồi." },
+            { "speaker": "A", "en": "Can we meet at your house today?", "vi": "Hôm nay chúng ta có thể gặp nhau ở nhà cậu không?" },
+            { "speaker": "B", "en": "Sure. Let's work until 6 o'clock.", "vi": "Chắc chắn rồi. Hãy làm việc cho đến 6 giờ nhé." },
+            { "speaker": "A", "en": "Great. If we work hard, we will finish it soon.", "vi": "Tuyệt vời. Nếu chúng ta làm việc chăm chỉ, chúng ta sẽ sớm hoàn thành nó thôi." },
+            { "speaker": "B", "en": "I have felt tired since yesterday, but I will try my best.", "vi": "Tớ đã cảm thấy mệt kể từ hôm qua, nhưng tớ sẽ cố gắng hết sức." }
+          ]
+        }
+      ]
+    }
+  ]
+}

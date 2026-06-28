@@ -1,0 +1,30 @@
+[
+  {
+    "lessonOrder": 1,
+    "reading": [
+      {
+        "title": "Reading: A student card",
+        "passage": "Name: Anna Smith\nAge: 19\nNationality: British\nOccupation: Student\nAddress: 45 Green Street, London\nEmail: anna.smith@email.com",
+        "questions": [
+          { "type": "true_false_ng", "question": "Anna is 19 years old.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Thông tin \"Age: 19\" cho thấy điều này đúng." },
+          { "type": "true_false_ng", "question": "Anna is a teacher.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"Occupation: Student\" — Anna là sinh viên, không phải giáo viên." },
+          { "type": "true_false_ng", "question": "Anna has a brother.", "options": ["True", "False", "Not Given"], "correct": "Not Given", "explanation": "Đoạn văn không đề cập đến anh em của Anna." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "reading": [
+      {
+        "title": "Reading: My family",
+        "passage": "Hi, I'm Tom. This is my family. My father is a doctor and my mother is a nurse. I have one sister. Her name is Kate. We aren't a big family, but we are very happy.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Tom's father is a doctor.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Văn bản nói rõ \"My father is a doctor\"." },
+          { "type": "true_false_ng", "question": "Tom has two sisters.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Tom chỉ có một người em gái, Kate." },
+          { "type": "multiple_choice", "question": "What is Tom's mother's job?", "options": ["Teacher", "Nurse", "Student"], "correct": "Nurse", "explanation": "\"my mother is a nurse\"." }
+        ]
+      }
+    ]
+  }
+]

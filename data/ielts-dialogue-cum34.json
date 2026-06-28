@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 67,
+    "dialogue": [
+      {
+        "title": "Already done",
+        "lines": [
+          { "speaker": "Linh", "en": "Have you finished the report yet?", "vi": "Bạn đã làm xong báo cáo chưa?" },
+          { "speaker": "Mark", "en": "Yes, I have already finished it.", "vi": "Vâng, tôi đã làm xong rồi." },
+          { "speaker": "Linh", "en": "Has the store opened yet?", "vi": "Cửa hàng đã mở chưa?" },
+          { "speaker": "Mark", "en": "Yes, it has just opened a few minutes ago.", "vi": "Vâng, nó vừa mới mở vài phút trước." },
+          { "speaker": "Linh", "en": "Have they launched the new product yet?", "vi": "Họ đã ra mắt sản phẩm mới chưa?" },
+          { "speaker": "Mark", "en": "Not yet. They haven't launched it yet, but it's coming soon.", "vi": "Chưa. Họ chưa ra mắt, nhưng sắp tới rồi." }
+        ]
+      },
+      {
+        "title": "Just in time",
+        "lines": [
+          { "speaker": "Tom", "en": "Has the train arrived yet?", "vi": "Tàu đã đến chưa?" },
+          { "speaker": "Hoa", "en": "Yes, it has just arrived at the station.", "vi": "Vâng, nó vừa mới đến nhà ga." },
+          { "speaker": "Tom", "en": "Have you completed the form yet?", "vi": "Bạn đã hoàn thành mẫu đơn chưa?" },
+          { "speaker": "Hoa", "en": "I have already completed it and sent it.", "vi": "Tôi đã hoàn thành nó và gửi đi rồi." },
+          { "speaker": "Tom", "en": "Has the magazine published the article yet?", "vi": "Tạp chí đã đăng bài viết chưa?" },
+          { "speaker": "Hoa", "en": "Yes, they have just published it online.", "vi": "Vâng, họ vừa mới đăng nó trực tuyến." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "dialogue": [
+      {
+        "title": "How long have you...?",
+        "lines": [
+          { "speaker": "Sarah", "en": "How long have you lived in this city?", "vi": "Bạn đã sống ở thành phố này bao lâu rồi?" },
+          { "speaker": "Nam", "en": "I have lived here for ten years.", "vi": "Tôi đã sống ở đây mười năm rồi." },
+          { "speaker": "Sarah", "en": "Have you worked at this company since the beginning?", "vi": "Bạn đã làm việc ở công ty này từ đầu chứ?" },
+          { "speaker": "Nam", "en": "Yes, I have worked here since 2018.", "vi": "Vâng, tôi đã làm việc ở đây từ năm 2018." },
+          { "speaker": "Sarah", "en": "We haven't met for a long time.", "vi": "Chúng ta đã không gặp nhau một thời gian dài rồi." },
+          { "speaker": "Nam", "en": "I know. I have been busy for the last few months.", "vi": "Tôi biết. Tôi đã bận trong vài tháng qua." }
+        ]
+      },
+      {
+        "title": "Recent changes",
+        "lines": [
+          { "speaker": "Emma", "en": "Prices have increased a lot over the past decade.", "vi": "Giá cả đã tăng rất nhiều trong thập kỷ qua." },
+          { "speaker": "Duc", "en": "Yes, especially since last year.", "vi": "Vâng, đặc biệt từ năm ngoái." },
+          { "speaker": "Emma", "en": "This area hasn't changed much for a while.", "vi": "Khu vực này đã không thay đổi nhiều trong một thời gian." },
+          { "speaker": "Duc", "en": "Actually, it has changed a lot recently.", "vi": "Thực ra, nó đã thay đổi nhiều gần đây." },
+          { "speaker": "Emma", "en": "How long have prices been this high?", "vi": "Giá cả đã cao như vậy bao lâu rồi?" },
+          { "speaker": "Duc", "en": "They have been high since the beginning of this year.", "vi": "Chúng đã cao từ đầu năm nay." }
+        ]
+      }
+    ]
+  }
+]

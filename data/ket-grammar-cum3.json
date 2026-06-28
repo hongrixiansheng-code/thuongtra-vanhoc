@@ -1,0 +1,175 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 10,
+      "dialogue": [
+        {
+          "title": "Cooking a recipe",
+          "desc": "Nghe cuộc trò chuyện về nấu ăn.",
+          "characters": [
+            "Chef",
+            "Student"
+          ],
+          "lines": [
+            {
+              "speaker": "Student",
+              "vi": "Hôm nay chúng ta sẽ nấu món gì vậy, Bếp trưởng?",
+              "en": "What are we cooking today, Chef?"
+            },
+            {
+              "speaker": "Chef",
+              "vi": "Chúng ta sẽ làm món súp rau củ. Đầu tiên, hãy thái nhỏ hành tây và cà rốt.",
+              "en": "We are making a vegetable soup. First, chop the onions and carrots."
+            },
+            {
+              "speaker": "Student",
+              "vi": "Vâng. Tôi có nên đun sôi nước bây giờ không?",
+              "en": "Okay. Should I boil the water now?"
+            },
+            {
+              "speaker": "Chef",
+              "vi": "Có, hãy đun sôi nước và thêm một chút muối vào.",
+              "en": "Yes, boil the water and add some salt to it."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "grammar": [
+        {
+          "title": "Should / Shouldn't for advice",
+          "desc": "Sử dụng 'should' hoặc 'shouldn't' để đưa ra lời khuyên về sức khỏe.",
+          "formula": [
+            {
+              "text": "S + should + V",
+              "meaning": "Nên làm gì"
+            },
+            {
+              "text": "S + shouldn't + V",
+              "meaning": "Không nên làm gì"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "You look sick. You should go to the doctor.",
+              "meaning": "Trông bạn có vẻ ốm. Bạn nên đi gặp bác sĩ."
+            },
+            {
+              "correct": "He shouldn't eat too much fast food.",
+              "meaning": "Anh ấy không nên ăn quá nhiều đồ ăn nhanh."
+            },
+            {
+              "correct": "If you have a headache, you should rest.",
+              "meaning": "Nếu bạn bị đau đầu, bạn nên nghỉ ngơi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 12,
+      "dialogue": [
+        {
+          "title": "At the gym",
+          "desc": "Nghe cuộc trò chuyện tại phòng tập thể hình.",
+          "characters": [
+            "Trainer",
+            "Client"
+          ],
+          "lines": [
+            {
+              "speaker": "Client",
+              "vi": "Tôi muốn giảm cân và có một cơ thể cân đối.",
+              "en": "I want to lose weight and get fit."
+            },
+            {
+              "speaker": "Trainer",
+              "vi": "Tuyệt vời! Chúng ta sẽ bắt đầu bằng việc chạy bộ trên máy chạy bộ.",
+              "en": "Great! We will start with some running on the treadmill."
+            },
+            {
+              "speaker": "Client",
+              "vi": "Tôi tập yoga nữa có được không?",
+              "en": "Is it okay if I do yoga too?"
+            },
+            {
+              "speaker": "Trainer",
+              "vi": "Có, yoga rất tuyệt vời cho cơ thể của bạn. Hãy tập luyện hai lần một tuần.",
+              "en": "Yes, yoga is excellent for your body. Let's practice twice a week."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "grammar": [
+        {
+          "title": "Past Simple",
+          "desc": "Sử dụng Thì Quá khứ đơn để kể về chuyến đi trong quá khứ.",
+          "formula": [
+            {
+              "text": "S + V(ed / bất quy tắc)",
+              "meaning": "Diễn tả hành động đã kết thúc trong quá khứ"
+            },
+            {
+              "text": "S + didn't + V(inf)",
+              "meaning": "Câu phủ định quá khứ đơn"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We travelled to Paris last summer.",
+              "meaning": "Chúng tôi đã đi du lịch tới Paris vào mùa hè năm ngoái."
+            },
+            {
+              "correct": "I lost my passport at the airport.",
+              "meaning": "Tôi đã làm mất hộ chiếu của mình ở sân bay."
+            },
+            {
+              "correct": "She didn't take any photos on the trip.",
+              "meaning": "Cô ấy đã không chụp bức ảnh nào trong chuyến đi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "dialogue": [
+        {
+          "title": "Asking for directions",
+          "desc": "Nghe cuộc trò chuyện hỏi đường trên phố.",
+          "characters": [
+            "Tourist",
+            "Local"
+          ],
+          "lines": [
+            {
+              "speaker": "Tourist",
+              "vi": "Xin lỗi, bạn có thể chỉ cho tôi đường tới nhà ga xe lửa được không?",
+              "en": "Excuse me, could you tell me the way to the train station?"
+            },
+            {
+              "speaker": "Local",
+              "vi": "Chắc chắn rồi. Hãy đi thẳng, sau đó rẽ trái ở chỗ đèn giao thông.",
+              "en": "Sure. Go straight on, then turn left at the traffic lights."
+            },
+            {
+              "speaker": "Tourist",
+              "vi": "Nó có xa đây không?",
+              "en": "Is it far from here?"
+            },
+            {
+              "speaker": "Local",
+              "vi": "Không, chỉ mất khoảng mười phút đi bộ thôi. Nó nằm đối diện bảo tàng.",
+              "en": "No, it's just a ten-minute walk. It's opposite the museum."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

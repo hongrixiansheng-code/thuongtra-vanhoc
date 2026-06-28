@@ -1,0 +1,506 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 8,
+      "title": "Bài 4.a: Đồ ăn thức uống (1/2)",
+      "theme": "Đồ ăn thức uống",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "cheese",
+          "ipa": "/tʃiːz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phô mai",
+          "example_en": "I would like some cheese, please.",
+          "example_vi": "Cho tôi xin một ít phô mai."
+        },
+        {
+          "word": "coffee",
+          "ipa": "/ˈkɒfi/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cà phê",
+          "example_en": "My dad has got a coffee.",
+          "example_vi": "Bố tôi có một ly cà phê."
+        },
+        {
+          "word": "cold",
+          "ipa": "/koʊld/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "lạnh",
+          "example_en": "I would like a cold drink.",
+          "example_vi": "Cho tôi xin một đồ uống lạnh."
+        },
+        {
+          "word": "cup",
+          "ipa": "/kʌp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tách, cốc",
+          "example_en": "This is a cup of coffee.",
+          "example_vi": "Đây là một tách cà phê."
+        },
+        {
+          "word": "glass",
+          "ipa": "/ɡlɑːs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ly (thủy tinh)",
+          "example_en": "I would like a glass of milk.",
+          "example_vi": "Cho tôi xin một ly sữa."
+        },
+        {
+          "word": "milkshake",
+          "ipa": "/ˈmɪlkʃeɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sữa lắc",
+          "example_en": "I would like a milkshake, please.",
+          "example_vi": "Cho tôi xin một ly sữa lắc."
+        },
+        {
+          "word": "noodles",
+          "ipa": "/ˈnuːdlz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mì sợi",
+          "example_en": "I have got noodles for lunch.",
+          "example_vi": "Tôi có mì cho bữa trưa."
+        },
+        {
+          "word": "pancake",
+          "ipa": "/ˈpænkeɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh kếp",
+          "example_en": "I would like a pancake, please.",
+          "example_vi": "Cho tôi xin một chiếc bánh kếp."
+        },
+        {
+          "word": "pasta",
+          "ipa": "/ˈpæstə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mì Ý",
+          "example_en": "This pasta is good.",
+          "example_vi": "Món mì Ý này ngon."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "would like + danh từ: yêu cầu lịch sự",
+          "desc": "'would like' lịch sự hơn 'want', dùng khi gọi món hoặc đề nghị điều gì đó. Dạng rút gọn: I'd like.",
+          "formula": [
+            {
+              "text": "I/We",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "would like",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "a/an/some + noun",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I would like a pancake, please.",
+              "meaning": "Cho tôi xin một chiếc bánh kếp."
+            },
+            {
+              "correct": "We would like some cheese.",
+              "meaning": "Chúng tôi xin một ít phô mai."
+            },
+            {
+              "correct": "Would you like a milkshake?",
+              "meaning": "Bạn có muốn một ly sữa lắc không?"
+            }
+          ]
+        },
+        {
+          "title": "a cup/glass of + đồ uống",
+          "desc": "Dùng 'a cup of' (một tách) hoặc 'a glass of' (một ly) để chỉ lượng đồ uống cụ thể.",
+          "formula": [
+            {
+              "text": "a cup/glass of",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "+ drink",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "This is a cup of coffee.",
+              "meaning": "Đây là một tách cà phê."
+            },
+            {
+              "correct": "I would like a glass of milk.",
+              "meaning": "Cho tôi xin một ly sữa."
+            },
+            {
+              "correct": "Is this a cold drink?",
+              "meaning": "Đây có phải là đồ uống lạnh không?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + món ăn",
+          "desc": "Ôn cấu trúc 'have got' với các món ăn mới học.",
+          "formula": [
+            {
+              "text": "I",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "noodles/pasta/cheese",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got noodles and cheese for lunch.",
+              "meaning": "Tôi có mì và phô mai cho bữa trưa."
+            },
+            {
+              "correct": "This pasta is good.",
+              "meaning": "Món mì Ý này ngon."
+            },
+            {
+              "correct": "Have you got a cold drink?",
+              "meaning": "Bạn có đồ uống lạnh không?"
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the café",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Would you like a milkshake?",
+              "vi": "Bạn có muốn một ly sữa lắc không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, please. I would like a cold milkshake.",
+              "vi": "Có, làm ơn. Tôi muốn một ly sữa lắc lạnh."
+            },
+            {
+              "speaker": "A",
+              "en": "And I would like a cup of coffee.",
+              "vi": "Còn tôi xin một tách cà phê."
+            },
+            {
+              "speaker": "B",
+              "en": "Is there cheese here too?",
+              "vi": "Ở đây có phô mai không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes! And we have got pancakes.",
+              "vi": "Có! Và chúng tôi còn có bánh kếp."
+            },
+            {
+              "speaker": "B",
+              "en": "Brilliant! I would like a pancake too.",
+              "vi": "Tuyệt quá! Tôi cũng muốn một cái bánh kếp."
+            }
+          ]
+        },
+        {
+          "title": "Lunch time",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "What have you got for lunch?",
+              "vi": "Bạn có gì cho bữa trưa vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "I have got noodles and pasta.",
+              "vi": "Tớ có mì và mì Ý."
+            },
+            {
+              "speaker": "A",
+              "en": "Is the pasta good?",
+              "vi": "Mì Ý ngon không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, it is very good!",
+              "vi": "Có, ngon lắm!"
+            },
+            {
+              "speaker": "A",
+              "en": "I would like some noodles, please.",
+              "vi": "Cho tớ xin một ít mì."
+            },
+            {
+              "speaker": "B",
+              "en": "Here you are!",
+              "vi": "Của cậu đây!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "title": "Bài 4.b: Đồ ăn thức uống (2/2)",
+      "theme": "Đồ ăn thức uống",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "plate",
+          "ipa": "/pleɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái đĩa",
+          "example_en": "The sandwich is on the plate.",
+          "example_vi": "Bánh mì sandwich ở trên đĩa."
+        },
+        {
+          "word": "salad",
+          "ipa": "/ˈsæləd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "rau trộn, salad",
+          "example_en": "I would like some salad.",
+          "example_vi": "Cho tôi xin một ít salad."
+        },
+        {
+          "word": "sandwich",
+          "ipa": "/ˈsænwɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bánh mì kẹp",
+          "example_en": "I have got a sandwich for lunch.",
+          "example_vi": "Tôi có một cái bánh mì kẹp cho bữa trưa."
+        },
+        {
+          "word": "sauce",
+          "ipa": "/sɔːs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nước sốt",
+          "example_en": "I would like some sauce, please.",
+          "example_vi": "Cho tôi xin một ít nước sốt."
+        },
+        {
+          "word": "soup",
+          "ipa": "/suːp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "súp",
+          "example_en": "This soup is hot.",
+          "example_vi": "Bát súp này nóng."
+        },
+        {
+          "word": "tea",
+          "ipa": "/tiː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trà",
+          "example_en": "I would like a cup of tea.",
+          "example_vi": "Cho tôi xin một tách trà."
+        },
+        {
+          "word": "vegetable",
+          "ipa": "/ˈvedʒtəbl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "rau củ",
+          "example_en": "The salad has got vegetables.",
+          "example_vi": "Salad có rau củ."
+        },
+        {
+          "word": "bowl",
+          "ipa": "/boʊl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái tô, bát",
+          "example_en": "The soup is in a bowl.",
+          "example_vi": "Súp ở trong cái tô."
+        },
+        {
+          "word": "bottle",
+          "ipa": "/ˈbɒtl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chai",
+          "example_en": "I would like a bottle of water.",
+          "example_vi": "Cho tôi xin một chai nước."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "How much + danh từ không đếm được?",
+          "desc": "'How much' dùng để hỏi SỐ LƯỢNG với danh từ không đếm được (soup, sauce, salad...).",
+          "formula": [
+            {
+              "text": "How much",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "soup/sauce/salad",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "do you want?",
+              "classes": "border-orange-200 bg-orange-50 text-orange-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "How much soup do you want?",
+              "meaning": "Bạn muốn bao nhiêu súp?"
+            },
+            {
+              "correct": "How much sauce is on the plate?",
+              "meaning": "Có bao nhiêu nước sốt trên đĩa vậy?"
+            },
+            {
+              "correct": "How much tea do you want?",
+              "meaning": "Bạn muốn bao nhiêu trà?"
+            }
+          ]
+        },
+        {
+          "title": "in a bowl/on a plate: vật đựng thức ăn",
+          "desc": "Dùng 'in' với vật đựng dạng kín (bowl, bottle) và 'on' với vật đựng dạng phẳng (plate).",
+          "formula": [
+            {
+              "text": "food",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "in a bowl / on a plate",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The soup is in a bowl.",
+              "meaning": "Súp ở trong cái tô."
+            },
+            {
+              "correct": "The sandwich is on a plate.",
+              "meaning": "Bánh mì kẹp ở trên đĩa."
+            },
+            {
+              "correct": "I have got a bottle of water.",
+              "meaning": "Tôi có một chai nước."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 3: Đồ ăn thức uống",
+          "desc": "Kết hợp would like, how much, in/on với toàn bộ từ vựng đồ ăn thức uống đã học.",
+          "formula": [
+            {
+              "text": "Tổng hợp Bài 4.a-4.b",
+              "classes": "border-indigo-200 bg-indigo-50 text-indigo-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I would like a sandwich and some salad, please.",
+              "meaning": "Cho tôi xin một cái bánh mì kẹp và một ít salad."
+            },
+            {
+              "correct": "How much soup is in the bowl?",
+              "meaning": "Trong tô có bao nhiêu súp vậy?"
+            },
+            {
+              "correct": "The vegetables are on the plate.",
+              "meaning": "Rau củ ở trên đĩa."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Making a sandwich",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "What is on the plate?",
+              "vi": "Trên đĩa có gì vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "A sandwich and some vegetables.",
+              "vi": "Một cái bánh mì kẹp và một ít rau củ."
+            },
+            {
+              "speaker": "A",
+              "en": "How much sauce do you want?",
+              "vi": "Cậu muốn bao nhiêu nước sốt?"
+            },
+            {
+              "speaker": "B",
+              "en": "Not a lot of sauce, please.",
+              "vi": "Đừng cho nhiều nước sốt quá nhé."
+            },
+            {
+              "speaker": "A",
+              "en": "Would you like some salad too?",
+              "vi": "Cậu có muốn thêm ít salad không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, please. I would like a little salad.",
+              "vi": "Có, làm ơn. Cho tớ một ít salad."
+            }
+          ]
+        },
+        {
+          "title": "Hot soup",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "This soup is hot!",
+              "vi": "Bát súp này nóng quá!"
+            },
+            {
+              "speaker": "B",
+              "en": "How much soup is in the bowl?",
+              "vi": "Trong tô có bao nhiêu súp vậy?"
+            },
+            {
+              "speaker": "A",
+              "en": "A lot of soup!",
+              "vi": "Nhiều súp lắm!"
+            },
+            {
+              "speaker": "B",
+              "en": "I would like a bottle of water too.",
+              "vi": "Tớ cũng muốn một chai nước nữa."
+            },
+            {
+              "speaker": "A",
+              "en": "And a cup of tea?",
+              "vi": "Còn một tách trà nữa nhỉ?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, please!",
+              "vi": "Có, làm ơn!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

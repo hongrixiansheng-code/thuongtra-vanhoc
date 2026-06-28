@@ -1,0 +1,111 @@
+[
+  {
+    "lessonOrder": 45,
+    "vocab": [
+      {
+        "word": "then",
+        "ipa": "/ðen/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sau đó",
+        "example_en": "Then we went home.",
+        "example_vi": "Sau đó chúng tôi đã về nhà.",
+        "level": "A2"
+      },
+      {
+        "word": "later",
+        "ipa": "/ˈleɪ.tər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "muộn hơn, sau này",
+        "example_en": "See you later.",
+        "example_vi": "Hẹn gặp bạn sau.",
+        "level": "A2"
+      },
+      {
+        "word": "after",
+        "ipa": "/ˈɑːf.tər/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "sau khi",
+        "example_en": "After the game, we ate.",
+        "example_vi": "Sau trận đấu, chúng tôi đã ăn.",
+        "level": "A2"
+      },
+      {
+        "word": "before",
+        "ipa": "/bɪˈfɔːr/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "trước khi",
+        "example_en": "Before the game, we slept.",
+        "example_vi": "Trước trận đấu, chúng tôi đã ngủ.",
+        "level": "A2"
+      },
+      {
+        "word": "next",
+        "ipa": "/nekst/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "tiếp theo",
+        "example_en": "What happened next?",
+        "example_vi": "Chuyện gì đã xảy ra tiếp theo?",
+        "level": "A2"
+      },
+      {
+        "word": "finally",
+        "ipa": "/ˈfaɪ.nəl.i/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "cuối cùng",
+        "example_en": "Finally, we arrived.",
+        "example_vi": "Cuối cùng, chúng tôi đã tới nơi.",
+        "level": "A2"
+      },
+      {
+        "word": "suddenly",
+        "ipa": "/ˈsʌd.ən.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "đột nhiên",
+        "example_en": "Suddenly, he cried.",
+        "example_vi": "Đột nhiên, anh ấy đã khóc.",
+        "level": "A2"
+      },
+      {
+        "word": "immediately",
+        "ipa": "/ɪˈmiː.di.ət.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "ngay lập tức",
+        "example_en": "He left immediately.",
+        "example_vi": "Anh ấy đã rời đi ngay lập tức.",
+        "level": "A2"
+      },
+      {
+        "word": "soon",
+        "ipa": "/suːn/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sớm",
+        "example_en": "See you soon.",
+        "example_vi": "Hẹn sớm gặp lại bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "early",
+        "ipa": "/ˈɜː.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sớm",
+        "example_en": "We arrived early.",
+        "example_vi": "Chúng tôi đã đến sớm.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "vocab": []
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 7,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Your neighbourhood",
+        "part": 1,
+        "questions": ["Is there a supermarket near your home?", "Is there a hospital in your neighbourhood?", "Do you like your neighbourhood?"],
+        "sampleAnswer": "Yes, there is a supermarket on the corner near my home. There is also a hospital next to the school. I like my neighbourhood because it is convenient."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Places nearby",
+        "part": 1,
+        "questions": ["Where is the nearest pharmacy?", "Is there a cinema near your house?", "Do you often go to a café near your home?"],
+        "sampleAnswer": "The nearest pharmacy is next to the post office. Yes, there is a cinema opposite the market. I often go to a café between the bank and the bookshop."
+      }
+    ]
+  }
+]

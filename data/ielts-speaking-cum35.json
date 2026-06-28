@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 69,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe an experience",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a place you have visited.",
+          "bullets": ["where it is", "when you visited it (give a specific time)", "what you did there", "and explain why you have good memories of it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I have visited Hue before. I visited it last summer, with my family. We explored the old citadel and tried local food. I have good memories of it because we spent quality time together."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Discussing processes",
+        "part": 3,
+        "questions": ["How is rice produced in your country?", "How are products packaged before they are sold?", "Why is recycling important in production?"],
+        "sampleAnswer": "Rice is grown in the fields, then it is processed and packaged. Products are usually packaged in factories before they are delivered to shops. Recycling is important because it reduces waste in the production process."
+      }
+    ]
+  }
+]

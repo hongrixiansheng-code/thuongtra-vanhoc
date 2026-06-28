@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 53,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Urban vs rural life",
+        "part": 3,
+        "questions": ["Do you prefer living in a city or in the countryside?", "Is the countryside more peaceful than the city?", "What problems do crowded cities face?"],
+        "sampleAnswer": "I prefer the countryside because it's more peaceful than the city. Crowded cities often face problems like pollution and heavy traffic."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Predicting city growth",
+        "part": 3,
+        "questions": ["Do you think your city will grow bigger in the future?", "Will rural areas become less popular?", "What changes do you expect in the next ten years?"],
+        "sampleAnswer": "Yes, I think my city will grow bigger in the future. Rural areas might become less popular as people migrate to cities for work. In ten years, I expect more buildings and more traffic."
+      }
+    ]
+  }
+]

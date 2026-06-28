@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "grammar": [
+        {
+          "title": "should / shouldn't: nên / không nên",
+          "desc": "Dùng 'should' để khuyên ai đó nên làm gì, và 'shouldn't' (should not) để khuyên không nên làm gì.",
+          "formula": [
+            { "text": "I/You/He", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "should / shouldn't", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "động từ nguyên mẫu", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "You should eat vegetables.", "meaning": "Bạn nên ăn rau củ." },
+            { "correct": "He shouldn't go to bed late.", "meaning": "Cậu ấy không nên đi ngủ trễ." },
+            { "correct": "We should help our parents.", "meaning": "Chúng ta nên giúp đỡ bố mẹ." }
+          ]
+        },
+        {
+          "title": "have got: có (về bộ phận cơ thể)",
+          "desc": "Ôn tập cách dùng 'have got' hoặc 'has got' để nói về các bộ phận trên cơ thể của ai đó.",
+          "formula": [
+            { "text": "He/She", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "has got", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "a bad knee", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "My grandpa has got bad knees.", "meaning": "Ông của tớ có đôi đầu gối yếu." },
+            { "correct": "I have got a pain in my elbow.", "meaning": "Tớ bị đau ở khuỷu tay." },
+            { "correct": "She has got ten little toes.", "meaning": "Cô bé có mười ngón chân nhỏ xíu." }
+          ]
+        },
+        {
+          "title": "Whose...?: Của ai...?",
+          "desc": "Dùng 'Whose' ở đầu câu để hỏi xem đồ vật nào đó là của ai. Lưu ý dùng sở hữu cách ('s).",
+          "formula": [
+            { "text": "Whose book", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+            { "text": "is this?", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "It's Mary's.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "Whose bag is this?", "meaning": "Cái túi này là của ai?" },
+            { "correct": "It is David's bag.", "meaning": "Nó là cái túi của David." },
+            { "correct": "Whose shoes are they?", "meaning": "Những chiếc giày kia là của ai?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "My grandpa's knee",
+          "lines": [
+            { "speaker": "Mary", "en": "Hi Jack! Why are you sad?", "vi": "Chào Jack! Sao cậu lại buồn vậy?" },
+            { "speaker": "Jack", "en": "My grandpa has got a bad knee.", "vi": "Ông của tớ bị đau đầu gối." },
+            { "speaker": "Mary", "en": "Oh no! He should rest at home.", "vi": "Ôi không! Ông ấy nên nghỉ ngơi ở nhà." },
+            { "speaker": "Jack", "en": "Yes, he shouldn't walk too much.", "vi": "Đúng vậy, ông không nên đi bộ quá nhiều." },
+            { "speaker": "Mary", "en": "Whose walking stick is this?", "vi": "Cây gậy đi bộ này là của ai vậy?" },
+            { "speaker": "Jack", "en": "It's his. I will bring it to him.", "vi": "Đó là của ông. Tớ sẽ mang nó đến cho ông." }
+          ]
+        },
+        {
+          "title": "A pain in my toe",
+          "lines": [
+            { "speaker": "Charlie", "en": "Ouch! I hurt my toe.", "vi": "Á! Tớ làm đau ngón chân của tớ rồi." },
+            { "speaker": "Betty", "en": "What happened, Charlie?", "vi": "Có chuyện gì vậy, Charlie?" },
+            { "speaker": "Charlie", "en": "I dropped a heavy book on it.", "vi": "Tớ làm rơi một quyển sách nặng lên nó." },
+            { "speaker": "Betty", "en": "You should be more careful.", "vi": "Cậu nên cẩn thận hơn." },
+            { "speaker": "Charlie", "en": "Yes, my toe is red now.", "vi": "Ừ, bây giờ ngón chân tớ bị đỏ lên rồi." },
+            { "speaker": "Betty", "en": "You shouldn't run today.", "vi": "Cậu không nên chạy nhảy ngày hôm nay." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "grammar": [
+        {
+          "title": "may / might: có lẽ, có thể",
+          "desc": "Dùng 'may' hoặc 'might' để nói về một khả năng có thể xảy ra nhưng bạn không chắc chắn. 'Might' mang nghĩa ít chắc chắn hơn 'may'.",
+          "formula": [
+            { "text": "He/She", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "may / might", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "động từ nguyên mẫu", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I may stay at home today.", "meaning": "Tôi có thể sẽ ở nhà hôm nay." },
+            { "correct": "He might have a cold.", "meaning": "Cậu ấy có lẽ đã bị cảm lạnh." },
+            { "correct": "It may rain this afternoon.", "meaning": "Trời có thể sẽ mưa vào chiều nay." }
+          ]
+        },
+        {
+          "title": "should (ôn tập): đưa ra lời khuyên",
+          "desc": "Dùng 'should' để khuyên nhủ ai đó, đặc biệt là khi họ đang có vấn đề về sức khỏe.",
+          "formula": [
+            { "text": "You", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "should", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "see a doctor.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "You should see a doctor.", "meaning": "Bạn nên đi gặp bác sĩ." },
+            { "correct": "She should drink warm water.", "meaning": "Cô ấy nên uống nước ấm." },
+            { "correct": "You should rest in bed.", "meaning": "Bạn nên nghỉ ngơi trên giường." }
+          ]
+        },
+        {
+          "title": "must / have to: bắt buộc phải",
+          "desc": "Ôn tập cách dùng 'must' và 'have to' để nói về điều bắt buộc phải làm để bảo vệ sức khỏe.",
+          "formula": [
+            { "text": "You", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "must / have to", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "take medicine.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I must take my medicine.", "meaning": "Tôi phải uống thuốc của mình." },
+            { "correct": "You have to wear a coat.", "meaning": "Bạn phải mặc áo khoác vào." },
+            { "correct": "He must sleep early tonight.", "meaning": "Tối nay cậu ấy phải đi ngủ sớm." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Feeling unwell",
+          "lines": [
+            { "speaker": "David", "en": "I have a terrible headache.", "vi": "Tớ bị đau đầu dữ dội quá." },
+            { "speaker": "Emma", "en": "You may have a high temperature.", "vi": "Cậu có thể đã bị sốt cao rồi." },
+            { "speaker": "David", "en": "Yes, I feel very hot.", "vi": "Ừ, tớ cảm thấy rất nóng." },
+            { "speaker": "Emma", "en": "You should see a doctor right now.", "vi": "Cậu nên đi gặp bác sĩ ngay bây giờ." },
+            { "speaker": "David", "en": "I know. I must go to the hospital.", "vi": "Tớ biết. Tớ phải đi đến bệnh viện." },
+            { "speaker": "Emma", "en": "I might go with you to help.", "vi": "Tớ có thể sẽ đi cùng để giúp cậu." }
+          ]
+        },
+        {
+          "title": "A stomachache",
+          "lines": [
+            { "speaker": "Oliver", "en": "Mom, I have a stomachache.", "vi": "Mẹ ơi, con bị đau bụng." },
+            { "speaker": "Mom", "en": "You shouldn't eat too much pizza.", "vi": "Con không nên ăn quá nhiều bánh pizza." },
+            { "speaker": "Oliver", "en": "But it was very delicious!", "vi": "Nhưng nó rất ngon mà!" },
+            { "speaker": "Mom", "en": "Now you have to take this medicine.", "vi": "Bây giờ con phải uống thuốc này." },
+            { "speaker": "Oliver", "en": "Will I get better soon?", "vi": "Con sẽ mau khỏe chứ ạ?" },
+            { "speaker": "Mom", "en": "Yes, you might feel better tomorrow.", "vi": "Ừ, có lẽ ngày mai con sẽ thấy khỏe hơn." }
+          ]
+        }
+      ]
+    }
+  ]
+}

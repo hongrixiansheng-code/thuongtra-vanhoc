@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 32,
+      "grammar": [
+        {
+          "title": "Cụm lấp đầy (Fillers)",
+          "desc": "Dùng để kéo dài thời gian suy nghĩ trong hội thoại mà không làm ngắt quãng câu chuyện.",
+          "formula": [
+            {
+              "text": "Well / Actually / What I mean is / You know",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Well, actually, I don't agree.",
+              "meaning": "À thực ra thì, tôi không đồng ý."
+            },
+            {
+              "correct": "What I mean is, it's too expensive.",
+              "meaning": "Ý tôi là, nó quá đắt."
+            },
+            {
+              "correct": "You know, it's not that simple.",
+              "meaning": "Bạn biết đấy, chuyện đó không đơn giản vậy đâu."
+            },
+            {
+              "correct": "Let me think about it.",
+              "meaning": "Hãy để tôi suy nghĩ về chuyện đó."
+            }
+          ]
+        },
+        {
+          "title": "Tag questions trong hội thoại",
+          "desc": "Lên giọng ở câu hỏi đuôi để hỏi thật, xuống giọng để tìm kiếm sự đồng tình/xác nhận.",
+          "formula": [
+            {
+              "text": "Statement, auxiliary + pronoun?",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "You are coming, aren't you?",
+              "meaning": "Bạn sẽ đến mà, phải không?"
+            },
+            {
+              "correct": "It's a beautiful day, isn't it?",
+              "meaning": "Trời hôm nay thật đẹp, phải không nào?"
+            },
+            {
+              "correct": "You don't like coffee, do you?",
+              "meaning": "Bạn không thích cà phê, đúng không?"
+            },
+            {
+              "correct": "She has finished, hasn't she?",
+              "meaning": "Cô ấy đã xong rồi, đúng chứ?"
+            }
+          ]
+        },
+        {
+          "title": "Reported speech trong bài nghe",
+          "desc": "Chú ý nghe cách người nói tường thuật lại lời người khác (dùng thì lùi) để hiểu đúng thông tin gián tiếp.",
+          "formula": [
+            {
+              "text": "S + said (that) + S + V(lùi thì)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The speaker said he was tired.",
+              "meaning": "Người nói bảo rằng ông ấy đang mệt."
+            },
+            {
+              "correct": "She told the interviewer she wanted to change her job.",
+              "meaning": "Cô ấy nói với người phỏng vấn rằng cô muốn đổi việc."
+            },
+            {
+              "correct": "He asked if there were any questions.",
+              "meaning": "Ông ấy hỏi xem có câu hỏi nào không."
+            },
+            {
+              "correct": "They said they had enjoyed the trip.",
+              "meaning": "Họ nói rằng họ đã rất tận hưởng chuyến đi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 33,
+      "grammar": [
+        {
+          "title": "Diễn đạt ý kiến speaking B1",
+          "desc": "Sử dụng các mẫu câu tự nhiên hơn để trình bày quan điểm trong bài thi Nói.",
+          "formula": [
+            {
+              "text": "I'd say that / In my view / Personally",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I'd say that it's a great idea.",
+              "meaning": "Tôi cho rằng đó là một ý tưởng tuyệt vời."
+            },
+            {
+              "correct": "In my view, we should start immediately.",
+              "meaning": "Theo góc nhìn của tôi, chúng ta nên bắt đầu ngay."
+            },
+            {
+              "correct": "As far as I'm concerned, it's perfect.",
+              "meaning": "Theo như tôi thấy thì nó quá hoàn hảo."
+            },
+            {
+              "correct": "Personally, I think it's a mistake.",
+              "meaning": "Cá nhân tôi cho rằng đó là một sai lầm."
+            }
+          ]
+        },
+        {
+          "title": "Trả lời mở rộng",
+          "desc": "Luôn đưa ra lý do (because) và ví dụ (for example) khi trả lời các câu hỏi nêu ý kiến.",
+          "formula": [
+            {
+              "text": "Idea + Because... + For example...",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I like reading because it relaxes me.",
+              "meaning": "Tôi thích đọc sách vì nó giúp tôi thư giãn."
+            },
+            {
+              "correct": "For example, I read a lot of novels.",
+              "meaning": "Ví dụ như, tôi đọc rất nhiều tiểu thuyết."
+            },
+            {
+              "correct": "I agree because it saves money.",
+              "meaning": "Tôi đồng ý vì nó giúp tiết kiệm tiền."
+            },
+            {
+              "correct": "To give you an example, I usually wake up early.",
+              "meaning": "Đưa ra cho bạn một ví dụ nhé, tôi thường thức dậy sớm."
+            }
+          ]
+        },
+        {
+          "title": "Đề xuất trong speaking",
+          "desc": "Cách đưa ra gợi ý, đề xuất cho nhóm thảo luận.",
+          "formula": [
+            {
+              "text": "Why don't we / How about / Let's",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Why don't we go to the beach?",
+              "meaning": "Tại sao chúng ta không đi biển nhỉ?"
+            },
+            {
+              "correct": "How about watching a movie?",
+              "meaning": "Xem một bộ phim thì sao?"
+            },
+            {
+              "correct": "What if we start tomorrow?",
+              "meaning": "Sẽ thế nào nếu chúng ta bắt đầu vào ngày mai?"
+            },
+            {
+              "correct": "Let's order some pizza.",
+              "meaning": "Chúng ta hãy đặt pizza đi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

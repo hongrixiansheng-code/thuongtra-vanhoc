@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 43,
+    "listening": [
+      {
+        "title": "Listening: Learning English",
+        "transcript": "I started learning English when I was ten years old. I wanted to travel one day. I studied for about five hours every week.",
+        "questions": [
+          { "type": "form_completion", "question": "Started learning English at age: ___", "options": ["eight", "ten", "twelve"], "correct": "ten", "explanation": "\"I started learning English when I was ten years old.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "listening": [
+      {
+        "title": "Listening: Explaining what happened",
+        "transcript": "I didn't go to the meeting yesterday. I didn't have any time. I told my manager, but he wasn't angry about it.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Was the manager angry?", "options": ["Yes, very", "No, he wasn't", "Not given"], "correct": "No, he wasn't", "explanation": "\"he wasn't angry about it.\"" }
+        ]
+      }
+    ]
+  }
+]

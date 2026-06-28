@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 13,
+    "dialogue": [
+      {
+        "title": "Following a recipe",
+        "lines": [
+          { "speaker": "Phuong", "en": "First, add the sugar. Then mix it well.", "vi": "Đầu tiên, thêm đường vào. Sau đó trộn đều." },
+          { "speaker": "Anna", "en": "Okay. What's next?", "vi": "Được rồi. Tiếp theo là gì?" },
+          { "speaker": "Phuong", "en": "Turn on the oven and check it after ten minutes.", "vi": "Bật lò lên và kiểm tra sau mười phút." },
+          { "speaker": "Anna", "en": "Should I press this button now?", "vi": "Tôi nên nhấn nút này ngay không?" },
+          { "speaker": "Phuong", "en": "Yes, press it, then follow the next steps.", "vi": "Vâng, nhấn nó, rồi làm theo các bước tiếp theo." },
+          { "speaker": "Anna", "en": "Okay, I will follow your instructions.", "vi": "Được rồi, tôi sẽ làm theo hướng dẫn của bạn." }
+        ]
+      },
+      {
+        "title": "Filling out a form",
+        "lines": [
+          { "speaker": "Phuong", "en": "Please fill in your name here, then sign at the bottom.", "vi": "Vui lòng điền tên của bạn vào đây, sau đó ký ở dưới." },
+          { "speaker": "Anna", "en": "Okay. Should I enter my email too?", "vi": "Được rồi. Tôi có nên điền email không?" },
+          { "speaker": "Phuong", "en": "Yes, please. Press the green button when you finish.", "vi": "Vâng, làm ơn. Nhấn nút xanh khi bạn xong." },
+          { "speaker": "Anna", "en": "What about this second page?", "vi": "Còn trang thứ hai này thì sao?" },
+          { "speaker": "Phuong", "en": "Check the boxes, then click submit.", "vi": "Đánh dấu vào các ô, rồi nhấn gửi." },
+          { "speaker": "Anna", "en": "Thank you, I understand now.", "vi": "Cảm ơn, giờ tôi hiểu rồi." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "dialogue": [
+      {
+        "title": "Describing the weather",
+        "lines": [
+          { "speaker": "Phuong", "en": "It's very hot today.", "vi": "Hôm nay nóng quá." },
+          { "speaker": "Anna", "en": "Yes, but it was cold and wet yesterday.", "vi": "Đúng, nhưng hôm qua lạnh và ẩm." },
+          { "speaker": "Phuong", "en": "I prefer a warm, dry day.", "vi": "Tôi thích một ngày ấm và khô hơn." },
+          { "speaker": "Anna", "en": "Me too. Hot days are quite uncomfortable.", "vi": "Tôi cũng vậy. Những ngày nóng khá khó chịu." },
+          { "speaker": "Phuong", "en": "Tomorrow will be cooler, I think.", "vi": "Tôi nghĩ ngày mai sẽ mát hơn." },
+          { "speaker": "Anna", "en": "I hope so. This heat is too much.", "vi": "Tôi cũng hy vọng vậy. Cái nóng này quá nhiều rồi." }
+        ]
+      },
+      {
+        "title": "In the library",
+        "lines": [
+          { "speaker": "Phuong", "en": "This room is so loud.", "vi": "Phòng này ồn quá." },
+          { "speaker": "Anna", "en": "Let's go to the quiet room. It's clean and comfortable there.", "vi": "Mình đi đến phòng yên tĩnh đi. Ở đó sạch và thoải mái." },
+          { "speaker": "Phuong", "en": "Good idea. This room is also a bit dirty.", "vi": "Ý hay. Phòng này cũng hơi bẩn nữa." },
+          { "speaker": "Anna", "en": "Yes, the quiet room is much cleaner.", "vi": "Đúng, phòng yên tĩnh sạch hơn nhiều." },
+          { "speaker": "Phuong", "en": "Is it warm enough in there?", "vi": "Trong đó có đủ ấm không?" },
+          { "speaker": "Anna", "en": "Yes, it's warm and very comfortable.", "vi": "Có, nó ấm và rất thoải mái." }
+        ]
+      }
+    ]
+  }
+]

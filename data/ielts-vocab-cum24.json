@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 47,
+    "vocab": [
+      {
+        "word": "will",
+        "ipa": "/wɪl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sẽ",
+        "example_en": "I will go tomorrow.",
+        "example_vi": "Tôi sẽ đi vào ngày mai.",
+        "level": "A2"
+      },
+      {
+        "word": "won't",
+        "ipa": "/wəʊnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sẽ không",
+        "example_en": "I won't eat fish.",
+        "example_vi": "Tôi sẽ không ăn cá.",
+        "level": "A2"
+      },
+      {
+        "word": "probably",
+        "ipa": "/ˈprɒb.ə.bli/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "có lẽ",
+        "example_en": "He will probably come.",
+        "example_vi": "Có lẽ anh ấy sẽ đến.",
+        "level": "A2"
+      },
+      {
+        "word": "maybe",
+        "ipa": "/ˈmeɪ.bi/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "có thể",
+        "example_en": "Maybe she is busy.",
+        "example_vi": "Có thể cô ấy bận.",
+        "level": "A2"
+      },
+      {
+        "word": "perhaps",
+        "ipa": "/pəˈhæps/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "có lẽ",
+        "example_en": "Perhaps it will rain.",
+        "example_vi": "Có lẽ trời sẽ mưa.",
+        "level": "A2"
+      },
+      {
+        "word": "think",
+        "ipa": "/θɪŋk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghĩ",
+        "example_en": "I think it will rain.",
+        "example_vi": "Tôi nghĩ trời sẽ mưa.",
+        "level": "A2"
+      },
+      {
+        "word": "hope",
+        "ipa": "/həʊp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hi vọng",
+        "example_en": "I hope you win.",
+        "example_vi": "Tôi hi vọng bạn thắng.",
+        "level": "A2"
+      },
+      {
+        "word": "expect",
+        "ipa": "/ɪkˈspekt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mong đợi",
+        "example_en": "I expect him soon.",
+        "example_vi": "Tôi mong đợi anh ấy sẽ đến sớm.",
+        "level": "A2"
+      },
+      {
+        "word": "predict",
+        "ipa": "/prɪˈdɪkt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dự đoán",
+        "example_en": "He predicted the rain.",
+        "example_vi": "Anh ấy đã dự đoán trời mưa.",
+        "level": "A2"
+      },
+      {
+        "word": "future",
+        "ipa": "/ˈfjuː.tʃər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tương lai",
+        "example_en": "In the future, I will travel.",
+        "example_vi": "Trong tương lai, tôi sẽ đi du lịch.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "vocab": [
+      {
+        "word": "going to",
+        "ipa": "/ˈɡəʊ.ɪŋ tuː/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "sắp, dự định",
+        "example_en": "I am going to read.",
+        "example_vi": "Tôi dự định sẽ đọc sách.",
+        "level": "A2"
+      },
+      {
+        "word": "plan",
+        "ipa": "/plæn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lên kế hoạch",
+        "example_en": "We plan to travel.",
+        "example_vi": "Chúng tôi lên kế hoạch đi du lịch.",
+        "level": "A2"
+      },
+      {
+        "word": "intend",
+        "ipa": "/ɪnˈtend/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "định, dự định",
+        "example_en": "I intend to study.",
+        "example_vi": "Tôi dự định học.",
+        "level": "A2"
+      },
+      {
+        "word": "aim",
+        "ipa": "/eɪm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mục đích, hướng tới",
+        "example_en": "We aim to win.",
+        "example_vi": "Chúng tôi hướng tới chiến thắng.",
+        "level": "A2"
+      },
+      {
+        "word": "want",
+        "ipa": "/wɒnt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "muốn",
+        "example_en": "I want to go.",
+        "example_vi": "Tôi muốn đi.",
+        "level": "A2"
+      },
+      {
+        "word": "decide",
+        "ipa": "/dɪˈsaɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "quyết định",
+        "example_en": "He decided to leave.",
+        "example_vi": "Anh ấy đã quyết định rời đi.",
+        "level": "A2"
+      },
+      {
+        "word": "choose",
+        "ipa": "/tʃuːz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chọn",
+        "example_en": "I choose this book.",
+        "example_vi": "Tôi chọn cuốn sách này.",
+        "level": "A2"
+      },
+      {
+        "word": "arrange",
+        "ipa": "/əˈreɪndʒ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sắp xếp",
+        "example_en": "They arranged a meeting.",
+        "example_vi": "Họ đã sắp xếp một cuộc họp.",
+        "level": "A2"
+      },
+      {
+        "word": "prepare",
+        "ipa": "/prɪˈpeər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chuẩn bị",
+        "example_en": "Prepare the food.",
+        "example_vi": "Chuẩn bị đồ ăn đi.",
+        "level": "A2"
+      },
+      {
+        "word": "ready",
+        "ipa": "/ˈred.i/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "sẵn sàng",
+        "example_en": "Are you ready?",
+        "example_vi": "Bạn đã sẵn sàng chưa?",
+        "level": "A2"
+      }
+    ]
+  }
+]

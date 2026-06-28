@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 34,
+      "grammar": [
+        {
+          "title": "spend + time + V-ing: dành thời gian làm gì",
+          "desc": "Dùng 'spend' cộng với khoảng thời gian và một động từ thêm '-ing' để nói bạn dành bao nhiêu thời gian cho một việc nào đó.",
+          "formula": [
+            { "text": "I spend", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "two hours", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "reading.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I spend an hour playing chess.", "meaning": "Tớ dành một giờ đồng hồ để chơi cờ vua." },
+            { "correct": "She spent two hours watching TV.", "meaning": "Cô ấy đã dành hai giờ để xem TV." },
+            { "correct": "We spend a lot of time studying.", "meaning": "Chúng tôi dành rất nhiều thời gian để học tập." }
+          ]
+        },
+        {
+          "title": "keep + V-ing: tiếp tục làm gì",
+          "desc": "Dùng 'keep' cộng với một động từ thêm '-ing' để nói về việc bạn vẫn tiếp tục làm một hành động nào đó không ngừng lại.",
+          "formula": [
+            { "text": "He", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "keeps", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "running.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "She keeps talking during the lesson.", "meaning": "Cô ấy cứ tiếp tục nói chuyện trong suốt tiết học." },
+            { "correct": "Please keep trying.", "meaning": "Làm ơn hãy tiếp tục cố gắng." },
+            { "correct": "It kept raining all day.", "meaning": "Trời đã tiếp tục mưa suốt cả ngày." }
+          ]
+        },
+        {
+          "title": "start / stop + V-ing (Ôn tập)",
+          "desc": "Theo sau các từ 'start' (bắt đầu) hoặc 'stop' (dừng lại) thường là một động từ thêm đuôi '-ing'.",
+          "formula": [
+            { "text": "It", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "stopped", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "snowing.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "It started raining yesterday.", "meaning": "Trời đã bắt đầu mưa vào hôm qua." },
+            { "correct": "Please stop making noise.", "meaning": "Làm ơn hãy dừng việc làm ồn lại." },
+            { "correct": "I will start learning Spanish.", "meaning": "Tớ sẽ bắt đầu học tiếng Tây Ban Nha." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A lazy day",
+          "lines": [
+            { "speaker": "A", "en": "What did you do yesterday?", "vi": "Hôm qua cậu đã làm gì vậy?" },
+            { "speaker": "B", "en": "I spent three hours watching cartoons.", "vi": "Tớ đã dành ba giờ để xem phim hoạt hình." },
+            { "speaker": "A", "en": "You should stop watching too much TV.", "vi": "Cậu nên dừng việc xem TV quá nhiều lại." },
+            { "speaker": "B", "en": "I know, but it kept raining all day.", "vi": "Tớ biết, nhưng trời cứ tiếp tục mưa cả ngày." },
+            { "speaker": "A", "en": "Did you start reading your new book?", "vi": "Cậu đã bắt đầu đọc quyển sách mới của cậu chưa?" },
+            { "speaker": "B", "en": "Yes, I spent an hour reading it.", "vi": "Có, tớ đã dành một giờ để đọc nó." }
+          ]
+        },
+        {
+          "title": "Learning to swim",
+          "lines": [
+            { "speaker": "A", "en": "I want to learn how to swim.", "vi": "Tớ muốn học cách bơi lội." },
+            { "speaker": "B", "en": "If you start swimming, you will love it.", "vi": "Nếu cậu bắt đầu bơi, cậu sẽ thích nó." },
+            { "speaker": "A", "en": "I am afraid of water.", "vi": "Tớ rất sợ nước." },
+            { "speaker": "B", "en": "Just keep trying. Don't give up.", "vi": "Chỉ cần tiếp tục cố gắng. Đừng bỏ cuộc." },
+            { "speaker": "A", "en": "How much time should I spend practising?", "vi": "Tớ nên dành bao nhiêu thời gian để luyện tập?" },
+            { "speaker": "B", "en": "You should spend thirty minutes swimming every day.", "vi": "Cậu nên dành ba mươi phút bơi mỗi ngày." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 35,
+      "grammar": [
+        {
+          "title": "it takes + time + to V: mất bao lâu để làm gì",
+          "desc": "Dùng 'It takes' cộng với một khoảng thời gian, sau đó là 'to + động từ nguyên thể' để nói bạn mất bao lâu để hoàn thành việc gì.",
+          "formula": [
+            { "text": "It takes", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "an hour", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "to clean it.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "It takes an hour to finish the test.", "meaning": "Mất một giờ đồng hồ để hoàn thành bài kiểm tra." },
+            { "correct": "It took ten minutes to fix the toy.", "meaning": "Nó đã mất mười phút để sửa món đồ chơi." },
+            { "correct": "It takes a long time to learn English.", "meaning": "Mất một khoảng thời gian dài để học tiếng Anh." }
+          ]
+        },
+        {
+          "title": "wish + Quá khứ đơn: câu điều ước",
+          "desc": "Dùng 'wish' (ước) cộng với thì Quá khứ đơn (Past Simple) để ước một điều trái ngược với sự thật ở hiện tại.",
+          "formula": [
+            { "text": "I wish", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "I", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "had a bike.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I wish I had a new bike.", "meaning": "Tớ ước gì tớ có một chiếc xe đạp mới. (Hiện tại không có)" },
+            { "correct": "She wishes she was a princess.", "meaning": "Cô bé ước gì cô ấy là một nàng công chúa." },
+            { "correct": "I wish I lived near the beach.", "meaning": "Tôi ước gì tôi sống ở gần bãi biển." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Động từ Flyers",
+          "desc": "Ôn lại các cụm từ quan trọng: spend time, keep, get married (kết hôn), go out (đi ra ngoài), hurry up (nhanh lên).",
+          "formula": [
+            { "text": "Hurry up!", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "Let's", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "go out.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "Hurry up, or we will be late.", "meaning": "Nhanh lên, nếu không chúng ta sẽ bị trễ đấy." },
+            { "correct": "Let's go out and play football.", "meaning": "Hãy đi ra ngoài và chơi bóng đá." },
+            { "correct": "They will get married next year.", "meaning": "Họ sẽ kết hôn vào năm sau." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A difficult test",
+          "lines": [
+            { "speaker": "A", "en": "I wish I had more time for the test.", "vi": "Tớ ước gì tớ có nhiều thời gian hơn cho bài kiểm tra." },
+            { "speaker": "B", "en": "It takes an hour to finish it.", "vi": "Mất một giờ đồng hồ để hoàn thành nó mà." },
+            { "speaker": "A", "en": "Yes, but I keep making mistakes.", "vi": "Đúng vậy, nhưng tớ cứ liên tục mắc lỗi." },
+            { "speaker": "B", "en": "You should spend more time reading the questions.", "vi": "Cậu nên dành nhiều thời gian hơn để đọc câu hỏi." },
+            { "speaker": "A", "en": "Hurry up, we only have five minutes left.", "vi": "Nhanh lên, chúng ta chỉ còn lại năm phút thôi." },
+            { "speaker": "B", "en": "I wish the test was easier.", "vi": "Tớ ước gì bài kiểm tra dễ hơn một chút." }
+          ]
+        },
+        {
+          "title": "A wedding invitation",
+          "lines": [
+            { "speaker": "A", "en": "My sister will get married next month.", "vi": "Chị gái của tớ sẽ kết hôn vào tháng sau." },
+            { "speaker": "B", "en": "That is wonderful news!", "vi": "Đó là một tin tuyệt vời!" },
+            { "speaker": "A", "en": "It takes a long time to prepare for a wedding.", "vi": "Mất một khoảng thời gian dài để chuẩn bị cho một đám cưới." },
+            { "speaker": "B", "en": "Will you go out to buy a new dress?", "vi": "Cậu sẽ đi ra ngoài để mua một chiếc váy mới chứ?" },
+            { "speaker": "A", "en": "Yes, I wish I had a pink dress.", "vi": "Có, tớ ước gì tớ có một chiếc váy màu hồng." },
+            { "speaker": "B", "en": "Let's go to the shop and look for one.", "vi": "Hãy đi đến cửa hàng và tìm một chiếc nhé." }
+          ]
+        }
+      ]
+    }
+  ]
+}

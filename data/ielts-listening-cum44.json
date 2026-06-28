@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 87,
+    "listening": [
+      {
+        "title": "Listening: Environment and health",
+        "transcript": "A great deal of plastic is thrown away every day. If people exercised more, they would be healthier. A large number of people now prefer a healthier lifestyle.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What would happen if people exercised more?", "options": ["They would be healthier", "They would be busier", "They would travel more"], "correct": "They would be healthier", "explanation": "\"If people exercised more, they would be healthier.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 88,
+    "listening": [
+      {
+        "title": "Mock Test — Listening Section",
+        "transcript": "Welcome to the Hoi An visitor centre. Hoi An used to be a quiet fishing village, but it has become one of the most popular tourist towns in the country. A large number of visitors come here every year. The old town, which was built hundreds of years ago, is the most famous attraction. If you walk through the old streets in the evening, you will see colourful lanterns everywhere. Local food in Hoi An is also famous, and some dishes can only be found here. The local government has introduced rules to protect the old buildings. New buildings must be designed in a traditional style, and some streets are closed to cars in the evening. We recommend visiting the old town early in the morning, before it becomes crowded.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What was Hoi An like in the past?", "options": ["A busy city", "A quiet fishing village", "An empty town"], "correct": "A quiet fishing village", "explanation": "\"Hoi An used to be a quiet fishing village\"." },
+          { "type": "form_completion", "question": "The old town was built ___ years ago.", "options": ["fifty", "hundreds of", "twenty"], "correct": "hundreds of", "explanation": "\"The old town, which was built hundreds of years ago...\"" },
+          { "type": "multiple_choice", "question": "What can visitors see in the evening?", "options": ["Empty streets", "Colourful lanterns", "New buildings"], "correct": "Colourful lanterns", "explanation": "\"you will see colourful lanterns everywhere.\"" },
+          { "type": "multiple_choice", "question": "When does the centre recommend visiting the old town?", "options": ["Late at night", "Early in the morning", "At noon"], "correct": "Early in the morning", "explanation": "\"We recommend visiting the old town early in the morning, before it becomes crowded.\"" }
+        ]
+      }
+    ]
+  }
+]

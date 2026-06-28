@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 81,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe an interrupted moment",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing an action that was interrupted, using Past Continuous + when + Past Simple.",
+        "minWords": 30,
+        "sampleAnswer": "I was cooking dinner when the phone rang. I was watching TV when I heard the noise. Meanwhile, my neighbours were running outside.",
+        "checklist": ["Dùng was/were + V-ing đúng dạng", "Dùng when + Past Simple cho hành động gián đoạn", "Có thể dùng meanwhile để mô tả việc xảy ra đồng thời"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "writing": [
+      {
+        "title": "Writing Task 2: Review — An unexpected story",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 50 words) telling a short story, combining Conditional, relative clauses, used to, Reported Speech, and Past Continuous from Chương 9.",
+        "minWords": 40,
+        "sampleAnswer": "I was walking to the shop where I used to buy bread every morning. While I was walking, a man who I knew told me that the shop was closed. If that happened to me again, I would try a different shop nearby.",
+        "checklist": ["Kết hợp được ít nhất 4 cấu trúc đã học trong Chương 9", "Câu chuyện có trình tự rõ ràng", "Đủ số từ tối thiểu yêu cầu"]
+      }
+    ]
+  }
+]

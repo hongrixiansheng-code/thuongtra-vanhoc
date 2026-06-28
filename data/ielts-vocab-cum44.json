@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 83,
+    "vocab": [
+      {
+        "word": "allow",
+        "ipa": "/əˈlaʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cho phép",
+        "example_en": "They allow it.",
+        "example_vi": "Họ cho phép điều đó.",
+        "level": "B1"
+      },
+      {
+        "word": "permit",
+        "ipa": "/pəˈmɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cho phép",
+        "example_en": "They permitted him to leave.",
+        "example_vi": "Họ đã cho phép anh ấy rời đi.",
+        "level": "B1"
+      },
+      {
+        "word": "let",
+        "ipa": "/let/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "để cho, cho phép",
+        "example_en": "Let me go.",
+        "example_vi": "Hãy để tôi đi.",
+        "level": "B1"
+      },
+      {
+        "word": "forbid",
+        "ipa": "/fəˈbɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cấm",
+        "example_en": "They forbid it.",
+        "example_vi": "Họ cấm điều đó.",
+        "level": "B1"
+      },
+      {
+        "word": "ban",
+        "ipa": "/bæn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cấm",
+        "example_en": "They banned the book.",
+        "example_vi": "Họ đã cấm cuốn sách đó.",
+        "level": "B1"
+      },
+      {
+        "word": "illegal",
+        "ipa": "/ɪˈliː.ɡəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bất hợp pháp",
+        "example_en": "It is illegal.",
+        "example_vi": "Điều đó là bất hợp pháp.",
+        "level": "B1"
+      },
+      {
+        "word": "legal",
+        "ipa": "/ˈliː.ɡəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "hợp pháp",
+        "example_en": "It is a legal action.",
+        "example_vi": "Đó là một hành động hợp pháp.",
+        "level": "B1"
+      },
+      {
+        "word": "crime",
+        "ipa": "/kraɪm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tội phạm",
+        "example_en": "A serious crime.",
+        "example_vi": "Một tội ác nghiêm trọng.",
+        "level": "B1"
+      },
+      {
+        "word": "police",
+        "ipa": "/pəˈliːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cảnh sát",
+        "example_en": "Call the police.",
+        "example_vi": "Gọi cảnh sát đi.",
+        "level": "B1"
+      },
+      {
+        "word": "judge",
+        "ipa": "/dʒʌdʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thẩm phán, quan tòa",
+        "example_en": "The judge was strict.",
+        "example_vi": "Vị thẩm phán rất nghiêm khắc.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "vocab": [
+      {
+        "word": "amount",
+        "ipa": "/əˈmaʊnt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "số lượng",
+        "example_en": "A large amount of money.",
+        "example_vi": "Một số lượng lớn tiền.",
+        "level": "B1"
+      },
+      {
+        "word": "number",
+        "ipa": "/ˈnʌm.bər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "con số, số",
+        "example_en": "A large number of people.",
+        "example_vi": "Một số lượng lớn người.",
+        "level": "B1"
+      },
+      {
+        "word": "quantity",
+        "ipa": "/ˈkwɒn.tə.ti/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "số lượng",
+        "example_en": "A big quantity.",
+        "example_vi": "Một số lượng lớn.",
+        "level": "B1"
+      },
+      {
+        "word": "measure",
+        "ipa": "/ˈmeʒ.ər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đo lường",
+        "example_en": "Measure the water.",
+        "example_vi": "Đo lường lượng nước.",
+        "level": "B1"
+      },
+      {
+        "word": "size",
+        "ipa": "/saɪz/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kích thước",
+        "example_en": "What is the size?",
+        "example_vi": "Kích thước là bao nhiêu?",
+        "level": "B1"
+      },
+      {
+        "word": "level",
+        "ipa": "/ˈlev.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mức độ",
+        "example_en": "A high level.",
+        "example_vi": "Một mức độ cao.",
+        "level": "B1"
+      },
+      {
+        "word": "degree",
+        "ipa": "/dɪˈɡriː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trình độ, bằng cấp",
+        "example_en": "A high degree.",
+        "example_vi": "Một trình độ cao.",
+        "level": "B1"
+      },
+      {
+        "word": "scale",
+        "ipa": "/skeɪl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quy mô",
+        "example_en": "A large scale.",
+        "example_vi": "Một quy mô lớn.",
+        "level": "B1"
+      },
+      {
+        "word": "rate",
+        "ipa": "/reɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tỷ lệ",
+        "example_en": "A high rate.",
+        "example_vi": "Một tỷ lệ cao.",
+        "level": "B1"
+      },
+      {
+        "word": "share",
+        "ipa": "/ʃeər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cổ phần, phần",
+        "example_en": "My share of the cake.",
+        "example_vi": "Phần bánh của tôi.",
+        "level": "B1"
+      }
+    ]
+  }
+]

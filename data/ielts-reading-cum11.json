@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 21,
+    "reading": [
+      {
+        "title": "Reading: An interview profile",
+        "passage": "She works in a small office downtown. She starts work at eight o'clock. She lives with her parents and goes to work by bus. At work, she answers phone calls and writes reports.",
+        "questions": [
+          { "type": "true_false_ng", "question": "She goes to work by car.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"goes to work by bus\"." },
+          { "type": "multiple_choice", "question": "What does she do at work?", "options": ["Cooks food", "Answers calls and writes reports", "Drives a bus"], "correct": "Answers calls and writes reports", "explanation": "\"she answers phone calls and writes reports.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "reading": [
+      {
+        "title": "Reading: A disagreement",
+        "passage": "I disagree. I think the answer is wrong. The number doesn't match the question. I don't avoid mistakes, but I refuse to guess. He never eats fast food, and he rarely watches TV.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer thinks the answer is correct.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I disagree. I think the answer is wrong.\"" },
+          { "type": "true_false_ng", "question": "He often eats fast food.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"He never eats fast food\"." }
+        ]
+      }
+    ]
+  }
+]

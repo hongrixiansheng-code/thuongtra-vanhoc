@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 63,
+    "reading": [
+      {
+        "title": "Reading: Cause, result, and contrast",
+        "passage": "I was late because the traffic was heavy. It rained heavily, so we stayed at home. Although it was expensive, she bought the dress. The room was small, but it was comfortable. However, we still enjoyed our stay.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer was late because of the weather.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Lý do là \"the traffic was heavy\", không phải thời tiết." },
+          { "type": "multiple_choice", "question": "Why did she buy the dress?", "options": ["It was cheap", "Although it was expensive, she liked it", "It was a gift"], "correct": "Although it was expensive, she liked it", "explanation": "\"Although it was expensive, she bought the dress.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 64,
+    "reading": [
+      {
+        "title": "Reading: Review — Rules, advice, and reasons",
+        "passage": "You must wear a helmet, and you shouldn't ride too fast. You don't have to wear a uniform, but you have to arrive on time. It might rain, so take an umbrella. I enjoy walking to work because it is too far to drive but not too far to walk.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Wearing a uniform is compulsory.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"You don't have to wear a uniform\"." },
+          { "type": "true_false_ng", "question": "The writer enjoys walking to work.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I enjoy walking to work\"." }
+        ]
+      }
+    ]
+  }
+]

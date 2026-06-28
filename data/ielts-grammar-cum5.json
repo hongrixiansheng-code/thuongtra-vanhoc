@@ -1,0 +1,60 @@
+[
+  {
+    "lessonOrder": 9,
+    "grammar": [
+      {
+        "title": "Đại từ chỉ định (This / That / These / Those)",
+        "desc": "Dùng để chỉ vị trí của đồ vật so với người nói (gần hay xa).",
+        "formula": [
+          {
+            "text": "This / That",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "is",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Singular Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "This is my bag.",
+            "vi": "Đây là cái túi của tôi."
+          },
+          {
+            "en": "That is a beautiful car.",
+            "vi": "Kia là một chiếc xe đẹp."
+          }
+        ],
+        "note": "Gần: This (số ít) / These (số nhiều). Xa: That (số ít) / Those (số nhiều).",
+        "practiceList": [
+          {
+            "question": "___ is my house. (Gần)",
+            "correct": "This",
+            "meaning": "Đây là nhà của tôi.",
+            "explanation": "Chỉ 1 ngôi nhà (số ít) ở gần, dùng \"This\"."
+          },
+          {
+            "question": "___ are my books. (Gần)",
+            "correct": "These",
+            "meaning": "Đây là những quyển sách của tôi.",
+            "explanation": "Nhiều quyển sách (số nhiều) ở gần, dùng \"These\"."
+          },
+          {
+            "question": "Look at ___ birds! (Xa)",
+            "correct": "those",
+            "meaning": "Nhìn những con chim kia kìa!",
+            "explanation": "Nhiều con chim (số nhiều) ở xa, dùng \"those\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "grammar": []
+  }
+]

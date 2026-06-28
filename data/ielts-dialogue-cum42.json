@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 83,
+    "dialogue": [
+      {
+        "title": "Rules in society",
+        "lines": [
+          { "speaker": "Phuong", "en": "Smoking is forbidden in this building.", "vi": "Hút thuốc bị cấm trong tòa nhà này." },
+          { "speaker": "Quang", "en": "This form must be completed before Friday.", "vi": "Mẫu đơn này phải được hoàn thành trước thứ Sáu." },
+          { "speaker": "Phuong", "en": "Are visitors permitted to enter without an ID?", "vi": "Khách có được phép vào mà không có căn cước không?" },
+          { "speaker": "Quang", "en": "No, an ID is required for all visitors.", "vi": "Không, căn cước được yêu cầu đối với tất cả khách." },
+          { "speaker": "Phuong", "en": "This rule should be enforced more strictly.", "vi": "Quy tắc này nên được thực thi nghiêm ngặt hơn." },
+          { "speaker": "Quang", "en": "I agree. This issue can be solved with clearer signs.", "vi": "Tôi đồng ý. Vấn đề này có thể được giải quyết bằng các tấm biển rõ ràng hơn." }
+        ]
+      },
+      {
+        "title": "Public regulations",
+        "lines": [
+          { "speaker": "Linh", "en": "Helmets are required for all motorbike riders.", "vi": "Mũ bảo hiểm được yêu cầu cho mọi người lái xe máy." },
+          { "speaker": "Tom", "en": "Recycling is encouraged in this city.", "vi": "Tái chế được khuyến khích ở thành phố này." },
+          { "speaker": "Linh", "en": "This area is banned for private cars.", "vi": "Khu vực này bị cấm đối với xe ô tô riêng." },
+          { "speaker": "Tom", "en": "People are recommended to use public transport.", "vi": "Người dân được khuyến nghị sử dụng phương tiện công cộng." },
+          { "speaker": "Linh", "en": "These rules must be followed by everyone.", "vi": "Những quy tắc này phải được tuân theo bởi mọi người." },
+          { "speaker": "Tom", "en": "I think the new policy can be improved over time.", "vi": "Tôi nghĩ chính sách mới có thể được cải thiện theo thời gian." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "dialogue": [
+      {
+        "title": "Talking about statistics",
+        "lines": [
+          { "speaker": "Mai", "en": "A large number of students passed the exam this year.", "vi": "Một số lượng lớn học sinh đã đỗ kỳ thi năm nay." },
+          { "speaker": "David", "en": "The vast majority of people agree with this policy.", "vi": "Đại đa số người dân đồng ý với chính sách này." },
+          { "speaker": "Mai", "en": "What proportion of the population lives in cities?", "vi": "Tỷ lệ dân số sống ở thành phố là bao nhiêu?" },
+          { "speaker": "David", "en": "About half of the population lives in urban areas.", "vi": "Khoảng một nửa dân số sống ở khu vực thành thị." },
+          { "speaker": "Mai", "en": "A great deal of money was spent on this project.", "vi": "Một lượng lớn tiền đã được chi cho dự án này." },
+          { "speaker": "David", "en": "Yes, but only a minority of people think it was a good idea.", "vi": "Vâng, nhưng chỉ một số ít người nghĩ đó là một ý tưởng tốt." }
+        ]
+      },
+      {
+        "title": "Discussing rates and averages",
+        "lines": [
+          { "speaker": "Hoa", "en": "The average rate of growth was quite high last year.", "vi": "Tỷ lệ tăng trưởng trung bình khá cao năm ngoái." },
+          { "speaker": "Sarah", "en": "A quarter of the budget was used for education.", "vi": "Một phần tư ngân sách được dùng cho giáo dục." },
+          { "speaker": "Hoa", "en": "The vast majority of workers received a pay rise.", "vi": "Đại đa số công nhân đã được tăng lương." },
+          { "speaker": "Sarah", "en": "What percentage of households have internet access?", "vi": "Bao nhiêu phần trăm hộ gia đình có truy cập internet?" },
+          { "speaker": "Hoa", "en": "A large number of households now have internet access.", "vi": "Một số lượng lớn hộ gia đình hiện có truy cập internet." },
+          { "speaker": "Sarah", "en": "That's an impressive average for this region.", "vi": "Đó là một mức trung bình ấn tượng cho khu vực này." }
+        ]
+      }
+    ]
+  }
+]

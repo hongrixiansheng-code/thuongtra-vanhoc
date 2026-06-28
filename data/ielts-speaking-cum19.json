@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 37,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Childhood",
+        "part": 1,
+        "questions": ["What were you like as a child?", "Were you close to your neighbours?", "Was your school far from home?"],
+        "sampleAnswer": "I was quite shy as a child. Yes, I was close to my neighbours. No, my school wasn't far from home."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a trip",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a trip you took in the past.",
+          "bullets": ["where you went", "who you went with", "what you did there", "and explain why you remember this trip"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about a trip to Hoi An. I visited it with my family. We booked a small hotel and explored the old streets every evening. I remember this trip because we discovered a wonderful little restaurant."
+      }
+    ]
+  }
+]

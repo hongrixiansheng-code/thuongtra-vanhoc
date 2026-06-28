@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 85,
+    "listening": [
+      {
+        "title": "Listening: A debate",
+        "transcript": "Some people support online learning because it saves time. Nevertheless, many students argue that they learn better in person. As a result, schools usually offer both options nowadays.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What do schools usually offer nowadays?", "options": ["Only online classes", "Both online and traditional classes", "Only traditional classes"], "correct": "Both online and traditional classes", "explanation": "\"schools usually offer both options nowadays.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "listening": [
+      {
+        "title": "Listening: Technology and jobs",
+        "transcript": "Technology has changed education a lot. Many jobs will require digital skills in the future. A great deal of training is needed for this kind of job.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What will many future jobs require?", "options": ["Digital skills", "Physical strength", "Driving skills"], "correct": "Digital skills", "explanation": "\"Many jobs will require digital skills in the future.\"" }
+        ]
+      }
+    ]
+  }
+]

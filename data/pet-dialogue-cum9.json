@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 16,
+      "dialogues": [
+        {
+          "title": "Visiting an art gallery",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "en": "Have you seen the new exhibition which just opened at the National Gallery? It features paintings by several famous contemporary artists.",
+              "vi": "Bạn đã xem triển lãm mới cái mà vừa mở cửa tại Phòng trưng bày Quốc gia chưa? Nó nổi bật với các bức tranh của một số nghệ sĩ đương đại nổi tiếng."
+            },
+            {
+              "speaker": "Liam",
+              "en": "No, I haven't been there yet, but I read an amazing review about it in the newspaper. The abstract pieces are supposed to be incredible.",
+              "vi": "Chưa, tôi vẫn chưa đến đó, nhưng tôi đã đọc một bài đánh giá tuyệt vời về nó trên báo. Những tác phẩm trừu tượng được cho là rất đáng kinh ngạc."
+            },
+            {
+              "speaker": "Emma",
+              "en": "I went there yesterday afternoon, and the portraits were extremely detailed and realistic. The colors which the artist used made the subjects look alive.",
+              "vi": "Tôi đã đến đó vào chiều hôm qua, và những bức chân dung cực kỳ chi tiết và chân thực. Những màu sắc mà người họa sĩ đã sử dụng khiến các chủ thể trông như đang sống."
+            },
+            {
+              "speaker": "Liam",
+              "en": "I have always preferred landscape paintings over portraits because they feel more relaxing. Nature has a calming effect which I really enjoy.",
+              "vi": "Tôi luôn thích tranh phong cảnh hơn tranh chân dung vì chúng mang lại cảm giác thư giãn hơn. Thiên nhiên có một tác dụng làm dịu thứ mà tôi thực sự yêu thích."
+            },
+            {
+              "speaker": "Emma",
+              "en": "There is a whole room dedicated to landscapes, which includes both mountains and ocean scenes. You will definitely love the watercolor paintings.",
+              "vi": "Có cả một căn phòng dành riêng cho phong cảnh, cái mà bao gồm cả cảnh núi non và đại dương. Chắc chắn bạn sẽ yêu thích những bức tranh màu nước."
+            },
+            {
+              "speaker": "Liam",
+              "en": "We should go together this Saturday if you are free. We can spend a few hours admiring the artwork and then get some coffee.",
+              "vi": "Chúng ta nên đi cùng nhau vào thứ Bảy này nếu bạn rảnh. Chúng ta có thể dành vài giờ để chiêm ngưỡng các tác phẩm nghệ thuật và sau đó đi uống cà phê."
+            },
+            {
+              "speaker": "Emma",
+              "en": "That sounds like a lovely plan! I can also show you the sculpture which won the international prize last year.",
+              "vi": "Nghe có vẻ là một kế hoạch dễ thương! Tôi cũng có thể chỉ cho bạn tác phẩm điêu khắc thứ mà đã giành được giải thưởng quốc tế năm ngoái."
+            },
+            {
+              "speaker": "Liam",
+              "en": "I will buy the tickets online tonight so that we don't have to queue up. Art exhibitions are usually very crowded on weekends.",
+              "vi": "Tôi sẽ mua vé trực tuyến tối nay để chúng ta không phải xếp hàng. Các triển lãm nghệ thuật thường rất đông đúc vào cuối tuần."
+            }
+          ]
+        },
+        {
+          "title": "Discussing a music concert",
+          "lines": [
+            {
+              "speaker": "Oliver",
+              "en": "The rock concert which we attended last night was absolutely phenomenal. The lead singer's voice was so powerful that the crowd went crazy.",
+              "vi": "Buổi hòa nhạc rock mà chúng ta đã tham dự tối qua thực sự là một hiện tượng. Giọng hát của ca sĩ hát chính mạnh mẽ đến nỗi đám đông đã phát cuồng."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I totally agree! The guitarist played a solo which was the best performance I have ever seen. The energy in the stadium was electric.",
+              "vi": "Tôi hoàn toàn đồng ý! Nghệ sĩ guitar đã chơi một đoạn solo thứ mà là màn trình diễn tuyệt vời nhất tôi từng thấy. Năng lượng trong sân vận động thật bùng nổ."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "However, the sound system wasn't perfect, and the bass was a bit too loud for my ears. My ears are still ringing this morning.",
+              "vi": "Tuy nhiên, hệ thống âm thanh không hoàn hảo, và tiếng bass hơi quá lớn so với tai của tôi. Tai tôi vẫn còn lùng bùng vào sáng nay."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I noticed that too, but the spectacular light show completely distracted me from the noise. The visual effects were perfectly synchronized with the rhythm.",
+              "vi": "Tôi cũng nhận thấy điều đó, nhưng màn trình diễn ánh sáng ngoạn mục đã hoàn toàn làm tôi phân tâm khỏi tiếng ồn. Các hiệu ứng hình ảnh đã được đồng bộ hóa hoàn hảo với nhịp điệu."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "They performed all their classic hits, which everyone in the audience sang along to. It was a memorable experience to share with thousands of fans.",
+              "vi": "Họ đã biểu diễn tất cả các bản hit cổ điển của họ, thứ mà tất cả mọi người trong khán giả đều hát theo. Đó là một trải nghiệm đáng nhớ khi được chia sẻ cùng hàng ngàn người hâm mộ."
+            },
+            {
+              "speaker": "Mia",
+              "en": "Did you manage to buy any merchandise after the show ended? The queues for the t-shirts were extremely long when we left.",
+              "vi": "Bạn có xoay xở mua được bất kỳ món đồ lưu niệm nào sau khi buổi biểu diễn kết thúc không? Hàng người xếp hàng mua áo thun cực kỳ dài khi chúng ta rời đi."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "I bought a poster which features the band's signatures. I am going to frame it and hang it on my bedroom wall.",
+              "vi": "Tôi đã mua một tấm áp phích cái mà có chữ ký của ban nhạc. Tôi dự định sẽ đóng khung nó và treo nó trên tường phòng ngủ của mình."
+            },
+            {
+              "speaker": "Mia",
+              "en": "That is an awesome souvenir! We must definitely book tickets when they go on tour again next year.",
+              "vi": "Đó là một món quà lưu niệm tuyệt vời! Chúng ta chắc chắn phải đặt vé khi họ đi lưu diễn trở lại vào năm sau."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "dialogues": [
+        {
+          "title": "Talking about news sources",
+          "lines": [
+            {
+              "speaker": "Noah",
+              "en": "I read an interesting article in the daily newspaper this morning, which discussed the local election results. The political situation seems to be changing rapidly.",
+              "vi": "Sáng nay tôi đã đọc một bài báo thú vị trên tờ nhật báo, cái mà thảo luận về kết quả bầu cử địa phương. Tình hình chính trị có vẻ như đang thay đổi nhanh chóng."
+            },
+            {
+              "speaker": "Ava",
+              "en": "I prefer reading news on the internet because websites are updated instantly when something happens. Printed newspapers are often out of date by the time they are published.",
+              "vi": "Tôi thích đọc tin tức trên internet hơn vì các trang web được cập nhật ngay lập tức khi có sự kiện gì đó xảy ra. Báo in thường đã bị lỗi thời vào lúc chúng được xuất bản."
+            },
+            {
+              "speaker": "Noah",
+              "en": "That is true, but online articles sometimes contain fake news which is spread by unreliable sources. I trust the established journalists who work for traditional media.",
+              "vi": "Điều đó đúng, nhưng các bài báo trực tuyến đôi khi chứa những tin tức giả mạo thứ mà bị lan truyền bởi các nguồn không đáng tin cậy. Tôi tin tưởng những nhà báo lâu năm những người làm việc cho truyền thông truyền thống."
+            },
+            {
+              "speaker": "Ava",
+              "en": "You have to verify the facts across different websites to make sure the information is accurate. Social media can be very misleading if you are not careful.",
+              "vi": "Bạn phải xác minh các dữ kiện qua nhiều trang web khác nhau để đảm bảo thông tin là chính xác. Mạng xã hội có thể rất dễ gây hiểu lầm nếu bạn không cẩn thận."
+            },
+            {
+              "speaker": "Noah",
+              "en": "My grandfather still listens to the radio, which broadcasts detailed news bulletins every hour. He enjoys the deep analysis provided by the expert commentators.",
+              "vi": "Ông của tôi vẫn nghe đài phát thanh, thứ mà phát sóng các bản tin chi tiết mỗi giờ. Ông ấy thích những phân tích sâu sắc được cung cấp bởi các bình luận viên chuyên môn."
+            },
+            {
+              "speaker": "Ava",
+              "en": "Podcasts have become very popular recently, and they offer high-quality journalism in an audio format. You can listen to them while you are commuting to work.",
+              "vi": "Podcast đã trở nên rất phổ biến dạo gần đây, và chúng cung cấp báo chí chất lượng cao ở định dạng âm thanh. Bạn có thể nghe chúng trong khi bạn đang đi lại tới chỗ làm."
+            },
+            {
+              "speaker": "Noah",
+              "en": "I will try downloading a news podcast today, which might save me some time. It is crucial to stay informed about global events.",
+              "vi": "Hôm nay tôi sẽ thử tải xuống một podcast tin tức, điều này có thể sẽ tiết kiệm cho tôi một ít thời gian. Việc giữ cho bản thân được cập nhật thông tin về các sự kiện toàn cầu là rất quan trọng."
+            },
+            {
+              "speaker": "Ava",
+              "en": "A well-informed citizen can make better decisions, especially when voting. The media plays a powerful role in shaping public opinions.",
+              "vi": "Một công dân nắm bắt thông tin tốt có thể đưa ra những quyết định tốt hơn, đặc biệt là khi bỏ phiếu. Truyền thông đóng một vai trò mạnh mẽ trong việc định hình các quan điểm của công chúng."
+            }
+          ]
+        },
+        {
+          "title": "Discussing an interview",
+          "lines": [
+            {
+              "speaker": "Reporter",
+              "en": "Thank you for accepting this interview, which will be broadcast on national television tonight. Our viewers are very eager to hear about your latest film.",
+              "vi": "Cảm ơn vì đã chấp nhận cuộc phỏng vấn này, cuộc phỏng vấn mà sẽ được phát sóng trên truyền hình quốc gia tối nay. Khán giả của chúng tôi đang rất háo hức muốn nghe về bộ phim mới nhất của bạn."
+            },
+            {
+              "speaker": "Actor",
+              "en": "It is a pleasure to be here. This project, which took two years to film, is definitely the most challenging work of my career.",
+              "vi": "Thật hân hạnh khi được ở đây. Dự án này, dự án mà đã mất hai năm để quay, chắc chắn là tác phẩm thử thách nhất trong sự nghiệp của tôi."
+            },
+            {
+              "speaker": "Reporter",
+              "en": "Many critics have praised your performance, calling it a masterpiece of modern cinema. What inspired you to accept such a complex role?",
+              "vi": "Nhiều nhà phê bình đã khen ngợi màn trình diễn của bạn, gọi nó là một kiệt tác của điện ảnh hiện đại. Điều gì đã truyền cảm hứng cho bạn để chấp nhận một vai diễn phức tạp như vậy?"
+            },
+            {
+              "speaker": "Actor",
+              "en": "I was fascinated by the script, which was written by an incredibly talented young director. The character has a deep psychological background which I wanted to explore.",
+              "vi": "Tôi đã bị cuốn hút bởi kịch bản, cái mà được viết bởi một đạo diễn trẻ vô cùng tài năng. Nhân vật có một bối cảnh tâm lý sâu sắc thứ mà tôi muốn khám phá."
+            },
+            {
+              "speaker": "Reporter",
+              "en": "There was a rumor that you performed all your own stunts during the action sequences. Is that true, or did you use a professional stunt double?",
+              "vi": "Đã có một tin đồn rằng bạn đã tự mình thực hiện tất cả các pha nguy hiểm trong suốt các phân cảnh hành động. Điều đó có đúng không, hay bạn đã sử dụng một người đóng thế chuyên nghiệp?"
+            },
+            {
+              "speaker": "Actor",
+              "en": "I performed most of them, but I needed a stunt double for the scene where I jump off the roof. Safety is always the highest priority on set.",
+              "vi": "Tôi đã tự thực hiện hầu hết chúng, nhưng tôi đã cần một người đóng thế cho cảnh quay nơi tôi nhảy khỏi mái nhà. Sự an toàn luôn là ưu tiên cao nhất trên phim trường."
+            },
+            {
+              "speaker": "Reporter",
+              "en": "Your fans, who are waiting outside the studio, will be thrilled to watch this movie. Do you have any message for them before we conclude?",
+              "vi": "Người hâm mộ của bạn, những người đang chờ đợi bên ngoài trường quay, sẽ rất phấn khích khi xem bộ phim này. Bạn có thông điệp nào dành cho họ trước khi chúng ta kết thúc không?"
+            },
+            {
+              "speaker": "Actor",
+              "en": "I just want to express my gratitude for their endless support over the years. I hope they enjoy the film which we worked so hard to create.",
+              "vi": "Tôi chỉ muốn bày tỏ sự biết ơn của mình vì sự ủng hộ không ngừng nghỉ của họ qua nhiều năm. Tôi hy vọng họ sẽ thích bộ phim cái mà chúng tôi đã làm việc rất chăm chỉ để tạo ra."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

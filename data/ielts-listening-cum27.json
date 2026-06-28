@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 53,
+    "listening": [
+      {
+        "title": "Listening: City vs countryside",
+        "transcript": "Rural life is more peaceful than city life. The city is more developed, but it's also more crowded and more polluted.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the city like compared to the countryside?", "options": ["More peaceful", "More developed but more polluted", "Cheaper"], "correct": "More developed but more polluted", "explanation": "\"The city is more developed, but it's also more crowded and more polluted.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "listening": [
+      {
+        "title": "Listening: Predicting growth",
+        "transcript": "The population will grow a lot. The city is going to expand into the countryside. The population here will probably double in ten years.",
+        "questions": [
+          { "type": "form_completion", "question": "Population may double in ___ years.", "options": ["five", "ten", "twenty"], "correct": "ten", "explanation": "\"The population here will probably double in ten years.\"" }
+        ]
+      }
+    ]
+  }
+]

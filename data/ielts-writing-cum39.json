@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 77,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe a notable person",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing a notable person, using relative clauses with \"who\".",
+        "minWords": 30,
+        "sampleAnswer": "She is the woman who won a major award last year. I know a runner who has competed in many countries. He is an engineer who works for a big company.",
+        "checklist": ["Dùng \"who\" ít nhất 2 lần", "Mô tả được ít nhất 2 người khác nhau", "Câu văn mạch lạc, không lặp cấu trúc"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe a special place or moment",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing a special place or moment, using relative clauses with \"which/that\", \"where\", and \"when\".",
+        "minWords": 30,
+        "sampleAnswer": "This is the café where we first met. I remember the day when we started this project. That is the building which was designed by a famous architect.",
+        "checklist": ["Dùng where cho địa điểm", "Dùng when cho thời gian", "Dùng which/that cho vật"]
+      }
+    ]
+  }
+]

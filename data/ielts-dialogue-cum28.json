@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 55,
+    "dialogue": [
+      {
+        "title": "Review: A discussion about the future city",
+        "lines": [
+          { "speaker": "Lan", "en": "Do you think this city will be more crowded in ten years?", "vi": "Bạn nghĩ thành phố này sẽ đông đúc hơn trong mười năm tới không?" },
+          { "speaker": "James", "en": "Yes, I think so. The population is going to grow quickly.", "vi": "Vâng, tôi nghĩ vậy. Dân số sẽ tăng nhanh." },
+          { "speaker": "Lan", "en": "Will it become as crowded as the capital?", "vi": "Nó sẽ trở nên đông đúc bằng thủ đô không?" },
+          { "speaker": "James", "en": "Maybe not as crowded, but it will probably be the busiest city in the region.", "vi": "Có thể không đông bằng, nhưng nó có thể sẽ là thành phố bận rộn nhất trong vùng." },
+          { "speaker": "Lan", "en": "I am planning to move to the suburbs because they are quieter.", "vi": "Tôi đang định chuyển ra vùng ngoại ô vì ở đó yên tĩnh hơn." },
+          { "speaker": "James", "en": "That sounds like a good plan. The suburbs will probably stay more peaceful than the city centre.", "vi": "Nghe có vẻ là một kế hoạch tốt. Vùng ngoại ô có thể sẽ tiếp tục yên bình hơn trung tâm thành phố." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 56,
+    "dialogue": [
+      {
+        "title": "Traffic rules",
+        "lines": [
+          { "speaker": "Lan", "en": "You must wear a helmet on a motorbike.", "vi": "Bạn phải đội mũ bảo hiểm khi đi xe máy." },
+          { "speaker": "James", "en": "I know. You mustn't ride without one.", "vi": "Tôi biết. Bạn không được đi xe mà không có nó." },
+          { "speaker": "Lan", "en": "Drivers must stop at a red light.", "vi": "Người lái xe phải dừng lại khi đèn đỏ." },
+          { "speaker": "James", "en": "Yes, and they mustn't use their phone while driving.", "vi": "Vâng, và họ không được dùng điện thoại khi lái xe." },
+          { "speaker": "Lan", "en": "Must we show our ID here?", "vi": "Chúng ta phải xuất trình căn cước ở đây sao?" },
+          { "speaker": "James", "en": "Yes, all visitors must show their ID card at the gate.", "vi": "Vâng, tất cả khách phải xuất trình thẻ căn cước ở cổng." }
+        ]
+      },
+      {
+        "title": "Office rules",
+        "lines": [
+          { "speaker": "Lan", "en": "Employees must arrive on time every day.", "vi": "Nhân viên phải đến đúng giờ mỗi ngày." },
+          { "speaker": "James", "en": "And we mustn't smoke inside the building.", "vi": "Và chúng ta không được hút thuốc trong tòa nhà." },
+          { "speaker": "Lan", "en": "Must we wear a uniform here?", "vi": "Chúng ta phải mặc đồng phục ở đây sao?" },
+          { "speaker": "James", "en": "No, but you must keep your desk clean.", "vi": "Không, nhưng bạn phải giữ bàn làm việc gọn gàng." },
+          { "speaker": "Lan", "en": "What else mustn't we do?", "vi": "Chúng ta còn không được làm gì khác?" },
+          { "speaker": "James", "en": "We mustn't make loud noises during meetings.", "vi": "Chúng ta không được gây ồn ào trong các cuộc họp." }
+        ]
+      }
+    ]
+  }
+]

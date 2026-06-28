@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 17,
+    "reading": [
+      {
+        "title": "Reading: A birthday invitation",
+        "passage": "My birthday is on the first of June this year. The party is on the third of June, a Saturday. It is my twentieth birthday, so it is a special one.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The birthday is on the first of June.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"My birthday is on the first of June\"." },
+          { "type": "multiple_choice", "question": "What birthday is it?", "options": ["The tenth", "The twentieth", "The thirtieth"], "correct": "The twentieth", "explanation": "\"it is my twentieth birthday\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "reading": [
+      {
+        "title": "Reading: Review — A helpful colleague",
+        "passage": "Can you help me? I can fill in this form, but I can't sign it correctly. The meeting is on the second of May. This is my pen, and these are my forms. They are small but useful.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer can sign the form correctly.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I can't sign it correctly.\"" },
+          { "type": "multiple_choice", "question": "When is the meeting?", "options": ["The first of May", "The second of May", "The third of May"], "correct": "The second of May", "explanation": "\"The meeting is on the second of May.\"" }
+        ]
+      }
+    ]
+  }
+]

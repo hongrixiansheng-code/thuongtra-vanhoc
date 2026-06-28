@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 31,
+    "reading": [
+      {
+        "title": "Reading: At a small restaurant",
+        "passage": "Do you have any pasta? Yes, we have some pasta and some pizza. There isn't any seafood today. Can I have some dessert, please? We have some cake and some fruit.",
+        "questions": [
+          { "type": "true_false_ng", "question": "There is seafood on the menu today.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"There isn't any seafood today.\"" },
+          { "type": "multiple_choice", "question": "What desserts are available?", "options": ["Cake and fruit", "Ice cream and pie", "Pasta and pizza"], "correct": "Cake and fruit", "explanation": "\"We have some cake and some fruit.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "reading": [
+      {
+        "title": "Reading: Weekly shopping",
+        "passage": "We need a lot of vegetables this week. There is plenty of fruit at the market today. I only have a few onions at home. This fresh fruit looks a little expensive, but there is a discount on organic food.",
+        "questions": [
+          { "type": "true_false_ng", "question": "There is a discount on organic food.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"there is a discount on organic food.\"" },
+          { "type": "true_false_ng", "question": "The writer has a lot of onions at home.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I only have a few onions at home.\"" }
+        ]
+      }
+    ]
+  }
+]

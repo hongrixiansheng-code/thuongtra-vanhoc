@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 69,
+    "vocab": [
+      {
+        "word": "often",
+        "ipa": "/ˈɒf.ən/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thường xuyên",
+        "example_en": "I often swim.",
+        "example_vi": "Tôi thường xuyên bơi.",
+        "level": "A2"
+      },
+      {
+        "word": "usually",
+        "ipa": "/ˈjuː.ʒu.ə.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thường thường",
+        "example_en": "I usually cook.",
+        "example_vi": "Tôi thường nấu ăn.",
+        "level": "A2"
+      },
+      {
+        "word": "sometimes",
+        "ipa": "/ˈsʌm.taɪmz/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "thỉnh thoảng",
+        "example_en": "I sometimes read.",
+        "example_vi": "Thỉnh thoảng tôi đọc sách.",
+        "level": "A2"
+      },
+      {
+        "word": "always",
+        "ipa": "/ˈɔːl.weɪz/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "luôn luôn",
+        "example_en": "I always try.",
+        "example_vi": "Tôi luôn luôn cố gắng.",
+        "level": "A2"
+      },
+      {
+        "word": "never",
+        "ipa": "/ˈnev.ər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "không bao giờ",
+        "example_en": "I never give up.",
+        "example_vi": "Tôi không bao giờ bỏ cuộc.",
+        "level": "A2"
+      },
+      {
+        "word": "exactly",
+        "ipa": "/ɪɡˈzækt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "chính xác",
+        "example_en": "That is exactly right.",
+        "example_vi": "Điều đó hoàn toàn chính xác.",
+        "level": "A2"
+      },
+      {
+        "word": "strictly",
+        "ipa": "/ˈstrɪkt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "nghiêm ngặt",
+        "example_en": "Strictly speaking.",
+        "example_vi": "Nói một cách nghiêm ngặt.",
+        "level": "A2"
+      },
+      {
+        "word": "generally",
+        "ipa": "/ˈdʒen.ər.əl.i/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "nhìn chung",
+        "example_en": "Generally, it is good.",
+        "example_vi": "Nhìn chung, nó tốt.",
+        "level": "A2"
+      },
+      {
+        "word": "mostly",
+        "ipa": "/ˈməʊst.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "chủ yếu",
+        "example_en": "I mostly read books.",
+        "example_vi": "Tôi chủ yếu đọc sách.",
+        "level": "A2"
+      },
+      {
+        "word": "mainly",
+        "ipa": "/ˈmeɪn.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "chính, chủ yếu",
+        "example_en": "It is mainly water.",
+        "example_vi": "Nó chủ yếu là nước.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "vocab": [
+      {
+        "word": "paper",
+        "ipa": "/ˈpeɪ.pər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giấy",
+        "example_en": "It is made of paper.",
+        "example_vi": "Nó được làm bằng giấy.",
+        "level": "A2"
+      },
+      {
+        "word": "glass",
+        "ipa": "/ɡlɑːs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thủy tinh",
+        "example_en": "A glass window.",
+        "example_vi": "Một cửa sổ thủy tinh.",
+        "level": "A2"
+      },
+      {
+        "word": "plastic",
+        "ipa": "/ˈplæs.tɪk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhựa",
+        "example_en": "A plastic cup.",
+        "example_vi": "Một cái cốc nhựa.",
+        "level": "A2"
+      },
+      {
+        "word": "metal",
+        "ipa": "/ˈmet.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kim loại",
+        "example_en": "A metal box.",
+        "example_vi": "Một hộp kim loại.",
+        "level": "A2"
+      },
+      {
+        "word": "wood",
+        "ipa": "/wʊd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "gỗ",
+        "example_en": "A wood table.",
+        "example_vi": "Một cái bàn gỗ.",
+        "level": "A2"
+      },
+      {
+        "word": "factory",
+        "ipa": "/ˈfæk.tər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà máy",
+        "example_en": "The factory produces cars.",
+        "example_vi": "Nhà máy sản xuất ô tô.",
+        "level": "A2"
+      },
+      {
+        "word": "machine",
+        "ipa": "/məˈʃiːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "máy móc",
+        "example_en": "A washing machine.",
+        "example_vi": "Một chiếc máy giặt.",
+        "level": "A2"
+      },
+      {
+        "word": "tool",
+        "ipa": "/tuːl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "công cụ",
+        "example_en": "A useful tool.",
+        "example_vi": "Một công cụ hữu ích.",
+        "level": "A2"
+      },
+      {
+        "word": "engine",
+        "ipa": "/ˈen.dʒɪn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "động cơ",
+        "example_en": "The car engine.",
+        "example_vi": "Động cơ ô tô.",
+        "level": "A2"
+      },
+      {
+        "word": "system",
+        "ipa": "/ˈsɪs.təm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "hệ thống",
+        "example_en": "A new system.",
+        "example_vi": "Một hệ thống mới.",
+        "level": "A2"
+      }
+    ]
+  }
+]

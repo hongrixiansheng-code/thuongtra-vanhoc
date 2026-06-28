@@ -1,0 +1,267 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 35,
+      "title": "Bài 16.e: Động từ thường gặp (5/5)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "type",
+          "ipa": "/taɪp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đánh máy",
+          "example_en": "I can type very fast.",
+          "example_vi": "Tôi có thể đánh máy rất nhanh."
+        },
+        {
+          "word": "use",
+          "ipa": "/juːz/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "sử dụng",
+          "example_en": "Can I use your phone?",
+          "example_vi": "Tôi có thể sử dụng điện thoại của bạn không?"
+        },
+        {
+          "word": "visit",
+          "ipa": "/ˈvɪzɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "thăm viếng",
+          "example_en": "I visit my grandparents on Sunday.",
+          "example_vi": "Tôi đi thăm ông bà vào Chủ nhật."
+        },
+        {
+          "word": "wait",
+          "ipa": "/weɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "chờ đợi",
+          "example_en": "Wait for me, please.",
+          "example_vi": "Làm ơn hãy đợi tôi."
+        },
+        {
+          "word": "whisper",
+          "ipa": "/ˈwɪspər/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "thì thầm",
+          "example_en": "She whispers a secret to me.",
+          "example_vi": "Cô ấy thì thầm một bí mật cho tôi."
+        },
+        {
+          "word": "whistle",
+          "ipa": "/ˈwɪsl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "huýt sáo",
+          "example_en": "He can whistle a happy tune.",
+          "example_vi": "Anh ấy có thể huýt sáo một giai điệu vui vẻ."
+        },
+        {
+          "word": "win",
+          "ipa": "/wɪn/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "chiến thắng",
+          "example_en": "I hope we win the game.",
+          "example_vi": "Tôi hy vọng chúng ta sẽ chiến thắng trò chơi."
+        },
+        {
+          "word": "work",
+          "ipa": "/wɜːrk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "làm việc",
+          "example_en": "My dad works in a bank.",
+          "example_vi": "Bố tôi làm việc trong một ngân hàng."
+        },
+        {
+          "word": "worry",
+          "ipa": "/ˈwɜːri/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "lo lắng",
+          "example_en": "Don't worry, be happy.",
+          "example_vi": "Đừng lo lắng, hãy vui vẻ lên."
+        },
+        {
+          "word": "get married",
+          "ipa": "/ɡet ˈmærid/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "kết hôn",
+          "example_en": "They will get married next year.",
+          "example_vi": "Họ sẽ kết hôn vào năm sau."
+        },
+        {
+          "word": "go out",
+          "ipa": "/ɡoʊ aʊt/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "đi chơi, ra ngoài",
+          "example_en": "Let's go out for dinner.",
+          "example_vi": "Hãy ra ngoài ăn tối nhé."
+        },
+        {
+          "word": "hurry up",
+          "ipa": "/ˈhɜːri ʌp/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "nhanh lên",
+          "example_en": "Hurry up or we will be late.",
+          "example_vi": "Nhanh lên nếu không chúng ta sẽ bị trễ."
+        },
+        {
+          "word": "sound",
+          "ipa": "/saʊnd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nghe có vẻ",
+          "example_en": "That sounds like a good idea.",
+          "example_vi": "Điều đó nghe có vẻ là một ý tưởng hay."
+        },
+        {
+          "word": "look",
+          "ipa": "/lʊk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trông có vẻ",
+          "example_en": "You look very happy.",
+          "example_vi": "Trông bạn có vẻ rất vui."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 36,
+      "title": "Bài 17: Số lượng lớn & khái niệm trừu tượng",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "million",
+          "ipa": "/ˈmɪljən/",
+          "type": "Số từ",
+          "type_short": "num",
+          "meaning": "một triệu",
+          "example_en": "That house costs a million dollars.",
+          "example_vi": "Ngôi nhà đó có giá một triệu đô la."
+        },
+        {
+          "word": "thousand",
+          "ipa": "/ˈθaʊznd/",
+          "type": "Số từ",
+          "type_short": "num",
+          "meaning": "một nghìn",
+          "example_en": "There are a thousand people here.",
+          "example_vi": "Có một nghìn người ở đây."
+        },
+        {
+          "word": "group",
+          "ipa": "/ɡruːp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhóm",
+          "example_en": "A group of children is playing.",
+          "example_vi": "Một nhóm trẻ em đang chơi đùa."
+        },
+        {
+          "word": "heavy",
+          "ipa": "/ˈhevi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nặng",
+          "example_en": "This box is too heavy for me.",
+          "example_vi": "Chiếc hộp này quá nặng đối với tôi."
+        },
+        {
+          "word": "light",
+          "ipa": "/laɪt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nhẹ",
+          "example_en": "A feather is very light.",
+          "example_vi": "Một chiếc lông vũ rất nhẹ."
+        },
+        {
+          "word": "missing",
+          "ipa": "/ˈmɪsɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thiếu, thất lạc",
+          "example_en": "One piece of the puzzle is missing.",
+          "example_vi": "Một mảnh của bức tranh xếp hình bị thiếu."
+        },
+        {
+          "word": "piece",
+          "ipa": "/piːs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mảnh, phần",
+          "example_en": "I need a piece of paper.",
+          "example_vi": "Tôi cần một mảnh giấy."
+        },
+        {
+          "word": "problem",
+          "ipa": "/ˈprɒbləm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vấn đề",
+          "example_en": "Can you solve this maths problem?",
+          "example_vi": "Bạn có thể giải quyết bài toán này không?"
+        },
+        {
+          "word": "program",
+          "ipa": "/ˈproʊɡræm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chương trình máy tính",
+          "example_en": "He wrote a new computer program.",
+          "example_vi": "Anh ấy đã viết một chương trình máy tính mới."
+        },
+        {
+          "word": "project",
+          "ipa": "/ˈprɒdʒekt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dự án",
+          "example_en": "We are working on a school project.",
+          "example_vi": "Chúng tôi đang làm một dự án của trường."
+        },
+        {
+          "word": "zero",
+          "ipa": "/ˈzɪroʊ/",
+          "type": "Số từ / Danh từ",
+          "type_short": "num",
+          "meaning": "số không",
+          "example_en": "The score is two to zero.",
+          "example_vi": "Tỉ số là hai không."
+        },
+        {
+          "word": "idea",
+          "ipa": "/aɪˈdiːə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ý tưởng",
+          "example_en": "That is a great idea!",
+          "example_vi": "Đó là một ý tưởng tuyệt vời!"
+        },
+        {
+          "word": "secret",
+          "ipa": "/ˈsiːkrət/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bí mật",
+          "example_en": "Can you keep a secret?",
+          "example_vi": "Bạn có thể giữ một bí mật không?"
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

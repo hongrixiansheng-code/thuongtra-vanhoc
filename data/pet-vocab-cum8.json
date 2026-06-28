@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 21,
+      "vocab": [
+        { "word": "suppose", "ipa": "/səˈpəʊz/", "type": "v.", "meaning": "giả sử, cho là", "example_en": "Suppose you won the lottery, what would you do?", "example_vi": "Giả sử bạn trúng số, bạn sẽ làm gì?" },
+        { "word": "assume", "ipa": "/əˈsjuːm/", "type": "v.", "meaning": "cho rằng, thừa nhận", "example_en": "I assume you already know about the meeting.", "example_vi": "Tôi cho rằng bạn đã biết về cuộc họp rồi." },
+        { "word": "imagine", "ipa": "/ɪˈmædʒ.ɪn/", "type": "v.", "meaning": "tưởng tượng", "example_en": "Can you imagine living without the internet?", "example_vi": "Bạn có thể tưởng tượng việc sống mà không có internet không?" },
+        { "word": "unless", "ipa": "/ənˈles/", "type": "conj.", "meaning": "trừ khi", "example_en": "You won't pass the exam unless you study hard.", "example_vi": "Bạn sẽ không vượt qua kỳ thi trừ khi bạn học chăm chỉ." },
+        { "word": "provided", "ipa": "/prəˈvaɪ.dɪd/", "type": "conj.", "meaning": "với điều kiện là", "example_en": "We can go tomorrow provided the weather is good.", "example_vi": "Chúng ta có thể đi vào ngày mai với điều kiện là thời tiết đẹp." },
+        { "word": "as long as", "ipa": "/əz ˈlɒŋ ˌæz/", "type": "conj.", "meaning": "miễn là", "example_en": "You can borrow my car as long as you drive carefully.", "example_vi": "Bạn có thể mượn xe của tôi miễn là bạn lái xe cẩn thận." },
+        { "word": "otherwise", "ipa": "/ˈʌð.ə.waɪz/", "type": "adv., conj.", "meaning": "nếu không thì", "example_en": "Hurry up, otherwise you'll miss the train.", "example_vi": "Nhanh lên, nếu không bạn sẽ lỡ chuyến tàu." },
+        { "word": "in case", "ipa": "/ɪn ˈkeɪs/", "type": "conj.", "meaning": "phòng khi", "example_en": "Take an umbrella in case it rains.", "example_vi": "Hãy mang theo ô phòng khi trời mưa." },
+        { "word": "regardless", "ipa": "/rɪˈɡɑːd.ləs/", "type": "adv.", "meaning": "bất chấp, không màng tới", "example_en": "She decided to do it regardless of the consequences.", "example_vi": "Cô ấy quyết định làm điều đó bất chấp hậu quả." },
+        { "word": "despite", "ipa": "/dɪˈspaɪt/", "type": "prep.", "meaning": "mặc dù", "example_en": "Despite the rain, we enjoyed our holiday.", "example_vi": "Mặc dù trời mưa, chúng tôi vẫn tận hưởng kỳ nghỉ của mình." }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "vocab": [
+        { "word": "produce", "ipa": "/prəˈdʒuːs/", "type": "v.", "meaning": "sản xuất", "example_en": "This factory produces thousands of cars every year.", "example_vi": "Nhà máy này sản xuất hàng ngàn chiếc ô tô mỗi năm." },
+        { "word": "manufacture", "ipa": "/ˌmæn.jəˈfæk.tʃər/", "type": "v.", "meaning": "chế tạo, sản xuất hàng loạt", "example_en": "The company manufactures toys for children.", "example_vi": "Công ty chế tạo đồ chơi cho trẻ em." },
+        { "word": "distribute", "ipa": "/dɪˈstrɪb.juːt/", "type": "v.", "meaning": "phân phối", "example_en": "The charity distributed food to the hungry people.", "example_vi": "Tổ chức từ thiện đã phân phối thức ăn cho những người đói." },
+        { "word": "publish", "ipa": "/ˈpʌb.lɪʃ/", "type": "v.", "meaning": "xuất bản", "example_en": "The university press will publish his new book.", "example_vi": "Nhà xuất bản của trường đại học sẽ xuất bản cuốn sách mới của ông ấy." },
+        { "word": "broadcast", "ipa": "/ˈbrɔːd.kɑːst/", "type": "v.", "meaning": "phát sóng", "example_en": "The match will be broadcast live all over the world.", "example_vi": "Trận đấu sẽ được phát sóng trực tiếp trên toàn thế giới." },
+        { "word": "announce", "ipa": "/əˈnaʊns/", "type": "v.", "meaning": "thông báo", "example_en": "The government has announced a new plan to build roads.", "example_vi": "Chính phủ đã thông báo một kế hoạch mới để xây dựng đường sá." },
+        { "word": "discover", "ipa": "/dɪˈskʌv.ər/", "type": "v.", "meaning": "khám phá, phát hiện", "example_en": "Scientists have discovered a new species of bird.", "example_vi": "Các nhà khoa học đã phát hiện ra một loài chim mới." },
+        { "word": "invent", "ipa": "/ɪnˈvent/", "type": "v.", "meaning": "phát minh", "example_en": "Alexander Graham Bell invented the telephone.", "example_vi": "Alexander Graham Bell đã phát minh ra điện thoại." },
+        { "word": "construct", "ipa": "/kənˈstrʌkt/", "type": "v.", "meaning": "xây dựng", "example_en": "They plan to construct a new bridge across the river.", "example_vi": "Họ dự định xây dựng một cây cầu mới qua sông." },
+        { "word": "create", "ipa": "/kriˈeɪt/", "type": "v.", "meaning": "tạo ra", "example_en": "The new project will create thousands of jobs.", "example_vi": "Dự án mới sẽ tạo ra hàng ngàn việc làm." }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "vocab": [
+        { "word": "certainly", "ipa": "/ˈsɜː.tən.li/", "type": "adv.", "meaning": "chắc chắn", "example_en": "I will certainly be there on time.", "example_vi": "Tôi chắc chắn sẽ có mặt ở đó đúng giờ." },
+        { "word": "definitely", "ipa": "/ˈdef.ɪ.nət.li/", "type": "adv.", "meaning": "chắc chắn, rạch ròi", "example_en": "I will definitely call you tomorrow.", "example_vi": "Tôi chắc chắn sẽ gọi cho bạn vào ngày mai." },
+        { "word": "probably", "ipa": "/ˈprɒb.ə.bli/", "type": "adv.", "meaning": "có lẽ, có thể", "example_en": "It will probably rain later this afternoon.", "example_vi": "Trời có lẽ sẽ mưa vào cuối buổi chiều nay." },
+        { "word": "possibly", "ipa": "/ˈpɒs.ə.bli/", "type": "adv.", "meaning": "có khả năng, có thể", "example_en": "That is possibly the worst film I've ever seen.", "example_vi": "Đó có thể là bộ phim tồi tệ nhất mà tôi từng xem." },
+        { "word": "apparently", "ipa": "/əˈpær.ənt.li/", "type": "adv.", "meaning": "rõ ràng là, có vẻ như", "example_en": "Apparently, they are getting married next year.", "example_vi": "Có vẻ như, họ sẽ kết hôn vào năm tới." },
+        { "word": "obviously", "ipa": "/ˈɒb.vi.əs.li/", "type": "adv.", "meaning": "rõ ràng, hiển nhiên", "example_en": "She was obviously very upset by the news.", "example_vi": "Cô ấy rõ ràng đã rất buồn bã vì tin tức đó." },
+        { "word": "clearly", "ipa": "/ˈklɪə.li/", "type": "adv.", "meaning": "rõ ràng, sáng sủa", "example_en": "You should write clearly so everyone can read it.", "example_vi": "Bạn nên viết rõ ràng để mọi người có thể đọc được." },
+        { "word": "presumably", "ipa": "/prɪˈzjuː.mə.bli/", "type": "adv.", "meaning": "có lẽ, đoán chừng", "example_en": "Presumably, he'll arrive late as usual.", "example_vi": "Có lẽ, anh ấy sẽ đến muộn như thường lệ." },
+        { "word": "supposedly", "ipa": "/səˈpəʊ.zɪd.li/", "type": "adv.", "meaning": "cho là, được cho là", "example_en": "This is supposedly the best restaurant in town.", "example_vi": "Đây được cho là nhà hàng tốt nhất trong thị trấn." },
+        { "word": "reportedly", "ipa": "/rɪˈpɔː.tɪd.li/", "type": "adv.", "meaning": "theo như đưa tin", "example_en": "The actor was reportedly seen in London yesterday.", "example_vi": "Nam diễn viên theo như đưa tin đã được nhìn thấy ở London ngày hôm qua." }
+      ]
+    }
+  ]
+}

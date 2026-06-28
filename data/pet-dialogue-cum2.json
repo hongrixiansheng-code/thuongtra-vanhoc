@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 2,
+      "dialogues": [
+        {
+          "title": "Discussing a new movie",
+          "lines": [
+            {
+              "speaker": "John",
+              "en": "Did you watch that new action movie which was released last night? The ending was so surprising that I couldn't believe it.",
+              "vi": "Bạn đã xem bộ phim hành động mới được phát hành đêm qua chưa? Cái kết quá bất ngờ đến nỗi tôi không thể tin được."
+            },
+            {
+              "speaker": "Mary",
+              "en": "I watched it yesterday, but I actually found the storyline quite boring. I was so bored that I almost fell asleep during the film.",
+              "vi": "Tôi đã xem nó hôm qua, nhưng thực sự tôi thấy cốt truyện khá tẻ nhạt. Tôi đã quá chán đến nỗi gần như ngủ gật trong lúc xem."
+            },
+            {
+              "speaker": "John",
+              "en": "You didn't enjoy the special effects, did you? I thought they were exciting and made the action scenes look very realistic.",
+              "vi": "Bạn không thích các hiệu ứng đặc biệt à? Tôi nghĩ chúng rất thú vị và làm cho các cảnh hành động trông rất chân thực."
+            },
+            {
+              "speaker": "Mary",
+              "en": "They were okay, but the movie was so loud that my ears started hurting. I prefer films which have a good plot and character development.",
+              "vi": "Chúng cũng được, nhưng bộ phim ồn ào đến nỗi tai tôi bắt đầu đau. Tôi thích những bộ phim có cốt truyện và sự phát triển nhân vật tốt."
+            },
+            {
+              "speaker": "John",
+              "en": "The main actor's performance was disappointing, wasn't it? He seemed to struggle with the emotional scenes which were crucial to the story.",
+              "vi": "Màn trình diễn của nam diễn viên chính thật đáng thất vọng, đúng không? Anh ấy có vẻ chật vật với những cảnh quay cảm xúc vốn rất quan trọng đối với câu chuyện."
+            },
+            {
+              "speaker": "Mary",
+              "en": "I agree with you, and I felt quite disappointed when he didn't show much expression. The supporting cast was much better, weren't they?",
+              "vi": "Tôi đồng ý với bạn, và tôi cảm thấy khá thất vọng khi anh ấy không thể hiện nhiều biểu cảm. Dàn diễn viên phụ tốt hơn nhiều, phải không?"
+            },
+            {
+              "speaker": "John",
+              "en": "Yes, the villain was absolutely terrifying, which made the final battle much more intense. We should watch a comedy next time to relax.",
+              "vi": "Đúng vậy, nhân vật phản diện hoàn toàn đáng sợ, điều đó khiến trận chiến cuối cùng căng thẳng hơn nhiều. Lần tới chúng ta nên xem một bộ phim hài để thư giãn."
+            },
+            {
+              "speaker": "Mary",
+              "en": "That sounds like a great plan because comedy is always relaxing. Let's find a movie which we both want to see.",
+              "vi": "Nghe có vẻ là một kế hoạch tuyệt vời vì phim hài luôn mang tính thư giãn. Hãy tìm một bộ phim mà cả hai chúng ta đều muốn xem."
+            }
+          ]
+        },
+        {
+          "title": "A tiring journey",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "en": "That bus trip was so exhausting that I need to lie down immediately. I am completely exhausted after traveling for ten hours.",
+              "vi": "Chuyến xe buýt đó quá mệt mỏi đến nỗi tôi cần phải nằm xuống ngay lập tức. Tôi hoàn toàn kiệt sức sau khi di chuyển mười tiếng đồng hồ."
+            },
+            {
+              "speaker": "Lisa",
+              "en": "The weather was so terrible that the driver had to slow down frequently. You must be feeling very frustrated, aren't you?",
+              "vi": "Thời tiết tồi tệ đến mức người lái xe phải thường xuyên đi chậm lại. Bạn hẳn đang cảm thấy rất bực bội, đúng không?"
+            },
+            {
+              "speaker": "Tom",
+              "en": "I am, but the scenery was truly amazing when we drove through the mountains. Seeing those huge peaks was an exciting experience.",
+              "vi": "Tôi có bực, nhưng phong cảnh thực sự đáng kinh ngạc khi chúng ta lái xe qua những ngọn núi. Nhìn thấy những đỉnh núi khổng lồ đó là một trải nghiệm đầy hào hứng."
+            },
+            {
+              "speaker": "Lisa",
+              "en": "We were quite lucky to see the snow, weren't we? It was so beautiful that I couldn't stop taking pictures.",
+              "vi": "Chúng ta đã khá may mắn khi nhìn thấy tuyết, phải không? Nó đẹp đến nỗi tôi không thể ngừng chụp ảnh."
+            },
+            {
+              "speaker": "Tom",
+              "en": "However, the seats were so uncomfortable that my back is hurting right now. Next time we travel, we should book tickets for the train.",
+              "vi": "Tuy nhiên, những chiếc ghế quá khó chịu đến nỗi lưng tôi đang bị đau. Lần tới chúng ta đi du lịch, chúng ta nên đặt vé tàu."
+            },
+            {
+              "speaker": "Lisa",
+              "en": "Traveling by train is usually more relaxing, which is why I prefer it over buses. We should start planning our next trip soon.",
+              "vi": "Đi lại bằng tàu hỏa thường thư giãn hơn, đó là lý do tôi thích nó hơn xe buýt. Chúng ta nên bắt đầu lên kế hoạch cho chuyến đi tiếp theo sớm."
+            },
+            {
+              "speaker": "Tom",
+              "en": "I agree, but we need to rest for a few days before doing anything else. The journey was confusing at times, wasn't it?",
+              "vi": "Tôi đồng ý, nhưng chúng ta cần nghỉ ngơi vài ngày trước khi làm bất cứ điều gì khác. Chuyến đi đôi lúc thật rắc rối, đúng không?"
+            },
+            {
+              "speaker": "Lisa",
+              "en": "Yes, especially when the map was so complicated that we couldn't understand it. Anyway, let's unpack our bags and get some sleep.",
+              "vi": "Đúng vậy, đặc biệt là khi bản đồ quá phức tạp đến nỗi chúng ta không thể hiểu được nó. Dù sao thì, hãy cất đồ đạc và đi ngủ thôi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "dialogues": [
+        {
+          "title": "Advice on learning English",
+          "lines": [
+            {
+              "speaker": "Alex",
+              "en": "Learning a new language is quite challenging, but it is necessary to practice every day. What methods do you suggest using?",
+              "vi": "Học một ngôn ngữ mới khá là thử thách, nhưng việc thực hành mỗi ngày là điều cần thiết. Bạn đề xuất sử dụng những phương pháp nào?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "I enjoy listening to English podcasts, which really helps me improve my pronunciation. Watching movies without subtitles is also very useful.",
+              "vi": "Tôi thích nghe các bài podcast tiếng Anh, thứ mà thực sự giúp tôi cải thiện phát âm. Xem phim không có phụ đề cũng rất hữu ích."
+            },
+            {
+              "speaker": "Alex",
+              "en": "It is difficult to understand native speakers when they talk too fast. Do you recommend watching shows which are made for children?",
+              "vi": "Thật khó để hiểu người bản xứ khi họ nói quá nhanh. Bạn có khuyên xem những chương trình được làm cho trẻ em không?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "That is a great idea, and I suggest keeping a vocabulary notebook. Writing new words down makes it easier to remember them.",
+              "vi": "Đó là một ý tưởng tuyệt vời, và tôi khuyên bạn nên giữ một cuốn sổ tay từ vựng. Việc viết những từ mới ra sẽ giúp dễ nhớ chúng hơn."
+            },
+            {
+              "speaker": "Alex",
+              "en": "I often avoid speaking with foreigners because I am afraid of making mistakes. It is embarrassing to mispronounce simple words.",
+              "vi": "Tôi thường tránh nói chuyện với người nước ngoài vì tôi sợ mắc lỗi. Thật xấu hổ khi phát âm sai những từ đơn giản."
+            },
+            {
+              "speaker": "Emma",
+              "en": "Making mistakes is a normal part of the process, and you should not worry about it. Communicating with others is the best way to learn.",
+              "vi": "Mắc lỗi là một phần bình thường của quá trình, và bạn không nên lo lắng về điều đó. Giao tiếp với người khác là cách tốt nhất để học."
+            },
+            {
+              "speaker": "Alex",
+              "en": "I will try to be more confident, and I will start reading English news today. Reading articles is a good way to learn grammar.",
+              "vi": "Tôi sẽ cố gắng tự tin hơn, và tôi sẽ bắt đầu đọc tin tức tiếng Anh hôm nay. Đọc các bài báo là một cách tốt để học ngữ pháp."
+            },
+            {
+              "speaker": "Emma",
+              "en": "It is important to find topics which interest you. Enjoying the process is the key to mastering any language.",
+              "vi": "Việc tìm kiếm những chủ đề khiến bạn hứng thú là rất quan trọng. Tận hưởng quá trình là chìa khóa để thành thạo bất kỳ ngôn ngữ nào."
+            }
+          ]
+        },
+        {
+          "title": "Planning study schedules",
+          "lines": [
+            {
+              "speaker": "Sarah",
+              "en": "Studying for the final exams takes a lot of energy, and I feel completely exhausted. It is hard to stay focused for hours.",
+              "vi": "Việc ôn tập cho kỳ thi cuối kỳ tốn rất nhiều năng lượng, và tôi cảm thấy hoàn toàn kiệt sức. Thật khó để giữ tập trung trong nhiều giờ."
+            },
+            {
+              "speaker": "Mark",
+              "en": "I suggest taking short breaks every 45 minutes, which helps refresh your mind. Avoiding distractions like mobile phones is also very important.",
+              "vi": "Tôi khuyên bạn nên nghỉ giải lao ngắn mỗi 45 phút, điều này giúp làm mới tâm trí của bạn. Việc tránh các sự phân tâm như điện thoại di động cũng rất quan trọng."
+            },
+            {
+              "speaker": "Sarah",
+              "en": "It is easy to say, but ignoring my phone when it rings is almost impossible. What do you recommend doing in this situation?",
+              "vi": "Nói thì dễ, nhưng việc phớt lờ điện thoại khi nó reo là gần như không thể. Bạn khuyên nên làm gì trong tình huống này?"
+            },
+            {
+              "speaker": "Mark",
+              "en": "I recommend putting your phone in another room while you are studying. Creating a quiet environment is necessary to achieve good results.",
+              "vi": "Tôi khuyên bạn nên đặt điện thoại ở một phòng khác trong khi bạn đang học. Việc tạo ra một môi trường yên tĩnh là cần thiết để đạt kết quả tốt."
+            },
+            {
+              "speaker": "Sarah",
+              "en": "That makes sense, and I will try to organize my desk properly today. Having a clean workspace definitely helps me concentrate better.",
+              "vi": "Điều đó nghe có lý, và tôi sẽ cố gắng sắp xếp bàn làm việc của mình gọn gàng hôm nay. Có một không gian làm việc sạch sẽ chắc chắn giúp tôi tập trung tốt hơn."
+            },
+            {
+              "speaker": "Mark",
+              "en": "I enjoy studying with a group of friends, which makes the subjects less boring. We can explain difficult concepts to each other.",
+              "vi": "Tôi thích học cùng một nhóm bạn, điều đó làm cho các môn học bớt nhàm chán hơn. Chúng ta có thể giải thích những khái niệm khó cho nhau."
+            },
+            {
+              "speaker": "Sarah",
+              "en": "It is great to have study partners, and I would love to join your group. Reviewing the notes together is always helpful.",
+              "vi": "Thật tuyệt khi có những người bạn học cùng, và tôi rất muốn tham gia vào nhóm của bạn. Việc cùng nhau ôn lại các ghi chép luôn luôn hữu ích."
+            },
+            {
+              "speaker": "Mark",
+              "en": "We are meeting tomorrow at the library, so you should come along. Preparing early is the best way to reduce exam stress.",
+              "vi": "Chúng tôi sẽ gặp nhau vào ngày mai tại thư viện, nên bạn hãy đi cùng nhé. Việc chuẩn bị sớm là cách tốt nhất để giảm bớt căng thẳng thi cử."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

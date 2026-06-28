@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 85,
+    "dialogue": [
+      {
+        "title": "A friendly debate",
+        "lines": [
+          { "speaker": "Jack", "en": "I think online learning is better than traditional classes.", "vi": "Tôi nghĩ học trực tuyến tốt hơn lớp học truyền thống." },
+          { "speaker": "Anna", "en": "I disagree. I support traditional classes because students interact more.", "vi": "Tôi không đồng ý. Tôi ủng hộ lớp học truyền thống vì học sinh tương tác nhiều hơn." },
+          { "speaker": "Jack", "en": "There is evidence that online learning saves time. Moreover, it is more flexible.", "vi": "Có bằng chứng cho thấy học trực tuyến tiết kiệm thời gian. Hơn nữa, nó linh hoạt hơn." },
+          { "speaker": "Anna", "en": "Nevertheless, many students argue that they learn better in person.", "vi": "Tuy nhiên, nhiều học sinh cho rằng họ học tốt hơn khi học trực tiếp." },
+          { "speaker": "Jack", "en": "That's a fair point. In contrast, some people oppose any change at all.", "vi": "Đó là một điểm hợp lý. Ngược lại, một số người phản đối bất kỳ sự thay đổi nào." },
+          { "speaker": "Anna", "en": "True. As a result, schools usually offer both options nowadays.", "vi": "Đúng vậy. Kết quả là, các trường thường cung cấp cả hai lựa chọn ngày nay." }
+        ]
+      },
+      {
+        "title": "Discussing evidence",
+        "lines": [
+          { "speaker": "Thao", "en": "Can you prove that this plan will work?", "vi": "Bạn có thể chứng minh kế hoạch này sẽ hiệu quả không?" },
+          { "speaker": "Mark", "en": "There is strong evidence that supports this idea.", "vi": "Có bằng chứng mạnh mẽ ủng hộ ý tưởng này." },
+          { "speaker": "Thao", "en": "I still oppose it. Furthermore, it seems too expensive.", "vi": "Tôi vẫn phản đối nó. Hơn nữa, nó có vẻ quá đắt." },
+          { "speaker": "Mark", "en": "I understand your concern. Nevertheless, I believe it will help in the long run.", "vi": "Tôi hiểu lo lắng của bạn. Tuy nhiên, tôi tin nó sẽ giúp ích trong dài hạn." },
+          { "speaker": "Thao", "en": "Some experts claim the opposite, though.", "vi": "Tuy nhiên, một số chuyên gia khẳng định điều ngược lại." },
+          { "speaker": "Mark", "en": "True. As a result, we should debate this more carefully.", "vi": "Đúng vậy. Kết quả là, chúng ta nên tranh luận về điều này kỹ hơn." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "dialogue": [
+      {
+        "title": "Education and technology",
+        "lines": [
+          { "speaker": "Hung", "en": "Technology has changed education a lot in recent years.", "vi": "Công nghệ đã thay đổi giáo dục rất nhiều trong những năm gần đây." },
+          { "speaker": "Vy", "en": "If schools had more computers, students would learn faster.", "vi": "Nếu các trường có nhiều máy tính hơn, học sinh sẽ học nhanh hơn." },
+          { "speaker": "Hung", "en": "A large number of students now use laptops in class.", "vi": "Một số lượng lớn học sinh hiện dùng laptop trong lớp." },
+          { "speaker": "Vy", "en": "I used to write everything by hand, but things have changed.", "vi": "Tôi đã từng viết mọi thứ bằng tay, nhưng mọi thứ đã thay đổi." },
+          { "speaker": "Hung", "en": "My teacher said that technology would become more important in the future.", "vi": "Giáo viên của tôi nói rằng công nghệ sẽ trở nên quan trọng hơn trong tương lai." },
+          { "speaker": "Vy", "en": "She is the teacher who introduced coding classes to our school.", "vi": "Cô ấy là giáo viên đã đưa các lớp học lập trình vào trường chúng tôi." }
+        ]
+      },
+      {
+        "title": "Work and skills",
+        "lines": [
+          { "speaker": "Tuan", "en": "Many jobs will require digital skills in the future.", "vi": "Nhiều công việc sẽ yêu cầu kỹ năng số trong tương lai." },
+          { "speaker": "Emma", "en": "If I learned to code, I would have more job opportunities.", "vi": "Nếu tôi học lập trình, tôi sẽ có nhiều cơ hội việc làm hơn." },
+          { "speaker": "Tuan", "en": "This is the company where many engineers used to work.", "vi": "Đây là công ty nơi nhiều kỹ sư đã từng làm việc." },
+          { "speaker": "Emma", "en": "These skills must be practised regularly to stay sharp.", "vi": "Những kỹ năng này phải được luyện tập thường xuyên để duy trì." },
+          { "speaker": "Tuan", "en": "A great deal of training is needed for this kind of job.", "vi": "Cần một lượng lớn đào tạo cho loại công việc này." },
+          { "speaker": "Emma", "en": "Furthermore, these skills will become even more valuable later.", "vi": "Hơn nữa, những kỹ năng này sẽ trở nên có giá trị hơn nữa sau này." }
+        ]
+      }
+    ]
+  }
+]

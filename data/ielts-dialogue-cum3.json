@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 5,
+    "dialogue": [
+      {
+        "title": "Describing my house",
+        "lines": [
+          { "speaker": "Hoa", "en": "What is your house like?", "vi": "Nhà bạn như thế nào?" },
+          { "speaker": "Sarah", "en": "There is a small garden in front of my house.", "vi": "Có một vườn nhỏ trước nhà tôi." },
+          { "speaker": "Hoa", "en": "How many bedrooms are there?", "vi": "Có bao nhiêu phòng ngủ?" },
+          { "speaker": "Sarah", "en": "There are three bedrooms and one bathroom.", "vi": "Có ba phòng ngủ và một phòng tắm." },
+          { "speaker": "Hoa", "en": "Is there a kitchen too?", "vi": "Cũng có nhà bếp chứ?" },
+          { "speaker": "Sarah", "en": "Yes, there is a kitchen next to the living room.", "vi": "Có, có một nhà bếp cạnh phòng khách." }
+        ]
+      },
+      {
+        "title": "Looking for an apartment",
+        "lines": [
+          { "speaker": "Hoa", "en": "Is there a balcony in this apartment?", "vi": "Căn hộ này có ban công không?" },
+          { "speaker": "Sarah", "en": "Yes, there is a balcony in the living room.", "vi": "Có, có một ban công trong phòng khách." },
+          { "speaker": "Hoa", "en": "There is also a kitchen next to it.", "vi": "Cũng có một nhà bếp bên cạnh nó." },
+          { "speaker": "Sarah", "en": "How many floors are there in this building?", "vi": "Tòa nhà này có bao nhiêu tầng?" },
+          { "speaker": "Hoa", "en": "There are five floors.", "vi": "Có năm tầng." },
+          { "speaker": "Sarah", "en": "Is the garden on the first floor?", "vi": "Khu vườn có ở tầng một không?" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "dialogue": [
+      {
+        "title": "Furniture shopping",
+        "lines": [
+          { "speaker": "Hoa", "en": "Is there a sofa in this room?", "vi": "Phòng này có ghế sofa không?" },
+          { "speaker": "Sarah", "en": "No, there isn't a sofa, but there is a table and two chairs.", "vi": "Không, không có ghế sofa, nhưng có một cái bàn và hai cái ghế." },
+          { "speaker": "Hoa", "en": "Are there any lamps?", "vi": "Có cây đèn nào không?" },
+          { "speaker": "Sarah", "en": "No, there aren't any lamps yet.", "vi": "Không, chưa có cây đèn nào." },
+          { "speaker": "Hoa", "en": "Is there a fridge in the kitchen?", "vi": "Trong nhà bếp có tủ lạnh không?" },
+          { "speaker": "Sarah", "en": "Yes, there is a small fridge near the window.", "vi": "Có, có một tủ lạnh nhỏ gần cửa sổ." }
+        ]
+      },
+      {
+        "title": "Checking the bedroom",
+        "lines": [
+          { "speaker": "Hoa", "en": "Is there a mirror in the bedroom?", "vi": "Phòng ngủ có gương không?" },
+          { "speaker": "Sarah", "en": "Yes, there is a mirror next to the bed.", "vi": "Có, có một cái gương cạnh giường." },
+          { "speaker": "Hoa", "en": "Aren't there any shelves?", "vi": "Không có giá sách nào sao?" },
+          { "speaker": "Sarah", "en": "There is one shelf near the window.", "vi": "Có một cái giá sách gần cửa sổ." },
+          { "speaker": "Hoa", "en": "Is there a door to the balcony?", "vi": "Có cửa ra ban công không?" },
+          { "speaker": "Sarah", "en": "Yes, there is a door next to the shelf.", "vi": "Có, có một cánh cửa cạnh giá sách." }
+        ]
+      }
+    ]
+  }
+]

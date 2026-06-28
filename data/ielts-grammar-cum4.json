@@ -1,0 +1,110 @@
+[
+  {
+    "lessonOrder": 7,
+    "grammar": [
+      {
+        "title": "Mạo từ: a/an vs the",
+        "desc": "Dùng để xác định danh từ đếm được.",
+        "formula": [
+          {
+            "text": "a / an / the",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          },
+          {
+            "text": "Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I see a bank. The bank is big.",
+            "vi": "Tôi thấy một ngân hàng. Ngân hàng đó rất lớn."
+          },
+          {
+            "en": "She is in a hospital.",
+            "vi": "Cô ấy đang ở trong một bệnh viện."
+          }
+        ],
+        "note": "\"a/an\": lần đầu nhắc tới. \"the\": nhắc lại lần 2. \"an\" dùng trước nguyên âm (u,e,o,a,i).",
+        "practiceList": [
+          {
+            "question": "There is ___ park near my house.",
+            "correct": "a",
+            "meaning": "Có một công viên gần nhà tôi.",
+            "explanation": "Lần đầu nhắc tới, dùng \"a\"."
+          },
+          {
+            "question": "I see a bank. ___ bank is red.",
+            "correct": "The",
+            "meaning": "Tôi thấy một ngân hàng. Ngân hàng đó màu đỏ.",
+            "explanation": "Nhắc lại lần thứ 2, dùng \"The\"."
+          },
+          {
+            "question": "Is there ___ umbrella here?",
+            "correct": "an",
+            "meaning": "Có cây dù nào ở đây không?",
+            "explanation": "\"umbrella\" bắt đầu bằng nguyên âm \"u\", dùng \"an\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "grammar": [
+      {
+        "title": "Giới từ nơi chốn",
+        "desc": "Chỉ ra vị trí của đồ vật hoặc địa điểm.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "is / are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Preposition",
+            "classes": "border-purple-500 text-purple-600 bg-purple-50"
+          },
+          {
+            "text": "Place",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The pharmacy is next to the gym.",
+            "vi": "Tiệm thuốc ở cạnh phòng gym."
+          },
+          {
+            "en": "The café is between the bank and the market.",
+            "vi": "Quán cà phê nằm giữa ngân hàng và chợ."
+          }
+        ],
+        "note": "between A and B (giữa A và B). opposite (đối diện).",
+        "practiceList": [
+          {
+            "question": "The book is ___ the table.",
+            "correct": "on",
+            "meaning": "Quyển sách ở trên bàn.",
+            "explanation": "Ở bên trên bề mặt dùng \"on\"."
+          },
+          {
+            "question": "The museum is ___ the cinema.",
+            "correct": "next to",
+            "meaning": "Bảo tàng nằm ngay cạnh rạp chiếu phim.",
+            "explanation": "Nằm ngay bên cạnh dùng \"next to\"."
+          },
+          {
+            "question": "The park is ___ the school and the library.",
+            "correct": "between",
+            "meaning": "Công viên nằm giữa trường học và thư viện.",
+            "explanation": "Có hai vật \"the school\" và \"the library\", nên dùng \"between\"."
+          }
+        ]
+      }
+    ]
+  }
+]

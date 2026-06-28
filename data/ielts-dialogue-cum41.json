@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 81,
+    "dialogue": [
+      {
+        "title": "What were you doing?",
+        "lines": [
+          { "speaker": "Phuong", "en": "What were you doing when the accident happened?", "vi": "Bạn đang làm gì khi vụ tai nạn xảy ra?" },
+          { "speaker": "Mark", "en": "I was cooking dinner when the phone rang.", "vi": "Tôi đang nấu bữa tối khi điện thoại reo." },
+          { "speaker": "Phuong", "en": "Were you sleeping when it happened?", "vi": "Bạn đang ngủ khi nó xảy ra phải không?" },
+          { "speaker": "Mark", "en": "No, I was watching TV when I heard the noise.", "vi": "Không, tôi đang xem TV khi tôi nghe thấy tiếng động." },
+          { "speaker": "Phuong", "en": "What was happening at that moment?", "vi": "Điều gì đang xảy ra vào lúc đó?" },
+          { "speaker": "Mark", "en": "Meanwhile, my neighbours were running outside.", "vi": "Trong khi đó, hàng xóm của tôi đang chạy ra ngoài." }
+        ]
+      },
+      {
+        "title": "A sudden interruption",
+        "lines": [
+          { "speaker": "Tom", "en": "We were walking home when it started to rain.", "vi": "Chúng tôi đang đi bộ về nhà khi trời bắt đầu mưa." },
+          { "speaker": "Hoa", "en": "Were you talking when the meeting started?", "vi": "Bạn đang nói chuyện khi cuộc họp bắt đầu phải không?" },
+          { "speaker": "Tom", "en": "Yes, we were chatting when the manager arrived.", "vi": "Vâng, chúng tôi đang nói chuyện khi quản lý đến." },
+          { "speaker": "Hoa", "en": "She was driving when she saw the sudden event.", "vi": "Cô ấy đang lái xe khi cô ấy thấy sự việc bất ngờ đó." },
+          { "speaker": "Tom", "en": "What were they doing at that moment?", "vi": "Họ đang làm gì vào lúc đó?" },
+          { "speaker": "Hoa", "en": "They were having lunch when the interruption occurred.", "vi": "Họ đang ăn trưa khi sự gián đoạn đó xảy ra." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "dialogue": [
+      {
+        "title": "Review: A memorable interruption",
+        "lines": [
+          { "speaker": "Nam", "en": "If I had more time, I would tell you the whole story.", "vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ kể cho bạn toàn bộ câu chuyện." },
+          { "speaker": "Yen", "en": "Please, I want to know. What happened?", "vi": "Làm ơn, tôi muốn biết. Điều gì đã xảy ra?" },
+          { "speaker": "Nam", "en": "I was walking to the shop where I used to buy bread every morning.", "vi": "Tôi đang đi bộ đến cửa hàng nơi tôi đã từng mua bánh mì mỗi sáng." },
+          { "speaker": "Yen", "en": "And then?", "vi": "Rồi sau đó?" },
+          { "speaker": "Nam", "en": "While I was walking, a man who I knew told me that the shop was closed.", "vi": "Trong khi tôi đang đi bộ, một người đàn ông tôi biết nói với tôi rằng cửa hàng đã đóng cửa." },
+          { "speaker": "Yen", "en": "If that happened to me, I would be very disappointed too.", "vi": "Nếu điều đó xảy ra với tôi, tôi cũng sẽ rất thất vọng." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 56,
+    "vocab": [
+      {
+        "word": "must",
+        "ipa": "/mʌst/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phải",
+        "example_en": "You must go now.",
+        "example_vi": "Bạn phải đi ngay bây giờ.",
+        "level": "A2"
+      },
+      {
+        "word": "have to",
+        "ipa": "/hæv tuː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phải",
+        "example_en": "I have to work.",
+        "example_vi": "Tôi phải làm việc.",
+        "level": "A2"
+      },
+      {
+        "word": "should",
+        "ipa": "/ʃʊd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nên",
+        "example_en": "You should sleep.",
+        "example_vi": "Bạn nên ngủ.",
+        "level": "A2"
+      },
+      {
+        "word": "rule",
+        "ipa": "/ruːl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quy tắc",
+        "example_en": "Follow the rules.",
+        "example_vi": "Hãy tuân theo các quy tắc.",
+        "level": "A2"
+      },
+      {
+        "word": "law",
+        "ipa": "/lɔː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "luật pháp",
+        "example_en": "It is the law.",
+        "example_vi": "Đó là luật.",
+        "level": "A2"
+      },
+      {
+        "word": "order",
+        "ipa": "/ˈɔː.dər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mệnh lệnh",
+        "example_en": "It is an order.",
+        "example_vi": "Đó là một mệnh lệnh.",
+        "level": "A2"
+      },
+      {
+        "word": "follow",
+        "ipa": "/ˈfɒl.əʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tuân theo",
+        "example_en": "Follow me.",
+        "example_vi": "Hãy theo tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "break",
+        "ipa": "/breɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phá vỡ, vi phạm",
+        "example_en": "Do not break the law.",
+        "example_vi": "Đừng vi phạm luật pháp.",
+        "level": "A2"
+      },
+      {
+        "word": "fine",
+        "ipa": "/faɪn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tiền phạt",
+        "example_en": "Pay the fine.",
+        "example_vi": "Đóng tiền phạt đi.",
+        "level": "A2"
+      },
+      {
+        "word": "punish",
+        "ipa": "/ˈpʌn.ɪʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trừng phạt",
+        "example_en": "They will punish him.",
+        "example_vi": "Họ sẽ trừng phạt anh ấy.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 57,
+    "vocab": [
+      {
+        "word": "doctor",
+        "ipa": "/ˈdɒk.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bác sĩ",
+        "example_en": "See a doctor.",
+        "example_vi": "Hãy đi khám bác sĩ.",
+        "level": "A2"
+      },
+      {
+        "word": "hospital",
+        "ipa": "/ˈhɒs.pɪ.təl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bệnh viện",
+        "example_en": "Go to the hospital.",
+        "example_vi": "Hãy đến bệnh viện.",
+        "level": "A2"
+      },
+      {
+        "word": "sick",
+        "ipa": "/sɪk/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "ốm, bệnh",
+        "example_en": "I feel sick.",
+        "example_vi": "Tôi cảm thấy bị ốm.",
+        "level": "A2"
+      },
+      {
+        "word": "ill",
+        "ipa": "/ɪl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "ốm, bệnh",
+        "example_en": "He is very ill.",
+        "example_vi": "Anh ấy đang rất ốm.",
+        "level": "A2"
+      },
+      {
+        "word": "pain",
+        "ipa": "/peɪn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự đau đớn",
+        "example_en": "I have a pain.",
+        "example_vi": "Tôi có một cơn đau.",
+        "level": "A2"
+      },
+      {
+        "word": "ache",
+        "ipa": "/eɪk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cơn đau",
+        "example_en": "My head aches.",
+        "example_vi": "Đầu tôi bị đau.",
+        "level": "A2"
+      },
+      {
+        "word": "pill",
+        "ipa": "/pɪl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "viên thuốc",
+        "example_en": "Take a pill.",
+        "example_vi": "Hãy uống một viên thuốc.",
+        "level": "A2"
+      },
+      {
+        "word": "medicine",
+        "ipa": "/ˈmed.ɪ.sən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thuốc",
+        "example_en": "Take this medicine.",
+        "example_vi": "Hãy uống loại thuốc này.",
+        "level": "A2"
+      },
+      {
+        "word": "health",
+        "ipa": "/helθ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sức khỏe",
+        "example_en": "Health is important.",
+        "example_vi": "Sức khỏe là điều quan trọng.",
+        "level": "A2"
+      },
+      {
+        "word": "advice",
+        "ipa": "/ədˈvaɪs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lời khuyên",
+        "example_en": "I need your advice.",
+        "example_vi": "Tôi cần lời khuyên của bạn.",
+        "level": "A2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 83,
+    "listening": [
+      {
+        "title": "Listening: Announcement",
+        "transcript": "Smoking is forbidden in this building. This form must be completed before Friday. An ID is required for all visitors.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What must be completed before Friday?", "options": ["A form", "A ticket", "A card"], "correct": "A form", "explanation": "\"This form must be completed before Friday.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "listening": [
+      {
+        "title": "Listening: Statistics report",
+        "transcript": "A large number of students passed the exam this year. The vast majority of people agree with this policy.",
+        "questions": [
+          { "type": "form_completion", "question": "___ of people agree with the policy.", "options": ["A minority", "The vast majority", "A quarter"], "correct": "The vast majority", "explanation": "\"The vast majority of people agree with this policy.\"" }
+        ]
+      }
+    ]
+  }
+]

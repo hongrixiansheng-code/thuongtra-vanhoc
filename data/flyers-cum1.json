@@ -1,0 +1,150 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "title": "Bài 1: Gia đình & cơ thể",
+      "theme": "Bản thân, gia đình, sức khỏe & ngoại hình",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "husband",
+          "ipa": "/ˈhʌzbənd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người chồng",
+          "example_en": "Her husband is a doctor.",
+          "example_vi": "Chồng cô ấy là một bác sĩ."
+        },
+        {
+          "word": "married",
+          "ipa": "/ˈmærid/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đã kết hôn",
+          "example_en": "They are married.",
+          "example_vi": "Họ đã kết hôn."
+        },
+        {
+          "word": "surname",
+          "ipa": "/ˈsɜːrneɪm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "họ",
+          "example_en": "My surname is Smith.",
+          "example_vi": "Họ của tôi là Smith."
+        },
+        {
+          "word": "wife",
+          "ipa": "/waɪf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người vợ",
+          "example_en": "His wife is very kind.",
+          "example_vi": "Vợ của anh ấy rất tốt bụng."
+        },
+        {
+          "word": "elbow",
+          "ipa": "/ˈelboʊ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khuỷu tay",
+          "example_en": "I hurt my elbow.",
+          "example_vi": "Tôi bị đau khuỷu tay."
+        },
+        {
+          "word": "finger",
+          "ipa": "/ˈfɪŋɡər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngón tay",
+          "example_en": "She points her finger.",
+          "example_vi": "Cô ấy chỉ ngón tay của mình."
+        },
+        {
+          "word": "knee",
+          "ipa": "/niː/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đầu gối",
+          "example_en": "My knee hurts.",
+          "example_vi": "Đầu gối của tôi bị đau."
+        },
+        {
+          "word": "toe",
+          "ipa": "/toʊ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngón chân",
+          "example_en": "He touched his toe.",
+          "example_vi": "Cậu ấy đã chạm vào ngón chân của mình."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 1,
+      "title": "Bài 2: Sức khỏe",
+      "theme": "Bản thân, gia đình, sức khỏe & ngoại hình",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "bandage",
+          "ipa": "/ˈbændɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "băng cứu thương",
+          "example_en": "Put a bandage on it.",
+          "example_vi": "Hãy dán một miếng băng cứu thương lên đó."
+        },
+        {
+          "word": "chemist's",
+          "ipa": "/ˈkemɪsts/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hiệu thuốc",
+          "example_en": "I go to the chemist's.",
+          "example_vi": "Tôi đi đến hiệu thuốc."
+        },
+        {
+          "word": "cut",
+          "ipa": "/kʌt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vết cắt",
+          "example_en": "I have a cut on my finger.",
+          "example_vi": "Tôi có một vết cắt trên ngón tay."
+        },
+        {
+          "word": "fall over",
+          "ipa": "/fɔːl ˈoʊvər/",
+          "type": "Cụm động từ",
+          "type_short": "v",
+          "meaning": "ngã gục, vấp ngã",
+          "example_en": "He falls over in the street.",
+          "example_vi": "Cậu ấy vấp ngã trên đường phố."
+        },
+        {
+          "word": "medicine",
+          "ipa": "/ˈmedsn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thuốc",
+          "example_en": "You must take this medicine.",
+          "example_vi": "Bạn phải uống thuốc này."
+        },
+        {
+          "word": "x-ray",
+          "ipa": "/ˈeks reɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tia X, phim X-quang",
+          "example_en": "The doctor looks at the x-ray.",
+          "example_vi": "Bác sĩ nhìn vào tấm phim X-quang."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

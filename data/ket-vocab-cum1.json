@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "vocab": [
+        { "word": "boyfriend", "ipa": "/ˈbɔɪ.frend/", "type": "n.", "meaning": "bạn trai", "example_en": "She went to the cinema with her boyfriend.", "example_vi": "Cô ấy đã đi xem phim với bạn trai của mình." },
+        { "word": "girlfriend", "ipa": "/ˈɡɜːl.frend/", "type": "n.", "meaning": "bạn gái", "example_en": "His girlfriend bought him a nice watch.", "example_vi": "Bạn gái của anh ấy đã mua cho anh ấy một chiếc đồng hồ đẹp." },
+        { "word": "cousin", "ipa": "/ˈkʌz.ən/", "type": "n.", "meaning": "anh chị em họ", "example_en": "My cousin is coming to stay with us this weekend.", "example_vi": "Anh họ tôi sẽ đến ở với chúng tôi vào cuối tuần này." },
+        { "word": "colleague", "ipa": "/ˈkɒl.iːɡ/", "type": "n.", "meaning": "đồng nghiệp", "example_en": "I had lunch with a colleague from work.", "example_vi": "Tôi đã ăn trưa với một người đồng nghiệp ở chỗ làm." },
+        { "word": "neighbour", "ipa": "/ˈneɪ.bər/", "type": "n.", "meaning": "người hàng xóm", "example_en": "Our new neighbour is very friendly.", "example_vi": "Người hàng xóm mới của chúng tôi rất thân thiện." },
+        { "word": "adult", "ipa": "/ˈæd.ʌlt/", "type": "n.", "meaning": "người lớn", "example_en": "This film is only for adults.", "example_vi": "Bộ phim này chỉ dành cho người lớn." },
+        { "word": "couple", "ipa": "/ˈkʌp.əl/", "type": "n.", "meaning": "cặp đôi", "example_en": "A young couple moved into the flat next door.", "example_vi": "Một cặp đôi trẻ đã chuyển vào căn hộ bên cạnh." },
+        { "word": "relative", "ipa": "/ˈrel.ə.tɪv/", "type": "n.", "meaning": "họ hàng, người thân", "example_en": "All her relatives came to the wedding.", "example_vi": "Tất cả người thân của cô ấy đã đến dự đám cưới." },
+        { "word": "partner", "ipa": "/ˈpɑːt.nər/", "type": "n.", "meaning": "cộng sự, người bạn đời", "example_en": "He started a new business with his partner.", "example_vi": "Anh ấy đã bắt đầu một công việc kinh doanh mới cùng với cộng sự của mình." },
+        { "word": "guest", "ipa": "/ɡest/", "type": "n.", "meaning": "khách", "example_en": "We are expecting some guests for dinner tonight.", "example_vi": "Chúng tôi đang mong đợi vài vị khách đến dùng bữa tối nay." }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "vocab": [
+        { "word": "nervous", "ipa": "/ˈnɜː.vəs/", "type": "adj.", "meaning": "lo lắng, hồi hộp", "example_en": "She was so nervous before the job interview.", "example_vi": "Cô ấy đã rất hồi hộp trước buổi phỏng vấn xin việc." },
+        { "word": "serious", "ipa": "/ˈsɪə.ri.əs/", "type": "adj.", "meaning": "nghiêm túc, nghiêm trọng", "example_en": "He looks very serious when he works.", "example_vi": "Anh ấy trông rất nghiêm túc khi làm việc." },
+        { "word": "shy", "ipa": "/ʃaɪ/", "type": "adj.", "meaning": "nhút nhát, e thẹn", "example_en": "The little boy was too shy to say hello.", "example_vi": "Cậu bé quá nhút nhát để nói lời chào." },
+        { "word": "polite", "ipa": "/pəˈlaɪt/", "type": "adj.", "meaning": "lịch sự", "example_en": "It is polite to say thank you.", "example_vi": "Nói lời cảm ơn là một phép lịch sự." },
+        { "word": "mad", "ipa": "/mæd/", "type": "adj.", "meaning": "tức giận, điên rồ", "example_en": "My boss was mad at me for being late.", "example_vi": "Sếp của tôi đã rất tức giận vì tôi đi muộn." },
+        { "word": "pale", "ipa": "/peɪl/", "type": "adj.", "meaning": "nhợt nhạt, xanh xao", "example_en": "You look pale. Are you feeling okay?", "example_vi": "Trông bạn nhợt nhạt quá. Bạn có cảm thấy ổn không?" },
+        { "word": "angry", "ipa": "/ˈæŋ.ɡri/", "type": "adj.", "meaning": "tức giận", "example_en": "Please don't be angry with me.", "example_vi": "Làm ơn đừng tức giận với tôi." },
+        { "word": "glad", "ipa": "/ɡlæd/", "type": "adj.", "meaning": "vui mừng", "example_en": "I am really glad that you could come.", "example_vi": "Tôi thực sự rất vui mừng vì bạn đã có thể đến." },
+        { "word": "scared", "ipa": "/skeəd/", "type": "adj.", "meaning": "sợ hãi", "example_en": "She is scared of flying.", "example_vi": "Cô ấy sợ việc đi máy bay." },
+        { "word": "awful", "ipa": "/ˈɔː.fəl/", "type": "adj.", "meaning": "tồi tệ, khủng khiếp", "example_en": "The weather was awful yesterday.", "example_vi": "Thời tiết ngày hôm qua thật khủng khiếp." }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "vocab": [
+        { "word": "fashion", "ipa": "/ˈfæʃ.ən/", "type": "n.", "meaning": "thời trang", "example_en": "She works in the fashion industry.", "example_vi": "Cô ấy làm việc trong ngành công nghiệp thời trang." },
+        { "word": "leather", "ipa": "/ˈleð.ər/", "type": "n.", "meaning": "da (chất liệu)", "example_en": "He bought a new leather jacket.", "example_vi": "Anh ấy đã mua một chiếc áo khoác da mới." },
+        { "word": "pale", "ipa": "/peɪl/", "type": "adj.", "meaning": "nhạt (màu sắc)", "example_en": "She painted the walls pale blue.", "example_vi": "Cô ấy đã sơn những bức tường màu xanh nhạt." },
+        { "word": "bright", "ipa": "/braɪt/", "type": "adj.", "meaning": "sáng chói, rực rỡ", "example_en": "She likes wearing bright colours.", "example_vi": "Cô ấy thích mặc những màu sắc rực rỡ." },
+        { "word": "cream", "ipa": "/kriːm/", "type": "n., adj.", "meaning": "màu kem, kem", "example_en": "She bought a beautiful cream dress.", "example_vi": "Cô ấy đã mua một chiếc váy màu kem tuyệt đẹp." },
+        { "word": "golden", "ipa": "/ˈɡəʊl.dən/", "type": "adj.", "meaning": "bằng vàng, màu vàng", "example_en": "She wore a golden necklace.", "example_vi": "Cô ấy đã đeo một chiếc vòng cổ bằng vàng." },
+        { "word": "make-up", "ipa": "/ˈmeɪk.ʌp/", "type": "n.", "meaning": "đồ trang điểm", "example_en": "She put on some make-up before going out.", "example_vi": "Cô ấy đã trang điểm một chút trước khi ra ngoài." },
+        { "word": "jewellery", "ipa": "/ˈdʒuː.əl.ri/", "type": "n.", "meaning": "đồ trang sức", "example_en": "She has a lot of expensive jewellery.", "example_vi": "Cô ấy có rất nhiều đồ trang sức đắt tiền." },
+        { "word": "earring", "ipa": "/ˈɪə.rɪŋ/", "type": "n.", "meaning": "khuyên tai", "example_en": "I lost one of my silver earrings.", "example_vi": "Tôi đã làm mất một bên khuyên tai bằng bạc của mình." },
+        { "word": "chain", "ipa": "/tʃeɪn/", "type": "n.", "meaning": "dây chuyền, chuỗi", "example_en": "He wore a thick gold chain around his neck.", "example_vi": "Anh ấy đeo một sợi dây chuyền vàng dày quanh cổ." }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "vocab": [
+        { "word": "furniture", "ipa": "/ˈfɜː.nɪ.tʃər/", "type": "n.", "meaning": "đồ nội thất", "example_en": "We need to buy some new furniture for the living room.", "example_vi": "Chúng tôi cần mua một vài đồ nội thất mới cho phòng khách." },
+        { "word": "ceiling", "ipa": "/ˈsiː.lɪŋ/", "type": "n.", "meaning": "trần nhà", "example_en": "The room has a very high ceiling.", "example_vi": "Căn phòng có một cái trần nhà rất cao." },
+        { "word": "cupboard", "ipa": "/ˈkʌb.əd/", "type": "n.", "meaning": "tủ búp phê, tủ đựng đồ", "example_en": "The plates are in the cupboard.", "example_vi": "Những chiếc đĩa nằm ở trong tủ." },
+        { "word": "drawer", "ipa": "/drɔːr/", "type": "n.", "meaning": "ngăn kéo", "example_en": "I keep my socks in the bottom drawer.", "example_vi": "Tôi cất tất của mình ở ngăn kéo dưới cùng." },
+        { "word": "carpet", "ipa": "/ˈkɑː.pɪt/", "type": "n.", "meaning": "tấm thảm", "example_en": "They bought a new carpet for the bedroom.", "example_vi": "Họ đã mua một tấm thảm mới cho phòng ngủ." },
+        { "word": "curtain", "ipa": "/ˈkɜː.tən/", "type": "n.", "meaning": "rèm cửa", "example_en": "Please draw the curtains, it's getting dark.", "example_vi": "Làm ơn kéo rèm cửa lại, trời đang tối dần rồi." },
+        { "word": "armchair", "ipa": "/ˈɑːm.tʃeər/", "type": "n.", "meaning": "ghế bành", "example_en": "He sat in a comfortable armchair and read a book.", "example_vi": "Ông ấy ngồi trên một chiếc ghế bành thoải mái và đọc sách." },
+        { "word": "pillow", "ipa": "/ˈpɪl.əʊ/", "type": "n.", "meaning": "cái gối", "example_en": "I usually sleep with two pillows.", "example_vi": "Tôi thường ngủ với hai chiếc gối." },
+        { "word": "heating", "ipa": "/ˈhiː.tɪŋ/", "type": "n.", "meaning": "hệ thống sưởi", "example_en": "The heating is turned on at 6 a.m.", "example_vi": "Hệ thống sưởi được bật vào lúc 6 giờ sáng." },
+        { "word": "sink", "ipa": "/sɪŋk/", "type": "n.", "meaning": "bồn rửa bát", "example_en": "Leave the dirty dishes in the sink.", "example_vi": "Hãy để những chiếc đĩa bẩn ở trong bồn rửa." }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "vocab": [
+        { "word": "flat", "ipa": "/flæt/", "type": "n.", "meaning": "căn hộ (Anh-Anh)", "example_en": "They live in a small flat in London.", "example_vi": "Họ sống trong một căn hộ nhỏ ở Luân Đôn." },
+        { "word": "apartment", "ipa": "/əˈpɑːt.mənt/", "type": "n.", "meaning": "căn hộ (Anh-Mỹ)", "example_en": "She rented an apartment in New York.", "example_vi": "Cô ấy đã thuê một căn hộ ở New York." },
+        { "word": "accommodation", "ipa": "/əˌkɒm.əˈdeɪ.ʃən/", "type": "n.", "meaning": "chỗ ở", "example_en": "We need to find cheap accommodation for the trip.", "example_vi": "Chúng ta cần tìm một chỗ ở giá rẻ cho chuyến đi." },
+        { "word": "rent", "ipa": "/rent/", "type": "v.", "meaning": "thuê, mướn", "example_en": "We decided to rent a house near the beach.", "example_vi": "Chúng tôi đã quyết định thuê một ngôi nhà gần bãi biển." },
+        { "word": "guest-house", "ipa": "/ˈɡest.haʊs/", "type": "n.", "meaning": "nhà khách, nhà trọ", "example_en": "We stayed at a lovely guest-house in the mountains.", "example_vi": "Chúng tôi đã ở tại một nhà khách đáng yêu trên núi." },
+        { "word": "closet", "ipa": "/ˈklɒz.ɪt/", "type": "n.", "meaning": "tủ quần áo âm tường", "example_en": "She hung her dress in the closet.", "example_vi": "Cô ấy đã treo chiếc váy của mình vào trong tủ âm tường." },
+        { "word": "bathtub", "ipa": "/ˈbɑːθ.tʌb/", "type": "n.", "meaning": "bồn tắm", "example_en": "He relaxed in a warm bathtub.", "example_vi": "Anh ấy đã thư giãn trong một chiếc bồn tắm ấm áp." },
+        { "word": "floor", "ipa": "/flɔːr/", "type": "n.", "meaning": "tầng lầu", "example_en": "My office is on the third floor.", "example_vi": "Văn phòng của tôi nằm ở tầng ba." },
+        { "word": "block", "ipa": "/blɒk/", "type": "n.", "meaning": "tòa nhà, lô nhà", "example_en": "They live in a block of flats.", "example_vi": "Họ sống trong một khu chung cư." },
+        { "word": "living room", "ipa": "/ˈlɪv.ɪŋ ˌruːm/", "type": "n.", "meaning": "phòng khách", "example_en": "We watched TV in the living room.", "example_vi": "Chúng tôi đã xem tivi ở trong phòng khách." }
+      ]
+    }
+  ]
+}

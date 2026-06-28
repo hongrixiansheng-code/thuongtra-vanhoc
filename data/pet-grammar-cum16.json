@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 30,
+      "grammar": [
+        {
+          "title": "Cấu trúc email/thư B1",
+          "desc": "Các mẫu câu chuẩn thường dùng để bắt đầu một bức email hoặc lá thư trang trọng.",
+          "formula": [
+            {
+              "text": "Dear... / I am writing to... / Best regards",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am writing to enquire about the course.",
+              "meaning": "Tôi viết thư này để hỏi thông tin về khóa học."
+            },
+            {
+              "correct": "I would be grateful if you could send me more information.",
+              "meaning": "Tôi sẽ rất biết ơn nếu ngài có thể gửi thêm thông tin."
+            },
+            {
+              "correct": "Dear Sir or Madam,",
+              "meaning": "Kính gửi Ông/Bà,"
+            },
+            {
+              "correct": "Best regards,",
+              "meaning": "Trân trọng,"
+            }
+          ]
+        },
+        {
+          "title": "Lời đề nghị lịch sự B1",
+          "desc": "Cách nói lịch sự thay vì dùng mệnh lệnh trực tiếp (I wonder if / Would it be possible).",
+          "formula": [
+            {
+              "text": "Would it be possible to / I wonder if you could",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Would it be possible to change my room?",
+              "meaning": "Liệu có thể đổi phòng cho tôi được không?"
+            },
+            {
+              "correct": "I wonder if you could help me.",
+              "meaning": "Tôi tự hỏi liệu bạn có thể giúp tôi không."
+            },
+            {
+              "correct": "Could you please send me the file?",
+              "meaning": "Bạn làm ơn gửi cho tôi file đó được không?"
+            },
+            {
+              "correct": "I would appreciate it if you could reply soon.",
+              "meaning": "Tôi sẽ rất cảm kích nếu bạn có thể hồi đáp sớm."
+            }
+          ]
+        },
+        {
+          "title": "Cấu trúc kết thư",
+          "desc": "Mẫu câu kết thúc thư thông dụng để mong chờ sự phản hồi.",
+          "formula": [
+            {
+              "text": "I look forward to + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I look forward to hearing from you soon.",
+              "meaning": "Tôi mong sớm nhận được hồi âm từ bạn."
+            },
+            {
+              "correct": "I look forward to receiving your reply.",
+              "meaning": "Tôi mong chờ nhận được sự phản hồi của bạn."
+            },
+            {
+              "correct": "Hope to hear from you soon.",
+              "meaning": "Hi vọng sớm nghe tin từ bạn."
+            },
+            {
+              "correct": "Best wishes,",
+              "meaning": "Những lời chúc tốt đẹp nhất,"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 31,
+      "grammar": [
+        {
+          "title": "Cấu trúc bài luận B1",
+          "desc": "Một bài luận tiêu chuẩn có 3 phần: Giới thiệu (Introduction), Thân bài (Body), Kết luận (Conclusion).",
+          "formula": [
+            {
+              "text": "Introduction -> Body Paragraphs -> Conclusion",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The essay has three main parts.",
+              "meaning": "Bài tiểu luận có ba phần chính."
+            },
+            {
+              "correct": "Start with a clear introduction.",
+              "meaning": "Hãy bắt đầu với một phần mở bài rõ ràng."
+            },
+            {
+              "correct": "Use paragraphs for each main point.",
+              "meaning": "Dành riêng các đoạn văn cho mỗi luận điểm chính."
+            },
+            {
+              "correct": "End with a strong conclusion.",
+              "meaning": "Kết thúc bằng một lời kết luận mạnh mẽ."
+            }
+          ]
+        },
+        {
+          "title": "Cấu trúc nêu ý kiến",
+          "desc": "Bắt đầu luận điểm bằng các cụm từ thể hiện quan điểm cá nhân.",
+          "formula": [
+            {
+              "text": "In my opinion / I believe / It seems to me that",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "In my opinion, living in the city is better.",
+              "meaning": "Theo ý kiến của tôi, sống ở thành phố thì tốt hơn."
+            },
+            {
+              "correct": "I believe that learning a second language is important.",
+              "meaning": "Tôi tin rằng việc học ngôn ngữ thứ hai là quan trọng."
+            },
+            {
+              "correct": "It seems to me that the problem is getting worse.",
+              "meaning": "Có vẻ như với tôi thì vấn đề đang ngày càng tệ hơn."
+            },
+            {
+              "correct": "From my point of view, it is a bad idea.",
+              "meaning": "Từ góc nhìn của tôi, đó là một ý tưởng tồi."
+            }
+          ]
+        },
+        {
+          "title": "Từ nối bài luận",
+          "desc": "Sắp xếp ý tưởng bài viết mạch lạc bằng các từ nối đầu đoạn.",
+          "formula": [
+            {
+              "text": "Firstly / Secondly / Finally / In conclusion",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Firstly, I want to say thank you.",
+              "meaning": "Đầu tiên, tôi muốn nói lời cảm ơn."
+            },
+            {
+              "correct": "Secondly, this saves a lot of time.",
+              "meaning": "Thứ hai, điều này giúp tiết kiệm rất nhiều thời gian."
+            },
+            {
+              "correct": "In conclusion, it is the best choice.",
+              "meaning": "Tóm lại, đó là sự lựa chọn tốt nhất."
+            },
+            {
+              "correct": "On the other hand, it has some disadvantages.",
+              "meaning": "Mặt khác, nó cũng có vài nhược điểm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

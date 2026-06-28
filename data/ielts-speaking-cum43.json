@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 85,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Discussing arguments",
+        "part": 3,
+        "questions": ["Do you support or oppose online learning?", "What evidence supports your opinion?", "What would happen if all schools became online?"],
+        "sampleAnswer": "I support online learning because it saves time. There is evidence that students can learn flexibly this way. Nevertheless, if all schools became online, students would have fewer social experiences."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Education, work, and technology",
+        "part": 3,
+        "questions": ["How has technology changed the way students learn?", "What skills will be important for future jobs?", "If you could learn one new skill, what would it be?"],
+        "sampleAnswer": "Technology has changed the way students learn by making lessons more interactive. Digital skills will be important for future jobs. If I could learn one new skill, I would learn computer programming."
+      }
+    ]
+  }
+]

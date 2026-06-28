@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 3,
+      "vocab": [
+        { "word": "essay", "ipa": "/ˈes.eɪ/", "type": "n.", "meaning": "bài tiểu luận", "example_en": "I have to write an essay for my history class.", "example_vi": "Tôi phải viết một bài tiểu luận cho lớp lịch sử của mình." },
+        { "word": "literature", "ipa": "/ˈlɪt.rə.tʃər/", "type": "n.", "meaning": "văn học", "example_en": "He is studying English literature at university.", "example_vi": "Anh ấy đang học văn học Anh tại trường đại học." },
+        { "word": "biography", "ipa": "/baɪˈɒɡ.rə.fi/", "type": "n.", "meaning": "tiểu sử", "example_en": "She wrote a biography of the famous scientist.", "example_vi": "Cô ấy đã viết một cuốn tiểu sử về nhà khoa học nổi tiếng." },
+        { "word": "fiction", "ipa": "/ˈfɪk.ʃən/", "type": "n.", "meaning": "tiểu thuyết hư cấu", "example_en": "I prefer reading fiction rather than historical books.", "example_vi": "Tôi thích đọc tiểu thuyết hư cấu hơn là sách lịch sử." },
+        { "word": "article", "ipa": "/ˈɑː.tɪ.kəl/", "type": "n.", "meaning": "bài báo", "example_en": "I read an interesting article about climate change today.", "example_vi": "Hôm nay tôi đã đọc một bài báo thú vị về biến đổi khí hậu." },
+        { "word": "composition", "ipa": "/ˌkɒm.pəˈzɪʃ.ən/", "type": "n.", "meaning": "bài tập làm văn", "example_en": "The teacher asked us to write a short composition.", "example_vi": "Giáo viên yêu cầu chúng tôi viết một bài tập làm văn ngắn." },
+        { "word": "paragraph", "ipa": "/ˈpær.ə.ɡrɑːf/", "type": "n.", "meaning": "đoạn văn", "example_en": "Read the first paragraph and answer the questions.", "example_vi": "Hãy đọc đoạn văn đầu tiên và trả lời các câu hỏi." },
+        { "word": "summary", "ipa": "/ˈsʌm.ər.i/", "type": "n.", "meaning": "bản tóm tắt", "example_en": "Can you give me a brief summary of the story?", "example_vi": "Bạn có thể cho tôi một bản tóm tắt ngắn gọn về câu chuyện không?" },
+        { "word": "conclusion", "ipa": "/kənˈkluː.ʒən/", "type": "n.", "meaning": "phần kết luận", "example_en": "In conclusion, I believe we need to work harder.", "example_vi": "Tóm lại, tôi tin rằng chúng ta cần làm việc chăm chỉ hơn." },
+        { "word": "argument", "ipa": "/ˈɑːɡ.jə.mənt/", "type": "n.", "meaning": "lập luận, sự tranh luận", "example_en": "He presented a strong argument in his essay.", "example_vi": "Anh ấy đã trình bày một lập luận chặt chẽ trong bài luận của mình." }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "vocab": [
+        { "word": "evidence", "ipa": "/ˈev.ɪ.dəns/", "type": "n.", "meaning": "bằng chứng", "example_en": "There is no scientific evidence to support this theory.", "example_vi": "Không có bằng chứng khoa học nào ủng hộ lý thuyết này." },
+        { "word": "theory", "ipa": "/ˈθɪə.ri/", "type": "n.", "meaning": "lý thuyết", "example_en": "Darwin developed the theory of evolution.", "example_vi": "Darwin đã phát triển thuyết tiến hóa." },
+        { "word": "research", "ipa": "/rɪˈsɜːtʃ/", "type": "n.", "meaning": "nghiên cứu", "example_en": "They are doing some research into the causes of the disease.", "example_vi": "Họ đang thực hiện một số nghiên cứu về nguyên nhân của căn bệnh." },
+        { "word": "grammar", "ipa": "/ˈɡræm.ər/", "type": "n.", "meaning": "ngữ pháp", "example_en": "English grammar can be quite difficult to master.", "example_vi": "Ngữ pháp tiếng Anh có thể khá khó để thành thạo." },
+        { "word": "pronunciation", "ipa": "/prəˌnʌn.siˈeɪ.ʃən/", "type": "n.", "meaning": "sự phát âm", "example_en": "His English pronunciation is excellent.", "example_vi": "Cách phát âm tiếng Anh của anh ấy rất xuất sắc." },
+        { "word": "vocabulary", "ipa": "/vəˈkæb.jə.lər.i/", "type": "n.", "meaning": "từ vựng", "example_en": "Reading books helps you build a strong vocabulary.", "example_vi": "Đọc sách giúp bạn xây dựng một vốn từ vựng phong phú." },
+        { "word": "certificate", "ipa": "/səˈtɪf.ɪ.kət/", "type": "n.", "meaning": "chứng chỉ", "example_en": "You will receive a certificate at the end of the course.", "example_vi": "Bạn sẽ nhận được một chứng chỉ vào cuối khóa học." },
+        { "word": "qualification", "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/", "type": "n.", "meaning": "bằng cấp, trình độ chuyên môn", "example_en": "What qualifications do you need for this job?", "example_vi": "Bạn cần những bằng cấp gì cho công việc này?" },
+        { "word": "graduate", "ipa": "/ˈɡrædʒ.u.ət/", "type": "n., v.", "meaning": "người tốt nghiệp, tốt nghiệp", "example_en": "He will graduate from university next year.", "example_vi": "Anh ấy sẽ tốt nghiệp đại học vào năm tới." },
+        { "word": "graduation", "ipa": "/ˌɡrædʒ.uˈeɪ.ʃən/", "type": "n.", "meaning": "lễ tốt nghiệp", "example_en": "My whole family attended my graduation ceremony.", "example_vi": "Cả gia đình đã tham dự lễ tốt nghiệp của tôi." }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "vocab": [
+        { "word": "CV", "ipa": "/ˌsiːˈviː/", "type": "n.", "meaning": "sơ yếu lý lịch", "example_en": "Please send your CV and a cover letter to our office.", "example_vi": "Vui lòng gửi sơ yếu lý lịch và thư xin việc đến văn phòng của chúng tôi." },
+        { "word": "employee", "ipa": "/ɪmˈplɔɪ.iː/", "type": "n.", "meaning": "nhân viên", "example_en": "The company has more than 500 employees.", "example_vi": "Công ty có hơn 500 nhân viên." },
+        { "word": "employer", "ipa": "/ɪmˈplɔɪ.ər/", "type": "n.", "meaning": "nhà tuyển dụng, ông chủ", "example_en": "We need a reference from your former employer.", "example_vi": "Chúng tôi cần lời nhận xét từ nhà tuyển dụng cũ của bạn." },
+        { "word": "employment", "ipa": "/ɪmˈplɔɪ.mənt/", "type": "n.", "meaning": "việc làm, sự làm công", "example_en": "He is looking for full-time employment.", "example_vi": "Anh ấy đang tìm kiếm một việc làm toàn thời gian." },
+        { "word": "candidate", "ipa": "/ˈkæn.dɪ.dət/", "type": "n.", "meaning": "ứng cử viên", "example_en": "She is the best candidate for the job.", "example_vi": "Cô ấy là ứng cử viên tốt nhất cho công việc." },
+        { "word": "application", "ipa": "/ˌæp.lɪˈkeɪ.ʃən/", "type": "n.", "meaning": "đơn xin việc", "example_en": "I filled out an application form for the job.", "example_vi": "Tôi đã điền vào đơn xin việc cho công việc đó." },
+        { "word": "salary", "ipa": "/ˈsæl.ər.i/", "type": "n.", "meaning": "mức lương", "example_en": "She earns a high salary as a manager.", "example_vi": "Cô ấy kiếm được mức lương cao với tư cách là một người quản lý." },
+        { "word": "contract", "ipa": "/ˈkɒn.trækt/", "type": "n.", "meaning": "hợp đồng", "example_en": "I have just signed a new contract with my company.", "example_vi": "Tôi vừa ký một hợp đồng mới với công ty của mình." },
+        { "word": "firm", "ipa": "/fɜːm/", "type": "n.", "meaning": "công ty, hãng", "example_en": "He works for a large law firm in the city.", "example_vi": "Anh ấy làm việc cho một công ty luật lớn trong thành phố." },
+        { "word": "agency", "ipa": "/ˈeɪ.dʒən.si/", "type": "n.", "meaning": "đại lý, công ty môi giới", "example_en": "She went to an employment agency to find a job.", "example_vi": "Cô ấy đã đến một công ty môi giới việc làm để tìm việc." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 41,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Shopping and gifts",
+        "part": 1,
+        "questions": ["What is the last thing you bought?", "Did you give anyone a gift recently?", "What did you think of the price?"],
+        "sampleAnswer": "The last thing I bought was a bag. Yes, I gave my sister a gift last month. I thought the price was quite reasonable."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a historical place",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a historical place you visited.",
+          "bullets": ["where it was", "when it was built", "what you found or saw there", "and explain why it was interesting"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about an old museum. People built it about a hundred years ago. I found some old photographs and letters inside. It was interesting because the exhibition began just before my visit."
+      }
+    ]
+  }
+]

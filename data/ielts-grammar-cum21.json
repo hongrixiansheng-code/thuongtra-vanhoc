@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 41,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Động từ bất quy tắc (nhóm 2)",
+        "desc": "Nhóm động từ bất quy tắc thông dụng tiếp theo: buy/bought, think/thought, tell/told, take/took, give/gave.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "bought / thought / told / took / gave", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I bought a new bike yesterday.", "vi": "Hôm qua tôi đã mua một chiếc xe đạp mới." },
+          { "en": "She told me an interesting story.", "vi": "Cô ấy đã kể cho tôi một câu chuyện thú vị." },
+          { "en": "He gave his sister a present.", "vi": "Anh ấy đã tặng em gái một món quà." }
+        ],
+        "note": "Các động từ bất quy tắc cần được học thuộc theo từng nhóm để dễ ghi nhớ.",
+        "practiceList": [
+          { "question": "We ___ (think) about the problem all night.", "correct": "thought", "meaning": "Chúng tôi đã suy nghĩ về vấn đề đó suốt đêm.", "explanation": "think → thought (bất quy tắc)." },
+          { "question": "She ___ (take) a photo of the sunset.", "correct": "took", "meaning": "Cô ấy đã chụp một bức ảnh hoàng hôn.", "explanation": "take → took (bất quy tắc)." },
+          { "question": "He ___ (buy) some flowers for his mother.", "correct": "bought", "meaning": "Anh ấy đã mua vài bông hoa cho mẹ.", "explanation": "buy → bought (bất quy tắc)." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Động từ bất quy tắc (nhóm 3)",
+        "desc": "Nhóm động từ bất quy tắc thường dùng khi nói về lịch sử và sự kiện: build/built, find/found, begin/began.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "built / found / began", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "They built this bridge in 1990.", "vi": "Họ đã xây cây cầu này vào năm 1990." },
+          { "en": "She found an old letter in the box.", "vi": "Cô ấy đã tìm thấy một lá thư cũ trong hộp." },
+          { "en": "The festival began last weekend.", "vi": "Lễ hội đã bắt đầu vào cuối tuần trước." }
+        ],
+        "note": "build/found/begin là các động từ bất quy tắc thường gặp khi kể về lịch sử, phát minh, sự kiện.",
+        "practiceList": [
+          { "question": "The company ___ (build) a new factory last year.", "correct": "built", "meaning": "Công ty đã xây một nhà máy mới năm ngoái.", "explanation": "build → built (bất quy tắc)." },
+          { "question": "He ___ (find) the museum by accident.", "correct": "found", "meaning": "Anh ấy đã tìm thấy bảo tàng một cách tình cờ.", "explanation": "find → found (bất quy tắc)." },
+          { "question": "The meeting ___ (begin) at nine o'clock.", "correct": "began", "meaning": "Cuộc họp đã bắt đầu lúc chín giờ.", "explanation": "begin → began (bất quy tắc)." }
+        ]
+      }
+    ]
+  }
+]

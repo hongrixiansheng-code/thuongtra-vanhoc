@@ -1,0 +1,75 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 36,
+      "grammar": [
+        {
+          "title": "too much / too many: quá nhiều (không tốt)",
+          "desc": "Dùng 'too much' với danh từ KHÔNG đếm được (nước, tiền, thời gian). Dùng 'too many' với danh từ đếm được số nhiều (người, đồ vật) để nói về số lượng vượt quá mức cần thiết.",
+          "formula": [
+            { "text": "too much + sugar", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "/", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "too many + sweets", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "There is too much noise in this room.", "meaning": "Có quá nhiều tiếng ồn trong căn phòng này." },
+            { "correct": "You eat too many sweets.", "meaning": "Bạn ăn quá nhiều đồ ngọt." },
+            { "correct": "I have too much homework to do.", "meaning": "Tớ có quá nhiều bài tập về nhà phải làm." }
+          ]
+        },
+        {
+          "title": "Câu điều kiện loại 0: Sự thật hiển nhiên",
+          "desc": "Dùng 'If' kết hợp với hai mệnh đề đều ở thì Hiện tại đơn để nói về một chân lý, hoặc một kết quả luôn luôn đúng.",
+          "formula": [
+            { "text": "If", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "you mix blue and yellow,", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "you get green.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "If you heat ice, it melts.", "meaning": "Nếu bạn đun nóng đá, nó sẽ tan chảy." },
+            { "correct": "If you are tired, you need to sleep.", "meaning": "Nếu bạn mệt mỏi, bạn cần phải đi ngủ." },
+            { "correct": "If it rains, the grass gets wet.", "meaning": "Nếu trời mưa, cỏ sẽ bị ướt." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Ngữ pháp Flyers",
+          "desc": "Chúc mừng bạn đã hoàn thành chương trình Flyers! Hãy cùng ôn lại thì Hiện tại hoàn thành, Câu điều kiện và các cấu trúc quan trọng nhé.",
+          "formula": [
+            { "text": "Flyers", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "Grammar", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "Master", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have learned English for three years.", "meaning": "Tôi đã học tiếng Anh được ba năm rồi." },
+            { "correct": "If you practise every day, you will be good.", "meaning": "Nếu bạn luyện tập mỗi ngày, bạn sẽ giỏi." },
+            { "correct": "I wish I had a pet dinosaur.", "meaning": "Tớ ước gì tớ có một con khủng long thú cưng." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A stomach ache",
+          "lines": [
+            { "speaker": "A", "en": "I feel very sick.", "vi": "Tớ cảm thấy rất ốm." },
+            { "speaker": "B", "en": "What did you eat today?", "vi": "Hôm nay cậu đã ăn những gì?" },
+            { "speaker": "A", "en": "I ate a lot of chocolate and cake.", "vi": "Tớ đã ăn rất nhiều sô-cô-la và bánh ngọt." },
+            { "speaker": "B", "en": "You ate too much sugar. That is not good.", "vi": "Cậu đã ăn quá nhiều đường. Điều đó không tốt đâu." },
+            { "speaker": "A", "en": "If you eat too many sweets, you get a stomach ache.", "vi": "Nếu cậu ăn quá nhiều đồ ngọt, cậu sẽ bị đau bụng." },
+            { "speaker": "B", "en": "You are right. I will drink some warm water.", "vi": "Cậu nói đúng. Tớ sẽ uống một ít nước ấm." }
+          ]
+        },
+        {
+          "title": "The final test",
+          "lines": [
+            { "speaker": "A", "en": "Our English course is finished.", "vi": "Khóa học tiếng Anh của chúng ta đã kết thúc rồi." },
+            { "speaker": "B", "en": "Have you enjoyed it?", "vi": "Cậu có thích nó không?" },
+            { "speaker": "A", "en": "Yes, I have learned so many new words.", "vi": "Có chứ, tớ đã học được rất nhiều từ mới." },
+            { "speaker": "B", "en": "If we practise every day, we won't forget them.", "vi": "Nếu chúng ta luyện tập mỗi ngày, chúng ta sẽ không quên chúng." },
+            { "speaker": "A", "en": "I will spend time reading English books.", "vi": "Tớ sẽ dành thời gian để đọc sách tiếng Anh." },
+            { "speaker": "B", "en": "Me too. Let's keep learning together!", "vi": "Tớ cũng vậy. Hãy tiếp tục học cùng nhau nhé!" }
+          ]
+        }
+      ]
+    }
+  ]
+}

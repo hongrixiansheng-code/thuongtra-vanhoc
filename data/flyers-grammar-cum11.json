@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 20,
+      "grammar": [
+        {
+          "title": "Thì Hiện tại hoàn thành: have / has + V3",
+          "desc": "Dùng 'have' hoặc 'has' cộng với động từ ở dạng Phân từ 2 (V3) để nói về một việc đã xảy ra, nhưng kết quả vẫn còn quan trọng ở hiện tại.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "have", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "won the game.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have scored a goal.", "meaning": "Tớ đã ghi được một bàn thắng." },
+            { "correct": "He has finished his race.", "meaning": "Cậu ấy đã hoàn thành cuộc đua của mình." },
+            { "correct": "We have entered the competition.", "meaning": "Chúng tôi đã tham gia cuộc thi." }
+          ]
+        },
+        {
+          "title": "Quá khứ đơn vs Hiện tại hoàn thành",
+          "desc": "Dùng Quá khứ đơn (I did) khi có thời gian xác định trong quá khứ (yesterday, last week). Dùng Hiện tại hoàn thành (I have done) khi KHÔNG nói rõ thời gian.",
+          "formula": [
+            { "text": "I scored", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "yesterday", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "vs. I have scored.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I played football yesterday.", "meaning": "Tớ đã chơi bóng đá vào ngày hôm qua." },
+            { "correct": "I have played football many times.", "meaning": "Tớ đã chơi bóng đá rất nhiều lần." },
+            { "correct": "She went to the stadium last week.", "meaning": "Cô ấy đã đi đến sân vận động vào tuần trước." }
+          ]
+        },
+        {
+          "title": "enter / win / score (Ôn tập)",
+          "desc": "Các động từ thường dùng trong thể thao: enter (tham gia), win (chiến thắng), score (ghi bàn/điểm).",
+          "formula": [
+            { "text": "We", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "have won", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "the prize.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "Did you enter the running race?", "meaning": "Bạn có tham gia cuộc thi chạy không?" },
+            { "correct": "Our team has won the match.", "meaning": "Đội của chúng ta đã chiến thắng trận đấu." },
+            { "correct": "He scored three points.", "meaning": "Cậu ấy đã ghi được 3 điểm." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "The football match",
+          "lines": [
+            { "speaker": "A", "en": "Have you heard the news? We have won!", "vi": "Cậu đã nghe tin chưa? Chúng ta đã chiến thắng!" },
+            { "speaker": "B", "en": "Really? That is great. Who scored the goals?", "vi": "Thật sao? Tuyệt quá. Ai đã ghi bàn vậy?" },
+            { "speaker": "A", "en": "David scored two goals.", "vi": "David đã ghi hai bàn thắng." },
+            { "speaker": "B", "en": "He played very well yesterday.", "vi": "Hôm qua cậu ấy đã chơi rất tốt." },
+            { "speaker": "A", "en": "Yes. Have you ever entered a competition?", "vi": "Ừ. Cậu đã từng tham gia một cuộc thi bao giờ chưa?" },
+            { "speaker": "B", "en": "No, I have never entered a football competition.", "vi": "Chưa, tớ chưa bao giờ tham gia một cuộc thi bóng đá." }
+          ]
+        },
+        {
+          "title": "A swimming race",
+          "lines": [
+            { "speaker": "A", "en": "I entered a swimming race last week.", "vi": "Tớ đã tham gia một cuộc thi bơi lội vào tuần trước." },
+            { "speaker": "B", "en": "Did you win a prize?", "vi": "Cậu có giành được giải thưởng nào không?" },
+            { "speaker": "A", "en": "No, I didn't win. But it was fun.", "vi": "Không, tớ đã không thắng. Nhưng nó rất vui." },
+            { "speaker": "B", "en": "I have swam in the sea, but I have never raced.", "vi": "Tớ đã từng bơi ở biển, nhưng tớ chưa bao giờ đua cả." },
+            { "speaker": "A", "en": "You should try it. It's exciting.", "vi": "Cậu nên thử xem. Nó rất thú vị." },
+            { "speaker": "B", "en": "Maybe next year I will enter.", "vi": "Có lẽ năm sau tớ sẽ tham gia." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "grammar": [
+        {
+          "title": "Giới từ chỉ đường: past / over / through / along",
+          "desc": "Dùng các giới từ này kết hợp với động từ di chuyển để chỉ đường: go past (đi ngang qua), go over (đi vòng qua trên), go through (đi xuyên qua), go along (đi dọc theo).",
+          "formula": [
+            { "text": "Go", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "along", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the street.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "Go past the bank and turn left.", "meaning": "Hãy đi ngang qua ngân hàng và rẽ trái." },
+            { "correct": "Walk along the path to the park.", "meaning": "Hãy đi dọc theo con đường nhỏ để đến công viên." },
+            { "correct": "Drive through the tunnel carefully.", "meaning": "Hãy lái xe xuyên qua đường hầm một cách cẩn thận." }
+          ]
+        },
+        {
+          "title": "Hỏi đường: How do I get to...?",
+          "desc": "Dùng câu hỏi 'How do I get to...?' để hỏi cách đi đến một địa điểm nào đó.",
+          "formula": [
+            { "text": "How do I", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "get to", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "the station?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "How do I get to the museum?", "meaning": "Làm thế nào để tôi đi đến viện bảo tàng?" },
+            { "correct": "How do I get to the bus stop?", "meaning": "Làm thế nào để tôi đi đến bến xe buýt?" },
+            { "correct": "How do I get to your house?", "meaning": "Làm thế nào để tôi đi đến nhà của bạn?" }
+          ]
+        },
+        {
+          "title": "Chỉ đường bằng xe cộ (Ôn tập)",
+          "desc": "Bạn có thể dùng cấu trúc 'take the + tên phương tiện' để hướng dẫn ai đó bắt xe.",
+          "formula": [
+            { "text": "Take", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "the train", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "to the city.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "Take the number ten bus.", "meaning": "Hãy bắt chiếc xe buýt số mười." },
+            { "correct": "Take a taxi to the airport.", "meaning": "Hãy bắt một chiếc taxi để đến sân bay." },
+            { "correct": "We must take the train.", "meaning": "Chúng ta phải bắt tàu hỏa." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Finding the station",
+          "lines": [
+            { "speaker": "A", "en": "Excuse me, how do I get to the station?", "vi": "Xin lỗi, làm thế nào để tôi đi đến nhà ga?" },
+            { "speaker": "B", "en": "Go straight on and go past the hospital.", "vi": "Hãy đi thẳng và đi ngang qua bệnh viện." },
+            { "speaker": "A", "en": "Should I walk across the bridge?", "vi": "Tôi có nên đi bộ băng qua cây cầu không?" },
+            { "speaker": "B", "en": "Yes, go over the bridge and it is on your left.", "vi": "Có, hãy đi qua cầu và nó nằm ở bên trái của bạn." },
+            { "speaker": "A", "en": "Thank you very much.", "vi": "Cảm ơn bạn rất nhiều." },
+            { "speaker": "B", "en": "You're welcome. It takes ten minutes.", "vi": "Không có gì. Mất khoảng mười phút đấy." }
+          ]
+        },
+        {
+          "title": "Going to the park",
+          "lines": [
+            { "speaker": "A", "en": "How do I get to the new park?", "vi": "Làm thế nào để tớ đi đến công viên mới?" },
+            { "speaker": "B", "en": "Walk along this street. Then turn right.", "vi": "Hãy đi bộ dọc theo con đường này. Sau đó rẽ phải." },
+            { "speaker": "A", "en": "Is it near the fire station?", "vi": "Nó có ở gần trạm cứu hỏa không?" },
+            { "speaker": "B", "en": "Yes, go past the fire station. You will see it.", "vi": "Có, hãy đi ngang qua trạm cứu hỏa. Cậu sẽ nhìn thấy nó." },
+            { "speaker": "A", "en": "It is quite far. Let's take the bus.", "vi": "Nó khá xa đấy. Hãy bắt xe buýt đi." },
+            { "speaker": "B", "en": "Okay, the bus stop is just over there.", "vi": "Được thôi, bến xe buýt ở ngay đằng kia." }
+          ]
+        }
+      ]
+    }
+  ]
+}

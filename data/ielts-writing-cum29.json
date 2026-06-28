@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 57,
+    "writing": [
+      {
+        "title": "Writing Task 1: Give health advice",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) giving health advice, using should/shouldn't.",
+        "minWords": 30,
+        "sampleAnswer": "You should drink more water and rest if you have a headache. You shouldn't stay up too late before work. If the headache continues, you should see a doctor.",
+        "checklist": ["Dùng should cho lời khuyên", "Dùng shouldn't cho điều không nên làm", "Có ít nhất 2 lời khuyên cụ thể"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 58,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe obligations",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what you have to and don't have to do at school or work, using have to/don't have to.",
+        "minWords": 30,
+        "sampleAnswer": "Students have to wear a uniform every day except Friday. They don't have to bring their own books because the school provides them. Employees don't have to work on weekends.",
+        "checklist": ["Dùng have to/has to cho điều bắt buộc", "Dùng don't have to cho điều không bắt buộc", "Phân biệt rõ với mustn't (cấm)"]
+      }
+    ]
+  }
+]

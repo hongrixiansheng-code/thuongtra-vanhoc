@@ -1,0 +1,27 @@
+[
+  {
+    "lessonOrder": 11,
+    "listening": [
+      {
+        "title": "Listening: Hobbies and skills",
+        "transcript": "I can play the guitar and I can sing well. My sister can draw, but she can't swim. We can both cook simple meals.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What can the speaker do?", "options": ["Swim", "Play the guitar and sing", "Draw"], "correct": "Play the guitar and sing", "explanation": "\"I can play the guitar and I can sing well.\"" },
+          { "type": "form_completion", "question": "The sister can ___ but can't swim.", "options": ["draw", "cook", "sing"], "correct": "draw", "explanation": "\"My sister can draw, but she can't swim.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "listening": [
+      {
+        "title": "Listening: A polite phone call",
+        "transcript": "Can I speak to Mr. Brown, please? Can you tell him I will be late? Can he call me back this afternoon?",
+        "questions": [
+          { "type": "multiple_choice", "question": "What does the caller want Mr. Brown to know?", "options": ["She will be late", "She found his bag", "She is sick"], "correct": "She will be late", "explanation": "\"Can you tell him I will be late?\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 5,
+    "vocab": [
+      {
+        "word": "house",
+        "ipa": "/haʊs/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ngôi nhà",
+        "example_en": "There is a house.",
+        "example_vi": "Có một ngôi nhà.",
+        "level": "A1"
+      },
+      {
+        "word": "apartment",
+        "ipa": "/əˈpɑːt.mənt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "căn hộ",
+        "example_en": "There is an apartment.",
+        "example_vi": "Có một căn hộ.",
+        "level": "A1"
+      },
+      {
+        "word": "bedroom",
+        "ipa": "/ˈbed.ruːm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phòng ngủ",
+        "example_en": "There is a bedroom.",
+        "example_vi": "Có một phòng ngủ.",
+        "level": "A1"
+      },
+      {
+        "word": "kitchen",
+        "ipa": "/ˈkɪtʃ.ən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nhà bếp",
+        "example_en": "There is a kitchen.",
+        "example_vi": "Có một nhà bếp.",
+        "level": "A1"
+      },
+      {
+        "word": "living room",
+        "ipa": "/ˈlɪv.ɪŋ ˌruːm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phòng khách",
+        "example_en": "There is a living room.",
+        "example_vi": "Có một phòng khách.",
+        "level": "A1"
+      },
+      {
+        "word": "bathroom",
+        "ipa": "/ˈbɑːθ.ruːm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "phòng tắm",
+        "example_en": "There is a bathroom.",
+        "example_vi": "Có một phòng tắm.",
+        "level": "A1"
+      },
+      {
+        "word": "garden",
+        "ipa": "/ˈɡɑː.dən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "khu vườn",
+        "example_en": "There is a garden.",
+        "example_vi": "Có một khu vườn.",
+        "level": "A1"
+      },
+      {
+        "word": "balcony",
+        "ipa": "/ˈbæl.kə.ni/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ban công",
+        "example_en": "There is a balcony.",
+        "example_vi": "Có một ban công.",
+        "level": "A1"
+      },
+      {
+        "word": "floor",
+        "ipa": "/flɔːr/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sàn nhà, tầng",
+        "example_en": "There is a floor.",
+        "example_vi": "Có một tầng.",
+        "level": "A1"
+      },
+      {
+        "word": "roof",
+        "ipa": "/ruːf/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mái nhà",
+        "example_en": "There is a roof.",
+        "example_vi": "Có một mái nhà.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "vocab": [
+      {
+        "word": "table",
+        "ipa": "/ˈteɪ.bəl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái bàn",
+        "example_en": "There is a table.",
+        "example_vi": "Có một cái bàn.",
+        "level": "A1"
+      },
+      {
+        "word": "chair",
+        "ipa": "/tʃeər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái ghế",
+        "example_en": "There is not a chair.",
+        "example_vi": "Không có cái ghế nào.",
+        "level": "A1"
+      },
+      {
+        "word": "bed",
+        "ipa": "/bed/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giường",
+        "example_en": "Are there beds?",
+        "example_vi": "Có giường không?",
+        "level": "A1"
+      },
+      {
+        "word": "sofa",
+        "ipa": "/ˈsəʊ.fə/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ghế sofa",
+        "example_en": "There is a sofa.",
+        "example_vi": "Có một chiếc sofa.",
+        "level": "A1"
+      },
+      {
+        "word": "lamp",
+        "ipa": "/læmp/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái đèn",
+        "example_en": "There is a lamp.",
+        "example_vi": "Có một cái đèn.",
+        "level": "A1"
+      },
+      {
+        "word": "mirror",
+        "ipa": "/ˈmɪr.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái gương",
+        "example_en": "There is a mirror.",
+        "example_vi": "Có một cái gương.",
+        "level": "A1"
+      },
+      {
+        "word": "shelf",
+        "ipa": "/ʃelf/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái giá, kệ",
+        "example_en": "There is a shelf.",
+        "example_vi": "Có một cái kệ.",
+        "level": "A1"
+      },
+      {
+        "word": "fridge",
+        "ipa": "/frɪdʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tủ lạnh",
+        "example_en": "There is not a fridge.",
+        "example_vi": "Không có tủ lạnh.",
+        "level": "A1"
+      },
+      {
+        "word": "window",
+        "ipa": "/ˈwɪn.dəʊ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cửa sổ",
+        "example_en": "There is a window.",
+        "example_vi": "Có một cửa sổ.",
+        "level": "A1"
+      },
+      {
+        "word": "door",
+        "ipa": "/dɔːr/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cửa ra vào",
+        "example_en": "There is a door.",
+        "example_vi": "Có một cửa ra vào.",
+        "level": "A1"
+      }
+    ]
+  }
+]

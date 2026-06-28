@@ -1,0 +1,1175 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 4,
+      "title": "Bài 3.a: Tính cách & cảm xúc (1/4)",
+      "theme": "Tính cách & cảm xúc",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "afraid",
+          "ipa": "/əˈfreɪd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "sợ hãi",
+          "example_en": "The cat is afraid.",
+          "example_vi": "Con mèo sợ hãi."
+        },
+        {
+          "word": "asleep",
+          "ipa": "/əˈsliːp/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đang ngủ",
+          "example_en": "The baby is asleep.",
+          "example_vi": "Em bé đang ngủ."
+        },
+        {
+          "word": "awake",
+          "ipa": "/əˈweɪk/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thức, tỉnh",
+          "example_en": "Is your brother awake?",
+          "example_vi": "Anh trai bạn thức chưa?"
+        },
+        {
+          "word": "bad",
+          "ipa": "/bæd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tệ, xấu",
+          "example_en": "This is a bad day.",
+          "example_vi": "Đây là một ngày tệ."
+        },
+        {
+          "word": "badly",
+          "ipa": "/ˈbædli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách tệ hại",
+          "example_en": "He plays badly.",
+          "example_vi": "Cậu ấy chơi tệ."
+        },
+        {
+          "word": "best",
+          "ipa": "/best/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tốt nhất (so sánh nhất của good)",
+          "example_en": "This is the best day.",
+          "example_vi": "Đây là ngày tuyệt nhất."
+        },
+        {
+          "word": "better",
+          "ipa": "/ˈbetər/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tốt hơn (so sánh hơn của good)",
+          "example_en": "This is better than that.",
+          "example_vi": "Cái này tốt hơn cái kia."
+        },
+        {
+          "word": "boring",
+          "ipa": "/ˈbɔːrɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "buồn tẻ, chán",
+          "example_en": "This game is boring.",
+          "example_vi": "Trò chơi này chán quá."
+        },
+        {
+          "word": "brave",
+          "ipa": "/breɪv/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "dũng cảm",
+          "example_en": "He is brave.",
+          "example_vi": "Cậu ấy dũng cảm."
+        },
+        {
+          "word": "brilliant",
+          "ipa": "/ˈbrɪliənt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "xuất sắc, tuyệt vời",
+          "example_en": "This is brilliant!",
+          "example_vi": "Cái này tuyệt vời quá!"
+        },
+        {
+          "word": "busy",
+          "ipa": "/ˈbɪzi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "bận rộn",
+          "example_en": "My mum is busy.",
+          "example_vi": "Mẹ tôi đang bận."
+        },
+        {
+          "word": "careful",
+          "ipa": "/ˈkeərfəl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "cẩn thận",
+          "example_en": "Be careful!",
+          "example_vi": "Hãy cẩn thận!"
+        },
+        {
+          "word": "carefully",
+          "ipa": "/ˈkeərfəli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách cẩn thận",
+          "example_en": "She walks carefully.",
+          "example_vi": "Cô bé đi cẩn thận."
+        },
+        {
+          "word": "clever",
+          "ipa": "/ˈklevər/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thông minh",
+          "example_en": "My sister is clever.",
+          "example_vi": "Chị tôi thông minh."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "be + tính từ: mô tả tính cách, trạng thái",
+          "desc": "Dùng động từ 'be' (am/is/are) với tính từ mới học để mô tả người hoặc vật.",
+          "formula": [
+            {
+              "text": "S + am/is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "adjective",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He is brave and clever.",
+              "meaning": "Cậu ấy dũng cảm và thông minh."
+            },
+            {
+              "correct": "Is your brother awake or asleep?",
+              "meaning": "Anh trai bạn đang thức hay đang ngủ?"
+            },
+            {
+              "correct": "My mum is busy today.",
+              "meaning": "Hôm nay mẹ tôi bận."
+            }
+          ]
+        },
+        {
+          "title": "Trạng từ -ly: careful → carefully",
+          "desc": "Nhiều tính từ thêm '-ly' để thành trạng từ, mô tả CÁCH một hành động được thực hiện. Trạng từ thường đứng sau động từ.",
+          "formula": [
+            {
+              "text": "tính từ + ly",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "→ trạng từ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She walks carefully.",
+              "meaning": "Cô bé đi cẩn thận."
+            },
+            {
+              "correct": "He plays badly.",
+              "meaning": "Cậu ấy chơi tệ."
+            },
+            {
+              "correct": "Walk carefully, please!",
+              "meaning": "Hãy đi cẩn thận nhé!"
+            }
+          ]
+        },
+        {
+          "title": "better than: so sánh hơn với better",
+          "desc": "'better' là dạng so sánh hơn bất quy tắc của 'good'. Dùng với 'than' để so sánh hai đối tượng.",
+          "formula": [
+            {
+              "text": "S + is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "better",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "than + noun",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "This is better than that.",
+              "meaning": "Cái này tốt hơn cái kia."
+            },
+            {
+              "correct": "This food is better than that food.",
+              "meaning": "Món này ngon hơn món kia."
+            },
+            {
+              "correct": "Is this game better than that game?",
+              "meaning": "Trò chơi này có hay hơn trò chơi kia không?"
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Is he awake?",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Is your brother awake?",
+              "vi": "Anh trai bạn thức chưa?"
+            },
+            {
+              "speaker": "B",
+              "en": "No, he is asleep.",
+              "vi": "Chưa, anh ấy đang ngủ."
+            },
+            {
+              "speaker": "A",
+              "en": "Is your mum busy?",
+              "vi": "Mẹ bạn có đang bận không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, she is very busy today.",
+              "vi": "Có, hôm nay mẹ tớ rất bận."
+            },
+            {
+              "speaker": "A",
+              "en": "Be careful! They are asleep.",
+              "vi": "Cẩn thận đấy! Họ đang ngủ."
+            },
+            {
+              "speaker": "B",
+              "en": "OK, I am careful.",
+              "vi": "Được rồi, tớ cẩn thận đây."
+            }
+          ]
+        },
+        {
+          "title": "A brilliant idea",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "This game is boring.",
+              "vi": "Trò chơi này chán quá."
+            },
+            {
+              "speaker": "B",
+              "en": "I know a brilliant game!",
+              "vi": "Tớ biết một trò chơi tuyệt vời!"
+            },
+            {
+              "speaker": "A",
+              "en": "Is your game better than this game?",
+              "vi": "Trò của cậu hay hơn trò này không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes! It is the best game.",
+              "vi": "Đúng vậy! Đó là trò chơi tuyệt nhất."
+            },
+            {
+              "speaker": "A",
+              "en": "Are you brave and clever?",
+              "vi": "Cậu dũng cảm và thông minh chứ?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I am!",
+              "vi": "Đúng vậy!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Bài 3.b: Tính cách & cảm xúc (2/4)",
+      "theme": "Tính cách & cảm xúc",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "dangerous",
+          "ipa": "/ˈdeɪndʒərəs/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nguy hiểm",
+          "example_en": "Snakes are dangerous.",
+          "example_vi": "Rắn rất nguy hiểm."
+        },
+        {
+          "word": "difficult",
+          "ipa": "/ˈdɪfɪkəlt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khó",
+          "example_en": "This game is difficult.",
+          "example_vi": "Trò chơi này khó."
+        },
+        {
+          "word": "dry",
+          "ipa": "/draɪ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khô",
+          "example_en": "My hair is dry.",
+          "example_vi": "Tóc tôi khô rồi."
+        },
+        {
+          "word": "easy",
+          "ipa": "/ˈiːzi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "dễ",
+          "example_en": "This song is easy.",
+          "example_vi": "Bài hát này dễ."
+        },
+        {
+          "word": "exciting",
+          "ipa": "/ɪkˈsaɪtɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thú vị, hồi hộp",
+          "example_en": "This game is exciting!",
+          "example_vi": "Trò chơi này thú vị quá!"
+        },
+        {
+          "word": "fair",
+          "ipa": "/feər/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "công bằng",
+          "example_en": "That isn't fair!",
+          "example_vi": "Như vậy không công bằng!"
+        },
+        {
+          "word": "famous",
+          "ipa": "/ˈfeɪməs/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nổi tiếng",
+          "example_en": "My uncle is famous.",
+          "example_vi": "Chú tôi nổi tiếng."
+        },
+        {
+          "word": "fat",
+          "ipa": "/fæt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "béo, mập",
+          "example_en": "The cat is fat.",
+          "example_vi": "Con mèo béo."
+        },
+        {
+          "word": "fine",
+          "ipa": "/faɪn/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ổn, khỏe",
+          "example_en": "I am fine, thank you.",
+          "example_vi": "Tôi ổn, cảm ơn bạn."
+        },
+        {
+          "word": "frightened",
+          "ipa": "/ˈfraɪtnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "sợ hãi",
+          "example_en": "The dog is frightened.",
+          "example_vi": "Con chó sợ hãi."
+        },
+        {
+          "word": "huge",
+          "ipa": "/hjuːdʒ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "to lớn, khổng lồ",
+          "example_en": "That is a huge house!",
+          "example_vi": "Đó là một ngôi nhà khổng lồ!"
+        },
+        {
+          "word": "hungry",
+          "ipa": "/ˈhʌŋɡri/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đói",
+          "example_en": "I am hungry.",
+          "example_vi": "Tôi đói."
+        },
+        {
+          "word": "ill",
+          "ipa": "/ɪl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ốm, bệnh",
+          "example_en": "My grandpa is ill.",
+          "example_vi": "Ông tôi bị ốm."
+        },
+        {
+          "word": "kind",
+          "ipa": "/kaɪnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tốt bụng",
+          "example_en": "The nurse is kind.",
+          "example_vi": "Cô y tá tốt bụng."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "How + tính từ! : câu cảm thán",
+          "desc": "'How' + tính từ + dấu chấm than dùng để bày tỏ cảm xúc mạnh (ngạc nhiên, thích thú...). KHÔNG có chủ ngữ và động từ trong câu cảm thán này.",
+          "formula": [
+            {
+              "text": "How",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "adjective",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "!",
+              "classes": "border-orange-200 bg-orange-50 text-orange-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "How exciting!",
+              "meaning": "Thú vị quá!"
+            },
+            {
+              "correct": "How dangerous!",
+              "meaning": "Nguy hiểm quá!"
+            },
+            {
+              "correct": "How huge!",
+              "meaning": "To lớn quá!"
+            }
+          ]
+        },
+        {
+          "title": "be + ill/hungry: nhu cầu, cảm giác cơ thể",
+          "desc": "Ôn cấu trúc 'be' + tính từ trạng thái cơ thể, kết hợp 'must' đã học để diễn tả nhu cầu cần thiết.",
+          "formula": [
+            {
+              "text": "I am",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "hungry/ill",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": ". I must...",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am hungry. I must eat.",
+              "meaning": "Tôi đói. Tôi phải ăn."
+            },
+            {
+              "correct": "My grandpa is ill. He must see the doctor.",
+              "meaning": "Ông tôi bị ốm. Ông phải đi gặp bác sĩ."
+            },
+            {
+              "correct": "Are you fine now?",
+              "meaning": "Bạn ổn rồi chứ?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: be + tính từ (mở rộng)",
+          "desc": "Ôn lại cấu trúc be + tính từ với các từ mới: dangerous/difficult/easy/famous/kind/fair.",
+          "formula": [
+            {
+              "text": "S + is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "adjective",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The nurse is kind. The doctor is famous.",
+              "meaning": "Cô y tá tốt bụng. Bác sĩ thì nổi tiếng."
+            },
+            {
+              "correct": "This song is easy but that song is difficult.",
+              "meaning": "Bài hát này dễ nhưng bài kia khó."
+            },
+            {
+              "correct": "That isn't fair!",
+              "meaning": "Như vậy không công bằng!"
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A difficult game",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Is this game easy or difficult?",
+              "vi": "Trò chơi này dễ hay khó vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "It is difficult, but exciting!",
+              "vi": "Nó khó, nhưng thú vị lắm!"
+            },
+            {
+              "speaker": "A",
+              "en": "How exciting!",
+              "vi": "Thú vị quá đi!"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes! And it isn't dangerous.",
+              "vi": "Đúng vậy! Mà nó cũng không nguy hiểm."
+            },
+            {
+              "speaker": "A",
+              "en": "I am hungry now. Are you hungry too?",
+              "vi": "Giờ tớ đói rồi. Cậu cũng đói chứ?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I am very hungry.",
+              "vi": "Ừ, tớ đói lắm."
+            }
+          ]
+        },
+        {
+          "title": "My famous uncle",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "My uncle is famous.",
+              "vi": "Chú tôi nổi tiếng."
+            },
+            {
+              "speaker": "B",
+              "en": "Is he kind?",
+              "vi": "Chú ấy có tốt bụng không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, he is very kind. But my grandpa is ill.",
+              "vi": "Có, chú ấy rất tốt bụng. Nhưng ông tôi bị ốm."
+            },
+            {
+              "speaker": "B",
+              "en": "Oh no! He must see the doctor.",
+              "vi": "Ôi không! Ông phải đi gặp bác sĩ."
+            },
+            {
+              "speaker": "A",
+              "en": "Is the doctor fair and kind?",
+              "vi": "Bác sĩ có công bằng và tốt bụng không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, the doctor is very kind.",
+              "vi": "Có, bác sĩ rất tốt bụng."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 6,
+      "title": "Bài 3.c: Tính cách & cảm xúc (3/4)",
+      "theme": "Tính cách & cảm xúc",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "last",
+          "ipa": "/lɑːst/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "cuối cùng",
+          "example_en": "This is the last cake.",
+          "example_vi": "Đây là chiếc bánh cuối cùng."
+        },
+        {
+          "word": "little",
+          "ipa": "/ˈlɪtl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nhỏ, bé",
+          "example_en": "I have got a little dog.",
+          "example_vi": "Tôi có một chú chó nhỏ."
+        },
+        {
+          "word": "loud",
+          "ipa": "/laʊd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ồn ào, to tiếng",
+          "example_en": "The music is loud.",
+          "example_vi": "Nhạc to quá."
+        },
+        {
+          "word": "loudly",
+          "ipa": "/ˈlaʊdli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách ồn ào",
+          "example_en": "He sings loudly.",
+          "example_vi": "Cậu ấy hát to."
+        },
+        {
+          "word": "naughty",
+          "ipa": "/ˈnɔːti/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nghịch ngợm",
+          "example_en": "The dog is naughty.",
+          "example_vi": "Con chó nghịch ngợm."
+        },
+        {
+          "word": "pretty",
+          "ipa": "/ˈprɪti/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "xinh xắn",
+          "example_en": "She is pretty.",
+          "example_vi": "Cô bé xinh xắn."
+        },
+        {
+          "word": "quick",
+          "ipa": "/kwɪk/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nhanh",
+          "example_en": "He is quick.",
+          "example_vi": "Cậu ấy nhanh nhẹn."
+        },
+        {
+          "word": "quickly",
+          "ipa": "/ˈkwɪkli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách nhanh chóng",
+          "example_en": "She runs quickly.",
+          "example_vi": "Cô bé chạy nhanh."
+        },
+        {
+          "word": "quiet",
+          "ipa": "/ˈkwaɪət/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "yên tĩnh",
+          "example_en": "Be quiet, please.",
+          "example_vi": "Hãy yên lặng nhé."
+        },
+        {
+          "word": "quietly",
+          "ipa": "/ˈkwaɪətli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách yên lặng",
+          "example_en": "She talks quietly.",
+          "example_vi": "Cô bé nói chuyện nhỏ nhẹ."
+        },
+        {
+          "word": "safe",
+          "ipa": "/seɪf/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "an toàn",
+          "example_en": "Is this safe?",
+          "example_vi": "Cái này có an toàn không?"
+        },
+        {
+          "word": "sick",
+          "ipa": "/sɪk/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ốm, buồn nôn",
+          "example_en": "I am sick today.",
+          "example_vi": "Hôm nay tôi bị ốm."
+        },
+        {
+          "word": "slow",
+          "ipa": "/sloʊ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "chậm",
+          "example_en": "My grandpa is slow.",
+          "example_vi": "Ông tôi đi chậm chạp."
+        },
+        {
+          "word": "slowly",
+          "ipa": "/ˈsloʊli/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "một cách chậm rãi",
+          "example_en": "He walks slowly.",
+          "example_vi": "Cậu ấy đi chậm rãi."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "Trạng từ -ly: quick/quiet/slow/loud",
+          "desc": "Ôn quy tắc thêm '-ly' để tạo trạng từ từ tính từ, áp dụng với 4 cặp từ mới.",
+          "formula": [
+            {
+              "text": "quick/quiet/slow/loud",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "+ ly",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She runs quickly but he runs slowly.",
+              "meaning": "Cô bé chạy nhanh nhưng cậu ấy chạy chậm."
+            },
+            {
+              "correct": "Talk quietly, please.",
+              "meaning": "Hãy nói nhỏ nhẹ nhé."
+            },
+            {
+              "correct": "He sings loudly.",
+              "meaning": "Cậu ấy hát to."
+            }
+          ]
+        },
+        {
+          "title": "Be + tính từ! : câu mệnh lệnh",
+          "desc": "Dùng 'Be' + tính từ để đưa ra lời nhắc nhở, mệnh lệnh nhẹ nhàng.",
+          "formula": [
+            {
+              "text": "Be",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "quiet/careful/safe",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "!",
+              "classes": "border-orange-200 bg-orange-50 text-orange-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Be quiet, please!",
+              "meaning": "Hãy yên lặng nhé!"
+            },
+            {
+              "correct": "Be safe!",
+              "meaning": "Hãy an toàn nhé!"
+            },
+            {
+              "correct": "Don't be naughty!",
+              "meaning": "Đừng có nghịch ngợm nhé!"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: be + tính từ (little/pretty/sick/last)",
+          "desc": "Ôn cấu trúc be + tính từ với các từ mới còn lại.",
+          "formula": [
+            {
+              "text": "S + is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "adjective",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My little dog is pretty.",
+              "meaning": "Chú chó nhỏ của tôi xinh xắn."
+            },
+            {
+              "correct": "I am sick today.",
+              "meaning": "Hôm nay tôi bị ốm."
+            },
+            {
+              "correct": "This is the last game.",
+              "meaning": "Đây là trò chơi cuối cùng."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Be quiet!",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "The music is loud!",
+              "vi": "Nhạc to quá!"
+            },
+            {
+              "speaker": "B",
+              "en": "Sorry. Be quiet, please!",
+              "vi": "Xin lỗi. Hãy yên lặng nhé!"
+            },
+            {
+              "speaker": "A",
+              "en": "My little dog is naughty too. He runs quickly!",
+              "vi": "Chú chó nhỏ của tớ cũng nghịch lắm. Nó chạy nhanh lắm!"
+            },
+            {
+              "speaker": "B",
+              "en": "Is he safe?",
+              "vi": "Nó có an toàn không?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes, he is safe and quick.",
+              "vi": "Có, nó an toàn và nhanh nhẹn."
+            },
+            {
+              "speaker": "B",
+              "en": "He is pretty too!",
+              "vi": "Nó cũng xinh nữa!"
+            }
+          ]
+        },
+        {
+          "title": "The last game",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "This is the last game.",
+              "vi": "Đây là trò chơi cuối cùng."
+            },
+            {
+              "speaker": "B",
+              "en": "I am sick. I want to walk slowly.",
+              "vi": "Tớ bị ốm. Tớ muốn đi chậm thôi."
+            },
+            {
+              "speaker": "A",
+              "en": "Are you well?",
+              "vi": "Cậu có ổn không?"
+            },
+            {
+              "speaker": "B",
+              "en": "No, I am not well. I am slow today.",
+              "vi": "Không, tớ không ổn. Hôm nay tớ chậm chạp."
+            },
+            {
+              "speaker": "A",
+              "en": "Don't worry. Walk quietly and slowly.",
+              "vi": "Đừng lo. Cứ đi nhẹ nhàng và chậm rãi thôi."
+            },
+            {
+              "speaker": "B",
+              "en": "Thank you.",
+              "vi": "Cảm ơn cậu."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "title": "Bài 3.d: Tính cách & cảm xúc (4/4)",
+      "theme": "Tính cách & cảm xúc",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "strong",
+          "ipa": "/strɒŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khỏe mạnh, mạnh mẽ",
+          "example_en": "He is very strong.",
+          "example_vi": "Cậu ấy rất khỏe."
+        },
+        {
+          "word": "surprised",
+          "ipa": "/sərˈpraɪzd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ngạc nhiên",
+          "example_en": "I am surprised!",
+          "example_vi": "Tôi ngạc nhiên quá!"
+        },
+        {
+          "word": "tall",
+          "ipa": "/tɔːl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "cao",
+          "example_en": "My uncle is tall.",
+          "example_vi": "Chú tôi cao."
+        },
+        {
+          "word": "terrible",
+          "ipa": "/ˈterəbl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tệ hại, kinh khủng",
+          "example_en": "This is terrible!",
+          "example_vi": "Cái này tệ quá!"
+        },
+        {
+          "word": "thin",
+          "ipa": "/θɪn/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "gầy, mỏng",
+          "example_en": "The cat is thin.",
+          "example_vi": "Con mèo gầy."
+        },
+        {
+          "word": "thirsty",
+          "ipa": "/ˈθɜːrsti/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khát nước",
+          "example_en": "I am thirsty.",
+          "example_vi": "Tôi khát nước."
+        },
+        {
+          "word": "tired",
+          "ipa": "/ˈtaɪərd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "mệt mỏi",
+          "example_en": "My dad is tired.",
+          "example_vi": "Bố tôi mệt."
+        },
+        {
+          "word": "weak",
+          "ipa": "/wiːk/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "yếu",
+          "example_en": "The baby is weak.",
+          "example_vi": "Em bé còn yếu."
+        },
+        {
+          "word": "wet",
+          "ipa": "/wet/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ướt",
+          "example_en": "My hair is wet.",
+          "example_vi": "Tóc tôi ướt."
+        },
+        {
+          "word": "worse",
+          "ipa": "/wɜːrs/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tệ hơn (so sánh hơn của bad)",
+          "example_en": "This is worse than that.",
+          "example_vi": "Cái này tệ hơn cái kia."
+        },
+        {
+          "word": "worst",
+          "ipa": "/wɜːrst/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tệ nhất (so sánh nhất của bad)",
+          "example_en": "This is the worst day.",
+          "example_vi": "Đây là ngày tệ nhất."
+        },
+        {
+          "word": "wrong",
+          "ipa": "/rɒŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "sai",
+          "example_en": "That answer is wrong.",
+          "example_vi": "Câu trả lời đó sai rồi."
+        },
+        {
+          "word": "sweet",
+          "ipa": "/swiːt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ngọt",
+          "example_en": "This cake is sweet.",
+          "example_vi": "Chiếc bánh này ngọt."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "the best / the worst: so sánh nhất",
+          "desc": "'the best' (tốt nhất) và 'the worst' (tệ nhất) là dạng so sánh nhất bất quy tắc của good/bad. Luôn có 'the' đứng trước.",
+          "formula": [
+            {
+              "text": "S + is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "the best / the worst",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "This is the best cake!",
+              "meaning": "Đây là chiếc bánh ngon nhất!"
+            },
+            {
+              "correct": "This is the worst day.",
+              "meaning": "Đây là ngày tệ nhất."
+            },
+            {
+              "correct": "Is this worse than that?",
+              "meaning": "Cái này có tệ hơn cái kia không?"
+            }
+          ]
+        },
+        {
+          "title": "be + tính từ trạng thái cơ thể (tired/thirsty/weak/strong)",
+          "desc": "Ôn cấu trúc be + tính từ với các từ mô tả trạng thái cơ thể.",
+          "formula": [
+            {
+              "text": "S + am/is/are",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "tired/thirsty/weak/strong",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My dad is tired but strong.",
+              "meaning": "Bố tôi mệt nhưng vẫn khỏe."
+            },
+            {
+              "correct": "I am thirsty. I must drink water.",
+              "meaning": "Tôi khát nước. Tôi phải uống nước."
+            },
+            {
+              "correct": "The baby is weak.",
+              "meaning": "Em bé còn yếu."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 2: Tính cách & cảm xúc",
+          "desc": "Kết hợp toàn bộ tính từ, trạng từ -ly, so sánh hơn/nhất và must/could đã học trong Chương 2.",
+          "formula": [
+            {
+              "text": "Tổng hợp Bài 3.a-3.d",
+              "classes": "border-indigo-200 bg-indigo-50 text-indigo-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He is strong and brave, but she is quick and clever.",
+              "meaning": "Cậu ấy khỏe và dũng cảm, còn cô bé thì nhanh nhẹn và thông minh."
+            },
+            {
+              "correct": "I am tired and hungry. This is the worst day!",
+              "meaning": "Tôi mệt và đói. Đây là ngày tệ nhất!"
+            },
+            {
+              "correct": "That answer is wrong. You must try again.",
+              "meaning": "Câu trả lời đó sai rồi. Bạn phải thử lại."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "The worst day",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "I am tired and thirsty.",
+              "vi": "Tớ mệt và khát nước."
+            },
+            {
+              "speaker": "B",
+              "en": "This is terrible! Are you OK?",
+              "vi": "Tệ quá! Cậu ổn không?"
+            },
+            {
+              "speaker": "A",
+              "en": "No. This is the worst day.",
+              "vi": "Không. Đây là ngày tệ nhất."
+            },
+            {
+              "speaker": "B",
+              "en": "Don't worry. I am strong and brave.",
+              "vi": "Đừng lo. Tớ khỏe và dũng cảm lắm."
+            },
+            {
+              "speaker": "A",
+              "en": "Thank you! You are very kind.",
+              "vi": "Cảm ơn cậu! Cậu tốt bụng quá."
+            },
+            {
+              "speaker": "B",
+              "en": "That's OK!",
+              "vi": "Không có gì đâu!"
+            }
+          ]
+        },
+        {
+          "title": "Is this wrong?",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Is this answer wrong?",
+              "vi": "Câu trả lời này sai phải không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, it is wrong. Try again.",
+              "vi": "Đúng, sai rồi. Thử lại đi."
+            },
+            {
+              "speaker": "A",
+              "en": "I am surprised! This is difficult.",
+              "vi": "Tớ ngạc nhiên quá! Cái này khó."
+            },
+            {
+              "speaker": "B",
+              "en": "This cake is sweet. Eat it and try again.",
+              "vi": "Bánh này ngọt lắm. Ăn rồi thử lại nhé."
+            },
+            {
+              "speaker": "A",
+              "en": "Is this answer better or worse?",
+              "vi": "Câu trả lời này tốt hơn hay tệ hơn?"
+            },
+            {
+              "speaker": "B",
+              "en": "It is better! Well done!",
+              "vi": "Tốt hơn rồi! Giỏi lắm!"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

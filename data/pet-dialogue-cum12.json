@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 22,
+      "dialogues": [
+        {
+          "title": "Discussing an upcoming event",
+          "lines": [
+            {
+              "speaker": "Alice",
+              "en": "The annual conference is being organized by the marketing department this year. All the invitations have already been sent to the guests.",
+              "vi": "Hội nghị thường niên đang được tổ chức bởi bộ phận tiếp thị năm nay. Tất cả các lời mời đã được gửi tới khách mời."
+            },
+            {
+              "speaker": "Bob",
+              "en": "A famous speaker has been invited to talk about digital trends. The event will be held in the grand hall which is located downtown.",
+              "vi": "Một diễn giả nổi tiếng đã được mời để nói về các xu hướng kỹ thuật số. Sự kiện sẽ được tổ chức trong đại sảnh nơi mà tọa lạc ở trung tâm thành phố."
+            },
+            {
+              "speaker": "Alice",
+              "en": "The catering service was hired yesterday, and the food will be prepared by top chefs. A special menu has been designed for the vegetarian attendees.",
+              "vi": "Dịch vụ phục vụ ăn uống đã được thuê ngày hôm qua, và thức ăn sẽ được chuẩn bị bởi những đầu bếp hàng đầu. Một thực đơn đặc biệt đã được thiết kế cho những người tham dự ăn chay."
+            },
+            {
+              "speaker": "Bob",
+              "en": "That is excellent news because high-quality meals are expected by everyone. The presentation slides must be submitted before Friday.",
+              "vi": "Đó là một tin xuất sắc vì những bữa ăn chất lượng cao được mong đợi bởi mọi người. Các slide thuyết trình phải được nộp trước thứ Sáu."
+            },
+            {
+              "speaker": "Alice",
+              "en": "My slides were finished last night, and they have been approved by my manager. The projectors are being tested by the technical team right now.",
+              "vi": "Các slide của tôi đã được hoàn thành tối qua, và chúng đã được phê duyệt bởi người quản lý của tôi. Các máy chiếu hiện đang được kiểm tra bởi đội ngũ kỹ thuật."
+            },
+            {
+              "speaker": "Bob",
+              "en": "I hope no technical issues will be encountered during the conference. The microphones should be checked thoroughly before the event starts.",
+              "vi": "Tôi hy vọng không có vấn đề kỹ thuật nào sẽ bị gặp phải trong suốt hội nghị. Các micrô nên được kiểm tra kỹ lưỡng trước khi sự kiện bắt đầu."
+            },
+            {
+              "speaker": "Alice",
+              "en": "Everything has been planned carefully, so there is no need to worry. The entire conference will be recorded by professional cameramen.",
+              "vi": "Mọi thứ đã được lên kế hoạch cẩn thận, vì vậy không cần phải lo lắng. Toàn bộ hội nghị sẽ được ghi hình bởi những người quay phim chuyên nghiệp."
+            },
+            {
+              "speaker": "Bob",
+              "en": "The videos will be uploaded to the company website later. I am sure the event will be remembered as a great success.",
+              "vi": "Các video sẽ được tải lên trang web của công ty sau đó. Tôi chắc chắn sự kiện này sẽ được nhớ đến như một thành công lớn."
+            }
+          ]
+        },
+        {
+          "title": "A stolen bicycle",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "en": "My new bicycle was stolen while I was shopping at the supermarket yesterday. It had been locked securely to the fence before I went inside.",
+              "vi": "Chiếc xe đạp mới của tôi đã bị đánh cắp trong khi tôi đang mua sắm tại siêu thị hôm qua. Nó đã được khóa an toàn vào hàng rào trước khi tôi đi vào trong."
+            },
+            {
+              "speaker": "Jake",
+              "en": "That is terrible! Has the incident been reported to the local police station yet? The thieves must be caught immediately.",
+              "vi": "Thật tồi tệ! Sự việc đã được báo cáo cho đồn cảnh sát địa phương chưa? Những tên trộm phải bị bắt ngay lập tức."
+            },
+            {
+              "speaker": "Emma",
+              "en": "Yes, a police report was filed immediately, and they told me they would investigate it. The security cameras were checked by the manager this morning.",
+              "vi": "Có, một báo cáo cảnh sát đã được lập ngay lập tức, và họ bảo tôi rằng họ sẽ điều tra nó. Các camera an ninh đã được kiểm tra bởi người quản lý sáng nay."
+            },
+            {
+              "speaker": "Jake",
+              "en": "Hopefully, the thief's face was captured by the cameras. Your bike is quite unique, so it might be recognized by someone.",
+              "vi": "Hy vọng rằng khuôn mặt của tên trộm đã bị ghi lại bởi các camera. Chiếc xe của bạn khá độc đáo, vì vậy nó có thể được nhận ra bởi ai đó."
+            },
+            {
+              "speaker": "Emma",
+              "en": "A picture of the bike has been posted on several local Facebook groups. A small reward is being offered to anyone who finds it.",
+              "vi": "Một bức ảnh của chiếc xe đạp đã được đăng tải trên một vài nhóm Facebook địa phương. Một phần thưởng nhỏ đang được đưa ra cho bất cứ ai tìm thấy nó."
+            },
+            {
+              "speaker": "Jake",
+              "en": "I hope your bicycle will be returned to you safely. A lot of bikes have been stolen in this area recently.",
+              "vi": "Tôi hy vọng xe đạp của bạn sẽ được trả lại cho bạn an toàn. Rất nhiều xe đạp đã bị đánh cắp trong khu vực này gần đây."
+            },
+            {
+              "speaker": "Emma",
+              "en": "More street lights should be installed to prevent these crimes. Citizens are advised by the police to use stronger locks.",
+              "vi": "Nhiều đèn đường hơn nên được lắp đặt để ngăn chặn những tội ác này. Công dân được khuyên bởi cảnh sát hãy sử dụng những ổ khóa chắc chắn hơn."
+            },
+            {
+              "speaker": "Jake",
+              "en": "A community meeting will be held next week to discuss this problem. We must ensure that our neighborhood is protected properly.",
+              "vi": "Một cuộc họp cộng đồng sẽ được tổ chức vào tuần tới để thảo luận về vấn đề này. Chúng ta phải đảm bảo rằng khu phố của chúng ta được bảo vệ đúng cách."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "dialogues": [
+        {
+          "title": "Rules and advice at school",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "en": "You must submit your final essays before next Monday, or you will lose twenty percent of the marks. You ought to start writing them immediately.",
+              "vi": "Các em phải nộp bài luận cuối kỳ của mình trước thứ Hai tuần sau, hoặc các em sẽ mất hai mươi phần trăm số điểm. Các em nên bắt đầu viết chúng ngay lập tức."
+            },
+            {
+              "speaker": "Student",
+              "en": "I have to do a lot of research because my topic is quite complicated. Do we have to include at least three different sources?",
+              "vi": "Em phải làm rất nhiều nghiên cứu vì chủ đề của em khá phức tạp. Chúng em có bắt buộc phải bao gồm ít nhất ba nguồn tài liệu khác nhau không?"
+            },
+            {
+              "speaker": "Teacher",
+              "en": "Yes, you must cite reliable sources which support your arguments. You don't need to write a very long conclusion, but it must be clear.",
+              "vi": "Có, các em phải trích dẫn các nguồn đáng tin cậy những nguồn mà củng cố lập luận của các em. Các em không cần viết một kết luận quá dài, nhưng nó phải rõ ràng."
+            },
+            {
+              "speaker": "Student",
+              "en": "May I ask you a question about the formatting rules? We shouldn't use colored ink for the text, should we?",
+              "vi": "Em có thể hỏi thầy một câu hỏi về các quy tắc định dạng không? Chúng em không nên sử dụng mực màu cho văn bản, đúng không?"
+            },
+            {
+              "speaker": "Teacher",
+              "en": "You must use black ink only, and you should use a standard font like Arial or Times New Roman. You can't use informal language in academic writing.",
+              "vi": "Các em chỉ được phép sử dụng mực đen, và các em nên sử dụng phông chữ tiêu chuẩn như Arial hoặc Times New Roman. Các em không thể sử dụng ngôn ngữ không trang trọng trong văn phong học thuật."
+            },
+            {
+              "speaker": "Student",
+              "en": "I might finish the first draft tonight, so could I send it to you for some feedback? I want to make sure it is perfect.",
+              "vi": "Em có thể hoàn thành bản nháp đầu tiên vào tối nay, vậy em có thể gửi nó cho thầy để nhận vài phản hồi không? Em muốn đảm bảo nó thật hoàn hảo."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "You can send it to my email, but I might not reply until tomorrow morning. You had better check the spelling carefully before you send it.",
+              "vi": "Em có thể gửi nó đến email của thầy, nhưng thầy có thể sẽ không trả lời cho đến sáng mai. Tốt hơn là em nên kiểm tra chính tả cẩn thận trước khi gửi."
+            },
+            {
+              "speaker": "Student",
+              "en": "I will definitely proofread it twice, which will help eliminate any stupid errors. Thank you so much for your guidance and support.",
+              "vi": "Em chắc chắn sẽ đọc rà soát nó hai lần, điều này sẽ giúp loại bỏ bất kỳ lỗi ngớ ngẩn nào. Cảm ơn thầy rất nhiều vì sự hướng dẫn và hỗ trợ."
+            }
+          ]
+        },
+        {
+          "title": "Deducing what happened",
+          "lines": [
+            {
+              "speaker": "Detective",
+              "en": "The window is broken from the outside, so the thief must have entered through here. He couldn't have opened the front door because it was double-locked.",
+              "vi": "Cửa sổ bị vỡ từ bên ngoài, vì vậy tên trộm chắc hẳn đã vào qua đường này. Hắn không thể nào mở được cửa trước vì nó đã bị khóa kép."
+            },
+            {
+              "speaker": "Officer",
+              "en": "There is some mud on the carpet, which means he might have stepped in the garden first. The footprint could belong to a man wearing heavy boots.",
+              "vi": "Có một ít bùn trên thảm, điều đó có nghĩa là hắn có thể đã bước vào khu vườn trước. Dấu chân có thể thuộc về một người đàn ông đi đôi ủng nặng."
+            },
+            {
+              "speaker": "Detective",
+              "en": "He must be quite strong to carry that heavy safe out of the house. He may have had an accomplice who was waiting in a car.",
+              "vi": "Hắn chắc hẳn phải khá khỏe mới có thể mang chiếc két sắt nặng đó ra khỏi nhà. Hắn có thể đã có một đồng phạm người đang đợi trong một chiếc ô tô."
+            },
+            {
+              "speaker": "Officer",
+              "en": "The neighbors didn't hear anything, so the criminals must have been very quiet. They might have used professional tools to break the glass silently.",
+              "vi": "Những người hàng xóm không nghe thấy gì cả, vì vậy những tên tội phạm chắc hẳn đã rất im lặng. Họ có thể đã sử dụng các công cụ chuyên nghiệp để làm vỡ kính một cách không tiếng động."
+            },
+            {
+              "speaker": "Detective",
+              "en": "The family was away on vacation, so they couldn't have witnessed the crime. We should interview the postman who visits this street every morning.",
+              "vi": "Gia đình đã đi vắng trong kỳ nghỉ, vì vậy họ không thể nào chứng kiến được tội ác. Chúng ta nên phỏng vấn người đưa thư người đến thăm con phố này mỗi sáng."
+            },
+            {
+              "speaker": "Officer",
+              "en": "He might have noticed something suspicious when he delivered the letters. I will contact him immediately so that we can ask him some questions.",
+              "vi": "Anh ta có thể đã nhận thấy điều gì đó khả nghi khi anh ta giao những bức thư. Tôi sẽ liên lạc với anh ta ngay lập tức để chúng ta có thể hỏi anh ta vài câu hỏi."
+            },
+            {
+              "speaker": "Detective",
+              "en": "You ought to check the security cameras from the shop at the corner. The getaway car must have driven past that shop to escape.",
+              "vi": "Bạn nên kiểm tra các camera an ninh từ cửa hàng ở góc đường. Chiếc xe tẩu thoát chắc hẳn đã lái ngang qua cửa hàng đó để trốn chạy."
+            },
+            {
+              "speaker": "Officer",
+              "en": "I will do that right now. We have to gather all the evidence before it is too late.",
+              "vi": "Tôi sẽ làm điều đó ngay bây giờ. Chúng ta phải thu thập mọi bằng chứng trước khi quá muộn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

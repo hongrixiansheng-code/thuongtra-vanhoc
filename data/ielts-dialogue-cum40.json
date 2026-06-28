@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 79,
+    "dialogue": [
+      {
+        "title": "Life used to be different",
+        "lines": [
+          { "speaker": "James", "en": "I used to play football every weekend when I was young.", "vi": "Tôi đã từng chơi bóng đá mỗi cuối tuần khi tôi còn nhỏ." },
+          { "speaker": "Trang", "en": "Did you? I used to live in the countryside.", "vi": "Vậy hả? Tôi đã từng sống ở nông thôn." },
+          { "speaker": "James", "en": "Really? We didn't use to have a car back then.", "vi": "Thật sao? Hồi đó chúng tôi đã từng không có xe hơi." },
+          { "speaker": "Trang", "en": "Did you use to walk to school?", "vi": "Bạn đã từng đi bộ đến trường phải không?" },
+          { "speaker": "James", "en": "Yes, I used to walk for thirty minutes every day.", "vi": "Vâng, tôi đã từng đi bộ ba mươi phút mỗi ngày." },
+          { "speaker": "Trang", "en": "Things have changed a lot. We no longer live like that nowadays.", "vi": "Mọi thứ đã thay đổi rất nhiều. Bây giờ chúng ta không còn sống như vậy nữa." }
+        ]
+      },
+      {
+        "title": "Childhood routines",
+        "lines": [
+          { "speaker": "Jack", "en": "What did you use to do every evening as a child?", "vi": "Bạn đã từng làm gì mỗi tối khi còn nhỏ?" },
+          { "speaker": "Thao", "en": "I used to read books with my grandmother every evening.", "vi": "Tôi đã từng đọc sách với bà mỗi tối." },
+          { "speaker": "Jack", "en": "That's a nice tradition. I used to draw pictures with my father.", "vi": "Đó là một truyền thống đẹp. Tôi đã từng vẽ tranh với bố tôi." },
+          { "speaker": "Thao", "en": "Did you use to have that habit every day?", "vi": "Bạn đã từng có thói quen đó mỗi ngày phải không?" },
+          { "speaker": "Jack", "en": "Yes, but I didn't use to do it on weekends.", "vi": "Vâng, nhưng tôi đã từng không làm điều đó vào cuối tuần." },
+          { "speaker": "Thao", "en": "It's a memorable habit, even though it's gone now.", "vi": "Đó là một thói quen đáng nhớ, dù bây giờ nó không còn nữa." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "dialogue": [
+      {
+        "title": "Reporting what was said",
+        "lines": [
+          { "speaker": "Hung", "en": "Mai said that she was tired yesterday.", "vi": "Mai nói rằng cô ấy mệt hôm qua." },
+          { "speaker": "Vy", "en": "He told me that he worked at a big company.", "vi": "Anh ấy nói với tôi rằng anh ấy làm việc ở một công ty lớn." },
+          { "speaker": "Hung", "en": "She claimed that the result was correct.", "vi": "Cô ấy khẳng định rằng kết quả là đúng." },
+          { "speaker": "Vy", "en": "The manager announced that the meeting would start at nine.", "vi": "Quản lý thông báo rằng cuộc họp sẽ bắt đầu lúc chín giờ." },
+          { "speaker": "Hung", "en": "They reported that the bridge was finished.", "vi": "Họ báo cáo rằng cây cầu đã hoàn thành." },
+          { "speaker": "Vy", "en": "I believe that this information is true.", "vi": "Tôi tin rằng thông tin này là đúng." }
+        ]
+      },
+      {
+        "title": "What did he say?",
+        "lines": [
+          { "speaker": "An", "en": "What did she say about the project?", "vi": "Cô ấy đã nói gì về dự án?" },
+          { "speaker": "Duc", "en": "She said that she would finish it soon.", "vi": "Cô ấy nói rằng cô ấy sẽ hoàn thành nó sớm." },
+          { "speaker": "An", "en": "What did he tell you yesterday?", "vi": "Anh ấy đã nói với bạn gì hôm qua?" },
+          { "speaker": "Duc", "en": "He told me that he liked the new plan.", "vi": "Anh ấy nói với tôi rằng anh ấy thích kế hoạch mới." },
+          { "speaker": "An", "en": "She said that she needed some help.", "vi": "Cô ấy nói rằng cô ấy cần một ít sự giúp đỡ." },
+          { "speaker": "Duc", "en": "I argued that the plan needed more details.", "vi": "Tôi tranh luận rằng kế hoạch cần thêm chi tiết." }
+        ]
+      }
+    ]
+  }
+]

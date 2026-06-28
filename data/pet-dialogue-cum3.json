@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 4,
+      "dialogues": [
+        {
+          "title": "Applying for a university program",
+          "lines": [
+            {
+              "speaker": "David",
+              "en": "I am applying for a scholarship in order to study abroad next year. I need to get high scores so as to impress the admission board.",
+              "vi": "Tôi đang nộp đơn xin học bổng để đi du học vào năm tới. Tôi cần đạt điểm cao để gây ấn tượng với hội đồng tuyển sinh."
+            },
+            {
+              "speaker": "Lucy",
+              "en": "Which universities are you going to apply to? I know a few excellent colleges which offer programs for international students.",
+              "vi": "Bạn dự định nộp đơn vào những trường đại học nào? Tôi biết một vài trường xuất sắc có cung cấp các chương trình cho sinh viên quốc tế."
+            },
+            {
+              "speaker": "David",
+              "en": "I applied to Oxford and Cambridge, but I wasn't able to submit all the documents yesterday. The website crashed suddenly.",
+              "vi": "Tôi đã nộp đơn vào Oxford và Cambridge, nhưng hôm qua tôi đã không thể nộp tất cả các tài liệu. Trang web đột nhiên bị sập."
+            },
+            {
+              "speaker": "Lucy",
+              "en": "Did you manage to contact their technical support team? You should write an email in order not to miss the final deadline.",
+              "vi": "Bạn có xoay xở liên hệ được với nhóm hỗ trợ kỹ thuật của họ không? Bạn nên viết một email để không bỏ lỡ hạn chót."
+            },
+            {
+              "speaker": "David",
+              "en": "I sent them a message this morning, and I finally managed to upload my essays. I worked all night in order to finish them.",
+              "vi": "Tôi đã gửi cho họ một tin nhắn sáng nay, và cuối cùng tôi đã xoay xở tải lên được các bài luận của mình. Tôi đã làm việc cả đêm để hoàn thành chúng."
+            },
+            {
+              "speaker": "Lucy",
+              "en": "I am sure you will be able to get accepted because your academic record is outstanding. Have you prepared for the interview yet?",
+              "vi": "Tôi chắc chắn bạn sẽ có khả năng được chấp nhận vì thành tích học tập của bạn rất xuất sắc. Bạn đã chuẩn bị cho cuộc phỏng vấn chưa?"
+            },
+            {
+              "speaker": "David",
+              "en": "I am currently taking a communication course so as to improve my speaking skills. I want to speak confidently when I meet the professors.",
+              "vi": "Tôi hiện đang tham gia một khóa học giao tiếp để cải thiện kỹ năng nói của mình. Tôi muốn nói chuyện một cách tự tin khi gặp các giáo sư."
+            },
+            {
+              "speaker": "Lucy",
+              "en": "That is a smart decision, and I can help you practice your answers this weekend. We can do a mock interview in order to prepare fully.",
+              "vi": "Đó là một quyết định thông minh, và tôi có thể giúp bạn luyện tập các câu trả lời vào cuối tuần này. Chúng ta có thể làm một cuộc phỏng vấn thử để chuẩn bị đầy đủ."
+            }
+          ]
+        },
+        {
+          "title": "Finding a new job",
+          "lines": [
+            {
+              "speaker": "Brian",
+              "en": "I decided to apply for the marketing position which was advertised in the newspaper. I am looking for a job in order to earn more money.",
+              "vi": "Tôi quyết định nộp đơn xin vào vị trí tiếp thị được quảng cáo trên tờ báo. Tôi đang tìm kiếm một công việc để kiếm thêm tiền."
+            },
+            {
+              "speaker": "Anna",
+              "en": "You have a lot of experience in sales, so you should be able to get the job easily. Did you manage to update your CV?",
+              "vi": "Bạn có nhiều kinh nghiệm trong việc bán hàng, vì vậy bạn có khả năng nhận được công việc đó một cách dễ dàng. Bạn đã xoay xở cập nhật CV của mình chưa?"
+            },
+            {
+              "speaker": "Brian",
+              "en": "Yes, I rewrote the entire document so as to highlight my recent achievements. I also applied to a few other local companies.",
+              "vi": "Có, tôi đã viết lại toàn bộ tài liệu để làm nổi bật những thành tựu gần đây của mình. Tôi cũng đã nộp đơn vào một vài công ty địa phương khác."
+            },
+            {
+              "speaker": "Anna",
+              "en": "I heard that the interviews are very challenging, and the managers ask tricky questions in order to test your reactions.",
+              "vi": "Tôi nghe nói rằng các cuộc phỏng vấn rất thử thách, và các quản lý đặt ra những câu hỏi hóc búa để kiểm tra phản ứng của bạn."
+            },
+            {
+              "speaker": "Brian",
+              "en": "I wasn't able to answer a difficult question during my last interview. Therefore, I am practicing every day in order not to repeat the same mistake.",
+              "vi": "Tôi đã không thể trả lời một câu hỏi khó trong cuộc phỏng vấn lần trước. Do đó, tôi đang luyện tập mỗi ngày để không lặp lại sai lầm tương tự."
+            },
+            {
+              "speaker": "Anna",
+              "en": "If you are well-prepared, you will manage to handle any situation. It is important to stay calm so as to show your confidence.",
+              "vi": "Nếu bạn chuẩn bị tốt, bạn sẽ xoay xở xử lý được mọi tình huống. Việc giữ bình tĩnh là rất quan trọng để thể hiện sự tự tin của bạn."
+            },
+            {
+              "speaker": "Brian",
+              "en": "I will wear my best suit in order to look professional and serious. First impressions are crucial when you apply for a job.",
+              "vi": "Tôi sẽ mặc bộ vest đẹp nhất của mình để trông thật chuyên nghiệp và nghiêm túc. Những ấn tượng ban đầu là cực kỳ quan trọng khi bạn nộp đơn xin việc."
+            },
+            {
+              "speaker": "Anna",
+              "en": "I wish you the best of luck, and I am sure you will be able to impress the interviewers. Call me as soon as it is over!",
+              "vi": "Tôi chúc bạn may mắn nhất, và tôi chắc chắn bạn sẽ có thể gây ấn tượng với những người phỏng vấn. Hãy gọi cho tôi ngay khi nó kết thúc nhé!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "dialogues": [
+        {
+          "title": "Talking about past jobs",
+          "lines": [
+            {
+              "speaker": "Peter",
+              "en": "I used to work in a busy restaurant where I was responsible for serving the customers. We would usually stay until midnight to clean the tables.",
+              "vi": "Tôi từng làm việc trong một nhà hàng bận rộn nơi tôi chịu trách nhiệm phục vụ khách hàng. Chúng tôi thường hay ở lại đến nửa đêm để lau dọn bàn."
+            },
+            {
+              "speaker": "Alice",
+              "en": "That sounds exhausting, and my manager asked me if I had ever worked long hours. I told him that I used to have a very relaxing job.",
+              "vi": "Nghe có vẻ mệt mỏi nhỉ, và quản lý của tôi đã hỏi tôi xem tôi có từng làm việc nhiều giờ liền chưa. Tôi đã bảo ông ấy rằng tôi từng có một công việc rất nhàn rỗi."
+            },
+            {
+              "speaker": "Peter",
+              "en": "In my previous job, I was responsible for managing the daily inventory. My boss asked how I handled the pressure when things went wrong.",
+              "vi": "Ở công việc trước đây của tôi, tôi chịu trách nhiệm quản lý hàng tồn kho hàng ngày. Sếp tôi đã hỏi tôi xử lý áp lực ra sao khi mọi việc đi chệch hướng."
+            },
+            {
+              "speaker": "Alice",
+              "en": "I also had an interview yesterday, and the director asked why I left my old company. I explained that I wanted to find new challenges.",
+              "vi": "Hôm qua tôi cũng có một cuộc phỏng vấn, và giám đốc đã hỏi tại sao tôi lại rời bỏ công ty cũ. Tôi giải thích rằng tôi muốn tìm kiếm những thử thách mới."
+            },
+            {
+              "speaker": "Peter",
+              "en": "When I was younger, I would often switch jobs because I didn't know what my passion was. Now, I am responsible for leading a whole team.",
+              "vi": "Khi tôi còn trẻ hơn, tôi thường hay nhảy việc vì tôi không biết đam mê của mình là gì. Bây giờ, tôi chịu trách nhiệm dẫn dắt cả một đội ngũ."
+            },
+            {
+              "speaker": "Alice",
+              "en": "That is a huge responsibility, which requires excellent communication skills. They asked me what my greatest weakness was.",
+              "vi": "Đó là một trách nhiệm khổng lồ, thứ mà đòi hỏi kỹ năng giao tiếp xuất sắc. Họ đã hỏi tôi điểm yếu lớn nhất của tôi là gì."
+            },
+            {
+              "speaker": "Peter",
+              "en": "I used to get nervous during interviews, but now I feel much more confident. They usually ask if you are willing to work overtime.",
+              "vi": "Tôi từng hay lo lắng trong các cuộc phỏng vấn, nhưng bây giờ tôi cảm thấy tự tin hơn nhiều. Họ thường hỏi xem bạn có sẵn sàng làm thêm giờ không."
+            },
+            {
+              "speaker": "Alice",
+              "en": "I answered that I would always support the team when necessary. Hopefully, they will call me back with good news next week.",
+              "vi": "Tôi đã trả lời rằng tôi sẽ luôn hỗ trợ nhóm khi cần thiết. Hi vọng rằng họ sẽ gọi lại cho tôi với tin tức tốt lành vào tuần tới."
+            }
+          ]
+        },
+        {
+          "title": "Discussing team responsibilities",
+          "lines": [
+            {
+              "speaker": "Chris",
+              "en": "We need to clearly define who is responsible for updating the website. In the past, John would always handle the technical issues.",
+              "vi": "Chúng ta cần xác định rõ ai là người chịu trách nhiệm cập nhật trang web. Trong quá khứ, John thường hay xử lý các vấn đề kỹ thuật."
+            },
+            {
+              "speaker": "Emma",
+              "en": "John used to do it perfectly, but he asked if we could assign someone else this month. He is currently responsible for training the new interns.",
+              "vi": "John từng làm việc đó rất hoàn hảo, nhưng anh ấy đã hỏi liệu chúng ta có thể giao cho ai khác trong tháng này không. Hiện tại anh ấy chịu trách nhiệm đào tạo các thực tập sinh mới."
+            },
+            {
+              "speaker": "Chris",
+              "en": "I used to write the code myself when the company was still small. The manager asked whether I could take over the task temporarily.",
+              "vi": "Tôi từng tự mình viết mã code khi công ty vẫn còn nhỏ. Quản lý đã hỏi xem liệu tôi có thể tiếp quản nhiệm vụ đó tạm thời không."
+            },
+            {
+              "speaker": "Emma",
+              "en": "That would be great because I am already responsible for writing the weekly reports. They also asked what time the website would be online.",
+              "vi": "Thế thì tuyệt quá vì tôi đã chịu trách nhiệm viết các báo cáo hàng tuần rồi. Họ cũng đã hỏi lúc mấy giờ thì trang web sẽ trực tuyến."
+            },
+            {
+              "speaker": "Chris",
+              "en": "I told them that the site would be ready by Friday afternoon. We would often launch new features on Fridays so we could monitor them over the weekend.",
+              "vi": "Tôi đã bảo họ rằng trang web sẽ sẵn sàng vào chiều thứ Sáu. Chúng ta thường hay ra mắt các tính năng mới vào thứ Sáu để chúng ta có thể theo dõi chúng qua cuối tuần."
+            },
+            {
+              "speaker": "Emma",
+              "en": "I remember that we used to have a lot of bugs after every update. Who is responsible for testing the software before the launch?",
+              "vi": "Tôi nhớ là chúng ta từng có rất nhiều lỗi phần mềm sau mỗi lần cập nhật. Ai là người chịu trách nhiệm kiểm tra phần mềm trước khi ra mắt?"
+            },
+            {
+              "speaker": "Chris",
+              "en": "Lisa is responsible for finding errors, and she asked me if the database was secured. I assured her that everything was protected.",
+              "vi": "Lisa chịu trách nhiệm tìm lỗi, và cô ấy đã hỏi tôi xem cơ sở dữ liệu đã được bảo mật chưa. Tôi đã trấn an cô ấy rằng mọi thứ đã được bảo vệ."
+            },
+            {
+              "speaker": "Emma",
+              "en": "She used to be very strict about quality control, which is exactly what we need. Let's start working so we can finish on time.",
+              "vi": "Cô ấy từng rất nghiêm ngặt về việc kiểm soát chất lượng, đó chính xác là những gì chúng ta cần. Hãy bắt đầu làm việc thôi để chúng ta có thể hoàn thành đúng hạn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

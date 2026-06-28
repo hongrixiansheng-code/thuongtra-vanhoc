@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 74,
+    "vocab": [
+      {
+        "word": "if",
+        "ipa": "/ɪf/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "nếu",
+        "example_en": "If you go, I will go.",
+        "example_vi": "Nếu bạn đi, tôi sẽ đi.",
+        "level": "B1"
+      },
+      {
+        "word": "unless",
+        "ipa": "/ʌnˈles/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "trừ khi",
+        "example_en": "Unless you try, you fail.",
+        "example_vi": "Trừ khi bạn cố gắng, bạn sẽ thất bại.",
+        "level": "B1"
+      },
+      {
+        "word": "condition",
+        "ipa": "/kənˈdɪʃ.ən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "điều kiện",
+        "example_en": "A good condition.",
+        "example_vi": "Một điều kiện tốt.",
+        "level": "B1"
+      },
+      {
+        "word": "real",
+        "ipa": "/rɪəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thực tế",
+        "example_en": "A real story.",
+        "example_vi": "Một câu chuyện thực tế.",
+        "level": "B1"
+      },
+      {
+        "word": "true",
+        "ipa": "/truː/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đúng, sự thật",
+        "example_en": "It is a true story.",
+        "example_vi": "Đó là một câu chuyện có thật.",
+        "level": "B1"
+      },
+      {
+        "word": "happen",
+        "ipa": "/ˈhæp.ən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xảy ra",
+        "example_en": "It happened yesterday.",
+        "example_vi": "Nó đã xảy ra hôm qua.",
+        "level": "B1"
+      },
+      {
+        "word": "fact",
+        "ipa": "/fækt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự thật",
+        "example_en": "It is a fact.",
+        "example_vi": "Đó là một sự thật.",
+        "level": "B1"
+      },
+      {
+        "word": "reality",
+        "ipa": "/riˈæl.ə.ti/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thực tại",
+        "example_en": "In reality, it is hard.",
+        "example_vi": "Trên thực tế, điều đó rất khó.",
+        "level": "B1"
+      },
+      {
+        "word": "situation",
+        "ipa": "/ˌsɪtʃ.uˈeɪ.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tình huống",
+        "example_en": "A bad situation.",
+        "example_vi": "Một tình huống tồi tệ.",
+        "level": "B1"
+      },
+      {
+        "word": "normal",
+        "ipa": "/ˈnɔː.məl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bình thường",
+        "example_en": "A normal day.",
+        "example_vi": "Một ngày bình thường.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 75,
+    "vocab": [
+      {
+        "word": "would",
+        "ipa": "/wʊd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "sẽ (quá khứ/giả định)",
+        "example_en": "I would go if I could.",
+        "example_vi": "Tôi sẽ đi nếu tôi có thể.",
+        "level": "B1"
+      },
+      {
+        "word": "could",
+        "ipa": "/kʊd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể (quá khứ/giả định)",
+        "example_en": "I could do it.",
+        "example_vi": "Tôi có thể làm điều đó.",
+        "level": "B1"
+      },
+      {
+        "word": "might",
+        "ipa": "/maɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể",
+        "example_en": "He might come.",
+        "example_vi": "Anh ấy có thể sẽ đến.",
+        "level": "B1"
+      },
+      {
+        "word": "unreal",
+        "ipa": "/ʌnˈrɪəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "không thực tế",
+        "example_en": "An unreal dream.",
+        "example_vi": "Một giấc mơ không thực tế.",
+        "level": "B1"
+      },
+      {
+        "word": "imagine",
+        "ipa": "/ɪˈmædʒ.ɪn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tưởng tượng",
+        "example_en": "Imagine a big house.",
+        "example_vi": "Hãy tưởng tượng một ngôi nhà lớn.",
+        "level": "B1"
+      },
+      {
+        "word": "suppose",
+        "ipa": "/səˈpəʊz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "giả sử, cho rằng",
+        "example_en": "I suppose you are right.",
+        "example_vi": "Tôi cho rằng bạn đúng.",
+        "level": "B1"
+      },
+      {
+        "word": "wish",
+        "ipa": "/wɪʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ước",
+        "example_en": "I wish I had a car.",
+        "example_vi": "Tôi ước tôi có một chiếc ô tô.",
+        "level": "B1"
+      },
+      {
+        "word": "dream",
+        "ipa": "/driːm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giấc mơ",
+        "example_en": "A beautiful dream.",
+        "example_vi": "Một giấc mơ đẹp.",
+        "level": "B1"
+      },
+      {
+        "word": "desire",
+        "ipa": "/dɪˈzaɪər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "khao khát",
+        "example_en": "A strong desire.",
+        "example_vi": "Một khao khát mãnh liệt.",
+        "level": "B1"
+      },
+      {
+        "word": "expect",
+        "ipa": "/ɪkˈspekt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mong đợi",
+        "example_en": "I expect to win.",
+        "example_vi": "Tôi mong đợi sẽ chiến thắng.",
+        "level": "B1"
+      }
+    ]
+  }
+]

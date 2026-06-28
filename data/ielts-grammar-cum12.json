@@ -1,0 +1,126 @@
+[
+  {
+    "lessonOrder": 23,
+    "grammar": [
+      {
+        "title": "Trạng từ tần suất (Adverbs of Frequency)",
+        "desc": "Dùng để chỉ mức độ thường xuyên của một hành động (luôn luôn, thường, thỉnh thoảng, không bao giờ...).",
+        "formula": [
+          {
+            "text": "S + Trạng từ + V(thường)",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          },
+          {
+            "text": "S + am/is/are + Trạng từ",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I always wake up early.",
+            "vi": "Tôi luôn luôn thức dậy sớm."
+          },
+          {
+            "en": "She is often late for school.",
+            "vi": "Cô ấy thường xuyên đi học muộn."
+          },
+          {
+            "en": "We sometimes go to the cinema.",
+            "vi": "Chúng tôi thỉnh thoảng đi xem phim."
+          }
+        ],
+        "note": "Vị trí: Đứng TRƯỚC động từ thường. Đứng SAU động từ to be (am/is/are).",
+        "practiceList": [
+          {
+            "question": "He ___ goes to bed late. (hiếm khi)",
+            "correct": "rarely",
+            "meaning": "Anh ấy hiếm khi đi ngủ muộn.",
+            "explanation": "Trạng từ \"rarely\" mang nghĩa hiếm khi."
+          },
+          {
+            "question": "They are ___ busy on Mondays. (luôn luôn)",
+            "correct": "always",
+            "meaning": "Họ luôn luôn bận rộn vào các ngày thứ Hai.",
+            "explanation": "Trạng từ đứng sau động từ to be (are)."
+          },
+          {
+            "question": "I ___ eat meat. I am a vegetarian. (không bao giờ)",
+            "correct": "never",
+            "meaning": "Tôi không bao giờ ăn thịt. Tôi là người ăn chay.",
+            "explanation": "\"never\" đứng trước động từ thường (eat)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 24,
+    "grammar": [
+      {
+        "title": "Giới từ thời gian: in / on / at",
+        "desc": "Dùng để chỉ thời điểm hoặc khoảng thời gian.",
+        "formula": [
+          {
+            "text": "in",
+            "classes": "border-purple-500 text-purple-600 bg-purple-50"
+          },
+          {
+            "text": "+ tháng/năm/buổi (in the morning)",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          },
+          {
+            "text": "on",
+            "classes": "border-purple-500 text-purple-600 bg-purple-50"
+          },
+          {
+            "text": "+ thứ/ngày (on Monday)",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          },
+          {
+            "text": "at",
+            "classes": "border-purple-500 text-purple-600 bg-purple-50"
+          },
+          {
+            "text": "+ giờ/những dịp lễ (at 7 AM, at night)",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I sleep at midnight.",
+            "vi": "Tôi ngủ lúc nửa đêm."
+          },
+          {
+            "en": "We don't work on weekends.",
+            "vi": "Chúng tôi không làm việc vào cuối tuần."
+          },
+          {
+            "en": "It is hot in the afternoon.",
+            "vi": "Trời nóng vào buổi chiều."
+          }
+        ],
+        "note": "Ngoại lệ: at night, at the weekend, at noon.",
+        "practiceList": [
+          {
+            "question": "I always wake up ___ 6 AM.",
+            "correct": "at",
+            "meaning": "Tôi luôn thức dậy lúc 6 giờ sáng.",
+            "explanation": "Đi với giờ cụ thể dùng \"at\"."
+          },
+          {
+            "question": "We have a meeting ___ Friday.",
+            "correct": "on",
+            "meaning": "Chúng tôi có một cuộc họp vào thứ Sáu.",
+            "explanation": "Đi với các thứ trong tuần dùng \"on\"."
+          },
+          {
+            "question": "She was born ___ October.",
+            "correct": "in",
+            "meaning": "Cô ấy sinh vào tháng Mười.",
+            "explanation": "Đi với tháng dùng \"in\"."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,139 @@
+[
+  {
+    "lessonOrder": 5,
+    "grammar": [
+      {
+        "title": "Cấu trúc There is / There are — Khẳng định",
+        "desc": "Dùng để chỉ sự tồn tại của người hoặc vật ở một nơi nào đó (Có...).",
+        "formula": [
+          {
+            "text": "There is / are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          },
+          {
+            "text": "Place",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "There is a kitchen.",
+            "vi": "Có một nhà bếp."
+          },
+          {
+            "en": "There are two bedrooms.",
+            "vi": "Có hai phòng ngủ."
+          }
+        ],
+        "note": "Nếu theo sau là một chuỗi các vật, dùng \"There is\" hay \"There are\" phụ thuộc vào danh từ ĐẦU TIÊN ngay sau nó.",
+        "practiceList": [
+          {
+            "question": "___ a garden in my house.",
+            "correct": "There is",
+            "meaning": "Có một khu vườn trong nhà tôi.",
+            "explanation": "\"a garden\" là số ít nên dùng \"There is\"."
+          },
+          {
+            "question": "___ three floors.",
+            "correct": "There are",
+            "meaning": "Có ba tầng.",
+            "explanation": "\"three floors\" là số nhiều nên dùng \"There are\"."
+          },
+          {
+            "question": "___ a bed and two chairs.",
+            "correct": "There is",
+            "meaning": "Có một cái giường và hai cái ghế.",
+            "explanation": "Danh từ đầu tiên là \"a bed\" (số ít), nên dùng \"There is\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "grammar": [
+      {
+        "title": "Cấu trúc There isn't / aren't — Phủ định",
+        "desc": "Dùng để nói không có vật/người nào đó.",
+        "formula": [
+          {
+            "text": "There isn't / aren't",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "There isn't a fridge.",
+            "vi": "Không có tủ lạnh."
+          },
+          {
+            "en": "There aren't any chairs.",
+            "vi": "Không có cái ghế nào."
+          }
+        ],
+        "note": "Dùng thêm \"any\" trong câu phủ định số nhiều (aren't any chairs).",
+        "practiceList": [
+          {
+            "question": "___ a sofa in the room.",
+            "correct": "There isn't",
+            "meaning": "Không có ghế sofa trong phòng.",
+            "explanation": "\"a sofa\" là số ít, phủ định dùng \"There isn't\"."
+          },
+          {
+            "question": "There ___ any lamps.",
+            "correct": "aren't",
+            "meaning": "Không có cái đèn nào cả.",
+            "explanation": "\"lamps\" là số nhiều, phủ định dùng \"aren't\"."
+          }
+        ]
+      },
+      {
+        "title": "Cấu trúc Is there / Are there — Câu hỏi",
+        "desc": "Dùng để hỏi xem có tồn tại một vật/người nào đó hay không.",
+        "formula": [
+          {
+            "text": "Is / Are there",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun ?",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Is there a window?",
+            "vi": "Có cửa sổ nào không?"
+          },
+          {
+            "en": "Are there any chairs?",
+            "vi": "Có cái ghế nào không?"
+          }
+        ],
+        "note": "Đảo \"Is / Are\" lên trước \"there\".",
+        "practiceList": [
+          {
+            "question": "___ a mirror here?",
+            "correct": "Is there",
+            "meaning": "Có cái gương nào ở đây không?",
+            "explanation": "Câu hỏi với danh từ số ít \"a mirror\"."
+          },
+          {
+            "question": "___ any doors?",
+            "correct": "Are there",
+            "meaning": "Có cửa ra vào nào không?",
+            "explanation": "Câu hỏi với danh từ số nhiều \"doors\"."
+          }
+        ]
+      }
+    ]
+  }
+]

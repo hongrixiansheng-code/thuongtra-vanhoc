@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 29,
+    "writing": [
+      {
+        "title": "Writing Task 1: A shopping list",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) listing what you need to buy, using a/an, some, many, how many.",
+        "minWords": 30,
+        "sampleAnswer": "I have an apple and some bananas. I have some tomatoes, maybe five or six. We need three eggs for the cake. Let's buy some onions too.",
+        "checklist": ["Dùng a/an cho danh từ số ít", "Dùng some cho số nhiều không xác định", "Có ít nhất 1 số lượng cụ thể (three, five...)"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "writing": [
+      {
+        "title": "Writing Task 1: What's in the kitchen",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing food at home, using some, much, how much.",
+        "minWords": 30,
+        "sampleAnswer": "I have some rice for dinner, maybe two kilos. There isn't much water in the bottle. I need a little sugar for the cake, just two spoons.",
+        "checklist": ["Dùng some với danh từ không đếm được", "Dùng much trong câu phủ định", "Không thêm -s vào danh từ không đếm được"]
+      }
+    ]
+  }
+]

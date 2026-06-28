@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 15,
+    "vocab": [
+      {
+        "word": "red",
+        "ipa": "/red/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "màu đỏ",
+        "example_en": "The apple is red.",
+        "example_vi": "Quả táo màu đỏ.",
+        "level": "A1"
+      },
+      {
+        "word": "blue",
+        "ipa": "/bluː/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "màu xanh dương",
+        "example_en": "The sky is blue.",
+        "example_vi": "Bầu trời màu xanh dương.",
+        "level": "A1"
+      },
+      {
+        "word": "green",
+        "ipa": "/ɡriːn/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "màu xanh lá",
+        "example_en": "The grass is green.",
+        "example_vi": "Cỏ màu xanh lá.",
+        "level": "A1"
+      },
+      {
+        "word": "white",
+        "ipa": "/waɪt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "màu trắng",
+        "example_en": "The wall is white.",
+        "example_vi": "Bức tường màu trắng.",
+        "level": "A1"
+      },
+      {
+        "word": "black",
+        "ipa": "/blæk/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "màu đen",
+        "example_en": "My bag is black.",
+        "example_vi": "Cái túi của tôi màu đen.",
+        "level": "A1"
+      },
+      {
+        "word": "small",
+        "ipa": "/smɔːl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhỏ",
+        "example_en": "The box is small.",
+        "example_vi": "Cái hộp thì nhỏ.",
+        "level": "A1"
+      },
+      {
+        "word": "big",
+        "ipa": "/bɪɡ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "to lớn",
+        "example_en": "My house is big.",
+        "example_vi": "Nhà của tôi thì lớn.",
+        "level": "A1"
+      },
+      {
+        "word": "large",
+        "ipa": "/lɑːdʒ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "rộng lớn",
+        "example_en": "It is a large room.",
+        "example_vi": "Đó là một căn phòng rộng lớn.",
+        "level": "A1"
+      },
+      {
+        "word": "tiny",
+        "ipa": "/ˈtaɪ.ni/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "bé xíu",
+        "example_en": "The insect is tiny.",
+        "example_vi": "Côn trùng thì bé xíu.",
+        "level": "A1"
+      },
+      {
+        "word": "wide",
+        "ipa": "/waɪd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "rộng rãi",
+        "example_en": "The road is wide.",
+        "example_vi": "Con đường thì rộng rãi.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "vocab": [
+      {
+        "word": "bag",
+        "ipa": "/bæɡ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái túi",
+        "example_en": "I have a bag.",
+        "example_vi": "Tôi có một cái túi.",
+        "level": "A1"
+      },
+      {
+        "word": "key",
+        "ipa": "/kiː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chìa khóa",
+        "example_en": "Where is the key?",
+        "example_vi": "Chìa khóa ở đâu?",
+        "level": "A1"
+      },
+      {
+        "word": "phone",
+        "ipa": "/fəʊn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "điện thoại",
+        "example_en": "My phone is new.",
+        "example_vi": "Điện thoại của tôi mới.",
+        "level": "A1"
+      },
+      {
+        "word": "book",
+        "ipa": "/bʊk/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cuốn sách",
+        "example_en": "Read this book.",
+        "example_vi": "Đọc cuốn sách này.",
+        "level": "A1"
+      },
+      {
+        "word": "pen",
+        "ipa": "/pen/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái bút",
+        "example_en": "Give me a pen.",
+        "example_vi": "Đưa tôi một cái bút.",
+        "level": "A1"
+      },
+      {
+        "word": "wallet",
+        "ipa": "/ˈwɒl.ɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái ví",
+        "example_en": "My wallet is empty.",
+        "example_vi": "Cái ví của tôi trống rỗng.",
+        "level": "A1"
+      },
+      {
+        "word": "glasses",
+        "ipa": "/ˈɡlɑː.sɪz/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kính mắt",
+        "example_en": "She wears glasses.",
+        "example_vi": "Cô ấy đeo kính mắt.",
+        "level": "A1"
+      },
+      {
+        "word": "umbrella",
+        "ipa": "/ʌmˈbrel.ə/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cái ô",
+        "example_en": "Take an umbrella.",
+        "example_vi": "Mang theo một cái ô.",
+        "level": "A1"
+      },
+      {
+        "word": "ticket",
+        "ipa": "/ˈtɪk.ɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vé",
+        "example_en": "Buy a ticket.",
+        "example_vi": "Mua một tấm vé.",
+        "level": "A1"
+      },
+      {
+        "word": "card",
+        "ipa": "/kɑːd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thẻ",
+        "example_en": "Use your card.",
+        "example_vi": "Sử dụng thẻ của bạn.",
+        "level": "A1"
+      }
+    ]
+  }
+]

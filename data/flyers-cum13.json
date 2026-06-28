@@ -1,0 +1,240 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 29,
+      "title": "Bài 15.b: Thời gian (2/3)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "midday",
+          "ipa": "/ˌmɪdˈdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giữa trưa (12 giờ trưa)",
+          "example_en": "We eat lunch at midday.",
+          "example_vi": "Chúng tôi ăn trưa vào giữa trưa."
+        },
+        {
+          "word": "midnight",
+          "ipa": "/ˈmɪdnaɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nửa đêm (12 giờ đêm)",
+          "example_en": "I was asleep at midnight.",
+          "example_vi": "Tôi đang ngủ say vào lúc nửa đêm."
+        },
+        {
+          "word": "minute",
+          "ipa": "/ˈmɪnɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phút",
+          "example_en": "Wait a minute, please.",
+          "example_vi": "Làm ơn hãy đợi một phút."
+        },
+        {
+          "word": "month",
+          "ipa": "/mʌnθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tháng",
+          "example_en": "There are twelve months in a year.",
+          "example_vi": "Có mười hai tháng trong một năm."
+        },
+        {
+          "word": "p.m.",
+          "ipa": "/ˌpiː ˈem/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "chiều, tối (sau 12 giờ trưa)",
+          "example_en": "The class starts at 2 p.m.",
+          "example_vi": "Lớp học bắt đầu lúc 2 giờ chiều."
+        },
+        {
+          "word": "quarter",
+          "ipa": "/ˈkwɔːrtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "một phần tư (15 phút)",
+          "example_en": "It is a quarter to five.",
+          "example_vi": "Bây giờ là năm giờ kém mười lăm phút."
+        },
+        {
+          "word": "spring",
+          "ipa": "/sprɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mùa xuân",
+          "example_en": "Flowers bloom in the spring.",
+          "example_vi": "Những bông hoa nở rộ vào mùa xuân."
+        },
+        {
+          "word": "summer",
+          "ipa": "/ˈsʌmər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mùa hè",
+          "example_en": "We go to the beach in summer.",
+          "example_vi": "Chúng tôi đi biển vào mùa hè."
+        },
+        {
+          "word": "time",
+          "ipa": "/taɪm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thời gian, lần",
+          "example_en": "What time is it?",
+          "example_vi": "Bây giờ là mấy giờ rồi?"
+        },
+        {
+          "word": "tomorrow",
+          "ipa": "/təˈmɒroʊ/",
+          "type": "Danh từ / Trạng từ",
+          "type_short": "adv",
+          "meaning": "ngày mai",
+          "example_en": "See you tomorrow.",
+          "example_vi": "Hẹn gặp lại bạn vào ngày mai."
+        },
+        {
+          "word": "tonight",
+          "ipa": "/təˈnaɪt/",
+          "type": "Danh từ / Trạng từ",
+          "type_short": "adv",
+          "meaning": "tối nay",
+          "example_en": "I will watch a movie tonight.",
+          "example_vi": "Tối nay tôi sẽ xem một bộ phim."
+        },
+        {
+          "word": "winter",
+          "ipa": "/ˈwɪntər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mùa đông",
+          "example_en": "It is very cold in winter.",
+          "example_vi": "Trời rất lạnh vào mùa đông."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 30,
+      "title": "Bài 15.c: Thời gian (3/3)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "January",
+          "ipa": "/ˈdʒænjuəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Một",
+          "example_en": "My birthday is in January.",
+          "example_vi": "Sinh nhật của tôi là vào tháng Một."
+        },
+        {
+          "word": "February",
+          "ipa": "/ˈfebruəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Hai",
+          "example_en": "February is a short month.",
+          "example_vi": "Tháng Hai là một tháng ngắn."
+        },
+        {
+          "word": "March",
+          "ipa": "/mɑːrtʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Ba",
+          "example_en": "The weather gets warmer in March.",
+          "example_vi": "Thời tiết trở nên ấm áp hơn vào tháng Ba."
+        },
+        {
+          "word": "April",
+          "ipa": "/ˈeɪprəl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Tư",
+          "example_en": "It often rains in April.",
+          "example_vi": "Trời thường có mưa vào tháng Tư."
+        },
+        {
+          "word": "May",
+          "ipa": "/meɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Năm",
+          "example_en": "We have a holiday in May.",
+          "example_vi": "Chúng tôi có một kỳ nghỉ vào tháng Năm."
+        },
+        {
+          "word": "June",
+          "ipa": "/dʒuːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Sáu",
+          "example_en": "School ends in June.",
+          "example_vi": "Trường học kết thúc vào tháng Sáu."
+        },
+        {
+          "word": "July",
+          "ipa": "/dʒuˈlaɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Bảy",
+          "example_en": "We go to the beach in July.",
+          "example_vi": "Chúng tôi đi biển vào tháng Bảy."
+        },
+        {
+          "word": "August",
+          "ipa": "/ˈɔːɡəst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Tám",
+          "example_en": "August is very hot.",
+          "example_vi": "Tháng Tám trời rất nóng."
+        },
+        {
+          "word": "September",
+          "ipa": "/sepˈtembər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Chín",
+          "example_en": "School starts in September.",
+          "example_vi": "Trường học bắt đầu vào tháng Chín."
+        },
+        {
+          "word": "October",
+          "ipa": "/ɒkˈtoʊbər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Mười",
+          "example_en": "Halloween is in October.",
+          "example_vi": "Lễ hội Halloween là vào tháng Mười."
+        },
+        {
+          "word": "November",
+          "ipa": "/noʊˈvembər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Mười Một",
+          "example_en": "It gets colder in November.",
+          "example_vi": "Trời trở nên lạnh hơn vào tháng Mười Một."
+        },
+        {
+          "word": "December",
+          "ipa": "/dɪˈsembər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Tháng Mười Hai",
+          "example_en": "Christmas is in December.",
+          "example_vi": "Lễ Giáng sinh là vào tháng Mười Hai."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

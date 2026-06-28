@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 37,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn của \"be\" — was/were",
+        "desc": "Dùng was/were để nói về trạng thái, sự việc trong quá khứ. Khẳng định, phủ định, và câu hỏi.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "was / were (+ not)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Noun / Adjective", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I was a shy child.", "vi": "Tôi đã là một đứa trẻ nhút nhát." },
+          { "en": "We weren't at home yesterday.", "vi": "Hôm qua chúng tôi không ở nhà." },
+          { "en": "Were you happy in your childhood?", "vi": "Bạn có hạnh phúc trong tuổi thơ của mình không?" }
+        ],
+        "note": "I/he/she/it dùng \"was\"; you/we/they dùng \"were\". Phủ định: wasn't/weren't. Câu hỏi: đảo was/were lên trước chủ ngữ.",
+        "practiceList": [
+          { "question": "She ___ very young in this photo.", "correct": "was", "meaning": "Cô ấy rất nhỏ trong tấm hình này.", "explanation": "Chủ ngữ số ít \"she\" dùng \"was\"." },
+          { "question": "They ___ at school yesterday.", "correct": "weren't", "meaning": "Họ không ở trường hôm qua.", "explanation": "Phủ định với \"they\" dùng \"weren't\"." },
+          { "question": "___ you scared of the dark as a child?", "correct": "Were", "meaning": "Bạn có sợ tối khi còn nhỏ không?", "explanation": "Câu hỏi với \"you\" đảo \"Were\" lên đầu." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Động từ có quy tắc (-ed)",
+        "desc": "Thêm \"-ed\" vào động từ nguyên thể để diễn tả hành động đã xảy ra và kết thúc trong quá khứ.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "Verb + ed", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "We visited Hue last summer.", "vi": "Chúng tôi đã đến thăm Huế vào mùa hè trước." },
+          { "en": "She booked a hotel room online.", "vi": "Cô ấy đã đặt phòng khách sạn trực tuyến." },
+          { "en": "They arrived at the airport early.", "vi": "Họ đã đến sân bay sớm." }
+        ],
+        "note": "Quy tắc thêm -ed: động từ tận cùng \"e\" chỉ thêm \"d\" (arrive → arrived). Đa số động từ thêm \"-ed\" bình thường (visit → visited, book → booked).",
+        "practiceList": [
+          { "question": "We ___ (travel) to Da Lat last month.", "correct": "travelled", "meaning": "Chúng tôi đã đi du lịch Đà Lạt tháng trước.", "explanation": "Thêm \"-ed\" vào \"travel\" để chia quá khứ." },
+          { "question": "She ___ (pack) her bag before the trip.", "correct": "packed", "meaning": "Cô ấy đã đóng gói hành lý trước chuyến đi.", "explanation": "\"pack\" thêm \"-ed\" thành \"packed\"." },
+          { "question": "They ___ (return) home on Sunday.", "correct": "returned", "meaning": "Họ đã trở về nhà vào Chủ Nhật.", "explanation": "\"return\" thêm \"-ed\" thành \"returned\"." }
+        ]
+      }
+    ]
+  }
+]

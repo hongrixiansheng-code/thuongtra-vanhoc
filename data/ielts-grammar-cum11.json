@@ -1,0 +1,122 @@
+[
+  {
+    "lessonOrder": 21,
+    "grammar": [
+      {
+        "title": "Hiện tại đơn (Present Simple) — Câu hỏi với Do/Does",
+        "desc": "Dùng trợ động từ Do hoặc Does để đặt câu hỏi ở thì hiện tại đơn.",
+        "formula": [
+          {
+            "text": "Từ để hỏi (What/Where...)",
+            "classes": "border-slate-500 text-slate-600 bg-slate-50"
+          },
+          {
+            "text": "Do / Does",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "Verb (nguyên mẫu) ?",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Do you clean the house?",
+            "vi": "Bạn có dọn dẹp nhà cửa không?"
+          },
+          {
+            "en": "Where does she live?",
+            "vi": "Cô ấy sống ở đâu?"
+          },
+          {
+            "en": "What time do they wake up?",
+            "vi": "Họ thức dậy lúc mấy giờ?"
+          }
+        ],
+        "note": "Dùng \"Do\" cho I/You/We/They. Dùng \"Does\" cho He/She/It. Động từ chính LUÔN trở về dạng nguyên mẫu.",
+        "practiceList": [
+          {
+            "question": "___ he play tennis?",
+            "correct": "Does",
+            "meaning": "Anh ấy có chơi quần vợt không?",
+            "explanation": "Chủ ngữ \"he\" đi với trợ động từ \"Does\"."
+          },
+          {
+            "question": "Why ___ you learn English?",
+            "correct": "do",
+            "meaning": "Tại sao bạn học tiếng Anh?",
+            "explanation": "Chủ ngữ \"you\" đi với trợ động từ \"do\"."
+          },
+          {
+            "question": "Does she ___ a car?",
+            "correct": "have",
+            "meaning": "Cô ấy có ô tô không?",
+            "explanation": "Sau trợ động từ \"Does\", động từ chính phải để nguyên mẫu \"have\"."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "grammar": [
+      {
+        "title": "Hiện tại đơn (Present Simple) — Câu phủ định",
+        "desc": "Dùng để diễn tả việc ai đó không làm hành động gì.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "don't / doesn't",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Verb (nguyên mẫu)",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I don't agree with you.",
+            "vi": "Tôi không đồng ý với bạn."
+          },
+          {
+            "en": "He doesn't avoid his problems.",
+            "vi": "Anh ấy không trốn tránh vấn đề của mình."
+          },
+          {
+            "en": "We don't refuse to help.",
+            "vi": "Chúng tôi không từ chối giúp đỡ."
+          }
+        ],
+        "note": "don't = do not. doesn't = does not. Tương tự như câu hỏi, động từ chính theo sau don't/doesn't LUÔN ở dạng nguyên mẫu.",
+        "practiceList": [
+          {
+            "question": "I ___ like this shirt.",
+            "correct": "don't",
+            "meaning": "Tôi không thích chiếc áo sơ mi này.",
+            "explanation": "Chủ ngữ \"I\" đi với \"don't\"."
+          },
+          {
+            "question": "She ___ eat fast food.",
+            "correct": "doesn't",
+            "meaning": "Cô ấy không ăn thức ăn nhanh.",
+            "explanation": "Chủ ngữ \"She\" đi với \"doesn't\"."
+          },
+          {
+            "question": "They don't ___ the truth.",
+            "correct": "know",
+            "meaning": "Họ không biết sự thật.",
+            "explanation": "Động từ đi sau don't phải ở dạng nguyên mẫu."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 43,
+    "dialogue": [
+      {
+        "title": "An interview about the past",
+        "lines": [
+          { "speaker": "Ha", "en": "When did you start learning English?", "vi": "Bạn bắt đầu học tiếng Anh từ khi nào?" },
+          { "speaker": "Jack", "en": "I started when I was ten years old.", "vi": "Tôi đã bắt đầu khi tôi mười tuổi." },
+          { "speaker": "Ha", "en": "Why did you decide to learn it?", "vi": "Tại sao bạn quyết định học nó?" },
+          { "speaker": "Jack", "en": "I decided to learn it because I wanted to travel one day.", "vi": "Tôi quyết định học nó vì tôi muốn đi du lịch một ngày nào đó." },
+          { "speaker": "Ha", "en": "How long did you study every week?", "vi": "Bạn đã học bao lâu mỗi tuần?" },
+          { "speaker": "Jack", "en": "I studied for about five hours every week, and I still remember my first teacher.", "vi": "Tôi đã học khoảng năm giờ mỗi tuần, và tôi vẫn nhớ giáo viên đầu tiên của mình." }
+        ]
+      },
+      {
+        "title": "What happened that day?",
+        "lines": [
+          { "speaker": "Ha", "en": "What happened on your first day at work?", "vi": "Điều gì đã xảy ra vào ngày đầu tiên đi làm của bạn?" },
+          { "speaker": "Jack", "en": "I arrived too early, and nobody was there yet.", "vi": "Tôi đã đến quá sớm, và chưa có ai ở đó." },
+          { "speaker": "Ha", "en": "How many times did that happen again?", "vi": "Điều đó đã xảy ra lại bao nhiêu lần?" },
+          { "speaker": "Jack", "en": "It happened twice more before I learned the correct time.", "vi": "Nó đã xảy ra thêm hai lần nữa trước khi tôi học được giờ đúng." },
+          { "speaker": "Ha", "en": "Who helped you in the end?", "vi": "Cuối cùng ai đã giúp bạn?" },
+          { "speaker": "Jack", "en": "My manager helped me. She explained everything clearly.", "vi": "Quản lý của tôi đã giúp tôi. Cô ấy đã giải thích mọi thứ rất rõ ràng." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "dialogue": [
+      {
+        "title": "Correcting a mistake",
+        "lines": [
+          { "speaker": "Ha", "en": "I didn't go to the meeting yesterday.", "vi": "Hôm qua tôi không đi họp." },
+          { "speaker": "Jack", "en": "Why didn't you go?", "vi": "Tại sao bạn không đi?" },
+          { "speaker": "Ha", "en": "I didn't have any time. I was very busy with another project.", "vi": "Tôi không có thời gian. Tôi đã rất bận với một dự án khác." },
+          { "speaker": "Jack", "en": "Didn't you tell your manager?", "vi": "Bạn không nói với quản lý của bạn sao?" },
+          { "speaker": "Ha", "en": "I told him, but I didn't explain it very well.", "vi": "Tôi đã nói với anh ấy, nhưng tôi không giải thích nó rõ lắm." },
+          { "speaker": "Jack", "en": "Don't worry. He wasn't angry about it.", "vi": "Đừng lo. Anh ấy không giận về việc đó." }
+        ]
+      },
+      {
+        "title": "A common mistake",
+        "lines": [
+          { "speaker": "Ha", "en": "I didn't went to school yesterday. Wait, that's wrong.", "vi": "Tôi không đi học hôm qua. Khoan, vậy sai rồi." },
+          { "speaker": "Jack", "en": "Yes, after \"didn't\", we don't use the past form of the verb.", "vi": "Đúng, sau \"didn't\", chúng ta không dùng dạng quá khứ của động từ." },
+          { "speaker": "Ha", "en": "Oh, I see. I didn't go to school yesterday. That's correct.", "vi": "À, tôi hiểu rồi. Tôi không đi học hôm qua. Vậy đúng." },
+          { "speaker": "Jack", "en": "Exactly. We weren't at school either, so we didn't see you.", "vi": "Chính xác. Chúng tôi cũng không ở trường, nên chúng tôi không thấy bạn." },
+          { "speaker": "Ha", "en": "We never went there together this week.", "vi": "Tuần này chúng ta chưa bao giờ đến đó cùng nhau." },
+          { "speaker": "Jack", "en": "That's true. Let's go together tomorrow.", "vi": "Đúng vậy. Ngày mai mình đi cùng nhau nhé." }
+        ]
+      }
+    ]
+  }
+]

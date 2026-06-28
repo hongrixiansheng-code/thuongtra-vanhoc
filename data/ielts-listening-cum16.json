@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 31,
+    "listening": [
+      {
+        "title": "Listening: Ordering at a restaurant",
+        "transcript": "Do you have any pasta? Yes, we have some pasta and some pizza. There isn't any seafood today.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Is there seafood today?", "options": ["Yes, plenty", "No, there isn't any", "Not given"], "correct": "No, there isn't any", "explanation": "\"There isn't any seafood today.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "listening": [
+      {
+        "title": "Listening: Weekly shopping plan",
+        "transcript": "We need a lot of vegetables this week. There is plenty of fruit at the market today. I only have a few onions at home.",
+        "questions": [
+          { "type": "form_completion", "question": "Onions at home: ___", "options": ["a lot", "a few", "none"], "correct": "a few", "explanation": "\"I only have a few onions at home.\"" }
+        ]
+      }
+    ]
+  }
+]

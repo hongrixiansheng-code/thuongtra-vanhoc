@@ -1,0 +1,2852 @@
+[
+  {
+    "orderIndex": 1,
+    "vocab": [
+      {
+        "hanzi": "你",
+        "pinyin": "nǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "bạn, anh, chị",
+        "example_zh": "你好！",
+        "example_vi": "Xin chào!"
+      },
+      {
+        "hanzi": "你好",
+        "pinyin": "nǐ hǎo",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "xin chào",
+        "example_zh": "你好！",
+        "example_vi": "Xin chào!"
+      },
+      {
+        "hanzi": "我",
+        "pinyin": "wǒ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "tôi",
+        "example_zh": "我很好。",
+        "example_vi": "Tôi rất khỏe."
+      },
+      {
+        "hanzi": "他",
+        "pinyin": "tā",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "anh ấy, ông ấy",
+        "example_zh": "你好吗？他呢？",
+        "example_vi": "Bạn có khỏe không? Còn anh ấy?"
+      },
+      {
+        "hanzi": "她",
+        "pinyin": "tā",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cô ấy, bà ấy",
+        "example_zh": "她好吗？",
+        "example_vi": "Cô ấy khỏe không?"
+      },
+      {
+        "hanzi": "是",
+        "pinyin": "shì",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "là, vâng, đúng",
+        "example_zh": "我是我，他是他。",
+        "example_vi": "Tôi là tôi, anh ấy là anh ấy."
+      },
+      {
+        "hanzi": "不",
+        "pinyin": "bù",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "không",
+        "example_zh": "我不好。",
+        "example_vi": "Tôi không khỏe."
+      },
+      {
+        "hanzi": "吗",
+        "pinyin": "ma",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "không? (từ để hỏi)",
+        "example_zh": "你好吗？",
+        "example_vi": "Bạn khỏe không?"
+      },
+      {
+        "hanzi": "呢",
+        "pinyin": "ne",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "còn... thì sao?",
+        "example_zh": "我很好，你呢？",
+        "example_vi": "Tôi rất khỏe, còn bạn?"
+      },
+      {
+        "hanzi": "叫",
+        "pinyin": "jiào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "gọi, tên là",
+        "example_zh": "她叫什么？",
+        "example_vi": "Cô ấy tên là gì?"
+      }
+    ]
+  },
+  {
+    "orderIndex": 2,
+    "vocab": [
+      {
+        "hanzi": "名字",
+        "pinyin": "míngzi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tên",
+        "example_zh": "你叫什么名字？",
+        "example_vi": "Bạn tên là gì?"
+      },
+      {
+        "hanzi": "朋友",
+        "pinyin": "péngyou",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bạn bè",
+        "example_zh": "他是我的朋友。",
+        "example_vi": "Anh ấy là bạn của tôi."
+      },
+      {
+        "hanzi": "老师",
+        "pinyin": "lǎoshī",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "giáo viên",
+        "example_zh": "她叫老师。",
+        "example_vi": "Cô ấy gọi giáo viên."
+      },
+      {
+        "hanzi": "学生",
+        "pinyin": "xuéshēng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "học sinh",
+        "example_zh": "我是学生。",
+        "example_vi": "Tôi là học sinh."
+      },
+      {
+        "hanzi": "你们",
+        "pinyin": "nǐmen",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "các bạn",
+        "example_zh": "你们好！",
+        "example_vi": "Chào các bạn!"
+      },
+      {
+        "hanzi": "我们",
+        "pinyin": "wǒmen",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "chúng tôi, chúng ta",
+        "example_zh": "我们是朋友。",
+        "example_vi": "Chúng tôi là bạn bè."
+      },
+      {
+        "hanzi": "他们",
+        "pinyin": "tāmen",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "họ, bọn họ (nam/chung)",
+        "example_zh": "他们是学生吗？",
+        "example_vi": "Họ là học sinh phải không?"
+      },
+      {
+        "hanzi": "她们",
+        "pinyin": "tāmen",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "họ, các cô ấy (nữ)",
+        "example_zh": "她们是老师。",
+        "example_vi": "Họ là giáo viên."
+      },
+      {
+        "hanzi": "什么",
+        "pinyin": "shénme",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cái gì, gì",
+        "example_zh": "叫什么名字？",
+        "example_vi": "Tên là gì?"
+      },
+      {
+        "hanzi": "谁",
+        "pinyin": "shéi",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ai",
+        "example_zh": "他是谁？",
+        "example_vi": "Anh ấy là ai?"
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "vocab": [
+      {
+        "hanzi": "爸爸",
+        "pinyin": "bàba",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bố",
+        "example_zh": "我爸爸是老师。",
+        "example_vi": "Bố tôi là giáo viên."
+      },
+      {
+        "hanzi": "妈妈",
+        "pinyin": "māma",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "mẹ",
+        "example_zh": "她是我妈妈。",
+        "example_vi": "Bà ấy là mẹ tôi."
+      },
+      {
+        "hanzi": "哥哥",
+        "pinyin": "gēge",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "anh trai",
+        "example_zh": "他是我哥哥。",
+        "example_vi": "Anh ấy là anh trai tôi."
+      },
+      {
+        "hanzi": "姐姐",
+        "pinyin": "jiějie",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "chị gái",
+        "example_zh": "她叫我姐姐。",
+        "example_vi": "Cô ấy gọi tôi là chị."
+      },
+      {
+        "hanzi": "弟弟",
+        "pinyin": "dìdi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "em trai",
+        "example_zh": "我是他弟弟。",
+        "example_vi": "Tôi là em trai anh ấy."
+      },
+      {
+        "hanzi": "妹妹",
+        "pinyin": "mèimei",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "em gái",
+        "example_zh": "她是我妹妹。",
+        "example_vi": "Cô ấy là em gái tôi."
+      },
+      {
+        "hanzi": "儿子",
+        "pinyin": "érzi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "con trai",
+        "example_zh": "他是老师的儿子。",
+        "example_vi": "Cậu ấy là con trai của giáo viên."
+      },
+      {
+        "hanzi": "女儿",
+        "pinyin": "nǚ'ér",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "con gái",
+        "example_zh": "她是我女儿。",
+        "example_vi": "Cô bé là con gái tôi."
+      },
+      {
+        "hanzi": "孩子",
+        "pinyin": "háizi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trẻ con, con cái",
+        "example_zh": "我们是好孩子。",
+        "example_vi": "Chúng tôi là những đứa trẻ ngoan."
+      },
+      {
+        "hanzi": "家",
+        "pinyin": "jiā",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "nhà, gia đình",
+        "example_zh": "我的家",
+        "example_vi": "Gia đình tôi"
+      }
+    ]
+  },
+  {
+    "orderIndex": 4,
+    "vocab": [
+      {
+        "hanzi": "一",
+        "pinyin": "yī",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "một",
+        "example_zh": "一个家",
+        "example_vi": "Một gia đình"
+      },
+      {
+        "hanzi": "二",
+        "pinyin": "èr",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "hai",
+        "example_zh": "二哥",
+        "example_vi": "Anh hai"
+      },
+      {
+        "hanzi": "三",
+        "pinyin": "sān",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "ba",
+        "example_zh": "三个朋友",
+        "example_vi": "Ba người bạn"
+      },
+      {
+        "hanzi": "四",
+        "pinyin": "sì",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "bốn",
+        "example_zh": "四个人",
+        "example_vi": "Bốn người"
+      },
+      {
+        "hanzi": "五",
+        "pinyin": "wǔ",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "năm",
+        "example_zh": "五个学生",
+        "example_vi": "Năm học sinh"
+      },
+      {
+        "hanzi": "六",
+        "pinyin": "liù",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "sáu",
+        "example_zh": "六个孩子",
+        "example_vi": "Sáu đứa trẻ"
+      },
+      {
+        "hanzi": "七",
+        "pinyin": "qī",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "bảy",
+        "example_zh": "七个老师",
+        "example_vi": "Bảy giáo viên"
+      },
+      {
+        "hanzi": "八",
+        "pinyin": "bā",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "tám",
+        "example_zh": "八个朋友",
+        "example_vi": "Tám người bạn"
+      },
+      {
+        "hanzi": "九",
+        "pinyin": "jiǔ",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "chín",
+        "example_zh": "九个哥哥",
+        "example_vi": "Chín người anh"
+      },
+      {
+        "hanzi": "十",
+        "pinyin": "shí",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "mười",
+        "example_zh": "十个好朋友",
+        "example_vi": "Mười người bạn tốt"
+      }
+    ]
+  },
+  {
+    "orderIndex": 5,
+    "vocab": [
+      {
+        "hanzi": "零",
+        "pinyin": "líng",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "không (0)",
+        "example_zh": "一零一",
+        "example_vi": "Một không một (101)"
+      },
+      {
+        "hanzi": "百",
+        "pinyin": "bǎi",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "trăm",
+        "example_zh": "一百",
+        "example_vi": "Một trăm"
+      },
+      {
+        "hanzi": "千",
+        "pinyin": "qiān",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "nghìn",
+        "example_zh": "三千",
+        "example_vi": "Ba nghìn"
+      },
+      {
+        "hanzi": "两",
+        "pinyin": "liǎng",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "hai (dùng với lượng từ)",
+        "example_zh": "两个朋友",
+        "example_vi": "Hai người bạn"
+      },
+      {
+        "hanzi": "几",
+        "pinyin": "jǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "mấy, vài",
+        "example_zh": "你有几个孩子？",
+        "example_vi": "Bạn có mấy đứa con?"
+      },
+      {
+        "hanzi": "多少",
+        "pinyin": "duōshao",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "bao nhiêu",
+        "example_zh": "多少个朋友？",
+        "example_vi": "Bao nhiêu người bạn?"
+      },
+      {
+        "hanzi": "个",
+        "pinyin": "gè",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "cái, con, người",
+        "example_zh": "一个老师",
+        "example_vi": "Một giáo viên"
+      },
+      {
+        "hanzi": "半",
+        "pinyin": "bàn",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "một nửa, rưỡi",
+        "example_zh": "一半",
+        "example_vi": "Một nửa"
+      },
+      {
+        "hanzi": "岁",
+        "pinyin": "suì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tuổi",
+        "example_zh": "你几岁？",
+        "example_vi": "Bạn mấy tuổi?"
+      },
+      {
+        "hanzi": "多大",
+        "pinyin": "duōdà",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "bao nhiêu tuổi (người lớn)",
+        "example_zh": "你多大？",
+        "example_vi": "Bạn bao nhiêu tuổi?"
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "vocab": [
+      {
+        "hanzi": "年",
+        "pinyin": "nián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "năm",
+        "example_zh": "一年",
+        "example_vi": "Một năm"
+      },
+      {
+        "hanzi": "月",
+        "pinyin": "yuè",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tháng",
+        "example_zh": "六月",
+        "example_vi": "Tháng sáu"
+      },
+      {
+        "hanzi": "日",
+        "pinyin": "rì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ngày",
+        "example_zh": "十日",
+        "example_vi": "Ngày mười"
+      },
+      {
+        "hanzi": "号",
+        "pinyin": "hào",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ngày (khẩu ngữ)",
+        "example_zh": "五号",
+        "example_vi": "Ngày mùng năm"
+      },
+      {
+        "hanzi": "今天",
+        "pinyin": "jīntiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "hôm nay",
+        "example_zh": "今天几号？",
+        "example_vi": "Hôm nay là ngày mấy?"
+      },
+      {
+        "hanzi": "明天",
+        "pinyin": "míngtiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ngày mai",
+        "example_zh": "明天我不来。",
+        "example_vi": "Ngày mai tôi không đến."
+      },
+      {
+        "hanzi": "昨天",
+        "pinyin": "zuótiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "hôm qua",
+        "example_zh": "昨天我见他了。",
+        "example_vi": "Hôm qua tôi gặp anh ấy rồi."
+      },
+      {
+        "hanzi": "今年",
+        "pinyin": "jīnnián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "năm nay",
+        "example_zh": "今年你多大？",
+        "example_vi": "Năm nay bạn bao nhiêu tuổi?"
+      },
+      {
+        "hanzi": "明年",
+        "pinyin": "míngnián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "năm sau",
+        "example_zh": "明年我二十岁。",
+        "example_vi": "Năm sau tôi hai mươi tuổi."
+      },
+      {
+        "hanzi": "去年",
+        "pinyin": "qùnián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "năm ngoái",
+        "example_zh": "去年我是学生。",
+        "example_vi": "Năm ngoái tôi là học sinh."
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "vocab": [
+      {
+        "hanzi": "现在",
+        "pinyin": "xiànzài",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bây giờ",
+        "example_zh": "现在几点？",
+        "example_vi": "Bây giờ là mấy giờ?"
+      },
+      {
+        "hanzi": "点",
+        "pinyin": "diǎn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "giờ",
+        "example_zh": "现在十点。",
+        "example_vi": "Bây giờ mười giờ."
+      },
+      {
+        "hanzi": "分",
+        "pinyin": "fēn",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "phút",
+        "example_zh": "八点十分。",
+        "example_vi": "Tám giờ mười phút."
+      },
+      {
+        "hanzi": "分钟",
+        "pinyin": "fēnzhōng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "phút (thời lượng)",
+        "example_zh": "十分钟",
+        "example_vi": "Mười phút"
+      },
+      {
+        "hanzi": "小时",
+        "pinyin": "xiǎoshí",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tiếng, giờ đồng hồ",
+        "example_zh": "三个小时",
+        "example_vi": "Ba tiếng đồng hồ"
+      },
+      {
+        "hanzi": "时候",
+        "pinyin": "shíhou",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "lúc, khi",
+        "example_zh": "什么时候？",
+        "example_vi": "Lúc nào? Khi nào?"
+      },
+      {
+        "hanzi": "时间",
+        "pinyin": "shíjiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "thời gian",
+        "example_zh": "你有时间吗？",
+        "example_vi": "Bạn có thời gian không?"
+      },
+      {
+        "hanzi": "早上",
+        "pinyin": "zǎoshang",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "buổi sáng",
+        "example_zh": "早上好！",
+        "example_vi": "Chào buổi sáng!"
+      },
+      {
+        "hanzi": "上午",
+        "pinyin": "shàngwǔ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "buổi sáng (muộn hơn zǎoshang)",
+        "example_zh": "上午十点",
+        "example_vi": "Mười giờ sáng"
+      },
+      {
+        "hanzi": "中午",
+        "pinyin": "zhōngwǔ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "buổi trưa",
+        "example_zh": "中午十二点",
+        "example_vi": "Mười hai giờ trưa"
+      }
+    ]
+  },
+  {
+    "orderIndex": 8,
+    "vocab": [
+      {
+        "hanzi": "下午",
+        "pinyin": "xiàwǔ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "buổi chiều",
+        "example_zh": "今天下午",
+        "example_vi": "Chiều hôm nay"
+      },
+      {
+        "hanzi": "晚上",
+        "pinyin": "wǎnshang",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "buổi tối",
+        "example_zh": "晚上好！",
+        "example_vi": "Chào buổi tối!"
+      },
+      {
+        "hanzi": "白天",
+        "pinyin": "báitiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ban ngày",
+        "example_zh": "白天他在家。",
+        "example_vi": "Ban ngày anh ấy ở nhà."
+      },
+      {
+        "hanzi": "早",
+        "pinyin": "zǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "sớm",
+        "example_zh": "你来得真早！",
+        "example_vi": "Bạn đến thật sớm!"
+      },
+      {
+        "hanzi": "晚",
+        "pinyin": "wǎn",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "muộn",
+        "example_zh": "太晚了。",
+        "example_vi": "Muộn quá rồi."
+      },
+      {
+        "hanzi": "起床",
+        "pinyin": "qǐchuáng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "thức dậy",
+        "example_zh": "早上八点起床。",
+        "example_vi": "Sáng tám giờ thức dậy."
+      },
+      {
+        "hanzi": "睡觉",
+        "pinyin": "shuìjiào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đi ngủ",
+        "example_zh": "我睡觉了。",
+        "example_vi": "Tôi đi ngủ rồi."
+      },
+      {
+        "hanzi": "上班",
+        "pinyin": "shàngbān",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đi làm",
+        "example_zh": "爸爸去上班了。",
+        "example_vi": "Bố đi làm rồi."
+      },
+      {
+        "hanzi": "下班",
+        "pinyin": "xiàbān",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tan làm",
+        "example_zh": "他下午五点下班。",
+        "example_vi": "Anh ấy tan làm lúc năm giờ chiều."
+      },
+      {
+        "hanzi": "休息",
+        "pinyin": "xiūxi",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nghỉ ngơi",
+        "example_zh": "我们休息一下。",
+        "example_vi": "Chúng ta nghỉ ngơi một chút."
+      }
+    ]
+  },
+  {
+    "orderIndex": 9,
+    "vocab": [
+      {
+        "hanzi": "吃",
+        "pinyin": "chī",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "ăn",
+        "example_zh": "吃饭",
+        "example_vi": "Ăn cơm"
+      },
+      {
+        "hanzi": "饭",
+        "pinyin": "fàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cơm, bữa ăn",
+        "example_zh": "做饭",
+        "example_vi": "Nấu cơm"
+      },
+      {
+        "hanzi": "喝",
+        "pinyin": "hē",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "uống",
+        "example_zh": "你要喝水吗？",
+        "example_vi": "Bạn muốn uống nước không?"
+      },
+      {
+        "hanzi": "米饭",
+        "pinyin": "mǐfàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cơm trắng",
+        "example_zh": "吃米饭",
+        "example_vi": "Ăn cơm trắng"
+      },
+      {
+        "hanzi": "面包",
+        "pinyin": "miànbāo",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bánh mì",
+        "example_zh": "吃面包",
+        "example_vi": "Ăn bánh mì"
+      },
+      {
+        "hanzi": "面条儿",
+        "pinyin": "miàntiáor",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "mì sợi",
+        "example_zh": "我不吃面条儿。",
+        "example_vi": "Tôi không ăn mì sợi."
+      },
+      {
+        "hanzi": "鸡蛋",
+        "pinyin": "jīdàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trứng gà",
+        "example_zh": "吃鸡蛋",
+        "example_vi": "Ăn trứng gà"
+      },
+      {
+        "hanzi": "苹果",
+        "pinyin": "píngguǒ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "quả táo",
+        "example_zh": "这是苹果。",
+        "example_vi": "Đây là quả táo."
+      },
+      {
+        "hanzi": "牛奶",
+        "pinyin": "niúnǎi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "sữa bò",
+        "example_zh": "喝牛奶",
+        "example_vi": "Uống sữa bò"
+      },
+      {
+        "hanzi": "水果",
+        "pinyin": "shuǐguǒ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trái cây",
+        "example_zh": "吃水果",
+        "example_vi": "Ăn trái cây"
+      }
+    ]
+  },
+  {
+    "orderIndex": 10,
+    "vocab": [
+      {
+        "hanzi": "菜",
+        "pinyin": "cài",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "món ăn, rau",
+        "example_zh": "吃中国菜",
+        "example_vi": "Ăn món ăn Trung Quốc"
+      },
+      {
+        "hanzi": "茶",
+        "pinyin": "chá",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trà",
+        "example_zh": "喝茶",
+        "example_vi": "Uống trà"
+      },
+      {
+        "hanzi": "水",
+        "pinyin": "shuǐ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "nước",
+        "example_zh": "喝水",
+        "example_vi": "Uống nước"
+      },
+      {
+        "hanzi": "早饭",
+        "pinyin": "zǎofàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bữa sáng",
+        "example_zh": "吃早饭",
+        "example_vi": "Ăn bữa sáng"
+      },
+      {
+        "hanzi": "午饭",
+        "pinyin": "wǔfàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bữa trưa",
+        "example_zh": "吃午饭",
+        "example_vi": "Ăn bữa trưa"
+      },
+      {
+        "hanzi": "晚饭",
+        "pinyin": "wǎnfàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bữa tối",
+        "example_zh": "吃晚饭",
+        "example_vi": "Ăn bữa tối"
+      },
+      {
+        "hanzi": "好吃",
+        "pinyin": "hǎochī",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "ngon (đồ ăn)",
+        "example_zh": "苹果很好吃。",
+        "example_vi": "Táo rất ngon."
+      },
+      {
+        "hanzi": "包子",
+        "pinyin": "bāozi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bánh bao",
+        "example_zh": "吃包子",
+        "example_vi": "Ăn bánh bao"
+      },
+      {
+        "hanzi": "饺子",
+        "pinyin": "jiǎozi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "sủi cảo",
+        "example_zh": "吃饺子",
+        "example_vi": "Ăn sủi cảo"
+      },
+      {
+        "hanzi": "做饭",
+        "pinyin": "zuòfàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nấu cơm",
+        "example_zh": "妈妈在做饭。",
+        "example_vi": "Mẹ đang nấu cơm."
+      }
+    ]
+  },
+  {
+    "orderIndex": 11,
+    "vocab": [
+      {
+        "hanzi": "这",
+        "pinyin": "zhè",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "này, đây",
+        "example_zh": "这是什么？",
+        "example_vi": "Đây là gì?"
+      },
+      {
+        "hanzi": "这个",
+        "pinyin": "zhège",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cái này",
+        "example_zh": "这个好吗？",
+        "example_vi": "Cái này tốt không?"
+      },
+      {
+        "hanzi": "这里",
+        "pinyin": "zhèlǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ở đây",
+        "example_zh": "来这里",
+        "example_vi": "Đến đây"
+      },
+      {
+        "hanzi": "这儿",
+        "pinyin": "zhèr",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ở đây (khẩu ngữ)",
+        "example_zh": "在这儿",
+        "example_vi": "Ở đây"
+      },
+      {
+        "hanzi": "那",
+        "pinyin": "nà",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "kia, đó",
+        "example_zh": "那是什么？",
+        "example_vi": "Kia là gì?"
+      },
+      {
+        "hanzi": "那个",
+        "pinyin": "nàge",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cái kia",
+        "example_zh": "那个好。",
+        "example_vi": "Cái kia tốt."
+      },
+      {
+        "hanzi": "那里",
+        "pinyin": "nàlǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "chỗ đó",
+        "example_zh": "去那里",
+        "example_vi": "Đi chỗ đó"
+      },
+      {
+        "hanzi": "那儿",
+        "pinyin": "nàr",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "chỗ đó (khẩu ngữ)",
+        "example_zh": "在那儿",
+        "example_vi": "Ở chỗ đó"
+      },
+      {
+        "hanzi": "些",
+        "pinyin": "xiē",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "một vài",
+        "example_zh": "这些苹果",
+        "example_vi": "Những quả táo này"
+      },
+      {
+        "hanzi": "一些",
+        "pinyin": "yìxiē",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "một ít",
+        "example_zh": "一些朋友",
+        "example_vi": "Một vài người bạn"
+      }
+    ]
+  },
+  {
+    "orderIndex": 12,
+    "vocab": [
+      {
+        "hanzi": "桌子",
+        "pinyin": "zhuōzi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cái bàn",
+        "example_zh": "在桌子上",
+        "example_vi": "Trên bàn"
+      },
+      {
+        "hanzi": "椅子",
+        "pinyin": "yǐzi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cái ghế",
+        "example_zh": "十个椅子",
+        "example_vi": "Mười cái ghế"
+      },
+      {
+        "hanzi": "书",
+        "pinyin": "shū",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "sách",
+        "example_zh": "看书",
+        "example_vi": "Đọc sách"
+      },
+      {
+        "hanzi": "在",
+        "pinyin": "zài",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "ở, đang",
+        "example_zh": "我在家。",
+        "example_vi": "Tôi đang ở nhà."
+      },
+      {
+        "hanzi": "里",
+        "pinyin": "lǐ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trong",
+        "example_zh": "在家里",
+        "example_vi": "Trong nhà"
+      },
+      {
+        "hanzi": "外",
+        "pinyin": "wài",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ngoài",
+        "example_zh": "在外面",
+        "example_vi": "Ở bên ngoài"
+      },
+      {
+        "hanzi": "前",
+        "pinyin": "qián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trước",
+        "example_zh": "在前面",
+        "example_vi": "Ở phía trước"
+      },
+      {
+        "hanzi": "后",
+        "pinyin": "hòu",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "sau",
+        "example_zh": "在后面",
+        "example_vi": "Ở phía sau"
+      },
+      {
+        "hanzi": "上",
+        "pinyin": "shàng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trên",
+        "example_zh": "在桌子上",
+        "example_vi": "Ở trên bàn"
+      },
+      {
+        "hanzi": "下",
+        "pinyin": "xià",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "dưới",
+        "example_zh": "在椅子下",
+        "example_vi": "Ở dưới ghế"
+      }
+    ]
+  },
+  {
+    "orderIndex": 13,
+    "vocab": [
+      {
+        "hanzi": "找",
+        "pinyin": "zhǎo",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tìm",
+        "example_zh": "你找谁？",
+        "example_vi": "Bạn tìm ai?"
+      },
+      {
+        "hanzi": "住",
+        "pinyin": "zhù",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "sống, ở",
+        "example_zh": "他住在哪儿？",
+        "example_vi": "Anh ấy sống ở đâu?"
+      },
+      {
+        "hanzi": "房间",
+        "pinyin": "fángjiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "căn phòng",
+        "example_zh": "这是我的房间。",
+        "example_vi": "Đây là phòng của tôi."
+      },
+      {
+        "hanzi": "商店",
+        "pinyin": "shāngdiàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cửa hàng",
+        "example_zh": "去商店",
+        "example_vi": "Đi cửa hàng"
+      },
+      {
+        "hanzi": "超市",
+        "pinyin": "chāoshì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "siêu thị",
+        "example_zh": "去超市买东西",
+        "example_vi": "Đi siêu thị mua đồ"
+      },
+      {
+        "hanzi": "书店",
+        "pinyin": "shūdiàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "hiệu sách",
+        "example_zh": "去书店买书",
+        "example_vi": "Đi hiệu sách mua sách"
+      },
+      {
+        "hanzi": "公司",
+        "pinyin": "gōngsī",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "công ty",
+        "example_zh": "去公司工作",
+        "example_vi": "Đi công ty làm việc"
+      },
+      {
+        "hanzi": "学校",
+        "pinyin": "xuéxiào",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "trường học",
+        "example_zh": "去学校学习",
+        "example_vi": "Đến trường học"
+      },
+      {
+        "hanzi": "大学",
+        "pinyin": "dàxué",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "đại học",
+        "example_zh": "上大学",
+        "example_vi": "Học đại học"
+      },
+      {
+        "hanzi": "医院",
+        "pinyin": "yīyuàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bệnh viện",
+        "example_zh": "去医院看医生",
+        "example_vi": "Đến bệnh viện khám bác sĩ"
+      }
+    ]
+  },
+  {
+    "orderIndex": 14,
+    "vocab": [
+      {
+        "hanzi": "车",
+        "pinyin": "chē",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "xe",
+        "example_zh": "坐车",
+        "example_vi": "Ngồi xe"
+      },
+      {
+        "hanzi": "出租车",
+        "pinyin": "chūzūchē",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "xe taxi",
+        "example_zh": "坐出租车去医院",
+        "example_vi": "Đi taxi đến bệnh viện"
+      },
+      {
+        "hanzi": "火车",
+        "pinyin": "huǒchē",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "xe lửa",
+        "example_zh": "坐火车",
+        "example_vi": "Ngồi tàu hỏa"
+      },
+      {
+        "hanzi": "飞机",
+        "pinyin": "fēijī",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "máy bay",
+        "example_zh": "坐飞机去北京",
+        "example_vi": "Đi máy bay đến Bắc Kinh"
+      },
+      {
+        "hanzi": "来",
+        "pinyin": "lái",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đến, lại đây",
+        "example_zh": "来我家",
+        "example_vi": "Đến nhà tôi"
+      },
+      {
+        "hanzi": "去",
+        "pinyin": "qù",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đi",
+        "example_zh": "去医院",
+        "example_vi": "Đi bệnh viện"
+      },
+      {
+        "hanzi": "到",
+        "pinyin": "dào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đến nơi",
+        "example_zh": "到了",
+        "example_vi": "Đến rồi"
+      },
+      {
+        "hanzi": "坐",
+        "pinyin": "zuò",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "ngồi, đi (phương tiện)",
+        "example_zh": "坐车去",
+        "example_vi": "Ngồi xe đi"
+      },
+      {
+        "hanzi": "开车",
+        "pinyin": "kāi chē",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "lái xe",
+        "example_zh": "他开车去公司。",
+        "example_vi": "Anh ấy lái xe đi công ty."
+      },
+      {
+        "hanzi": "回",
+        "pinyin": "huí",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "về",
+        "example_zh": "回家",
+        "example_vi": "Về nhà"
+      }
+    ]
+  },
+  {
+    "orderIndex": 15,
+    "vocab": [
+      {
+        "hanzi": "买",
+        "pinyin": "mǎi",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "mua",
+        "example_zh": "买书",
+        "example_vi": "Mua sách"
+      },
+      {
+        "hanzi": "卖",
+        "pinyin": "mài",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "bán",
+        "example_zh": "卖书",
+        "example_vi": "Bán sách"
+      },
+      {
+        "hanzi": "钱",
+        "pinyin": "qián",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tiền",
+        "example_zh": "多少钱？",
+        "example_vi": "Bao nhiêu tiền?"
+      },
+      {
+        "hanzi": "块",
+        "pinyin": "kuài",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "đồng (tiền tệ)",
+        "example_zh": "一块钱",
+        "example_vi": "Một đồng tiền"
+      },
+      {
+        "hanzi": "元",
+        "pinyin": "yuán",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "nhân dân tệ",
+        "example_zh": "十元",
+        "example_vi": "Mười nhân dân tệ"
+      },
+      {
+        "hanzi": "便宜",
+        "pinyin": "piányi",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "rẻ",
+        "example_zh": "很便宜",
+        "example_vi": "Rất rẻ"
+      },
+      {
+        "hanzi": "贵",
+        "pinyin": "guì",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "đắt",
+        "example_zh": "太贵了",
+        "example_vi": "Đắt quá"
+      },
+      {
+        "hanzi": "漂亮",
+        "pinyin": "piàoliang",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "đẹp",
+        "example_zh": "衣服很漂亮。",
+        "example_vi": "Quần áo rất đẹp."
+      },
+      {
+        "hanzi": "衣服",
+        "pinyin": "yīfu",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "quần áo",
+        "example_zh": "买衣服",
+        "example_vi": "Mua quần áo"
+      },
+      {
+        "hanzi": "多少钱",
+        "pinyin": "duōshao qián",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "bao nhiêu tiền",
+        "example_zh": "这件衣服多少钱？",
+        "example_vi": "Bộ đồ này bao nhiêu tiền?"
+      }
+    ]
+  },
+  {
+    "orderIndex": 16,
+    "vocab": [
+      {
+        "hanzi": "工作",
+        "pinyin": "gōngzuò",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "công việc, làm việc",
+        "example_zh": "他工作很忙。",
+        "example_vi": "Anh ấy làm việc rất bận."
+      },
+      {
+        "hanzi": "做",
+        "pinyin": "zuò",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "làm",
+        "example_zh": "你做什么工作？",
+        "example_vi": "Bạn làm nghề gì?"
+      },
+      {
+        "hanzi": "电话",
+        "pinyin": "diànhuà",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "điện thoại",
+        "example_zh": "我的电话",
+        "example_vi": "Điện thoại của tôi"
+      },
+      {
+        "hanzi": "手机",
+        "pinyin": "shǒujī",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "điện thoại di động",
+        "example_zh": "新手机",
+        "example_vi": "Điện thoại di động mới"
+      },
+      {
+        "hanzi": "打电话",
+        "pinyin": "dǎ diànhuà",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "gọi điện thoại",
+        "example_zh": "我打电话给她。",
+        "example_vi": "Tôi gọi điện cho cô ấy."
+      },
+      {
+        "hanzi": "问",
+        "pinyin": "wèn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "hỏi",
+        "example_zh": "我问老师。",
+        "example_vi": "Tôi hỏi giáo viên."
+      },
+      {
+        "hanzi": "问题",
+        "pinyin": "wèntí",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "câu hỏi, vấn đề",
+        "example_zh": "没问题",
+        "example_vi": "Không có vấn đề gì"
+      },
+      {
+        "hanzi": "事",
+        "pinyin": "shì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "việc, sự việc",
+        "example_zh": "有事吗？",
+        "example_vi": "Có việc gì không?"
+      },
+      {
+        "hanzi": "东西",
+        "pinyin": "dōngxi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "đồ vật, thứ",
+        "example_zh": "买东西",
+        "example_vi": "Mua đồ"
+      },
+      {
+        "hanzi": "回",
+        "pinyin": "huí",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "về, trả lời",
+        "example_zh": "回家",
+        "example_vi": "Về nhà"
+      }
+    ]
+  },
+  {
+    "orderIndex": 17,
+    "vocab": [
+      {
+        "hanzi": "电脑",
+        "pinyin": "diànnǎo",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "máy tính",
+        "example_zh": "买电脑",
+        "example_vi": "Mua máy tính"
+      },
+      {
+        "hanzi": "电视",
+        "pinyin": "diànshì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ti vi",
+        "example_zh": "看电视",
+        "example_vi": "Xem ti vi"
+      },
+      {
+        "hanzi": "电影",
+        "pinyin": "diànyǐng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "phim",
+        "example_zh": "看电影",
+        "example_vi": "Xem phim"
+      },
+      {
+        "hanzi": "电影院",
+        "pinyin": "diànyǐngyuàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "rạp chiếu phim",
+        "example_zh": "去电影院",
+        "example_vi": "Đi rạp chiếu phim"
+      },
+      {
+        "hanzi": "歌",
+        "pinyin": "gē",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bài hát",
+        "example_zh": "听歌",
+        "example_vi": "Nghe hát"
+      },
+      {
+        "hanzi": "唱",
+        "pinyin": "chàng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "hát",
+        "example_zh": "唱歌",
+        "example_vi": "Hát một bài"
+      },
+      {
+        "hanzi": "课",
+        "pinyin": "kè",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tiết học",
+        "example_zh": "上课",
+        "example_vi": "Vào học"
+      },
+      {
+        "hanzi": "读",
+        "pinyin": "dú",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đọc",
+        "example_zh": "读书",
+        "example_vi": "Đọc sách"
+      },
+      {
+        "hanzi": "学习",
+        "pinyin": "xuéxí",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "học tập",
+        "example_zh": "学习汉语",
+        "example_vi": "Học tiếng Trung"
+      },
+      {
+        "hanzi": "听",
+        "pinyin": "tīng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nghe",
+        "example_zh": "听歌",
+        "example_vi": "Nghe bài hát"
+      }
+    ]
+  },
+  {
+    "orderIndex": 18,
+    "vocab": [
+      {
+        "hanzi": "天",
+        "pinyin": "tiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ngày, bầu trời",
+        "example_zh": "今天",
+        "example_vi": "Hôm nay"
+      },
+      {
+        "hanzi": "天气",
+        "pinyin": "tiānqì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "thời tiết",
+        "example_zh": "今天天气很好。",
+        "example_vi": "Hôm nay thời tiết rất tốt."
+      },
+      {
+        "hanzi": "下雨",
+        "pinyin": "xià yǔ",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "trời mưa",
+        "example_zh": "今天下雨了。",
+        "example_vi": "Hôm nay trời mưa rồi."
+      },
+      {
+        "hanzi": "雨",
+        "pinyin": "yǔ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "mưa",
+        "example_zh": "下大雨",
+        "example_vi": "Mưa to"
+      },
+      {
+        "hanzi": "雪",
+        "pinyin": "xuě",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tuyết",
+        "example_zh": "下雪了。",
+        "example_vi": "Tuyết rơi rồi."
+      },
+      {
+        "hanzi": "冷",
+        "pinyin": "lěng",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "lạnh",
+        "example_zh": "很冷",
+        "example_vi": "Rất lạnh"
+      },
+      {
+        "hanzi": "热",
+        "pinyin": "rè",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nóng",
+        "example_zh": "天气很热。",
+        "example_vi": "Thời tiết rất nóng."
+      },
+      {
+        "hanzi": "怎么样",
+        "pinyin": "zěnmeyàng",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "như thế nào",
+        "example_zh": "天气怎么样？",
+        "example_vi": "Thời tiết thế nào?"
+      },
+      {
+        "hanzi": "真",
+        "pinyin": "zhēn",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "thật, thực sự",
+        "example_zh": "真好看！",
+        "example_vi": "Đẹp thật đấy!"
+      },
+      {
+        "hanzi": "太",
+        "pinyin": "tài",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "quá, lắm",
+        "example_zh": "太热了！",
+        "example_vi": "Nóng quá đi!"
+      }
+    ]
+  },
+  {
+    "orderIndex": 19,
+    "vocab": [
+      {
+        "hanzi": "病",
+        "pinyin": "bìng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bệnh",
+        "example_zh": "他病了。",
+        "example_vi": "Anh ấy ốm rồi."
+      },
+      {
+        "hanzi": "看病",
+        "pinyin": "kànbìng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "khám bệnh",
+        "example_zh": "去医院看病。",
+        "example_vi": "Đến bệnh viện khám bệnh."
+      },
+      {
+        "hanzi": "生病",
+        "pinyin": "shēngbìng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "bị ốm",
+        "example_zh": "我生病了。",
+        "example_vi": "Tôi bị ốm rồi."
+      },
+      {
+        "hanzi": "医生",
+        "pinyin": "yīshēng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bác sĩ",
+        "example_zh": "看医生",
+        "example_vi": "Gặp bác sĩ"
+      },
+      {
+        "hanzi": "忙",
+        "pinyin": "máng",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "bận",
+        "example_zh": "我很忙。",
+        "example_vi": "Tôi rất bận."
+      },
+      {
+        "hanzi": "累",
+        "pinyin": "lèi",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "mệt",
+        "example_zh": "太累了。",
+        "example_vi": "Mệt quá rồi."
+      },
+      {
+        "hanzi": "可以",
+        "pinyin": "kěyǐ",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "có thể",
+        "example_zh": "可以去吗？",
+        "example_vi": "Có thể đi không?"
+      },
+      {
+        "hanzi": "能",
+        "pinyin": "néng",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "có thể (khả năng)",
+        "example_zh": "你能来吗？",
+        "example_vi": "Bạn có thể đến không?"
+      },
+      {
+        "hanzi": "要",
+        "pinyin": "yào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "cần, muốn",
+        "example_zh": "我要休息。",
+        "example_vi": "Tôi muốn nghỉ ngơi."
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "muốn, nhớ",
+        "example_zh": "我想吃饭。",
+        "example_vi": "Tôi muốn ăn cơm."
+      }
+    ]
+  },
+  {
+    "orderIndex": 20,
+    "vocab": [
+      {
+        "hanzi": "请",
+        "pinyin": "qǐng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "mời, xin",
+        "example_zh": "请坐。",
+        "example_vi": "Mời ngồi."
+      },
+      {
+        "hanzi": "请问",
+        "pinyin": "qǐngwèn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "xin hỏi",
+        "example_zh": "请问，银行在哪儿？",
+        "example_vi": "Xin hỏi, ngân hàng ở đâu?"
+      },
+      {
+        "hanzi": "对不起",
+        "pinyin": "duìbuqǐ",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "xin lỗi",
+        "example_zh": "对不起！",
+        "example_vi": "Xin lỗi!"
+      },
+      {
+        "hanzi": "没关系",
+        "pinyin": "méi guānxi",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "không sao",
+        "example_zh": "没关系。",
+        "example_vi": "Không sao đâu."
+      },
+      {
+        "hanzi": "不客气",
+        "pinyin": "bú kèqi",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "đừng khách sáo",
+        "example_zh": "谢谢！—不客气！",
+        "example_vi": "Cảm ơn! — Không có chi!"
+      },
+      {
+        "hanzi": "认识",
+        "pinyin": "rènshi",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "quen biết",
+        "example_zh": "很高兴认识你。",
+        "example_vi": "Rất vui được quen biết bạn."
+      },
+      {
+        "hanzi": "高兴",
+        "pinyin": "gāoxìng",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "vui vẻ",
+        "example_zh": "我很高兴。",
+        "example_vi": "Tôi rất vui."
+      },
+      {
+        "hanzi": "见",
+        "pinyin": "jiàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "gặp",
+        "example_zh": "明天见。",
+        "example_vi": "Ngày mai gặp nhé."
+      },
+      {
+        "hanzi": "您",
+        "pinyin": "nín",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ngài, ông, bà",
+        "example_zh": "您好！",
+        "example_vi": "Chào ngài!"
+      },
+      {
+        "hanzi": "贵",
+        "pinyin": "guì",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "đắt, quý",
+        "example_zh": "太贵了！",
+        "example_vi": "Đắt quá!"
+      }
+    ]
+  },
+  {
+    "orderIndex": 21,
+    "vocab": [
+      {
+        "hanzi": "中国",
+        "pinyin": "Zhōngguó",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "Trung Quốc",
+        "example_zh": "去中国",
+        "example_vi": "Đi Trung Quốc"
+      },
+      {
+        "hanzi": "中文",
+        "pinyin": "Zhōngwén",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tiếng Trung",
+        "example_zh": "学中文",
+        "example_vi": "Học tiếng Trung"
+      },
+      {
+        "hanzi": "汉语",
+        "pinyin": "Hànyǔ",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tiếng Hán",
+        "example_zh": "说汉语",
+        "example_vi": "Nói tiếng Hán"
+      },
+      {
+        "hanzi": "汉字",
+        "pinyin": "Hànzì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "chữ Hán",
+        "example_zh": "写汉字",
+        "example_vi": "Viết chữ Hán"
+      },
+      {
+        "hanzi": "国",
+        "pinyin": "guó",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "đất nước",
+        "example_zh": "哪国人？",
+        "example_vi": "Người nước nào?"
+      },
+      {
+        "hanzi": "说",
+        "pinyin": "shuō",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nói",
+        "example_zh": "说话",
+        "example_vi": "Nói chuyện"
+      },
+      {
+        "hanzi": "写",
+        "pinyin": "xiě",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "viết",
+        "example_zh": "写字",
+        "example_vi": "Viết chữ"
+      },
+      {
+        "hanzi": "读书",
+        "pinyin": "dúshū",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đọc sách",
+        "example_zh": "喜欢读书",
+        "example_vi": "Thích đọc sách"
+      },
+      {
+        "hanzi": "字",
+        "pinyin": "zì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "chữ",
+        "example_zh": "名字",
+        "example_vi": "Tên chữ"
+      },
+      {
+        "hanzi": "知道",
+        "pinyin": "zhīdào",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "biết",
+        "example_zh": "我不知道。",
+        "example_vi": "Tôi không biết."
+      }
+    ]
+  },
+  {
+    "orderIndex": 22,
+    "vocab": [
+      {
+        "hanzi": "喜欢",
+        "pinyin": "xǐhuan",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "thích",
+        "example_zh": "我喜欢你。",
+        "example_vi": "Tôi thích bạn."
+      },
+      {
+        "hanzi": "爱",
+        "pinyin": "ài",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "yêu",
+        "example_zh": "我爱你。",
+        "example_vi": "Tôi yêu bạn."
+      },
+      {
+        "hanzi": "想",
+        "pinyin": "xiǎng",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nhớ, muốn",
+        "example_zh": "我想你。",
+        "example_vi": "Tôi nhớ bạn."
+      },
+      {
+        "hanzi": "觉得",
+        "pinyin": "juéde",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "cảm thấy",
+        "example_zh": "我觉得很好。",
+        "example_vi": "Tôi cảm thấy rất tốt."
+      },
+      {
+        "hanzi": "看",
+        "pinyin": "kàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "xem, nhìn",
+        "example_zh": "看书",
+        "example_vi": "Đọc sách"
+      },
+      {
+        "hanzi": "听见",
+        "pinyin": "tīngjiàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nghe thấy",
+        "example_zh": "我听见了。",
+        "example_vi": "Tôi nghe thấy rồi."
+      },
+      {
+        "hanzi": "看见",
+        "pinyin": "kànjiàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nhìn thấy",
+        "example_zh": "我看见了。",
+        "example_vi": "Tôi nhìn thấy rồi."
+      },
+      {
+        "hanzi": "玩",
+        "pinyin": "wán",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "chơi",
+        "example_zh": "去玩",
+        "example_vi": "Đi chơi"
+      },
+      {
+        "hanzi": "唱歌",
+        "pinyin": "chànggē",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "ca hát",
+        "example_zh": "他喜欢唱歌。",
+        "example_vi": "Anh ấy thích hát."
+      },
+      {
+        "hanzi": "跳舞",
+        "pinyin": "tiàowǔ",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nhảy múa",
+        "example_zh": "喜欢跳舞",
+        "example_vi": "Thích khiêu vũ"
+      }
+    ]
+  },
+  {
+    "orderIndex": 23,
+    "vocab": [
+      {
+        "hanzi": "上课",
+        "pinyin": "shàngkè",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "vào học, lên lớp",
+        "example_zh": "我们上课了。",
+        "example_vi": "Chúng ta vào học rồi."
+      },
+      {
+        "hanzi": "下课",
+        "pinyin": "xiàkè",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tan học",
+        "example_zh": "几点下课？",
+        "example_vi": "Mấy giờ tan học?"
+      },
+      {
+        "hanzi": "上学",
+        "pinyin": "shàngxué",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "đi học",
+        "example_zh": "明天去上学。",
+        "example_vi": "Ngày mai đi học."
+      },
+      {
+        "hanzi": "同学",
+        "pinyin": "tóngxué",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bạn cùng lớp",
+        "example_zh": "同学们好！",
+        "example_vi": "Chào các bạn học sinh!"
+      },
+      {
+        "hanzi": "大学生",
+        "pinyin": "dàxuéshēng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "sinh viên đại học",
+        "example_zh": "我是大学生。",
+        "example_vi": "Tôi là sinh viên đại học."
+      },
+      {
+        "hanzi": "小学生",
+        "pinyin": "xiǎoxuéshēng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "học sinh tiểu học",
+        "example_zh": "他是小学生。",
+        "example_vi": "Cậu bé là học sinh tiểu học."
+      },
+      {
+        "hanzi": "中学生",
+        "pinyin": "zhōngxuéshēng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "học sinh trung học",
+        "example_zh": "我弟弟是中学生。",
+        "example_vi": "Em trai tôi là học sinh trung học."
+      },
+      {
+        "hanzi": "学",
+        "pinyin": "xué",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "học",
+        "example_zh": "学汉语",
+        "example_vi": "Học tiếng Trung"
+      },
+      {
+        "hanzi": "写",
+        "pinyin": "xiě",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "viết",
+        "example_zh": "写汉字",
+        "example_vi": "Viết chữ Hán"
+      },
+      {
+        "hanzi": "睡",
+        "pinyin": "shuì",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "ngủ",
+        "example_zh": "去睡觉",
+        "example_vi": "Đi ngủ"
+      }
+    ]
+  },
+  {
+    "orderIndex": 24,
+    "vocab": [
+      {
+        "hanzi": "男",
+        "pinyin": "nán",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nam",
+        "example_zh": "男人",
+        "example_vi": "Đàn ông"
+      },
+      {
+        "hanzi": "女",
+        "pinyin": "nǚ",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nữ",
+        "example_zh": "女人",
+        "example_vi": "Phụ nữ"
+      },
+      {
+        "hanzi": "男朋友",
+        "pinyin": "nánpéngyou",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bạn trai",
+        "example_zh": "她有男朋友。",
+        "example_vi": "Cô ấy có bạn trai."
+      },
+      {
+        "hanzi": "女朋友",
+        "pinyin": "nǚpéngyou",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bạn gái",
+        "example_zh": "这是我女朋友。",
+        "example_vi": "Đây là bạn gái tôi."
+      },
+      {
+        "hanzi": "小朋友",
+        "pinyin": "xiǎopéngyou",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bạn nhỏ, em bé",
+        "example_zh": "小朋友好！",
+        "example_vi": "Chào các em nhỏ!"
+      },
+      {
+        "hanzi": "大家",
+        "pinyin": "dàjiā",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "mọi người",
+        "example_zh": "大家好！",
+        "example_vi": "Chào mọi người!"
+      },
+      {
+        "hanzi": "先生",
+        "pinyin": "xiānsheng",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ông, ngài",
+        "example_zh": "王先生，您好！",
+        "example_vi": "Chào ông Vương!"
+      },
+      {
+        "hanzi": "女士",
+        "pinyin": "nǚshì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "phu nhân, bà",
+        "example_zh": "李女士，您好！",
+        "example_vi": "Chào bà Lý!"
+      },
+      {
+        "hanzi": "家人",
+        "pinyin": "jiārén",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "người nhà",
+        "example_zh": "我爱家人。",
+        "example_vi": "Tôi yêu người nhà."
+      },
+      {
+        "hanzi": "的",
+        "pinyin": "de",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "của",
+        "example_zh": "我的书",
+        "example_vi": "Sách của tôi"
+      }
+    ]
+  },
+  {
+    "orderIndex": 25,
+    "vocab": [
+      {
+        "hanzi": "星期",
+        "pinyin": "xīngqī",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "tuần, thứ",
+        "example_zh": "星期一",
+        "example_vi": "Thứ hai"
+      },
+      {
+        "hanzi": "星期日",
+        "pinyin": "xīngqīrì",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "Chủ nhật",
+        "example_zh": "今天是星期日。",
+        "example_vi": "Hôm nay là Chủ nhật."
+      },
+      {
+        "hanzi": "星期天",
+        "pinyin": "xīngqītiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "Chủ nhật",
+        "example_zh": "明天星期天。",
+        "example_vi": "Ngày mai là Chủ nhật."
+      },
+      {
+        "hanzi": "白天",
+        "pinyin": "báitiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "ban ngày",
+        "example_zh": "白天他在学校。",
+        "example_vi": "Ban ngày anh ấy ở trường."
+      },
+      {
+        "hanzi": "正在",
+        "pinyin": "zhèngzài",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "đang",
+        "example_zh": "正在吃饭",
+        "example_vi": "Đang ăn cơm"
+      },
+      {
+        "hanzi": "都",
+        "pinyin": "dōu",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "đều",
+        "example_zh": "我们都是学生。",
+        "example_vi": "Chúng tôi đều là học sinh."
+      },
+      {
+        "hanzi": "还",
+        "pinyin": "hái",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "vẫn, còn",
+        "example_zh": "还在下雨。",
+        "example_vi": "Trời vẫn còn mưa."
+      },
+      {
+        "hanzi": "也",
+        "pinyin": "yě",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "cũng",
+        "example_zh": "我也去。",
+        "example_vi": "Tôi cũng đi."
+      },
+      {
+        "hanzi": "只",
+        "pinyin": "zhǐ",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "chỉ",
+        "example_zh": "只有我。",
+        "example_vi": "Chỉ có tôi."
+      },
+      {
+        "hanzi": "有点儿",
+        "pinyin": "yǒudiǎnr",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "hơi, một chút",
+        "example_zh": "有点儿冷",
+        "example_vi": "Hơi lạnh một chút"
+      }
+    ]
+  },
+  {
+    "orderIndex": 26,
+    "vocab": [
+      {
+        "hanzi": "高兴",
+        "pinyin": "gāoxìng",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "vui mừng",
+        "example_zh": "很高兴。",
+        "example_vi": "Rất vui."
+      },
+      {
+        "hanzi": "好",
+        "pinyin": "hǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "tốt, khỏe",
+        "example_zh": "很好。",
+        "example_vi": "Rất tốt."
+      },
+      {
+        "hanzi": "新",
+        "pinyin": "xīn",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "mới",
+        "example_zh": "新衣服",
+        "example_vi": "Quần áo mới"
+      },
+      {
+        "hanzi": "大",
+        "pinyin": "dà",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "to, lớn",
+        "example_zh": "大苹果",
+        "example_vi": "Quả táo to"
+      },
+      {
+        "hanzi": "小",
+        "pinyin": "xiǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nhỏ, bé",
+        "example_zh": "小孩儿",
+        "example_vi": "Đứa trẻ"
+      },
+      {
+        "hanzi": "多",
+        "pinyin": "duō",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "nhiều",
+        "example_zh": "很多人",
+        "example_vi": "Rất nhiều người"
+      },
+      {
+        "hanzi": "少",
+        "pinyin": "shǎo",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "ít",
+        "example_zh": "很少钱",
+        "example_vi": "Rất ít tiền"
+      },
+      {
+        "hanzi": "很",
+        "pinyin": "hěn",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "rất",
+        "example_zh": "很漂亮",
+        "example_vi": "Rất đẹp"
+      },
+      {
+        "hanzi": "非常",
+        "pinyin": "fēicháng",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "vô cùng",
+        "example_zh": "非常好",
+        "example_vi": "Vô cùng tốt"
+      },
+      {
+        "hanzi": "有些",
+        "pinyin": "yǒuxiē",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "một vài",
+        "example_zh": "有些人",
+        "example_vi": "Một vài người"
+      }
+    ]
+  },
+  {
+    "orderIndex": 27,
+    "vocab": [
+      {
+        "hanzi": "给",
+        "pinyin": "gěi",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "cho",
+        "example_zh": "给你钱。",
+        "example_vi": "Cho bạn tiền."
+      },
+      {
+        "hanzi": "和",
+        "pinyin": "hé",
+        "type": "Liên từ",
+        "type_short": "liên từ",
+        "meaning": "và",
+        "example_zh": "我和你",
+        "example_vi": "Tôi và bạn"
+      },
+      {
+        "hanzi": "跟",
+        "pinyin": "gēn",
+        "type": "Liên từ",
+        "type_short": "liên từ",
+        "meaning": "cùng với",
+        "example_zh": "跟我来",
+        "example_vi": "Đi cùng tôi"
+      },
+      {
+        "hanzi": "对",
+        "pinyin": "duì",
+        "type": "Tính từ",
+        "type_short": "tính từ",
+        "meaning": "đúng",
+        "example_zh": "对了",
+        "example_vi": "Đúng rồi"
+      },
+      {
+        "hanzi": "吧",
+        "pinyin": "ba",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "nhé, nha",
+        "example_zh": "我们走吧！",
+        "example_vi": "Chúng ta đi nhé!"
+      },
+      {
+        "hanzi": "了",
+        "pinyin": "le",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "rồi",
+        "example_zh": "吃饭了。",
+        "example_vi": "Ăn cơm rồi."
+      },
+      {
+        "hanzi": "的",
+        "pinyin": "de",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "của, (định ngữ)",
+        "example_zh": "我的家",
+        "example_vi": "Nhà của tôi"
+      },
+      {
+        "hanzi": "着",
+        "pinyin": "zhe",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "đang (trạng thái)",
+        "example_zh": "看着我",
+        "example_vi": "Đang nhìn tôi"
+      },
+      {
+        "hanzi": "过",
+        "pinyin": "guò",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "đã từng",
+        "example_zh": "我去过北京。",
+        "example_vi": "Tôi đã từng đi Bắc Kinh."
+      },
+      {
+        "hanzi": "呢",
+        "pinyin": "ne",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "đấy, đang",
+        "example_zh": "你在哪儿呢？",
+        "example_vi": "Bạn đang ở đâu đấy?"
+      }
+    ]
+  },
+  {
+    "orderIndex": 28,
+    "vocab": [
+      {
+        "hanzi": "哪",
+        "pinyin": "nǎ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "nào",
+        "example_zh": "哪个人？",
+        "example_vi": "Người nào?"
+      },
+      {
+        "hanzi": "哪个",
+        "pinyin": "nǎge",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "cái nào",
+        "example_zh": "你要哪个？",
+        "example_vi": "Bạn muốn cái nào?"
+      },
+      {
+        "hanzi": "哪里",
+        "pinyin": "nǎlǐ",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ở đâu",
+        "example_zh": "去哪里？",
+        "example_vi": "Đi đâu thế?"
+      },
+      {
+        "hanzi": "哪儿",
+        "pinyin": "nǎr",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "ở đâu (khẩu ngữ)",
+        "example_zh": "去哪儿？",
+        "example_vi": "Đi đâu?"
+      },
+      {
+        "hanzi": "哪些",
+        "pinyin": "nǎxiē",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "những nào",
+        "example_zh": "哪些人去？",
+        "example_vi": "Những ai đi?"
+      },
+      {
+        "hanzi": "这边",
+        "pinyin": "zhèbiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bên này",
+        "example_zh": "来这边",
+        "example_vi": "Đến bên này"
+      },
+      {
+        "hanzi": "那边",
+        "pinyin": "nàbiān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bên kia",
+        "example_zh": "去那边",
+        "example_vi": "Đi sang bên kia"
+      },
+      {
+        "hanzi": "这些",
+        "pinyin": "zhèxiē",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "những cái này",
+        "example_zh": "这些书",
+        "example_vi": "Những cuốn sách này"
+      },
+      {
+        "hanzi": "那些",
+        "pinyin": "nàxiē",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "những cái kia",
+        "example_zh": "那些人",
+        "example_vi": "Những người kia"
+      },
+      {
+        "hanzi": "一下",
+        "pinyin": "yíxià",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "một chút",
+        "example_zh": "看一下",
+        "example_vi": "Xem một chút"
+      }
+    ]
+  },
+  {
+    "orderIndex": 29,
+    "vocab": [
+      {
+        "hanzi": "会",
+        "pinyin": "huì",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "biết (kỹ năng)",
+        "example_zh": "我会说汉语。",
+        "example_vi": "Tôi biết nói tiếng Trung."
+      },
+      {
+        "hanzi": "说话",
+        "pinyin": "shuōhuà",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "nói chuyện",
+        "example_zh": "不要说话。",
+        "example_vi": "Đừng nói chuyện."
+      },
+      {
+        "hanzi": "再",
+        "pinyin": "zài",
+        "type": "Phó từ",
+        "type_short": "phó từ",
+        "meaning": "lại, nữa",
+        "example_zh": "再来",
+        "example_vi": "Lại đến"
+      },
+      {
+        "hanzi": "再见",
+        "pinyin": "zàijiàn",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "tạm biệt",
+        "example_zh": "老师，再见！",
+        "example_vi": "Tạm biệt thầy/cô!"
+      },
+      {
+        "hanzi": "没事",
+        "pinyin": "méishì",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "không sao, không có việc gì",
+        "example_zh": "没事儿！",
+        "example_vi": "Không sao đâu!"
+      },
+      {
+        "hanzi": "没有",
+        "pinyin": "méiyǒu",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "không có",
+        "example_zh": "我没有钱。",
+        "example_vi": "Tôi không có tiền."
+      },
+      {
+        "hanzi": "一点儿",
+        "pinyin": "yìdiǎnr",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "một chút",
+        "example_zh": "一点儿水",
+        "example_vi": "Một chút nước"
+      },
+      {
+        "hanzi": "一半",
+        "pinyin": "yíbàn",
+        "type": "Số từ",
+        "type_short": "số từ",
+        "meaning": "một nửa",
+        "example_zh": "分一半",
+        "example_vi": "Chia một nửa"
+      },
+      {
+        "hanzi": "有的",
+        "pinyin": "yǒude",
+        "type": "Đại từ",
+        "type_short": "đại từ",
+        "meaning": "có cái, có người",
+        "example_zh": "有的人喜欢看书。",
+        "example_vi": "Có người thích đọc sách."
+      },
+      {
+        "hanzi": "第",
+        "pinyin": "dì",
+        "type": "Trợ từ",
+        "type_short": "trợ từ",
+        "meaning": "thứ (số thứ tự)",
+        "example_zh": "第一名",
+        "example_vi": "Hạng thứ nhất"
+      }
+    ]
+  },
+  {
+    "orderIndex": 30,
+    "vocab": [
+      {
+        "hanzi": "口",
+        "pinyin": "kǒu",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "khẩu, người (trong nhà)",
+        "example_zh": "四口人",
+        "example_vi": "Bốn người trong nhà"
+      },
+      {
+        "hanzi": "本",
+        "pinyin": "běn",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "cuốn, quyển",
+        "example_zh": "一本书",
+        "example_vi": "Một quyển sách"
+      },
+      {
+        "hanzi": "件",
+        "pinyin": "jiàn",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "kiện, chiếc (quần áo)",
+        "example_zh": "一件衣服",
+        "example_vi": "Một chiếc áo"
+      },
+      {
+        "hanzi": "杯子",
+        "pinyin": "bēizi",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "cái cốc",
+        "example_zh": "一个杯子",
+        "example_vi": "Một cái cốc"
+      },
+      {
+        "hanzi": "边",
+        "pinyin": "biān",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "bên, cạnh",
+        "example_zh": "右边",
+        "example_vi": "Bên phải"
+      },
+      {
+        "hanzi": "块",
+        "pinyin": "kuài",
+        "type": "Lượng từ",
+        "type_short": "lượng từ",
+        "meaning": "cục, khối, đồng",
+        "example_zh": "一块钱",
+        "example_vi": "Một đồng tiền"
+      },
+      {
+        "hanzi": "穿",
+        "pinyin": "chuān",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "mặc",
+        "example_zh": "穿衣服",
+        "example_vi": "Mặc quần áo"
+      },
+      {
+        "hanzi": "饭店",
+        "pinyin": "fàndiàn",
+        "type": "Danh từ",
+        "type_short": "danh từ",
+        "meaning": "nhà hàng",
+        "example_zh": "去饭店吃饭",
+        "example_vi": "Đi nhà hàng ăn cơm"
+      },
+      {
+        "hanzi": "喂",
+        "pinyin": "wèi",
+        "type": "Thán từ",
+        "type_short": "thán từ",
+        "meaning": "a lô (nghe điện thoại)",
+        "example_zh": "喂，你好！",
+        "example_vi": "A lô, xin chào!"
+      },
+      {
+        "hanzi": "谢谢",
+        "pinyin": "xièxie",
+        "type": "Động từ",
+        "type_short": "động từ",
+        "meaning": "cảm ơn",
+        "example_zh": "谢谢大家！",
+        "example_vi": "Cảm ơn mọi người!"
+      }
+    ]
+  }
+]

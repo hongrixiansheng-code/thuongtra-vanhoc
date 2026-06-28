@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 11,
+    "dialogue": [
+      {
+        "title": "Talking about skills",
+        "lines": [
+          { "speaker": "Ha", "en": "Can you swim?", "vi": "Bạn có biết bơi không?" },
+          { "speaker": "Jack", "en": "Yes, I can swim very well. Can you drive a car?", "vi": "Có, tôi bơi rất giỏi. Bạn có biết lái xe không?" },
+          { "speaker": "Ha", "en": "No, I can't drive yet, but I can cook delicious food.", "vi": "Không, tôi chưa biết lái xe, nhưng tôi nấu ăn ngon." },
+          { "speaker": "Jack", "en": "Can you speak any other languages?", "vi": "Bạn có biết nói ngôn ngữ nào khác không?" },
+          { "speaker": "Ha", "en": "Yes, I can speak English and a little Chinese.", "vi": "Có, tôi biết nói tiếng Anh và một ít tiếng Trung." },
+          { "speaker": "Jack", "en": "That's great!", "vi": "Tuyệt vậy!" }
+        ]
+      },
+      {
+        "title": "A talent show",
+        "lines": [
+          { "speaker": "Ha", "en": "Can he sing?", "vi": "Anh ấy có biết hát không?" },
+          { "speaker": "Jack", "en": "Yes, he can sing and dance. He can also draw very well.", "vi": "Có, anh ấy biết hát và nhảy. Anh ấy cũng vẽ rất đẹp." },
+          { "speaker": "Ha", "en": "Can she play any instruments?", "vi": "Cô ấy có biết chơi nhạc cụ nào không?" },
+          { "speaker": "Jack", "en": "Yes, she can play the guitar.", "vi": "Có, cô ấy biết chơi guitar." },
+          { "speaker": "Ha", "en": "Can they write songs together?", "vi": "Họ có thể cùng viết nhạc không?" },
+          { "speaker": "Jack", "en": "Yes, they can. They are a great team.", "vi": "Có. Họ là một nhóm tuyệt vời." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "dialogue": [
+      {
+        "title": "Asking for help",
+        "lines": [
+          { "speaker": "Ha", "en": "Can you help me with this bag?", "vi": "Bạn có thể giúp tôi với cái túi này không?" },
+          { "speaker": "Jack", "en": "Yes, of course. Can I take it for you?", "vi": "Có, tất nhiên. Tôi có thể cầm nó giúp bạn không?" },
+          { "speaker": "Ha", "en": "Thank you. Can you also bring my book, please?", "vi": "Cảm ơn bạn. Bạn có thể mang giúp tôi cuốn sách không?" },
+          { "speaker": "Jack", "en": "Sure, I can bring it now.", "vi": "Được, tôi mang nó ngay đây." },
+          { "speaker": "Ha", "en": "Can you wait for me here?", "vi": "Bạn có thể đợi tôi ở đây không?" },
+          { "speaker": "Jack", "en": "Yes, I can wait.", "vi": "Được, tôi có thể đợi." }
+        ]
+      },
+      {
+        "title": "Asking for permission",
+        "lines": [
+          { "speaker": "Ha", "en": "Can I open the window?", "vi": "Tôi có thể mở cửa sổ không?" },
+          { "speaker": "Jack", "en": "Yes, you can. Can I close the door too?", "vi": "Được. Tôi cũng có thể đóng cửa không?" },
+          { "speaker": "Ha", "en": "Sure, you can.", "vi": "Được chứ." },
+          { "speaker": "Jack", "en": "Can I sit here?", "vi": "Tôi có thể ngồi đây không?" },
+          { "speaker": "Ha", "en": "Yes, you can. Can I come in too?", "vi": "Được. Tôi cũng có thể vào không?" },
+          { "speaker": "Jack", "en": "Of course you can.", "vi": "Tất nhiên là được." }
+        ]
+      }
+    ]
+  }
+]

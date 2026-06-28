@@ -1,0 +1,31 @@
+[
+  {
+    "lessonOrder": 55,
+    "grammar": []
+  },
+  {
+    "lessonOrder": 56,
+    "grammar": [
+      {
+        "title": "Động từ khuyết thiếu \"must / mustn't\" — Quy tắc & Nghĩa vụ",
+        "desc": "Dùng \"must\" để nói về điều bắt buộc phải làm, và \"mustn't\" để nói về điều bị cấm, không được làm.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "must / mustn't", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "You must wear a helmet on a motorbike.", "vi": "Bạn phải đội mũ bảo hiểm khi đi xe máy." },
+          { "en": "You mustn't smoke in this building.", "vi": "Bạn không được hút thuốc trong tòa nhà này." },
+          { "en": "Students must arrive on time.", "vi": "Học sinh phải đến đúng giờ." }
+        ],
+        "note": "\"must\" = bắt buộc (cần thiết). \"mustn't\" = cấm (không được phép), mạnh hơn \"don't have to\".",
+        "practiceList": [
+          { "question": "You ___ stop at a red light.", "correct": "must", "meaning": "Bạn phải dừng lại khi đèn đỏ.", "explanation": "Quy tắc bắt buộc dùng \"must\"." },
+          { "question": "You ___ park here. It's forbidden.", "correct": "mustn't", "meaning": "Bạn không được đỗ xe ở đây. Bị cấm.", "explanation": "Điều bị cấm dùng \"mustn't\"." },
+          { "question": "Visitors ___ show their ID card.", "correct": "must", "meaning": "Khách phải xuất trình thẻ căn cước.", "explanation": "Quy định bắt buộc dùng \"must\"." }
+        ]
+      }
+    ]
+  }
+]

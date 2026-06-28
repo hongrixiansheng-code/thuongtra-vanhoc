@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 19,
+    "vocab": [
+      {
+        "word": "morning",
+        "ipa": "/ˈmɔː.nɪŋ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "buổi sáng",
+        "example_en": "Good morning.",
+        "example_vi": "Chào buổi sáng.",
+        "level": "A1"
+      },
+      {
+        "word": "get up",
+        "ipa": "/ɡet ʌp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thức dậy",
+        "example_en": "I get up early.",
+        "example_vi": "Tôi thức dậy sớm.",
+        "level": "A1"
+      },
+      {
+        "word": "wash",
+        "ipa": "/wɒʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "rửa",
+        "example_en": "Wash your face.",
+        "example_vi": "Rửa mặt đi.",
+        "level": "A1"
+      },
+      {
+        "word": "brush",
+        "ipa": "/brʌʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chải",
+        "example_en": "Brush your teeth.",
+        "example_vi": "Đánh răng đi.",
+        "level": "A1"
+      },
+      {
+        "word": "breakfast",
+        "ipa": "/ˈbrek.fəst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bữa sáng",
+        "example_en": "Eat breakfast.",
+        "example_vi": "Ăn bữa sáng.",
+        "level": "A1"
+      },
+      {
+        "word": "dress",
+        "ipa": "/dres/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mặc quần áo",
+        "example_en": "I dress quickly.",
+        "example_vi": "Tôi mặc quần áo nhanh.",
+        "level": "A1"
+      },
+      {
+        "word": "work",
+        "ipa": "/wɜːk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "làm việc",
+        "example_en": "I work every day.",
+        "example_vi": "Tôi làm việc mỗi ngày.",
+        "level": "A1"
+      },
+      {
+        "word": "lunch",
+        "ipa": "/lʌntʃ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bữa trưa",
+        "example_en": "Have lunch.",
+        "example_vi": "Ăn bữa trưa.",
+        "level": "A1"
+      },
+      {
+        "word": "afternoon",
+        "ipa": "/ˌɑːf.təˈnuːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "buổi chiều",
+        "example_en": "Good afternoon.",
+        "example_vi": "Chào buổi chiều.",
+        "level": "A1"
+      },
+      {
+        "word": "evening",
+        "ipa": "/ˈiːv.nɪŋ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "buổi tối",
+        "example_en": "Good evening.",
+        "example_vi": "Chào buổi tối.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "vocab": [
+      {
+        "word": "clean",
+        "ipa": "/kliːn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dọn dẹp",
+        "example_en": "Clean the room.",
+        "example_vi": "Dọn phòng đi.",
+        "level": "A1"
+      },
+      {
+        "word": "sweep",
+        "ipa": "/swiːp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "quét",
+        "example_en": "Sweep the floor.",
+        "example_vi": "Quét sàn nhà.",
+        "level": "A1"
+      },
+      {
+        "word": "wash",
+        "ipa": "/wɒʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "giặt, rửa",
+        "example_en": "Wash the clothes.",
+        "example_vi": "Giặt quần áo.",
+        "level": "A1"
+      },
+      {
+        "word": "fold",
+        "ipa": "/fəʊld/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "gấp",
+        "example_en": "Fold the clothes.",
+        "example_vi": "Gấp quần áo.",
+        "level": "A1"
+      },
+      {
+        "word": "tidy",
+        "ipa": "/ˈtaɪ.di/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dọn dẹp ngăn nắp",
+        "example_en": "Tidy the bedroom.",
+        "example_vi": "Dọn dẹp phòng ngủ.",
+        "level": "A1"
+      },
+      {
+        "word": "make bed",
+        "ipa": "/meɪk bed/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dọn giường",
+        "example_en": "Make your bed.",
+        "example_vi": "Dọn giường của bạn.",
+        "level": "A1"
+      },
+      {
+        "word": "vacuum",
+        "ipa": "/ˈvæk.juːm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hút bụi",
+        "example_en": "Vacuum the floor.",
+        "example_vi": "Hút bụi sàn nhà.",
+        "level": "A1"
+      },
+      {
+        "word": "dust",
+        "ipa": "/dʌst/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phủi bụi",
+        "example_en": "Dust the table.",
+        "example_vi": "Phủi bụi bàn.",
+        "level": "A1"
+      },
+      {
+        "word": "iron",
+        "ipa": "/aɪən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ủi đồ",
+        "example_en": "Iron the clothes.",
+        "example_vi": "Ủi quần áo.",
+        "level": "A1"
+      },
+      {
+        "word": "trash",
+        "ipa": "/træʃ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "rác",
+        "example_en": "Take out the trash.",
+        "example_vi": "Đổ rác.",
+        "level": "A1"
+      }
+    ]
+  }
+]

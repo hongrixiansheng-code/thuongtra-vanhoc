@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 29,
+    "grammar": [
+      {
+        "title": "Danh từ đếm được (Countable Nouns) — a/an, some, many, how many",
+        "desc": "Dùng a/an cho một vật số ít, some cho số nhiều không xác định, many và how many để hỏi/nói về số lượng lớn của danh từ đếm được.",
+        "formula": [
+          { "text": "a / an", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Countable noun (số ít)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have an apple.", "vi": "Tôi có một quả táo." },
+          { "en": "There are some eggs in the fridge.", "vi": "Có vài quả trứng trong tủ lạnh." },
+          { "en": "How many tomatoes do you need?", "vi": "Bạn cần bao nhiêu quả cà chua?" }
+        ],
+        "note": "Danh từ đếm được có dạng số ít (a/an + noun) và số nhiều (some/many + noun-s). Dùng How many trước danh từ số nhiều để hỏi số lượng.",
+        "practiceList": [
+          { "question": "I have ___ banana.", "correct": "a", "meaning": "Tôi có một quả chuối.", "explanation": "\"banana\" bắt đầu bằng phụ âm, dùng \"a\"." },
+          { "question": "There are ___ potatoes on the table.", "correct": "some", "meaning": "Có vài củ khoai tây trên bàn.", "explanation": "Số nhiều không xác định dùng \"some\"." },
+          { "question": "___ carrots do you want?", "correct": "How many", "meaning": "Bạn muốn bao nhiêu củ cà rốt?", "explanation": "Hỏi số lượng danh từ đếm được số nhiều dùng \"How many\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "grammar": [
+      {
+        "title": "Danh từ không đếm được (Uncountable Nouns) — some, much, how much",
+        "desc": "Danh từ không đếm được không có dạng số nhiều. Dùng some để nói có một lượng, much và how much để hỏi/nói về số lượng lớn.",
+        "formula": [
+          { "text": "some / much", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Uncountable noun", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I have some rice.", "vi": "Tôi có một ít gạo." },
+          { "en": "There isn't much water in the bottle.", "vi": "Không có nhiều nước trong chai." },
+          { "en": "How much sugar do you need?", "vi": "Bạn cần bao nhiêu đường?" }
+        ],
+        "note": "Danh từ không đếm được (rice, water, sugar, milk...) không thêm -s, luôn chia động từ số ít. Dùng How much để hỏi số lượng.",
+        "practiceList": [
+          { "question": "There is ___ milk in the glass.", "correct": "some", "meaning": "Có một ít sữa trong cốc.", "explanation": "Khẳng định với danh từ không đếm được dùng \"some\"." },
+          { "question": "I don't have ___ time today.", "correct": "much", "meaning": "Hôm nay tôi không có nhiều thời gian.", "explanation": "Phủ định với danh từ không đếm được dùng \"much\"." },
+          { "question": "___ coffee do you drink every day?", "correct": "How much", "meaning": "Mỗi ngày bạn uống bao nhiêu cà phê?", "explanation": "Hỏi số lượng danh từ không đếm được dùng \"How much\"." }
+        ]
+      }
+    ]
+  }
+]

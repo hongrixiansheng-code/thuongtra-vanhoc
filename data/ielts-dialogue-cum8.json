@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 15,
+    "dialogue": [
+      {
+        "title": "Choosing colours",
+        "lines": [
+          { "speaker": "Thao", "en": "I like this red bag, but it's quite small.", "vi": "Tôi thích cái túi đỏ này, nhưng nó khá nhỏ." },
+          { "speaker": "Mark", "en": "What about the blue one? It's big and wide.", "vi": "Còn cái màu xanh thì sao? Nó to và rộng." },
+          { "speaker": "Thao", "en": "I prefer the green boxes. They are not tiny at all.", "vi": "Tôi thích những cái hộp xanh lá hơn. Chúng không hề nhỏ xíu." },
+          { "speaker": "Mark", "en": "Do you also like the white ones?", "vi": "Bạn cũng thích những cái màu trắng chứ?" },
+          { "speaker": "Thao", "en": "Yes, but the black boxes look nicer.", "vi": "Có, nhưng những cái hộp đen trông đẹp hơn." },
+          { "speaker": "Mark", "en": "I agree, the black ones are lovely.", "vi": "Tôi đồng ý, những cái màu đen rất đẹp." }
+        ]
+      },
+      {
+        "title": "Counting things",
+        "lines": [
+          { "speaker": "Thao", "en": "How many boxes are there?", "vi": "Có bao nhiêu cái hộp?" },
+          { "speaker": "Mark", "en": "There are five boxes and three bags.", "vi": "Có năm cái hộp và ba cái túi." },
+          { "speaker": "Thao", "en": "Are there any large boxes?", "vi": "Có cái hộp lớn nào không?" },
+          { "speaker": "Mark", "en": "Yes, two of them are large.", "vi": "Có, hai trong số đó là lớn." },
+          { "speaker": "Thao", "en": "And how many small ones are there?", "vi": "Và có bao nhiêu cái nhỏ?" },
+          { "speaker": "Mark", "en": "There are three small boxes.", "vi": "Có ba cái hộp nhỏ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "dialogue": [
+      {
+        "title": "What's in your bag?",
+        "lines": [
+          { "speaker": "Thao", "en": "This is my key, and these are my glasses.", "vi": "Đây là chìa khóa của tôi, và đây là kính của tôi." },
+          { "speaker": "Mark", "en": "Is that your phone too?", "vi": "Đó cũng là điện thoại của bạn sao?" },
+          { "speaker": "Thao", "en": "Yes, and these are my tickets for the concert.", "vi": "Đúng vậy, và đây là vé của tôi cho buổi hòa nhạc." },
+          { "speaker": "Mark", "en": "Are those your books over there?", "vi": "Những cuốn sách đằng đó cũng là của bạn sao?" },
+          { "speaker": "Thao", "en": "Yes, those are my books. This is my pen too.", "vi": "Vâng, đó là sách của tôi. Đây cũng là bút của tôi." },
+          { "speaker": "Mark", "en": "You have a lot of things in your bag!", "vi": "Bạn có nhiều thứ trong túi quá!" }
+        ]
+      },
+      {
+        "title": "At the checkout",
+        "lines": [
+          { "speaker": "Thao", "en": "Is this your wallet?", "vi": "Đây có phải là ví của bạn không?" },
+          { "speaker": "Mark", "en": "Yes, and these are my cards. Where is my pen?", "vi": "Đúng, và đây là thẻ của tôi. Bút của tôi đâu rồi?" },
+          { "speaker": "Thao", "en": "Is that umbrella yours too?", "vi": "Cái dù đó cũng là của bạn sao?" },
+          { "speaker": "Mark", "en": "Yes, that's my umbrella.", "vi": "Vâng, đó là dù của tôi." },
+          { "speaker": "Thao", "en": "Are these your tickets?", "vi": "Đây có phải vé của bạn không?" },
+          { "speaker": "Mark", "en": "Yes, those are my tickets for tomorrow.", "vi": "Vâng, đó là vé của tôi cho ngày mai." }
+        ]
+      }
+    ]
+  }
+]

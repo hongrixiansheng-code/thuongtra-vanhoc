@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 33,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: What's happening now",
+        "part": 1,
+        "questions": ["What is the weather like right now?", "What are you doing at the moment?", "Is anyone in your house cooking right now?"],
+        "sampleAnswer": "It is sunny right now. At the moment, I am talking to you. Yes, my mother is cooking dinner right now."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 34,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Changes around you",
+        "part": 1,
+        "questions": ["Are prices increasing in your city?", "Is your neighbourhood changing a lot?", "Are more shops opening near you?"],
+        "sampleAnswer": "Yes, prices are increasing a little. My neighbourhood is changing a lot. Yes, more shops are opening near my house."
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 76,
+    "vocab": [
+      {
+        "word": "different",
+        "ipa": "/ˈdɪf.ər.ənt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "khác biệt",
+        "example_en": "We are different.",
+        "example_vi": "Chúng tôi khác biệt.",
+        "level": "B1"
+      },
+      {
+        "word": "compare",
+        "ipa": "/kəmˈpeər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "so sánh",
+        "example_en": "Compare these two.",
+        "example_vi": "Hãy so sánh hai cái này.",
+        "level": "B1"
+      },
+      {
+        "word": "similar",
+        "ipa": "/ˈsɪm.ɪ.lər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tương tự",
+        "example_en": "They look similar.",
+        "example_vi": "Họ trông tương tự nhau.",
+        "level": "B1"
+      },
+      {
+        "word": "contrast",
+        "ipa": "/ˈkɒn.trɑːst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự tương phản",
+        "example_en": "A sharp contrast.",
+        "example_vi": "Một sự tương phản rõ rệt.",
+        "level": "B1"
+      },
+      {
+        "word": "alike",
+        "ipa": "/əˈlaɪk/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "giống nhau",
+        "example_en": "They think alike.",
+        "example_vi": "Họ có suy nghĩ giống nhau.",
+        "level": "B1"
+      },
+      {
+        "word": "unlike",
+        "ipa": "/ʌnˈlaɪk/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "không giống",
+        "example_en": "Unlike you, I like coffee.",
+        "example_vi": "Không giống bạn, tôi thích cà phê.",
+        "level": "B1"
+      },
+      {
+        "word": "differentiate",
+        "ipa": "/ˌdɪf.əˈren.ʃi.eɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phân biệt",
+        "example_en": "It is hard to differentiate.",
+        "example_vi": "Thật khó để phân biệt.",
+        "level": "B1"
+      },
+      {
+        "word": "distinction",
+        "ipa": "/dɪˈstɪŋk.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự khác biệt",
+        "example_en": "A clear distinction.",
+        "example_vi": "Một sự khác biệt rõ ràng.",
+        "level": "B1"
+      },
+      {
+        "word": "separate",
+        "ipa": "/ˈsep.ər.ət/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "riêng biệt",
+        "example_en": "A separate room.",
+        "example_vi": "Một căn phòng riêng biệt.",
+        "level": "B1"
+      },
+      {
+        "word": "divide",
+        "ipa": "/dɪˈvaɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chia ra",
+        "example_en": "Divide the cake.",
+        "example_vi": "Hãy chia chiếc bánh.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 77,
+    "vocab": [
+      {
+        "word": "who",
+        "ipa": "/huː/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "người mà",
+        "example_en": "The boy who ran.",
+        "example_vi": "Cậu bé người mà đã chạy.",
+        "level": "B1"
+      },
+      {
+        "word": "whom",
+        "ipa": "/huːm/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "người mà (tân ngữ)",
+        "example_en": "The man whom I met.",
+        "example_vi": "Người đàn ông mà tôi đã gặp.",
+        "level": "B1"
+      },
+      {
+        "word": "whose",
+        "ipa": "/huːz/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "của người mà",
+        "example_en": "The girl whose bag is lost.",
+        "example_vi": "Cô gái người có chiếc túi bị mất.",
+        "level": "B1"
+      },
+      {
+        "word": "which",
+        "ipa": "/wɪtʃ/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cái mà",
+        "example_en": "The book which I read.",
+        "example_vi": "Cuốn sách cái mà tôi đã đọc.",
+        "level": "B1"
+      },
+      {
+        "word": "that",
+        "ipa": "/ðæt/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "người/cái mà",
+        "example_en": "The car that I bought.",
+        "example_vi": "Chiếc xe mà tôi đã mua.",
+        "level": "B1"
+      },
+      {
+        "word": "person",
+        "ipa": "/ˈpɜː.sən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "người",
+        "example_en": "A nice person.",
+        "example_vi": "Một người tốt bụng.",
+        "level": "B1"
+      },
+      {
+        "word": "thing",
+        "ipa": "/θɪŋ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vật",
+        "example_en": "A small thing.",
+        "example_vi": "Một vật nhỏ.",
+        "level": "B1"
+      },
+      {
+        "word": "object",
+        "ipa": "/ˈɒb.dʒɪkt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "đồ vật",
+        "example_en": "A heavy object.",
+        "example_vi": "Một đồ vật nặng.",
+        "level": "B1"
+      },
+      {
+        "word": "item",
+        "ipa": "/ˈaɪ.təm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "món đồ",
+        "example_en": "An expensive item.",
+        "example_vi": "Một món đồ đắt tiền.",
+        "level": "B1"
+      },
+      {
+        "word": "detail",
+        "ipa": "/ˈdiː.teɪl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chi tiết",
+        "example_en": "A small detail.",
+        "example_vi": "Một chi tiết nhỏ.",
+        "level": "B1"
+      }
+    ]
+  }
+]

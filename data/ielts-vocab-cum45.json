@@ -1,0 +1,111 @@
+[
+  {
+    "lessonOrder": 85,
+    "vocab": [
+      {
+        "word": "argue",
+        "ipa": "/ˈɑːɡ.juː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tranh luận",
+        "example_en": "They argue a lot.",
+        "example_vi": "Họ tranh luận rất nhiều.",
+        "level": "B1"
+      },
+      {
+        "word": "debate",
+        "ipa": "/dɪˈbeɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tranh luận, thảo luận",
+        "example_en": "We debated the issue.",
+        "example_vi": "Chúng tôi đã thảo luận về vấn đề đó.",
+        "level": "B1"
+      },
+      {
+        "word": "discuss",
+        "ipa": "/dɪˈskʌs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thảo luận",
+        "example_en": "Let us discuss it.",
+        "example_vi": "Hãy cùng thảo luận điều đó.",
+        "level": "B1"
+      },
+      {
+        "word": "point",
+        "ipa": "/pɔɪnt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "điểm, ý",
+        "example_en": "That is a good point.",
+        "example_vi": "Đó là một ý hay.",
+        "level": "B1"
+      },
+      {
+        "word": "view",
+        "ipa": "/vjuː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quan điểm",
+        "example_en": "In my view...",
+        "example_vi": "Theo quan điểm của tôi...",
+        "level": "B1"
+      },
+      {
+        "word": "opinion",
+        "ipa": "/əˈpɪn.jən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ý kiến",
+        "example_en": "My opinion is different.",
+        "example_vi": "Ý kiến của tôi thì khác.",
+        "level": "B1"
+      },
+      {
+        "word": "idea",
+        "ipa": "/aɪˈdɪə/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ý tưởng",
+        "example_en": "A great idea.",
+        "example_vi": "Một ý tưởng tuyệt vời.",
+        "level": "B1"
+      },
+      {
+        "word": "agree",
+        "ipa": "/əˈɡriː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đồng ý",
+        "example_en": "I agree with him.",
+        "example_vi": "Tôi đồng ý với anh ấy.",
+        "level": "B1"
+      },
+      {
+        "word": "disagree",
+        "ipa": "/ˌdɪs.əˈɡriː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "không đồng ý",
+        "example_en": "I completely disagree.",
+        "example_vi": "Tôi hoàn toàn không đồng ý.",
+        "level": "B1"
+      },
+      {
+        "word": "conclusion",
+        "ipa": "/kənˈkluː.ʒən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kết luận",
+        "example_en": "The final conclusion.",
+        "example_vi": "Kết luận cuối cùng.",
+        "level": "B1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "vocab": []
+  }
+]

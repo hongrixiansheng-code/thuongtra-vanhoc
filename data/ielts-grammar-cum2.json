@@ -1,0 +1,110 @@
+[
+  {
+    "lessonOrder": 3,
+    "grammar": [
+      {
+        "title": "Động từ \"be\" + Tính từ (Mô tả người)",
+        "desc": "Dùng am/is/are kết hợp với tính từ để miêu tả tính cách và ngoại hình.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "am / is / are",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Adjective",
+            "classes": "border-orange-500 text-orange-600 bg-orange-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "My mother is young.",
+            "vi": "Mẹ tôi thì trẻ."
+          },
+          {
+            "en": "He is tall and friendly.",
+            "vi": "Anh ấy cao và thân thiện."
+          }
+        ],
+        "note": "Tính từ trong tiếng Anh không thêm \"s\" kể cả khi chủ ngữ là số nhiều.",
+        "practiceList": [
+          {
+            "question": "My father ___ tall.",
+            "correct": "is",
+            "meaning": "Bố tôi cao.",
+            "explanation": "\"My father\" là số ít nên dùng \"is\"."
+          },
+          {
+            "question": "We ___ friendly.",
+            "correct": "are",
+            "meaning": "Chúng tôi thân thiện.",
+            "explanation": "\"We\" là số nhiều nên dùng \"are\"."
+          },
+          {
+            "question": "She isn't fat. She is ___.",
+            "correct": "thin",
+            "meaning": "Cô ấy không béo. Cô ấy gầy.",
+            "explanation": "Dùng tính từ \"thin\" (gầy)."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "grammar": [
+      {
+        "title": "Động từ \"have/has\" — Sở hữu",
+        "desc": "Dùng để diễn tả ai đó có thứ gì hoặc có đặc điểm ngoại hình gì.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "have / has",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I have a happy family.",
+            "vi": "Tôi có một gia đình hạnh phúc."
+          },
+          {
+            "en": "She has long hair.",
+            "vi": "Cô ấy có mái tóc dài."
+          }
+        ],
+        "note": "\"have\" đi với I/you/we/they. \"has\" đi với he/she/it.",
+        "practiceList": [
+          {
+            "question": "I ___ a kind brother.",
+            "correct": "have",
+            "meaning": "Tôi có một người anh tốt bụng.",
+            "explanation": "Chủ ngữ \"I\" đi với \"have\"."
+          },
+          {
+            "question": "She ___ curly hair.",
+            "correct": "has",
+            "meaning": "Cô ấy có mái tóc xoăn.",
+            "explanation": "Chủ ngữ \"She\" đi với \"has\"."
+          },
+          {
+            "question": "My parents ___ a big house.",
+            "correct": "have",
+            "meaning": "Bố mẹ tôi có một ngôi nhà lớn.",
+            "explanation": "\"My parents\" là số nhiều, đi với \"have\"."
+          }
+        ]
+      }
+    ]
+  }
+]

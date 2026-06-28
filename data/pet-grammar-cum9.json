@@ -1,0 +1,186 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 16,
+      "grammar": [
+        {
+          "title": "Mệnh đề quan hệ where",
+          "desc": "Where được dùng thay thế cho trạng từ chỉ nơi chốn (in/on/at which) trong mệnh đề quan hệ.",
+          "formula": [
+            {
+              "text": "Noun (nơi chốn) + where + S + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "This is the gallery where modern art is displayed.",
+              "meaning": "Đây là phòng trưng bày nơi nghệ thuật hiện đại được triển lãm."
+            },
+            {
+              "correct": "The hotel where we stayed was lovely.",
+              "meaning": "Khách sạn nơi chúng tôi đã ở rất đáng yêu."
+            },
+            {
+              "correct": "I want to visit the city where you were born.",
+              "meaning": "Tôi muốn thăm thành phố nơi bạn sinh ra."
+            },
+            {
+              "correct": "That's the restaurant where we met.",
+              "meaning": "Đó là nhà hàng nơi chúng ta đã gặp nhau."
+            }
+          ]
+        },
+        {
+          "title": "Mệnh đề quan hệ when",
+          "desc": "When được dùng thay thế cho trạng từ chỉ thời gian trong mệnh đề quan hệ.",
+          "formula": [
+            {
+              "text": "Noun (thời gian) + when + S + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It was a time when people had no TV.",
+              "meaning": "Đó là một thời kỳ mà mọi người chưa có ti vi."
+            },
+            {
+              "correct": "I remember the day when we first met.",
+              "meaning": "Tôi nhớ ngày mà lần đầu tiên chúng ta gặp nhau."
+            },
+            {
+              "correct": "1990 was the year when I was born.",
+              "meaning": "1990 là năm mà tôi được sinh ra."
+            },
+            {
+              "correct": "Summer is the season when I feel happiest.",
+              "meaning": "Mùa hè là mùa mà tôi cảm thấy hạnh phúc nhất."
+            }
+          ]
+        },
+        {
+          "title": "which / who / that / whose",
+          "desc": "Ôn tập các đại từ quan hệ thay thế cho vật, người, vật/người, hoặc sở hữu.",
+          "formula": [
+            {
+              "text": "Noun + who/which/that/whose + ...",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The artist who painted this is famous.",
+              "meaning": "Người họa sĩ đã vẽ bức tranh này rất nổi tiếng."
+            },
+            {
+              "correct": "The book which I am reading is interesting.",
+              "meaning": "Cuốn sách mà tôi đang đọc rất thú vị."
+            },
+            {
+              "correct": "The man whose car was stolen is sad.",
+              "meaning": "Người đàn ông có chiếc xe bị mất cắp đang rất buồn."
+            },
+            {
+              "correct": "This is the house that Jack built.",
+              "meaning": "Đây là ngôi nhà mà Jack đã xây."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "grammar": [
+        {
+          "title": "Reported Speech phức tạp",
+          "desc": "Lùi thì trong câu gián tiếp (Hiện tại -> Quá khứ, Quá khứ -> Quá khứ hoàn thành).",
+          "formula": [
+            {
+              "text": "S + said (that) + S + V(lùi thì)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She said she was writing.",
+              "meaning": "Cô ấy nói rằng cô ấy đang viết."
+            },
+            {
+              "correct": "He said he would come tomorrow.",
+              "meaning": "Anh ấy nói rằng anh ấy sẽ đến vào ngày mai."
+            },
+            {
+              "correct": "They said they were busy.",
+              "meaning": "Họ nói rằng họ đang bận."
+            },
+            {
+              "correct": "She told me she could swim.",
+              "meaning": "Cô ấy bảo tôi rằng cô ấy biết bơi."
+            }
+          ]
+        },
+        {
+          "title": "Reported speech với thì hoàn thành",
+          "desc": "Hiện tại hoàn thành và Quá khứ đơn khi chuyển sang câu gián tiếp đều lùi về Quá khứ hoàn thành.",
+          "formula": [
+            {
+              "text": "S + said + S + had + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He said he had finished.",
+              "meaning": "Anh ấy nói rằng anh ấy đã hoàn thành."
+            },
+            {
+              "correct": "She said she had lost her keys.",
+              "meaning": "Cô ấy nói rằng cô ấy đã đánh mất chìa khóa."
+            },
+            {
+              "correct": "They told me they had been to Paris.",
+              "meaning": "Họ bảo tôi rằng họ đã từng đến Paris."
+            },
+            {
+              "correct": "He said he had seen that movie.",
+              "meaning": "Anh ấy nói anh ấy đã xem bộ phim đó rồi."
+            }
+          ]
+        },
+        {
+          "title": "say vs tell",
+          "desc": "Say dùng để nói chung chung (say to someone), Tell phải luôn có tân ngữ đi kèm (tell someone something).",
+          "formula": [
+            {
+              "text": "say + (that) / say to sb",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "tell + sb + (that)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He said he was tired.",
+              "meaning": "Anh ấy nói anh ấy mệt."
+            },
+            {
+              "correct": "He told me he was tired.",
+              "meaning": "Anh ấy bảo tôi rằng anh ấy mệt."
+            },
+            {
+              "correct": "She said nothing.",
+              "meaning": "Cô ấy không nói gì cả."
+            },
+            {
+              "correct": "Tell me the truth.",
+              "meaning": "Hãy kể cho tôi nghe sự thật."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 53,
+    "writing": [
+      {
+        "title": "Writing Task 1: Urban vs rural (combined comparison)",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) comparing city and countryside life, combining comparative, superlative, and as...as structures.",
+        "minWords": 30,
+        "sampleAnswer": "Rural life is more peaceful than city life. The city is more developed, but it's also more crowded. The suburbs are quieter than the city centre, but still convenient.",
+        "checklist": ["Kết hợp được ít nhất 2 dạng so sánh khác nhau", "Mô tả rõ ưu/nhược điểm của cả hai khu vực", "Đoạn văn mạch lạc"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "writing": [
+      {
+        "title": "Writing Task 1: Predict urban change",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) predicting how a city will change, using will/going to and comparison.",
+        "minWords": 30,
+        "sampleAnswer": "The population will grow a lot, based on the current trend. The city is going to expand into the countryside. The population here will probably double in ten years.",
+        "checklist": ["Dùng will hoặc going to để dự đoán xu hướng", "Có dữ kiện/con số cụ thể", "Kết hợp được so sánh khi mô tả thay đổi"]
+      }
+    ]
+  }
+]

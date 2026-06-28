@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 47,
+    "grammar": [
+      {
+        "title": "Tương lai với \"will\" — Dự đoán & quyết định tức thì",
+        "desc": "Dùng \"will\" để dự đoán điều gì sẽ xảy ra trong tương lai, hoặc đưa ra quyết định ngay tại thời điểm nói.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "will (not) + V (nguyên mẫu)", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I think it will rain tomorrow.", "vi": "Tôi nghĩ ngày mai sẽ mưa." },
+          { "en": "It's cold. I will close the window.", "vi": "Lạnh quá. Tôi sẽ đóng cửa sổ." },
+          { "en": "She won't be late, I'm sure.", "vi": "Cô ấy sẽ không đến muộn, tôi chắc chắn." }
+        ],
+        "note": "will not = won't. \"Will\" dùng cho dự đoán không có bằng chứng rõ ràng (I think/probably...) và cho quyết định bất ngờ, ngay lúc nói.",
+        "practiceList": [
+          { "question": "I think prices ___ (rise) next year.", "correct": "will rise", "meaning": "Tôi nghĩ giá cả sẽ tăng năm sau.", "explanation": "Dự đoán dùng \"will\" + V nguyên mẫu." },
+          { "question": "It's noisy here. I ___ (close) the door.", "correct": "will close", "meaning": "Ở đây ồn quá. Tôi sẽ đóng cửa.", "explanation": "Quyết định tức thì dùng \"will\"." },
+          { "question": "He ___ (not/be) free tomorrow.", "correct": "won't be", "meaning": "Ngày mai anh ấy sẽ không rảnh.", "explanation": "Phủ định của will là won't." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "grammar": [
+      {
+        "title": "Tương lai với \"going to\" — Kế hoạch & ý định",
+        "desc": "Dùng \"going to\" để nói về kế hoạch đã quyết định trước, hoặc dự đoán có bằng chứng rõ ràng ngay lúc nói.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "am/is/are (+not) + going to + V", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I am going to visit my grandparents this weekend.", "vi": "Tôi sẽ đi thăm ông bà vào cuối tuần này." },
+          { "en": "Look at those clouds! It is going to rain.", "vi": "Nhìn những đám mây kia! Trời sắp mưa." },
+          { "en": "They aren't going to come to the party.", "vi": "Họ sẽ không đến buổi tiệc." }
+        ],
+        "note": "\"going to\" dùng cho kế hoạch đã quyết định trước (đã chuẩn bị) hoặc dự đoán dựa trên bằng chứng nhìn thấy được (Look at...!).",
+        "practiceList": [
+          { "question": "We ___ (plan) to travel next month. (going to)", "correct": "are going to travel", "meaning": "Chúng tôi sẽ đi du lịch tháng sau.", "explanation": "Kế hoạch đã quyết định trước dùng \"going to\"." },
+          { "question": "Look at his face! He ___ (cry). (going to)", "correct": "is going to cry", "meaning": "Nhìn mặt anh ấy! Anh ấy sắp khóc rồi.", "explanation": "Dự đoán có bằng chứng rõ ràng (nhìn thấy mặt) dùng \"going to\"." },
+          { "question": "She ___ (not/study) abroad. (going to)", "correct": "isn't going to study", "meaning": "Cô ấy sẽ không đi học ở nước ngoài.", "explanation": "Phủ định: am/is/are + not + going to + V." }
+        ]
+      }
+    ]
+  }
+]

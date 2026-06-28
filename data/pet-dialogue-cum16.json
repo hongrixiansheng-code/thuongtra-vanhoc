@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 30,
+      "dialogues": [
+        {
+          "title": "Writing a formal email",
+          "lines": [
+            {
+              "speaker": "Lily",
+              "en": "I need to write a formal email to the university admissions office to ask about the scholarship. How should I start the letter properly?",
+              "vi": "Tôi cần viết một email trang trọng cho văn phòng tuyển sinh đại học để hỏi về học bổng. Tôi nên bắt đầu bức thư thế nào cho đúng?"
+            },
+            {
+              "speaker": "James",
+              "en": "You should begin with 'Dear Sir or Madam' if you don't know the exact name of the person. It is the most polite and standard opening phrase.",
+              "vi": "Bạn nên bắt đầu bằng 'Dear Sir or Madam' nếu bạn không biết tên chính xác của người đó. Nó là cụm từ mở đầu lịch sự và tiêu chuẩn nhất."
+            },
+            {
+              "speaker": "Lily",
+              "en": "Thank you! I also want to mention that my academic records have been attached to the email. Should I use the passive voice for this sentence?",
+              "vi": "Cảm ơn bạn! Tôi cũng muốn đề cập rằng hồ sơ học tập của tôi đã được đính kèm vào email. Tôi có nên sử dụng thể bị động cho câu này không?"
+            },
+            {
+              "speaker": "James",
+              "en": "Yes, saying 'Please find my academic records attached' sounds very professional. You must ensure that the tone remains respectful throughout the email.",
+              "vi": "Có, việc nói 'Please find my academic records attached' nghe rất chuyên nghiệp. Bạn phải đảm bảo rằng giọng điệu duy trì sự tôn trọng xuyên suốt email."
+            },
+            {
+              "speaker": "Lily",
+              "en": "I am writing to inquire about the deadline for international applicants, which is not clear on the website. I hope they will reply quickly.",
+              "vi": "Tôi viết thư này để hỏi về hạn chót dành cho người nộp đơn quốc tế, điều mà không rõ ràng trên trang web. Tôi hy vọng họ sẽ trả lời nhanh chóng."
+            },
+            {
+              "speaker": "James",
+              "en": "Make sure you include your contact details at the end so that they can reach you easily. What closing phrase are you planning to use?",
+              "vi": "Đảm bảo rằng bạn bao gồm thông tin liên hệ của mình ở phần cuối để họ có thể liên lạc với bạn dễ dàng. Bạn dự định sử dụng cụm từ kết thúc nào?"
+            },
+            {
+              "speaker": "Lily",
+              "en": "I will close the email with 'Yours faithfully', followed by my full name. I will proofread it twice before I hit the send button.",
+              "vi": "Tôi sẽ kết thúc email bằng 'Yours faithfully', theo sau là tên đầy đủ của tôi. Tôi sẽ đọc rà soát nó hai lần trước khi tôi nhấn nút gửi."
+            },
+            {
+              "speaker": "James",
+              "en": "That is absolutely correct! Writing a clear and polite email is an essential skill which everyone should master.",
+              "vi": "Điều đó hoàn toàn chính xác! Viết một email rõ ràng và lịch sự là một kỹ năng thiết yếu thứ mà mọi người đều nên thành thạo."
+            }
+          ]
+        },
+        {
+          "title": "Replying to an invitation",
+          "lines": [
+            {
+              "speaker": "Max",
+              "en": "I received an invitation to the annual charity dinner which will take place next month. I need to write a polite reply to confirm my attendance.",
+              "vi": "Tôi đã nhận được một lời mời tham dự bữa tối từ thiện thường niên cái mà sẽ diễn ra vào tháng tới. Tôi cần viết một câu trả lời lịch sự để xác nhận sự tham dự của mình."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "It is always a good idea to express your gratitude first when you reply to an invitation. You can say 'Thank you very much for inviting me'.",
+              "vi": "Luôn luôn là một ý tưởng hay khi bày tỏ sự biết ơn của bạn trước tiên khi bạn trả lời một lời mời. Bạn có thể nói 'Cảm ơn rất nhiều vì đã mời tôi'."
+            },
+            {
+              "speaker": "Max",
+              "en": "I will write that down immediately. Furthermore, I must inform them that I am a vegetarian so they can prepare a suitable meal.",
+              "vi": "Tôi sẽ ghi lại điều đó ngay lập tức. Hơn nữa, tôi phải thông báo cho họ rằng tôi là người ăn chay để họ có thể chuẩn bị một bữa ăn phù hợp."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "You should add a brief sentence like 'Please note that I require a vegetarian menu'. The organizers usually appreciate knowing dietary requirements in advance.",
+              "vi": "Bạn nên thêm một câu ngắn gọn như 'Xin lưu ý rằng tôi yêu cầu một thực đơn ăn chay'. Những người tổ chức thường đánh giá cao việc biết trước các yêu cầu về chế độ ăn uống."
+            },
+            {
+              "speaker": "Max",
+              "en": "I would also like to bring a guest with me, if it is allowed. How can I ask them politely without sounding too demanding?",
+              "vi": "Tôi cũng muốn dẫn theo một người khách đi cùng, nếu điều đó được cho phép. Tôi có thể hỏi họ một cách lịch sự như thế nào mà không nghe quá đòi hỏi?"
+            },
+            {
+              "speaker": "Chloe",
+              "en": "You could write, 'I was wondering if it would be possible to bring a plus-one to the event'. It sounds very respectful and gentle.",
+              "vi": "Bạn có thể viết, 'Tôi tự hỏi liệu có khả năng mang theo một người đi cùng đến sự kiện không'. Nó nghe rất tôn trọng và nhẹ nhàng."
+            },
+            {
+              "speaker": "Max",
+              "en": "That sounds perfect! I will end the letter by saying 'I look forward to attending the dinner'. Is there anything else which I should add?",
+              "vi": "Nghe hoàn hảo quá! Tôi sẽ kết thúc bức thư bằng cách nói 'Tôi mong đợi được tham dự bữa tối'. Có điều gì khác mà tôi nên thêm vào không?"
+            },
+            {
+              "speaker": "Chloe",
+              "en": "No, your email is concise and covers all the necessary points. A well-written reply shows that you are a considerate person.",
+              "vi": "Không, email của bạn súc tích và bao hàm tất cả các điểm cần thiết. Một câu trả lời được viết tốt cho thấy rằng bạn là một người chu đáo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 31,
+      "dialogues": [
+        {
+          "title": "Structuring a short essay",
+          "lines": [
+            {
+              "speaker": "Sam",
+              "en": "I have to write a short essay about the benefits of public transport, but I am struggling with the structure. How many paragraphs should I include?",
+              "vi": "Tôi phải viết một bài luận ngắn về những lợi ích của giao thông công cộng, nhưng tôi đang chật vật với cấu trúc. Tôi nên bao gồm bao nhiêu đoạn văn?"
+            },
+            {
+              "speaker": "Teacher",
+              "en": "A standard short essay usually consists of four or five paragraphs. You should always start with an introduction which presents your main thesis.",
+              "vi": "Một bài luận ngắn tiêu chuẩn thường bao gồm bốn hoặc năm đoạn văn. Bạn nên luôn luôn bắt đầu với một phần mở bài cái mà trình bày luận điểm chính của bạn."
+            },
+            {
+              "speaker": "Sam",
+              "en": "In the introduction, I will state that public transport reduces pollution and traffic jams. Then, I need to write the body paragraphs, don't I?",
+              "vi": "Trong phần mở bài, tôi sẽ tuyên bố rằng giao thông công cộng làm giảm ô nhiễm và tắc nghẽn giao thông. Sau đó, tôi cần viết các đoạn thân bài, phải không?"
+            },
+            {
+              "speaker": "Teacher",
+              "en": "Exactly! Each body paragraph must focus on a single idea which supports your thesis. You ought to use linking words to connect your sentences smoothly.",
+              "vi": "Chính xác! Mỗi đoạn thân bài phải tập trung vào một ý tưởng duy nhất thứ mà củng cố luận điểm của bạn. Bạn nên sử dụng các từ nối để kết nối các câu của bạn một cách mượt mà."
+            },
+            {
+              "speaker": "Sam",
+              "en": "For instance, I can use 'Furthermore' to add more information, and 'However' to show a contrasting point. Providing concrete examples is also important.",
+              "vi": "Ví dụ, tôi có thể sử dụng 'Hơn nữa' để thêm thông tin, và 'Tuy nhiên' để thể hiện một điểm tương phản. Việc cung cấp các ví dụ cụ thể cũng rất quan trọng."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "That is an excellent strategy, which will make your arguments much more convincing. Finally, you must write a conclusion to summarize your main points.",
+              "vi": "Đó là một chiến lược xuất sắc, điều này sẽ làm cho các lập luận của bạn thuyết phục hơn nhiều. Cuối cùng, bạn phải viết một phần kết luận để tóm tắt những điểm chính của bạn."
+            },
+            {
+              "speaker": "Sam",
+              "en": "In the conclusion, I will restate my opinion without introducing any new ideas. Thank you for your guidance, which has been extremely helpful.",
+              "vi": "Trong phần kết luận, tôi sẽ khẳng định lại quan điểm của mình mà không đưa ra bất kỳ ý tưởng mới nào. Cảm ơn vì sự hướng dẫn của thầy, điều mà đã cực kỳ hữu ích."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "You are very welcome! Make sure you check your spelling and grammar before submitting the final draft.",
+              "vi": "Không có chi! Đảm bảo rằng bạn kiểm tra chính tả và ngữ pháp trước khi nộp bản nháp cuối cùng."
+            }
+          ]
+        },
+        {
+          "title": "Discussing an essay topic",
+          "lines": [
+            {
+              "speaker": "Fiona",
+              "en": "We have to write an opinion essay discussing whether technology makes people lazier. I personally believe that it does, because we rely on machines for everything.",
+              "vi": "Chúng ta phải viết một bài luận quan điểm thảo luận xem liệu công nghệ có làm con người lười biếng hơn không. Cá nhân tôi tin rằng nó có, bởi vì chúng ta dựa vào máy móc cho mọi thứ."
+            },
+            {
+              "speaker": "Leo",
+              "en": "On the other hand, I think technology helps us work more efficiently. It saves us a lot of time which we can use for creative activities.",
+              "vi": "Mặt khác, tôi nghĩ công nghệ giúp chúng ta làm việc hiệu quả hơn. Nó tiết kiệm cho chúng ta rất nhiều thời gian thứ mà chúng ta có thể sử dụng cho các hoạt động sáng tạo."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "That is a valid point, but people nowadays spend hours scrolling through social media instead of exercising. Consequently, obesity rates have been rising significantly.",
+              "vi": "Đó là một điểm hợp lý, nhưng mọi người ngày nay dành hàng giờ lướt qua mạng xã hội thay vì tập thể dục. Hậu quả là, tỷ lệ béo phì đã và đang tăng lên đáng kể."
+            },
+            {
+              "speaker": "Leo",
+              "en": "In contrast, many fitness applications, which track our daily steps, motivate people to stay active. Technology itself isn't bad; it depends on how we use it.",
+              "vi": "Ngược lại, nhiều ứng dụng thể dục, những thứ theo dõi số bước đi hàng ngày của chúng ta, thúc đẩy mọi người duy trì sự năng động. Bản thân công nghệ không xấu; nó phụ thuộc vào cách chúng ta sử dụng nó."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "I will include your perspective in my essay so as to provide a balanced argument. Acknowledging the opposite view makes the essay much stronger.",
+              "vi": "Tôi sẽ bao gồm góc nhìn của bạn trong bài luận của mình để đưa ra một lập luận cân bằng. Việc công nhận quan điểm đối lập làm cho bài luận mạnh mẽ hơn nhiều."
+            },
+            {
+              "speaker": "Leo",
+              "en": "You should use phrases like 'Some people argue that' or 'Despite this fact' to introduce opposing views. It shows that you have analyzed the topic deeply.",
+              "vi": "Bạn nên sử dụng các cụm từ như 'Một số người tranh luận rằng' hoặc 'Bất chấp sự thật này' để giới thiệu các quan điểm đối lập. Nó cho thấy rằng bạn đã phân tích chủ đề một cách sâu sắc."
+            },
+            {
+              "speaker": "Fiona",
+              "en": "I am going to start writing the introduction tonight, which will contain a strong hook to grab the reader's attention. Then, I will outline the body paragraphs.",
+              "vi": "Tôi dự định sẽ bắt đầu viết phần mở bài tối nay, phần mà sẽ chứa một câu dẫn dắt mạnh mẽ để thu hút sự chú ý của người đọc. Sau đó, tôi sẽ phác thảo các đoạn thân bài."
+            },
+            {
+              "speaker": "Leo",
+              "en": "I am sure you will write a fantastic essay because you always express your ideas clearly. Let me know if you need someone to proofread it.",
+              "vi": "Tôi chắc chắn bạn sẽ viết một bài luận tuyệt vời vì bạn luôn diễn đạt các ý tưởng của mình một cách rõ ràng. Hãy cho tôi biết nếu bạn cần ai đó đọc rà soát nó."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

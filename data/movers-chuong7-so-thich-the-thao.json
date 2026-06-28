@@ -1,0 +1,467 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 19,
+      "title": "Bài 9.a: Đồ chơi, sở thích & giải trí (1/2)",
+      "theme": "Sở thích & Thể thao",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "band",
+          "ipa": "/bænd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ban nhạc",
+          "example_en": "I love this band.",
+          "example_vi": "Tôi yêu thích ban nhạc này."
+        },
+        {
+          "word": "cage",
+          "ipa": "/keɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lồng, cũi",
+          "example_en": "The bird is in a cage.",
+          "example_vi": "Con chim ở trong lồng."
+        },
+        {
+          "word": "circus",
+          "ipa": "/ˈsɜːrkəs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "rạp xiếc",
+          "example_en": "We go to the circus.",
+          "example_vi": "Chúng tôi đi đến rạp xiếc."
+        },
+        {
+          "word": "cinema",
+          "ipa": "/ˈsɪnəmə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "rạp chiếu phim",
+          "example_en": "Let's go to the cinema.",
+          "example_vi": "Cùng đến rạp chiếu phim nào."
+        },
+        {
+          "word": "clown",
+          "ipa": "/klaʊn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chú hề",
+          "example_en": "The clown is funny.",
+          "example_vi": "Chú hề rất vui nhộn."
+        },
+        {
+          "word": "dance",
+          "ipa": "/dæns/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nhảy múa",
+          "example_en": "She can dance well.",
+          "example_vi": "Cô ấy có thể nhảy múa rất giỏi."
+        },
+        {
+          "word": "dream",
+          "ipa": "/driːm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giấc mơ",
+          "example_en": "I had a bad dream.",
+          "example_vi": "Tôi đã có một giấc mơ tồi tệ."
+        },
+        {
+          "word": "drive",
+          "ipa": "/draɪv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "lái xe",
+          "example_en": "My dad can drive.",
+          "example_vi": "Bố tôi có thể lái xe."
+        },
+        {
+          "word": "driver",
+          "ipa": "/ˈdraɪvər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tài xế",
+          "example_en": "He is a bus driver.",
+          "example_vi": "Ông ấy là một tài xế xe buýt."
+        },
+        {
+          "word": "film",
+          "ipa": "/fɪlm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bộ phim",
+          "example_en": "This film is exciting.",
+          "example_vi": "Bộ phim này rất thú vị."
+        },
+        {
+          "word": "film star",
+          "ipa": "/fɪlm stɑːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngôi sao điện ảnh",
+          "example_en": "She is a famous film star.",
+          "example_vi": "Cô ấy là một ngôi sao điện ảnh nổi tiếng."
+        },
+        {
+          "word": "funfair",
+          "ipa": "/ˈfʌnfeər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hội chợ vui chơi",
+          "example_en": "We play at the funfair.",
+          "example_vi": "Chúng tôi chơi đùa ở hội chợ."
+        },
+        {
+          "word": "goal",
+          "ipa": "/ɡoʊl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khung thành, bàn thắng",
+          "example_en": "He kicks the ball into the goal.",
+          "example_vi": "Cậu ấy đá quả bóng vào khung thành."
+        },
+        {
+          "word": "ice skates",
+          "ipa": "/aɪs skeɪts/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giày trượt băng",
+          "example_en": "I have got new ice skates.",
+          "example_vi": "Tôi có đôi giày trượt băng mới."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 20,
+      "title": "Bài 9.b: Đồ chơi, sở thích & giải trí (2/2)",
+      "theme": "Sở thích & Thể thao",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "ice skating",
+          "ipa": "/aɪs ˈskeɪtɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn trượt băng",
+          "example_en": "Ice skating is difficult.",
+          "example_vi": "Môn trượt băng rất khó."
+        },
+        {
+          "word": "movie",
+          "ipa": "/ˈmuːvi/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bộ phim",
+          "example_en": "We watch a movie.",
+          "example_vi": "Chúng tôi xem một bộ phim."
+        },
+        {
+          "word": "picnic",
+          "ipa": "/ˈpɪknɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chuyến dã ngoại",
+          "example_en": "Let's have a picnic.",
+          "example_vi": "Hãy cùng đi dã ngoại nào."
+        },
+        {
+          "word": "pirate",
+          "ipa": "/ˈpaɪrət/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cướp biển",
+          "example_en": "The pirate is bad.",
+          "example_vi": "Tên cướp biển thì xấu xa."
+        },
+        {
+          "word": "player",
+          "ipa": "/ˈpleɪər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người chơi, cầu thủ",
+          "example_en": "He is a good player.",
+          "example_vi": "Cậu ấy là một cầu thủ giỏi."
+        },
+        {
+          "word": "pop star",
+          "ipa": "/pɒp stɑːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngôi sao nhạc pop",
+          "example_en": "The pop star sings well.",
+          "example_vi": "Ngôi sao nhạc pop hát hay."
+        },
+        {
+          "word": "present",
+          "ipa": "/ˈpreznt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "món quà",
+          "example_en": "This is a present for you.",
+          "example_vi": "Đây là món quà dành cho bạn."
+        },
+        {
+          "word": "roller skates",
+          "ipa": "/ˈroʊlər skeɪts/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giày trượt patin",
+          "example_en": "These are my roller skates.",
+          "example_vi": "Đây là giày trượt patin của tôi."
+        },
+        {
+          "word": "roller skating",
+          "ipa": "/ˈroʊlər ˈskeɪtɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn trượt patin",
+          "example_en": "I love roller skating.",
+          "example_vi": "Tôi yêu thích môn trượt patin."
+        },
+        {
+          "word": "skate",
+          "ipa": "/skeɪt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trượt (băng, patin)",
+          "example_en": "I can skate quickly.",
+          "example_vi": "Tôi có thể trượt rất nhanh."
+        },
+        {
+          "word": "tractor",
+          "ipa": "/ˈtræktər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "máy kéo",
+          "example_en": "The farmer drives a tractor.",
+          "example_vi": "Bác nông dân lái một chiếc máy kéo."
+        },
+        {
+          "word": "ticket",
+          "ipa": "/ˈtɪkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vé",
+          "example_en": "I have got a ticket.",
+          "example_vi": "Tôi có một tấm vé."
+        },
+        {
+          "word": "treasure",
+          "ipa": "/ˈtreʒər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kho báu",
+          "example_en": "The pirate looks for treasure.",
+          "example_vi": "Tên cướp biển tìm kiếm kho báu."
+        },
+        {
+          "word": "video",
+          "ipa": "/ˈvɪdioʊ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đoạn video",
+          "example_en": "We watch a video.",
+          "example_vi": "Chúng tôi xem một đoạn video."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 21,
+      "title": "Bài 10.a: Thể thao & vận động (1/2)",
+      "theme": "Sở thích & Thể thao",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "catch",
+          "ipa": "/kætʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "bắt lấy, đón (xe)",
+          "example_en": "Catch the ball!",
+          "example_vi": "Hãy bắt lấy quả bóng!"
+        },
+        {
+          "word": "climb",
+          "ipa": "/klaɪm/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "leo trèo",
+          "example_en": "The monkey can climb.",
+          "example_vi": "Con khỉ có thể leo trèo."
+        },
+        {
+          "word": "drop",
+          "ipa": "/drɒp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "làm rơi",
+          "example_en": "Don't drop your glass.",
+          "example_vi": "Đừng làm rơi cái ly của bạn."
+        },
+        {
+          "word": "fish",
+          "ipa": "/fɪʃ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "câu cá",
+          "example_en": "We fish in the river.",
+          "example_vi": "Chúng tôi câu cá ở dòng sông."
+        },
+        {
+          "word": "fix",
+          "ipa": "/fɪks/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "sửa chữa",
+          "example_en": "My dad can fix it.",
+          "example_vi": "Bố tôi có thể sửa nó."
+        },
+        {
+          "word": "fly",
+          "ipa": "/flaɪ/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "bay, thả (diều)",
+          "example_en": "Birds can fly.",
+          "example_vi": "Những chú chim có thể bay."
+        },
+        {
+          "word": "hop",
+          "ipa": "/hɒp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nhảy lò cò",
+          "example_en": "The rabbit can hop.",
+          "example_vi": "Con thỏ có thể nhảy lò cò."
+        },
+        {
+          "word": "kick",
+          "ipa": "/kɪk/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đá",
+          "example_en": "Kick the ball to me.",
+          "example_vi": "Hãy đá quả bóng về phía tớ."
+        },
+        {
+          "word": "laugh",
+          "ipa": "/lɑːf/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cười to",
+          "example_en": "We laugh loudly.",
+          "example_vi": "Chúng tôi cười to."
+        },
+        {
+          "word": "net",
+          "ipa": "/net/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái lưới",
+          "example_en": "The fish is in the net.",
+          "example_vi": "Con cá nằm trong lưới."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 22,
+      "title": "Bài 10.b: Thể thao & vận động (2/2)",
+      "theme": "Sở thích & Thể thao",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "ride",
+          "ipa": "/raɪd/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "cưỡi, đạp (xe)",
+          "example_en": "I ride my bike.",
+          "example_vi": "Tôi đạp xe đạp của mình."
+        },
+        {
+          "word": "sail",
+          "ipa": "/seɪl/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "chèo thuyền, đi thuyền",
+          "example_en": "We sail on the lake.",
+          "example_vi": "Chúng tôi đi thuyền trên hồ."
+        },
+        {
+          "word": "score",
+          "ipa": "/skɔːr/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "ghi bàn, ghi điểm",
+          "example_en": "He scores a goal.",
+          "example_vi": "Cậu ấy ghi một bàn thắng."
+        },
+        {
+          "word": "skip",
+          "ipa": "/skɪp/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "nhảy dây, bỏ qua",
+          "example_en": "The girls skip with a rope.",
+          "example_vi": "Các bé gái nhảy dây."
+        },
+        {
+          "word": "swim",
+          "ipa": "/swɪm/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "bơi",
+          "example_en": "I can swim quickly.",
+          "example_vi": "Tôi có thể bơi nhanh."
+        },
+        {
+          "word": "swimming pool",
+          "ipa": "/ˈswɪmɪŋ puːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hồ bơi",
+          "example_en": "Let's go to the swimming pool.",
+          "example_vi": "Cùng đến hồ bơi nào."
+        },
+        {
+          "word": "swimsuit",
+          "ipa": "/ˈswɪmsuːt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đồ bơi",
+          "example_en": "This is my new swimsuit.",
+          "example_vi": "Đây là bộ đồ bơi mới của tôi."
+        },
+        {
+          "word": "wave",
+          "ipa": "/weɪv/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "vẫy tay, gợn sóng",
+          "example_en": "She waves at me.",
+          "example_vi": "Cô ấy vẫy tay với tôi."
+        },
+        {
+          "word": "helmet",
+          "ipa": "/ˈhelmɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mũ bảo hiểm",
+          "example_en": "You must wear a helmet.",
+          "example_vi": "Bạn phải đội mũ bảo hiểm."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

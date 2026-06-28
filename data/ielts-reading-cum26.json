@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 51,
+    "reading": [
+      {
+        "title": "Reading: Records and statistics",
+        "passage": "Fansipan is the highest mountain in Vietnam. Ho Chi Minh City has the largest population in the country. The traffic there is the busiest I have ever seen, but the people are some of the friendliest too.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Fansipan is the highest mountain in Vietnam.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu đầu nêu rõ điều này." },
+          { "type": "multiple_choice", "question": "Which city has the largest population?", "options": ["Hanoi", "Ho Chi Minh City", "Da Nang"], "correct": "Ho Chi Minh City", "explanation": "\"Ho Chi Minh City has the largest population in the country.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "reading": [
+      {
+        "title": "Reading: Similar but not the same",
+        "passage": "My hometown isn't as crowded as the capital, but it's growing fast. It's quite similar to other small towns nearby. It is common for students here to work part-time, but it isn't as common for first-year students.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The hometown is as crowded as the capital.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"My hometown isn't as crowded as the capital\"." },
+          { "type": "true_false_ng", "question": "It is common for first-year students to work part-time.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"it isn't as common for first-year students.\"" }
+        ]
+      }
+    ]
+  }
+]

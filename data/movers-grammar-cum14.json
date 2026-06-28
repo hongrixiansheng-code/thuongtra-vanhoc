@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 27,
+      "grammar": [
+        {
+          "title": "Ôn tập Quá khứ đơn với yesterday / last weekend",
+          "desc": "Cùng ôn lại Quá khứ đơn với các từ chỉ thời gian: yesterday (hôm qua), last weekend (cuối tuần trước).",
+          "formula": [
+            { "text": "He", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "bought", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "a toy yesterday.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I saw a monkey at the zoo last weekend.", "meaning": "Tớ đã nhìn thấy một con khỉ ở sở thú vào cuối tuần trước." },
+            { "correct": "Did she come to your house yesterday?", "meaning": "Cô ấy có đến nhà cậu vào hôm qua không?" },
+            { "correct": "We didn't play football last weekend.", "meaning": "Chúng tớ đã không chơi bóng đá vào cuối tuần trước." }
+          ]
+        },
+        {
+          "title": "Giới từ chỉ vị trí: opposite + Danh từ",
+          "desc": "Dùng 'opposite' (đối diện) trước một danh từ để chỉ ra rằng hai người hoặc hai vật đang nằm đối mặt với nhau, hoặc ở bờ bên kia của đường đi.",
+          "formula": [
+            { "text": "The shop is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "opposite", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "the school.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "My house is opposite the park.", "meaning": "Nhà của tớ thì đối diện với công viên." },
+            { "correct": "She sat opposite me.", "meaning": "Cô ấy đã ngồi đối diện tớ." },
+            { "correct": "The library is opposite the hospital.", "meaning": "Thư viện nằm ở phía đối diện bệnh viện." }
+          ]
+        },
+        {
+          "title": "Cụm giao tiếp: Excuse me / Come on!",
+          "desc": "Dùng 'Excuse me' để thu hút sự chú ý một cách lịch sự hoặc xin lỗi khi làm phiền. Dùng 'Come on!' để hối thúc ai đó đi nhanh lên.",
+          "formula": [
+            { "text": "Excuse me,", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "where is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "the park?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Excuse me, where is the bus stop?", "meaning": "Xin lỗi cho hỏi, điểm dừng xe buýt ở đâu vậy?" },
+            { "correct": "Come on! We are late.", "meaning": "Nhanh lên nào! Chúng ta bị muộn rồi." },
+            { "correct": "Excuse me, is this your pen?", "meaning": "Xin lỗi, đây có phải là cái bút của cậu không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Going to the park",
+          "lines": [
+            { "speaker": "A", "en": "Come on! We are going to the park.", "vi": "Nhanh lên nào! Chúng ta chuẩn bị đi đến công viên đấy." },
+            { "speaker": "B", "en": "Wait! Is it the park opposite the school?", "vi": "Đợi đã! Có phải cái công viên đối diện trường học không?" },
+            { "speaker": "A", "en": "Yes, we went there last weekend, remember?", "vi": "Đúng rồi, chúng ta đã đến đó vào cuối tuần trước, cậu nhớ không?" },
+            { "speaker": "B", "en": "Oh yes. I rode my bike there.", "vi": "Ồ nhớ rồi. Tớ đã đạp xe đạp của tớ ở đó." },
+            { "speaker": "A", "en": "Did you take a photo of the lake yesterday?", "vi": "Hôm qua cậu có chụp một bức ảnh của cái hồ không?" },
+            { "speaker": "B", "en": "No, I didn't. I forgot my camera.", "vi": "Không, tớ không chụp. Tớ đã để quên máy ảnh của mình." }
+          ]
+        },
+        {
+          "title": "Asking for directions",
+          "lines": [
+            { "speaker": "A", "en": "Excuse me, where is the new cinema?", "vi": "Xin lỗi, rạp chiếu phim mới nằm ở đâu vậy?" },
+            { "speaker": "B", "en": "It is opposite the big supermarket.", "vi": "Nó nằm đối diện với cái siêu thị lớn." },
+            { "speaker": "A", "en": "Oh, I went to the supermarket yesterday.", "vi": "Ồ, tôi đã đi đến siêu thị vào ngày hôm qua." },
+            { "speaker": "B", "en": "Yes, the cinema is very big.", "vi": "Vâng, rạp chiếu phim đó rất to." },
+            { "speaker": "A", "en": "Come on, Jack! We must go now.", "vi": "Nhanh lên nào, Jack! Bây giờ chúng ta phải đi thôi." },
+            { "speaker": "B", "en": "Have a good time at the cinema!", "vi": "Chúc bạn có một khoảng thời gian vui vẻ ở rạp phim!" }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 28,
+      "grammar": [
+        {
+          "title": "Vị trí: next to / near",
+          "desc": "Dùng 'near' khi ở khoảng cách gần. Dùng 'next to' (bên cạnh) khi hai vật nằm sát ngay sát cạnh nhau.",
+          "formula": [
+            { "text": "The dog is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "next to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "the boy.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The cat is sleeping next to the sofa.", "meaning": "Con mèo đang ngủ bên cạnh chiếc ghế xô-pha." },
+            { "correct": "My school is near the river.", "meaning": "Trường học của tớ thì ở gần dòng sông." },
+            { "correct": "He stood next to his brother.", "meaning": "Cậu ấy đã đứng bên cạnh anh trai mình." }
+          ]
+        },
+        {
+          "title": "Câu hỏi sở hữu: Whose + Danh từ...?",
+          "desc": "Dùng 'Whose' (Của ai) đứng đầu câu để hỏi xem một vật thuộc sở hữu của người nào.",
+          "formula": [
+            { "text": "Whose", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "book", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is this?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Whose bag is this?", "meaning": "Chiếc cặp này là của ai?" },
+            { "correct": "Whose shoes are those?", "meaning": "Những chiếc giày kia là của ai?" },
+            { "correct": "Do you know whose car it is?", "meaning": "Bạn có biết đó là xe ô tô của ai không?" }
+          ]
+        },
+        {
+          "title": "Ôn tập: There is / There are với Nơi chốn",
+          "desc": "Sử dụng 'There is / There are' để giới thiệu những địa điểm có trong thành phố hoặc khu phố của bạn.",
+          "formula": [
+            { "text": "There is", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "a shop", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "near here.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "There is a new sports centre in my town.", "meaning": "Có một trung tâm thể thao mới trong thị trấn của tớ." },
+            { "correct": "Are there any hospitals near here?", "meaning": "Có bệnh viện nào ở gần đây không?" },
+            { "correct": "There are three parks next to the river.", "meaning": "Có ba cái công viên ở bên cạnh con sông." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Whose ball is it?",
+          "lines": [
+            { "speaker": "A", "en": "Look! There is a ball next to the tree.", "vi": "Nhìn kìa! Có một quả bóng nằm bên cạnh cái cây." },
+            { "speaker": "B", "en": "Whose ball is it?", "vi": "Quả bóng đó là của ai vậy?" },
+            { "speaker": "A", "en": "I don't know. Maybe it is John's ball.", "vi": "Tớ không biết. Có thể nó là bóng của John." },
+            { "speaker": "B", "en": "Is John playing near here?", "vi": "John có đang chơi ở gần đây không?" },
+            { "speaker": "A", "en": "No, he is at home. There is no one in the park.", "vi": "Không, cậu ấy đang ở nhà. Không có ai ở trong công viên cả." },
+            { "speaker": "B", "en": "Let's put it on the bench.", "vi": "Hãy đặt nó lên chiếc ghế dài đi." }
+          ]
+        },
+        {
+          "title": "My town",
+          "lines": [
+            { "speaker": "A", "en": "Are there many shops in your town?", "vi": "Có nhiều cửa hàng ở trong thị trấn của cậu không?" },
+            { "speaker": "B", "en": "Yes, there is a big shop next to my house.", "vi": "Có, có một cửa hàng lớn nằm bên cạnh nhà của tớ." },
+            { "speaker": "A", "en": "That is nice. Whose shop is it?", "vi": "Thật tuyệt. Cửa hàng đó là của ai vậy?" },
+            { "speaker": "B", "en": "It is my uncle's shop. He sells toys.", "vi": "Nó là cửa hàng của chú tớ. Chú ấy bán đồ chơi." },
+            { "speaker": "A", "en": "Is there a library near the shop?", "vi": "Có một thư viện nào ở gần cửa hàng đó không?" },
+            { "speaker": "B", "en": "Yes, there are two libraries in my town.", "vi": "Có, có tới hai cái thư viện trong thị trấn của tớ." }
+          ]
+        }
+      ]
+    }
+  ]
+}

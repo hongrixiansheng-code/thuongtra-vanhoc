@@ -1,0 +1,18 @@
+[
+  {
+    "lessonOrder": 90,
+    "dialogue": [
+      {
+        "title": "Reviewing the mock test",
+        "lines": [
+          { "speaker": "Mai", "en": "How did you find the mock test overall?", "vi": "Bạn thấy bài thi thử nói chung như thế nào?" },
+          { "speaker": "Tom", "en": "The listening section was easier than I expected.", "vi": "Phần nghe dễ hơn tôi nghĩ." },
+          { "speaker": "Mai", "en": "I struggled with the reading. I read too slowly, so I didn't finish on time.", "vi": "Tôi gặp khó khăn với phần đọc. Tôi đọc quá chậm, nên tôi không hoàn thành đúng giờ." },
+          { "speaker": "Tom", "en": "I think we should practise time management more.", "vi": "Tôi nghĩ chúng ta nên luyện tập quản lý thời gian nhiều hơn." },
+          { "speaker": "Mai", "en": "A large number of mistakes happened because I rushed at the end.", "vi": "Một số lượng lớn lỗi xảy ra vì tôi vội vàng ở cuối." },
+          { "speaker": "Tom", "en": "Furthermore, we should review grammar that we are still weak at.", "vi": "Hơn nữa, chúng ta nên ôn lại ngữ pháp mà chúng ta vẫn còn yếu." }
+        ]
+      }
+    ]
+  }
+]

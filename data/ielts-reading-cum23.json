@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 45,
+    "reading": [
+      {
+        "title": "Reading: A busy afternoon",
+        "passage": "First, I finished my homework. After that, I called my friend. Then we came together at the park, and finally we had dinner together. We moved to this city ten years ago, and at that time, there weren't many tall buildings.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer called a friend before finishing homework.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"First, I finished my homework. After that, I called my friend.\"" },
+          { "type": "true_false_ng", "question": "There were many tall buildings when the family moved.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"There weren't many tall buildings.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "reading": [
+      {
+        "title": "Reading: Review — A memorable trip",
+        "passage": "Two years ago, I visited Hue with my classmates. First, we explored the old citadel. Then we took a lot of photos. We didn't have a map at first, so we got lost. Finally, a kind local helped us, and everything was fine.",
+        "questions": [
+          { "type": "true_false_ng", "question": "They had a map at first.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"We didn't have a map at first\"." },
+          { "type": "multiple_choice", "question": "Who helped them when they got lost?", "options": ["A tour guide", "A kind local", "A police officer"], "correct": "A kind local", "explanation": "\"a kind local helped us\"." }
+        ]
+      }
+    ]
+  }
+]

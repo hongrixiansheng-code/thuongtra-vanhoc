@@ -1,0 +1,175 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "dialogue": [
+        {
+          "title": "At the office",
+          "desc": "Nghe cuộc hội thoại giữa hai người đồng nghiệp (colleagues).",
+          "characters": [
+            "Anna",
+            "Tom"
+          ],
+          "lines": [
+            {
+              "speaker": "Anna",
+              "vi": "Chào Tom. Đó có phải là bạn gái của bạn trong bức ảnh không?",
+              "en": "Hi Tom. Is that your girlfriend in the photo?"
+            },
+            {
+              "speaker": "Tom",
+              "vi": "Không, đó là em họ của tôi. Cô ấy đang đến thăm từ Luân Đôn.",
+              "en": "No, that's my cousin. She's visiting from London."
+            },
+            {
+              "speaker": "Anna",
+              "vi": "Ồ, tôi hiểu rồi. Những người họ hàng khác của bạn cũng sẽ đến chứ?",
+              "en": "Oh, I see. Are your other relatives coming too?"
+            },
+            {
+              "speaker": "Tom",
+              "vi": "Đúng vậy, chúng tôi sẽ có một bữa tối gia đình lớn. Thậm chí hàng xóm của chúng tôi cũng sẽ tham gia.",
+              "en": "Yes, we are having a big family dinner. Even our neighbours are joining us."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "grammar": [
+        {
+          "title": "Adjectives of Personality & Emotion",
+          "desc": "Sử dụng tính từ để miêu tả tính cách và cảm xúc (Be + Adjective).",
+          "formula": [
+            {
+              "text": "S + am/is/are + Adjective",
+              "meaning": "Miêu tả tính cách/cảm xúc ở hiện tại"
+            },
+            {
+              "text": "S + was/were + Adjective",
+              "meaning": "Miêu tả tính cách/cảm xúc ở quá khứ"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am very nervous about the test.",
+              "meaning": "Tôi rất lo lắng về bài kiểm tra."
+            },
+            {
+              "correct": "He was angry because I was late.",
+              "meaning": "Anh ấy đã tức giận vì tôi đi muộn."
+            },
+            {
+              "correct": "She is polite and friendly.",
+              "meaning": "Cô ấy lịch sự và thân thiện."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "dialogue": [
+        {
+          "title": "Shopping for clothes",
+          "desc": "Nghe cuộc trò chuyện tại cửa hàng thời trang (fashion shop).",
+          "characters": [
+            "Shop Assistant",
+            "Customer"
+          ],
+          "lines": [
+            {
+              "speaker": "Shop Assistant",
+              "vi": "Xin chào, tôi có thể giúp gì cho quý khách?",
+              "en": "Hello, can I help you?"
+            },
+            {
+              "speaker": "Customer",
+              "vi": "Vâng, tôi đang tìm một chiếc áo khoác da.",
+              "en": "Yes, I am looking for a leather jacket."
+            },
+            {
+              "speaker": "Shop Assistant",
+              "vi": "Chúng tôi có chiếc áo tuyệt đẹp này màu nâu nhạt.",
+              "en": "We have this beautiful one in pale brown."
+            },
+            {
+              "speaker": "Customer",
+              "vi": "Bạn có cái nào màu sáng hơn không? Có thể là màu vàng đồng hoặc màu kem?",
+              "en": "Do you have anything in brighter colours? Maybe golden or cream?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "grammar": [
+        {
+          "title": "Prepositions of Place",
+          "desc": "Sử dụng giới từ chỉ nơi chốn để miêu tả vị trí đồ vật trong nhà.",
+          "formula": [
+            {
+              "text": "in / on / under / next to / behind",
+              "meaning": "Các giới từ cơ bản"
+            },
+            {
+              "text": "S + is/are + Preposition + Noun",
+              "meaning": "Mẫu câu miêu tả vị trí"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The pillows are on the armchair.",
+              "meaning": "Những chiếc gối nằm ở trên chiếc ghế bành."
+            },
+            {
+              "correct": "The sink is next to the cupboard.",
+              "meaning": "Bồn rửa bát ở cạnh chiếc tủ đựng đồ."
+            },
+            {
+              "correct": "The cat is sleeping under the carpet.",
+              "meaning": "Con mèo đang ngủ ở dưới tấm thảm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "dialogue": [
+        {
+          "title": "Looking for accommodation",
+          "desc": "Nghe cuộc điện thoại hỏi thuê căn hộ (apartment).",
+          "characters": [
+            "Caller",
+            "Agent"
+          ],
+          "lines": [
+            {
+              "speaker": "Caller",
+              "vi": "Xin chào, tôi gọi điện để hỏi về căn hộ ở tầng ba.",
+              "en": "Hello, I am calling about the flat on the third floor."
+            },
+            {
+              "speaker": "Agent",
+              "vi": "À vâng, đó là một căn hộ đáng yêu. Giá thuê là 800 đô la một tháng.",
+              "en": "Ah yes, it's a lovely apartment. The rent is $800 a month."
+            },
+            {
+              "speaker": "Caller",
+              "vi": "Nó có một tủ quần áo lớn và bồn tắm không?",
+              "en": "Does it have a big closet and a bathtub?"
+            },
+            {
+              "speaker": "Agent",
+              "vi": "Có chứ. Nó là chỗ ở tốt nhất trong tòa nhà này.",
+              "en": "Yes, it does. It's the best accommodation in this block."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 41,
+    "dialogue": [
+      {
+        "title": "A shopping story",
+        "lines": [
+          { "speaker": "Trang", "en": "What did you buy at the market?", "vi": "Bạn đã mua gì ở chợ?" },
+          { "speaker": "Emma", "en": "I bought some fruit and a new bag.", "vi": "Tôi đã mua vài loại trái cây và một cái túi mới." },
+          { "speaker": "Trang", "en": "Did you think about the price first?", "vi": "Bạn có nghĩ về giá trước không?" },
+          { "speaker": "Emma", "en": "Yes, I thought it was a little expensive, but I bought it anyway.", "vi": "Vâng, tôi đã nghĩ nó hơi đắt, nhưng tôi vẫn mua nó." },
+          { "speaker": "Trang", "en": "Did you tell your sister about the bag?", "vi": "Bạn có kể cho em gái về cái túi không?" },
+          { "speaker": "Emma", "en": "Yes, I told her, and she gave me some advice about the colour.", "vi": "Vâng, tôi đã kể cho cô ấy, và cô ấy đã cho tôi vài lời khuyên về màu sắc." }
+        ]
+      },
+      {
+        "title": "A surprise gift",
+        "lines": [
+          { "speaker": "Trang", "en": "Did you take any photos at the party?", "vi": "Bạn có chụp ảnh nào ở buổi tiệc không?" },
+          { "speaker": "Emma", "en": "Yes, I took a lot of photos, and I gave one to my friend.", "vi": "Vâng, tôi đã chụp rất nhiều ảnh, và tôi đã cho một bức cho bạn của tôi." },
+          { "speaker": "Trang", "en": "What did your friend give you?", "vi": "Bạn của bạn đã cho bạn cái gì?" },
+          { "speaker": "Emma", "en": "She gave me a book, and she told me a funny story about it.", "vi": "Cô ấy đã cho tôi một cuốn sách, và cô ấy đã kể cho tôi một câu chuyện vui về nó." },
+          { "speaker": "Trang", "en": "Did you think the gift was nice?", "vi": "Bạn có nghĩ món quà đẹp không?" },
+          { "speaker": "Emma", "en": "Yes, I thought it was perfect, and I bought her a small gift too.", "vi": "Vâng, tôi đã nghĩ nó hoàn hảo, và tôi cũng đã mua cho cô ấy một món quà nhỏ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "dialogue": [
+      {
+        "title": "An old building",
+        "lines": [
+          { "speaker": "Trang", "en": "When did they build this museum?", "vi": "Họ đã xây bảo tàng này khi nào?" },
+          { "speaker": "Emma", "en": "They built it about a hundred years ago.", "vi": "Họ đã xây nó khoảng một trăm năm trước." },
+          { "speaker": "Trang", "en": "Did you find anything interesting inside?", "vi": "Bạn có tìm thấy thứ gì thú vị bên trong không?" },
+          { "speaker": "Emma", "en": "Yes, I found some old photographs and letters.", "vi": "Vâng, tôi đã tìm thấy vài tấm ảnh và lá thư cũ." },
+          { "speaker": "Trang", "en": "When did the exhibition begin?", "vi": "Buổi triển lãm đã bắt đầu khi nào?" },
+          { "speaker": "Emma", "en": "It began last month, and a lot of visitors came to see it.", "vi": "Nó đã bắt đầu tháng trước, và rất nhiều khách đã đến xem." }
+        ]
+      },
+      {
+        "title": "A famous discovery",
+        "lines": [
+          { "speaker": "Trang", "en": "Who found this old village?", "vi": "Ai đã tìm ra ngôi làng cổ này?" },
+          { "speaker": "Emma", "en": "A group of scientists found it many years ago.", "vi": "Một nhóm các nhà khoa học đã tìm thấy nó nhiều năm trước." },
+          { "speaker": "Trang", "en": "Did they build new roads near it?", "vi": "Họ có xây đường mới gần đó không?" },
+          { "speaker": "Emma", "en": "Yes, the government built a road, and tourism began soon after.", "vi": "Vâng, chính phủ đã xây một con đường, và du lịch đã bắt đầu phát triển ngay sau đó." },
+          { "speaker": "Trang", "en": "Did you take a tour there?", "vi": "Bạn có đi tham quan ở đó không?" },
+          { "speaker": "Emma", "en": "Yes, I took a tour, and I thought it was an amazing experience.", "vi": "Vâng, tôi đã tham gia một chuyến tham quan, và tôi đã nghĩ đó là một trải nghiệm tuyệt vời." }
+        ]
+      }
+    ]
+  }
+]

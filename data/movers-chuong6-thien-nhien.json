@@ -1,0 +1,313 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 16,
+      "title": "Bài 8.a: Thiên nhiên (1/3)",
+      "theme": "Thiên nhiên",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "cloud",
+          "ipa": "/klaʊd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đám mây",
+          "example_en": "I see a white cloud.",
+          "example_vi": "Tôi thấy một đám mây trắng."
+        },
+        {
+          "word": "cloudy",
+          "ipa": "/ˈklaʊdi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có mây",
+          "example_en": "It is cloudy today.",
+          "example_vi": "Hôm nay trời có mây."
+        },
+        {
+          "word": "country",
+          "ipa": "/ˈkʌntri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đất nước, vùng quê",
+          "example_en": "I love my country.",
+          "example_vi": "Tôi yêu đất nước của mình."
+        },
+        {
+          "word": "countryside",
+          "ipa": "/ˈkʌntrisaɪd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vùng nông thôn",
+          "example_en": "We live in the countryside.",
+          "example_vi": "Chúng tôi sống ở vùng nông thôn."
+        },
+        {
+          "word": "farm",
+          "ipa": "/fɑːrm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nông trại",
+          "example_en": "There are cows on the farm.",
+          "example_vi": "Có những con bò trên nông trại."
+        },
+        {
+          "word": "farmer",
+          "ipa": "/ˈfɑːrmər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nông dân",
+          "example_en": "The farmer is busy.",
+          "example_vi": "Người nông dân đang bận rộn."
+        },
+        {
+          "word": "field",
+          "ipa": "/fiːld/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cánh đồng",
+          "example_en": "They run in the field.",
+          "example_vi": "Họ chạy trên cánh đồng."
+        },
+        {
+          "word": "forest",
+          "ipa": "/ˈfɔːrɪst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khu rừng",
+          "example_en": "Bears live in the forest.",
+          "example_vi": "Những con gấu sống trong khu rừng."
+        },
+        {
+          "word": "grass",
+          "ipa": "/ɡræs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cỏ",
+          "example_en": "The grass is green.",
+          "example_vi": "Cỏ có màu xanh."
+        },
+        {
+          "word": "ground",
+          "ipa": "/ɡraʊnd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mặt đất",
+          "example_en": "The bag is on the ground.",
+          "example_vi": "Cái túi nằm trên mặt đất."
+        },
+        {
+          "word": "ice",
+          "ipa": "/aɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đá, băng",
+          "example_en": "Ice is very cold.",
+          "example_vi": "Băng đá rất lạnh."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 17,
+      "title": "Bài 8.b: Thiên nhiên (2/3)",
+      "theme": "Thiên nhiên",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "island",
+          "ipa": "/ˈaɪlənd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hòn đảo",
+          "example_en": "We travel to an island.",
+          "example_vi": "Chúng tôi đi du lịch đến một hòn đảo."
+        },
+        {
+          "word": "jungle",
+          "ipa": "/ˈdʒʌŋɡl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "rừng nhiệt đới",
+          "example_en": "Monkeys live in the jungle.",
+          "example_vi": "Những chú khỉ sống trong rừng nhiệt đới."
+        },
+        {
+          "word": "lake",
+          "ipa": "/leɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hồ nước",
+          "example_en": "I swim in the lake.",
+          "example_vi": "Tôi bơi trong hồ nước."
+        },
+        {
+          "word": "leaf / leaves",
+          "ipa": "/liːf/ /liːvz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chiếc lá / những chiếc lá",
+          "example_en": "A leaf falls from the tree.",
+          "example_vi": "Một chiếc lá rụng từ trên cây xuống."
+        },
+        {
+          "word": "moon",
+          "ipa": "/muːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mặt trăng",
+          "example_en": "The moon is beautiful.",
+          "example_vi": "Mặt trăng thật đẹp."
+        },
+        {
+          "word": "mountain",
+          "ipa": "/ˈmaʊntn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngọn núi",
+          "example_en": "They climb the mountain.",
+          "example_vi": "Họ leo lên ngọn núi."
+        },
+        {
+          "word": "plant",
+          "ipa": "/plænt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thực vật, cây cỏ",
+          "example_en": "This is a small plant.",
+          "example_vi": "Đây là một cái cây nhỏ."
+        },
+        {
+          "word": "rain",
+          "ipa": "/reɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cơn mưa",
+          "example_en": "I like the rain.",
+          "example_vi": "Tôi thích cơn mưa."
+        },
+        {
+          "word": "rainbow",
+          "ipa": "/ˈreɪnboʊ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cầu vồng",
+          "example_en": "Look at the rainbow!",
+          "example_vi": "Hãy nhìn cầu vồng kìa!"
+        },
+        {
+          "word": "river",
+          "ipa": "/ˈrɪvər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dòng sông",
+          "example_en": "The river is long.",
+          "example_vi": "Dòng sông thì dài."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 18,
+      "title": "Bài 8.c: Thiên nhiên (3/3)",
+      "theme": "Thiên nhiên",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "rock",
+          "ipa": "/rɒk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tảng đá",
+          "example_en": "He sits on a rock.",
+          "example_vi": "Cậu ấy ngồi trên một tảng đá."
+        },
+        {
+          "word": "sky",
+          "ipa": "/skaɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bầu trời",
+          "example_en": "The sky is blue.",
+          "example_vi": "Bầu trời màu xanh."
+        },
+        {
+          "word": "snow",
+          "ipa": "/snoʊ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tuyết",
+          "example_en": "I play in the snow.",
+          "example_vi": "Tôi chơi trong tuyết."
+        },
+        {
+          "word": "star",
+          "ipa": "/stɑːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngôi sao",
+          "example_en": "I see a star.",
+          "example_vi": "Tôi thấy một ngôi sao."
+        },
+        {
+          "word": "sunny",
+          "ipa": "/ˈsʌni/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có nắng",
+          "example_en": "It is sunny today.",
+          "example_vi": "Hôm nay trời có nắng."
+        },
+        {
+          "word": "waterfall",
+          "ipa": "/ˈwɔːtərfɔːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thác nước",
+          "example_en": "The waterfall is huge.",
+          "example_vi": "Thác nước đó khổng lồ."
+        },
+        {
+          "word": "weather",
+          "ipa": "/ˈweðər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thời tiết",
+          "example_en": "The weather is fine.",
+          "example_vi": "Thời tiết hôm nay tốt."
+        },
+        {
+          "word": "wind",
+          "ipa": "/wɪnd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cơn gió",
+          "example_en": "The wind is cold.",
+          "example_vi": "Cơn gió thì lạnh."
+        },
+        {
+          "word": "windy",
+          "ipa": "/ˈwɪndi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có gió mạnh",
+          "example_en": "It is windy.",
+          "example_vi": "Trời đang có gió mạnh."
+        },
+        {
+          "word": "world",
+          "ipa": "/wɜːrld/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thế giới",
+          "example_en": "Our world is big.",
+          "example_vi": "Thế giới của chúng ta rất lớn."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

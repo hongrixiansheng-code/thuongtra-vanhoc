@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 37,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your childhood",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what you were like as a child, using was/were.",
+        "minWords": 30,
+        "sampleAnswer": "When I was a child, I was very shy and I wasn't interested in sports. My best friend and I were in the same class for years.",
+        "checklist": ["Dùng was/were đúng theo chủ ngữ", "Có ít nhất 1 câu phủ định (wasn't/weren't)", "Mô tả rõ tính cách hoặc trải nghiệm thời nhỏ"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a past trip",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a trip you took, using Past Simple regular verbs (-ed).",
+        "minWords": 30,
+        "sampleAnswer": "Last summer, I visited Hoi An with my family. We booked a small hotel and stayed for four days. We explored the old streets every evening.",
+        "checklist": ["Dùng ít nhất 4 động từ có quy tắc (-ed)", "Có mốc thời gian rõ ràng (last summer...)", "Câu văn theo trình tự hợp lý"]
+      }
+    ]
+  }
+]

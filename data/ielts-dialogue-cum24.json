@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 47,
+    "dialogue": [
+      {
+        "title": "Talking about the future",
+        "lines": [
+          { "speaker": "Thao", "en": "Do you think prices will rise next year?", "vi": "Bạn nghĩ giá cả sẽ tăng năm sau không?" },
+          { "speaker": "Mark", "en": "Yes, I think they will probably rise a little.", "vi": "Vâng, tôi nghĩ chúng có lẽ sẽ tăng một chút." },
+          { "speaker": "Thao", "en": "Will the weather be good for the trip?", "vi": "Thời tiết sẽ tốt cho chuyến đi chứ?" },
+          { "speaker": "Mark", "en": "I'm not sure, but I think it will be fine.", "vi": "Tôi không chắc, nhưng tôi nghĩ sẽ ổn." },
+          { "speaker": "Thao", "en": "It's getting dark. I will turn on the light.", "vi": "Trời đang tối dần. Tôi sẽ mở đèn." },
+          { "speaker": "Mark", "en": "Good idea, I won't be able to see anything soon.", "vi": "Ý hay, chẳng mấy nữa tôi sẽ không nhìn thấy gì." }
+        ]
+      },
+      {
+        "title": "A quick decision",
+        "lines": [
+          { "speaker": "Thao", "en": "This bag is too heavy for me.", "vi": "Cái túi này nặng quá với tôi." },
+          { "speaker": "Mark", "en": "Don't worry, I will carry it for you.", "vi": "Đừng lo, tôi sẽ mang nó giúp bạn." },
+          { "speaker": "Thao", "en": "Thank you. Will you come to the meeting tomorrow?", "vi": "Cảm ơn bạn. Bạn có đến cuộc họp ngày mai không?" },
+          { "speaker": "Mark", "en": "I think I will, but I'm not completely certain.", "vi": "Tôi nghĩ tôi sẽ đến, nhưng tôi không chắc chắn hoàn toàn." },
+          { "speaker": "Thao", "en": "Will it be a long meeting?", "vi": "Cuộc họp có dài không?" },
+          { "speaker": "Mark", "en": "It probably won't be too long, maybe just one hour.", "vi": "Có lẽ sẽ không quá dài, có thể chỉ một giờ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "dialogue": [
+      {
+        "title": "Planning a trip",
+        "lines": [
+          { "speaker": "Thao", "en": "What are your plans for the weekend?", "vi": "Kế hoạch cuối tuần của bạn là gì?" },
+          { "speaker": "Mark", "en": "I am going to visit my hometown. I already arranged everything.", "vi": "Tôi sẽ về thăm quê. Tôi đã sắp xếp mọi thứ rồi." },
+          { "speaker": "Thao", "en": "Are you going to travel by train?", "vi": "Bạn sẽ đi tàu chứ?" },
+          { "speaker": "Mark", "en": "Yes, I am. I booked the ticket last week.", "vi": "Vâng. Tôi đã đặt vé tuần trước." },
+          { "speaker": "Thao", "en": "Look at those dark clouds. It is going to rain soon.", "vi": "Nhìn những đám mây đen kia. Trời sắp mưa rồi." },
+          { "speaker": "Mark", "en": "You're right. I should prepare an umbrella before I leave.", "vi": "Bạn nói đúng. Tôi nên chuẩn bị một cái dù trước khi đi." }
+        ]
+      },
+      {
+        "title": "Career goals",
+        "lines": [
+          { "speaker": "Thao", "en": "What is your goal for this year?", "vi": "Mục tiêu của bạn cho năm nay là gì?" },
+          { "speaker": "Mark", "en": "I am going to improve my English. I already made a study schedule.", "vi": "Tôi sẽ cải thiện tiếng Anh của tôi. Tôi đã lập một thời gian biểu học rồi." },
+          { "speaker": "Thao", "en": "Are you going to take an exam?", "vi": "Bạn sẽ thi kỳ thi nào chứ?" },
+          { "speaker": "Mark", "en": "Yes, I am. I intend to take the IELTS exam in December.", "vi": "Vâng. Tôi định thi IELTS vào tháng Mười Hai." },
+          { "speaker": "Thao", "en": "That sounds like a clear plan.", "vi": "Nghe có vẻ là một kế hoạch rõ ràng." },
+          { "speaker": "Mark", "en": "Yes, I am not going to waste any more time.", "vi": "Vâng, tôi sẽ không lãng phí thêm thời gian nữa." }
+        ]
+      }
+    ]
+  }
+]

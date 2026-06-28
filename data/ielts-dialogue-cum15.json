@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 29,
+    "dialogue": [
+      {
+        "title": "At the fruit stall",
+        "lines": [
+          { "speaker": "Phuong", "en": "I have an apple and some bananas.", "vi": "Tôi có một quả táo và vài quả chuối." },
+          { "speaker": "Anna", "en": "How many tomatoes do you have?", "vi": "Bạn có bao nhiêu quả cà chua?" },
+          { "speaker": "Phuong", "en": "I have some tomatoes, maybe five or six.", "vi": "Tôi có vài quả cà chua, có thể năm hoặc sáu quả." },
+          { "speaker": "Anna", "en": "How many eggs do we need for the cake?", "vi": "Chúng ta cần bao nhiêu quả trứng cho cái bánh?" },
+          { "speaker": "Phuong", "en": "We need three eggs.", "vi": "Chúng ta cần ba quả trứng." },
+          { "speaker": "Anna", "en": "Great, let's buy some onions too.", "vi": "Tuyệt, chúng ta cũng mua vài củ hành nữa." }
+        ]
+      },
+      {
+        "title": "Counting groceries",
+        "lines": [
+          { "speaker": "Phuong", "en": "There are some potatoes in this bag.", "vi": "Có vài củ khoai tây trong túi này." },
+          { "speaker": "Anna", "en": "How many carrots are there?", "vi": "Có bao nhiêu củ cà rốt?" },
+          { "speaker": "Phuong", "en": "There are four carrots.", "vi": "Có bốn củ cà rốt." },
+          { "speaker": "Anna", "en": "I have a sandwich and some biscuits.", "vi": "Tôi có một cái bánh kẹp và vài cái bánh quy." },
+          { "speaker": "Phuong", "en": "How many burgers did you buy?", "vi": "Bạn đã mua bao nhiêu cái burger?" },
+          { "speaker": "Anna", "en": "I bought two burgers.", "vi": "Tôi đã mua hai cái burger." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "dialogue": [
+      {
+        "title": "In the kitchen",
+        "lines": [
+          { "speaker": "Phuong", "en": "I have some rice for dinner.", "vi": "Tôi có một ít gạo cho bữa tối." },
+          { "speaker": "Anna", "en": "How much rice do you have?", "vi": "Bạn có bao nhiêu gạo?" },
+          { "speaker": "Phuong", "en": "I have a lot, maybe two kilos.", "vi": "Tôi có nhiều, có thể hai cân." },
+          { "speaker": "Anna", "en": "There isn't much water in the bottle.", "vi": "Không có nhiều nước trong chai." },
+          { "speaker": "Phuong", "en": "How much sugar do you need for the cake?", "vi": "Bạn cần bao nhiêu đường cho cái bánh?" },
+          { "speaker": "Anna", "en": "I need a little sugar, just two spoons.", "vi": "Tôi cần một ít đường, chỉ hai muỗng." }
+        ]
+      },
+      {
+        "title": "Talking about milk and flour",
+        "lines": [
+          { "speaker": "Phuong", "en": "There is some milk in the fridge.", "vi": "Có một ít sữa trong tủ lạnh." },
+          { "speaker": "Anna", "en": "How much milk is left?", "vi": "Còn bao nhiêu sữa?" },
+          { "speaker": "Phuong", "en": "Not much. There isn't much milk left.", "vi": "Không nhiều. Không còn nhiều sữa." },
+          { "speaker": "Anna", "en": "I have some flour for bread.", "vi": "Tôi có một ít bột cho bánh mì." },
+          { "speaker": "Phuong", "en": "How much flour do you have?", "vi": "Bạn có bao nhiêu bột?" },
+          { "speaker": "Anna", "en": "I have enough flour for two loaves.", "vi": "Tôi có đủ bột cho hai cái bánh." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 49,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Discussing the future",
+        "part": 3,
+        "questions": ["What are your plans after you finish this course?", "Are you certain about your future career?", "Do you think your plans will change?"],
+        "sampleAnswer": "I am going to continue studying English after this course. I'm not completely certain about my career yet, but I think it will become clearer over time."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Comparing places",
+        "part": 1,
+        "questions": ["Is your home bigger or smaller than your friend's home?", "Is your city noisier than the countryside?", "Which is more modern, your house or your grandparents' house?"],
+        "sampleAnswer": "My home is a little smaller than my friend's home. Yes, my city is noisier than the countryside. My house is more modern than my grandparents' house."
+      }
+    ]
+  }
+]

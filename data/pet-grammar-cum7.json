@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 12,
+      "grammar": [
+        {
+          "title": "Present Perfect Continuous",
+          "desc": "Hiện tại hoàn thành tiếp diễn nhấn mạnh quá trình liên tục của hành động từ quá khứ đến hiện tại.",
+          "formula": [
+            {
+              "text": "S + have/has + been + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I've been travelling for six months.",
+              "meaning": "Tôi đã đi du lịch liên tục suốt sáu tháng nay."
+            },
+            {
+              "correct": "It has been raining all morning.",
+              "meaning": "Trời đã mưa rả rích suốt cả buổi sáng."
+            },
+            {
+              "correct": "She has been studying for three hours.",
+              "meaning": "Cô ấy đã học bài liên tục suốt 3 tiếng."
+            },
+            {
+              "correct": "We have been waiting since 2 PM.",
+              "meaning": "Chúng tôi đã đợi từ lúc 2 giờ chiều."
+            }
+          ]
+        },
+        {
+          "title": "just / already / yet / still",
+          "desc": "Các trạng từ thời gian thường gặp trong thì Hiện tại hoàn thành.",
+          "formula": [
+            {
+              "text": "have + just/already + V3",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "... yet (cuối câu phủ định/nghi vấn)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Have you packed yet?",
+              "meaning": "Bạn đã đóng gói hành lý chưa?"
+            },
+            {
+              "correct": "I have just finished my homework.",
+              "meaning": "Tôi vừa mới làm xong bài tập về nhà."
+            },
+            {
+              "correct": "She has already eaten dinner.",
+              "meaning": "Cô ấy đã ăn tối rồi."
+            },
+            {
+              "correct": "I still haven't found my keys.",
+              "meaning": "Tôi vẫn chưa tìm thấy chìa khóa."
+            }
+          ]
+        },
+        {
+          "title": "get to / arrive at / reach",
+          "desc": "Phân biệt các từ diễn tả việc 'đến nơi'. Reach đi trực tiếp với tân ngữ, không cần giới từ.",
+          "formula": [
+            {
+              "text": "arrive at/in / get to / reach + Noun",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We reached the destination.",
+              "meaning": "Chúng tôi đã đến đích (không có giới từ)."
+            },
+            {
+              "correct": "We arrived at the hotel.",
+              "meaning": "Chúng tôi đã đến khách sạn."
+            },
+            {
+              "correct": "What time did you get to the station?",
+              "meaning": "Bạn đã đến nhà ga lúc mấy giờ?"
+            },
+            {
+              "correct": "They finally reached the top of the mountain.",
+              "meaning": "Cuối cùng họ cũng lên đến đỉnh núi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "grammar": [
+        {
+          "title": "be going to vs will",
+          "desc": "Be going to dùng cho dự định, kế hoạch đã lên trước. Will dùng cho quyết định bộc phát hoặc lời hứa.",
+          "formula": [
+            {
+              "text": "S + be going to + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "S + will + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am going to travel to Paris.",
+              "meaning": "Tôi dự định sẽ đi Paris."
+            },
+            {
+              "correct": "I will help you with your bags.",
+              "meaning": "Tôi sẽ giúp bạn xách túi (quyết định ngay lúc nói)."
+            },
+            {
+              "correct": "Look at those clouds! It is going to rain.",
+              "meaning": "Nhìn những đám mây kìa! Trời sắp mưa rồi (có bằng chứng)."
+            },
+            {
+              "correct": "I promise I won't tell anyone.",
+              "meaning": "Tôi hứa tôi sẽ không kể cho ai nghe (lời hứa)."
+            }
+          ]
+        },
+        {
+          "title": "in case",
+          "desc": "Phòng khi (làm gì đó để chuẩn bị sẵn cho một khả năng trong tương lai).",
+          "formula": [
+            {
+              "text": "Mệnh đề + in case + Mệnh đề",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Take a map in case you get lost.",
+              "meaning": "Hãy mang theo bản đồ phòng khi bạn bị lạc."
+            },
+            {
+              "correct": "I'll take an umbrella in case it rains.",
+              "meaning": "Tôi sẽ mang ô phòng khi trời mưa."
+            },
+            {
+              "correct": "Call me in case you need help.",
+              "meaning": "Hãy gọi cho tôi phòng khi bạn cần giúp đỡ."
+            },
+            {
+              "correct": "Keep the receipt in case you want to return it.",
+              "meaning": "Hãy giữ biên lai phòng khi bạn muốn trả lại hàng."
+            }
+          ]
+        },
+        {
+          "title": "make a reservation / book in advance",
+          "desc": "Các cụm động từ dùng phổ biến trong chủ đề du lịch để nói về việc đặt phòng, đặt vé.",
+          "formula": [
+            {
+              "text": "make a reservation",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "book (sth) in advance",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I made a reservation for two.",
+              "meaning": "Tôi đã đặt trước bàn cho hai người."
+            },
+            {
+              "correct": "We need to book the tickets in advance.",
+              "meaning": "Chúng ta cần đặt vé trước."
+            },
+            {
+              "correct": "I'd like to make a reservation, please.",
+              "meaning": "Tôi muốn đặt chỗ trước."
+            },
+            {
+              "correct": "It's cheaper to book in advance.",
+              "meaning": "Đặt trước thì sẽ rẻ hơn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

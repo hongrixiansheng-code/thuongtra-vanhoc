@@ -1,0 +1,91 @@
+[
+  {
+    "lessonOrder": 17,
+    "vocab": [
+      {
+        "word": "hundred",
+        "ipa": "/ˈhʌn.drəd/",
+        "type": "number",
+        "type_short": "num.",
+        "meaning": "trăm",
+        "example_en": "One hundred people.",
+        "example_vi": "Một trăm người.",
+        "level": "A1"
+      },
+      {
+        "word": "first",
+        "ipa": "/fɜːst/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "đầu tiên, thứ nhất",
+        "example_en": "The first day.",
+        "example_vi": "Ngày đầu tiên.",
+        "level": "A1"
+      },
+      {
+        "word": "tenth",
+        "ipa": "/tenθ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "thứ mười",
+        "example_en": "The tenth floor.",
+        "example_vi": "Tầng thứ mười.",
+        "level": "A1"
+      },
+      {
+        "word": "date",
+        "ipa": "/deɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ngày tháng",
+        "example_en": "What is the date?",
+        "example_vi": "Hôm nay là ngày bao nhiêu?",
+        "level": "A1"
+      },
+      {
+        "word": "month",
+        "ipa": "/mʌnθ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tháng",
+        "example_en": "Next month.",
+        "example_vi": "Tháng tới.",
+        "level": "A1"
+      },
+      {
+        "word": "year",
+        "ipa": "/jɪər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "năm",
+        "example_en": "Last year.",
+        "example_vi": "Năm ngoái.",
+        "level": "A1"
+      },
+      {
+        "word": "century",
+        "ipa": "/ˈsen.tʃər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thế kỷ",
+        "example_en": "The 21st century.",
+        "example_vi": "Thế kỷ 21.",
+        "level": "A1"
+      },
+      {
+        "word": "season",
+        "ipa": "/ˈsiː.zən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mùa",
+        "example_en": "My favorite season.",
+        "example_vi": "Mùa yêu thích của tôi.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "vocab": []
+  }
+]

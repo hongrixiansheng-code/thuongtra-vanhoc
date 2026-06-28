@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 38,
+      "dialogues": [
+        {
+          "title": "Speaking test practice",
+          "lines": [
+            {
+              "speaker": "Examiner",
+              "en": "Good morning. In this part of the test, I am going to give each of you a photograph. I would like you to describe what you can see in the picture.",
+              "vi": "Chào buổi sáng. Trong phần này của bài kiểm tra, tôi sẽ đưa cho mỗi bạn một bức ảnh. Tôi muốn bạn mô tả những gì bạn có thể nhìn thấy trong bức tranh."
+            },
+            {
+              "speaker": "Candidate",
+              "en": "In this photograph, I can see a family who are enjoying a picnic in a beautiful park. The weather seems to be very sunny and pleasant.",
+              "vi": "Trong bức ảnh này, tôi có thể nhìn thấy một gia đình những người đang tận hưởng một chuyến dã ngoại trong một công viên tuyệt đẹp. Thời tiết có vẻ rất nắng và dễ chịu."
+            },
+            {
+              "speaker": "Examiner",
+              "en": "That is a good start. Could you tell me more about the people and what they are doing? Try to use a variety of descriptive adjectives.",
+              "vi": "Đó là một khởi đầu tốt. Bạn có thể cho tôi biết thêm về những người đó và họ đang làm gì không? Hãy cố gắng sử dụng đa dạng các tính từ miêu tả."
+            },
+            {
+              "speaker": "Candidate",
+              "en": "The father, who is wearing a blue shirt, is pouring some juice into the glasses. The mother is smiling brightly while she is cutting a large sandwich.",
+              "vi": "Người cha, người đang mặc một chiếc áo sơ mi xanh, đang rót một ít nước trái cây vào những chiếc ly. Người mẹ đang mỉm cười rạng rỡ trong khi cô ấy đang cắt một chiếc bánh sandwich lớn."
+            },
+            {
+              "speaker": "Examiner",
+              "en": "Excellent. Now, why do you think they decided to have a picnic today instead of eating at a restaurant?",
+              "vi": "Xuất sắc. Bây giờ, tại sao bạn nghĩ rằng họ đã quyết định đi dã ngoại hôm nay thay vì ăn tại một nhà hàng?"
+            },
+            {
+              "speaker": "Candidate",
+              "en": "I think they chose to have a picnic because spending time in nature is very relaxing. Furthermore, it is a great way for children to play outside freely.",
+              "vi": "Tôi nghĩ họ đã chọn đi dã ngoại bởi vì việc dành thời gian trong thiên nhiên là rất thư giãn. Hơn nữa, nó là một cách tuyệt vời để trẻ em được tự do chơi đùa bên ngoài."
+            },
+            {
+              "speaker": "Examiner",
+              "en": "You have explained your ideas clearly and used appropriate vocabulary. Always remember to organize your thoughts before you start speaking.",
+              "vi": "Bạn đã giải thích các ý tưởng của mình một cách rõ ràng và sử dụng từ vựng phù hợp. Hãy luôn nhớ sắp xếp các suy nghĩ của bạn trước khi bạn bắt đầu nói."
+            },
+            {
+              "speaker": "Candidate",
+              "en": "Thank you for the feedback, which is very encouraging. I will continue to practice describing pictures at home to build my confidence.",
+              "vi": "Cảm ơn vì những phản hồi, điều mà rất đáng khích lệ. Tôi sẽ tiếp tục luyện tập mô tả tranh ở nhà để xây dựng sự tự tin của mình."
+            }
+          ]
+        },
+        {
+          "title": "Discussing an interactive task",
+          "lines": [
+            {
+              "speaker": "Student A",
+              "en": "For this collaborative task, we need to decide which gift is the most suitable for our teacher who is retiring next week. What do you think about buying a watch?",
+              "vi": "Đối với nhiệm vụ hợp tác này, chúng ta cần quyết định món quà nào là phù hợp nhất cho giáo viên của chúng ta người sẽ nghỉ hưu vào tuần tới. Bạn nghĩ sao về việc mua một chiếc đồng hồ?"
+            },
+            {
+              "speaker": "Student B",
+              "en": "A watch is a classic gift, but it might be too expensive for our budget. I suggest buying a photo album which contains pictures of all her students.",
+              "vi": "Một chiếc đồng hồ là một món quà kinh điển, nhưng nó có thể quá đắt so với ngân sách của chúng ta. Tôi đề nghị mua một cuốn album ảnh cuốn mà chứa những bức tranh của tất cả các học sinh của cô ấy."
+            },
+            {
+              "speaker": "Student A",
+              "en": "That is a very thoughtful idea, which she will definitely appreciate. It has a lot of sentimental value compared to a generic piece of jewelry.",
+              "vi": "Đó là một ý tưởng rất chu đáo, thứ mà cô ấy chắc chắn sẽ trân trọng. Nó có rất nhiều giá trị tình cảm so với một món đồ trang sức chung chung."
+            },
+            {
+              "speaker": "Student B",
+              "en": "We could also write a personalized message under each photograph. However, compiling all those photos might take a considerable amount of time.",
+              "vi": "Chúng ta cũng có thể viết một thông điệp mang dấu ấn cá nhân dưới mỗi bức ảnh. Tuy nhiên, việc biên soạn tất cả những bức ảnh đó có thể tốn một khoảng thời gian đáng kể."
+            },
+            {
+              "speaker": "Student A",
+              "en": "If we divide the work among the classmates, it won't take long at all. Another option is a gift voucher for a nice restaurant.",
+              "vi": "Nếu chúng ta chia công việc giữa các bạn cùng lớp, nó sẽ không mất nhiều thời gian đâu. Một lựa chọn khác là một phiếu quà tặng cho một nhà hàng sang trọng."
+            },
+            {
+              "speaker": "Student B",
+              "en": "A restaurant voucher is practical, but the photo album is much more personal and memorable. She can look at it whenever she misses teaching.",
+              "vi": "Một phiếu nhà hàng thì thiết thực, nhưng album ảnh cá nhân và đáng nhớ hơn nhiều. Cô ấy có thể nhìn vào nó bất cứ khi nào cô ấy nhớ việc giảng dạy."
+            },
+            {
+              "speaker": "Student A",
+              "en": "I completely agree with your reasoning, so let's choose the photo album. We must start collecting the pictures immediately if we want to finish on time.",
+              "vi": "Tôi hoàn toàn đồng ý với lý lẽ của bạn, vì vậy hãy chọn album ảnh. Chúng ta phải bắt đầu thu thập các bức ảnh ngay lập tức nếu chúng ta muốn hoàn thành đúng hạn."
+            },
+            {
+              "speaker": "Student B",
+              "en": "We have reached a sensible conclusion by discussing the pros and cons of each option. This is exactly what the examiner expects us to do.",
+              "vi": "Chúng ta đã đạt được một kết luận hợp lý bằng cách thảo luận về ưu và nhược điểm của từng lựa chọn. Đây chính xác là những gì giám khảo mong đợi chúng ta làm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 39,
+      "dialogues": [
+        {
+          "title": "Final preparations before exam",
+          "lines": [
+            {
+              "speaker": "Ben",
+              "en": "The final PET exam is tomorrow, and I feel completely overwhelmed. I have been studying grammar rules for hours, but my brain can't absorb any more information.",
+              "vi": "Kỳ thi PET cuối cùng là vào ngày mai, và tôi cảm thấy hoàn toàn bị choáng ngợp. Tôi đã học các quy tắc ngữ pháp trong nhiều giờ, nhưng não của tôi không thể hấp thụ thêm bất kỳ thông tin nào nữa."
+            },
+            {
+              "speaker": "Lily",
+              "en": "You need to stop studying right now and let your mind rest. Cramming the night before the exam will only make you more anxious and confused.",
+              "vi": "Bạn cần ngừng học ngay bây giờ và để tâm trí được nghỉ ngơi. Việc nhồi nhét vào đêm trước kỳ thi sẽ chỉ làm bạn thêm lo âu và bối rối."
+            },
+            {
+              "speaker": "Ben",
+              "en": "I know you are right, but I am terrified of failing the speaking test. I always freeze when I have to speak English in front of an examiner.",
+              "vi": "Tôi biết bạn đúng, nhưng tôi vô cùng sợ hãi việc rớt bài kiểm tra nói. Tôi luôn bị đơ khi tôi phải nói tiếng Anh trước mặt một giám khảo."
+            },
+            {
+              "speaker": "Lily",
+              "en": "Take a deep breath and remember that the examiner is there to help you, not to judge you harshly. Just speak slowly and clearly, which will show your confidence.",
+              "vi": "Hãy hít một hơi thật sâu và nhớ rằng giám khảo ở đó để giúp bạn, chứ không phải để phán xét bạn một cách gay gắt. Chỉ cần nói chậm rãi và rõ ràng, điều này sẽ thể hiện sự tự tin của bạn."
+            },
+            {
+              "speaker": "Ben",
+              "en": "I will try to relax and go to bed early tonight. I have already packed my bag with two pens, my ID card, and a bottle of water.",
+              "vi": "Tôi sẽ cố gắng thư giãn và đi ngủ sớm vào tối nay. Tôi đã đóng gói túi của mình với hai cây bút, thẻ ID của tôi và một chai nước."
+            },
+            {
+              "speaker": "Lily",
+              "en": "That is excellent preparation! Don't forget to eat a healthy breakfast tomorrow morning, because your brain needs energy to perform well.",
+              "vi": "Sự chuẩn bị thật xuất sắc! Đừng quên ăn một bữa sáng lành mạnh vào sáng mai, bởi vì bộ não của bạn cần năng lượng để hoạt động tốt."
+            },
+            {
+              "speaker": "Ben",
+              "en": "Thank you for being so supportive, which really means a lot to me. I feel much more prepared to tackle the challenges tomorrow.",
+              "vi": "Cảm ơn vì đã luôn ủng hộ, điều mà thực sự có ý nghĩa rất lớn đối với tôi. Tôi cảm thấy đã sẵn sàng hơn nhiều để giải quyết các thử thách vào ngày mai."
+            },
+            {
+              "speaker": "Lily",
+              "en": "You have worked incredibly hard over the past few months, and your English has improved significantly. I am sure you will pass the exam with flying colors.",
+              "vi": "Bạn đã làm việc vô cùng chăm chỉ trong suốt vài tháng qua, và tiếng Anh của bạn đã được cải thiện đáng kể. Tôi chắc chắn bạn sẽ vượt qua kỳ thi với thành tích xuất sắc."
+            }
+          ]
+        },
+        {
+          "title": "Post-exam reflections",
+          "lines": [
+            {
+              "speaker": "Mia",
+              "en": "I can't believe the exam is finally over! A huge weight has been lifted off my shoulders, and I feel incredibly relieved right now.",
+              "vi": "Tôi không thể tin được kỳ thi cuối cùng cũng kết thúc! Một gánh nặng khổng lồ đã được trút khỏi vai tôi, và tôi cảm thấy vô cùng nhẹ nhõm ngay lúc này."
+            },
+            {
+              "speaker": "Noah",
+              "en": "I feel the same way, although the reading section was much harder than I had anticipated. One of the articles contained a lot of unfamiliar scientific vocabulary.",
+              "vi": "Tôi cũng cảm thấy như vậy, mặc dù phần đọc đã khó hơn nhiều so với tôi đã dự đoán. Một trong những bài báo đã chứa rất nhiều từ vựng khoa học xa lạ."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I managed to guess the meanings from the context, which saved me a lot of time. How did you perform in the writing part?",
+              "vi": "Tôi đã xoay xở đoán được ý nghĩa từ ngữ cảnh, điều này đã giúp tôi tiết kiệm được nhiều thời gian. Bạn đã làm bài như thế nào trong phần viết?"
+            },
+            {
+              "speaker": "Noah",
+              "en": "The writing topic was quite interesting, so I was able to write a well-structured essay quickly. I made sure to use several complex grammatical structures.",
+              "vi": "Chủ đề viết khá thú vị, vì vậy tôi đã có thể viết một bài luận có cấu trúc tốt một cách nhanh chóng. Tôi đã đảm bảo việc sử dụng một vài cấu trúc ngữ pháp phức tạp."
+            },
+            {
+              "speaker": "Mia",
+              "en": "I am glad to hear that! In the speaking test, my partner was very cooperative, which made the collaborative task proceed smoothly.",
+              "vi": "Tôi rất vui khi nghe điều đó! Trong bài kiểm tra nói, người bạn cặp của tôi rất hợp tác, điều đó đã làm cho nhiệm vụ hợp tác diễn ra trôi chảy."
+            },
+            {
+              "speaker": "Noah",
+              "en": "The examiners were also very friendly and smiled constantly, which helped reduce my anxiety. I think we both performed to the best of our abilities.",
+              "vi": "Các giám khảo cũng rất thân thiện và mỉm cười liên tục, điều này đã giúp giảm bớt sự lo âu của tôi. Tôi nghĩ cả hai chúng ta đều đã thể hiện tốt nhất khả năng của mình."
+            },
+            {
+              "speaker": "Mia",
+              "en": "Now we just have to wait for the results, which will be published in four weeks. Let's go celebrate our hard work by getting some ice cream.",
+              "vi": "Bây giờ chúng ta chỉ cần chờ đợi kết quả, những kết quả sẽ được công bố trong bốn tuần tới. Hãy đi ăn mừng sự chăm chỉ của chúng ta bằng cách đi ăn kem."
+            },
+            {
+              "speaker": "Noah",
+              "en": "That is the best idea I have heard all day. Whatever the results are, we should be proud of the progress which we have made.",
+              "vi": "Đó là ý tưởng hay nhất tôi nghe được trong suốt cả ngày. Bất kể kết quả có ra sao, chúng ta nên tự hào về sự tiến bộ mà chúng ta đã đạt được."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

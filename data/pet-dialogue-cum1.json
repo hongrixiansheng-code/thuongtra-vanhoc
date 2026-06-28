@@ -1,0 +1,66 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "dialogues": [
+        {
+          "title": "Discussing a new neighbor",
+          "lines": [
+            { "speaker": "Alex", "en": "Have you met our new neighbor who moved in yesterday? He seems quite outgoing, but he also looks a bit tired.", "vi": "Bạn đã gặp người hàng xóm mới chuyển đến ngày hôm qua chưa? Anh ấy có vẻ khá cởi mở, nhưng trông anh ấy cũng hơi mệt mỏi." },
+            { "speaker": "Sarah", "en": "I saw him this morning when I was leaving for work. He looks like a student, and he was carrying a lot of heavy books.", "vi": "Tôi đã nhìn thấy anh ấy sáng nay khi tôi đang đi làm. Anh ấy trông giống như một sinh viên, và anh ấy đang mang rất nhiều sách nặng." },
+            { "speaker": "Alex", "en": "He is supposed to be studying at the local university. I think we should introduce ourselves and say hello tomorrow.", "vi": "Đáng lẽ ra anh ấy đang học tại trường đại học địa phương. Tôi nghĩ chúng ta nên tự giới thiệu và chào hỏi vào ngày mai." },
+            { "speaker": "Sarah", "en": "That sounds like a great idea because it is always good to know the people who live near you.", "vi": "Nghe có vẻ là một ý tưởng tuyệt vời vì việc biết những người sống gần bạn luôn là điều tốt." },
+            { "speaker": "Alex", "en": "I noticed that he appears nervous when people talk to him. We should try to make him feel relaxed.", "vi": "Tôi nhận thấy rằng anh ấy có vẻ lo lắng khi mọi người nói chuyện với anh ấy. Chúng ta nên cố gắng làm cho anh ấy cảm thấy thư giãn." },
+            { "speaker": "Sarah", "en": "I completely agree with you, and I can bake some cookies which we can give to him as a welcome gift.", "vi": "Tôi hoàn toàn đồng ý với bạn, và tôi có thể nướng một ít bánh quy mà chúng ta có thể tặng cho anh ấy như một món quà chào mừng." },
+            { "speaker": "Alex", "en": "He will definitely appreciate that, and it will help him feel more comfortable in the new neighborhood.", "vi": "Chắc chắn anh ấy sẽ rất trân trọng điều đó, và nó sẽ giúp anh ấy cảm thấy thoải mái hơn ở khu phố mới." },
+            { "speaker": "Sarah", "en": "Let's go together tomorrow evening when he is supposed to be at home.", "vi": "Chúng ta hãy đi cùng nhau vào tối mai, lúc mà đáng lẽ anh ấy phải ở nhà." }
+          ]
+        },
+        {
+          "title": "Preparing for a party",
+          "lines": [
+            { "speaker": "Tom", "en": "You look absolutely stunning in that red dress! It fits you perfectly, and the color matches your shoes.", "vi": "Bạn trông hoàn toàn lộng lẫy trong chiếc váy đỏ đó! Nó cực kỳ vừa vặn với bạn, và màu sắc cũng rất hợp với đôi giày của bạn." },
+            { "speaker": "Emma", "en": "Thank you so much, but I am still not sure about my hair. I am supposed to tie it up, but I left it down instead.", "vi": "Cảm ơn bạn rất nhiều, nhưng tôi vẫn không chắc về mái tóc của mình. Đáng lẽ tôi phải buộc nó lên, nhưng thay vào đó tôi lại xõa nó xuống." },
+            { "speaker": "Tom", "en": "I think it looks beautiful the way it is, which really complements your cheerful personality.", "vi": "Tôi nghĩ nó trông rất đẹp theo cách tự nhiên, điều này thực sự tôn lên tính cách vui vẻ của bạn." },
+            { "speaker": "Emma", "en": "What about your outfit? You are supposed to wear a suit, but you seem very casual in those jeans.", "vi": "Còn trang phục của bạn thì sao? Đáng lẽ bạn phải mặc một bộ vest, nhưng bạn trông có vẻ rất giản dị trong chiếc quần jean đó." },
+            { "speaker": "Tom", "en": "I talked to the host, who told me that the party is actually quite relaxed. I don't need to wear formal clothes.", "vi": "Tôi đã nói chuyện với chủ nhà, người đã nói với tôi rằng bữa tiệc thực ra khá thoải mái. Tôi không cần phải mặc quần áo trang trọng." },
+            { "speaker": "Emma", "en": "Oh, that makes me feel much better because I don't like parties which are too formal and strict.", "vi": "Ồ, điều đó làm tôi cảm thấy tốt hơn nhiều vì tôi không thích những bữa tiệc quá trang trọng và nghiêm ngặt." },
+            { "speaker": "Tom", "en": "We should leave now if we want to arrive on time. We are supposed to be there by 8 PM.", "vi": "Chúng ta nên rời đi ngay bây giờ nếu muốn đến đúng giờ. Đáng lẽ chúng ta phải có mặt ở đó lúc 8 giờ tối." },
+            { "speaker": "Emma", "en": "Let me grab my coat quickly, and then we can walk to the station together.", "vi": "Để tôi lấy áo khoác nhanh, và sau đó chúng ta có thể cùng đi bộ đến nhà ga." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "dialogues": [
+        {
+          "title": "A difficult day at work",
+          "lines": [
+            { "speaker": "Mark", "en": "I feel completely exhausted after that long meeting. The manager made everyone stay for two extra hours.", "vi": "Tôi cảm thấy hoàn toàn kiệt sức sau cuộc họp dài đó. Người quản lý đã bắt mọi người ở lại thêm hai tiếng nữa." },
+            { "speaker": "Lisa", "en": "I got really confused when he started talking about the new project. His instructions were not clear at all.", "vi": "Tôi đã trở nên thực sự bối rối khi ông ấy bắt đầu nói về dự án mới. Những hướng dẫn của ông ấy hoàn toàn không rõ ràng." },
+            { "speaker": "Mark", "en": "It makes me feel nervous when he asks me direct questions. I always worry that I might give the wrong answer.", "vi": "Nó làm tôi cảm thấy lo lắng khi ông ấy hỏi tôi những câu hỏi trực tiếp. Tôi luôn lo rằng mình có thể đưa ra câu trả lời sai." },
+            { "speaker": "Lisa", "en": "I felt quite embarrassed because I forgot to bring the report which he had asked for.", "vi": "Tôi đã cảm thấy khá xấu hổ vì tôi quên mang theo bản báo cáo mà ông ấy đã yêu cầu." },
+            { "speaker": "Mark", "en": "Don't feel guilty about that! Everyone makes mistakes sometimes, and you are usually very organized.", "vi": "Đừng cảm thấy tội lỗi về điều đó! Đôi khi ai cũng mắc sai lầm, và bạn thường rất có tổ chức mà." },
+            { "speaker": "Lisa", "en": "Thank you for saying that, which makes me feel a bit relieved. I was terrified that he would shout at me.", "vi": "Cảm ơn vì đã nói vậy, điều đó làm tôi cảm thấy nhẹ nhõm hơn đôi chút. Tôi đã khiếp sợ rằng ông ấy sẽ hét vào mặt tôi." },
+            { "speaker": "Mark", "en": "He didn't seem angry, but he got disappointed when we couldn't finish the tasks on time.", "vi": "Ông ấy có vẻ không tức giận, nhưng ông ấy đã trở nên thất vọng khi chúng ta không thể hoàn thành nhiệm vụ đúng hạn." },
+            { "speaker": "Lisa", "en": "I am getting hungry now, so let's go grab some lunch and forget about work for a while.", "vi": "Bây giờ tôi bắt đầu thấy đói rồi, vì vậy chúng ta hãy đi ăn trưa và tạm quên đi công việc một lúc nhé." }
+          ]
+        },
+        {
+          "title": "Experiencing a thunderstorm",
+          "lines": [
+            { "speaker": "David", "en": "Look at those dark clouds outside. I get terrified when there is a strong thunderstorm.", "vi": "Hãy nhìn những đám mây đen ngoài kia. Tôi trở nên khiếp sợ khi có một cơn giông bão mạnh." },
+            { "speaker": "Chloe", "en": "The loud thunder always makes me jump, but I actually enjoy watching the lightning which flashes across the sky.", "vi": "Tiếng sấm lớn luôn làm tôi giật mình, nhưng tôi thực sự thích xem tia chớp cái mà lóe lên ngang bầu trời." },
+            { "speaker": "David", "en": "I feel a bit anxious because the electricity might go off. We should find some candles just in case.", "vi": "Tôi cảm thấy hơi lo âu vì điện có thể bị cúp. Chúng ta nên tìm một ít nến để phòng hờ." },
+            { "speaker": "Chloe", "en": "I already bought some flashlights, which are stored in the kitchen drawer. I feel relieved that we are prepared.", "vi": "Tôi đã mua vài chiếc đèn pin, thứ mà được cất trong ngăn kéo bếp. Tôi cảm thấy nhẹ nhõm vì chúng ta đã chuẩn bị sẵn sàng." },
+            { "speaker": "David", "en": "That makes me feel much safer. I felt so helpless last time when we were sitting in the dark.", "vi": "Điều đó làm tôi cảm thấy an toàn hơn nhiều. Lần trước tôi đã cảm thấy thật bất lực khi chúng ta phải ngồi trong bóng tối." },
+            { "speaker": "Chloe", "en": "Don't worry, the storm will pass soon. You will get relaxed once we have a nice cup of hot tea.", "vi": "Đừng lo lắng, cơn bão sẽ qua nhanh thôi. Bạn sẽ trở nên thư giãn ngay khi chúng ta có một tách trà nóng ngon tuyệt." },
+            { "speaker": "David", "en": "I feel guilty that I am acting like a child. I should be braver when facing a simple storm.", "vi": "Tôi cảm thấy tội lỗi vì tôi đang hành xử như một đứa trẻ. Đáng lẽ tôi nên dũng cảm hơn khi đối mặt với một cơn bão đơn giản." },
+            { "speaker": "Chloe", "en": "It is completely normal to feel scared of nature. Let's sit together on the sofa, which is very comfortable.", "vi": "Cảm thấy sợ hãi trước thiên nhiên là chuyện hoàn toàn bình thường. Chúng ta hãy ngồi cùng nhau trên chiếc ghế sofa, cái mà rất thoải mái." }
+          ]
+        }
+      ]
+    }
+  ]
+}

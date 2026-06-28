@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 49,
+    "dialogue": [
+      {
+        "title": "Will or going to?",
+        "lines": [
+          { "speaker": "Linh", "en": "Have you decided what you will do after graduation?", "vi": "Bạn đã quyết định sẽ làm gì sau khi tốt nghiệp chưa?" },
+          { "speaker": "Tom", "en": "Yes, I am going to study abroad. I already applied to a university.", "vi": "Vâng, tôi sẽ đi học ở nước ngoài. Tôi đã nộp đơn vào một trường đại học rồi." },
+          { "speaker": "Linh", "en": "That's a clear plan. I'm not sure about my future yet.", "vi": "Đó là một kế hoạch rõ ràng. Tôi vẫn chưa chắc về tương lai của mình." },
+          { "speaker": "Tom", "en": "Don't worry, I'm sure something good will happen.", "vi": "Đừng lo, tôi chắc rằng điều gì đó tốt đẹp sẽ xảy ra." },
+          { "speaker": "Linh", "en": "I hope you're right. Maybe I will travel for a year first.", "vi": "Tôi hy vọng bạn đúng. Có thể tôi sẽ đi du lịch một năm trước." },
+          { "speaker": "Tom", "en": "That sounds like a great idea!", "vi": "Nghe có vẻ là một ý tưởng tuyệt vời!" }
+        ]
+      },
+      {
+        "title": "A spontaneous offer",
+        "lines": [
+          { "speaker": "Linh", "en": "I didn't bring my umbrella, and it's raining.", "vi": "Tôi không mang dù, và trời đang mưa." },
+          { "speaker": "Tom", "en": "Don't worry, I will lend you mine.", "vi": "Đừng lo, tôi sẽ cho bạn mượn của tôi." },
+          { "speaker": "Linh", "en": "That's very kind. By the way, are you going to the concert tonight?", "vi": "Bạn tốt quá. Mà này, bạn có đi xem hòa nhạc tối nay không?" },
+          { "speaker": "Tom", "en": "Yes, I am going to the concert. I bought the ticket two weeks ago.", "vi": "Vâng, tôi sẽ đi xem hòa nhạc. Tôi đã mua vé hai tuần trước." },
+          { "speaker": "Linh", "en": "Lucky you! I think I will just stay home tonight.", "vi": "May cho bạn quá! Tôi nghĩ tối nay tôi sẽ chỉ ở nhà." },
+          { "speaker": "Tom", "en": "Maybe next time you will join us.", "vi": "Có thể lần sau bạn sẽ tham gia cùng chúng tôi." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "dialogue": [
+      {
+        "title": "Comparing two apartments",
+        "lines": [
+          { "speaker": "Linh", "en": "This apartment is bigger than the other one.", "vi": "Căn hộ này to hơn căn kia." },
+          { "speaker": "Tom", "en": "Yes, but it is also noisier because it's near the road.", "vi": "Đúng, nhưng nó cũng ồn hơn vì gần đường." },
+          { "speaker": "Linh", "en": "The other apartment is quieter, but the rooms are smaller.", "vi": "Căn hộ kia yên tĩnh hơn, nhưng phòng nhỏ hơn." },
+          { "speaker": "Tom", "en": "Which one is cheaper?", "vi": "Cái nào rẻ hơn?" },
+          { "speaker": "Linh", "en": "This one is more expensive, but the furniture is more modern.", "vi": "Căn này đắt hơn, nhưng nội thất hiện đại hơn." },
+          { "speaker": "Tom", "en": "I think the quieter one is better for studying.", "vi": "Tôi nghĩ căn yên tĩnh hơn tốt hơn cho việc học." }
+        ]
+      },
+      {
+        "title": "Choosing furniture",
+        "lines": [
+          { "speaker": "Linh", "en": "This sofa feels softer than that one.", "vi": "Cái ghế sofa này cảm giác mềm hơn cái kia." },
+          { "speaker": "Tom", "en": "It's also heavier, though. The other one is lighter and easier to move.", "vi": "Nhưng nó cũng nặng hơn. Cái kia nhẹ hơn và dễ di chuyển hơn." },
+          { "speaker": "Linh", "en": "True. This style looks more traditional.", "vi": "Đúng vậy. Kiểu này trông truyền thống hơn." },
+          { "speaker": "Tom", "en": "I prefer something more modern for my living room.", "vi": "Tôi thích thứ gì đó hiện đại hơn cho phòng khách của tôi." },
+          { "speaker": "Linh", "en": "Then this faster delivery option might be better for you.", "vi": "Vậy lựa chọn giao hàng nhanh hơn này có thể tốt hơn cho bạn." },
+          { "speaker": "Tom", "en": "Good point, I don't want to wait too long.", "vi": "Ý hay, tôi không muốn chờ quá lâu." }
+        ]
+      }
+    ]
+  }
+]

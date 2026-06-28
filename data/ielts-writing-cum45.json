@@ -1,0 +1,23 @@
+[
+  {
+    "lessonOrder": 89,
+    "writing": [
+      {
+        "title": "Mock Test — Writing Task 1",
+        "taskType": "task1",
+        "prompt": "The chart below shows the percentage of tourists visiting Hoi An by month. Summarise the information by describing the main trends, and make comparisons where relevant.",
+        "minWords": 80,
+        "sampleAnswer": "The chart shows the percentage of tourists visiting Hoi An across different months. The number of visitors is the highest in July and August, when the vast majority of tourists come on holiday. In contrast, fewer tourists visit in February. If the weather improves in spring, more visitors are expected. Overall, tourist numbers increase steadily from January to August, and then decrease towards the end of the year.",
+        "checklist": ["Có câu mở bài diễn giải lại đề (paraphrase)", "Mô tả được xu hướng chính (tăng/giảm)", "Có ít nhất 1 phép so sánh"]
+      },
+      {
+        "title": "Mock Test — Writing Task 2",
+        "taskType": "task2",
+        "prompt": "Some people believe that online learning is better than traditional classroom learning. Discuss both views and give your own opinion.",
+        "minWords": 150,
+        "sampleAnswer": "Online learning has become more popular in recent years. Some people support it because it saves time and is flexible. Furthermore, students can study at home without travelling. Nevertheless, many students argue that they learn better in a traditional classroom because they can ask questions directly. In contrast, some people oppose any change because they feel comfortable with traditional methods. In my opinion, both methods have benefits, and schools should offer a mix of online and traditional classes. If students could choose, they would learn more effectively. As a result, this combination would help more students succeed.",
+        "checklist": ["Trình bày được cả hai quan điểm", "Có đoạn nêu rõ ý kiến cá nhân", "Dùng từ nối học thuật B1 (furthermore, nevertheless, as a result...)"]
+      }
+    ]
+  }
+]

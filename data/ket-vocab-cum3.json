@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 10,
+      "vocab": [
+        { "word": "boil", "ipa": "/bɔɪl/", "type": "v.", "meaning": "đun sôi, luộc", "example_en": "Can you boil some water for the tea?", "example_vi": "Bạn có thể đun sôi một ít nước để pha trà không?" },
+        { "word": "boiled", "ipa": "/bɔɪld/", "type": "adj.", "meaning": "đã được luộc", "example_en": "I had a boiled egg for breakfast.", "example_vi": "Tôi đã ăn một quả trứng luộc cho bữa sáng." },
+        { "word": "grilled", "ipa": "/ɡrɪld/", "type": "adj.", "meaning": "nướng (trên vỉ)", "example_en": "We ordered grilled fish and vegetables.", "example_vi": "Chúng tôi đã gọi món cá và rau củ nướng." },
+        { "word": "fried", "ipa": "/fraɪd/", "type": "adj.", "meaning": "chiên, rán", "example_en": "I don't eat much fried food.", "example_vi": "Tôi không ăn nhiều đồ chiên rán." },
+        { "word": "roast", "ipa": "/rəʊst/", "type": "v., adj.", "meaning": "quay, nướng (trong lò)", "example_en": "We had roast beef for Sunday lunch.", "example_vi": "Chúng tôi đã ăn món thịt bò quay cho bữa trưa Chủ Nhật." },
+        { "word": "bake", "ipa": "/beɪk/", "type": "v.", "meaning": "nướng (bánh)", "example_en": "I am going to bake a cake for his birthday.", "example_vi": "Tôi dự định sẽ nướng một chiếc bánh kem cho ngày sinh nhật của anh ấy." },
+        { "word": "mix", "ipa": "/mɪks/", "type": "v.", "meaning": "trộn lẫn, pha trộn", "example_en": "Mix the flour and eggs together in a bowl.", "example_vi": "Hãy trộn đều bột mì và trứng lại với nhau trong một cái bát." },
+        { "word": "fresh", "ipa": "/freʃ/", "type": "adj.", "meaning": "tươi, mới", "example_en": "The market sells fresh fruit and vegetables.", "example_vi": "Khu chợ bán trái cây và rau củ tươi." },
+        { "word": "raw", "ipa": "/rɔː/", "type": "adj.", "meaning": "sống (chưa nấu chín)", "example_en": "Sushi is made with raw fish.", "example_vi": "Sushi được làm từ cá sống." },
+        { "word": "slice", "ipa": "/slaɪs/", "type": "v., n.", "meaning": "cắt lát, lát mỏng", "example_en": "Could you slice the tomatoes for the salad?", "example_vi": "Bạn có thể thái lát những quả cà chua cho món sa lát không?" }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "vocab": [
+        { "word": "health", "ipa": "/helθ/", "type": "n.", "meaning": "sức khỏe", "example_en": "Eating vegetables is good for your health.", "example_vi": "Ăn rau củ thì tốt cho sức khỏe của bạn." },
+        { "word": "healthy", "ipa": "/ˈhel.θi/", "type": "adj.", "meaning": "khỏe mạnh, lành mạnh", "example_en": "She eats a healthy diet and exercises every day.", "example_vi": "Cô ấy ăn một chế độ ăn uống lành mạnh và tập thể dục mỗi ngày." },
+        { "word": "pain", "ipa": "/peɪn/", "type": "n.", "meaning": "sự đau đớn, cơn đau", "example_en": "I have a sharp pain in my stomach.", "example_vi": "Tôi có một cơn đau nhói ở trong dạ dày." },
+        { "word": "appointment", "ipa": "/əˈpɔɪnt.mənt/", "type": "n.", "meaning": "cuộc hẹn", "example_en": "I have an appointment with the dentist tomorrow.", "example_vi": "Tôi có một cuộc hẹn với nha sĩ vào ngày mai." },
+        { "word": "blood", "ipa": "/blʌd/", "type": "n.", "meaning": "máu", "example_en": "He lost a lot of blood in the accident.", "example_vi": "Anh ấy đã mất rất nhiều máu trong vụ tai nạn." },
+        { "word": "degree", "ipa": "/dɪˈɡriː/", "type": "n.", "meaning": "độ (nhiệt độ)", "example_en": "Water boils at 100 degrees Celsius.", "example_vi": "Nước sôi ở 100 độ C." },
+        { "word": "X-ray", "ipa": "/ˈeks.reɪ/", "type": "n.", "meaning": "tia X, phim X-quang", "example_en": "The doctor took an X-ray of my broken arm.", "example_vi": "Bác sĩ đã chụp một tấm phim X-quang cho cánh tay bị gãy của tôi." },
+        { "word": "medicine", "ipa": "/ˈmed.ɪ.sən/", "type": "n.", "meaning": "thuốc, y học", "example_en": "Did you take your medicine this morning?", "example_vi": "Sáng nay bạn đã uống thuốc của mình chưa?" },
+        { "word": "blood pressure", "ipa": "/ˈblʌd ˌpreʃ.ər/", "type": "n.", "meaning": "huyết áp", "example_en": "The nurse checked my blood pressure.", "example_vi": "Nữ y tá đã kiểm tra huyết áp của tôi." },
+        { "word": "operation", "ipa": "/ˌɒp.ərˈeɪ.ʃən/", "type": "n.", "meaning": "ca phẫu thuật", "example_en": "He had an operation on his leg last week.", "example_vi": "Anh ấy đã có một ca phẫu thuật ở chân vào tuần trước." }
+      ]
+    },
+    {
+      "orderIndex": 12,
+      "vocab": [
+        { "word": "fit", "ipa": "/fɪt/", "type": "adj.", "meaning": "khỏe mạnh, cân đối", "example_en": "He is very fit because he runs every day.", "example_vi": "Anh ấy rất cân đối vì anh ấy chạy bộ mỗi ngày." },
+        { "word": "get fit", "ipa": "/ɡet fɪt/", "type": "phr.", "meaning": "trở nên khỏe mạnh/cân đối", "example_en": "I joined a gym to get fit.", "example_vi": "Tôi đã tham gia một phòng tập thể hình để lấy lại vóc dáng." },
+        { "word": "keep fit", "ipa": "/kiːp fɪt/", "type": "phr.", "meaning": "giữ gìn sức khỏe/vóc dáng", "example_en": "Swimming is a great way to keep fit.", "example_vi": "Bơi lội là một cách tuyệt vời để giữ gìn sức khỏe." },
+        { "word": "exercise", "ipa": "/ˈek.sə.saɪz/", "type": "n., v.", "meaning": "tập thể dục, bài tập", "example_en": "You should do some exercise every morning.", "example_vi": "Bạn nên tập thể dục một chút vào mỗi buổi sáng." },
+        { "word": "gym", "ipa": "/dʒɪm/", "type": "n.", "meaning": "phòng tập thể hình", "example_en": "I go to the gym three times a week.", "example_vi": "Tôi đi đến phòng tập thể hình ba lần một tuần." },
+        { "word": "diving", "ipa": "/ˈdaɪ.vɪŋ/", "type": "n.", "meaning": "môn lặn", "example_en": "We went diving in the beautiful clear sea.", "example_vi": "Chúng tôi đã đi lặn ở vùng biển trong xanh tuyệt đẹp." },
+        { "word": "climbing", "ipa": "/ˈklaɪ.mɪŋ/", "type": "n.", "meaning": "môn leo núi", "example_en": "Rock climbing is a dangerous sport.", "example_vi": "Leo núi đá là một môn thể thao nguy hiểm." },
+        { "word": "sailing", "ipa": "/ˈseɪ.lɪŋ/", "type": "n.", "meaning": "môn chèo thuyền, đi thuyền buồm", "example_en": "They love going sailing on the lake.", "example_vi": "Họ rất thích đi chèo thuyền trên hồ." },
+        { "word": "athletics", "ipa": "/æθˈlet.ɪks/", "type": "n.", "meaning": "điền kinh", "example_en": "She won a gold medal in athletics.", "example_vi": "Cô ấy đã giành được một huy chương vàng trong môn điền kinh." },
+        { "word": "court", "ipa": "/kɔːt/", "type": "n.", "meaning": "sân (tennis, bóng rổ)", "example_en": "The players are ready on the tennis court.", "example_vi": "Các tuyển thủ đã sẵn sàng trên sân quần vợt." }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "vocab": [
+        { "word": "passport", "ipa": "/ˈpɑːs.pɔːt/", "type": "n.", "meaning": "hộ chiếu", "example_en": "Don't forget to bring your passport to the airport.", "example_vi": "Đừng quên mang theo hộ chiếu của bạn đến sân bay." },
+        { "word": "luggage", "ipa": "/ˈlʌɡ.ɪdʒ/", "type": "n.", "meaning": "hành lý", "example_en": "We have too much luggage to carry.", "example_vi": "Chúng tôi có quá nhiều hành lý để mang theo." },
+        { "word": "flight", "ipa": "/flaɪt/", "type": "n.", "meaning": "chuyến bay", "example_en": "My flight to Paris leaves at 10 a.m.", "example_vi": "Chuyến bay của tôi đến Paris sẽ cất cánh lúc 10 giờ sáng." },
+        { "word": "aeroplane", "ipa": "/ˈeə.rə.pleɪn/", "type": "n.", "meaning": "máy bay", "example_en": "We travelled to Spain by aeroplane.", "example_vi": "Chúng tôi đã đi du lịch đến Tây Ban Nha bằng máy bay." },
+        { "word": "helicopter", "ipa": "/ˈhel.ɪˌkɒp.tər/", "type": "n.", "meaning": "trực thăng", "example_en": "The president arrived in a helicopter.", "example_vi": "Vị tổng thống đã đến bằng một chiếc máy bay trực thăng." },
+        { "word": "departure", "ipa": "/dɪˈpɑː.tʃər/", "type": "n.", "meaning": "sự khởi hành", "example_en": "We waited in the departure lounge for two hours.", "example_vi": "Chúng tôi đã đợi trong phòng chờ khởi hành suốt hai giờ đồng hồ." },
+        { "word": "arrival", "ipa": "/əˈraɪ.vəl/", "type": "n.", "meaning": "sự đến nơi", "example_en": "I will meet you at the arrivals gate.", "example_vi": "Tôi sẽ đón bạn ở cổng đến." },
+        { "word": "delay", "ipa": "/dɪˈleɪ/", "type": "n., v.", "meaning": "sự chậm trễ, hoãn lại", "example_en": "There is a delay on our flight because of bad weather.", "example_vi": "Có một sự chậm trễ trên chuyến bay của chúng tôi vì thời tiết xấu." },
+        { "word": "customs", "ipa": "/ˈkʌs.təmz/", "type": "n.", "meaning": "hải quan", "example_en": "It took an hour to get through customs.", "example_vi": "Mất tới một giờ đồng hồ để đi qua trạm kiểm soát hải quan." },
+        { "word": "boarding pass", "ipa": "/ˈbɔː.dɪŋ ˌpɑːs/", "type": "n.", "meaning": "thẻ lên máy bay", "example_en": "Please show your passport and boarding pass.", "example_vi": "Vui lòng xuất trình hộ chiếu và thẻ lên máy bay của bạn." }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "vocab": [
+        { "word": "motorway", "ipa": "/ˈməʊ.tə.weɪ/", "type": "n.", "meaning": "đường cao tốc", "example_en": "You can drive very fast on the motorway.", "example_vi": "Bạn có thể lái xe rất nhanh trên đường cao tốc." },
+        { "word": "roundabout", "ipa": "/ˈraʊnd.ə.baʊt/", "type": "n.", "meaning": "vòng xuyến, bùng binh", "example_en": "Take the second exit at the roundabout.", "example_vi": "Hãy đi vào lối rẽ thứ hai ở vòng xuyến." },
+        { "word": "crossing", "ipa": "/ˈkrɒs.ɪŋ/", "type": "n.", "meaning": "vạch qua đường", "example_en": "Always look both ways before you use the pedestrian crossing.", "example_vi": "Luôn luôn nhìn cả hai phía trước khi bạn sử dụng vạch qua đường cho người đi bộ." },
+        { "word": "petrol station", "ipa": "/ˈpet.rəl ˌsteɪ.ʃən/", "type": "n.", "meaning": "trạm xăng", "example_en": "We stopped at a petrol station to fill up the car.", "example_vi": "Chúng tôi đã dừng lại ở một trạm xăng để đổ đầy nhiên liệu cho xe ô tô." },
+        { "word": "harbour", "ipa": "/ˈhɑː.bər/", "type": "n.", "meaning": "bến cảng", "example_en": "There are many small boats in the harbour.", "example_vi": "Có rất nhiều chiếc thuyền nhỏ ở trong bến cảng." },
+        { "word": "port", "ipa": "/pɔːt/", "type": "n.", "meaning": "hải cảng", "example_en": "The big ship arrived at the port this morning.", "example_vi": "Con tàu lớn đã cập cảng vào sáng nay." },
+        { "word": "driving licence", "ipa": "/ˈdraɪ.vɪŋ ˌlaɪ.səns/", "type": "n.", "meaning": "bằng lái xe", "example_en": "You must have a driving licence to drive a car.", "example_vi": "Bạn phải có bằng lái xe để có thể lái một chiếc ô tô." },
+        { "word": "coach", "ipa": "/kəʊtʃ/", "type": "n.", "meaning": "xe khách", "example_en": "We travelled from London to Paris by coach.", "example_vi": "Chúng tôi đã đi từ Luân Đôn đến Paris bằng xe khách." },
+        { "word": "lorry", "ipa": "/ˈlɒr.i/", "type": "n.", "meaning": "xe tải", "example_en": "A large lorry was blocking the road.", "example_vi": "Một chiếc xe tải lớn đang chặn ngang con đường." },
+        { "word": "tram", "ipa": "/træm/", "type": "n.", "meaning": "xe điện", "example_en": "I take the tram to work every day.", "example_vi": "Tôi bắt xe điện đi làm mỗi ngày." }
+      ]
+    }
+  ]
+}

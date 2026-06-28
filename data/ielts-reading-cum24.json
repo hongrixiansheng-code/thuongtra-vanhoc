@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 47,
+    "reading": [
+      {
+        "title": "Reading: A weather forecast",
+        "passage": "I think it will rain tomorrow, but I'm not completely sure. It's getting cold, so I will close the window now. The meeting probably won't be too long, maybe just one hour.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer is certain it will rain tomorrow.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I think it will rain tomorrow, but I'm not completely sure.\"" },
+          { "type": "multiple_choice", "question": "What is the writer going to do now?", "options": ["Open the window", "Close the window", "Leave the house"], "correct": "Close the window", "explanation": "\"I will close the window now.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "reading": [
+      {
+        "title": "Reading: My plan for the weekend",
+        "passage": "I am going to visit my hometown this weekend. I already arranged everything and booked the train ticket. My goal this year is to improve my English, so I made a study schedule. I intend to take the IELTS exam in December.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer hasn't booked a ticket yet.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"booked the train ticket\" cho thấy đã đặt vé." },
+          { "type": "multiple_choice", "question": "What is the writer's goal this year?", "options": ["Travel abroad", "Improve English", "Buy a new house"], "correct": "Improve English", "explanation": "\"My goal this year is to improve my English\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 36,
+      "dialogues": [
+        {
+          "title": "Vocabulary review game",
+          "lines": [
+            {
+              "speaker": "Teacher",
+              "en": "Today we are going to review the vocabulary which we have learned during this course. Let's play a game where you have to guess the word from its definition.",
+              "vi": "Hôm nay chúng ta sẽ ôn lại từ vựng những từ mà chúng ta đã học trong suốt khóa học này. Hãy chơi một trò chơi nơi các em phải đoán từ dựa vào định nghĩa của nó."
+            },
+            {
+              "speaker": "Student",
+              "en": "That sounds like a lot of fun, and it will help us prepare for the final test. I am ready for the first definition.",
+              "vi": "Nghe có vẻ rất vui, và nó sẽ giúp chúng em chuẩn bị cho bài kiểm tra cuối kỳ. Em đã sẵn sàng cho định nghĩa đầu tiên."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "What is the adjective which describes a person who always expects good things to happen? This person usually has a positive attitude.",
+              "vi": "Tính từ nào mô tả một người luôn mong đợi những điều tốt đẹp xảy ra? Người này thường có một thái độ tích cực."
+            },
+            {
+              "speaker": "Student",
+              "en": "The word is 'optimistic', which is the opposite of 'pessimistic'. My best friend is very optimistic, even when things go wrong.",
+              "vi": "Từ đó là 'optimistic' (lạc quan), thứ mà trái nghĩa với 'pessimistic' (bi quan). Bạn thân nhất của em rất lạc quan, ngay cả khi mọi việc đi chệch hướng."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "Excellent! Now, what is the noun which refers to the people who live in a particular area? They form a society together.",
+              "vi": "Xuất sắc! Bây giờ, danh từ nào dùng để chỉ những người sống trong một khu vực cụ thể? Họ cùng nhau tạo thành một xã hội."
+            },
+            {
+              "speaker": "Student",
+              "en": "That must be a 'community', which is an important concept in our social studies class. People in a strong community always support each other.",
+              "vi": "Đó chắc hẳn là 'community' (cộng đồng), đó là một khái niệm quan trọng trong lớp học nghiên cứu xã hội của chúng em. Những người trong một cộng đồng vững mạnh luôn hỗ trợ lẫn nhau."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "You are absolutely right. Learning vocabulary in context is much more effective than memorizing a long list of words.",
+              "vi": "Em hoàn toàn đúng. Việc học từ vựng trong ngữ cảnh thì hiệu quả hơn nhiều so với việc ghi nhớ một danh sách dài các từ."
+            },
+            {
+              "speaker": "Student",
+              "en": "I agree, because knowing the definition helps me use the word correctly in my sentences. This game is incredibly helpful for my revision.",
+              "vi": "Em đồng ý, bởi vì việc biết định nghĩa giúp em sử dụng từ đó một cách chính xác trong các câu của mình. Trò chơi này vô cùng hữu ích cho việc ôn tập của em."
+            }
+          ]
+        },
+        {
+          "title": "Discussing word building",
+          "lines": [
+            {
+              "speaker": "Alex",
+              "en": "I often lose marks because I use the wrong form of a word in the writing test. I need to improve my knowledge of prefixes and suffixes.",
+              "vi": "Tôi thường bị mất điểm vì tôi sử dụng sai dạng của một từ trong bài kiểm tra viết. Tôi cần cải thiện kiến thức của mình về tiền tố và hậu tố."
+            },
+            {
+              "speaker": "Emma",
+              "en": "Word building is very important, because it allows you to expand your vocabulary quickly. For example, if you know the verb 'manage', you can form the noun 'management'.",
+              "vi": "Việc cấu tạo từ là rất quan trọng, bởi vì nó cho phép bạn mở rộng vốn từ vựng của mình một cách nhanh chóng. Ví dụ, nếu bạn biết động từ 'manage', bạn có thể tạo thành danh từ 'management'."
+            },
+            {
+              "speaker": "Alex",
+              "en": "Yes, and the adjective is 'manageable', which describes a task that can be done easily. What about the negative prefix for 'patient'?",
+              "vi": "Đúng vậy, và tính từ là 'manageable' (có thể quản lý được), cái mà mô tả một nhiệm vụ có thể được thực hiện dễ dàng. Còn tiền tố mang nghĩa phủ định của 'patient' (kiên nhẫn) thì sao?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "The negative form is 'impatient', which describes someone who hates waiting. Another useful suffix is '-ful', which turns a noun into an adjective, like 'careful'.",
+              "vi": "Dạng phủ định là 'impatient' (thiếu kiên nhẫn), cái mà mô tả một người rất ghét việc phải chờ đợi. Một hậu tố hữu ích khác là '-ful', thứ mà biến một danh từ thành một tính từ, giống như 'careful' (cẩn thận)."
+            },
+            {
+              "speaker": "Alex",
+              "en": "And the opposite of 'careful' is 'careless', which uses the suffix '-less' to mean 'without'. This method makes learning new words much more logical.",
+              "vi": "Và từ trái nghĩa của 'careful' là 'careless' (bất cẩn), từ mà sử dụng hậu tố '-less' để mang ý nghĩa 'không có'. Phương pháp này làm cho việc học các từ mới trở nên logic hơn nhiều."
+            },
+            {
+              "speaker": "Emma",
+              "en": "Exactly! You should create a table in your notebook which lists the verb, noun, adjective, and adverb forms of common words.",
+              "vi": "Chính xác! Bạn nên tạo một bảng trong cuốn sổ tay của mình cái mà liệt kê các dạng động từ, danh từ, tính từ và trạng từ của những từ thông dụng."
+            },
+            {
+              "speaker": "Alex",
+              "en": "I will do that tonight, which will definitely help me score higher in the exam. Thank you for sharing this brilliant study tip with me.",
+              "vi": "Tôi sẽ làm điều đó vào tối nay, điều này chắc chắn sẽ giúp tôi đạt điểm cao hơn trong kỳ thi. Cảm ơn vì đã chia sẻ mẹo học tập xuất sắc này với tôi."
+            },
+            {
+              "speaker": "Emma",
+              "en": "You are welcome. We can test each other tomorrow to see how many word families we have memorized successfully.",
+              "vi": "Không có chi. Ngày mai chúng ta có thể kiểm tra lẫn nhau để xem chúng ta đã ghi nhớ thành công được bao nhiêu họ từ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 37,
+      "dialogues": [
+        {
+          "title": "Mock test strategy",
+          "lines": [
+            {
+              "speaker": "Oliver",
+              "en": "The mock test is scheduled for tomorrow morning, and I feel a bit nervous about the reading section. It is always the most difficult part for me.",
+              "vi": "Bài kiểm tra thử được lên lịch vào sáng mai, và tôi cảm thấy hơi lo lắng về phần đọc. Nó luôn là phần khó nhất đối với tôi."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "You shouldn't panic, because the mock test is just a tool which helps us identify our weaknesses. You must read the questions carefully before you read the text.",
+              "vi": "Bạn không nên hoảng sợ, bởi vì bài kiểm tra thử chỉ là một công cụ thứ mà giúp chúng ta xác định những điểm yếu của mình. Bạn phải đọc kỹ các câu hỏi trước khi bạn đọc văn bản."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "That is a good strategy, which saves a lot of time during the exam. I often waste time reading every single word slowly.",
+              "vi": "Đó là một chiến lược tốt, điều này giúp tiết kiệm rất nhiều thời gian trong suốt kỳ thi. Tôi thường lãng phí thời gian khi đọc thật chậm từng từ một."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "You should practice skimming and scanning, which are essential techniques for finding information quickly. Don't worry if you don't understand every vocabulary word.",
+              "vi": "Bạn nên luyện tập đọc lướt và đọc quét, những kỹ thuật thiết yếu để tìm thông tin một cách nhanh chóng. Đừng lo lắng nếu bạn không hiểu tất cả các từ vựng."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "I will try to guess the meaning of unknown words from the context. What advice do you have for the writing section?",
+              "vi": "Tôi sẽ cố gắng đoán nghĩa của các từ chưa biết từ ngữ cảnh. Bạn có lời khuyên nào cho phần viết không?"
+            },
+            {
+              "speaker": "Sophia",
+              "en": "You must plan your essay before you start writing, so that your ideas are organized logically. Make sure you leave five minutes at the end to check for errors.",
+              "vi": "Bạn phải lập dàn ý cho bài luận của mình trước khi bạn bắt đầu viết, để các ý tưởng của bạn được tổ chức một cách logic. Đảm bảo rằng bạn để lại năm phút ở cuối để kiểm tra các lỗi."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "I always forget to check my spelling, which causes me to lose silly marks. I will definitely set a timer tomorrow to manage my time better.",
+              "vi": "Tôi luôn quên kiểm tra chính tả của mình, điều đó khiến tôi bị mất những điểm số ngớ ngẩn. Ngày mai tôi chắc chắn sẽ đặt hẹn giờ để quản lý thời gian của mình tốt hơn."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "Time management is the key to success in any exam. Just get a good night's sleep tonight so that your brain is fresh tomorrow.",
+              "vi": "Quản lý thời gian là chìa khóa dẫn đến thành công trong bất kỳ kỳ thi nào. Chỉ cần có một giấc ngủ ngon đêm nay để não bộ của bạn thật sảng khoái vào ngày mai."
+            }
+          ]
+        },
+        {
+          "title": "Reviewing test results",
+          "lines": [
+            {
+              "speaker": "Jack",
+              "en": "I received the results of my mock test today, and I am quite disappointed with my score in the listening section. I missed several important details in the second recording.",
+              "vi": "Hôm nay tôi đã nhận được kết quả của bài kiểm tra thử, và tôi khá thất vọng với điểm số của mình ở phần nghe. Tôi đã bỏ lỡ vài chi tiết quan trọng trong đoạn ghi âm thứ hai."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "Don't be discouraged, because the listening tracks were deliberately chosen to challenge you. The speakers in the recording talked very fast and used complex vocabulary.",
+              "vi": "Đừng nản lòng, bởi vì các đoạn băng nghe đã được cố tình lựa chọn để thử thách bạn. Những người nói trong đoạn ghi âm đã nói rất nhanh và sử dụng từ vựng phức tạp."
+            },
+            {
+              "speaker": "Jack",
+              "en": "I found it difficult to concentrate when there was background noise in the audio. What should I do to improve my listening comprehension skills?",
+              "vi": "Tôi thấy khó tập trung khi có tiếng ồn xung quanh trong đoạn âm thanh. Tôi nên làm gì để cải thiện kỹ năng nghe hiểu của mình?"
+            },
+            {
+              "speaker": "Teacher",
+              "en": "You should listen to English podcasts or news broadcasts every day, which will train your ears to understand different accents. Exposure to natural speech is extremely beneficial.",
+              "vi": "Bạn nên nghe podcast hoặc các bản tin tiếng Anh mỗi ngày, điều này sẽ rèn luyện đôi tai của bạn hiểu được các giọng khác nhau. Việc tiếp xúc với lời nói tự nhiên là cực kỳ có lợi."
+            },
+            {
+              "speaker": "Jack",
+              "en": "That makes sense, and I will start listening to a BBC program tomorrow morning. However, I am very happy with my writing score, which was the highest in the class.",
+              "vi": "Điều đó có lý, và tôi sẽ bắt đầu nghe một chương trình của BBC vào sáng mai. Tuy nhiên, tôi rất hài lòng với điểm viết của mình, điểm số mà cao nhất trong lớp."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "Your essay was wonderfully structured, and you used a wide range of advanced grammatical forms. You should maintain that high standard for the final exam.",
+              "vi": "Bài luận của bạn đã được cấu trúc một cách tuyệt vời, và bạn đã sử dụng đa dạng các dạng ngữ pháp nâng cao. Bạn nên duy trì tiêu chuẩn cao đó cho bài kiểm tra cuối kỳ."
+            },
+            {
+              "speaker": "Jack",
+              "en": "I will review the mistakes which I made in the listening test tonight. Understanding my errors will prevent me from repeating them in the future.",
+              "vi": "Tối nay tôi sẽ xem xét lại những lỗi mà tôi đã mắc phải trong bài kiểm tra nghe. Việc hiểu rõ những lỗi sai của mình sẽ ngăn tôi lặp lại chúng trong tương lai."
+            },
+            {
+              "speaker": "Teacher",
+              "en": "That is the perfect attitude to have towards learning. If you keep practicing diligently, you will definitely achieve a great result in the real exam.",
+              "vi": "Đó là thái độ hoàn hảo để có đối với việc học. Nếu bạn tiếp tục luyện tập một cách siêng năng, bạn chắc chắn sẽ đạt được một kết quả tuyệt vời trong kỳ thi thực tế."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

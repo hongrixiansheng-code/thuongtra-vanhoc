@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 69,
+    "dialogue": [
+      {
+        "title": "When exactly?",
+        "lines": [
+          { "speaker": "James", "en": "I have visited Hue. It was a great trip.", "vi": "Tôi đã từng đến Huế. Đó là một chuyến đi tuyệt vời." },
+          { "speaker": "Trang", "en": "When did you visit it?", "vi": "Bạn đã đến đó khi nào?" },
+          { "speaker": "James", "en": "I visited it last summer, with my family.", "vi": "Tôi đã đến đó mùa hè trước, cùng với gia đình." },
+          { "speaker": "Trang", "en": "I have also tried Hue cuisine before.", "vi": "Tôi cũng đã từng thử ẩm thực Huế." },
+          { "speaker": "James", "en": "When did you try it?", "vi": "Bạn đã thử nó khi nào?" },
+          { "speaker": "Trang", "en": "I tried it three years ago, at a small restaurant.", "vi": "Tôi đã thử nó ba năm trước, ở một nhà hàng nhỏ." }
+        ]
+      },
+      {
+        "title": "Experience vs detail",
+        "lines": [
+          { "speaker": "Jack", "en": "Have you ever watched this film?", "vi": "Bạn đã từng xem bộ phim này chưa?" },
+          { "speaker": "Phuong", "en": "Yes, I have watched it. I watched it last weekend, actually.", "vi": "Vâng, tôi đã xem nó rồi. Thực ra tôi đã xem nó cuối tuần trước." },
+          { "speaker": "Jack", "en": "Has your brother finished university yet?", "vi": "Em trai bạn đã học xong đại học chưa?" },
+          { "speaker": "Phuong", "en": "Yes, he has finished. He finished in June this year.", "vi": "Vâng, anh ấy đã học xong. Anh ấy đã học xong vào tháng Sáu năm nay." },
+          { "speaker": "Jack", "en": "I have never tried durian before.", "vi": "Tôi chưa từng ăn sầu riêng trước đây." },
+          { "speaker": "Phuong", "en": "You should try it sometime!", "vi": "Bạn nên thử một lúc nào đó!" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 70,
+    "dialogue": [
+      {
+        "title": "How is it made?",
+        "lines": [
+          { "speaker": "Minh", "en": "How is coffee produced in Vietnam?", "vi": "Cà phê được sản xuất như thế nào ở Việt Nam?" },
+          { "speaker": "Anna", "en": "It is grown in the highlands, then it is processed in factories.", "vi": "Nó được trồng ở vùng cao nguyên, sau đó được xử lý trong các nhà máy." },
+          { "speaker": "Minh", "en": "Is it packaged there too?", "vi": "Nó cũng được đóng gói ở đó luôn không?" },
+          { "speaker": "Anna", "en": "Yes, it is packaged and then it is delivered to shops.", "vi": "Vâng, nó được đóng gói và sau đó được giao đến các cửa hàng." },
+          { "speaker": "Minh", "en": "Is it distributed to other countries as well?", "vi": "Nó cũng được phân phối đến các quốc gia khác chứ?" },
+          { "speaker": "Anna", "en": "Yes, it is distributed to many countries around the world.", "vi": "Vâng, nó được phân phối đến nhiều quốc gia trên thế giới." }
+        ]
+      },
+      {
+        "title": "The recycling process",
+        "lines": [
+          { "speaker": "Long", "en": "How is plastic recycled here?", "vi": "Nhựa được tái chế như thế nào ở đây?" },
+          { "speaker": "Ha", "en": "It is collected from homes, then it is sorted at the centre.", "vi": "Nó được thu gom từ nhà dân, sau đó được phân loại ở trung tâm." },
+          { "speaker": "Long", "en": "Is it cleaned before it is processed?", "vi": "Nó được làm sạch trước khi được xử lý không?" },
+          { "speaker": "Ha", "en": "Yes, it is cleaned first, then it is melted and reused.", "vi": "Vâng, nó được làm sạch trước, sau đó được nung chảy và tái sử dụng." },
+          { "speaker": "Long", "en": "Are new products made from it?", "vi": "Các sản phẩm mới có được làm từ nó không?" },
+          { "speaker": "Ha", "en": "Yes, new bottles and bags are made from the recycled plastic.", "vi": "Vâng, chai và túi mới được làm từ nhựa tái chế." }
+        ]
+      }
+    ]
+  }
+]

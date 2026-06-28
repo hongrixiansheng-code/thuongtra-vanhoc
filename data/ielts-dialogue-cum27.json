@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 53,
+    "dialogue": [
+      {
+        "title": "City life vs. countryside life",
+        "lines": [
+          { "speaker": "Hoa", "en": "Do you prefer urban or rural life?", "vi": "Bạn thích cuộc sống thành thị hay nông thôn?" },
+          { "speaker": "Sarah", "en": "I prefer rural life. It's more peaceful than the city.", "vi": "Tôi thích cuộc sống nông thôn hơn. Nó yên bình hơn thành phố." },
+          { "speaker": "Hoa", "en": "But isn't the city more developed?", "vi": "Nhưng thành phố không phát triển hơn sao?" },
+          { "speaker": "Sarah", "en": "Yes, it is more developed, but it's also more crowded and more polluted.", "vi": "Vâng, nó phát triển hơn, nhưng nó cũng đông đúc hơn và ô nhiễm hơn." },
+          { "speaker": "Hoa", "en": "What about the suburbs? Are they a good balance?", "vi": "Còn vùng ngoại ô thì sao? Chúng có cân bằng tốt không?" },
+          { "speaker": "Sarah", "en": "I think so. The suburbs are quieter than the city centre, but still convenient.", "vi": "Tôi nghĩ vậy. Vùng ngoại ô yên tĩnh hơn trung tâm thành phố, nhưng vẫn thuận tiện." }
+        ]
+      },
+      {
+        "title": "Population pressure",
+        "lines": [
+          { "speaker": "Hoa", "en": "Is the population growing in this area?", "vi": "Dân số khu vực này có đang tăng không?" },
+          { "speaker": "Sarah", "en": "Yes, the population is the highest it has ever been.", "vi": "Vâng, dân số đang ở mức cao nhất từ trước đến nay." },
+          { "speaker": "Hoa", "en": "That explains why it feels so crowded.", "vi": "Vậy nên mới cảm thấy đông đúc như vậy." },
+          { "speaker": "Sarah", "en": "Exactly. The traffic here is worse than in the suburbs.", "vi": "Chính xác. Giao thông ở đây tệ hơn ở vùng ngoại ô." },
+          { "speaker": "Hoa", "en": "Do you think pollution is a serious problem?", "vi": "Bạn nghĩ ô nhiễm có phải là vấn đề nghiêm trọng không?" },
+          { "speaker": "Sarah", "en": "Yes, the air here is more polluted than it was a few years ago.", "vi": "Vâng, không khí ở đây ô nhiễm hơn so với vài năm trước." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "dialogue": [
+      {
+        "title": "Predicting urban growth",
+        "lines": [
+          { "speaker": "Hoa", "en": "What do you think will happen to this city in the future?", "vi": "Bạn nghĩ điều gì sẽ xảy ra với thành phố này trong tương lai?" },
+          { "speaker": "Sarah", "en": "I think the population will grow a lot, based on the current trend.", "vi": "Tôi nghĩ dân số sẽ tăng rất nhiều, dựa trên xu hướng hiện tại." },
+          { "speaker": "Hoa", "en": "Is the city going to expand into the countryside?", "vi": "Thành phố sẽ mở rộng ra vùng nông thôn chứ?" },
+          { "speaker": "Sarah", "en": "Yes, it is. The government is already planning new roads for that area.", "vi": "Vâng. Chính phủ đang lên kế hoạch xây những con đường mới cho khu vực đó." },
+          { "speaker": "Hoa", "en": "Do you think rural areas will shrink as a result?", "vi": "Bạn nghĩ khu vực nông thôn sẽ thu hẹp lại do vậy không?" },
+          { "speaker": "Sarah", "en": "Probably. More and more people will migrate to the city for work.", "vi": "Có thể. Ngày càng nhiều người sẽ di cư đến thành phố để làm việc." }
+        ]
+      },
+      {
+        "title": "A changing skyline",
+        "lines": [
+          { "speaker": "Hoa", "en": "This area is going to become much busier than it is now.", "vi": "Khu vực này sẽ trở nên bận rộn hơn nhiều so với hiện tại." },
+          { "speaker": "Sarah", "en": "I agree. The population here will probably double in ten years.", "vi": "Tôi đồng ý. Dân số ở đây có thể sẽ tăng gấp đôi trong mười năm." },
+          { "speaker": "Hoa", "en": "Will the city centre become more crowded than the suburbs?", "vi": "Trung tâm thành phố sẽ trở nên đông đúc hơn vùng ngoại ô chứ?" },
+          { "speaker": "Sarah", "en": "Yes, I think so. It is already the most crowded area in the region.", "vi": "Vâng, tôi nghĩ vậy. Nó đã là khu vực đông đúc nhất trong vùng." },
+          { "speaker": "Hoa", "en": "Do you think the government will build more housing?", "vi": "Bạn nghĩ chính phủ sẽ xây thêm nhà ở chứ?" },
+          { "speaker": "Sarah", "en": "Yes, they are going to build several new apartment blocks next year.", "vi": "Vâng, họ sẽ xây thêm vài khu chung cư mới năm sau." }
+        ]
+      }
+    ]
+  }
+]

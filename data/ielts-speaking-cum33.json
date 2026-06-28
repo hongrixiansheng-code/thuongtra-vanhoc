@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 65,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Life experiences",
+        "part": 1,
+        "questions": ["What experiences have you had recently?", "Have you achieved anything special this year?", "What has been your biggest challenge?"],
+        "sampleAnswer": "I have had many interesting experiences recently. Yes, I have achieved a good score in an exam this year. My biggest challenge has been time management."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Have you ever...?",
+        "part": 1,
+        "questions": ["Have you ever travelled abroad?", "Have you ever tried a new sport?", "Have you ever met someone famous?"],
+        "sampleAnswer": "Yes, I have travelled abroad once. Yes, I have tried swimming as a new sport. No, I have never met anyone famous."
+      }
+    ]
+  }
+]

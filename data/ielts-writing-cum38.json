@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 75,
+    "writing": [
+      {
+        "title": "Writing Task 2: Imagine a different life",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) imagining a different situation, using Conditional 2 (If + Past Simple, would).",
+        "minWords": 30,
+        "sampleAnswer": "If I had a lot of money, I would travel around the world. If I were a leader, I would invest more in education. If only we had more time to discuss this.",
+        "checklist": ["Dùng If + Past Simple đúng dạng", "Dùng would + V trong mệnh đề kết quả", "Tình huống mang tính giả định, không có thật"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "writing": [
+      {
+        "title": "Writing Task 2: Real vs hypothetical situations",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) comparing a realistic situation and a hypothetical one, combining Conditional 1 and Conditional 2.",
+        "minWords": 30,
+        "sampleAnswer": "If it rains tomorrow, the match will be cancelled. That is realistic. If I won the lottery, I would buy a big house, but that is just a dream.",
+        "checklist": ["Có 1 câu điều kiện loại 1 (thực tế)", "Có 1 câu điều kiện loại 2 (giả định)", "Phân biệt rõ hai loại trong câu văn"]
+      }
+    ]
+  }
+]

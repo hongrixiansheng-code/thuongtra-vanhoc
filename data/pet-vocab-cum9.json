@@ -1,0 +1,49 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "vocab": [
+        { "word": "however", "ipa": "/haʊˈev.ər/", "type": "adv.", "meaning": "tuy nhiên", "example_en": "He was feeling very ill. However, he went to work.", "example_vi": "Anh ấy cảm thấy rất ốm. Tuy nhiên, anh ấy vẫn đi làm." },
+        { "word": "nevertheless", "ipa": "/ˌnev.ə.ðəˈles/", "type": "adv.", "meaning": "tuy thế mà, tuy nhiên", "example_en": "The weather was bad; nevertheless, we had a good time.", "example_vi": "Thời tiết rất tệ; tuy nhiên, chúng tôi đã có một khoảng thời gian vui vẻ." },
+        { "word": "furthermore", "ipa": "/ˌfɜː.ðəˈmɔːr/", "type": "adv.", "meaning": "hơn nữa", "example_en": "The house is beautiful. Furthermore, it's in a great location.", "example_vi": "Ngôi nhà rất đẹp. Hơn nữa, nó nằm ở một vị trí tuyệt vời." },
+        { "word": "moreover", "ipa": "/mɔːˈrəʊ.vər/", "type": "adv.", "meaning": "hơn thế nữa, ngoài ra", "example_en": "It is a cheap car; moreover, it is very reliable.", "example_vi": "Đó là một chiếc xe rẻ tiền; hơn nữa, nó rất đáng tin cậy." },
+        { "word": "therefore", "ipa": "/ˈðeə.fɔːr/", "type": "adv.", "meaning": "vì vậy, do đó", "example_en": "He was injured and therefore unable to play.", "example_vi": "Anh ấy đã bị thương và do đó không thể thi đấu." },
+        { "word": "consequently", "ipa": "/ˈkɒn.sɪ.kwənt.li/", "type": "adv.", "meaning": "hậu quả là, do đó", "example_en": "I spent most of my money; consequently, I can't afford a holiday.", "example_vi": "Tôi đã tiêu gần hết tiền; do đó, tôi không thể chi trả cho một kỳ nghỉ." },
+        { "word": "in addition", "ipa": "/ɪn əˈdɪʃ.ən/", "type": "phrase", "meaning": "thêm vào đó", "example_en": "In addition to his salary, he earns a lot from investments.", "example_vi": "Thêm vào mức lương của mình, anh ấy còn kiếm được nhiều tiền từ đầu tư." },
+        { "word": "in contrast", "ipa": "/ɪn ˈkɒn.trɑːst/", "type": "phrase", "meaning": "ngược lại, trái lại", "example_en": "The company lost $7 million this quarter in contrast to a profit of $6 million a year earlier.", "example_vi": "Công ty đã lỗ 7 triệu đô la quý này, trái ngược với khoản lợi nhuận 6 triệu đô la một năm trước đó." },
+        { "word": "on the other hand", "ipa": "/ɒn ði ˈʌð.ə ˌhænd/", "type": "phrase", "meaning": "mặt khác", "example_en": "My husband likes classical music. I, on the other hand, like jazz.", "example_vi": "Chồng tôi thích nhạc cổ điển. Mặt khác, tôi thích nhạc jazz." },
+        { "word": "in conclusion", "ipa": "/ɪn kənˈkluː.ʒən/", "type": "phrase", "meaning": "kết luận lại, tóm lại", "example_en": "In conclusion, I would like to thank you for your support.", "example_vi": "Kết luận lại, tôi muốn cảm ơn bạn vì sự ủng hộ của bạn." }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "vocab": [
+        { "word": "carry on", "ipa": "/ˈkær.i ɒn/", "type": "phrasal verb", "meaning": "tiếp tục", "example_en": "Sorry to interrupt, please carry on with your story.", "example_vi": "Xin lỗi vì đã ngắt lời, làm ơn tiếp tục câu chuyện của bạn." },
+        { "word": "carry out", "ipa": "/ˈkær.i aʊt/", "type": "phrasal verb", "meaning": "thực hiện, tiến hành", "example_en": "The researchers carried out several experiments.", "example_vi": "Các nhà nghiên cứu đã tiến hành một vài thí nghiệm." },
+        { "word": "deal with", "ipa": "/diːl wɪð/", "type": "phrasal verb", "meaning": "giải quyết, đối phó với", "example_en": "We need to deal with this problem immediately.", "example_vi": "Chúng ta cần giải quyết vấn đề này ngay lập tức." },
+        { "word": "end up", "ipa": "/end ʌp/", "type": "phrasal verb", "meaning": "cuối cùng thì, kết cục là", "example_en": "We got lost and ended up in a different town.", "example_vi": "Chúng tôi bị lạc và cuối cùng lại đến một thị trấn khác." },
+        { "word": "get along", "ipa": "/ɡet əˈlɒŋ/", "type": "phrasal verb", "meaning": "hòa thuận, có mối quan hệ tốt", "example_en": "I get along very well with my new colleagues.", "example_vi": "Tôi rất hòa thuận với những đồng nghiệp mới của mình." },
+        { "word": "give in", "ipa": "/ɡɪv ɪn/", "type": "phrasal verb", "meaning": "nhượng bộ, đầu hàng", "example_en": "He kept asking until I finally gave in.", "example_vi": "Anh ấy cứ hỏi mãi cho đến khi tôi cuối cùng phải nhượng bộ." },
+        { "word": "give up", "ipa": "/ɡɪv ʌp/", "type": "phrasal verb", "meaning": "từ bỏ, bỏ cuộc", "example_en": "You shouldn't give up your dreams easily.", "example_vi": "Bạn không nên từ bỏ ước mơ của mình một cách dễ dàng." },
+        { "word": "hold on", "ipa": "/həʊld ɒn/", "type": "phrasal verb", "meaning": "đợi một lát, giữ máy", "example_en": "Could you hold on a minute, please?", "example_vi": "Bạn có thể giữ máy một phút được không?" },
+        { "word": "put off", "ipa": "/pʊt ɒf/", "type": "phrasal verb", "meaning": "trì hoãn", "example_en": "The meeting has been put off until next week.", "example_vi": "Cuộc họp đã bị trì hoãn cho đến tuần tới." },
+        { "word": "take up", "ipa": "/teɪk ʌp/", "type": "phrasal verb", "meaning": "bắt đầu một sở thích, thói quen", "example_en": "I've recently taken up yoga to relax.", "example_vi": "Gần đây tôi đã bắt đầu tập yoga để thư giãn." }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "vocab": [
+        { "word": "consider", "ipa": "/kənˈsɪd.ər/", "type": "v.", "meaning": "cân nhắc, xem xét (+ V-ing)", "example_en": "Have you considered starting your own business?", "example_vi": "Bạn đã cân nhắc việc tự bắt đầu kinh doanh chưa?" },
+        { "word": "deny", "ipa": "/dɪˈnaɪ/", "type": "v.", "meaning": "phủ nhận (+ V-ing)", "example_en": "He denied stealing the money from the shop.", "example_vi": "Anh ta phủ nhận việc lấy cắp tiền từ cửa hàng." },
+        { "word": "involve", "ipa": "/ɪnˈvɒlv/", "type": "v.", "meaning": "liên quan đến, đòi hỏi (+ V-ing)", "example_en": "The new job involves travelling abroad frequently.", "example_vi": "Công việc mới đòi hỏi việc đi nước ngoài thường xuyên." },
+        { "word": "mind", "ipa": "/maɪnd/", "type": "v.", "meaning": "phiền, bận tâm (+ V-ing)", "example_en": "Do you mind opening the window?", "example_vi": "Bạn có phiền mở cửa sổ ra không?" },
+        { "word": "risk", "ipa": "/rɪsk/", "type": "v.", "meaning": "có nguy cơ, liều lĩnh (+ V-ing)", "example_en": "He risked losing his job by arriving late again.", "example_vi": "Anh ấy có nguy cơ mất việc vì lại đến muộn." },
+        { "word": "stand", "ipa": "/stænd/", "type": "v.", "meaning": "chịu đựng (can't stand + V-ing)", "example_en": "I can't stand waiting in long queues.", "example_vi": "Tôi không thể chịu được việc phải xếp hàng dài chờ đợi." },
+        { "word": "tolerate", "ipa": "/ˈtɒl.ər.eɪt/", "type": "v.", "meaning": "khoan dung, chịu đựng (+ V-ing)", "example_en": "The school will not tolerate cheating during exams.", "example_vi": "Nhà trường sẽ không khoan nhượng với việc gian lận trong kỳ thi." },
+        { "word": "afford", "ipa": "/əˈfɔːd/", "type": "v.", "meaning": "có đủ khả năng (can afford + to-verb)", "example_en": "We can't afford to buy a new car this year.", "example_vi": "Chúng tôi không có đủ khả năng để mua một chiếc ô tô mới trong năm nay." },
+        { "word": "attempt", "ipa": "/əˈtempt/", "type": "v.", "meaning": "cố gắng, nỗ lực (+ to-verb)", "example_en": "He attempted to escape through the window.", "example_vi": "Anh ấy đã cố gắng trốn thoát qua cửa sổ." },
+        { "word": "refuse", "ipa": "/rɪˈfjuːz/", "type": "v.", "meaning": "từ chối (+ to-verb)", "example_en": "She refused to answer any more questions.", "example_vi": "Cô ấy từ chối trả lời bất kỳ câu hỏi nào nữa." }
+      ]
+    }
+  ]
+}

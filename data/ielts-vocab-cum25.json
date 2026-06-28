@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 49,
+    "vocab": [
+      {
+        "word": "soon",
+        "ipa": "/suːn/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sớm",
+        "example_en": "He will arrive soon.",
+        "example_vi": "Anh ấy sẽ đến sớm.",
+        "level": "A2"
+      },
+      {
+        "word": "later",
+        "ipa": "/ˈleɪ.tər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sau này",
+        "example_en": "Call me later.",
+        "example_vi": "Gọi cho tôi sau nhé.",
+        "level": "A2"
+      },
+      {
+        "word": "tomorrow",
+        "ipa": "/təˈmɒr.əʊ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ngày mai",
+        "example_en": "I will call tomorrow.",
+        "example_vi": "Tôi sẽ gọi vào ngày mai.",
+        "level": "A2"
+      },
+      {
+        "word": "next",
+        "ipa": "/nekst/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "kế tiếp",
+        "example_en": "Next week is good.",
+        "example_vi": "Tuần sau thì tốt.",
+        "level": "A2"
+      },
+      {
+        "word": "future",
+        "ipa": "/ˈfjuː.tʃər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tương lai",
+        "example_en": "My future is bright.",
+        "example_vi": "Tương lai của tôi tươi sáng.",
+        "level": "A2"
+      },
+      {
+        "word": "promise",
+        "ipa": "/ˈprɒm.ɪs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hứa",
+        "example_en": "I promise to help.",
+        "example_vi": "Tôi hứa sẽ giúp.",
+        "level": "A2"
+      },
+      {
+        "word": "offer",
+        "ipa": "/ˈɒf.ər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đề nghị",
+        "example_en": "He offered to help.",
+        "example_vi": "Anh ấy đã đề nghị giúp đỡ.",
+        "level": "A2"
+      },
+      {
+        "word": "agree",
+        "ipa": "/əˈɡriː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đồng ý",
+        "example_en": "I agree with you.",
+        "example_vi": "Tôi đồng ý với bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "refuse",
+        "ipa": "/rɪˈfjuːz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "từ chối",
+        "example_en": "She refused the money.",
+        "example_vi": "Cô ấy đã từ chối nhận tiền.",
+        "level": "A2"
+      },
+      {
+        "word": "accept",
+        "ipa": "/əkˈsept/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chấp nhận",
+        "example_en": "I accept your offer.",
+        "example_vi": "Tôi chấp nhận lời đề nghị của bạn.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "vocab": [
+      {
+        "word": "good",
+        "ipa": "/ɡʊd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tốt",
+        "example_en": "It is a good book.",
+        "example_vi": "Đó là một cuốn sách tốt.",
+        "level": "A2"
+      },
+      {
+        "word": "bad",
+        "ipa": "/bæd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "xấu, tồi",
+        "example_en": "The weather is bad.",
+        "example_vi": "Thời tiết thật tồi tệ.",
+        "level": "A2"
+      },
+      {
+        "word": "beautiful",
+        "ipa": "/ˈbjuː.tɪ.fəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "xinh đẹp",
+        "example_en": "She is beautiful.",
+        "example_vi": "Cô ấy xinh đẹp.",
+        "level": "A2"
+      },
+      {
+        "word": "ugly",
+        "ipa": "/ˈʌɡ.li/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "xấu xí",
+        "example_en": "The bag is ugly.",
+        "example_vi": "Chiếc túi trông xấu xí.",
+        "level": "A2"
+      },
+      {
+        "word": "fast",
+        "ipa": "/fɑːst/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhanh",
+        "example_en": "He runs fast.",
+        "example_vi": "Anh ấy chạy nhanh.",
+        "level": "A2"
+      },
+      {
+        "word": "slow",
+        "ipa": "/sləʊ/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "chậm",
+        "example_en": "The car is slow.",
+        "example_vi": "Chiếc ô tô thì chậm.",
+        "level": "A2"
+      },
+      {
+        "word": "hard",
+        "ipa": "/hɑːd/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "cứng, khó",
+        "example_en": "The bed is hard.",
+        "example_vi": "Giường thì cứng.",
+        "level": "A2"
+      },
+      {
+        "word": "soft",
+        "ipa": "/sɒft/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "mềm mại",
+        "example_en": "The pillow is soft.",
+        "example_vi": "Chiếc gối thì mềm.",
+        "level": "A2"
+      },
+      {
+        "word": "heavy",
+        "ipa": "/ˈhev.i/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nặng",
+        "example_en": "The box is heavy.",
+        "example_vi": "Chiếc hộp rất nặng.",
+        "level": "A2"
+      },
+      {
+        "word": "light",
+        "ipa": "/laɪt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "nhẹ",
+        "example_en": "The bag is light.",
+        "example_vi": "Chiếc túi thì nhẹ.",
+        "level": "A2"
+      }
+    ]
+  }
+]

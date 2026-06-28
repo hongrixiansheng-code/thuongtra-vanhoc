@@ -1,0 +1,147 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 2,
+      "grammar": [
+        {
+          "title": "quite / really / very: khá / thực sự / rất",
+          "desc": "Dùng 'quite', 'really', 'very' trước tính từ để nhấn mạnh mức độ của nó.",
+          "formula": [
+            { "text": "It is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "quite / very / really", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "good.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "The weather is quite hot today.", "meaning": "Thời tiết hôm nay khá nóng." },
+            { "correct": "This book is very interesting.", "meaning": "Quyển sách này rất thú vị." },
+            { "correct": "She is really happy to see you.", "meaning": "Cô ấy thực sự rất vui khi gặp bạn." }
+          ]
+        },
+        {
+          "title": "enough: đủ",
+          "desc": "Dùng 'enough' đứng ngay sau tính từ để nói cái gì đó đã đạt mức độ đủ (để làm gì).",
+          "formula": [
+            { "text": "The box is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "big", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "enough.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "This jacket is warm enough.", "meaning": "Chiếc áo khoác này đủ ấm." },
+            { "correct": "He is not tall enough to play basketball.", "meaning": "Cậu ấy không đủ cao để chơi bóng rổ." },
+            { "correct": "Is the soup hot enough?", "meaning": "Món súp đã đủ nóng chưa?" }
+          ]
+        },
+        {
+          "title": "How + tính từ!: Thật là...!",
+          "desc": "Dùng 'How' cộng với một tính từ để bộc lộ cảm xúc ngạc nhiên, khen ngợi.",
+          "formula": [
+            { "text": "How", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "amazing!", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "How amazing!", "meaning": "Thật là tuyệt vời!" },
+            { "correct": "How enormous the elephant is!", "meaning": "Con voi kia thật khổng lồ!" },
+            { "correct": "How beautiful!", "meaning": "Thật là xinh đẹp!" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A trip to the zoo",
+          "lines": [
+            { "speaker": "A", "en": "Look at the elephant! How enormous!", "vi": "Hãy nhìn con voi kia! Thật khổng lồ!" },
+            { "speaker": "B", "en": "Yes, it is really big.", "vi": "Đúng vậy, nó thực sự rất lớn." },
+            { "speaker": "A", "en": "Is the fence strong enough?", "vi": "Hàng rào có đủ chắc chắn không?" },
+            { "speaker": "B", "en": "Don't worry, it is quite strong.", "vi": "Đừng lo, nó khá là chắc chắn đấy." },
+            { "speaker": "A", "en": "The baby monkey is very funny.", "vi": "Chú khỉ con rất là buồn cười." },
+            { "speaker": "B", "en": "How amazing they are!", "vi": "Chúng mới tuyệt vời làm sao!" }
+          ]
+        },
+        {
+          "title": "Buying clothes",
+          "lines": [
+            { "speaker": "A", "en": "This jacket is very nice.", "vi": "Chiếc áo khoác này rất đẹp." },
+            { "speaker": "B", "en": "But it is quite small for you.", "vi": "Nhưng nó khá nhỏ đối với bạn." },
+            { "speaker": "A", "en": "Yes, it is not big enough.", "vi": "Đúng vậy, nó không đủ to." },
+            { "speaker": "B", "en": "Let's find a larger one.", "vi": "Hãy tìm một chiếc rộng hơn đi." },
+            { "speaker": "A", "en": "Look at this blue jacket. How beautiful!", "vi": "Hãy nhìn chiếc áo màu xanh dương này. Thật đẹp!" },
+            { "speaker": "B", "en": "It looks really warm, too.", "vi": "Trông nó cũng thực sự ấm áp nữa." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "grammar": [
+        {
+          "title": "as ... as: bằng nhau",
+          "desc": "Cấu trúc 'as + tính từ + as' được dùng để so sánh hai người hoặc vật có đặc điểm ngang bằng nhau.",
+          "formula": [
+            { "text": "He is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "as", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "tall", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "as his dad.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "My bag is as heavy as your bag.", "meaning": "Cái túi của tớ nặng bằng cái túi của cậu." },
+            { "correct": "The blue car is as fast as the red car.", "meaning": "Chiếc ô tô màu xanh chạy nhanh bằng chiếc ô tô màu đỏ." },
+            { "correct": "She is as clever as her sister.", "meaning": "Cô ấy thông minh bằng chị gái của mình." }
+          ]
+        },
+        {
+          "title": "not as ... as: không bằng",
+          "desc": "Thêm 'not' vào phía trước để so sánh hai người hoặc vật không bằng nhau.",
+          "formula": [
+            { "text": "I am", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "not as", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "old", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "as my brother.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "This book is not as interesting as that book.", "meaning": "Quyển sách này không thú vị bằng quyển sách kia." },
+            { "correct": "Today is not as hot as yesterday.", "meaning": "Hôm nay không nóng bằng hôm qua." },
+            { "correct": "Lions are not as fast as cheetahs.", "meaning": "Sư tử chạy không nhanh bằng báo đốm." }
+          ]
+        },
+        {
+          "title": "So sánh hơn với -er (Ôn tập)",
+          "desc": "Thêm đuôi '-er' vào sau tính từ ngắn để nói rằng ai đó/cái gì đó có đặc điểm vượt trội hơn.",
+          "formula": [
+            { "text": "A cheetah is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "faster", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "than a lion.", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "My dad is heavier than me.", "meaning": "Bố tớ nặng hơn tớ." },
+            { "correct": "A plane is faster than a train.", "meaning": "Một chiếc máy bay thì nhanh hơn một chiếc xe lửa." },
+            { "correct": "The river is longer than the street.", "meaning": "Con sông thì dài hơn con đường." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Sports and games",
+          "lines": [
+            { "speaker": "A", "en": "Do you like playing basketball?", "vi": "Cậu có thích chơi bóng rổ không?" },
+            { "speaker": "B", "en": "Yes, but I am not as tall as you.", "vi": "Có, nhưng tớ không cao bằng cậu." },
+            { "speaker": "A", "en": "That's okay. You can run faster than me.", "vi": "Không sao đâu. Cậu có thể chạy nhanh hơn tớ." },
+            { "speaker": "B", "en": "Are you as fast as your brother?", "vi": "Cậu có chạy nhanh bằng anh trai cậu không?" },
+            { "speaker": "A", "en": "No, he is the fastest in our family.", "vi": "Không, anh ấy chạy nhanh nhất trong gia đình tớ." },
+            { "speaker": "B", "en": "Wow, he is really good at sports!", "vi": "Chà, anh ấy thực sự giỏi thể thao!" }
+          ]
+        },
+        {
+          "title": "My pets",
+          "lines": [
+            { "speaker": "A", "en": "Look at my two cats.", "vi": "Hãy nhìn hai con mèo của tớ này." },
+            { "speaker": "B", "en": "The white cat is heavier than the black cat.", "vi": "Con mèo màu trắng nặng hơn con mèo màu đen." },
+            { "speaker": "A", "en": "Yes, the black cat is not as heavy as the white one.", "vi": "Đúng vậy, con mèo màu đen không nặng bằng con màu trắng." },
+            { "speaker": "B", "en": "But the black cat is as cute as the white cat.", "vi": "Nhưng con mèo màu đen đáng yêu bằng con mèo màu trắng." },
+            { "speaker": "A", "en": "They are both very playful.", "vi": "Cả hai đều rất thích chơi đùa." },
+            { "speaker": "B", "en": "I love playing with them.", "vi": "Tớ rất thích chơi với chúng." }
+          ]
+        }
+      ]
+    }
+  ]
+}

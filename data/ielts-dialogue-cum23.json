@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 45,
+    "dialogue": [
+      {
+        "title": "Telling a story in order",
+        "lines": [
+          { "speaker": "Phuong", "en": "What did you do yesterday?", "vi": "Hôm qua bạn đã làm gì?" },
+          { "speaker": "Anna", "en": "First, I finished my homework. After that, I called my friend.", "vi": "Đầu tiên, tôi đã làm xong bài tập. Sau đó, tôi đã gọi điện cho bạn." },
+          { "speaker": "Phuong", "en": "What happened then?", "vi": "Sau đó điều gì đã xảy ra?" },
+          { "speaker": "Anna", "en": "Then we came together at the park, and finally we had dinner together.", "vi": "Sau đó chúng tôi đã gặp nhau ở công viên, và cuối cùng chúng tôi đã ăn tối cùng nhau." },
+          { "speaker": "Phuong", "en": "Did you see her before you finished your homework?", "vi": "Bạn có gặp cô ấy trước khi làm xong bài tập không?" },
+          { "speaker": "Anna", "en": "No, I saw her after I finished everything.", "vi": "Không, tôi đã gặp cô ấy sau khi tôi làm xong mọi thứ." }
+        ]
+      },
+      {
+        "title": "A long time ago",
+        "lines": [
+          { "speaker": "Phuong", "en": "When did your family move to this city?", "vi": "Gia đình bạn đã chuyển đến thành phố này khi nào?" },
+          { "speaker": "Anna", "en": "We moved here ten years ago.", "vi": "Chúng tôi đã chuyển đến đây mười năm trước." },
+          { "speaker": "Phuong", "en": "Was it different at that time?", "vi": "Lúc đó nó có khác không?" },
+          { "speaker": "Anna", "en": "Yes, it was very different at that time. There weren't many tall buildings.", "vi": "Vâng, lúc đó nó rất khác. Không có nhiều tòa nhà cao tầng." },
+          { "speaker": "Phuong", "en": "What happened eventually?", "vi": "Cuối cùng điều gì đã xảy ra?" },
+          { "speaker": "Anna", "en": "Eventually, the city changed a lot, and last year it got much busier.", "vi": "Cuối cùng, thành phố đã thay đổi rất nhiều, và năm ngoái nó đã trở nên bận rộn hơn nhiều." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 46,
+    "dialogue": [
+      {
+        "title": "Review: A memorable trip",
+        "lines": [
+          { "speaker": "Phuong", "en": "Tell me about a memorable trip you took.", "vi": "Hãy kể cho tôi về một chuyến đi đáng nhớ bạn đã có." },
+          { "speaker": "Anna", "en": "Two years ago, I visited Hue with my classmates.", "vi": "Hai năm trước, tôi đã thăm Huế cùng các bạn cùng lớp." },
+          { "speaker": "Phuong", "en": "What did you do first?", "vi": "Bạn đã làm gì đầu tiên?" },
+          { "speaker": "Anna", "en": "First, we explored the old citadel. Then we took a lot of photos.", "vi": "Đầu tiên, chúng tôi đã khám phá hoàng thành. Sau đó chúng tôi đã chụp rất nhiều ảnh." },
+          { "speaker": "Phuong", "en": "Did anything go wrong during the trip?", "vi": "Có điều gì không suôn sẻ trong chuyến đi không?" },
+          { "speaker": "Anna", "en": "We didn't have a map at first, so we got lost. Finally, a kind local helped us, and everything was fine.", "vi": "Lúc đầu chúng tôi không có bản đồ nên đã bị lạc. Cuối cùng, một người dân thân thiện đã giúp chúng tôi, và mọi thứ đã ổn." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 71,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Inventions and history",
+        "part": 3,
+        "questions": ["What is an invention that has changed people's lives?", "When was it invented?", "Why do you think it was important?"],
+        "sampleAnswer": "I think the telephone has changed people's lives a lot. It was invented by Alexander Graham Bell many years ago. It was important because it allowed people to communicate quickly over long distances."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Media and news",
+        "part": 3,
+        "questions": ["How do people get news nowadays?", "Has any important news been announced recently?", "Why is media important in society?"],
+        "sampleAnswer": "Nowadays, news is usually published online and shared on social media. Yes, some important results have just been reported recently. Media is important because it helps people stay informed about events."
+      }
+    ]
+  }
+]

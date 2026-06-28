@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 75,
+    "listening": [
+      {
+        "title": "Listening: Dreaming big",
+        "transcript": "If I had a lot of money, I would travel around the world. If I had more free time, I would learn a new language.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What would the speaker do with a lot of money?", "options": ["Buy a house", "Travel around the world", "Start a business"], "correct": "Travel around the world", "explanation": "\"If I had a lot of money, I would travel around the world.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "listening": [
+      {
+        "title": "Listening: Real plans vs dreams",
+        "transcript": "If it rains tomorrow, the match will be cancelled. If I won the lottery, I would buy a big house.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What will happen if it rains tomorrow?", "options": ["The match will continue", "The match will be cancelled", "Nothing will change"], "correct": "The match will be cancelled", "explanation": "\"If it rains tomorrow, the match will be cancelled.\"" }
+        ]
+      }
+    ]
+  }
+]

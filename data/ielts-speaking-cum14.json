@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 27,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Hobbies",
+        "part": 1,
+        "questions": ["What do you do in your free time?", "Do you like to travel?", "What kind of music do you listen to?"],
+        "sampleAnswer": "I usually read books and listen to music. Yes, I love to travel. I usually listen to pop music."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — Describe a typical day",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a typical day in your life.",
+          "bullets": ["what time you wake up", "what you do for work or school", "what you do in your free time", "and explain whether you enjoy your daily routine"]
+        },
+        "questions": [],
+        "sampleAnswer": "I always wake up at six in the morning. I am a teacher, and I teach English in the afternoon. I rarely watch TV at night; I usually read books instead. I enjoy my daily routine because it is calm and useful."
+      }
+    ]
+  }
+]

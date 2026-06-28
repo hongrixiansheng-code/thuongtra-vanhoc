@@ -1,0 +1,186 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 6,
+      "title": "Bài 4.a: Quần áo (1/2)",
+      "theme": "Quần áo, màu sắc & vật liệu",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "belt",
+          "ipa": "/belt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thắt lưng",
+          "example_en": "He wears a black belt.",
+          "example_vi": "Anh ấy đeo một chiếc thắt lưng màu đen."
+        },
+        {
+          "word": "bracelet",
+          "ipa": "/ˈbreɪslət/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vòng tay",
+          "example_en": "She has a beautiful bracelet.",
+          "example_vi": "Cô ấy có một chiếc vòng tay đẹp."
+        },
+        {
+          "word": "costume",
+          "ipa": "/ˈkɒstjuːm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trang phục (hóa trang)",
+          "example_en": "I wear a pirate costume.",
+          "example_vi": "Tôi mặc một bộ trang phục hải tặc."
+        },
+        {
+          "word": "crown",
+          "ipa": "/kraʊn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vương miện",
+          "example_en": "The queen wears a crown.",
+          "example_vi": "Nữ hoàng đội một chiếc vương miện."
+        },
+        {
+          "word": "glove",
+          "ipa": "/ɡlʌv/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "găng tay",
+          "example_en": "I lost my left glove.",
+          "example_vi": "Tôi đã làm mất chiếc găng tay bên trái."
+        },
+        {
+          "word": "necklace",
+          "ipa": "/ˈnekləs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vòng cổ",
+          "example_en": "This is a gold necklace.",
+          "example_vi": "Đây là một chiếc vòng cổ bằng vàng."
+        },
+        {
+          "word": "pajamas",
+          "ipa": "/pəˈdʒɑːməz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đồ ngủ (tiếng Anh Mỹ)",
+          "example_en": "I put on my pajamas.",
+          "example_vi": "Tôi mặc đồ ngủ vào."
+        },
+        {
+          "word": "pocket",
+          "ipa": "/ˈpɒkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "túi (quần, áo)",
+          "example_en": "I have some money in my pocket.",
+          "example_vi": "Tôi có một ít tiền trong túi quần."
+        },
+        {
+          "word": "pyjamas",
+          "ipa": "/pəˈdʒɑːməz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đồ ngủ (tiếng Anh Anh)",
+          "example_en": "He is wearing blue pyjamas.",
+          "example_vi": "Cậu ấy đang mặc bộ đồ ngủ màu xanh."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 7,
+      "title": "Bài 4.b: Quần áo (2/2)",
+      "theme": "Quần áo, màu sắc & vật liệu",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "ring",
+          "ipa": "/rɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chiếc nhẫn",
+          "example_en": "She wears a silver ring.",
+          "example_vi": "Cô ấy đeo một chiếc nhẫn bạc."
+        },
+        {
+          "word": "spot",
+          "ipa": "/spɒt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dấu chấm, đốm",
+          "example_en": "The dog has a black spot.",
+          "example_vi": "Con chó có một đốm đen."
+        },
+        {
+          "word": "spotted",
+          "ipa": "/ˈspɒtɪd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có đốm, chấm bi",
+          "example_en": "I like that spotted shirt.",
+          "example_vi": "Tôi thích chiếc áo sơ mi chấm bi đó."
+        },
+        {
+          "word": "stripe",
+          "ipa": "/straɪp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kẻ sọc",
+          "example_en": "The tiger has orange and black stripes.",
+          "example_vi": "Con hổ có những đường kẻ sọc màu cam và đen."
+        },
+        {
+          "word": "striped",
+          "ipa": "/straɪpt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có sọc",
+          "example_en": "He wears a striped T-shirt.",
+          "example_vi": "Anh ấy mặc một chiếc áo phông kẻ sọc."
+        },
+        {
+          "word": "sunglasses",
+          "ipa": "/ˈsʌnɡlæsɪz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kính râm",
+          "example_en": "I wear sunglasses in the summer.",
+          "example_vi": "Tôi đeo kính râm vào mùa hè."
+        },
+        {
+          "word": "trainers",
+          "ipa": "/ˈtreɪnərz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giày thể thao",
+          "example_en": "I bought a new pair of trainers.",
+          "example_vi": "Tôi đã mua một đôi giày thể thao mới."
+        },
+        {
+          "word": "umbrella",
+          "ipa": "/ʌmˈbrelə/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái ô (dù)",
+          "example_en": "Don't forget your umbrella.",
+          "example_vi": "Đừng quên mang theo ô của bạn nhé."
+        },
+        {
+          "word": "uniform",
+          "ipa": "/ˈjuːnɪfɔːrm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đồng phục",
+          "example_en": "We wear a school uniform.",
+          "example_vi": "Chúng tôi mặc đồng phục trường học."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

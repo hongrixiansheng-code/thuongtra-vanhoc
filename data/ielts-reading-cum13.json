@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 25,
+    "reading": [
+      {
+        "title": "Reading: Jobs in my family",
+        "passage": "My father is a doctor. He works at a hospital and helps many patients every day. My mother is a nurse. She takes care of patients and gives them medicine. My uncle is a farmer who grows rice and vegetables.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The father is a nurse.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Bố là bác sĩ (\"doctor\"), không phải nurse." },
+          { "type": "multiple_choice", "question": "What does the uncle grow?", "options": ["Rice and vegetables", "Fruit and flowers", "Coffee and tea"], "correct": "Rice and vegetables", "explanation": "\"grows rice and vegetables\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "reading": [
+      {
+        "title": "Reading: What do they do?",
+        "passage": "I am a programmer. I write computer code. My sister is an architect. She designs buildings. My father is a pilot, and my mother is a journalist. My friend is a scientist who does research.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The sister designs buildings.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"She designs buildings.\"" },
+          { "type": "multiple_choice", "question": "What is the mother's job?", "options": ["Pilot", "Journalist", "Architect"], "correct": "Journalist", "explanation": "\"my mother is a journalist.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 43,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Learning experiences",
+        "part": 1,
+        "questions": ["When did you start learning English?", "Why did you decide to learn it?", "How long did you study every week?"],
+        "sampleAnswer": "I started learning English when I was ten. I decided to learn it because I wanted to travel. I studied for about five hours every week."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Mistakes and explanations",
+        "part": 1,
+        "questions": ["Did you ever miss an important meeting or class?", "Why didn't you go?", "What happened afterwards?"],
+        "sampleAnswer": "Yes, I missed an important meeting once. I didn't go because I didn't have time. Afterwards, I told my manager and explained the situation."
+      }
+    ]
+  }
+]

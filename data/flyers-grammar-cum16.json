@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 30,
+      "grammar": [
+        {
+          "title": "in + tháng / năm",
+          "desc": "Dùng giới từ 'in' đứng trước các tháng trong năm (như January, February) hoặc các năm để chỉ thời gian.",
+          "formula": [
+            { "text": "My birthday is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "in", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "January.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "We will go on holiday in August.", "meaning": "Chúng tôi sẽ đi nghỉ mát vào tháng Tám." },
+            { "correct": "She was born in 2010.", "meaning": "Cô ấy sinh năm 2010." },
+            { "correct": "The weather is very hot in July.", "meaning": "Thời tiết rất nóng vào tháng Bảy." }
+          ]
+        },
+        {
+          "title": "Bộ 3 giới từ thời gian: in / on / at",
+          "desc": "Nhớ quy tắc: 'in' + tháng/năm/mùa, 'on' + ngày/thứ, 'at' + giờ cụ thể/dịp lễ.",
+          "formula": [
+            { "text": "in May", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "/ on Monday /", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "at 6 o'clock", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have a class on Monday.", "meaning": "Tớ có một lớp học vào ngày thứ Hai." },
+            { "correct": "The party starts at 7 o'clock.", "meaning": "Bữa tiệc bắt đầu lúc 7 giờ." },
+            { "correct": "It snows a lot in December.", "meaning": "Trời có tuyết rơi nhiều vào tháng Mười Hai." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp về Thời gian",
+          "desc": "Cùng ôn lại các giới từ và cụm từ chỉ thời gian đã học: for, during, since, until, by, in, on, at.",
+          "formula": [
+            { "text": "Time", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "prepositions", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "(Giới từ)", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Wait until Sunday.", "meaning": "Hãy đợi cho đến ngày Chủ nhật." },
+            { "correct": "I have studied since September.", "meaning": "Tớ đã học kể từ tháng Chín." },
+            { "correct": "We must finish it by November.", "meaning": "Chúng ta phải hoàn thành nó trước lúc tháng Mười Một." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Planning a party",
+          "lines": [
+            { "speaker": "A", "en": "When is your birthday?", "vi": "Sinh nhật của cậu là khi nào vậy?" },
+            { "speaker": "B", "en": "My birthday is in October.", "vi": "Sinh nhật của tớ là vào tháng Mười." },
+            { "speaker": "A", "en": "Let's have a party on Saturday.", "vi": "Hãy tổ chức một bữa tiệc vào ngày thứ Bảy nhé." },
+            { "speaker": "B", "en": "Great idea. The party will start at 5 o'clock.", "vi": "Ý hay đấy. Bữa tiệc sẽ bắt đầu lúc 5 giờ." },
+            { "speaker": "A", "en": "I will buy a present for you before the party.", "vi": "Tớ sẽ mua một món quà cho cậu trước bữa tiệc." },
+            { "speaker": "B", "en": "Thank you! We will play games until it gets dark.", "vi": "Cảm ơn cậu! Chúng ta sẽ chơi trò chơi cho đến khi trời tối." }
+          ]
+        },
+        {
+          "title": "A winter trip",
+          "lines": [
+            { "speaker": "A", "en": "We are going to visit my uncle in December.", "vi": "Chúng tớ sẽ đi thăm chú tớ vào tháng Mười Hai." },
+            { "speaker": "B", "en": "That sounds fun. Is it cold in December?", "vi": "Nghe vui đấy. Vào tháng Mười Hai trời có lạnh không?" },
+            { "speaker": "A", "en": "Yes, it is very cold. It usually snows.", "vi": "Có, trời rất lạnh. Trời thường xuyên có tuyết." },
+            { "speaker": "B", "en": "How long will you stay there?", "vi": "Cậu sẽ ở đó bao lâu?" },
+            { "speaker": "A", "en": "We will stay there for a week.", "vi": "Chúng tớ sẽ ở đó trong một tuần." },
+            { "speaker": "B", "en": "I hope you have a great time during your trip.", "vi": "Tớ hy vọng cậu sẽ có khoảng thời gian tuyệt vời trong suốt chuyến đi." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 31,
+      "grammar": [
+        {
+          "title": "after / before + V-ing",
+          "desc": "Thay vì dùng một câu hoàn chỉnh sau 'after' hoặc 'before', bạn có thể rút gọn nó bằng cách thêm đuôi '-ing' vào động từ (nếu hai hành động cùng do một người thực hiện).",
+          "formula": [
+            { "text": "After", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "arriving", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "at home, she called me.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "After doing her homework, she watched TV.", "meaning": "Sau khi làm xong bài tập, cô ấy đã xem TV." },
+            { "correct": "Wash your hands before eating dinner.", "meaning": "Hãy rửa tay của bạn trước khi ăn bữa tối." },
+            { "correct": "Before going to bed, I read a book.", "meaning": "Trước khi đi ngủ, tớ đọc một quyển sách." }
+          ]
+        },
+        {
+          "title": "Rút gọn mệnh đề thời gian",
+          "desc": "So sánh: 'After she arrived...' (Mệnh đề đầy đủ) và 'After arriving...' (Mệnh đề rút gọn với V-ing). Cả hai đều có nghĩa giống nhau.",
+          "formula": [
+            { "text": "Before you leave", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "=", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "Before leaving", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "She drank water after running.", "meaning": "Cô ấy đã uống nước sau khi chạy." },
+            { "correct": "Think carefully before answering.", "meaning": "Hãy suy nghĩ cẩn thận trước khi trả lời." },
+            { "correct": "He fell asleep after reading.", "meaning": "Cậu ấy đã ngủ thiếp đi sau khi đọc sách." }
+          ]
+        },
+        {
+          "title": "Quá khứ đơn: Động từ bất quy tắc mới",
+          "desc": "Ôn tập các động từ bất quy tắc thường gặp ở Flyers: fall -> fell, forget -> forgot, hear -> heard, keep -> kept, leave -> left, understand -> understood.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "forgot", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "my keys.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I heard a loud noise.", "meaning": "Tôi đã nghe thấy một tiếng ồn lớn." },
+            { "correct": "He left the house early.", "meaning": "Cậu ấy đã rời khỏi nhà từ sớm." },
+            { "correct": "The boy fell down yesterday.", "meaning": "Cậu bé đã bị ngã vào ngày hôm qua." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A tiring day",
+          "lines": [
+            { "speaker": "A", "en": "I am very tired today.", "vi": "Hôm nay tớ rất mệt." },
+            { "speaker": "B", "en": "What did you do yesterday?", "vi": "Cậu đã làm gì vào ngày hôm qua?" },
+            { "speaker": "A", "en": "After finishing my homework, I ran to the park.", "vi": "Sau khi làm xong bài tập về nhà, tớ đã chạy ra công viên." },
+            { "speaker": "B", "en": "Did you rest before running?", "vi": "Cậu có nghỉ ngơi trước khi chạy không?" },
+            { "speaker": "A", "en": "No, I forgot to rest. Then I fell down.", "vi": "Không, tớ đã quên nghỉ ngơi. Sau đó tớ đã bị ngã." },
+            { "speaker": "B", "en": "You must be careful before playing outside.", "vi": "Cậu phải cẩn thận trước khi chơi ở bên ngoài nhé." }
+          ]
+        },
+        {
+          "title": "Leaving the house",
+          "lines": [
+            { "speaker": "A", "en": "Before leaving the house, I heard a noise.", "vi": "Trước khi rời khỏi nhà, tớ đã nghe thấy một tiếng ồn." },
+            { "speaker": "B", "en": "What was it?", "vi": "Đó là tiếng gì vậy?" },
+            { "speaker": "A", "en": "It was my cat. She broke a glass.", "vi": "Đó là con mèo của tớ. Nó đã làm vỡ một cái cốc." },
+            { "speaker": "B", "en": "Oh dear! Did you clean it up?", "vi": "Ôi trời! Cậu có dọn dẹp nó không?" },
+            { "speaker": "A", "en": "Yes. After cleaning the floor, I went to school.", "vi": "Có. Sau khi dọn dẹp sàn nhà, tớ đã đi đến trường." },
+            { "speaker": "B", "en": "You are a very responsible boy.", "vi": "Cậu là một cậu bé rất có trách nhiệm." }
+          ]
+        }
+      ]
+    }
+  ]
+}

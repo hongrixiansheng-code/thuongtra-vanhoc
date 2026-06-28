@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 55,
+    "listening": [
+      {
+        "title": "Listening: Review — The future city",
+        "transcript": "The population is going to grow quickly. The city will probably be the busiest city in the region. Many people are planning to move to the suburbs because they are quieter.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Why are people moving to the suburbs?", "options": ["Cheaper rent", "Quieter living", "Closer to school"], "correct": "Quieter living", "explanation": "\"because they are quieter\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 56,
+    "listening": [
+      {
+        "title": "Listening: Rules announcement",
+        "transcript": "All visitors must show their ID card at the gate. You mustn't smoke inside the building. Employees must arrive on time every day.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What must visitors show at the gate?", "options": ["A ticket", "Their ID card", "A passport"], "correct": "Their ID card", "explanation": "\"All visitors must show their ID card at the gate.\"" }
+        ]
+      }
+    ]
+  }
+]

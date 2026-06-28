@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 25,
+    "listening": [
+      {
+        "title": "Listening: A family of jobs",
+        "transcript": "My father is a doctor. He works at a hospital. My mother is a nurse. She takes care of patients.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the mother's job?", "options": ["Doctor", "Nurse", "Teacher"], "correct": "Nurse", "explanation": "\"My mother is a nurse.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "listening": [
+      {
+        "title": "Listening: Career questions",
+        "transcript": "I am a programmer. I write computer code. My sister is an architect. She designs buildings.",
+        "questions": [
+          { "type": "form_completion", "question": "The sister's job is an ___.", "options": ["architect", "accountant", "pilot"], "correct": "architect", "explanation": "\"My sister is an architect.\"" }
+        ]
+      }
+    ]
+  }
+]

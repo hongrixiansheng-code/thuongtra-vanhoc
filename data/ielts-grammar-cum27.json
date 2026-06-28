@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 53,
+    "grammar": [
+      {
+        "title": "Ôn tập So sánh (hơn / nhất / bằng)",
+        "desc": "Tổng hợp 3 dạng so sánh để mô tả và đối chiếu môi trường sống: thành phố và nông thôn.",
+        "formula": [
+          { "text": "Adj-er/more + than (hơn)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "the Adj-est/the most (nhất)", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "as...as / not as...as (bằng)", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "The city is more crowded than the countryside.", "vi": "Thành phố đông đúc hơn nông thôn." },
+          { "en": "This is the most peaceful village I have ever seen.", "vi": "Đây là làng quê yên bình nhất tôi từng thấy." },
+          { "en": "Life here isn't as fast as life in the city.", "vi": "Cuộc sống ở đây không nhanh bằng cuộc sống ở thành phố." }
+        ],
+        "note": "Khi viết Task 1 dạng so sánh (bar chart, hai biểu đồ), nên kết hợp cả 3 dạng so sánh để bài viết phong phú hơn.",
+        "practiceList": [
+          { "question": "The countryside is ___ (peaceful) than the city.", "correct": "more peaceful", "meaning": "Nông thôn yên bình hơn thành phố.", "explanation": "Tính từ dài dùng \"more + adj + than\"." },
+          { "question": "This is ___ (developed) area in the region.", "correct": "the most developed", "meaning": "Đây là khu vực phát triển nhất trong vùng.", "explanation": "So sánh nhất dùng \"the most + adj\"." },
+          { "question": "The suburb isn't ___ (polluted) as the city centre.", "correct": "as polluted", "meaning": "Vùng ngoại ô không ô nhiễm bằng trung tâm thành phố.", "explanation": "So sánh không bằng dùng \"not as + adj + as\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 54,
+    "grammar": [
+      {
+        "title": "Ôn tập: will / going to trong bối cảnh biến đổi dân số & đô thị",
+        "desc": "Kết hợp will (dự đoán) và going to (kế hoạch/xu hướng rõ ràng) để nói về sự thay đổi dân số và đô thị hóa trong tương lai.",
+        "formula": [
+          { "text": "will + V (dự đoán xu hướng)", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "is/are going to + V (xu hướng rõ ràng)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "The population will probably grow quickly in the next ten years.", "vi": "Dân số có thể sẽ tăng nhanh trong mười năm tới." },
+          { "en": "Based on the data, the city is going to become more crowded.", "vi": "Dựa trên dữ liệu, thành phố sẽ trở nên đông đúc hơn." },
+          { "en": "More people will move to urban areas than rural areas.", "vi": "Sẽ có nhiều người di chuyển đến khu vực thành thị hơn khu vực nông thôn." }
+        ],
+        "note": "Khi có dữ liệu/biểu đồ cụ thể (rõ xu hướng), nên dùng \"going to\" hoặc \"will\" kèm so sánh để diễn đạt dự đoán có cơ sở.",
+        "practiceList": [
+          { "question": "Based on this trend, the town ___ (expand) a lot.", "correct": "is going to expand", "meaning": "Dựa trên xu hướng này, thị trấn sẽ mở rộng rất nhiều.", "explanation": "Xu hướng rõ ràng từ dữ liệu dùng \"going to\"." },
+          { "question": "I think rural areas ___ (have) fewer people in the future.", "correct": "will have", "meaning": "Tôi nghĩ khu vực nông thôn sẽ có ít người hơn trong tương lai.", "explanation": "Dự đoán chung dùng \"will\"." },
+          { "question": "The city ___ (become) more crowded than the countryside.", "correct": "will become", "meaning": "Thành phố sẽ trở nên đông đúc hơn nông thôn.", "explanation": "Dự đoán xu hướng kết hợp so sánh \"more...than\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 39,
+    "dialogue": [
+      {
+        "title": "After the football match",
+        "lines": [
+          { "speaker": "Lan", "en": "Did your team win the match yesterday?", "vi": "Đội của bạn có thắng trận đấu hôm qua không?" },
+          { "speaker": "James", "en": "Yes! We trained really hard last week, and it worked.", "vi": "Có! Chúng tôi đã luyện tập rất chăm chỉ tuần trước, và nó đã hiệu quả." },
+          { "speaker": "Lan", "en": "How many goals did your team score?", "vi": "Đội của bạn đã ghi bao nhiêu bàn?" },
+          { "speaker": "James", "en": "We scored three goals, and we defeated the other team easily.", "vi": "Chúng tôi đã ghi ba bàn, và chúng tôi đã đánh bại đội đối phương dễ dàng." },
+          { "speaker": "Lan", "en": "Did the game finish early?", "vi": "Trận đấu có kết thúc sớm không?" },
+          { "speaker": "James", "en": "No, it finished quite late, but everyone enjoyed it.", "vi": "Không, nó kết thúc khá muộn, nhưng mọi người đều thích thú." }
+        ]
+      },
+      {
+        "title": "A swimming competition",
+        "lines": [
+          { "speaker": "Lan", "en": "How did you prepare for the swimming competition?", "vi": "Bạn đã chuẩn bị cho cuộc thi bơi như thế nào?" },
+          { "speaker": "James", "en": "I trained every morning for two months before the event.", "vi": "Tôi đã tập luyện mỗi sáng trong hai tháng trước cuộc thi." },
+          { "speaker": "Lan", "en": "Did many people compete?", "vi": "Có nhiều người tham gia thi không?" },
+          { "speaker": "James", "en": "Yes, twenty swimmers competed in my group.", "vi": "Vâng, hai mươi vận động viên đã tranh tài trong nhóm của tôi." },
+          { "speaker": "Lan", "en": "Did you achieve your goal?", "vi": "Bạn có đạt được mục tiêu của mình không?" },
+          { "speaker": "James", "en": "Yes, I achieved my best time ever, so I was very proud.", "vi": "Vâng, tôi đã đạt thành tích tốt nhất từ trước đến nay, nên tôi rất tự hào." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "dialogue": [
+      {
+        "title": "A weekend trip with friends",
+        "lines": [
+          { "speaker": "Lan", "en": "Where did you go last weekend?", "vi": "Cuối tuần trước bạn đã đi đâu?" },
+          { "speaker": "James", "en": "We went to the beach with some friends.", "vi": "Chúng tôi đã đi biển với vài người bạn." },
+          { "speaker": "Lan", "en": "Did you have a good time?", "vi": "Bạn có vui không?" },
+          { "speaker": "James", "en": "Yes, we had a wonderful time. We saw a beautiful sunset together.", "vi": "Vâng, chúng tôi đã có một khoảng thời gian tuyệt vời. Chúng tôi đã thấy một cảnh hoàng hôn đẹp." },
+          { "speaker": "Lan", "en": "Did your friends come too?", "vi": "Bạn của bạn cũng đến chứ?" },
+          { "speaker": "James", "en": "Yes, they came early, and we made a small bonfire on the sand.", "vi": "Vâng, họ đã đến sớm, và chúng tôi đã đốt một đống lửa nhỏ trên cát." }
+        ]
+      },
+      {
+        "title": "Talking about a busy week",
+        "lines": [
+          { "speaker": "Lan", "en": "Did you get much sleep this week?", "vi": "Tuần này bạn có ngủ được nhiều không?" },
+          { "speaker": "James", "en": "Not really, but I got a lot of work done.", "vi": "Không hẳn, nhưng tôi đã hoàn thành được nhiều việc." },
+          { "speaker": "Lan", "en": "What did you make for the project?", "vi": "Bạn đã làm gì cho dự án?" },
+          { "speaker": "James", "en": "I made a presentation and a short video.", "vi": "Tôi đã làm một bài trình bày và một video ngắn." },
+          { "speaker": "Lan", "en": "Did you see your teacher about it?", "vi": "Bạn có gặp giáo viên của bạn về việc đó không?" },
+          { "speaker": "James", "en": "Yes, I saw her on Friday, and she had some good advice for me.", "vi": "Vâng, tôi đã gặp cô vào thứ Sáu, và cô đã có vài lời khuyên hay cho tôi." }
+        ]
+      }
+    ]
+  }
+]

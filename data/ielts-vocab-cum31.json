@@ -1,0 +1,202 @@
+[
+  {
+    "lessonOrder": 60,
+    "vocab": [
+      {
+        "word": "wish",
+        "ipa": "/wɪʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ước, mong muốn",
+        "example_en": "I wish you well.",
+        "example_vi": "Tôi chúc bạn mạnh khỏe.",
+        "level": "A2"
+      },
+      {
+        "word": "hope",
+        "ipa": "/həʊp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hy vọng",
+        "example_en": "I hope so.",
+        "example_vi": "Tôi hy vọng vậy.",
+        "level": "A2"
+      },
+      {
+        "word": "decide",
+        "ipa": "/dɪˈsaɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "quyết định",
+        "example_en": "I decided to stay.",
+        "example_vi": "Tôi đã quyết định ở lại.",
+        "level": "A2"
+      },
+      {
+        "word": "select",
+        "ipa": "/sɪˈlekt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lựa chọn",
+        "example_en": "Select an option.",
+        "example_vi": "Hãy chọn một phương án.",
+        "level": "A2"
+      },
+      {
+        "word": "pick",
+        "ipa": "/pɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chọn, hái",
+        "example_en": "Pick a card.",
+        "example_vi": "Hãy chọn một lá bài.",
+        "level": "A2"
+      },
+      {
+        "word": "mind",
+        "ipa": "/maɪnd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tâm trí",
+        "example_en": "Keep it in mind.",
+        "example_vi": "Hãy ghi nhớ điều đó.",
+        "level": "A2"
+      },
+      {
+        "word": "brain",
+        "ipa": "/breɪn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "não bộ",
+        "example_en": "Use your brain.",
+        "example_vi": "Hãy sử dụng bộ não của bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "heart",
+        "ipa": "/hɑːt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "trái tim",
+        "example_en": "My heart beats fast.",
+        "example_vi": "Trái tim tôi đập nhanh.",
+        "level": "A2"
+      },
+      {
+        "word": "soul",
+        "ipa": "/səʊl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "linh hồn",
+        "example_en": "A kind soul.",
+        "example_vi": "Một tâm hồn lương thiện.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 61,
+    "vocab": [
+      {
+        "word": "read",
+        "ipa": "/riːd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đọc",
+        "example_en": "I like to read.",
+        "example_vi": "Tôi thích đọc sách.",
+        "level": "A2"
+      },
+      {
+        "word": "watch",
+        "ipa": "/wɒtʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xem",
+        "example_en": "Watch a movie.",
+        "example_vi": "Xem một bộ phim.",
+        "level": "A2"
+      },
+      {
+        "word": "listen",
+        "ipa": "/ˈlɪs.ən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghe",
+        "example_en": "Listen to me.",
+        "example_vi": "Hãy nghe tôi nói.",
+        "level": "A2"
+      },
+      {
+        "word": "play",
+        "ipa": "/pleɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chơi",
+        "example_en": "Play the guitar.",
+        "example_vi": "Chơi đàn ghi ta.",
+        "level": "A2"
+      },
+      {
+        "word": "enjoy",
+        "ipa": "/ɪnˈdʒɔɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thưởng thức, thích",
+        "example_en": "Enjoy the meal.",
+        "example_vi": "Hãy thưởng thức bữa ăn.",
+        "level": "A2"
+      },
+      {
+        "word": "love",
+        "ipa": "/lʌv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "yêu thích",
+        "example_en": "I love this song.",
+        "example_vi": "Tôi yêu bài hát này.",
+        "level": "A2"
+      },
+      {
+        "word": "like",
+        "ipa": "/laɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thích",
+        "example_en": "I like it.",
+        "example_vi": "Tôi thích nó.",
+        "level": "A2"
+      },
+      {
+        "word": "prefer",
+        "ipa": "/prɪˈfɜːr/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thích hơn",
+        "example_en": "I prefer coffee.",
+        "example_vi": "Tôi thích cà phê hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "interest",
+        "ipa": "/ˈɪn.trəst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sự quan tâm, sở thích",
+        "example_en": "I have an interest.",
+        "example_vi": "Tôi có một sở thích.",
+        "level": "A2"
+      },
+      {
+        "word": "hobby",
+        "ipa": "/ˈhɒb.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "sở thích",
+        "example_en": "My hobby is reading.",
+        "example_vi": "Sở thích của tôi là đọc sách.",
+        "level": "A2"
+      }
+    ]
+  }
+]

@@ -1,8 +1,9 @@
+import prisma from '@/lib/prisma';
 import { PrismaClient } from "database";
 import LessonClient from "./LessonClient";
 
 async function getData() {
-  const prisma = new PrismaClient();
+
 
   const lessons = await prisma.lesson.findMany({
     include: { 

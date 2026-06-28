@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 15,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe items by colour and size",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing some objects using colours, sizes, and plural nouns correctly.",
+        "minWords": 30,
+        "sampleAnswer": "I need a small red bag and a big blue box. I also want two white pens and three green cards. The shop has tiny boxes too, but I prefer the wide ones.",
+        "checklist": ["Dùng đúng số nhiều (-s/-es/bất quy tắc)", "Có ít nhất 2 màu sắc và 2 kích thước", "Câu văn rõ ràng, không lặp từ quá nhiều"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe lost items",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing some everyday objects using this/that/these/those.",
+        "minWords": 30,
+        "sampleAnswer": "This is my key, and these are my glasses. I can't find my phone. These tickets are for tomorrow's concert. Is this your wallet?",
+        "checklist": ["Dùng this/that cho số ít, these/those cho số nhiều", "Liệt kê ít nhất 4 đồ vật hàng ngày", "Câu văn đúng ngữ pháp số ít/số nhiều"]
+      }
+    ]
+  }
+]

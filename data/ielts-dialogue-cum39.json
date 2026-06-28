@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 77,
+    "dialogue": [
+      {
+        "title": "Talking about notable people",
+        "lines": [
+          { "speaker": "Emma", "en": "Do you know the scientist who discovered this?", "vi": "Bạn có biết nhà khoa học đã phát hiện ra điều này không?" },
+          { "speaker": "Nam", "en": "Yes, she is the woman who won a major award last year.", "vi": "Vâng, cô ấy là người phụ nữ đã giành một giải thưởng lớn năm ngoái." },
+          { "speaker": "Emma", "en": "I admire athletes who train every single day.", "vi": "Tôi ngưỡng mộ những vận động viên tập luyện mỗi ngày." },
+          { "speaker": "Nam", "en": "Me too. I know a runner who has competed in many countries.", "vi": "Tôi cũng vậy. Tôi biết một người chạy đã thi đấu ở nhiều quốc gia." },
+          { "speaker": "Emma", "en": "Who is the inventor who created this product?", "vi": "Ai là nhà phát minh đã tạo ra sản phẩm này?" },
+          { "speaker": "Nam", "en": "He is an engineer who works for a big company.", "vi": "Anh ấy là một kỹ sư làm việc cho một công ty lớn." }
+        ]
+      },
+      {
+        "title": "Describing leaders",
+        "lines": [
+          { "speaker": "Hung", "en": "She is the leader who built this organisation.", "vi": "Cô ấy là người lãnh đạo đã xây dựng tổ chức này." },
+          { "speaker": "Trang", "en": "I have a friend who works at that company.", "vi": "Tôi có một người bạn làm việc tại công ty đó." },
+          { "speaker": "Hung", "en": "The man who spoke at the conference was very inspiring.", "vi": "Người đàn ông đã nói chuyện tại hội nghị rất truyền cảm hứng." },
+          { "speaker": "Trang", "en": "I know a teacher who has helped many students.", "vi": "Tôi biết một giáo viên đã giúp nhiều học sinh." },
+          { "speaker": "Hung", "en": "Who is the person who manages this project?", "vi": "Ai là người quản lý dự án này?" },
+          { "speaker": "Trang", "en": "It's the woman who sits near the entrance.", "vi": "Đó là người phụ nữ ngồi gần lối vào." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "dialogue": [
+      {
+        "title": "Special places and moments",
+        "lines": [
+          { "speaker": "Mark", "en": "This is the café where we first met.", "vi": "Đây là quán cà phê nơi chúng ta gặp nhau lần đầu." },
+          { "speaker": "Anna", "en": "I remember the day when we started this project.", "vi": "Tôi nhớ ngày mà chúng ta bắt đầu dự án này." },
+          { "speaker": "Mark", "en": "That is the building which was designed by a famous architect.", "vi": "Đó là tòa nhà được thiết kế bởi một kiến trúc sư nổi tiếng." },
+          { "speaker": "Anna", "en": "This is the town where I grew up.", "vi": "Đây là thị trấn nơi tôi đã trưởng thành." },
+          { "speaker": "Mark", "en": "I will never forget the moment when we won the prize.", "vi": "Tôi sẽ không bao giờ quên khoảnh khắc khi chúng ta thắng giải." },
+          { "speaker": "Anna", "en": "That was the era when this place changed a lot.", "vi": "Đó là thời kỳ khi nơi này thay đổi rất nhiều." }
+        ]
+      },
+      {
+        "title": "A memorable event",
+        "lines": [
+          { "speaker": "Quang", "en": "This is the product which I bought last week.", "vi": "Đây là sản phẩm mà tôi đã mua tuần trước." },
+          { "speaker": "Linh", "en": "That is the park where children play every evening.", "vi": "Đó là công viên nơi trẻ con chơi mỗi tối." },
+          { "speaker": "Quang", "en": "I still remember the occasion when we celebrated together.", "vi": "Tôi vẫn nhớ sự kiện khi chúng ta cùng nhau ăn mừng." },
+          { "speaker": "Linh", "en": "This is the location where the event will take place.", "vi": "Đây là địa điểm nơi sự kiện sẽ diễn ra." },
+          { "speaker": "Quang", "en": "Do you remember the time when we travelled together?", "vi": "Bạn có nhớ lúc chúng ta đi du lịch cùng nhau không?" },
+          { "speaker": "Linh", "en": "Of course. That was the period when we became close friends.", "vi": "Tất nhiên. Đó là giai đoạn khi chúng ta trở thành bạn thân." }
+        ]
+      }
+    ]
+  }
+]

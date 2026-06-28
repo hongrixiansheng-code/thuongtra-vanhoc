@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 20,
+      "grammar": [
+        {
+          "title": "Hệ thống thì hiện tại/quá khứ",
+          "desc": "Tổng ôn và phân biệt nhanh cách dùng các thì cơ bản (Đơn, Tiếp diễn, Hoàn thành).",
+          "formula": [
+            {
+              "text": "Simple / Continuous / Perfect",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I work every day.",
+              "meaning": "Tôi làm việc mỗi ngày. (Hiện tại đơn)"
+            },
+            {
+              "correct": "I am working now.",
+              "meaning": "Tôi đang làm việc bây giờ. (Hiện tại tiếp diễn)"
+            },
+            {
+              "correct": "I have worked here for years.",
+              "meaning": "Tôi đã làm việc ở đây nhiều năm. (Hiện tại hoàn thành)"
+            },
+            {
+              "correct": "I was working when you called.",
+              "meaning": "Tôi đang làm việc thì bạn gọi tới. (Quá khứ tiếp diễn)"
+            }
+          ]
+        },
+        {
+          "title": "Trạng từ thời gian tương ứng",
+          "desc": "Gắn kết các trạng từ phổ biến với đúng thì của nó (recently -> HTHT, currently -> HTTD...).",
+          "formula": [
+            {
+              "text": "recently / currently / previously",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have recently finished the book.",
+              "meaning": "Tôi gần đây đã đọc xong cuốn sách."
+            },
+            {
+              "correct": "I am currently studying.",
+              "meaning": "Hiện tại tôi đang học."
+            },
+            {
+              "correct": "I lived there previously.",
+              "meaning": "Trước đây tôi đã sống ở đó."
+            },
+            {
+              "correct": "Eventually, he found a job.",
+              "meaning": "Cuối cùng, anh ấy đã tìm được một công việc."
+            }
+          ]
+        },
+        {
+          "title": "Sự hòa hợp giữa các thì",
+          "desc": "Cách kết hợp đúng các thì trong một câu phức có chứa mệnh đề thời gian hoặc mệnh đề danh ngữ.",
+          "formula": [
+            {
+              "text": "Main Clause + Time Clause",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "When he arrived, I had already left.",
+              "meaning": "Khi anh ấy đến, tôi đã rời đi rồi."
+            },
+            {
+              "correct": "She told me that she was tired.",
+              "meaning": "Cô ấy nói với tôi rằng cô ấy đang mệt."
+            },
+            {
+              "correct": "I think I will go tomorrow.",
+              "meaning": "Tôi nghĩ tôi sẽ đi vào ngày mai."
+            },
+            {
+              "correct": "While I was cooking, the phone rang.",
+              "meaning": "Trong lúc tôi đang nấu ăn thì điện thoại reo."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "grammar": [
+        {
+          "title": "Conditional 3",
+          "desc": "Điều kiện loại 3 giả định một điều trái ngược với thực tế đã xảy ra trong quá khứ.",
+          "formula": [
+            {
+              "text": "If + S + had + V3/ed, S + would have + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "If I had studied, I would have passed.",
+              "meaning": "Nếu (hồi đó) tôi đã học, tôi đã đậu rồi."
+            },
+            {
+              "correct": "If you had told me, I would have helped.",
+              "meaning": "Nếu bạn đã nói với tôi, tôi đã giúp bạn rồi."
+            },
+            {
+              "correct": "We wouldn't have missed the train if we had hurried.",
+              "meaning": "Chúng ta đã không lỡ chuyến tàu nếu chúng ta nhanh lên."
+            },
+            {
+              "correct": "If I had seen her, I would have said hello.",
+              "meaning": "Nếu tôi nhìn thấy cô ấy, tôi đã chào cô ấy rồi."
+            }
+          ]
+        },
+        {
+          "title": "Mixed Conditional",
+          "desc": "Điều kiện hỗn hợp (thường kết hợp giữa loại 3 và loại 2) giả định việc quá khứ ảnh hưởng đến kết quả hiện tại.",
+          "formula": [
+            {
+              "text": "If + S + had + V3/ed, S + would + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "If I had slept better, I would feel fine now.",
+              "meaning": "Nếu (tối qua) tôi ngủ ngon hơn, bây giờ tôi đã cảm thấy khỏe."
+            },
+            {
+              "correct": "If I had bought that ticket, I would be rich now.",
+              "meaning": "Nếu tôi đã mua chiếc vé đó, bây giờ tôi đã giàu rồi."
+            },
+            {
+              "correct": "If she had taken my advice, she wouldn't be in trouble.",
+              "meaning": "Nếu cô ấy đã nghe lời khuyên của tôi, bây giờ cô ấy đã không gặp rắc rối."
+            },
+            {
+              "correct": "If I knew Chinese, I would have translated it for you.",
+              "meaning": "Nếu tôi biết tiếng Trung (sự thật hiện tại), tôi đã dịch nó cho bạn (trong quá khứ)."
+            }
+          ]
+        },
+        {
+          "title": "Phân biệt Conditional 1/2/3",
+          "desc": "Loại 1 (có thể xảy ra hiện tại/tương lai), Loại 2 (trái thực tế hiện tại), Loại 3 (trái thực tế quá khứ).",
+          "formula": [
+            {
+              "text": "Loại 1 / Loại 2 / Loại 3",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "If it rains, we will stay.",
+              "meaning": "Nếu trời mưa, chúng tôi sẽ ở lại. (Loại 1)"
+            },
+            {
+              "correct": "If it rained, we would stay.",
+              "meaning": "Nếu (bây giờ) trời mưa, chúng tôi sẽ ở lại. (Loại 2)"
+            },
+            {
+              "correct": "If it had rained, we would have stayed.",
+              "meaning": "Nếu (hôm qua) trời mưa, chúng tôi đã ở lại. (Loại 3)"
+            },
+            {
+              "correct": "If I have money, I will buy it.",
+              "meaning": "Nếu tôi có tiền, tôi sẽ mua nó. (Loại 1)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

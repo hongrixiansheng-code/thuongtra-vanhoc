@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 9,
+    "dialogue": [
+      {
+        "title": "Asking for directions",
+        "lines": [
+          { "speaker": "Trang", "en": "Excuse me, what is this building?", "vi": "Xin lỗi, đây là tòa nhà gì?" },
+          { "speaker": "Emma", "en": "That building is the library.", "vi": "Tòa nhà đó là thư viện." },
+          { "speaker": "Trang", "en": "And these shops, are they open now?", "vi": "Và những cửa hàng này, chúng có mở cửa không?" },
+          { "speaker": "Emma", "en": "Yes, those shops are open until 9 p.m.", "vi": "Có, những cửa hàng đó mở cửa tới 9 giờ tối." },
+          { "speaker": "Trang", "en": "Is that café near the station?", "vi": "Quán cà phê đó có gần nhà ga không?" },
+          { "speaker": "Emma", "en": "Yes, that café is very close to the station.", "vi": "Có, quán cà phê đó rất gần nhà ga." }
+        ]
+      },
+      {
+        "title": "Pointing things out",
+        "lines": [
+          { "speaker": "Trang", "en": "Go straight along this street, then turn left at the corner.", "vi": "Đi thẳng theo con đường này, rồi rẽ trái ở góc đường." },
+          { "speaker": "Emma", "en": "Is this street far from the station?", "vi": "Con đường này có xa nhà ga không?" },
+          { "speaker": "Trang", "en": "No, it's quite near.", "vi": "Không, nó khá gần." },
+          { "speaker": "Emma", "en": "Are those buildings behind the park new?", "vi": "Những tòa nhà đó phía sau công viên có mới không?" },
+          { "speaker": "Trang", "en": "Yes, those buildings are very new.", "vi": "Vâng, những tòa nhà đó rất mới." },
+          { "speaker": "Emma", "en": "This park looks nice.", "vi": "Công viên này trông đẹp đấy." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "dialogue": [
+      {
+        "title": "Review: Meeting someone new",
+        "lines": [
+          { "speaker": "Trang", "en": "Hi, what's your name and where are you from?", "vi": "Chào, tên bạn là gì và bạn từ đâu tới?" },
+          { "speaker": "Emma", "en": "I'm Mai, I'm from Vietnam. There is a small house near my hometown with a beautiful garden.", "vi": "Tôi là Mai, tôi từ Việt Nam. Có một căn nhà nhỏ gần quê tôi với một khu vườn đẹp." },
+          { "speaker": "Trang", "en": "Is there a park near your house?", "vi": "Gần nhà bạn có công viên không?" },
+          { "speaker": "Emma", "en": "Yes, there is. It's opposite the supermarket.", "vi": "Có. Nó đối diện siêu thị." },
+          { "speaker": "Trang", "en": "Is your family big?", "vi": "Gia đình bạn có lớn không?" },
+          { "speaker": "Emma", "en": "No, it isn't. We aren't a big family, but we are happy.", "vi": "Không. Chúng tôi không phải gia đình lớn, nhưng chúng tôi hạnh phúc." }
+        ]
+      }
+    ]
+  }
+]

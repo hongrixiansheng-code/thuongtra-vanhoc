@@ -1,0 +1,549 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 26,
+      "title": "Bài 12.a: Thời gian, hoạt động & giao tiếp (1/2)",
+      "theme": "Thời gian & Nơi chốn",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "age",
+          "ipa": "/eɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tuổi tác",
+          "example_en": "What is your age?",
+          "example_vi": "Tuổi của bạn là bao nhiêu?"
+        },
+        {
+          "word": "always",
+          "ipa": "/ˈɔːlweɪz/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "luôn luôn",
+          "example_en": "I always get up early.",
+          "example_vi": "Tôi luôn luôn thức dậy sớm."
+        },
+        {
+          "word": "everyone",
+          "ipa": "/ˈevriwʌn/",
+          "type": "Đại từ",
+          "type_short": "pron",
+          "meaning": "mọi người",
+          "example_en": "Everyone is happy.",
+          "example_vi": "Mọi người đều vui vẻ."
+        },
+        {
+          "word": "everything",
+          "ipa": "/ˈevriθɪŋ/",
+          "type": "Đại từ",
+          "type_short": "pron",
+          "meaning": "mọi thứ",
+          "example_en": "Everything is fine.",
+          "example_vi": "Mọi thứ đều ổn."
+        },
+        {
+          "word": "holiday",
+          "ipa": "/ˈhɒlədeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kỳ nghỉ",
+          "example_en": "We are on holiday.",
+          "example_vi": "Chúng tôi đang trong kỳ nghỉ."
+        },
+        {
+          "word": "never",
+          "ipa": "/ˈnevər/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "không bao giờ",
+          "example_en": "I never eat meat.",
+          "example_vi": "Tôi không bao giờ ăn thịt."
+        },
+        {
+          "word": "nothing",
+          "ipa": "/ˈnʌθɪŋ/",
+          "type": "Đại từ",
+          "type_short": "pron",
+          "meaning": "không có gì",
+          "example_en": "There is nothing here.",
+          "example_vi": "Không có gì ở đây cả."
+        },
+        {
+          "word": "o'clock",
+          "ipa": "/əˈklɒk/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "giờ đúng",
+          "example_en": "It is ten o'clock.",
+          "example_vi": "Bây giờ là mười giờ đúng."
+        },
+        {
+          "word": "party",
+          "ipa": "/ˈpɑːrti/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bữa tiệc",
+          "example_en": "Welcome to my party!",
+          "example_vi": "Chào mừng đến với bữa tiệc của tôi!"
+        },
+        {
+          "word": "sometimes",
+          "ipa": "/ˈsʌmtaɪmz/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "thỉnh thoảng",
+          "example_en": "Sometimes I read a book.",
+          "example_vi": "Thỉnh thoảng tôi đọc một quyển sách."
+        },
+        {
+          "word": "someone",
+          "ipa": "/ˈsʌmwʌn/",
+          "type": "Đại từ",
+          "type_short": "pron",
+          "meaning": "một người nào đó",
+          "example_en": "Someone is at the door.",
+          "example_vi": "Có ai đó đang ở ngoài cửa."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 27,
+      "title": "Bài 12.b: Thời gian, hoạt động & giao tiếp (2/2)",
+      "theme": "Thời gian & Nơi chốn",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "something",
+          "ipa": "/ˈsʌmθɪŋ/",
+          "type": "Đại từ",
+          "type_short": "pron",
+          "meaning": "một thứ gì đó",
+          "example_en": "I need something to drink.",
+          "example_vi": "Tôi cần uống một thứ gì đó."
+        },
+        {
+          "word": "trip",
+          "ipa": "/trɪp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chuyến đi",
+          "example_en": "Have a good trip!",
+          "example_vi": "Chúc bạn một chuyến đi tốt đẹp!"
+        },
+        {
+          "word": "week",
+          "ipa": "/wiːk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tuần",
+          "example_en": "I work every week.",
+          "example_vi": "Tôi làm việc mỗi tuần."
+        },
+        {
+          "word": "weekend",
+          "ipa": "/ˈwiːkend/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuối tuần",
+          "example_en": "I play games at the weekend.",
+          "example_vi": "Tôi chơi game vào cuối tuần."
+        },
+        {
+          "word": "yesterday",
+          "ipa": "/ˈjestərdeɪ/",
+          "type": "Danh từ / Trạng từ",
+          "type_short": "adv",
+          "meaning": "ngày hôm qua",
+          "example_en": "I saw him yesterday.",
+          "example_vi": "Tôi đã nhìn thấy anh ấy ngày hôm qua."
+        },
+        {
+          "word": "outside",
+          "ipa": "/ˌaʊtˈsaɪd/",
+          "type": "Giới từ / Trạng từ",
+          "type_short": "prep",
+          "meaning": "bên ngoài",
+          "example_en": "Let's play outside.",
+          "example_vi": "Hãy cùng chơi ở bên ngoài."
+        },
+        {
+          "word": "inside",
+          "ipa": "/ˌɪnˈsaɪd/",
+          "type": "Giới từ / Trạng từ",
+          "type_short": "prep",
+          "meaning": "bên trong",
+          "example_en": "The cat is inside the box.",
+          "example_vi": "Con mèo đang ở bên trong cái hộp."
+        },
+        {
+          "word": "opposite",
+          "ipa": "/ˈɒpəzɪt/",
+          "type": "Giới từ",
+          "type_short": "prep",
+          "meaning": "đối diện",
+          "example_en": "He sits opposite me.",
+          "example_vi": "Anh ấy ngồi đối diện tôi."
+        },
+        {
+          "word": "come on",
+          "ipa": "/kʌm ɒn/",
+          "type": "Cụm từ",
+          "type_short": "v",
+          "meaning": "nhanh lên, thôi nào",
+          "example_en": "Come on, we are late!",
+          "example_vi": "Nhanh lên nào, chúng ta trễ rồi!"
+        },
+        {
+          "word": "excuse me",
+          "ipa": "/ɪkˈskjuːz miː/",
+          "type": "Cụm từ",
+          "type_short": "v",
+          "meaning": "xin lỗi (khi làm phiền)",
+          "example_en": "Excuse me, where is the bus stop?",
+          "example_vi": "Xin lỗi, trạm xe buýt ở đâu vậy?"
+        },
+        {
+          "word": "matter",
+          "ipa": "/ˈmætər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vấn đề",
+          "example_en": "What is the matter?",
+          "example_vi": "Có chuyện gì/vấn đề gì vậy?"
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 28,
+      "title": "Bài 13.a: Nơi chốn, vị trí & hình dạng (1/2)",
+      "theme": "Thời gian & Nơi chốn",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "bus station",
+          "ipa": "/bʌs ˈsteɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bến xe buýt",
+          "example_en": "I walk to the bus station.",
+          "example_vi": "Tôi đi bộ đến bến xe buýt."
+        },
+        {
+          "word": "bus stop",
+          "ipa": "/bʌs stɒp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trạm xe buýt",
+          "example_en": "Wait at the bus stop.",
+          "example_vi": "Hãy đợi ở trạm xe buýt."
+        },
+        {
+          "word": "car park",
+          "ipa": "/kɑːr pɑːrk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bãi đỗ xe",
+          "example_en": "The car is in the car park.",
+          "example_vi": "Chiếc xe hơi đang ở trong bãi đỗ xe."
+        },
+        {
+          "word": "centre",
+          "ipa": "/ˈsentər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trung tâm",
+          "example_en": "We live in the town centre.",
+          "example_vi": "Chúng tôi sống ở trung tâm thị trấn."
+        },
+        {
+          "word": "market",
+          "ipa": "/ˈmɑːrkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khu chợ",
+          "example_en": "My mum goes to the market.",
+          "example_vi": "Mẹ tôi đi đến khu chợ."
+        },
+        {
+          "word": "place",
+          "ipa": "/pleɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nơi chốn, địa điểm",
+          "example_en": "This is a beautiful place.",
+          "example_vi": "Đây là một địa điểm tuyệt đẹp."
+        },
+        {
+          "word": "pool",
+          "ipa": "/puːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hồ bơi",
+          "example_en": "I swim in the pool.",
+          "example_vi": "Tôi bơi trong hồ bơi."
+        },
+        {
+          "word": "road",
+          "ipa": "/roʊd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con đường",
+          "example_en": "Don't run on the road.",
+          "example_vi": "Đừng chạy trên con đường."
+        },
+        {
+          "word": "seat",
+          "ipa": "/siːt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chỗ ngồi",
+          "example_en": "Take a seat, please.",
+          "example_vi": "Xin mời ngồi."
+        },
+        {
+          "word": "shop",
+          "ipa": "/ʃɒp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cửa hàng",
+          "example_en": "I go to the toy shop.",
+          "example_vi": "Tôi đi đến cửa hàng đồ chơi."
+        },
+        {
+          "word": "shopping",
+          "ipa": "/ˈʃɒpɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "việc mua sắm",
+          "example_en": "She loves shopping.",
+          "example_vi": "Cô ấy yêu thích việc mua sắm."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 29,
+      "title": "Bài 13.b: Nơi chốn, vị trí & hình dạng (2/2)",
+      "theme": "Thời gian & Nơi chốn",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "shopping centre",
+          "ipa": "/ˈʃɒpɪŋ ˈsentər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trung tâm mua sắm",
+          "example_en": "We meet at the shopping centre.",
+          "example_vi": "Chúng ta gặp nhau tại trung tâm mua sắm."
+        },
+        {
+          "word": "sports centre",
+          "ipa": "/spɔːrts ˈsentər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "trung tâm thể thao",
+          "example_en": "I play tennis at the sports centre.",
+          "example_vi": "Tôi chơi quần vợt ở trung tâm thể thao."
+        },
+        {
+          "word": "station",
+          "ipa": "/ˈsteɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhà ga, trạm",
+          "example_en": "The train arrives at the station.",
+          "example_vi": "Đoàn tàu đến nhà ga."
+        },
+        {
+          "word": "supermarket",
+          "ipa": "/ˈsuːpərmɑːrkɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "siêu thị",
+          "example_en": "We buy food at the supermarket.",
+          "example_vi": "Chúng tôi mua thức ăn ở siêu thị."
+        },
+        {
+          "word": "both",
+          "ipa": "/boʊθ/",
+          "type": "Đại từ / Tính từ",
+          "type_short": "pron",
+          "meaning": "cả hai",
+          "example_en": "Both of them are happy.",
+          "example_vi": "Cả hai người họ đều đang vui vẻ."
+        },
+        {
+          "word": "floor",
+          "ipa": "/flɔːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tầng, sàn nhà",
+          "example_en": "My room is on the first floor.",
+          "example_vi": "Phòng của tôi ở tầng một."
+        },
+        {
+          "word": "down",
+          "ipa": "/daʊn/",
+          "type": "Trạng từ / Giới từ",
+          "type_short": "adv",
+          "meaning": "xuống dưới",
+          "example_en": "He walks down the stairs.",
+          "example_vi": "Anh ấy đi xuống cầu thang."
+        },
+        {
+          "word": "round",
+          "ipa": "/raʊnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "hình tròn",
+          "example_en": "The ball is round.",
+          "example_vi": "Quả bóng có hình tròn."
+        },
+        {
+          "word": "shape",
+          "ipa": "/ʃeɪp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hình dạng",
+          "example_en": "What shape is this?",
+          "example_vi": "Đây là hình dạng gì?"
+        },
+        {
+          "word": "straight",
+          "ipa": "/streɪt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thẳng",
+          "example_en": "Draw a straight line.",
+          "example_vi": "Hãy vẽ một đường thẳng."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 30,
+      "title": "Bài 14: Số thứ tự & ngày trong tuần",
+      "theme": "Thời gian & Nơi chốn",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "first",
+          "ipa": "/fɜːrst/",
+          "type": "Số thứ tự",
+          "type_short": "adj",
+          "meaning": "thứ nhất, đầu tiên",
+          "example_en": "He is the first to arrive.",
+          "example_vi": "Anh ấy là người đầu tiên đến."
+        },
+        {
+          "word": "second",
+          "ipa": "/ˈsekənd/",
+          "type": "Số thứ tự",
+          "type_short": "adj",
+          "meaning": "thứ hai",
+          "example_en": "She won the second prize.",
+          "example_vi": "Cô ấy đã giành giải nhì."
+        },
+        {
+          "word": "third",
+          "ipa": "/θɜːrd/",
+          "type": "Số thứ tự",
+          "type_short": "adj",
+          "meaning": "thứ ba",
+          "example_en": "This is the third time.",
+          "example_vi": "Đây là lần thứ ba."
+        },
+        {
+          "word": "hundred",
+          "ipa": "/ˈhʌndrəd/",
+          "type": "Số đếm",
+          "type_short": "n",
+          "meaning": "một trăm",
+          "example_en": "I have a hundred books.",
+          "example_vi": "Tôi có một trăm quyển sách."
+        },
+        {
+          "word": "pair",
+          "ipa": "/peər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "một đôi, một cặp",
+          "example_en": "I buy a pair of shoes.",
+          "example_vi": "Tôi mua một đôi giày."
+        },
+        {
+          "word": "Monday",
+          "ipa": "/ˈmʌndeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Hai",
+          "example_en": "I go to school on Monday.",
+          "example_vi": "Tôi đến trường vào Thứ Hai."
+        },
+        {
+          "word": "Tuesday",
+          "ipa": "/ˈtjuːzdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Ba",
+          "example_en": "Tuesday is a busy day.",
+          "example_vi": "Thứ Ba là một ngày bận rộn."
+        },
+        {
+          "word": "Wednesday",
+          "ipa": "/ˈwenzdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Tư",
+          "example_en": "We play football on Wednesday.",
+          "example_vi": "Chúng tôi chơi bóng đá vào Thứ Tư."
+        },
+        {
+          "word": "Thursday",
+          "ipa": "/ˈθɜːrzdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Năm",
+          "example_en": "I have music class on Thursday.",
+          "example_vi": "Tôi có lớp âm nhạc vào Thứ Năm."
+        },
+        {
+          "word": "Friday",
+          "ipa": "/ˈfraɪdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Sáu",
+          "example_en": "Friday is my favourite day.",
+          "example_vi": "Thứ Sáu là ngày yêu thích của tôi."
+        },
+        {
+          "word": "Saturday",
+          "ipa": "/ˈsætərdeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Thứ Bảy",
+          "example_en": "I relax on Saturday.",
+          "example_vi": "Tôi thư giãn vào Thứ Bảy."
+        },
+        {
+          "word": "Sunday",
+          "ipa": "/ˈsʌndeɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Chủ Nhật",
+          "example_en": "We visit grandma on Sunday.",
+          "example_vi": "Chúng tôi đi thăm bà vào Chủ Nhật."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

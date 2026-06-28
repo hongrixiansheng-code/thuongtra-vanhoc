@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 49,
+    "grammar": [
+      {
+        "title": "Phân biệt \"will\" và \"going to\"",
+        "desc": "Will: dự đoán không chắc chắn, quyết định tức thì. Going to: kế hoạch đã định trước, dự đoán có bằng chứng rõ ràng.",
+        "formula": [
+          { "text": "will: prediction (no evidence), instant decision", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "going to: plan, prediction (with evidence)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I will probably visit her next week.", "vi": "Có lẽ tôi sẽ thăm cô ấy tuần sau." },
+          { "en": "I am going to visit her next week. I already bought the ticket.", "vi": "Tôi sẽ thăm cô ấy tuần sau. Tôi đã mua vé rồi." },
+          { "en": "Look! The bus is going to leave without us!", "vi": "Nhìn kìa! Xe buýt sắp chạy mà không có chúng ta!" }
+        ],
+        "note": "Nếu đã có sự chuẩn bị/bằng chứng cụ thể (mua vé, nhìn thấy dấu hiệu), dùng \"going to\". Nếu chỉ là suy nghĩ/cảm nhận chung, dùng \"will\".",
+        "practiceList": [
+          { "question": "I ___ (think) it will be sunny tomorrow.", "correct": "will", "meaning": "Tôi nghĩ ngày mai sẽ nắng.", "explanation": "Dự đoán chung không có bằng chứng dùng \"will\"." },
+          { "question": "We already booked the hotel. We ___ (go) to Da Lat next week.", "correct": "are going", "meaning": "Chúng tôi đã đặt khách sạn rồi. Chúng tôi sẽ đi Đà Lạt tuần sau.", "explanation": "Kế hoạch đã chuẩn bị trước dùng \"going to\"." },
+          { "question": "I ___ (help) you. Don't worry.", "correct": "will help", "meaning": "Tôi sẽ giúp bạn. Đừng lo.", "explanation": "Quyết định ngay lúc nói dùng \"will\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "grammar": [
+      {
+        "title": "So sánh hơn (Comparative)",
+        "desc": "Dùng để so sánh hai người/vật. Tính từ ngắn thêm \"-er\", tính từ dài dùng \"more + adj\".",
+        "formula": [
+          { "text": "Adj-er / more + Adj", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "than", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "This bag is bigger than that one.", "vi": "Cái túi này to hơn cái kia." },
+          { "en": "The city is more crowded than the countryside.", "vi": "Thành phố đông đúc hơn nông thôn." },
+          { "en": "He is taller than his brother.", "vi": "Anh ấy cao hơn em trai." }
+        ],
+        "note": "Tính từ 1 âm tiết: thêm -er (tall→taller). Tính từ 2 âm tiết trở lên: more + adj (crowded→more crowded). Một số tính từ bất quy tắc: good→better, bad→worse.",
+        "practiceList": [
+          { "question": "This room is ___ (quiet) than that one.", "correct": "quieter", "meaning": "Phòng này yên tĩnh hơn phòng kia.", "explanation": "Tính từ 2 âm tiết tận cùng \"y\" thường thêm -er (quiet→quieter)." },
+          { "question": "Hanoi is ___ (modern) than my hometown.", "correct": "more modern", "meaning": "Hà Nội hiện đại hơn quê tôi.", "explanation": "Tính từ dài dùng \"more + adj\"." },
+          { "question": "This is ___ (good) than the old plan.", "correct": "better", "meaning": "Cái này tốt hơn kế hoạch cũ.", "explanation": "good là tính từ bất quy tắc: good→better." }
+        ]
+      }
+    ]
+  }
+]

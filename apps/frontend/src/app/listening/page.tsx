@@ -1,27 +1,16 @@
 export const dynamic = 'force-dynamic';
 import { ListeningTab } from "@/components/legacy/ListeningTab";
 import { getAllVocabData, getAllPassagesData } from "@/lib/data";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
-import { PrismaClient } from "database";
+import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import ProgramLocked from "@/components/ProgramLocked";
+import PremiumLocked from "@/components/PremiumLocked";
 import Link from "next/link";
-
-async function getCompletedLessonIds(email?: string | null): Promise<string[]> {
-  if (!email) return [];
-  const prisma = new PrismaClient();
-  const user = await prisma.user.findUnique({
-    where: { email },
-    include: { progress: { where: { completed: true }, select: { lessonId: true } } }
-  });
-  return user?.progress.map(p => p.lessonId) || [];
-}
 
 export default async function ListeningPage(props: any) {
   const searchParams = await props.searchParams;
   const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const session = await getServerSession(authOptions);
-  const completedLessonIds = await getCompletedLessonIds(session?.user?.email);
+  const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
   const vocabData = completedLessonIds.length > 0
     ? await getAllVocabData(level, completedLessonIds)
@@ -30,7 +19,11 @@ export default async function ListeningPage(props: any) {
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
-      {completedLessonIds.length === 0 ? (
+      {programLocked ? (
+        <ProgramLocked />
+      ) : !isPremiumUser ? (
+        <PremiumLocked />
+      ) : completedLessonIds.length === 0 ? (
         <div className="max-w-2xl mx-auto px-4 py-16 text-center">
           <div className="text-6xl mb-4">🎧</div>
           <h2 className="text-2xl font-bold text-slate-800 mb-2">Chưa có nội dung để luyện nghe</h2>

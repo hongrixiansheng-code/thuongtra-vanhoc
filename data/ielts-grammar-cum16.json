@@ -1,0 +1,51 @@
+[
+  {
+    "lessonOrder": 31,
+    "grammar": [
+      {
+        "title": "Lượng từ \"some\" và \"any\"",
+        "desc": "Dùng cho cả danh từ đếm được và không đếm được. \"Some\" dùng trong câu khẳng định, \"any\" dùng trong câu phủ định và câu hỏi.",
+        "formula": [
+          { "text": "Khẳng định: some + Noun", "classes": "border-slate-500 text-slate-600 bg-slate-50" },
+          { "text": "Phủ định & Câu hỏi: any + Noun", "classes": "border-slate-500 text-slate-600 bg-slate-50" }
+        ],
+        "examples": [
+          { "en": "I have some bread.", "vi": "Tôi có một ít bánh mì." },
+          { "en": "We don't have any meat.", "vi": "Chúng tôi không có chút thịt nào." },
+          { "en": "Do you have any eggs?", "vi": "Bạn có quả trứng nào không?" }
+        ],
+        "note": "\"Some\" cũng dùng trong câu mời/đề nghị (Would you like some tea?). \"Any\" dùng trong câu phủ định và câu hỏi thông thường.",
+        "practiceList": [
+          { "question": "There is ___ soup in the bowl.", "correct": "some", "meaning": "Có một ít súp trong bát.", "explanation": "Câu khẳng định dùng \"some\"." },
+          { "question": "Are there ___ sandwiches left?", "correct": "any", "meaning": "Có còn cái bánh kẹp nào không?", "explanation": "Câu hỏi dùng \"any\"." },
+          { "question": "I don't want ___ cheese.", "correct": "any", "meaning": "Tôi không muốn chút phô mai nào.", "explanation": "Câu phủ định dùng \"any\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 32,
+    "grammar": [
+      {
+        "title": "Lượng từ: a lot of / plenty of / a few / a little",
+        "desc": "\"A lot of\" và \"plenty of\" dùng cho cả danh từ đếm được và không đếm được (nhiều). \"A few\" dùng cho danh từ đếm được (một vài). \"A little\" dùng cho danh từ không đếm được (một ít).",
+        "formula": [
+          { "text": "a lot of / plenty of", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "a few + đếm được", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "a little + không đếm được", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "There is plenty of food at the market.", "vi": "Có rất nhiều thức ăn ở chợ." },
+          { "en": "I have a few apples.", "vi": "Tôi có một vài quả táo." },
+          { "en": "I have a little money left.", "vi": "Tôi còn một ít tiền." }
+        ],
+        "note": "\"a few\" + danh từ đếm được số nhiều. \"a little\" + danh từ không đếm được. \"a lot of/plenty of\" dùng được cho cả hai loại.",
+        "practiceList": [
+          { "question": "She has ___ friends at school. (a few/a little)", "correct": "a few", "meaning": "Cô ấy có một vài người bạn ở trường.", "explanation": "\"friends\" đếm được, dùng \"a few\"." },
+          { "question": "There is ___ sugar in the jar. (a few/a little)", "correct": "a little", "meaning": "Có một ít đường trong lọ.", "explanation": "\"sugar\" không đếm được, dùng \"a little\"." },
+          { "question": "We have ___ time to finish this.", "correct": "plenty of", "meaning": "Chúng ta có rất nhiều thời gian để hoàn thành việc này.", "explanation": "\"plenty of\" dùng được cho danh từ không đếm được, chỉ số lượng nhiều." }
+        ]
+      }
+    ]
+  }
+]

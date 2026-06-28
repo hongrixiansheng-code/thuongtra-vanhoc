@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 5,
+      "vocab": [
+        { "word": "electricity", "ipa": "/ɪˌlekˈtrɪs.ə.ti/", "type": "n.", "meaning": "điện, điện lực", "example_en": "The storm cut off the electricity in our town.", "example_vi": "Cơn bão đã cắt đứt nguồn điện trong thị trấn của chúng tôi." },
+        { "word": "heating", "ipa": "/ˈhiː.tɪŋ/", "type": "n.", "meaning": "hệ thống sưởi", "example_en": "We had to turn on the heating because it was very cold.", "example_vi": "Chúng tôi đã phải bật hệ thống sưởi lên vì trời rất lạnh." },
+        { "word": "repair", "ipa": "/rɪˈpeər/", "type": "v.", "meaning": "sửa chữa", "example_en": "He needs to repair the broken washing machine.", "example_vi": "Anh ấy cần sửa chữa cái máy giặt bị hỏng." },
+        { "word": "battery", "ipa": "/ˈbæt.ər.i/", "type": "n.", "meaning": "pin", "example_en": "My phone battery is dead.", "example_vi": "Pin điện thoại của tôi đã cạn sạch." },
+        { "word": "cable", "ipa": "/ˈkeɪ.bəl/", "type": "n.", "meaning": "dây cáp", "example_en": "You need a USB cable to connect your phone to the PC.", "example_vi": "Bạn cần một dây cáp USB để kết nối điện thoại với máy tính." },
+        { "word": "cooker", "ipa": "/ˈkʊk.ər/", "type": "n.", "meaning": "bếp (lò, bếp điện, bếp ga)", "example_en": "She bought a new gas cooker for the kitchen.", "example_vi": "Cô ấy đã mua một chiếc bếp ga mới cho nhà bếp." },
+        { "word": "fridge", "ipa": "/frɪdʒ/", "type": "n.", "meaning": "tủ lạnh", "example_en": "Put the milk back in the fridge.", "example_vi": "Hãy cất sữa lại vào trong tủ lạnh." },
+        { "word": "printer", "ipa": "/ˈprɪn.tər/", "type": "n.", "meaning": "máy in", "example_en": "The printer is out of paper.", "example_vi": "Máy in đã hết giấy rồi." },
+        { "word": "alarm clock", "ipa": "/əˈlɑːm ˌklɒk/", "type": "n.", "meaning": "đồng hồ báo thức", "example_en": "I set my alarm clock for 6 a.m.", "example_vi": "Tôi đã đặt đồng hồ báo thức lúc 6 giờ sáng." },
+        { "word": "rubbish", "ipa": "/ˈrʌb.ɪʃ/", "type": "n.", "meaning": "rác thải", "example_en": "Please take the rubbish out.", "example_vi": "Làm ơn hãy đi đổ rác." }
+      ]
+    },
+    {
+      "orderIndex": 6,
+      "vocab": [
+        { "word": "receipt", "ipa": "/rɪˈsiːt/", "type": "n.", "meaning": "biên lai, hóa đơn", "example_en": "Make sure you keep the receipt in case you want to return the dress.", "example_vi": "Hãy chắc chắn là bạn giữ lại biên lai phòng khi bạn muốn trả lại chiếc váy." },
+        { "word": "discount", "ipa": "/ˈdɪs.kaʊnt/", "type": "n.", "meaning": "sự giảm giá", "example_en": "Students get a 10% discount on all books.", "example_vi": "Học sinh được giảm giá 10% cho tất cả các loại sách." },
+        { "word": "sale", "ipa": "/seɪl/", "type": "n.", "meaning": "chương trình giảm giá, việc bán hàng", "example_en": "I bought this jacket on sale.", "example_vi": "Tôi đã mua chiếc áo khoác này trong đợt giảm giá." },
+        { "word": "half-price", "ipa": "/ˌhɑːfˈpraɪs/", "type": "adj., adv.", "meaning": "nửa giá", "example_en": "These shoes are half-price today.", "example_vi": "Những đôi giày này hôm nay được bán với nửa giá." },
+        { "word": "cash", "ipa": "/kæʃ/", "type": "n.", "meaning": "tiền mặt", "example_en": "Do you want to pay by credit card or in cash?", "example_vi": "Bạn muốn thanh toán bằng thẻ tín dụng hay bằng tiền mặt?" },
+        { "word": "bill", "ipa": "/bɪl/", "type": "n.", "meaning": "hóa đơn (thanh toán)", "example_en": "Could we have the bill, please?", "example_vi": "Làm ơn cho chúng tôi xin hóa đơn thanh toán." },
+        { "word": "credit card", "ipa": "/ˈkred.ɪt ˌkɑːd/", "type": "n.", "meaning": "thẻ tín dụng", "example_en": "The shop doesn't accept credit cards.", "example_vi": "Cửa hàng không chấp nhận thanh toán bằng thẻ tín dụng." },
+        { "word": "customer", "ipa": "/ˈkʌs.tə.mər/", "type": "n.", "meaning": "khách hàng", "example_en": "The shop assistant was helping a customer.", "example_vi": "Nhân viên bán hàng đang giúp đỡ một khách hàng." },
+        { "word": "price", "ipa": "/praɪs/", "type": "n.", "meaning": "giá cả", "example_en": "The price of petrol is going up again.", "example_vi": "Giá xăng lại đang tăng lên." },
+        { "word": "cost", "ipa": "/kɒst/", "type": "v.", "meaning": "có giá (bao nhiêu)", "example_en": "How much does this laptop cost?", "example_vi": "Chiếc máy tính xách tay này có giá bao nhiêu?" }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "vocab": [
+        { "word": "department store", "ipa": "/dɪˈpɑːt.mənt ˌstɔːr/", "type": "n.", "meaning": "cửa hàng bách hóa", "example_en": "She works at a large department store in the city centre.", "example_vi": "Cô ấy làm việc tại một cửa hàng bách hóa lớn ở trung tâm thành phố." },
+        { "word": "bookshop", "ipa": "/ˈbʊk.ʃɒp/", "type": "n.", "meaning": "hiệu sách", "example_en": "I spent an hour looking around the bookshop.", "example_vi": "Tôi đã dành một giờ đồng hồ để ngắm nghía xung quanh hiệu sách." },
+        { "word": "pharmacy", "ipa": "/ˈfɑː.mə.si/", "type": "n.", "meaning": "tiệm thuốc", "example_en": "You can buy aspirin at the pharmacy.", "example_vi": "Bạn có thể mua thuốc giảm đau ở tiệm thuốc." },
+        { "word": "market", "ipa": "/ˈmɑː.kɪt/", "type": "n.", "meaning": "chợ", "example_en": "They sell fresh vegetables at the local market.", "example_vi": "Họ bán rau củ tươi ở khu chợ địa phương." },
+        { "word": "grocery store", "ipa": "/ˈɡrəʊ.sər.i ˌstɔːr/", "type": "n.", "meaning": "cửa hàng tạp hóa", "example_en": "I need to go to the grocery store to buy some milk.", "example_vi": "Tôi cần đi đến cửa hàng tạp hóa để mua một ít sữa." },
+        { "word": "butcher", "ipa": "/ˈbʊtʃ.ər/", "type": "n.", "meaning": "cửa hàng thịt, người bán thịt", "example_en": "He bought some sausages from the butcher.", "example_vi": "Anh ấy đã mua vài chiếc xúc xích từ cửa hàng bán thịt." },
+        { "word": "bakery", "ipa": "/ˈbeɪ.kər.i/", "type": "n.", "meaning": "tiệm bánh", "example_en": "The smell of fresh bread from the bakery is wonderful.", "example_vi": "Mùi bánh mì tươi từ tiệm bánh thật là tuyệt vời." },
+        { "word": "post office", "ipa": "/ˈpəʊst ˌɒf.ɪs/", "type": "n.", "meaning": "bưu điện", "example_en": "I have to go to the post office to send a parcel.", "example_vi": "Tôi phải đến bưu điện để gửi một bưu kiện." },
+        { "word": "dry cleaner", "ipa": "/ˌdraɪ ˈkliː.nər/", "type": "n.", "meaning": "tiệm giặt khô", "example_en": "I need to take my suit to the dry cleaner.", "example_vi": "Tôi cần mang bộ vest của mình đến tiệm giặt khô." },
+        { "word": "fitting room", "ipa": "/ˈfɪt.ɪŋ ˌruːm/", "type": "n.", "meaning": "phòng thử đồ", "example_en": "You can try those jeans on in the fitting room.", "example_vi": "Bạn có thể thử những chiếc quần bò kia ở trong phòng thử đồ." }
+      ]
+    },
+    {
+      "orderIndex": 8,
+      "vocab": [
+        { "word": "cheque", "ipa": "/tʃek/", "type": "n.", "meaning": "tấm séc", "example_en": "Can I pay by cheque?", "example_vi": "Tôi có thể thanh toán bằng séc không?" },
+        { "word": "cash", "ipa": "/kæʃ/", "type": "v.", "meaning": "rút tiền mặt (từ séc)", "example_en": "I need to go to the bank to cash a cheque.", "example_vi": "Tôi cần đến ngân hàng để rút tiền mặt từ một tấm séc." },
+        { "word": "account", "ipa": "/əˈkaʊnt/", "type": "n.", "meaning": "tài khoản", "example_en": "I opened a new bank account yesterday.", "example_vi": "Tôi đã mở một tài khoản ngân hàng mới vào ngày hôm qua." },
+        { "word": "coin", "ipa": "/kɔɪn/", "type": "n.", "meaning": "tiền xu", "example_en": "The machine only accepts coins.", "example_vi": "Cái máy này chỉ nhận tiền xu." },
+        { "word": "note", "ipa": "/nəʊt/", "type": "n.", "meaning": "tiền giấy, tờ tiền", "example_en": "He gave me a ten-pound note.", "example_vi": "Anh ấy đã đưa cho tôi một tờ mười bảng." },
+        { "word": "change", "ipa": "/tʃeɪndʒ/", "type": "n.", "meaning": "tiền lẻ, tiền thừa", "example_en": "Here is your change.", "example_vi": "Đây là tiền thừa của bạn." },
+        { "word": "stamp", "ipa": "/stæmp/", "type": "n.", "meaning": "con tem", "example_en": "I need a stamp for this letter.", "example_vi": "Tôi cần một con tem cho bức thư này." },
+        { "word": "envelope", "ipa": "/ˈen.və.ləʊp/", "type": "n.", "meaning": "phong bì", "example_en": "She put the letter in an envelope.", "example_vi": "Cô ấy đã đặt bức thư vào trong một chiếc phong bì." },
+        { "word": "form", "ipa": "/fɔːm/", "type": "n.", "meaning": "mẫu đơn", "example_en": "Please fill in this form with your details.", "example_vi": "Vui lòng điền chi tiết thông tin của bạn vào mẫu đơn này." },
+        { "word": "application", "ipa": "/ˌæp.lɪˈkeɪ.ʃən/", "type": "n.", "meaning": "đơn đăng ký, ứng dụng", "example_en": "I sent my application for the new job.", "example_vi": "Tôi đã gửi đơn đăng ký cho công việc mới." }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "vocab": [
+        { "word": "ingredient", "ipa": "/ɪnˈɡriː.di.ənt/", "type": "n.", "meaning": "thành phần, nguyên liệu", "example_en": "What are the ingredients of this cake?", "example_vi": "Những nguyên liệu của chiếc bánh này là gì?" },
+        { "word": "recipe", "ipa": "/ˈres.ɪ.pi/", "type": "n.", "meaning": "công thức nấu ăn", "example_en": "She gave me a great recipe for chocolate cookies.", "example_vi": "Cô ấy đã đưa cho tôi một công thức tuyệt vời để làm bánh quy sô-cô-la." },
+        { "word": "main course", "ipa": "/ˌmeɪn ˈkɔːs/", "type": "n.", "meaning": "món chính", "example_en": "For the main course, we had steak and chips.", "example_vi": "Đối với món chính, chúng tôi đã ăn bít tết và khoai tây chiên." },
+        { "word": "dessert", "ipa": "/dɪˈzɜːt/", "type": "n.", "meaning": "món tráng miệng", "example_en": "What would you like for dessert?", "example_vi": "Bạn muốn dùng gì cho món tráng miệng?" },
+        { "word": "dish", "ipa": "/dɪʃ/", "type": "n.", "meaning": "món ăn (đã nấu xong)", "example_en": "Paella is a famous Spanish dish.", "example_vi": "Paella là một món ăn nổi tiếng của Tây Ban Nha." },
+        { "word": "menu", "ipa": "/ˈmen.juː/", "type": "n.", "meaning": "thực đơn", "example_en": "Could we see the menu, please?", "example_vi": "Cho chúng tôi xem thực đơn được không?" },
+        { "word": "omelette", "ipa": "/ˈɒm.lət/", "type": "n.", "meaning": "món trứng tráng", "example_en": "I made a cheese omelette for breakfast.", "example_vi": "Tôi đã làm món trứng tráng phô mai cho bữa sáng." },
+        { "word": "curry", "ipa": "/ˈkʌr.i/", "type": "n.", "meaning": "món cà ri", "example_en": "We went out for a chicken curry.", "example_vi": "Chúng tôi đã ra ngoài để ăn cà ri gà." },
+        { "word": "garlic", "ipa": "/ˈɡɑː.lɪk/", "type": "n.", "meaning": "tỏi", "example_en": "Crush two cloves of garlic and add them to the pan.", "example_vi": "Hãy đập dập hai tép tỏi và cho chúng vào chảo." },
+        { "word": "onion", "ipa": "/ˈʌn.jən/", "type": "n.", "meaning": "hành tây", "example_en": "He chopped an onion for the soup.", "example_vi": "Anh ấy đã thái một củ hành tây cho món súp." }
+      ]
+    }
+  ]
+}

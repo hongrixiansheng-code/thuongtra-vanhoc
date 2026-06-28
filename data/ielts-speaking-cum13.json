@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 25,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a job in your family",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a family member's job.",
+          "bullets": ["who this person is", "what their job is", "what they do every day", "and explain why you find their job interesting"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about my mother. She is a nurse. She works at a hospital and takes care of patients every day. I find her job interesting because she helps many people."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 26,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Jobs and careers",
+        "part": 1,
+        "questions": ["What do you do?", "What does your father do?", "What job would you like to have in the future?"],
+        "sampleAnswer": "I am a student. My father is an engineer. In the future, I would like to be a teacher."
+      }
+    ]
+  }
+]

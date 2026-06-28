@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 37,
+    "reading": [
+      {
+        "title": "Reading: My childhood neighbourhood",
+        "passage": "When I was a child, I was very shy and I wasn't interested in sports. My best friend and I were in the same class for years, and we were never bored in the summer. My parents weren't strict, as long as I was home before dinner.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer was interested in sports as a child.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I wasn't interested in sports\"." },
+          { "type": "true_false_ng", "question": "The writer's parents were very strict.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"My parents weren't strict\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "reading": [
+      {
+        "title": "Reading: A trip to Hoi An",
+        "passage": "Last summer, I visited Hoi An with my family. We booked a small hotel near the old town and stayed for four days. We explored the old streets every evening and discovered a wonderful little restaurant. We returned there twice.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The family stayed for four days.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"We... stayed for four days.\"" },
+          { "type": "multiple_choice", "question": "What did they discover?", "options": ["An old temple", "A wonderful little restaurant", "A new hotel"], "correct": "A wonderful little restaurant", "explanation": "\"we discovered a wonderful little restaurant\"." }
+        ]
+      }
+    ]
+  }
+]

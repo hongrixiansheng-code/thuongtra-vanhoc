@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 75,
+    "dialogue": [
+      {
+        "title": "What would you do?",
+        "lines": [
+          { "speaker": "Linh", "en": "If I had a lot of money, I would travel around the world.", "vi": "Nếu tôi có nhiều tiền, tôi sẽ đi du lịch khắp thế giới." },
+          { "speaker": "Tom", "en": "I would buy a big house if I were rich.", "vi": "Tôi sẽ mua một căn nhà lớn nếu tôi giàu." },
+          { "speaker": "Linh", "en": "What would you do if you had more free time?", "vi": "Bạn sẽ làm gì nếu bạn có nhiều thời gian rảnh hơn?" },
+          { "speaker": "Tom", "en": "If I had more free time, I would learn a new language.", "vi": "Nếu tôi có nhiều thời gian rảnh hơn, tôi sẽ học một ngôn ngữ mới." },
+          { "speaker": "Linh", "en": "I wish I could speak French.", "vi": "Tôi ước tôi có thể nói tiếng Pháp." },
+          { "speaker": "Tom", "en": "If you studied every day, you would learn it quickly.", "vi": "Nếu bạn học mỗi ngày, bạn sẽ học nhanh thôi." }
+        ]
+      },
+      {
+        "title": "An ideal world",
+        "lines": [
+          { "speaker": "Mai", "en": "If everyone were kind, the world would be a better place.", "vi": "Nếu mọi người đều tử tế, thế giới sẽ là một nơi tốt đẹp hơn." },
+          { "speaker": "David", "en": "I suppose that's true. What would you change first?", "vi": "Tôi cho là đúng. Bạn sẽ thay đổi điều gì đầu tiên?" },
+          { "speaker": "Mai", "en": "If I were a leader, I would invest more in education.", "vi": "Nếu tôi là một nhà lãnh đạo, tôi sẽ đầu tư nhiều hơn vào giáo dục." },
+          { "speaker": "David", "en": "If only we had more time to discuss this.", "vi": "Ước gì chúng ta có nhiều thời gian hơn để thảo luận về điều này." },
+          { "speaker": "Mai", "en": "Imagine if every city had clean air.", "vi": "Hãy tưởng tượng nếu mỗi thành phố đều có không khí trong sạch." },
+          { "speaker": "David", "en": "That would be wonderful, but it's quite hypothetical for now.", "vi": "Điều đó sẽ tuyệt vời, nhưng hiện tại nó khá là giả định." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "dialogue": [
+      {
+        "title": "Real or unreal?",
+        "lines": [
+          { "speaker": "Hoa", "en": "If it rains tomorrow, the match will be cancelled.", "vi": "Nếu ngày mai mưa, trận đấu sẽ bị hủy." },
+          { "speaker": "Sarah", "en": "That's a real possibility. But if I were the coach, I would change the schedule.", "vi": "Đó là một khả năng thực sự. Nhưng nếu tôi là huấn luyện viên, tôi sẽ thay đổi lịch trình." },
+          { "speaker": "Hoa", "en": "If you finish your homework, you can watch the match.", "vi": "Nếu bạn làm xong bài tập, bạn có thể xem trận đấu." },
+          { "speaker": "Sarah", "en": "If I had more time, I would finish it now.", "vi": "Nếu tôi có nhiều thời gian hơn, tôi sẽ làm xong nó ngay bây giờ." },
+          { "speaker": "Hoa", "en": "Is that certain, or just possible?", "vi": "Điều đó là chắc chắn, hay chỉ là có thể?" },
+          { "speaker": "Sarah", "en": "It's certain. If I start now, I will finish before dinner.", "vi": "Nó là chắc chắn. Nếu tôi bắt đầu ngay, tôi sẽ hoàn thành trước bữa tối." }
+        ]
+      },
+      {
+        "title": "Comparing situations",
+        "lines": [
+          { "speaker": "Lan", "en": "If I won the lottery, I would buy a big house.", "vi": "Nếu tôi trúng số, tôi sẽ mua một căn nhà lớn." },
+          { "speaker": "James", "en": "That's hypothetical. But if you save money, you will buy a small house someday.", "vi": "Đó là giả định. Nhưng nếu bạn tiết kiệm tiền, bạn sẽ mua một căn nhà nhỏ vào lúc nào đó." },
+          { "speaker": "Lan", "en": "If I were a bird, I would fly everywhere.", "vi": "Nếu tôi là một con chim, tôi sẽ bay đi mọi nơi." },
+          { "speaker": "James", "en": "That's impossible, of course. If you travel more, you will see many places too.", "vi": "Điều đó là không thể, tất nhiên. Nhưng nếu bạn đi du lịch nhiều hơn, bạn cũng sẽ thấy nhiều nơi." },
+          { "speaker": "Lan", "en": "You're right. If I plan carefully, I will travel next year.", "vi": "Bạn nói đúng. Nếu tôi lập kế hoạch cẩn thận, tôi sẽ đi du lịch năm sau." },
+          { "speaker": "James", "en": "That sounds like a realistic plan.", "vi": "Nghe có vẻ là một kế hoạch thực tế." }
+        ]
+      }
+    ]
+  }
+]

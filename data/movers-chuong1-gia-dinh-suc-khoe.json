@@ -1,0 +1,973 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "title": "Bài 1.a: Gia đình (1/2)",
+      "theme": "Bản thân, gia đình & sức khỏe",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "aunt",
+          "ipa": "/ɑːnt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dì, cô, thím, bác gái",
+          "example_en": "This is my aunt.",
+          "example_vi": "Đây là dì của tôi."
+        },
+        {
+          "word": "uncle",
+          "ipa": "/ˈʌŋkəl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chú, bác trai, cậu",
+          "example_en": "This is my uncle.",
+          "example_vi": "Đây là chú của tôi."
+        },
+        {
+          "word": "granddaughter",
+          "ipa": "/ˈɡrænˌdɔːtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cháu gái (của ông bà)",
+          "example_en": "She is my granddaughter.",
+          "example_vi": "Cô bé là cháu gái của tôi."
+        },
+        {
+          "word": "grandparent",
+          "ipa": "/ˈɡrænˌperənt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ông hoặc bà",
+          "example_en": "I have got two grandparents.",
+          "example_vi": "Tôi có hai ông bà."
+        },
+        {
+          "word": "grandson",
+          "ipa": "/ˈɡrænˌsʌn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cháu trai (của ông bà)",
+          "example_en": "He is my grandson.",
+          "example_vi": "Cậu bé là cháu trai của tôi."
+        },
+        {
+          "word": "daughter",
+          "ipa": "/ˈdɔːtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con gái",
+          "example_en": "I have got a daughter.",
+          "example_vi": "Tôi có một con gái."
+        },
+        {
+          "word": "son",
+          "ipa": "/sʌn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con trai",
+          "example_en": "He is my son.",
+          "example_vi": "Cậu bé là con trai của tôi."
+        },
+        {
+          "word": "parent",
+          "ipa": "/ˈperənt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cha hoặc mẹ",
+          "example_en": "My parents are at home.",
+          "example_vi": "Bố mẹ tôi đang ở nhà."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "another + danh từ: một ... khác",
+          "desc": "'another' đứng trước danh từ số ít để nói về 'một ... khác / thêm một...'. Không dùng 'another' với danh từ số nhiều (dùng 'more' thay thế).",
+          "formula": [
+            {
+              "text": "another",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "noun (số ít)",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got another aunt.",
+              "meaning": "Tôi có một người dì khác nữa."
+            },
+            {
+              "correct": "This is another grandson.",
+              "meaning": "Đây là một cháu trai khác."
+            },
+            {
+              "correct": "Is there another uncle?",
+              "meaning": "Có một người chú khác không?"
+            }
+          ]
+        },
+        {
+          "title": "Câu hỏi Who: hỏi về người",
+          "desc": "'Who' dùng để hỏi 'ai', đứng đầu câu hỏi. Đây là từ để hỏi (question word), KHÔNG dùng để nối mệnh đề ở trình độ này.",
+          "formula": [
+            {
+              "text": "Who",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "is/are",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "this/these?",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Who is this? This is my aunt.",
+              "meaning": "Đây là ai? Đây là dì của tôi."
+            },
+            {
+              "correct": "Who is your grandson?",
+              "meaning": "Cháu trai của bạn là ai?"
+            },
+            {
+              "correct": "Who are your parents?",
+              "meaning": "Bố mẹ bạn là ai?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got với gia đình",
+          "desc": "Ôn lại cấu trúc 'have got' (đã học ở Starters) để nói về các thành viên gia đình mới học.",
+          "formula": [
+            {
+              "text": "I/You/We/They",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a/an + noun",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got an uncle and an aunt.",
+              "meaning": "Tôi có một người chú và một người dì."
+            },
+            {
+              "correct": "She has got a daughter.",
+              "meaning": "Cô ấy có một cô con gái."
+            },
+            {
+              "correct": "We have got two grandparents.",
+              "meaning": "Chúng tôi có hai ông bà."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "My family",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Who is this?",
+              "vi": "Đây là ai vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "This is my aunt and this is my uncle.",
+              "vi": "Đây là dì tôi và đây là chú tôi."
+            },
+            {
+              "speaker": "A",
+              "en": "Have you got a grandson?",
+              "vi": "Bạn có cháu trai không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I have. And I have got another granddaughter too.",
+              "vi": "Có chứ. Và tôi còn có thêm một cháu gái khác nữa."
+            },
+            {
+              "speaker": "A",
+              "en": "Who are your parents?",
+              "vi": "Bố mẹ bạn là ai?"
+            },
+            {
+              "speaker": "B",
+              "en": "These are my parents.",
+              "vi": "Đây là bố mẹ của tôi."
+            }
+          ]
+        },
+        {
+          "title": "At grandma's house",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Is your son here?",
+              "vi": "Con trai của bạn có ở đây không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, he is. And my daughter is here too.",
+              "vi": "Có. Và con gái tôi cũng ở đây nữa."
+            },
+            {
+              "speaker": "A",
+              "en": "Have your grandparents got another house?",
+              "vi": "Ông bà của bạn có một căn nhà khác không?"
+            },
+            {
+              "speaker": "B",
+              "en": "No, they haven't.",
+              "vi": "Không, ông bà tôi không có."
+            },
+            {
+              "speaker": "A",
+              "en": "Who is in the house now?",
+              "vi": "Bây giờ ai đang ở trong nhà vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "My son and my daughter are in the house.",
+              "vi": "Con trai và con gái của tôi đang ở trong nhà."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Bài 1.b: Gia đình (2/2)",
+      "theme": "Bản thân, gia đình & sức khỏe",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "grown-up",
+          "ipa": "/ˈɡroʊn ʌp/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người lớn",
+          "example_en": "I see a grown-up in the house.",
+          "example_vi": "Tôi thấy một người lớn trong nhà."
+        },
+        {
+          "word": "beard",
+          "ipa": "/bɪərd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "râu (cằm)",
+          "example_en": "My grandpa has got a beard.",
+          "example_vi": "Ông tôi có bộ râu."
+        },
+        {
+          "word": "moustache",
+          "ipa": "/məˈstæʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ria mép",
+          "example_en": "He has got a moustache.",
+          "example_vi": "Anh ấy có ria mép."
+        },
+        {
+          "word": "blond(e)",
+          "ipa": "/blɒnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tóc vàng hoe",
+          "example_en": "She has got blond hair.",
+          "example_vi": "Cô ấy có mái tóc vàng hoe."
+        },
+        {
+          "word": "curly",
+          "ipa": "/ˈkɜːrli/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "xoăn",
+          "example_en": "My hair is curly.",
+          "example_vi": "Tóc tôi xoăn."
+        },
+        {
+          "word": "back",
+          "ipa": "/bæk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lưng",
+          "example_en": "Point at your back.",
+          "example_vi": "Chỉ vào lưng của bạn."
+        },
+        {
+          "word": "shoulder",
+          "ipa": "/ˈʃoʊldər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "vai",
+          "example_en": "Point at your shoulder.",
+          "example_vi": "Chỉ vào vai của bạn."
+        },
+        {
+          "word": "neck",
+          "ipa": "/nek/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cổ",
+          "example_en": "Her neck is long.",
+          "example_vi": "Cổ của cô ấy dài."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "have got + ngoại hình: tả khuôn mặt, mái tóc",
+          "desc": "Dùng 'have got' với danh từ chỉ đặc điểm ngoại hình (râu, ria mép) hoặc với tính từ + danh từ chỉ tóc (curly/blond hair).",
+          "formula": [
+            {
+              "text": "He/She",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "has got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a beard / curly hair",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My grandpa has got a beard.",
+              "meaning": "Ông tôi có bộ râu."
+            },
+            {
+              "correct": "She has got blond hair.",
+              "meaning": "Cô ấy có mái tóc vàng hoe."
+            },
+            {
+              "correct": "He hasn't got a moustache.",
+              "meaning": "Anh ấy không có ria mép."
+            }
+          ]
+        },
+        {
+          "title": "every + danh từ số ít",
+          "desc": "'every' (mỗi, mọi) luôn đi với danh từ SỐ ÍT, dù mang nghĩa khái quát cho tất cả. Khác với 'all' (đi với danh từ số nhiều).",
+          "formula": [
+            {
+              "text": "every",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "noun (số ít)",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Every grandparent is happy.",
+              "meaning": "Ông/bà nào cũng vui vẻ."
+            },
+            {
+              "correct": "Every family is big.",
+              "meaning": "Gia đình nào cũng đông."
+            },
+            {
+              "correct": "Every son and daughter is happy.",
+              "meaning": "Con trai và con gái nào cũng vui vẻ."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: tính từ + bộ phận cơ thể",
+          "desc": "Ôn tính từ cơ bản (long/big/small) kết hợp với tên bộ phận cơ thể mới học (back/shoulder/neck).",
+          "formula": [
+            {
+              "text": "His/Her",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "neck/back/shoulder",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            },
+            {
+              "text": "is + adj",
+              "classes": "border-orange-200 bg-orange-50 text-orange-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Her neck is long.",
+              "meaning": "Cổ của cô ấy dài."
+            },
+            {
+              "correct": "His back is big.",
+              "meaning": "Lưng của anh ấy to."
+            },
+            {
+              "correct": "My shoulder is small.",
+              "meaning": "Vai của tôi nhỏ."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "What does he look like?",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Who is this grown-up?",
+              "vi": "Người lớn này là ai vậy?"
+            },
+            {
+              "speaker": "A",
+              "en": "Has he got a beard?",
+              "vi": "Ông ấy có bộ râu không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, he has. And he has got a moustache too.",
+              "vi": "Có. Và ông ấy còn có ria mép nữa."
+            },
+            {
+              "speaker": "A",
+              "en": "Is his hair blond?",
+              "vi": "Tóc ông ấy có vàng hoe không?"
+            },
+            {
+              "speaker": "B",
+              "en": "No, it isn't. His hair is curly and black.",
+              "vi": "Không. Tóc ông ấy xoăn và đen."
+            }
+          ]
+        },
+        {
+          "title": "Touch your shoulder",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Point at your shoulder, please.",
+              "vi": "Làm ơn chỉ vào vai của bạn."
+            },
+            {
+              "speaker": "B",
+              "en": "Like this?",
+              "vi": "Như thế này à?"
+            },
+            {
+              "speaker": "A",
+              "en": "Yes! Now point at your back.",
+              "vi": "Đúng rồi! Giờ chỉ vào lưng đi."
+            },
+            {
+              "speaker": "B",
+              "en": "My back is big!",
+              "vi": "Lưng của tớ to lắm!"
+            },
+            {
+              "speaker": "A",
+              "en": "And my neck is long!",
+              "vi": "Còn cổ của tớ thì dài!"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "Bài 2.a: Sức khỏe (1/2)",
+      "theme": "Bản thân, gia đình & sức khỏe",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "cough",
+          "ipa": "/kɒf/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ho",
+          "example_en": "I have got a cough.",
+          "example_vi": "Tôi bị ho."
+        },
+        {
+          "word": "dentist",
+          "ipa": "/ˈdentɪst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nha sĩ",
+          "example_en": "I must see the dentist.",
+          "example_vi": "Tôi phải đi gặp nha sĩ."
+        },
+        {
+          "word": "doctor",
+          "ipa": "/ˈdɒktər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bác sĩ",
+          "example_en": "I must see the doctor.",
+          "example_vi": "Tôi phải đi gặp bác sĩ."
+        },
+        {
+          "word": "earache",
+          "ipa": "/ˈɪəreɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đau tai",
+          "example_en": "I have got an earache.",
+          "example_vi": "Tôi bị đau tai."
+        },
+        {
+          "word": "headache",
+          "ipa": "/ˈhedeɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đau đầu",
+          "example_en": "I have got a headache.",
+          "example_vi": "Tôi bị đau đầu."
+        },
+        {
+          "word": "hospital",
+          "ipa": "/ˈhɒspɪtl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bệnh viện",
+          "example_en": "My mum is at the hospital.",
+          "example_vi": "Mẹ tôi đang ở bệnh viện."
+        },
+        {
+          "word": "hurt",
+          "ipa": "/hɜːrt/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "đau, làm đau",
+          "example_en": "My back hurts.",
+          "example_vi": "Lưng tôi đau."
+        },
+        {
+          "word": "hot",
+          "ipa": "/hɒt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nóng, sốt",
+          "example_en": "I am hot.",
+          "example_vi": "Tôi thấy nóng (sốt)."
+        },
+        {
+          "word": "nurse",
+          "ipa": "/nɜːrs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "y tá",
+          "example_en": "The nurse is at the hospital.",
+          "example_vi": "Cô y tá đang ở bệnh viện."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "must / mustn't: bắt buộc phải / không được",
+          "desc": "'must' diễn tả việc bắt buộc phải làm, 'mustn't' diễn tả việc không được phép làm. Sau must/mustn't luôn dùng động từ nguyên mẫu (không thêm -s/-ing).",
+          "formula": [
+            {
+              "text": "I/You/He/She",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "must / mustn't",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "động từ nguyên mẫu",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I must see a doctor.",
+              "meaning": "Tôi phải đi gặp bác sĩ."
+            },
+            {
+              "correct": "You mustn't run in the hospital.",
+              "meaning": "Bạn không được chạy trong bệnh viện."
+            },
+            {
+              "correct": "He must see the dentist.",
+              "meaning": "Cậu ấy phải đi gặp nha sĩ."
+            }
+          ]
+        },
+        {
+          "title": "could: khả năng trong quá khứ",
+          "desc": "'could' là dạng quá khứ của 'can', diễn tả khả năng đã từng làm được (hoặc không làm được) trong quá khứ. Phủ định: couldn't.",
+          "formula": [
+            {
+              "text": "I/You/He/She",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "could / couldn't",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "động từ nguyên mẫu",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I couldn't sleep. I have got a headache.",
+              "meaning": "Tôi không ngủ được. Tôi bị đau đầu."
+            },
+            {
+              "correct": "He could not come to school. He has got a cough.",
+              "meaning": "Cậu ấy không thể đến trường. Cậu ấy bị ho."
+            },
+            {
+              "correct": "Could you come to school?",
+              "meaning": "Bạn có thể đến trường được không?"
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + ache (đau ở đâu)",
+          "desc": "Ôn lại cấu trúc 'have got' để nói các loại đau (earache, headache) đã học.",
+          "formula": [
+            {
+              "text": "I",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a headache/an earache",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got a headache and a cough.",
+              "meaning": "Tôi bị đau đầu và ho."
+            },
+            {
+              "correct": "She has got an earache.",
+              "meaning": "Cô bé bị đau tai."
+            },
+            {
+              "correct": "My back hurts and I am hot.",
+              "meaning": "Lưng tôi đau và tôi thấy nóng (sốt)."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the doctor's",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "What is the matter?",
+              "vi": "Bạn bị làm sao vậy?"
+            },
+            {
+              "speaker": "B",
+              "en": "I have got a headache and I am hot.",
+              "vi": "Tôi bị đau đầu và thấy nóng."
+            },
+            {
+              "speaker": "A",
+              "en": "You must see a doctor.",
+              "vi": "Bạn phải đi gặp bác sĩ."
+            },
+            {
+              "speaker": "B",
+              "en": "I couldn't sleep.",
+              "vi": "Tôi không ngủ được."
+            },
+            {
+              "speaker": "A",
+              "en": "The nurse is here.",
+              "vi": "Cô y tá đây rồi."
+            }
+          ]
+        },
+        {
+          "title": "I have got a cough",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "I have got a cough and an earache.",
+              "vi": "Tôi bị ho và đau tai."
+            },
+            {
+              "speaker": "B",
+              "en": "You mustn't go to school today.",
+              "vi": "Hôm nay bạn không được đến trường."
+            },
+            {
+              "speaker": "A",
+              "en": "My back hurts too.",
+              "vi": "Lưng tôi cũng đau nữa."
+            },
+            {
+              "speaker": "B",
+              "en": "You must see the doctor at the hospital.",
+              "vi": "Bạn phải đến bệnh viện gặp bác sĩ."
+            },
+            {
+              "speaker": "A",
+              "en": "Could you come with me?",
+              "vi": "Bạn có thể đi cùng tớ không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I can.",
+              "vi": "Được chứ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Bài 2.b: Sức khỏe (2/2)",
+      "theme": "Bản thân, gia đình & sức khỏe",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "stomach",
+          "ipa": "/ˈstʌmək/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dạ dày, bụng",
+          "example_en": "My stomach hurts.",
+          "example_vi": "Bụng tôi đau."
+        },
+        {
+          "word": "stomach-ache",
+          "ipa": "/ˈstʌmək eɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đau bụng",
+          "example_en": "I have got a stomach-ache.",
+          "example_vi": "Tôi bị đau bụng."
+        },
+        {
+          "word": "temperature",
+          "ipa": "/ˈtemprətʃər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thân nhiệt, sốt",
+          "example_en": "I have got a temperature.",
+          "example_vi": "Tôi bị sốt."
+        },
+        {
+          "word": "tooth/teeth",
+          "ipa": "/tuːθ/ /tiːθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "răng (số ít/số nhiều)",
+          "example_en": "I have got a toothbrush for my teeth.",
+          "example_vi": "Tôi có bàn chải để đánh răng."
+        },
+        {
+          "word": "toothache",
+          "ipa": "/ˈtuːθeɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đau răng",
+          "example_en": "I have got a toothache.",
+          "example_vi": "Tôi bị đau răng."
+        },
+        {
+          "word": "toothbrush",
+          "ipa": "/ˈtuːθbrʌʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bàn chải đánh răng",
+          "example_en": "This is my toothbrush.",
+          "example_vi": "Đây là bàn chải đánh răng của tôi."
+        },
+        {
+          "word": "toothpaste",
+          "ipa": "/ˈtuːθpeɪst/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kem đánh răng",
+          "example_en": "Where is the toothpaste?",
+          "example_vi": "Kem đánh răng đâu rồi?"
+        },
+        {
+          "word": "well",
+          "ipa": "/wel/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khỏe (sức khỏe)",
+          "example_en": "I am not well today.",
+          "example_vi": "Hôm nay tôi không khỏe."
+        }
+      ],
+      "grammar": [
+        {
+          "title": "well / not well: nói về sức khỏe",
+          "desc": "'well' dùng làm tính từ chỉ tình trạng sức khỏe ('khỏe'), khác với 'good' (tốt nói chung). Câu hỏi thường dùng: 'Are you well?'",
+          "formula": [
+            {
+              "text": "I am / He is",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "well / not well",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I am not well today.",
+              "meaning": "Hôm nay tôi không khỏe."
+            },
+            {
+              "correct": "Is your mum well now?",
+              "meaning": "Mẹ bạn giờ khỏe chưa?"
+            },
+            {
+              "correct": "He mustn't go to school. He isn't well.",
+              "meaning": "Cậu ấy không được đến trường. Cậu ấy không khỏe."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập: have got + ache (đau bụng, đau răng)",
+          "desc": "Ôn cấu trúc 'have got' với các loại đau mới học (stomach-ache, toothache).",
+          "formula": [
+            {
+              "text": "I",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "have got",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            },
+            {
+              "text": "a stomach-ache/a toothache",
+              "classes": "border-purple-200 bg-purple-50 text-purple-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have got a stomach-ache and a temperature.",
+              "meaning": "Tôi bị đau bụng và sốt."
+            },
+            {
+              "correct": "She has got a toothache.",
+              "meaning": "Cô bé bị đau răng."
+            },
+            {
+              "correct": "We mustn't eat. We have got a stomach-ache.",
+              "meaning": "Chúng tôi không nên ăn. Chúng tôi bị đau bụng."
+            }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 1: gia đình & sức khỏe",
+          "desc": "Kết hợp must/mustn't, could/couldn't, have got, every và toàn bộ từ vựng gia đình + sức khỏe đã học trong Chương 1.",
+          "formula": [
+            {
+              "text": "Tổng hợp cấu trúc Bài 1-2",
+              "classes": "border-indigo-200 bg-indigo-50 text-indigo-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "My grandparent has got a toothache. He must see the dentist.",
+              "meaning": "Ông tôi bị đau răng. Ông phải đi gặp nha sĩ."
+            },
+            {
+              "correct": "Every aunt and uncle in my family is well now.",
+              "meaning": "Các dì và chú trong nhà tôi giờ đều khỏe rồi."
+            },
+            {
+              "correct": "I couldn't eat. I had a stomach-ache.",
+              "meaning": "Tôi không ăn được. Tôi bị đau bụng."
+            }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Brushing teeth",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Where is my toothbrush?",
+              "vi": "Bàn chải đánh răng của tớ đâu rồi?"
+            },
+            {
+              "speaker": "B",
+              "en": "Here it is. And here is the toothpaste.",
+              "vi": "Đây này. Và đây là kem đánh răng."
+            },
+            {
+              "speaker": "A",
+              "en": "I have got a toothache.",
+              "vi": "Tớ bị đau răng."
+            },
+            {
+              "speaker": "B",
+              "en": "You must see the dentist.",
+              "vi": "Cậu phải đi gặp nha sĩ."
+            },
+            {
+              "speaker": "A",
+              "en": "Are you well now?",
+              "vi": "Giờ cậu khỏe chưa?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I am well now.",
+              "vi": "Tớ khỏe rồi."
+            }
+          ]
+        },
+        {
+          "title": "I'm not well",
+          "lines": [
+            {
+              "speaker": "A",
+              "en": "Are you well today?",
+              "vi": "Hôm nay bạn khỏe không?"
+            },
+            {
+              "speaker": "B",
+              "en": "No, I am not well. I have got a stomach-ache.",
+              "vi": "Không, tôi không khỏe. Tôi bị đau bụng."
+            },
+            {
+              "speaker": "A",
+              "en": "Have you got a temperature?",
+              "vi": "Bạn có bị sốt không?"
+            },
+            {
+              "speaker": "B",
+              "en": "Yes, I have. I mustn't go to school.",
+              "vi": "Có. Tôi không được đến trường."
+            },
+            {
+              "speaker": "A",
+              "en": "Every grown-up in my family is well now.",
+              "vi": "Người lớn nào trong nhà tớ giờ cũng khỏe cả."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

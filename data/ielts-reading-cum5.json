@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 9,
+    "reading": [
+      {
+        "title": "Reading: Finding your way",
+        "passage": "Go straight along this street, then turn left at the corner. The library is the big building on your right. Those shops next to it are open until 9 p.m. The station is not far from here.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The library is on the right.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"The library is the big building on your right.\"" },
+          { "type": "true_false_ng", "question": "The station is very far away.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"The station is not far from here.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "reading": [
+      {
+        "title": "Reading: Review — Mai's hometown",
+        "passage": "Hi, I'm Mai. I am from a small town. There is a small house near my hometown with a beautiful garden. My family isn't big, but we are happy. There is a park opposite the supermarket, and the school is between the bank and the post office.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Mai's family is big.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"My family isn't big\"." },
+          { "type": "true_false_ng", "question": "The park is opposite the supermarket.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu cuối nêu rõ điều này." },
+          { "type": "multiple_choice", "question": "Where is the school?", "options": ["Between the bank and the post office", "Opposite the park", "Next to the garden"], "correct": "Between the bank and the post office", "explanation": "\"the school is between the bank and the post office\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 3,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a person's appearance",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what a friend or family member looks like.",
+        "minWords": 30,
+        "sampleAnswer": "My best friend is tall and young. Her hair is long and curly. She is very friendly and kind to everyone.",
+        "checklist": ["Dùng be + adjective để mô tả ngoại hình", "Mô tả ít nhất 2 đặc điểm (chiều cao, tóc...)", "Có ít nhất 1 tính từ về tính cách"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a person's character",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a person's character using have/has.",
+        "minWords": 30,
+        "sampleAnswer": "My sister has a kind heart. She has clever ideas and a lot of energy. She has a calm personality, so she is never nervous.",
+        "checklist": ["Dùng have/has + noun ít nhất 2 lần", "Mô tả được tính cách rõ ràng", "Câu văn mạch lạc, có liên kết"]
+      }
+    ]
+  }
+]

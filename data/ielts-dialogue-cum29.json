@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 57,
+    "dialogue": [
+      {
+        "title": "Asking for medical advice",
+        "lines": [
+          { "speaker": "Trang", "en": "I have a terrible headache today.", "vi": "Hôm nay tôi bị đau đầu kinh khủng." },
+          { "speaker": "Emma", "en": "You should drink more water and rest for a while.", "vi": "Bạn nên uống nhiều nước hơn và nghỉ ngơi một chút." },
+          { "speaker": "Trang", "en": "I didn't sleep well last night either.", "vi": "Tối qua tôi cũng không ngủ ngon." },
+          { "speaker": "Emma", "en": "You shouldn't stay up too late before work.", "vi": "Bạn không nên thức quá khuya trước khi đi làm." },
+          { "speaker": "Trang", "en": "What should I do if it doesn't get better?", "vi": "Tôi nên làm gì nếu nó không đỡ hơn?" },
+          { "speaker": "Emma", "en": "You should see a doctor if the headache continues.", "vi": "Bạn nên đi khám bác sĩ nếu cơn đau đầu vẫn tiếp tục." }
+        ]
+      },
+      {
+        "title": "A lifestyle conversation",
+        "lines": [
+          { "speaker": "Trang", "en": "I feel tired all the time recently.", "vi": "Gần đây tôi luôn cảm thấy mệt." },
+          { "speaker": "Emma", "en": "You should exercise a little every day.", "vi": "Bạn nên tập thể dục một chút mỗi ngày." },
+          { "speaker": "Trang", "en": "I shouldn't eat so much fast food, should I?", "vi": "Tôi không nên ăn nhiều đồ ăn nhanh như vậy, đúng không?" },
+          { "speaker": "Emma", "en": "No, you shouldn't. You should eat more vegetables instead.", "vi": "Không, bạn không nên. Bạn nên ăn nhiều rau hơn thay vào đó." },
+          { "speaker": "Trang", "en": "Should I also reduce my coffee?", "vi": "Tôi cũng nên giảm cà phê chứ?" },
+          { "speaker": "Emma", "en": "Yes, you should. Too much coffee isn't good for your sleep.", "vi": "Vâng, bạn nên. Quá nhiều cà phê không tốt cho việc ngủ của bạn." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 58,
+    "dialogue": [
+      {
+        "title": "School rules",
+        "lines": [
+          { "speaker": "Trang", "en": "Do students have to wear a uniform here?", "vi": "Học sinh ở đây có phải mặc đồng phục không?" },
+          { "speaker": "Emma", "en": "Yes, they have to wear it every day except Friday.", "vi": "Vâng, họ phải mặc nó mỗi ngày trừ thứ Sáu." },
+          { "speaker": "Trang", "en": "Do we have to bring our own books?", "vi": "Chúng ta có phải tự mang sách của mình không?" },
+          { "speaker": "Emma", "en": "No, you don't have to. The school provides them.", "vi": "Không, bạn không cần. Trường cung cấp sẵn." },
+          { "speaker": "Trang", "en": "Does he have to attend every class?", "vi": "Anh ấy có phải tham dự mọi buổi học không?" },
+          { "speaker": "Emma", "en": "Yes, he has to. Attendance is required for all students.", "vi": "Vâng, anh ấy phải. Việc tham dự là bắt buộc với tất cả học sinh." }
+        ]
+      },
+      {
+        "title": "At a new job",
+        "lines": [
+          { "speaker": "Trang", "en": "Do I have to work on weekends?", "vi": "Tôi có phải làm việc vào cuối tuần không?" },
+          { "speaker": "Emma", "en": "No, you don't have to, but you can if you want extra pay.", "vi": "Không, bạn không cần, nhưng bạn có thể nếu muốn thêm lương." },
+          { "speaker": "Trang", "en": "Do we have to wear formal clothes?", "vi": "Chúng ta có phải mặc đồ trang trọng không?" },
+          { "speaker": "Emma", "en": "Yes, we have to wear formal clothes on Mondays and Fridays.", "vi": "Vâng, chúng ta phải mặc đồ trang trọng vào thứ Hai và thứ Sáu." },
+          { "speaker": "Trang", "en": "Does everyone have to arrive at eight?", "vi": "Mọi người có phải đến lúc tám giờ không?" },
+          { "speaker": "Emma", "en": "Yes, everyone has to arrive on time, no exceptions.", "vi": "Vâng, mọi người phải đến đúng giờ, không có ngoại lệ." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 11,
+    "vocab": [
+      {
+        "word": "swim",
+        "ipa": "/swɪm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bơi",
+        "example_en": "I swim in the river.",
+        "example_vi": "Tôi bơi dưới sông.",
+        "level": "A1"
+      },
+      {
+        "word": "drive",
+        "ipa": "/draɪv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lái xe",
+        "example_en": "My father drives a car.",
+        "example_vi": "Bố tôi lái xe ô tô.",
+        "level": "A1"
+      },
+      {
+        "word": "cook",
+        "ipa": "/kʊk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nấu ăn",
+        "example_en": "My mother cooks well.",
+        "example_vi": "Mẹ tôi nấu ăn ngon.",
+        "level": "A1"
+      },
+      {
+        "word": "speak",
+        "ipa": "/spiːk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nói",
+        "example_en": "I speak English.",
+        "example_vi": "Tôi nói tiếng Anh.",
+        "level": "A1"
+      },
+      {
+        "word": "read",
+        "ipa": "/riːd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đọc",
+        "example_en": "She reads a book.",
+        "example_vi": "Cô ấy đọc một cuốn sách.",
+        "level": "A1"
+      },
+      {
+        "word": "write",
+        "ipa": "/raɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "viết",
+        "example_en": "He writes a letter.",
+        "example_vi": "Anh ấy viết một bức thư.",
+        "level": "A1"
+      },
+      {
+        "word": "sing",
+        "ipa": "/sɪŋ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "hát",
+        "example_en": "They sing a song.",
+        "example_vi": "Họ hát một bài hát.",
+        "level": "A1"
+      },
+      {
+        "word": "play",
+        "ipa": "/pleɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chơi",
+        "example_en": "We play in the park.",
+        "example_vi": "Chúng tôi chơi trong công viên.",
+        "level": "A1"
+      },
+      {
+        "word": "draw",
+        "ipa": "/drɔː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "vẽ",
+        "example_en": "I draw a picture.",
+        "example_vi": "Tôi vẽ một bức tranh.",
+        "level": "A1"
+      },
+      {
+        "word": "dance",
+        "ipa": "/dɑːns/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhảy múa",
+        "example_en": "She dances nicely.",
+        "example_vi": "Cô ấy nhảy đẹp.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "vocab": [
+      {
+        "word": "help",
+        "ipa": "/help/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "giúp đỡ",
+        "example_en": "Please help me.",
+        "example_vi": "Làm ơn giúp tôi.",
+        "level": "A1"
+      },
+      {
+        "word": "open",
+        "ipa": "/ˈəʊ.pən/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mở",
+        "example_en": "Open the door.",
+        "example_vi": "Mở cửa ra.",
+        "level": "A1"
+      },
+      {
+        "word": "close",
+        "ipa": "/kləʊz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đóng",
+        "example_en": "Close the window.",
+        "example_vi": "Đóng cửa sổ lại.",
+        "level": "A1"
+      },
+      {
+        "word": "bring",
+        "ipa": "/brɪŋ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "mang đến",
+        "example_en": "Bring me the book.",
+        "example_vi": "Mang sách cho tôi.",
+        "level": "A1"
+      },
+      {
+        "word": "take",
+        "ipa": "/teɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lấy, mang đi",
+        "example_en": "Take the keys.",
+        "example_vi": "Lấy chìa khóa đi.",
+        "level": "A1"
+      },
+      {
+        "word": "wait",
+        "ipa": "/weɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chờ đợi",
+        "example_en": "Wait for me.",
+        "example_vi": "Chờ tôi với.",
+        "level": "A1"
+      },
+      {
+        "word": "stop",
+        "ipa": "/stɒp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dừng lại",
+        "example_en": "Stop here.",
+        "example_vi": "Dừng ở đây.",
+        "level": "A1"
+      },
+      {
+        "word": "go",
+        "ipa": "/ɡəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi",
+        "example_en": "Go straight.",
+        "example_vi": "Đi thẳng.",
+        "level": "A1"
+      },
+      {
+        "word": "come",
+        "ipa": "/kʌm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đến",
+        "example_en": "Come here.",
+        "example_vi": "Đến đây.",
+        "level": "A1"
+      },
+      {
+        "word": "sit",
+        "ipa": "/sɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ngồi",
+        "example_en": "Sit on the chair.",
+        "example_vi": "Ngồi lên ghế.",
+        "level": "A1"
+      }
+    ]
+  }
+]

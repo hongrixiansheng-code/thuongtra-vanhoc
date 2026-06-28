@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 37,
+    "vocab": [
+      {
+        "word": "yesterday",
+        "ipa": "/ˈjes.tə.deɪ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "hôm qua",
+        "example_en": "I played football yesterday.",
+        "example_vi": "Tôi đã chơi bóng đá hôm qua.",
+        "level": "A2"
+      },
+      {
+        "word": "ago",
+        "ipa": "/əˈɡəʊ/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "cách đây, trước đây",
+        "example_en": "Two years ago.",
+        "example_vi": "Hai năm trước.",
+        "level": "A2"
+      },
+      {
+        "word": "last week",
+        "ipa": "/lɑːst wiːk/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "tuần trước",
+        "example_en": "I visited my mother last week.",
+        "example_vi": "Tôi đã thăm mẹ tôi vào tuần trước.",
+        "level": "A2"
+      },
+      {
+        "word": "last month",
+        "ipa": "/lɑːst mʌnθ/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "tháng trước",
+        "example_en": "We traveled last month.",
+        "example_vi": "Chúng tôi đã đi du lịch vào tháng trước.",
+        "level": "A2"
+      },
+      {
+        "word": "last year",
+        "ipa": "/lɑːst jɪər/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "năm ngoái",
+        "example_en": "I bought a car last year.",
+        "example_vi": "Tôi đã mua một chiếc ô tô vào năm ngoái.",
+        "level": "A2"
+      },
+      {
+        "word": "past",
+        "ipa": "/pɑːst/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quá khứ",
+        "example_en": "In the past, I was lazy.",
+        "example_vi": "Trong quá khứ, tôi đã rất lười biếng.",
+        "level": "A2"
+      },
+      {
+        "word": "childhood",
+        "ipa": "/ˈtʃaɪld.hʊd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thời thơ ấu",
+        "example_en": "I had a happy childhood.",
+        "example_vi": "Tôi đã có một tuổi thơ hạnh phúc.",
+        "level": "A2"
+      },
+      {
+        "word": "memory",
+        "ipa": "/ˈmem.ər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ký ức",
+        "example_en": "I have a good memory.",
+        "example_vi": "Tôi có một ký ức đẹp.",
+        "level": "A2"
+      },
+      {
+        "word": "recall",
+        "ipa": "/rɪˈkɔːl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "gợi nhớ, nhớ lại",
+        "example_en": "I can recall my childhood.",
+        "example_vi": "Tôi có thể nhớ lại thời thơ ấu của mình.",
+        "level": "A2"
+      },
+      {
+        "word": "remember",
+        "ipa": "/rɪˈmem.bər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhớ",
+        "example_en": "Do you remember me?",
+        "example_vi": "Bạn có nhớ tôi không?",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 38,
+    "vocab": [
+      {
+        "word": "travel",
+        "ipa": "/ˈtræv.əl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "du lịch",
+        "example_en": "We traveled to Hanoi.",
+        "example_vi": "Chúng tôi đã đi du lịch Hà Nội.",
+        "level": "A2"
+      },
+      {
+        "word": "visit",
+        "ipa": "/ˈvɪz.ɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thăm",
+        "example_en": "I visited my friends.",
+        "example_vi": "Tôi đã đi thăm bạn bè.",
+        "level": "A2"
+      },
+      {
+        "word": "stay",
+        "ipa": "/steɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ở lại",
+        "example_en": "We stayed in a hotel.",
+        "example_vi": "Chúng tôi đã ở lại trong một khách sạn.",
+        "level": "A2"
+      },
+      {
+        "word": "arrive",
+        "ipa": "/əˈraɪv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đến nơi",
+        "example_en": "They arrived yesterday.",
+        "example_vi": "Họ đã đến nơi vào hôm qua.",
+        "level": "A2"
+      },
+      {
+        "word": "leave",
+        "ipa": "/liːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "rời đi",
+        "example_en": "She left the house.",
+        "example_vi": "Cô ấy đã rời khỏi nhà.",
+        "level": "A2"
+      },
+      {
+        "word": "fly",
+        "ipa": "/flaɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bay",
+        "example_en": "We flew to London.",
+        "example_vi": "Chúng tôi đã bay tới Luân Đôn.",
+        "level": "A2"
+      },
+      {
+        "word": "drive",
+        "ipa": "/draɪv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "lái xe",
+        "example_en": "I drove a car.",
+        "example_vi": "Tôi đã lái một chiếc ô tô.",
+        "level": "A2"
+      },
+      {
+        "word": "ride",
+        "ipa": "/raɪd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cưỡi, đi (xe đạp)",
+        "example_en": "I rode a bike.",
+        "example_vi": "Tôi đã đi xe đạp.",
+        "level": "A2"
+      },
+      {
+        "word": "walk",
+        "ipa": "/wɔːk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi bộ",
+        "example_en": "We walked in the park.",
+        "example_vi": "Chúng tôi đã đi bộ trong công viên.",
+        "level": "A2"
+      },
+      {
+        "word": "trip",
+        "ipa": "/trɪp/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chuyến đi",
+        "example_en": "It was a good trip.",
+        "example_vi": "Đó đã là một chuyến đi thú vị.",
+        "level": "A2"
+      }
+    ]
+  }
+]

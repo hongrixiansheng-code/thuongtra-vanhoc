@@ -1,0 +1,110 @@
+[
+  {
+    "lessonOrder": 13,
+    "grammar": [
+      {
+        "title": "Câu Mệnh lệnh (Imperatives)",
+        "desc": "Dùng để đưa ra hướng dẫn, chỉ dẫn hoặc yêu cầu ai đó làm gì / không làm gì.",
+        "formula": [
+          {
+            "text": "Khẳng định: Verb (nguyên mẫu) + ...",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Phủ định: Don't + Verb (nguyên mẫu) + ...",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Turn left at the corner.",
+            "vi": "Rẽ trái ở góc phố."
+          },
+          {
+            "en": "Press the button.",
+            "vi": "Nhấn vào nút đó."
+          },
+          {
+            "en": "Don't open the door.",
+            "vi": "Đừng mở cửa."
+          }
+        ],
+        "note": "Câu mệnh lệnh không có chủ ngữ. Thường bắt đầu bằng ngay một động từ nguyên mẫu.",
+        "practiceList": [
+          {
+            "question": "___ your name here.",
+            "correct": "Sign",
+            "meaning": "Ký tên của bạn vào đây.",
+            "explanation": "Câu mệnh lệnh khẳng định bắt đầu bằng động từ nguyên mẫu."
+          },
+          {
+            "question": "___ mix the colors.",
+            "correct": "Don't",
+            "meaning": "Đừng trộn các màu sắc lại.",
+            "explanation": "Câu mệnh lệnh phủ định (Đừng làm gì) bắt đầu bằng \"Don't\"."
+          },
+          {
+            "question": "Please ___ the instructions.",
+            "correct": "follow",
+            "meaning": "Vui lòng làm theo các hướng dẫn.",
+            "explanation": "Sau \"Please\" là động từ nguyên mẫu để yêu cầu lịch sự."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "grammar": [
+      {
+        "title": "Tính từ (Adjectives) — Vị trí trong câu",
+        "desc": "Tính từ dùng để miêu tả đặc điểm. Tính từ có 2 vị trí chính: đứng sau động từ \"to be\" hoặc đứng TRƯỚC danh từ.",
+        "formula": [
+          {
+            "text": "S + am/is/are + Adjective",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Adjective + Noun",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "The room is clean.",
+            "vi": "Căn phòng thì sạch sẽ."
+          },
+          {
+            "en": "It is a clean room.",
+            "vi": "Nó là một căn phòng sạch sẽ."
+          },
+          {
+            "en": "I have a comfortable bed.",
+            "vi": "Tôi có một cái giường thoải mái."
+          }
+        ],
+        "note": "Trong tiếng Việt ta nói \"phòng sạch\", nhưng tiếng Anh phải đưa tính từ lên trước danh từ \"clean room\".",
+        "practiceList": [
+          {
+            "question": "The weather is ___.",
+            "correct": "hot",
+            "meaning": "Thời tiết thì nóng.",
+            "explanation": "Tính từ đứng sau động từ to be (is)."
+          },
+          {
+            "question": "He is a ___ boy. (tốt bụng)",
+            "correct": "kind",
+            "meaning": "Anh ấy là một cậu bé tốt bụng.",
+            "explanation": "Tính từ (kind) phải đứng trước danh từ (boy)."
+          },
+          {
+            "question": "We have ___ towels.",
+            "correct": "dry",
+            "meaning": "Chúng tôi có những chiếc khăn tắm khô.",
+            "explanation": "Tính từ (dry) đứng trước danh từ (towels)."
+          }
+        ]
+      }
+    ]
+  }
+]

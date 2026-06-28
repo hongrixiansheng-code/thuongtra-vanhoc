@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 41,
+    "listening": [
+      {
+        "title": "Listening: A shopping trip",
+        "transcript": "I bought some fruit and a new bag. I thought it was a little expensive, but I bought it anyway. I told my sister about it.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did the speaker think about the bag?", "options": ["It was cheap", "It was a little expensive", "It was free"], "correct": "It was a little expensive", "explanation": "\"I thought it was a little expensive\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "listening": [
+      {
+        "title": "Listening: A museum visit",
+        "transcript": "They built this museum about a hundred years ago. I found some old photographs inside. The exhibition began last month.",
+        "questions": [
+          { "type": "form_completion", "question": "The exhibition began ___.", "options": ["last week", "last month", "last year"], "correct": "last month", "explanation": "\"The exhibition began last month.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 9,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Giving directions",
+        "part": 1,
+        "questions": ["How do you go from your house to the nearest park?", "Is the train station far from your home?", "Do you prefer walking or taking the bus?"],
+        "sampleAnswer": "I go straight along my street, then turn left at the corner. The train station is not far from my home. I prefer walking when the weather is nice."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Review — Describe your hometown",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe your hometown.",
+          "bullets": ["where it is", "what it is like", "what is near your house", "and explain what you like about it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I am from a small town. There is a small house near my hometown with a beautiful garden. There is a park opposite the supermarket, and the school is between the bank and the post office. I like my hometown because it is quiet and friendly."
+      }
+    ]
+  }
+]

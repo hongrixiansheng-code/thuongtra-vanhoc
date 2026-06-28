@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 71,
+    "vocab": [
+      {
+        "word": "discover",
+        "ipa": "/dɪˈskʌv.ər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "khám phá",
+        "example_en": "He discovered a cave.",
+        "example_vi": "Anh ấy đã khám phá ra một hang động.",
+        "level": "A2"
+      },
+      {
+        "word": "invent",
+        "ipa": "/ɪnˈvent/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "phát minh",
+        "example_en": "Who invented the phone?",
+        "example_vi": "Ai đã phát minh ra điện thoại?",
+        "level": "A2"
+      },
+      {
+        "word": "explore",
+        "ipa": "/ɪkˈsplɔːr/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thăm dò",
+        "example_en": "Explore the city.",
+        "example_vi": "Thăm dò thành phố.",
+        "level": "A2"
+      },
+      {
+        "word": "design",
+        "ipa": "/dɪˈzaɪn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thiết kế",
+        "example_en": "She designed a house.",
+        "example_vi": "Cô ấy đã thiết kế một ngôi nhà.",
+        "level": "A2"
+      },
+      {
+        "word": "test",
+        "ipa": "/test/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "kiểm tra, thử",
+        "example_en": "Test the machine.",
+        "example_vi": "Kiểm tra chiếc máy.",
+        "level": "A2"
+      },
+      {
+        "word": "measure",
+        "ipa": "/ˈmeʒ.ər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đo lường",
+        "example_en": "Measure the table.",
+        "example_vi": "Đo lường chiếc bàn.",
+        "level": "A2"
+      },
+      {
+        "word": "prove",
+        "ipa": "/pruːv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chứng minh",
+        "example_en": "Can you prove it?",
+        "example_vi": "Bạn có thể chứng minh nó không?",
+        "level": "A2"
+      },
+      {
+        "word": "record",
+        "ipa": "/rɪˈkɔːd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ghi âm, ghi lại",
+        "example_en": "Record the song.",
+        "example_vi": "Ghi âm lại bài hát.",
+        "level": "A2"
+      },
+      {
+        "word": "note",
+        "ipa": "/nəʊt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ghi chú",
+        "example_en": "Note this down.",
+        "example_vi": "Ghi chú cái này lại.",
+        "level": "A2"
+      },
+      {
+        "word": "study",
+        "ipa": "/ˈstʌd.i/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghiên cứu, học",
+        "example_en": "Study history.",
+        "example_vi": "Nghiên cứu lịch sử.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "vocab": [
+      {
+        "word": "TV",
+        "ipa": "/ˌtiːˈviː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ti vi",
+        "example_en": "Watch TV.",
+        "example_vi": "Xem ti vi.",
+        "level": "A2"
+      },
+      {
+        "word": "radio",
+        "ipa": "/ˈreɪ.di.əʊ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "đài phát thanh",
+        "example_en": "Listen to the radio.",
+        "example_vi": "Nghe đài phát thanh.",
+        "level": "A2"
+      },
+      {
+        "word": "internet",
+        "ipa": "/ˈɪn.tə.net/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mạng internet",
+        "example_en": "Use the internet.",
+        "example_vi": "Sử dụng internet.",
+        "level": "A2"
+      },
+      {
+        "word": "news",
+        "ipa": "/njuːz/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tin tức",
+        "example_en": "Read the news.",
+        "example_vi": "Đọc tin tức.",
+        "level": "A2"
+      },
+      {
+        "word": "paper",
+        "ipa": "/ˈpeɪ.pər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "báo giấy",
+        "example_en": "Read the paper.",
+        "example_vi": "Đọc báo giấy.",
+        "level": "A2"
+      },
+      {
+        "word": "magazine",
+        "ipa": "/ˌmæɡ.əˈziːn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tạp chí",
+        "example_en": "Buy a magazine.",
+        "example_vi": "Mua một cuốn tạp chí.",
+        "level": "A2"
+      },
+      {
+        "word": "article",
+        "ipa": "/ˈɑː.tɪ.kəl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bài báo",
+        "example_en": "An interesting article.",
+        "example_vi": "Một bài báo thú vị.",
+        "level": "A2"
+      },
+      {
+        "word": "report",
+        "ipa": "/rɪˈpɔːt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bản báo cáo",
+        "example_en": "A long report.",
+        "example_vi": "Một bản báo cáo dài.",
+        "level": "A2"
+      },
+      {
+        "word": "program",
+        "ipa": "/ˈprəʊ.ɡræm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chương trình",
+        "example_en": "A TV program.",
+        "example_vi": "Một chương trình TV.",
+        "level": "A2"
+      },
+      {
+        "word": "channel",
+        "ipa": "/ˈtʃæn.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kênh",
+        "example_en": "Change the channel.",
+        "example_vi": "Chuyển kênh.",
+        "level": "A2"
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 29,
+    "reading": [
+      {
+        "title": "Reading: A shopping list",
+        "passage": "I have an apple and some bananas. I have some tomatoes, maybe five or six. We need three eggs for the cake. Let's buy some onions too.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer needs three eggs.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"We need three eggs for the cake.\"" },
+          { "type": "multiple_choice", "question": "How many tomatoes does the writer have?", "options": ["Two or three", "Five or six", "Eight or nine"], "correct": "Five or six", "explanation": "\"I have some tomatoes, maybe five or six.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "reading": [
+      {
+        "title": "Reading: In the kitchen",
+        "passage": "I have some rice for dinner, maybe two kilos. There isn't much water in the bottle. I need a little sugar for the cake, just two spoons. There isn't much milk left in the fridge.",
+        "questions": [
+          { "type": "true_false_ng", "question": "There is a lot of water in the bottle.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"There isn't much water in the bottle.\"" },
+          { "type": "true_false_ng", "question": "The writer needs a little sugar.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I need a little sugar for the cake\"." }
+        ]
+      }
+    ]
+  }
+]

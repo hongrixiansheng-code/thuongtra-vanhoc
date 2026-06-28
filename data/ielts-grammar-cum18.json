@@ -1,0 +1,30 @@
+[
+  {
+    "lessonOrder": 35,
+    "grammar": [
+      {
+        "title": "Phân biệt Hiện tại đơn và Hiện tại tiếp diễn",
+        "desc": "Present Simple dùng cho thói quen, sự thật chung. Present Continuous dùng cho hành động đang xảy ra ngay tại thời điểm nói.",
+        "formula": [
+          { "text": "Present Simple: habit, fact", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "Present Continuous: now, right now", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "I eat breakfast every day.", "vi": "Tôi ăn sáng mỗi ngày." },
+          { "en": "I am eating breakfast right now.", "vi": "Tôi đang ăn sáng ngay lúc này." },
+          { "en": "She usually cooks dinner, but now she is cleaning the kitchen.", "vi": "Cô ấy thường nấu bữa tối, nhưng bây giờ cô ấy đang dọn nhà bếp." }
+        ],
+        "note": "Present Simple thường đi cùng các từ: every day, usually, often. Present Continuous thường đi cùng: now, right now, at the moment.",
+        "practiceList": [
+          { "question": "He usually ___ (drink) tea, but now he ___ (drink) coffee.", "correct": "drinks / is drinking", "meaning": "Anh ấy thường uống trà, nhưng giờ anh ấy đang uống cà phê.", "explanation": "Thói quen dùng Present Simple, hành động đang xảy ra dùng Present Continuous." },
+          { "question": "Look! It ___ (rain) now.", "correct": "is raining", "meaning": "Nhìn! Trời đang mưa.", "explanation": "\"Look! ... now\" là dấu hiệu của Present Continuous." },
+          { "question": "We ___ (eat) rice every day.", "correct": "eat", "meaning": "Chúng tôi ăn cơm mỗi ngày.", "explanation": "\"every day\" là dấu hiệu của Present Simple." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "grammar": []
+  }
+]

@@ -1,0 +1,118 @@
+[
+  {
+    "lessonOrder": 19,
+    "grammar": [
+      {
+        "title": "Hiện tại đơn (Present Simple) — I/You/We/They (Khẳng định)",
+        "desc": "Dùng để diễn tả thói quen, hành động lặp đi lặp lại hàng ngày hoặc sự thật hiển nhiên.",
+        "formula": [
+          {
+            "text": "Subject (I/You/We/They)",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "Verb (nguyên mẫu)",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Object / Time",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I wake up at 6 AM every day.",
+            "vi": "Tôi thức dậy lúc 6 giờ sáng mỗi ngày."
+          },
+          {
+            "en": "We eat breakfast together.",
+            "vi": "Chúng tôi ăn sáng cùng nhau."
+          },
+          {
+            "en": "They go to school by bus.",
+            "vi": "Họ đi đến trường bằng xe buýt."
+          }
+        ],
+        "note": "Với các chủ ngữ I, You, We, They và danh từ số nhiều, động từ được giữ nguyên mẫu (không thêm s/es).",
+        "practiceList": [
+          {
+            "question": "I ___ my teeth in the morning.",
+            "correct": "brush",
+            "meaning": "Tôi đánh răng vào buổi sáng.",
+            "explanation": "Chủ ngữ \"I\" nên động từ \"brush\" giữ nguyên."
+          },
+          {
+            "question": "They ___ home at 5 PM.",
+            "correct": "leave",
+            "meaning": "Họ rời khỏi nhà lúc 5 giờ chiều.",
+            "explanation": "Chủ ngữ \"They\" nên động từ \"leave\" giữ nguyên."
+          },
+          {
+            "question": "You ___ work early.",
+            "correct": "start",
+            "meaning": "Bạn bắt đầu công việc sớm.",
+            "explanation": "Chủ ngữ \"You\" nên động từ \"start\" giữ nguyên."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "grammar": [
+      {
+        "title": "Hiện tại đơn (Present Simple) — He/She/It (Thêm s/es/ies)",
+        "desc": "Khi chủ ngữ là He/She/It hoặc danh từ số ít, ta phải thêm \"s\", \"es\" hoặc \"ies\" vào sau động từ.",
+        "formula": [
+          {
+            "text": "Subject (He/She/It)",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "Verb + s/es/ies",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Object / Time",
+            "classes": "border-green-500 text-green-600 bg-green-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "She washes the dishes.",
+            "vi": "Cô ấy rửa bát đĩa."
+          },
+          {
+            "en": "He tidies his room.",
+            "vi": "Anh ấy dọn dẹp phòng của mình."
+          },
+          {
+            "en": "My mother cooks dinner.",
+            "vi": "Mẹ tôi nấu bữa tối."
+          }
+        ],
+        "note": "Thêm \"es\" khi động từ tận cùng bằng o, s, z, x, ch, sh (ví dụ: wash -> washes). Tận cùng là phụ âm + y thì đổi thành \"ies\" (tidy -> tidies).",
+        "practiceList": [
+          {
+            "question": "He ___ TV every evening. (watch)",
+            "correct": "watches",
+            "meaning": "Anh ấy xem tivi mỗi buổi tối.",
+            "explanation": "Tận cùng là \"ch\" nên thêm \"es\" thành \"watches\"."
+          },
+          {
+            "question": "My sister ___ English. (study)",
+            "correct": "studies",
+            "meaning": "Chị gái tôi học tiếng Anh.",
+            "explanation": "Tận cùng là phụ âm + \"y\", đổi thành \"ies\"."
+          },
+          {
+            "question": "The dog ___ in the garden. (play)",
+            "correct": "plays",
+            "meaning": "Con chó chơi trong khu vườn.",
+            "explanation": "Thêm \"s\" bình thường với từ \"play\"."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 47,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Predictions",
+        "part": 1,
+        "questions": ["Do you think it will rain this week?", "Will you be busy tomorrow?", "What will you do this evening?"],
+        "sampleAnswer": "I think it will rain later this week. No, I won't be too busy tomorrow. I will probably relax at home this evening."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a plan",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a plan you have for the near future.",
+          "bullets": ["what the plan is", "what you have already prepared", "when you are going to do it", "and explain why this plan is important to you"]
+        },
+        "questions": [],
+        "sampleAnswer": "I am going to visit my hometown next weekend. I already booked the train ticket and arranged everything. This plan is important to me because it was a long time ago when I last saw my family."
+      }
+    ]
+  }
+]

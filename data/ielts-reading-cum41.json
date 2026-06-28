@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 81,
+    "reading": [
+      {
+        "title": "Reading: An interrupted evening",
+        "passage": "I was cooking dinner when the phone rang. I was watching TV when I heard the noise. Meanwhile, my neighbours were running outside. We were walking home when it started to rain.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer was cooking when the phone rang.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I was cooking dinner when the phone rang.\"" },
+          { "type": "multiple_choice", "question": "What were the neighbours doing meanwhile?", "options": ["Sleeping", "Running outside", "Cooking dinner"], "correct": "Running outside", "explanation": "\"Meanwhile, my neighbours were running outside.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "reading": [
+      {
+        "title": "Reading: Review — An unexpected event",
+        "passage": "I was walking to the shop where I used to buy bread every morning. While I was walking, a man who I knew told me that the shop was closed. If that happened to me, I would be very disappointed too.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The shop was open.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"told me that the shop was closed.\"" },
+          { "type": "multiple_choice", "question": "What was the writer doing when he met the man?", "options": ["Cooking", "Walking", "Sleeping"], "correct": "Walking", "explanation": "\"While I was walking, a man who I knew told me...\"" }
+        ]
+      }
+    ]
+  }
+]

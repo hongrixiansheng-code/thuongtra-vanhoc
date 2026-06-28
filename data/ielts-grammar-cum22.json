@@ -1,0 +1,52 @@
+[
+  {
+    "lessonOrder": 43,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Câu hỏi (Did + S + V?)",
+        "desc": "Dùng \"did\" trước chủ ngữ, động từ chính trở về dạng nguyên mẫu (không chia quá khứ) để tạo câu hỏi.",
+        "formula": [
+          { "text": "Did", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "Verb (nguyên mẫu) ... ?", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "Did you visit your grandparents last year?", "vi": "Bạn có đến thăm ông bà năm ngoái không?" },
+          { "en": "Did she go to the concert?", "vi": "Cô ấy có đi xem hòa nhạc không?" },
+          { "en": "When did they arrive?", "vi": "Họ đã đến lúc nào?" }
+        ],
+        "note": "Với động từ \"to be\" ở quá khứ, KHÔNG dùng \"did\" — chỉ đảo was/were lên đầu câu.",
+        "practiceList": [
+          { "question": "___ you finish your homework yesterday?", "correct": "Did", "meaning": "Hôm qua bạn đã làm xong bài tập chưa?", "explanation": "Câu hỏi quá khứ dùng \"Did\" + S + V nguyên mẫu." },
+          { "question": "Where ___ he go last weekend?", "correct": "did", "meaning": "Cuối tuần trước anh ấy đã đi đâu?", "explanation": "Từ hỏi \"Where\" + did + S + V nguyên mẫu." },
+          { "question": "Did they ___ (watch) the match?", "correct": "watch", "meaning": "Họ có xem trận đấu không?", "explanation": "Sau \"did\", động từ chính giữ nguyên thể, không thêm -ed." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 44,
+    "grammar": [
+      {
+        "title": "Quá khứ đơn — Phủ định (didn't + V)",
+        "desc": "Dùng \"didn't\" + động từ nguyên mẫu để phủ định một hành động trong quá khứ.",
+        "formula": [
+          { "text": "Subject", "classes": "border-red-500 text-red-600 bg-red-50" },
+          { "text": "didn't", "classes": "border-blue-500 text-blue-600 bg-blue-50" },
+          { "text": "Verb (nguyên mẫu)", "classes": "border-green-500 text-green-600 bg-green-50" }
+        ],
+        "examples": [
+          { "en": "I didn't go to school yesterday.", "vi": "Hôm qua tôi không đi học." },
+          { "en": "She didn't have time to call.", "vi": "Cô ấy không có thời gian để gọi điện." },
+          { "en": "They didn't win the match.", "vi": "Họ không thắng trận đấu." }
+        ],
+        "note": "Lỗi phổ biến: KHÔNG thêm -ed vào động từ sau \"didn't\" (sai: didn't went; đúng: didn't go).",
+        "practiceList": [
+          { "question": "He ___ (not/come) to the party last night.", "correct": "didn't come", "meaning": "Anh ấy không đến buổi tiệc tối qua.", "explanation": "Phủ định quá khứ: didn't + V nguyên mẫu." },
+          { "question": "We ___ (not/see) the film last week.", "correct": "didn't see", "meaning": "Chúng tôi không xem bộ phim đó tuần trước.", "explanation": "see giữ nguyên thể sau didn't, không chia \"saw\"." },
+          { "question": "She ___ (not/buy) any souvenirs.", "correct": "didn't buy", "meaning": "Cô ấy không mua quà lưu niệm nào.", "explanation": "buy giữ nguyên thể sau didn't, không chia \"bought\"." }
+        ]
+      }
+    ]
+  }
+]

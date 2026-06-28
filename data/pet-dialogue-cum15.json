@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 28,
+      "dialogues": [
+        {
+          "title": "Discussing an informational article",
+          "lines": [
+            {
+              "speaker": "Ethan",
+              "en": "Did you read the article about the newly discovered pyramids which was published in the science magazine today? The archaeologists used advanced satellite imaging to find them.",
+              "vi": "Bạn có đọc bài báo về những kim tự tháp mới được phát hiện cái mà được xuất bản trên tạp chí khoa học hôm nay không? Các nhà khảo cổ đã sử dụng hình ảnh vệ tinh tiên tiến để tìm ra chúng."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "Yes, I found the details about their construction methods particularly fascinating. The ancient engineers must have possessed incredible mathematical knowledge to build such structures.",
+              "vi": "Có, tôi thấy những chi tiết về các phương pháp xây dựng của họ đặc biệt hấp dẫn. Các kỹ sư cổ đại chắc hẳn đã sở hữu kiến thức toán học đáng kinh ngạc để xây dựng những cấu trúc như vậy."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "The text mainly focuses on the daily lives of the workers who lived near the site. It is surprising that they were paid with food rather than money.",
+              "vi": "Văn bản chủ yếu tập trung vào cuộc sống hàng ngày của những công nhân những người sống gần địa điểm. Thật đáng ngạc nhiên khi họ được trả công bằng thức ăn thay vì tiền."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "According to the passage, the climate in that region used to be much wetter thousands of years ago. The author provided a lot of evidence to support this theory.",
+              "vi": "Theo đoạn văn, khí hậu ở khu vực đó từng ẩm ướt hơn nhiều hàng ngàn năm trước. Tác giả đã cung cấp rất nhiều bằng chứng để củng cố lý thuyết này."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "I highlighted several paragraphs which explained the political system of the ancient civilization. Understanding their society helps us appreciate their architectural achievements.",
+              "vi": "Tôi đã đánh dấu vài đoạn văn những đoạn giải thích hệ thống chính trị của nền văn minh cổ đại. Việc hiểu xã hội của họ giúp chúng ta trân trọng những thành tựu kiến trúc của họ."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "I struggled a bit with the vocabulary, especially the technical terms related to geology. I had to look up several words in the dictionary while I was reading.",
+              "vi": "Tôi đã hơi chật vật với từ vựng, đặc biệt là các thuật ngữ chuyên ngành liên quan đến địa chất học. Tôi đã phải tra cứu một vài từ trong từ điển trong khi tôi đang đọc."
+            },
+            {
+              "speaker": "Ethan",
+              "en": "That is completely normal when reading academic texts. The main purpose of the article is to inform the public about the latest historical discoveries.",
+              "vi": "Điều đó hoàn toàn bình thường khi đọc các văn bản học thuật. Mục đích chính của bài báo là thông báo cho công chúng về những khám phá lịch sử mới nhất."
+            },
+            {
+              "speaker": "Sophia",
+              "en": "I am going to summarize the key points so that I can use them in my history presentation tomorrow. It is a fantastic source of reliable information.",
+              "vi": "Tôi dự định sẽ tóm tắt những điểm chính để tôi có thể sử dụng chúng trong bài thuyết trình lịch sử của mình vào ngày mai. Nó là một nguồn thông tin đáng tin cậy tuyệt vời."
+            }
+          ]
+        },
+        {
+          "title": "Analyzing a travel brochure",
+          "lines": [
+            {
+              "speaker": "David",
+              "en": "Look at this travel brochure which advertises a luxurious cruise around the Mediterranean. The stunning photographs of the Greek islands make me want to book a ticket immediately.",
+              "vi": "Hãy nhìn cuốn sách nhỏ du lịch này cuốn mà quảng cáo một chuyến du thuyền sang trọng quanh biển Địa Trung Hải. Những bức ảnh tuyệt đẹp về các hòn đảo Hy Lạp khiến tôi muốn đặt vé ngay lập tức."
+            },
+            {
+              "speaker": "Emma",
+              "en": "I read the section which details the activities available on the ship. They offer everything from cooking classes to evening theater performances.",
+              "vi": "Tôi đã đọc phần cái mà trình bày chi tiết các hoạt động có sẵn trên tàu. Họ cung cấp mọi thứ từ các lớp học nấu ăn đến các buổi biểu diễn nhà hát buổi tối."
+            },
+            {
+              "speaker": "David",
+              "en": "The brochure highlights that all meals and guided tours are included in the final price. However, we should read the small print to check for hidden fees.",
+              "vi": "Cuốn sách nhỏ làm nổi bật rằng tất cả các bữa ăn và các chuyến tham quan có hướng dẫn đều được bao gồm trong giá cuối cùng. Tuy nhiên, chúng ta nên đọc những dòng chữ nhỏ để kiểm tra các khoản phí ẩn."
+            },
+            {
+              "speaker": "Emma",
+              "en": "You are right, because companies often use persuasive language to attract potential customers. The text aims to create a sense of exclusivity and relaxation.",
+              "vi": "Bạn đúng, bởi vì các công ty thường sử dụng ngôn ngữ mang tính thuyết phục để thu hút khách hàng tiềm năng. Văn bản nhằm mục đích tạo ra một cảm giác độc quyền và thư giãn."
+            },
+            {
+              "speaker": "David",
+              "en": "The heading says 'Experience the Journey of a Lifetime', which is a classic advertising technique. It appeals directly to our desire for adventure.",
+              "vi": "Tiêu đề nói rằng 'Trải nghiệm Hành trình của Đời người', đó là một kỹ thuật quảng cáo kinh điển. Nó đánh trực tiếp vào khao khát phiêu lưu của chúng ta."
+            },
+            {
+              "speaker": "Emma",
+              "en": "I noticed that the paragraphs describing the destinations are very descriptive and vivid. They use lots of adjectives like 'breathtaking' and 'crystal-clear'.",
+              "vi": "Tôi nhận thấy rằng các đoạn văn mô tả các điểm đến rất mang tính miêu tả và sinh động. Họ sử dụng nhiều tính từ như 'ngoạn mục' và 'trong vắt'."
+            },
+            {
+              "speaker": "David",
+              "en": "Despite the attractive marketing, we need to gather practical information like departure dates. Let's find the page which contains the contact details and booking instructions.",
+              "vi": "Bất chấp cách tiếp thị hấp dẫn, chúng ta cần thu thập các thông tin thực tế như ngày khởi hành. Hãy tìm trang cái mà chứa thông tin liên hệ và hướng dẫn đặt chỗ."
+            },
+            {
+              "speaker": "Emma",
+              "en": "The contact information is located at the back cover, along with some customer reviews. We can call them tomorrow morning to ask a few questions.",
+              "vi": "Thông tin liên hệ được đặt ở bìa sau, cùng với một vài đánh giá của khách hàng. Chúng ta có thể gọi cho họ vào sáng mai để hỏi vài câu hỏi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 29,
+      "dialogues": [
+        {
+          "title": "Discussing a short story",
+          "lines": [
+            {
+              "speaker": "Oliver",
+              "en": "The short story which we read for homework had a very mysterious atmosphere. The author set the scene perfectly by describing the foggy, abandoned village.",
+              "vi": "Truyện ngắn mà chúng ta đã đọc cho bài tập về nhà có một bầu không khí rất bí ẩn. Tác giả đã dàn cảnh một cách hoàn hảo bằng việc miêu tả ngôi làng sương mù, bị bỏ hoang."
+            },
+            {
+              "speaker": "Ava",
+              "en": "I was totally captivated by the opening paragraph, which immediately created a sense of suspense. I kept wondering what the protagonist would discover inside the old mansion.",
+              "vi": "Tôi đã hoàn toàn bị thu hút bởi đoạn mở đầu, đoạn mà ngay lập tức tạo ra một cảm giác hồi hộp. Tôi cứ tự hỏi nhân vật chính sẽ khám phá ra điều gì bên trong dinh thự cũ."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "The writer's attitude towards the main character seemed quite sympathetic throughout the narrative. She portrayed him as a lonely man who was seeking the truth.",
+              "vi": "Thái độ của nhà văn đối với nhân vật chính có vẻ khá đồng cảm xuyên suốt câu chuyện. Bà ấy đã phác họa anh ta như một người đàn ông cô đơn người đang tìm kiếm sự thật."
+            },
+            {
+              "speaker": "Ava",
+              "en": "I loved the way the plot developed slowly, revealing clues one by one. The dialogue between the man and the stranger was extremely tense.",
+              "vi": "Tôi thích cách cốt truyện phát triển chậm rãi, hé lộ các manh mối từng cái một. Cuộc đối thoại giữa người đàn ông và người lạ mặt cực kỳ căng thẳng."
+            },
+            {
+              "speaker": "Oliver",
+              "en": "The climax of the story, when the secret door suddenly opens, gave me goosebumps. It was a brilliant piece of narrative writing which kept me guessing.",
+              "vi": "Cao trào của câu chuyện, khi cánh cửa bí mật đột nhiên mở ra, đã làm tôi nổi da gà. Đó là một tác phẩm viết tường thuật xuất sắc thứ đã khiến tôi phải suy đoán liên tục."
+            },
+            {
+              "speaker": "Ava",
+              "en": "However, I felt that the ending was a bit ambiguous and left too many unanswered questions. Do you think the protagonist actually found the hidden treasure?",
+              "vi": "Tuy nhiên, tôi cảm thấy rằng cái kết hơi mơ hồ và để lại quá nhiều câu hỏi chưa có lời giải. Bạn có nghĩ nhân vật chính thực sự đã tìm thấy kho báu ẩn giấu không?"
+            },
+            {
+              "speaker": "Oliver",
+              "en": "I think the author intended to let the readers draw their own conclusions. An open ending makes the story much more memorable and thought-provoking.",
+              "vi": "Tôi nghĩ tác giả đã có ý định để độc giả tự rút ra kết luận của riêng họ. Một cái kết mở làm cho câu chuyện trở nên đáng nhớ và gợi suy nghĩ hơn nhiều."
+            },
+            {
+              "speaker": "Ava",
+              "en": "That makes sense, and I will mention that point in my literature essay. Analyzing character motivation is the most interesting part of reading fiction.",
+              "vi": "Điều đó có lý, và tôi sẽ đề cập đến điểm đó trong bài luận văn học của mình. Việc phân tích động cơ của nhân vật là phần thú vị nhất của việc đọc tiểu thuyết hư cấu."
+            }
+          ]
+        },
+        {
+          "title": "Sharing a personal anecdote",
+          "lines": [
+            {
+              "speaker": "Noah",
+              "en": "Let me tell you about a terrifying experience which happened to me last winter. I was skiing in the mountains when a sudden snowstorm hit the area.",
+              "vi": "Để tôi kể cho bạn nghe về một trải nghiệm kinh hoàng cái mà đã xảy ra với tôi vào mùa đông năm ngoái. Tôi đang trượt tuyết trên núi thì một trận bão tuyết bất ngờ đổ bộ vào khu vực."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "That sounds incredibly dangerous! Were you skiing alone, or were you with a group of friends when the storm started?",
+              "vi": "Nghe có vẻ cực kỳ nguy hiểm! Bạn đang trượt tuyết một mình, hay bạn đang ở cùng một nhóm bạn khi cơn bão bắt đầu?"
+            },
+            {
+              "speaker": "Noah",
+              "en": "I was with two friends, but we got separated because the visibility was almost zero. I couldn't see anything which was further than two meters away.",
+              "vi": "Tôi đang ở cùng hai người bạn, nhưng chúng tôi đã bị lạc nhau vì tầm nhìn gần như bằng không. Tôi đã không thể nhìn thấy bất cứ thứ gì thứ mà cách xa hơn hai mét."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "I can only imagine how frightened you must have felt in that situation. What did you do to survive the freezing cold?",
+              "vi": "Tôi chỉ có thể tưởng tượng bạn chắc hẳn đã cảm thấy sợ hãi như thế nào trong tình huống đó. Bạn đã làm gì để sống sót qua cái lạnh thấu xương?"
+            },
+            {
+              "speaker": "Noah",
+              "en": "I managed to find a small wooden cabin which was luckily unlocked. I stayed inside and wrapped myself in some old blankets which I found.",
+              "vi": "Tôi đã xoay xở tìm thấy một căn chòi gỗ nhỏ cái mà may mắn thay không bị khóa. Tôi đã ở bên trong và quấn mình trong một vài chiếc chăn cũ mà tôi tìm thấy."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "You were extremely fortunate to discover that shelter! How long did you have to wait before the rescue team arrived?",
+              "vi": "Bạn đã cực kỳ may mắn khi phát hiện ra nơi trú ẩn đó! Bạn đã phải đợi bao lâu trước khi đội cứu hộ đến?"
+            },
+            {
+              "speaker": "Noah",
+              "en": "I waited there for about six hours, listening to the howling wind outside. Eventually, I heard the sound of a snowmobile which was searching for me.",
+              "vi": "Tôi đã đợi ở đó khoảng sáu giờ đồng hồ, lắng nghe tiếng gió rít bên ngoài. Cuối cùng, tôi nghe thấy âm thanh của một chiếc xe trượt tuyết cái mà đang tìm kiếm tôi."
+            },
+            {
+              "speaker": "Isabella",
+              "en": "What a relief! It is a gripping story which sounds like a scene from an action movie. I am just glad that you are safe now.",
+              "vi": "Thật nhẹ nhõm! Đó là một câu chuyện lôi cuốn nghe giống như một cảnh từ một bộ phim hành động. Tôi chỉ thấy vui vì bây giờ bạn đã an toàn."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

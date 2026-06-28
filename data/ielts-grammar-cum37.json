@@ -1,0 +1,30 @@
+[
+  {
+    "lessonOrder": 73,
+    "grammar": []
+  },
+  {
+    "lessonOrder": 74,
+    "grammar": [
+      {
+        "title": "Câu điều kiện loại 1 (Conditional 1) — Điều kiện thực tế",
+        "desc": "Dùng để nói về một điều kiện có thể xảy ra trong hiện tại/tương lai và kết quả tương ứng.",
+        "formula": [
+          { "text": "If + S + Present Simple", "classes": "border-amber-500 text-amber-600 bg-amber-50" },
+          { "text": "S + will + V", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "If it rains, we will stay at home.", "vi": "Nếu trời mưa, chúng tôi sẽ ở nhà." },
+          { "en": "If you study hard, you will pass the exam.", "vi": "Nếu bạn học chăm chỉ, bạn sẽ đỗ kỳ thi." },
+          { "en": "She will be happy if you call her.", "vi": "Cô ấy sẽ vui nếu bạn gọi cho cô ấy." }
+        ],
+        "note": "Mệnh đề \"if\" dùng Present Simple, mệnh đề kết quả dùng \"will\". Có thể đảo thứ tự hai mệnh đề, không cần dấu phẩy nếu mệnh đề kết quả đứng trước.",
+        "practiceList": [
+          { "question": "If you ___ (not/leave) now, you will miss the bus.", "correct": "don't leave", "meaning": "Nếu bạn không đi ngay, bạn sẽ trễ xe buýt.", "explanation": "Mệnh đề \"if\" dùng Present Simple." },
+          { "question": "If it is sunny tomorrow, we ___ (go) to the beach.", "correct": "will go", "meaning": "Nếu ngày mai trời nắng, chúng tôi sẽ đi biển.", "explanation": "Mệnh đề kết quả dùng \"will\" + V." },
+          { "question": "If she ___ (have) time, she will help us.", "correct": "has", "meaning": "Nếu cô ấy có thời gian, cô ấy sẽ giúp chúng ta.", "explanation": "Chủ ngữ \"she\" dùng Present Simple \"has\"." }
+        ]
+      }
+    ]
+  }
+]

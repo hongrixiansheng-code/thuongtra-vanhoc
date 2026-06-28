@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 19,
+    "reading": [
+      {
+        "title": "Reading: A typical morning",
+        "passage": "I wake up at six o'clock every day. I brush my teeth, then I take a shower. I get dressed and eat breakfast at home. I leave home at seven thirty and arrive at school at eight. My class starts at eight fifteen.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer wakes up at seven o'clock.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I wake up at six o'clock\"." },
+          { "type": "true_false_ng", "question": "The writer eats breakfast at home.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I get dressed and eat breakfast at home.\"" },
+          { "type": "multiple_choice", "question": "What time does the class start?", "options": ["Seven thirty", "Eight o'clock", "Eight fifteen"], "correct": "Eight fifteen", "explanation": "\"My class starts at eight fifteen.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "reading": [
+      {
+        "title": "Reading: Housework at home",
+        "passage": "My mother cleans the house and washes the clothes on Saturday. She also cooks lunch and tidies the kitchen. My father waters the plants and repairs things around the house. My sister irons the clothes every weekend.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The mother washes the clothes.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"She... washes the clothes\"." },
+          { "type": "true_false_ng", "question": "The father irons the clothes.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Sister ủi quần áo, không phải bố." }
+        ]
+      }
+    ]
+  }
+]

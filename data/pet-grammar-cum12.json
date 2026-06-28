@@ -1,0 +1,182 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 22,
+      "grammar": [
+        {
+          "title": "Passive tổng hợp các thì",
+          "desc": "Hệ thống toàn diện thể bị động qua tất cả các thì cơ bản (Đơn, Tiếp diễn, Hoàn thành).",
+          "formula": [
+            {
+              "text": "S + be + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It is made.",
+              "meaning": "Nó được làm ra. (Hiện tại đơn)"
+            },
+            {
+              "correct": "It was made.",
+              "meaning": "Nó đã được làm ra. (Quá khứ đơn)"
+            },
+            {
+              "correct": "It has been made.",
+              "meaning": "Nó vừa được làm ra. (Hiện tại hoàn thành)"
+            },
+            {
+              "correct": "It is being made.",
+              "meaning": "Nó đang được làm ra. (Hiện tại tiếp diễn)"
+            }
+          ]
+        },
+        {
+          "title": "Passive + modal",
+          "desc": "Bị động với động từ khuyết thiếu (must/should/can... + be + V3 hoặc + have been + V3).",
+          "formula": [
+            {
+              "text": "S + modal + be/have been + V3",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It must be done.",
+              "meaning": "Nó phải được làm."
+            },
+            {
+              "correct": "It should have been finished.",
+              "meaning": "Đáng lẽ nó nên được hoàn thành xong rồi."
+            },
+            {
+              "correct": "It can be done.",
+              "meaning": "Việc đó có thể làm được."
+            },
+            {
+              "correct": "It might be delayed.",
+              "meaning": "Nó có thể bị trì hoãn."
+            }
+          ]
+        },
+        {
+          "title": "have something done",
+          "desc": "Cấu trúc cầu khiến bị động: Nhờ vả hoặc thuê người khác làm việc gì đó cho mình.",
+          "formula": [
+            {
+              "text": "S + have/get + Object + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She had her hair cut yesterday.",
+              "meaning": "Cô ấy đã đi cắt tóc ngày hôm qua."
+            },
+            {
+              "correct": "I had my car washed.",
+              "meaning": "Tôi đã mang xe đi rửa."
+            },
+            {
+              "correct": "We are having the roof repaired.",
+              "meaning": "Chúng tôi đang thuê người sửa mái nhà."
+            },
+            {
+              "correct": "He had his house broken into.",
+              "meaning": "Nhà anh ấy đã bị trộm đột nhập."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "grammar": [
+        {
+          "title": "Modal + deduction (present)",
+          "desc": "Suy đoán ở hiện tại: must be (chắc chắn), might/could be (có thể), can't be (chắc chắn không).",
+          "formula": [
+            {
+              "text": "must / might / can't + be",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He must be tired.",
+              "meaning": "Anh ấy chắc hẳn đang mệt."
+            },
+            {
+              "correct": "It can't be true.",
+              "meaning": "Điều đó chắc chắn không phải sự thật."
+            },
+            {
+              "correct": "She might be at home.",
+              "meaning": "Cô ấy có thể đang ở nhà."
+            },
+            {
+              "correct": "They could be lost.",
+              "meaning": "Họ có thể bị lạc rồi."
+            }
+          ]
+        },
+        {
+          "title": "Modal + deduction (past)",
+          "desc": "Suy đoán về quá khứ: must have V3 (chắc chắn đã), might have V3 (có thể đã), can't have V3 (chắc chắn không).",
+          "formula": [
+            {
+              "text": "modal + have + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She must have left early.",
+              "meaning": "Cô ấy chắc hẳn đã rời đi sớm."
+            },
+            {
+              "correct": "He can't have done it.",
+              "meaning": "Anh ta chắc chắn không thể đã làm chuyện đó."
+            },
+            {
+              "correct": "They might have forgotten.",
+              "meaning": "Họ có thể đã quên mất."
+            },
+            {
+              "correct": "You could have been killed!",
+              "meaning": "Bạn có thể đã mất mạng rồi đấy!"
+            }
+          ]
+        },
+        {
+          "title": "should / could / would have V3",
+          "desc": "Nói về những việc lẽ ra nên làm, có thể làm, hoặc sẽ làm trong quá khứ nhưng thực tế lại không làm.",
+          "formula": [
+            {
+              "text": "should/could/would + have + V3",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "You should have told me earlier.",
+              "meaning": "Đáng lẽ bạn nên nói với tôi sớm hơn."
+            },
+            {
+              "correct": "I could have helped you.",
+              "meaning": "Đáng lẽ tôi đã có thể giúp bạn."
+            },
+            {
+              "correct": "I would have called, but I lost my phone.",
+              "meaning": "Tôi đáng lẽ đã gọi, nhưng tôi đánh mất điện thoại."
+            },
+            {
+              "correct": "She shouldn't have said that.",
+              "meaning": "Đáng lẽ cô ấy không nên nói điều đó."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

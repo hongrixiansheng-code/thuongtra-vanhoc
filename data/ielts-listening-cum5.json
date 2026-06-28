@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 9,
+    "listening": [
+      {
+        "title": "Listening: Giving directions",
+        "transcript": "Turn left at the corner, then go straight. That building is the library. Those shops are open until 9 p.m. The station is not far from here.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What is the building?", "options": ["A library", "A station", "A shop"], "correct": "A library", "explanation": "\"That building is the library.\"" },
+          { "type": "form_completion", "question": "The shops are open until ___.", "options": ["9 a.m.", "9 p.m.", "7 p.m."], "correct": "9 p.m.", "explanation": "\"Those shops are open until 9 p.m.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 10,
+    "listening": [
+      {
+        "title": "Listening: Review — A short trip",
+        "transcript": "I am from a small town. There is a small house near my hometown with a beautiful garden. There is a park opposite the supermarket. The school is between the bank and the post office.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is the park?", "options": ["Opposite the supermarket", "Next to the school", "Between the bank and the post office"], "correct": "Opposite the supermarket", "explanation": "\"There is a park opposite the supermarket.\"" },
+          { "type": "form_completion", "question": "The school is ___ the bank and the post office.", "options": ["next to", "between", "opposite"], "correct": "between", "explanation": "\"The school is between the bank and the post office.\"" }
+        ]
+      }
+    ]
+  }
+]

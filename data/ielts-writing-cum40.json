@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 79,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe your past habits",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing habits you had in the past but no longer have, using used to/didn't use to.",
+        "minWords": 30,
+        "sampleAnswer": "I used to play football every weekend when I was young. I used to live in the countryside. We didn't use to have a car back then. We no longer live like that nowadays.",
+        "checklist": ["Dùng used to ít nhất 2 lần", "Dùng didn't use to ít nhất 1 lần", "Có từ chỉ sự thay đổi (no longer, nowadays)"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "writing": [
+      {
+        "title": "Writing Task 2: Report what people said",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) reporting what different people said, using Reported Speech (said that).",
+        "minWords": 30,
+        "sampleAnswer": "Mai said that she was tired yesterday. He told me that he worked at a big company. The manager announced that the meeting would start at nine.",
+        "checklist": ["Dùng said/told that đúng cấu trúc", "Lùi đúng thì (am/is/are→was/were, will→would)", "Có ít nhất 3 câu trần thuật khác nhau"]
+      }
+    ]
+  }
+]

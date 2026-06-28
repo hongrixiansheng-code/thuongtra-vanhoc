@@ -1,0 +1,177 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "grammar": [
+        {
+          "title": "Comparative & Superlative Adjectives",
+          "desc": "So sánh hơn (Comparative) và So sánh nhất (Superlative) của tính từ.",
+          "formula": [
+            {
+              "text": "S + be + adj-er + than + N",
+              "meaning": "So sánh hơn (Tính từ ngắn)"
+            },
+            {
+              "text": "S + be + the + adj-est",
+              "meaning": "So sánh nhất (Tính từ ngắn)"
+            },
+            {
+              "text": "more/the most + long adj",
+              "meaning": "Đối với tính từ dài"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "This hotel is cheaper than that one.",
+              "meaning": "Khách sạn này rẻ hơn khách sạn kia."
+            },
+            {
+              "correct": "It is the most expensive room here.",
+              "meaning": "Đó là căn phòng đắt nhất ở đây."
+            },
+            {
+              "correct": "She is more beautiful than her sister.",
+              "meaning": "Cô ấy xinh đẹp hơn chị gái của cô ấy."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "dialogue": [
+        {
+          "title": "At a job interview",
+          "desc": "Nghe cuộc phỏng vấn xin việc (job interview).",
+          "characters": [
+            "Manager",
+            "Applicant"
+          ],
+          "lines": [
+            {
+              "speaker": "Manager",
+              "vi": "Vui lòng ngồi xuống. Hãy nói cho tôi nghe về kinh nghiệm làm việc của bạn.",
+              "en": "Please take a seat. Tell me about your work experience."
+            },
+            {
+              "speaker": "Applicant",
+              "vi": "Tôi đã làm lễ tân tại một khách sạn lớn trong hai năm.",
+              "en": "I worked as a receptionist in a big hotel for two years."
+            },
+            {
+              "speaker": "Manager",
+              "vi": "Tốt lắm. Bạn có giỏi sử dụng máy tính không?",
+              "en": "That's good. Are you good at using computers?"
+            },
+            {
+              "speaker": "Applicant",
+              "vi": "Vâng, tôi có. Tôi có thể sử dụng tất cả các phần mềm văn phòng cơ bản.",
+              "en": "Yes, I am. I can use all the basic office software."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "grammar": [
+        {
+          "title": "Have to / Don't have to",
+          "desc": "Sử dụng 'have to' để nói về sự bắt buộc (obligation), và 'don't have to' khi không cần thiết phải làm gì.",
+          "formula": [
+            {
+              "text": "S + have to / has to + V",
+              "meaning": "Bắt buộc phải làm gì"
+            },
+            {
+              "text": "S + don't / doesn't have to + V",
+              "meaning": "Không cần thiết phải làm gì"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have to wear a uniform at work.",
+              "meaning": "Tôi phải mặc đồng phục tại chỗ làm."
+            },
+            {
+              "correct": "She doesn't have to work on Sundays.",
+              "meaning": "Cô ấy không cần phải làm việc vào các ngày Chủ nhật."
+            },
+            {
+              "correct": "Do we have to finish this report today?",
+              "meaning": "Chúng ta có bắt buộc phải hoàn thành báo cáo này hôm nay không?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 18,
+      "dialogue": [
+        {
+          "title": "Buying a new phone",
+          "desc": "Nghe cuộc trò chuyện khi mua một chiếc điện thoại mới.",
+          "characters": [
+            "Customer",
+            "Salesman"
+          ],
+          "lines": [
+            {
+              "speaker": "Customer",
+              "vi": "Tôi cần một chiếc điện thoại thông minh mới. Cái cũ của tôi bị hỏng rồi.",
+              "en": "I need a new smartphone. My old one is broken."
+            },
+            {
+              "speaker": "Salesman",
+              "vi": "Mẫu này có một chiếc máy ảnh tuyệt vời và một màn hình lớn.",
+              "en": "This model has a great camera and a large screen."
+            },
+            {
+              "speaker": "Customer",
+              "vi": "Nó có nhiều bộ nhớ không?",
+              "en": "Does it have a lot of memory?"
+            },
+            {
+              "speaker": "Salesman",
+              "vi": "Có, nó có 128 gigabyte. Nó hoàn hảo cho việc chụp những bức ảnh.",
+              "en": "Yes, it has 128 gigabytes. It is perfect for taking photos."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "grammar": [
+        {
+          "title": "Past Continuous",
+          "desc": "Thì Quá khứ tiếp diễn dùng để diễn tả hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ.",
+          "formula": [
+            {
+              "text": "S + was / were + V-ing",
+              "meaning": "Hành động đang xảy ra trong quá khứ"
+            },
+            {
+              "text": "S + was / were + not + V-ing",
+              "meaning": "Câu phủ định"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I was watching TV at 8 p.m. last night.",
+              "meaning": "Tôi đang xem tivi lúc 8 giờ tối hôm qua."
+            },
+            {
+              "correct": "They were playing football when it started to rain.",
+              "meaning": "Họ đang chơi bóng đá thì trời bắt đầu mưa."
+            },
+            {
+              "correct": "She wasn't sleeping when I called.",
+              "meaning": "Cô ấy đã không đang ngủ khi tôi gọi điện."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

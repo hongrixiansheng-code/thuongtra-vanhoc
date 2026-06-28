@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 67,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Have you finished yet?",
+        "part": 1,
+        "questions": ["Have you finished your homework yet?", "Have you already eaten today?", "Has anything just happened in your life?"],
+        "sampleAnswer": "Yes, I have already finished my homework. Yes, I have already eaten lunch. I have just received some good news today."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: How long...?",
+        "part": 1,
+        "questions": ["How long have you lived in your city?", "How long have you studied English?", "Since when have you known your best friend?"],
+        "sampleAnswer": "I have lived in my city for fifteen years. I have studied English for six years. I have known my best friend since I was a child."
+      }
+    ]
+  }
+]

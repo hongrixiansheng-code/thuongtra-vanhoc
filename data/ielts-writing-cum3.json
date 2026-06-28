@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 5,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your house",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your house using there is/are.",
+        "minWords": 30,
+        "sampleAnswer": "There is a small garden in front of my house. There are three bedrooms and one bathroom. There is also a kitchen next to the living room.",
+        "checklist": ["Dùng there is/are ít nhất 3 lần", "Mô tả ít nhất 3 phòng/khu vực", "Câu văn đúng ngữ pháp số ít/số nhiều"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 6,
+    "writing": [
+      {
+        "title": "Writing Task 1: What's missing in the room?",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing what is and isn't in a room, using there isn't/aren't.",
+        "minWords": 30,
+        "sampleAnswer": "There isn't a sofa in my new room yet, but there is a bed and a desk. There aren't any shelves, so my books are on the floor.",
+        "checklist": ["Dùng there isn't/aren't ít nhất 1 lần", "Dùng there is/are cho phần có sẵn", "Diễn đạt rõ vật gì thiếu, vật gì có"]
+      }
+    ]
+  }
+]

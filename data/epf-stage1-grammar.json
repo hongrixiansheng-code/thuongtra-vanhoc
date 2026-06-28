@@ -1,0 +1,2610 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "grammar": [
+        {
+          "title": "🎯 Mục tiêu bài học",
+          "desc": "Sau bài này, học viên sẽ:",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "Bài 1",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Hiểu & đọc được IPA cơ bản",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Hiểu IPA là gì và tại sao phải học",
+              "meaning": ""
+            },
+            {
+              "correct": "Biết tiếng Anh có bao nhiêu âm và chia thành mấy nhóm",
+              "meaning": ""
+            },
+            {
+              "correct": "Nhận ra ký hiệu IPA khi tra từ điển",
+              "meaning": ""
+            },
+            {
+              "correct": "Hiểu tại sao không thể đọc tiếng Anh chỉ dựa vào chữ viết",
+              "meaning": ""
+            }
+          ]
+        },
+        {
+          "title": "Tại sao tiếng Anh khó đọc? — cùng chữ, khác âm",
+          "desc": "Hãy thử đọc 3 từ: though · through · thought. Cả 3 đều có cụm chữ 'ough' nhưng đọc hoàn toàn khác nhau.",
+          "formula": [
+            {
+              "text": "Cụm chữ 'ough'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "3 cách đọc khác nhau hoàn toàn",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "though /ðəʊ/",
+              "meaning": "mặc dù — đọc như 'đâu'"
+            },
+            {
+              "correct": "through /θruː/",
+              "meaning": "xuyên qua — đọc như 'thru'"
+            },
+            {
+              "correct": "thought /θɔːt/",
+              "meaning": "suy nghĩ — đọc như 'thot'"
+            }
+          ],
+          "note": "Cùng 4 chữ cái 'ough', 3 cách đọc khác nhau hoàn toàn."
+        },
+        {
+          "title": "Một chữ — nhiều cách đọc: chữ 'a'",
+          "desc": "Chữ 'a' trong tiếng Anh có thể đọc thành 5 âm khác nhau tùy từng từ.",
+          "formula": [
+            {
+              "text": "Chữ 'a'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "5 âm khác nhau: /æ/ /eɪ/ /ɑː/ /ə/ /ɔː/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cat /æ/",
+              "meaning": "con mèo — gần 'e' trong 'xe'"
+            },
+            {
+              "correct": "cake /eɪ/",
+              "meaning": "cái bánh — gần 'ây' trong 'đây'"
+            },
+            {
+              "correct": "car /ɑː/",
+              "meaning": "xe hơi — gần 'a' trong 'ba' nhưng dài hơn"
+            },
+            {
+              "correct": "about /ə/",
+              "meaning": "về — gần 'ơ' trong 'bơ' nhưng rất ngắn"
+            },
+            {
+              "correct": "water /ɔː/",
+              "meaning": "nước — gần 'ô' trong 'bô'"
+            }
+          ],
+          "note": "Tiếng Anh có 26 chữ cái nhưng ~44 âm — chữ viết và cách đọc không có quy tắc nhất quán. Đây là lý do cần một hệ thống ký hiệu âm thanh riêng: IPA."
+        },
+        {
+          "title": "IPA là gì?",
+          "desc": "IPA = International Phonetic Alphabet (Bảng Phiên Âm Quốc Tế). Mỗi ký hiệu = đúng một âm duy nhất. Một âm = đúng một ký hiệu duy nhất. Không có ngoại lệ, không thay đổi theo ngôn ngữ.",
+          "formula": [
+            {
+              "text": "1 ký hiệu",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "=",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "1 âm duy nhất (không ngoại lệ)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cat → /kæt/",
+              "meaning": "Lần đầu gặp chữ viết bạn không chắc đọc thế nào — nhưng ai biết IPA đều đọc được ngay"
+            },
+            {
+              "correct": "knife → /naɪf/",
+              "meaning": "Chữ 'k' có đọc không? IPA nói rõ: 'k' im lặng, bắt đầu bằng /n/"
+            },
+            {
+              "correct": "through → /θruː/",
+              "meaning": "'ough' đọc thế nào? IPA nói rõ từng âm"
+            }
+          ],
+          "note": "Khi tra từ điển Cambridge, Oxford, Longman — IPA luôn xuất hiện ngay sau mỗi từ. Biết đọc IPA = tự học phát âm bất kỳ từ nào chỉ bằng từ điển."
+        },
+        {
+          "title": "Ký hiệu nhấn âm: dấu ˈ",
+          "desc": "Dấu ˈ (phẩy nhỏ phía trên, đứng trước một âm tiết) có nghĩa: âm tiết này được nhấn mạnh hơn các âm tiết khác.",
+          "formula": [
+            {
+              "text": "ˈ trước âm tiết",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "âm tiết đó được nhấn mạnh",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "water /ˈwɔː.tər/",
+              "meaning": "nhấn vào 'WA-ter', không phải 'wa-TER'"
+            },
+            {
+              "correct": "banana /bəˈnɑː.nə/",
+              "meaning": "nhấn vào 'ba-NA-na', không phải 'BA-na-na'"
+            },
+            {
+              "correct": "camera /ˈkæm.ə.rə/",
+              "meaning": "nhấn vào 'CA-me-ra'"
+            }
+          ],
+          "note": "Dấu chấm '·' hoặc '.' giữa ký hiệu = ranh giới giữa các âm tiết."
+        },
+        {
+          "title": "Tiếng Anh có bao nhiêu âm? — Tổng quan",
+          "desc": "Tiếng Anh có khoảng 44 âm vị (phoneme), chia 2 nhóm lớn: Nguyên âm (Vowels, 20 âm) và Phụ âm (Consonants, 24 âm).",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "Nguyên âm (Vowels) — 20",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "+",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Phụ âm (Consonants) — 24",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Nguyên âm — 20 âm",
+              "meaning": "phát âm tự do, không bị chặn"
+            },
+            {
+              "correct": "Phụ âm — 24 âm",
+              "meaning": "miệng/lưỡi/môi tạo ra sự cản trở"
+            },
+            {
+              "correct": "Tổng — 44 âm",
+              "meaning": "đây là toàn bộ 'bảng chữ cái âm thanh' của tiếng Anh"
+            }
+          ]
+        },
+        {
+          "title": "Nguyên âm ngắn (Short Vowels) — 8 âm",
+          "desc": "Phát âm nhanh, gọn, không kéo dài.",
+          "formula": [
+            {
+              "text": "æ ɛ ɪ ɒ ʌ ʊ ə ɑ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "đọc nhanh, không kéo dài",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cat /æ/",
+              "meaning": "con mèo — 'e' trong 'xe', miệng mở ngang hơn"
+            },
+            {
+              "correct": "bed /ɛ/",
+              "meaning": "cái giường — 'e' trong 'bé', gần nhất với tiếng Việt"
+            },
+            {
+              "correct": "sit /ɪ/",
+              "meaning": "ngồi — 'i' trong 'đi', ngắn hơn, không căng môi"
+            },
+            {
+              "correct": "hot /ɒ/",
+              "meaning": "nóng — 'o' trong 'bỏ', hàm mở rộng hơn"
+            },
+            {
+              "correct": "cup /ʌ/",
+              "meaning": "cái cốc — không giống 'u', gần 'ă' trong 'ăn'"
+            },
+            {
+              "correct": "book /ʊ/",
+              "meaning": "sách — 'u' trong 'chú', ngắn, không căng môi"
+            },
+            {
+              "correct": "about /ə/",
+              "meaning": "về — 'ơ' trong 'bơ', rất ngắn, rất nhẹ — ÂM PHỔ BIẾN NHẤT (schwa)"
+            },
+            {
+              "correct": "hot /ɑ/",
+              "meaning": "nóng (giọng Mỹ) — 'a' trong 'ba', hàm mở rộng"
+            }
+          ],
+          "note": "/ə/ (schwa, đọc 'shwơ') là âm xuất hiện nhiều nhất trong tiếng Anh — hầu như câu nào cũng có."
+        },
+        {
+          "title": "Nguyên âm dài (Long Vowels) — 5 âm",
+          "desc": "Phát âm kéo dài hơn — dấu ː nghĩa là 'kéo dài'.",
+          "formula": [
+            {
+              "text": "iː uː ɑː ɔː ɜː",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "kéo dài hơn nguyên âm ngắn tương ứng",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "see /iː/",
+              "meaning": "nhìn — 'i' trong 'đi', dài hơn, căng môi hơn"
+            },
+            {
+              "correct": "blue /uː/",
+              "meaning": "xanh — 'u' trong 'mù', dài hơn, tròn môi hơn"
+            },
+            {
+              "correct": "car /ɑː/",
+              "meaning": "xe hơi — 'a' trong 'ba', dài hơn, hàm mở rộng"
+            },
+            {
+              "correct": "door /ɔː/",
+              "meaning": "cửa — 'ô' trong 'bô', dài hơn"
+            },
+            {
+              "correct": "bird /ɜː/",
+              "meaning": "con chim — 'ơ' trong 'bơ', dài hơn"
+            }
+          ]
+        },
+        {
+          "title": "Nguyên âm đôi (Diphthongs) — 8 âm",
+          "desc": "Hai âm trượt vào nhau trong một âm tiết — bắt đầu âm này, trượt sang âm kia.",
+          "formula": [
+            {
+              "text": "eɪ aɪ ɔɪ əʊ aʊ ɪə eə ʊə",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "2 âm trượt liền trong 1 âm tiết",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "day /eɪ/",
+              "meaning": "ngày — 'ây' trong 'đây'"
+            },
+            {
+              "correct": "my /aɪ/",
+              "meaning": "của tôi — 'ai' trong 'bài', dễ nhất cho người Việt"
+            },
+            {
+              "correct": "boy /ɔɪ/",
+              "meaning": "cậu bé — 'oi' trong 'bói'"
+            },
+            {
+              "correct": "go /əʊ/",
+              "meaning": "đi — 'âu' trong 'bầu', nhẹ hơn"
+            },
+            {
+              "correct": "now /aʊ/",
+              "meaning": "bây giờ — 'ao' trong 'bào'"
+            },
+            {
+              "correct": "here /ɪə/",
+              "meaning": "ở đây — 'ia' trong 'mía', phần cuối nhẹ"
+            },
+            {
+              "correct": "there /eə/",
+              "meaning": "ở đó — 'ê-ơ' nối liền"
+            },
+            {
+              "correct": "pure /ʊə/",
+              "meaning": "thuần khiết — 'u-ơ' nối liền"
+            }
+          ]
+        },
+        {
+          "title": "Âm bật (Plosives) — 6 âm",
+          "desc": "Chặn hoàn toàn luồng khí rồi bật ra. Voiced = dây thanh quản rung · Voiceless = không rung. Cách kiểm tra: đặt tay lên cổ — /b/ rung, /p/ không rung.",
+          "formula": [
+            {
+              "text": "Voiceless: p t k",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "↔",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Voiced: b d g",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "pairGrid": true,
+          "practiceList": [
+            {
+              "correct": "pen /p/",
+              "meaning": "hai môi — voiceless"
+            },
+            {
+              "correct": "bed /b/",
+              "meaning": "hai môi — voiced"
+            },
+            {
+              "correct": "top /t/",
+              "meaning": "đầu lưỡi + lợi răng — voiceless"
+            },
+            {
+              "correct": "dog /d/",
+              "meaning": "đầu lưỡi + lợi răng — voiced"
+            },
+            {
+              "correct": "cat /k/",
+              "meaning": "gốc lưỡi + vòm mềm — voiceless"
+            },
+            {
+              "correct": "get /g/",
+              "meaning": "gốc lưỡi + vòm mềm — voiced"
+            }
+          ]
+        },
+        {
+          "title": "Âm ma sát (Fricatives) — 10 âm",
+          "desc": "Hơi thoát qua khe hẹp tạo tiếng 'gió'.",
+          "formula": [
+            {
+              "text": "Voiceless: f θ s ʃ h",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "↔",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Voiced: v ð z ʒ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "pairGrid": true,
+          "practiceList": [
+            {
+              "correct": "fan /f/",
+              "meaning": "môi dưới chạm răng trên — voiceless"
+            },
+            {
+              "correct": "van /v/",
+              "meaning": "môi dưới chạm răng trên — voiced"
+            },
+            {
+              "correct": "think /θ/",
+              "meaning": "lưỡi giữa hai răng — KHÔNG có trong tiếng Việt (voiceless)"
+            },
+            {
+              "correct": "this /ð/",
+              "meaning": "lưỡi giữa hai răng — KHÔNG có trong tiếng Việt (voiced)"
+            },
+            {
+              "correct": "see /s/",
+              "meaning": "lưỡi gần hàm trên, hơi thoát rít — voiceless"
+            },
+            {
+              "correct": "zoo /z/",
+              "meaning": "lưỡi gần hàm trên, hơi thoát rít — voiced"
+            },
+            {
+              "correct": "she /ʃ/",
+              "meaning": "lưỡi nâng cao, bè rộng hơn s/z — voiceless"
+            },
+            {
+              "correct": "measure /ʒ/",
+              "meaning": "lưỡi nâng cao, bè rộng hơn s/z — voiced"
+            },
+            {
+              "correct": "hat /h/",
+              "meaning": "chỉ là luồng hơi thoát ra, không có âm hữu thanh tương ứng"
+            }
+          ]
+        },
+        {
+          "title": "Âm tắc xát (Affricates) — 2 âm",
+          "desc": "Kết hợp: chặn luồng khí rồi xả ra chậm (giống âm bật + âm ma sát nối liền).",
+          "formula": [
+            {
+              "text": "Voiceless: tʃ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "↔",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Voiced: dʒ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "pairGrid": true,
+          "practiceList": [
+            {
+              "correct": "chair /tʃ/",
+              "meaning": "cái ghế — voiceless"
+            },
+            {
+              "correct": "job /dʒ/",
+              "meaning": "công việc — voiced"
+            }
+          ],
+          "note": "/tʃ/ không rung, /dʒ/ có rung dây thanh."
+        },
+        {
+          "title": "Âm mũi (Nasals) — 3 âm",
+          "desc": "Hơi thoát qua mũi trong khi miệng bị chặn.",
+          "formula": [
+            {
+              "text": "m n ŋ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "hơi thoát qua mũi",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "man /m/",
+              "meaning": "hai môi"
+            },
+            {
+              "correct": "no /n/",
+              "meaning": "đầu lưỡi"
+            },
+            {
+              "correct": "sing /ŋ/",
+              "meaning": "gốc lưỡi — âm 'ng' cuối từ"
+            }
+          ]
+        },
+        {
+          "title": "Âm tiếp xúc & lướt (Liquids & Glides) — 4 âm",
+          "desc": "Lưỡi/môi di chuyển nhẹ, gần giống nguyên âm hơn các phụ âm khác.",
+          "formula": [
+            {
+              "text": "l r w j",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "lưỡi/môi di chuyển nhẹ, không cản hơi mạnh",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "light /l/",
+              "meaning": "đầu lưỡi chạm lợi răng, hơi thoát 2 bên"
+            },
+            {
+              "correct": "right /r/",
+              "meaning": "lưỡi uốn cong, không chạm đâu"
+            },
+            {
+              "correct": "wet /w/",
+              "meaning": "môi tròn rồi mở ra"
+            },
+            {
+              "correct": "yes /j/",
+              "meaning": "lưỡi cao rồi hạ xuống"
+            }
+          ]
+        },
+        {
+          "title": "Bảng tổng hợp — 44 âm vị",
+          "desc": "Không cần thuộc lòng ngay bây giờ. Bảng này sẽ được học từng phần trong các bài tiếp theo. Bài 1 chỉ cần nhận ra được hình dạng các ký hiệu và hiểu logic chung.",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "Nguyên âm: 20",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "+",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Phụ âm: 24",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Nguyên âm — Ngắn (8): æ ɛ ɪ ɒ ʌ ʊ ə ɑ",
+              "meaning": ""
+            },
+            {
+              "correct": "Nguyên âm — Dài (5): iː uː ɑː ɔː ɜː",
+              "meaning": ""
+            },
+            {
+              "correct": "Nguyên âm — Đôi (8): eɪ aɪ ɔɪ əʊ aʊ ɪə eə ʊə",
+              "meaning": ""
+            },
+            {
+              "correct": "Phụ âm — Bật (6): p b t d k g",
+              "meaning": ""
+            },
+            {
+              "correct": "Phụ âm — Ma sát (10): f v θ ð s z ʃ ʒ h",
+              "meaning": ""
+            },
+            {
+              "correct": "Phụ âm — Tắc xát (2): tʃ dʒ",
+              "meaning": ""
+            },
+            {
+              "correct": "Phụ âm — Mũi (3): m n ŋ",
+              "meaning": ""
+            },
+            {
+              "correct": "Phụ âm — Lướt (4): l r w j",
+              "meaning": ""
+            }
+          ]
+        },
+        {
+          "title": "Ký hiệu khung: dấu / /",
+          "desc": "Khi thấy từ trong từ điển, IPA luôn nằm trong dấu gạch chéo / /. Đôi khi trong dấu ngoặc vuông [ ] nhưng phổ biến nhất là dấu /.",
+          "formula": [
+            {
+              "text": "Từ điển ghi",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/IPA/ ngay sau mỗi từ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cat /kæt/",
+              "meaning": ""
+            },
+            {
+              "correct": "water /ˈwɔː.tər/",
+              "meaning": ""
+            },
+            {
+              "correct": "book /bʊk/",
+              "meaning": ""
+            }
+          ]
+        },
+        {
+          "title": "Đọc IPA: từng ký hiệu, trái sang phải",
+          "desc": "Đọc từ trái sang phải, từng ký hiệu một, rồi ghép lại.",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "cat → /k/ + /æ/ + /t/",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "=",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/kæt/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "school /skuːl/ = /s/+/k/+/uː/+/l/",
+              "meaning": "Lưu ý: 'ch' trong 'school' đọc là /k/, không phải /tʃ/"
+            },
+            {
+              "correct": "water /ˈwɔː.tər/",
+              "meaning": "ˈwɔː = âm tiết 1 được nhấn (w+ɔː) · tər = âm tiết 2 không nhấn (t+ə+r) → đọc 'WÔ-tơr'"
+            },
+            {
+              "correct": "Luôn đọc và ghép từ trái sang phải",
+              "meaning": "không đoán theo chữ viết"
+            }
+          ]
+        },
+        {
+          "title": "4 ký hiệu đặc biệt cần nhớ ngay",
+          "desc": "Ngoài các ký hiệu âm, IPA còn có vài ký hiệu phụ trợ quan trọng.",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "ˈ = nhấn chính",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "ˌ = nhấn phụ",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "ː = kéo dài · . = ranh giới âm tiết",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "ˈ (phẩy trên) → /ˈwɔː.tər/",
+              "meaning": "âm tiết được nhấn chính → WÔ-tơr"
+            },
+            {
+              "correct": "ˌ (phẩy dưới) → /ˌæp.lɪˈkeɪ.ʃən/",
+              "meaning": "âm tiết được nhấn phụ"
+            },
+            {
+              "correct": "ː (hai chấm) → /iː/ vs /ɪ/",
+              "meaning": "dấu : kéo dài âm trước nó"
+            },
+            {
+              "correct": ". (chấm) → /ˈwɔː.tər/",
+              "meaning": "ranh giới giữa các âm tiết (ở đây = 2 âm tiết)"
+            }
+          ]
+        },
+        {
+          "title": "Vì sao IPA quan trọng với người Việt?",
+          "desc": "Người Việt học tiếng Anh thường mắc một thói quen nguy hiểm: đọc tiếng Anh theo quy tắc tiếng Việt.",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "Đọc theo quy tắc tiếng Việt",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Sai — phải tra & đọc theo IPA",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "video → 'vi-đê-ô' (SAI)",
+              "meaning": "đúng: /ˈvɪd.i.əʊ/"
+            },
+            {
+              "correct": "music → 'mu-xíc' (SAI)",
+              "meaning": "đúng: /ˈmjuː.zɪk/"
+            },
+            {
+              "correct": "science → 'xi-en-xơ' (SAI)",
+              "meaning": "đúng: /ˈsaɪ.əns/"
+            }
+          ],
+          "note": "Mục tiêu của toàn bộ chương trình: sau khi học xong, bạn nhìn bất kỳ từ tiếng Anh nào cũng đọc được đúng, hoặc biết cách tra IPA để đọc đúng."
+        },
+        {
+          "title": "📌 Tổng kết bài 1",
+          "desc": "Những điều cần nhớ sau bài học này.",
+          "noAudio": true,
+          "formula": [
+            {
+              "text": "IPA",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "=",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "1 ký hiệu = 1 âm duy nhất, không ngoại lệ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "IPA là gì",
+              "meaning": "Hệ thống ký hiệu âm thanh quốc tế"
+            },
+            {
+              "correct": "Tại sao cần IPA",
+              "meaning": "Chữ viết tiếng Anh không phản ánh trung thực cách đọc"
+            },
+            {
+              "correct": "Tiếng Anh có",
+              "meaning": "~44 âm vị = 20 nguyên âm + 24 phụ âm"
+            },
+            {
+              "correct": "3 nhóm nguyên âm",
+              "meaning": "Ngắn · Dài · Đôi (Diphthong)"
+            },
+            {
+              "correct": "Ký hiệu quan trọng",
+              "meaning": "ˈ = nhấn · ː = kéo dài · . = ranh giới âm tiết"
+            },
+            {
+              "correct": "Âm phổ biến nhất",
+              "meaning": "/ə/ schwa — xuất hiện trong hầu hết mọi câu tiếng Anh"
+            }
+          ],
+          "note": "Bài tiếp theo — Bài 2: Nguyên âm ngắn 1: /æ/ · /ɛ/ · /ɪ/ · /ɒ/ — bắt đầu học từng âm cụ thể."
+        }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "grammar": [
+        {
+          "title": "Nguyên âm ngắn /æ/",
+          "desc": "Mở miệng rộng, lưỡi hạ thấp và hơi đẩy ra trước — gần giống âm 'a' tiếng Việt nhưng đọc NGẮN và DẸT hơn, không tròn môi.",
+          "formula": [
+            {
+              "text": "Chữ 'a' trong âm tiết đóng (kết thúc bằng phụ âm)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/æ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "man /mæn/",
+              "meaning": "người nam, đàn ông"
+            },
+            {
+              "correct": "bag /bæg/",
+              "meaning": "cái túi"
+            },
+            {
+              "correct": "hat /hæt/",
+              "meaning": "cái mũ"
+            },
+            {
+              "correct": "cap /kæp/",
+              "meaning": "cái nắp, mũ lưỡi trai"
+            },
+            {
+              "correct": "ant /ænt/",
+              "meaning": "con kiến"
+            },
+            {
+              "correct": "map /mæp/",
+              "meaning": "bản đồ"
+            }
+          ],
+          "note": "Không kéo dài âm như 'a' tiếng Việt — bật âm rồi dừng ngay.",
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm ngắn /ɛ/",
+          "desc": "Miệng mở vừa, lưỡi ở vị trí giữa — gần giống âm 'e' tiếng Việt trong từ 'em' nhưng ngắn hơn.",
+          "formula": [
+            {
+              "text": "Chữ 'e' trong âm tiết đóng",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɛ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "bed /bɛd/",
+              "meaning": "cái giường"
+            },
+            {
+              "correct": "leg /lɛg/",
+              "meaning": "cái chân"
+            },
+            {
+              "correct": "pen /pɛn/",
+              "meaning": "cái bút"
+            },
+            {
+              "correct": "red /rɛd/",
+              "meaning": "màu đỏ"
+            },
+            {
+              "correct": "egg /ɛg/",
+              "meaning": "trứng"
+            },
+            {
+              "correct": "head /hɛd/",
+              "meaning": "đầu (người)"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm ngắn /ɪ/",
+          "desc": "Miệng mở hẹp, lưỡi hơi cao — gần giống âm 'i' tiếng Việt nhưng KHÔNG kéo dài và môi không bè ra.",
+          "formula": [
+            {
+              "text": "Chữ 'i' trong âm tiết đóng",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɪ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "sit /sɪt/",
+              "meaning": "ngồi"
+            },
+            {
+              "correct": "big /bɪg/",
+              "meaning": "to, lớn"
+            },
+            {
+              "correct": "pin /pɪn/",
+              "meaning": "cái kim, cái ghim"
+            },
+            {
+              "correct": "fish /fɪʃ/",
+              "meaning": "con cá"
+            },
+            {
+              "correct": "milk /mɪlk/",
+              "meaning": "sữa"
+            },
+            {
+              "correct": "swim /swɪm/",
+              "meaning": "bơi"
+            }
+          ],
+          "note": "Phân biệt với /iː/ (âm dài) sẽ học kỹ ở Bài 5.",
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm ngắn /ɒ/",
+          "desc": "Miệng mở tròn, lưỡi hạ thấp ở phía sau — gần giống âm 'o' tiếng Việt trong 'cho' nhưng ngắn.",
+          "formula": [
+            {
+              "text": "Chữ 'o' trong âm tiết đóng (giọng Anh-Anh)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɒ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "hot /hɒt/",
+              "meaning": "nóng"
+            },
+            {
+              "correct": "dog /dɒg/",
+              "meaning": "con chó"
+            },
+            {
+              "correct": "box /bɒks/",
+              "meaning": "cái hộp"
+            },
+            {
+              "correct": "top /tɒp/",
+              "meaning": "cái đỉnh, con quay"
+            },
+            {
+              "correct": "lock /lɒk/",
+              "meaning": "cái khóa"
+            },
+            {
+              "correct": "shop /ʃɒp/",
+              "meaning": "cửa hàng"
+            }
+          ],
+          "note": "Giọng Mỹ thường đọc gần giống /ɑː/ thay vì /ɒ/ — khóa học này theo giọng Anh-Anh (British).",
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "grammar": [
+        {
+          "title": "Nguyên âm /ʌ/",
+          "desc": "Miệng mở vừa, lưỡi ở giữa, âm ngắn và hơi đục — gần giống 'ă' tiếng Việt.",
+          "formula": [
+            {
+              "text": "Chữ 'u' trong âm tiết đóng",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ʌ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cup /kʌp/",
+              "meaning": "cái cốc"
+            },
+            {
+              "correct": "sun /sʌn/",
+              "meaning": "mặt trời"
+            },
+            {
+              "correct": "run /rʌn/",
+              "meaning": "chạy"
+            },
+            {
+              "correct": "drum /drʌm/",
+              "meaning": "cái trống"
+            },
+            {
+              "correct": "mug /mʌg/",
+              "meaning": "cốc có quai"
+            },
+            {
+              "correct": "jump /dʒʌmp/",
+              "meaning": "nhảy"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm /ʊ/",
+          "desc": "Môi hơi tròn, lưỡi cao phía sau — ngắn hơn và ít tròn môi hơn /uː/.",
+          "formula": [
+            {
+              "text": "Chữ 'oo' trong một số từ (book, look, foot)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ʊ/ (KHÔNG phải /uː/)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "book /bʊk/",
+              "meaning": "cuốn sách"
+            },
+            {
+              "correct": "look /lʊk/",
+              "meaning": "nhìn"
+            },
+            {
+              "correct": "foot /fʊt/",
+              "meaning": "bàn chân"
+            },
+            {
+              "correct": "good /gʊd/",
+              "meaning": "tốt"
+            },
+            {
+              "correct": "wood /wʊd/",
+              "meaning": "gỗ"
+            },
+            {
+              "correct": "cook /kʊk/",
+              "meaning": "nấu ăn"
+            }
+          ],
+          "note": "Lỗi rất phổ biến: đọc 'book' thành /buːk/ là SAI — phải là /bʊk/, ngắn hơn.",
+          "pairGrid": true
+        },
+        {
+          "title": "Âm schwa /ə/",
+          "desc": "Âm ngắn, lười, vị trí lưỡi không rõ ràng — đây là ÂM PHỔ BIẾN NHẤT trong tiếng Anh, luôn xuất hiện ở âm tiết KHÔNG được nhấn.",
+          "formula": [
+            {
+              "text": "Bất kỳ nguyên âm nào ở âm tiết KHÔNG nhấn",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "có thể biến thành /ə/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "about /əˈbaʊt/",
+              "meaning": "về, khoảng"
+            },
+            {
+              "correct": "banana /bəˈnɑːnə/",
+              "meaning": "quả chuối"
+            },
+            {
+              "correct": "sofa /ˈsəʊfə/",
+              "meaning": "ghế sofa"
+            },
+            {
+              "correct": "camera /ˈkæmrə/",
+              "meaning": "máy ảnh"
+            },
+            {
+              "correct": "computer /kəmˈpjuːtə/",
+              "meaning": "máy tính"
+            },
+            {
+              "correct": "today /təˈdeɪ/",
+              "meaning": "hôm nay"
+            }
+          ],
+          "note": "Học cách nhận diện schwa quan trọng hơn học bảng chữ cái — vì nó xuất hiện trong gần như mọi từ đa âm tiết.",
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm /ɑː/",
+          "desc": "Miệng mở rộng, lưỡi hạ thấp, kéo dài hơn /ʌ/ và /ɒ/.",
+          "formula": [
+            {
+              "text": "Chữ 'a' + 'r' (ar), hoặc 'a' trước phụ âm đôi (ss, th, lm)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɑː/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "father /ˈfɑːðə/",
+              "meaning": "cha, bố"
+            },
+            {
+              "correct": "park /pɑːk/",
+              "meaning": "công viên"
+            },
+            {
+              "correct": "dark /dɑːk/",
+              "meaning": "tối"
+            },
+            {
+              "correct": "fast /fɑːst/",
+              "meaning": "nhanh"
+            },
+            {
+              "correct": "glass /glɑːs/",
+              "meaning": "ly thủy tinh"
+            },
+            {
+              "correct": "half /hɑːf/",
+              "meaning": "một nửa"
+            }
+          ],
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "grammar": [
+        {
+          "title": "Nguyên âm dài /iː/",
+          "desc": "Kéo dài, môi bè rộng sang hai bên, lưỡi cao phía trước — dài hơn /ɪ/ rõ rệt.",
+          "formula": [
+            {
+              "text": "Chữ 'ee' hoặc 'ea'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/iː/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "see /siː/",
+              "meaning": "nhìn thấy"
+            },
+            {
+              "correct": "tea /tiː/",
+              "meaning": "trà"
+            },
+            {
+              "correct": "sheep /ʃiːp/",
+              "meaning": "con cừu"
+            },
+            {
+              "correct": "tree /triː/",
+              "meaning": "cái cây"
+            },
+            {
+              "correct": "key /kiː/",
+              "meaning": "chìa khóa"
+            },
+            {
+              "correct": "green /griːn/",
+              "meaning": "màu xanh lá"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm dài /uː/",
+          "desc": "Môi tròn và đẩy ra trước, lưỡi cao phía sau, kéo dài.",
+          "formula": [
+            {
+              "text": "Chữ 'oo', 'ue', hoặc 'ew'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/uː/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "blue /bluː/",
+              "meaning": "màu xanh dương"
+            },
+            {
+              "correct": "food /fuːd/",
+              "meaning": "thức ăn"
+            },
+            {
+              "correct": "moon /muːn/",
+              "meaning": "mặt trăng"
+            },
+            {
+              "correct": "school /skuːl/",
+              "meaning": "trường học"
+            },
+            {
+              "correct": "spoon /spuːn/",
+              "meaning": "cái thìa"
+            },
+            {
+              "correct": "zoo /zuː/",
+              "meaning": "sở thú"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm dài /ɑː/ (với chữ 'ar')",
+          "desc": "Miệng mở rộng, lưỡi hạ thấp, kéo dài — khác /ʌ/ ở độ dài và độ mở.",
+          "formula": [
+            {
+              "text": "Chữ 'ar'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɑː/ (chữ 'r' không đọc trong giọng Anh-Anh)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "car /kɑː/",
+              "meaning": "xe ô tô"
+            },
+            {
+              "correct": "star /stɑː/",
+              "meaning": "ngôi sao"
+            },
+            {
+              "correct": "arm /ɑːm/",
+              "meaning": "cánh tay"
+            },
+            {
+              "correct": "garden /ˈgɑːdn/",
+              "meaning": "vườn"
+            },
+            {
+              "correct": "March /mɑːtʃ/",
+              "meaning": "tháng Ba"
+            },
+            {
+              "correct": "smart /smɑːt/",
+              "meaning": "thông minh, lịch sự"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm dài /ɔː/",
+          "desc": "Môi tròn, lưỡi hạ thấp phía sau, kéo dài.",
+          "formula": [
+            {
+              "text": "Chữ 'or', 'oor', hoặc 'ore'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɔː/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "door /dɔː/",
+              "meaning": "cái cửa"
+            },
+            {
+              "correct": "four /fɔː/",
+              "meaning": "số bốn"
+            },
+            {
+              "correct": "ball /bɔːl/",
+              "meaning": "quả bóng"
+            },
+            {
+              "correct": "morning /ˈmɔːnɪŋ/",
+              "meaning": "buổi sáng"
+            },
+            {
+              "correct": "short /ʃɔːt/",
+              "meaning": "ngắn"
+            },
+            {
+              "correct": "sport /spɔːt/",
+              "meaning": "thể thao"
+            }
+          ],
+          "note": "'four' và 'ball' không có 'or' trực tiếp nhưng cùng nhóm âm — học theo âm, không chỉ theo chữ.",
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "grammar": [
+        {
+          "title": "Phân biệt /iː/ và /ɪ/: sheep vs ship",
+          "desc": "/iː/ dài và bè môi rõ; /ɪ/ ngắn, lưỡi thấp hơn một chút và không bè môi.",
+          "formula": [
+            {
+              "text": "2 chữ nguyên âm liền (ee/ea)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "âm dài /iː/; 1 chữ 'i' → âm ngắn /ɪ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "sheep /ʃiːp/ — ship /ʃɪp/",
+              "meaning": "cừu (âm dài /iː/) vs tàu (âm ngắn /ɪ/)"
+            },
+            {
+              "correct": "feel /fiːl/ — fill /fɪl/",
+              "meaning": "cảm thấy (dài) vs lấp đầy, đổ đầy (ngắn)"
+            },
+            {
+              "correct": "Đọc to lần lượt: sheep – ship – sheep – ship",
+              "meaning": "Luyện nghe sự khác biệt về độ dài âm"
+            }
+          ]
+        },
+        {
+          "title": "Phân biệt /uː/ và /ʊ/: food vs foot",
+          "desc": "/uː/ dài, môi tròn rõ và đẩy ra trước; /ʊ/ ngắn, môi tròn nhẹ hơn.",
+          "formula": [
+            {
+              "text": "Chữ 'oo' + phụ âm vô thanh (food, moon)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "không cố định — phải nhớ theo từng từ (book, foot là /ʊ/)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "food /fuːd/ — foot /fʊt/",
+              "meaning": "thức ăn (dài) vs bàn chân (ngắn)"
+            },
+            {
+              "correct": "moon /muːn/ — book /bʊk/",
+              "meaning": "mặt trăng (dài) vs cuốn sách (ngắn)"
+            },
+            {
+              "correct": "Đọc to: food – foot – food – foot",
+              "meaning": "Luyện nghe sự khác biệt về độ dài âm"
+            }
+          ],
+          "note": "Đây là lý do chữ 'oo' không có quy tắc chính tả cố định — phải tra IPA cho từng từ mới."
+        },
+        {
+          "title": "Phân biệt /ɑː/ và /æ/: heart vs hat",
+          "desc": "/ɑː/ dài, miệng mở rộng và kéo dài; /æ/ ngắn, dẹt hơn.",
+          "formula": [
+            {
+              "text": "Chữ 'ar' (heart, car)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɑː/ dài; chữ 'a' đơn (hat, cat) → /æ/ ngắn",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "heart /hɑːt/ — hat /hæt/",
+              "meaning": "tim (dài) vs cái mũ (ngắn)"
+            },
+            {
+              "correct": "car /kɑː/ — cat /kæt/",
+              "meaning": "xe ô tô (dài) vs con mèo (ngắn)"
+            },
+            {
+              "correct": "Đọc to: heart – hat – heart – hat",
+              "meaning": "Luyện nghe sự khác biệt về độ dài âm"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "grammar": [
+        {
+          "title": "Nguyên âm đôi /eɪ/",
+          "desc": "Trượt từ /e/ sang /ɪ/ — bắt đầu mở, kết thúc hẹp hơn.",
+          "formula": [
+            {
+              "text": "Chữ 'ay' hoặc 'ai'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/eɪ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "day /deɪ/",
+              "meaning": "ngày"
+            },
+            {
+              "correct": "name /neɪm/",
+              "meaning": "tên"
+            },
+            {
+              "correct": "rain /reɪn/",
+              "meaning": "mưa"
+            },
+            {
+              "correct": "cake /keɪk/",
+              "meaning": "bánh ngọt"
+            },
+            {
+              "correct": "table /ˈteɪbl/",
+              "meaning": "cái bàn"
+            },
+            {
+              "correct": "train /treɪn/",
+              "meaning": "xe lửa"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /aɪ/",
+          "desc": "Trượt từ /a/ sang /ɪ/ — gần giống 'ai' tiếng Việt nhưng lướt nhanh hơn.",
+          "formula": [
+            {
+              "text": "Chữ 'y' cuối từ, hoặc 'i' + phụ âm + 'e' (i_e)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/aɪ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "my /maɪ/",
+              "meaning": "của tôi"
+            },
+            {
+              "correct": "time /taɪm/",
+              "meaning": "thời gian"
+            },
+            {
+              "correct": "like /laɪk/",
+              "meaning": "thích"
+            },
+            {
+              "correct": "nice /naɪs/",
+              "meaning": "đẹp, tốt"
+            },
+            {
+              "correct": "five /faɪv/",
+              "meaning": "số năm"
+            },
+            {
+              "correct": "smile /smaɪl/",
+              "meaning": "mỉm cười"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /ɔɪ/",
+          "desc": "Trượt từ /ɔ/ sang /ɪ/ — môi tròn rồi mở hẹp dần.",
+          "formula": [
+            {
+              "text": "Chữ 'oy' hoặc 'oi'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɔɪ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "boy /bɔɪ/",
+              "meaning": "con trai"
+            },
+            {
+              "correct": "toy /tɔɪ/",
+              "meaning": "đồ chơi"
+            },
+            {
+              "correct": "point /pɔɪnt/",
+              "meaning": "điểm"
+            },
+            {
+              "correct": "voice /vɔɪs/",
+              "meaning": "giọng nói"
+            },
+            {
+              "correct": "noise /nɔɪz/",
+              "meaning": "tiếng ồn"
+            },
+            {
+              "correct": "enjoy /ɪnˈdʒɔɪ/",
+              "meaning": "thích thú"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /əʊ/",
+          "desc": "Trượt từ /ə/ sang /ʊ/ — môi từ bình thường chuyển sang tròn dần.",
+          "formula": [
+            {
+              "text": "Chữ 'o' cuối âm tiết mở, hoặc 'o' + phụ âm + 'e' (o_e)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/əʊ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "go /gəʊ/",
+              "meaning": "đi"
+            },
+            {
+              "correct": "home /həʊm/",
+              "meaning": "nhà"
+            },
+            {
+              "correct": "nose /nəʊz/",
+              "meaning": "cái mũi"
+            },
+            {
+              "correct": "phone /fəʊn/",
+              "meaning": "điện thoại"
+            },
+            {
+              "correct": "open /ˈəʊpən/",
+              "meaning": "mở"
+            },
+            {
+              "correct": "photo /ˈfəʊtəʊ/",
+              "meaning": "ảnh"
+            }
+          ],
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 6,
+      "grammar": [
+        {
+          "title": "Nguyên âm đôi /aʊ/",
+          "desc": "Trượt từ /a/ sang /ʊ/ — gần giống 'ao' tiếng Việt.",
+          "formula": [
+            {
+              "text": "Chữ 'ow' hoặc 'ou'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/aʊ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "now /naʊ/",
+              "meaning": "bây giờ"
+            },
+            {
+              "correct": "town /taʊn/",
+              "meaning": "thị trấn"
+            },
+            {
+              "correct": "house /haʊs/",
+              "meaning": "ngôi nhà"
+            },
+            {
+              "correct": "cloud /klaʊd/",
+              "meaning": "mây"
+            },
+            {
+              "correct": "mouse /maʊs/",
+              "meaning": "con chuột"
+            },
+            {
+              "correct": "loud /laʊd/",
+              "meaning": "to, ồn"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /ɪə/",
+          "desc": "Trượt từ /ɪ/ sang /ə/ — đặc trưng tiếng Anh-Anh, không có trong giọng Mỹ.",
+          "formula": [
+            {
+              "text": "Chữ 'ere' hoặc 'ear' ở cuối từ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ɪə/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "here /hɪə/",
+              "meaning": "ở đây"
+            },
+            {
+              "correct": "near /nɪə/",
+              "meaning": "gần"
+            },
+            {
+              "correct": "ear /ɪə/",
+              "meaning": "tai"
+            },
+            {
+              "correct": "beer /bɪə/",
+              "meaning": "bia"
+            },
+            {
+              "correct": "year /jɪə/",
+              "meaning": "năm (thời gian)"
+            },
+            {
+              "correct": "dear /dɪə/",
+              "meaning": "thân yêu, đắt"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /eə/",
+          "desc": "Trượt từ /e/ sang /ə/.",
+          "formula": [
+            {
+              "text": "Chữ 'air' hoặc 'are/ere'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/eə/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "there /ðeə/",
+              "meaning": "ở đó, ở kia"
+            },
+            {
+              "correct": "chair /tʃeə/",
+              "meaning": "cái ghế"
+            },
+            {
+              "correct": "hair /heə/",
+              "meaning": "tóc"
+            },
+            {
+              "correct": "bear /beə/",
+              "meaning": "con gấu"
+            },
+            {
+              "correct": "care /keə/",
+              "meaning": "quan tâm, chăm sóc"
+            },
+            {
+              "correct": "fair /feə/",
+              "meaning": "công bằng"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Nguyên âm đôi /ʊə/",
+          "desc": "Trượt từ /ʊ/ sang /ə/ — âm hiếm, ngày càng ít dùng trong giọng Anh hiện đại.",
+          "formula": [
+            {
+              "text": "Chữ 'ure' hoặc 'our' (một số từ)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ʊə/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "pure /pjʊə/",
+              "meaning": "trong sạch, nguyên chất"
+            },
+            {
+              "correct": "sure /ʃʊə/",
+              "meaning": "chắc chắn"
+            },
+            {
+              "correct": "tour /tʊə/",
+              "meaning": "chuyến du lịch, tham quan"
+            },
+            {
+              "correct": "poor /pʊə/",
+              "meaning": "nghèo"
+            },
+            {
+              "correct": "cure /kjʊə/",
+              "meaning": "chữa trị"
+            },
+            {
+              "correct": "tourist /ˈtʊərɪst/",
+              "meaning": "khách du lịch"
+            }
+          ],
+          "note": "Nhiều người bản ngữ hiện nay đọc 'sure' thành /ʃɔː/ thay vì /ʃʊə/ — biết cả hai cách đọc đều bình thường.",
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "grammar": [
+        {
+          "title": "Cặp voiced/voiceless: /b/ và /p/",
+          "desc": "Đặt tay lên cổ họng khi đọc — /b/ làm dây thanh RUNG (voiced), /p/ KHÔNG rung (voiceless); hai môi chạm nhau giống nhau ở cả hai âm.",
+          "formula": [
+            {
+              "text": "Không có quy tắc chính tả cố định",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "phân biệt bằng độ rung dây thanh, không phải mặt chữ",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "bed /bɛd/ (voiced) — pet /pɛt/ (voiceless)",
+              "meaning": "cái giường vs vật nuôi — cùng vị trí phát âm, khác độ rung"
+            },
+            {
+              "correct": "big /bɪg/ — pig /pɪg/",
+              "meaning": "to, lớn vs con lợn"
+            },
+            {
+              "correct": "Đặt tay lên cổ họng khi đọc 'b' và 'p'",
+              "meaning": "Mẹo luyện tập cảm nhận độ rung dây thanh"
+            }
+          ]
+        },
+        {
+          "title": "Cặp voiced/voiceless: /d/ và /t/",
+          "desc": "Đầu lưỡi chạm vòm miệng giống nhau ở cả hai âm, chỉ khác độ rung dây thanh.",
+          "formula": [
+            {
+              "text": "Không có quy tắc chính tả cố định",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "phân biệt bằng độ rung dây thanh",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "dog /dɒg/ (voiced) — talk /tɔːk/ (voiceless)",
+              "meaning": "con chó vs nói chuyện"
+            },
+            {
+              "correct": "dad /dæd/ — tap /tæp/",
+              "meaning": "bố vs vòi nước"
+            },
+            {
+              "correct": "Đặt tay lên cổ họng khi đọc 'd' và 't'",
+              "meaning": "Mẹo luyện tập cảm nhận độ rung dây thanh"
+            }
+          ]
+        },
+        {
+          "title": "Cặp voiced/voiceless: /g/ và /k/",
+          "desc": "Phía sau lưỡi chạm vòm mềm giống nhau ở cả hai âm, chỉ khác độ rung dây thanh.",
+          "formula": [
+            {
+              "text": "Không có quy tắc chính tả cố định",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "phân biệt bằng độ rung dây thanh",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "get /gɛt/ (voiced) — cat /kæt/ (voiceless)",
+              "meaning": "nhận, lấy vs con mèo"
+            },
+            {
+              "correct": "go /gəʊ/ — cup /kʌp/",
+              "meaning": "đi vs cái cốc"
+            },
+            {
+              "correct": "Đặt tay lên cổ họng khi đọc 'g' và 'k'",
+              "meaning": "Mẹo luyện tập cảm nhận độ rung dây thanh"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 8,
+      "grammar": [
+        {
+          "title": "Cặp ma sát: /f/ và /v/",
+          "desc": "Môi dưới chạm nhẹ vào răng trên ở cả hai âm — /f/ không rung, /v/ có rung dây thanh.",
+          "formula": [
+            {
+              "text": "Chữ 'f' hoặc 'ph'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/f/ (không rung); chữ 'v' → /v/ (rung)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "fan /fæn/ — van /væn/",
+              "meaning": "cái quạt vs xe tải nhỏ"
+            },
+            {
+              "correct": "five /faɪv/",
+              "meaning": "số năm — chứa cả 2 âm /f/ và /v/ trong một từ"
+            },
+            {
+              "correct": "Đặt tay lên cổ họng khi đọc 'f' và 'v'",
+              "meaning": "Mẹo luyện tập cảm nhận độ rung dây thanh"
+            }
+          ]
+        },
+        {
+          "title": "Cặp ma sát: /s/ và /z/",
+          "desc": "Lưỡi gần hàm trên, hơi thoát ra rít — /s/ không rung, /z/ có rung dây thanh.",
+          "formula": [
+            {
+              "text": "Chữ 's' có thể đọc /s/ hoặc /z/ tùy từ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "chữ 'z' luôn đọc /z/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "see /siː/ — zoo /zuː/",
+              "meaning": "nhìn thấy vs sở thú"
+            },
+            {
+              "correct": "boys /bɔɪz/",
+              "meaning": "những đứa con trai — chữ 's' cuối đọc /z/ vì đứng sau âm hữu thanh"
+            },
+            {
+              "correct": "Đặt tay lên cổ họng khi đọc 's' và 'z'",
+              "meaning": "Mẹo luyện tập cảm nhận độ rung dây thanh"
+            }
+          ],
+          "note": "Quy tắc đọc chữ 's' cuối từ (số nhiều, ngôi 3) sẽ học chi tiết ở Bài 14."
+        },
+        {
+          "title": "Cặp ma sát: /ʃ/ và /ʒ/",
+          "desc": "Lưỡi nâng cao và bè rộng hơn /s/-/z/ — /ʃ/ không rung, /ʒ/ có rung dây thanh (âm hiếm).",
+          "formula": [
+            {
+              "text": "Chữ 'sh'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ʃ/; chữ 's' trong 'su(re)/vi(sion)' → /ʒ/ (không có quy tắc cố định)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "she /ʃiː/",
+              "meaning": "cô ấy"
+            },
+            {
+              "correct": "measure /ˈmɛʒə/",
+              "meaning": "đo lường"
+            },
+            {
+              "correct": "vision /ˈvɪʒən/",
+              "meaning": "tầm nhìn, thị lực"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "grammar": [
+        {
+          "title": "Âm /θ/ (th vô thanh)",
+          "desc": "Đặt lưỡi giữa hai hàm răng, thổi hơi ra, KHÔNG rung dây thanh — âm này hoàn toàn không có trong tiếng Việt.",
+          "formula": [
+            {
+              "text": "Chữ 'th' đầu danh từ/số từ phổ biến (think, three, thanks)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/θ/ (không có quy tắc tuyệt đối, học theo từ)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "think /θɪŋk/",
+              "meaning": "nghĩ"
+            },
+            {
+              "correct": "thanks /θæŋks/",
+              "meaning": "cảm ơn"
+            },
+            {
+              "correct": "three /θriː/",
+              "meaning": "số ba"
+            },
+            {
+              "correct": "bath /bɑːθ/",
+              "meaning": "bồn tắm, tắm"
+            },
+            {
+              "correct": "tooth /tuːθ/",
+              "meaning": "cái răng"
+            },
+            {
+              "correct": "thin /θɪn/",
+              "meaning": "mỏng"
+            }
+          ],
+          "note": "Lỗi phổ biến nhất của người Việt: đọc 'th' thành âm 'th' tiếng Việt (như trong 'thầy') hoặc thành 's/f' — đều SAI.",
+          "pairGrid": true
+        },
+        {
+          "title": "Âm /ð/ (th hữu thanh)",
+          "desc": "Giống vị trí lưỡi như /θ/ nhưng CÓ rung dây thanh.",
+          "formula": [
+            {
+              "text": "Chữ 'th' ở các từ chức năng phổ biến (this, that, the, mother)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ð/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "this /ðɪs/",
+              "meaning": "cái này"
+            },
+            {
+              "correct": "that /ðæt/",
+              "meaning": "cái đó, cái kia"
+            },
+            {
+              "correct": "mother /ˈmʌðə/",
+              "meaning": "mẹ"
+            },
+            {
+              "correct": "than /ðæn/",
+              "meaning": "hơn"
+            },
+            {
+              "correct": "these /ðiːz/",
+              "meaning": "những cái này"
+            },
+            {
+              "correct": "those /ðəʊz/",
+              "meaning": "những cái đó"
+            }
+          ],
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 10,
+      "grammar": [
+        {
+          "title": "Phụ âm /r/",
+          "desc": "Cong lưỡi lên nhưng KHÔNG chạm vòm miệng, môi hơi tròn — khác hẳn âm 'r' tiếng Việt (rung lưỡi).",
+          "formula": [
+            {
+              "text": "Chữ 'r' đầu từ hoặc sau phụ âm",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/r/ (chú ý 'wr' — chữ 'w' câm)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "right /raɪt/",
+              "meaning": "đúng; bên phải"
+            },
+            {
+              "correct": "rice /raɪs/",
+              "meaning": "cơm, gạo"
+            },
+            {
+              "correct": "write /raɪt/",
+              "meaning": "viết (chữ 'w' đầu hoàn toàn câm)"
+            },
+            {
+              "correct": "red /rɛd/",
+              "meaning": "màu đỏ"
+            },
+            {
+              "correct": "run /rʌn/",
+              "meaning": "chạy"
+            },
+            {
+              "correct": "room /ruːm/",
+              "meaning": "phòng"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Phụ âm /l/",
+          "desc": "Đầu lưỡi chạm vào vòm miệng ngay sau răng trên.",
+          "formula": [
+            {
+              "text": "Chữ 'l'",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/l/ (chính tả khá ổn định)",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "light /laɪt/",
+              "meaning": "ánh sáng; nhẹ"
+            },
+            {
+              "correct": "love /lʌv/",
+              "meaning": "yêu"
+            },
+            {
+              "correct": "leg /lɛg/",
+              "meaning": "cái chân"
+            },
+            {
+              "correct": "look /lʊk/",
+              "meaning": "nhìn"
+            },
+            {
+              "correct": "live /lɪv/",
+              "meaning": "sống"
+            },
+            {
+              "correct": "milk /mɪlk/",
+              "meaning": "sữa"
+            }
+          ],
+          "note": "Người Việt miền Nam thường lẫn /r/ và /l/ — hãy luyện cặp 'right/light' thật chậm và rõ.",
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "grammar": [
+        {
+          "title": "Phụ âm /w/",
+          "desc": "Hai môi tròn lại rồi mở nhanh ra — giống âm 'qu' tiếng Việt nhưng không bật hơi mạnh.",
+          "formula": [
+            {
+              "text": "Chữ 'w' hoặc 'wh' (trừ ngoại lệ)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/w/ — NGOẠI LỆ: 'who', 'whose' đọc /h/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "wet /wɛt/",
+              "meaning": "ướt"
+            },
+            {
+              "correct": "what /wɒt/",
+              "meaning": "cái gì"
+            },
+            {
+              "correct": "who /huː/",
+              "meaning": "ai (NGOẠI LỆ — wh đọc /h/, không đọc /w/)"
+            },
+            {
+              "correct": "want /wɒnt/",
+              "meaning": "muốn"
+            },
+            {
+              "correct": "week /wiːk/",
+              "meaning": "tuần"
+            },
+            {
+              "correct": "wind /wɪnd/",
+              "meaning": "gió"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Phụ âm /h/",
+          "desc": "Chỉ là luồng hơi thoát ra, không rung dây thanh, không có vị trí lưỡi cố định.",
+          "formula": [
+            {
+              "text": "Chữ 'h' đầu từ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/h/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "hat /hæt/",
+              "meaning": "cái mũ"
+            },
+            {
+              "correct": "house /haʊs/",
+              "meaning": "ngôi nhà"
+            },
+            {
+              "correct": "hot /hɒt/",
+              "meaning": "nóng"
+            },
+            {
+              "correct": "happy /ˈhæpi/",
+              "meaning": "vui"
+            },
+            {
+              "correct": "hand /hænd/",
+              "meaning": "tay"
+            },
+            {
+              "correct": "help /hɛlp/",
+              "meaning": "giúp đỡ"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Phụ âm /j/",
+          "desc": "Giống âm 'i' lướt nhanh — KHÔNG đọc như chữ 'j' tiếng Việt.",
+          "formula": [
+            {
+              "text": "Chữ 'y' đầu từ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/j/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "yes /jɛs/",
+              "meaning": "vâng, có"
+            },
+            {
+              "correct": "you /juː/",
+              "meaning": "bạn"
+            },
+            {
+              "correct": "year /jɪə/",
+              "meaning": "năm (thời gian)"
+            },
+            {
+              "correct": "young /jʌŋ/",
+              "meaning": "trẻ"
+            },
+            {
+              "correct": "yellow /ˈjɛləʊ/",
+              "meaning": "màu vàng"
+            },
+            {
+              "correct": "yet /jɛt/",
+              "meaning": "chưa"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Phụ âm /ŋ/",
+          "desc": "Âm mũi, phía sau lưỡi chạm vòm mềm — đọc liền một âm, không tách rời 'n' và 'g'.",
+          "formula": [
+            {
+              "text": "Chữ 'ng' hoặc 'n' trước 'k' ở cuối từ",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "/ŋ/",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "sing /sɪŋ/",
+              "meaning": "hát"
+            },
+            {
+              "correct": "morning /ˈmɔːnɪŋ/",
+              "meaning": "buổi sáng"
+            },
+            {
+              "correct": "bank /bæŋk/",
+              "meaning": "ngân hàng"
+            },
+            {
+              "correct": "king /kɪŋ/",
+              "meaning": "vua"
+            },
+            {
+              "correct": "long /lɒŋ/",
+              "meaning": "dài"
+            },
+            {
+              "correct": "thing /θɪŋ/",
+              "meaning": "đồ vật, thứ"
+            }
+          ],
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 12,
+      "grammar": [
+        {
+          "title": "Luôn đọc rõ âm cuối từ",
+          "desc": "Người Việt có xu hướng bỏ âm cuối vì tiếng Việt không kết thúc âm tiết bằng nhiều phụ âm bật hơi — nhưng tiếng Anh BẮT BUỘC phải đọc rõ âm cuối, nếu không người nghe dễ hiểu sai từ.",
+          "formula": [
+            {
+              "text": "Phụ âm cuối từ (/t/ /d/ /k/ /s/ /z/...)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "luôn bật rõ, dù không cần to",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cat /kæt/",
+              "meaning": "con mèo — bật rõ /t/ cuối"
+            },
+            {
+              "correct": "bad /bæd/",
+              "meaning": "xấu, tệ — bật rõ /d/ cuối"
+            },
+            {
+              "correct": "maps /mæps/",
+              "meaning": "những bản đồ — âm cuối nối thêm /s/"
+            },
+            {
+              "correct": "dogs /dɒgz/",
+              "meaning": "những con chó — âm cuối nối thêm /z/"
+            },
+            {
+              "correct": "book /bʊk/",
+              "meaning": "cuốn sách — bật rõ /k/ cuối"
+            },
+            {
+              "correct": "kiss /kɪs/",
+              "meaning": "hôn — bật rõ /s/ cuối"
+            }
+          ],
+          "note": "Thử đặt tay trước miệng khi đọc 'cat' — phải cảm nhận luồng hơi bật ra ở cuối, không dừng lại ở nguyên âm.",
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "grammar": [
+        {
+          "title": "Đuôi -ed: 3 cách đọc",
+          "desc": "Cách đọc đuôi -ed của động từ quy tắc phụ thuộc vào âm CUỐI của động từ gốc.",
+          "formula": [
+            {
+              "text": "Sau /t/, /d/ → [ɪd]",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "Sau âm vô thanh → [t]",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Sau âm hữu thanh còn lại → [d]",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "waited /ˈweɪtɪd/",
+              "meaning": "đã chờ — gốc 'wait' kết thúc bằng /t/ nên thêm [ɪd]"
+            },
+            {
+              "correct": "walked /wɔːkt/",
+              "meaning": "đã đi bộ — gốc 'walk' kết thúc bằng âm vô thanh /k/ nên đọc [t]"
+            },
+            {
+              "correct": "played /pleɪd/",
+              "meaning": "đã chơi — gốc 'play' kết thúc bằng âm hữu thanh nên đọc [d]"
+            },
+            {
+              "correct": "needed /ˈniːdɪd/",
+              "meaning": "đã cần — đuôi [ɪd]"
+            },
+            {
+              "correct": "watched /wɒtʃt/",
+              "meaning": "đã xem — đuôi [t]"
+            },
+            {
+              "correct": "loved /lʌvd/",
+              "meaning": "đã yêu — đuôi [d]"
+            }
+          ],
+          "pairGrid": true
+        },
+        {
+          "title": "Đuôi -s/-es: 3 cách đọc",
+          "desc": "Cách đọc đuôi -s/-es (số nhiều danh từ, ngôi 3 động từ) phụ thuộc vào âm CUỐI của từ gốc.",
+          "formula": [
+            {
+              "text": "Sau âm vô thanh → [s]",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "Sau âm hữu thanh → [z]",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "Sau âm rít (s,z,sh,ch,x) → [ɪz]",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "cats /kæts/",
+              "meaning": "những con mèo — gốc 'cat' kết thúc bằng âm vô thanh /t/ nên đọc [s]"
+            },
+            {
+              "correct": "dogs /dɒgz/",
+              "meaning": "những con chó — gốc 'dog' kết thúc bằng âm hữu thanh /g/ nên đọc [z]"
+            },
+            {
+              "correct": "buses /ˈbʌsɪz/",
+              "meaning": "những chiếc xe buýt — gốc 'bus' kết thúc bằng âm rít /s/ nên đọc [ɪz]"
+            },
+            {
+              "correct": "books /bʊks/",
+              "meaning": "những cuốn sách — đuôi [s]"
+            },
+            {
+              "correct": "pens /pɛnz/",
+              "meaning": "những cái bút — đuôi [z]"
+            },
+            {
+              "correct": "boxes /ˈbɒksɪz/",
+              "meaning": "những cái hộp — đuôi [ɪz]"
+            }
+          ],
+          "pairGrid": true
+        }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "grammar": [
+        {
+          "title": "Cụm phụ âm (Consonant Clusters)",
+          "desc": "Tiếng Việt không có cụm 2-3 phụ âm liên tiếp (luôn có nguyên âm đệm), nên người Việt hay thêm nguyên âm 'ơ' vào giữa cụm phụ âm tiếng Anh (vd đọc 'street' thành 'sờ-trít') — đây là lỗi cần sửa.",
+          "formula": [
+            {
+              "text": "Cụm phụ âm: str-, spl-, thr-, sk-, -nd",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "→",
+              "classes": "border-pink-200 bg-pink-50 text-pink-700"
+            },
+            {
+              "text": "đọc liền các phụ âm, KHÔNG chêm nguyên âm vào giữa",
+              "classes": "border-green-200 bg-green-50 text-green-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "street /striːt/",
+              "meaning": "đường phố"
+            },
+            {
+              "correct": "split /splɪt/",
+              "meaning": "chia, tách"
+            },
+            {
+              "correct": "school /skuːl/",
+              "meaning": "trường học"
+            },
+            {
+              "correct": "end /ɛnd/",
+              "meaning": "kết thúc, đoạn cuối"
+            },
+            {
+              "correct": "scream /skriːm/",
+              "meaning": "thét lên"
+            },
+            {
+              "correct": "friend /frɛnd/",
+              "meaning": "bạn"
+            }
+          ],
+          "note": "Luyện chậm: s-t-r-eet, không phải s-ờ-t-r-eet.",
+          "pairGrid": true
+        }
+      ]
+    }
+  ]
+}

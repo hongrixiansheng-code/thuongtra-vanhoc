@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 35,
+    "dialogue": [
+      {
+        "title": "Habit or right now?",
+        "lines": [
+          { "speaker": "Mai", "en": "I usually work in an office.", "vi": "Tôi thường làm việc trong văn phòng." },
+          { "speaker": "David", "en": "But what are you doing now?", "vi": "Nhưng bây giờ bạn đang làm gì?" },
+          { "speaker": "Mai", "en": "I am working from home today.", "vi": "Hôm nay tôi đang làm việc ở nhà." },
+          { "speaker": "David", "en": "She usually cooks dinner at seven.", "vi": "Cô ấy thường nấu bữa tối lúc bảy giờ." },
+          { "speaker": "Mai", "en": "Right now, she is cleaning the kitchen instead.", "vi": "Ngay bây giờ, cô ấy đang dọn nhà bếp thay vào đó." },
+          { "speaker": "David", "en": "I see. Things are a bit different today.", "vi": "Tôi hiểu. Hôm nay mọi thứ có chút khác biệt." }
+        ]
+      },
+      {
+        "title": "A study session",
+        "lines": [
+          { "speaker": "Mai", "en": "We study every evening.", "vi": "Chúng tôi học mỗi tối." },
+          { "speaker": "David", "en": "Look, they are studying right now.", "vi": "Nhìn, họ đang học ngay bây giờ." },
+          { "speaker": "Mai", "en": "He often reads books at night.", "vi": "Anh ấy thường đọc sách vào ban đêm." },
+          { "speaker": "David", "en": "But tonight, he is watching a movie.", "vi": "Nhưng tối nay, anh ấy đang xem phim." },
+          { "speaker": "Mai", "en": "I eat breakfast every day at seven.", "vi": "Tôi ăn sáng mỗi ngày lúc bảy giờ." },
+          { "speaker": "David", "en": "Right now, you are eating breakfast at eight!", "vi": "Ngay bây giờ, bạn đang ăn sáng lúc tám giờ!" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 36,
+    "dialogue": [
+      {
+        "title": "Review: Shopping and cooking now",
+        "lines": [
+          { "speaker": "Mai", "en": "I have some rice and a few vegetables for dinner.", "vi": "Tôi có một ít gạo và vài cọng rau cho bữa tối." },
+          { "speaker": "David", "en": "How much rice do you have?", "vi": "Bạn có bao nhiêu gạo?" },
+          { "speaker": "Mai", "en": "I have plenty of rice, but I don't have any meat.", "vi": "Tôi có nhiều gạo, nhưng tôi không có thịt." },
+          { "speaker": "David", "en": "Look, I am cooking some soup right now.", "vi": "Nhìn, tôi đang nấu một ít súp ngay bây giờ." },
+          { "speaker": "Mai", "en": "Prices are increasing at the market this week.", "vi": "Giá cả đang tăng ở chợ tuần này." },
+          { "speaker": "David", "en": "I usually shop on Sunday, but today I am shopping early.", "vi": "Tôi thường mua sắm vào Chủ Nhật, nhưng hôm nay tôi mua sắm sớm." }
+        ]
+      }
+    ]
+  }
+]

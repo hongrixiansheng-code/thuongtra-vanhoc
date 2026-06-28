@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 11,
+    "reading": [
+      {
+        "title": "Reading: My talents",
+        "passage": "I can swim and cook very well. I can also speak two languages, English and Vietnamese. I can't drive a car yet, but I can ride a bike. I can sing, but I can't dance.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer can speak two languages.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I can also speak two languages\"." },
+          { "type": "true_false_ng", "question": "The writer can drive a car.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I can't drive a car yet\"." },
+          { "type": "true_false_ng", "question": "The writer can dance.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I can't dance\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "reading": [
+      {
+        "title": "Reading: A polite request",
+        "passage": "Dear Sir, Can I take a day off next week? I have a family event. Can you also help me find someone to cover my work? Thank you.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer is asking for permission.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"Can I take a day off...?\" là lời xin phép." },
+          { "type": "multiple_choice", "question": "What does the writer want help with?", "options": ["Finding someone to cover work", "Booking a flight", "Writing a report"], "correct": "Finding someone to cover work", "explanation": "\"Can you also help me find someone to cover my work?\"" }
+        ]
+      }
+    ]
+  }
+]

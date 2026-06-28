@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 51,
+    "vocab": [
+      {
+        "word": "more",
+        "ipa": "/mɔːr/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "nhiều hơn",
+        "example_en": "I need more time.",
+        "example_vi": "Tôi cần nhiều thời gian hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "less",
+        "ipa": "/les/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "ít hơn",
+        "example_en": "Eat less sugar.",
+        "example_vi": "Hãy ăn ít đường hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "most",
+        "ipa": "/məʊst/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "nhiều nhất",
+        "example_en": "He is the most clever.",
+        "example_vi": "Anh ấy thông minh nhất.",
+        "level": "A2"
+      },
+      {
+        "word": "least",
+        "ipa": "/liːst/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "ít nhất",
+        "example_en": "It is the least expensive.",
+        "example_vi": "Nó rẻ nhất (ít đắt nhất).",
+        "level": "A2"
+      },
+      {
+        "word": "better",
+        "ipa": "/ˈbet.ər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tốt hơn",
+        "example_en": "My car is better.",
+        "example_vi": "Xe của tôi tốt hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "worse",
+        "ipa": "/wɜːs/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tệ hơn",
+        "example_en": "The weather is worse.",
+        "example_vi": "Thời tiết tệ hơn.",
+        "level": "A2"
+      },
+      {
+        "word": "best",
+        "ipa": "/best/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tốt nhất",
+        "example_en": "She is the best singer.",
+        "example_vi": "Cô ấy là ca sĩ giỏi nhất.",
+        "level": "A2"
+      },
+      {
+        "word": "worst",
+        "ipa": "/wɜːst/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tệ nhất",
+        "example_en": "It was the worst day.",
+        "example_vi": "Đó đã là ngày tồi tệ nhất.",
+        "level": "A2"
+      },
+      {
+        "word": "highly",
+        "ipa": "/ˈhaɪ.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "cao, rất",
+        "example_en": "It is highly important.",
+        "example_vi": "Nó rất quan trọng.",
+        "level": "A2"
+      },
+      {
+        "word": "deeply",
+        "ipa": "/ˈdiːp.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "sâu sắc",
+        "example_en": "I deeply regret it.",
+        "example_vi": "Tôi vô cùng hối hận.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 52,
+    "vocab": [
+      {
+        "word": "same",
+        "ipa": "/seɪm/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "giống nhau",
+        "example_en": "We have the same book.",
+        "example_vi": "Chúng tôi có cuốn sách giống nhau.",
+        "level": "A2"
+      },
+      {
+        "word": "different",
+        "ipa": "/ˈdɪf.ər.ənt/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "khác biệt",
+        "example_en": "They are different.",
+        "example_vi": "Chúng thì khác nhau.",
+        "level": "A2"
+      },
+      {
+        "word": "similar",
+        "ipa": "/ˈsɪm.ɪ.lər/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tương tự",
+        "example_en": "My bag is similar.",
+        "example_vi": "Túi của tôi tương tự thế.",
+        "level": "A2"
+      },
+      {
+        "word": "like",
+        "ipa": "/laɪk/",
+        "type": "preposition",
+        "type_short": "prep.",
+        "meaning": "như, giống như",
+        "example_en": "She looks like her mother.",
+        "example_vi": "Cô ấy trông giống mẹ.",
+        "level": "A2"
+      },
+      {
+        "word": "alike",
+        "ipa": "/əˈlaɪk/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "giống nhau",
+        "example_en": "They look alike.",
+        "example_vi": "Họ trông giống nhau.",
+        "level": "A2"
+      },
+      {
+        "word": "both",
+        "ipa": "/bəʊθ/",
+        "type": "pronoun",
+        "type_short": "pron.",
+        "meaning": "cả hai",
+        "example_en": "Both of them are tall.",
+        "example_vi": "Cả hai đều cao.",
+        "level": "A2"
+      },
+      {
+        "word": "either",
+        "ipa": "/ˈaɪ.ðər/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "hoặc cái này, hoặc cái kia",
+        "example_en": "Either you or me.",
+        "example_vi": "Hoặc bạn hoặc tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "neither",
+        "ipa": "/ˈnaɪ.ðər/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "không ai (trong hai)",
+        "example_en": "Neither of them came.",
+        "example_vi": "Cả hai đều không đến.",
+        "level": "A2"
+      },
+      {
+        "word": "nor",
+        "ipa": "/nɔːr/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "cũng không",
+        "example_en": "Neither big nor small.",
+        "example_vi": "Không to cũng không nhỏ.",
+        "level": "A2"
+      },
+      {
+        "word": "or",
+        "ipa": "/ɔːr/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "hoặc",
+        "example_en": "Tea or coffee?",
+        "example_vi": "Trà hay cà phê?",
+        "level": "A2"
+      }
+    ]
+  }
+]

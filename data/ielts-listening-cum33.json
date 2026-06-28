@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 65,
+    "listening": [
+      {
+        "title": "Listening: A great year",
+        "transcript": "I have had so many great experiences this year. I have completed my first marathon. I have also had a new opportunity at work.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What has the speaker completed?", "options": ["A book", "A marathon", "A degree"], "correct": "A marathon", "explanation": "\"I have completed my first marathon.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "listening": [
+      {
+        "title": "Listening: Experiences survey",
+        "transcript": "I have visited Da Lat twice. I have never met a famous person. I have travelled alone once.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Has the speaker ever met a famous person?", "options": ["Yes, once", "No, never", "Not given"], "correct": "No, never", "explanation": "\"I have never met a famous person.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,145 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 14,
+      "grammar": [
+        {
+          "title": "how long: bao lâu",
+          "desc": "Dùng 'how long' đứng ở đầu câu hỏi để hỏi về khoảng thời gian của một hành động hay sự việc.",
+          "formula": [
+            { "text": "How long", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "does it take", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "to learn English?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "How long does it take to get there?", "meaning": "Đi đến đó mất bao lâu?" },
+            { "correct": "How long is the maths lesson?", "meaning": "Tiết học toán kéo dài bao lâu?" },
+            { "correct": "How long did you wait?", "meaning": "Bạn đã chờ bao lâu?" }
+          ]
+        },
+        {
+          "title": "Trả lời câu hỏi với 'It takes...'",
+          "desc": "Để trả lời cho câu hỏi 'How long does it take...?', chúng ta dùng cấu trúc 'It takes + thời gian'.",
+          "formula": [
+            { "text": "It takes", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "two hours.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "It takes one hour to walk to the park.", "meaning": "Mất một giờ đồng hồ để đi bộ đến công viên." },
+            { "correct": "It took ten minutes.", "meaning": "Nó đã mất mười phút." },
+            { "correct": "It takes a long time.", "meaning": "Nó mất một khoảng thời gian dài." }
+          ]
+        },
+        {
+          "title": "for / during: trong suốt khoảng thời gian (Ôn tập)",
+          "desc": "Dùng 'for' cộng với một con số cụ thể (for 2 days). Dùng 'during' cộng với một sự kiện (during the lesson).",
+          "formula": [
+            { "text": "for", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "vs.", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "during", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "We stayed there for three weeks.", "meaning": "Chúng tôi đã ở đó trong 3 tuần." },
+            { "correct": "Please be quiet during the test.", "meaning": "Làm ơn hãy giữ im lặng trong suốt bài kiểm tra." },
+            { "correct": "I slept during the journey.", "meaning": "Tớ đã ngủ trong suốt chuyến đi." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A long test",
+          "lines": [
+            { "speaker": "A", "en": "Our maths test is today.", "vi": "Bài kiểm tra toán của chúng ta là vào hôm nay." },
+            { "speaker": "B", "en": "How long is the test?", "vi": "Bài kiểm tra kéo dài bao lâu vậy?" },
+            { "speaker": "A", "en": "It takes exactly forty-five minutes.", "vi": "Nó mất chính xác bốn mươi lăm phút." },
+            { "speaker": "B", "en": "We must not talk during the test.", "vi": "Chúng ta không được nói chuyện trong suốt bài kiểm tra." },
+            { "speaker": "A", "en": "I know. Have you got your pen?", "vi": "Tớ biết rồi. Cậu đã có bút chưa?" },
+            { "speaker": "B", "en": "Yes, I am ready.", "vi": "Có, tớ đã sẵn sàng." }
+          ]
+        },
+        {
+          "title": "Going on a trip",
+          "lines": [
+            { "speaker": "A", "en": "We are going to the museum tomorrow.", "vi": "Ngày mai chúng ta sẽ đi đến viện bảo tàng." },
+            { "speaker": "B", "en": "How long does it take to get there?", "vi": "Đi đến đó mất bao lâu vậy?" },
+            { "speaker": "A", "en": "It takes about one hour by bus.", "vi": "Mất khoảng một giờ đi bằng xe buýt." },
+            { "speaker": "B", "en": "That's a long journey.", "vi": "Đó là một chuyến đi dài đấy." },
+            { "speaker": "A", "en": "Yes, we can sleep for half an hour.", "vi": "Ừ, chúng ta có thể ngủ trong vòng nửa giờ." },
+            { "speaker": "B", "en": "Good idea! I usually sleep during bus trips.", "vi": "Ý hay đấy! Tớ thường ngủ trong suốt các chuyến đi bằng xe buýt." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 15,
+      "grammar": [
+        {
+          "title": "Mệnh đề quan hệ: which / that (thay thế cho vật/động vật)",
+          "desc": "Dùng từ 'which' hoặc 'that' (cái mà, con mà) đứng ngay sau một danh từ chỉ vật hoặc động vật để bổ sung thông tin giải thích rõ cho nó.",
+          "formula": [
+            { "text": "This is a creature", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "which / that", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "lives in water.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "A shark is an animal which lives in the sea.", "meaning": "Cá mập là một loài động vật sống ở biển." },
+            { "correct": "I have a book that tells about dinosaurs.", "meaning": "Tôi có một quyển sách nói về khủng long." },
+            { "correct": "The butterfly which is on the flower is beautiful.", "meaning": "Con bướm đang ở trên bông hoa thì rất đẹp." }
+          ]
+        },
+        {
+          "title": "Mệnh đề quan hệ đóng vai trò tân ngữ",
+          "desc": "Đôi khi 'which' hoặc 'that' làm tân ngữ (người ta tác động lên nó). Bạn có thể lược bỏ 'which/that' trong trường hợp này.",
+          "formula": [
+            { "text": "The dog", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "(which)", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "I bought is cute.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The tortoise which I have is very slow.", "meaning": "Con rùa mà tớ có thì rất chậm chạp." },
+            { "correct": "The insect that you saw was a beetle.", "meaning": "Côn trùng mà bạn đã nhìn thấy là một con bọ cánh cứng." },
+            { "correct": "This is the camel that we rode yesterday.", "meaning": "Đây là con lạc đà mà chúng ta đã cưỡi ngày hôm qua." }
+          ]
+        },
+        {
+          "title": "Bị động: be made of / covered with (Ôn tập)",
+          "desc": "Sử dụng cấu trúc bị động để miêu tả các loài vật (ví dụ: được bao phủ bởi lông/vảy).",
+          "formula": [
+            { "text": "A bird is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "covered with", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "feathers.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "A bear is covered with thick fur.", "meaning": "Một con gấu được bao phủ bởi lớp lông dày." },
+            { "correct": "Its house is made of branches.", "meaning": "Ngôi nhà của nó được làm bằng những cành cây." },
+            { "correct": "The fish is covered with scales.", "meaning": "Con cá được bao phủ bởi lớp vảy." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Guess the animal",
+          "lines": [
+            { "speaker": "A", "en": "Let's play a game. Guess the animal!", "vi": "Hãy chơi một trò chơi. Hãy đoán tên con vật!" },
+            { "speaker": "B", "en": "Okay. Tell me about it.", "vi": "Được thôi. Hãy nói cho tớ biết về nó đi." },
+            { "speaker": "A", "en": "It is a wild animal which lives in the jungle.", "vi": "Nó là một loài động vật hoang dã sống ở trong rừng nhiệt đới." },
+            { "speaker": "B", "en": "Is it an animal that eats meat?", "vi": "Nó có phải là loài động vật ăn thịt không?" },
+            { "speaker": "A", "en": "Yes! And its body is covered with striped fur.", "vi": "Đúng! Và cơ thể của nó được bao phủ bởi lớp lông kẻ sọc." },
+            { "speaker": "B", "en": "Ah, I know. It's a tiger!", "vi": "A, tớ biết rồi. Đó là một con hổ!" }
+          ]
+        },
+        {
+          "title": "At the zoo",
+          "lines": [
+            { "speaker": "A", "en": "Look at that strange creature.", "vi": "Hãy nhìn sinh vật kỳ lạ kia kìa." },
+            { "speaker": "B", "en": "Which one?", "vi": "Con nào cơ?" },
+            { "speaker": "A", "en": "The creature which is sleeping on the rock.", "vi": "Cái sinh vật đang ngủ trên tảng đá ấy." },
+            { "speaker": "B", "en": "Oh, that is an iguana. It looks like a dinosaur.", "vi": "Ồ, đó là một con cự đà. Trông nó giống như một con khủng long vậy." },
+            { "speaker": "A", "en": "Is it an insect?", "vi": "Nó có phải là côn trùng không?" },
+            { "speaker": "B", "en": "No, it's a reptile which eats leaves.", "vi": "Không, nó là một loài bò sát ăn lá cây." }
+          ]
+        }
+      ]
+    }
+  ]
+}

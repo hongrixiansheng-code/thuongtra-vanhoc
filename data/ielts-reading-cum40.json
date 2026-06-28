@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 79,
+    "reading": [
+      {
+        "title": "Reading: Life used to be different",
+        "passage": "I used to play football every weekend when I was young. I used to live in the countryside. We didn't use to have a car back then. I used to walk to school for thirty minutes every day. We no longer live like that nowadays.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer used to have a car.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"We didn't use to have a car back then.\"" },
+          { "type": "multiple_choice", "question": "How did the writer use to get to school?", "options": ["By bus", "By car", "On foot"], "correct": "On foot", "explanation": "\"I used to walk to school for thirty minutes every day.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "reading": [
+      {
+        "title": "Reading: What did they say?",
+        "passage": "Mai said that she was tired yesterday. He told me that he worked at a big company. She claimed that the result was correct. The manager announced that the meeting would start at nine.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Mai said that she was tired.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu đầu nêu rõ điều này." },
+          { "type": "multiple_choice", "question": "What did the manager announce?", "options": ["A new policy", "The meeting time", "A holiday"], "correct": "The meeting time", "explanation": "\"The manager announced that the meeting would start at nine.\"" }
+        ]
+      }
+    ]
+  }
+]

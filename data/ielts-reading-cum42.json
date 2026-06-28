@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 83,
+    "reading": [
+      {
+        "title": "Reading: Public notice",
+        "passage": "Smoking is forbidden in this building. This form must be completed before Friday. An ID is required for all visitors. Helmets are required for all motorbike riders, and recycling is encouraged in this city.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Smoking is allowed in this building.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"Smoking is forbidden in this building.\"" },
+          { "type": "multiple_choice", "question": "What is required for all visitors?", "options": ["A ticket", "An ID", "A form"], "correct": "An ID", "explanation": "\"An ID is required for all visitors.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 84,
+    "reading": [
+      {
+        "title": "Reading: Survey results",
+        "passage": "A large number of students passed the exam this year. The vast majority of people agree with this policy. About half of the population lives in urban areas. However, only a minority of people think the new plan was a good idea.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Most people agree with the policy.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"The vast majority of people agree with this policy.\"" },
+          { "type": "multiple_choice", "question": "What proportion of the population lives in urban areas?", "options": ["A quarter", "About half", "The vast majority"], "correct": "About half", "explanation": "\"About half of the population lives in urban areas.\"" }
+        ]
+      }
+    ]
+  }
+]

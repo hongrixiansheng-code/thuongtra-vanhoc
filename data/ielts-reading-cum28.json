@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 55,
+    "reading": [
+      {
+        "title": "Reading: Review — The future of the city",
+        "passage": "The population is going to grow quickly. The city will probably be the busiest city in the region, but maybe not as crowded as the capital. Many people are planning to move to the suburbs because they are quieter and more peaceful than the city centre.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The city will be as crowded as the capital.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"maybe not as crowded as the capital\"." },
+          { "type": "multiple_choice", "question": "Why are people moving to the suburbs?", "options": ["They are cheaper", "They are quieter and more peaceful", "They are closer to work"], "correct": "They are quieter and more peaceful", "explanation": "\"because they are quieter and more peaceful than the city centre.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 56,
+    "reading": [
+      {
+        "title": "Reading: Traffic and office rules",
+        "passage": "You must wear a helmet on a motorbike, and you mustn't ride without one. Drivers must stop at a red light, and they mustn't use their phone while driving. At the office, employees must arrive on time, and they mustn't smoke inside the building.",
+        "questions": [
+          { "type": "true_false_ng", "question": "It is forbidden to ride a motorbike without a helmet.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"you mustn't ride without one.\"" },
+          { "type": "true_false_ng", "question": "Drivers can use their phone while driving.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"they mustn't use their phone while driving.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 85,
+    "reading": [
+      {
+        "title": "Reading: A balanced argument",
+        "passage": "Some people support online learning because it saves time. Moreover, it is flexible. Nevertheless, many students argue that they learn better in person. In contrast, some people oppose any change at all. As a result, schools usually offer both options nowadays.",
+        "questions": [
+          { "type": "true_false_ng", "question": "All students prefer online learning.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"many students argue that they learn better in person.\"" },
+          { "type": "multiple_choice", "question": "What do schools usually do now?", "options": ["Only offer online classes", "Only offer traditional classes", "Offer both options"], "correct": "Offer both options", "explanation": "\"As a result, schools usually offer both options nowadays.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 86,
+    "reading": [
+      {
+        "title": "Reading: Technology in education and work",
+        "passage": "Technology has changed education a lot in recent years. A large number of students now use laptops in class. Many jobs will require digital skills in the future. A great deal of training is needed for this kind of job, and these skills will become even more valuable later.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Many students now use laptops in class.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"A large number of students now use laptops in class.\"" },
+          { "type": "multiple_choice", "question": "What will many future jobs require?", "options": ["Physical strength", "Digital skills", "Foreign languages"], "correct": "Digital skills", "explanation": "\"Many jobs will require digital skills in the future.\"" }
+        ]
+      }
+    ]
+  }
+]

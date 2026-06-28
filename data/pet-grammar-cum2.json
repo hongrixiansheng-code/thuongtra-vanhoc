@@ -1,0 +1,190 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 2,
+      "grammar": [
+        {
+          "title": "-ed vs -ing adjectives",
+          "desc": "Tính từ đuôi -ing miêu tả tính chất của sự vật/sự việc gây ra cảm xúc. Tính từ đuôi -ed miêu tả cảm xúc của người bị tác động.",
+          "formula": [
+            {
+              "text": "N(vật) + be + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "S(người) + be/feel + V-ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The movie was boring, so I was bored.",
+              "meaning": "Bộ phim thật tẻ nhạt, nên tôi cảm thấy chán."
+            },
+            {
+              "correct": "This game is exciting. I am excited.",
+              "meaning": "Trò chơi này thật thú vị. Tôi rất hào hứng."
+            },
+            {
+              "correct": "The journey was exhausting.",
+              "meaning": "Chuyến đi thật mệt mỏi (rút cạn sức lực)."
+            },
+            {
+              "correct": "I felt exhausted after work.",
+              "meaning": "Tôi cảm thấy kiệt sức sau giờ làm."
+            }
+          ]
+        },
+        {
+          "title": "so + adj + that",
+          "desc": "Cấu trúc diễn tả 'quá... đến nỗi mà...'.",
+          "formula": [
+            {
+              "text": "S + be/V + so + Adj/Adv + that + S + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I was so tired that I fell asleep.",
+              "meaning": "Tôi quá mệt đến nỗi tôi ngủ thiếp đi."
+            },
+            {
+              "correct": "It was so cold that we stayed inside.",
+              "meaning": "Trời quá lạnh đến nỗi chúng tôi phải ở trong nhà."
+            },
+            {
+              "correct": "The test was so difficult that everyone failed.",
+              "meaning": "Bài kiểm tra quá khó đến nỗi mọi người đều rớt."
+            },
+            {
+              "correct": "She was so happy that she cried.",
+              "meaning": "Cô ấy quá hạnh phúc đến nỗi bật khóc."
+            }
+          ]
+        },
+        {
+          "title": "Question Tags với cảm xúc",
+          "desc": "Dùng câu hỏi đuôi để xác nhận lại cảm giác, trạng thái của ai đó.",
+          "formula": [
+            {
+              "text": "Khẳng định, + phủ định?",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "Phủ định, + khẳng định?",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She's upset, isn't she?",
+              "meaning": "Cô ấy đang buồn, phải không?"
+            },
+            {
+              "correct": "You are feeling better, aren't you?",
+              "meaning": "Bạn đang cảm thấy tốt hơn rồi, đúng không?"
+            },
+            {
+              "correct": "They aren't angry, are they?",
+              "meaning": "Họ không tức giận đâu, phải không?"
+            },
+            {
+              "correct": "He looks happy, doesn't he?",
+              "meaning": "Anh ấy trông có vẻ hạnh phúc, phải không?"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "grammar": [
+        {
+          "title": "Gerund làm chủ ngữ",
+          "desc": "Động từ thêm -ing có thể đóng vai trò làm chủ ngữ trong câu, chia động từ số ít.",
+          "formula": [
+            {
+              "text": "V-ing + be/V(số ít) + ...",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Reading is important.",
+              "meaning": "Việc đọc sách là quan trọng."
+            },
+            {
+              "correct": "Writing essays takes time.",
+              "meaning": "Việc viết tiểu luận tốn nhiều thời gian."
+            },
+            {
+              "correct": "Learning a new language is fun.",
+              "meaning": "Học một ngôn ngữ mới rất thú vị."
+            },
+            {
+              "correct": "Swimming is good for your health.",
+              "meaning": "Bơi lội rất tốt cho sức khỏe của bạn."
+            }
+          ]
+        },
+        {
+          "title": "It is + adj + to-infinitive",
+          "desc": "Cấu trúc chủ ngữ giả để đưa ra nhận định về một hành động.",
+          "formula": [
+            {
+              "text": "It + is + Adj + (for sb) + to-V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It is important to read every day.",
+              "meaning": "Việc đọc sách mỗi ngày là rất quan trọng."
+            },
+            {
+              "correct": "It is difficult to learn Chinese.",
+              "meaning": "Học tiếng Trung rất khó."
+            },
+            {
+              "correct": "It is necessary to sleep early.",
+              "meaning": "Việc ngủ sớm là rất cần thiết."
+            },
+            {
+              "correct": "It is easy to make mistakes.",
+              "meaning": "Mắc sai lầm thì rất dễ."
+            }
+          ]
+        },
+        {
+          "title": "enjoy/avoid/suggest/recommend + V-ing",
+          "desc": "Một số động từ theo sau bắt buộc là danh động từ (V-ing).",
+          "formula": [
+            {
+              "text": "S + enjoy/avoid/suggest + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I suggest reading this book.",
+              "meaning": "Tôi đề nghị bạn nên đọc cuốn sách này."
+            },
+            {
+              "correct": "She enjoys listening to music.",
+              "meaning": "Cô ấy thích nghe nhạc."
+            },
+            {
+              "correct": "We should avoid eating too much sugar.",
+              "meaning": "Chúng ta nên tránh ăn quá nhiều đường."
+            },
+            {
+              "correct": "He recommended visiting the museum.",
+              "meaning": "Anh ấy khuyên nên đi thăm viện bảo tàng."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

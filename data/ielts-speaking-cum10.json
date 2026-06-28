@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 19,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Your morning routine",
+        "part": 1,
+        "questions": ["What time do you wake up?", "What do you do after you wake up?", "Do you eat breakfast at home?"],
+        "sampleAnswer": "I wake up at six o'clock. I brush my teeth, then I take a shower and get dressed. Yes, I eat breakfast at home every day."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 20,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Housework",
+        "part": 1,
+        "questions": ["Who does the housework in your family?", "Do you clean your room?", "How often do you cook?"],
+        "sampleAnswer": "My mother cleans the house and cooks. I clean my own room every weekend. I cook about twice a week."
+      }
+    ]
+  }
+]

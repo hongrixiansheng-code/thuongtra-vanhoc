@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 24,
+      "dialogues": [
+        {
+          "title": "Discussing moving to a new city",
+          "lines": [
+            {
+              "speaker": "Tom",
+              "en": "I got a job offer in London yesterday; therefore, I am thinking about moving there. Although it is a big decision, I feel very excited about the opportunity.",
+              "vi": "Hôm qua tôi nhận được một lời mời làm việc ở London; do đó, tôi đang nghĩ về việc chuyển đến đó. Mặc dù đó là một quyết định lớn, tôi cảm thấy rất hào hứng về cơ hội này."
+            },
+            {
+              "speaker": "Emma",
+              "en": "London is a fantastic city, in spite of the expensive living costs. You will meet many interesting people who work in the same industry.",
+              "vi": "London là một thành phố tuyệt vời, mặc dù chi phí sinh hoạt đắt đỏ. Bạn sẽ gặp gỡ nhiều người thú vị những người làm việc trong cùng ngành."
+            },
+            {
+              "speaker": "Tom",
+              "en": "I have to find an apartment quickly, even though I don't know the neighborhoods well. Furthermore, I need to pack all my belongings before the end of the month.",
+              "vi": "Tôi phải tìm một căn hộ nhanh chóng, mặc dù tôi không rành về các khu dân cư. Hơn nữa, tôi cần đóng gói tất cả đồ đạc của mình trước cuối tháng."
+            },
+            {
+              "speaker": "Emma",
+              "en": "You should hire a moving company so that you don't stress yourself out. In addition, you can ask your new company for some relocation advice.",
+              "vi": "Bạn nên thuê một công ty chuyển nhà để bạn không làm bản thân căng thẳng. Ngoài ra, bạn có thể hỏi công ty mới của bạn xin vài lời khuyên về việc tái định cư."
+            },
+            {
+              "speaker": "Tom",
+              "en": "That is a good idea. However, I am worried about leaving my friends and family behind. It will be lonely until I make new friends.",
+              "vi": "Đó là một ý tưởng hay. Tuy nhiên, tôi lo lắng về việc bỏ lại bạn bè và gia đình phía sau. Sẽ rất cô đơn cho đến khi tôi kết bạn mới."
+            },
+            {
+              "speaker": "Emma",
+              "en": "We can always video call each other, despite the distance between us. Moreover, you can visit us during the holidays when you have free time.",
+              "vi": "Chúng ta luôn có thể gọi video cho nhau, bất chấp khoảng cách giữa chúng ta. Hơn nữa, bạn có thể về thăm chúng tôi trong các kỳ nghỉ khi bạn có thời gian rảnh."
+            },
+            {
+              "speaker": "Tom",
+              "en": "As a result of your encouragement, I feel much more confident now. Therefore, I will accept the offer and start preparing for the big move.",
+              "vi": "Nhờ vào sự động viên của bạn, bây giờ tôi cảm thấy tự tin hơn nhiều. Do đó, tôi sẽ chấp nhận lời mời và bắt đầu chuẩn bị cho đợt chuyển nhà lớn."
+            },
+            {
+              "speaker": "Emma",
+              "en": "I am so proud of you, and I will help you pack your bags this weekend. Let's celebrate your success by having dinner at your favorite restaurant tonight.",
+              "vi": "Tôi rất tự hào về bạn, và tôi sẽ giúp bạn đóng gói hành lý vào cuối tuần này. Hãy ăn mừng thành công của bạn bằng cách ăn tối tại nhà hàng yêu thích của bạn tối nay."
+            }
+          ]
+        },
+        {
+          "title": "Evaluating a presentation",
+          "lines": [
+            {
+              "speaker": "Manager",
+              "en": "Your presentation was very informative; however, it was a bit too long for the audience. Furthermore, some of the charts were difficult to read.",
+              "vi": "Bài thuyết trình của bạn rất nhiều thông tin; tuy nhiên, nó hơi quá dài so với khán giả. Hơn nữa, một số biểu đồ khá khó đọc."
+            },
+            {
+              "speaker": "Employee",
+              "en": "I apologize for that, although I tried my best to summarize the main points. In addition, I will use larger fonts for the graphics next time.",
+              "vi": "Tôi xin lỗi về điều đó, mặc dù tôi đã cố gắng hết sức để tóm tắt những điểm chính. Ngoài ra, tôi sẽ sử dụng phông chữ lớn hơn cho các đồ họa vào lần tới."
+            },
+            {
+              "speaker": "Manager",
+              "en": "In spite of those minor issues, your confidence on stage was impressive. Therefore, the clients were genuinely interested in our new software product.",
+              "vi": "Mặc dù có những vấn đề nhỏ đó, sự tự tin của bạn trên sân khấu rất ấn tượng. Do đó, các khách hàng đã thực sự quan tâm đến sản phẩm phần mềm mới của chúng ta."
+            },
+            {
+              "speaker": "Employee",
+              "en": "I practiced speaking in front of a mirror, so that I wouldn't stutter during the speech. Moreover, I anticipated their questions and prepared the answers carefully.",
+              "vi": "Tôi đã luyện tập nói trước gương, để tôi không bị nói lắp trong suốt bài phát biểu. Hơn thế nữa, tôi đã đoán trước các câu hỏi của họ và chuẩn bị các câu trả lời cẩn thận."
+            },
+            {
+              "speaker": "Manager",
+              "en": "Your preparation definitely paid off. As a result, we have secured a very profitable contract which will boost our revenue significantly.",
+              "vi": "Sự chuẩn bị của bạn chắc chắn đã được đền đáp. Kết quả là, chúng ta đã đảm bảo được một hợp đồng rất béo bở cái mà sẽ thúc đẩy doanh thu của chúng ta đáng kể."
+            },
+            {
+              "speaker": "Employee",
+              "en": "That is wonderful news, even though the negotiation process was quite challenging. We achieved our goal despite the tough competition from other companies.",
+              "vi": "Đó là một tin tuyệt vời, mặc dù quá trình đàm phán khá là thử thách. Chúng ta đã đạt được mục tiêu bất chấp sự cạnh tranh gay gắt từ các công ty khác."
+            },
+            {
+              "speaker": "Manager",
+              "en": "I want you to lead the implementation phase; therefore, you will need to organize a team meeting soon. Furthermore, you will report directly to me every week.",
+              "vi": "Tôi muốn bạn dẫn dắt giai đoạn triển khai; do đó, bạn sẽ cần tổ chức một cuộc họp nhóm sớm. Hơn nữa, bạn sẽ báo cáo trực tiếp cho tôi mỗi tuần."
+            },
+            {
+              "speaker": "Employee",
+              "en": "I am ready for the responsibility, and I will draft an action plan today. Thank you for giving me this fantastic opportunity to prove myself.",
+              "vi": "Tôi đã sẵn sàng cho trách nhiệm này, và tôi sẽ phác thảo một kế hoạch hành động hôm nay. Cảm ơn ông đã cho tôi cơ hội tuyệt vời này để chứng tỏ bản thân."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "dialogues": [
+        {
+          "title": "Solving computer issues",
+          "lines": [
+            {
+              "speaker": "David",
+              "en": "My computer suddenly broke down this morning, and I lost all my files. I need to figure out what went wrong before my boss finds out.",
+              "vi": "Máy tính của tôi đột nhiên hỏng sáng nay, và tôi đã mất tất cả các tệp của mình. Tôi cần tìm ra chuyện gì đã xảy ra trước khi sếp tôi phát hiện ra."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "Did you try to turn it off and turn it on again? Sometimes a simple restart can sort out technical glitches.",
+              "vi": "Bạn đã thử tắt nó đi và bật lại chưa? Đôi khi một thao tác khởi động lại đơn giản có thể giải quyết các trục trặc kỹ thuật."
+            },
+            {
+              "speaker": "David",
+              "en": "I tried that, but it didn't work. I am looking for a reliable technician who can back up my important data.",
+              "vi": "Tôi đã thử rồi, nhưng không hiệu quả. Tôi đang tìm kiếm một kỹ thuật viên đáng tin cậy người có thể sao lưu dữ liệu quan trọng của tôi."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "You shouldn't put off fixing it because the hard drive might be permanently damaged. I will look up the number of a good repair shop.",
+              "vi": "Bạn không nên trì hoãn việc sửa chữa nó vì ổ cứng có thể bị hư hỏng vĩnh viễn. Tôi sẽ tra cứu số điện thoại của một cửa hàng sửa chữa tốt."
+            },
+            {
+              "speaker": "David",
+              "en": "Thank you, I really appreciate it. I was trying to carry out an update when the screen went completely black.",
+              "vi": "Cảm ơn bạn, tôi thực sự trân trọng điều đó. Tôi đang cố gắng thực hiện một bản cập nhật thì màn hình trở nên đen kịt."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "I found the number, so you can write it down now. You should set off immediately so that they can examine the machine today.",
+              "vi": "Tôi đã tìm thấy số rồi, vậy bạn có thể ghi chú nó xuống bây giờ. Bạn nên khởi hành ngay lập tức để họ có thể kiểm tra máy móc trong hôm nay."
+            },
+            {
+              "speaker": "David",
+              "en": "I will take off right away, and I hope they won't rip me off. Repairing computers can sometimes cost a fortune.",
+              "vi": "Tôi sẽ rời đi ngay bây giờ, và tôi hy vọng họ sẽ không chặt chém tôi. Việc sửa chữa máy tính đôi khi có thể tốn cả một gia tài."
+            },
+            {
+              "speaker": "Chloe",
+              "en": "Don't worry, this shop has great reviews, and they will sort it out quickly. Give me a call when you find out the problem.",
+              "vi": "Đừng lo, cửa hàng này có những đánh giá rất tốt, và họ sẽ giải quyết nó nhanh chóng. Hãy gọi cho tôi khi bạn tìm ra vấn đề."
+            }
+          ]
+        },
+        {
+          "title": "Cleaning up the house",
+          "lines": [
+            {
+              "speaker": "Mom",
+              "en": "Your bedroom is a complete mess, and you need to tidy it up immediately. Please pick up those dirty clothes which are lying on the floor.",
+              "vi": "Phòng ngủ của con là một mớ hỗn độn hoàn toàn, và con cần dọn dẹp nó ngay lập tức. Làm ơn nhặt những bộ quần áo bẩn đang nằm trên sàn nhà lên."
+            },
+            {
+              "speaker": "Son",
+              "en": "I will clean it up right now, Mom. I was just looking for my favorite jacket, but I couldn't find it anywhere.",
+              "vi": "Con sẽ dọn dẹp nó ngay bây giờ, mẹ. Con chỉ đang tìm kiếm chiếc áo khoác yêu thích của mình, nhưng con không thể tìm thấy nó ở đâu cả."
+            },
+            {
+              "speaker": "Mom",
+              "en": "You should throw away the old magazines which you no longer read. They just take up too much valuable space on your desk.",
+              "vi": "Con nên vứt bỏ những cuốn tạp chí cũ những thứ con không còn đọc nữa. Chúng chỉ chiếm quá nhiều không gian quý giá trên bàn của con."
+            },
+            {
+              "speaker": "Son",
+              "en": "I will put them in the recycling bin later. Can I keep the comic books which I bought last summer?",
+              "vi": "Lát nữa con sẽ bỏ chúng vào thùng tái chế. Con có thể giữ lại những cuốn truyện tranh những cuốn con đã mua vào mùa hè năm ngoái không?"
+            },
+            {
+              "speaker": "Mom",
+              "en": "Yes, but you must put them away neatly on the bookshelf. You also need to take out the garbage before the truck comes.",
+              "vi": "Được, nhưng con phải cất chúng đi gọn gàng trên giá sách. Con cũng cần mang rác ra ngoài trước khi xe tải đến."
+            },
+            {
+              "speaker": "Son",
+              "en": "I will do that as soon as I finish organizing my shoes. I am trying to figure out how to arrange them properly.",
+              "vi": "Con sẽ làm việc đó ngay khi con hoàn thành việc sắp xếp giày của mình. Con đang cố gắng tìm ra cách sắp xếp chúng một cách hợp lý."
+            },
+            {
+              "speaker": "Mom",
+              "en": "Don't put off your chores until the evening, because we are going out for dinner. We need to set off by six o'clock sharp.",
+              "vi": "Đừng trì hoãn công việc nhà của con cho đến tối, bởi vì chúng ta sẽ ra ngoài ăn tối. Chúng ta cần khởi hành đúng lúc sáu giờ."
+            },
+            {
+              "speaker": "Son",
+              "en": "I promise I will wrap everything up in thirty minutes. Then I will go take a shower so that I am ready to go.",
+              "vi": "Con hứa con sẽ hoàn tất mọi thứ trong ba mươi phút. Sau đó con sẽ đi tắm để sẵn sàng đi."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

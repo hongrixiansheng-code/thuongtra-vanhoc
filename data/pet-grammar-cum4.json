@@ -1,0 +1,190 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 6,
+      "grammar": [
+        {
+          "title": "work as vs work for",
+          "desc": "Work as đi kèm với nghề nghiệp. Work for đi kèm với tên công ty hoặc người chủ.",
+          "formula": [
+            {
+              "text": "work as + Nghề nghiệp",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "work for + Tổ chức/Người",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "She works as a lawyer.",
+              "meaning": "Cô ấy làm nghề luật sư."
+            },
+            {
+              "correct": "He works for a big company.",
+              "meaning": "Anh ấy làm việc cho một công ty lớn."
+            },
+            {
+              "correct": "I work as a teacher.",
+              "meaning": "Tôi làm giáo viên."
+            },
+            {
+              "correct": "They work for the government.",
+              "meaning": "Họ làm việc cho chính phủ."
+            }
+          ]
+        },
+        {
+          "title": "Mệnh đề quan hệ whose",
+          "desc": "Đại từ quan hệ dùng để chỉ sự sở hữu cho người hoặc vật.",
+          "formula": [
+            {
+              "text": "Noun + whose + Noun + V",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "He is an architect whose designs are famous.",
+              "meaning": "Ông ấy là một kiến trúc sư có thiết kế rất nổi tiếng."
+            },
+            {
+              "correct": "The girl whose dog is barking is my sister.",
+              "meaning": "Cô gái có con chó đang sủa là chị tôi."
+            },
+            {
+              "correct": "I met a man whose car was stolen.",
+              "meaning": "Tôi đã gặp một người đàn ông có chiếc xe bị mất cắp."
+            },
+            {
+              "correct": "That's the student whose grades are the highest.",
+              "meaning": "Đó là học sinh có điểm số cao nhất."
+            }
+          ]
+        },
+        {
+          "title": "Bị động trong mô tả công việc",
+          "desc": "Sử dụng câu bị động để nhấn mạnh vào công việc được hoàn thành thay vì người làm.",
+          "formula": [
+            {
+              "text": "O + be + V3/ed + (by S)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Reports are written by the editor.",
+              "meaning": "Các bản báo cáo được viết bởi biên tập viên."
+            },
+            {
+              "correct": "Emails are sent every morning.",
+              "meaning": "Email được gửi đi vào mỗi buổi sáng."
+            },
+            {
+              "correct": "The website is updated daily.",
+              "meaning": "Trang web được cập nhật hàng ngày."
+            },
+            {
+              "correct": "Meetings are organized by the manager.",
+              "meaning": "Các cuộc họp được tổ chức bởi người quản lý."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "grammar": [
+        {
+          "title": "not only ... but also",
+          "desc": "Cấu trúc tương quan mang nghĩa: Không những... mà còn...",
+          "formula": [
+            {
+              "text": "not only + A + but also + B",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Not only is it expensive, but it also takes too long.",
+              "meaning": "Nó không những đắt đỏ, mà còn tốn quá nhiều thời gian."
+            },
+            {
+              "correct": "She is not only smart but also hardworking.",
+              "meaning": "Cô ấy không chỉ thông minh mà còn chăm chỉ."
+            },
+            {
+              "correct": "He speaks not only English but also French.",
+              "meaning": "Anh ấy nói không những tiếng Anh mà còn tiếng Pháp."
+            },
+            {
+              "correct": "Not only did he fail, but he also lost his job.",
+              "meaning": "Anh ta không chỉ thất bại, mà còn mất việc."
+            }
+          ]
+        },
+        {
+          "title": "both ... and / neither ... nor",
+          "desc": "Both... and (Cả hai). Neither... nor (Không cái nào trong hai cái).",
+          "formula": [
+            {
+              "text": "both A and B",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "neither A nor B",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "Both the government and the community are responsible.",
+              "meaning": "Cả chính phủ và cộng đồng đều có trách nhiệm."
+            },
+            {
+              "correct": "Neither my mother nor my father is at home.",
+              "meaning": "Cả mẹ và bố tôi đều không có ở nhà."
+            },
+            {
+              "correct": "I like both tea and coffee.",
+              "meaning": "Tôi thích cả trà và cà phê."
+            },
+            {
+              "correct": "Neither of the answers is correct.",
+              "meaning": "Không có câu trả lời nào trong cả hai là đúng."
+            }
+          ]
+        },
+        {
+          "title": "should / ought to",
+          "desc": "Dùng để đưa ra lời khuyên hoặc nói về bổn phận xã hội.",
+          "formula": [
+            {
+              "text": "should / ought to + V(nguyên thể)",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "People should recycle more.",
+              "meaning": "Mọi người nên tái chế nhiều hơn."
+            },
+            {
+              "correct": "You ought to see a doctor.",
+              "meaning": "Bạn nên đi gặp bác sĩ."
+            },
+            {
+              "correct": "We shouldn't waste water.",
+              "meaning": "Chúng ta không nên lãng phí nước."
+            },
+            {
+              "correct": "Children ought to go to bed early.",
+              "meaning": "Trẻ em nên đi ngủ sớm."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 6,
+      "grammar": [
+        {
+          "title": "be made of + chất liệu: được làm bằng...",
+          "desc": "Dùng cấu trúc bị động 'be made of' để nói một vật nào đó được tạo ra từ chất liệu gì.",
+          "formula": [
+            { "text": "This ring", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is made of", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "gold.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "The window is made of glass.", "meaning": "Chiếc cửa sổ được làm bằng thủy tinh." },
+            { "correct": "My shoes are made of leather.", "meaning": "Đôi giày của tôi được làm bằng da." },
+            { "correct": "This box is made of wood.", "meaning": "Chiếc hộp này được làm bằng gỗ." }
+          ]
+        },
+        {
+          "title": "It's made of... (Câu trả lời ngắn)",
+          "desc": "Khi được hỏi về chất liệu, bạn có thể trả lời ngắn gọn bằng 'It's made of...' (hoặc 'They're made of...').",
+          "formula": [
+            { "text": "It is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "made of", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "silver.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "It is made of plastic.", "meaning": "Nó được làm bằng nhựa." },
+            { "correct": "They are made of wool.", "meaning": "Chúng được làm bằng len." },
+            { "correct": "It is made of metal.", "meaning": "Nó được làm bằng kim loại." }
+          ]
+        },
+        {
+          "title": "have got + quần áo (Ôn tập)",
+          "desc": "Dùng 'have got' để nói về những bộ quần áo hoặc phụ kiện mà bạn đang sở hữu.",
+          "formula": [
+            { "text": "She", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "has got", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "a new dress.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have got a warm sweater.", "meaning": "Tớ có một chiếc áo len ấm áp." },
+            { "correct": "He has got a black belt.", "meaning": "Cậu ấy có một chiếc thắt lưng màu đen." },
+            { "correct": "They have got new uniforms.", "meaning": "Họ có những bộ đồng phục mới." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A beautiful ring",
+          "lines": [
+            { "speaker": "A", "en": "Look at this beautiful ring.", "vi": "Hãy nhìn chiếc nhẫn tuyệt đẹp này." },
+            { "speaker": "B", "en": "Wow, is it made of silver?", "vi": "Chà, nó được làm bằng bạc phải không?" },
+            { "speaker": "A", "en": "No, it is made of gold.", "vi": "Không, nó được làm bằng vàng." },
+            { "speaker": "B", "en": "I have got a silver necklace.", "vi": "Tớ có một chiếc vòng cổ bằng bạc." },
+            { "speaker": "A", "en": "That's nice! I like silver too.", "vi": "Tuyệt quá! Tớ cũng thích bạc." },
+            { "speaker": "B", "en": "Yes, but gold is very expensive.", "vi": "Đúng vậy, nhưng vàng thì rất đắt." }
+          ]
+        },
+        {
+          "title": "Winter clothes",
+          "lines": [
+            { "speaker": "A", "en": "It is very cold today.", "vi": "Hôm nay trời rất lạnh." },
+            { "speaker": "B", "en": "I have got some warm gloves.", "vi": "Tớ có vài đôi găng tay ấm." },
+            { "speaker": "A", "en": "Are they made of wool?", "vi": "Chúng có được làm bằng len không?" },
+            { "speaker": "B", "en": "Yes, they are made of wool.", "vi": "Có, chúng được làm bằng len." },
+            { "speaker": "A", "en": "I need a warm jacket.", "vi": "Tớ cần một chiếc áo khoác ấm." },
+            { "speaker": "B", "en": "You should wear your winter uniform.", "vi": "Cậu nên mặc đồng phục mùa đông của cậu vào." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "grammar": [
+        {
+          "title": "already / still / yet",
+          "desc": "'Already' (đã rồi) và 'still' (vẫn còn) thường đứng giữa câu. 'Yet' (chưa) luôn đứng ở cuối câu phủ định hoặc câu hỏi.",
+          "formula": [
+            { "text": "I have", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "already / still", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "finished.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have already cleaned my room.", "meaning": "Tớ đã dọn dẹp phòng của tớ rồi." },
+            { "correct": "He is still sleeping.", "meaning": "Cậu ấy vẫn còn đang ngủ." },
+            { "correct": "I haven't finished my homework yet.", "meaning": "Tớ vẫn chưa làm xong bài tập về nhà." }
+          ]
+        },
+        {
+          "title": "Vị trí của already, still, yet",
+          "desc": "Lưu ý vị trí: 'already' đứng trước động từ chính, 'still' đứng trước động từ chính (sau 'to be'), 'yet' đứng cuối câu.",
+          "formula": [
+            { "text": "Are you", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "ready", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "yet?", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+          ],
+          "practiceList": [
+            { "correct": "We already know the answer.", "meaning": "Chúng tôi đã biết câu trả lời rồi." },
+            { "correct": "It is still raining outside.", "meaning": "Bên ngoài trời vẫn còn đang mưa." },
+            { "correct": "Has she arrived yet?", "meaning": "Cô ấy đã đến nơi chưa?" }
+          ]
+        },
+        {
+          "title": "Tính từ chỉ họa tiết: spotted / striped",
+          "desc": "Dùng 'spotted' (có đốm/chấm bi) và 'striped' (có sọc) đứng trước danh từ để miêu tả quần áo hoặc con vật.",
+          "formula": [
+            { "text": "I like that", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "striped", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "T-shirt.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "She wears a spotted dress.", "meaning": "Cô ấy mặc một chiếc váy chấm bi." },
+            { "correct": "Zebras have striped bodies.", "meaning": "Ngựa vằn có cơ thể kẻ sọc." },
+            { "correct": "I want the striped umbrella.", "meaning": "Tôi muốn chiếc ô kẻ sọc." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Getting dressed",
+          "lines": [
+            { "speaker": "A", "en": "Have you found your shirt yet?", "vi": "Cậu đã tìm thấy áo sơ mi của cậu chưa?" },
+            { "speaker": "B", "en": "No, I am still looking for it.", "vi": "Chưa, tớ vẫn còn đang tìm nó." },
+            { "speaker": "A", "en": "Is it the spotted shirt?", "vi": "Có phải chiếc áo sơ mi chấm bi không?" },
+            { "speaker": "B", "en": "No, it's the striped one.", "vi": "Không, là chiếc áo kẻ sọc cơ." },
+            { "speaker": "A", "en": "Oh, I have already washed it.", "vi": "Ồ, tớ đã giặt nó mất rồi." },
+            { "speaker": "B", "en": "Thank you! I will wear another one.", "vi": "Cảm ơn cậu! Tớ sẽ mặc một chiếc khác." }
+          ]
+        },
+        {
+          "title": "Rainy weather",
+          "lines": [
+            { "speaker": "A", "en": "Is it still raining?", "vi": "Trời vẫn còn đang mưa à?" },
+            { "speaker": "B", "en": "Yes, the rain hasn't stopped yet.", "vi": "Ừ, mưa vẫn chưa tạnh đâu." },
+            { "speaker": "A", "en": "I already have my umbrella.", "vi": "Tớ đã mang theo ô của tớ rồi." },
+            { "speaker": "B", "en": "Is it the red spotted umbrella?", "vi": "Nó có phải là chiếc ô chấm bi màu đỏ không?" },
+            { "speaker": "A", "en": "Yes, it is! Let's go outside.", "vi": "Đúng rồi! Hãy đi ra ngoài thôi." },
+            { "speaker": "B", "en": "Wait, I haven't got my boots yet.", "vi": "Đợi đã, tớ vẫn chưa xỏ ủng vào." }
+          ]
+        }
+      ]
+    }
+  ]
+}

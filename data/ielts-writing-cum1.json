@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 1,
+    "writing": [
+      {
+        "title": "Writing Task 1: Fill in your personal form",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) introducing yourself. Include your name, age, nationality, occupation, and address.",
+        "minWords": 30,
+        "sampleAnswer": "My name is Linh. I am twenty years old. I am Vietnamese. I am a student. My address is 12 Tran Phu Street, Hanoi. My email is linh@email.com.",
+        "checklist": ["Có đủ 5 thông tin: tên, tuổi, quốc tịch, nghề nghiệp, địa chỉ", "Dùng đúng am/is/are", "Viết câu hoàn chỉnh, có dấu câu"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your family",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your family. Say who is in your family and what they are not.",
+        "minWords": 30,
+        "sampleAnswer": "This is my family. My father is a doctor and my mother is a nurse. I have one sister. We aren't a big family, but we are very happy.",
+        "checklist": ["Giới thiệu được ít nhất 2 thành viên", "Có ít nhất 1 câu phủ định với be (isn't/aren't)", "Dùng đúng have/has khi cần"]
+      }
+    ]
+  }
+]

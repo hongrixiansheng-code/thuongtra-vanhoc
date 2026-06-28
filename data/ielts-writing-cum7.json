@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 13,
+    "writing": [
+      {
+        "title": "Writing Task 1: Give instructions",
+        "taskType": "task1",
+        "prompt": "Write a short set of instructions (about 40 words) for a simple process (e.g. a recipe or a form), using imperatives (add, mix, turn, check, press).",
+        "minWords": 30,
+        "sampleAnswer": "First, add two eggs to the bowl. Mix them well. Turn on the oven. Check the cake after twenty minutes. Press the button to stop the timer.",
+        "checklist": ["Dùng câu mệnh lệnh ít nhất 3 lần", "Các bước theo đúng thứ tự (first, then...)", "Không cần chủ ngữ trong câu mệnh lệnh"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 14,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe a place",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing a place, using sensory adjectives (hot, cold, quiet, clean, comfortable...).",
+        "minWords": 30,
+        "sampleAnswer": "This café is quiet and comfortable. The room is clean, but it is a little cold. Some customers say it is too dry inside in winter.",
+        "checklist": ["Dùng ít nhất 3 tính từ cảm giác", "Tính từ đặt đúng vị trí (trước danh từ hoặc sau be)", "Mô tả rõ một địa điểm cụ thể"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 3,
+    "dialogue": [
+      {
+        "title": "Describing a friend",
+        "lines": [
+          { "speaker": "Mai", "en": "What does your friend look like?", "vi": "Bạn của bạn trông như thế nào?" },
+          { "speaker": "David", "en": "She is tall and young. Her hair is long and curly.", "vi": "Cô ấy cao và trẻ. Tóc cô ấy dài và xoăn." },
+          { "speaker": "Mai", "en": "Is she friendly?", "vi": "Cô ấy có thân thiện không?" },
+          { "speaker": "David", "en": "Yes, she is very friendly.", "vi": "Vâng, cô ấy rất thân thiện." },
+          { "speaker": "Mai", "en": "Is she young too?", "vi": "Cô ấy cũng trẻ chứ?" },
+          { "speaker": "David", "en": "Yes, she is. She is twenty-two.", "vi": "Vâng. Cô ấy hai mươi hai tuổi." }
+        ]
+      },
+      {
+        "title": "At the photo album",
+        "lines": [
+          { "speaker": "Mai", "en": "Who is this man? Is he short or tall?", "vi": "Người đàn ông này là ai? Anh ấy thấp hay cao?" },
+          { "speaker": "David", "en": "That's my uncle. He is short and a little fat.", "vi": "Đó là chú tôi. Chú ấy thấp và hơi mập." },
+          { "speaker": "Mai", "en": "He looks happy in this photo.", "vi": "Chú ấy trông vui vẻ trong tấm hình này." },
+          { "speaker": "David", "en": "Yes, he is always happy.", "vi": "Vâng, chú ấy luôn vui vẻ." },
+          { "speaker": "Mai", "en": "And who is this woman next to him?", "vi": "Và người phụ nữ cạnh chú ấy là ai?" },
+          { "speaker": "David", "en": "That's his wife. She is tall and thin.", "vi": "Đó là vợ chú ấy. Cô ấy cao và mảnh." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "dialogue": [
+      {
+        "title": "What is she like?",
+        "lines": [
+          { "speaker": "Mai", "en": "What is your sister like?", "vi": "Em gái bạn là người như thế nào?" },
+          { "speaker": "David", "en": "She has a kind heart. She is also very clever.", "vi": "Cô ấy có một tấm lòng tốt bụng. Cô ấy cũng rất thông minh." },
+          { "speaker": "Mai", "en": "Is she busy this week?", "vi": "Tuần này cô ấy có bận không?" },
+          { "speaker": "David", "en": "Yes, she has a lot of work, so she is busy.", "vi": "Có, cô ấy có nhiều việc nên rất bận." },
+          { "speaker": "Mai", "en": "Does she have a calm personality?", "vi": "Cô ấy có tính cách điềm tĩnh không?" },
+          { "speaker": "David", "en": "Yes, she has a calm personality and a lot of energy.", "vi": "Vâng, cô ấy điềm tĩnh và có nhiều năng lượng." }
+        ]
+      },
+      {
+        "title": "Before the test",
+        "lines": [
+          { "speaker": "Mai", "en": "Why are you nervous?", "vi": "Tại sao bạn lo lắng vậy?" },
+          { "speaker": "David", "en": "I have a test tomorrow.", "vi": "Tôi có một bài kiểm tra vào ngày mai." },
+          { "speaker": "Mai", "en": "You have a lot of free time today. Just stay calm.", "vi": "Hôm nay bạn có nhiều thời gian rảnh. Cứ bình tĩnh." },
+          { "speaker": "David", "en": "You're right. I have clever ideas, so I'm not too worried.", "vi": "Bạn nói đúng. Tôi có những ý tưởng hay nên không quá lo lắng." },
+          { "speaker": "Mai", "en": "Is your friend nervous too?", "vi": "Bạn của bạn có lo lắng không?" },
+          { "speaker": "David", "en": "No, she has a calm heart. She isn't lazy, so she always studies hard.", "vi": "Không, cô ấy có một tâm hồn điềm tĩnh. Cô ấy không lười nên luôn học chăm chỉ." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 10,
+      "grammar": [
+        {
+          "title": "taste / smell / sound + tính từ: Động từ giác quan",
+          "desc": "Dùng 'taste' (nếm), 'smell' (ngửi), 'sound' (nghe) cộng với một tính từ để miêu tả cảm nhận của bạn về một món ăn hoặc một sự việc.",
+          "formula": [
+            { "text": "This pizza", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "tastes / smells", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "delicious.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The soup tastes very salty.", "meaning": "Món súp có vị rất mặn." },
+            { "correct": "These flowers smell nice.", "meaning": "Những bông hoa này có mùi rất thơm." },
+            { "correct": "That sounds great!", "meaning": "Điều đó nghe có vẻ tuyệt đấy!" }
+          ]
+        },
+        {
+          "title": "What does it taste/smell like?: Nó có vị/mùi như thế nào?",
+          "desc": "Dùng câu hỏi này khi bạn muốn biết mùi vị hoặc hương thơm của một món ăn hoặc một thứ gì đó.",
+          "formula": [
+            { "text": "What", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "does it", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "taste / smell like?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What does the pizza taste like?", "meaning": "Chiếc bánh pizza có vị như thế nào?" },
+            { "correct": "What does this flower smell like?", "meaning": "Bông hoa này có mùi như thế nào?" },
+            { "correct": "What does the cake taste like?", "meaning": "Chiếc bánh ngọt có vị như thế nào?" }
+          ]
+        },
+        {
+          "title": "Ôn tập: like + V-ing / Noun",
+          "desc": "Bạn có thể dùng 'like' cộng với một món ăn (Danh từ) để nói bạn thích ăn món đó.",
+          "formula": [
+            { "text": "I like", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "eating", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "yoghurt.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I like strawberry yoghurt.", "meaning": "Tôi thích sữa chua dâu tây." },
+            { "correct": "He likes eating snacks.", "meaning": "Cậu ấy thích ăn đồ ăn vặt." },
+            { "correct": "Do you like pepper in your soup?", "meaning": "Bạn có thích bỏ hạt tiêu vào súp không?" }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Tasting the soup",
+          "lines": [
+            { "speaker": "A", "en": "What are you cooking? It smells wonderful!", "vi": "Cậu đang nấu món gì vậy? Nó có mùi tuyệt quá!" },
+            { "speaker": "B", "en": "I am making a chicken soup.", "vi": "Tớ đang làm món súp gà." },
+            { "speaker": "A", "en": "Can I have a taste?", "vi": "Tớ nếm thử một chút được không?" },
+            { "speaker": "B", "en": "Sure. What does it taste like?", "vi": "Chắc chắn rồi. Nó có vị như thế nào?" },
+            { "speaker": "A", "en": "It tastes a bit salty. You need more water.", "vi": "Nó có vị hơi mặn. Cậu cần thêm một chút nước." },
+            { "speaker": "B", "en": "Oh, you are right. Thanks!", "vi": "Ồ, cậu nói đúng. Cảm ơn nhé!" }
+          ]
+        },
+        {
+          "title": "A sweet snack",
+          "lines": [
+            { "speaker": "A", "en": "Would you like a piece of cake?", "vi": "Cậu có muốn một miếng bánh ngọt không?" },
+            { "speaker": "B", "en": "Yes, please. What does it taste like?", "vi": "Có, làm ơn. Nó có vị như thế nào vậy?" },
+            { "speaker": "A", "en": "It tastes like strawberry and sugar.", "vi": "Nó có vị như dâu tây và đường." },
+            { "speaker": "B", "en": "Mmm, it is very sweet. I love it.", "vi": "Mmm, nó rất ngọt. Tớ rất thích." },
+            { "speaker": "A", "en": "I'm glad you like it. I baked it myself.", "vi": "Tớ rất vui vì cậu thích nó. Tớ đã tự nướng nó đấy." },
+            { "speaker": "B", "en": "That sounds amazing! You are a good cook.", "vi": "Điều đó nghe thật tuyệt vời! Cậu là một đầu bếp giỏi." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "grammar": [
+        {
+          "title": "will / won't: sẽ / sẽ không",
+          "desc": "Dùng 'will' (sẽ) hoặc 'won't' (sẽ không) cộng với động từ nguyên thể để nói về một hành động sẽ xảy ra trong tương lai hoặc một quyết định được đưa ra ngay lúc nói.",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "will / won't", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "open the gate.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I will open the door.", "meaning": "Tớ sẽ mở cửa." },
+            { "correct": "She won't go to school tomorrow.", "meaning": "Cô ấy sẽ không đi học vào ngày mai." },
+            { "correct": "They will buy a new fridge.", "meaning": "Họ sẽ mua một chiếc tủ lạnh mới." }
+          ]
+        },
+        {
+          "title": "Dạng rút gọn của will: 'll",
+          "desc": "Trong văn nói, 'will' thường được rút gọn thành ''ll' (ví dụ: I'll, She'll, It'll).",
+          "formula": [
+            { "text": "I'll", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "help", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "you.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I'll get my keys.", "meaning": "Tớ sẽ đi lấy chìa khóa của tớ." },
+            { "correct": "She'll read her diary.", "meaning": "Cô ấy sẽ đọc nhật ký của cô ấy." },
+            { "correct": "It'll be fun.", "meaning": "Sẽ rất vui đấy." }
+          ]
+        },
+        {
+          "title": "Quyết định tức thời với will",
+          "desc": "Khi có ai đó nhờ vả hoặc trong một tình huống bất ngờ, hãy dùng 'will' (hoặc 'I'll') để đưa ra sự giúp đỡ ngay lập tức.",
+          "formula": [
+            { "text": "The phone is ringing.", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I'll", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "answer it.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I'll answer the telephone.", "meaning": "Tôi sẽ nghe điện thoại." },
+            { "correct": "I'll close the gate for you.", "meaning": "Tôi sẽ đóng cổng giúp bạn." },
+            { "correct": "I'll carry this box.", "meaning": "Tôi sẽ mang chiếc hộp này." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "At the entrance",
+          "lines": [
+            { "speaker": "A", "en": "Oh no, I forgot my house key.", "vi": "Ôi không, tớ quên chìa khóa nhà rồi." },
+            { "speaker": "B", "en": "Don't worry, I'll open the gate.", "vi": "Đừng lo, tớ sẽ mở cổng." },
+            { "speaker": "A", "en": "Thank you! It is very cold outside.", "vi": "Cảm ơn cậu! Bên ngoài trời rất lạnh." },
+            { "speaker": "B", "en": "I'll turn on the cooker to make some hot tea.", "vi": "Tớ sẽ bật bếp lên để pha một ít trà nóng." },
+            { "speaker": "A", "en": "That sounds great. I'll get the cups.", "vi": "Nghe tuyệt đấy. Tớ sẽ đi lấy những chiếc cốc." },
+            { "speaker": "B", "en": "Okay, the tea will be ready soon.", "vi": "Được rồi, trà sẽ sẵn sàng sớm thôi." }
+          ]
+        },
+        {
+          "title": "A ringing telephone",
+          "lines": [
+            { "speaker": "A", "en": "Can you hear that? The telephone is ringing.", "vi": "Cậu có nghe thấy không? Điện thoại đang reo kìa." },
+            { "speaker": "B", "en": "I am washing the dishes.", "vi": "Tớ đang rửa bát." },
+            { "speaker": "A", "en": "I'll answer it for you.", "vi": "Tớ sẽ nghe máy giúp cậu." },
+            { "speaker": "B", "en": "Thanks! It might be my mom.", "vi": "Cảm ơn nhé! Đó có thể là mẹ tớ." },
+            { "speaker": "A", "en": "Hello? Yes, she is here.", "vi": "Xin chào? Vâng, bạn ấy đang ở đây." },
+            { "speaker": "B", "en": "I'll wash my hands and talk to her.", "vi": "Tớ sẽ rửa tay và nói chuyện với bà ấy." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+[
+  {
+    "lessonOrder": 11,
+    "grammar": [
+      {
+        "title": "Động từ khuyết thiếu \"can\" / \"can't\" — Khả năng",
+        "desc": "Dùng để diễn tả một người/vật có khả năng hoặc không có khả năng làm một việc gì đó.",
+        "formula": [
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "can / can't",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Verb (nguyên mẫu)",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "I can swim.",
+            "vi": "Tôi có thể bơi."
+          },
+          {
+            "en": "My sister can sing.",
+            "vi": "Chị gái tôi có thể hát."
+          },
+          {
+            "en": "He can't drive a car.",
+            "vi": "Anh ấy không thể lái xe ô tô."
+          }
+        ],
+        "note": "can't là viết tắt của cannot. Động từ đứng sau can/can't luôn ở dạng nguyên mẫu, không chia.",
+        "practiceList": [
+          {
+            "question": "She ___ cook dinner.",
+            "correct": "can",
+            "meaning": "Cô ấy có thể nấu bữa tối.",
+            "explanation": "Dùng \"can\" để chỉ khả năng nấu ăn."
+          },
+          {
+            "question": "My father ___ speak English. (Không thể)",
+            "correct": "can't",
+            "meaning": "Bố tôi không thể nói tiếng Anh.",
+            "explanation": "Dùng \"can't\" để chỉ sự không có khả năng."
+          },
+          {
+            "question": "They ___ play games together.",
+            "correct": "can",
+            "meaning": "Họ có thể chơi game cùng nhau.",
+            "explanation": "Dùng \"can\" để chỉ khả năng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "grammar": [
+      {
+        "title": "Động từ khuyết thiếu \"can\" — Yêu cầu & Xin phép",
+        "desc": "Dùng để lịch sự yêu cầu người khác làm gì giúp mình, hoặc xin phép để mình làm một việc gì đó.",
+        "formula": [
+          {
+            "text": "Can",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          },
+          {
+            "text": "Subject",
+            "classes": "border-red-500 text-red-600 bg-red-50"
+          },
+          {
+            "text": "Verb (nguyên mẫu) ?",
+            "classes": "border-blue-500 text-blue-600 bg-blue-50"
+          }
+        ],
+        "examples": [
+          {
+            "en": "Can you help me?",
+            "vi": "Bạn có thể giúp tôi được không?"
+          },
+          {
+            "en": "Can I open the window?",
+            "vi": "Tôi có thể mở cửa sổ được không?"
+          },
+          {
+            "en": "Can we sit here?",
+            "vi": "Chúng tôi có thể ngồi đây được không?"
+          }
+        ],
+        "note": "Can I...? (dùng để xin phép). Can you...? (dùng để nhờ vả).",
+        "practiceList": [
+          {
+            "question": "___ you bring me a book?",
+            "correct": "Can",
+            "meaning": "Bạn có thể mang cho tôi một cuốn sách được không?",
+            "explanation": "Dùng \"Can you\" để đưa ra lời yêu cầu."
+          },
+          {
+            "question": "Can I ___ the door?",
+            "correct": "close",
+            "meaning": "Tôi có thể đóng cửa lại được không?",
+            "explanation": "Động từ sau \"can\" luôn ở dạng nguyên mẫu, dùng \"close\"."
+          },
+          {
+            "question": "___ we go now?",
+            "correct": "Can",
+            "meaning": "Chúng ta có thể đi bây giờ được không?",
+            "explanation": "Dùng \"Can we\" để xin phép."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,285 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 2,
+      "title": "Bài 3.a: Tính từ thường gặp (1/4)",
+      "theme": "Tính từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "alone",
+          "ipa": "/əˈloʊn/",
+          "type": "Tính từ / Trạng từ",
+          "type_short": "adj",
+          "meaning": "một mình",
+          "example_en": "I am alone in the room.",
+          "example_vi": "Tôi ở một mình trong phòng."
+        },
+        {
+          "word": "amazing",
+          "ipa": "/əˈmeɪzɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tuyệt vời, đáng kinh ngạc",
+          "example_en": "That is an amazing story.",
+          "example_vi": "Đó là một câu chuyện tuyệt vời."
+        },
+        {
+          "word": "bored",
+          "ipa": "/bɔːrd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "buồn chán",
+          "example_en": "I feel bored today.",
+          "example_vi": "Hôm nay tôi cảm thấy buồn chán."
+        },
+        {
+          "word": "broken",
+          "ipa": "/ˈbroʊkən/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "bị vỡ, bị hỏng",
+          "example_en": "My toy is broken.",
+          "example_vi": "Đồ chơi của tôi bị hỏng."
+        },
+        {
+          "word": "cheap",
+          "ipa": "/tʃiːp/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "rẻ",
+          "example_en": "This book is very cheap.",
+          "example_vi": "Quyển sách này rất rẻ."
+        },
+        {
+          "word": "dark",
+          "ipa": "/dɑːrk/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tối, sẫm màu",
+          "example_en": "It is dark outside.",
+          "example_vi": "Bên ngoài trời tối."
+        },
+        {
+          "word": "dear",
+          "ipa": "/dɪr/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thân mến",
+          "example_en": "Dear Harry, how are you?",
+          "example_vi": "Harry thân mến, bạn có khỏe không?"
+        },
+        {
+          "word": "deep",
+          "ipa": "/diːp/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "sâu",
+          "example_en": "The water is deep.",
+          "example_vi": "Nước ở đây rất sâu."
+        },
+        {
+          "word": "delicious",
+          "ipa": "/dɪˈlɪʃəs/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "ngon miệng",
+          "example_en": "The pizza is delicious.",
+          "example_vi": "Món pizza này rất ngon."
+        },
+        {
+          "word": "empty",
+          "ipa": "/ˈempti/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "trống rỗng",
+          "example_en": "The box is empty.",
+          "example_vi": "Cái hộp trống rỗng."
+        },
+        {
+          "word": "enormous",
+          "ipa": "/ɪˈnɔːrməs/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khổng lồ, to lớn",
+          "example_en": "I saw an enormous elephant.",
+          "example_vi": "Tôi đã thấy một con voi khổng lồ."
+        },
+        {
+          "word": "excellent",
+          "ipa": "/ˈeksələnt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "xuất sắc",
+          "example_en": "You did an excellent job.",
+          "example_vi": "Bạn đã làm một công việc xuất sắc."
+        },
+        {
+          "word": "excited",
+          "ipa": "/ɪkˈsaɪtɪd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "hào hứng, phấn khích",
+          "example_en": "I am excited about the trip.",
+          "example_vi": "Tôi rất hào hứng về chuyến đi."
+        },
+        {
+          "word": "expensive",
+          "ipa": "/ɪkˈspensɪv/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đắt đỏ",
+          "example_en": "This car is expensive.",
+          "example_vi": "Chiếc xe hơi này rất đắt đỏ."
+        },
+        {
+          "word": "far",
+          "ipa": "/fɑːr/",
+          "type": "Tính từ / Trạng từ",
+          "type_short": "adj",
+          "meaning": "xa",
+          "example_en": "The school is far away.",
+          "example_vi": "Ngôi trường ở rất xa."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 3,
+      "title": "Bài 3.b: Tính từ thường gặp (2/4)",
+      "theme": "Tính từ thường gặp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "fast",
+          "ipa": "/fæst/",
+          "type": "Tính từ / Trạng từ",
+          "type_short": "adj",
+          "meaning": "nhanh",
+          "example_en": "The train is very fast.",
+          "example_vi": "Đoàn tàu này rất nhanh."
+        },
+        {
+          "word": "friendly",
+          "ipa": "/ˈfrendli/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thân thiện",
+          "example_en": "The dog is friendly.",
+          "example_vi": "Con chó này rất thân thiện."
+        },
+        {
+          "word": "frightening",
+          "ipa": "/ˈfraɪtnɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đáng sợ",
+          "example_en": "The storm is frightening.",
+          "example_vi": "Cơn bão thật đáng sợ."
+        },
+        {
+          "word": "full",
+          "ipa": "/fʊl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "đầy",
+          "example_en": "The glass is full of water.",
+          "example_vi": "Cái ly chứa đầy nước."
+        },
+        {
+          "word": "furry",
+          "ipa": "/ˈfɜːri/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "có nhiều lông",
+          "example_en": "The kitten is small and furry.",
+          "example_vi": "Con mèo con thì nhỏ và có nhiều lông."
+        },
+        {
+          "word": "hard",
+          "ipa": "/hɑːrd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "cứng, khó khăn",
+          "example_en": "The rock is very hard.",
+          "example_vi": "Tảng đá này rất cứng."
+        },
+        {
+          "word": "heavy",
+          "ipa": "/ˈhevi/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "nặng",
+          "example_en": "My bag is heavy.",
+          "example_vi": "Cái túi của tôi rất nặng."
+        },
+        {
+          "word": "high",
+          "ipa": "/haɪ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "cao",
+          "example_en": "The mountain is high.",
+          "example_vi": "Ngọn núi đó rất cao."
+        },
+        {
+          "word": "horrible",
+          "ipa": "/ˈhɔːrəbl/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "khủng khiếp",
+          "example_en": "The food tastes horrible.",
+          "example_vi": "Món ăn có vị thật khủng khiếp."
+        },
+        {
+          "word": "important",
+          "ipa": "/ɪmˈpɔːrtnt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "quan trọng",
+          "example_en": "This message is important.",
+          "example_vi": "Tin nhắn này rất quan trọng."
+        },
+        {
+          "word": "interested",
+          "ipa": "/ˈɪntrəstɪd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "quan tâm, thích thú",
+          "example_en": "I am interested in art.",
+          "example_vi": "Tôi có hứng thú với nghệ thuật."
+        },
+        {
+          "word": "interesting",
+          "ipa": "/ˈɪntrəstɪŋ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "thú vị",
+          "example_en": "This book is interesting.",
+          "example_vi": "Quyển sách này rất thú vị."
+        },
+        {
+          "word": "kind",
+          "ipa": "/kaɪnd/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tốt bụng",
+          "example_en": "She is a kind teacher.",
+          "example_vi": "Cô ấy là một giáo viên tốt bụng."
+        },
+        {
+          "word": "large",
+          "ipa": "/lɑːrdʒ/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "rộng lớn, to",
+          "example_en": "They live in a large house.",
+          "example_vi": "Họ sống trong một ngôi nhà rộng lớn."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

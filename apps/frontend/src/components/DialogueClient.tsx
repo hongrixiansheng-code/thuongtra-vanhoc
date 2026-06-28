@@ -1,5 +1,5 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { pinyin } from 'pinyin-pro';
 
 export default function DialogueClient({ dialogueData, level }: { dialogueData: any[], level: string }) {
@@ -20,15 +20,40 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
     return acc;
   }, {});
 
-  const groups = Object.values(lessonGroups).sort((a: any, b: any) => a.lessonOrderIndex - b.lessonOrderIndex);
+  const groups = Object.values(lessonGroups as any).sort((a: any, b: any) => a.lessonOrderIndex - b.lessonOrderIndex);
 
-  const [openLesson, setOpenLesson] = useState<string | null>(groups[0]?.lessonId || null);
+  const [openLesson, setOpenLesson] = useState<string | null>((groups[0] as any)?.lessonId || null);
   const [playingId, setPlayingId] = useState<string | null>(null);
+  const playbackTokenRef = useRef(0);
 
-  const selectedGroup = groups.find((g: any) => g.lessonId === openLesson) || groups[0] || null;
+  const selectedGroup = groups.find((g: any) => g.lessonId === openLesson) as any || groups[0] as any || null;
+
+  // Đổi bài học ở sidebar -> dừng phát đang chạy, vô hiệu hoá chuỗi onend cũ
+  useEffect(() => {
+    playbackTokenRef.current++;
+    window.speechSynthesis.cancel();
+    setPlayingId(null);
+  }, [openLesson]);
+
+  // Đổi chương trình/level (props mới nhưng component không remount) -> dừng phát
+  useEffect(() => {
+    playbackTokenRef.current++;
+    window.speechSynthesis.cancel();
+    setPlayingId(null);
+  }, [dialogueData]);
+
+  // Rời trang -> dừng phát
+  useEffect(() => {
+    return () => {
+      playbackTokenRef.current++;
+      window.speechSynthesis.cancel();
+    };
+  }, []);
 
   const speak = (text: string) => {
+    playbackTokenRef.current++;
     window.speechSynthesis.cancel();
+    setPlayingId(null);
     const u = new SpeechSynthesisUtterance(text);
     u.lang = isEN ? 'en-US' : 'zh-CN';
     u.rate = 0.85;
@@ -36,18 +61,30 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
   };
 
   const playAll = (lines: any[], dialogueId: string) => {
+    window.speechSynthesis.cancel();
     if (playingId === dialogueId) {
-      window.speechSynthesis.cancel();
+      playbackTokenRef.current++;
       setPlayingId(null);
       return;
     }
+    const token = ++playbackTokenRef.current;
     setPlayingId(dialogueId);
-    let delay = 0;
-    lines.forEach(line => {
-      setTimeout(() => speak(line.en || line.zh), delay);
-      delay += 2500;
-    });
-    setTimeout(() => setPlayingId(null), delay);
+
+    const playLineAt = (index: number) => {
+      if (playbackTokenRef.current !== token) return;
+      if (index >= lines.length) {
+        setPlayingId(null);
+        return;
+      }
+      const text = lines[index].en || lines[index].zh;
+      const u = new SpeechSynthesisUtterance(text);
+      u.lang = isEN ? 'en-US' : 'zh-CN';
+      u.rate = 0.85;
+      u.onend = () => playLineAt(index + 1);
+      u.onerror = () => playLineAt(index + 1);
+      window.speechSynthesis.speak(u);
+    };
+    playLineAt(0);
   };
 
   return (

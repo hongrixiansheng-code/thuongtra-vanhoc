@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 15,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe an object you like",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe an object you often use.",
+          "bullets": ["what colour and size it is", "where you got it", "how often you use it", "and explain why you like it"]
+        },
+        "questions": [],
+        "sampleAnswer": "I would like to talk about my bag. It is a small red bag. I bought it last year. I use it every day because it is light and not too big."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Everyday objects",
+        "part": 1,
+        "questions": ["What is in your bag right now?", "Do you often lose things like keys or tickets?", "Is your phone new or old?"],
+        "sampleAnswer": "I have my key, my glasses, and my phone in my bag. I sometimes lose my keys. My phone is quite new."
+      }
+    ]
+  }
+]

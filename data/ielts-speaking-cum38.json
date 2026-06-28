@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 75,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Hypothetical questions",
+        "part": 3,
+        "questions": ["If you had a lot of money, what would you do?", "If you could change one thing about your city, what would it be?", "If you were a teacher, how would you teach differently?"],
+        "sampleAnswer": "If I had a lot of money, I would travel around the world. If I could change one thing, I would reduce traffic in my city. If I were a teacher, I would make lessons more interactive."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Real and unreal situations",
+        "part": 3,
+        "questions": ["What will you do if you have free time this weekend?", "What would you do if you won a big prize?", "Which situation is more likely for you?"],
+        "sampleAnswer": "If I have free time this weekend, I will visit my family. If I won a big prize, I would buy a new house, but that's not very likely. The first situation is more realistic for me."
+      }
+    ]
+  }
+]

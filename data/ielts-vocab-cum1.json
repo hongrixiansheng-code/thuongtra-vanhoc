@@ -1,0 +1,192 @@
+[
+  {
+    "lessonOrder": 1,
+    "vocab": [
+      {
+        "word": "name",
+        "ipa": "/neɪm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tên",
+        "example_en": "My name is John.",
+        "example_vi": "Tên của tôi là John.",
+        "level": "A1"
+      },
+      {
+        "word": "age",
+        "ipa": "/eɪdʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tuổi",
+        "example_en": "I am 20 years of age.",
+        "example_vi": "Tôi 20 tuổi.",
+        "level": "A1"
+      },
+      {
+        "word": "nationality",
+        "ipa": "/ˌnæʃ.əˈnæl.ə.ti/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quốc tịch",
+        "example_en": "My nationality is Vietnamese.",
+        "example_vi": "Quốc tịch của tôi là Việt Nam.",
+        "level": "A1"
+      },
+      {
+        "word": "occupation",
+        "ipa": "/ˌɒk.jʊˈpeɪ.ʃən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nghề nghiệp",
+        "example_en": "My occupation is a student.",
+        "example_vi": "Nghề nghiệp của tôi là học sinh.",
+        "level": "A1"
+      },
+      {
+        "word": "address",
+        "ipa": "/əˈdres/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "địa chỉ",
+        "example_en": "My address is in Hanoi.",
+        "example_vi": "Địa chỉ của tôi ở Hà Nội.",
+        "level": "A1"
+      },
+      {
+        "word": "email",
+        "ipa": "/ˈiː.meɪl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "thư điện tử",
+        "example_en": "My email is on the form.",
+        "example_vi": "Email của tôi ở trên biểu mẫu.",
+        "level": "A1"
+      },
+      {
+        "word": "phone",
+        "ipa": "/fəʊn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "điện thoại",
+        "example_en": "My phone is new.",
+        "example_vi": "Điện thoại của tôi mới.",
+        "level": "A1"
+      },
+      {
+        "word": "hometown",
+        "ipa": "/ˈhəʊm.taʊn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "quê quán",
+        "example_en": "My hometown is beautiful.",
+        "example_vi": "Quê quán của tôi rất đẹp.",
+        "level": "A1"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 2,
+    "vocab": [
+      {
+        "word": "father",
+        "ipa": "/ˈfɑː.ðər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cha, bố",
+        "example_en": "Is he your father?",
+        "example_vi": "Ông ấy có phải là bố của bạn không?",
+        "level": "A1"
+      },
+      {
+        "word": "mother",
+        "ipa": "/ˈmʌð.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "mẹ",
+        "example_en": "My mother is not from Hanoi.",
+        "example_vi": "Mẹ tôi không đến từ Hà Nội.",
+        "level": "A1"
+      },
+      {
+        "word": "brother",
+        "ipa": "/ˈbrʌð.ər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "anh/em trai",
+        "example_en": "Are you my brother?",
+        "example_vi": "Bạn có phải là anh trai của tôi không?",
+        "level": "A1"
+      },
+      {
+        "word": "sister",
+        "ipa": "/ˈsɪs.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chị/em gái",
+        "example_en": "My sister is a student.",
+        "example_vi": "Chị tôi là học sinh.",
+        "level": "A1"
+      },
+      {
+        "word": "husband",
+        "ipa": "/ˈhʌz.bənd/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "chồng",
+        "example_en": "He is not my husband.",
+        "example_vi": "Anh ấy không phải chồng tôi.",
+        "level": "A1"
+      },
+      {
+        "word": "wife",
+        "ipa": "/waɪf/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vợ",
+        "example_en": "Is she his wife?",
+        "example_vi": "Cô ấy có phải là vợ của anh ấy không?",
+        "level": "A1"
+      },
+      {
+        "word": "son",
+        "ipa": "/sʌn/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "con trai",
+        "example_en": "My son is 10 years of age.",
+        "example_vi": "Con trai tôi 10 tuổi.",
+        "level": "A1"
+      },
+      {
+        "word": "daughter",
+        "ipa": "/ˈdɔː.tər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "con gái",
+        "example_en": "My daughter is not a student.",
+        "example_vi": "Con gái tôi không phải là học sinh.",
+        "level": "A1"
+      },
+      {
+        "word": "parents",
+        "ipa": "/ˈpeə.rənts/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "bố mẹ",
+        "example_en": "Are they your parents?",
+        "example_vi": "Họ có phải bố mẹ của bạn không?",
+        "level": "A1"
+      },
+      {
+        "word": "couple",
+        "ipa": "/ˈkʌp.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "cặp đôi",
+        "example_en": "They are a beautiful couple.",
+        "example_vi": "Họ là một cặp đôi đẹp.",
+        "level": "A1"
+      }
+    ]
+  }
+]

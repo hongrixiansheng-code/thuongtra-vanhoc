@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 65,
+    "vocab": [
+      {
+        "word": "ever",
+        "ipa": "/ˈev.ər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "từng, bao giờ",
+        "example_en": "Have you ever been there?",
+        "example_vi": "Bạn đã từng đến đó chưa?",
+        "level": "A2"
+      },
+      {
+        "word": "never",
+        "ipa": "/ˈnev.ər/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "chưa bao giờ",
+        "example_en": "I have never seen it.",
+        "example_vi": "Tôi chưa bao giờ nhìn thấy nó.",
+        "level": "A2"
+      },
+      {
+        "word": "just",
+        "ipa": "/dʒʌst/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "vừa mới",
+        "example_en": "I have just eaten.",
+        "example_vi": "Tôi vừa mới ăn xong.",
+        "level": "A2"
+      },
+      {
+        "word": "already",
+        "ipa": "/ɔːlˈred.i/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "rồi",
+        "example_en": "I have already finished.",
+        "example_vi": "Tôi đã hoàn thành rồi.",
+        "level": "A2"
+      },
+      {
+        "word": "yet",
+        "ipa": "/jet/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "chưa",
+        "example_en": "I haven't started yet.",
+        "example_vi": "Tôi vẫn chưa bắt đầu.",
+        "level": "A2"
+      },
+      {
+        "word": "still",
+        "ipa": "/stɪl/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "vẫn",
+        "example_en": "I still haven't finished.",
+        "example_vi": "Tôi vẫn chưa hoàn thành.",
+        "level": "A2"
+      },
+      {
+        "word": "before",
+        "ipa": "/bɪˈfɔːr/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "trước đây",
+        "example_en": "I have been there before.",
+        "example_vi": "Tôi đã từng đến đó trước đây.",
+        "level": "A2"
+      },
+      {
+        "word": "recently",
+        "ipa": "/ˈriː.sənt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "gần đây",
+        "example_en": "I saw him recently.",
+        "example_vi": "Gần đây tôi đã gặp anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "lately",
+        "ipa": "/ˈleɪt.li/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "dạo này, mới đây",
+        "example_en": "Have you seen her lately?",
+        "example_vi": "Dạo này bạn có gặp cô ấy không?",
+        "level": "A2"
+      },
+      {
+        "word": "so far",
+        "ipa": "/səʊ fɑːr/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "cho đến nay",
+        "example_en": "So far, so good.",
+        "example_vi": "Cho đến nay, mọi thứ vẫn tốt.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "vocab": [
+      {
+        "word": "see",
+        "ipa": "/siː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhìn thấy",
+        "example_en": "I see a bird.",
+        "example_vi": "Tôi nhìn thấy một con chim.",
+        "level": "A2"
+      },
+      {
+        "word": "hear",
+        "ipa": "/hɪər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghe",
+        "example_en": "I can hear you.",
+        "example_vi": "Tôi có thể nghe bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "taste",
+        "ipa": "/teɪst/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nếm",
+        "example_en": "It tastes good.",
+        "example_vi": "Nó có vị ngon.",
+        "level": "A2"
+      },
+      {
+        "word": "smell",
+        "ipa": "/smel/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ngửi, có mùi",
+        "example_en": "It smells nice.",
+        "example_vi": "Nó có mùi thơm.",
+        "level": "A2"
+      },
+      {
+        "word": "feel",
+        "ipa": "/fiːl/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cảm thấy",
+        "example_en": "It feels soft.",
+        "example_vi": "Cảm giác nó rất mềm.",
+        "level": "A2"
+      },
+      {
+        "word": "touch",
+        "ipa": "/tʌtʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chạm vào",
+        "example_en": "Do not touch it.",
+        "example_vi": "Đừng chạm vào nó.",
+        "level": "A2"
+      },
+      {
+        "word": "look",
+        "ipa": "/lʊk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "trông có vẻ",
+        "example_en": "You look tired.",
+        "example_vi": "Bạn trông có vẻ mệt.",
+        "level": "A2"
+      },
+      {
+        "word": "sound",
+        "ipa": "/saʊnd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghe có vẻ",
+        "example_en": "That sounds great.",
+        "example_vi": "Nghe tuyệt đấy.",
+        "level": "A2"
+      },
+      {
+        "word": "seem",
+        "ipa": "/siːm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có vẻ như",
+        "example_en": "It seems fine.",
+        "example_vi": "Nó có vẻ ổn.",
+        "level": "A2"
+      },
+      {
+        "word": "appear",
+        "ipa": "/əˈpɪər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "xuất hiện, có vẻ",
+        "example_en": "He appears happy.",
+        "example_vi": "Anh ấy có vẻ hạnh phúc.",
+        "level": "A2"
+      }
+    ]
+  }
+]

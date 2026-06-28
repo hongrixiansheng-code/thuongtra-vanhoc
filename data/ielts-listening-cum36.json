@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 71,
+    "listening": [
+      {
+        "title": "Listening: History facts",
+        "transcript": "The telephone was invented by Alexander Graham Bell. This bridge was built about thirty years ago.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Who invented the telephone?", "options": ["Thomas Edison", "Alexander Graham Bell", "A local engineer"], "correct": "Alexander Graham Bell", "explanation": "\"The telephone was invented by Alexander Graham Bell.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 72,
+    "listening": [
+      {
+        "title": "Listening: News update",
+        "transcript": "The news has already been published online. The results have just been reported on TV.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where was the news published?", "options": ["In a newspaper", "Online", "On the radio"], "correct": "Online", "explanation": "\"The news has already been published online.\"" }
+        ]
+      }
+    ]
+  }
+]

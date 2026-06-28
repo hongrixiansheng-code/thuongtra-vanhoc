@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 61,
+    "reading": [
+      {
+        "title": "Reading: Things I enjoy",
+        "passage": "I enjoy reading books in my free time. He enjoys playing football with friends. She hates waiting in long queues. I miss living in my hometown. We should avoid wasting too much time.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer enjoys reading books.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I enjoy reading books in my free time.\"" },
+          { "type": "multiple_choice", "question": "What does she hate?", "options": ["Reading books", "Waiting in long queues", "Playing football"], "correct": "Waiting in long queues", "explanation": "\"She hates waiting in long queues.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "reading": [
+      {
+        "title": "Reading: Too much, not enough",
+        "passage": "This bag is too heavy for me to carry. He isn't tall enough to reach the shelf. The room is too small for ten people. This coffee is too hot to drink now.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The bag is light enough to carry easily.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"This bag is too heavy for me to carry.\"" },
+          { "type": "multiple_choice", "question": "Why can't he reach the shelf?", "options": ["He isn't tall enough", "He is too busy", "The shelf is broken"], "correct": "He isn't tall enough", "explanation": "\"He isn't tall enough to reach the shelf.\"" }
+        ]
+      }
+    ]
+  }
+]

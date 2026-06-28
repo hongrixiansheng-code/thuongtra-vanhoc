@@ -1,0 +1,276 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 19,
+      "title": "Bài 11.b: Sở thích & giải trí (2/3)",
+      "theme": "Sở thích, giải trí & phương tiện",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "member",
+          "ipa": "/ˈmembər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thành viên",
+          "example_en": "I am a member of the sports club.",
+          "example_vi": "Tôi là một thành viên của câu lạc bộ thể thao."
+        },
+        {
+          "word": "pop music",
+          "ipa": "/pɒp ˈmjuːzɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhạc pop",
+          "example_en": "She likes listening to pop music.",
+          "example_vi": "Cô ấy thích nghe nhạc pop."
+        },
+        {
+          "word": "prize",
+          "ipa": "/praɪz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giải thưởng",
+          "example_en": "He won the first prize.",
+          "example_vi": "Anh ấy đã giành được giải nhất."
+        },
+        {
+          "word": "programme",
+          "ipa": "/ˈproʊɡræm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "chương trình (truyền hình)",
+          "example_en": "What is your favourite TV programme?",
+          "example_vi": "Chương trình truyền hình yêu thích của bạn là gì?"
+        },
+        {
+          "word": "puzzle",
+          "ipa": "/ˈpʌzl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "câu đố, trò xếp hình",
+          "example_en": "We are doing a puzzle.",
+          "example_vi": "Chúng tôi đang giải một câu đố xếp hình."
+        },
+        {
+          "word": "pyramid",
+          "ipa": "/ˈpɪrəmɪd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "kim tự tháp",
+          "example_en": "The pyramid is in Egypt.",
+          "example_vi": "Kim tự tháp ở Ai Cập."
+        },
+        {
+          "word": "quiz",
+          "ipa": "/kwɪz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bài kiểm tra ngắn, câu đố vui",
+          "example_en": "We have a maths quiz today.",
+          "example_vi": "Hôm nay chúng tôi có một bài kiểm tra toán ngắn."
+        },
+        {
+          "word": "race",
+          "ipa": "/reɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuộc đua",
+          "example_en": "The boys had a running race.",
+          "example_vi": "Những cậu bé đã có một cuộc chạy đua."
+        },
+        {
+          "word": "rock music",
+          "ipa": "/rɒk ˈmjuːzɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhạc rock",
+          "example_en": "My brother loves rock music.",
+          "example_vi": "Anh trai tôi rất thích nhạc rock."
+        },
+        {
+          "word": "rucksack",
+          "ipa": "/ˈrʌksæk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ba lô (Anh Anh)",
+          "example_en": "I put my books in my rucksack.",
+          "example_vi": "Tôi đặt những quyển sách vào trong ba lô của mình."
+        },
+        {
+          "word": "score",
+          "ipa": "/skɔːr/",
+          "type": "Danh từ / Động từ",
+          "type_short": "n",
+          "meaning": "điểm số, ghi điểm",
+          "example_en": "What is the score of the game?",
+          "example_vi": "Điểm số của trận đấu là bao nhiêu?"
+        },
+        {
+          "word": "ski",
+          "ipa": "/skiː/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "trượt tuyết",
+          "example_en": "We ski in the winter.",
+          "example_vi": "Chúng tôi trượt tuyết vào mùa đông."
+        },
+        {
+          "word": "sledge",
+          "ipa": "/sledʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "xe trượt tuyết",
+          "example_en": "They ride a sledge down the hill.",
+          "example_vi": "Họ lái một chiếc xe trượt tuyết xuống ngọn đồi."
+        },
+        {
+          "word": "snowball",
+          "ipa": "/ˈsnoʊbɔːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nắm tuyết tròn",
+          "example_en": "He threw a snowball at me.",
+          "example_vi": "Cậu ấy đã ném một nắm tuyết vào tôi."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 20,
+      "title": "Bài 11.c: Sở thích & giải trí (3/3)",
+      "theme": "Sở thích, giải trí & phương tiện",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "snowboard",
+          "ipa": "/ˈsnoʊbɔːrd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ván trượt tuyết",
+          "example_en": "I bought a new snowboard.",
+          "example_vi": "Tôi đã mua một chiếc ván trượt tuyết mới."
+        },
+        {
+          "word": "snowboarding",
+          "ipa": "/ˈsnoʊbɔːrdɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn trượt ván trên tuyết",
+          "example_en": "Snowboarding is an exciting sport.",
+          "example_vi": "Trượt ván trên tuyết là một môn thể thao thú vị."
+        },
+        {
+          "word": "snowman",
+          "ipa": "/ˈsnoʊmæn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người tuyết",
+          "example_en": "Let's make a snowman.",
+          "example_vi": "Hãy cùng làm một người tuyết."
+        },
+        {
+          "word": "stage",
+          "ipa": "/steɪdʒ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sân khấu",
+          "example_en": "The actors are on the stage.",
+          "example_vi": "Những diễn viên đang ở trên sân khấu."
+        },
+        {
+          "word": "suitcase",
+          "ipa": "/ˈsuːtkeɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "va li",
+          "example_en": "Pack your clothes in the suitcase.",
+          "example_vi": "Hãy xếp quần áo của bạn vào chiếc va li."
+        },
+        {
+          "word": "team",
+          "ipa": "/tiːm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đội",
+          "example_en": "Our football team is the best.",
+          "example_vi": "Đội bóng đá của chúng ta là giỏi nhất."
+        },
+        {
+          "word": "tent",
+          "ipa": "/tent/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái lều",
+          "example_en": "We sleep in a tent when camping.",
+          "example_vi": "Chúng tôi ngủ trong một cái lều khi đi cắm trại."
+        },
+        {
+          "word": "torch",
+          "ipa": "/tɔːrtʃ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đèn pin (Anh Anh)",
+          "example_en": "It is dark, use your torch.",
+          "example_vi": "Trời tối rồi, hãy sử dụng đèn pin của bạn."
+        },
+        {
+          "word": "tune",
+          "ipa": "/tuːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giai điệu",
+          "example_en": "This song has a catchy tune.",
+          "example_vi": "Bài hát này có một giai điệu bắt tai."
+        },
+        {
+          "word": "tyre",
+          "ipa": "/ˈtaɪər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lốp xe",
+          "example_en": "My bicycle has a flat tyre.",
+          "example_vi": "Xe đạp của tôi bị xịt lốp."
+        },
+        {
+          "word": "violin",
+          "ipa": "/ˌvaɪəˈlɪn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đàn vĩ cầm",
+          "example_en": "She plays the violin beautifully.",
+          "example_vi": "Cô ấy chơi đàn vĩ cầm rất hay."
+        },
+        {
+          "word": "volleyball",
+          "ipa": "/ˈvɒlibɔːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bóng chuyền",
+          "example_en": "We play volleyball on the beach.",
+          "example_vi": "Chúng tôi chơi bóng chuyền trên bãi biển."
+        },
+        {
+          "word": "winner",
+          "ipa": "/ˈwɪnər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người chiến thắng",
+          "example_en": "He is the winner of the race.",
+          "example_vi": "Anh ấy là người chiến thắng của cuộc đua."
+        },
+        {
+          "word": "enter",
+          "ipa": "/ˈentər/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "tham gia (cuộc thi)",
+          "example_en": "I want to enter the competition.",
+          "example_vi": "Tôi muốn tham gia cuộc thi."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

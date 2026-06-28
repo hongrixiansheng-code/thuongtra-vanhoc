@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 22,
+      "grammar": [
+        {
+          "title": "used to: đã từng (thói quen trong quá khứ)",
+          "desc": "Dùng 'used to' cộng với một động từ để nói về một thói quen hoặc trạng thái thường xuyên xảy ra trong quá khứ, nhưng bây giờ KHÔNG CÒN nữa.",
+          "formula": [
+            { "text": "People", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "used to", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "travel by horse.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I used to walk to school.", "meaning": "Tớ đã từng (có thói quen) đi bộ đến trường." },
+            { "correct": "She used to have long hair.", "meaning": "Cô ấy đã từng có mái tóc dài." },
+            { "correct": "We used to live in a small house.", "meaning": "Chúng tôi đã từng sống trong một ngôi nhà nhỏ." }
+          ]
+        },
+        {
+          "title": "Câu phủ định: didn't use to",
+          "desc": "Để nói ai đó TRƯỚC ĐÂY KHÔNG CÓ thói quen làm gì, ta dùng 'didn't use to' (lưu ý chữ 'use' không có 'd').",
+          "formula": [
+            { "text": "I", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "didn't use to", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "like vegetables.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I didn't use to like onions.", "meaning": "Tớ trước đây không thích hành tây." },
+            { "correct": "He didn't use to play the guitar.", "meaning": "Cậu ấy trước đây không chơi đàn ghi-ta." },
+            { "correct": "They didn't use to have a car.", "meaning": "Họ trước đây không có xe ô tô." }
+          ]
+        },
+        {
+          "title": "Phân biệt used to vs Past Simple",
+          "desc": "Dùng Quá khứ đơn (Past Simple) cho một hành động xảy ra 1 lần trong quá khứ. Dùng 'used to' cho một THÓI QUEN lặp đi lặp lại nhiều lần trong quá khứ.",
+          "formula": [
+            { "text": "I ate pizza yesterday", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "vs.", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "I used to eat pizza.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I bought a book yesterday.", "meaning": "Tớ đã mua một quyển sách vào hôm qua." },
+            { "correct": "I used to read a lot.", "meaning": "Tớ đã từng có thói quen đọc rất nhiều sách." },
+            { "correct": "She used to swim every morning.", "meaning": "Cô ấy đã từng bơi lội vào mỗi buổi sáng." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Old transport",
+          "lines": [
+            { "speaker": "A", "en": "Look at this old picture of our town.", "vi": "Hãy nhìn bức ảnh cũ này của thị trấn chúng ta." },
+            { "speaker": "B", "en": "Wow, people used to travel by horse.", "vi": "Chà, mọi người đã từng di chuyển bằng ngựa." },
+            { "speaker": "A", "en": "Yes, they didn't use to have cars.", "vi": "Đúng vậy, trước đây họ không có xe hơi." },
+            { "speaker": "B", "en": "Did they use to walk a lot?", "vi": "Họ có thường đi bộ nhiều không?" },
+            { "speaker": "A", "en": "Yes, they used to walk everywhere.", "vi": "Có, họ đã từng đi bộ đến mọi nơi." },
+            { "speaker": "B", "en": "It must be very slow. Now we take the train.", "vi": "Chắc hẳn rất chậm. Bây giờ chúng ta đi tàu." }
+          ]
+        },
+        {
+          "title": "Growing up",
+          "lines": [
+            { "speaker": "A", "en": "You are very tall now.", "vi": "Bây giờ cậu rất cao." },
+            { "speaker": "B", "en": "Yes, I didn't use to be this tall.", "vi": "Ừ, trước đây tớ không cao như thế này." },
+            { "speaker": "A", "en": "You used to have short hair too.", "vi": "Cậu cũng đã từng để tóc ngắn nữa." },
+            { "speaker": "B", "en": "I know. Now I have long hair.", "vi": "Tớ biết. Bây giờ tớ để tóc dài." },
+            { "speaker": "A", "en": "Did you play basketball yesterday?", "vi": "Hôm qua cậu có chơi bóng rổ không?" },
+            { "speaker": "B", "en": "Yes, but I used to play football when I was young.", "vi": "Có, nhưng tớ đã từng có thói quen chơi bóng đá khi tớ còn nhỏ." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "grammar": [
+        {
+          "title": "Câu điều kiện loại 1: If + Hiện tại, Tương lai",
+          "desc": "Dùng Câu điều kiện loại 1 để nói về một sự việc CÓ THỂ xảy ra trong tương lai nếu một điều kiện nào đó được thỏa mãn.",
+          "formula": [
+            { "text": "If you", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "go left,", "classes": "border-green-200 bg-green-50 text-green-700" },
+            { "text": "you will find the bank.", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "If it rains, I will stay at home.", "meaning": "Nếu trời mưa, tớ sẽ ở nhà." },
+            { "correct": "If you turn left, you will see the park.", "meaning": "Nếu bạn rẽ trái, bạn sẽ nhìn thấy công viên." },
+            { "correct": "If she studies hard, she will pass the exam.", "meaning": "Nếu cô ấy học chăm chỉ, cô ấy sẽ đỗ kỳ thi." }
+          ]
+        },
+        {
+          "title": "Vị trí của mệnh đề If",
+          "desc": "Mệnh đề 'If' có thể đứng ở đầu câu (có dấu phẩy) hoặc đứng ở giữa câu (không có dấu phẩy). Ý nghĩa không thay đổi.",
+          "formula": [
+            { "text": "I will go", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "if", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "you go.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I will help you if you ask me.", "meaning": "Tớ sẽ giúp cậu nếu cậu yêu cầu tớ." },
+            { "correct": "We will play outside if it is sunny.", "meaning": "Chúng ta sẽ chơi ở bên ngoài nếu trời nắng." },
+            { "correct": "He will be happy if he wins.", "meaning": "Cậu ấy sẽ vui nếu cậu ấy chiến thắng." }
+          ]
+        },
+        {
+          "title": "There is / There are + Nơi chốn (Ôn tập)",
+          "desc": "Dùng 'there is' (có một) hoặc 'there are' (có nhiều) để giới thiệu về các địa điểm có sẵn trong thị trấn.",
+          "formula": [
+            { "text": "There is", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "a new museum", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "in the city.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "There is a big hotel near the beach.", "meaning": "Có một khách sạn lớn ở gần bãi biển." },
+            { "correct": "There are two stations in my town.", "meaning": "Có hai nhà ga ở trong thị trấn của tớ." },
+            { "correct": "There is a restaurant next to the cinema.", "meaning": "Có một nhà hàng ở cạnh rạp chiếu phim." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Finding a restaurant",
+          "lines": [
+            { "speaker": "A", "en": "I am very hungry.", "vi": "Tớ rất đói." },
+            { "speaker": "B", "en": "There is a good restaurant near here.", "vi": "Có một nhà hàng ngon ở gần đây." },
+            { "speaker": "A", "en": "How do we get there?", "vi": "Chúng ta đến đó bằng cách nào?" },
+            { "speaker": "B", "en": "If we walk past the bank, we will see it.", "vi": "Nếu chúng ta đi ngang qua ngân hàng, chúng ta sẽ nhìn thấy nó." },
+            { "speaker": "A", "en": "Okay. If it is closed, we will eat at home.", "vi": "Được rồi. Nếu nó đóng cửa, chúng ta sẽ ăn ở nhà." },
+            { "speaker": "B", "en": "Don't worry, it is usually open today.", "vi": "Đừng lo, thông thường hôm nay nó sẽ mở cửa." }
+          ]
+        },
+        {
+          "title": "A trip to the city",
+          "lines": [
+            { "speaker": "A", "en": "Are there any museums in the city?", "vi": "Có viện bảo tàng nào trong thành phố không?" },
+            { "speaker": "B", "en": "Yes, there are two big museums.", "vi": "Có, có hai viện bảo tàng lớn." },
+            { "speaker": "A", "en": "I want to visit them tomorrow.", "vi": "Tớ muốn đến thăm chúng vào ngày mai." },
+            { "speaker": "B", "en": "If you take the bus, you will get there quickly.", "vi": "Nếu cậu đi xe buýt, cậu sẽ đến đó nhanh chóng." },
+            { "speaker": "A", "en": "What will we do if it rains?", "vi": "Chúng ta sẽ làm gì nếu trời mưa?" },
+            { "speaker": "B", "en": "If it rains, we will take a taxi.", "vi": "Nếu trời mưa, chúng ta sẽ bắt taxi." }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 8,
+      "grammar": [
+        {
+          "title": "be made of / be used for (Ôn tập Bị động)",
+          "desc": "Dùng 'be made of' để hỏi và nói về chất liệu, dùng 'be used for + V-ing' để nói về công dụng của đồ vật.",
+          "formula": [
+            { "text": "This card", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "is used for", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "writing.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "The ring is made of gold.", "meaning": "Chiếc nhẫn được làm bằng vàng." },
+            { "correct": "A comb is used for brushing hair.", "meaning": "Cái lược được dùng để chải tóc." },
+            { "correct": "This box is used for keeping toys.", "meaning": "Chiếc hộp này được dùng để cất giữ đồ chơi." }
+          ]
+        },
+        {
+          "title": "What is it made of?: Nó được làm bằng gì?",
+          "desc": "Đây là câu hỏi dùng để hỏi về chất liệu của một đồ vật.",
+          "formula": [
+            { "text": "What", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "is it", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "made of?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What is it made of?", "meaning": "Nó được làm bằng gì?" },
+            { "correct": "What are they made of?", "meaning": "Chúng được làm bằng gì?" },
+            { "correct": "What is the desk made of?", "meaning": "Cái bàn được làm bằng gì?" }
+          ]
+        },
+        {
+          "title": "each + danh từ số ít: mỗi, từng",
+          "desc": "Dùng 'each' trước một danh từ đếm được số ít để nói về từng người hoặc từng vật riêng lẻ trong một nhóm.",
+          "formula": [
+            { "text": "Each", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "student", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "has a book.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "Each child got a balloon.", "meaning": "Mỗi đứa trẻ đều nhận được một quả bóng bay." },
+            { "correct": "Read each question carefully.", "meaning": "Hãy đọc từng câu hỏi một cách cẩn thận." },
+            { "correct": "Each day is a new adventure.", "meaning": "Mỗi ngày là một cuộc phiêu lưu mới." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "In the classroom",
+          "lines": [
+            { "speaker": "A", "en": "Look at these beautiful rings.", "vi": "Hãy nhìn những chiếc nhẫn tuyệt đẹp này." },
+            { "speaker": "B", "en": "What are they made of?", "vi": "Chúng được làm bằng gì vậy?" },
+            { "speaker": "A", "en": "Each ring is made of silver.", "vi": "Mỗi chiếc nhẫn đều được làm bằng bạc." },
+            { "speaker": "B", "en": "And what are they used for?", "vi": "Và chúng được dùng để làm gì?" },
+            { "speaker": "A", "en": "They are used for the school play.", "vi": "Chúng được dùng cho vở kịch của trường." },
+            { "speaker": "B", "en": "Each student will wear one.", "vi": "Mỗi học sinh sẽ đeo một chiếc." }
+          ]
+        },
+        {
+          "title": "A special box",
+          "lines": [
+            { "speaker": "A", "en": "What is this box made of?", "vi": "Chiếc hộp này được làm bằng gì vậy?" },
+            { "speaker": "B", "en": "It is made of wood.", "vi": "Nó được làm bằng gỗ." },
+            { "speaker": "A", "en": "What is it used for?", "vi": "Nó được dùng để làm gì?" },
+            { "speaker": "B", "en": "It is used for keeping cards.", "vi": "Nó được dùng để cất giữ những tấm thẻ." },
+            { "speaker": "A", "en": "Wow, each card has a picture.", "vi": "Chà, mỗi tấm thẻ đều có một bức tranh." },
+            { "speaker": "B", "en": "Yes, I made each one by myself.", "vi": "Đúng vậy, tớ tự mình làm từng tấm đấy." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "grammar": [
+        {
+          "title": "a few / a little: một vài / một ít",
+          "desc": "Dùng 'a few' (một vài) trước danh từ đếm được số nhiều. Dùng 'a little' (một ít) trước danh từ KHÔNG đếm được.",
+          "formula": [
+            { "text": "I have", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "a few / a little", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "biscuits.", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+          ],
+          "practiceList": [
+            { "correct": "I ate a few biscuits.", "meaning": "Tớ đã ăn một vài cái bánh quy." },
+            { "correct": "We need a little flour.", "meaning": "Chúng ta cần một ít bột mì." },
+            { "correct": "Add a little butter, please.", "meaning": "Làm ơn hãy thêm một ít bơ." }
+          ]
+        },
+        {
+          "title": "How much / How many: Bao nhiêu? (Ôn tập)",
+          "desc": "Dùng 'How many' với danh từ đếm được (như biscuit, fork). Dùng 'How much' với danh từ không đếm được (như honey, jam).",
+          "formula": [
+            { "text": "How much", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "honey", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "do you need?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "How much honey is there?", "meaning": "Có bao nhiêu mật ong ở đó?" },
+            { "correct": "How many chopsticks do we need?", "meaning": "Chúng ta cần bao nhiêu chiếc đũa?" },
+            { "correct": "How much jam do you want?", "meaning": "Bạn muốn bao nhiêu mứt?" }
+          ]
+        },
+        {
+          "title": "Phân biệt Danh từ đếm được & không đếm được",
+          "desc": "Danh từ đếm được có dạng số nhiều (thêm -s). Danh từ không đếm được thì không có dạng số nhiều.",
+          "formula": [
+            { "text": "a few", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "olives", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "(đếm được)", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+          ],
+          "practiceList": [
+            { "correct": "I have a few cookies.", "meaning": "Tớ có một vài chiếc bánh quy." },
+            { "correct": "There is a little cereal.", "meaning": "Có một ít ngũ cốc." },
+            { "correct": "She bought a few forks.", "meaning": "Cô ấy đã mua một vài chiếc nĩa." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Making a cake",
+          "lines": [
+            { "speaker": "A", "en": "Let's make a cake. How much flour do we need?", "vi": "Hãy cùng làm bánh nào. Chúng ta cần bao nhiêu bột mì?" },
+            { "speaker": "B", "en": "We only need a little flour.", "vi": "Chúng ta chỉ cần một ít bột mì thôi." },
+            { "speaker": "A", "en": "Do we need any butter?", "vi": "Chúng ta có cần bơ không?" },
+            { "speaker": "B", "en": "Yes, please add a little butter.", "vi": "Có, làm ơn hãy thêm một ít bơ." },
+            { "speaker": "A", "en": "And how many biscuits should I put on top?", "vi": "Và tớ nên đặt bao nhiêu chiếc bánh quy lên trên?" },
+            { "speaker": "B", "en": "Just a few biscuits are fine.", "vi": "Chỉ một vài chiếc bánh quy là được rồi." }
+          ]
+        },
+        {
+          "title": "Breakfast time",
+          "lines": [
+            { "speaker": "A", "en": "What do you want for breakfast?", "vi": "Cậu muốn ăn gì cho bữa sáng?" },
+            { "speaker": "B", "en": "I'd like some cereal, please.", "vi": "Tớ muốn ăn một ít ngũ cốc." },
+            { "speaker": "A", "en": "How much honey do you want with it?", "vi": "Cậu muốn thêm bao nhiêu mật ong vào đó?" },
+            { "speaker": "B", "en": "Just a little honey. It's very sweet.", "vi": "Chỉ một ít mật ong thôi. Nó rất ngọt." },
+            { "speaker": "A", "en": "Would you like a few olives too?", "vi": "Cậu có muốn một vài quả ô liu nữa không?" },
+            { "speaker": "B", "en": "No thanks, I don't eat olives for breakfast.", "vi": "Không cảm ơn, tớ không ăn ô liu vào bữa sáng đâu." }
+          ]
+        }
+      ]
+    }
+  ]
+}

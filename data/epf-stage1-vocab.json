@@ -1,0 +1,241 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 0,
+      "title": "Bài 1: Giới thiệu IPA & bảng âm",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "dog", "ipa": "/dɒg/", "type": "Danh từ", "type_short": "n", "meaning": "con chó", "example_en": "My dog is friendly.", "example_vi": "Con chó của tôi rất hiền." },
+        { "word": "book", "ipa": "/bʊk/", "type": "Danh từ", "type_short": "n", "meaning": "cuốn sách", "example_en": "This book is interesting.", "example_vi": "Cuốn sách này thú vị." },
+        { "word": "tree", "ipa": "/triː/", "type": "Danh từ", "type_short": "n", "meaning": "cái cây", "example_en": "There is a tree in the garden.", "example_vi": "Có một cái cây trong vườn." },
+        { "word": "house", "ipa": "/haʊs/", "type": "Danh từ", "type_short": "n", "meaning": "ngôi nhà", "example_en": "This is my house.", "example_vi": "Đây là nhà của tôi." },
+        { "word": "apple", "ipa": "/ˈæpəl/", "type": "Danh từ", "type_short": "n", "meaning": "quả táo", "example_en": "I want an apple.", "example_vi": "Tôi muốn một quả táo." }
+      ]
+    },
+    {
+      "orderIndex": 1,
+      "title": "Bài 2: Nguyên âm ngắn 1 — /æ/ /ɛ/ /ɪ/ /ɒ/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "man", "ipa": "/mæn/", "type": "Danh từ", "type_short": "n", "meaning": "người nam, đàn ông", "example_en": "He is a man.", "example_vi": "Anh ấy là một người đàn ông." },
+        { "word": "bag", "ipa": "/bæg/", "type": "Danh từ", "type_short": "n", "meaning": "cái túi", "example_en": "I have a new bag.", "example_vi": "Tôi có một cái túi mới." },
+        { "word": "hat", "ipa": "/hæt/", "type": "Danh từ", "type_short": "n", "meaning": "cái mũ", "example_en": "She wears a hat.", "example_vi": "Cô ấy đội một cái mũ." },
+        { "word": "bed", "ipa": "/bɛd/", "type": "Danh từ", "type_short": "n", "meaning": "cái giường", "example_en": "The bed is soft.", "example_vi": "Cái giường rất mềm." },
+        { "word": "leg", "ipa": "/lɛg/", "type": "Danh từ", "type_short": "n", "meaning": "cái chân", "example_en": "My leg hurts.", "example_vi": "Chân tôi bị đau." },
+        { "word": "pen", "ipa": "/pɛn/", "type": "Danh từ", "type_short": "n", "meaning": "cái bút", "example_en": "This pen is blue.", "example_vi": "Cái bút này màu xanh." },
+        { "word": "sit", "ipa": "/sɪt/", "type": "Động từ", "type_short": "v", "meaning": "ngồi", "example_en": "Please sit down.", "example_vi": "Vui lòng ngồi xuống." },
+        { "word": "big", "ipa": "/bɪg/", "type": "Tính từ", "type_short": "adj", "meaning": "to, lớn", "example_en": "It is a big dog.", "example_vi": "Đó là một con chó to." },
+        { "word": "pin", "ipa": "/pɪn/", "type": "Danh từ", "type_short": "n", "meaning": "cái kim, cái ghim", "example_en": "Be careful with the pin.", "example_vi": "Hãy cẩn thận với cái kim." },
+        { "word": "hot", "ipa": "/hɒt/", "type": "Tính từ", "type_short": "adj", "meaning": "nóng", "example_en": "The soup is hot.", "example_vi": "Súp đang nóng." },
+        { "word": "dog", "ipa": "/dɒg/", "type": "Danh từ", "type_short": "n", "meaning": "con chó", "example_en": "My dog is friendly.", "example_vi": "Con chó của tôi rất hiền." },
+        { "word": "box", "ipa": "/bɒks/", "type": "Danh từ", "type_short": "n", "meaning": "cái hộp", "example_en": "Open the box.", "example_vi": "Mở cái hộp ra." }
+      ]
+    },
+    {
+      "orderIndex": 2,
+      "title": "Bài 3: Nguyên âm ngắn 2 — /ʌ/ /ʊ/ /ə/ /ɑː/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "cup", "ipa": "/kʌp/", "type": "Danh từ", "type_short": "n", "meaning": "cái cốc", "example_en": "I want a cup of tea.", "example_vi": "Tôi muốn một cốc trà." },
+        { "word": "sun", "ipa": "/sʌn/", "type": "Danh từ", "type_short": "n", "meaning": "mặt trời", "example_en": "The sun is bright.", "example_vi": "Mặt trời rất sáng." },
+        { "word": "run", "ipa": "/rʌn/", "type": "Động từ", "type_short": "v", "meaning": "chạy", "example_en": "I run every morning.", "example_vi": "Tôi chạy bộ mỗi sáng." },
+        { "word": "book", "ipa": "/bʊk/", "type": "Danh từ", "type_short": "n", "meaning": "cuốn sách", "example_en": "This book is interesting.", "example_vi": "Cuốn sách này thú vị." },
+        { "word": "look", "ipa": "/lʊk/", "type": "Động từ", "type_short": "v", "meaning": "nhìn", "example_en": "Look at this picture.", "example_vi": "Nhìn vào bức ảnh này." },
+        { "word": "foot", "ipa": "/fʊt/", "type": "Danh từ", "type_short": "n", "meaning": "bàn chân", "example_en": "My foot hurts.", "example_vi": "Bàn chân tôi bị đau." },
+        { "word": "about", "ipa": "/əˈbaʊt/", "type": "Giới từ", "type_short": "prep", "meaning": "về, khoảng", "example_en": "Tell me about your day.", "example_vi": "Hãy kể tôi nghe về ngày của bạn." },
+        { "word": "banana", "ipa": "/bəˈnɑːnə/", "type": "Danh từ", "type_short": "n", "meaning": "quả chuối", "example_en": "I eat a banana every day.", "example_vi": "Tôi ăn một quả chuối mỗi ngày." },
+        { "word": "sofa", "ipa": "/ˈsəʊfə/", "type": "Danh từ", "type_short": "n", "meaning": "ghế sofa", "example_en": "He is sitting on the sofa.", "example_vi": "Anh ấy đang ngồi trên ghế sofa." },
+        { "word": "father", "ipa": "/ˈfɑːðə/", "type": "Danh từ", "type_short": "n", "meaning": "cha, bố", "example_en": "My father is a doctor.", "example_vi": "Bố tôi là một bác sĩ." },
+        { "word": "park", "ipa": "/pɑːk/", "type": "Danh từ", "type_short": "n", "meaning": "công viên", "example_en": "We walk in the park.", "example_vi": "Chúng tôi đi bộ trong công viên." },
+        { "word": "dark", "ipa": "/dɑːk/", "type": "Tính từ", "type_short": "adj", "meaning": "tối", "example_en": "The room is dark.", "example_vi": "Căn phòng tối." }
+      ]
+    },
+    {
+      "orderIndex": 3,
+      "title": "Bài 4: Nguyên âm dài — /iː/ /uː/ /ɑː/ /ɔː/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "see", "ipa": "/siː/", "type": "Động từ", "type_short": "v", "meaning": "nhìn thấy", "example_en": "I can see the sea.", "example_vi": "Tôi có thể nhìn thấy biển." },
+        { "word": "tea", "ipa": "/tiː/", "type": "Danh từ", "type_short": "n", "meaning": "trà", "example_en": "She drinks tea every morning.", "example_vi": "Cô ấy uống trà mỗi sáng." },
+        { "word": "sheep", "ipa": "/ʃiːp/", "type": "Danh từ", "type_short": "n", "meaning": "con cừu", "example_en": "There are sheep in the field.", "example_vi": "Có những con cừu ở đồng cỏ." },
+        { "word": "blue", "ipa": "/bluː/", "type": "Tính từ", "type_short": "adj", "meaning": "màu xanh dương", "example_en": "The sky is blue.", "example_vi": "Bầu trời màu xanh." },
+        { "word": "food", "ipa": "/fuːd/", "type": "Danh từ", "type_short": "n", "meaning": "thức ăn", "example_en": "The food is delicious.", "example_vi": "Thức ăn rất ngon." },
+        { "word": "moon", "ipa": "/muːn/", "type": "Danh từ", "type_short": "n", "meaning": "mặt trăng", "example_en": "The moon is bright tonight.", "example_vi": "Mặt trăng sáng tối nay." },
+        { "word": "car", "ipa": "/kɑː/", "type": "Danh từ", "type_short": "n", "meaning": "xe ô tô", "example_en": "He drives a car.", "example_vi": "Anh ấy lái một chiếc ô tô." },
+        { "word": "star", "ipa": "/stɑː/", "type": "Danh từ", "type_short": "n", "meaning": "ngôi sao", "example_en": "I see a star in the sky.", "example_vi": "Tôi thấy một ngôi sao trên trời." },
+        { "word": "arm", "ipa": "/ɑːm/", "type": "Danh từ", "type_short": "n", "meaning": "cánh tay", "example_en": "My arm is tired.", "example_vi": "Cánh tay tôi mỏi." },
+        { "word": "door", "ipa": "/dɔː/", "type": "Danh từ", "type_short": "n", "meaning": "cái cửa", "example_en": "Please close the door.", "example_vi": "Vui lòng đóng cửa lại." },
+        { "word": "four", "ipa": "/fɔː/", "type": "Tính từ", "type_short": "adj", "meaning": "số bốn", "example_en": "I have four books.", "example_vi": "Tôi có bốn cuốn sách." },
+        { "word": "ball", "ipa": "/bɔːl/", "type": "Danh từ", "type_short": "n", "meaning": "quả bóng", "example_en": "The boy kicks the ball.", "example_vi": "Cậu bé sút quả bóng." }
+      ]
+    },
+    {
+      "orderIndex": 4,
+      "title": "Bài 5: Cặp dài-ngắn dễ nhầm",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "ship", "ipa": "/ʃɪp/", "type": "Danh từ", "type_short": "n", "meaning": "con tàu", "example_en": "The ship is leaving the port.", "example_vi": "Con tàu đang ra khỏi cảng." },
+        { "word": "feel", "ipa": "/fiːl/", "type": "Động từ", "type_short": "v", "meaning": "cảm thấy", "example_en": "I feel happy today.", "example_vi": "Hôm nay tôi cảm thấy vui." },
+        { "word": "fill", "ipa": "/fɪl/", "type": "Động từ", "type_short": "v", "meaning": "lấp đầy, đổ đầy", "example_en": "Fill the glass with water.", "example_vi": "Đổ đầy nước vào cốc." },
+        { "word": "heart", "ipa": "/hɑːt/", "type": "Danh từ", "type_short": "n", "meaning": "tim", "example_en": "My heart beats fast.", "example_vi": "Tim tôi đập nhanh." }
+      ]
+    },
+    {
+      "orderIndex": 5,
+      "title": "Bài 6: Nguyên âm đôi 1 — /eɪ/ /aɪ/ /ɔɪ/ /əʊ/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "day", "ipa": "/deɪ/", "type": "Danh từ", "type_short": "n", "meaning": "ngày", "example_en": "Have a nice day.", "example_vi": "Chúc một ngày tốt lành." },
+        { "word": "name", "ipa": "/neɪm/", "type": "Danh từ", "type_short": "n", "meaning": "tên", "example_en": "What is your name?", "example_vi": "Tên bạn là gì?" },
+        { "word": "rain", "ipa": "/reɪn/", "type": "Danh từ", "type_short": "n", "meaning": "mưa", "example_en": "I like the sound of rain.", "example_vi": "Tôi thích tiếng mưa." },
+        { "word": "my", "ipa": "/maɪ/", "type": "Đại từ", "type_short": "pron", "meaning": "của tôi", "example_en": "This is my book.", "example_vi": "Đây là sách của tôi." },
+        { "word": "time", "ipa": "/taɪm/", "type": "Danh từ", "type_short": "n", "meaning": "thời gian", "example_en": "I don't have time.", "example_vi": "Tôi không có thời gian." },
+        { "word": "like", "ipa": "/laɪk/", "type": "Động từ", "type_short": "v", "meaning": "thích", "example_en": "I like music.", "example_vi": "Tôi thích âm nhạc." },
+        { "word": "boy", "ipa": "/bɔɪ/", "type": "Danh từ", "type_short": "n", "meaning": "con trai", "example_en": "The boy is playing.", "example_vi": "Cậu bé đang chơi." },
+        { "word": "toy", "ipa": "/tɔɪ/", "type": "Danh từ", "type_short": "n", "meaning": "đồ chơi", "example_en": "She has a new toy.", "example_vi": "Cô bé có một món đồ chơi mới." },
+        { "word": "point", "ipa": "/pɔɪnt/", "type": "Danh từ", "type_short": "n", "meaning": "điểm", "example_en": "That's a good point.", "example_vi": "Đó là một điểm hay." },
+        { "word": "go", "ipa": "/gəʊ/", "type": "Động từ", "type_short": "v", "meaning": "đi", "example_en": "Let's go home.", "example_vi": "Chúng ta về nhà thôi." },
+        { "word": "home", "ipa": "/həʊm/", "type": "Danh từ", "type_short": "n", "meaning": "nhà", "example_en": "I want to go home.", "example_vi": "Tôi muốn về nhà." },
+        { "word": "nose", "ipa": "/nəʊz/", "type": "Danh từ", "type_short": "n", "meaning": "cái mũi", "example_en": "My nose is cold.", "example_vi": "Mũi tôi bị lạnh." }
+      ]
+    },
+    {
+      "orderIndex": 6,
+      "title": "Bài 7: Nguyên âm đôi 2 — /aʊ/ /ɪə/ /eə/ /ʊə/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "now", "ipa": "/naʊ/", "type": "Trạng từ", "type_short": "adv", "meaning": "bây giờ", "example_en": "I am busy now.", "example_vi": "Bây giờ tôi đang bận." },
+        { "word": "town", "ipa": "/taʊn/", "type": "Danh từ", "type_short": "n", "meaning": "thị trấn", "example_en": "They live in a small town.", "example_vi": "Họ sống ở một thị trấn nhỏ." },
+        { "word": "here", "ipa": "/hɪə/", "type": "Trạng từ", "type_short": "adv", "meaning": "ở đây", "example_en": "Come here, please.", "example_vi": "Hãy lại đây." },
+        { "word": "near", "ipa": "/nɪə/", "type": "Giới từ", "type_short": "prep", "meaning": "gần", "example_en": "The school is near my house.", "example_vi": "Trường gần nhà tôi." },
+        { "word": "ear", "ipa": "/ɪə/", "type": "Danh từ", "type_short": "n", "meaning": "tai", "example_en": "My ear hurts.", "example_vi": "Tai tôi bị đau." },
+        { "word": "there", "ipa": "/ðeə/", "type": "Trạng từ", "type_short": "adv", "meaning": "ở đó, ở kia", "example_en": "Put the box there.", "example_vi": "Đặt cái hộp ở đó." },
+        { "word": "chair", "ipa": "/tʃeə/", "type": "Danh từ", "type_short": "n", "meaning": "cái ghế", "example_en": "Sit on this chair.", "example_vi": "Ngồi trên cái ghế này." },
+        { "word": "hair", "ipa": "/heə/", "type": "Danh từ", "type_short": "n", "meaning": "tóc", "example_en": "She has long hair.", "example_vi": "Cô ấy có tóc dài." },
+        { "word": "pure", "ipa": "/pjʊə/", "type": "Tính từ", "type_short": "adj", "meaning": "trong sạch, nguyên chất", "example_en": "This is pure water.", "example_vi": "Đây là nước tinh khiết." },
+        { "word": "sure", "ipa": "/ʃʊə/", "type": "Tính từ", "type_short": "adj", "meaning": "chắc chắn", "example_en": "Are you sure?", "example_vi": "Bạn chắc chắn không?" },
+        { "word": "tour", "ipa": "/tʊə/", "type": "Danh từ", "type_short": "n", "meaning": "chuyến du lịch, tham quan", "example_en": "We went on a tour.", "example_vi": "Chúng tôi đi tham quan." }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "title": "Bài 8: Phụ âm voiced/voiceless — /b/-/p/ /d/-/t/ /g/-/k/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "pet", "ipa": "/pɛt/", "type": "Danh từ", "type_short": "n", "meaning": "vật nuôi", "example_en": "Do you have a pet?", "example_vi": "Bạn có nuôi vật nuôi không?" },
+        { "word": "talk", "ipa": "/tɔːk/", "type": "Động từ", "type_short": "v", "meaning": "nói chuyện", "example_en": "Let's talk about it.", "example_vi": "Hãy nói chuyện về việc đó." },
+        { "word": "get", "ipa": "/gɛt/", "type": "Động từ", "type_short": "v", "meaning": "nhận, lấy", "example_en": "I will get a coffee.", "example_vi": "Tôi sẽ lấy một cốc cà phê." },
+        { "word": "pig", "ipa": "/pɪg/", "type": "Danh từ", "type_short": "n", "meaning": "con lợn", "example_en": "The pig is in the farm.", "example_vi": "Con lợn ở trong trang trại." },
+        { "word": "dad", "ipa": "/dæd/", "type": "Danh từ", "type_short": "n", "meaning": "bố", "example_en": "My dad works hard.", "example_vi": "Bố tôi làm việc chăm chỉ." },
+        { "word": "tap", "ipa": "/tæp/", "type": "Danh từ", "type_short": "n", "meaning": "vòi nước", "example_en": "Turn off the tap.", "example_vi": "Tắt vòi nước đi." }
+      ]
+    },
+    {
+      "orderIndex": 8,
+      "title": "Bài 9: Phụ âm ma sát (Fricatives) — /f/-/v/ /s/-/z/ /ʃ/-/ʒ/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "fan", "ipa": "/fæn/", "type": "Danh từ", "type_short": "n", "meaning": "cái quạt", "example_en": "Turn on the fan.", "example_vi": "Hãy mở cái quạt." },
+        { "word": "van", "ipa": "/væn/", "type": "Danh từ", "type_short": "n", "meaning": "xe tải nhỏ", "example_en": "The van is parked outside.", "example_vi": "Chiếc xe tải nhỏ đang đỗ bên ngoài." },
+        { "word": "zoo", "ipa": "/zuː/", "type": "Danh từ", "type_short": "n", "meaning": "sở thú", "example_en": "We visited the zoo.", "example_vi": "Chúng tôi đã đến sở thú." },
+        { "word": "she", "ipa": "/ʃiː/", "type": "Đại từ", "type_short": "pron", "meaning": "cô ấy", "example_en": "She is my sister.", "example_vi": "Cô ấy là em gái tôi." },
+        { "word": "measure", "ipa": "/ˈmɛʒə/", "type": "Động từ", "type_short": "v", "meaning": "đo lường", "example_en": "Measure the table, please.", "example_vi": "Hãy đo cái bàn." },
+        { "word": "five", "ipa": "/faɪv/", "type": "Tính từ", "type_short": "adj", "meaning": "số năm", "example_en": "I have five fingers.", "example_vi": "Tôi có năm ngón tay." },
+        { "word": "vision", "ipa": "/ˈvɪʒən/", "type": "Danh từ", "type_short": "n", "meaning": "tầm nhìn, thị lực", "example_en": "He has good vision.", "example_vi": "Anh ấy có thị lực tốt." }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "title": "Bài 10: Âm \"th\" — 2 loại /θ/ /ð/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "think", "ipa": "/θɪŋk/", "type": "Động từ", "type_short": "v", "meaning": "nghĩ", "example_en": "I think it's true.", "example_vi": "Tôi nghĩ điều đó là đúng." },
+        { "word": "this", "ipa": "/ðɪs/", "type": "Đại từ", "type_short": "pron", "meaning": "cái này", "example_en": "This is my pen.", "example_vi": "Đây là bút của tôi." },
+        { "word": "thanks", "ipa": "/θæŋks/", "type": "Thán từ", "type_short": "interj", "meaning": "cảm ơn", "example_en": "Thanks for your help.", "example_vi": "Cảm ơn vì sự giúp đỡ của bạn." },
+        { "word": "mother", "ipa": "/ˈmʌðə/", "type": "Danh từ", "type_short": "n", "meaning": "mẹ", "example_en": "My mother is kind.", "example_vi": "Mẹ tôi rất tốt bụng." },
+        { "word": "three", "ipa": "/θriː/", "type": "Tính từ", "type_short": "adj", "meaning": "số ba", "example_en": "I have three apples.", "example_vi": "Tôi có ba quả táo." },
+        { "word": "that", "ipa": "/ðæt/", "type": "Đại từ", "type_short": "pron", "meaning": "cái đó, cái kia", "example_en": "That is a nice car.", "example_vi": "Đó là một chiếc xe đẹp." }
+      ]
+    },
+    {
+      "orderIndex": 10,
+      "title": "Bài 11: Phụ âm /r/ và /l/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "right", "ipa": "/raɪt/", "type": "Tính từ", "type_short": "adj", "meaning": "đúng; bên phải", "example_en": "You are right.", "example_vi": "Bạn đúng rồi." },
+        { "word": "light", "ipa": "/laɪt/", "type": "Danh từ", "type_short": "n", "meaning": "ánh sáng; nhẹ", "example_en": "Turn on the light.", "example_vi": "Hãy mở đèn." },
+        { "word": "rice", "ipa": "/raɪs/", "type": "Danh từ", "type_short": "n", "meaning": "cơm, gạo", "example_en": "I eat rice every day.", "example_vi": "Tôi ăn cơm mỗi ngày." },
+        { "word": "write", "ipa": "/raɪt/", "type": "Động từ", "type_short": "v", "meaning": "viết", "example_en": "Write your name here.", "example_vi": "Viết tên của bạn vào đây." },
+        { "word": "love", "ipa": "/lʌv/", "type": "Động từ", "type_short": "v", "meaning": "yêu", "example_en": "I love my family.", "example_vi": "Tôi yêu gia đình mình." }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "title": "Bài 12: Phụ âm /w/ /h/ /j/ /ŋ/",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "wet", "ipa": "/wɛt/", "type": "Tính từ", "type_short": "adj", "meaning": "ướt", "example_en": "My shoes are wet.", "example_vi": "Giày của tôi bị ướt." },
+        { "word": "yes", "ipa": "/jɛs/", "type": "Thán từ", "type_short": "interj", "meaning": "vâng, có", "example_en": "Yes, I understand.", "example_vi": "Vâng, tôi hiểu rồi." },
+        { "word": "sing", "ipa": "/sɪŋ/", "type": "Động từ", "type_short": "v", "meaning": "hát", "example_en": "She likes to sing.", "example_vi": "Cô ấy thích hát." },
+        { "word": "who", "ipa": "/huː/", "type": "Đại từ", "type_short": "pron", "meaning": "ai", "example_en": "Who is that man?", "example_vi": "Người đàn ông đó là ai?" },
+        { "word": "what", "ipa": "/wɒt/", "type": "Đại từ", "type_short": "pron", "meaning": "cái gì", "example_en": "What is this?", "example_vi": "Đây là cái gì?" },
+        { "word": "you", "ipa": "/juː/", "type": "Đại từ", "type_short": "pron", "meaning": "bạn", "example_en": "You are my friend.", "example_vi": "Bạn là bạn của tôi." },
+        { "word": "year", "ipa": "/jɪə/", "type": "Danh từ", "type_short": "n", "meaning": "năm (thời gian)", "example_en": "This year is great.", "example_vi": "Năm nay thật tuyệt." },
+        { "word": "morning", "ipa": "/ˈmɔːnɪŋ/", "type": "Danh từ", "type_short": "n", "meaning": "buổi sáng", "example_en": "Good morning!", "example_vi": "Chào buổi sáng!" },
+        { "word": "bank", "ipa": "/bæŋk/", "type": "Danh từ", "type_short": "n", "meaning": "ngân hàng", "example_en": "The bank is closed.", "example_vi": "Ngân hàng đã đóng cửa." }
+      ]
+    },
+    {
+      "orderIndex": 12,
+      "title": "Bài 13: Âm cuối từ (Final Consonants)",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "bad", "ipa": "/bæd/", "type": "Tính từ", "type_short": "adj", "meaning": "xấu, tệ", "example_en": "That is a bad idea.", "example_vi": "Đó là một ý tưởng tồi." },
+        { "word": "maps", "ipa": "/mæps/", "type": "Danh từ", "type_short": "n", "meaning": "những bản đồ", "example_en": "I need two maps.", "example_vi": "Tôi cần hai bản đồ." },
+        { "word": "dogs", "ipa": "/dɒgz/", "type": "Danh từ", "type_short": "n", "meaning": "những con chó", "example_en": "The dogs are running.", "example_vi": "Những con chó đang chạy." }
+      ]
+    },
+    {
+      "orderIndex": 13,
+      "title": "Bài 14: Đuôi -ed và -s/-es",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "walk", "ipa": "/wɔːk/", "type": "Động từ", "type_short": "v", "meaning": "đi bộ", "example_en": "I walk to school.", "example_vi": "Tôi đi bộ đến trường." },
+        { "word": "walked", "ipa": "/wɔːkt/", "type": "Động từ", "type_short": "v", "meaning": "đã đi bộ", "example_en": "I walked to school yesterday.", "example_vi": "Hôm qua tôi đã đi bộ đến trường." },
+        { "word": "play", "ipa": "/pleɪ/", "type": "Động từ", "type_short": "v", "meaning": "chơi", "example_en": "Children play in the park.", "example_vi": "Trẻ em chơi trong công viên." },
+        { "word": "played", "ipa": "/pleɪd/", "type": "Động từ", "type_short": "v", "meaning": "đã chơi", "example_en": "We played football.", "example_vi": "Chúng tôi đã chơi bóng đá." },
+        { "word": "wait", "ipa": "/weɪt/", "type": "Động từ", "type_short": "v", "meaning": "chờ", "example_en": "Please wait for me.", "example_vi": "Hãy chờ tôi." },
+        { "word": "waited", "ipa": "/ˈweɪtɪd/", "type": "Động từ", "type_short": "v", "meaning": "đã chờ", "example_en": "She waited for an hour.", "example_vi": "Cô ấy đã chờ một giờ đồng hồ." },
+        { "word": "bus", "ipa": "/bʌs/", "type": "Danh từ", "type_short": "n", "meaning": "xe buýt", "example_en": "I take the bus to work.", "example_vi": "Tôi đi xe buýt đến chỗ làm." },
+        { "word": "cats", "ipa": "/kæts/", "type": "Danh từ", "type_short": "n", "meaning": "những con mèo", "example_en": "I have two cats.", "example_vi": "Tôi có hai con mèo." },
+        { "word": "buses", "ipa": "/ˈbʌsɪz/", "type": "Danh từ", "type_short": "n", "meaning": "những chiếc xe buýt", "example_en": "The buses are full.", "example_vi": "Những chiếc xe buýt đông kín." }
+      ]
+    },
+    {
+      "orderIndex": 14,
+      "title": "Bài 15: Cụm phụ âm (Consonant Clusters)",
+      "theme": "GIAI ĐOẠN 1: NHẬN DIỆN ÂM THANH (SOUND AWARENESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "street", "ipa": "/striːt/", "type": "Danh từ", "type_short": "n", "meaning": "đường phố", "example_en": "I live on this street.", "example_vi": "Tôi sống ở con đường này." },
+        { "word": "split", "ipa": "/splɪt/", "type": "Động từ", "type_short": "v", "meaning": "chia, tách", "example_en": "Let's split the bill.", "example_vi": "Chúng ta chia hóa đơn nhé." },
+        { "word": "school", "ipa": "/skuːl/", "type": "Danh từ", "type_short": "n", "meaning": "trường học", "example_en": "I go to school by bus.", "example_vi": "Tôi đến trường bằng xe buýt." },
+        { "word": "end", "ipa": "/ɛnd/", "type": "Danh từ", "type_short": "n", "meaning": "kết thúc, đoạn cuối", "example_en": "This is the end of the story.", "example_vi": "Đây là đoạn kết của câu chuyện." }
+      ]
+    }
+  ]
+}

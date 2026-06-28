@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 61,
+    "dialogue": [
+      {
+        "title": "Free time activities",
+        "lines": [
+          { "speaker": "Phuong", "en": "What do you enjoy doing on weekends?", "vi": "Bạn thích làm gì vào cuối tuần?" },
+          { "speaker": "Anna", "en": "I enjoy reading books and listening to music.", "vi": "Tôi thích đọc sách và nghe nhạc." },
+          { "speaker": "Phuong", "en": "Do you love cooking too?", "vi": "Bạn cũng thích nấu ăn chứ?" },
+          { "speaker": "Anna", "en": "Yes, I love cooking, but I hate washing the dishes afterwards.", "vi": "Vâng, tôi thích nấu ăn, nhưng tôi ghét rửa bát sau đó." },
+          { "speaker": "Phuong", "en": "I miss living near the beach.", "vi": "Tôi nhớ việc sống gần biển." },
+          { "speaker": "Anna", "en": "I understand. We should avoid staying inside all weekend.", "vi": "Tôi hiểu. Chúng ta nên tránh việc ở trong nhà cả cuối tuần." }
+        ]
+      },
+      {
+        "title": "Suggesting an activity",
+        "lines": [
+          { "speaker": "Phuong", "en": "I suggest going for a walk this evening.", "vi": "Tôi gợi ý đi bộ vào tối nay." },
+          { "speaker": "Anna", "en": "That sounds nice. I enjoy walking after dinner.", "vi": "Nghe hay đấy. Tôi thích đi bộ sau bữa tối." },
+          { "speaker": "Phuong", "en": "Do you practise speaking English every day?", "vi": "Bạn có luyện nói tiếng Anh mỗi ngày không?" },
+          { "speaker": "Anna", "en": "Yes, I practise speaking for thirty minutes every morning.", "vi": "Vâng, tôi luyện nói trong ba mươi phút mỗi sáng." },
+          { "speaker": "Phuong", "en": "I can't imagine living without my phone.", "vi": "Tôi không thể tưởng tượng việc sống thiếu điện thoại." },
+          { "speaker": "Anna", "en": "I avoid using my phone too much before bed.", "vi": "Tôi tránh dùng điện thoại quá nhiều trước khi ngủ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 62,
+    "dialogue": [
+      {
+        "title": "Too much, not enough",
+        "lines": [
+          { "speaker": "Phuong", "en": "This bag is too heavy for me to carry.", "vi": "Cái túi này quá nặng để tôi mang." },
+          { "speaker": "Anna", "en": "Let me help. It's too big for one person.", "vi": "Để tôi giúp. Nó quá lớn cho một người." },
+          { "speaker": "Phuong", "en": "Is he tall enough to reach the shelf?", "vi": "Anh ấy có đủ cao để chạm tới cái kệ không?" },
+          { "speaker": "Anna", "en": "No, he isn't tall enough. He needs a chair.", "vi": "Không, anh ấy không đủ cao. Anh ấy cần một cái ghế." },
+          { "speaker": "Phuong", "en": "This coffee is too hot to drink right now.", "vi": "Cà phê này quá nóng để uống ngay bây giờ." },
+          { "speaker": "Anna", "en": "Wait a few minutes. It isn't cool enough yet.", "vi": "Đợi vài phút. Nó chưa đủ nguội đâu." }
+        ]
+      },
+      {
+        "title": "Is it good enough?",
+        "lines": [
+          { "speaker": "Phuong", "en": "Is the room big enough for ten people?", "vi": "Căn phòng có đủ lớn cho mười người không?" },
+          { "speaker": "Anna", "en": "No, it's too small for ten people.", "vi": "Không, nó quá nhỏ cho mười người." },
+          { "speaker": "Phuong", "en": "Are you fast enough to catch the bus?", "vi": "Bạn có đủ nhanh để bắt xe buýt không?" },
+          { "speaker": "Anna", "en": "I don't think so. I'm too slow this morning.", "vi": "Tôi không nghĩ vậy. Sáng nay tôi quá chậm." },
+          { "speaker": "Phuong", "en": "Is this test too difficult for beginners?", "vi": "Bài kiểm tra này có quá khó cho người mới bắt đầu không?" },
+          { "speaker": "Anna", "en": "Yes, it's too difficult. It isn't easy enough for them.", "vi": "Vâng, nó quá khó. Nó không đủ dễ cho họ." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,186 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 10,
+      "grammar": [
+        {
+          "title": "Past Continuous",
+          "desc": "Thì quá khứ tiếp diễn diễn tả hành động đang xảy ra tại một thời điểm cụ thể trong quá khứ.",
+          "formula": [
+            {
+              "text": "S + was/were + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I was feeling ill when I woke up.",
+              "meaning": "Tôi đang cảm thấy ốm khi tôi thức dậy."
+            },
+            {
+              "correct": "It was raining hard all day yesterday.",
+              "meaning": "Trời đã mưa lớn suốt ngày hôm qua."
+            },
+            {
+              "correct": "We were having dinner at 8 PM.",
+              "meaning": "Chúng tôi đang ăn tối vào lúc 8 giờ tối qua."
+            },
+            {
+              "correct": "She was studying while I was watching TV.",
+              "meaning": "Cô ấy đang học trong khi tôi đang xem TV."
+            }
+          ]
+        },
+        {
+          "title": "have something done",
+          "desc": "Cấu trúc nhờ vả/thuê người khác làm việc gì đó cho mình (Cầu khiến bị động).",
+          "formula": [
+            {
+              "text": "have + Object + V3/ed",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I had an operation last year.",
+              "meaning": "Tôi đã trải qua (được người khác thực hiện) một cuộc phẫu thuật vào năm ngoái."
+            },
+            {
+              "correct": "I had my hair cut yesterday.",
+              "meaning": "Tôi đã đi cắt tóc hôm qua."
+            },
+            {
+              "correct": "We are having our house painted.",
+              "meaning": "Chúng tôi đang thuê người sơn lại nhà."
+            },
+            {
+              "correct": "She had her car repaired.",
+              "meaning": "Cô ấy đã mang xe đi sửa."
+            }
+          ]
+        },
+        {
+          "title": "must / can't suy đoán",
+          "desc": "Suy đoán logic ở hiện tại: Must be (chắc chắn là), Can't be (chắc chắn không thể là).",
+          "formula": [
+            {
+              "text": "must / can't + be + Noun/Adj",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "You must be exhausted.",
+              "meaning": "Bạn chắc hẳn là kiệt sức rồi."
+            },
+            {
+              "correct": "She can't be feeling well.",
+              "meaning": "Cô ấy chắc chắn là đang không khỏe."
+            },
+            {
+              "correct": "That must be John at the door.",
+              "meaning": "Đó chắc chắn là John đang ở ngoài cửa."
+            },
+            {
+              "correct": "It can't be true.",
+              "meaning": "Điều đó không thể là sự thật được."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 11,
+      "grammar": [
+        {
+          "title": "It's worth + V-ing",
+          "desc": "Cấu trúc khuyên nhủ ai đó rằng một việc là xứng đáng để làm.",
+          "formula": [
+            {
+              "text": "It's worth + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "It's worth trying yoga.",
+              "meaning": "Tập yoga thật sự rất đáng thử."
+            },
+            {
+              "correct": "The museum is worth visiting.",
+              "meaning": "Viện bảo tàng đó rất đáng để tham quan."
+            },
+            {
+              "correct": "That movie is worth watching.",
+              "meaning": "Bộ phim đó rất đáng xem."
+            },
+            {
+              "correct": "It's not worth worrying about.",
+              "meaning": "Chẳng đáng để phải lo lắng đâu."
+            }
+          ]
+        },
+        {
+          "title": "there's no point (in) + V-ing",
+          "desc": "Cấu trúc phàn nàn/nhận định rằng làm việc gì đó là vô ích.",
+          "formula": [
+            {
+              "text": "There is no point (in) + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "There's no point in complaining.",
+              "meaning": "Phàn nàn cũng vô ích thôi."
+            },
+            {
+              "correct": "There is no point in waiting for him.",
+              "meaning": "Đợi chờ anh ấy là vô ích."
+            },
+            {
+              "correct": "There's no point in arguing.",
+              "meaning": "Cãi nhau cũng chẳng có ích gì."
+            },
+            {
+              "correct": "There's no point in doing this again.",
+              "meaning": "Chẳng có ích gì khi làm lại việc này."
+            }
+          ]
+        },
+        {
+          "title": "be worth + V-ing vs be worth + noun",
+          "desc": "Worth đi với V-ing mang nghĩa 'đáng để làm gì', đi với danh từ/tiền tệ mang nghĩa 'có giá trị bao nhiêu'.",
+          "formula": [
+            {
+              "text": "be worth + V-ing",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            },
+            {
+              "text": "be worth + Noun/Money",
+              "classes": "border-blue-200 bg-blue-50 text-blue-700"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "The book is worth reading.",
+              "meaning": "Cuốn sách này đáng để đọc."
+            },
+            {
+              "correct": "It is worth $10.",
+              "meaning": "Nó trị giá 10 đô la."
+            },
+            {
+              "correct": "The painting is worth millions.",
+              "meaning": "Bức tranh trị giá hàng triệu đô."
+            },
+            {
+              "correct": "This idea is worth exploring.",
+              "meaning": "Ý tưởng này rất đáng để khám phá."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

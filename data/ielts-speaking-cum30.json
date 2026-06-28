@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 59,
+    "speaking": [
+      {
+        "title": "Speaking Part 3: Uncertain predictions",
+        "part": 3,
+        "questions": ["Do you think life might change a lot in the future?", "Could technology replace some jobs?", "Might people work from home more often?"],
+        "sampleAnswer": "Yes, life might change a lot because of technology. Some jobs could be replaced by machines. People might work from home more often than before."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Wishes and decisions",
+        "part": 1,
+        "questions": ["What do you want to do this year?", "Have you decided to change anything in your life?", "What do you hope to achieve?"],
+        "sampleAnswer": "I want to improve my English this year. Yes, I decided to study more every day. I hope to achieve a good score in my exam."
+      }
+    ]
+  }
+]

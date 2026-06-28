@@ -1,0 +1,173 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 5,
+      "grammar": [
+        {
+          "title": "Present Simple vs Present Continuous",
+          "desc": "So sánh Hiện tại đơn (thói quen) và Hiện tại tiếp diễn (đang xảy ra).",
+          "formula": [
+            {
+              "text": "S + V(s/es) (HTĐ)",
+              "meaning": "Diễn tả thói quen, sự thật hiển nhiên"
+            },
+            {
+              "text": "S + am/is/are + V-ing (HTTD)",
+              "meaning": "Diễn tả hành động đang xảy ra lúc nói"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I usually do the housework on Sundays.",
+              "meaning": "Tôi thường làm việc nhà vào các ngày Chủ nhật."
+            },
+            {
+              "correct": "She is using the washing machine right now.",
+              "meaning": "Hiện tại cô ấy đang sử dụng máy giặt."
+            },
+            {
+              "correct": "We are cleaning the kitchen.",
+              "meaning": "Chúng tôi đang dọn dẹp nhà bếp."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 6,
+      "dialogue": [
+        {
+          "title": "Buying a gift",
+          "desc": "Nghe cuộc trò chuyện khi đi mua sắm (shopping).",
+          "characters": [
+            "Customer",
+            "Assistant"
+          ],
+          "lines": [
+            {
+              "speaker": "Customer",
+              "vi": "Tôi đang tìm một món quà cho bạn của tôi.",
+              "en": "I am looking for a gift for my friend."
+            },
+            {
+              "speaker": "Assistant",
+              "vi": "Sợi dây chuyền bạc này thì sao?",
+              "en": "How about this silver necklace?"
+            },
+            {
+              "speaker": "Customer",
+              "vi": "Nó thật đẹp. Nó có giá bao nhiêu?",
+              "en": "It's beautiful. How much does it cost?"
+            },
+            {
+              "speaker": "Assistant",
+              "vi": "Nó có giá 50 đô la. Tôi sẽ cho nó vào một chiếc hộp đẹp cho bạn.",
+              "en": "It is fifty dollars. I will put it in a nice box for you."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 7,
+      "grammar": [
+        {
+          "title": "Quantifiers (some, any, much, many, a lot of)",
+          "desc": "Sử dụng từ chỉ số lượng phù hợp với danh từ.",
+          "formula": [
+            {
+              "text": "some / a lot of",
+              "meaning": "Dùng trong câu khẳng định"
+            },
+            {
+              "text": "any / much / many",
+              "meaning": "Dùng trong câu phủ định và nghi vấn"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "I have a lot of books in my room.",
+              "meaning": "Tôi có rất nhiều sách trong phòng của mình."
+            },
+            {
+              "correct": "Do you have any money?",
+              "meaning": "Bạn có chút tiền nào không?"
+            },
+            {
+              "correct": "There isn't much milk in the fridge.",
+              "meaning": "Không có nhiều sữa trong tủ lạnh."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 8,
+      "dialogue": [
+        {
+          "title": "At the post office",
+          "desc": "Nghe cuộc trò chuyện tại bưu điện.",
+          "characters": [
+            "Customer",
+            "Clerk"
+          ],
+          "lines": [
+            {
+              "speaker": "Customer",
+              "vi": "Tôi cần gửi bưu kiện này tới Luân Đôn.",
+              "en": "I need to send this parcel to London, please."
+            },
+            {
+              "speaker": "Clerk",
+              "vi": "Hãy đặt nó lên bàn cân. Phí gửi sẽ là năm bảng Anh.",
+              "en": "Put it on the scales. That will be five pounds."
+            },
+            {
+              "speaker": "Customer",
+              "vi": "Tôi cũng muốn mua vài con tem cho những bức thư này.",
+              "en": "I also want to buy some stamps for these letters."
+            },
+            {
+              "speaker": "Clerk",
+              "vi": "Chắc chắn rồi. Của bạn đây.",
+              "en": "Sure. Here you are."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 9,
+      "grammar": [
+        {
+          "title": "Countable & Uncountable Nouns",
+          "desc": "Phân biệt danh từ đếm được (có thể thêm 's') và không đếm được (không thêm 's').",
+          "formula": [
+            {
+              "text": "Countable: an apple, two apples",
+              "meaning": "Đếm được (có thể số ít/số nhiều)"
+            },
+            {
+              "text": "Uncountable: some water, a lot of rice",
+              "meaning": "Không đếm được (luôn ở dạng số ít)"
+            }
+          ],
+          "practiceList": [
+            {
+              "correct": "We need to buy three apples and some sugar.",
+              "meaning": "Chúng ta cần mua ba quả táo và một ít đường."
+            },
+            {
+              "correct": "Is there any water in the bottle?",
+              "meaning": "Có chút nước nào trong chai không?"
+            },
+            {
+              "correct": "She ate two sandwiches for lunch.",
+              "meaning": "Cô ấy đã ăn hai chiếc bánh mì kẹp cho bữa trưa."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

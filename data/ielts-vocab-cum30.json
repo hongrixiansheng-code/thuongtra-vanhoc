@@ -1,0 +1,202 @@
+[
+  {
+    "lessonOrder": 58,
+    "vocab": [
+      {
+        "word": "need to",
+        "ipa": "/niːd tuː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cần phải",
+        "example_en": "You need to rest.",
+        "example_vi": "Bạn cần phải nghỉ ngơi.",
+        "level": "A2"
+      },
+      {
+        "word": "want to",
+        "ipa": "/wɒnt tuː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "muốn",
+        "example_en": "I want to sleep.",
+        "example_vi": "Tôi muốn ngủ.",
+        "level": "A2"
+      },
+      {
+        "word": "choose to",
+        "ipa": "/tʃuːz tuː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chọn",
+        "example_en": "I choose to go.",
+        "example_vi": "Tôi chọn việc rời đi.",
+        "level": "A2"
+      },
+      {
+        "word": "volunteer",
+        "ipa": "/ˌvɒl.ənˈtɪər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tình nguyện",
+        "example_en": "I will volunteer.",
+        "example_vi": "Tôi sẽ tình nguyện.",
+        "level": "A2"
+      },
+      {
+        "word": "help",
+        "ipa": "/help/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "giúp đỡ",
+        "example_en": "Please help me.",
+        "example_vi": "Làm ơn hãy giúp tôi.",
+        "level": "A2"
+      },
+      {
+        "word": "join",
+        "ipa": "/dʒɔɪn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "tham gia",
+        "example_en": "Join the club.",
+        "example_vi": "Hãy tham gia câu lạc bộ.",
+        "level": "A2"
+      },
+      {
+        "word": "free",
+        "ipa": "/friː/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "tự do, miễn phí",
+        "example_en": "I am free today.",
+        "example_vi": "Tôi rảnh vào hôm nay.",
+        "level": "A2"
+      },
+      {
+        "word": "force",
+        "ipa": "/fɔːs/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ép buộc",
+        "example_en": "Do not force him.",
+        "example_vi": "Đừng ép buộc anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "allow",
+        "ipa": "/əˈlaʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "cho phép",
+        "example_en": "They allowed it.",
+        "example_vi": "Họ đã cho phép điều đó.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 59,
+    "vocab": [
+      {
+        "word": "can",
+        "ipa": "/kæn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể",
+        "example_en": "I can swim.",
+        "example_vi": "Tôi có thể bơi.",
+        "level": "A2"
+      },
+      {
+        "word": "could",
+        "ipa": "/kʊd/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể (quá khứ/lịch sự)",
+        "example_en": "Could you help?",
+        "example_vi": "Bạn có thể giúp không?",
+        "level": "A2"
+      },
+      {
+        "word": "might",
+        "ipa": "/maɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể (khả năng thấp)",
+        "example_en": "It might rain.",
+        "example_vi": "Trời có thể sẽ mưa.",
+        "level": "A2"
+      },
+      {
+        "word": "may",
+        "ipa": "/meɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có thể (xin phép/khả năng)",
+        "example_en": "May I come in?",
+        "example_vi": "Tôi có thể vào không?",
+        "level": "A2"
+      },
+      {
+        "word": "possible",
+        "ipa": "/ˈpɒs.ə.bəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "có thể",
+        "example_en": "It is possible.",
+        "example_vi": "Điều đó là có thể.",
+        "level": "A2"
+      },
+      {
+        "word": "probable",
+        "ipa": "/ˈprɒb.ə.bəl/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "có khả năng xảy ra",
+        "example_en": "It is probable.",
+        "example_vi": "Điều đó có khả năng xảy ra.",
+        "level": "A2"
+      },
+      {
+        "word": "sure",
+        "ipa": "/ʃɔːr/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "chắc chắn",
+        "example_en": "Are you sure?",
+        "example_vi": "Bạn có chắc không?",
+        "level": "A2"
+      },
+      {
+        "word": "certain",
+        "ipa": "/ˈsɜː.tən/",
+        "type": "adjective",
+        "type_short": "adj.",
+        "meaning": "chắc chắn",
+        "example_en": "I am certain.",
+        "example_vi": "Tôi chắc chắn.",
+        "level": "A2"
+      },
+      {
+        "word": "guess",
+        "ipa": "/ɡes/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đoán",
+        "example_en": "I guess so.",
+        "example_vi": "Tôi đoán vậy.",
+        "level": "A2"
+      },
+      {
+        "word": "doubt",
+        "ipa": "/daʊt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghi ngờ",
+        "example_en": "I doubt it.",
+        "example_vi": "Tôi nghi ngờ điều đó.",
+        "level": "A2"
+      }
+    ]
+  }
+]

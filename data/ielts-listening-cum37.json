@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 73,
+    "listening": [
+      {
+        "title": "Listening: Review — An achievement",
+        "transcript": "I have already finished my first book. I have worked on it since I was in university. It has just been published last month.",
+        "questions": [
+          { "type": "multiple_choice", "question": "When was the book published?", "options": ["Last month", "Last year", "Two years ago"], "correct": "Last month", "explanation": "\"it has just been published last month.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 74,
+    "listening": [
+      {
+        "title": "Listening: A weather plan",
+        "transcript": "If it rains tomorrow, we will stay at home. If it is sunny, we will go to the beach instead.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What will they do if it rains?", "options": ["Go to the beach", "Stay at home", "Go shopping"], "correct": "Stay at home", "explanation": "\"If it rains tomorrow, we will stay at home.\"" }
+        ]
+      }
+    ]
+  }
+]

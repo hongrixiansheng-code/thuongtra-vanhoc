@@ -1,0 +1,56 @@
+[
+  {
+    "lessonOrder": 65,
+    "dialogue": [
+      {
+        "title": "Sharing life experiences",
+        "lines": [
+          { "speaker": "Huy", "en": "I have had so many great experiences this year.", "vi": "Năm nay tôi đã có rất nhiều trải nghiệm tuyệt vời." },
+          { "speaker": "Kate", "en": "Really? What was your biggest achievement?", "vi": "Thật sao? Thành tích lớn nhất của bạn là gì?" },
+          { "speaker": "Huy", "en": "I have completed my first marathon. It was a real challenge.", "vi": "Tôi đã hoàn thành cuộc thi marathon đầu tiên của mình. Đó là một thử thách thực sự." },
+          { "speaker": "Kate", "en": "That sounds like a memorable adventure!", "vi": "Nghe có vẻ là một cuộc hành trình đáng nhớ!" },
+          { "speaker": "Huy", "en": "It was. I have also had a new opportunity at work.", "vi": "Đúng vậy. Tôi cũng đã có một cơ hội mới ở chỗ làm." },
+          { "speaker": "Kate", "en": "That's wonderful. You have achieved a lot this year.", "vi": "Tuyệt vậy. Bạn đã đạt được rất nhiều thứ năm nay." }
+        ]
+      },
+      {
+        "title": "Talking about new experiences",
+        "lines": [
+          { "speaker": "Yen", "en": "She has tried a new hobby recently.", "vi": "Cô ấy gần đây đã thử một sở thích mới." },
+          { "speaker": "Peter", "en": "What has she tried?", "vi": "Cô ấy đã thử gì vậy?" },
+          { "speaker": "Yen", "en": "She has joined a painting class. It's a good experience for her.", "vi": "Cô ấy đã tham gia một lớp học vẽ. Đó là một trải nghiệm tốt cho cô ấy." },
+          { "speaker": "Peter", "en": "Has she finished any paintings yet?", "vi": "Cô ấy đã hoàn thành bức tranh nào chưa?" },
+          { "speaker": "Yen", "en": "Yes, she has finished two paintings already.", "vi": "Vâng, cô ấy đã hoàn thành hai bức tranh rồi." },
+          { "speaker": "Peter", "en": "I have always wanted to try painting too.", "vi": "Tôi cũng luôn muốn thử vẽ." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "dialogue": [
+      {
+        "title": "Have you ever...?",
+        "lines": [
+          { "speaker": "John", "en": "Have you ever visited Da Lat?", "vi": "Bạn đã từng đến Đà Lạt chưa?" },
+          { "speaker": "Mai", "en": "Yes, I have visited it twice. Have you ever tried Vietnamese coffee?", "vi": "Vâng, tôi đã đến đó hai lần. Bạn đã từng thử cà phê Việt Nam chưa?" },
+          { "speaker": "John", "en": "Yes, I have tried it many times. Have you ever met a famous person?", "vi": "Vâng, tôi đã thử nhiều lần. Bạn đã từng gặp người nổi tiếng chưa?" },
+          { "speaker": "Mai", "en": "No, I have never met a famous person.", "vi": "Không, tôi chưa từng gặp người nổi tiếng." },
+          { "speaker": "John", "en": "Have you ever travelled alone?", "vi": "Bạn đã từng đi du lịch một mình chưa?" },
+          { "speaker": "Mai", "en": "Yes, I have travelled alone once. It was a great experience.", "vi": "Vâng, tôi đã từng đi du lịch một mình một lần. Đó là một trải nghiệm tuyệt vời." }
+        ]
+      },
+      {
+        "title": "Never done that before",
+        "lines": [
+          { "speaker": "Anna", "en": "I have never learned to swim.", "vi": "Tôi chưa từng học bơi." },
+          { "speaker": "Quang", "en": "Really? I have never lived in another country.", "vi": "Thật sao? Tôi chưa từng sống ở một quốc gia khác." },
+          { "speaker": "Anna", "en": "Have you ever worked abroad?", "vi": "Bạn đã từng làm việc ở nước ngoài chưa?" },
+          { "speaker": "Quang", "en": "No, I haven't, but I have read many books about it.", "vi": "Không, tôi chưa, nhưng tôi đã đọc nhiều cuốn sách về điều đó." },
+          { "speaker": "Anna", "en": "Have you ever achieved something you are proud of?", "vi": "Bạn đã từng đạt được điều gì khiến bạn tự hào chưa?" },
+          { "speaker": "Quang", "en": "Yes, I have achieved a high score in my exam.", "vi": "Vâng, tôi đã đạt được điểm cao trong kỳ thi của mình." }
+        ]
+      }
+    ]
+  }
+]

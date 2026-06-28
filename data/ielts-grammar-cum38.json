@@ -1,0 +1,50 @@
+[
+  {
+    "lessonOrder": 75,
+    "grammar": [
+      {
+        "title": "Câu điều kiện loại 2 (Conditional 2) — Giả định",
+        "desc": "Dùng để nói về một điều kiện không có thật hoặc khó xảy ra ở hiện tại, và kết quả giả định.",
+        "formula": [
+          { "text": "If + S + Past Simple", "classes": "border-amber-500 text-amber-600 bg-amber-50" },
+          { "text": "S + would + V", "classes": "border-blue-500 text-blue-600 bg-blue-50" }
+        ],
+        "examples": [
+          { "en": "If I had a lot of money, I would travel around the world.", "vi": "Nếu tôi có nhiều tiền, tôi sẽ đi du lịch khắp thế giới." },
+          { "en": "If she knew the answer, she would tell you.", "vi": "Nếu cô ấy biết câu trả lời, cô ấy sẽ nói cho bạn." },
+          { "en": "I would buy that house if I were rich.", "vi": "Tôi sẽ mua căn nhà đó nếu tôi giàu." }
+        ],
+        "note": "Mệnh đề \"if\" dùng Past Simple (nhưng mang nghĩa giả định, không phải quá khứ thật). Với động từ \"to be\", thường dùng \"were\" cho mọi chủ ngữ trong câu giả định.",
+        "practiceList": [
+          { "question": "If I ___ (be) you, I would accept the offer.", "correct": "were", "meaning": "Nếu tôi là bạn, tôi sẽ chấp nhận đề nghị.", "explanation": "Trong câu điều kiện loại 2, \"to be\" thường dùng \"were\"." },
+          { "question": "If he had more time, he ___ (learn) a new language.", "correct": "would learn", "meaning": "Nếu anh ấy có nhiều thời gian hơn, anh ấy sẽ học một ngôn ngữ mới.", "explanation": "Mệnh đề kết quả dùng \"would\" + V." },
+          { "question": "If they ___ (live) closer, we would meet more often.", "correct": "lived", "meaning": "Nếu họ sống gần hơn, chúng ta sẽ gặp nhau thường xuyên hơn.", "explanation": "Mệnh đề \"if\" dùng Past Simple." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 76,
+    "grammar": [
+      {
+        "title": "Phân biệt Câu điều kiện loại 1 và loại 2",
+        "desc": "Loại 1: điều kiện có khả năng xảy ra thật (If + Present, will). Loại 2: điều kiện giả định, khó/không có thật (If + Past, would).",
+        "formula": [
+          { "text": "Loại 1: If + Present, will + V (thực tế)", "classes": "border-green-500 text-green-600 bg-green-50" },
+          { "text": "Loại 2: If + Past, would + V (giả định)", "classes": "border-amber-500 text-amber-600 bg-amber-50" }
+        ],
+        "examples": [
+          { "en": "If I have free time this weekend, I will visit you.", "vi": "Nếu tôi có thời gian rảnh cuối tuần này, tôi sẽ đến thăm bạn. (có khả năng thật)" },
+          { "en": "If I had wings, I would fly.", "vi": "Nếu tôi có cánh, tôi sẽ bay. (giả định không có thật)" },
+          { "en": "If it rains tomorrow, the match will be cancelled.", "vi": "Nếu ngày mai mưa, trận đấu sẽ bị hủy. (thực tế)" }
+        ],
+        "note": "Chọn loại 1 khi tình huống có khả năng thật xảy ra; chọn loại 2 khi tình huống là giả định/không có thật/khó xảy ra.",
+        "practiceList": [
+          { "question": "If I ___ (win) the lottery, I would buy a big house. (giả định)", "correct": "won", "meaning": "Nếu tôi trúng số, tôi sẽ mua một căn nhà lớn.", "explanation": "Tình huống khó xảy ra → câu điều kiện loại 2." },
+          { "question": "If you ___ (finish) your homework, you can watch TV. (thực tế)", "correct": "finish", "meaning": "Nếu bạn làm xong bài tập, bạn có thể xem TV.", "explanation": "Tình huống có khả năng thật → câu điều kiện loại 1." },
+          { "question": "If I ___ (be) a bird, I would fly to every country.", "correct": "were", "meaning": "Nếu tôi là một con chim, tôi sẽ bay đến mọi quốc gia.", "explanation": "Tình huống không có thật → câu điều kiện loại 2." }
+        ]
+      }
+    ]
+  }
+]

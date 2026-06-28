@@ -1,0 +1,45 @@
+[
+  {
+    "lessonOrder": 73,
+    "dialogue": [
+      {
+        "title": "Review: Talking about achievements",
+        "lines": [
+          { "speaker": "Mark", "en": "Have you ever achieved something amazing this year?", "vi": "Năm nay bạn đã từng đạt được điều gì tuyệt vời chưa?" },
+          { "speaker": "Hoa", "en": "Yes, I have already finished my first book. I started it two years ago.", "vi": "Vâng, tôi đã hoàn thành cuốn sách đầu tiên của mình. Tôi bắt đầu nó hai năm trước." },
+          { "speaker": "Mark", "en": "That's great! How long have you worked on it?", "vi": "Tuyệt vậy! Bạn đã làm việc với nó bao lâu rồi?" },
+          { "speaker": "Hoa", "en": "I have worked on it since I was in university.", "vi": "Tôi đã làm việc với nó từ khi tôi học đại học." },
+          { "speaker": "Mark", "en": "It was published recently, wasn't it?", "vi": "Nó được xuất bản gần đây phải không?" },
+          { "speaker": "Hoa", "en": "Yes, it has just been published last month.", "vi": "Vâng, nó vừa được xuất bản tháng trước." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 74,
+    "dialogue": [
+      {
+        "title": "Planning for the weather",
+        "lines": [
+          { "speaker": "Anna", "en": "If it rains tomorrow, we will stay at home.", "vi": "Nếu ngày mai mưa, chúng ta sẽ ở nhà." },
+          { "speaker": "Quang", "en": "If it is sunny, we will go to the beach instead.", "vi": "Nếu trời nắng, chúng ta sẽ đi biển thay vào đó." },
+          { "speaker": "Anna", "en": "If you don't bring an umbrella, you will get wet.", "vi": "Nếu bạn không mang dù, bạn sẽ bị ướt." },
+          { "speaker": "Quang", "en": "Don't worry. If it starts to rain, I will buy one.", "vi": "Đừng lo. Nếu trời bắt đầu mưa, tôi sẽ mua một cái." },
+          { "speaker": "Anna", "en": "If we leave now, we will arrive before the storm.", "vi": "Nếu chúng ta đi ngay bây giờ, chúng ta sẽ đến trước khi bão tới." },
+          { "speaker": "Quang", "en": "Good idea. If we hurry, we will be safe.", "vi": "Ý hay. Nếu chúng ta nhanh lên, chúng ta sẽ an toàn." }
+        ]
+      },
+      {
+        "title": "Following the rules",
+        "lines": [
+          { "speaker": "Thao", "en": "If you don't wear a helmet, you will get a fine.", "vi": "Nếu bạn không đội mũ bảo hiểm, bạn sẽ bị phạt." },
+          { "speaker": "Jack", "en": "If we follow the safety rules, there will be fewer accidents.", "vi": "Nếu chúng ta tuân theo các quy tắc an toàn, sẽ có ít vụ tai nạn hơn." },
+          { "speaker": "Thao", "en": "If the company breaks this regulation, it will face a penalty.", "vi": "Nếu công ty vi phạm quy định này, nó sẽ phải đối mặt với một hình phạt." },
+          { "speaker": "Jack", "en": "What will happen if they don't fix the problem?", "vi": "Điều gì sẽ xảy ra nếu họ không giải quyết vấn đề?" },
+          { "speaker": "Thao", "en": "If they ignore the warning, the consequence will be serious.", "vi": "Nếu họ phớt lờ lời cảnh báo, hậu quả sẽ nghiêm trọng." },
+          { "speaker": "Jack", "en": "I see. If we are careful, we will avoid this outcome.", "vi": "Tôi hiểu. Nếu chúng ta cẩn thận, chúng ta sẽ tránh được kết quả này." }
+        ]
+      }
+    ]
+  }
+]

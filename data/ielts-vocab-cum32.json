@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 62,
+    "vocab": [
+      {
+        "word": "problem",
+        "ipa": "/ˈprɒb.ləm/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vấn đề",
+        "example_en": "It is a big problem.",
+        "example_vi": "Đó là một vấn đề lớn.",
+        "level": "A2"
+      },
+      {
+        "word": "issue",
+        "ipa": "/ˈɪʃ.uː/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "vấn đề",
+        "example_en": "A serious issue.",
+        "example_vi": "Một vấn đề nghiêm trọng.",
+        "level": "A2"
+      },
+      {
+        "word": "trouble",
+        "ipa": "/ˈtrʌb.əl/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "rắc rối",
+        "example_en": "I am in trouble.",
+        "example_vi": "Tôi đang gặp rắc rối.",
+        "level": "A2"
+      },
+      {
+        "word": "limit",
+        "ipa": "/ˈlɪm.ɪt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "giới hạn",
+        "example_en": "Know your limit.",
+        "example_vi": "Hãy biết giới hạn của bạn.",
+        "level": "A2"
+      },
+      {
+        "word": "border",
+        "ipa": "/ˈbɔː.dər/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "biên giới",
+        "example_en": "Cross the border.",
+        "example_vi": "Băng qua biên giới.",
+        "level": "A2"
+      },
+      {
+        "word": "boundary",
+        "ipa": "/ˈbaʊn.dər.i/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "ranh giới",
+        "example_en": "A clear boundary.",
+        "example_vi": "Một ranh giới rõ ràng.",
+        "level": "A2"
+      },
+      {
+        "word": "edge",
+        "ipa": "/edʒ/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "rìa, mép",
+        "example_en": "The edge of the table.",
+        "example_vi": "Mép bàn.",
+        "level": "A2"
+      },
+      {
+        "word": "end",
+        "ipa": "/end/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kết thúc",
+        "example_en": "The end of the book.",
+        "example_vi": "Phần kết của cuốn sách.",
+        "level": "A2"
+      },
+      {
+        "word": "stop",
+        "ipa": "/stɒp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "dừng lại",
+        "example_en": "Stop here.",
+        "example_vi": "Dừng lại ở đây.",
+        "level": "A2"
+      },
+      {
+        "word": "block",
+        "ipa": "/blɒk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ngăn chặn",
+        "example_en": "Block the road.",
+        "example_vi": "Chặn đường lại.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 63,
+    "vocab": [
+      {
+        "word": "cause",
+        "ipa": "/kɔːz/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "nguyên nhân",
+        "example_en": "What is the cause?",
+        "example_vi": "Nguyên nhân là gì?",
+        "level": "A2"
+      },
+      {
+        "word": "effect",
+        "ipa": "/ɪˈfekt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "tác động, hiệu ứng",
+        "example_en": "A bad effect.",
+        "example_vi": "Một tác động xấu.",
+        "level": "A2"
+      },
+      {
+        "word": "reason",
+        "ipa": "/ˈriː.zən/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "lý do",
+        "example_en": "Give me a reason.",
+        "example_vi": "Hãy cho tôi một lý do.",
+        "level": "A2"
+      },
+      {
+        "word": "result",
+        "ipa": "/rɪˈzʌlt/",
+        "type": "noun",
+        "type_short": "n.",
+        "meaning": "kết quả",
+        "example_en": "The final result.",
+        "example_vi": "Kết quả cuối cùng.",
+        "level": "A2"
+      },
+      {
+        "word": "so",
+        "ipa": "/səʊ/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "vì vậy",
+        "example_en": "It rained, so I stayed.",
+        "example_vi": "Trời mưa, vì vậy tôi đã ở lại.",
+        "level": "A2"
+      },
+      {
+        "word": "because",
+        "ipa": "/bɪˈkɒz/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "bởi vì",
+        "example_en": "Because I was sick.",
+        "example_vi": "Bởi vì tôi đã bị ốm.",
+        "level": "A2"
+      },
+      {
+        "word": "therefore",
+        "ipa": "/ˈðeə.fɔːr/",
+        "type": "adverb",
+        "type_short": "adv.",
+        "meaning": "do đó",
+        "example_en": "He was late, therefore he ran.",
+        "example_vi": "Anh ấy đã đến muộn, do đó anh ấy đã chạy.",
+        "level": "A2"
+      },
+      {
+        "word": "since",
+        "ipa": "/sɪns/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "từ khi, bởi vì",
+        "example_en": "Since you are here...",
+        "example_vi": "Bởi vì bạn đã ở đây...",
+        "level": "A2"
+      },
+      {
+        "word": "as",
+        "ipa": "/æz/",
+        "type": "conjunction",
+        "type_short": "conj.",
+        "meaning": "bởi vì, khi",
+        "example_en": "As it was raining...",
+        "example_vi": "Bởi vì trời đang mưa...",
+        "level": "A2"
+      },
+      {
+        "word": "due to",
+        "ipa": "/dʒuː tuː/",
+        "type": "phrase",
+        "type_short": "phr.",
+        "meaning": "do, bởi",
+        "example_en": "Due to the weather.",
+        "example_vi": "Do thời tiết.",
+        "level": "A2"
+      }
+    ]
+  }
+]

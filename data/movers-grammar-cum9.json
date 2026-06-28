@@ -1,0 +1,146 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 17,
+      "grammar": [
+        {
+          "title": "So sánh -er / -est (Ôn tập mở rộng)",
+          "desc": "Cùng ôn lại cách thêm '-er' để so sánh hơn và '-est' để so sánh nhất với các tính từ thông dụng.",
+          "formula": [
+            { "text": "tall", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "-> taller ->", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "tallest", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "He is the tallest boy in the class.", "meaning": "Cậu ấy là cậu bé cao nhất trong lớp." },
+            { "correct": "My bag is smaller than your bag.", "meaning": "Cặp của tớ thì nhỏ hơn cặp của cậu." },
+            { "correct": "It is the longest river.", "meaning": "Đó là con sông dài nhất." }
+          ]
+        },
+        {
+          "title": "There is / There are (Thiên nhiên)",
+          "desc": "Dùng 'There is' (có một) hoặc 'There are' (có nhiều) để miêu tả các sự vật trong thiên nhiên.",
+          "formula": [
+            { "text": "There are", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "many trees", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+            { "text": "in the forest.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "There is a river behind the mountain.", "meaning": "Có một con sông ở phía sau ngọn núi." },
+            { "correct": "There are beautiful flowers here.", "meaning": "Có những bông hoa đẹp ở đây." },
+            { "correct": "Is there a lake?", "meaning": "Có một cái hồ nào không?" }
+          ]
+        },
+        {
+          "title": "Câu hỏi: What is the weather like?",
+          "desc": "Dùng câu hỏi 'What is the weather like?' để hỏi xem thời tiết hôm nay như thế nào.",
+          "formula": [
+            { "text": "What is", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "the weather", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "like?", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "What is the weather like today?", "meaning": "Thời tiết hôm nay như thế nào?" },
+            { "correct": "What is the weather like in summer?", "meaning": "Thời tiết vào mùa hè như thế nào?" },
+            { "correct": "I want to know what the weather is like.", "meaning": "Tớ muốn biết thời tiết như thế nào." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "A trip to the mountains",
+          "lines": [
+            { "speaker": "A", "en": "What is the weather like in the mountains?", "vi": "Thời tiết ở vùng núi như thế nào vậy?" },
+            { "speaker": "B", "en": "It is colder than here. Sometimes it snows.", "vi": "Trời lạnh hơn ở đây. Thỉnh thoảng có tuyết rơi." },
+            { "speaker": "A", "en": "Are there any tall trees?", "vi": "Có những cái cây nào cao không?" },
+            { "speaker": "B", "en": "Yes, there is the tallest tree in the country.", "vi": "Có, có cái cây cao nhất trong cả nước." },
+            { "speaker": "A", "en": "There are many beautiful birds too, right?", "vi": "Cũng có rất nhiều loài chim đẹp, đúng không?" },
+            { "speaker": "B", "en": "Yes, they sing in the morning.", "vi": "Đúng vậy, chúng hót vào buổi sáng." }
+          ]
+        },
+        {
+          "title": "Looking at a picture",
+          "lines": [
+            { "speaker": "A", "en": "Look at this picture. There is a long river.", "vi": "Hãy nhìn bức tranh này. Có một con sông dài." },
+            { "speaker": "B", "en": "Is it the longest river in the world?", "vi": "Đó có phải là con sông dài nhất thế giới không?" },
+            { "speaker": "A", "en": "No, it isn't. But it is very beautiful.", "vi": "Không phải đâu. Nhưng nó rất đẹp." },
+            { "speaker": "B", "en": "There are some small houses near the river.", "vi": "Có vài ngôi nhà nhỏ ở gần con sông." },
+            { "speaker": "A", "en": "Yes, they are smaller than my house.", "vi": "Đúng vậy, chúng nhỏ hơn nhà của tớ." },
+            { "speaker": "B", "en": "I want to go there on a sunny day.", "vi": "Tớ muốn đi đến đó vào một ngày nắng." }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 18,
+      "grammar": [
+        {
+          "title": "Liên từ nguyên nhân: because",
+          "desc": "Dùng 'because' (bởi vì) để nối hai câu, dùng khi bạn muốn giải thích lý do hoặc nguyên nhân cho một việc gì đó.",
+          "formula": [
+            { "text": "I am wearing a coat", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "because", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "it is cold.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "I stayed at home because it rained.", "meaning": "Tớ đã ở nhà bởi vì trời mưa." },
+            { "correct": "She is crying because she is sad.", "meaning": "Cô bé đang khóc bởi vì cô bé buồn." },
+            { "correct": "We can't play because it is too dark.", "meaning": "Chúng ta không thể chơi được bởi vì trời quá tối." }
+          ]
+        },
+        {
+          "title": "Ôn tập: Trạng từ thời tiết",
+          "desc": "Ôn lại các từ miêu tả thời tiết: sunny, windy, snowing. Nhớ rằng 'snowing' là dạng tiếp diễn của động từ 'snow'.",
+          "formula": [
+            { "text": "It is", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "sunny / windy /", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "snowing.", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "It is snowing in the mountains.", "meaning": "Trời đang có tuyết rơi trên những ngọn núi." },
+            { "correct": "It was very windy yesterday.", "meaning": "Trời đã rất nhiều gió vào ngày hôm qua." },
+            { "correct": "Let's go to the beach because it is sunny.", "meaning": "Hãy đi ra bãi biển thôi vì trời đang nắng." }
+          ]
+        },
+        {
+          "title": "Ôn tập tổng hợp Chương 6",
+          "desc": "Cùng ôn lại: Các động vật số nhiều bất quy tắc, các trạng từ thời tiết, There is/are và because.",
+          "formula": [
+            { "text": "Animals", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+            { "text": "and", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+            { "text": "Nature", "classes": "border-green-200 bg-green-50 text-green-700" }
+          ],
+          "practiceList": [
+            { "correct": "There are some kittens because my cat had babies.", "meaning": "Có vài chú mèo con bởi vì mèo của tớ đã sinh con." },
+            { "correct": "What is the weather like in the forest?", "meaning": "Thời tiết ở trong khu rừng thì như thế nào?" },
+            { "correct": "The leaves are falling because it is windy.", "meaning": "Những chiếc lá đang rơi bởi vì trời đang có gió." }
+          ]
+        }
+      ],
+      "dialogue": [
+        {
+          "title": "Staying inside",
+          "lines": [
+            { "speaker": "A", "en": "Why are you staying inside?", "vi": "Tại sao cậu lại ở trong nhà vậy?" },
+            { "speaker": "B", "en": "Because it is snowing outside.", "vi": "Bởi vì bên ngoài trời đang có tuyết rơi." },
+            { "speaker": "A", "en": "I want to make a snowman.", "vi": "Tớ muốn đắp một người tuyết." },
+            { "speaker": "B", "en": "We can't do it now because it is too windy.", "vi": "Bây giờ chúng ta không thể làm điều đó bởi vì trời quá nhiều gió." },
+            { "speaker": "A", "en": "What is the weather like in summer?", "vi": "Thời tiết vào mùa hè thì như thế nào?" },
+            { "speaker": "B", "en": "It is usually sunny and hot.", "vi": "Trời thường có nắng và nóng." }
+          ]
+        },
+        {
+          "title": "Animals in the winter",
+          "lines": [
+            { "speaker": "A", "en": "Where are the birds?", "vi": "Những chú chim đâu rồi?" },
+            { "speaker": "B", "en": "They flew away because the weather is cold.", "vi": "Chúng đã bay đi mất rồi bởi vì thời tiết đang lạnh." },
+            { "speaker": "A", "en": "There are no leaves on the trees.", "vi": "Không có chiếc lá nào ở trên những cái cây cả." },
+            { "speaker": "B", "en": "Yes. And the bears are sleeping in caves.", "vi": "Đúng vậy. Và những con gấu thì đang ngủ trong các hang động." },
+            { "speaker": "A", "en": "Why do they sleep in the winter?", "vi": "Tại sao chúng lại ngủ vào mùa đông?" },
+            { "speaker": "B", "en": "Because it is the coldest time of the year.", "vi": "Bởi vì đó là khoảng thời gian lạnh nhất trong năm." }
+          ]
+        }
+      ]
+    }
+  ]
+}

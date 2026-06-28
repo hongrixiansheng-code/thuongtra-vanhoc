@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 49,
+    "listening": [
+      {
+        "title": "Listening: Future plans",
+        "transcript": "I am going to study abroad after graduation. I already applied to a university. Maybe I will travel for a year first.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What has the speaker already done?", "options": ["Booked a flight", "Applied to a university", "Bought a house"], "correct": "Applied to a university", "explanation": "\"I already applied to a university.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 50,
+    "listening": [
+      {
+        "title": "Listening: Two apartments",
+        "transcript": "This apartment is bigger than the other one, but it is also noisier. The other apartment is quieter, but the rooms are smaller.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Which apartment is quieter?", "options": ["The bigger one", "The other one", "Both are the same"], "correct": "The other one", "explanation": "\"The other apartment is quieter\"." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 81,
+    "listening": [
+      {
+        "title": "Listening: What happened?",
+        "transcript": "I was cooking dinner when the phone rang. We were walking home when it started to rain.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What was the speaker doing when the phone rang?", "options": ["Sleeping", "Cooking dinner", "Watching TV"], "correct": "Cooking dinner", "explanation": "\"I was cooking dinner when the phone rang.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 82,
+    "listening": [
+      {
+        "title": "Listening: Review — A surprise",
+        "transcript": "I was walking to the shop where I used to buy bread. A man who I knew told me that the shop was closed.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did the man tell the speaker?", "options": ["The shop moved", "The shop was closed", "The shop was busy"], "correct": "The shop was closed", "explanation": "\"told me that the shop was closed.\"" }
+        ]
+      }
+    ]
+  }
+]

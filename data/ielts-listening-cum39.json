@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 77,
+    "listening": [
+      {
+        "title": "Listening: Who is that?",
+        "transcript": "She is the woman who won a major award last year. He is an engineer who works for a big company.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did the woman win?", "options": ["A medal", "A major award", "A trip"], "correct": "A major award", "explanation": "\"She is the woman who won a major award last year.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 78,
+    "listening": [
+      {
+        "title": "Listening: A meaningful place",
+        "transcript": "This is the café where we first met. I remember the day when we started this project.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where did they first meet?", "options": ["At a café", "At school", "At work"], "correct": "At a café", "explanation": "\"This is the café where we first met.\"" }
+        ]
+      }
+    ]
+  }
+]

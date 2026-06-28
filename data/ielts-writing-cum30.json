@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 59,
+    "writing": [
+      {
+        "title": "Writing Task 1: Make uncertain predictions",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) making uncertain predictions, using might/could.",
+        "minWords": 30,
+        "sampleAnswer": "It might rain later, so take an umbrella. She could be at home now. We might not finish the project on time. The price could increase next month.",
+        "checklist": ["Dùng might hoặc could cho khả năng không chắc chắn", "Có ít nhất 1 câu phủ định (might not)", "Mô tả được tình huống cụ thể"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 60,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your wishes and decisions",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your wishes and decisions, using verb + to-infinitive (want/decide/hope/plan...).",
+        "minWords": 30,
+        "sampleAnswer": "I want to learn a new language this year. I decided to study a little every day. I hope to see good results soon.",
+        "checklist": ["Dùng ít nhất 2 động từ + to-infinitive khác nhau", "Thể hiện được mong muốn/quyết định rõ ràng", "Câu văn mạch lạc"]
+      }
+    ]
+  }
+]

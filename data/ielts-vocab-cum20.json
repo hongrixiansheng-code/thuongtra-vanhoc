@@ -1,0 +1,212 @@
+[
+  {
+    "lessonOrder": 39,
+    "vocab": [
+      {
+        "word": "play",
+        "ipa": "/pleɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chơi",
+        "example_en": "We played basketball.",
+        "example_vi": "Chúng tôi đã chơi bóng rổ.",
+        "level": "A2"
+      },
+      {
+        "word": "win",
+        "ipa": "/wɪn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thắng",
+        "example_en": "They won the game.",
+        "example_vi": "Họ đã thắng trận đấu.",
+        "level": "A2"
+      },
+      {
+        "word": "lose",
+        "ipa": "/luːz/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thua",
+        "example_en": "We lost the game.",
+        "example_vi": "Chúng tôi đã thua trận đấu.",
+        "level": "A2"
+      },
+      {
+        "word": "score",
+        "ipa": "/skɔːr/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ghi bàn",
+        "example_en": "He scored a goal.",
+        "example_vi": "Anh ấy đã ghi một bàn.",
+        "level": "A2"
+      },
+      {
+        "word": "run",
+        "ipa": "/rʌn/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "chạy",
+        "example_en": "She ran fast.",
+        "example_vi": "Cô ấy đã chạy nhanh.",
+        "level": "A2"
+      },
+      {
+        "word": "jump",
+        "ipa": "/dʒʌmp/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhảy",
+        "example_en": "He jumped high.",
+        "example_vi": "Anh ấy đã nhảy cao.",
+        "level": "A2"
+      },
+      {
+        "word": "kick",
+        "ipa": "/kɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đá",
+        "example_en": "Kick the ball.",
+        "example_vi": "Đá quả bóng.",
+        "level": "A2"
+      },
+      {
+        "word": "hit",
+        "ipa": "/hɪt/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đánh",
+        "example_en": "He hit the ball.",
+        "example_vi": "Anh ấy đã đánh quả bóng.",
+        "level": "A2"
+      },
+      {
+        "word": "throw",
+        "ipa": "/θrəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "ném",
+        "example_en": "Throw the ball.",
+        "example_vi": "Ném quả bóng đi.",
+        "level": "A2"
+      },
+      {
+        "word": "catch",
+        "ipa": "/kætʃ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "bắt",
+        "example_en": "Catch the ball.",
+        "example_vi": "Bắt lấy quả bóng.",
+        "level": "A2"
+      }
+    ]
+  },
+  {
+    "lessonOrder": 40,
+    "vocab": [
+      {
+        "word": "be",
+        "ipa": "/biː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "thì, là, ở",
+        "example_en": "I was a student.",
+        "example_vi": "Tôi đã từng là một học sinh.",
+        "level": "A2"
+      },
+      {
+        "word": "have",
+        "ipa": "/hæv/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "có",
+        "example_en": "I had a car.",
+        "example_vi": "Tôi đã từng có một chiếc ô tô.",
+        "level": "A2"
+      },
+      {
+        "word": "do",
+        "ipa": "/duː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "làm",
+        "example_en": "I did my homework.",
+        "example_vi": "Tôi đã làm bài tập về nhà.",
+        "level": "A2"
+      },
+      {
+        "word": "go",
+        "ipa": "/ɡəʊ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đi",
+        "example_en": "She went to school.",
+        "example_vi": "Cô ấy đã đi tới trường.",
+        "level": "A2"
+      },
+      {
+        "word": "come",
+        "ipa": "/kʌm/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "đến",
+        "example_en": "He came here yesterday.",
+        "example_vi": "Anh ấy đã đến đây hôm qua.",
+        "level": "A2"
+      },
+      {
+        "word": "see",
+        "ipa": "/siː/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nhìn, thấy",
+        "example_en": "I saw him.",
+        "example_vi": "Tôi đã nhìn thấy anh ấy.",
+        "level": "A2"
+      },
+      {
+        "word": "hear",
+        "ipa": "/hɪər/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nghe",
+        "example_en": "I heard a loud noise.",
+        "example_vi": "Tôi đã nghe một tiếng ồn lớn.",
+        "level": "A2"
+      },
+      {
+        "word": "say",
+        "ipa": "/seɪ/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "nói",
+        "example_en": "She said hello.",
+        "example_vi": "Cô ấy đã nói xin chào.",
+        "level": "A2"
+      },
+      {
+        "word": "tell",
+        "ipa": "/tel/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "kể, bảo",
+        "example_en": "He told me a story.",
+        "example_vi": "Anh ấy đã kể cho tôi một câu chuyện.",
+        "level": "A2"
+      },
+      {
+        "word": "make",
+        "ipa": "/meɪk/",
+        "type": "verb",
+        "type_short": "v.",
+        "meaning": "làm, chế tạo",
+        "example_en": "I made a cake.",
+        "example_vi": "Tôi đã làm một chiếc bánh.",
+        "level": "A2"
+      }
+    ]
+  }
+]

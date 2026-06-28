@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "vocab": [
+        { "word": "accommodation", "ipa": "/əˌkɒm.əˈdeɪ.ʃən/", "type": "n.", "meaning": "chỗ ở", "example_en": "We need to book our holiday accommodation soon.", "example_vi": "Chúng ta cần đặt chỗ ở cho kỳ nghỉ sớm thôi." },
+        { "word": "hotel", "ipa": "/həʊˈtel/", "type": "n.", "meaning": "khách sạn", "example_en": "We stayed at a five-star hotel near the beach.", "example_vi": "Chúng tôi đã ở tại một khách sạn năm sao gần bãi biển." },
+        { "word": "check in", "ipa": "/tʃek ɪn/", "type": "phr. v.", "meaning": "làm thủ tục nhận phòng", "example_en": "We can check in at the hotel after 2 p.m.", "example_vi": "Chúng tôi có thể làm thủ tục nhận phòng tại khách sạn sau 2 giờ chiều." },
+        { "word": "check out", "ipa": "/tʃek aʊt/", "type": "phr. v.", "meaning": "làm thủ tục trả phòng", "example_en": "We have to check out by 11 a.m. tomorrow.", "example_vi": "Chúng tôi phải làm thủ tục trả phòng trước 11 giờ sáng mai." },
+        { "word": "reservation", "ipa": "/ˌrez.əˈveɪ.ʃən/", "type": "n.", "meaning": "sự đặt chỗ trước", "example_en": "I made a reservation for two nights.", "example_vi": "Tôi đã đặt chỗ trước cho hai đêm." },
+        { "word": "single room", "ipa": "/ˌsɪŋ.ɡəl ˈruːm/", "type": "n.", "meaning": "phòng đơn", "example_en": "I would like to book a single room.", "example_vi": "Tôi muốn đặt một phòng đơn." },
+        { "word": "double room", "ipa": "/ˌdʌb.əl ˈruːm/", "type": "n.", "meaning": "phòng đôi", "example_en": "They booked a double room with a sea view.", "example_vi": "Họ đã đặt một phòng đôi với tầm nhìn ra biển." },
+        { "word": "receptionist", "ipa": "/rɪˈsep.ʃən.ɪst/", "type": "n.", "meaning": "nhân viên lễ tân", "example_en": "The receptionist gave us our room keys.", "example_vi": "Nhân viên lễ tân đã đưa cho chúng tôi chìa khóa phòng." },
+        { "word": "guidebook", "ipa": "/ˈɡaɪd.bʊk/", "type": "n.", "meaning": "sách hướng dẫn du lịch", "example_en": "I bought a guidebook for our trip to Italy.", "example_vi": "Tôi đã mua một cuốn sách hướng dẫn cho chuyến đi đến nước Ý của chúng tôi." },
+        { "word": "sightseeing", "ipa": "/ˈsaɪtˌsiː.ɪŋ/", "type": "n.", "meaning": "sự tham quan ngắm cảnh", "example_en": "We did a lot of sightseeing in Rome.", "example_vi": "Chúng tôi đã đi tham quan ngắm cảnh rất nhiều ở Rome." }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "vocab": [
+        { "word": "career", "ipa": "/kəˈrɪər/", "type": "n.", "meaning": "sự nghiệp", "example_en": "He has a successful career in banking.", "example_vi": "Anh ấy có một sự nghiệp thành công trong ngành ngân hàng." },
+        { "word": "colleague", "ipa": "/ˈkɒl.iːɡ/", "type": "n.", "meaning": "đồng nghiệp", "example_en": "She gets on well with her colleagues at work.", "example_vi": "Cô ấy hòa đồng rất tốt với các đồng nghiệp ở chỗ làm." },
+        { "word": "boss", "ipa": "/bɒs/", "type": "n.", "meaning": "sếp, người chủ", "example_en": "My boss asked me to work late today.", "example_vi": "Sếp của tôi đã yêu cầu tôi làm việc muộn ngày hôm nay." },
+        { "word": "company", "ipa": "/ˈkʌm.pə.ni/", "type": "n.", "meaning": "công ty", "example_en": "She works for an international software company.", "example_vi": "Cô ấy làm việc cho một công ty phần mềm quốc tế." },
+        { "word": "secretary", "ipa": "/ˈsek.rə.tər.i/", "type": "n.", "meaning": "thư ký", "example_en": "The secretary will arrange the meeting for you.", "example_vi": "Người thư ký sẽ sắp xếp cuộc họp cho bạn." },
+        { "word": "assistant", "ipa": "/əˈsɪs.tənt/", "type": "n.", "meaning": "trợ lý, người phụ tá", "example_en": "He works as a shop assistant.", "example_vi": "Anh ấy làm công việc trợ lý bán hàng." },
+        { "word": "receptionist", "ipa": "/rɪˈsep.ʃən.ɪst/", "type": "n.", "meaning": "nhân viên lễ tân", "example_en": "The receptionist answered the phone politely.", "example_vi": "Nhân viên lễ tân đã trả lời điện thoại một cách lịch sự." },
+        { "word": "cleaner", "ipa": "/ˈkliː.nər/", "type": "n.", "meaning": "nhân viên dọn dẹp", "example_en": "The cleaner empties the bins every evening.", "example_vi": "Nhân viên dọn dẹp đổ rác vào mỗi buổi tối." },
+        { "word": "chef", "ipa": "/ʃef/", "type": "n.", "meaning": "đầu bếp trưởng", "example_en": "He is the head chef at a famous restaurant.", "example_vi": "Anh ấy là bếp trưởng tại một nhà hàng nổi tiếng." },
+        { "word": "scientist", "ipa": "/ˈsaɪən.tɪst/", "type": "n.", "meaning": "nhà khoa học", "example_en": "Scientists are trying to find a cure for the disease.", "example_vi": "Các nhà khoa học đang cố gắng tìm ra cách chữa trị căn bệnh này." }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "vocab": [
+        { "word": "office", "ipa": "/ˈɒf.ɪs/", "type": "n.", "meaning": "văn phòng", "example_en": "He left the office at 6 p.m. yesterday.", "example_vi": "Anh ấy đã rời khỏi văn phòng vào lúc 6 giờ tối qua." },
+        { "word": "meeting", "ipa": "/ˈmiː.tɪŋ/", "type": "n.", "meaning": "cuộc họp", "example_en": "I have an important meeting with the boss tomorrow.", "example_vi": "Tôi có một cuộc họp quan trọng với sếp vào ngày mai." },
+        { "word": "career", "ipa": "/kəˈrɪər/", "type": "n.", "meaning": "nghề nghiệp, sự nghiệp", "example_en": "She wants to pursue a career in medicine.", "example_vi": "Cô ấy muốn theo đuổi một sự nghiệp trong ngành y." },
+        { "word": "earn", "ipa": "/ɜːn/", "type": "v.", "meaning": "kiếm được (tiền)", "example_en": "She earns a lot of money as a lawyer.", "example_vi": "Cô ấy kiếm được rất nhiều tiền với tư cách là một luật sư." },
+        { "word": "salary", "ipa": "/ˈsæl.ər.i/", "type": "n.", "meaning": "tiền lương", "example_en": "They offered him a job with a high salary.", "example_vi": "Họ đã đề nghị cho anh ấy một công việc với mức lương cao." },
+        { "word": "apply", "ipa": "/əˈplaɪ/", "type": "v.", "meaning": "nộp đơn (xin việc)", "example_en": "I decided to apply for the job.", "example_vi": "Tôi đã quyết định nộp đơn xin việc." },
+        { "word": "application", "ipa": "/ˌæp.lɪˈkeɪ.ʃən/", "type": "n.", "meaning": "đơn xin việc", "example_en": "Please send us your application by Friday.", "example_vi": "Vui lòng gửi cho chúng tôi đơn xin việc của bạn trước thứ Sáu." },
+        { "word": "interview", "ipa": "/ˈɪn.tə.vjuː/", "type": "n.", "meaning": "cuộc phỏng vấn", "example_en": "She had a job interview this morning.", "example_vi": "Cô ấy đã có một cuộc phỏng vấn xin việc vào sáng nay." },
+        { "word": "experience", "ipa": "/ɪkˈspɪə.ri.əns/", "type": "n.", "meaning": "kinh nghiệm", "example_en": "You need a lot of experience for this role.", "example_vi": "Bạn cần rất nhiều kinh nghiệm cho vai trò này." },
+        { "word": "qualification", "ipa": "/ˌkwɒl.ɪ.fɪˈkeɪ.ʃən/", "type": "n.", "meaning": "bằng cấp, trình độ chuyên môn", "example_en": "Do you have any teaching qualifications?", "example_vi": "Bạn có bằng cấp giảng dạy nào không?" }
+      ]
+    },
+    {
+      "orderIndex": 18,
+      "vocab": [
+        { "word": "download", "ipa": "/ˌdaʊnˈləʊd/", "type": "v.", "meaning": "tải xuống", "example_en": "You can download the app for free.", "example_vi": "Bạn có thể tải xuống ứng dụng này miễn phí." },
+        { "word": "upload", "ipa": "/ˌʌpˈləʊd/", "type": "v.", "meaning": "tải lên", "example_en": "He uploaded some photos from his holiday.", "example_vi": "Anh ấy đã tải lên một số bức ảnh từ kỳ nghỉ của mình." },
+        { "word": "password", "ipa": "/ˈpɑːs.wɜːd/", "type": "n.", "meaning": "mật khẩu", "example_en": "I forgot my email password.", "example_vi": "Tôi đã quên mật khẩu email của mình." },
+        { "word": "social media", "ipa": "/ˌsəʊ.ʃəl ˈmiː.di.ə/", "type": "n.", "meaning": "mạng xã hội", "example_en": "Young people spend a lot of time on social media.", "example_vi": "Những người trẻ tuổi dành rất nhiều thời gian trên mạng xã hội." },
+        { "word": "selfie", "ipa": "/ˈsel.fi/", "type": "n.", "meaning": "ảnh tự sướng", "example_en": "She took a selfie with her friends.", "example_vi": "Cô ấy đã chụp một bức ảnh tự sướng với những người bạn của mình." },
+        { "word": "blog", "ipa": "/blɒɡ/", "type": "n.", "meaning": "trang blog", "example_en": "I read an interesting travel blog yesterday.", "example_vi": "Tôi đã đọc một trang blog du lịch thú vị vào ngày hôm qua." },
+        { "word": "chatroom", "ipa": "/ˈtʃæt.ruːm/", "type": "n.", "meaning": "phòng trò chuyện trực tuyến", "example_en": "They met in an online chatroom.", "example_vi": "Họ đã gặp nhau trong một phòng trò chuyện trực tuyến." },
+        { "word": "follow", "ipa": "/ˈfɒl.əʊ/", "type": "v.", "meaning": "theo dõi (trên mạng xã hội)", "example_en": "I follow my favourite singers on Instagram.", "example_vi": "Tôi theo dõi những ca sĩ yêu thích của tôi trên Instagram." },
+        { "word": "keyboard", "ipa": "/ˈkiː.bɔːd/", "type": "n.", "meaning": "bàn phím", "example_en": "I bought a new wireless keyboard for my PC.", "example_vi": "Tôi đã mua một chiếc bàn phím không dây mới cho máy tính của mình." },
+        { "word": "link", "ipa": "/lɪŋk/", "type": "n.", "meaning": "đường dẫn liên kết", "example_en": "Click on this link to see the video.", "example_vi": "Hãy nhấp vào đường dẫn này để xem video." }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "vocab": [
+        { "word": "battery", "ipa": "/ˈbæt.ər.i/", "type": "n.", "meaning": "pin", "example_en": "My laptop needs a new battery.", "example_vi": "Máy tính xách tay của tôi cần một cục pin mới." },
+        { "word": "cable", "ipa": "/ˈkeɪ.bəl/", "type": "n.", "meaning": "dây cáp", "example_en": "Connect the printer with this cable.", "example_vi": "Hãy kết nối chiếc máy in bằng dây cáp này." },
+        { "word": "memory", "ipa": "/ˈmem.ər.i/", "type": "n.", "meaning": "bộ nhớ (máy tính)", "example_en": "My phone doesn't have enough memory for more photos.", "example_vi": "Điện thoại của tôi không có đủ bộ nhớ cho thêm ảnh." },
+        { "word": "PC", "ipa": "/ˌpiːˈsiː/", "type": "n.", "meaning": "máy tính cá nhân", "example_en": "I use a PC for my work.", "example_vi": "Tôi sử dụng một chiếc máy tính cá nhân cho công việc của mình." },
+        { "word": "digital", "ipa": "/ˈdɪdʒ.ɪ.təl/", "type": "adj.", "meaning": "kỹ thuật số", "example_en": "He bought a new digital camera.", "example_vi": "Anh ấy đã mua một chiếc máy ảnh kỹ thuật số mới." },
+        { "word": "printer", "ipa": "/ˈprɪn.tər/", "type": "n.", "meaning": "máy in", "example_en": "The printer is broken again.", "example_vi": "Chiếc máy in lại bị hỏng rồi." },
+        { "word": "screen", "ipa": "/skriːn/", "type": "n.", "meaning": "màn hình", "example_en": "I dropped my phone and broke the screen.", "example_vi": "Tôi đã làm rơi điện thoại và làm vỡ màn hình." },
+        { "word": "CD player", "ipa": "/ˌsiːˈdiː ˌpleɪ.ər/", "type": "n.", "meaning": "máy nghe đĩa CD", "example_en": "He still listens to music on his old CD player.", "example_vi": "Anh ấy vẫn nghe nhạc trên chiếc máy nghe đĩa CD cũ của mình." },
+        { "word": "DVD player", "ipa": "/ˌdiː.viːˈdiː ˌpleɪ.ər/", "type": "n.", "meaning": "máy phát đĩa DVD", "example_en": "We watched a movie on the DVD player.", "example_vi": "Chúng tôi đã xem một bộ phim trên máy phát đĩa DVD." },
+        { "word": "microphone", "ipa": "/ˈmaɪ.krə.fəʊn/", "type": "n.", "meaning": "mi-crô, ống nghe", "example_en": "The singer held the microphone and started to sing.", "example_vi": "Ca sĩ đã cầm lấy chiếc mi-crô và bắt đầu hát." }
+      ]
+    }
+  ]
+}

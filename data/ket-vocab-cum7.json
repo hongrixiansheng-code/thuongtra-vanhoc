@@ -1,0 +1,79 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 30,
+      "vocab": [
+        { "word": "anyway", "ipa": "/ˈen.i.weɪ/", "type": "adv.", "meaning": "dù sao đi nữa", "example_en": "It is raining, but we are going anyway.", "example_vi": "Trời đang mưa, nhưng dù sao đi nữa thì chúng tôi vẫn sẽ đi." },
+        { "word": "actually", "ipa": "/ˈæk.tʃu.ə.li/", "type": "adv.", "meaning": "thực ra", "example_en": "I thought he was angry, but actually he was just tired.", "example_vi": "Tôi đã nghĩ rằng anh ấy tức giận, nhưng thực ra anh ấy chỉ đang mệt mỏi thôi." },
+        { "word": "certainly", "ipa": "/ˈsɜː.tən.li/", "type": "adv.", "meaning": "chắc chắn", "example_en": "She is certainly the best student in the class.", "example_vi": "Cô ấy chắc chắn là học sinh xuất sắc nhất trong lớp." },
+        { "word": "frankly", "ipa": "/ˈfræŋ.kli/", "type": "adv.", "meaning": "thẳng thắn mà nói", "example_en": "Frankly, I don't like this idea very much.", "example_vi": "Thẳng thắn mà nói, tôi không thích ý tưởng này cho lắm." },
+        { "word": "basically", "ipa": "/ˈbeɪ.sɪ.kəl.i/", "type": "adv.", "meaning": "về cơ bản", "example_en": "Basically, we have to start all over again.", "example_vi": "Về cơ bản thì chúng ta phải bắt đầu lại từ đầu." },
+        { "word": "besides", "ipa": "/bɪˈsaɪdz/", "type": "adv., prep.", "meaning": "ngoài ra, bên cạnh đó", "example_en": "I am too tired to go out. Besides, it is raining.", "example_vi": "Tôi quá mệt để đi ra ngoài. Bên cạnh đó, trời lại còn đang mưa nữa." },
+        { "word": "moreover", "ipa": "/ˌmɔːˈrəʊ.vər/", "type": "adv.", "meaning": "hơn thế nữa", "example_en": "The car is beautiful. Moreover, it is very fast.", "example_vi": "Chiếc ô tô này rất đẹp. Hơn thế nữa, nó lại rất nhanh." },
+        { "word": "therefore", "ipa": "/ˈðeə.fɔːr/", "type": "adv.", "meaning": "do đó, vì vậy", "example_en": "He was late; therefore, he missed the train.", "example_vi": "Anh ấy đã đến muộn; vì vậy, anh ấy đã lỡ chuyến tàu." },
+        { "word": "otherwise", "ipa": "/ˈʌð.ə.waɪz/", "type": "adv.", "meaning": "nếu không thì", "example_en": "Hurry up, otherwise you will be late for school.", "example_vi": "Nhanh lên đi, nếu không thì bạn sẽ bị muộn học đấy." },
+        { "word": "eventually", "ipa": "/ɪˈven.tʃu.ə.li/", "type": "adv.", "meaning": "cuối cùng", "example_en": "It took a long time, but we eventually found the house.", "example_vi": "Mất khá nhiều thời gian, nhưng cuối cùng thì chúng tôi cũng đã tìm thấy ngôi nhà." }
+      ]
+    },
+    {
+      "orderIndex": 31,
+      "vocab": [
+        { "word": "notice", "ipa": "/ˈnəʊ.tɪs/", "type": "n.", "meaning": "thông báo, biển báo", "example_en": "There is a notice on the door saying the shop is closed.", "example_vi": "Có một tờ thông báo ở trên cửa nói rằng cửa hàng đã đóng cửa." },
+        { "word": "sign", "ipa": "/saɪn/", "type": "n.", "meaning": "biển hiệu", "example_en": "The sign says 'No Parking'.", "example_vi": "Tấm biển hiệu có ghi chữ 'Cấm đỗ xe'." },
+        { "word": "announcement", "ipa": "/əˈnaʊns.mənt/", "type": "n.", "meaning": "lời thông báo", "example_en": "Please listen carefully to the announcement.", "example_vi": "Vui lòng lắng nghe kỹ lời thông báo." },
+        { "word": "warning", "ipa": "/ˈwɔː.nɪŋ/", "type": "n.", "meaning": "lời cảnh báo", "example_en": "The warning signs told us not to swim in the river.", "example_vi": "Các biển cảnh báo đã bảo chúng tôi không được bơi trên dòng sông này." },
+        { "word": "instruction", "ipa": "/ɪnˈstrʌk.ʃən/", "type": "n.", "meaning": "lời chỉ dẫn", "example_en": "Read the instructions before you use the machine.", "example_vi": "Hãy đọc kỹ các lời chỉ dẫn trước khi bạn sử dụng chiếc máy này." },
+        { "word": "information", "ipa": "/ˌɪn.fəˈmeɪ.ʃən/", "type": "n.", "meaning": "thông tin", "example_en": "You can find more information on our website.", "example_vi": "Bạn có thể tìm thấy nhiều thông tin hơn trên trang web của chúng tôi." },
+        { "word": "advice", "ipa": "/ədˈvaɪs/", "type": "n.", "meaning": "lời khuyên", "example_en": "She gave me some good advice about my career.", "example_vi": "Cô ấy đã cho tôi một vài lời khuyên hữu ích về sự nghiệp của tôi." },
+        { "word": "directions", "ipa": "/dɪˈrek.ʃənz/", "type": "n.", "meaning": "lời chỉ đường", "example_en": "I asked the police officer for directions to the station.", "example_vi": "Tôi đã hỏi viên cảnh sát chỉ đường đến nhà ga." },
+        { "word": "offer", "ipa": "/ˈɒf.ər/", "type": "n.", "meaning": "lời đề nghị, sự giảm giá", "example_en": "This special offer is only for today.", "example_vi": "Ưu đãi giảm giá đặc biệt này chỉ dành cho hôm nay." },
+        { "word": "advertisement", "ipa": "/ədˈvɜː.tɪs.mənt/", "type": "n.", "meaning": "bài quảng cáo", "example_en": "I saw an advertisement for a new smartphone.", "example_vi": "Tôi đã nhìn thấy một bài quảng cáo cho một chiếc điện thoại thông minh mới." }
+      ]
+    },
+    {
+      "orderIndex": 32,
+      "vocab": [
+        { "word": "Dear", "ipa": "/dɪər/", "type": "adj.", "meaning": "thân gửi, thân mến (đầu thư)", "example_en": "Dear Mr Smith, I am writing to ask about the job.", "example_vi": "Thân gửi ông Smith, tôi viết thư này để hỏi về công việc." },
+        { "word": "regards", "ipa": "/rɪˈɡɑːdz/", "type": "n.", "meaning": "lời chào, trân trọng (cuối thư)", "example_en": "Kind regards, Anna.", "example_vi": "Trân trọng, Anna." },
+        { "word": "sincerely", "ipa": "/sɪnˈsɪə.li/", "type": "adv.", "meaning": "chân thành (cuối thư trang trọng)", "example_en": "Yours sincerely, John Doe.", "example_vi": "Trân trọng kính thư, John Doe." },
+        { "word": "attached", "ipa": "/əˈtætʃt/", "type": "adj.", "meaning": "được đính kèm", "example_en": "Please find the document attached to this email.", "example_vi": "Vui lòng xem tài liệu được đính kèm theo bức thư điện tử này." },
+        { "word": "forward", "ipa": "/ˈfɔː.wəd/", "type": "v.", "meaning": "chuyển tiếp (thư)", "example_en": "I will forward the email to my manager.", "example_vi": "Tôi sẽ chuyển tiếp bức thư điện tử này cho người quản lý của tôi." },
+        { "word": "reply", "ipa": "/rɪˈplaɪ/", "type": "v., n.", "meaning": "trả lời, hồi âm", "example_en": "Please reply as soon as possible.", "example_vi": "Vui lòng hồi âm sớm nhất có thể." },
+        { "word": "subject", "ipa": "/ˈsʌb.dʒekt/", "type": "n.", "meaning": "chủ đề (thư)", "example_en": "Don't forget to write the subject of the email.", "example_vi": "Đừng quên viết tiêu đề cho bức thư điện tử." },
+        { "word": "recipient", "ipa": "/rɪˈsɪp.i.ənt/", "type": "n.", "meaning": "người nhận", "example_en": "The recipient's address is missing.", "example_vi": "Địa chỉ của người nhận đang bị thiếu." },
+        { "word": "sender", "ipa": "/ˈsen.dər/", "type": "n.", "meaning": "người gửi", "example_en": "The letter was returned to the sender.", "example_vi": "Bức thư đã bị trả lại cho người gửi." },
+        { "word": "signature", "ipa": "/ˈsɪɡ.nə.tʃər/", "type": "n.", "meaning": "chữ ký", "example_en": "Please put your signature at the bottom of the page.", "example_vi": "Vui lòng đặt chữ ký của bạn ở cuối trang giấy." }
+      ]
+    },
+    {
+      "orderIndex": 33,
+      "vocab": [
+        { "word": "order", "ipa": "/ˈɔː.dər/", "type": "v.", "meaning": "gọi món", "example_en": "Are you ready to order your food?", "example_vi": "Bạn đã sẵn sàng gọi món chưa?" },
+        { "word": "reserve", "ipa": "/rɪˈzɜːv/", "type": "v.", "meaning": "đặt chỗ trước", "example_en": "I would like to reserve a table for two people.", "example_vi": "Tôi muốn đặt trước một bàn dành cho hai người." },
+        { "word": "complain", "ipa": "/kəmˈpleɪn/", "type": "v.", "meaning": "phàn nàn, khiếu nại", "example_en": "He complained about the slow service in the restaurant.", "example_vi": "Anh ấy đã phàn nàn về dịch vụ chậm chạp trong nhà hàng." },
+        { "word": "apologise", "ipa": "/əˈpɒl.ə.dʒaɪz/", "type": "v.", "meaning": "xin lỗi", "example_en": "The manager apologised for the mistake.", "example_vi": "Người quản lý đã gửi lời xin lỗi về sai sót đó." },
+        { "word": "agree", "ipa": "/əˈɡriː/", "type": "v.", "meaning": "đồng ý", "example_en": "I agree that we need to change our plans.", "example_vi": "Tôi đồng ý rằng chúng ta cần phải thay đổi các kế hoạch của mình." },
+        { "word": "disagree", "ipa": "/ˌdɪs.əˈɡriː/", "type": "v.", "meaning": "không đồng ý", "example_en": "I strongly disagree with his opinion.", "example_vi": "Tôi kịch liệt không đồng tình với ý kiến của anh ấy." },
+        { "word": "confirm", "ipa": "/kənˈfɜːm/", "type": "v.", "meaning": "xác nhận", "example_en": "Please call to confirm your flight.", "example_vi": "Vui lòng gọi điện để xác nhận chuyến bay của bạn." },
+        { "word": "cancel", "ipa": "/ˈkæn.səl/", "type": "v.", "meaning": "hủy bỏ", "example_en": "We had to cancel the meeting because she was ill.", "example_vi": "Chúng tôi đã phải hủy bỏ cuộc họp bởi vì cô ấy bị ốm." },
+        { "word": "delay", "ipa": "/dɪˈleɪ/", "type": "v.", "meaning": "trì hoãn", "example_en": "The train was delayed by heavy snow.", "example_vi": "Chuyến tàu đã bị trì hoãn do tuyết rơi dày." },
+        { "word": "contact", "ipa": "/ˈkɒn.tækt/", "type": "v.", "meaning": "liên hệ", "example_en": "You can contact me by phone or email.", "example_vi": "Bạn có thể liên hệ với tôi qua điện thoại hoặc thư điện tử." }
+      ]
+    },
+    {
+      "orderIndex": 34,
+      "vocab": [
+        { "word": "experience", "ipa": "/ɪkˈspɪə.ri.əns/", "type": "n.", "meaning": "kinh nghiệm, trải nghiệm", "example_en": "Living in another country is a great experience.", "example_vi": "Sống ở một đất nước khác là một trải nghiệm tuyệt vời." },
+        { "word": "knowledge", "ipa": "/ˈnɒl.ɪdʒ/", "type": "n.", "meaning": "kiến thức", "example_en": "Reading books helps you increase your knowledge.", "example_vi": "Việc đọc sách giúp bạn gia tăng kiến thức của mình." },
+        { "word": "skill", "ipa": "/skɪl/", "type": "n.", "meaning": "kỹ năng", "example_en": "Cooking is a very useful skill.", "example_vi": "Nấu ăn là một kỹ năng rất hữu ích." },
+        { "word": "opinion", "ipa": "/əˈpɪn.jən/", "type": "n.", "meaning": "ý kiến, quan điểm", "example_en": "In my opinion, this is the best film of the year.", "example_vi": "Theo quan điểm của tôi, đây là bộ phim hay nhất của năm." },
+        { "word": "reason", "ipa": "/ˈriː.zən/", "type": "n.", "meaning": "lý do", "example_en": "What is the reason for your delay?", "example_vi": "Lý do cho sự chậm trễ của bạn là gì?" },
+        { "word": "possibility", "ipa": "/ˌpɒs.əˈbɪl.ə.ti/", "type": "n.", "meaning": "khả năng (có thể xảy ra)", "example_en": "There is a strong possibility that it will rain.", "example_vi": "Có khả năng cao là trời sẽ mưa." },
+        { "word": "decision", "ipa": "/dɪˈsɪʒ.ən/", "type": "n.", "meaning": "quyết định", "example_en": "It was a difficult decision to make.", "example_vi": "Đó là một quyết định rất khó khăn để đưa ra." },
+        { "word": "suggestion", "ipa": "/səˈdʒes.tʃən/", "type": "n.", "meaning": "lời gợi ý", "example_en": "Does anyone have a suggestion for the party?", "example_vi": "Có ai có một lời gợi ý nào cho bữa tiệc không?" },
+        { "word": "solution", "ipa": "/səˈluː.ʃən/", "type": "n.", "meaning": "giải pháp", "example_en": "We must find a solution to this problem.", "example_vi": "Chúng ta phải tìm ra một giải pháp cho vấn đề này." },
+        { "word": "result", "ipa": "/rɪˈzʌlt/", "type": "n.", "meaning": "kết quả", "example_en": "He got a very good result in his English test.", "example_vi": "Anh ấy đã đạt được một kết quả rất tốt trong bài kiểm tra tiếng Anh của mình." }
+      ]
+    }
+  ]
+}

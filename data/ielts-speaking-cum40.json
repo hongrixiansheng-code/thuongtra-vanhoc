@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 79,
+    "speaking": [
+      {
+        "title": "Speaking Part 2: Describe a childhood habit",
+        "part": 2,
+        "cueCard": {
+          "topic": "Describe a habit you had as a child.",
+          "bullets": ["what the habit was", "when you used to do it", "who you used to do it with", "and explain why you don't do it anymore"]
+        },
+        "questions": [],
+        "sampleAnswer": "I used to read books with my grandmother every evening. I used to do this when I was young, with my grandmother at home. I don't do it anymore because she moved to another city."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Reporting opinions",
+        "part": 1,
+        "questions": ["What did your teacher say about your work recently?", "What did a friend tell you last week?", "Has anyone announced any news to you recently?"],
+        "sampleAnswer": "My teacher said that my work was improving. A friend told me that she liked my idea. Yes, my colleague announced that he would change jobs."
+      }
+    ]
+  }
+]

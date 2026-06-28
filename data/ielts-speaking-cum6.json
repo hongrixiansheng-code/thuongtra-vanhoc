@@ -1,0 +1,24 @@
+[
+  {
+    "lessonOrder": 11,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Skills and abilities",
+        "part": 1,
+        "questions": ["Can you swim?", "Can you cook?", "What can you do well?", "Is there anything you can't do yet?"],
+        "sampleAnswer": "Yes, I can swim. I can also cook simple meals. I can speak two languages, but I can't drive a car yet."
+      }
+    ]
+  },
+  {
+    "lessonOrder": 12,
+    "speaking": [
+      {
+        "title": "Speaking Part 1: Asking for help",
+        "part": 1,
+        "questions": ["Do you often ask people for help?", "Can you give an example of asking for permission politely?", "Who do you usually ask for help at work or school?"],
+        "sampleAnswer": "Yes, I sometimes ask for help. For example, I might say 'Can you help me with this?' I usually ask my colleagues or my teacher."
+      }
+    ]
+  }
+]

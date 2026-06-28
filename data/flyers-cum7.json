@@ -1,0 +1,376 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 14,
+      "title": "Bài 8.b: Trường học (2/2)",
+      "theme": "Trường học",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "maths",
+          "ipa": "/mæθs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn toán",
+          "example_en": "I am good at maths.",
+          "example_vi": "Tôi học giỏi môn toán."
+        },
+        {
+          "word": "online",
+          "ipa": "/ˌɒnˈlaɪn/",
+          "type": "Tính từ / Trạng từ",
+          "type_short": "adj",
+          "meaning": "trực tuyến",
+          "example_en": "I play games online.",
+          "example_vi": "Tôi chơi trò chơi trực tuyến."
+        },
+        {
+          "word": "project",
+          "ipa": "/ˈprɒdʒekt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "dự án",
+          "example_en": "We are doing a science project.",
+          "example_vi": "Chúng tôi đang làm một dự án khoa học."
+        },
+        {
+          "word": "science",
+          "ipa": "/ˈsaɪəns/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn khoa học",
+          "example_en": "Science is my favourite subject.",
+          "example_vi": "Khoa học là môn học yêu thích của tôi."
+        },
+        {
+          "word": "scissors",
+          "ipa": "/ˈsɪzərz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái kéo",
+          "example_en": "I cut the paper with scissors.",
+          "example_vi": "Tôi cắt giấy bằng kéo."
+        },
+        {
+          "word": "student",
+          "ipa": "/ˈstjuːdnt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "học sinh, sinh viên",
+          "example_en": "She is a new student.",
+          "example_vi": "Cô ấy là một học sinh mới."
+        },
+        {
+          "word": "study",
+          "ipa": "/ˈstʌdi/",
+          "type": "Động từ",
+          "type_short": "v",
+          "meaning": "học tập",
+          "example_en": "I need to study for the test.",
+          "example_vi": "Tôi cần phải học cho bài kiểm tra."
+        },
+        {
+          "word": "subject",
+          "ipa": "/ˈsʌbdʒɪkt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môn học",
+          "example_en": "What is your favourite subject?",
+          "example_vi": "Môn học yêu thích của bạn là gì?"
+        },
+        {
+          "word": "timetable",
+          "ipa": "/ˈtaɪmteɪbl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thời khóa biểu",
+          "example_en": "Look at the school timetable.",
+          "example_vi": "Hãy nhìn vào thời khóa biểu của trường."
+        },
+        {
+          "word": "conversation",
+          "ipa": "/ˌkɒnvərˈseɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuộc trò chuyện",
+          "example_en": "We had a long conversation.",
+          "example_vi": "Chúng tôi đã có một cuộc trò chuyện dài."
+        },
+        {
+          "word": "file",
+          "ipa": "/faɪl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tệp, tệp tài liệu",
+          "example_en": "Please open this file.",
+          "example_vi": "Làm ơn hãy mở tệp này ra."
+        },
+        {
+          "word": "information",
+          "ipa": "/ˌɪnfərˈmeɪʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thông tin",
+          "example_en": "You can find more information online.",
+          "example_vi": "Bạn có thể tìm thấy nhiều thông tin hơn ở trên mạng."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 15,
+      "title": "Bài 9: Động vật",
+      "theme": "Động vật & thế giới quanh ta",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "beetle",
+          "ipa": "/ˈbiːtl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "bọ cánh cứng",
+          "example_en": "Look at that black beetle.",
+          "example_vi": "Hãy nhìn con bọ cánh cứng màu đen kìa."
+        },
+        {
+          "word": "butterfly",
+          "ipa": "/ˈbʌtərflaɪ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con bướm",
+          "example_en": "The butterfly has beautiful wings.",
+          "example_vi": "Con bướm có đôi cánh rất đẹp."
+        },
+        {
+          "word": "camel",
+          "ipa": "/ˈkæml/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lạc đà",
+          "example_en": "The camel lives in the desert.",
+          "example_vi": "Lạc đà sống ở sa mạc."
+        },
+        {
+          "word": "creature",
+          "ipa": "/ˈkriːtʃər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sinh vật",
+          "example_en": "It is a strange creature.",
+          "example_vi": "Đó là một sinh vật kỳ lạ."
+        },
+        {
+          "word": "dinosaur",
+          "ipa": "/ˈdaɪnəsɔːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "khủng long",
+          "example_en": "The dinosaur is very big.",
+          "example_vi": "Con khủng long rất to lớn."
+        },
+        {
+          "word": "eagle",
+          "ipa": "/ˈiːɡl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đại bàng",
+          "example_en": "An eagle can fly very high.",
+          "example_vi": "Đại bàng có thể bay rất cao."
+        },
+        {
+          "word": "extinct",
+          "ipa": "/ɪkˈstɪŋkt/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "tuyệt chủng",
+          "example_en": "Dinosaurs are extinct.",
+          "example_vi": "Khủng long đã tuyệt chủng."
+        },
+        {
+          "word": "fur",
+          "ipa": "/fɜːr/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lông thú",
+          "example_en": "The rabbit has soft fur.",
+          "example_vi": "Con thỏ có bộ lông thú mềm mại."
+        },
+        {
+          "word": "insect",
+          "ipa": "/ˈɪnsekt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "côn trùng",
+          "example_en": "An ant is an insect.",
+          "example_vi": "Kiến là một loài côn trùng."
+        },
+        {
+          "word": "nest",
+          "ipa": "/nest/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái tổ",
+          "example_en": "There are eggs in the nest.",
+          "example_vi": "Có những quả trứng trong cái tổ."
+        },
+        {
+          "word": "octopus",
+          "ipa": "/ˈɒktəpəs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con bạch tuộc",
+          "example_en": "An octopus has eight legs.",
+          "example_vi": "Một con bạch tuộc có tám cái chân."
+        },
+        {
+          "word": "swan",
+          "ipa": "/swɒn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thiên nga",
+          "example_en": "The swan swims in the lake.",
+          "example_vi": "Con thiên nga bơi trong hồ."
+        },
+        {
+          "word": "tortoise",
+          "ipa": "/ˈtɔːrtəs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "con rùa (trên cạn)",
+          "example_en": "A tortoise walks very slowly.",
+          "example_vi": "Một con rùa cạn đi lại rất chậm."
+        },
+        {
+          "word": "wild",
+          "ipa": "/waɪld/",
+          "type": "Tính từ",
+          "type_short": "adj",
+          "meaning": "hoang dã",
+          "example_en": "Lions are wild animals.",
+          "example_vi": "Sư tử là động vật hoang dã."
+        },
+        {
+          "word": "wing",
+          "ipa": "/wɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cái cánh",
+          "example_en": "A bird has two wings.",
+          "example_vi": "Một con chim có hai cái cánh."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 16,
+      "title": "Bài 10.a: Thế giới quanh ta (1/2)",
+      "theme": "Động vật & thế giới quanh ta",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "air",
+          "ipa": "/er/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "không khí",
+          "example_en": "We need clean air.",
+          "example_vi": "Chúng ta cần không khí sạch."
+        },
+        {
+          "word": "cave",
+          "ipa": "/keɪv/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hang động",
+          "example_en": "The bear sleeps in a cave.",
+          "example_vi": "Con gấu ngủ trong một hang động."
+        },
+        {
+          "word": "desert",
+          "ipa": "/ˈdezərt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sa mạc",
+          "example_en": "It is hot in the desert.",
+          "example_vi": "Trời rất nóng ở sa mạc."
+        },
+        {
+          "word": "Earth",
+          "ipa": "/ɜːrθ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "Trái đất",
+          "example_en": "We live on Earth.",
+          "example_vi": "Chúng ta sống trên Trái đất."
+        },
+        {
+          "word": "environment",
+          "ipa": "/ɪnˈvaɪrənmənt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "môi trường",
+          "example_en": "We must protect the environment.",
+          "example_vi": "Chúng ta phải bảo vệ môi trường."
+        },
+        {
+          "word": "exit",
+          "ipa": "/ˈeksɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "lối ra",
+          "example_en": "Where is the exit?",
+          "example_vi": "Lối ra ở đâu vậy?"
+        },
+        {
+          "word": "fire",
+          "ipa": "/ˈfaɪər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngọn lửa",
+          "example_en": "The fire is very hot.",
+          "example_vi": "Ngọn lửa rất nóng."
+        },
+        {
+          "word": "hill",
+          "ipa": "/hɪl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngọn đồi",
+          "example_en": "They run up the hill.",
+          "example_vi": "Họ chạy lên ngọn đồi."
+        },
+        {
+          "word": "land",
+          "ipa": "/lænd/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đất liền, đất đai",
+          "example_en": "The boat reached the land.",
+          "example_vi": "Con thuyền đã chạm tới đất liền."
+        },
+        {
+          "word": "ocean",
+          "ipa": "/ˈoʊʃn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "đại dương",
+          "example_en": "Whales live in the ocean.",
+          "example_vi": "Cá voi sống dưới đại dương."
+        },
+        {
+          "word": "planet",
+          "ipa": "/ˈplænɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "hành tinh",
+          "example_en": "Mars is a red planet.",
+          "example_vi": "Sao Hỏa là một hành tinh đỏ."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

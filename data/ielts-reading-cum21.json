@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 41,
+    "reading": [
+      {
+        "title": "Reading: A market story",
+        "passage": "I bought some fruit and a new bag at the market. I thought it was a little expensive, but I bought it anyway. I told my sister, and she gave me some advice about the colour.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer thought the bag was cheap.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I thought it was a little expensive\"." },
+          { "type": "multiple_choice", "question": "Who gave advice about the colour?", "options": ["A shop assistant", "The sister", "A friend"], "correct": "The sister", "explanation": "\"she gave me some advice about the colour\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 42,
+    "reading": [
+      {
+        "title": "Reading: An old museum",
+        "passage": "They built this museum about a hundred years ago. I found some old photographs and letters inside. The exhibition began last month, and a lot of visitors came to see it.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The museum was built recently.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"They built this museum about a hundred years ago.\"" },
+          { "type": "true_false_ng", "question": "The exhibition began last month.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "Câu nêu rõ điều này." }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,394 @@
+[
+  {
+    "orderIndex": 0,
+    "lessonId": "hsk1_new_01",
+    "title": "Bài 1: Chào hỏi, xưng hô cơ bản",
+    "vocab": [
+      {"hanzi": "你", "pinyin": "nǐ", "type": "đại từ", "type_short": "đt", "meaning": "bạn, anh, chị", "example_zh": "你好吗？", "example_vi": "Bạn khỏe không?"},
+      {"hanzi": "你好", "pinyin": "nǐ hǎo", "type": "thán từ", "type_short": "th", "meaning": "xin chào", "example_zh": "你好，老师！", "example_vi": "Xin chào, thầy/cô giáo!"},
+      {"hanzi": "我", "pinyin": "wǒ", "type": "đại từ", "type_short": "đt", "meaning": "tôi", "example_zh": "我是学生。", "example_vi": "Tôi là học sinh."},
+      {"hanzi": "他", "pinyin": "tā", "type": "đại từ", "type_short": "đt", "meaning": "anh ấy, ông ấy", "example_zh": "他是老师。", "example_vi": "Anh ấy là giáo viên."},
+      {"hanzi": "她", "pinyin": "tā", "type": "đại từ", "type_short": "đt", "meaning": "cô ấy, bà ấy", "example_zh": "她是学生。", "example_vi": "Cô ấy là học sinh."},
+      {"hanzi": "它", "pinyin": "tā", "type": "đại từ", "type_short": "đt", "meaning": "nó (động vật, đồ vật)", "example_zh": "它叫什么名字？", "example_vi": "Nó tên là gì?"},
+      {"hanzi": "你们", "pinyin": "nǐmen", "type": "đại từ", "type_short": "đt", "meaning": "các bạn", "example_zh": "你们好！", "example_vi": "Chào các bạn!"},
+      {"hanzi": "我们", "pinyin": "wǒmen", "type": "đại từ", "type_short": "đt", "meaning": "chúng tôi, chúng ta", "example_zh": "我们是朋友。", "example_vi": "Chúng tôi là bạn bè."},
+      {"hanzi": "他们", "pinyin": "tāmen", "type": "đại từ", "type_short": "đt", "meaning": "bọn họ (nam, hoặc nam nữ chung)", "example_zh": "他们叫什么名字？", "example_vi": "Bọn họ tên là gì?"},
+      {"hanzi": "她们", "pinyin": "tāmen", "type": "đại từ", "type_short": "đt", "meaning": "bọn họ (toàn nữ)", "example_zh": "她们是学生。", "example_vi": "Họ là học sinh."},
+      {"hanzi": "它们", "pinyin": "tāmen", "type": "đại từ", "type_short": "đt", "meaning": "chúng nó (động vật, đồ vật)", "example_zh": "它们是朋友吗？", "example_vi": "Chúng nó là bạn bè không?"},
+      {"hanzi": "是", "pinyin": "shì", "type": "động từ", "type_short": "đ", "meaning": "là, vâng, đúng", "example_zh": "我是老师。", "example_vi": "Tôi là giáo viên."},
+      {"hanzi": "不", "pinyin": "bù", "type": "phó từ", "type_short": "pt", "meaning": "không", "example_zh": "我不叫学生。", "example_vi": "Tôi không gọi là học sinh."},
+      {"hanzi": "吗", "pinyin": "ma", "type": "trợ từ", "type_short": "tr", "meaning": "không? (đứng cuối câu hỏi)", "example_zh": "你是学生吗？", "example_vi": "Bạn là học sinh không?"},
+      {"hanzi": "呢", "pinyin": "ne", "type": "trợ từ", "type_short": "tr", "meaning": "còn... thì sao? (trợ từ nghi vấn)", "example_zh": "我是学生，你呢？", "example_vi": "Tôi là học sinh, còn bạn?"},
+      {"hanzi": "叫", "pinyin": "jiào", "type": "động từ", "type_short": "đ", "meaning": "gọi là, tên là", "example_zh": "我叫老师。", "example_vi": "Tôi tên là giáo viên."},
+      {"hanzi": "名字", "pinyin": "míngzi", "type": "danh từ", "type_short": "dt", "meaning": "tên", "example_zh": "你叫什么名字？", "example_vi": "Bạn tên là gì?"},
+      {"hanzi": "朋友", "pinyin": "péngyǒu", "type": "danh từ", "type_short": "dt", "meaning": "bạn bè", "example_zh": "我们是朋友。", "example_vi": "Chúng tôi là bạn bè."},
+      {"hanzi": "老师", "pinyin": "lǎoshī", "type": "danh từ", "type_short": "dt", "meaning": "giáo viên", "example_zh": "你好，老师！", "example_vi": "Xin chào, thầy/cô giáo!"},
+      {"hanzi": "学生", "pinyin": "xuéshēng", "type": "danh từ", "type_short": "dt", "meaning": "học sinh", "example_zh": "我是学生。", "example_vi": "Tôi là học sinh."}
+    ],
+    "grammars": [
+      {
+        "title": "1. Câu trần thuật với 是 (A là B)",
+        "desc": "Dùng động từ 是 (shì) để nối chủ ngữ và vị ngữ, nhằm giới thiệu, khẳng định 'A là B'. Dạng phủ định là 不 是 (bú shì).",
+        "formula": [{"text": "Chủ ngữ + 是 + Danh từ", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "我是学生。", "pinyin": "Wǒ shì xuéshēng.", "meaning": "Tôi là học sinh."},
+          {"correct": "他们不是老师。", "pinyin": "Tāmen bú shì lǎoshī.", "meaning": "Họ không phải là giáo viên."}
+        ]
+      },
+      {
+        "title": "2. Câu hỏi với trợ từ 吗",
+        "desc": "Thêm trợ từ nghi vấn 吗 (ma) vào cuối câu trần thuật để biến nó thành câu hỏi Có/Không.",
+        "formula": [{"text": "Câu trần thuật + 吗?", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "你是学生吗？", "pinyin": "Nǐ shì xuéshēng ma?", "meaning": "Bạn là học sinh phải không?"},
+          {"correct": "我们是朋友吗？", "pinyin": "Wǒmen shì péngyǒu ma?", "meaning": "Chúng ta là bạn bè phải không?"}
+        ]
+      },
+      {
+        "title": "3. Hậu tố số nhiều 们",
+        "desc": "Thêm 们 (men) vào sau đại từ nhân xưng hoặc danh từ chỉ người để biểu thị số nhiều.",
+        "formula": [{"text": "Đại từ nhân xưng + 们", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "你们好！", "pinyin": "Nǐmen hǎo!", "meaning": "Chào các bạn!"},
+          {"correct": "老师们好！", "pinyin": "Lǎoshīmen hǎo!", "meaning": "Chào các thầy cô giáo!"}
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại 1: Chào hỏi cơ bản",
+        "lines": [
+          {"speaker": "A", "zh": "你好！", "py": "nǐ hǎo!", "vi": "Xin chào!"},
+          {"speaker": "B", "zh": "你好！", "py": "nǐ hǎo!", "vi": "Xin chào!"},
+          {"speaker": "A", "zh": "你是老师吗？", "py": "nǐ shì lǎoshī ma?", "vi": "Bạn là giáo viên phải không?"},
+          {"speaker": "B", "zh": "不是，我是学生。你呢？", "py": "bú shì, wǒ shì xuéshēng. nǐ ne?", "vi": "Không phải, tôi là học sinh. Còn bạn?"},
+          {"speaker": "A", "zh": "我也是学生。我们是朋友！", "py": "wǒ yě shì xuéshēng. wǒmen shì péngyǒu!", "vi": "Tôi cũng là học sinh. Chúng ta là bạn bè!"}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Hỏi tên",
+        "lines": [
+          {"speaker": "A", "zh": "你好，你叫什么名字？", "py": "nǐ hǎo, nǐ jiào shénme míngzi?", "vi": "Xin chào, bạn tên là gì?"},
+          {"speaker": "B", "zh": "我叫明明。他叫什么名字？", "py": "wǒ jiào Míngmíng. tā jiào shénme míngzi?", "vi": "Tôi tên là Minh Minh. Cậu ấy tên là gì?"},
+          {"speaker": "A", "zh": "他叫大卫。他是学生。", "py": "tā jiào Dàwèi. tā shì xuéshēng.", "vi": "Cậu ấy tên là David. Cậu ấy là học sinh."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 1,
+    "lessonId": "hsk1_new_02",
+    "title": "Bài 2: Số đếm & đơn vị cơ bản",
+    "vocab": [
+      {"hanzi": "一", "pinyin": "yī", "type": "số từ", "type_short": "st", "meaning": "một", "example_zh": "一个学生", "example_vi": "Một học sinh"},
+      {"hanzi": "二", "pinyin": "èr", "type": "số từ", "type_short": "st", "meaning": "hai", "example_zh": "二号", "example_vi": "Số hai"},
+      {"hanzi": "三", "pinyin": "sān", "type": "số từ", "type_short": "st", "meaning": "ba", "example_zh": "三个朋友", "example_vi": "Ba người bạn"},
+      {"hanzi": "四", "pinyin": "sì", "type": "số từ", "type_short": "st", "meaning": "bốn", "example_zh": "四个老师", "example_vi": "Bốn giáo viên"},
+      {"hanzi": "五", "pinyin": "wǔ", "type": "số từ", "type_short": "st", "meaning": "năm", "example_zh": "五十", "example_vi": "Năm mươi"},
+      {"hanzi": "六", "pinyin": "liù", "type": "số từ", "type_short": "st", "meaning": "sáu", "example_zh": "六块", "example_vi": "Sáu tệ"},
+      {"hanzi": "七", "pinyin": "qī", "type": "số từ", "type_short": "st", "meaning": "bảy", "example_zh": "七百", "example_vi": "Bảy trăm"},
+      {"hanzi": "八", "pinyin": "bā", "type": "số từ", "type_short": "st", "meaning": "tám", "example_zh": "八千", "example_vi": "Tám nghìn"},
+      {"hanzi": "九", "pinyin": "jiǔ", "type": "số từ", "type_short": "st", "meaning": "chín", "example_zh": "九个", "example_vi": "Chín cái"},
+      {"hanzi": "十", "pinyin": "shí", "type": "số từ", "type_short": "st", "meaning": "mười", "example_zh": "十块", "example_vi": "Mười tệ"},
+      {"hanzi": "零", "pinyin": "líng", "type": "số từ", "type_short": "st", "meaning": "không (0)", "example_zh": "一百零一", "example_vi": "Một trăm linh một"},
+      {"hanzi": "百", "pinyin": "bǎi", "type": "số từ", "type_short": "st", "meaning": "trăm", "example_zh": "五百", "example_vi": "Năm trăm"},
+      {"hanzi": "千", "pinyin": "qiān", "type": "số từ", "type_short": "st", "meaning": "nghìn", "example_zh": "两千", "example_vi": "Hai nghìn"},
+      {"hanzi": "两", "pinyin": "liǎng", "type": "số từ", "type_short": "st", "meaning": "hai (dùng trước lượng từ)", "example_zh": "两个学生", "example_vi": "Hai học sinh"},
+      {"hanzi": "几", "pinyin": "jǐ", "type": "đại từ", "type_short": "đt", "meaning": "mấy (hỏi số lượng < 10)", "example_zh": "几个朋友？", "example_vi": "Mấy người bạn?"},
+      {"hanzi": "多少", "pinyin": "duōshao", "type": "đại từ", "type_short": "đt", "meaning": "bao nhiêu (hỏi số lượng > 10)", "example_zh": "多少学生？", "example_vi": "Bao nhiêu học sinh?"},
+      {"hanzi": "个", "pinyin": "gè", "type": "lượng từ", "type_short": "lt", "meaning": "cái, chiếc, người (lượng từ chung)", "example_zh": "十个老师", "example_vi": "Mười giáo viên"},
+      {"hanzi": "块", "pinyin": "kuài", "type": "lượng từ", "type_short": "lt", "meaning": "tệ (đơn vị tiền tệ, khẩu ngữ)", "example_zh": "八块", "example_vi": "Tám tệ"},
+      {"hanzi": "元", "pinyin": "yuán", "type": "lượng từ", "type_short": "lt", "meaning": "tệ (đơn vị tiền tệ, văn viết)", "example_zh": "一百元", "example_vi": "Một trăm tệ"},
+      {"hanzi": "半", "pinyin": "bàn", "type": "số từ", "type_short": "st", "meaning": "một nửa", "example_zh": "半个", "example_vi": "Một nửa cái"}
+    ],
+    "grammars": [
+      {
+        "title": "1. Đếm số từ 0 - 99",
+        "desc": "Cấu tạo số trong tiếng Trung rất logic: Hàng chục + 十 (shí) + Hàng đơn vị.",
+        "formula": [{"text": "Số (1-9) + 十 + Số (1-9)", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "十五", "pinyin": "shí wǔ", "meaning": "mười lăm (15)"},
+          {"correct": "九十九", "pinyin": "jiǔ shí jiǔ", "meaning": "chín mươi chín (99)"}
+        ]
+      },
+      {
+        "title": "2. Lượng từ 个 (gè)",
+        "desc": "Trong tiếng Trung, bắt buộc phải có lượng từ giữa số từ và danh từ. 个 là lượng từ phổ biến nhất.",
+        "formula": [{"text": "Số từ / Đại từ chỉ định + 个 + Danh từ", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "四个学生", "pinyin": "sì ge xuéshēng", "meaning": "bốn học sinh"},
+          {"correct": "两个朋友", "pinyin": "liǎng ge péngyǒu", "meaning": "hai người bạn (Dùng 两, không dùng 二)"}
+        ]
+      },
+      {
+        "title": "3. Câu hỏi số lượng với 几 và 多少",
+        "desc": "Dùng 几 (jǐ) để hỏi số lượng nhỏ hơn 10 (bắt buộc phải có lượng từ). Dùng 多少 (duōshao) để hỏi số lượng thường lớn hơn 10 (có thể bỏ lượng từ).",
+        "formula": [
+          {"text": "几 + Lượng từ + Danh từ", "classes": "border-purple-200 bg-purple-50 text-purple-700"},
+          {"text": "多少 + (Lượng từ) + Danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700"}
+        ],
+        "practiceList": [
+          {"correct": "几个学生？", "pinyin": "jǐ ge xuéshēng?", "meaning": "Mấy học sinh?"},
+          {"correct": "多少块？", "pinyin": "duōshao kuài?", "meaning": "Bao nhiêu tệ?"}
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại 1: Hỏi số lượng",
+        "lines": [
+          {"speaker": "A", "zh": "你好，你们是学生吗？", "py": "nǐ hǎo, nǐmen shì xuéshēng ma?", "vi": "Xin chào, các bạn là học sinh phải không?"},
+          {"speaker": "B", "zh": "是，我们是学生。", "py": "shì, wǒmen shì xuéshēng.", "vi": "Vâng, chúng tôi là học sinh."},
+          {"speaker": "A", "zh": "你们有几个学生？", "py": "nǐmen yǒu jǐ ge xuéshēng?", "vi": "Các bạn có mấy học sinh?"},
+          {"speaker": "B", "zh": "我们有八个学生，你呢？", "py": "wǒmen yǒu bā ge xuéshēng, nǐ ne?", "vi": "Chúng tôi có tám học sinh, còn bạn?"}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Hỏi giá đơn giản",
+        "lines": [
+          {"speaker": "A", "zh": "你好，多少块？", "py": "nǐ hǎo, duōshao kuài?", "vi": "Xin chào, bao nhiêu tệ?"},
+          {"speaker": "B", "zh": "五十块。", "py": "wǔ shí kuài.", "vi": "Năm mươi tệ."},
+          {"speaker": "A", "zh": "一百块，可以吗？", "py": "yì bǎi kuài, kěyǐ ma?", "vi": "Một trăm tệ, được không?"},
+          {"speaker": "B", "zh": "不，两百元。", "py": "bù, liǎng bǎi yuán.", "vi": "Không, hai trăm tệ."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 2,
+    "lessonId": "hsk1_new_03",
+    "title": "Bài 3: Gia đình",
+    "vocab": [
+      {"hanzi": "爸爸", "pinyin": "bàba", "type": "danh từ", "type_short": "dt", "meaning": "bố, cha", "example_zh": "我爸爸是老师。", "example_vi": "Bố tôi là giáo viên."},
+      {"hanzi": "妈妈", "pinyin": "māma", "type": "danh từ", "type_short": "dt", "meaning": "mẹ, má", "example_zh": "她妈妈不是学生。", "example_vi": "Mẹ cô ấy không phải là học sinh."},
+      {"hanzi": "哥哥", "pinyin": "gēge", "type": "danh từ", "type_short": "dt", "meaning": "anh trai", "example_zh": "三个哥哥", "example_vi": "Ba người anh trai"},
+      {"hanzi": "姐姐", "pinyin": "jiějie", "type": "danh từ", "type_short": "dt", "meaning": "chị gái", "example_zh": "一个姐姐", "example_vi": "Một người chị gái"},
+      {"hanzi": "弟弟", "pinyin": "dìdi", "type": "danh từ", "type_short": "dt", "meaning": "em trai", "example_zh": "两个弟弟", "example_vi": "Hai đứa em trai"},
+      {"hanzi": "妹妹", "pinyin": "mèimei", "type": "danh từ", "type_short": "dt", "meaning": "em gái", "example_zh": "四个妹妹", "example_vi": "Bốn đứa em gái"},
+      {"hanzi": "儿子", "pinyin": "érzi", "type": "danh từ", "type_short": "dt", "meaning": "con trai", "example_zh": "他儿子", "example_vi": "Con trai anh ấy"},
+      {"hanzi": "女儿", "pinyin": "nǚ'ér", "type": "danh từ", "type_short": "dt", "meaning": "con gái", "example_zh": "我女儿", "example_vi": "Con gái tôi"},
+      {"hanzi": "孩子", "pinyin": "háizi", "type": "danh từ", "type_short": "dt", "meaning": "đứa trẻ, con cái", "example_zh": "五个孩子", "example_vi": "Năm đứa trẻ"},
+      {"hanzi": "家", "pinyin": "jiā", "type": "danh từ", "type_short": "dt", "meaning": "nhà, gia đình", "example_zh": "我家", "example_vi": "Nhà tôi"},
+      {"hanzi": "家人", "pinyin": "jiārén", "type": "danh từ", "type_short": "dt", "meaning": "người nhà", "example_zh": "一家人", "example_vi": "Một người nhà"},
+      {"hanzi": "男", "pinyin": "nán", "type": "tính từ", "type_short": "tt", "meaning": "nam, con trai", "example_zh": "男孩子", "example_vi": "Bé trai"},
+      {"hanzi": "女", "pinyin": "nǚ", "type": "tính từ", "type_short": "tt", "meaning": "nữ, con gái", "example_zh": "女老师", "example_vi": "Cô giáo"},
+      {"hanzi": "男朋友", "pinyin": "nánpéngyǒu", "type": "danh từ", "type_short": "dt", "meaning": "bạn trai", "example_zh": "一个男朋友", "example_vi": "Một người bạn trai"},
+      {"hanzi": "女朋友", "pinyin": "nǚpéngyǒu", "type": "danh từ", "type_short": "dt", "meaning": "bạn gái", "example_zh": "两个女朋友", "example_vi": "Hai người bạn gái"},
+      {"hanzi": "小朋友", "pinyin": "xiǎopéngyǒu", "type": "danh từ", "type_short": "dt", "meaning": "bạn nhỏ", "example_zh": "十个小朋友", "example_vi": "Mười bạn nhỏ"},
+      {"hanzi": "大家", "pinyin": "dàjiā", "type": "đại từ", "type_short": "đt", "meaning": "mọi người", "example_zh": "大家好！", "example_vi": "Chào mọi người!"},
+      {"hanzi": "您", "pinyin": "nín", "type": "đại từ", "type_short": "đt", "meaning": "ngài, ông, bà (tôn kính của 你)", "example_zh": "您好！", "example_vi": "Chào ngài!"},
+      {"hanzi": "先生", "pinyin": "xiānsheng", "type": "danh từ", "type_short": "dt", "meaning": "ông, ngài, thầy", "example_zh": "先生们", "example_vi": "Các quý ông"},
+      {"hanzi": "女士", "pinyin": "nǚshì", "type": "danh từ", "type_short": "dt", "meaning": "bà, phu nhân", "example_zh": "女士们", "example_vi": "Các phu nhân"}
+    ],
+    "grammars": [
+      {
+        "title": "1. Động từ 有 (Sở hữu / Tồn tại)",
+        "desc": "Dùng 有 (yǒu) để biểu thị sự sở hữu (có cái gì đó). Phủ định của 有 bắt buộc phải dùng 没 (méi), tuyệt đối không dùng 不 (bù).",
+        "formula": [
+          {"text": "Chủ ngữ + 有 + Danh từ", "classes": "border-blue-200 bg-blue-50 text-blue-700"},
+          {"text": "Chủ ngữ + 没有 + Danh từ", "classes": "border-red-200 bg-red-50 text-red-700"}
+        ],
+        "practiceList": [
+          {"correct": "我有一个哥哥。", "pinyin": "wǒ yǒu yí ge gēge.", "meaning": "Tôi có một người anh trai."},
+          {"correct": "他没有妹妹。", "pinyin": "tā méiyǒu mèimei.", "meaning": "Anh ấy không có em gái."}
+        ]
+      },
+      {
+        "title": "2. Trợ từ kết cấu 的",
+        "desc": "的 (de) dùng để nối định ngữ và trung tâm ngữ, biểu thị quan hệ sở hữu. Khi chỉ người thân thiết trong gia đình, có thể lược bỏ 的.",
+        "formula": [{"text": "Đại từ / Danh từ + 的 + Danh từ (Sở hữu)", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "我的老师", "pinyin": "wǒ de lǎoshī", "meaning": "giáo viên của tôi"},
+          {"correct": "我爸爸", "pinyin": "wǒ bàba", "meaning": "bố tôi (lược bỏ 的)"}
+        ]
+      },
+      {
+        "title": "3. Xưng hô lịch sự 您 vs 你",
+        "desc": "您 (nín) là cách xưng hô trang trọng, tôn kính của 你 (nǐ), dùng cho người lớn tuổi, cấp trên hoặc người mới gặp để thể hiện sự tôn trọng.",
+        "formula": [{"text": "您好！(Tôn trọng hơn 你好)", "classes": "border-purple-200 bg-purple-50 text-purple-700"}],
+        "practiceList": [
+          {"correct": "先生，您好！", "pinyin": "xiānsheng, nín hǎo!", "meaning": "Chào ngài!"},
+          {"correct": "大家，你们好！", "pinyin": "dàjiā, nǐmen hǎo!", "meaning": "Chào mọi người!"}
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại 1: Giới thiệu gia đình",
+        "lines": [
+          {"speaker": "A", "zh": "你好，你家有几个人？", "py": "nǐ hǎo, nǐ jiā yǒu jǐ ge rén?", "vi": "Xin chào, nhà bạn có mấy người?"},
+          {"speaker": "B", "zh": "我家有四个人：爸爸、妈妈、哥哥和我。", "py": "wǒ jiā yǒu sì ge rén: bàba, māma, gēge hé wǒ.", "vi": "Nhà tôi có bốn người: bố, mẹ, anh trai và tôi."},
+          {"speaker": "A", "zh": "你有妹妹吗？", "py": "nǐ yǒu mèimei ma?", "vi": "Bạn có em gái không?"},
+          {"speaker": "B", "zh": "我没有妹妹。你呢？", "py": "wǒ méi yǒu mèimei. nǐ ne?", "vi": "Tôi không có em gái. Còn bạn?"}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Giao tiếp lịch sự",
+        "lines": [
+          {"speaker": "先生", "zh": "你好！", "py": "nǐ hǎo!", "vi": "Xin chào!"},
+          {"speaker": "服务员", "zh": "先生，您好！", "py": "xiānsheng, nín hǎo!", "vi": "Chào ngài!"},
+          {"speaker": "先生", "zh": "那是你的女朋友吗？", "py": "nà shì nǐ de nǚpéngyǒu ma?", "vi": "Đó là bạn gái của cậu phải không?"},
+          {"speaker": "服务员", "zh": "不是，她是我姐姐。", "py": "bú shì, tā shì wǒ jiějie.", "vi": "Không phải, chị ấy là chị gái của tôi."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "lessonId": "hsk1_new_04",
+    "title": "Bài 4: Giới thiệu bản thân, quốc tịch",
+    "vocab": [
+      {"hanzi": "中国", "pinyin": "Zhōngguó", "type": "danh từ riêng", "type_short": "dt", "meaning": "Trung Quốc", "example_zh": "我是中国人。", "example_vi": "Tôi là người Trung Quốc."},
+      {"hanzi": "中文", "pinyin": "Zhōngwén", "type": "danh từ", "type_short": "dt", "meaning": "tiếng Trung", "example_zh": "我不懂中文。", "example_vi": "Tôi không hiểu tiếng Trung."},
+      {"hanzi": "汉语", "pinyin": "Hànyǔ", "type": "danh từ", "type_short": "dt", "meaning": "tiếng Hán, tiếng Trung", "example_zh": "我的汉语老师", "example_vi": "Giáo viên tiếng Hán của tôi"},
+      {"hanzi": "汉字", "pinyin": "Hànzì", "type": "danh từ", "type_short": "dt", "meaning": "chữ Hán", "example_zh": "一百个汉字", "example_vi": "Một trăm chữ Hán"},
+      {"hanzi": "国", "pinyin": "guó", "type": "danh từ", "type_short": "dt", "meaning": "quốc gia, nước", "example_zh": "哪国人？", "example_vi": "Người nước nào?"},
+      {"hanzi": "认识", "pinyin": "rènshi", "type": "động từ", "type_short": "đ", "meaning": "quen biết, nhận biết", "example_zh": "我不认识他。", "example_vi": "Tôi không quen biết anh ấy."},
+      {"hanzi": "高兴", "pinyin": "gāoxìng", "type": "tính từ", "type_short": "tt", "meaning": "vui vẻ, vui mừng", "example_zh": "认识你很高兴。", "example_vi": "Rất vui được quen biết bạn."},
+      {"hanzi": "见", "pinyin": "jiàn", "type": "động từ", "type_short": "đ", "meaning": "gặp mặt, nhìn thấy", "example_zh": "明天见！", "example_vi": "Ngày mai gặp lại!"},
+      {"hanzi": "请", "pinyin": "qǐng", "type": "động từ", "type_short": "đ", "meaning": "mời, xin", "example_zh": "请！", "example_vi": "Xin mời!"},
+      {"hanzi": "请问", "pinyin": "qǐngwèn", "type": "động từ", "type_short": "đ", "meaning": "xin hỏi", "example_zh": "请问，您叫什么名字？", "example_vi": "Xin hỏi, ngài tên là gì?"},
+      {"hanzi": "谁", "pinyin": "shéi", "type": "đại từ", "type_short": "đt", "meaning": "ai", "example_zh": "他是谁？", "example_vi": "Anh ấy là ai?"},
+      {"hanzi": "什么", "pinyin": "shénme", "type": "đại từ", "type_short": "đt", "meaning": "cái gì, gì", "example_zh": "这是什么？", "example_vi": "Đây là cái gì?"},
+      {"hanzi": "哪", "pinyin": "nǎ", "type": "đại từ", "type_short": "đt", "meaning": "nào (hỏi lựa chọn)", "example_zh": "哪国？", "example_vi": "Nước nào?"},
+      {"hanzi": "哪个", "pinyin": "nǎge", "type": "đại từ", "type_short": "đt", "meaning": "cái nào, người nào", "example_zh": "哪个人是你朋友？", "example_vi": "Người nào là bạn của cậu?"},
+      {"hanzi": "哪里", "pinyin": "nǎlǐ", "type": "đại từ", "type_short": "đt", "meaning": "ở đâu (văn viết/phương Nam)", "example_zh": "你是哪里人？", "example_vi": "Bạn là người ở đâu?"},
+      {"hanzi": "哪儿", "pinyin": "nǎr", "type": "đại từ", "type_short": "đt", "meaning": "ở đâu (khẩu ngữ/Bắc Kinh)", "example_zh": "去哪儿？", "example_vi": "Đi đâu?"},
+      {"hanzi": "哪些", "pinyin": "nǎxiē", "type": "đại từ", "type_short": "đt", "meaning": "những cái nào, những ai", "example_zh": "哪些人是学生？", "example_vi": "Những ai là học sinh?"},
+      {"hanzi": "贵", "pinyin": "guì", "type": "tính từ", "type_short": "tt", "meaning": "đắt, quý (dùng trong kính ngữ)", "example_zh": "免贵", "example_vi": "Miễn xưng quý"},
+      {"hanzi": "对不起", "pinyin": "duìbuqǐ", "type": "cụm từ", "type_short": "c", "meaning": "xin lỗi", "example_zh": "对不起！", "example_vi": "Xin lỗi!"},
+      {"hanzi": "没关系", "pinyin": "méi guānxi", "type": "cụm từ", "type_short": "c", "meaning": "không có gì, không sao", "example_zh": "没关系。", "example_vi": "Không có gì đâu."}
+    ],
+    "grammars": [
+      {
+        "title": "1. Ôn tập: Phủ định với 不 (bù)",
+        "desc": "不 (bù) dùng để phủ định hành động hiện tại, tương lai hoặc tính chất. Nếu đứng trước âm tiết mang thanh 4, 不 sẽ đổi giọng thành thanh 2 (bú).",
+        "formula": [{"text": "Chủ ngữ + 不 + Động từ / Tính từ", "classes": "border-red-200 bg-red-50 text-red-700"}],
+        "practiceList": [
+          {"correct": "我不是中国人。", "pinyin": "Wǒ bú shì Zhōngguó rén.", "meaning": "Tôi không phải là người Trung Quốc."},
+          {"correct": "我不认识他。", "pinyin": "Wǒ bù rènshi tā.", "meaning": "Tôi không quen biết anh ấy."}
+        ]
+      },
+      {
+        "title": "2. Câu hỏi với 什么 và 哪",
+        "desc": "Dùng 什么 (shénme) để hỏi 'cái gì'. Dùng 哪 (nǎ) + lượng từ/danh từ để hỏi 'nào' (lựa chọn).",
+        "formula": [
+          {"text": "什么 + Danh từ", "classes": "border-blue-200 bg-blue-50 text-blue-700"},
+          {"text": "哪 + Lượng từ + Danh từ", "classes": "border-purple-200 bg-purple-50 text-purple-700"}
+        ],
+        "practiceList": [
+          {"correct": "什么名字？", "pinyin": "shénme míngzi?", "meaning": "Tên gì?"},
+          {"correct": "哪国人？", "pinyin": "nǎ guó rén?", "meaning": "Người nước nào?"}
+        ]
+      },
+      {
+        "title": "3. Mẫu câu xã giao: 认识你很高兴",
+        "desc": "Mẫu câu dùng khi lần đầu gặp mặt và làm quen với ai đó.",
+        "formula": [{"text": "认识你很高兴 (Rènshi nǐ hěn gāoxìng)", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "认识你很高兴。", "pinyin": "Rènshi nǐ hěn gāoxìng.", "meaning": "Rất vui được quen biết bạn."},
+          {"correct": "认识你，我也很高兴。", "pinyin": "Rènshi nǐ, wǒ yě hěn gāoxìng.", "meaning": "Quen biết bạn, tôi cũng rất vui."}
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại 1: Hỏi quốc tịch",
+        "lines": [
+          {"speaker": "A", "zh": "请问，你是哪国人？", "py": "qǐngwèn, nǐ shì nǎ guó rén?", "vi": "Xin hỏi, bạn là người nước nào?"},
+          {"speaker": "B", "zh": "我是中国人。你呢？", "py": "wǒ shì Zhōngguó rén. nǐ ne?", "vi": "Tôi là người Trung Quốc. Còn bạn?"},
+          {"speaker": "A", "zh": "我不是中国人。认识你很高兴。", "py": "wǒ bú shì Zhōngguó rén. rènshi nǐ hěn gāoxìng.", "vi": "Tôi không phải người Trung Quốc. Rất vui được làm quen với bạn."},
+          {"speaker": "B", "zh": "认识你，我也很高兴。", "py": "rènshi nǐ, wǒ yě hěn gāoxìng.", "vi": "Làm quen với bạn, tôi cũng rất vui."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Xin lỗi và đáp lại",
+        "lines": [
+          {"speaker": "A", "zh": "对不起！", "py": "duìbuqǐ!", "vi": "Xin lỗi!"},
+          {"speaker": "B", "zh": "没关系。", "py": "méi guānxi.", "vi": "Không có gì."},
+          {"speaker": "A", "zh": "请问，你是汉语老师吗？", "py": "qǐngwèn, nǐ shì Hànyǔ lǎoshī ma?", "vi": "Xin hỏi, bạn là giáo viên tiếng Hán phải không?"},
+          {"speaker": "B", "zh": "不是，我是学生。", "py": "bú shì, wǒ shì xuéshēng.", "vi": "Không phải, tôi là học sinh."}
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "lessonId": "hsk1_new_05",
+    "title": "Bài 5: Thời gian: giờ/ngày/năm",
+    "vocab": [
+      {"hanzi": "现在", "pinyin": "xiànzài", "type": "danh từ", "type_short": "dt", "meaning": "bây giờ", "example_zh": "现在几点？", "example_vi": "Bây giờ mấy giờ?"},
+      {"hanzi": "点", "pinyin": "diǎn", "type": "lượng từ", "type_short": "lt", "meaning": "giờ (chỉ thời điểm)", "example_zh": "八点", "example_vi": "Tám giờ"},
+      {"hanzi": "分", "pinyin": "fēn", "type": "lượng từ", "type_short": "lt", "meaning": "phút (chỉ thời điểm)", "example_zh": "十分", "example_vi": "Mười phút"},
+      {"hanzi": "分钟", "pinyin": "fēnzhōng", "type": "danh từ", "type_short": "dt", "meaning": "phút (chỉ khoảng thời gian)", "example_zh": "五十分钟", "example_vi": "Năm mươi phút"},
+      {"hanzi": "小时", "pinyin": "xiǎoshí", "type": "danh từ", "type_short": "dt", "meaning": "tiếng đồng hồ", "example_zh": "一个小时", "example_vi": "Một tiếng đồng hồ"},
+      {"hanzi": "年", "pinyin": "nián", "type": "danh từ", "type_short": "dt", "meaning": "năm", "example_zh": "一年", "example_vi": "Một năm"},
+      {"hanzi": "月", "pinyin": "yuè", "type": "danh từ", "type_short": "dt", "meaning": "tháng", "example_zh": "五月", "example_vi": "Tháng năm"},
+      {"hanzi": "日", "pinyin": "rì", "type": "danh từ", "type_short": "dt", "meaning": "ngày (văn viết)", "example_zh": "十日", "example_vi": "Ngày mười"},
+      {"hanzi": "号", "pinyin": "hào", "type": "lượng từ", "type_short": "lt", "meaning": "ngày, mùng (khẩu ngữ)", "example_zh": "八号", "example_vi": "Ngày mùng tám"},
+      {"hanzi": "今天", "pinyin": "jīntiān", "type": "danh từ", "type_short": "dt", "meaning": "hôm nay", "example_zh": "今天几号？", "example_vi": "Hôm nay mùng mấy?"},
+      {"hanzi": "明天", "pinyin": "míngtiān", "type": "danh từ", "type_short": "dt", "meaning": "ngày mai", "example_zh": "明天见！", "example_vi": "Ngày mai gặp!"},
+      {"hanzi": "昨天", "pinyin": "zuótiān", "type": "danh từ", "type_short": "dt", "meaning": "hôm qua", "example_zh": "昨天是十号。", "example_vi": "Hôm qua là mùng mười."},
+      {"hanzi": "今年", "pinyin": "jīnnián", "type": "danh từ", "type_short": "dt", "meaning": "năm nay", "example_zh": "今年是中国年。", "example_vi": "Năm nay là năm Trung Quốc."},
+      {"hanzi": "明年", "pinyin": "míngnián", "type": "danh từ", "type_short": "dt", "meaning": "năm sau", "example_zh": "明年见！", "example_vi": "Năm sau gặp!"},
+      {"hanzi": "去年", "pinyin": "qùnián", "type": "danh từ", "type_short": "dt", "meaning": "năm ngoái", "example_zh": "去年是哪年？", "example_vi": "Năm ngoái là năm nào?"},
+      {"hanzi": "时候", "pinyin": "shíhou", "type": "danh từ", "type_short": "dt", "meaning": "lúc, khi", "example_zh": "什么时候？", "example_vi": "Khi nào?"},
+      {"hanzi": "时间", "pinyin": "shíjiān", "type": "danh từ", "type_short": "dt", "meaning": "thời gian", "example_zh": "没有时间", "example_vi": "Không có thời gian"},
+      {"hanzi": "早上", "pinyin": "zǎoshang", "type": "danh từ", "type_short": "dt", "meaning": "buổi sáng (sớm)", "example_zh": "早上好！", "example_vi": "Chào buổi sáng!"},
+      {"hanzi": "上午", "pinyin": "shàngwǔ", "type": "danh từ", "type_short": "dt", "meaning": "buổi sáng", "example_zh": "上午十点", "example_vi": "Mười giờ sáng"},
+      {"hanzi": "中午", "pinyin": "zhōngwǔ", "type": "danh từ", "type_short": "dt", "meaning": "buổi trưa", "example_zh": "中午十二点", "example_vi": "Mười hai giờ trưa"}
+    ],
+    "grammars": [
+      {
+        "title": "1. Cách nói giờ cơ bản (X点X分)",
+        "desc": "Để nói giờ, dùng cấu trúc số + 点 (diǎn) + số + 分 (fēn). Từ chỉ thời gian thường đứng trước động từ hoặc đầu câu.",
+        "formula": [{"text": "Số + 点 + Số + 分", "classes": "border-blue-200 bg-blue-50 text-blue-700"}],
+        "practiceList": [
+          {"correct": "现在八点。", "pinyin": "xiànzài bā diǎn.", "meaning": "Bây giờ là 8 giờ."},
+          {"correct": "上午十点十分", "pinyin": "shàngwǔ shí diǎn shí fēn", "meaning": "10 giờ 10 phút sáng"}
+        ]
+      },
+      {
+        "title": "2. Cấu trúc Năm/Tháng/Ngày",
+        "desc": "Trong tiếng Trung, thứ tự thời gian luôn đi từ lớn đến nhỏ: Năm (年) -> Tháng (月) -> Ngày (日 / 号).",
+        "formula": [{"text": "Năm (年) + Tháng (月) + Ngày (号/日)", "classes": "border-green-200 bg-green-50 text-green-700"}],
+        "practiceList": [
+          {"correct": "今天几月几号？", "pinyin": "jīntiān jǐ yuè jǐ hào?", "meaning": "Hôm nay ngày mấy tháng mấy?"},
+          {"correct": "九月十号", "pinyin": "jiǔ yuè shí hào", "meaning": "Ngày mùng 10 tháng 9"}
+        ]
+      },
+      {
+        "title": "3. Phân biệt 时候 và 时间",
+        "desc": "什么时候 (shénme shíhou) là cụm từ để hỏi 'khi nào'. 时间 (shíjiān) là danh từ chỉ khoảng thời gian nói chung.",
+        "formula": [
+          {"text": "什么时候 (Hỏi thời điểm)", "classes": "border-purple-200 bg-purple-50 text-purple-700"},
+          {"text": "时间 (Chỉ khoảng thời gian)", "classes": "border-orange-200 bg-orange-50 text-orange-700"}
+        ],
+        "practiceList": [
+          {"correct": "你什么时候见他？", "pinyin": "nǐ shénme shíhou jiàn tā?", "meaning": "Khi nào bạn gặp anh ấy?"},
+          {"correct": "我没有时间。", "pinyin": "wǒ méi yǒu shíjiān.", "meaning": "Tôi không có thời gian."}
+        ]
+      }
+    ],
+    "dialogues": [
+      {
+        "title": "Hội thoại 1: Hỏi giờ hiện tại",
+        "lines": [
+          {"speaker": "A", "zh": "请问，现在几点？", "py": "qǐngwèn, xiànzài jǐ diǎn?", "vi": "Xin hỏi, bây giờ mấy giờ?"},
+          {"speaker": "B", "zh": "现在上午十点十分。", "py": "xiànzài shàngwǔ shí diǎn shí fēn.", "vi": "Bây giờ là mười giờ mười phút sáng."},
+          {"speaker": "A", "zh": "你什么时候见老师？", "py": "nǐ shénme shíhou jiàn lǎoshī?", "vi": "Khi nào bạn gặp thầy giáo?"},
+          {"speaker": "B", "zh": "十点半。", "py": "shí diǎn bàn.", "vi": "Mười giờ rưỡi."}
+        ]
+      },
+      {
+        "title": "Hội thoại 2: Hỏi ngày tháng",
+        "lines": [
+          {"speaker": "A", "zh": "今天几月几号？", "py": "jīntiān jǐ yuè jǐ hào?", "vi": "Hôm nay ngày mấy tháng mấy?"},
+          {"speaker": "B", "zh": "今天是八月九号。", "py": "jīntiān shì bā yuè jiǔ hào.", "vi": "Hôm nay là mùng chín tháng tám."},
+          {"speaker": "A", "zh": "明天你见你的朋友吗？", "py": "míngtiān nǐ jiàn nǐ de péngyǒu ma?", "vi": "Ngày mai bạn gặp bạn của bạn không?"},
+          {"speaker": "B", "zh": "是，明天见。", "py": "shì, míngtiān jiàn.", "vi": "Đúng, ngày mai gặp."}
+        ]
+      }
+    ]
+  }
+]

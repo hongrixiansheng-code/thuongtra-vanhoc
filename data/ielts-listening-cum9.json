@@ -1,0 +1,27 @@
+[
+  {
+    "lessonOrder": 17,
+    "listening": [
+      {
+        "title": "Listening: Booking an appointment",
+        "transcript": "The appointment is on the fifth of March. Can you come at ten o'clock? It is the second appointment this month.",
+        "questions": [
+          { "type": "form_completion", "question": "The appointment is on the fifth of ___.", "options": ["March", "May", "June"], "correct": "March", "explanation": "\"The appointment is on the fifth of March.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 18,
+    "listening": [
+      {
+        "title": "Listening: Review — A busy schedule",
+        "transcript": "Can you help me? First, fill in this form, then sign at the bottom. The meeting is on the second of May. This pen is small, but it works well.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What should you do after filling in the form?", "options": ["Sign at the bottom", "Send an email", "Call the office"], "correct": "Sign at the bottom", "explanation": "\"fill in this form, then sign at the bottom.\"" },
+          { "type": "form_completion", "question": "The meeting is on the second of ___.", "options": ["April", "May", "June"], "correct": "May", "explanation": "\"The meeting is on the second of May.\"" }
+        ]
+      }
+    ]
+  }
+]

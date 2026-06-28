@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 3,
+    "reading": [
+      {
+        "title": "Reading: Lost and found notice",
+        "passage": "LOST: A young woman, about 25 years old. She is tall, with long, curly blonde hair. Her coat is red. Please contact the front desk if you have any information.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The woman is short.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "Thông báo ghi \"She is tall\"." },
+          { "type": "true_false_ng", "question": "Her hair is curly.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"long, curly blonde hair\"." },
+          { "type": "true_false_ng", "question": "She is friendly.", "options": ["True", "False", "Not Given"], "correct": "Not Given", "explanation": "Đoạn văn không nói về tính cách của cô." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 4,
+    "reading": [
+      {
+        "title": "Reading: About my best friend",
+        "passage": "My best friend is Mai. She has a kind heart and she is always calm. She isn't lazy at all; she has a lot of energy. Sometimes she is busy with work, but she always has time for her friends.",
+        "questions": [
+          { "type": "true_false_ng", "question": "Mai is lazy.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"She isn't lazy at all\"." },
+          { "type": "multiple_choice", "question": "What kind of person is Mai?", "options": ["Kind and calm", "Angry and shy", "Sad and quiet"], "correct": "Kind and calm", "explanation": "\"She has a kind heart and she is always calm.\"" }
+        ]
+      }
+    ]
+  }
+]

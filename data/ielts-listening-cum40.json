@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 79,
+    "listening": [
+      {
+        "title": "Listening: Childhood routines",
+        "transcript": "I used to read books with my grandmother every evening. I used to draw pictures with my father, but I didn't use to do it on weekends.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did the speaker use to do with their grandmother?", "options": ["Cook", "Read books", "Watch TV"], "correct": "Read books", "explanation": "\"I used to read books with my grandmother every evening.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 80,
+    "listening": [
+      {
+        "title": "Listening: Reporting news",
+        "transcript": "She said that she would finish it soon. He told me that he liked the new plan. They reported that the bridge was finished.",
+        "questions": [
+          { "type": "multiple_choice", "question": "What did they report about the bridge?", "options": ["It was finished", "It was broken", "It was being built"], "correct": "It was finished", "explanation": "\"They reported that the bridge was finished.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,240 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 27,
+      "title": "Bài 14.b: Nghề nghiệp (2/2)",
+      "theme": "Nơi chốn & nghề nghiệp",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "mechanic",
+          "ipa": "/məˈkænɪk/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thợ máy, thợ cơ khí",
+          "example_en": "The mechanic is fixing the car.",
+          "example_vi": "Người thợ máy đang sửa xe."
+        },
+        {
+          "word": "meeting",
+          "ipa": "/ˈmiːtɪŋ/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuộc họp",
+          "example_en": "My dad has a meeting today.",
+          "example_vi": "Hôm nay bố tôi có một cuộc họp."
+        },
+        {
+          "word": "news",
+          "ipa": "/nuːz/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tin tức",
+          "example_en": "Did you watch the news on TV?",
+          "example_vi": "Bạn đã xem tin tức trên tivi chưa?"
+        },
+        {
+          "word": "newspaper",
+          "ipa": "/ˈnuːzpeɪpər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tờ báo",
+          "example_en": "Grandpa reads the newspaper every day.",
+          "example_vi": "Ông nội đọc báo mỗi ngày."
+        },
+        {
+          "word": "office",
+          "ipa": "/ˈɒfɪs/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "văn phòng",
+          "example_en": "She works in a big office.",
+          "example_vi": "Cô ấy làm việc trong một văn phòng lớn."
+        },
+        {
+          "word": "photographer",
+          "ipa": "/fəˈtɒɡrəfər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nhiếp ảnh gia",
+          "example_en": "The photographer takes a picture.",
+          "example_vi": "Nhiếp ảnh gia chụp một bức ảnh."
+        },
+        {
+          "word": "pilot",
+          "ipa": "/ˈpaɪlət/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "phi công",
+          "example_en": "The pilot flies the plane.",
+          "example_vi": "Phi công lái máy bay."
+        },
+        {
+          "word": "police officer",
+          "ipa": "/pəˈliːs ˌɒfɪsər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cảnh sát viên",
+          "example_en": "The police officer helps people.",
+          "example_vi": "Viên cảnh sát giúp đỡ mọi người."
+        },
+        {
+          "word": "queen",
+          "ipa": "/kwiːn/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "nữ hoàng",
+          "example_en": "The queen wears a beautiful crown.",
+          "example_vi": "Nữ hoàng đội một chiếc vương miện tuyệt đẹp."
+        },
+        {
+          "word": "singer",
+          "ipa": "/ˈsɪŋər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ca sĩ",
+          "example_en": "She is a pop singer.",
+          "example_vi": "Cô ấy là một ca sĩ nhạc pop."
+        },
+        {
+          "word": "waiter",
+          "ipa": "/ˈweɪtər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "người bồi bàn nam",
+          "example_en": "The waiter brings our food.",
+          "example_vi": "Người bồi bàn mang thức ăn của chúng tôi ra."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    },
+    {
+      "orderIndex": 28,
+      "title": "Bài 15.a: Thời gian (1/3)",
+      "theme": "Thời gian, động từ & khái niệm trừu tượng",
+      "isPremium": false,
+      "vocab": [
+        {
+          "word": "a.m.",
+          "ipa": "/ˌeɪ ˈem/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "sáng (trước 12 giờ trưa)",
+          "example_en": "I wake up at 6 a.m.",
+          "example_vi": "Tôi thức dậy lúc 6 giờ sáng."
+        },
+        {
+          "word": "ago",
+          "ipa": "/əˈɡoʊ/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "trước đây, về trước",
+          "example_en": "I saw him ten minutes ago.",
+          "example_vi": "Tôi đã nhìn thấy anh ấy mười phút trước."
+        },
+        {
+          "word": "autumn",
+          "ipa": "/ˈɔːtəm/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mùa thu (Anh Anh)",
+          "example_en": "Leaves fall in autumn.",
+          "example_vi": "Lá rụng vào mùa thu."
+        },
+        {
+          "word": "calendar",
+          "ipa": "/ˈkælɪndər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "cuốn lịch",
+          "example_en": "Look at the calendar on the wall.",
+          "example_vi": "Hãy nhìn vào tờ lịch trên tường."
+        },
+        {
+          "word": "century",
+          "ipa": "/ˈsentʃəri/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "thế kỷ",
+          "example_en": "A century has one hundred years.",
+          "example_vi": "Một thế kỷ có một trăm năm."
+        },
+        {
+          "word": "date",
+          "ipa": "/deɪt/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "ngày (trong tháng)",
+          "example_en": "What is the date today?",
+          "example_vi": "Hôm nay là ngày mấy?"
+        },
+        {
+          "word": "early",
+          "ipa": "/ˈɜːrli/",
+          "type": "Trạng từ / Tính từ",
+          "type_short": "adv",
+          "meaning": "sớm",
+          "example_en": "I woke up early today.",
+          "example_vi": "Hôm nay tôi đã thức dậy sớm."
+        },
+        {
+          "word": "end",
+          "ipa": "/end/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "sự kết thúc",
+          "example_en": "This is the end of the story.",
+          "example_vi": "Đây là phần kết thúc của câu chuyện."
+        },
+        {
+          "word": "fall",
+          "ipa": "/fɔːl/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "mùa thu (Anh Mỹ)",
+          "example_en": "We pick apples in the fall.",
+          "example_vi": "Chúng tôi hái táo vào mùa thu."
+        },
+        {
+          "word": "future",
+          "ipa": "/ˈfjuːtʃər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "tương lai",
+          "example_en": "What will you be in the future?",
+          "example_vi": "Bạn sẽ làm gì trong tương lai?"
+        },
+        {
+          "word": "hour",
+          "ipa": "/ˈaʊər/",
+          "type": "Danh từ",
+          "type_short": "n",
+          "meaning": "giờ (đồng hồ)",
+          "example_en": "An hour has sixty minutes.",
+          "example_vi": "Một giờ có sáu mươi phút."
+        },
+        {
+          "word": "late",
+          "ipa": "/leɪt/",
+          "type": "Trạng từ / Tính từ",
+          "type_short": "adj",
+          "meaning": "trễ, muộn",
+          "example_en": "Don't be late for school.",
+          "example_vi": "Đừng đi học trễ nhé."
+        },
+        {
+          "word": "later",
+          "ipa": "/ˈleɪtər/",
+          "type": "Trạng từ",
+          "type_short": "adv",
+          "meaning": "sau đó, muộn hơn",
+          "example_en": "I will do my homework later.",
+          "example_vi": "Tôi sẽ làm bài tập về nhà sau."
+        }
+      ],
+      "grammar": [],
+      "dialogue": []
+    }
+  ]
+}

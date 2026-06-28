@@ -1,0 +1,15 @@
+[
+  {
+    "lessonOrder": 87,
+    "writing": [
+      {
+        "title": "Writing Task 2: Environment, society, and health",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 50 words) about environment or health, combining grammar from earlier chapters.",
+        "minWords": 40,
+        "sampleAnswer": "A great deal of plastic is thrown away every day. These rules must be followed to protect the environment. If people exercised more, they would be healthier. A large number of people now prefer a healthier lifestyle.",
+        "checklist": ["Kết hợp được ít nhất 3 cấu trúc đã học trước đó", "Chủ đề bám sát môi trường/sức khỏe/xã hội", "Đoạn văn có mở-thân-kết đơn giản"]
+      }
+    ]
+  }
+]

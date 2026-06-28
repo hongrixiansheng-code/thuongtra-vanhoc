@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 65,
+    "writing": [
+      {
+        "title": "Writing Task 2: Describe your experiences",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) describing your recent experiences and achievements, using Present Perfect (have/has + V3).",
+        "minWords": 30,
+        "sampleAnswer": "I have had so many great experiences this year. I have completed my first marathon, which was a real challenge. I have also had a new opportunity at work.",
+        "checklist": ["Dùng have/has + V3 đúng dạng", "Có ít nhất 2 trải nghiệm/thành tích khác nhau", "Không dùng mốc thời gian cụ thể (yesterday, last year...)"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 66,
+    "writing": [
+      {
+        "title": "Writing Task 2: Things you have/haven't done",
+        "taskType": "task2",
+        "prompt": "Write a short paragraph (about 40 words) about things you have or haven't done, using ever/never.",
+        "minWords": 30,
+        "sampleAnswer": "I have visited Da Lat twice. I have tried Vietnamese coffee many times. However, I have never met a famous person, and I have never travelled alone.",
+        "checklist": ["Dùng never ít nhất 1 lần", "Có thể dùng ever trong câu hỏi", "Liệt kê được ít nhất 3 trải nghiệm"]
+      }
+    ]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 15,
+    "listening": [
+      {
+        "title": "Listening: At the shop",
+        "transcript": "I want a small red bag and a big blue box. Do you have any tiny boxes? I prefer the wide ones, actually.",
+        "questions": [
+          { "type": "form_completion", "question": "The bag the customer wants is ___ and red.", "options": ["small", "big", "wide"], "correct": "small", "explanation": "\"I want a small red bag\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 16,
+    "listening": [
+      {
+        "title": "Listening: Checking your bag",
+        "transcript": "This is my key, and these are my glasses. Is this your phone? These tickets are for the concert. Where are my cards?",
+        "questions": [
+          { "type": "multiple_choice", "question": "What are the tickets for?", "options": ["The concert", "The cinema", "The museum"], "correct": "The concert", "explanation": "\"These tickets are for the concert.\"" }
+        ]
+      }
+    ]
+  }
+]

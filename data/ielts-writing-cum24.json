@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 47,
+    "writing": [
+      {
+        "title": "Writing Task 1: Make predictions and quick decisions",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) making predictions and quick decisions, using will/won't.",
+        "minWords": 30,
+        "sampleAnswer": "I think it will rain tomorrow. It's getting cold, so I will close the window now. The meeting probably won't be too long, maybe just one hour.",
+        "checklist": ["Dùng will cho dự đoán không chắc chắn", "Dùng will cho quyết định tức thì", "Có ít nhất 1 câu phủ định won't"]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 48,
+    "writing": [
+      {
+        "title": "Writing Task 1: Describe your plans",
+        "taskType": "task1",
+        "prompt": "Write a short paragraph (about 40 words) describing your plans, using going to.",
+        "minWords": 30,
+        "sampleAnswer": "I am going to visit my hometown this weekend. I already arranged everything and booked the train ticket. My goal this year is to improve my English.",
+        "checklist": ["Dùng am/is/are + going to + V đúng dạng", "Có ít nhất 1 bằng chứng/chuẩn bị cụ thể đã làm", "Mô tả được mục tiêu rõ ràng"]
+      }
+    ]
+  }
+]

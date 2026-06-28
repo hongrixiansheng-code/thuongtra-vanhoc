@@ -1,0 +1,1407 @@
+[
+  {
+    "orderIndex": 1,
+    "grammar": [
+      {
+        "title": "Câu trần thuật với 是",
+        "desc": "Dùng 是 (shì) để nối chủ ngữ với danh từ/đại từ, biểu thị 'là'. Phủ định dùng 不是.",
+        "formula": "Chủ ngữ + 是 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "我是学生。",
+            "pinyin": "Wǒ shì xuéshēng.",
+            "meaning": "Tôi là học sinh."
+          },
+          {
+            "correct": "他是老师。",
+            "pinyin": "Tā shì lǎoshī.",
+            "meaning": "Anh ấy là giáo viên."
+          },
+          {
+            "correct": "我不是老师。",
+            "pinyin": "Wǒ bù shì lǎoshī.",
+            "meaning": "Tôi không phải là giáo viên."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi có/không với 吗",
+        "desc": "Thêm trợ từ nghi vấn 吗 (ma) vào cuối câu trần thuật để tạo thành câu hỏi Có/Không.",
+        "formula": "Câu trần thuật + 吗？",
+        "practiceList": [
+          {
+            "correct": "你好吗？",
+            "pinyin": "Nǐ hǎo ma?",
+            "meaning": "Bạn khỏe không?"
+          },
+          {
+            "correct": "你是学生吗？",
+            "pinyin": "Nǐ shì xuéshēng ma?",
+            "meaning": "Bạn là học sinh phải không?"
+          },
+          {
+            "correct": "他是老师吗？",
+            "pinyin": "Tā shì lǎoshī ma?",
+            "meaning": "Anh ấy là giáo viên phải không?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 2,
+    "grammar": [
+      {
+        "title": "Đại từ nhân xưng số nhiều 们",
+        "desc": "Thêm hậu tố 们 (men) vào sau đại từ nhân xưng số ít hoặc danh từ chỉ người để tạo số nhiều.",
+        "formula": "Đại từ/Danh từ chỉ người + 们",
+        "practiceList": [
+          {
+            "correct": "我们是朋友。",
+            "pinyin": "Wǒmen shì péngyou.",
+            "meaning": "Chúng tôi là bạn bè."
+          },
+          {
+            "correct": "他们是学生吗？",
+            "pinyin": "Tāmen shì xuéshēng ma?",
+            "meaning": "Họ là học sinh phải không?"
+          },
+          {
+            "correct": "老师们好！",
+            "pinyin": "Lǎoshī men hǎo!",
+            "meaning": "Chào các thầy cô!"
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi với 什么 (Cái gì)",
+        "desc": "Dùng đại từ nghi vấn 什么 (shénme) để hỏi thông tin cụ thể về sự vật, sự việc.",
+        "formula": "Chủ ngữ + Động từ + 什么 + (Danh từ)？",
+        "practiceList": [
+          {
+            "correct": "你叫什么名字？",
+            "pinyin": "Nǐ jiào shénme míngzi?",
+            "meaning": "Bạn tên là gì?"
+          },
+          {
+            "correct": "这是什么？",
+            "pinyin": "Zhè shì shénme?",
+            "meaning": "Đây là cái gì?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 3,
+    "grammar": [
+      {
+        "title": "Động từ 有 biểu thị sở hữu",
+        "desc": "Dùng 有 (yǒu) để biểu đạt sự sở hữu. Thể phủ định bắt buộc phải dùng 没有 (méiyǒu).",
+        "formula": "Chủ ngữ + 有 / 没有 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "我有姐姐。",
+            "pinyin": "Wǒ yǒu jiějie.",
+            "meaning": "Tôi có chị gái."
+          },
+          {
+            "correct": "他没有妹妹。",
+            "pinyin": "Tā méiyǒu mèimei.",
+            "meaning": "Anh ấy không có em gái."
+          },
+          {
+            "correct": "你有哥哥吗？",
+            "pinyin": "Nǐ yǒu gēge ma?",
+            "meaning": "Bạn có anh trai không?"
+          }
+        ]
+      },
+      {
+        "title": "Trợ từ kết cấu 的",
+        "desc": "Dùng 的 (de) đặt giữa định ngữ và danh từ trung tâm để biểu thị quan hệ sở hữu.",
+        "formula": "Đại từ/Danh từ + 的 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "我的家",
+            "pinyin": "Wǒ de jiā",
+            "meaning": "Nhà của tôi"
+          },
+          {
+            "correct": "他的名字",
+            "pinyin": "Tā de míngzi",
+            "meaning": "Tên của anh ấy"
+          },
+          {
+            "correct": "老师的家人",
+            "pinyin": "Lǎoshī de jiārén",
+            "meaning": "Người nhà của giáo viên"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 4,
+    "grammar": [
+      {
+        "title": "Cách đọc số 1-99",
+        "desc": "Đọc số từ 1 đến 99 bằng cách ghép số hàng chục và số hàng đơn vị thông qua 十 (mười).",
+        "formula": "Hàng chục + 十 + Hàng đơn vị",
+        "practiceList": [
+          {
+            "correct": "十一",
+            "pinyin": "shí yī",
+            "meaning": "Mười một"
+          },
+          {
+            "correct": "二十五",
+            "pinyin": "èr shí wǔ",
+            "meaning": "Hai mươi lăm"
+          },
+          {
+            "correct": "九十九",
+            "pinyin": "jiǔ shí jiǔ",
+            "meaning": "Chín mươi chín"
+          }
+        ]
+      },
+      {
+        "title": "Lượng từ 个",
+        "desc": "Lượng từ 个 (gè) là lượng từ thông dụng nhất, dùng chung cho người và nhiều sự vật.",
+        "formula": "Số từ + 个 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "三个人",
+            "pinyin": "sān gè rén",
+            "meaning": "Ba người"
+          },
+          {
+            "correct": "一个哥哥",
+            "pinyin": "yí gè gēge",
+            "meaning": "Một người anh trai"
+          },
+          {
+            "correct": "五个朋友",
+            "pinyin": "wǔ gè péngyou",
+            "meaning": "Năm người bạn"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 5,
+    "grammar": [
+      {
+        "title": "Câu hỏi tuổi 几岁 / 多大",
+        "desc": "Dùng 几岁 (jǐ suì) hỏi tuổi trẻ em (dưới 10). Dùng 多大 (duō dà) hỏi tuổi người lớn.",
+        "formula": "Chủ ngữ + 几岁？ / Chủ ngữ + 多大？",
+        "practiceList": [
+          {
+            "correct": "你几岁？",
+            "pinyin": "Nǐ jǐ suì?",
+            "meaning": "Cháu mấy tuổi?"
+          },
+          {
+            "correct": "你今年多大？",
+            "pinyin": "Nǐ jīnnián duō dà?",
+            "meaning": "Năm nay bạn bao nhiêu tuổi?"
+          },
+          {
+            "correct": "我二十岁。",
+            "pinyin": "Wǒ èrshí suì.",
+            "meaning": "Tôi hai mươi tuổi."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi số lượng 几 vs 多少",
+        "desc": "几 (jǐ) dùng hỏi số lượng nhỏ (thường < 10), cần lượng từ. 多少 (duōshao) dùng hỏi số lượng bất kỳ, lượng từ có thể bỏ qua.",
+        "formula": "几 + Lượng từ + Danh từ？ / 多少 + (Lượng từ) + Danh từ？",
+        "practiceList": [
+          {
+            "correct": "你有几个朋友？",
+            "pinyin": "Nǐ yǒu jǐ gè péngyou?",
+            "meaning": "Bạn có mấy người bạn?"
+          },
+          {
+            "correct": "你们有多少人？",
+            "pinyin": "Nǐmen yǒu duōshao rén?",
+            "meaning": "Các bạn có bao nhiêu người?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 6,
+    "grammar": [
+      {
+        "title": "Cấu trúc ngày tháng",
+        "desc": "Tiếng Trung diễn đạt thời gian từ đơn vị lớn đến nhỏ: Năm -> Tháng -> Ngày.",
+        "formula": "Số + 年 + Số + 月 + Số + 日/号",
+        "practiceList": [
+          {
+            "correct": "今年五月八号",
+            "pinyin": "jīnnián wǔ yuè bā hào",
+            "meaning": "Ngày mùng 8 tháng 5 năm nay"
+          },
+          {
+            "correct": "今天几月几号？",
+            "pinyin": "Jīntiān jǐ yuè jǐ hào?",
+            "meaning": "Hôm nay là ngày mấy tháng mấy?"
+          },
+          {
+            "correct": "昨天是十月一号。",
+            "pinyin": "Zuótiān shì shí yuè yī hào.",
+            "meaning": "Hôm qua là ngày mùng 1 tháng 10."
+          }
+        ]
+      },
+      {
+        "title": "Từ chỉ thời gian tương đối",
+        "desc": "Các từ chỉ thời gian (hôm nay, năm ngoái,...) có thể làm chủ ngữ hoặc trạng ngữ trong câu.",
+        "formula": "Thời gian + Chủ ngữ + V / Chủ ngữ + Thời gian + V",
+        "practiceList": [
+          {
+            "correct": "明天我有事。",
+            "pinyin": "Míngtiān wǒ yǒu shì.",
+            "meaning": "Ngày mai tôi có việc."
+          },
+          {
+            "correct": "今年我二十岁。",
+            "pinyin": "Jīnnián wǒ èrshí suì.",
+            "meaning": "Năm nay tôi hai mươi tuổi."
+          },
+          {
+            "correct": "他昨天没来。",
+            "pinyin": "Tā zuótiān méi lái.",
+            "meaning": "Hôm qua anh ấy không đến."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 7,
+    "grammar": [
+      {
+        "title": "Cách nói giờ",
+        "desc": "Dùng 点 (diǎn) chỉ giờ, 分 (fēn) chỉ phút, 半 (bàn) chỉ 30 phút. Đặt từ chỉ buổi trước giờ.",
+        "formula": "Buổi + Số + 点 + Số + 分 / 半",
+        "practiceList": [
+          {
+            "correct": "现在几点？",
+            "pinyin": "Xiànzài jǐ diǎn?",
+            "meaning": "Bây giờ là mấy giờ?"
+          },
+          {
+            "correct": "现在八点十分。",
+            "pinyin": "Xiànzài bā diǎn shí fēn.",
+            "meaning": "Bây giờ tám giờ mười phút."
+          },
+          {
+            "correct": "上午九点半。",
+            "pinyin": "Shàngwǔ jiǔ diǎn bàn.",
+            "meaning": "Chín giờ rưỡi sáng."
+          }
+        ]
+      },
+      {
+        "title": "Phân biệt 时候 vs 时间",
+        "desc": "时候 (shíhou) chỉ một thời điểm hoặc khoảng lúc nào đó. 时间 (shíjiān) chỉ thời gian nói chung hoặc thời lượng.",
+        "formula": "什么时候？ / 有时间",
+        "practiceList": [
+          {
+            "correct": "你什么时候来？",
+            "pinyin": "Nǐ shénme shíhou lái?",
+            "meaning": "Khi nào bạn đến?"
+          },
+          {
+            "correct": "我没有时间。",
+            "pinyin": "Wǒ méiyǒu shíjiān.",
+            "meaning": "Tôi không có thời gian."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 8,
+    "grammar": [
+      {
+        "title": "Trạng ngữ thời gian",
+        "desc": "Từ chỉ thời gian luôn đặt trước cụm động từ, có thể đứng trước hoặc sau chủ ngữ.",
+        "formula": "Chủ ngữ + Thời gian + Động từ",
+        "practiceList": [
+          {
+            "correct": "我六点起床。",
+            "pinyin": "Wǒ liù diǎn qǐchuáng.",
+            "meaning": "Tôi thức dậy lúc sáu giờ."
+          },
+          {
+            "correct": "他早上不吃饭。",
+            "pinyin": "Tā zǎoshang bù chīfàn.",
+            "meaning": "Anh ấy buổi sáng không ăn cơm."
+          },
+          {
+            "correct": "今天晚上我休息。",
+            "pinyin": "Jīntiān wǎnshang wǒ xiūxi.",
+            "meaning": "Tối nay tôi nghỉ ngơi."
+          }
+        ]
+      },
+      {
+        "title": "Câu liên động đơn giản",
+        "desc": "Hai hoặc nhiều động từ cùng chung một chủ ngữ, hành động xảy ra theo thứ tự trước sau.",
+        "formula": "Chủ ngữ + Động từ 1 + Động từ 2",
+        "practiceList": [
+          {
+            "correct": "我六点起床，七点上班。",
+            "pinyin": "Wǒ liù diǎn qǐchuáng, qī diǎn shàngbān.",
+            "meaning": "Tôi sáu giờ dậy, bảy giờ đi làm."
+          },
+          {
+            "correct": "他上午睡觉，下午上班。",
+            "pinyin": "Tā shàngwǔ shuìjiào, xiàwǔ shàngbān.",
+            "meaning": "Anh ấy sáng ngủ, chiều đi làm."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 9,
+    "grammar": [
+      {
+        "title": "Động từ + tân ngữ ăn uống",
+        "desc": "Dùng 吃 (ăn) hoặc 喝 (uống) đi kèm với danh từ chỉ đồ ăn, thức uống.",
+        "formula": "Chủ ngữ + 吃/喝 + Đồ ăn/Đồ uống",
+        "practiceList": [
+          {
+            "correct": "我吃苹果。",
+            "pinyin": "Wǒ chī píngguǒ.",
+            "meaning": "Tôi ăn táo."
+          },
+          {
+            "correct": "他喝牛奶。",
+            "pinyin": "Tā hē niúnǎi.",
+            "meaning": "Anh ấy uống sữa."
+          },
+          {
+            "correct": "你不吃饭吗？",
+            "pinyin": "Nǐ bù chīfàn ma?",
+            "meaning": "Bạn không ăn cơm sao?"
+          }
+        ]
+      },
+      {
+        "title": "Trợ động từ 要 (muốn, cần)",
+        "desc": "Dùng 要 (yào) đứng trước động từ hoặc danh từ để biểu đạt mong muốn hoặc nhu cầu.",
+        "formula": "Chủ ngữ + 要 + Động từ/Danh từ",
+        "practiceList": [
+          {
+            "correct": "我要吃面条儿。",
+            "pinyin": "Wǒ yào chī miàntiáor.",
+            "meaning": "Tôi muốn ăn mì."
+          },
+          {
+            "correct": "他要喝水。",
+            "pinyin": "Tā yào hē shuǐ.",
+            "meaning": "Anh ấy cần uống nước."
+          },
+          {
+            "correct": "你要什么？",
+            "pinyin": "Nǐ yào shénme?",
+            "meaning": "Bạn muốn gì?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 10,
+    "grammar": [
+      {
+        "title": "Tính từ làm vị ngữ",
+        "desc": "Tính từ có thể trực tiếp làm vị ngữ miêu tả tính chất, KHÔNG được dùng thêm 是.",
+        "formula": "Chủ ngữ + (Phó từ) + Tính từ",
+        "practiceList": [
+          {
+            "correct": "中国菜很好吃。",
+            "pinyin": "Zhōngguó cài hěn hǎochī.",
+            "meaning": "Món ăn Trung Quốc rất ngon."
+          },
+          {
+            "correct": "这个包子真好吃！",
+            "pinyin": "Zhège bāozi zhēn hǎochī!",
+            "meaning": "Cái bánh bao này ngon thật!"
+          },
+          {
+            "correct": "我不早。",
+            "pinyin": "Wǒ bù zǎo.",
+            "meaning": "Tôi không sớm."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi sở thích",
+        "desc": "Sử dụng 什么 kết hợp động từ để hỏi về đồ vật yêu thích.",
+        "formula": "Chủ ngữ + 喜欢 + 吃/喝/做 + 什么？",
+        "practiceList": [
+          {
+            "correct": "你早上吃什么？",
+            "pinyin": "Nǐ zǎoshang chī shénme?",
+            "meaning": "Buổi sáng bạn ăn gì?"
+          },
+          {
+            "correct": "你要喝什么？",
+            "pinyin": "Nǐ yào hē shénme?",
+            "meaning": "Bạn muốn uống gì?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 11,
+    "grammar": [
+      {
+        "title": "Câu chỉ định 这是/那是",
+        "desc": "Dùng 这 (đây, này) để chỉ vật ở gần, 那 (kia, đó) để chỉ vật ở xa.",
+        "formula": "这 / 那 + 是 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "这是我的房间。",
+            "pinyin": "Zhè shì wǒ de fángjiān.",
+            "meaning": "Đây là phòng của tôi."
+          },
+          {
+            "correct": "那是他的书。",
+            "pinyin": "Nà shì tā de shū.",
+            "meaning": "Đó là sách của anh ấy."
+          },
+          {
+            "correct": "这是什么？",
+            "pinyin": "Zhè shì shénme?",
+            "meaning": "Đây là cái gì?"
+          }
+        ]
+      },
+      {
+        "title": "Cụm 这/那 + Lượng từ + Danh từ",
+        "desc": "Khi 这/那 đi kèm trực tiếp với danh từ, bắt buộc phải có lượng từ ở giữa.",
+        "formula": "这/那 + Lượng từ + Danh từ",
+        "practiceList": [
+          {
+            "correct": "这个人是我的朋友。",
+            "pinyin": "Zhège rén shì wǒ de péngyou.",
+            "meaning": "Người này là bạn của tôi."
+          },
+          {
+            "correct": "那个苹果很好吃。",
+            "pinyin": "Nàge píngguǒ hěn hǎochī.",
+            "meaning": "Quả táo đó rất ngon."
+          },
+          {
+            "correct": "这些书是我的。",
+            "pinyin": "Zhèxiē shū shì wǒ de.",
+            "meaning": "Những cuốn sách này là của tôi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 12,
+    "grammar": [
+      {
+        "title": "在 + nơi chốn làm vị ngữ",
+        "desc": "Động từ 在 (zài) biểu thị vị trí tồn tại, dịch là 'ở'.",
+        "formula": "Chủ ngữ + 在 + Nơi chốn",
+        "practiceList": [
+          {
+            "correct": "我在家。",
+            "pinyin": "Wǒ zài jiā.",
+            "meaning": "Tôi ở nhà."
+          },
+          {
+            "correct": "书在桌子上。",
+            "pinyin": "Shū zài zhuōzi shàng.",
+            "meaning": "Sách ở trên bàn."
+          },
+          {
+            "correct": "他不在房间里。",
+            "pinyin": "Tā búzài fángjiān lǐ.",
+            "meaning": "Anh ấy không ở trong phòng."
+          }
+        ]
+      },
+      {
+        "title": "Phương vị từ (Từ chỉ phương hướng)",
+        "desc": "Các từ chỉ phương hướng 里/外/前/后/上/下 đặt SAU danh từ để tạo thành từ chỉ nơi chốn.",
+        "formula": "Danh từ + Phương vị từ",
+        "practiceList": [
+          {
+            "correct": "桌子下有一个苹果。",
+            "pinyin": "Zhuōzi xià yǒu yí gè píngguǒ.",
+            "meaning": "Dưới bàn có một quả táo."
+          },
+          {
+            "correct": "我在前面。",
+            "pinyin": "Wǒ zài qiánmiàn.",
+            "meaning": "Tôi ở phía trước."
+          },
+          {
+            "correct": "房间里有人吗？",
+            "pinyin": "Fángjiān lǐ yǒu rén ma?",
+            "meaning": "Trong phòng có người không?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 13,
+    "grammar": [
+      {
+        "title": "有 biểu thị tồn tại",
+        "desc": "Dùng 有 (yǒu) chỉ sự tồn tại của người hoặc vật tại một địa điểm (Ở đâu đó CÓ cái gì).",
+        "formula": "Từ chỉ nơi chốn + 有 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "学校里有很多学生。",
+            "pinyin": "Xuéxiào lǐ yǒu hěn duō xuéshēng.",
+            "meaning": "Trong trường có rất nhiều học sinh."
+          },
+          {
+            "correct": "超市前有一个人。",
+            "pinyin": "Chāoshì qián yǒu yí gè rén.",
+            "meaning": "Trước siêu thị có một người."
+          },
+          {
+            "correct": "医院里没有超市。",
+            "pinyin": "Yīyuàn lǐ méiyǒu chāoshì.",
+            "meaning": "Trong bệnh viện không có siêu thị."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi địa điểm 哪里/哪儿",
+        "desc": "Dùng 哪里 hoặc 哪儿 để hỏi về địa điểm, vị trí.",
+        "formula": "Chủ ngữ + 去/在 + 哪里/哪儿？",
+        "practiceList": [
+          {
+            "correct": "你去哪里？",
+            "pinyin": "Nǐ qù nǎlǐ?",
+            "meaning": "Bạn đi đâu?"
+          },
+          {
+            "correct": "商店在哪儿？",
+            "pinyin": "Shāngdiàn zài nǎr?",
+            "meaning": "Cửa hàng ở đâu?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 14,
+    "grammar": [
+      {
+        "title": "怎么 hỏi cách thức",
+        "desc": "Đại từ 怎么 (zěnme) đặt trước động từ để hỏi về phương thức thực hiện hành động (như thế nào/bằng cách nào).",
+        "formula": "Chủ ngữ + 怎么 + Động từ？",
+        "practiceList": [
+          {
+            "correct": "你怎么去学校？",
+            "pinyin": "Nǐ zěnme qù xuéxiào?",
+            "meaning": "Bạn đi đến trường bằng gì?"
+          },
+          {
+            "correct": "怎么去医院？",
+            "pinyin": "Zěnme qù yīyuàn?",
+            "meaning": "Đi bệnh viện thế nào?"
+          }
+        ]
+      },
+      {
+        "title": "坐 + phương tiện",
+        "desc": "Động từ 坐 (zuò) nghĩa là ngồi, dùng để biểu đạt cách thức di chuyển bằng các loại xe khách/tàu/máy bay.",
+        "formula": "Chủ ngữ + 坐 + Phương tiện + 去 + Nơi chốn",
+        "practiceList": [
+          {
+            "correct": "我坐火车去北京。",
+            "pinyin": "Wǒ zuò huǒchē qù Běijīng.",
+            "meaning": "Tôi đi xe lửa đến Bắc Kinh."
+          },
+          {
+            "correct": "他坐出租车回家。",
+            "pinyin": "Tā zuò chūzūchē huí jiā.",
+            "meaning": "Anh ấy ngồi taxi về nhà."
+          },
+          {
+            "correct": "我们坐飞机去中国。",
+            "pinyin": "Wǒmen zuò fēijī qù Zhōngguó.",
+            "meaning": "Chúng tôi đi máy bay tới Trung Quốc."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 15,
+    "grammar": [
+      {
+        "title": "Câu hỏi giá tiền 多少钱",
+        "desc": "Cụm 多少钱 (duōshao qián) dùng để hỏi giá cả của một món hàng.",
+        "formula": "Danh từ + 多少钱？",
+        "practiceList": [
+          {
+            "correct": "这个多少钱？",
+            "pinyin": "Zhège duōshao qián?",
+            "meaning": "Cái này bao nhiêu tiền?"
+          },
+          {
+            "correct": "这件衣服多少钱？",
+            "pinyin": "Zhè jiàn yīfu duōshao qián?",
+            "meaning": "Bộ quần áo này bao nhiêu tiền?"
+          }
+        ]
+      },
+      {
+        "title": "Lượng từ tiền tệ 块/元",
+        "desc": "块 (kuài) dùng trong khẩu ngữ, 元 (yuán) dùng trong văn bản, đều có nghĩa là 'đồng'.",
+        "formula": "Số lượng + 块 / 元 + (钱)",
+        "practiceList": [
+          {
+            "correct": "二十块钱",
+            "pinyin": "èr shí kuài qián",
+            "meaning": "Hai mươi đồng"
+          },
+          {
+            "correct": "一百元",
+            "pinyin": "yì bǎi yuán",
+            "meaning": "Một trăm tệ"
+          },
+          {
+            "correct": "这个很便宜，五块钱。",
+            "pinyin": "Zhège hěn piányi, wǔ kuài qián.",
+            "meaning": "Cái này rất rẻ, năm đồng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 16,
+    "grammar": [
+      {
+        "title": "Câu hỏi nghề nghiệp",
+        "desc": "Dùng 做什么工作 để hỏi về nghề nghiệp, công việc của ai đó.",
+        "formula": "Chủ ngữ + 做什么工作？",
+        "practiceList": [
+          {
+            "correct": "你做什么工作？",
+            "pinyin": "Nǐ zuò shénme gōngzuò?",
+            "meaning": "Bạn làm nghề gì?"
+          },
+          {
+            "correct": "你爸爸做什么工作？",
+            "pinyin": "Nǐ bàba zuò shénme gōngzuò?",
+            "meaning": "Bố bạn làm công việc gì?"
+          },
+          {
+            "correct": "我是老师。",
+            "pinyin": "Wǒ shì lǎoshī.",
+            "meaning": "Tôi là giáo viên."
+          }
+        ]
+      },
+      {
+        "title": "打/给 + đối tượng",
+        "desc": "Dùng 给 + người để chỉ đối tượng nhận hành động, đặc biệt với 打电话 (gọi điện).",
+        "formula": "Chủ ngữ + 给 + Người nhận + 打电话",
+        "practiceList": [
+          {
+            "correct": "我打电话给你。",
+            "pinyin": "Wǒ dǎ diànhuà gěi nǐ.",
+            "meaning": "Tôi gọi điện thoại cho bạn."
+          },
+          {
+            "correct": "他给妈妈打电话。",
+            "pinyin": "Tā gěi māma dǎ diànhuà.",
+            "meaning": "Anh ấy gọi điện cho mẹ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 17,
+    "grammar": [
+      {
+        "title": "Động từ kết quả 见",
+        "desc": "Thêm 见 (jiàn) vào sau động từ tri giác như 看 (nhìn), 听 (nghe) để biểu thị kết quả nhận nhận thức được.",
+        "formula": "听 / 看 + 见",
+        "practiceList": [
+          {
+            "correct": "我听见了。",
+            "pinyin": "Wǒ tīngjiàn le.",
+            "meaning": "Tôi nghe thấy rồi."
+          },
+          {
+            "correct": "你看见他了吗？",
+            "pinyin": "Nǐ kànjiàn tā le ma?",
+            "meaning": "Bạn nhìn thấy anh ấy chưa?"
+          },
+          {
+            "correct": "我没看见。",
+            "pinyin": "Wǒ méi kànjiàn.",
+            "meaning": "Tôi không nhìn thấy."
+          }
+        ]
+      },
+      {
+        "title": "在 + Động từ (Đang làm gì)",
+        "desc": "Đặt 在 (zài) trước động từ để diễn tả hành động đang diễn ra tại thời điểm nói.",
+        "formula": "Chủ ngữ + 在 + Động từ + (Tân ngữ)",
+        "practiceList": [
+          {
+            "correct": "我在听歌。",
+            "pinyin": "Wǒ zài tīng gē.",
+            "meaning": "Tôi đang nghe nhạc."
+          },
+          {
+            "correct": "他在看电视。",
+            "pinyin": "Tā zài kàn diànshì.",
+            "meaning": "Anh ấy đang xem ti vi."
+          },
+          {
+            "correct": "学生们在学习。",
+            "pinyin": "Xuéshēng men zài xuéxí.",
+            "meaning": "Các học sinh đang học tập."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 18,
+    "grammar": [
+      {
+        "title": "Câu hỏi 怎么样",
+        "desc": "Đại từ 怎么样 (zěnmeyàng) dùng ở cuối câu để hỏi về tính chất, tình trạng, hoặc đánh giá về sự vật/sự việc.",
+        "formula": "Chủ ngữ + 怎么样？",
+        "practiceList": [
+          {
+            "correct": "今天天气怎么样？",
+            "pinyin": "Jīntiān tiānqì zěnmeyàng?",
+            "meaning": "Hôm nay thời tiết thế nào?"
+          },
+          {
+            "correct": "这个电脑怎么样？",
+            "pinyin": "Zhège diànnǎo zěnmeyàng?",
+            "meaning": "Cái máy tính này thế nào?"
+          },
+          {
+            "correct": "你的工作怎么样？",
+            "pinyin": "Nǐ de gōngzuò zěnmeyàng?",
+            "meaning": "Công việc của bạn thế nào?"
+          }
+        ]
+      },
+      {
+        "title": "Câu cảm thán 真 / 太...了",
+        "desc": "Dùng 真 (zhēn - thật) hoặc 太...了 (tài...le - quá/lắm) trước tính từ để bộc lộ cảm xúc mạnh.",
+        "formula": "真 + Tính từ！ / 太 + Tính từ + 了！",
+        "practiceList": [
+          {
+            "correct": "这件衣服真漂亮！",
+            "pinyin": "Zhè jiàn yīfu zhēn piàoliang!",
+            "meaning": "Bộ quần áo này đẹp thật!"
+          },
+          {
+            "correct": "今天太热了！",
+            "pinyin": "Jīntiān tài rè le!",
+            "meaning": "Hôm nay nóng quá!"
+          },
+          {
+            "correct": "太好了！",
+            "pinyin": "Tài hǎo le!",
+            "meaning": "Tuyệt quá rồi!"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 19,
+    "grammar": [
+      {
+        "title": "Trợ động từ 可以/能/要/想",
+        "desc": "可以/能 chỉ sự cho phép/khả năng. 要 chỉ ý chí quyết tâm. 想 chỉ mong muốn chủ quan.",
+        "formula": "Chủ ngữ + 可以/能/要/想 + Động từ",
+        "practiceList": [
+          {
+            "correct": "我想去医院。",
+            "pinyin": "Wǒ xiǎng qù yīyuàn.",
+            "meaning": "Tôi muốn đi bệnh viện."
+          },
+          {
+            "correct": "你可以来吗？",
+            "pinyin": "Nǐ kěyǐ lái ma?",
+            "meaning": "Bạn có thể đến không?"
+          },
+          {
+            "correct": "我能看电视吗？",
+            "pinyin": "Wǒ néng kàn diànshì ma?",
+            "meaning": "Tôi có thể xem ti vi không?"
+          }
+        ]
+      },
+      {
+        "title": "Trợ từ hoàn thành 了",
+        "desc": "Thêm 了 (le) vào sau động từ hoặc cuối câu để diễn đạt hành động đã hoàn thành hoặc trạng thái mới xuất hiện.",
+        "formula": "Động từ + 了 / Cuối câu + 了",
+        "practiceList": [
+          {
+            "correct": "我吃了。",
+            "pinyin": "Wǒ chī le.",
+            "meaning": "Tôi ăn rồi."
+          },
+          {
+            "correct": "下雨了。",
+            "pinyin": "Xià yǔ le.",
+            "meaning": "Trời mưa rồi."
+          },
+          {
+            "correct": "他生病了。",
+            "pinyin": "Tā shēngbìng le.",
+            "meaning": "Anh ấy ốm rồi."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 20,
+    "grammar": [
+      {
+        "title": "Mẫu câu xã giao tổng hợp",
+        "desc": "Các cụm từ cố định dùng trong giao tiếp hằng ngày: Xin lỗi, Không sao, Đừng khách sáo.",
+        "formula": "对不起 - 没关系 / 谢谢 - 不客气",
+        "practiceList": [
+          {
+            "correct": "对不起！—没关系。",
+            "pinyin": "Duìbuqǐ! — Méi guānxi.",
+            "meaning": "Xin lỗi! — Không sao."
+          },
+          {
+            "correct": "谢谢！—不客气。",
+            "pinyin": "Xièxie! — Bú kèqi.",
+            "meaning": "Cảm ơn! — Không có chi."
+          },
+          {
+            "correct": "请问，银行在哪儿？",
+            "pinyin": "Qǐngwèn, yínháng zài nǎr?",
+            "meaning": "Xin hỏi, ngân hàng ở đâu?"
+          }
+        ]
+      },
+      {
+        "title": "Mẫu câu làm quen",
+        "desc": "Dùng 认识 (quen biết) kết hợp với 高兴 (vui vẻ) để diễn đạt sự lịch thiệp khi mới gặp mặt.",
+        "formula": "认识 + Đại từ + 很高兴",
+        "practiceList": [
+          {
+            "correct": "认识你很高兴。",
+            "pinyin": "Rènshi nǐ hěn gāoxìng.",
+            "meaning": "Rất vui được biết bạn."
+          },
+          {
+            "correct": "认识您，我也很高兴。",
+            "pinyin": "Rènshi nín, wǒ yě hěn gāoxìng.",
+            "meaning": "Biết ngài, tôi cũng rất vui."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 21,
+    "grammar": [
+      {
+        "title": "Câu hỏi với ngôn ngữ",
+        "desc": "Dùng 会 (biết kỹ năng) + 说/写 + tên ngôn ngữ để hỏi/đáp về năng lực ngoại ngữ.",
+        "formula": "Chủ ngữ + 会说/会写 + Ngôn ngữ + 吗？",
+        "practiceList": [
+          {
+            "correct": "你会说汉语吗？",
+            "pinyin": "Nǐ huì shuō Hànyǔ ma?",
+            "meaning": "Bạn biết nói tiếng Hán không?"
+          },
+          {
+            "correct": "我会写汉字。",
+            "pinyin": "Wǒ huì xiě Hànzì.",
+            "meaning": "Tôi biết viết chữ Hán."
+          },
+          {
+            "correct": "他不认识中文。",
+            "pinyin": "Tā bú rènshi Zhōngwén.",
+            "meaning": "Anh ấy không biết tiếng Trung."
+          }
+        ]
+      },
+      {
+        "title": "Phủ định với 不",
+        "desc": "Dùng 不 trước động từ hoặc tính từ để tạo câu phủ định ở hiện tại và tương lai.",
+        "formula": "Chủ ngữ + 不 + Động từ/Tính từ",
+        "practiceList": [
+          {
+            "correct": "我不知道。",
+            "pinyin": "Wǒ bù zhīdào.",
+            "meaning": "Tôi không biết."
+          },
+          {
+            "correct": "他不是中国人。",
+            "pinyin": "Tā bú shì Zhōngguó rén.",
+            "meaning": "Anh ấy không phải người Trung Quốc."
+          },
+          {
+            "correct": "今天不热。",
+            "pinyin": "Jīntiān bú rè.",
+            "meaning": "Hôm nay không nóng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 22,
+    "grammar": [
+      {
+        "title": "喜欢 / 想 + Hành động",
+        "desc": "Động từ 喜欢 (thích) và 想 (muốn) có thể mang tân ngữ là một động từ khác để chỉ sở thích/mong muốn làm gì.",
+        "formula": "Chủ ngữ + 喜欢/想 + Động từ",
+        "practiceList": [
+          {
+            "correct": "我喜欢听歌。",
+            "pinyin": "Wǒ xǐhuan tīng gē.",
+            "meaning": "Tôi thích nghe nhạc."
+          },
+          {
+            "correct": "你想去玩吗？",
+            "pinyin": "Nǐ xiǎng qù wán ma?",
+            "meaning": "Bạn muốn đi chơi không?"
+          },
+          {
+            "correct": "他们喜欢跳舞。",
+            "pinyin": "Tāmen xǐhuan tiàowǔ.",
+            "meaning": "Họ thích khiêu vũ."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi lịch sự 可以...吗",
+        "desc": "Sử dụng 可以 (kěyǐ) kết hợp trợ từ 吗 ở cuối để xin phép lịch sự.",
+        "formula": "可以 + Động từ + 吗？",
+        "practiceList": [
+          {
+            "correct": "可以给我你的电话吗？",
+            "pinyin": "Kěyǐ gěi wǒ nǐ de diànhuà ma?",
+            "meaning": "Có thể cho tôi điện thoại của bạn không?"
+          },
+          {
+            "correct": "可以看电视吗？",
+            "pinyin": "Kěyǐ kàn diànshì ma?",
+            "meaning": "Có thể xem ti vi không?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 23,
+    "grammar": [
+      {
+        "title": "Số thứ tự với 第",
+        "desc": "Thêm tiền tố 第 (dì) vào trước số từ để tạo thành số thứ tự.",
+        "formula": "第 + Số từ + (Lượng từ + Danh từ)",
+        "practiceList": [
+          {
+            "correct": "第一",
+            "pinyin": "dì yī",
+            "meaning": "Thứ nhất"
+          },
+          {
+            "correct": "第二天",
+            "pinyin": "dì èr tiān",
+            "meaning": "Ngày thứ hai"
+          },
+          {
+            "correct": "这是第一次。",
+            "pinyin": "Zhè shì dì yī cì.",
+            "meaning": "Đây là lần đầu tiên."
+          }
+        ]
+      },
+      {
+        "title": "Mẫu câu giờ giấc sinh hoạt",
+        "desc": "Ghép từ chỉ thời gian, giờ giấc với các động từ sinh hoạt cơ bản.",
+        "formula": "Thời gian + Chủ ngữ + Giờ + Động từ sinh hoạt",
+        "practiceList": [
+          {
+            "correct": "你几点起床？",
+            "pinyin": "Nǐ jǐ diǎn qǐchuáng?",
+            "meaning": "Bạn mấy giờ thức dậy?"
+          },
+          {
+            "correct": "我明天八点上课。",
+            "pinyin": "Wǒ míngtiān bā diǎn shàngkè.",
+            "meaning": "Ngày mai tôi học lúc tám giờ."
+          },
+          {
+            "correct": "小学生九点睡觉。",
+            "pinyin": "Xiǎoxuéshēng jiǔ diǎn shuìjiào.",
+            "meaning": "Học sinh tiểu học chín giờ đi ngủ."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 24,
+    "grammar": [
+      {
+        "title": "Xưng hô lịch sự",
+        "desc": "Dùng 您 (nín) thay cho 你 đối với người lớn tuổi/tôn trọng. Dùng 先生 (ông) và 女士 (bà) sau họ/tên.",
+        "formula": "Họ/Tên + 先生/女士 / 您好",
+        "practiceList": [
+          {
+            "correct": "王先生，您好！",
+            "pinyin": "Wáng xiānsheng, nín hǎo!",
+            "meaning": "Chào ông Vương!"
+          },
+          {
+            "correct": "您晚上做什么？",
+            "pinyin": "Nín wǎnshang zuò shénme?",
+            "meaning": "Tối nay ngài làm gì?"
+          },
+          {
+            "correct": "女士们，先生们，大家好！",
+            "pinyin": "Nǚshì men, xiānsheng men, dàjiā hǎo!",
+            "meaning": "Thưa các bà, các ông, chào mọi người!"
+          }
+        ]
+      },
+      {
+        "title": "Trợ từ kết cấu 的 mở rộng",
+        "desc": "Tính từ hoặc cụm động từ đi kèm 的 (de) tạo thành cụm danh từ chỉ người hoặc vật.",
+        "formula": "Cụm Động từ/Tính từ + 的 + Danh từ",
+        "practiceList": [
+          {
+            "correct": "做饭的人",
+            "pinyin": "zuòfàn de rén",
+            "meaning": "Người nấu cơm"
+          },
+          {
+            "correct": "买东西的人",
+            "pinyin": "mǎi dōngxi de rén",
+            "meaning": "Người đi mua đồ"
+          },
+          {
+            "correct": "漂亮的女朋友",
+            "pinyin": "piàoliang de nǚpéngyou",
+            "meaning": "Bạn gái xinh đẹp"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 25,
+    "grammar": [
+      {
+        "title": "Phó từ đều, còn, cũng, chỉ",
+        "desc": "Các phó từ 都 (đều), 还 (còn, vẫn), 也 (cũng), 只 (chỉ) đặt TRƯỚC động từ/tính từ.",
+        "formula": "Chủ ngữ + 都 / 还 / 也 / 只 + Động từ/Tính từ",
+        "practiceList": [
+          {
+            "correct": "我们都是学生。",
+            "pinyin": "Wǒmen dōu shì xuéshēng.",
+            "meaning": "Chúng tôi đều là học sinh."
+          },
+          {
+            "correct": "他还在睡觉。",
+            "pinyin": "Tā hái zài shuìjiào.",
+            "meaning": "Anh ấy vẫn đang ngủ."
+          },
+          {
+            "correct": "我只有一块钱。",
+            "pinyin": "Wǒ zhǐ yǒu yí kuài qián.",
+            "meaning": "Tôi chỉ có một đồng."
+          }
+        ]
+      },
+      {
+        "title": "Câu hỏi 什么时候",
+        "desc": "Dùng 什么时候 (shénme shíhou) để hỏi thời điểm (lúc nào, khi nào).",
+        "formula": "Chủ ngữ + 什么时候 + Động từ？",
+        "practiceList": [
+          {
+            "correct": "你什么时候回家？",
+            "pinyin": "Nǐ shénme shíhou huí jiā?",
+            "meaning": "Khi nào bạn về nhà?"
+          },
+          {
+            "correct": "他什么时候去医院？",
+            "pinyin": "Tā shénme shíhou qù yīyuàn?",
+            "meaning": "Khi nào anh ấy đi bệnh viện?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 26,
+    "grammar": [
+      {
+        "title": "Phó từ chỉ mức độ",
+        "desc": "很 (rất), 非常 (vô cùng), 有点儿 (hơi) dùng để nhấn mạnh mức độ, đặt trước tính từ hoặc động từ tâm lý.",
+        "formula": "Chủ ngữ + 很/非常/有些 + Tính từ",
+        "practiceList": [
+          {
+            "correct": "我今天很高兴。",
+            "pinyin": "Wǒ jīntiān hěn gāoxìng.",
+            "meaning": "Hôm nay tôi rất vui."
+          },
+          {
+            "correct": "天气有些冷。",
+            "pinyin": "Tiānqì yǒuxiē lěng.",
+            "meaning": "Thời tiết có chút lạnh."
+          },
+          {
+            "correct": "这件衣服非常漂亮。",
+            "pinyin": "Zhè jiàn yīfu fēicháng piàoliang.",
+            "meaning": "Bộ quần áo này vô cùng đẹp."
+          }
+        ]
+      },
+      {
+        "title": "Cặp tính từ đối lập",
+        "desc": "Dùng các cặp tính từ đối lập để diễn tả sự tương phản: lớn-nhỏ (大-小), nhiều-ít (多-少).",
+        "formula": "Khẳng định: 很 + Tính từ A / Phủ định: 不 + Tính từ B",
+        "practiceList": [
+          {
+            "correct": "这个苹果很大，那个很小。",
+            "pinyin": "Zhège píngguǒ hěn dà, nàge hěn xiǎo.",
+            "meaning": "Quả táo này rất to, quả kia rất nhỏ."
+          },
+          {
+            "correct": "人多，水少。",
+            "pinyin": "Rén duō, shuǐ shǎo.",
+            "meaning": "Nhiều người, ít nước."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 27,
+    "grammar": [
+      {
+        "title": "Giới từ 给/和/跟",
+        "desc": "给 (cho), 和/跟 (và/cùng với) đặt trước danh từ/đại từ để chỉ đối tượng liên quan.",
+        "formula": "Chủ ngữ + 给/和/跟 + Đối tượng + Động từ",
+        "practiceList": [
+          {
+            "correct": "我给你一本书。",
+            "pinyin": "Wǒ gěi nǐ yì běn shū.",
+            "meaning": "Tôi cho bạn một cuốn sách."
+          },
+          {
+            "correct": "他跟朋友去玩。",
+            "pinyin": "Tā gēn péngyou qù wán.",
+            "meaning": "Anh ấy đi chơi cùng bạn."
+          },
+          {
+            "correct": "我和你都是学生。",
+            "pinyin": "Wǒ hé nǐ dōu shì xuéshēng.",
+            "meaning": "Tôi và bạn đều là học sinh."
+          }
+        ]
+      },
+      {
+        "title": "Trợ từ ngữ khí 吧/呢",
+        "desc": "吧 (nhé, đi) dùng cuối câu cầu khiến. 呢 (đấy, thì sao) dùng cuối câu hỏi hoặc nhấn mạnh đang làm gì.",
+        "formula": "Câu + 吧 / Câu + 呢",
+        "practiceList": [
+          {
+            "correct": "我们走吧！",
+            "pinyin": "Wǒmen zǒu ba!",
+            "meaning": "Chúng ta đi nhé!"
+          },
+          {
+            "correct": "他在房间里睡觉呢。",
+            "pinyin": "Tā zài fángjiān lǐ shuìjiào ne.",
+            "meaning": "Anh ấy đang ngủ trong phòng đấy."
+          },
+          {
+            "correct": "我很好，你呢？",
+            "pinyin": "Wǒ hěn hǎo, nǐ ne?",
+            "meaning": "Tôi rất khỏe, còn bạn?"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 28,
+    "grammar": [
+      {
+        "title": "Đại từ chỉ nơi chốn",
+        "desc": "那里/哪儿 (ở đâu), 这边 (bên này), 那边 (bên kia) có thể dùng trực tiếp làm tân ngữ chỉ địa điểm.",
+        "formula": "Động từ + 这边 / 那边 / 哪里",
+        "practiceList": [
+          {
+            "correct": "来这边！",
+            "pinyin": "Lái zhèbiān!",
+            "meaning": "Lại bên này!"
+          },
+          {
+            "correct": "那边有超市吗？",
+            "pinyin": "Nàbiān yǒu chāoshì ma?",
+            "meaning": "Bên kia có siêu thị không?"
+          },
+          {
+            "correct": "他在哪里？",
+            "pinyin": "Tā zài nǎlǐ?",
+            "meaning": "Anh ấy ở đâu?"
+          }
+        ]
+      },
+      {
+        "title": "Phó từ chỉ lượng nhỏ 一下/一点儿",
+        "desc": "一下 đặt sau động từ biểu thị làm một lúc. 一点儿 đặt sau tính từ hoặc trước danh từ biểu thị một chút.",
+        "formula": "Động từ + 一下 / 有点儿 + Tính từ",
+        "practiceList": [
+          {
+            "correct": "请看一下。",
+            "pinyin": "Qǐng kàn yíxià.",
+            "meaning": "Xin xem thử một chút."
+          },
+          {
+            "correct": "喝一点儿水。",
+            "pinyin": "Hē yìdiǎnr shuǐ.",
+            "meaning": "Uống một chút nước."
+          },
+          {
+            "correct": "天气有点儿热。",
+            "pinyin": "Tiānqì yǒudiǎnr rè.",
+            "meaning": "Thời tiết hơi nóng."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 29,
+    "grammar": [
+      {
+        "title": "Trợ động từ 会 biểu thị kỹ năng",
+        "desc": "会 (huì) đặt trước động từ chỉ khả năng biết làm một việc gì đó thông qua học tập.",
+        "formula": "Chủ ngữ + 会 / 不会 + Động từ",
+        "practiceList": [
+          {
+            "correct": "我会说汉语。",
+            "pinyin": "Wǒ huì shuō Hànyǔ.",
+            "meaning": "Tôi biết nói tiếng Trung."
+          },
+          {
+            "correct": "他不会写汉字。",
+            "pinyin": "Tā bú huì xiě Hànzì.",
+            "meaning": "Anh ấy không biết viết chữ Hán."
+          },
+          {
+            "correct": "你会做什么？",
+            "pinyin": "Nǐ huì zuò shénme?",
+            "meaning": "Bạn biết làm gì?"
+          }
+        ]
+      },
+      {
+        "title": "Mẫu phủ định tổng hợp",
+        "desc": "没有 (không có / chưa làm), 不 (không / không phải), 没事 (không sao). Tùy văn cảnh chọn từ phù hợp.",
+        "formula": "没有 + Danh từ / 不 + Động từ",
+        "practiceList": [
+          {
+            "correct": "我没有时间。",
+            "pinyin": "Wǒ méiyǒu shíjiān.",
+            "meaning": "Tôi không có thời gian."
+          },
+          {
+            "correct": "我不去医院。",
+            "pinyin": "Wǒ bú qù yīyuàn.",
+            "meaning": "Tôi không đi bệnh viện."
+          },
+          {
+            "correct": "没事，没关系。",
+            "pinyin": "Méishì, méi guānxi.",
+            "meaning": "Không sao, không sao cả."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "orderIndex": 30,
+    "grammar": [
+      {
+        "title": "Lượng từ tổng hợp",
+        "desc": "Mỗi danh từ đi với lượng từ riêng: 口 (người trong nhà), 本 (sách), 件 (áo), 杯 (ly), 块 (đồng).",
+        "formula": "Số lượng + Lượng từ đặc thù + Danh từ",
+        "practiceList": [
+          {
+            "correct": "我家有五口人。",
+            "pinyin": "Wǒ jiā yǒu wǔ kǒu rén.",
+            "meaning": "Nhà tôi có năm người."
+          },
+          {
+            "correct": "一本书，一件衣服。",
+            "pinyin": "Yì běn shū, yí jiàn yīfu.",
+            "meaning": "Một cuốn sách, một chiếc áo."
+          },
+          {
+            "correct": "我要一杯水。",
+            "pinyin": "Wǒ yào yì bēi shuǐ.",
+            "meaning": "Tôi cần một ly nước."
+          }
+        ]
+      },
+      {
+        "title": "Ôn tập câu hỏi cơ bản",
+        "desc": "Sử dụng các từ để hỏi hoặc trợ từ cuối câu để đặt câu hỏi tìm kiếm thông tin.",
+        "formula": "什么 / 怎么 / 哪 / 几 / 多少 / 吗 / 呢",
+        "practiceList": [
+          {
+            "correct": "你要买什么？",
+            "pinyin": "Nǐ yào mǎi shénme?",
+            "meaning": "Bạn muốn mua gì?"
+          },
+          {
+            "correct": "他在哪里？",
+            "pinyin": "Tā zài nǎlǐ?",
+            "meaning": "Anh ấy ở đâu?"
+          },
+          {
+            "correct": "你学汉语吗？",
+            "pinyin": "Nǐ xué Hànyǔ ma?",
+            "meaning": "Bạn có học tiếng Trung không?"
+          }
+        ]
+      }
+    ]
+  }
+]

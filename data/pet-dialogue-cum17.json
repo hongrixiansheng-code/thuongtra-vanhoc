@@ -1,0 +1,194 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 32,
+      "dialogues": [
+        {
+          "title": "Listening to an interview",
+          "lines": [
+            {
+              "speaker": "Interviewer",
+              "en": "Welcome to our show! Today, we are talking to a wildlife photographer who has just returned from Africa. Could you describe your most exciting encounter?",
+              "vi": "Chào mừng đến với chương trình của chúng tôi! Hôm nay, chúng ta đang trò chuyện với một nhiếp ảnh gia động vật hoang dã người vừa mới trở về từ Châu Phi. Bạn có thể mô tả cuộc chạm trán thú vị nhất của bạn không?"
+            },
+            {
+              "speaker": "Photographer",
+              "en": "Thank you for having me! The most thrilling moment was when I got incredibly close to a lion, which was resting under a tree.",
+              "vi": "Cảm ơn vì đã mời tôi! Khoảnh khắc hồi hộp nhất là khi tôi tiến đến gần vô cùng một con sư tử, con vật mà đang nghỉ ngơi dưới một gốc cây."
+            },
+            {
+              "speaker": "Interviewer",
+              "en": "That sounds terrifying! Weren't you afraid that the lion might attack you while you were taking pictures?",
+              "vi": "Nghe có vẻ đáng sợ quá! Bạn đã không sợ rằng con sư tử có thể tấn công bạn trong khi bạn đang chụp ảnh sao?"
+            },
+            {
+              "speaker": "Photographer",
+              "en": "I was inside a secure vehicle, which prevented any direct danger. However, my heart was beating so fast because the animal was staring right at me.",
+              "vi": "Tôi đang ở bên trong một phương tiện an toàn, thứ mà đã ngăn chặn bất kỳ mối nguy hiểm trực tiếp nào. Tuy nhiên, tim tôi đập rất nhanh vì con vật đang nhìn chằm chằm ngay vào tôi."
+            },
+            {
+              "speaker": "Interviewer",
+              "en": "Your photographs, which have been published in major magazines, often highlight the fragile beauty of nature. What message do you want to convey to your audience?",
+              "vi": "Những bức ảnh của bạn, những bức đã được xuất bản trên các tạp chí lớn, thường làm nổi bật vẻ đẹp mong manh của thiên nhiên. Bạn muốn truyền tải thông điệp gì đến khán giả của mình?"
+            },
+            {
+              "speaker": "Photographer",
+              "en": "I want people to realize that these majestic creatures will disappear unless we protect their habitats. Conservation is the most urgent issue which we are facing today.",
+              "vi": "Tôi muốn mọi người nhận ra rằng những sinh vật hùng vĩ này sẽ biến mất trừ khi chúng ta bảo vệ môi trường sống của chúng. Bảo tồn là vấn đề cấp bách nhất cái mà chúng ta đang đối mặt ngày nay."
+            },
+            {
+              "speaker": "Interviewer",
+              "en": "It is definitely a powerful message which everyone needs to hear. Are you planning any new expeditions in the near future?",
+              "vi": "Đó chắc chắn là một thông điệp mạnh mẽ thông điệp mà mọi người đều cần nghe. Bạn có đang lên kế hoạch cho bất kỳ chuyến thám hiểm mới nào trong tương lai gần không?"
+            },
+            {
+              "speaker": "Photographer",
+              "en": "Yes, I am traveling to the Amazon rainforest next month to document the endangered species there. I hope to capture some unique images.",
+              "vi": "Có, tôi sẽ đi đến rừng mưa Amazon vào tháng tới để ghi liệu về các loài có nguy cơ tuyệt chủng ở đó. Tôi hy vọng sẽ chụp được một số hình ảnh độc đáo."
+            }
+          ]
+        },
+        {
+          "title": "Discussing a radio broadcast",
+          "lines": [
+            {
+              "speaker": "Emma",
+              "en": "Did you listen to the radio interview with the local mayor this morning? He announced several new policies which will affect our neighborhood directly.",
+              "vi": "Bạn có nghe cuộc phỏng vấn trên đài phát thanh với thị trưởng địa phương sáng nay không? Ông ấy đã công bố một số chính sách mới những chính sách sẽ ảnh hưởng trực tiếp đến khu phố của chúng ta."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "I missed it because I was driving to work, but I heard some rumors. Did he mention anything about the new park which is being built?",
+              "vi": "Tôi đã bỏ lỡ nó vì tôi đang lái xe đến chỗ làm, nhưng tôi có nghe vài lời đồn. Ông ấy có đề cập bất cứ điều gì về công viên mới cái mà đang được xây dựng không?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "Yes, he confirmed that the park will be completed by next spring. Furthermore, a new sports center will be constructed right next to it.",
+              "vi": "Có, ông ấy xác nhận rằng công viên sẽ được hoàn thành trước mùa xuân tới. Hơn nữa, một trung tâm thể thao mới sẽ được xây dựng ngay cạnh nó."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "That is brilliant news because we definitely lack recreational facilities in this area. Who is going to fund these expensive projects?",
+              "vi": "Đó là một tin tuyệt vời vì chúng ta chắc chắn đang thiếu các cơ sở giải trí trong khu vực này. Ai sẽ tài trợ cho những dự án đắt đỏ này?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "The projects will be funded by a combination of government grants and private donations. A famous businessman, whose name wasn't revealed, has donated a large sum.",
+              "vi": "Các dự án sẽ được tài trợ bởi sự kết hợp của các khoản trợ cấp chính phủ và các khoản quyên góp tư nhân. Một doanh nhân nổi tiếng, người có tên không được tiết lộ, đã quyên góp một số tiền lớn."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "It is always good to see wealthy individuals supporting the local community. Did the mayor talk about the traffic congestion problem?",
+              "vi": "Luôn luôn là điều tốt khi thấy những cá nhân giàu có hỗ trợ cộng đồng địa phương. Thị trưởng có nói về vấn đề tắc nghẽn giao thông không?"
+            },
+            {
+              "speaker": "Emma",
+              "en": "He promised that the main roads would be expanded to reduce the traffic jams. However, this construction work might cause some temporary inconvenience for commuters.",
+              "vi": "Ông ấy hứa rằng các con đường chính sẽ được mở rộng để giảm thiểu tắc nghẽn giao thông. Tuy nhiên, công việc xây dựng này có thể gây ra một số bất tiện tạm thời cho người đi lại."
+            },
+            {
+              "speaker": "Daniel",
+              "en": "I don't mind a little inconvenience if the long-term results are beneficial. I will listen to the podcast version of the interview tonight.",
+              "vi": "Tôi không ngại một chút bất tiện nếu các kết quả dài hạn mang lại lợi ích. Tôi sẽ nghe phiên bản podcast của cuộc phỏng vấn vào tối nay."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "orderIndex": 33,
+      "dialogues": [
+        {
+          "title": "Presenting an opinion",
+          "lines": [
+            {
+              "speaker": "Alice",
+              "en": "In my opinion, learning a foreign language is the most valuable skill which a student can acquire. It opens up completely new worlds of opportunities.",
+              "vi": "Theo ý kiến của tôi, học một ngoại ngữ là kỹ năng giá trị nhất cái mà một sinh viên có thể có được. Nó mở ra những thế giới cơ hội hoàn toàn mới."
+            },
+            {
+              "speaker": "Mark",
+              "en": "I partially agree with you, but I believe that computer programming is even more important nowadays. Everything in our modern society relies on technology.",
+              "vi": "Tôi đồng ý một phần với bạn, nhưng tôi tin rằng lập trình máy tính thậm chí còn quan trọng hơn ngày nay. Mọi thứ trong xã hội hiện đại của chúng ta đều dựa vào công nghệ."
+            },
+            {
+              "speaker": "Alice",
+              "en": "Programming is definitely crucial, yet language skills allow us to connect with different cultures deeply. Without effective communication, global cooperation would be impossible.",
+              "vi": "Lập trình chắc chắn là cốt yếu, song các kỹ năng ngôn ngữ cho phép chúng ta kết nối với những nền văn hóa khác nhau một cách sâu sắc. Không có giao tiếp hiệu quả, sự hợp tác toàn cầu sẽ là bất khả thi."
+            },
+            {
+              "speaker": "Mark",
+              "en": "That is a fair point, which highlights the importance of human connections. However, artificial intelligence can now translate languages almost instantly.",
+              "vi": "Đó là một điểm hợp lý, cái mà làm nổi bật tầm quan trọng của các kết nối con người. Tuy nhiên, trí tuệ nhân tạo giờ đây có thể dịch các ngôn ngữ gần như ngay lập tức."
+            },
+            {
+              "speaker": "Alice",
+              "en": "While AI translators are useful, they cannot understand the subtle emotions and cultural nuances which exist in human speech. A machine cannot replace genuine empathy.",
+              "vi": "Trong khi các trình dịch AI hữu ích, chúng không thể hiểu được những cảm xúc tinh tế và những sắc thái văn hóa những thứ tồn tại trong lời nói của con người. Một cỗ máy không thể thay thế sự đồng cảm chân thực."
+            },
+            {
+              "speaker": "Mark",
+              "en": "You have a very convincing argument, and I must admit that you are right. Speaking to someone in their native language builds immediate trust.",
+              "vi": "Bạn có một lập luận rất thuyết phục, và tôi phải thừa nhận rằng bạn đúng. Việc nói chuyện với ai đó bằng ngôn ngữ mẹ đẻ của họ xây dựng sự tin tưởng ngay lập tức."
+            },
+            {
+              "speaker": "Alice",
+              "en": "Therefore, schools should encourage students to learn both technical skills and foreign languages. Both areas are essential for a well-rounded education.",
+              "vi": "Do đó, các trường học nên khuyến khích học sinh học cả kỹ năng kỹ thuật và ngoại ngữ. Cả hai lĩnh vực đều thiết yếu cho một nền giáo dục toàn diện."
+            },
+            {
+              "speaker": "Mark",
+              "en": "I completely support that idea, which would prepare young people for the complex future. We need professionals who are both tech-savvy and culturally aware.",
+              "vi": "Tôi hoàn toàn ủng hộ ý tưởng đó, điều mà sẽ chuẩn bị cho những người trẻ tuổi đối phó với tương lai phức tạp. Chúng ta cần những chuyên gia những người vừa am hiểu công nghệ vừa có nhận thức văn hóa."
+            }
+          ]
+        },
+        {
+          "title": "Discussing the best way to travel",
+          "lines": [
+            {
+              "speaker": "Sophie",
+              "en": "I firmly believe that traveling by train is the best way to explore Europe. You can enjoy the breathtaking scenery while relaxing in a comfortable seat.",
+              "vi": "Tôi tin chắc rằng đi du lịch bằng tàu hỏa là cách tốt nhất để khám phá Châu Âu. Bạn có thể thưởng thức phong cảnh ngoạn mục trong khi thư giãn trên một chỗ ngồi thoải mái."
+            },
+            {
+              "speaker": "Jack",
+              "en": "I see your point, but flying is much faster and often cheaper if you book in advance. Time is very precious when you only have a short holiday.",
+              "vi": "Tôi hiểu ý của bạn, nhưng đi máy bay nhanh hơn nhiều và thường rẻ hơn nếu bạn đặt trước. Thời gian rất quý giá khi bạn chỉ có một kỳ nghỉ ngắn."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "Airports are usually located far from the city centers, which makes the whole journey quite exhausting. Trains take you directly to the heart of the city.",
+              "vi": "Các sân bay thường tọa lạc xa trung tâm thành phố, điều này làm cho toàn bộ hành trình khá mệt mỏi. Tàu hỏa đưa bạn trực tiếp đến trung tâm của thành phố."
+            },
+            {
+              "speaker": "Jack",
+              "en": "That is true, although you can always take a quick taxi from the airport. Furthermore, low-cost airlines have revolutionized the way we travel.",
+              "vi": "Điều đó đúng, mặc dù bạn luôn có thể đi một chiếc taxi nhanh từ sân bay. Hơn nữa, các hãng hàng không giá rẻ đã cách mạng hóa cách chúng ta đi du lịch."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "However, we must consider the environmental impact, which is a significant concern today. Trains produce much lower carbon emissions compared to airplanes.",
+              "vi": "Tuy nhiên, chúng ta phải cân nhắc tác động môi trường, thứ mà là một mối quan tâm đáng kể ngày nay. Tàu hỏa tạo ra lượng khí thải carbon thấp hơn nhiều so với máy bay."
+            },
+            {
+              "speaker": "Jack",
+              "en": "I agree that sustainability is important, and many airlines are trying to become greener. I suppose the choice depends on the specific destination and distance.",
+              "vi": "Tôi đồng ý rằng tính bền vững là quan trọng, và nhiều hãng hàng không đang cố gắng trở nên xanh hơn. Tôi cho rằng sự lựa chọn phụ thuộc vào điểm đến và khoảng cách cụ thể."
+            },
+            {
+              "speaker": "Sophie",
+              "en": "Exactly! If I travel to a neighboring country, I will always choose the train. It is a more romantic and peaceful way to travel.",
+              "vi": "Chính xác! Nếu tôi đi du lịch đến một quốc gia láng giềng, tôi sẽ luôn chọn tàu hỏa. Nó là một cách đi du lịch lãng mạn và yên bình hơn."
+            },
+            {
+              "speaker": "Jack",
+              "en": "You have persuaded me to try taking a train for my next trip to Paris. I look forward to reading a book while watching the countryside roll by.",
+              "vi": "Bạn đã thuyết phục được tôi thử đi tàu hỏa cho chuyến đi tiếp theo đến Paris. Tôi mong đợi việc đọc một cuốn sách trong khi ngắm nhìn vùng nông thôn trôi qua."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

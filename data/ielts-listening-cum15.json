@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 29,
+    "listening": [
+      {
+        "title": "Listening: Grocery numbers",
+        "transcript": "I have an apple and some bananas. I have some tomatoes, maybe five or six. We need three eggs for the cake.",
+        "questions": [
+          { "type": "form_completion", "question": "Eggs needed: ___", "options": ["two", "three", "four"], "correct": "three", "explanation": "\"We need three eggs for the cake.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 30,
+    "listening": [
+      {
+        "title": "Listening: How much do we have?",
+        "transcript": "I have some rice for dinner, maybe two kilos. There isn't much water in the bottle. I need a little sugar for the cake, just two spoons.",
+        "questions": [
+          { "type": "multiple_choice", "question": "How much sugar does the speaker need?", "options": ["A lot", "A little, two spoons", "None at all"], "correct": "A little, two spoons", "explanation": "\"I need a little sugar for the cake, just two spoons.\"" }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,140 @@
+{
+  "lessons": [
+    {
+      "orderIndex": 15,
+      "title": "Bài 16: Trọng âm từ 2 âm tiết",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "record", "ipa": "/ˈrekɔːd/", "type": "Danh từ", "type_short": "n", "meaning": "bản ghi âm, hồ sơ", "example_en": "This is a world record.", "example_vi": "Đây là một kỷ lục thế giới." },
+        { "word": "record", "ipa": "/rɪˈkɔːd/", "type": "Động từ", "type_short": "v", "meaning": "ghi âm, ghi lại", "example_en": "I will record this song.", "example_vi": "Tôi sẽ ghi âm bài hát này." },
+        { "word": "present", "ipa": "/ˈprezənt/", "type": "Danh từ", "type_short": "n", "meaning": "món quà; hiện tại", "example_en": "This is a present for you.", "example_vi": "Đây là món quà cho bạn." },
+        { "word": "present", "ipa": "/prɪˈzent/", "type": "Động từ", "type_short": "v", "meaning": "trình bày, giới thiệu", "example_en": "She will present her project.", "example_vi": "Cô ấy sẽ trình bày dự án của mình." },
+        { "word": "export", "ipa": "/ˈekspɔːt/", "type": "Danh từ", "type_short": "n", "meaning": "hàng xuất khẩu", "example_en": "Rice is a major export.", "example_vi": "Gạo là một mặt hàng xuất khẩu chính." },
+        { "word": "export", "ipa": "/ɪkˈspɔːt/", "type": "Động từ", "type_short": "v", "meaning": "xuất khẩu", "example_en": "They export coffee to many countries.", "example_vi": "Họ xuất khẩu cà phê đến nhiều quốc gia." }
+      ]
+    },
+    {
+      "orderIndex": 16,
+      "title": "Bài 17: Trọng âm từ 3+ âm tiết",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "information", "ipa": "/ˌɪnfəˈmeɪʃən/", "type": "Danh từ", "type_short": "n", "meaning": "thông tin", "example_en": "I need more information.", "example_vi": "Tôi cần thêm thông tin." },
+        { "word": "economic", "ipa": "/ˌiːkəˈnɒmɪk/", "type": "Tính từ", "type_short": "adj", "meaning": "thuộc về kinh tế", "example_en": "This is an economic problem.", "example_vi": "Đây là một vấn đề kinh tế." },
+        { "word": "musical", "ipa": "/ˈmjuːzɪkəl/", "type": "Tính từ", "type_short": "adj", "meaning": "thuộc về âm nhạc", "example_en": "She has a musical talent.", "example_vi": "Cô ấy có tài năng âm nhạc." },
+        { "word": "electricity", "ipa": "/ɪˌlekˈtrɪsəti/", "type": "Danh từ", "type_short": "n", "meaning": "điện", "example_en": "We need electricity every day.", "example_vi": "Chúng ta cần điện mỗi ngày." }
+      ]
+    },
+    {
+      "orderIndex": 17,
+      "title": "Bài 18: Từ nội dung vs từ chức năng",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "eat", "ipa": "/iːt/", "type": "Động từ", "type_short": "v", "meaning": "ăn", "example_en": "I eat breakfast at seven.", "example_vi": "Tôi ăn sáng vào lúc bảy giờ." },
+        { "word": "beautiful", "ipa": "/ˈbjuːtɪfəl/", "type": "Tính từ", "type_short": "adj", "meaning": "đẹp", "example_en": "The view is beautiful.", "example_vi": "Khung cảnh rất đẹp." },
+        { "word": "quickly", "ipa": "/ˈkwɪkli/", "type": "Trạng từ", "type_short": "adv", "meaning": "nhanh", "example_en": "She walks quickly.", "example_vi": "Cô ấy đi bộ nhanh." },
+        { "word": "is", "ipa": "/ɪz/", "type": "Động từ", "type_short": "v", "meaning": "là, thì (động từ to be)", "example_en": "He is a teacher.", "example_vi": "Anh ấy là giáo viên." }
+      ]
+    },
+    {
+      "orderIndex": 18,
+      "title": "Bài 19: Weak forms (dạng yếu)",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "and", "ipa": "/ənd/", "type": "Liên từ", "type_short": "conj", "meaning": "và (dạng yếu khi nói tự nhiên)", "example_en": "Fish and chips, please.", "example_vi": "Cho tôi cá và khoai tây chiên." },
+        { "word": "to", "ipa": "/tə/", "type": "Giới từ", "type_short": "prep", "meaning": "đến, để (dạng yếu)", "example_en": "I want to go home.", "example_vi": "Tôi muốn về nhà." },
+        { "word": "of", "ipa": "/əv/", "type": "Giới từ", "type_short": "prep", "meaning": "của (dạng yếu)", "example_en": "A cup of tea, please.", "example_vi": "Cho tôi một cốc trà." },
+        { "word": "can", "ipa": "/kən/", "type": "Động từ", "type_short": "v", "meaning": "có thể (dạng yếu khi không nhấn)", "example_en": "I can swim.", "example_vi": "Tôi có thể bơi." }
+      ]
+    },
+    {
+      "orderIndex": 19,
+      "title": "Bài 20: Nhịp stress-timed",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "shop", "ipa": "/ʃɒp/", "type": "Danh từ", "type_short": "n", "meaning": "cửa hàng", "example_en": "I walk to the shop.", "example_vi": "Tôi đi bộ đến cửa hàng." },
+        { "word": "milk", "ipa": "/mɪlk/", "type": "Danh từ", "type_short": "n", "meaning": "sữa", "example_en": "I drink milk every morning.", "example_vi": "Tôi uống sữa mỗi sáng." },
+        { "word": "buy", "ipa": "/baɪ/", "type": "Động từ", "type_short": "v", "meaning": "mua", "example_en": "I will buy some milk.", "example_vi": "Tôi sẽ mua một ít sữa." },
+        { "word": "yesterday", "ipa": "/ˈjestədeɪ/", "type": "Trạng từ", "type_short": "adv", "meaning": "hôm qua", "example_en": "I walked to the shop yesterday.", "example_vi": "Hôm qua tôi đã đi bộ đến cửa hàng." }
+      ]
+    },
+    {
+      "orderIndex": 20,
+      "title": "Bài 21: Nối âm 1 — Consonant + Vowel",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "pick", "ipa": "/pɪk/", "type": "Động từ", "type_short": "v", "meaning": "nhặt, chọn", "example_en": "Pick up your bag.", "example_vi": "Nhặt cái túi của bạn lên." },
+        { "word": "turn", "ipa": "/tɜːn/", "type": "Động từ", "type_short": "v", "meaning": "rẽ, xoay; tắt/mở (turn off/on)", "example_en": "Turn off the light.", "example_vi": "Hãy tắt đèn." },
+        { "word": "apple", "ipa": "/ˈæpl/", "type": "Danh từ", "type_short": "n", "meaning": "quả táo", "example_en": "I want an apple.", "example_vi": "Tôi muốn một quả táo." }
+      ]
+    },
+    {
+      "orderIndex": 21,
+      "title": "Bài 22: Nối âm 2 — Âm bị nuốt (Elision)",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "next", "ipa": "/nekst/", "type": "Tính từ", "type_short": "adj", "meaning": "kế tiếp, tiếp theo", "example_en": "See you next day.", "example_vi": "Hẹn gặp lại ngày kế tiếp." },
+        { "word": "most", "ipa": "/məʊst/", "type": "Trạng từ", "type_short": "adv", "meaning": "đa số, nhất", "example_en": "Most people like music.", "example_vi": "Đa số người thích âm nhạc." },
+        { "word": "people", "ipa": "/ˈpiːpl/", "type": "Danh từ", "type_short": "n", "meaning": "người, mọi người", "example_en": "Many people live here.", "example_vi": "Nhiều người sống ở đây." }
+      ]
+    },
+    {
+      "orderIndex": 22,
+      "title": "Bài 23: Nối âm 3 — Âm thêm vào (Intrusion)",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "on", "ipa": "/ɒn/", "type": "Giới từ", "type_short": "prep", "meaning": "trên, vào (thời điểm)", "example_en": "Go on, please.", "example_vi": "Hãy tiếp tục đi." },
+        { "word": "ask", "ipa": "/ɑːsk/", "type": "Động từ", "type_short": "v", "meaning": "hỏi", "example_en": "She asked a question.", "example_vi": "Cô ấy đã hỏi một câu hỏi." }
+      ]
+    },
+    {
+      "orderIndex": 23,
+      "title": "Bài 24: Ngữ điệu cơ bản (Intonation)",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "do", "ipa": "/duː/", "type": "Động từ", "type_short": "v", "meaning": "làm; trợ động từ trong câu hỏi", "example_en": "Do you like tea?", "example_vi": "Bạn có thích trà không?" }
+      ]
+    },
+    {
+      "orderIndex": 24,
+      "title": "Bài 25: Ngữ điệu nâng cao",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "orange", "ipa": "/ˈɒrɪndʒ/", "type": "Danh từ", "type_short": "n", "meaning": "quả cam", "example_en": "I need an orange.", "example_vi": "Tôi cần một quả cam." },
+        { "word": "stay", "ipa": "/steɪ/", "type": "Động từ", "type_short": "v", "meaning": "ở lại", "example_en": "I will stay home.", "example_vi": "Tôi sẽ ở nhà." },
+        { "word": "happy", "ipa": "/ˈhæpi/", "type": "Tính từ", "type_short": "adj", "meaning": "vui, hạnh phúc", "example_en": "She looks happy.", "example_vi": "Cô ấy trông có vẻ vui." },
+        { "word": "sad", "ipa": "/sæd/", "type": "Tính từ", "type_short": "adj", "meaning": "buồn", "example_en": "He feels sad today.", "example_vi": "Hôm nay anh ấy cảm thấy buồn." },
+        { "word": "angry", "ipa": "/ˈæŋgri/", "type": "Tính từ", "type_short": "adj", "meaning": "tức giận", "example_en": "Don't be angry with me.", "example_vi": "Đừng tức giận với tôi." }
+      ]
+    },
+    {
+      "orderIndex": 25,
+      "title": "Bài 26: Tốc độ & Ngắt câu (Chunking)",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "brother", "ipa": "/ˈbrʌðə/", "type": "Danh từ", "type_short": "n", "meaning": "anh trai, em trai", "example_en": "My brother is a teacher.", "example_vi": "Anh trai tôi là giáo viên." },
+        { "word": "teacher", "ipa": "/ˈtiːtʃə/", "type": "Danh từ", "type_short": "n", "meaning": "giáo viên", "example_en": "She is a kind teacher.", "example_vi": "Cô ấy là một giáo viên tốt bụng." },
+        { "word": "call", "ipa": "/kɔːl/", "type": "Động từ", "type_short": "v", "meaning": "gọi điện", "example_en": "I will call you tonight.", "example_vi": "Tối nay tôi sẽ gọi cho bạn." }
+      ]
+    },
+    {
+      "orderIndex": 26,
+      "title": "Bài 27: Ôn tập Giai đoạn 2",
+      "theme": "GIAI ĐOẠN 2: NHỊP ĐIỆU & TRỌNG ÂM (RHYTHM & STRESS)",
+      "isPremium": false,
+      "vocab": [
+        { "word": "practice", "ipa": "/ˈpræktɪs/", "type": "Danh từ", "type_short": "n", "meaning": "sự luyện tập", "example_en": "Practice makes perfect.", "example_vi": "Có công mài sắt có ngày nên kim (luyện tập sẽ thành thạo)." }
+      ]
+    }
+  ]
+}

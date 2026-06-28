@@ -1,0 +1,27 @@
+[
+  {
+    "lessonOrder": 7,
+    "listening": [
+      {
+        "title": "Listening: Around the neighbourhood",
+        "transcript": "There is a supermarket on the corner. There is a hospital next to the school. There is also a park opposite a bank.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is the hospital?", "options": ["Next to the school", "Opposite the bank", "On the corner"], "correct": "Next to the school", "explanation": "\"There is a hospital next to the school.\"" },
+          { "type": "form_completion", "question": "The supermarket is on the ___.", "options": ["corner", "bank", "park"], "correct": "corner", "explanation": "\"There is a supermarket on the corner.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 8,
+    "listening": [
+      {
+        "title": "Listening: Hotel facilities",
+        "transcript": "The pharmacy is next to the post office, between the café and the bank. The gym is on the second floor, next to the restaurant.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Where is the gym?", "options": ["First floor, next to the bank", "Second floor, next to the restaurant", "Opposite the café"], "correct": "Second floor, next to the restaurant", "explanation": "\"The gym is on the second floor, next to the restaurant.\"" }
+        ]
+      }
+    ]
+  }
+]

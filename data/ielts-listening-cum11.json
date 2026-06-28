@@ -1,0 +1,26 @@
+[
+  {
+    "lessonOrder": 21,
+    "listening": [
+      {
+        "title": "Listening: Job interview questions",
+        "transcript": "I start work at eight o'clock. I work in a small office downtown. I like my job because I meet many people every day.",
+        "questions": [
+          { "type": "form_completion", "question": "Start time: ___ o'clock", "options": ["seven", "eight", "nine"], "correct": "eight", "explanation": "\"I start work at eight o'clock.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 22,
+    "listening": [
+      {
+        "title": "Listening: A disagreement",
+        "transcript": "I disagree. I think the answer is wrong. He never eats fast food, and he rarely watches TV. He doesn't like noisy places at all.",
+        "questions": [
+          { "type": "multiple_choice", "question": "Does he like noisy places?", "options": ["Yes, he loves them", "No, he doesn't like them", "Not given"], "correct": "No, he doesn't like them", "explanation": "\"He doesn't like noisy places at all.\"" }
+        ]
+      }
+    ]
+  }
+]

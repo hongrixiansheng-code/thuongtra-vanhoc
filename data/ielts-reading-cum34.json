@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 67,
+    "reading": [
+      {
+        "title": "Reading: Almost done",
+        "passage": "I have already finished the report. The store has just opened a few minutes ago. They haven't launched the new product yet, but it's coming soon.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The report is finished.", "options": ["True", "False", "Not Given"], "correct": "True", "explanation": "\"I have already finished the report.\"" },
+          { "type": "true_false_ng", "question": "The new product has already launched.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"They haven't launched the new product yet\"." }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 68,
+    "reading": [
+      {
+        "title": "Reading: For how long?",
+        "passage": "I have lived in this city for ten years. I have worked at this company since 2018. We haven't met for a long time because I have been busy for the last few months.",
+        "questions": [
+          { "type": "form_completion", "question": "Lived in the city for: ___ years", "options": ["five", "ten", "fifteen"], "correct": "ten", "explanation": "\"I have lived in this city for ten years.\"" },
+          { "type": "multiple_choice", "question": "Since when has the writer worked at the company?", "options": ["2015", "2018", "2020"], "correct": "2018", "explanation": "\"I have worked at this company since 2018.\"" }
+        ]
+      }
+    ]
+  }
+]

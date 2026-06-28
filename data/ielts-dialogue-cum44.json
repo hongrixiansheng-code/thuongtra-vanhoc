@@ -1,0 +1,29 @@
+[
+  {
+    "lessonOrder": 87,
+    "dialogue": [
+      {
+        "title": "Environment and society",
+        "lines": [
+          { "speaker": "James", "en": "If more people recycled, there would be less pollution.", "vi": "Nếu nhiều người tái chế hơn, sẽ có ít ô nhiễm hơn." },
+          { "speaker": "Trang", "en": "A great deal of plastic is thrown away every day.", "vi": "Một lượng lớn nhựa bị vứt bỏ mỗi ngày." },
+          { "speaker": "James", "en": "These rules must be followed to protect the environment.", "vi": "Những quy tắc này phải được tuân theo để bảo vệ môi trường." },
+          { "speaker": "Trang", "en": "Scientists claim that the air quality has improved this year.", "vi": "Các nhà khoa học khẳng định rằng chất lượng không khí đã cải thiện năm nay." },
+          { "speaker": "James", "en": "Nevertheless, the vast majority of people still use cars every day.", "vi": "Tuy nhiên, đại đa số người dân vẫn dùng xe ô tô mỗi ngày." },
+          { "speaker": "Trang", "en": "As a result, the government has introduced new policies.", "vi": "Kết quả là, chính phủ đã giới thiệu các chính sách mới." }
+        ]
+      },
+      {
+        "title": "Health and lifestyle",
+        "lines": [
+          { "speaker": "Quang", "en": "If people exercised more, they would be healthier.", "vi": "Nếu mọi người tập thể dục nhiều hơn, họ sẽ khỏe mạnh hơn." },
+          { "speaker": "Linh", "en": "I used to eat a lot of fast food, but I changed my habits.", "vi": "Tôi đã từng ăn nhiều đồ ăn nhanh, nhưng tôi đã thay đổi thói quen." },
+          { "speaker": "Quang", "en": "This medicine should be taken twice a day.", "vi": "Loại thuốc này nên được uống hai lần một ngày." },
+          { "speaker": "Linh", "en": "The doctor said that my health was improving.", "vi": "Bác sĩ nói rằng sức khỏe của tôi đang cải thiện." },
+          { "speaker": "Quang", "en": "A large number of people now prefer a healthier lifestyle.", "vi": "Một số lượng lớn người hiện thích một phong cách sống lành mạnh hơn." },
+          { "speaker": "Linh", "en": "Furthermore, this trend is likely to continue in the future.", "vi": "Hơn nữa, xu hướng này có khả năng sẽ tiếp tục trong tương lai." }
+        ]
+      }
+    ]
+  }
+]

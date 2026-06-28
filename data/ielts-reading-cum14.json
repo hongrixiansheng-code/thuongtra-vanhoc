@@ -1,0 +1,28 @@
+[
+  {
+    "lessonOrder": 27,
+    "reading": [
+      {
+        "title": "Reading: My hobbies",
+        "passage": "I usually read books and listen to music in my free time. I love to travel, and I also like to play games. My sister likes to paint and watch TV. My brother hikes every weekend.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The writer doesn't like to travel.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I love to travel\"." },
+          { "type": "multiple_choice", "question": "What does the sister like?", "options": ["Hiking", "Painting and watching TV", "Playing games"], "correct": "Painting and watching TV", "explanation": "\"My sister likes to paint and watch TV.\"" }
+        ]
+      }
+    ]
+  },
+  {
+    "lessonOrder": 28,
+    "reading": [
+      {
+        "title": "Reading: Review — A teacher's day",
+        "passage": "I always wake up at six in the morning. I am a teacher, and I teach English in the afternoon. I rarely watch TV at night. I usually read books instead, and on weekends I sometimes garden.",
+        "questions": [
+          { "type": "true_false_ng", "question": "The teacher teaches English in the morning.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I teach English in the afternoon.\"" },
+          { "type": "true_false_ng", "question": "The teacher often watches TV at night.", "options": ["True", "False", "Not Given"], "correct": "False", "explanation": "\"I rarely watch TV at night.\"" }
+        ]
+      }
+    ]
+  }
+]
