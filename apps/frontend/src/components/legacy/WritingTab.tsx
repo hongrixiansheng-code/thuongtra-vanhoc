@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, memo, useCallback } from 'react';
 import { SRS } from '@/lib/srs';
 import { StartersExercises } from './StartersExercises';
+import ExamExerciseQuiz from '@/components/ExamExerciseQuiz';
 
 const playSoundEffect = (type: 'success' | 'error') => {
     const audio = new Audio(`/audio/${type}.mp3`);
@@ -532,11 +533,21 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
 });
 
 // --- MAIN WRITING TAB EXPORT ---
-export function WritingTab({ vocabData, levelId = 'hsk1' }: { vocabData: any[], levelId?: string }) {
+export function WritingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: { vocabData: any[], passagesData?: any[], levelId?: string }) {
     const isEnglish = !!(vocabData?.[0]?.word && !vocabData?.[0]?.hanzi);
-    
+
     if (levelId === 'en-starters') {
         return <StartersExercises vocabData={vocabData} mode="writing" />;
+    }
+    if (levelId === 'en-ket') {
+        const examExercises = passagesData.filter((p: any) => p.skillTag === 'writing' || p.skillTag === 'mock');
+        return (
+            <ExamExerciseQuiz
+                exercises={examExercises}
+                accentColor="indigo"
+                emptyMessage="Chưa có bài viết đúng định dạng đề thi KET cho các bài đã hoàn thành."
+            />
+        );
     }
     if (isEnglish) {
         return <EnglishWritingTab vocabData={vocabData} levelId={levelId} />;

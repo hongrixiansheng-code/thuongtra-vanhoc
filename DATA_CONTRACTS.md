@@ -37,7 +37,13 @@ Subject (zh | en)
 | `THEORY` | Từ vựng (vocab) |
 | `GRAMMAR` | Ngữ pháp |
 | `DIALOGUE` | Hội thoại |
-| `EXERCISE` | Bài tập (chưa dùng) |
+| `EXERCISE` | Bài tập |
+| `READING` | Bài đọc + câu hỏi (hiện chỉ dùng ở `ielts-0-4` "Get Ready") — xem mục 6.1 |
+| `LISTENING` | Bài nghe (transcript) + câu hỏi (hiện chỉ dùng ở `ielts-0-4` "Get Ready") — xem mục 6.2 |
+| `WRITING` | Đề viết + bài mẫu (hiện chỉ dùng ở `ielts-0-4` "Get Ready") — xem mục 6.3 |
+| `SPEAKING` | Đề nói theo Part 1/2/3 (hiện chỉ dùng ở `ielts-0-4` "Get Ready") — xem mục 6.4 |
+
+> Quyết định kiến trúc: khi mở rộng READING/LISTENING/WRITING/SPEAKING sang HSK/YLE/KET/PET, nội dung vẫn gắn vào `Lesson` (giống vocab/grammar/dialogue) nhưng hiển thị ở trang **Luyện tập** riêng (`/reading /listening /writing` + cần route mới cho speaking), KHÔNG đưa vào `LessonStepFlow`. Gate theo Contextual Unlock (`getCompletedLessonIds`) — chỉ mở khi bài đã hoàn thành + Premium.
 
 ---
 
@@ -243,6 +249,75 @@ interface DialogueEN {
   ]
 }
 ```
+
+---
+
+## 6.1 Reading
+
+> Phát hiện từ dữ liệu thật `ielts-0-4` (2026-06) — chính thức hóa lại đây vì trước đó chưa được document.
+
+```typescript
+interface Reading {
+  title: string;
+  passage: string;       // đoạn văn tiếng Anh
+  questions: {
+    type: 'true_false_ng' | 'multiple_choice';
+    question: string;
+    options?: string[];  // multiple_choice
+    correct: string;
+    explanation: string; // tiếng Việt, trích nguyên câu trong passage
+  }[];
+}
+```
+
+## 6.2 Listening
+
+> Giống Reading nhưng dùng `transcript` thay `passage`. Thêm `type: 'form_completion'` cho dạng điền từ vào form.
+
+```typescript
+interface Listening {
+  title: string;
+  transcript: string;
+  questions: {
+    type: 'true_false_ng' | 'multiple_choice' | 'form_completion';
+    question: string;
+    options?: string[];
+    correct: string;
+    explanation: string;
+  }[];
+}
+```
+
+## 6.3 Writing
+
+```typescript
+interface Writing {
+  title: string;
+  taskType: 'task1' | 'task2';
+  prompt: string;
+  minWords: number;
+  sampleAnswer: string;
+  checklist: string[];   // tiêu chí tự chấm, tiếng Việt
+}
+```
+
+## 6.4 Speaking
+
+```typescript
+interface Speaking {
+  title: string;
+  part: 1 | 2 | 3;
+  questions: string[];        // Part 1 & 3 — rỗng [] ở Part 2
+  cueCard?: {                 // CHỈ Part 2
+    topic: string;
+    bullets: string[];
+  };
+  sampleAnswer: string;
+}
+```
+
+### Lưu ý "Mock Test" lesson pairing (ielts-0-4)
+2 lesson cuối (lesson 88 "Reading + Listening", lesson 89 "Writing + Speaking") tạo thành 1 đề thi thử hoàn chỉnh dùng chung 1 bối cảnh — lesson 89 có 3 bản ghi SPEAKING (Part 1/2/3 tách riêng) và 2 bản ghi WRITING (Task 1/Task 2), khác pattern 1-content/lesson thông thường. Đây là thiết kế có chủ đích, KHÔNG phải lỗi thiếu content khi audit.
 
 ---
 

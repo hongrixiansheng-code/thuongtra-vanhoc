@@ -1,4 +1,5 @@
 import prisma from '@/lib/prisma';
+import { generateMiniTestQuestions, generateFinalTestQuestions, type Question } from '@/lib/quizGenerator';
 
 // =====================================================
 // Lấy chương trình theo code
@@ -67,10 +68,54 @@ export async function getAllVocabData(programCode: string, completedLessonIds?: 
 }
 
 // =====================================================
-// Đoạn văn luyện nghe/đọc (CHƯA có nguồn dữ liệu trong DB)
+// Bài tập đúng định dạng đề thi (contentType: EXERCISE)
+// title của exercise quyết định skillTag: "Reading ..." / "Listening ..." / "Writing ..." / "Mock ..."
 // =====================================================
-export async function getAllPassagesData(programCode: string) {
-  return [];
+export async function getAllPassagesData(programCode: string, completedLessonIds?: string[]) {
+  try {
+    const program = await getProgramByCode(programCode);
+    if (!program) return [];
+
+    const contents = await prisma.lessonContent.findMany({
+      where: {
+        contentType: 'EXERCISE',
+        lesson: {
+          programId: program.id,
+          ...(completedLessonIds && completedLessonIds.length > 0
+            ? { id: { in: completedLessonIds } }
+            : {})
+        }
+      },
+      include: {
+        lesson: { select: { title: true, orderIndex: true } }
+      },
+      orderBy: [{ lesson: { orderIndex: 'asc' } }, { createdAt: 'asc' }]
+    });
+
+    const results: any[] = [];
+    contents.forEach((c: any) => {
+      try {
+        const ex = JSON.parse(c.content);
+        const titleLower = (ex.title || '').toLowerCase();
+        let skillTag: 'reading' | 'listening' | 'writing' | 'mock' = 'reading';
+        if (titleLower.includes('listening')) skillTag = 'listening';
+        else if (titleLower.includes('writing')) skillTag = 'writing';
+        else if (titleLower.includes('mock')) skillTag = 'mock';
+
+        results.push({
+          ...ex,
+          skillTag,
+          _lessonId: c.lessonId,
+          _lessonTitle: c.lesson?.title || '',
+        });
+      } catch {}
+    });
+
+    return results;
+  } catch (e) {
+    console.warn('DB fetch failed:', e);
+    return [];
+  }
 }
 
 // =====================================================
@@ -94,7 +139,7 @@ export async function getAllGrammarData(programCode: string, completedLessonIds?
       include: {
         lesson: { select: { title: true, orderIndex: true } }
       },
-      orderBy: { lesson: { orderIndex: 'asc' } }
+      orderBy: [{ lesson: { orderIndex: 'asc' } }, { createdAt: 'asc' }]
     });
 
     const results: any[] = [];
@@ -126,7 +171,7 @@ export async function getLessonsData(programCode: string) {
       include: {
         lessons: {
           where: { orderIndex: { not: 9999 } },
-          include: { contents: true },
+          include: { contents: { orderBy: { createdAt: 'asc' } } },
           orderBy: { orderIndex: 'asc' }
         }
       }
@@ -245,7 +290,7 @@ export async function getAllDialogueData(programCode: string, completedLessonIds
       include: {
         lesson: { select: { id: true, title: true, orderIndex: true } }
       },
-      orderBy: { lesson: { orderIndex: 'asc' } }
+      orderBy: [{ lesson: { orderIndex: 'asc' } }, { createdAt: 'asc' }]
     });
 
     return contents.map(c => {
@@ -262,5 +307,90 @@ export async function getAllDialogueData(programCode: string, completedLessonIds
   } catch (e) {
     console.warn('DB fetch failed:', e);
     return [];
+  }
+}
+
+// =====================================================
+// Trình chiếu (Teacher) — gộp content của 1 lesson thành
+// 1 mảng slide theo thứ tự cố định, mỗi item 1 slide
+// =====================================================
+export type PresentationSlide =
+  | { type: 'vocab'; data: any[] }
+  | { type: 'quiz'; data: Question[] }
+  | { type: 'grammar' | 'dialogue' | 'reading' | 'listening' | 'writing' | 'speaking'; data: any };
+
+const SINGLE_ITEM_SLIDE_TYPES: Array<{ contentType: string; type: 'grammar' | 'dialogue' | 'reading' | 'listening' | 'writing' | 'speaking' }> = [
+  { contentType: 'GRAMMAR', type: 'grammar' },
+  { contentType: 'DIALOGUE', type: 'dialogue' },
+  { contentType: 'READING', type: 'reading' },
+  { contentType: 'LISTENING', type: 'listening' },
+  { contentType: 'WRITING', type: 'writing' },
+  { contentType: 'SPEAKING', type: 'speaking' },
+];
+
+export async function getPresentationSlides(lessonId: string): Promise<{ lessonTitle: string; programId: string; slides: PresentationSlide[] } | null> {
+  try {
+    const lesson = await prisma.lesson.findUnique({
+      where: { id: lessonId },
+      include: {
+        contents: { orderBy: { createdAt: 'asc' } },
+        program: { select: { code: true } }
+      }
+    });
+    if (!lesson) return null;
+
+    const skipAutoTest = lesson.program.code === 'en-epf';
+    const slides: PresentationSlide[] = [];
+
+    // Vocab: nhóm theo batch 5 từ/slide, giống LessonStepFlow.tsx (vocabItems.slice(i, i+5)),
+    // chèn 1 slide quiz sau mỗi 2 batch — đúng quy tắc mini-test của luồng học sinh.
+    const vocabItems = lesson.contents
+      .filter((c: any) => c.contentType === 'THEORY')
+      .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+      .filter(Boolean);
+    const isZH = !!vocabItems?.[0]?.hanzi && !vocabItems?.[0]?.word;
+
+    let batchCount = 0;
+    for (let i = 0; i < vocabItems.length; i += 5) {
+      slides.push({ type: 'vocab', data: vocabItems.slice(i, i + 5) });
+      batchCount++;
+
+      if (batchCount % 2 === 0 && !skipAutoTest) {
+        const startIdx = Math.max(0, i - 4);
+        const recentVocab = vocabItems.slice(startIdx, i + 5);
+        const questions = generateMiniTestQuestions(recentVocab, vocabItems);
+        if (questions.length > 0) {
+          slides.push({ type: 'quiz', data: questions });
+        }
+      }
+    }
+
+    const grammarItems = lesson.contents
+      .filter((c: any) => c.contentType === 'GRAMMAR')
+      .map((c: any) => { try { return JSON.parse(c.content); } catch { return null; } })
+      .filter(Boolean);
+
+    for (const { contentType, type } of SINGLE_ITEM_SLIDE_TYPES) {
+      lesson.contents
+        .filter((c: any) => c.contentType === contentType)
+        .forEach((c: any) => {
+          try {
+            const data = JSON.parse(c.content);
+            slides.push({ type, data });
+          } catch {}
+        });
+    }
+
+    if (vocabItems.length > 0 && !skipAutoTest) {
+      const finalExercises = generateFinalTestQuestions(vocabItems, grammarItems, isZH);
+      if (finalExercises.length > 0) {
+        slides.push({ type: 'quiz', data: finalExercises });
+      }
+    }
+
+    return { lessonTitle: lesson.title, programId: lesson.programId, slides };
+  } catch (e) {
+    console.warn('DB fetch failed:', e);
+    return null;
   }
 }

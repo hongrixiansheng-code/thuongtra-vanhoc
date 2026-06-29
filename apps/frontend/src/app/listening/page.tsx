@@ -12,10 +12,10 @@ export default async function ListeningPage(props: any) {
 
   const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
-  const vocabData = completedLessonIds.length > 0
-    ? await getAllVocabData(level, completedLessonIds)
-    : [];
-  const passagesData = await getAllPassagesData(level) || [];
+  const [vocabData, passagesData] = await Promise.all([
+    completedLessonIds.length > 0 ? getAllVocabData(level, completedLessonIds) : Promise.resolve([]),
+    getAllPassagesData(level, completedLessonIds)
+  ]);
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">

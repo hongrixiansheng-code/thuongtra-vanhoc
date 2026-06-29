@@ -12,11 +12,11 @@ export default async function ReadingPage(props: any) {
 
   const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
-  const vocabData = completedLessonIds.length > 0
-    ? await getAllVocabData(level, completedLessonIds)
-    : [];
-  const passagesData = await getAllPassagesData(level) || [];
-  const dialogueSentences = await getDialogueSentences(level) || [];
+  const [vocabData, passagesData, dialogueSentences] = await Promise.all([
+    completedLessonIds.length > 0 ? getAllVocabData(level, completedLessonIds) : Promise.resolve([]),
+    getAllPassagesData(level, completedLessonIds),
+    getDialogueSentences(level)
+  ]);
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">

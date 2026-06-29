@@ -13,7 +13,16 @@ export default async function ClassDetailPage({ params }: { params: Promise<{ id
   const cls = await prisma.class.findUnique({
     where: { id },
     include: {
-      program: { include: { subject: true } },
+      program: {
+        include: {
+          subject: true,
+          lessons: {
+            where: { orderIndex: { not: 9999 } },
+            orderBy: { orderIndex: "asc" },
+            select: { id: true, title: true }
+          }
+        }
+      },
       enrollments: {
         include: { student: { select: { id: true, name: true, email: true } } },
         orderBy: { joinedAt: "asc" }

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { ArrowLeft, UserPlus, Trash2, Pencil } from "lucide-react";
+import { ArrowLeft, UserPlus, Trash2, Pencil, Presentation } from "lucide-react";
 import { addStudentToClass, removeStudentFromClass, updateClass } from "../actions";
 
 export default function ClassDetailClient({ cls }: { cls: any }) {
@@ -105,6 +105,28 @@ export default function ClassDetailClient({ cls }: { cls: any }) {
             <button onClick={() => setIsEditing(true)} className="text-gray-400 hover:text-indigo-600 transition-colors" title="Sửa lớp">
               <Pencil className="w-4 h-4" />
             </button>
+          </div>
+        )}
+      </div>
+
+      <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6">
+        <h2 className="font-semibold text-gray-900 mb-4">Danh sách bài học ({cls.program.lessons.length})</h2>
+        {cls.program.lessons.length === 0 ? (
+          <p className="text-sm text-gray-500 text-center py-4">Chương trình này chưa có bài học nào.</p>
+        ) : (
+          <div className="divide-y divide-gray-100">
+            {cls.program.lessons.map((lesson: any) => (
+              <div key={lesson.id} className="flex justify-between items-center py-3">
+                <p className="text-sm font-medium text-gray-900">{lesson.title}</p>
+                <Link
+                  href={`/teacher/classes/${cls.id}/present/${lesson.id}`}
+                  className="flex items-center gap-1.5 px-3 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-700 text-xs font-semibold rounded-lg transition-colors flex-shrink-0"
+                  title="Trình chiếu bài học này"
+                >
+                  <Presentation className="w-3.5 h-3.5" /> Trình chiếu
+                </Link>
+              </div>
+            ))}
           </div>
         )}
       </div>

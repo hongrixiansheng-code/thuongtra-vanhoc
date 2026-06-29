@@ -308,10 +308,13 @@ export default function UserClient({ users }: { users: any[] }) {
                       <option value="keep">Giữ nguyên ngày hết hạn hiện tại</option>
                     )}
                     <option value="none">Vĩnh viễn (không hết hạn)</option>
-                    <option value="3d">3 ngày · 25.000đ</option>
+                    <option value="3d">3 ngày · 30.000đ</option>
                     <option value="7d">7 ngày · 50.000đ</option>
                     <option value="15d">15 ngày · 75.000đ</option>
                     <option value="30d">30 ngày · 99.000đ</option>
+                    <option value="90d">90 ngày · 249.000đ</option>
+                    <option value="180d">180 ngày · 449.000đ</option>
+                    <option value="360d">360 ngày · 669.000đ</option>
                   </select>
                   <p className="text-xs text-gray-400 mt-1">Chọn một mức gói sẽ tự ghi nhận giao dịch tương ứng vào lịch sử thanh toán.</p>
                 </div>

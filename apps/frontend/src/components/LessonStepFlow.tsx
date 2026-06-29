@@ -3,6 +3,7 @@
 import React, { useState, useMemo, useEffect } from "react";
 import { pinyin } from 'pinyin-pro';
 import { VocabDetailModal } from '@/components/legacy/VocabTab';
+import { shuffleArray, generateMiniTestQuestions, generateFinalTestQuestions } from '@/lib/quizGenerator';
 
 function playSound(type: 'correct' | 'wrong') {
   try {
@@ -83,20 +84,11 @@ interface Step {
   data?: any;
 }
 
-// Helpers
-function shuffleArray<T>(array: T[]): T[] {
-  const newArr = [...array];
-  for (let i = newArr.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [newArr[i], newArr[j]] = [newArr[j], newArr[i]];
-  }
-  return newArr;
-}
 
 // Bỏ phần phiên âm IPA (vd "sea /siː/" → "sea") trước khi gửi cho Web Speech API,
 // vì TTS đọc luôn cả ký hiệu /.../ thành tiếng nếu không lọc.
 function stripIPA(text: string): string {
-  return text?.replace(/\/[^/]*\//g, '').replace(/\s+/g, ' ').trim();
+  return text?.replace(/[→].*$/, '').replace(/\/[^/]*\//g, '').replace(/\s+/g, ' ').trim();
 }
 
 export default function LessonStepFlow({
@@ -168,50 +160,8 @@ export default function LessonStepFlow({
         // Lấy 10 từ của 2 batch vừa học
         const startIdx = Math.max(0, i - 4);
         const recentVocab = vocabItems.slice(startIdx, i + 5);
-        
-        // Tạo 3 câu hỏi MC từ các từ vừa học
-        const questions = shuffleArray(recentVocab).slice(0, 3).map((item: any) => {
-          // Lấy nghĩa chính (trước dấu phẩy đầu tiên) để tránh trùng lặp
-          const mainMeaning = item.meaning?.split(',')[0].trim() || item.meaning;
 
-          // Lọc từ sai: loại bỏ từ có nghĩa chính giống hoặc gần giống
-          const wrongPool = vocabItems.filter((v: any) => {
-            const vKey = v.hanzi || v.word;
-            const itemKey = item.hanzi || item.word;
-            if (vKey === itemKey) return false;
-            const vMainMeaning = v.meaning?.split(',')[0].trim() || '';
-            // Loại bỏ nếu nghĩa chính giống nhau
-            if (vMainMeaning === mainMeaning) return false;
-            // Loại bỏ nếu nghĩa chứa nhau (ví dụ: "bố" và "bố, ba, cha")
-            if (mainMeaning.includes(vMainMeaning) || vMainMeaning.includes(mainMeaning)) return false;
-            return true;
-          });
-
-          const wrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) =>
-            v.meaning?.split(',')[0].trim() || v.meaning
-          );
-
-          // Nếu không đủ 3 đáp án sai → dùng nghĩa đầy đủ
-          if (wrongs.length < 3) {
-            const fallbackWrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
-            return {
-              type: 'multiple_choice',
-              question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
-              options: shuffleArray([item.meaning, ...fallbackWrongs]),
-              correct: item.meaning,
-              explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
-            };
-          }
-
-          const options = shuffleArray([mainMeaning, ...wrongs]);
-          return {
-            type: 'multiple_choice',
-            question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
-            options,
-            correct: mainMeaning,
-            explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
-          };
-        });
+        const questions = generateMiniTestQuestions(recentVocab, vocabItems);
 
         if (questions.length > 0) {
           vocabBlock.push({ type: "mini-test", id: `mini-test-${i}`, data: questions });
@@ -258,127 +208,7 @@ export default function LessonStepFlow({
 
     // Final test
     if (vocabItems.length > 0 && !skipAutoTest) {
-      const allVocab = shuffleArray([...vocabItems]);
-
-      // 2 câu MC: hỏi nghĩa từ vựng random
-      const mcQuestions = allVocab.slice(0, 2).map((item: any) => {
-        const wrongPool = vocabItems.filter((v: any) => (v.hanzi || v.word) !== (item.hanzi || item.word));
-        const wrongs = shuffleArray(wrongPool).slice(0, 3).map((v: any) => v.meaning);
-        return {
-          type: 'multiple_choice',
-          question: `"${item.hanzi || item.word}" có nghĩa là gì?`,
-          options: shuffleArray([item.meaning, ...wrongs]),
-          correct: item.meaning,
-          explanation: `"${item.hanzi || item.word}" = ${item.meaning}`
-        };
-      });
-
-      // 2 câu fill_blank: tạo từ practiceList của grammar random
-      const grammarPool = shuffleArray([...grammarItems]);
-      const fbQuestions = grammarPool.slice(0, 2).map((g: any) => {
-        // Lấy 1 câu ví dụ từ practiceList, đục lỗ 1 từ quan trọng
-        const example = g.practiceList?.[Math.floor(Math.random() * (g.practiceList?.length || 1))];
-        
-        // IELTS Schema: đã có sẵn câu hỏi đục lỗ trong practiceList
-        if (example?.question && example?.question.includes('___')) {
-          let wrongOptions = shuffleArray(
-            grammarItems
-              .filter((og: any) => og !== g)
-              .flatMap((og: any) =>
-                (og.formula || []).flatMap((f: any) =>
-                  f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
-                )
-              )
-          );
-          if (wrongOptions.length < 3) {
-            wrongOptions = [...wrongOptions, ...shuffleArray(vocabItems.map((v: any) => v.hanzi || v.word))];
-          }
-          wrongOptions = Array.from(new Set(wrongOptions.filter((w: string) => w && w !== example.correct))).slice(0, 3);
-          
-          return {
-            type: 'fill_blank',
-            question: example.question,
-            options: shuffleArray([example.correct, ...wrongOptions].filter(Boolean).slice(0, 4)),
-            correct: example.correct,
-            explanation: example.explanation || g.desc || ''
-          };
-        }
-
-        // Legacy HSK Schema: đục lỗ từ câu correct
-        const sentence = example?.correct || '';
-
-        let targetWord = '';
-        let blanked = sentence;
-        let wrongOptions: string[] = [];
-
-        if (isZH) {
-          const vocabWords = vocabItems.map((v: any) => v.hanzi).filter(Boolean);
-          const formulaWords = (g.formula || []).flatMap((f: any) =>
-            f.text.split(/[\s\/+→]/).filter((w: string) => /[\u4e00-\u9fa5]/.test(w))
-          );
-          
-          targetWord = formulaWords.find((w: string) => sentence.includes(w)) || 
-                       vocabWords.find((w: string) => sentence.includes(w)) || 
-                       sentence.charAt(1) || sentence.charAt(0);
-          
-          if (targetWord) {
-            blanked = sentence.replace(targetWord, '___');
-          }
-          wrongOptions = shuffleArray(vocabItems.map((v: any) => v.hanzi).filter(Boolean));
-        } else {
-          const formulaWords = (g.formula || []).flatMap((f: any) =>
-            f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
-          );
-          const wordsInSentence = sentence.split(' ').map((w: string) => w.replace(/[.,!?]/g, ''));
-          targetWord = formulaWords.find((w: string) =>
-            wordsInSentence.some((sw: string) => sw.toLowerCase() === w.toLowerCase())
-          ) || wordsInSentence.find((w: string) => w.length > 2) || wordsInSentence[1] || wordsInSentence[0] || '';
-
-          if (targetWord) {
-            blanked = sentence.replace(new RegExp(`\\b${targetWord}\\b`, 'i'), '___');
-          }
-
-          wrongOptions = shuffleArray(
-            grammarItems
-              .filter((og: any) => og !== g)
-              .flatMap((og: any) =>
-                (og.formula || []).flatMap((f: any) =>
-                  f.text.split(/[\s\/+→]/).filter((w: string) => w.length > 1 && /^[a-zA-Z]+$/.test(w))
-                )
-              )
-          );
-        }
-        if (wrongOptions.length < 3) {
-          wrongOptions = [...wrongOptions, ...shuffleArray(vocabItems.map((v: any) => v.hanzi || v.word))];
-        }
-        wrongOptions = Array.from(new Set(wrongOptions.filter((w: string) => w && w !== targetWord))).slice(0, 3);
-
-        return {
-          type: 'fill_blank',
-          question: blanked || `___ (${g.title})`,
-          options: shuffleArray([targetWord, ...wrongOptions].filter(Boolean).slice(0, 4)),
-          correct: targetWord,
-          explanation: g.desc || ''
-        };
-      });
-
-      // 2 câu drag_drop: ghép từ - nghĩa từ vocab random
-      const ddQuestions = [0, 1].map((i) => {
-        const startIdx = i * 4;
-        const batch = shuffleArray([...vocabItems]).slice(startIdx, startIdx + 4);
-        return {
-          type: 'drag_drop',
-          question: isZH ? 'Ghép từ tiếng Trung với nghĩa tiếng Việt' : 'Ghép từ tiếng Anh với nghĩa tiếng Việt',
-          pairs: batch.map((v: any) => ({ en: v.hanzi || v.word, vi: v.meaning }))
-        };
-      });
-
-      // Xen kẽ MC → FB → DD → MC → FB → DD
-      const finalExercises = [
-        mcQuestions[0], fbQuestions[0], ddQuestions[0],
-        mcQuestions[1], fbQuestions[1], ddQuestions[1],
-      ].filter(Boolean);
-
+      const finalExercises = generateFinalTestQuestions(vocabItems, grammarItems, isZH);
       s.push({ type: "final-test", id: "final-test", data: finalExercises });
     }
 
@@ -509,7 +339,7 @@ export default function LessonStepFlow({
             <MiniTestStep key={currentStep} data={step.data} onFinish={handleMiniTestFinish} />
           )}
           {step.type === "grammar" && (
-            <GrammarStep key={currentStep} data={step.data} isZH={isZH} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
+            <GrammarStep key={currentStep} data={step.data} isZH={isZH} label={programCode === 'en-epf' ? 'Kiến thức' : 'Ngữ pháp'} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
           )}
           {step.type === "dialogue" && (
             <DialogueStep key={currentStep} data={step.data} onNext={handleNextStep} onPrev={currentStep > 0 ? () => setCurrentStep(prev => prev - 1) : undefined} />
@@ -725,7 +555,7 @@ function MiniTestStep({ data, onFinish }: { data: any[]; onFinish: (c: number, t
   );
 }
 
-function GrammarStep({ data, isZH, onNext, onPrev }: { data: any; isZH?: boolean; onNext: () => void; onPrev?: () => void }) {
+function GrammarStep({ data, isZH, label = 'Ngữ pháp', onNext, onPrev }: { data: any; isZH?: boolean; label?: string; onNext: () => void; onPrev?: () => void }) {
   const { speak } = React.useContext(SpeechContext);
 
   const getFormulaText = (text: string) => {
@@ -745,7 +575,7 @@ function GrammarStep({ data, isZH, onNext, onPrev }: { data: any; isZH?: boolean
         
         {/* Header */}
         <div className="bg-blue-600 text-white p-6 rounded-2xl">
-          <div className="text-xs font-semibold uppercase tracking-widest text-blue-200 mb-2">Ngữ pháp</div>
+          <div className="text-xs font-semibold uppercase tracking-widest text-blue-200 mb-2">{label}</div>
           <h2 className="text-2xl font-bold">{data.title}</h2>
           <p className="text-blue-100 mt-2 text-sm leading-relaxed">{data.desc}</p>
         </div>
@@ -787,7 +617,7 @@ function GrammarStep({ data, isZH, onNext, onPrev }: { data: any; isZH?: boolean
                     {ex.vi && <div className="text-slate-400 text-xs">{ex.vi}</div>}
                   </div>
                   <button
-                    onClick={() => speak(ex.en)}
+                    onClick={() => speak(stripIPA(ex.en))}
                     className="ml-auto text-blue-400 hover:text-blue-600 transition-colors"
                   >
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { SRS } from '@/lib/srs';
 import { StartersExercises } from './StartersExercises';
+import ExamExerciseQuiz from '@/components/ExamExerciseQuiz';
 
 // --- HELPERS ---
 const fisherYatesShuffle = (arr: any[]) => {
@@ -51,6 +52,17 @@ export function ListeningTab({ vocabData, passagesData, levelId = 'hsk1' }: { vo
     // Chương trình Tiếng Anh → hiển thị bài tập Cambridge Starters
     if (levelId === 'en-starters') {
         return <StartersExercises vocabData={vocabData} passagesData={passagesData} mode="listening" />;
+    }
+
+    if (levelId === 'en-ket') {
+        const examExercises = (passagesData || []).filter((p: any) => p.skillTag === 'listening' || p.skillTag === 'mock');
+        return (
+            <ExamExerciseQuiz
+                exercises={examExercises}
+                accentColor="indigo"
+                emptyMessage="Chưa có bài nghe đúng định dạng đề thi KET cho các bài đã hoàn thành."
+            />
+        );
     }
 
     const [mode, setMode] = useState<'menu' | 'choose' | 'pinyin' | 'passage'>('menu');

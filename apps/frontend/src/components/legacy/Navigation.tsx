@@ -13,12 +13,15 @@ const FALLBACK_SUBJECTS = [
         programs: [
             { id: 'hsk1', code: 'hsk1', name: 'HSK 1 - Cấp độ Cơ bản', level: 1, isAvailable: true },
             { id: 'hsk2', code: 'hsk2', name: 'HSK 2 - Cấp độ Sơ cấp', level: 2, isAvailable: true },
+            { id: 'hsk3', code: 'hsk3', name: 'HSK 3 - Giao tiếp Trung cấp', level: 3, isAvailable: false },
+            { id: 'hsk4', code: 'hsk4', name: 'HSK 4 - Giao tiếp Nâng cao', level: 4, isAvailable: false },
         ]
     },
     {
         id: 'en', code: 'en', name: 'Tiếng Anh', flag: '🇬🇧', color: 'bg-blue-500',
         programs: [
             { id: 'en-starters', code: 'en-starters', name: 'Starters', level: 1, isAvailable: true },
+            { id: 'ielts-0-4', code: 'ielts-0-4', name: 'Get Ready', level: 1, isAvailable: false },
         ]
     },
 ];
@@ -96,6 +99,14 @@ export function Navigation() {
         router.push(`${pathname}?level=${programCode}`);
     };
 
+    const handleClickProgram = (prog: any) => {
+        if (!prog.isAvailable) {
+            alert('Chương trình đang phát triển, sẽ sớm ra mắt');
+            return;
+        }
+        handleSelectProgram(prog.code);
+    };
+
     const btnColor = currentSubject?.color || 'bg-indigo-500';
 
     return (
@@ -138,8 +149,7 @@ export function Navigation() {
                                                         <div className="px-3 py-1 bg-blue-50 text-[10px] font-bold text-blue-600 uppercase tracking-wider border-b border-blue-100/50">Cambridge</div>
                                                         {subject.programs.filter((p: any) => !p.code.includes('ielts')).map((prog: any) => (
                                                             <button key={prog.id || prog.code}
-                                                                disabled={!prog.isAvailable}
-                                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                                onClick={() => handleClickProgram(prog)}
                                                                 className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
                                                                     ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-blue-100/50 cursor-pointer'}
                                                                     ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>
@@ -158,8 +168,7 @@ export function Navigation() {
                                                         <div className="px-3 py-1 bg-blue-50 text-[10px] font-bold text-blue-600 uppercase tracking-wider border-b border-blue-100/50">IELTS</div>
                                                         {subject.programs.filter((p: any) => p.code.includes('ielts')).map((prog: any) => (
                                                             <button key={prog.id || prog.code}
-                                                                disabled={!prog.isAvailable}
-                                                                onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                                onClick={() => handleClickProgram(prog)}
                                                                 className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
                                                                     ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-blue-100/50 cursor-pointer'}
                                                                     ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>
@@ -186,8 +195,7 @@ export function Navigation() {
                                                 </div>
                                                 {subject.programs.map((prog: any) => (
                                                     <button key={prog.id || prog.code}
-                                                        disabled={!prog.isAvailable}
-                                                        onClick={() => prog.isAvailable && handleSelectProgram(prog.code)}
+                                                        onClick={() => handleClickProgram(prog)}
                                                         className={`w-full text-left px-3 py-2.5 text-sm flex items-center justify-between transition-colors
                                                             ${!prog.isAvailable ? 'text-gray-300 cursor-not-allowed' : 'hover:bg-red-100/50 cursor-pointer'}
                                                             ${currentLevel === prog.code ? 'bg-primary-50 font-bold text-primary-600' : 'text-gray-700'}`}>

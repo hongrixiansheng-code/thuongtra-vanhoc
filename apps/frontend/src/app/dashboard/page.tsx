@@ -11,52 +11,53 @@ import { syncExpiredSubscription, isSubscriptionActive } from "@/lib/subscriptio
 export default async function DashboardPage(props: any) {
   const searchParams = await props.searchParams;
   const levelStr = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
-  const data = await getLessonsData(levelStr);
   const session = await getServerSession(authOptions);
+
+  const [data, user] = await Promise.all([
+    getLessonsData(levelStr),
+    session?.user?.email
+      ? prisma.user.findUnique({
+          where: { email: session.user.email },
+          include: {
+            progress: {
+              select: { lessonId: true, completed: true, score: true }
+            },
+            enrollments: {
+              where: { class: { isActive: true } },
+              select: { class: { select: { program: { select: { code: true } } } } }
+            }
+          }
+        })
+      : Promise.resolve(null)
+  ]);
 
   let progressMap: Record<string, boolean> = {};
   let isPremiumUser = false;
   let isAdmin = false;
   let programLocked = false;
 
-  if (session?.user?.email) {
-
-    const user = await prisma.user.findUnique({
-      where: { email: session.user.email },
-      include: {
-        progress: {
-          select: { lessonId: true, completed: true, score: true }
-        },
-        enrollments: {
-          where: { class: { isActive: true } },
-          select: { class: { select: { program: { select: { code: true } } } } }
-        }
-      }
+  if (user) {
+    user.progress.forEach(p => {
+      progressMap[p.lessonId] = p.completed;
     });
 
-    if (user) {
-      user.progress.forEach(p => {
-        progressMap[p.lessonId] = p.completed;
-      });
+    const syncedUser = await syncExpiredSubscription(user);
 
-      const syncedUser = await syncExpiredSubscription(user);
+    if (user.role === "ADMIN") {
+      isAdmin = true;
+      isPremiumUser = true;
+    } else if (isSubscriptionActive(syncedUser)) {
+      isPremiumUser = true;
+    }
 
-      if (user.role === "ADMIN") {
-        isAdmin = true;
-        isPremiumUser = true;
-      } else if (isSubscriptionActive(syncedUser)) {
-        isPremiumUser = true;
-      }
-
-      const enrolledProgramCodes = user.enrollments.map((e: any) => e.class.program.code);
-      const isEnrolledInThisProgram = enrolledProgramCodes.includes(levelStr);
-      if (!isAdmin && enrolledProgramCodes.length > 0 && !isEnrolledInThisProgram) {
-        programLocked = true;
-      } else if (!isAdmin && isEnrolledInThisProgram) {
-        // Học sinh trong lớp được hưởng quyền Premium cho đúng program của lớp (mở bài isPremium),
-        // nhưng vẫn mở dần theo progressMap thật — không bypass điều kiện điểm số.
-        isPremiumUser = true;
-      }
+    const enrolledProgramCodes = user.enrollments.map((e: any) => e.class.program.code);
+    const isEnrolledInThisProgram = enrolledProgramCodes.includes(levelStr);
+    if (!isAdmin && enrolledProgramCodes.length > 0 && !isEnrolledInThisProgram) {
+      programLocked = true;
+    } else if (!isAdmin && isEnrolledInThisProgram) {
+      // Học sinh trong lớp được hưởng quyền Premium cho đúng program của lớp (mở bài isPremium),
+      // nhưng vẫn mở dần theo progressMap thật — không bypass điều kiện điểm số.
+      isPremiumUser = true;
     }
   }
 

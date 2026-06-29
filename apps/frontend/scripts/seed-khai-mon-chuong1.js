@@ -74,7 +74,7 @@ async function main() {
   const program = await prisma.program.create({
   data: {
     code: 'khai-mon',
-    name: 'Khai Môn — Nhập môn Tiếng Trung',
+    name: 'Nhập Môn',
     subjectId: subject.id,
     level: 0,
     isAvailable: true,

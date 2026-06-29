@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, memo, useMemo } from 'react';
 import { SpeechEngine } from '@/lib/speech-engine';
 import { StartersExercises } from './StartersExercises';
+import ExamExerciseQuiz from '@/components/ExamExerciseQuiz';
 
 const playTone = (type: 'success' | 'error') => {
     try {
@@ -460,6 +461,17 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
 export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [], levelId = 'hsk1' }: { vocabData: any[], passagesData?: any[], dialogueSentences?: any[], levelId?: string }) {
     if (levelId === 'en-starters') {
         return <StartersExercises vocabData={vocabData} mode="reading" />;
+    }
+
+    if (levelId === 'en-ket') {
+        const examExercises = passagesData.filter((p: any) => p.skillTag === 'reading' || p.skillTag === 'mock');
+        return (
+            <ExamExerciseQuiz
+                exercises={examExercises}
+                accentColor="indigo"
+                emptyMessage="Chưa có bài đọc đúng định dạng đề thi KET cho các bài đã hoàn thành."
+            />
+        );
     }
 
     const [subMode, setSubMode] = useState<'vocab' | 'sentence' | null>(null);

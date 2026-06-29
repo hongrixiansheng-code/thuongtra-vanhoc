@@ -1,6 +1,6 @@
 export const dynamic = 'force-dynamic';
 import { WritingTab } from "@/components/legacy/WritingTab";
-import { getAllVocabData } from "@/lib/data";
+import { getAllVocabData, getAllPassagesData } from "@/lib/data";
 import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 import PremiumLocked from "@/components/PremiumLocked";
@@ -12,9 +12,10 @@ export default async function WritingPage(props: any) {
 
   const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
-  const vocabData = completedLessonIds.length > 0
-    ? await getAllVocabData(level, completedLessonIds)
-    : [];
+  const [vocabData, passagesData] = await Promise.all([
+    completedLessonIds.length > 0 ? getAllVocabData(level, completedLessonIds) : Promise.resolve([]),
+    getAllPassagesData(level, completedLessonIds)
+  ]);
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
@@ -32,7 +33,7 @@ export default async function WritingPage(props: any) {
           </Link>
         </div>
       ) : (
-        <WritingTab key={level} vocabData={vocabData} levelId={level} />
+        <WritingTab key={level} vocabData={vocabData} passagesData={passagesData} levelId={level} />
       )}
     </div>
   );

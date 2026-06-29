@@ -1,7 +1,7 @@
 # CLAUDE.md — Vấn Học / ThuongTra-VanHoc
 
 ## 🎯 Project Overview
-Nền tảng học ngôn ngữ đa môn (Tiếng Trung HSK, Tiếng Anh Cambridge YLE; kế hoạch mở rộng Nhật, Hàn).
+Nền tảng học ngôn ngữ đa môn (Tiếng Trung HSK, Tiếng Anh Starters/Movers/Flyers/KET/PET + Get Ready (IELTS 0-4.0) + Phonics (phát âm); kế hoạch mở rộng Nhật, Hàn).
 Brand: **Thưởng Trà - Vấn Học** (Tầm Đạo là tên công ty dự kiến thành lập sau, không phải tên brand) | Owner: DuDu Châu | Solo developer.
 Cộng tác viên: **Claude** (chat — chiến lược, kiến trúc) · **Claude Code** (thực thi file/code) · **A / Gemini** (soạn nội dung: vocab, grammar, dialogue).
 
@@ -40,14 +40,16 @@ edu-platform/
 ### Content hierarchy
 ```
 Subject (zh, en...)
-  └── Program (hsk1, hsk2, en-starters, en-movers, en-flyers, en-ket, en-pet...)
+  └── Program (hsk1, hsk2, hsk3, hsk4, khai-mon, en-starters "Starters", en-movers "Movers", en-flyers "Flyers", en-ket "KET", en-pet "PET", en-epf "Phonics", ielts-0-4 "Get Ready", en-ielts-2 "Intermediate", en-ielts-3 "Advanced"...)
         └── Lesson (orderIndex, theme, isPremium)
-              └── LessonContent (contentType: THEORY | GRAMMAR | DIALOGUE | EXERCISE)
+              └── LessonContent (contentType: THEORY | GRAMMAR | DIALOGUE | EXERCISE | READING | LISTENING | WRITING | SPEAKING)
 ```
 
 - **THEORY** (vocab): tiếng Trung dùng field `hanzi/pinyin/type/type_short/meaning/example_zh/example_vi`; tiếng Anh dùng `word/ipa/type/meaning/example_en/example_vi`
 - **GRAMMAR**: `title/desc/formula[]/practiceList[]` — formula dùng Tailwind classes có sẵn màu
 - **DIALOGUE**: tiếng Trung dùng `zh/py/vi`; tiếng Anh dùng `en/vi` — KHÔNG trộn field giữa 2 ngôn ngữ
+- **READING / LISTENING / WRITING / SPEAKING**: hiện chỉ dùng cho `ielts-0-4` — xem chi tiết field ở DATA_CONTRACTS.md. Theo quyết định kiến trúc, khi mở rộng sang HSK/YLE/KET/PET các content type này vẫn gắn vào `Lesson` nhưng hiển thị ở trang Luyện tập riêng (`/reading /listening /writing` + cần thêm route SPEAKING), KHÔNG đưa vào `LessonStepFlow`
+- `en-ielts-2` ("Intermediate", IELTS 4.0-5.5) và `en-ielts-3` ("Advanced", IELTS 5.5-7.0) là placeholder rỗng (0 lessons) cho roadmap — đã set `isAvailable: false` cho tới khi có nội dung. (`en-ielts-1` — bản trùng lặp rỗng với `ielts-0-4` — đã xóa khỏi DB 2026-06-29)
 
 ### User & Auth
 ```
@@ -72,7 +74,7 @@ Role `TEACHER` mới — học sinh thuộc lớp (`ClassEnrollment` với `clas
 | `/grammar?level=...` | Ngữ pháp — sidebar theo bài, content bên phải |
 | `/dialogue?level=...` | Hội thoại — sidebar theo bài, content bên phải |
 | `/practice`, `/games`, `/mock-test` | Luyện tập, lọc theo `completedLessonIds` |
-| `/reading`, `/listening`, `/writing` | Chỉ hoạt động đầy đủ cho HSK (component legacy); với `level=en-*` tạm thời không tương thích — CHƯA build bản tiếng Anh riêng |
+| `/reading`, `/listening`, `/writing` | Chỉ hoạt động đầy đủ cho HSK (component legacy); với `level=en-*` tạm thời không tương thích — CHƯA build bản tiếng Anh riêng. `ielts-0-4` đã có data READING/LISTENING/WRITING/SPEAKING trong DB nhưng CHƯA có component generic đọc — xem quyết định kiến trúc ở mục Database Schema |
 | `/admin/*` | Quản lý subjects/programs/lessons/data/users (CRUD cơ bản); `/admin/payments` xem danh sách giao dịch (Payment model) — chỉ là UI xem, CHƯA tích hợp cổng thanh toán thật; `/admin/users/[id]` trang chi tiết 1 user (tiến độ theo program, lịch sử thanh toán) |
 | `/teacher/*` | Cổng giáo viên (role TEACHER hoặc ADMIN) — `/teacher/classes` tạo/quản lý lớp học gắn với 1 Program, `/teacher/classes/[id]` chi tiết lớp + danh sách học sinh ghi danh (`ClassEnrollment`) |
 | `/premium-tools` | Trang Premium (dùng `components/legacy/Paywall.tsx`) |
@@ -174,7 +176,10 @@ Xem **DATA_CONTRACTS.md** — single source of truth cho format vocab/grammar/di
 | Dashboard / Step Flow | `/dashboard` | ✅ Hoạt động (HSK1 đầy đủ, YLE đầy đủ) |
 | Vocab / Grammar / Dialogue | `/vocab` `/grammar` `/dialogue` | ✅ Hoạt động, lọc theo bài đã học |
 | Games / Practice / Mock Test | `/games` `/practice` `/mock-test` | ✅ Hoạt động |
-| Reading / Listening / Writing | `/reading` `/listening` `/writing` | ⚠️ Chỉ hoạt động cho HSK (component cũ dùng field tiếng Trung); tiếng Anh chưa có bản tương thích |
+| Reading / Listening / Writing | `/reading` `/listening` `/writing` | ⚠️ Chỉ hoạt động cho HSK (component cũ dùng field tiếng Trung); tiếng Anh chưa có bản tương thích. Data "Get Ready" (`ielts-0-4`) đã có sẵn 4 contentType READING/LISTENING/WRITING/SPEAKING nhưng chưa có component generic render |
+| Get Ready (`ielts-0-4`, IELTS 0-4.0) | — | ✅ 90 bài đầy đủ THEORY/GRAMMAR/DIALOGUE/READING/LISTENING/WRITING/SPEAKING, chất lượng tốt — nhưng route/component hiển thị riêng CHƯA build, hiện chỉ truy cập được qua `/lessons/[subject]/[program]/[lessonId]` (legacy) |
+| Phonics (`en-epf`) | — | ✅ 27 bài (THEORY+GRAMMAR, dạy IPA/trọng âm/ngữ điệu) — cùng tình trạng route như trên |
+| Intermediate / Advanced (`en-ielts-2/3`) | — | ❌ Placeholder rỗng (0 lessons), `isAvailable: false` — ẩn tới khi có nội dung |
 | Admin CRUD | `/admin/*` | ✅ Hoạt động cơ bản |
 | Admin — quản lý user/giao dịch | `/admin/users`, `/admin/users/[id]`, `/admin/payments` | ✅ Hoạt động — xem chi tiết tiến độ/thanh toán từng user, danh sách giao dịch; CHƯA có thống kê tổng quan (revenue, growth...) |
 | Cổng giáo viên (Class/Enrollment) | `/teacher/*` | ✅ Hoạt động cơ bản — TEACHER tạo lớp gắn 1 Program, quản lý học sinh ghi danh; học sinh trong lớp tự động Premium cho đúng program của lớp |
@@ -210,7 +215,7 @@ Xem **DATA_CONTRACTS.md** — single source of truth cho format vocab/grammar/di
 - Premium mở khóa: flashcard, listening drills, reading drills — chỉ cho bài đã hoàn thành (Contextual Unlock)
 - Tăng trưởng: dùng thử Premium 7 ngày không cần thẻ; giải đấu tuần tặng mã Premium
 
-⚠️ **Lệch dữ liệu cần đối soát**: `apps/frontend/src/lib/subscription.ts` (`PREMIUM_DURATIONS`) hiện chỉ định nghĩa 4 mốc 3/7/15/30 ngày với giá 25.000đ/50.000đ/75.000đ/99.000đ — giá 3 ngày (25.000đ) khác bảng trên (30.000đ) và CHƯA có mốc 90/180/360 ngày. Cần đối soát lại với owner trước khi build flow mua Premium thật.
+`apps/frontend/src/lib/subscription.ts` (`PREMIUM_DURATIONS`) đã đồng bộ đủ 7 mốc đúng giá bảng trên — admin cấp Premium tay qua `/admin/users` dùng đúng danh sách này.
 
 ---
 

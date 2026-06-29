@@ -148,7 +148,7 @@ function TypeMode({ pool, voice, rate, onDone }: {
         if (current) {
             setInput('');
             setResult(null);
-            inputRef.current?.focus();
+            setTimeout(() => inputRef.current?.focus(), 100);
             setTimeout(() => speakEnglish(current.word, voice, rate), 400);
         }
     }, [idx, current, voice, rate]);
@@ -872,29 +872,34 @@ function ListeningMenu({ vocab, passages }: { vocab: any[], passages: any[] }) {
                     <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-orange-400 transition-colors"></i>
                 </button>
 
-                <button onClick={() => startMode('picture')}
-                    className="w-full flex items-center gap-4 p-4 bg-white rounded-2xl border-2 border-gray-100 hover:border-emerald-400 hover:bg-emerald-50 transition-all text-left group">
-                    <div className="w-12 h-12 bg-emerald-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-emerald-200 transition-colors">
-                        <i className="fa-solid fa-image text-xl text-emerald-600"></i>
+                <button onClick={() => alert('Tính năng đang phát triển')}
+                    className="w-full flex items-center gap-4 p-4 bg-gray-50 rounded-2xl border-2 border-gray-100 text-left cursor-not-allowed opacity-60">
+                    <div className="w-12 h-12 bg-gray-200 rounded-xl flex items-center justify-center shrink-0">
+                        <i className="fa-solid fa-image text-xl text-gray-400"></i>
                     </div>
                     <div>
-                        <div className="font-bold text-gray-800">Tìm Nhân Vật Trong Tranh</div>
-                        <div className="text-sm text-gray-500 mt-0.5">Nghe gợi ý và xác định vị trí nhân vật trong tranh</div>
+                        <div className="font-bold text-gray-500 flex items-center gap-2">
+                            Tìm Nhân Vật Trong Tranh
+                            <span className="text-[10px] font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full">Sắp ra mắt</span>
+                        </div>
+                        <div className="text-sm text-gray-400 mt-0.5">Nghe gợi ý và xác định vị trí nhân vật trong tranh</div>
                     </div>
-                    <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-emerald-500 transition-colors"></i>
+                    <i className="fa-solid fa-lock text-gray-300 ml-auto"></i>
                 </button>
 
-                <button onClick={() => startMode('dialogue')}
-                    className="w-full flex items-center gap-4 p-4 bg-white rounded-2xl border-2 border-gray-100 hover:border-teal-400 hover:bg-teal-50 transition-all text-left group"
-                    disabled={passages.length === 0}>
-                    <div className="w-12 h-12 bg-teal-100 rounded-xl flex items-center justify-center shrink-0 group-hover:bg-teal-200 transition-colors">
-                        <i className="fa-solid fa-comments text-xl text-teal-600"></i>
+                <button onClick={() => alert('Tính năng đang phát triển')}
+                    className="w-full flex items-center gap-4 p-4 bg-gray-50 rounded-2xl border-2 border-gray-100 text-left cursor-not-allowed opacity-60">
+                    <div className="w-12 h-12 bg-gray-200 rounded-xl flex items-center justify-center shrink-0">
+                        <i className="fa-solid fa-comments text-xl text-gray-400"></i>
                     </div>
                     <div>
-                        <div className="font-bold text-gray-800">Nghe Đoạn Hội Thoại</div>
-                        <div className="text-sm text-gray-500 mt-0.5">Đắm mình vào những câu chuyện {passages.length > 0 ? `(${passages.length} đoạn)` : '(chưa có dữ liệu)'}</div>
+                        <div className="font-bold text-gray-500 flex items-center gap-2">
+                            Nghe Đoạn Hội Thoại
+                            <span className="text-[10px] font-bold text-amber-600 bg-amber-100 px-2 py-0.5 rounded-full">Sắp ra mắt</span>
+                        </div>
+                        <div className="text-sm text-gray-400 mt-0.5">Đắm mình vào những câu chuyện</div>
                     </div>
-                    <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-teal-500 transition-colors"></i>
+                    <i className="fa-solid fa-lock text-gray-300 ml-auto"></i>
                 </button>
             </div>
         </div>
