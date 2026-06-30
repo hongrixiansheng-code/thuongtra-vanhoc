@@ -256,6 +256,111 @@ function DragDropCard({ q }: { q: any }) {
   );
 }
 
+// Copy riêng (không import từ KhaiMonClient.tsx) — đúng convention của file này.
+function KhaiMonSoundTable({ rows }: { rows: any[] }) {
+  return (
+    <div className="overflow-x-auto rounded-xl border border-slate-100 my-3">
+      <table className="w-full text-sm">
+        <thead>
+          <tr className="bg-slate-50 border-b border-slate-100">
+            <th className="px-4 py-2 text-left font-semibold text-slate-400">Thanh</th>
+            <th className="px-4 py-2 text-left font-semibold text-slate-400">Pinyin</th>
+            <th className="px-4 py-2 text-left font-semibold text-slate-400">Chữ Hán</th>
+            <th className="px-4 py-2 text-left font-semibold text-slate-400">Nghĩa</th>
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map((row, i) => (
+            <tr key={i} className="border-b last:border-0 border-slate-50">
+              <td className="px-4 py-2 text-slate-400 text-xs">{row.tone}</td>
+              <td className="px-4 py-2 font-mono text-lg text-indigo-600 font-semibold">{row.pinyin}</td>
+              <td className="px-4 py-2 text-xl text-slate-800">{row.hanzi}</td>
+              <td className="px-4 py-2 text-slate-600">{row.meaning}</td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
+    </div>
+  );
+}
+
+function KhaiMonSectionBlock({ section }: { section: any }) {
+  if (section.type === "text" && section.body) {
+    const parts = section.body.split(/(\*\*[^*]+\*\*)/g);
+    return (
+      <p className="text-slate-700 leading-relaxed whitespace-pre-line">
+        {parts.map((part: string, i: number) =>
+          part.startsWith("**") && part.endsWith("**") ? (
+            <strong key={i} className="font-semibold text-slate-900">{part.slice(2, -2)}</strong>
+          ) : (
+            <span key={i}>{part}</span>
+          )
+        )}
+      </p>
+    );
+  }
+  if (section.type === "sound_table" && section.rows) {
+    return <KhaiMonSoundTable rows={section.rows} />;
+  }
+  if (section.type === "note" && section.body) {
+    return (
+      <div className="my-3 flex gap-3 p-4 rounded-xl bg-amber-50 border border-amber-100">
+        <span className="text-amber-500 text-lg flex-shrink-0">⚠️</span>
+        <div>
+          {section.label && <p className="font-semibold text-amber-800 text-sm mb-1">{section.label}</p>}
+          <p className="text-amber-700 text-sm leading-relaxed whitespace-pre-line">{section.body}</p>
+        </div>
+      </div>
+    );
+  }
+  if (section.type === "comparison" && section.vietnamese && section.difference) {
+    return (
+      <div className="my-3 p-4 rounded-xl bg-blue-50 border border-blue-100">
+        <div className="flex items-center gap-2 mb-2">
+          <span className="text-blue-500">🇻🇳</span>
+          <p className="font-semibold text-blue-800 text-sm">So sánh tiếng Việt</p>
+        </div>
+        <p className="text-blue-600 text-sm font-medium mb-1">{section.vietnamese}</p>
+        <p className="text-blue-700 text-sm leading-relaxed whitespace-pre-line">{section.difference}</p>
+      </div>
+    );
+  }
+  return null;
+}
+
+function KhaiMonSlide({ data }: { data: { sections?: any[]; group?: any; instruction?: string } }) {
+  return (
+    <div className="max-w-2xl w-full space-y-6 max-h-[80vh] overflow-y-auto">
+      {data.sections && data.sections.length > 0 && (
+        <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6 space-y-2">
+          {data.sections.map((section, i) => <KhaiMonSectionBlock key={i} section={section} />)}
+        </div>
+      )}
+      {data.group && (
+        <div className="bg-white rounded-2xl border border-slate-100 shadow-sm p-6">
+          {data.instruction && <p className="text-sm text-slate-500 italic mb-4">{data.instruction}</p>}
+          <h4 className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-3">{data.group.label}</h4>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+            {data.group.words.map((word: any, wi: number) => (
+              <div key={wi} className="flex items-center gap-3 p-3 rounded-xl border-2 border-slate-100 bg-white">
+                <span className="w-6 h-6 rounded-full bg-slate-100 text-slate-400 text-xs font-bold flex items-center justify-center flex-shrink-0">{wi + 1}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-baseline gap-2">
+                    <span className="text-lg text-slate-800 font-medium">{word.hanzi}</span>
+                    <span className="text-sm text-indigo-500 font-mono">{word.pinyin}</span>
+                  </div>
+                  <p className="text-xs text-slate-500 truncate">{word.meaning}</p>
+                </div>
+                <SpeakerButton text={word.hanzi} lang="zh-CN" />
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function QuizSlide({ data }: { data: any[] }) {
   return (
     <div className="max-w-2xl w-full space-y-3 max-h-[80vh] overflow-y-auto">
@@ -283,6 +388,8 @@ export default function PresentationSlide({ slide }: { slide: SlideType }) {
       return <SkillSlide type={slide.type} data={slide.data} />;
     case 'quiz':
       return <QuizSlide data={slide.data} />;
+    case 'khaimon':
+      return <KhaiMonSlide data={slide.data} />;
     default:
       return null;
   }

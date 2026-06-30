@@ -314,10 +314,53 @@ export async function getAllDialogueData(programCode: string, completedLessonIds
 // Trình chiếu (Teacher) — gộp content của 1 lesson thành
 // 1 mảng slide theo thứ tự cố định, mỗi item 1 slide
 // =====================================================
+
+// Shape riêng của Khai Môn (xem KhaiMonClient.tsx) — THEORY ở đây KHÔNG phải
+// vocab item (hanzi/pinyin/meaning) mà là {title, sections}.
+interface KhaiMonSoundTableRow {
+  tone: string;
+  pinyin: string;
+  hanzi: string;
+  meaning: string;
+}
+interface KhaiMonSection {
+  type: "text" | "sound_table" | "note" | "comparison";
+  body?: string;
+  label?: string;
+  rows?: KhaiMonSoundTableRow[];
+  vietnamese?: string;
+  difference?: string;
+}
+interface KhaiMonWord {
+  pinyin: string;
+  hanzi: string;
+  meaning: string;
+}
+interface KhaiMonWordGroup {
+  sound: string;
+  label: string;
+  words: KhaiMonWord[];
+}
+
 export type PresentationSlide =
   | { type: 'vocab'; data: any[] }
   | { type: 'quiz'; data: Question[] }
-  | { type: 'grammar' | 'dialogue' | 'reading' | 'listening' | 'writing' | 'speaking'; data: any };
+  | { type: 'grammar' | 'dialogue' | 'reading' | 'listening' | 'writing' | 'speaking'; data: any }
+  | { type: 'khaimon'; data: { sections?: KhaiMonSection[]; group?: KhaiMonWordGroup; instruction?: string } };
+
+// Mỗi section "text" mở đầu 1 chủ đề mới (vd: âm A, âm O...) — giống thuật
+// toán clusterTheorySections trong KhaiMonClient.tsx.
+function clusterKhaiMonSections(sections: KhaiMonSection[]): KhaiMonSection[][] {
+  const clusters: KhaiMonSection[][] = [];
+  for (const section of sections) {
+    if (section.type === "text" || clusters.length === 0) {
+      clusters.push([section]);
+    } else {
+      clusters[clusters.length - 1].push(section);
+    }
+  }
+  return clusters;
+}
 
 const SINGLE_ITEM_SLIDE_TYPES: Array<{ contentType: string; type: 'grammar' | 'dialogue' | 'reading' | 'listening' | 'writing' | 'speaking' }> = [
   { contentType: 'GRAMMAR', type: 'grammar' },
@@ -338,6 +381,29 @@ export async function getPresentationSlides(lessonId: string): Promise<{ lessonT
       }
     });
     if (!lesson) return null;
+
+    // Khai Môn dùng schema riêng (THEORY = {sections}, EXERCISE = {groups}) — không
+    // phải vocab/quiz chuẩn nên tách hẳn khỏi pipeline chung dưới đây.
+    if (lesson.program.code === 'khai-mon') {
+      const theory = lesson.contents.find((c: any) => c.contentType === 'THEORY');
+      const exercise = lesson.contents.find((c: any) => c.contentType === 'EXERCISE');
+      const theoryData = theory ? (() => { try { return JSON.parse(theory.content); } catch { return null; } })() : null;
+      const exerciseData = exercise ? (() => { try { return JSON.parse(exercise.content); } catch { return null; } })() : null;
+
+      const clusters = theoryData?.sections ? clusterKhaiMonSections(theoryData.sections) : [];
+      const groups: KhaiMonWordGroup[] = exerciseData?.groups ?? [];
+      const instruction: string | undefined = exerciseData?.instruction;
+      const slides: PresentationSlide[] = [];
+
+      if (clusters.length > 0 && clusters.length === groups.length) {
+        clusters.forEach((sections, i) => slides.push({ type: 'khaimon', data: { sections, group: groups[i], instruction } }));
+      } else {
+        clusters.forEach((sections) => slides.push({ type: 'khaimon', data: { sections } }));
+        groups.forEach((group) => slides.push({ type: 'khaimon', data: { group, instruction } }));
+      }
+
+      return { lessonTitle: lesson.title, programId: lesson.programId, slides };
+    }
 
     const skipAutoTest = lesson.program.code === 'en-epf';
     const slides: PresentationSlide[] = [];
