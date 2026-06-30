@@ -5,6 +5,7 @@ import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 import PremiumLocked from "@/components/PremiumLocked";
 import Link from "next/link";
+import prisma from "@/lib/prisma";
 
 export default async function MockTestPage(props: any) {
   const searchParams = await props.searchParams;
@@ -12,9 +13,10 @@ export default async function MockTestPage(props: any) {
 
   const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 
-  const vocabData = completedLessonIds.length > 0
-    ? await getAllVocabData(level, completedLessonIds)
-    : [];
+  const [vocabData, program] = await Promise.all([
+    completedLessonIds.length > 0 ? getAllVocabData(level, completedLessonIds) : Promise.resolve([]),
+    prisma.program.findUnique({ where: { code: level }, select: { name: true } }),
+  ]);
 
   return (
     <div className="min-h-screen bg-gray-50 pb-20">
@@ -32,7 +34,7 @@ export default async function MockTestPage(props: any) {
           </Link>
         </div>
       ) : (
-        <MockTestTab key={level} vocabData={vocabData} />
+        <MockTestTab key={level} vocabData={vocabData} levelId={level} programName={program?.name} />
       )}
     </div>
   );

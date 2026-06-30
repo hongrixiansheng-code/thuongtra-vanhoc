@@ -17,7 +17,7 @@ const playAudio = (text: string, isEnglish: boolean = false) => {
     window.speechSynthesis.speak(utt);
 };
 
-export const MockTestTab = memo(({ vocabData, levelId = 'hsk1' }: { vocabData: any[], levelId?: string }) => {
+export const MockTestTab = memo(({ vocabData, levelId = 'hsk1', programName }: { vocabData: any[], levelId?: string, programName?: string }) => {
     const isEnglish = !!(vocabData?.[0]?.word && !vocabData?.[0]?.hanzi);
 
     // Cambridge Starters → bài thi mô phỏng riêng
@@ -26,7 +26,7 @@ export const MockTestTab = memo(({ vocabData, levelId = 'hsk1' }: { vocabData: a
     }
 
     const levelNum = levelId.replace('hsk', '');
-    const levelTitle = isEnglish ? 'Starters' : `HSK ${levelNum}`;
+    const levelTitle = programName || (isEnglish ? 'Starters' : `HSK ${levelNum}`);
     const [phase, setPhase] = useState<'intro' | 'testing' | 'result'>('intro');
     const [questions, setQuestions] = useState<any[]>([]);
     const [idx, setIdx] = useState(0);
@@ -115,7 +115,7 @@ export const MockTestTab = memo(({ vocabData, levelId = 'hsk1' }: { vocabData: a
                         Thi Thử {levelTitle}
                     </h2>
                     <p className="text-gray-500 mt-2 font-medium">
-                        {isEnglish ? 'Mô phỏng bài thi Cambridge YLE Starters' : `Mô phỏng đề thi HSK ${levelNum} thực tế`}
+                        {isEnglish ? `Mô phỏng đề thi ${levelTitle}` : `Mô phỏng đề thi ${levelTitle} thực tế`}
                     </p>
                 </div>
                 
@@ -173,7 +173,7 @@ export const MockTestTab = memo(({ vocabData, levelId = 'hsk1' }: { vocabData: a
                         
                         <div className={`inline-block px-6 py-2 rounded-full font-bold shadow-sm mb-8
                             ${passed ? 'bg-green-50 border-2 border-green-200 text-green-700' : 'bg-orange-50 border-2 border-orange-200 text-orange-700'}`}>
-                            {passed ? (isEnglish ? '✓ ĐẠT — Xuất sắc!' : '✓ ĐẠT — Đủ điều kiện HSK 1') : '✗ CHƯA ĐẠT — Cần ôn thêm'}
+                            {passed ? (isEnglish ? '✓ ĐẠT — Xuất sắc!' : `✓ ĐẠT — Đủ điều kiện ${levelTitle}`) : '✗ CHƯA ĐẠT — Cần ôn thêm'}
                         </div>
                     </div>
                     

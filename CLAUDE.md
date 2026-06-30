@@ -73,14 +73,18 @@ Role `TEACHER` mới — học sinh thuộc lớp (`ClassEnrollment` với `clas
 | `/vocab?level=...` | Từ điển tổng hợp các từ đã mở khóa |
 | `/grammar?level=...` | Ngữ pháp — sidebar theo bài, content bên phải |
 | `/dialogue?level=...` | Hội thoại — sidebar theo bài, content bên phải |
-| `/practice`, `/games`, `/mock-test` | Luyện tập, lọc theo `completedLessonIds` |
-| `/reading`, `/listening`, `/writing` | Chỉ hoạt động đầy đủ cho HSK (component legacy); với `level=en-*` tạm thời không tương thích — CHƯA build bản tiếng Anh riêng. `ielts-0-4` đã có data READING/LISTENING/WRITING/SPEAKING trong DB nhưng CHƯA có component generic đọc — xem quyết định kiến trúc ở mục Database Schema |
+| `/practice`, `/games`, `/mock-test` | Luyện tập, lọc theo `completedLessonIds`. `/mock-test` (`legacy/MockTestTab.tsx`) đã fix 2026-06-30 — nhận `programName` từ `page.tsx` (query `prisma.program.findUnique`), hiện đúng tên chương trình (vd "Thi Thử PET") thay vì hardcode "Starters". Cũng đã fix kèm: `levelId` trước đó KHÔNG được truyền xuống component nên `en-starters` chưa từng route đúng sang `StartersExercises` qua trang này — giờ đã truyền `levelId={level}` |
+| `/reading`, `/listening`, `/writing` | `/reading` (`ReadingTab.tsx`) đã fix 2026-06-30: chế độ "Luyện Đọc Từ Vựng" vốn đã hoạt động đúng cho tiếng Anh (đọc `word/ipa` thay vì `hanzi/pinyin`) chỉ bị sai *label* hiển thị — đã sửa tiêu đề/mô tả theo `isEnglish`. Chế độ "Luyện Đọc Theo Câu" dùng thuật toán chấm điểm theo từng ký tự Hán (`alignChineseChars`, chỉ đọc field `sentence.zh`) — KHÔNG tương thích về bản chất với tiếng Anh (cần thuật toán theo từ, chưa build), nên đã ẩn nút này khi `isEnglish` thay vì hiện label sai. `/listening`, `/writing` copy đã level-agnostic từ trước, không cần sửa. `ielts-0-4` đã có data READING/LISTENING/WRITING/SPEAKING trong DB nhưng CHƯA có component generic đọc riêng (vẫn dùng chung `ReadingTab`/`ListeningTab`/`WritingTab`) — xem quyết định kiến trúc ở mục Database Schema |
 | `/admin/*` | Quản lý subjects/programs/lessons/data/users (CRUD cơ bản); `/admin/payments` xem danh sách giao dịch (Payment model) — chỉ là UI xem, CHƯA tích hợp cổng thanh toán thật; `/admin/users/[id]` trang chi tiết 1 user (tiến độ theo program, lịch sử thanh toán) |
 | `/teacher/*` | Cổng giáo viên (role TEACHER hoặc ADMIN) — `/teacher/classes` tạo/quản lý lớp học gắn với 1 Program, `/teacher/classes/[id]` chi tiết lớp + danh sách học sinh ghi danh (`ClassEnrollment`) |
 | `/premium-tools` | Trang Premium (dùng `components/legacy/Paywall.tsx`) |
 | `/lessons/[subject]/[program]/[lessonId]` | Route legacy vẫn còn trong code (`apps/frontend/src/app/lessons/`), đang được sửa gần đây — KHÔNG xóa khi chưa xác nhận với owner |
 
-**Lưu ý:** một số route (`dashboard`, `vocab`, `games`, `mock-test`) có file `*-page.tsx` nằm cạnh `page.tsx` (ví dụ `dashboard/dashboard-page.tsx`). Đây KHÔNG phải convention đang dùng — Next.js App Router chỉ render `page.tsx`; các file `*-page.tsx` là bản cũ trước khi thêm logic Class/Premium/ProgramLocked, còn sót lại chưa dọn. KHÔNG sửa logic ở các file `*-page.tsx` này, luôn sửa `page.tsx`.
+**Cập nhật 2026-06-30:** các file `*-page.tsx` cũ nhắc ở trên ĐÃ được dọn sạch, không còn tồn tại trong `apps/frontend/src/app` — ghi chú cũ phía trên không còn rủi ro thật, giữ lại chỉ để biết lịch sử.
+
+**Đã fix 2026-06-30** — `dashboard/page.tsx` từng tự viết lại ~50 dòng logic check `isPremiumUser`/`isAdmin`/`programLocked` riêng thay vì dùng `getCompletedLessonIds`; đã refactor lại dùng đúng helper (83 dòng → 37 dòng), giờ tất cả route đều nhất quán gọi `getCompletedLessonIds`.
+
+**Đã fix 2026-06-30** — 4 file từng dùng `import { prisma } from 'database'` (client riêng) thay vì singleton `@/lib/prisma`: `app/lessons/[subject]/[program]/[lessonId]/page.tsx`, `app/api/progress/route.ts`, `app/admin/data/page.tsx`, `app/admin/data/actions.ts` — đã đổi sang `import prisma from '@/lib/prisma'` cho cả 4. Build + `tsc --noEmit` đã pass sau khi sửa.
 
 ---
 
@@ -125,6 +129,8 @@ components/
 ```
 
 Đã dọn (xóa) vì không còn được import: `GrammarTab.tsx` (legacy), `CurriculumTab.tsx` (legacy), `LessonComponents.tsx`, `Paywall.tsx` (bản gốc components/, không phải legacy/), `LayoutWrapper.tsx`, `Header.tsx`, `Sidebar.tsx` (cả hai ở `components/` gốc — admin layout giờ dùng `AdminSidebar.tsx` riêng trong `app/admin/`).
+
+**Đã dọn 2026-06-30:** 18 file `.js` (chữ thường-gạch ngang) trong `components/legacy/`, tổng ~5.475 dòng — xác nhận 0 importer (chỉ tham chiếu chéo lẫn nhau, không liên quan code đang chạy) trước khi xóa: `mock-test-tab.js`, `reading-tab.js`, `vocab-tab.js`, `writing-tab.js`, `listening-tab.js`, `game-tab.js`, `quiz-tab.js`, `typing-game.js`, `matching-game.js`, `auth-modal.js`, `dictionary.js`, `curriculum-tab.js`, `english-writing-tab.js`, `hanzi-components.js`, `onboarding.js`, `progress-tab.js`, `quiz-components.js`, `settings-tab.js`. Đây là bản cũ trùng tên với các component `.tsx` (PascalCase) thật sự đang dùng — trước khi xóa đã từng suýt nhầm bug vào `mock-test-tab.js` thay vì `MockTestTab.tsx` thật, nên cẩn thận khi thấy tên file kiểu chữ-thường-gạch-ngang trong `legacy/` ở tương lai (nếu xuất hiện lại do revert nhầm) — đó luôn là dấu hiệu code chết.
 
 ---
 
@@ -175,8 +181,8 @@ Xem **DATA_CONTRACTS.md** — single source of truth cho format vocab/grammar/di
 |---|---|---|
 | Dashboard / Step Flow | `/dashboard` | ✅ Hoạt động (HSK1 đầy đủ, YLE đầy đủ) |
 | Vocab / Grammar / Dialogue | `/vocab` `/grammar` `/dialogue` | ✅ Hoạt động, lọc theo bài đã học |
-| Games / Practice / Mock Test | `/games` `/practice` `/mock-test` | ✅ Hoạt động |
-| Reading / Listening / Writing | `/reading` `/listening` `/writing` | ⚠️ Chỉ hoạt động cho HSK (component cũ dùng field tiếng Trung); tiếng Anh chưa có bản tương thích. Data "Get Ready" (`ielts-0-4`) đã có sẵn 4 contentType READING/LISTENING/WRITING/SPEAKING nhưng chưa có component generic render |
+| Games / Practice / Mock Test | `/games` `/practice` `/mock-test` | ✅ Hoạt động cho mọi `level` — `/mock-test` đã fix 2026-06-30, hiện đúng tên chương trình thay vì hardcode "Starters" |
+| Reading / Listening / Writing | `/reading` `/listening` `/writing` | ✅ Phần từ vựng hoạt động cho mọi `level` (đã fix label 2026-06-30). ⚠️ Phần "Luyện Đọc Theo Câu" (chấm điểm theo ký tự Hán) chỉ hỗ trợ tiếng Trung — đã ẩn đúng cách cho tiếng Anh thay vì hiện sai, nhưng CHƯA build bản tương đương cho tiếng Anh (cần thuật toán chấm theo từ). Data "Get Ready" (`ielts-0-4`) đã có sẵn 4 contentType READING/LISTENING/WRITING/SPEAKING nhưng chưa có component generic render riêng |
 | Get Ready (`ielts-0-4`, IELTS 0-4.0) | — | ✅ 90 bài đầy đủ THEORY/GRAMMAR/DIALOGUE/READING/LISTENING/WRITING/SPEAKING, chất lượng tốt — nhưng route/component hiển thị riêng CHƯA build, hiện chỉ truy cập được qua `/lessons/[subject]/[program]/[lessonId]` (legacy) |
 | Phonics (`en-epf`) | — | ✅ 27 bài (THEORY+GRAMMAR, dạy IPA/trọng âm/ngữ điệu) — cùng tình trạng route như trên |
 | Intermediate / Advanced (`en-ielts-2/3`) | — | ❌ Placeholder rỗng (0 lessons), `isAvailable: false` — ẩn tới khi có nội dung |

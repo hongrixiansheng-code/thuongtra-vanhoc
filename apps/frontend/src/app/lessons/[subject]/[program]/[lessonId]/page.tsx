@@ -1,4 +1,4 @@
-import { prisma } from 'database';
+import prisma from '@/lib/prisma';
 import LessonStepFlow from '@/components/LessonStepFlow';
 import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import ProgramLocked from '@/components/ProgramLocked';

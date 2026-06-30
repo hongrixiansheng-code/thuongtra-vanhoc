@@ -474,6 +474,8 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
         );
     }
 
+    const isEnglish = !!(vocabData?.[0]?.word && !vocabData?.[0]?.hanzi);
+
     const [subMode, setSubMode] = useState<'vocab' | 'sentence' | null>(null);
     const [filterType, setFilterType] = useState('all');
     const [currentIdx, setCurrentIdx] = useState(0);
@@ -537,7 +539,7 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                     <div className="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mx-auto text-3xl mb-4 shadow-inner">
                         <i className="fa-solid fa-microphone-lines"></i>
                     </div>
-                    <h1 className="text-2xl font-bold text-gray-800 animate-fade-in">Luyện Đọc Tiếng Trung</h1>
+                    <h1 className="text-2xl font-bold text-gray-800 animate-fade-in">{isEnglish ? 'Luyện Đọc Tiếng Anh' : 'Luyện Đọc Tiếng Trung'}</h1>
                     <p className="text-gray-500 mt-1 text-sm font-medium">Chọn một chế độ để bắt đầu luyện phát âm AI</p>
                 </div>
 
@@ -549,22 +551,24 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                         </div>
                         <div>
                             <div className="font-bold text-gray-800">Luyện Đọc Từ Vựng</div>
-                            <div className="text-sm text-gray-500 mt-0.5 font-medium">Luyện phát âm từng từ HSK kèm Pinyin và nghĩa</div>
+                            <div className="text-sm text-gray-500 mt-0.5 font-medium">{isEnglish ? 'Luyện phát âm từng từ kèm phiên âm IPA và nghĩa' : 'Luyện phát âm từng từ HSK kèm Pinyin và nghĩa'}</div>
                         </div>
                         <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-indigo-500 transition-colors"></i>
                     </button>
 
-                    <button onClick={() => setSubMode('sentence')}
-                        className="w-full flex items-center gap-4 p-5 bg-white rounded-3xl border-2 border-gray-100 hover:border-indigo-400 hover:bg-indigo-50/50 transition-all text-left group shadow-sm hover:scale-[1.01]">
-                        <div className="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-indigo-200 transition-colors">
-                            <i className="fa-solid fa-align-left text-xl text-indigo-600"></i>
-                        </div>
-                        <div>
-                            <div className="font-bold text-gray-800">Luyện Đọc Theo Câu</div>
-                            <div className="text-sm text-gray-500 mt-0.5 font-medium">Luyện đọc các câu hội thoại giao tiếp trôi chảy</div>
-                        </div>
-                        <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-indigo-500 transition-colors"></i>
-                    </button>
+                    {!isEnglish && (
+                        <button onClick={() => setSubMode('sentence')}
+                            className="w-full flex items-center gap-4 p-5 bg-white rounded-3xl border-2 border-gray-100 hover:border-indigo-400 hover:bg-indigo-50/50 transition-all text-left group shadow-sm hover:scale-[1.01]">
+                            <div className="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-indigo-200 transition-colors">
+                                <i className="fa-solid fa-align-left text-xl text-indigo-600"></i>
+                            </div>
+                            <div>
+                                <div className="font-bold text-gray-800">Luyện Đọc Theo Câu</div>
+                                <div className="text-sm text-gray-500 mt-0.5 font-medium">Luyện đọc các câu hội thoại giao tiếp trôi chảy</div>
+                            </div>
+                            <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-indigo-500 transition-colors"></i>
+                        </button>
+                    )}
                 </div>
             </div>
         );
@@ -588,7 +592,7 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                                 <i className="fa-solid fa-chevron-left"></i> Chọn chế độ khác
                             </button>
                             <h2 className="text-2xl font-bold text-gray-800">Luyện Đọc Từ Vựng</h2>
-                            <p className="text-gray-500 mt-1 font-medium">Nhìn chữ Hán → Đọc to → AI chấm điểm phát âm</p>
+                            <p className="text-gray-500 mt-1 font-medium">{isEnglish ? 'Nhìn từ → Đọc to → AI chấm điểm phát âm' : 'Nhìn chữ Hán → Đọc to → AI chấm điểm phát âm'}</p>
                         </div>
                         <div className="text-right bg-gray-50 p-4 rounded-2xl border border-gray-100 shadow-inner">
                             <div className="text-3xl font-black text-indigo-600">{filteredWords.length}</div>

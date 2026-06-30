@@ -1,4 +1,4 @@
-import { prisma } from "database";
+import prisma from "@/lib/prisma";
 import DataClient from "./DataClient";
 
 export const dynamic = 'force-dynamic';

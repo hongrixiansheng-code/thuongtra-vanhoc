@@ -1,65 +1,20 @@
-import prisma from '@/lib/prisma';
 export const dynamic = 'force-dynamic';
 import { getLessonsData } from "@/lib/data";
-import { getServerSession } from "next-auth";
-import { authOptions } from "@/lib/auth";
-import { PrismaClient } from "database";
+import { getCompletedLessonIds } from "@/lib/getProgressIds";
 import DashboardClient from "@/components/DashboardClient";
 import ProgramLocked from "@/components/ProgramLocked";
-import { syncExpiredSubscription, isSubscriptionActive } from "@/lib/subscription";
 
 export default async function DashboardPage(props: any) {
   const searchParams = await props.searchParams;
   const levelStr = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
-  const session = await getServerSession(authOptions);
 
-  const [data, user] = await Promise.all([
+  const [data, { completedLessonIds, isAdmin, isPremiumUser, programLocked }] = await Promise.all([
     getLessonsData(levelStr),
-    session?.user?.email
-      ? prisma.user.findUnique({
-          where: { email: session.user.email },
-          include: {
-            progress: {
-              select: { lessonId: true, completed: true, score: true }
-            },
-            enrollments: {
-              where: { class: { isActive: true } },
-              select: { class: { select: { program: { select: { code: true } } } } }
-            }
-          }
-        })
-      : Promise.resolve(null)
+    getCompletedLessonIds(levelStr),
   ]);
 
-  let progressMap: Record<string, boolean> = {};
-  let isPremiumUser = false;
-  let isAdmin = false;
-  let programLocked = false;
-
-  if (user) {
-    user.progress.forEach(p => {
-      progressMap[p.lessonId] = p.completed;
-    });
-
-    const syncedUser = await syncExpiredSubscription(user);
-
-    if (user.role === "ADMIN") {
-      isAdmin = true;
-      isPremiumUser = true;
-    } else if (isSubscriptionActive(syncedUser)) {
-      isPremiumUser = true;
-    }
-
-    const enrolledProgramCodes = user.enrollments.map((e: any) => e.class.program.code);
-    const isEnrolledInThisProgram = enrolledProgramCodes.includes(levelStr);
-    if (!isAdmin && enrolledProgramCodes.length > 0 && !isEnrolledInThisProgram) {
-      programLocked = true;
-    } else if (!isAdmin && isEnrolledInThisProgram) {
-      // Học sinh trong lớp được hưởng quyền Premium cho đúng program của lớp (mở bài isPremium),
-      // nhưng vẫn mở dần theo progressMap thật — không bypass điều kiện điểm số.
-      isPremiumUser = true;
-    }
-  }
+  const progressMap: Record<string, boolean> = {};
+  completedLessonIds.forEach(id => { progressMap[id] = true; });
 
   return (
     <div className="min-h-screen bg-slate-50">
