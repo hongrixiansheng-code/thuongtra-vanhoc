@@ -1,0 +1,975 @@
+[
+  {
+    "title": "Bài 1: Ngoại hình & trang phục",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & NGOẠI HÌNH",
+    "orderIndex": 0,
+    "vocab": [
+      { "hanzi": "外貌", "pinyin": "wàimào", "type": "Danh từ", "type_short": "n", "meaning": "ngoại hình", "example_zh": "他的外貌很特别。", "example_vi": "Ngoại hình của anh ấy rất đặc biệt." },
+      { "hanzi": "穿着", "pinyin": "chuānzhuó", "type": "Danh từ", "type_short": "n", "meaning": "cách ăn mặc, trang phục", "example_zh": "她的穿着很简单。", "example_vi": "Cách ăn mặc của cô ấy rất đơn giản." },
+      { "hanzi": "头发", "pinyin": "tóufa", "type": "Danh từ", "type_short": "n", "meaning": "tóc", "example_zh": "她的头发很长。", "example_vi": "Tóc của cô ấy rất dài." },
+      { "hanzi": "眼睛", "pinyin": "yǎnjing", "type": "Danh từ", "type_short": "n", "meaning": "mắt", "example_zh": "他的眼睛很大。", "example_vi": "Mắt của anh ấy rất to." },
+      { "hanzi": "鼻子", "pinyin": "bízi", "type": "Danh từ", "type_short": "n", "meaning": "mũi", "example_zh": "小狗的鼻子很黑。", "example_vi": "Mũi của con chó nhỏ rất đen." },
+      { "hanzi": "嘴巴", "pinyin": "zuǐba", "type": "Danh từ", "type_short": "n", "meaning": "miệng", "example_zh": "孩子的嘴巴很可爱。", "example_vi": "Miệng của đứa trẻ rất dễ thương." },
+      { "hanzi": "高", "pinyin": "gāo", "type": "Tính từ", "type_short": "adj", "meaning": "cao", "example_zh": "我哥哥很高。", "example_vi": "Anh trai tôi rất cao." },
+      { "hanzi": "矮", "pinyin": "ǎi", "type": "Tính từ", "type_short": "adj", "meaning": "thấp", "example_zh": "这把椅子很矮。", "example_vi": "Cái ghế này rất thấp." },
+      { "hanzi": "胖", "pinyin": "pàng", "type": "Tính từ", "type_short": "adj", "meaning": "béo, mập", "example_zh": "他比以前胖了。", "example_vi": "Anh ấy béo hơn trước rồi." },
+      { "hanzi": "瘦", "pinyin": "shòu", "type": "Tính từ", "type_short": "adj", "meaning": "gầy, ốm", "example_zh": "她最近瘦了一点儿。", "example_vi": "Dạo này cô ấy gầy hơn một chút." }
+    ],
+    "grammar": [
+      {
+        "title": "Động từ trùng lặp AA: nhìn thử, đi dạo",
+        "desc": "Lặp lại một động từ đơn âm (AA) để diễn đạt hành động thử/nhẹ nhàng, chỉ diễn ra trong thời gian ngắn. Khi nói thường chêm thêm '一' giữa hai âm: 看一看.",
+        "formula": [
+          { "text": "Động từ", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "+ (一) +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "Động từ", "classes": "border-blue-200 bg-blue-50 text-blue-700" }
+        ],
+        "practiceList": [
+          { "correct": "你看看这件衣服。", "pinyin": "Nǐ kànkan zhè jiàn yīfu.", "meaning": "Bạn xem thử cái áo này." },
+          { "correct": "我们走走吧。", "pinyin": "Wǒmen zǒuzou ba.", "meaning": "Chúng ta đi dạo một chút nhé." },
+          { "correct": "你想一想这个问题。", "pinyin": "Nǐ xiǎng yi xiǎng zhège wèntí.", "meaning": "Bạn nghĩ thử về vấn đề này." }
+        ]
+      },
+      {
+        "title": "很 + tính từ: mở rộng tính từ ngoại hình",
+        "desc": "'很' (rất) đứng trước tính từ để nhấn mạnh mức độ, dùng phổ biến khi mô tả ngoại hình, không cần 'là' (是) ở giữa.",
+        "formula": [
+          { "text": "Chủ ngữ", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "+ 很 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "Tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "她的头发很长。", "pinyin": "Tā de tóufa hěn cháng.", "meaning": "Tóc của cô ấy rất dài." },
+          { "correct": "他的眼睛很大。", "pinyin": "Tā de yǎnjing hěn dà.", "meaning": "Mắt của anh ấy rất to." },
+          { "correct": "这个孩子很瘦。", "pinyin": "Zhège háizi hěn shòu.", "meaning": "Đứa trẻ này rất gầy." }
+        ]
+      },
+      {
+        "title": "Ôn 是...的: nhấn mạnh",
+        "desc": "Ôn lại cấu trúc '是...的' đã học ở HSK1 để nhấn mạnh thông tin (thời gian, nơi chốn, cách thức) của một sự việc đã xảy ra.",
+        "formula": [
+          { "text": "Chủ ngữ + 是", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "+ thông tin nhấn mạnh +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "的", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "这件衣服是新买的。", "pinyin": "Zhè jiàn yīfu shì xīn mǎi de.", "meaning": "Cái áo này là mới mua." },
+          { "correct": "他是昨天来的。", "pinyin": "Tā shì zuótiān lái de.", "meaning": "Anh ấy là đến hôm qua." },
+          { "correct": "我是一个人去的。", "pinyin": "Wǒ shì yí gè rén qù de.", "meaning": "Tôi là tự đi một mình." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Mô tả ngoại hình bạn mới",
+        "lines": [
+          { "speaker": "A", "zh": "你好！你叫什么名字？", "py": "Nǐ hǎo! Nǐ jiào shénme míngzi?", "vi": "Xin chào! Bạn tên là gì?" },
+          { "speaker": "B", "zh": "我叫小明。你呢？", "py": "Wǒ jiào Xiǎomíng. Nǐ ne?", "vi": "Mình tên Tiểu Minh. Còn bạn?" },
+          { "speaker": "A", "zh": "我叫小美。你的头发很长。", "py": "Wǒ jiào Xiǎoměi. Nǐ de tóufa hěn cháng.", "vi": "Mình tên Tiểu Mỹ. Tóc bạn rất dài." },
+          { "speaker": "B", "zh": "谢谢。你的眼睛很大，很漂亮。", "py": "Xièxie. Nǐ de yǎnjing hěn dà, hěn piàoliang.", "vi": "Cảm ơn. Mắt bạn rất to, rất đẹp." },
+          { "speaker": "A", "zh": "你真高！你有多高？", "py": "Nǐ zhēn gāo! Nǐ yǒu duō gāo?", "vi": "Bạn cao thật! Bạn cao bao nhiêu?" },
+          { "speaker": "B", "zh": "我一米八。你呢？", "py": "Wǒ yī mǐ bā. Nǐ ne?", "vi": "Mình cao một mét tám. Còn bạn?" }
+        ]
+      },
+      {
+        "title": "Nhận xét trang phục",
+        "lines": [
+          { "speaker": "A", "zh": "你今天穿的衣服很好看。", "py": "Nǐ jīntiān chuān de yīfu hěn hǎokàn.", "vi": "Hôm nay con mặc áo đẹp lắm." },
+          { "speaker": "B", "zh": "谢谢妈妈。这是新买的。", "py": "Xièxie māma. Zhè shì xīn mǎi de.", "vi": "Con cảm ơn mẹ. Cái này mới mua." },
+          { "speaker": "A", "zh": "你穿胖了还是瘦了？", "py": "Nǐ chuān pàng le háishi shòu le?", "vi": "Con mặc trông béo hơn hay gầy hơn vậy?" },
+          { "speaker": "B", "zh": "我最近瘦了一点儿。", "py": "Wǒ zuìjìn shòu le yìdiǎnr.", "vi": "Dạo này con gầy hơn một chút." },
+          { "speaker": "A", "zh": "好，要注意身体。", "py": "Hǎo, yào zhùyì shēntǐ.", "vi": "Được rồi, con phải chú ý sức khỏe." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 2: Sinh nhật & thói quen",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & NGOẠI HÌNH",
+    "orderIndex": 1,
+    "vocab": [
+      { "hanzi": "生日", "pinyin": "shēngrì", "type": "Danh từ", "type_short": "n", "meaning": "sinh nhật", "example_zh": "今天是我的生日。", "example_vi": "Hôm nay là sinh nhật của tôi." },
+      { "hanzi": "年龄", "pinyin": "niánlíng", "type": "Danh từ", "type_short": "n", "meaning": "tuổi, độ tuổi", "example_zh": "他不喜欢说自己的年龄。", "example_vi": "Anh ấy không thích nói tuổi của mình." },
+      { "hanzi": "习惯", "pinyin": "xíguàn", "type": "Danh từ", "type_short": "n", "meaning": "thói quen", "example_zh": "早起是好习惯。", "example_vi": "Dậy sớm là thói quen tốt." },
+      { "hanzi": "起床", "pinyin": "qǐchuáng", "type": "Động từ", "type_short": "v", "meaning": "dậy (khỏi giường)", "example_zh": "我每天七点起床。", "example_vi": "Mỗi ngày tôi dậy lúc bảy giờ." },
+      { "hanzi": "睡觉", "pinyin": "shuìjiào", "type": "Động từ", "type_short": "v", "meaning": "ngủ, đi ngủ", "example_zh": "他十一点睡觉。", "example_vi": "Anh ấy đi ngủ lúc mười một giờ." },
+      { "hanzi": "锻炼", "pinyin": "duànliàn", "type": "Động từ", "type_short": "v", "meaning": "tập thể dục, rèn luyện", "example_zh": "她每天锻炼身体。", "example_vi": "Cô ấy tập thể dục mỗi ngày." },
+      { "hanzi": "早上", "pinyin": "zǎoshang", "type": "Danh từ", "type_short": "n", "meaning": "buổi sáng", "example_zh": "早上空气很好。", "example_vi": "Buổi sáng không khí rất tốt." },
+      { "hanzi": "晚上", "pinyin": "wǎnshang", "type": "Danh từ", "type_short": "n", "meaning": "buổi tối", "example_zh": "晚上我们一起看电视。", "example_vi": "Buổi tối chúng tôi cùng xem TV." }
+    ],
+    "grammar": [
+      {
+        "title": "已经/还: đã/vẫn còn",
+        "desc": "'已经' (yǐjīng) diễn tả việc đã xảy ra rồi, thường đi với '了' cuối câu. '还' (hái) diễn tả việc vẫn còn tiếp diễn, chưa kết thúc.",
+        "formula": [
+          { "text": "已经", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "/ 还 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "Động từ/Tính từ (+了)", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我的生日已经过了。", "pinyin": "Wǒ de shēngrì yǐjīng guò le.", "meaning": "Sinh nhật của tôi đã qua rồi." },
+          { "correct": "他还没起床。", "pinyin": "Tā hái méi qǐchuáng.", "meaning": "Anh ấy vẫn chưa dậy." },
+          { "correct": "我还有两个月放假。", "pinyin": "Wǒ hái yǒu liǎng gè yuè fàngjià.", "meaning": "Tôi còn hai tháng nữa thì được nghỉ." }
+        ]
+      },
+      {
+        "title": "每天 + Động từ: diễn đạt thói quen hàng ngày",
+        "desc": "'每天' (měitiān - mỗi ngày) đặt trước động từ để nói về việc lặp lại hàng ngày, một dạng trạng từ chỉ tần suất quen thuộc ở HSK2.",
+        "formula": [
+          { "text": "每天", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "+ (thời gian) +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "Động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我每天七点起床。", "pinyin": "Wǒ měitiān qī diǎn qǐchuáng.", "meaning": "Mỗi ngày tôi dậy lúc bảy giờ." },
+          { "correct": "她每天早上锻炼。", "pinyin": "Tā měitiān zǎoshang duànliàn.", "meaning": "Mỗi buổi sáng cô ấy đều tập thể dục." },
+          { "correct": "我们每天晚上看书。", "pinyin": "Wǒmen měitiān wǎnshang kànshū.", "meaning": "Mỗi tối chúng tôi đều đọc sách." }
+        ]
+      },
+      {
+        "title": "几/什么时候: hỏi thời gian",
+        "desc": "'几' (jǐ) dùng hỏi số lượng nhỏ (giờ, ngày, tháng); '什么时候' (shénme shíhou) dùng hỏi thời điểm chung, không giới hạn đơn vị thời gian.",
+        "formula": [
+          { "text": "几 + đơn vị thời gian", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "/ 什么时候", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "你的生日是几月几号？", "pinyin": "Nǐ de shēngrì shì jǐ yuè jǐ hào?", "meaning": "Sinh nhật bạn là ngày mấy tháng mấy?" },
+          { "correct": "你几点睡觉？", "pinyin": "Nǐ jǐ diǎn shuìjiào?", "meaning": "Mấy giờ bạn đi ngủ?" },
+          { "correct": "你什么时候起床？", "pinyin": "Nǐ shénme shíhou qǐchuáng?", "meaning": "Khi nào bạn dậy?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hỏi thăm sinh nhật",
+        "lines": [
+          { "speaker": "A", "zh": "你的生日是几月几号？", "py": "Nǐ de shēngrì shì jǐ yuè jǐ hào?", "vi": "Sinh nhật bạn là ngày mấy tháng mấy?" },
+          { "speaker": "B", "zh": "我的生日是三月五号。你呢？", "py": "Wǒ de shēngrì shì sān yuè wǔ hào. Nǐ ne?", "vi": "Sinh nhật mình là ngày 5 tháng 3. Còn bạn?" },
+          { "speaker": "A", "zh": "我的生日已经过了，是一月十号。", "py": "Wǒ de shēngrì yǐjīng guò le, shì yī yuè shí hào.", "vi": "Sinh nhật mình đã qua rồi, ngày 10 tháng 1." },
+          { "speaker": "B", "zh": "你今年多大了？", "py": "Nǐ jīnnián duō dà le?", "vi": "Năm nay bạn bao nhiêu tuổi?" },
+          { "speaker": "A", "zh": "我今年二十岁。你还没过生日吧？", "py": "Wǒ jīnnián èrshí suì. Nǐ hái méi guò shēngrì ba?", "vi": "Mình năm nay hai mươi tuổi. Bạn vẫn chưa qua sinh nhật nhỉ?" },
+          { "speaker": "B", "zh": "对，我还有两个月。", "py": "Duì, wǒ hái yǒu liǎng gè yuè.", "vi": "Đúng rồi, mình còn hai tháng nữa." }
+        ]
+      },
+      {
+        "title": "Nói về thói quen hàng ngày",
+        "lines": [
+          { "speaker": "A", "zh": "你每天几点起床？", "py": "Nǐ měitiān jǐ diǎn qǐchuáng?", "vi": "Mỗi ngày bạn dậy lúc mấy giờ?" },
+          { "speaker": "B", "zh": "我每天七点起床。", "py": "Wǒ měitiān qī diǎn qǐchuáng.", "vi": "Mỗi ngày mình dậy lúc bảy giờ." },
+          { "speaker": "A", "zh": "你已经养成好习惯了。几点睡觉？", "py": "Nǐ yǐjīng yǎngchéng hǎo xíguàn le. Jǐ diǎn shuìjiào?", "vi": "Bạn đã có thói quen tốt rồi. Mấy giờ đi ngủ?" },
+          { "speaker": "B", "zh": "我晚上十一点睡觉，还有点儿晚。", "py": "Wǒ wǎnshang shíyī diǎn shuìjiào, hái yǒudiǎnr wǎn.", "vi": "Mình đi ngủ lúc mười một giờ tối, vẫn còn hơi muộn." },
+          { "speaker": "A", "zh": "你每天锻炼吗？", "py": "Nǐ měitiān duànliàn ma?", "vi": "Mỗi ngày bạn có tập thể dục không?" },
+          { "speaker": "B", "zh": "我每天早上锻炼三十分钟。", "py": "Wǒ měitiān zǎoshang duànliàn sānshí fēnzhōng.", "vi": "Mỗi buổi sáng mình tập ba mươi phút." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 3: Gia đình & mối quan hệ",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & NGOẠI HÌNH",
+    "orderIndex": 2,
+    "vocab": [
+      { "hanzi": "丈夫", "pinyin": "zhàngfu", "type": "Danh từ", "type_short": "n", "meaning": "chồng", "example_zh": "我的丈夫是医生。", "example_vi": "Chồng tôi là bác sĩ." },
+      { "hanzi": "妻子", "pinyin": "qīzi", "type": "Danh từ", "type_short": "n", "meaning": "vợ", "example_zh": "他的妻子是老师。", "example_vi": "Vợ anh ấy là giáo viên." },
+      { "hanzi": "儿子", "pinyin": "érzi", "type": "Danh từ", "type_short": "n", "meaning": "con trai", "example_zh": "他们有一个儿子。", "example_vi": "Họ có một con trai." },
+      { "hanzi": "女儿", "pinyin": "nǚ'ér", "type": "Danh từ", "type_short": "n", "meaning": "con gái", "example_zh": "我女儿很可爱。", "example_vi": "Con gái tôi rất dễ thương." },
+      { "hanzi": "父母", "pinyin": "fùmǔ", "type": "Danh từ", "type_short": "n", "meaning": "cha mẹ", "example_zh": "我父母住在乡下。", "example_vi": "Cha mẹ tôi sống ở quê." },
+      { "hanzi": "兄弟", "pinyin": "xiōngdì", "type": "Danh từ", "type_short": "n", "meaning": "anh em (trai)", "example_zh": "我们是兄弟。", "example_vi": "Chúng tôi là anh em." },
+      { "hanzi": "姐妹", "pinyin": "jiěmèi", "type": "Danh từ", "type_short": "n", "meaning": "chị em (gái)", "example_zh": "她们是姐妹。", "example_vi": "Họ là chị em." },
+      { "hanzi": "结婚", "pinyin": "jiéhūn", "type": "Động từ", "type_short": "v", "meaning": "kết hôn", "example_zh": "他们明年结婚。", "example_vi": "Họ kết hôn vào năm sau." },
+      { "hanzi": "离婚", "pinyin": "líhūn", "type": "Động từ", "type_short": "v", "meaning": "li hôn", "example_zh": "他们离婚了。", "example_vi": "Họ đã li hôn." }
+    ],
+    "grammar": [
+      {
+        "title": "Câu so sánh cơ bản: A 是 B + tính từ",
+        "desc": "Đây là một cách diễn đạt mức độ thân quen (chưa phải so sánh chuẩn 比 sẽ học sau), dùng để giới thiệu đặc điểm của người/vật. Trong ngữ cảnh gia đình, thường kết hợp tính từ về tuổi/ngoại hình.",
+        "formula": [
+          { "text": "A + 是 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "danh từ/tính từ mô tả", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我爸爸是医生。", "pinyin": "Wǒ bàba shì yīshēng.", "meaning": "Bố tôi là bác sĩ." },
+          { "correct": "她是我妹妹。", "pinyin": "Tā shì wǒ mèimei.", "meaning": "Cô ấy là em gái tôi." },
+          { "correct": "他是我哥哥，比我大三岁。", "pinyin": "Tā shì wǒ gēge, bǐ wǒ dà sān suì.", "meaning": "Anh ấy là anh trai tôi, hơn tôi ba tuổi." }
+        ]
+      },
+      {
+        "title": "A 跟 B 一样 + tính từ: so sánh bằng",
+        "desc": "'跟...一样' (gēn...yīyàng) dùng để diễn tả hai đối tượng giống nhau ở một đặc điểm nào đó.",
+        "formula": [
+          { "text": "A + 跟 + B +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "一样 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "她跟我一样高。", "pinyin": "Tā gēn wǒ yīyàng gāo.", "meaning": "Cô ấy cao bằng tôi." },
+          { "correct": "我的想法跟你一样。", "pinyin": "Wǒ de xiǎngfǎ gēn nǐ yīyàng.", "meaning": "Suy nghĩ của tôi giống bạn." },
+          { "correct": "这个跟那个一样贵。", "pinyin": "Zhège gēn nàge yīyàng guì.", "meaning": "Cái này đắt bằng cái kia." }
+        ]
+      },
+      {
+        "title": "Ôn từ vựng gia đình HSK1 + từ mới",
+        "desc": "Ôn lại các danh từ chỉ người trong gia đình đã học ở HSK1 (爸爸, 妈妈, 哥哥, 姐姐...) kết hợp với từ mới ở bài này (丈夫, 妻子, 父母) để mở rộng vốn từ mô tả gia đình.",
+        "formula": [
+          { "text": "Danh từ gia đình", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "+ 都 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "tính từ/động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我父母都很健康。", "pinyin": "Wǒ fùmǔ dōu hěn jiànkāng.", "meaning": "Cha mẹ tôi đều rất khỏe mạnh." },
+          { "correct": "我们兄弟都喜欢运动。", "pinyin": "Wǒmen xiōngdì dōu xǐhuan yùndòng.", "meaning": "Anh em chúng tôi đều thích thể thao." },
+          { "correct": "她们姐妹都很漂亮。", "pinyin": "Tāmen jiěmèi dōu hěn piàoliang.", "meaning": "Các chị em của cô ấy đều rất đẹp." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Giới thiệu gia đình",
+        "lines": [
+          { "speaker": "A", "zh": "你家有几口人？", "py": "Nǐ jiā yǒu jǐ kǒu rén?", "vi": "Nhà bạn có mấy người?" },
+          { "speaker": "B", "zh": "我家有四口人。父母，我和妹妹。", "py": "Wǒ jiā yǒu sì kǒu rén. Fùmǔ, wǒ hé mèimei.", "vi": "Nhà mình có bốn người. Bố mẹ, mình và em gái." },
+          { "speaker": "A", "zh": "你妹妹多大了？", "py": "Nǐ mèimei duō dà le?", "vi": "Em gái bạn bao nhiêu tuổi rồi?" },
+          { "speaker": "B", "zh": "她今年十五岁。她比我矮一点儿。", "py": "Tā jīnnián shíwǔ suì. Tā bǐ wǒ ǎi yìdiǎnr.", "vi": "Năm nay em ấy mười lăm tuổi. Em ấy thấp hơn mình một chút." },
+          { "speaker": "A", "zh": "你父母做什么工作？", "py": "Nǐ fùmǔ zuò shénme gōngzuò?", "vi": "Bố mẹ bạn làm nghề gì?" },
+          { "speaker": "B", "zh": "我爸爸是医生，我妈妈是老师。", "py": "Wǒ bàba shì yīshēng, wǒ māma shì lǎoshī.", "vi": "Bố mình là bác sĩ, mẹ mình là giáo viên." }
+        ]
+      },
+      {
+        "title": "Kết hôn",
+        "lines": [
+          { "speaker": "A", "zh": "你结婚了吗？", "py": "Nǐ jiéhūn le ma?", "vi": "Bạn kết hôn chưa?" },
+          { "speaker": "B", "zh": "还没有，我还年轻。", "py": "Hái méiyǒu, wǒ hái niánqīng.", "vi": "Chưa, mình vẫn còn trẻ." },
+          { "speaker": "A", "zh": "你有女朋友吗？", "py": "Nǐ yǒu nǚpéngyou ma?", "vi": "Bạn có bạn gái chưa?" },
+          { "speaker": "B", "zh": "有，她跟我一样高。", "py": "Yǒu, tā gēn wǒ yīyàng gāo.", "vi": "Có, cô ấy cao bằng mình." },
+          { "speaker": "A", "zh": "很好！她是哪里人？", "py": "Hěn hǎo! Tā shì nǎlǐ rén?", "vi": "Tốt lắm! Cô ấy người ở đâu?" },
+          { "speaker": "B", "zh": "她是上海人，比我大一岁。", "py": "Tā shì Shànghǎi rén, bǐ wǒ dà yí suì.", "vi": "Cô ấy người Thượng Hải, hơn mình một tuổi." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 4: Thời tiết",
+    "theme": "CHƯƠNG 2: MÔI TRƯỜNG & THỜI TIẾT",
+    "orderIndex": 3,
+    "vocab": [
+      { "hanzi": "天气", "pinyin": "tiānqì", "type": "Danh từ", "type_short": "n", "meaning": "thời tiết", "example_zh": "今天天气很好。", "example_vi": "Hôm nay thời tiết rất đẹp." },
+      { "hanzi": "温度", "pinyin": "wēndù", "type": "Danh từ", "type_short": "n", "meaning": "nhiệt độ", "example_zh": "今天的温度是二十度。", "example_vi": "Nhiệt độ hôm nay là hai mươi độ." },
+      { "hanzi": "晴天", "pinyin": "qíngtiān", "type": "Danh từ", "type_short": "n", "meaning": "trời nắng", "example_zh": "明天是晴天。", "example_vi": "Ngày mai trời nắng." },
+      { "hanzi": "阴天", "pinyin": "yīntiān", "type": "Danh từ", "type_short": "n", "meaning": "trời âm u", "example_zh": "今天是阴天。", "example_vi": "Hôm nay trời âm u." },
+      { "hanzi": "刮风", "pinyin": "guāfēng", "type": "Động từ", "type_short": "v", "meaning": "có gió, gió thổi", "example_zh": "外面在刮风。", "example_vi": "Bên ngoài đang có gió." },
+      { "hanzi": "下雪", "pinyin": "xià xuě", "type": "Động từ", "type_short": "v", "meaning": "có tuyết rơi", "example_zh": "北京冬天下雪。", "example_vi": "Mùa đông Bắc Kinh có tuyết rơi." },
+      { "hanzi": "冷", "pinyin": "lěng", "type": "Tính từ", "type_short": "adj", "meaning": "lạnh", "example_zh": "今天很冷。", "example_vi": "Hôm nay rất lạnh." },
+      { "hanzi": "热", "pinyin": "rè", "type": "Tính từ", "type_short": "adj", "meaning": "nóng", "example_zh": "夏天很热。", "example_vi": "Mùa hè rất nóng." },
+      { "hanzi": "凉快", "pinyin": "liángkuai", "type": "Tính từ", "type_short": "adj", "meaning": "mát mẻ", "example_zh": "秋天很凉快。", "example_vi": "Mùa thu rất mát mẻ." },
+      { "hanzi": "舒服", "pinyin": "shūfu", "type": "Tính từ", "type_short": "adj", "meaning": "dễ chịu, thoải mái", "example_zh": "今天的天气很舒服。", "example_vi": "Thời tiết hôm nay rất dễ chịu." }
+    ],
+    "grammar": [
+      {
+        "title": "快要/就要...了: sắp xảy ra",
+        "desc": "'快要...了' hoặc '就要...了' diễn tả một việc sắp sửa xảy ra trong tương lai gần.",
+        "formula": [
+          { "text": "快要/就要 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ/tính từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "了", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "快要下雨了。", "pinyin": "Kuàiyào xiàyǔ le.", "meaning": "Sắp mưa rồi." },
+          { "correct": "我们就要到了。", "pinyin": "Wǒmen jiùyào dào le.", "meaning": "Chúng ta sắp đến rồi." },
+          { "correct": "电影快要开始了。", "pinyin": "Diànyǐng kuàiyào kāishǐ le.", "meaning": "Phim sắp bắt đầu rồi." }
+        ]
+      },
+      {
+        "title": "感觉 + tính từ/động từ: cảm nhận thời tiết",
+        "desc": "'感觉' (gǎnjué) dùng để diễn đạt cảm nhận chủ quan của người nói, thường kết hợp với tính từ chỉ cảm giác cơ thể.",
+        "formula": [
+          { "text": "(Chủ ngữ) + 感觉 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "tính từ/động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我感觉有点儿冷。", "pinyin": "Wǒ gǎnjué yǒudiǎnr lěng.", "meaning": "Tôi cảm thấy hơi lạnh." },
+          { "correct": "她感觉很舒服。", "pinyin": "Tā gǎnjué hěn shūfu.", "meaning": "Cô ấy cảm thấy rất thoải mái." },
+          { "correct": "我感觉今天比昨天热。", "pinyin": "Wǒ gǎnjué jīntiān bǐ zuótiān rè.", "meaning": "Tôi cảm thấy hôm nay nóng hơn hôm qua." }
+        ]
+      },
+      {
+        "title": "Ôn 比 mở rộng: so sánh thời tiết",
+        "desc": "Ôn lại cấu trúc so sánh '比' đã học, áp dụng vào ngữ cảnh so sánh thời tiết giữa hai ngày/hai nơi.",
+        "formula": [
+          { "text": "A + 比 + B +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "今天比昨天冷吗？", "pinyin": "Jīntiān bǐ zuótiān lěng ma?", "meaning": "Hôm nay có lạnh hơn hôm qua không?" },
+          { "correct": "今天比昨天冷一点儿。", "pinyin": "Jīntiān bǐ zuótiān lěng yìdiǎnr.", "meaning": "Hôm nay lạnh hơn hôm qua một chút." },
+          { "correct": "北京比河内冷得多。", "pinyin": "Běijīng bǐ Hénèi lěng de duō.", "meaning": "Bắc Kinh lạnh hơn Hà Nội nhiều." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Nói về thời tiết hôm nay",
+        "lines": [
+          { "speaker": "A", "zh": "今天天气怎么样？", "py": "Jīntiān tiānqì zěnmeyàng?", "vi": "Hôm nay thời tiết thế nào?" },
+          { "speaker": "B", "zh": "今天是阴天，快要下雨了。", "py": "Jīntiān shì yīntiān, kuàiyào xiàyǔ le.", "vi": "Hôm nay trời âm u, sắp mưa rồi." },
+          { "speaker": "A", "zh": "那我要带伞了。温度多少度？", "py": "Nà wǒ yào dài sǎn le. Wēndù duōshǎo dù?", "vi": "Vậy mình phải mang ô rồi. Nhiệt độ bao nhiêu độ?" },
+          { "speaker": "B", "zh": "大概二十度，感觉有点儿凉快。", "py": "Dàgài èrshí dù, gǎnjué yǒudiǎnr liángkuai.", "vi": "Khoảng hai mươi độ, cảm giác hơi mát mẻ." },
+          { "speaker": "A", "zh": "今天比昨天冷吗？", "py": "Jīntiān bǐ zuótiān lěng ma?", "vi": "Hôm nay có lạnh hơn hôm qua không?" },
+          { "speaker": "B", "zh": "今天比昨天冷一点儿。", "py": "Jīntiān bǐ zuótiān lěng yìdiǎnr.", "vi": "Hôm nay lạnh hơn hôm qua một chút." }
+        ]
+      },
+      {
+        "title": "Kế hoạch đi chơi vì thời tiết",
+        "lines": [
+          { "speaker": "A", "zh": "明天天气好吗？我想去公园。", "py": "Míngtiān tiānqì hǎo ma? Wǒ xiǎng qù gōngyuán.", "vi": "Ngày mai thời tiết có đẹp không? Mình muốn đi công viên." },
+          { "speaker": "B", "zh": "明天是晴天，不下雨。", "py": "Míngtiān shì qíngtiān, bú xiàyǔ.", "vi": "Ngày mai trời nắng, không mưa." },
+          { "speaker": "A", "zh": "太好了！会刮风吗？", "py": "Tài hǎo le! Huì guāfēng ma?", "vi": "Tuyệt quá! Có gió không?" },
+          { "speaker": "B", "zh": "不会，明天很舒服。", "py": "Bú huì, míngtiān hěn shūfu.", "vi": "Không có, ngày mai rất dễ chịu." },
+          { "speaker": "A", "zh": "好，我们一起去吧。", "py": "Hǎo, wǒmen yìqǐ qù ba.", "vi": "Tốt rồi, chúng mình cùng đi nhé." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 5: Nơi chốn & môi trường xung quanh",
+    "theme": "CHƯƠNG 2: MÔI TRƯỜNG & THỜI TIẾT",
+    "orderIndex": 4,
+    "vocab": [
+      { "hanzi": "附近", "pinyin": "fùjìn", "type": "Danh từ", "type_short": "n", "meaning": "gần đây, lân cận", "example_zh": "附近有超市。", "example_vi": "Gần đây có siêu thị." },
+      { "hanzi": "旁边", "pinyin": "pángbiān", "type": "Danh từ", "type_short": "n", "meaning": "bên cạnh", "example_zh": "学校旁边有公园。", "example_vi": "Bên cạnh trường có công viên." },
+      { "hanzi": "左边", "pinyin": "zuǒbiān", "type": "Danh từ", "type_short": "n", "meaning": "bên trái", "example_zh": "图书馆在左边。", "example_vi": "Thư viện ở bên trái." },
+      { "hanzi": "右边", "pinyin": "yòubiān", "type": "Danh từ", "type_short": "n", "meaning": "bên phải", "example_zh": "医院在右边。", "example_vi": "Bệnh viện ở bên phải." },
+      { "hanzi": "中间", "pinyin": "zhōngjiān", "type": "Danh từ", "type_short": "n", "meaning": "ở giữa", "example_zh": "公园在中间。", "example_vi": "Công viên ở giữa." },
+      { "hanzi": "公园", "pinyin": "gōngyuán", "type": "Danh từ", "type_short": "n", "meaning": "công viên", "example_zh": "我们去公园散步。", "example_vi": "Chúng tôi đi công viên dạo bộ." },
+      { "hanzi": "超市", "pinyin": "chāoshì", "type": "Danh từ", "type_short": "n", "meaning": "siêu thị", "example_zh": "我去超市买东西。", "example_vi": "Tôi đi siêu thị mua đồ." },
+      { "hanzi": "图书馆", "pinyin": "túshūguǎn", "type": "Danh từ", "type_short": "n", "meaning": "thư viện", "example_zh": "图书馆很安静。", "example_vi": "Thư viện rất yên tĩnh." }
+    ],
+    "grammar": [
+      {
+        "title": "Phương vị từ 面: 里面/外面/上面/下面",
+        "desc": "Hậu tố '面' (miàn) gắn sau các từ chỉ hướng (里/外/上/下) để tạo thành danh từ chỉ vị trí, đứng sau danh từ chính để mô tả vị trí cụ thể.",
+        "formula": [
+          { "text": "Danh từ +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "里/外/上/下 + 面", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "公园的里面有图书馆。", "pinyin": "Gōngyuán de lǐmiàn yǒu túshūguǎn.", "meaning": "Bên trong công viên có thư viện." },
+          { "correct": "书在桌子上面。", "pinyin": "Shū zài zhuōzi shàngmiàn.", "meaning": "Sách ở trên bàn." },
+          { "correct": "猫在床下面。", "pinyin": "Māo zài chuáng xiàmiàn.", "meaning": "Con mèo ở dưới giường." }
+        ]
+      },
+      {
+        "title": "在 + vị trí + động từ: chỉ nơi diễn ra hành động",
+        "desc": "Giới từ '在' đứng trước cụm từ chỉ nơi chốn để nói rõ hành động diễn ra ở đâu, đặt trước động từ chính.",
+        "formula": [
+          { "text": "Chủ ngữ + 在 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "nơi chốn +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我在图书馆看书。", "pinyin": "Wǒ zài túshūguǎn kànshū.", "meaning": "Tôi đọc sách ở thư viện." },
+          { "correct": "他在公园锻炼。", "pinyin": "Tā zài gōngyuán duànliàn.", "meaning": "Anh ấy tập thể dục ở công viên." },
+          { "correct": "我们在超市买东西。", "pinyin": "Wǒmen zài chāoshì mǎi dōngxi.", "meaning": "Chúng tôi mua đồ ở siêu thị." }
+        ]
+      },
+      {
+        "title": "Giới thiệu 往 + hướng: đi về phía",
+        "desc": "'往' (wǎng) đứng trước từ chỉ hướng (左/右/前/后) để diễn tả hướng di chuyển, thường dùng khi chỉ đường.",
+        "formula": [
+          { "text": "往 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "左/右 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "走", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "往左走。", "pinyin": "Wǎng zuǒ zǒu.", "meaning": "Đi về phía bên trái." },
+          { "correct": "往右边走就是图书馆。", "pinyin": "Wǎng yòubiān zǒu jiùshì túshūguǎn.", "meaning": "Đi về phía bên phải là thư viện." },
+          { "correct": "往前走五分钟。", "pinyin": "Wǎng qián zǒu wǔ fēnzhōng.", "meaning": "Đi thẳng về phía trước năm phút." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hỏi đường",
+        "lines": [
+          { "speaker": "A", "zh": "请问，超市在哪里？", "py": "Qǐngwèn, chāoshì zài nǎlǐ?", "vi": "Xin hỏi, siêu thị ở đâu ạ?" },
+          { "speaker": "B", "zh": "超市在图书馆旁边。", "py": "Chāoshì zài túshūguǎn pángbiān.", "vi": "Siêu thị ở cạnh thư viện." },
+          { "speaker": "A", "zh": "图书馆在哪里？", "py": "Túshūguǎn zài nǎlǐ?", "vi": "Thư viện ở đâu ạ?" },
+          { "speaker": "B", "zh": "往左边走，公园的里面就是图书馆。", "py": "Wǎng zuǒbiān zǒu, gōngyuán de lǐmiàn jiùshì túshūguǎn.", "vi": "Đi về phía bên trái, bên trong công viên chính là thư viện." },
+          { "speaker": "A", "zh": "附近还有什么？", "py": "Fùjìn hái yǒu shénme?", "vi": "Gần đây còn có gì nữa không?" },
+          { "speaker": "B", "zh": "附近还有一个医院，在超市的右边。", "py": "Fùjìn hái yǒu yí gè yīyuàn, zài chāoshì de yòubiān.", "vi": "Gần đây còn có một bệnh viện, ở bên phải siêu thị." }
+        ]
+      },
+      {
+        "title": "Mô tả vị trí đồ vật",
+        "lines": [
+          { "speaker": "A", "zh": "你看到我的手机了吗？", "py": "Nǐ kàndào wǒ de shǒujī le ma?", "vi": "Con có thấy điện thoại của mẹ không?" },
+          { "speaker": "B", "zh": "手机在桌子上面。", "py": "Shǒujī zài zhuōzi shàngmiàn.", "vi": "Điện thoại ở trên bàn ạ." },
+          { "speaker": "A", "zh": "桌子上面没有。里面呢？", "py": "Zhuōzi shàngmiàn méiyǒu. Lǐmiàn ne?", "vi": "Trên bàn không có. Bên trong thì sao?" },
+          { "speaker": "B", "zh": "我去找找看。在抽屉里面！", "py": "Wǒ qù zhǎozhao kàn. Zài chōutì lǐmiàn!", "vi": "Con đi tìm xem. Ở trong ngăn kéo!" },
+          { "speaker": "A", "zh": "找到了，谢谢你。", "py": "Zhǎodào le, xièxie nǐ.", "vi": "Tìm thấy rồi, cảm ơn con." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 6: Số lượng & mô tả đồ vật",
+    "theme": "CHƯƠNG 2: MÔI TRƯỜNG & THỜI TIẾT",
+    "orderIndex": 5,
+    "vocab": [
+      { "hanzi": "颜色", "pinyin": "yánsè", "type": "Danh từ", "type_short": "n", "meaning": "màu sắc", "example_zh": "你喜欢什么颜色？", "example_vi": "Bạn thích màu gì?" },
+      { "hanzi": "形状", "pinyin": "xíngzhuàng", "type": "Danh từ", "type_short": "n", "meaning": "hình dạng", "example_zh": "这个形状很特别。", "example_vi": "Hình dạng này rất đặc biệt." },
+      { "hanzi": "大小", "pinyin": "dàxiǎo", "type": "Danh từ", "type_short": "n", "meaning": "kích cỡ, to nhỏ", "example_zh": "这两个大小一样。", "example_vi": "Hai cái này kích cỡ giống nhau." },
+      { "hanzi": "重量", "pinyin": "zhòngliàng", "type": "Danh từ", "type_short": "n", "meaning": "khối lượng, trọng lượng", "example_zh": "这个箱子的重量是十公斤。", "example_vi": "Trọng lượng cái hộp này là mười kg." },
+      { "hanzi": "贵", "pinyin": "guì", "type": "Tính từ", "type_short": "adj", "meaning": "đắt", "example_zh": "这件衣服很贵。", "example_vi": "Cái áo này rất đắt." },
+      { "hanzi": "便宜", "pinyin": "piányi", "type": "Tính từ", "type_short": "adj", "meaning": "rẻ", "example_zh": "这双鞋很便宜。", "example_vi": "Đôi giày này rất rẻ." },
+      { "hanzi": "一样", "pinyin": "yīyàng", "type": "Tính từ", "type_short": "adj", "meaning": "giống nhau", "example_zh": "我们的想法一样。", "example_vi": "Suy nghĩ của chúng tôi giống nhau." },
+      { "hanzi": "不同", "pinyin": "bùtóng", "type": "Tính từ", "type_short": "adj", "meaning": "không giống, khác nhau", "example_zh": "这两件衣服颜色不同。", "example_vi": "Hai cái áo này màu sắc khác nhau." }
+    ],
+    "grammar": [
+      {
+        "title": "A 有/没有 B (这么/那么) + tính từ",
+        "desc": "Cấu trúc so sánh phủ định/khẳng định dùng '有/没有' để so sánh mức độ giữa hai đối tượng, kèm '这么/那么' nhấn mạnh mức độ.",
+        "formula": [
+          { "text": "A + 有/没有 + B +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "(这么/那么) + tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "红色的没有蓝色的那么贵。", "pinyin": "Hóngsè de méiyǒu lánsè de nàme guì.", "meaning": "Cái màu đỏ không đắt bằng cái màu xanh." },
+          { "correct": "这个箱子有那个重吗？", "pinyin": "Zhège xiāngzi yǒu nàge zhòng ma?", "meaning": "Cái hộp này có nặng bằng cái kia không?" },
+          { "correct": "他没有你这么高。", "pinyin": "Tā méiyǒu nǐ zhème gāo.", "meaning": "Anh ấy không cao bằng bạn." }
+        ]
+      },
+      {
+        "title": "Lượng từ mở rộng: 条/位/间/名",
+        "desc": "Ngoài 个/本/张 đã học ở HSK1, HSK2 bổ sung các lượng từ chuyên dụng: 条 (vật dài), 位 (người, lịch sự), 间 (phòng), 名 (người, trang trọng).",
+        "formula": [
+          { "text": "Số từ +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "条/位/间/名 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我想买一条裤子。", "pinyin": "Wǒ xiǎng mǎi yì tiáo kùzi.", "meaning": "Tôi muốn mua một cái quần." },
+          { "correct": "这位老师很好。", "pinyin": "Zhè wèi lǎoshī hěn hǎo.", "meaning": "Vị giáo viên này rất tốt." },
+          { "correct": "教室里有三十名学生。", "pinyin": "Jiàoshì lǐ yǒu sānshí míng xuésheng.", "meaning": "Trong lớp có ba mươi học sinh." }
+        ]
+      },
+      {
+        "title": "Ôn 这/那/哪 + lượng từ + danh từ",
+        "desc": "Ôn lại cách dùng đại từ chỉ định '这/那/哪' kết hợp lượng từ để chỉ rõ đối tượng đang được so sánh hoặc mô tả.",
+        "formula": [
+          { "text": "这/那/哪 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "lượng từ +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "这条裤子的颜色不同。", "pinyin": "Zhè tiáo kùzi de yánsè bùtóng.", "meaning": "Màu của cái quần này khác nhau." },
+          { "correct": "那件衣服大小一样。", "pinyin": "Nà jiàn yīfu dàxiǎo yīyàng.", "meaning": "Kích cỡ cái áo đó giống nhau." },
+          { "correct": "哪个形状更好看？", "pinyin": "Nǎge xíngzhuàng gèng hǎokàn?", "meaning": "Hình dạng nào đẹp hơn?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "So sánh đồ vật",
+        "lines": [
+          { "speaker": "A", "zh": "这两件衣服，您喜欢哪件？", "py": "Zhè liǎng jiàn yīfu, nín xǐhuan nǎ jiàn?", "vi": "Hai cái áo này, bạn thích cái nào?" },
+          { "speaker": "B", "zh": "这件红色的和那件蓝色的有什么不同？", "py": "Zhè jiàn hóngsè de hé nà jiàn lánsè de yǒu shénme bùtóng?", "vi": "Cái màu đỏ này và cái màu xanh kia có gì khác nhau?" },
+          { "speaker": "A", "zh": "红色的没有蓝色的那么贵。", "py": "Hóngsè de méiyǒu lánsè de nàme guì.", "vi": "Cái màu đỏ không đắt bằng cái màu xanh." },
+          { "speaker": "B", "zh": "大小一样吗？", "py": "Dàxiǎo yīyàng ma?", "vi": "Kích cỡ có giống nhau không?" },
+          { "speaker": "A", "zh": "大小一样，颜色不同。", "py": "Dàxiǎo yīyàng, yánsè bùtóng.", "vi": "Kích cỡ giống nhau, màu sắc khác nhau." },
+          { "speaker": "B", "zh": "好，我买红色的那条。", "py": "Hǎo, wǒ mǎi hóngsè de nà tiáo.", "vi": "Được rồi, tôi mua cái màu đỏ đó." }
+        ]
+      },
+      {
+        "title": "Đếm và mô tả",
+        "lines": [
+          { "speaker": "A", "zh": "教室里有多少位学生？", "py": "Jiàoshì lǐ yǒu duōshǎo wèi xuésheng?", "vi": "Trong lớp học có bao nhiêu học sinh?" },
+          { "speaker": "B", "zh": "教室里有三十名学生。", "py": "Jiàoshì lǐ yǒu sānshí míng xuésheng.", "vi": "Trong lớp học có ba mươi học sinh." },
+          { "speaker": "A", "zh": "男生和女生一样多吗？", "py": "Nánshēng hé nǚshēng yīyàng duō ma?", "vi": "Học sinh nam và học sinh nữ có bằng nhau không?" },
+          { "speaker": "B", "zh": "不一样，女生比男生多一点儿。", "py": "Bù yīyàng, nǚshēng bǐ nánshēng duō yìdiǎnr.", "vi": "Không bằng nhau, học sinh nữ nhiều hơn học sinh nam một chút." },
+          { "speaker": "A", "zh": "好的，谢谢你。", "py": "Hǎo de, xièxie nǐ.", "vi": "Được rồi, cảm ơn em." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 7: Ăn uống hàng ngày",
+    "theme": "CHƯƠNG 3: ĂN UỐNG & SỨC KHỎE CƠ BẢN",
+    "orderIndex": 6,
+    "vocab": [
+      { "hanzi": "饮食", "pinyin": "yǐnshí", "type": "Danh từ", "type_short": "n", "meaning": "ăn uống", "example_zh": "健康的饮食很重要。", "example_vi": "Ăn uống lành mạnh rất quan trọng." },
+      { "hanzi": "饿", "pinyin": "è", "type": "Tính từ", "type_short": "adj", "meaning": "đói", "example_zh": "我现在很饿。", "example_vi": "Bây giờ tôi rất đói." },
+      { "hanzi": "渴", "pinyin": "kě", "type": "Tính từ", "type_short": "adj", "meaning": "khát", "example_zh": "我很渴，想喝水。", "example_vi": "Tôi khát, muốn uống nước." },
+      { "hanzi": "饱", "pinyin": "bǎo", "type": "Tính từ", "type_short": "adj", "meaning": "no", "example_zh": "我吃饱了。", "example_vi": "Tôi ăn no rồi." },
+      { "hanzi": "味道", "pinyin": "wèidao", "type": "Danh từ", "type_short": "n", "meaning": "mùi vị, hương vị", "example_zh": "这个菜的味道很好。", "example_vi": "Mùi vị món này rất ngon." },
+      { "hanzi": "好吃", "pinyin": "hǎochī", "type": "Tính từ", "type_short": "adj", "meaning": "ngon", "example_zh": "这家的饺子很好吃。", "example_vi": "Bánh chẻo của nhà này rất ngon." },
+      { "hanzi": "难吃", "pinyin": "nánchī", "type": "Tính từ", "type_short": "adj", "meaning": "khó ăn, không ngon", "example_zh": "这个菜很难吃。", "example_vi": "Món này rất khó ăn." },
+      { "hanzi": "点菜", "pinyin": "diǎncài", "type": "Động từ", "type_short": "v", "meaning": "gọi món", "example_zh": "我们点菜吧。", "example_vi": "Chúng ta gọi món thôi." },
+      { "hanzi": "菜单", "pinyin": "càidān", "type": "Danh từ", "type_short": "n", "meaning": "thực đơn, menu", "example_zh": "请给我菜单。", "example_vi": "Xin cho tôi thực đơn." }
+    ],
+    "grammar": [
+      {
+        "title": "Động từ trùng lặp A一A/ABAB",
+        "desc": "Mở rộng động từ trùng lặp ở dạng 'A一A' (một âm tiết) và 'ABAB' (động từ hai âm tiết), cùng diễn đạt hành động thử/nhẹ nhàng như AA đã học ở bài 1.",
+        "formula": [
+          { "text": "Động từ + 一 + Động từ", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "/ ABAB", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "你尝一尝这个菜。", "pinyin": "Nǐ cháng yi cháng zhège cài.", "meaning": "Bạn nếm thử món này." },
+          { "correct": "我们休息休息吧。", "pinyin": "Wǒmen xiūxi xiūxi ba.", "meaning": "Chúng ta nghỉ ngơi một chút nhé." },
+          { "correct": "你介绍介绍这家餐厅。", "pinyin": "Nǐ jièshào jièshào zhè jiā cāntīng.", "meaning": "Bạn giới thiệu một chút về nhà hàng này." }
+        ]
+      },
+      {
+        "title": "Động từ + tân ngữ kép thông dụng",
+        "desc": "Một số động từ tiếng Trung mang sẵn tân ngữ cố định tạo thành cụm động từ-tân ngữ quen thuộc (离合词), không thể tách rời khi sử dụng trong câu cơ bản.",
+        "formula": [
+          { "text": "Động từ + tân ngữ", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "(跑步/游泳/帮忙)", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "我每天跑步。", "pinyin": "Wǒ měitiān pǎobù.", "meaning": "Tôi chạy bộ mỗi ngày." },
+          { "correct": "他喜欢游泳。", "pinyin": "Tā xǐhuan yóuyǒng.", "meaning": "Anh ấy thích bơi lội." },
+          { "correct": "你能帮忙吗？", "pinyin": "Nǐ néng bāngmáng ma?", "meaning": "Bạn có thể giúp một tay không?" }
+        ]
+      },
+      {
+        "title": "Ôn 喜欢/想 + động từ/danh từ",
+        "desc": "Ôn lại cách dùng '喜欢' (thích, sở thích lâu dài) và '想' (muốn, ý định tức thời) đã học ở HSK1, mở rộng thêm ví dụ trong ngữ cảnh ăn uống.",
+        "formula": [
+          { "text": "Chủ ngữ + 喜欢/想 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "động từ/danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我喜欢吃饺子。", "pinyin": "Wǒ xǐhuan chī jiǎozi.", "meaning": "Tôi thích ăn bánh chẻo." },
+          { "correct": "我想喝一杯茶。", "pinyin": "Wǒ xiǎng hē yì bēi chá.", "meaning": "Tôi muốn uống một tách trà." },
+          { "correct": "你想吃什么菜？", "pinyin": "Nǐ xiǎng chī shénme cài?", "meaning": "Bạn muốn ăn món gì?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hỏi về sở thích ăn uống",
+        "lines": [
+          { "speaker": "A", "zh": "你喜欢吃什么？", "py": "Nǐ xǐhuan chī shénme?", "vi": "Bạn thích ăn gì?" },
+          { "speaker": "B", "zh": "我喜欢吃饺子，味道很好。", "py": "Wǒ xǐhuan chī jiǎozi, wèidao hěn hǎo.", "vi": "Mình thích ăn bánh chẻo, vị rất ngon." },
+          { "speaker": "A", "zh": "你觉得饿了吗？我们去吃饭吧。", "py": "Nǐ juéde è le ma? Wǒmen qù chīfàn ba.", "vi": "Bạn cảm thấy đói chưa? Chúng mình đi ăn cơm nhé." },
+          { "speaker": "B", "zh": "好，我想先尝一尝那家餐厅。", "py": "Hǎo, wǒ xiǎng xiān cháng yi cháng nà jiā cāntīng.", "vi": "Được! Mình muốn thử ăn nhà hàng đó trước." },
+          { "speaker": "A", "zh": "那家好吃吗？", "py": "Nà jiā hǎochī ma?", "vi": "Nhà hàng đó ngon không?" },
+          { "speaker": "B", "zh": "听说很好吃，不难吃的。", "py": "Tīngshuō hěn hǎochī, bù nánchī de.", "vi": "Nghe nói rất ngon, không dở đâu." }
+        ]
+      },
+      {
+        "title": "Đặt đồ ăn",
+        "lines": [
+          { "speaker": "A", "zh": "您好，请问要点什么？", "py": "Nínhǎo, qǐngwèn yào diǎn shénme?", "vi": "Xin chào, bạn muốn gọi gì?" },
+          { "speaker": "B", "zh": "我想吃饱，来两碗米饭。", "py": "Wǒ xiǎng chī bǎo, lái liǎng wǎn mǐfàn.", "vi": "Tôi muốn ăn no, cho hai bát cơm." },
+          { "speaker": "A", "zh": "好的，还要什么？渴了吗？", "py": "Hǎo de, hái yào shénme? Kě le ma?", "vi": "Được rồi, còn muốn gì nữa không? Có khát không?" },
+          { "speaker": "B", "zh": "来一杯茶吧。不要太烫的。", "py": "Lái yì bēi chá ba. Bú yào tài tàng de.", "vi": "Cho một tách trà. Đừng quá nóng." },
+          { "speaker": "A", "zh": "好的，请稍等。", "py": "Hǎo de, qǐng shāo děng.", "vi": "Được rồi, xin chờ một chút." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 8: Nhà hàng & đặt đồ",
+    "theme": "CHƯƠNG 3: ĂN UỐNG & SỨC KHỎE CƠ BẢN",
+    "orderIndex": 7,
+    "vocab": [
+      { "hanzi": "餐厅", "pinyin": "cāntīng", "type": "Danh từ", "type_short": "n", "meaning": "nhà hàng", "example_zh": "这家餐厅很有名。", "example_vi": "Nhà hàng này rất nổi tiếng." },
+      { "hanzi": "服务员", "pinyin": "fúwùyuán", "type": "Danh từ", "type_short": "n", "meaning": "nhân viên phục vụ", "example_zh": "服务员，请给我菜单。", "example_vi": "Phục vụ ơi, cho tôi thực đơn." },
+      { "hanzi": "上菜", "pinyin": "shàngcài", "type": "Động từ", "type_short": "v", "meaning": "dọn/mang món lên", "example_zh": "马上为您上菜。", "example_vi": "Sẽ mang món lên cho bạn ngay." },
+      { "hanzi": "买单", "pinyin": "mǎidān", "type": "Động từ", "type_short": "v", "meaning": "thanh toán, tính tiền", "example_zh": "我们买单吧。", "example_vi": "Chúng ta thanh toán thôi." },
+      { "hanzi": "打包", "pinyin": "dǎbāo", "type": "Động từ", "type_short": "v", "meaning": "gói mang về", "example_zh": "可以打包吗？", "example_vi": "Có thể gói mang về không?" },
+      { "hanzi": "份", "pinyin": "fèn", "type": "Lượng từ", "type_short": "m", "meaning": "phần (đồ ăn)", "example_zh": "我要一份炒饭。", "example_vi": "Tôi muốn một phần cơm chiên." },
+      { "hanzi": "碗", "pinyin": "wǎn", "type": "Lượng từ", "type_short": "m", "meaning": "bát, tô", "example_zh": "一碗面条。", "example_vi": "Một tô mì." }
+    ],
+    "grammar": [
+      {
+        "title": "Bổ ngữ kết quả hoàn thành: 完/好",
+        "desc": "'完' và '好' đứng sau động từ để diễn tả hành động đã hoàn thành/xong, đây là kiểu bổ ngữ kết quả đầu tiên học sinh tiếp xúc ở HSK2.",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "完/好 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "(了)", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "我做完作业了。", "pinyin": "Wǒ zuò wán zuòyè le.", "meaning": "Tôi làm xong bài tập rồi." },
+          { "correct": "你吃完了吗？", "pinyin": "Nǐ chī wán le ma?", "meaning": "Bạn ăn xong chưa?" },
+          { "correct": "菜已经做好了。", "pinyin": "Cài yǐjīng zuò hǎo le.", "meaning": "Món ăn đã làm xong rồi." }
+        ]
+      },
+      {
+        "title": "V+完+了 vs V+好+了: phân biệt",
+        "desc": "'完' nhấn mạnh việc kết thúc hành động (không còn nữa), '好' nhấn mạnh kết quả đạt được trạng thái hoàn chỉnh/sẵn sàng. Hai bổ ngữ này không thể thay thế nhau hoàn toàn.",
+        "formula": [
+          { "text": "动词 + 完了", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "≠ 动词 + 好了", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "水喝完了，请再给我一杯。", "pinyin": "Shuǐ hē wán le, qǐng zài gěi wǒ yì bēi.", "meaning": "Nước uống hết rồi, làm ơn cho tôi thêm một cốc." },
+          { "correct": "饭做好了，可以吃了。", "pinyin": "Fàn zuò hǎo le, kěyǐ chī le.", "meaning": "Cơm đã nấu xong, có thể ăn được rồi." },
+          { "correct": "这个故事我还没看完。", "pinyin": "Zhège gùshi wǒ hái méi kàn wán.", "meaning": "Câu chuyện này tôi vẫn chưa đọc xong." }
+        ]
+      },
+      {
+        "title": "Ôn số đếm + lượng từ + 菜/碗/份",
+        "desc": "Ôn cách kết hợp số đếm với lượng từ chuyên dụng cho đồ ăn (碗, 份, 杯) khi gọi món ở nhà hàng.",
+        "formula": [
+          { "text": "Số từ +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "碗/份/杯 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我要一份炒饭。", "pinyin": "Wǒ yào yì fèn chǎofàn.", "meaning": "Tôi muốn một phần cơm chiên." },
+          { "correct": "请给我们两碗面条。", "pinyin": "Qǐng gěi wǒmen liǎng wǎn miàntiáo.", "meaning": "Xin cho chúng tôi hai tô mì." },
+          { "correct": "我喝了三杯茶。", "pinyin": "Wǒ hē le sān bēi chá.", "meaning": "Tôi đã uống ba tách trà." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Đặt bàn và gọi món",
+        "lines": [
+          { "speaker": "A", "zh": "你好，菜单在哪里？", "py": "Nǐhǎo, càidān zài nǎlǐ?", "vi": "Xin chào, thực đơn ở đâu ạ?" },
+          { "speaker": "B", "zh": "在您桌子上面。您想点什么？", "py": "Zài nín zhuōzi shàngmiàn. Nín xiǎng diǎn shénme?", "vi": "Ở trên bàn của bạn. Bạn muốn gọi gì?" },
+          { "speaker": "A", "zh": "这个菜做完了以后多长时间？", "py": "Zhège cài zuò wán le yǐhòu duō cháng shíjiān?", "vi": "Món này làm xong mất bao lâu?" },
+          { "speaker": "B", "zh": "大概十五分钟。", "py": "Dàgài shíwǔ fēnzhōng.", "vi": "Khoảng mười lăm phút." },
+          { "speaker": "A", "zh": "好，我先点这个。吃完再点别的。", "py": "Hǎo, wǒ xiān diǎn zhège. Chī wán zài diǎn biéde.", "vi": "Được, trước mình gọi món này. Ăn xong rồi gọi thêm." },
+          { "speaker": "B", "zh": "好的，我马上上菜。", "py": "Hǎo de, wǒ mǎshàng shàngcài.", "vi": "Được rồi, tôi sẽ phục vụ ngay." }
+        ]
+      },
+      {
+        "title": "Thanh toán và đặt đồ mang về",
+        "lines": [
+          { "speaker": "A", "zh": "喝完了，可以买单吗？", "py": "Hē wán le, kěyǐ mǎidān ma?", "vi": "Uống xong rồi, có thể tính tiền không?" },
+          { "speaker": "B", "zh": "好的，一共八十块。", "py": "Hǎo de, yígòng bāshí kuài.", "vi": "Được rồi, tất cả tám mươi tệ." },
+          { "speaker": "A", "zh": "还有，这个没吃完，可以打包吗？", "py": "Hái yǒu, zhège méi chī wán, kěyǐ dǎbāo ma?", "vi": "Còn nữa, cái này ăn chưa hết, có thể gói mang về không?" },
+          { "speaker": "B", "zh": "当然可以，我给您打包。", "py": "Dāngrán kěyǐ, wǒ gěi nín dǎbāo.", "vi": "Tất nhiên được, tôi gói cho bạn." },
+          { "speaker": "A", "zh": "谢谢，下次还来。", "py": "Xièxie, xià cì hái lái.", "vi": "Cảm ơn, lần sau còn đến nữa." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 9: Bệnh tật & đi khám",
+    "theme": "CHƯƠNG 3: ĂN UỐNG & SỨC KHỎE CƠ BẢN",
+    "orderIndex": 8,
+    "vocab": [
+      { "hanzi": "生病", "pinyin": "shēngbìng", "type": "Động từ", "type_short": "v", "meaning": "bị bệnh", "example_zh": "他生病了。", "example_vi": "Anh ấy bị bệnh rồi." },
+      { "hanzi": "头疼", "pinyin": "tóuténg", "type": "Động từ", "type_short": "v", "meaning": "đau đầu", "example_zh": "我头疼。", "example_vi": "Tôi đau đầu." },
+      { "hanzi": "发烧", "pinyin": "fāshāo", "type": "Động từ", "type_short": "v", "meaning": "bị sốt", "example_zh": "孩子发烧了。", "example_vi": "Đứa trẻ bị sốt rồi." },
+      { "hanzi": "咳嗽", "pinyin": "késou", "type": "Động từ", "type_short": "v", "meaning": "ho", "example_zh": "我咳嗽得很厉害。", "example_vi": "Tôi ho rất nặng." },
+      { "hanzi": "肚子疼", "pinyin": "dùzi téng", "type": "Động từ", "type_short": "v", "meaning": "đau bụng", "example_zh": "我肚子疼。", "example_vi": "Tôi đau bụng." },
+      { "hanzi": "医院", "pinyin": "yīyuàn", "type": "Danh từ", "type_short": "n", "meaning": "bệnh viện", "example_zh": "我要去医院。", "example_vi": "Tôi phải đi bệnh viện." },
+      { "hanzi": "医生", "pinyin": "yīshēng", "type": "Danh từ", "type_short": "n", "meaning": "bác sĩ", "example_zh": "医生让我多休息。", "example_vi": "Bác sĩ bảo tôi nghỉ ngơi nhiều." },
+      { "hanzi": "药", "pinyin": "yào", "type": "Danh từ", "type_short": "n", "meaning": "thuốc", "example_zh": "你吃药了吗？", "example_vi": "Bạn uống thuốc chưa?" },
+      { "hanzi": "打针", "pinyin": "dǎzhēn", "type": "Động từ", "type_short": "v", "meaning": "tiêm", "example_zh": "我不喜欢打针。", "example_vi": "Tôi không thích tiêm." }
+    ],
+    "grammar": [
+      {
+        "title": "Bổ ngữ kết quả 懂/错/对",
+        "desc": "Tiếp nối bổ ngữ kết quả ở bài 7, nhóm '懂/错/对' diễn tả kết quả về nhận thức hoặc tính đúng/sai của hành động.",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "懂/错/对", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "医生说的话，我听懂了。", "pinyin": "Yīshēng shuō de huà, wǒ tīng dǒng le.", "meaning": "Lời bác sĩ nói, tôi đã hiểu rồi." },
+          { "correct": "你看错了，这不是药。", "pinyin": "Nǐ kàn cuò le, zhè bú shì yào.", "meaning": "Bạn nhìn nhầm rồi, đây không phải thuốc." },
+          { "correct": "你做对了。", "pinyin": "Nǐ zuò duì le.", "meaning": "Bạn làm đúng rồi." }
+        ]
+      },
+      {
+        "title": "Câu cầu khiến với 让",
+        "desc": "'让' (ràng) đứng giữa hai chủ thể, diễn tả ý 'để cho/bảo ai làm gì', thường dùng trong ngữ cảnh bác sĩ dặn bệnh nhân.",
+        "formula": [
+          { "text": "Người A + 让 + Người B +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "医生让我多喝水。", "pinyin": "Yīshēng ràng wǒ duō hē shuǐ.", "meaning": "Bác sĩ bảo tôi uống nhiều nước." },
+          { "correct": "妈妈让我早点睡觉。", "pinyin": "Māma ràng wǒ zǎo diǎn shuìjiào.", "meaning": "Mẹ bảo tôi ngủ sớm hơn." },
+          { "correct": "老师让我们多练习。", "pinyin": "Lǎoshī ràng wǒmen duō liànxí.", "meaning": "Giáo viên bảo chúng tôi luyện tập nhiều hơn." }
+        ]
+      },
+      {
+        "title": "Ôn 不舒服/感觉 + tính từ",
+        "desc": "Ôn lại cách diễn đạt cảm giác cơ thể không khỏe, kết hợp '不舒服' và '感觉' đã học để mô tả tình trạng bệnh.",
+        "formula": [
+          { "text": "Chủ ngữ + 感觉/觉得 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "不舒服/tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我感觉不舒服。", "pinyin": "Wǒ gǎnjué bù shūfu.", "meaning": "Tôi cảm thấy không khỏe." },
+          { "correct": "他觉得很累。", "pinyin": "Tā juéde hěn lèi.", "meaning": "Anh ấy cảm thấy rất mệt." },
+          { "correct": "你今天感觉怎么样？", "pinyin": "Nǐ jīntiān gǎnjué zěnmeyàng?", "meaning": "Hôm nay bạn cảm thấy thế nào?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Khám bệnh",
+        "lines": [
+          { "speaker": "A", "zh": "你哪里不舒服？", "py": "Nǐ nǎlǐ bù shūfu?", "vi": "Bạn không thoải mái ở đâu?" },
+          { "speaker": "B", "zh": "我头疼，还有点儿发烧。", "py": "Wǒ tóuténg, hái yǒudiǎnr fāshāo.", "vi": "Tôi đau đầu, còn hơi sốt nữa." },
+          { "speaker": "A", "zh": "多长时间了？", "py": "Duō cháng shíjiān le?", "vi": "Bao lâu rồi?" },
+          { "speaker": "B", "zh": "从昨天晚上开始，我已经难受一天了。", "py": "Cóng zuótiān wǎnshang kāishǐ, wǒ yǐjīng nánshòu yì tiān le.", "vi": "Từ tối hôm qua, tôi đã khó chịu được một ngày rồi." },
+          { "speaker": "A", "zh": "医生让你多喝水，好好休息。", "py": "Yīshēng ràng nǐ duō hē shuǐ, hǎohǎo xiūxi.", "vi": "Bác sĩ để bạn uống nhiều nước, nghỉ ngơi cho tốt." },
+          { "speaker": "B", "zh": "好的，我听懂了。谢谢医生。", "py": "Hǎo de, wǒ tīng dǒng le. Xièxie yīshēng.", "vi": "Được rồi, tôi hiểu rồi. Cảm ơn bác sĩ." }
+        ]
+      },
+      {
+        "title": "Mua thuốc",
+        "lines": [
+          { "speaker": "A", "zh": "您好，您需要什么药？", "py": "Nínhǎo, nín xūyào shénme yào?", "vi": "Xin chào, bạn cần thuốc gì?" },
+          { "speaker": "B", "zh": "我肚子疼，有没有药？", "py": "Wǒ dùzi téng, yǒu méiyǒu yào?", "vi": "Tôi đau bụng, có thuốc không?" },
+          { "speaker": "A", "zh": "有。这个药吃对了就好了。一天吃三次。", "py": "Yǒu. Zhège yào chī duì le jiù hǎo le. Yì tiān chī sān cì.", "vi": "Có. Uống thuốc này đúng cách thì sẽ khỏi. Uống ba lần một ngày." },
+          { "speaker": "B", "zh": "吃完饭再吃吗？", "py": "Chī wán fàn zài chī ma?", "vi": "Ăn cơm xong rồi mới uống phải không?" },
+          { "speaker": "A", "zh": "对，吃完饭以后吃。", "py": "Duì, chī wán fàn yǐhòu chī.", "vi": "Đúng rồi, sau khi ăn cơm xong thì uống." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 10: Phương tiện giao thông",
+    "theme": "CHƯƠNG 4: ĐI LẠI & DI CHUYỂN",
+    "orderIndex": 9,
+    "vocab": [
+      { "hanzi": "交通", "pinyin": "jiāotōng", "type": "Danh từ", "type_short": "n", "meaning": "giao thông", "example_zh": "这里的交通很方便。", "example_vi": "Giao thông ở đây rất thuận tiện." },
+      { "hanzi": "地铁", "pinyin": "dìtiě", "type": "Danh từ", "type_short": "n", "meaning": "tàu điện ngầm", "example_zh": "我坐地铁上班。", "example_vi": "Tôi đi tàu điện ngầm đi làm." },
+      { "hanzi": "公共汽车", "pinyin": "gōnggòng qìchē", "type": "Danh từ", "type_short": "n", "meaning": "xe buýt", "example_zh": "公共汽车来了。", "example_vi": "Xe buýt đến rồi." },
+      { "hanzi": "出租车", "pinyin": "chūzūchē", "type": "Danh từ", "type_short": "n", "meaning": "taxi", "example_zh": "我们坐出租车去吧。", "example_vi": "Chúng ta đi taxi đi." },
+      { "hanzi": "骑", "pinyin": "qí", "type": "Động từ", "type_short": "v", "meaning": "cưỡi, đi (xe đạp/xe máy)", "example_zh": "他骑自行车上学。", "example_vi": "Anh ấy đi xe đạp đi học." },
+      { "hanzi": "坐", "pinyin": "zuò", "type": "Động từ", "type_short": "v", "meaning": "ngồi, đi (bằng phương tiện)", "example_zh": "我坐地铁来的。", "example_vi": "Tôi đến bằng tàu điện ngầm." },
+      { "hanzi": "开车", "pinyin": "kāichē", "type": "Động từ", "type_short": "v", "meaning": "lái xe", "example_zh": "他每天开车上班。", "example_vi": "Anh ấy lái xe đi làm mỗi ngày." },
+      { "hanzi": "堵车", "pinyin": "dǔchē", "type": "Động từ", "type_short": "v", "meaning": "tắc đường", "example_zh": "今天堵车很厉害。", "example_vi": "Hôm nay tắc đường rất nặng." },
+      { "hanzi": "路", "pinyin": "lù", "type": "Danh từ", "type_short": "n", "meaning": "đường", "example_zh": "这条路很长。", "example_vi": "Con đường này rất dài." }
+    ],
+    "grammar": [
+      {
+        "title": "Giới từ 从: từ (nơi xuất phát)",
+        "desc": "'从' (cóng) đứng trước danh từ chỉ nơi chốn/thời gian để diễn tả điểm xuất phát của hành động di chuyển.",
+        "formula": [
+          { "text": "从 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "nơi chốn +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "đến + nơi khác", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我从家到学校。", "pinyin": "Wǒ cóng jiā dào xuéxiào.", "meaning": "Tôi đi từ nhà đến trường." },
+          { "correct": "他从北京来。", "pinyin": "Tā cóng Běijīng lái.", "meaning": "Anh ấy đến từ Bắc Kinh." },
+          { "correct": "从这里到超市很近。", "pinyin": "Cóng zhèlǐ dào chāoshì hěn jìn.", "meaning": "Từ đây đến siêu thị rất gần." }
+        ]
+      },
+      {
+        "title": "Giới từ 往: hướng về phía",
+        "desc": "'往' (wǎng) đứng trước từ chỉ hướng để diễn tả hướng di chuyển, đã giới thiệu cơ bản ở bài 5, nay mở rộng kết hợp với phương tiện giao thông.",
+        "formula": [
+          { "text": "往 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "hướng +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "走/开", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "往左走，往右走。", "pinyin": "Wǎng zuǒ zǒu, wǎng yòu zǒu.", "meaning": "Đi về bên trái, đi về bên phải." },
+          { "correct": "公共汽车往南开。", "pinyin": "Gōnggòng qìchē wǎng nán kāi.", "meaning": "Xe buýt chạy về phía nam." },
+          { "correct": "你往前走就能看到地铁站。", "pinyin": "Nǐ wǎng qián zǒu jiù néng kàndào dìtiě zhàn.", "meaning": "Bạn đi thẳng về phía trước sẽ thấy ga tàu điện ngầm." }
+        ]
+      },
+      {
+        "title": "Ôn 多长时间/多远: hỏi thời gian, khoảng cách",
+        "desc": "Ôn lại cách hỏi '多长时间' (bao lâu) và mở rộng '多远' (bao xa) khi nói về việc di chuyển bằng phương tiện giao thông.",
+        "formula": [
+          { "text": "动词 + 多长时间/多远", "classes": "border-pink-200 bg-pink-50 text-pink-700" }
+        ],
+        "practiceList": [
+          { "correct": "坐地铁要多长时间？", "pinyin": "Zuò dìtiě yào duō cháng shíjiān?", "meaning": "Đi tàu điện ngầm mất bao lâu?" },
+          { "correct": "这里到机场有多远？", "pinyin": "Zhèlǐ dào jīchǎng yǒu duō yuǎn?", "meaning": "Từ đây đến sân bay bao xa?" },
+          { "correct": "开车要二十分钟。", "pinyin": "Kāichē yào èrshí fēnzhōng.", "meaning": "Lái xe mất hai mươi phút." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Hỏi cách đi",
+        "lines": [
+          { "speaker": "A", "zh": "从这里到火车站怎么去？", "py": "Cóng zhèlǐ dào huǒchēzhàn zěnme qù?", "vi": "Từ đây đến ga tàu hỏa đi thế nào?" },
+          { "speaker": "B", "zh": "你可以坐地铁，从这站到那里。", "py": "Nǐ kěyǐ zuò dìtiě, cóng zhè zhàn dào nàlǐ.", "vi": "Bạn có thể đi tàu điện ngầm, từ ga này đến đó." },
+          { "speaker": "A", "zh": "坐地铁要多长时间？", "py": "Zuò dìtiě yào duō cháng shíjiān?", "vi": "Đi tàu điện ngầm mất bao lâu?" },
+          { "speaker": "B", "zh": "大概二十分钟。也可以骑自行车，但比较慢。", "py": "Dàgài èrshí fēnzhōng. Yě kěyǐ qí zìxíngchē, dàn bǐjiào màn.", "vi": "Khoảng hai mươi phút. Cũng có thể đi xe đạp, nhưng chậm hơn." },
+          { "speaker": "A", "zh": "好，我坐地铁去。谢谢你。", "py": "Hǎo, wǒ zuò dìtiě qù. Xièxie nǐ.", "vi": "Được rồi, mình đi tàu điện ngầm. Cảm ơn bạn." }
+        ]
+      },
+      {
+        "title": "Đặt xe",
+        "lines": [
+          { "speaker": "A", "zh": "师傅，去北京路，堵车吗？", "py": "Shīfu, qù Běijīng lù, dǔchē ma?", "vi": "Bác tài ơi, đi đường Bắc Kinh có tắc đường không?" },
+          { "speaker": "B", "zh": "现在堵车，往左边那条路走比较快。", "py": "Xiànzài dǔchē, wǎng zuǒbiān nà tiáo lù zǒu bǐjiào kuài.", "vi": "Hiện tại đang tắc, đi con đường bên trái kia nhanh hơn." },
+          { "speaker": "A", "zh": "那大概几点能到？", "py": "Nà dàgài jǐ diǎn néng dào?", "vi": "Vậy khoảng mấy giờ có thể đến?" },
+          { "speaker": "B", "zh": "从这里走，大概三十分钟。", "py": "Cóng zhèlǐ zǒu, dàgài sānshí fēnzhōng.", "vi": "Từ đây đi, khoảng ba mươi phút." },
+          { "speaker": "A", "zh": "好，麻烦你了。", "py": "Hǎo, máfan nǐ le.", "vi": "Được rồi, phiền bác rồi." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 11: Hỏi đường & chỉ đường",
+    "theme": "CHƯƠNG 4: ĐI LẠI & DI CHUYỂN",
+    "orderIndex": 10,
+    "vocab": [
+      { "hanzi": "路口", "pinyin": "lùkǒu", "type": "Danh từ", "type_short": "n", "meaning": "ngã đường, giao lộ", "example_zh": "前面就是路口。", "example_vi": "Phía trước là giao lộ." },
+      { "hanzi": "红绿灯", "pinyin": "hónglǜdēng", "type": "Danh từ", "type_short": "n", "meaning": "đèn giao thông", "example_zh": "到红绿灯往右走。", "example_vi": "Đến đèn giao thông rẽ phải." },
+      { "hanzi": "十字路口", "pinyin": "shízì lùkǒu", "type": "Danh từ", "type_short": "n", "meaning": "ngã tư", "example_zh": "医院在十字路口旁边。", "example_vi": "Bệnh viện ở cạnh ngã tư." },
+      { "hanzi": "直走", "pinyin": "zhí zǒu", "type": "Động từ", "type_short": "v", "meaning": "đi thẳng", "example_zh": "你一直直走就到了。", "example_vi": "Bạn đi thẳng là đến." },
+      { "hanzi": "拐弯", "pinyin": "guǎiwān", "type": "Động từ", "type_short": "v", "meaning": "rẽ, quẹo", "example_zh": "在这里拐弯。", "example_vi": "Ở đây rẽ." },
+      { "hanzi": "地方", "pinyin": "dìfang", "type": "Danh từ", "type_short": "n", "meaning": "nơi, chỗ", "example_zh": "这个地方很漂亮。", "example_vi": "Nơi này rất đẹp." },
+      { "hanzi": "远", "pinyin": "yuǎn", "type": "Tính từ", "type_short": "adj", "meaning": "xa", "example_zh": "学校离我家很远。", "example_vi": "Trường học cách nhà tôi rất xa." },
+      { "hanzi": "近", "pinyin": "jìn", "type": "Tính từ", "type_short": "adj", "meaning": "gần", "example_zh": "超市很近。", "example_vi": "Siêu thị rất gần." },
+      { "hanzi": "到达", "pinyin": "dàodá", "type": "Động từ", "type_short": "v", "meaning": "đến, đến nơi", "example_zh": "我们快到达了。", "example_vi": "Chúng tôi sắp đến nơi rồi." }
+    ],
+    "grammar": [
+      {
+        "title": "Bổ ngữ xu hướng đơn giản: V+来/去",
+        "desc": "'来/去' đứng sau động từ chỉ hướng để diễn tả hướng di chuyển so với người nói: 进来 (vào đây), 出去 (ra ngoài), 回来 (về đây), 上去 (lên đó).",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "进/出/回/上/下 +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "来/去", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "请进来。", "pinyin": "Qǐng jìnlái.", "meaning": "Mời vào." },
+          { "correct": "他出去了。", "pinyin": "Tā chūqù le.", "meaning": "Anh ấy đi ra ngoài rồi." },
+          { "correct": "你什么时候回来？", "pinyin": "Nǐ shénme shíhou huílái?", "meaning": "Khi nào bạn về?" }
+        ]
+      },
+      {
+        "title": "走 + thời gian + 就到了: chỉ quãng đường/thời gian",
+        "desc": "Cấu trúc dùng để nói khoảng thời gian đi bộ/di chuyển cần để đến một nơi, '就' nhấn mạnh tính nhanh/dễ dàng.",
+        "formula": [
+          { "text": "走 +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "thời gian +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "就到了", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "走五分钟就到了。", "pinyin": "Zǒu wǔ fēnzhōng jiù dào le.", "meaning": "Đi bộ năm phút là đến." },
+          { "correct": "走十分钟就到学校了。", "pinyin": "Zǒu shí fēnzhōng jiù dào xuéxiào le.", "meaning": "Đi bộ mười phút là đến trường." },
+          { "correct": "再走一点儿就到了。", "pinyin": "Zài zǒu yìdiǎnr jiù dào le.", "meaning": "Đi thêm một chút nữa là đến." }
+        ]
+      },
+      {
+        "title": "Ôn 在哪儿/怎么走: hỏi đường",
+        "desc": "Ôn lại cách hỏi vị trí '在哪儿' và cách hỏi đường đi '怎么走' đã học, kết hợp với từ vựng chỉ đường mới trong bài.",
+        "formula": [
+          { "text": "Địa điểm + 在哪儿？", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "/ 怎么走？", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "医院在哪儿？", "pinyin": "Yīyuàn zài nǎr?", "meaning": "Bệnh viện ở đâu?" },
+          { "correct": "去图书馆怎么走？", "pinyin": "Qù túshūguǎn zěnme zǒu?", "meaning": "Đi đến thư viện thế nào?" },
+          { "correct": "到十字路口怎么拐弯？", "pinyin": "Dào shízì lùkǒu zěnme guǎiwān?", "meaning": "Đến ngã tư thì rẽ thế nào?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Chỉ đường chi tiết",
+        "lines": [
+          { "speaker": "A", "zh": "请问，去医院怎么走？", "py": "Qǐngwèn, qù yīyuàn zěnme zǒu?", "vi": "Xin hỏi, đi đến bệnh viện thì đi thế nào?" },
+          { "speaker": "B", "zh": "从这里直走，到红绿灯往右边走进来。", "py": "Cóng zhèlǐ zhí zǒu, dào hónglǜdēng wǎng yòubiān zǒu jìnlái.", "vi": "Từ đây đi thẳng, đến đèn giao thông rẽ vào phía bên phải." },
+          { "speaker": "A", "zh": "红绿灯在哪里？远吗？", "py": "Hónglǜdēng zài nǎlǐ? Yuǎn ma?", "vi": "Đèn giao thông ở đâu? Có xa không?" },
+          { "speaker": "B", "zh": "不远，走五分钟就到了。医院在路口旁边。", "py": "Bù yuǎn, zǒu wǔ fēnzhōng jiù dào le. Yīyuàn zài lùkǒu pángbiān.", "vi": "Không xa, đi năm phút là đến rồi. Bệnh viện ở cạnh ngã tư." },
+          { "speaker": "A", "zh": "明白了，谢谢您。", "py": "Míngbái le, xièxie nín.", "vi": "Hiểu rồi, cảm ơn bạn." }
+        ]
+      },
+      {
+        "title": "Hỏi khoảng cách",
+        "lines": [
+          { "speaker": "A", "zh": "请问，这个地方到车站近吗？", "py": "Qǐngwèn, zhège dìfang dào chēzhàn jìn ma?", "vi": "Xin hỏi, từ nơi này đến bến xe có gần không?" },
+          { "speaker": "B", "zh": "不太近，有点儿远。你要到达那里吗？", "py": "Bú tài jìn, yǒudiǎnr yuǎn. Nǐ yào dàodá nàlǐ ma?", "vi": "Không gần lắm, hơi xa. Bạn muốn đến đó không?" },
+          { "speaker": "A", "zh": "是的，我要坐车回家。", "py": "Shì de, wǒ yào zuò chē huí jiā.", "vi": "Vâng, tôi muốn bắt xe về nhà." },
+          { "speaker": "B", "zh": "你可以出去坐出租车，快一点儿。", "py": "Nǐ kěyǐ chūqù zuò chūzūchē, kuài yìdiǎnr.", "vi": "Bạn có thể ra ngoài bắt taxi, nhanh hơn một chút." },
+          { "speaker": "A", "zh": "好的，我知道了。谢谢您！", "py": "Hǎo de, wǒ zhīdào le. Xièxie nín!", "vi": "Được rồi, tôi biết rồi. Cảm ơn bạn!" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 12: Sắp xếp lịch trình",
+    "theme": "CHƯƠNG 4: ĐI LẠI & DI CHUYỂN",
+    "orderIndex": 11,
+    "vocab": [
+      { "hanzi": "计划", "pinyin": "jìhuà", "type": "Danh từ", "type_short": "n", "meaning": "kế hoạch", "example_zh": "我有一个计划。", "example_vi": "Tôi có một kế hoạch." },
+      { "hanzi": "打算", "pinyin": "dǎsuàn", "type": "Động từ", "type_short": "v", "meaning": "dự định, định", "example_zh": "你打算做什么？", "example_vi": "Bạn định làm gì?" },
+      { "hanzi": "安排", "pinyin": "ānpái", "type": "Động từ", "type_short": "v", "meaning": "sắp xếp", "example_zh": "我安排好了。", "example_vi": "Tôi đã sắp xếp xong." },
+      { "hanzi": "准备", "pinyin": "zhǔnbèi", "type": "Động từ", "type_short": "v", "meaning": "chuẩn bị", "example_zh": "我们准备出发了。", "example_vi": "Chúng tôi chuẩn bị khởi hành rồi." },
+      { "hanzi": "出发", "pinyin": "chūfā", "type": "Động từ", "type_short": "v", "meaning": "khởi hành", "example_zh": "我们八点出发。", "example_vi": "Chúng tôi khởi hành lúc tám giờ." },
+      { "hanzi": "票", "pinyin": "piào", "type": "Danh từ", "type_short": "n", "meaning": "vé", "example_zh": "我已经买了票。", "example_vi": "Tôi đã mua vé rồi." },
+      { "hanzi": "订", "pinyin": "dìng", "type": "Động từ", "type_short": "v", "meaning": "đặt (trước)", "example_zh": "我订了酒店。", "example_vi": "Tôi đã đặt khách sạn." }
+    ],
+    "grammar": [
+      {
+        "title": "Liên động từ (serial verb)",
+        "desc": "Hai động từ liên tiếp dùng để diễn tả mục đích của hành động trước (động từ 1 thường là di chuyển, động từ 2 là mục đích), không có liên từ nối ở giữa — đặc trưng cú pháp tiếng Trung.",
+        "formula": [
+          { "text": "Chủ ngữ + Động từ 1 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "Động từ 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我们坐地铁去学校。", "pinyin": "Wǒmen zuò dìtiě qù xuéxiào.", "meaning": "Chúng tôi đi tàu điện ngầm đến trường." },
+          { "correct": "他去医院看病。", "pinyin": "Tā qù yīyuàn kànbìng.", "meaning": "Anh ấy đi bệnh viện khám bệnh." },
+          { "correct": "我去超市买东西。", "pinyin": "Wǒ qù chāoshì mǎi dōngxi.", "meaning": "Tôi đi siêu thị mua đồ." }
+        ]
+      },
+      {
+        "title": "Trạng từ thời gian 正在/正",
+        "desc": "'正在/正' đứng trước động từ để diễn tả hành động đang diễn ra tại thời điểm nói, tương tự '在' nhưng nhấn mạnh hơn về tính tức thời.",
+        "formula": [
+          { "text": "正在/正 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "(呢)", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "他正在开会呢。", "pinyin": "Tā zhèngzài kāihuì ne.", "meaning": "Anh ấy đang họp." },
+          { "correct": "我们正准备出发。", "pinyin": "Wǒmen zhèng zhǔnbèi chūfā.", "meaning": "Chúng tôi đang chuẩn bị khởi hành." },
+          { "correct": "她正在订票呢。", "pinyin": "Tā zhèngzài dìng piào ne.", "meaning": "Cô ấy đang đặt vé." }
+        ]
+      },
+      {
+        "title": "Ôn 已经/打算 + kế hoạch",
+        "desc": "Ôn lại '已经' (đã rồi) và kết hợp với '打算' (dự định) để diễn đạt việc lên kế hoạch hoặc đã hoàn thành một phần kế hoạch.",
+        "formula": [
+          { "text": "已经 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "动词 + 了", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "我已经订好酒店了。", "pinyin": "Wǒ yǐjīng dìng hǎo jiǔdiàn le.", "meaning": "Tôi đã đặt khách sạn xong rồi." },
+          { "correct": "你打算几号出发？", "pinyin": "Nǐ dǎsuàn jǐ hào chūfā?", "meaning": "Bạn dự định khởi hành ngày mấy?" },
+          { "correct": "我打算下周去旅游。", "pinyin": "Wǒ dǎsuàn xià zhōu qù lǚyóu.", "meaning": "Tôi dự định tuần sau đi du lịch." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Lên kế hoạch đi chơi",
+        "lines": [
+          { "speaker": "A", "zh": "你周末有什么打算？", "py": "Nǐ zhōumò yǒu shénme dǎsuàn?", "vi": "Cuối tuần bạn có kế hoạch gì?" },
+          { "speaker": "B", "zh": "我打算去上海旅游，已经订好票了。", "py": "Wǒ dǎsuàn qù Shànghǎi lǚyóu, yǐjīng dìng hǎo piào le.", "vi": "Mình dự định đi du lịch Thượng Hải, đã đặt vé xong rồi." },
+          { "speaker": "A", "zh": "太好了！你准备几号出发？", "py": "Tài hǎo le! Nǐ zhǔnbèi jǐ hào chūfā?", "vi": "Tuyệt quá! Bạn dự định ngày mấy khởi hành?" },
+          { "speaker": "B", "zh": "我准备五号出发，八号回来。", "py": "Wǒ zhǔnbèi wǔ hào chūfā, bā hào huílái.", "vi": "Mình dự định ngày mùng năm khởi hành, ngày mùng tám quay về." },
+          { "speaker": "A", "zh": "你正在订酒店吗？", "py": "Nǐ zhèngzài dìng jiǔdiàn ma?", "vi": "Bạn đang đặt khách sạn không?" },
+          { "speaker": "B", "zh": "是的，我正在找好的酒店。", "py": "Shì de, wǒ zhèngzài zhǎo hǎo de jiǔdiàn.", "vi": "Vâng, mình đang tìm khách sạn tốt." }
+        ]
+      },
+      {
+        "title": "Thay đổi lịch hẹn",
+        "lines": [
+          { "speaker": "A", "zh": "我们原来的计划是坐地铁去，还是这样吗？", "py": "Wǒmen yuánlái de jìhuà shì zuò dìtiě qù, háishi zhèyàng ma?", "vi": "Kế hoạch ban đầu của mình là đi tàu điện ngầm, có vẫn vậy không?" },
+          { "speaker": "B", "zh": "我正在想，坐公共汽车去也可以。", "py": "Wǒ zhèngzài xiǎng, zuò gōnggòng qìchē qù yě kěyǐ.", "vi": "Mình đang nghĩ, đi xe buýt cũng được." },
+          { "speaker": "A", "zh": "坐公共汽车比坐地铁慢一点儿。", "py": "Zuò gōnggòng qìchē bǐ zuò dìtiě màn yìdiǎnr.", "vi": "Đi xe buýt chậm hơn đi tàu điện ngầm một chút." },
+          { "speaker": "B", "zh": "对，还是坐地铁去吧，快一点儿。", "py": "Duì, háishi zuò dìtiě qù ba, kuài yìdiǎnr.", "vi": "Đúng rồi, vẫn đi tàu điện ngầm nhé, nhanh hơn." },
+          { "speaker": "A", "zh": "好，安排好了就告诉我。", "py": "Hǎo, ānpái hǎo le jiù gàosu wǒ.", "vi": "Được rồi, sắp xếp xong thì báo mình nhé." }
+        ]
+      }
+    ]
+  }
+]
