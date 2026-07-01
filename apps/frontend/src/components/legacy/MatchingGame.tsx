@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect, useRef } from 'react';
+import { ArrowLeft, Clock, LayoutGrid } from 'lucide-react';
 
 // --- HELPERS ---
 const fisherYatesShuffle = (arr: any[]) => {
@@ -49,6 +50,7 @@ const playSoundEffect = (type: 'success' | 'error') => {
     } catch (e) { }
 };
 
+// Màu số ở mặt sau thẻ — yếu tố game vui mắt, cố ý đa sắc (không theo accent)
 const CARD_COLORS = [
     'text-red-500', 'text-blue-500', 'text-green-500',
     'text-purple-500', 'text-orange-500', 'text-pink-500',
@@ -148,17 +150,19 @@ export function MatchingGame({ vocabData, onBack }: { vocabData: any[], onBack: 
     };
 
     if (phase === 'menu') return (
-        <div className="max-w-md mx-auto animate-fade-in p-4 bg-white rounded-2xl shadow-sm border border-gray-100">
-            <button onClick={onBack} className="text-gray-400 hover:text-gray-600 mb-4 flex items-center gap-1 text-sm">
-                <i className="fa-solid fa-arrow-left"></i> Chọn trò chơi khác
+        <div className="max-w-md mx-auto animate-fade-in p-4 bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800">
+            <button onClick={onBack} className="text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 mb-4 flex items-center gap-1.5 text-sm">
+                <ArrowLeft className="w-4 h-4" /> Chọn trò chơi khác
             </button>
-            <h3 className="font-bold text-gray-800 text-xl mb-4 text-center">🃏 Trò chơi Lật thẻ</h3>
-            
-            <p className="text-sm font-medium text-gray-600 mb-3">Chọn loại ghép đôi:</p>
+            <h3 className="font-bold text-slate-800 dark:text-slate-100 text-xl mb-4 text-center flex items-center justify-center gap-2">
+                <LayoutGrid className="w-5 h-5 text-primary-500" /> Trò chơi Lật thẻ
+            </h3>
+
+            <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">Chọn loại ghép đôi:</p>
             <div className="flex gap-2 mb-5">
                 {isEnglish ? (
-                    <div className="text-sm bg-emerald-50 border border-emerald-200
-                        rounded-xl px-4 py-3 text-center font-medium text-emerald-700 w-full">
+                    <div className="text-sm bg-primary-50 dark:bg-primary-500/10 border border-primary-200 dark:border-primary-500/30
+                        rounded-xl px-4 py-3 text-center font-medium text-primary-700 dark:text-primary-300 w-full">
                         🇬🇧 Tiếng Anh ↔ Nghĩa tiếng Việt
                     </div>
                 ) : (
@@ -166,61 +170,61 @@ export function MatchingGame({ vocabData, onBack }: { vocabData: any[], onBack: 
                         <button onClick={() => setPairType('hanzi-meaning')}
                             className={`flex-1 py-2 rounded-xl border-2 text-sm font-medium transition
                                 ${pairType === 'hanzi-meaning'
-                                    ? 'border-purple-500 bg-purple-50 text-purple-700'
-                                    : 'border-gray-200 text-gray-600 hover:border-purple-200'}`}>
+                                    ? 'border-primary-500 bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300'
+                                    : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary-200 dark:hover:border-primary-500/40'}`}>
                             Hán ↔ Nghĩa
                         </button>
                         <button onClick={() => setPairType('hanzi-pinyin')}
                             className={`flex-1 py-2 rounded-xl border-2 text-sm font-medium transition
                                 ${pairType === 'hanzi-pinyin'
-                                    ? 'border-purple-500 bg-purple-50 text-purple-700'
-                                    : 'border-gray-200 text-gray-600 hover:border-purple-200'}`}>
+                                    ? 'border-primary-500 bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300'
+                                    : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary-200 dark:hover:border-primary-500/40'}`}>
                             Hán ↔ Pinyin
                         </button>
                     </>
                 )}
             </div>
-            
-            <p className="text-sm font-medium text-gray-600 mb-3">Chọn số cặp thẻ:</p>
+
+            <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">Chọn số cặp thẻ:</p>
             <div className="flex gap-2 mb-6">
                 {[5, 10, 15].map(n => (
                     <button key={n} onClick={() => setPairCount(n)}
                         className={`flex-1 py-3 rounded-xl text-lg font-bold border-2 transition-all
                             ${pairCount === n
-                                ? 'border-purple-500 bg-purple-50 text-purple-700'
-                                : 'border-gray-200 text-gray-600 hover:border-purple-200'}`}>
+                                ? 'border-primary-500 bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300'
+                                : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary-200 dark:hover:border-primary-500/40'}`}>
                         {n} cặp
                     </button>
                 ))}
             </div>
-            
+
             <button onClick={startGame}
-                className="w-full py-4 bg-purple-600 text-white rounded-2xl font-bold text-lg hover:bg-purple-700 active:scale-95 transition-all shadow-md">
+                className="w-full py-4 bg-primary-500 text-white rounded-2xl font-bold text-lg hover:bg-primary-600 active:scale-95 transition-all shadow-md">
                 Bắt đầu chơi
             </button>
         </div>
     );
 
     if (phase === 'done') return (
-        <div className="max-w-md mx-auto bg-white rounded-2xl shadow-sm border border-gray-100 p-8 text-center animate-fade-in">
+        <div className="max-w-md mx-auto bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 text-center animate-fade-in">
             <div className="text-6xl mb-3">🎉</div>
-            <h2 className="text-2xl font-bold mb-2">Hoàn thành!</h2>
-            <p className="text-gray-500 mb-4">Ghép đúng {pairCount} cặp thẻ</p>
-            <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-4 text-center">
-                <div className="text-2xl font-bold text-blue-600 font-mono">{formatTime(elapsed)}</div>
-                <div className="text-sm text-blue-500">Thời gian hoàn thành</div>
+            <h2 className="text-2xl font-bold mb-2 text-slate-800 dark:text-slate-100">Hoàn thành!</h2>
+            <p className="text-slate-500 dark:text-slate-400 mb-4">Ghép đúng {pairCount} cặp thẻ</p>
+            <div className="bg-primary-50 dark:bg-primary-500/10 border border-primary-200 dark:border-primary-500/30 rounded-xl p-4 mb-4 text-center">
+                <div className="text-2xl font-bold text-primary-600 dark:text-primary-400 font-mono tabular-nums">{formatTime(elapsed)}</div>
+                <div className="text-sm text-primary-500 dark:text-primary-400">Thời gian hoàn thành</div>
             </div>
-            <div className="bg-orange-50 border border-orange-200 rounded-xl p-4 mb-6">
-                <div className="text-3xl font-bold text-orange-500">{mistakes}</div>
-                <div className="text-sm text-orange-600">lần lật sai</div>
+            <div className="bg-orange-50 dark:bg-orange-500/10 border border-orange-200 dark:border-orange-500/30 rounded-xl p-4 mb-6">
+                <div className="text-3xl font-bold text-orange-500 dark:text-orange-400">{mistakes}</div>
+                <div className="text-sm text-orange-600 dark:text-orange-400">lần lật sai</div>
             </div>
             <div className="flex gap-3">
                 <button onClick={startGame}
-                    className="flex-1 py-3 border-2 border-purple-600 text-purple-600 rounded-xl font-bold hover:bg-purple-50">
+                    className="flex-1 py-3 border-2 border-primary-500 text-primary-600 dark:text-primary-400 rounded-xl font-bold hover:bg-primary-50 dark:hover:bg-primary-500/10">
                     Chơi lại
                 </button>
                 <button onClick={onBack}
-                    className="flex-1 py-3 bg-purple-600 text-white rounded-xl font-bold hover:bg-purple-700">
+                    className="flex-1 py-3 bg-primary-500 text-white rounded-xl font-bold hover:bg-primary-600">
                     Menu
                 </button>
             </div>
@@ -229,20 +233,20 @@ export function MatchingGame({ vocabData, onBack }: { vocabData: any[], onBack: 
 
     const cols = pairCount <= 5 ? 'grid-cols-4' : pairCount <= 10 ? 'grid-cols-4' : 'grid-cols-5';
     return (
-        <div className="max-w-2xl mx-auto animate-fade-in bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+        <div className="max-w-2xl mx-auto animate-fade-in bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800">
             <div className="flex items-center justify-between mb-6">
-                <button onClick={onBack} className="text-gray-400 hover:text-gray-600 text-sm flex items-center gap-1 font-medium">
-                    <i className="fa-solid fa-arrow-left"></i> Thoát
+                <button onClick={onBack} className="text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 text-sm flex items-center gap-1.5 font-medium">
+                    <ArrowLeft className="w-4 h-4" /> Thoát
                 </button>
 
-                <div className="flex items-center gap-2 bg-gray-100 px-4 py-1.5 rounded-full">
-                    <i className="fa-solid fa-clock text-indigo-500 text-sm"></i>
-                    <span className="font-mono font-bold text-gray-700">{formatTime(elapsed)}</span>
+                <div className="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full">
+                    <Clock className="w-4 h-4 text-primary-500" />
+                    <span className="font-mono font-bold text-slate-700 dark:text-slate-200 tabular-nums">{formatTime(elapsed)}</span>
                 </div>
 
-                <div className="flex gap-4 text-sm bg-gray-50 px-4 py-1.5 rounded-full border border-gray-100">
-                    <span className="text-green-600 font-bold">✓ {matched.length}/{pairCount}</span>
-                    <span className="text-red-500 font-bold">✗ {mistakes}</span>
+                <div className="flex gap-4 text-sm bg-slate-50 dark:bg-slate-800/60 px-4 py-1.5 rounded-full border border-slate-100 dark:border-slate-800">
+                    <span className="text-green-600 dark:text-green-400 font-bold">✓ {matched.length}/{pairCount}</span>
+                    <span className="text-red-500 dark:text-red-400 font-bold">✗ {mistakes}</span>
                 </div>
             </div>
 
@@ -250,20 +254,19 @@ export function MatchingGame({ vocabData, onBack }: { vocabData: any[], onBack: 
                 {cards.map(card => {
                     const isFlipped = !!flipped.find(f => f.id === card.id);
                     const isMatched = matched.includes(card.pairId);
-                    const isHanzi = card.type === 'hanzi';
                     let cls = 'h-24 sm:h-32 rounded-2xl border-2 flex items-center justify-center text-center p-2 cursor-pointer transition-all duration-300 select-none shadow-sm ';
-                    if (isMatched) cls += 'border-green-300 bg-green-50 opacity-40 cursor-default scale-95 ';
-                    else if (isFlipped) cls += (isHanzi ? 'border-indigo-500 bg-indigo-50 shadow-inner ' : 'border-purple-400 bg-purple-50 shadow-inner ');
-                    else cls += 'border-gray-200 bg-white hover:border-indigo-300 hover:bg-indigo-50 hover:-translate-y-1 hover:shadow-md ';
-                    
+                    if (isMatched) cls += 'border-green-300 dark:border-green-500/40 bg-green-50 dark:bg-green-500/10 opacity-40 cursor-default scale-95 ';
+                    else if (isFlipped) cls += 'border-primary-500 bg-primary-50 dark:bg-primary-500/10 shadow-inner ';
+                    else cls += 'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 hover:border-primary-300 dark:hover:border-primary-500/40 hover:bg-primary-50 dark:hover:bg-primary-500/10 hover:-translate-y-1 hover:shadow-md ';
+
                     return (
                         <div key={card.id} onClick={() => handleFlip(card)} className={cls}>
                             {(isFlipped || isMatched) ? (
                                 <span className={`font-bold leading-tight animate-fade-in
-                                    ${card.type === 'hanzi' ? 'text-4xl text-gray-800' :
-                                      card.type === 'word' ? 'text-2xl text-emerald-700' :
-                                      card.type === 'meaning' ? 'text-sm text-gray-700' :
-                                      'text-base text-indigo-600'}`}>
+                                    ${card.type === 'hanzi' ? 'text-4xl text-slate-800 dark:text-slate-100' :
+                                      card.type === 'word' ? 'text-2xl text-primary-700 dark:text-primary-300' :
+                                      card.type === 'meaning' ? 'text-sm text-slate-700 dark:text-slate-200' :
+                                      'text-base text-primary-600 dark:text-primary-400'}`}>
                                     {card.content}
                                 </span>
                             ) : (() => {

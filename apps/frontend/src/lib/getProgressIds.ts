@@ -10,6 +10,7 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
   allLessonIds?: string[];
   enrolledProgramCodes?: string[];
   programLocked?: boolean;
+  scoreByLessonId?: Record<string, number>;
 }> {
   const session = await getServerSession(authOptions);
   if (!session?.user?.email) {
@@ -21,7 +22,7 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
     include: {
       progress: {
         where: { completed: true },
-        select: { lessonId: true }
+        select: { lessonId: true, score: true }
       },
       enrollments: {
         where: { class: { isActive: true } },
@@ -37,6 +38,7 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
   const isAdmin = user.role === 'ADMIN';
   const isPremiumUser = isAdmin || isSubscriptionActive(syncedUser);
   const completedLessonIds = user.progress.map(p => p.lessonId);
+  const scoreByLessonId = Object.fromEntries(user.progress.map(p => [p.lessonId, p.score]));
 
   // Admin nhận toàn bộ lessonId của program (bypass mọi khóa)
   if (isAdmin) {
@@ -75,9 +77,10 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
       isAdmin: false,
       isPremiumUser: true,
       enrolledProgramCodes,
-      programLocked: false
+      programLocked: false,
+      scoreByLessonId
     };
   }
 
-  return { completedLessonIds, isAdmin: false, isPremiumUser };
+  return { completedLessonIds, isAdmin: false, isPremiumUser, scoreByLessonId };
 }

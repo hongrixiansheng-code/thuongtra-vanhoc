@@ -8,7 +8,7 @@ export default async function DashboardPage(props: any) {
   const searchParams = await props.searchParams;
   const levelStr = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
 
-  const [data, { completedLessonIds, isAdmin, isPremiumUser, programLocked }] = await Promise.all([
+  const [data, { completedLessonIds, isAdmin, isPremiumUser, programLocked, scoreByLessonId }] = await Promise.all([
     getLessonsData(levelStr),
     getCompletedLessonIds(levelStr),
   ]);
@@ -17,7 +17,7 @@ export default async function DashboardPage(props: any) {
   completedLessonIds.forEach(id => { progressMap[id] = true; });
 
   return (
-    <div className="min-h-screen bg-slate-50">
+    <div className="min-h-screen">
       {programLocked ? (
         <ProgramLocked />
       ) : data ? (
@@ -28,6 +28,7 @@ export default async function DashboardPage(props: any) {
           isPremiumUser={isPremiumUser}
           isAdmin={isAdmin}
           progressMap={progressMap}
+          scoreMap={scoreByLessonId}
         />
       ) : (
         <div className="p-8 text-center text-gray-500">Không tìm thấy chương trình học.</div>

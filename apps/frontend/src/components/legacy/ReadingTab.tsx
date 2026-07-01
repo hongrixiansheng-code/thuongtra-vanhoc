@@ -4,6 +4,10 @@ import React, { useState, useEffect, useRef, memo, useMemo } from 'react';
 import { SpeechEngine } from '@/lib/speech-engine';
 import { StartersExercises } from './StartersExercises';
 import ExamExerciseQuiz from '@/components/ExamExerciseQuiz';
+import {
+    Eye, EyeOff, ChevronLeft, ChevronRight, Shuffle, Volume2, Square, Mic,
+    ArrowRight, AlertTriangle, Loader2, AudioLines, Type, AlignLeft, PackageOpen,
+} from 'lucide-react';
 
 const playTone = (type: 'success' | 'error') => {
     try {
@@ -49,7 +53,7 @@ const cleanChineseWord = (w: string) => w.replace(/[，。！？、：；""''「
 const alignChineseChars = (target: string, heard: string) => {
     const targetNorm = cleanChineseWord(target);
     const heardNorm = cleanChineseWord(heard);
-    
+
     let heardIdx = 0;
     return targetNorm.split('').map((char) => {
         let found = false;
@@ -151,91 +155,91 @@ const VocabReadingCard = memo(({ word, onNext, onPrev, onRandom, current, total 
 
     return (
         <div className="flex flex-col items-center gap-6 w-full max-w-md mx-auto animate-fade-in font-sans">
-            <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-8 text-center relative mt-6">
-                <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 uppercase">
+            <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-8 text-center relative mt-6">
+                <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300 uppercase">
                     {word.type_short || word.type || 'Từ vựng'}
                 </span>
-                <button onClick={() => setShowPinyin(v => !v)} className="absolute top-4 right-4 text-xs text-gray-400 hover:text-indigo-600 transition-colors font-medium">
-                    {showPinyin ? <><i className="fa-regular fa-eye-slash"></i> Ẩn pinyin</> : <><i className="fa-regular fa-eye"></i> Hiện pinyin</>}
+                <button onClick={() => setShowPinyin(v => !v)} className="absolute top-4 right-4 text-xs text-slate-400 dark:text-slate-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium inline-flex items-center gap-1">
+                    {showPinyin ? <><EyeOff className="w-3 h-3" /> Ẩn pinyin</> : <><Eye className="w-3 h-3" /> Hiện pinyin</>}
                 </button>
 
                 <div className="my-8">
                     {word.hanzi ? (
-                        <div className="text-7xl font-bold text-gray-800 leading-none">{word.hanzi}</div>
+                        <div className="text-7xl font-bold text-slate-800 dark:text-slate-100 leading-none">{word.hanzi}</div>
                     ) : (
-                        <div className="text-5xl font-bold text-emerald-700 leading-none" style={{fontFamily:'Georgia,serif'}}>{word.word}</div>
+                        <div className="text-5xl font-bold text-primary-700 dark:text-primary-300 leading-none" style={{fontFamily:'Georgia,serif'}}>{word.word}</div>
                     )}
                 </div>
 
                 <div className="min-h-[60px]">
                     {showPinyin && (
                         <>
-                            {word.pinyin && <div className="text-2xl text-indigo-500 font-medium mb-2 tracking-wide">{word.pinyin}</div>}
-                            {word.ipa && <div className="text-emerald-500 font-mono text-lg mb-2">{word.ipa}</div>}
+                            {word.pinyin && <div className="text-2xl text-primary-500 dark:text-primary-400 font-medium mb-2 tracking-wide">{word.pinyin}</div>}
+                            {word.ipa && <div className="text-primary-500 dark:text-primary-400 font-mono text-lg mb-2">{word.ipa}</div>}
                         </>
                     )}
                 </div>
 
-                <div className="text-gray-600 text-lg font-medium">{word.meaning}</div>
+                <div className="text-slate-600 dark:text-slate-300 text-lg font-medium">{word.meaning}</div>
             </div>
 
-            <div className="flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-gray-100">
-                <button onClick={onPrev} className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current <= 0}>
-                    <i className="fa-solid fa-chevron-left text-gray-500"></i>
+            <div className="flex items-center gap-4 bg-white dark:bg-slate-900 px-6 py-3 rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
+                <button onClick={onPrev} className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current <= 0}>
+                    <ChevronLeft className="w-4 h-4 text-slate-500 dark:text-slate-400" />
                 </button>
-                <button onClick={onRandom} className="w-10 h-10 rounded-full bg-purple-50 text-purple-500 flex items-center justify-center hover:bg-purple-100 transition-colors" title="Từ ngẫu nhiên">
-                    <i className="fa-solid fa-shuffle"></i>
+                <button onClick={onRandom} className="w-10 h-10 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-500 dark:text-primary-400 flex items-center justify-center hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors" title="Từ ngẫu nhiên">
+                    <Shuffle className="w-4 h-4" />
                 </button>
-                <span className="text-sm text-gray-500 font-bold min-w-[60px] text-center bg-gray-100 px-3 py-1 rounded-full">
+                <span className="text-sm text-slate-500 dark:text-slate-400 font-bold min-w-[60px] text-center bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full">
                     {current + 1} / {total}
                 </span>
-                <button onClick={onNext} className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current >= total - 1}>
-                    <i className="fa-solid fa-chevron-right text-gray-500"></i>
+                <button onClick={onNext} className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current >= total - 1}>
+                    <ChevronRight className="w-4 h-4 text-slate-500 dark:text-slate-400" />
                 </button>
             </div>
 
             <div className="flex gap-3 w-full">
-                <button onClick={handleListen} className="flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl bg-indigo-50 text-indigo-600 font-bold hover:bg-indigo-100 transition-colors border border-indigo-100">
-                    <i className="fa-solid fa-volume-high"></i> Nghe mẫu
+                <button onClick={handleListen} className="flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 font-bold hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors border border-primary-100 dark:border-primary-500/20">
+                    <Volume2 className="w-4 h-4" /> Nghe mẫu
                 </button>
 
                 <button onClick={handleSpeak} className={`flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl font-bold transition-all shadow-sm
-                    ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' : 
-                      speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' : 
-                      'bg-indigo-600 text-white hover:bg-indigo-700 shadow-indigo-600/30 hover:-translate-y-0.5'}`}>
-                    <i className={`fa-solid ${speechState === 'listening' ? 'fa-stop' : 'fa-microphone'}`}></i>
+                    ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' :
+                      speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' :
+                      'bg-primary-500 text-white hover:bg-primary-600 hover:-translate-y-0.5'}`}>
+                    {speechState === 'listening' ? <Square className="w-4 h-4" /> : <Mic className="w-4 h-4" />}
                     {speechState === 'listening' ? 'Đang nghe...' : 'Đọc thử'}
                 </button>
             </div>
 
             {score !== null && (
-                <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-6 animate-fade-in relative overflow-hidden">
+                <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-6 animate-fade-in relative overflow-hidden">
                     <div className="flex items-center justify-between mb-4 relative z-10">
-                        <span className="text-base font-bold text-gray-800">{scoreLabel}</span>
-                        <span className={`text-2xl font-black ${score >= 80 ? 'text-green-500' : score >= 50 ? 'text-yellow-500' : 'text-red-500'}`}>
+                        <span className="text-base font-bold text-slate-800 dark:text-slate-100">{scoreLabel}</span>
+                        <span className={`text-2xl font-black ${score >= 80 ? 'text-green-500 dark:text-green-400' : score >= 50 ? 'text-yellow-500 dark:text-yellow-400' : 'text-red-500 dark:text-red-400'}`}>
                             {score}%
                         </span>
                     </div>
-                    <div className="w-full h-3 bg-gray-100 rounded-full overflow-hidden mb-4 relative z-10">
+                    <div className="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden mb-4 relative z-10">
                         <div className={`h-full rounded-full transition-all duration-700 ease-out ${barColor}`} style={{ width: `${score}%` }}></div>
                     </div>
                     {heard && (
-                        <div className="bg-gray-50 p-3 rounded-xl mb-4 relative z-10">
-                            <p className="text-xs text-gray-500 mb-1">Hệ thống nghe được:</p>
-                            <p className="text-lg font-bold text-gray-700">{heard}</p>
+                        <div className="bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl mb-4 relative z-10">
+                            <p className="text-xs text-slate-500 dark:text-slate-400 mb-1">Hệ thống nghe được:</p>
+                            <p className="text-lg font-bold text-slate-700 dark:text-slate-200">{heard}</p>
                         </div>
                     )}
                     <div className="flex gap-3 relative z-10">
-                        <button onClick={handleSpeak} className="flex-1 py-3 text-sm rounded-xl bg-indigo-50 text-indigo-600 font-bold hover:bg-indigo-100 transition-colors">
+                        <button onClick={handleSpeak} className="flex-1 py-3 text-sm rounded-xl bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 font-bold hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors">
                             🔄 Đọc lại
                         </button>
                         {score >= 80 && current < total - 1 && (
-                            <button onClick={onNext} className="flex-1 py-3 text-sm rounded-xl bg-green-50 text-green-600 font-bold hover:bg-green-100 transition-colors">
-                                Câu tiếp <i className="fa-solid fa-arrow-right ml-1"></i>
+                            <button onClick={onNext} className="flex-1 py-3 text-sm rounded-xl bg-green-50 dark:bg-green-500/10 text-green-600 dark:text-green-400 font-bold hover:bg-green-100 dark:hover:bg-green-500/20 transition-colors inline-flex items-center justify-center gap-1">
+                                Câu tiếp <ArrowRight className="w-3 h-3" />
                             </button>
                         )}
                     </div>
-                    
+
                     {/* Decoration */}
                     {score >= 80 && (
                         <div className="absolute -top-10 -right-10 w-32 h-32 bg-green-400 rounded-full blur-3xl mix-blend-multiply opacity-20 pointer-events-none"></div>
@@ -244,8 +248,8 @@ const VocabReadingCard = memo(({ word, onNext, onPrev, onRandom, current, total 
             )}
 
             {speechState === 'error' && score === null && heard && (
-                <div className="w-full text-center text-sm font-medium text-red-500 bg-red-50 rounded-2xl p-4 border border-red-100 animate-fade-in">
-                    <i className="fa-solid fa-triangle-exclamation mr-2"></i> {heard}
+                <div className="w-full text-center text-sm font-medium text-red-500 dark:text-red-400 bg-red-50 dark:bg-red-500/10 rounded-2xl p-4 border border-red-100 dark:border-red-500/20 animate-fade-in inline-flex items-center justify-center gap-2">
+                    <AlertTriangle className="w-4 h-4" /> {heard}
                 </div>
             )}
         </div>
@@ -305,7 +309,7 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
                     const align = alignChineseChars(sentence.zh, transcript);
                     const correctCount = align.filter(c => c.correct).length;
                     const calculatedScore = align.length > 0 ? Math.round((correctCount / align.length) * 100) : 0;
-                    
+
                     setHeard(transcript);
                     setAlignment(align);
                     setScore(calculatedScore);
@@ -326,22 +330,22 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
     // Render original characters aligned
     const renderAlignedCharacters = () => {
         if (!alignment || alignment.length === 0) {
-            return <span className="text-gray-800">{sentence.zh}</span>;
+            return <span className="text-slate-800 dark:text-slate-100">{sentence.zh}</span>;
         }
         let normIdx = 0;
         return sentence.zh.split('').map((char: string, index: number) => {
             const isPunct = /[，。！？、：；""''「」【】\s?.,!:-]/.test(char);
             if (isPunct) {
-                return <span key={index} className="text-gray-400 font-bold">{char}</span>;
+                return <span key={index} className="text-slate-400 dark:text-slate-500 font-bold">{char}</span>;
             }
             const alignItem = alignment[normIdx];
             normIdx++;
             if (!alignItem) {
-                return <span key={index} className="text-gray-800">{char}</span>;
+                return <span key={index} className="text-slate-800 dark:text-slate-100">{char}</span>;
             }
             return (
                 <span key={index} className={`px-0.5 rounded font-bold transition-all ${
-                    alignItem.correct ? 'text-green-600 bg-green-50' : 'text-red-500 bg-red-50 line-through decoration-2'
+                    alignItem.correct ? 'text-green-600 dark:text-green-400 bg-green-50 dark:bg-green-500/10' : 'text-red-500 dark:text-red-400 bg-red-50 dark:bg-red-500/10 line-through decoration-2'
                 }`}>
                     {char}
                 </span>
@@ -351,97 +355,97 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
 
     return (
         <div className="flex flex-col items-center gap-6 w-full max-w-md mx-auto animate-fade-in font-sans">
-            <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-8 text-center relative mt-6">
-                <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-indigo-50 text-indigo-700 uppercase">
+            <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-8 text-center relative mt-6">
+                <span className="absolute top-4 left-4 text-xs font-bold px-3 py-1 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300 uppercase">
                     {sentence.title || 'Luyện đọc câu'}
                 </span>
-                <button onClick={() => setShowPinyin(v => !v)} className="absolute top-4 right-4 text-xs text-gray-400 hover:text-indigo-600 transition-colors font-medium">
-                    {showPinyin ? <><i className="fa-regular fa-eye-slash"></i> Ẩn pinyin</> : <><i className="fa-regular fa-eye"></i> Hiện pinyin</>}
+                <button onClick={() => setShowPinyin(v => !v)} className="absolute top-4 right-4 text-xs text-slate-400 dark:text-slate-500 hover:text-primary-600 dark:hover:text-primary-400 transition-colors font-medium inline-flex items-center gap-1">
+                    {showPinyin ? <><EyeOff className="w-3 h-3" /> Ẩn pinyin</> : <><Eye className="w-3 h-3" /> Hiện pinyin</>}
                 </button>
 
                 <div className="my-8">
-                    <div className="text-4xl font-bold leading-normal tracking-wide text-gray-800 break-words">
+                    <div className="text-4xl font-bold leading-normal tracking-wide text-slate-800 dark:text-slate-100 break-words">
                         {renderAlignedCharacters()}
                     </div>
                 </div>
 
                 <div className="min-h-[48px] mb-2">
                     {showPinyin && sentence.py && (
-                        <div className="text-xl text-indigo-500 font-medium mb-2 tracking-wide leading-relaxed">
+                        <div className="text-xl text-primary-500 dark:text-primary-400 font-medium mb-2 tracking-wide leading-relaxed">
                             {sentence.py}
                         </div>
                     )}
-                    <div className="text-gray-600 text-base font-medium">{sentence.vi}</div>
+                    <div className="text-slate-600 dark:text-slate-300 text-base font-medium">{sentence.vi}</div>
                 </div>
             </div>
 
-            <div className="flex items-center gap-4 bg-white px-6 py-3 rounded-full shadow-sm border border-gray-100">
-                <button onClick={onPrev} className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current <= 0}>
-                    <i className="fa-solid fa-chevron-left text-gray-500"></i>
+            <div className="flex items-center gap-4 bg-white dark:bg-slate-900 px-6 py-3 rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
+                <button onClick={onPrev} className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current <= 0}>
+                    <ChevronLeft className="w-4 h-4 text-slate-500 dark:text-slate-400" />
                 </button>
-                <button onClick={onRandom} className="w-10 h-10 rounded-full bg-purple-50 text-purple-500 flex items-center justify-center hover:bg-purple-100 transition-colors" title="Câu ngẫu nhiên">
-                    <i className="fa-solid fa-shuffle"></i>
+                <button onClick={onRandom} className="w-10 h-10 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-500 dark:text-primary-400 flex items-center justify-center hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors" title="Câu ngẫu nhiên">
+                    <Shuffle className="w-4 h-4" />
                 </button>
-                <span className="text-sm text-gray-500 font-bold min-w-[60px] text-center bg-gray-100 px-3 py-1 rounded-full">
+                <span className="text-sm text-slate-500 dark:text-slate-400 font-bold min-w-[60px] text-center bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full">
                     {current + 1} / {total}
                 </span>
-                <button onClick={onNext} className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center hover:bg-gray-100 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current >= total - 1}>
-                    <i className="fa-solid fa-chevron-right text-gray-500"></i>
+                <button onClick={onNext} className="w-10 h-10 rounded-full bg-slate-50 dark:bg-slate-800 flex items-center justify-center hover:bg-slate-100 dark:hover:bg-slate-700 transition-colors disabled:opacity-30 disabled:cursor-not-allowed" disabled={current >= total - 1}>
+                    <ChevronRight className="w-4 h-4 text-slate-500 dark:text-slate-400" />
                 </button>
             </div>
 
             <div className="flex gap-3 w-full">
-                <button onClick={handleListen} className="flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl bg-indigo-50 text-indigo-600 font-bold hover:bg-indigo-100 transition-colors border border-indigo-100">
-                    <i className="fa-solid fa-volume-high"></i> Nghe mẫu
+                <button onClick={handleListen} className="flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 font-bold hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors border border-primary-100 dark:border-primary-500/20">
+                    <Volume2 className="w-4 h-4" /> Nghe mẫu
                 </button>
 
                 <button onClick={handleSpeak} disabled={speechState === 'evaluating'}
                     className={`flex-1 flex items-center justify-center gap-2 py-4 rounded-2xl font-bold transition-all shadow-sm disabled:opacity-50
-                        ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' : 
-                          speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' : 
-                          'bg-indigo-600 text-white hover:bg-indigo-700 shadow-indigo-600/30 hover:-translate-y-0.5'}`}>
-                    <i className={`fa-solid ${speechState === 'listening' ? 'fa-stop' : speechState === 'evaluating' ? 'fa-spinner animate-spin' : 'fa-microphone'}`}></i>
+                        ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' :
+                          speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' :
+                          'bg-primary-500 text-white hover:bg-primary-600 hover:-translate-y-0.5'}`}>
+                    {speechState === 'listening' ? <Square className="w-4 h-4" /> : speechState === 'evaluating' ? <Loader2 className="w-4 h-4 animate-spin" /> : <Mic className="w-4 h-4" />}
                     {speechState === 'listening' ? 'Đang nghe...' : speechState === 'evaluating' ? 'Chấm điểm...' : 'Đọc thử'}
                 </button>
             </div>
 
             {speechState === 'evaluating' && (
-                <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-6 text-center animate-pulse">
-                    <div className="flex items-center justify-center gap-3 text-indigo-600 font-bold">
-                        <i className="fa-solid fa-circle-notch animate-spin text-xl"></i>
+                <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-6 text-center animate-pulse">
+                    <div className="flex items-center justify-center gap-3 text-primary-600 dark:text-primary-400 font-bold">
+                        <Loader2 className="w-5 h-5 animate-spin" />
                         <span>Đang phân tích phát âm...</span>
                     </div>
                 </div>
             )}
 
             {score !== null && speechState !== 'evaluating' && (
-                <div className="w-full bg-white rounded-3xl border border-gray-100 shadow-sm p-6 animate-fade-in relative overflow-hidden">
+                <div className="w-full bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-6 animate-fade-in relative overflow-hidden">
                     <div className="flex items-center justify-between mb-4 relative z-10">
-                        <span className="text-base font-bold text-gray-800">{scoreLabel}</span>
-                        <span className={`text-2xl font-black ${score >= 80 ? 'text-green-500' : score >= 50 ? 'text-yellow-500' : 'text-red-500'}`}>
+                        <span className="text-base font-bold text-slate-800 dark:text-slate-100">{scoreLabel}</span>
+                        <span className={`text-2xl font-black ${score >= 80 ? 'text-green-500 dark:text-green-400' : score >= 50 ? 'text-yellow-500 dark:text-yellow-400' : 'text-red-500 dark:text-red-400'}`}>
                             {score}%
                         </span>
                     </div>
-                    <div className="w-full h-3 bg-gray-100 rounded-full overflow-hidden mb-4 relative z-10">
+                    <div className="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden mb-4 relative z-10">
                         <div className={`h-full rounded-full transition-all duration-700 ease-out ${barColor}`} style={{ width: `${score}%` }}></div>
                     </div>
                     {heard && (
-                        <div className="bg-gray-50 p-3 rounded-xl mb-4 relative z-10">
-                            <p className="text-xs text-gray-500 mb-1">Hệ thống nghe được:</p>
-                            <p className="text-lg font-bold text-gray-700">{heard}</p>
+                        <div className="bg-slate-50 dark:bg-slate-800/60 p-3 rounded-xl mb-4 relative z-10">
+                            <p className="text-xs text-slate-500 dark:text-slate-400 mb-1">Hệ thống nghe được:</p>
+                            <p className="text-lg font-bold text-slate-700 dark:text-slate-200">{heard}</p>
                         </div>
                     )}
                     <div className="flex gap-3 relative z-10">
-                        <button onClick={handleSpeak} className="flex-1 py-3 text-sm rounded-xl bg-indigo-50 text-indigo-600 font-bold hover:bg-indigo-100 transition-colors">
+                        <button onClick={handleSpeak} className="flex-1 py-3 text-sm rounded-xl bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 font-bold hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors">
                             🔄 Đọc lại
                         </button>
                         {score >= 80 && current < total - 1 && (
-                            <button onClick={onNext} className="flex-1 py-3 text-sm rounded-xl bg-green-50 text-green-600 font-bold hover:bg-green-100 transition-colors">
-                                Câu tiếp <i className="fa-solid fa-arrow-right ml-1"></i>
+                            <button onClick={onNext} className="flex-1 py-3 text-sm rounded-xl bg-green-50 dark:bg-green-500/10 text-green-600 dark:text-green-400 font-bold hover:bg-green-100 dark:hover:bg-green-500/20 transition-colors inline-flex items-center justify-center gap-1">
+                                Câu tiếp <ArrowRight className="w-3 h-3" />
                             </button>
                         )}
                     </div>
-                    
+
                     {/* Decoration */}
                     {score >= 80 && (
                         <div className="absolute -top-10 -right-10 w-32 h-32 bg-green-400 rounded-full blur-3xl mix-blend-multiply opacity-20 pointer-events-none"></div>
@@ -450,8 +454,8 @@ const SentenceReadingCard = memo(({ sentence, onNext, onPrev, onRandom, current,
             )}
 
             {speechState === 'error' && score === null && heard && (
-                <div className="w-full text-center text-sm font-medium text-red-500 bg-red-50 rounded-2xl p-4 border border-red-100 animate-fade-in">
-                    <i className="fa-solid fa-triangle-exclamation mr-2"></i> {heard}
+                <div className="w-full text-center text-sm font-medium text-red-500 dark:text-red-400 bg-red-50 dark:bg-red-500/10 rounded-2xl p-4 border border-red-100 dark:border-red-500/20 animate-fade-in inline-flex items-center justify-center gap-2">
+                    <AlertTriangle className="w-4 h-4" /> {heard}
                 </div>
             )}
         </div>
@@ -495,8 +499,8 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
         return vocabData.filter(w => w.type_short === filterType && (w.hanzi || w.word) && w.meaning);
     }, [vocabData, filterType]);
 
-    useEffect(() => { 
-        setCurrentIdx(0); 
+    useEffect(() => {
+        setCurrentIdx(0);
     }, [filterType, subMode]);
 
     useEffect(() => {
@@ -536,37 +540,37 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
         return (
             <div className="max-w-md mx-auto animate-fade-in font-sans mt-6">
                 <div className="text-center mb-8">
-                    <div className="w-16 h-16 bg-indigo-100 text-indigo-600 rounded-2xl flex items-center justify-center mx-auto text-3xl mb-4 shadow-inner">
-                        <i className="fa-solid fa-microphone-lines"></i>
+                    <div className="w-16 h-16 bg-primary-100 dark:bg-primary-500/20 text-primary-600 dark:text-primary-400 rounded-2xl flex items-center justify-center mx-auto mb-4 shadow-inner">
+                        <AudioLines className="w-7 h-7" />
                     </div>
-                    <h1 className="text-2xl font-bold text-gray-800 animate-fade-in">{isEnglish ? 'Luyện Đọc Tiếng Anh' : 'Luyện Đọc Tiếng Trung'}</h1>
-                    <p className="text-gray-500 mt-1 text-sm font-medium">Chọn một chế độ để bắt đầu luyện phát âm AI</p>
+                    <h1 className="text-2xl font-bold text-slate-800 dark:text-slate-100 animate-fade-in">{isEnglish ? 'Luyện Đọc Tiếng Anh' : 'Luyện Đọc Tiếng Trung'}</h1>
+                    <p className="text-slate-500 dark:text-slate-400 mt-1 text-sm font-medium">Chọn một chế độ để bắt đầu luyện phát âm AI</p>
                 </div>
 
                 <div className="space-y-4">
                     <button onClick={() => setSubMode('vocab')}
-                        className="w-full flex items-center gap-4 p-5 bg-white rounded-3xl border-2 border-gray-100 hover:border-indigo-400 hover:bg-indigo-50/50 transition-all text-left group shadow-sm hover:scale-[1.01]">
-                        <div className="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-indigo-200 transition-colors">
-                            <i className="fa-solid fa-font text-xl text-indigo-600"></i>
+                        className="w-full flex items-center gap-4 p-5 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 hover:border-primary-400 dark:hover:border-primary-500/50 hover:bg-primary-50/50 dark:hover:bg-primary-500/10 transition-all text-left group shadow-sm hover:scale-[1.01]">
+                        <div className="w-12 h-12 bg-primary-100 dark:bg-primary-500/20 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-primary-200 dark:group-hover:bg-primary-500/30 transition-colors">
+                            <Type className="w-5 h-5 text-primary-600 dark:text-primary-400" />
                         </div>
                         <div>
-                            <div className="font-bold text-gray-800">Luyện Đọc Từ Vựng</div>
-                            <div className="text-sm text-gray-500 mt-0.5 font-medium">{isEnglish ? 'Luyện phát âm từng từ kèm phiên âm IPA và nghĩa' : 'Luyện phát âm từng từ HSK kèm Pinyin và nghĩa'}</div>
+                            <div className="font-bold text-slate-800 dark:text-slate-100">Luyện Đọc Từ Vựng</div>
+                            <div className="text-sm text-slate-500 dark:text-slate-400 mt-0.5 font-medium">{isEnglish ? 'Luyện phát âm từng từ kèm phiên âm IPA và nghĩa' : 'Luyện phát âm từng từ HSK kèm Pinyin và nghĩa'}</div>
                         </div>
-                        <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-indigo-500 transition-colors"></i>
+                        <ChevronRight className="w-4 h-4 text-slate-300 dark:text-slate-600 ml-auto group-hover:text-primary-500 transition-colors" />
                     </button>
 
                     {!isEnglish && (
                         <button onClick={() => setSubMode('sentence')}
-                            className="w-full flex items-center gap-4 p-5 bg-white rounded-3xl border-2 border-gray-100 hover:border-indigo-400 hover:bg-indigo-50/50 transition-all text-left group shadow-sm hover:scale-[1.01]">
-                            <div className="w-12 h-12 bg-indigo-100 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-indigo-200 transition-colors">
-                                <i className="fa-solid fa-align-left text-xl text-indigo-600"></i>
+                            className="w-full flex items-center gap-4 p-5 bg-white dark:bg-slate-900 rounded-3xl border-2 border-slate-100 dark:border-slate-800 hover:border-primary-400 dark:hover:border-primary-500/50 hover:bg-primary-50/50 dark:hover:bg-primary-500/10 transition-all text-left group shadow-sm hover:scale-[1.01]">
+                            <div className="w-12 h-12 bg-primary-100 dark:bg-primary-500/20 rounded-2xl flex items-center justify-center shrink-0 group-hover:bg-primary-200 dark:group-hover:bg-primary-500/30 transition-colors">
+                                <AlignLeft className="w-5 h-5 text-primary-600 dark:text-primary-400" />
                             </div>
                             <div>
-                                <div className="font-bold text-gray-800">Luyện Đọc Theo Câu</div>
-                                <div className="text-sm text-gray-500 mt-0.5 font-medium">Luyện đọc các câu hội thoại giao tiếp trôi chảy</div>
+                                <div className="font-bold text-slate-800 dark:text-slate-100">Luyện Đọc Theo Câu</div>
+                                <div className="text-sm text-slate-500 dark:text-slate-400 mt-0.5 font-medium">Luyện đọc các câu hội thoại giao tiếp trôi chảy</div>
                             </div>
-                            <i className="fa-solid fa-chevron-right text-gray-300 ml-auto group-hover:text-indigo-500 transition-colors"></i>
+                            <ChevronRight className="w-4 h-4 text-slate-300 dark:text-slate-600 ml-auto group-hover:text-primary-500 transition-colors" />
                         </button>
                     )}
                 </div>
@@ -584,19 +588,19 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
     if (subMode === 'vocab') {
         return (
             <div className="max-w-2xl mx-auto space-y-6 animate-fade-in font-sans">
-                <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 mt-6 relative overflow-hidden">
+                <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-8 mt-6 relative overflow-hidden">
                     <div className="flex items-start justify-between relative z-10">
                         <div>
                             <button onClick={() => setSubMode(null)}
-                                className="flex items-center gap-2 text-xs font-bold text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-full transition-colors mb-4">
-                                <i className="fa-solid fa-chevron-left"></i> Chọn chế độ khác
+                                className="flex items-center gap-2 text-xs font-bold text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 bg-primary-50 dark:bg-primary-500/10 px-3 py-1.5 rounded-full transition-colors mb-4">
+                                <ChevronLeft className="w-3 h-3" /> Chọn chế độ khác
                             </button>
-                            <h2 className="text-2xl font-bold text-gray-800">Luyện Đọc Từ Vựng</h2>
-                            <p className="text-gray-500 mt-1 font-medium">{isEnglish ? 'Nhìn từ → Đọc to → AI chấm điểm phát âm' : 'Nhìn chữ Hán → Đọc to → AI chấm điểm phát âm'}</p>
+                            <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100">Luyện Đọc Từ Vựng</h2>
+                            <p className="text-slate-500 dark:text-slate-400 mt-1 font-medium">{isEnglish ? 'Nhìn từ → Đọc to → AI chấm điểm phát âm' : 'Nhìn chữ Hán → Đọc to → AI chấm điểm phát âm'}</p>
                         </div>
-                        <div className="text-right bg-gray-50 p-4 rounded-2xl border border-gray-100 shadow-inner">
-                            <div className="text-3xl font-black text-indigo-600">{filteredWords.length}</div>
-                            <div className="text-xs text-gray-400 font-bold uppercase tracking-widest mt-1">Từ vựng</div>
+                        <div className="text-right bg-slate-50 dark:bg-slate-800/60 p-4 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner">
+                            <div className="text-3xl font-black text-primary-600 dark:text-primary-400">{filteredWords.length}</div>
+                            <div className="text-xs text-slate-400 dark:text-slate-500 font-bold uppercase tracking-widest mt-1">Từ vựng</div>
                         </div>
                     </div>
 
@@ -604,13 +608,13 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                         {types.map(t => (
                             <button key={t} onClick={() => setFilterType(t)}
                                 className={`px-4 py-2 rounded-full text-xs font-bold transition-all
-                                    ${filterType === t ? 'bg-indigo-600 text-white shadow-md shadow-indigo-600/20' : 'bg-gray-50 text-gray-500 hover:bg-gray-100 hover:text-gray-700'}`}>
+                                    ${filterType === t ? 'bg-primary-500 text-white shadow-md' : 'bg-slate-50 dark:bg-slate-800 text-slate-500 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-slate-700 hover:text-slate-700 dark:hover:text-slate-200'}`}>
                                 {typeLabels[t] || t}
                             </button>
                         ))}
                     </div>
-                    
-                    <div className="absolute -top-32 -right-32 w-80 h-80 bg-indigo-50 rounded-full blur-3xl pointer-events-none"></div>
+
+                    <div className="absolute -top-32 -right-32 w-80 h-80 bg-primary-50 dark:bg-primary-500/10 rounded-full blur-3xl pointer-events-none"></div>
                 </div>
 
                 {currentWord ? (
@@ -623,8 +627,8 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                         onRandom={() => setCurrentIdx(Math.floor(Math.random() * wordList.length))}
                     />
                 ) : (
-                    <div className="text-center text-gray-400 py-16 bg-white rounded-3xl border border-gray-100 border-dashed">
-                        <i className="fa-solid fa-box-open text-4xl mb-4 text-gray-300"></i>
+                    <div className="text-center text-slate-400 dark:text-slate-500 py-16 bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 border-dashed">
+                        <PackageOpen className="w-10 h-10 mb-4 text-slate-300 dark:text-slate-600 mx-auto" />
                         <p className="font-medium">Không có từ nào trong danh mục này.</p>
                     </div>
                 )}
@@ -635,22 +639,22 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
     // subMode === 'sentence'
     return (
         <div className="max-w-2xl mx-auto space-y-6 animate-fade-in font-sans">
-            <div className="bg-white rounded-3xl border border-gray-100 shadow-sm p-8 mt-6 relative overflow-hidden">
+            <div className="bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 shadow-sm p-8 mt-6 relative overflow-hidden">
                 <div className="flex items-start justify-between relative z-10">
                     <div>
                         <button onClick={() => setSubMode(null)}
-                            className="flex items-center gap-2 text-xs font-bold text-indigo-600 hover:text-indigo-700 bg-indigo-50 px-3 py-1.5 rounded-full transition-colors mb-4">
-                            <i className="fa-solid fa-chevron-left"></i> Chọn chế độ khác
+                            className="flex items-center gap-2 text-xs font-bold text-primary-600 dark:text-primary-400 hover:text-primary-700 dark:hover:text-primary-300 bg-primary-50 dark:bg-primary-500/10 px-3 py-1.5 rounded-full transition-colors mb-4">
+                            <ChevronLeft className="w-3 h-3" /> Chọn chế độ khác
                         </button>
-                        <h2 className="text-2xl font-bold text-gray-800">Luyện Đọc Theo Câu</h2>
-                        <p className="text-gray-500 mt-1 font-medium">Luyện đọc trôi chảy câu giao tiếp chữ Hán dài</p>
+                        <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100">Luyện Đọc Theo Câu</h2>
+                        <p className="text-slate-500 dark:text-slate-400 mt-1 font-medium">Luyện đọc trôi chảy câu giao tiếp chữ Hán dài</p>
                     </div>
-                    <div className="text-right bg-gray-50 p-4 rounded-2xl border border-gray-100 shadow-inner">
-                        <div className="text-3xl font-black text-indigo-600">{shuffledSentences.length}</div>
-                        <div className="text-xs text-gray-400 font-bold uppercase tracking-widest mt-1">Câu thoại</div>
+                    <div className="text-right bg-slate-50 dark:bg-slate-800/60 p-4 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-inner">
+                        <div className="text-3xl font-black text-primary-600 dark:text-primary-400">{shuffledSentences.length}</div>
+                        <div className="text-xs text-slate-400 dark:text-slate-500 font-bold uppercase tracking-widest mt-1">Câu thoại</div>
                     </div>
                 </div>
-                <div className="absolute -top-32 -right-32 w-80 h-80 bg-indigo-50 rounded-full blur-3xl pointer-events-none"></div>
+                <div className="absolute -top-32 -right-32 w-80 h-80 bg-primary-50 dark:bg-primary-500/10 rounded-full blur-3xl pointer-events-none"></div>
             </div>
 
             {currentSentence ? (
@@ -663,8 +667,8 @@ export function ReadingTab({ vocabData, passagesData = [], dialogueSentences = [
                     onRandom={() => setSentenceIdx(Math.floor(Math.random() * shuffledSentences.length))}
                 />
             ) : (
-                <div className="text-center text-gray-400 py-16 bg-white rounded-3xl border border-gray-100 border-dashed">
-                    <i className="fa-solid fa-box-open text-4xl mb-4 text-gray-300"></i>
+                <div className="text-center text-slate-400 dark:text-slate-500 py-16 bg-white dark:bg-slate-900 rounded-3xl border border-slate-100 dark:border-slate-800 border-dashed">
+                    <PackageOpen className="w-10 h-10 mb-4 text-slate-300 dark:text-slate-600 mx-auto" />
                     <p className="font-medium">Chưa có dữ liệu câu hội thoại nào.</p>
                 </div>
             )}

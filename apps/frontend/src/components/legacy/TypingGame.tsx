@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect, useRef } from 'react';
 import { SRS } from '@/lib/srs';
+import { ArrowLeft, ArrowRight, Clock, Volume2, Send, SkipForward, AlertTriangle, CheckCircle2 } from 'lucide-react';
 
 // --- HELPERS ---
 const fisherYatesShuffle = (arr: any[]) => {
@@ -65,7 +66,7 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
     const [wordCount, setWordCount] = useState(10);
     const [mistakeCount, setMistakeCount] = useState(0);
     const [elapsed, setElapsed] = useState(0);
-    
+
     const inputRef = useRef<HTMLInputElement>(null);
     const timerRef = useRef<any>(null);
 
@@ -202,31 +203,31 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
         const TOTAL = queue.length;
         const pct = Math.round((stats.correct / TOTAL) * 100);
         return (
-            <div className="max-w-md mx-auto bg-white rounded-2xl shadow-sm border border-gray-100 p-8 text-center animate-fade-in">
+            <div className="max-w-md mx-auto bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 text-center animate-fade-in">
                 <div className="text-6xl mb-3">{pct >= 80 ? '🎉' : '💪'}</div>
-                <h2 className="text-2xl font-bold mb-1">Kết quả</h2>
+                <h2 className="text-2xl font-bold mb-1 text-slate-800 dark:text-slate-100">Kết quả</h2>
                 <div className="grid grid-cols-2 gap-4 my-6">
-                    <div className="bg-green-50 border border-green-200 rounded-xl p-4">
-                        <div className="text-3xl font-bold text-green-600">{stats.correct}</div>
-                        <div className="text-sm text-green-700">Đúng ✓</div>
+                    <div className="bg-green-50 dark:bg-green-500/10 border border-green-200 dark:border-green-500/30 rounded-xl p-4">
+                        <div className="text-3xl font-bold text-green-600 dark:text-green-400">{stats.correct}</div>
+                        <div className="text-sm text-green-700 dark:text-green-400">Đúng ✓</div>
                     </div>
-                    <div className="bg-red-50 border border-red-200 rounded-xl p-4">
-                        <div className="text-3xl font-bold text-red-500">{stats.wrong}</div>
-                        <div className="text-sm text-red-600">Sai ✗</div>
+                    <div className="bg-red-50 dark:bg-red-500/10 border border-red-200 dark:border-red-500/30 rounded-xl p-4">
+                        <div className="text-3xl font-bold text-red-500 dark:text-red-400">{stats.wrong}</div>
+                        <div className="text-sm text-red-600 dark:text-red-400">Sai ✗</div>
                     </div>
                 </div>
-                <p className="text-2xl font-bold text-indigo-600 mb-6">{pct}%</p>
-                <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-4 text-center">
-                    <div className="text-2xl font-bold text-blue-600 font-mono">{formatTime(elapsed)}</div>
-                    <div className="text-sm text-blue-500">Thời gian hoàn thành</div>
+                <p className="text-2xl font-bold text-primary-600 dark:text-primary-400 mb-6">{pct}%</p>
+                <div className="bg-primary-50 dark:bg-primary-500/10 border border-primary-200 dark:border-primary-500/30 rounded-xl p-4 mb-4 text-center">
+                    <div className="text-2xl font-bold text-primary-600 dark:text-primary-400 font-mono tabular-nums">{formatTime(elapsed)}</div>
+                    <div className="text-sm text-primary-500 dark:text-primary-400">Thời gian hoàn thành</div>
                 </div>
                 <div className="flex gap-3">
                     <button onClick={() => start(mode as any)}
-                        className="flex-1 py-3 border-2 border-indigo-600 text-indigo-600 rounded-xl font-bold hover:bg-indigo-50">
+                        className="flex-1 py-3 border-2 border-primary-500 text-primary-600 dark:text-primary-400 rounded-xl font-bold hover:bg-primary-50 dark:hover:bg-primary-500/10">
                         Chơi lại
                     </button>
                     <button onClick={onBack}
-                        className="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700">
+                        className="flex-1 py-3 bg-primary-500 text-white rounded-xl font-bold hover:bg-primary-600">
                         Menu Game
                     </button>
                 </div>
@@ -235,41 +236,41 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
     }
 
     if (mode === 'menu') return (
-        <div className="max-w-md mx-auto animate-fade-in p-6 bg-white rounded-2xl shadow-sm border border-gray-100">
-            <button onClick={onBack} className="text-gray-400 hover:text-gray-600 mb-4 flex items-center gap-1 text-sm font-medium">
-                <i className="fa-solid fa-arrow-left"></i> Chọn trò chơi khác
+        <div className="max-w-md mx-auto animate-fade-in p-6 bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800">
+            <button onClick={onBack} className="text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 mb-4 flex items-center gap-1.5 text-sm font-medium">
+                <ArrowLeft className="w-4 h-4" /> Chọn trò chơi khác
             </button>
-            <h3 className="font-bold text-gray-800 text-xl mb-6 text-center">⌨️ Trò chơi Gõ từ</h3>
+            <h3 className="font-bold text-slate-800 dark:text-slate-100 text-xl mb-6 text-center">⌨️ Trò chơi Gõ từ</h3>
             <div className="space-y-4">
-                <div className="mb-6 bg-gray-50 p-4 rounded-xl">
-                    <p className="text-sm font-bold text-gray-700 mb-3">Số lượng từ muốn luyện:</p>
+                <div className="mb-6 bg-slate-50 dark:bg-slate-800/60 p-4 rounded-xl">
+                    <p className="text-sm font-bold text-slate-700 dark:text-slate-200 mb-3">Số lượng từ muốn luyện:</p>
                     <div className="flex flex-wrap gap-2">
                         {[5, 10, 15, 20, 30].map(n => (
                             <button key={n} onClick={() => setWordCount(n)}
                                 className={`px-4 py-2 rounded-xl text-sm font-bold border-2 transition-all
                                     ${wordCount === n
-                                        ? 'border-indigo-500 bg-indigo-100 text-indigo-700'
-                                        : 'border-gray-200 text-gray-600 hover:border-indigo-200 bg-white'}`}>
+                                        ? 'border-primary-500 bg-primary-100 dark:bg-primary-500/20 text-primary-700 dark:text-primary-300'
+                                        : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary-200 dark:hover:border-primary-500/40 bg-white dark:bg-slate-900'}`}>
                                 {n} từ
                             </button>
                         ))}
                     </div>
                 </div>
                 <button onClick={() => start('hanzi-to-viet')}
-                    className="w-full p-5 bg-indigo-50 hover:bg-indigo-100 border-2 border-indigo-200 rounded-2xl text-left transition-all active:scale-95 shadow-sm">
-                    <div className="font-bold text-indigo-700 text-lg">
+                    className="w-full p-5 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 border-2 border-primary-200 dark:border-primary-500/30 rounded-2xl text-left transition-all active:scale-95 shadow-sm">
+                    <div className="font-bold text-primary-700 dark:text-primary-300 text-lg">
                         {isEnglish ? 'Tiếng Anh → Gõ tiếng Việt' : 'Chữ Hán → Gõ tiếng Việt'}
                     </div>
-                    <div className="text-sm text-indigo-500 mt-1">
+                    <div className="text-sm text-primary-500 dark:text-primary-400 mt-1">
                         {isEnglish ? 'Nhìn "apple" → gõ "quả táo"' : 'Nhìn 爱 → gõ "yêu, thích"'}
                     </div>
                 </button>
                 <button onClick={() => start('viet-to-pinyin')}
-                    className="w-full p-5 bg-blue-50 hover:bg-blue-100 border-2 border-blue-200 rounded-2xl text-left transition-all active:scale-95 shadow-sm">
-                    <div className="font-bold text-blue-700 text-lg">
+                    className="w-full p-5 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 border-2 border-primary-200 dark:border-primary-500/30 rounded-2xl text-left transition-all active:scale-95 shadow-sm">
+                    <div className="font-bold text-primary-700 dark:text-primary-300 text-lg">
                         {isEnglish ? 'Tiếng Việt → Gõ tiếng Anh' : 'Tiếng Việt → Gõ Pinyin'}
                     </div>
-                    <div className="text-sm text-blue-500 mt-1">
+                    <div className="text-sm text-primary-500 dark:text-primary-400 mt-1">
                         {isEnglish ? 'Nhìn "quả táo" → gõ "apple"' : 'Nhìn "yêu, thích" → gõ "ai" (không cần dấu)'}
                     </div>
                 </button>
@@ -281,35 +282,35 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
     const progress = Math.round((idx / queue.length) * 100);
 
     return (
-        <div className="max-w-xl mx-auto animate-fade-in bg-white p-8 rounded-3xl shadow-lg border border-gray-100">
+        <div className="max-w-xl mx-auto animate-fade-in bg-white dark:bg-slate-900 p-8 rounded-3xl shadow-lg border border-slate-100 dark:border-slate-800">
             <div className="flex justify-between items-center mb-4">
-                <button onClick={onBack} className="text-gray-400 hover:text-gray-600 text-sm font-medium">
+                <button onClick={onBack} className="text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 text-sm font-medium">
                     ← Thoát
                 </button>
-                <div className="flex items-center gap-2 bg-gray-100 px-4 py-1.5 rounded-full">
-                    <i className="fa-solid fa-clock text-indigo-500 text-sm"></i>
-                    <span className="font-mono font-bold text-gray-700">{formatTime(elapsed)}</span>
+                <div className="flex items-center gap-2 bg-slate-100 dark:bg-slate-800 px-4 py-1.5 rounded-full">
+                    <Clock className="w-4 h-4 text-primary-500" />
+                    <span className="font-mono font-bold text-slate-700 dark:text-slate-200 tabular-nums">{formatTime(elapsed)}</span>
                 </div>
-                <div className="flex gap-3 text-sm bg-gray-50 px-3 py-1.5 rounded-full">
-                    <span className="text-green-600 font-bold">✓ {stats.correct}</span>
-                    <span className="text-red-500 font-bold">✗ {stats.wrong}</span>
-                    <span className="text-gray-400 ml-2">{idx + 1}/{queue.length}</span>
+                <div className="flex gap-3 text-sm bg-slate-50 dark:bg-slate-800/60 px-3 py-1.5 rounded-full">
+                    <span className="text-green-600 dark:text-green-400 font-bold">✓ {stats.correct}</span>
+                    <span className="text-red-500 dark:text-red-400 font-bold">✗ {stats.wrong}</span>
+                    <span className="text-slate-400 dark:text-slate-500 ml-2">{idx + 1}/{queue.length}</span>
                 </div>
             </div>
 
-            <div className="w-full h-2 bg-gray-100 rounded-full mb-6 overflow-hidden">
-                <div className="h-full bg-indigo-500 rounded-full transition-all duration-300" style={{ width: `${progress}%` }}></div>
+            <div className="w-full h-2 bg-slate-100 dark:bg-slate-800 rounded-full mb-6 overflow-hidden">
+                <div className="h-full bg-primary-500 rounded-full transition-all duration-300" style={{ width: `${progress}%` }}></div>
             </div>
 
-            <div className="bg-indigo-50 rounded-2xl border-2 border-dashed border-indigo-200 p-8 mb-6 text-center">
+            <div className="bg-primary-50 dark:bg-primary-500/10 rounded-2xl border-2 border-dashed border-primary-200 dark:border-primary-500/30 p-8 mb-6 text-center">
                 {mode === 'hanzi-to-viet' ? (
                     <>
                         {isEnglish ? (
-                            <div className="text-5xl font-bold text-emerald-700 mb-2">{currentWord.word}</div>
+                            <div className="text-5xl font-bold text-primary-700 dark:text-primary-300 mb-2">{currentWord.word}</div>
                         ) : (
-                            <div className="text-8xl font-bold text-gray-800 mb-2">{currentWord.hanzi}</div>
+                            <div className="text-8xl font-bold text-slate-800 dark:text-slate-100 mb-2">{currentWord.hanzi}</div>
                         )}
-                        {!isEnglish && <div className="text-indigo-500 text-xl font-medium mt-2">{currentWord.pinyin}</div>}
+                        {!isEnglish && <div className="text-primary-500 dark:text-primary-400 text-xl font-medium mt-2">{currentWord.pinyin}</div>}
                         <button onClick={() => {
                             if (isEnglish) {
                                 window.speechSynthesis.cancel();
@@ -319,15 +320,15 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
                             } else {
                                 playAudio(currentWord.hanzi);
                             }
-                        }} className="mt-4 w-12 h-12 rounded-full bg-white shadow flex items-center justify-center text-indigo-500 hover:text-indigo-700 hover:bg-indigo-100 mx-auto transition-colors">
-                            <i className="fa-solid fa-volume-high text-xl"></i>
+                        }} className="mt-4 w-12 h-12 rounded-full bg-white dark:bg-slate-800 shadow flex items-center justify-center text-primary-500 hover:text-primary-700 dark:hover:text-primary-400 hover:bg-primary-100 dark:hover:bg-primary-500/20 mx-auto transition-colors">
+                            <Volume2 className="w-5 h-5" />
                         </button>
-                        <p className="text-gray-500 text-sm mt-4 font-medium">Gõ nghĩa tiếng Việt vào ô bên dưới</p>
+                        <p className="text-slate-500 dark:text-slate-400 text-sm mt-4 font-medium">Gõ nghĩa tiếng Việt vào ô bên dưới</p>
                     </>
                 ) : (
                     <>
-                        <div className="text-4xl font-bold text-gray-800 mb-2">{currentWord.meaning}</div>
-                        <p className="text-gray-500 text-sm mt-4 font-medium">
+                        <div className="text-4xl font-bold text-slate-800 dark:text-slate-100 mb-2">{currentWord.meaning}</div>
+                        <p className="text-slate-500 dark:text-slate-400 text-sm mt-4 font-medium">
                             {isEnglish ? 'Gõ từ tiếng Anh' : 'Gõ Pinyin (chỉ gõ chữ, không gõ dấu thanh)'}
                         </p>
                     </>
@@ -352,45 +353,45 @@ export function TypingGame({ vocabData, levelId = 'hsk1', onBack }: { vocabData:
                         ? 'Gõ nghĩa tiếng Việt...'
                         : isEnglish ? 'Gõ từ tiếng Anh...' : 'Gõ pinyin (VD: hao, xie)...'}
                     className={`flex-1 border-2 rounded-xl px-5 py-4 text-xl outline-none transition-colors shadow-sm
-                        ${result === 'correct' ? 'border-green-500 bg-green-50 text-green-700' :
-                          result === 'wrong'   ? 'border-red-400 bg-red-50 text-red-700'   :
-                          'border-gray-200 focus:border-indigo-400 text-gray-800 focus:shadow-md'}`}
+                        ${result === 'correct' ? 'border-green-500 bg-green-50 dark:bg-green-500/10 text-green-700 dark:text-green-300' :
+                          result === 'wrong'   ? 'border-red-400 bg-red-50 dark:bg-red-500/10 text-red-700 dark:text-red-300'   :
+                          'border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 focus:border-primary-400 text-slate-800 dark:text-slate-100 focus:shadow-md'}`}
                 />
                 {!result && (
                     <>
                         <button onClick={check}
-                            className="px-6 py-4 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 shadow-md">
-                            <i className="fa-solid fa-paper-plane text-xl"></i>
+                            className="px-6 py-4 bg-primary-500 text-white rounded-xl font-bold hover:bg-primary-600 shadow-md">
+                            <Send className="w-5 h-5" />
                         </button>
                         <button onClick={skip}
-                            className="px-5 py-4 bg-gray-100 text-gray-500 rounded-xl font-medium hover:bg-gray-200 transition-colors"
+                            className="px-5 py-4 bg-slate-100 dark:bg-slate-800 text-slate-500 dark:text-slate-400 rounded-xl font-medium hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"
                             title="Bỏ qua từ này">
-                            <i className="fa-solid fa-forward-step text-xl"></i>
+                            <SkipForward className="w-5 h-5" />
                         </button>
                     </>
                 )}
             </div>
-            
+
             <div className="h-10">
                 {result && result.startsWith('retry') && (
-                    <p className="text-orange-500 font-medium text-center animate-fade-in mt-2">
+                    <p className="text-orange-500 dark:text-orange-400 font-medium text-center animate-fade-in mt-2">
                         ✗ Chưa chính xác! Còn {3 - parseInt(result.split('-')[1])} lần thử.
                     </p>
                 )}
                 {result === 'wrong' && (
-                    <div className="bg-red-50 border border-red-200 rounded-xl p-3 animate-fade-in flex items-center justify-center gap-2">
-                        <i className="fa-solid fa-triangle-exclamation text-red-500"></i>
-                        <p className="text-red-600 font-bold">
-                            Đáp án đúng: <span className="text-red-700">{mode === 'hanzi-to-viet' ? currentWord.meaning : isEnglish ? currentWord.word : currentWord.pinyin}</span>
+                    <div className="bg-red-50 dark:bg-red-500/10 border border-red-200 dark:border-red-500/30 rounded-xl p-3 animate-fade-in flex items-center justify-center gap-2">
+                        <AlertTriangle className="w-4 h-4 text-red-500 dark:text-red-400 flex-shrink-0" />
+                        <p className="text-red-600 dark:text-red-400 font-bold">
+                            Đáp án đúng: <span className="text-red-700 dark:text-red-300">{mode === 'hanzi-to-viet' ? currentWord.meaning : isEnglish ? currentWord.word : currentWord.pinyin}</span>
                         </p>
                     </div>
                 )}
                 {result === 'correct' && (
-                    <div className="rounded-xl p-3 animate-fade-in bg-green-50 border border-green-200 flex items-center justify-between">
-                        <p className="font-bold text-green-700"><i className="fa-solid fa-check-circle mr-2"></i> Chính xác tuyệt đối!</p>
+                    <div className="rounded-xl p-3 animate-fade-in bg-green-50 dark:bg-green-500/10 border border-green-200 dark:border-green-500/30 flex items-center justify-between">
+                        <p className="font-bold text-green-700 dark:text-green-400 flex items-center gap-2"><CheckCircle2 className="w-4 h-4" /> Chính xác tuyệt đối!</p>
                         <button onClick={next}
                             className="px-4 py-1.5 bg-green-600 text-white rounded-lg font-bold hover:bg-green-700 shadow-sm text-sm flex items-center gap-2">
-                            {idx < queue.length - 1 ? 'Từ tiếp theo' : 'Xem kết quả'} <i className="fa-solid fa-arrow-right"></i>
+                            {idx < queue.length - 1 ? 'Từ tiếp theo' : 'Xem kết quả'} <ArrowRight className="w-4 h-4" />
                         </button>
                     </div>
                 )}

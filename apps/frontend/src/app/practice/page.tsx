@@ -4,7 +4,8 @@ import { getAllVocabData } from "@/lib/data";
 import { getCompletedLessonIds } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 import PremiumLocked from "@/components/PremiumLocked";
-import Link from "next/link";
+import PracticeEmptyState from "@/components/PracticeEmptyState";
+import { Dumbbell } from "lucide-react";
 
 export default async function PracticePage(props: any) {
   const searchParams = await props.searchParams;
@@ -17,27 +18,17 @@ export default async function PracticePage(props: any) {
     : [];
 
   return (
-    <div className="min-h-screen bg-gray-50 pb-20">
+    <div className="min-h-screen pb-20">
       {programLocked ? (
         <ProgramLocked />
       ) : !isPremiumUser ? (
         <PremiumLocked />
       ) : completedLessonIds.length === 0 ? (
-        <div className="max-w-2xl mx-auto px-4 py-16 text-center">
-          <div className="text-6xl mb-4">📚</div>
-          <h2 className="text-2xl font-bold text-slate-800 mb-2">
-            Chưa có từ vựng để luyện tập
-          </h2>
-          <p className="text-slate-500 mb-6">
-            Hãy hoàn thành ít nhất 1 bài học để mở khóa tính năng luyện tập!
-          </p>
-          <Link
-            href="/dashboard"
-            className="inline-block px-6 py-3 bg-blue-600 text-white rounded-xl font-semibold hover:bg-blue-700 transition"
-          >
-            Bắt đầu học ngay →
-          </Link>
-        </div>
+        <PracticeEmptyState
+          icon={Dumbbell}
+          title="Chưa có từ vựng để luyện tập"
+          desc="Hãy hoàn thành ít nhất 1 bài học để mở khóa tính năng luyện tập!"
+        />
       ) : (
         <QuizTab key={level} vocabData={vocabData} levelId={level} />
       )}

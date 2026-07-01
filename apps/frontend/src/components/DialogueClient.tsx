@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useRef, useEffect } from "react";
 import { pinyin } from 'pinyin-pro';
+import { Volume2, Pause } from 'lucide-react';
 
 export default function DialogueClient({ dialogueData, level }: { dialogueData: any[], level: string }) {
   const isEN = level.startsWith('en');
@@ -89,14 +90,19 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-gray-800 mb-8">
-        Hội thoại ({dialogueData.length} đoạn)
-      </h1>
+      {/* Hero panel */}
+      <div className="relative overflow-hidden rounded-3xl border border-primary-100/70 dark:border-primary-500/10 bg-gradient-to-br from-primary-50 via-white to-white dark:from-primary-500/10 dark:via-slate-900 dark:to-slate-900 p-6 sm:p-8 mb-6">
+        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
+          Hội thoại
+        </h1>
+        <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">{dialogueData.length} đoạn đã mở khóa</p>
+      </div>
+
       <div className="flex flex-col md:flex-row gap-6">
 
         {/* Sidebar trái — danh sách bài */}
-        <div className="w-full md:w-1/3 lg:w-1/4 bg-white rounded-2xl shadow-sm border border-gray-100 p-4 self-start md:sticky md:top-24 max-h-[35vh] md:max-h-none md:h-[calc(100vh-8rem)] overflow-y-auto">
-          <h3 className="font-bold text-gray-800 mb-4 text-lg border-b pb-2">
+        <div className="w-full md:w-1/3 lg:w-1/4 bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-4 self-start md:sticky md:top-24 max-h-[35vh] md:max-h-none md:h-[calc(100vh-8rem)] overflow-y-auto">
+          <h3 className="font-bold text-slate-800 dark:text-slate-100 mb-4 text-lg border-b border-slate-100 dark:border-slate-800 pb-2">
             Danh mục
           </h3>
           <div className="flex flex-col gap-1">
@@ -106,12 +112,12 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
                 onClick={() => setOpenLesson(group.lessonId)}
                 className={`text-left px-4 py-3 rounded-lg transition-colors border text-sm
                   ${openLesson === group.lessonId
-                    ? 'bg-blue-50 border-blue-200 text-blue-700 font-medium'
-                    : 'hover:bg-gray-50 border-transparent text-gray-600'
+                    ? 'bg-primary-50 dark:bg-primary-500/10 border-primary-200 dark:border-primary-500/30 text-primary-700 dark:text-primary-400 font-medium'
+                    : 'hover:bg-slate-50 dark:hover:bg-slate-800/60 border-transparent text-slate-600 dark:text-slate-300'
                   }`}
               >
                 <div>{group.lessonTitle}</div>
-                <div className="text-xs text-gray-400 mt-0.5">{group.dialogues.length} đoạn</div>
+                <div className="text-xs text-slate-400 dark:text-slate-500 mt-0.5">{group.dialogues.length} đoạn</div>
               </button>
             ))}
           </div>
@@ -125,20 +131,15 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
                 const dialogueId = `${selectedGroup.lessonId}-${di}`;
                 const isPlaying = playingId === dialogueId;
                 return (
-                  <div key={di} className="bg-white rounded-2xl border border-gray-100 shadow-sm overflow-hidden">
-                    <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 bg-slate-50">
-                      <h3 className="font-bold text-slate-800">{d.title}</h3>
+                  <div key={di} className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm overflow-hidden">
+                    <div className="flex items-center justify-between px-6 py-4 border-b border-slate-100 dark:border-slate-800 bg-slate-50 dark:bg-slate-800/60">
+                      <h3 className="font-bold text-slate-800 dark:text-slate-100">{d.title}</h3>
                       <button
                         onClick={() => playAll(d.lines, dialogueId)}
                         className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-semibold transition-colors
-                          ${isPlaying ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-blue-600 hover:bg-blue-700 text-white'}`}
+                          ${isPlaying ? 'bg-red-500 hover:bg-red-600 text-white' : 'bg-primary-500 hover:bg-primary-600 text-white'}`}
                       >
-                        <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                          {isPlaying
-                            ? <><rect x="6" y="4" width="4" height="16"/><rect x="14" y="4" width="4" height="16"/></>
-                            : <><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14"/></>
-                          }
-                        </svg>
+                        {isPlaying ? <Pause className="w-3.5 h-3.5" /> : <Volume2 className="w-3.5 h-3.5" />}
                         {isPlaying ? 'Dừng' : 'Nghe toàn bài'}
                       </button>
                     </div>
@@ -151,19 +152,21 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
                             <div
                               onClick={() => speak(line.en || line.zh)}
                               className={`max-w-[80%] rounded-2xl p-4 cursor-pointer hover:opacity-90 transition-opacity
-                                ${isA ? 'bg-blue-50 border border-blue-100 rounded-tl-sm' : 'bg-slate-100 border border-slate-200 rounded-tr-sm'}`}
+                                ${isA
+                                  ? 'bg-primary-50 dark:bg-primary-500/10 border border-primary-100 dark:border-primary-500/20 rounded-tl-sm'
+                                  : 'bg-slate-100 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-tr-sm'}`}
                             >
-                              <div className={`text-xs font-bold mb-1 ${isA ? 'text-blue-500' : 'text-slate-400'}`}>
-                                {line.speaker && line.speaker !== 'A' && line.speaker !== 'B' 
+                              <div className={`text-xs font-bold mb-1 ${isA ? 'text-primary-600 dark:text-primary-400' : 'text-slate-400 dark:text-slate-500'}`}>
+                                {line.speaker && line.speaker !== 'A' && line.speaker !== 'B'
                                   ? <span>{line.speaker} {!isEN && <span className="font-normal opacity-80 text-[10px]">({pinyin(line.speaker)})</span>}</span>
                                   : (isA ? 'Nhân vật A' : 'Nhân vật B')}
                               </div>
-                              <div className="text-slate-800 font-medium text-lg">{line.en || line.zh}</div>
+                              <div className="text-slate-800 dark:text-slate-100 font-medium text-lg">{line.en || line.zh}</div>
                               {line.py && (
-                                <div className="text-indigo-500 text-sm mb-1">{line.py}</div>
+                                <div className="text-primary-500 dark:text-primary-400 text-sm mb-1">{line.py}</div>
                               )}
                               {line.vi && (
-                                <div className={`text-sm mt-1 ${isA ? 'text-blue-600' : 'text-slate-500'}`}>{line.vi}</div>
+                                <div className={`text-sm mt-1 ${isA ? 'text-primary-700 dark:text-primary-300' : 'text-slate-500 dark:text-slate-400'}`}>{line.vi}</div>
                               )}
                             </div>
                           </div>
@@ -175,7 +178,7 @@ export default function DialogueClient({ dialogueData, level }: { dialogueData: 
               })}
             </div>
           ) : (
-            <div className="bg-white rounded-2xl border border-gray-100 p-12 text-center text-gray-400">
+            <div className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 p-12 text-center text-slate-400 dark:text-slate-500">
               Chọn bài học để xem hội thoại
             </div>
           )}

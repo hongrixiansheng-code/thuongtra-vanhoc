@@ -4,6 +4,7 @@ import React, { useState, useEffect, useRef, memo, useCallback } from 'react';
 import { SRS } from '@/lib/srs';
 import { StartersExercises } from './StartersExercises';
 import ExamExerciseQuiz from '@/components/ExamExerciseQuiz';
+import { X, Volume2, Check, ArrowRight, Flag, Lightbulb, PenTool, Trophy } from 'lucide-react';
 
 const playSoundEffect = (type: 'success' | 'error') => {
     const audio = new Audio(`/audio/${type}.mp3`);
@@ -104,28 +105,28 @@ const EnglishWritingTab = memo(({ vocabData, levelId }: { vocabData: any[], leve
 
     if (phase === 'setup') return (
         <div className="max-w-md mx-auto animate-fade-in">
-            <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 text-center mt-6">
+            <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 text-center mt-6">
                 <div className="text-5xl mb-4">✍️</div>
-                <h2 className="text-2xl font-bold text-gray-800 mb-2">Luyện Viết Tiếng Anh</h2>
-                <p className="text-gray-500 text-sm mb-6">
+                <h2 className="text-2xl font-bold text-slate-800 dark:text-slate-100 mb-2">Luyện Viết Tiếng Anh</h2>
+                <p className="text-slate-500 dark:text-slate-400 text-sm mb-6">
                     Nhìn nghĩa tiếng Việt → gõ từ tiếng Anh tương ứng
                 </p>
                 <div className="mb-6">
-                    <p className="text-sm font-medium text-gray-600 mb-3">Số câu:</p>
+                    <p className="text-sm font-medium text-slate-600 dark:text-slate-300 mb-3">Số câu:</p>
                     <div className="flex justify-center gap-3">
                         {[5, 10, 20].map(n => (
                             <button key={n} onClick={() => setQuestionCount(n)}
                                 className={`px-5 py-2.5 rounded-xl font-bold border-2 transition
                                     ${questionCount === n
-                                        ? 'border-indigo-500 bg-indigo-50 text-indigo-700'
-                                        : 'border-gray-200 text-gray-600 hover:border-indigo-200'}`}>
+                                        ? 'border-primary-500 bg-primary-50 dark:bg-primary-500/10 text-primary-700 dark:text-primary-300'
+                                        : 'border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 hover:border-primary-200 dark:hover:border-primary-500/40'}`}>
                                 {n} câu
                             </button>
                         ))}
                     </div>
                 </div>
                 <button onClick={start}
-                    className="w-full py-4 bg-indigo-600 text-white rounded-2xl font-bold text-lg hover:bg-indigo-700 transition-colors shadow-sm">
+                    className="w-full py-4 bg-primary-500 text-white rounded-2xl font-bold text-lg hover:bg-primary-600 transition-colors shadow-sm">
                     🚀 Bắt đầu luyện viết
                 </button>
             </div>
@@ -136,20 +137,20 @@ const EnglishWritingTab = memo(({ vocabData, levelId }: { vocabData: any[], leve
         const pct = Math.round((stats.correct / queue.length) * 100);
         return (
             <div className="max-w-md mx-auto animate-fade-in">
-                <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 text-center mt-6">
+                <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 text-center mt-6">
                     <div className="text-5xl mb-3">{pct >= 80 ? '🏆' : pct >= 60 ? '👍' : '💪'}</div>
-                    <div className="text-4xl font-bold text-indigo-600 mb-1">{pct}%</div>
-                    <p className="text-gray-500 mb-6">{stats.correct}/{queue.length} từ đúng</p>
-                    <div className="w-full h-3 bg-gray-100 rounded-full mb-6 overflow-hidden">
-                        <div className="h-full bg-indigo-500 rounded-full transition-all" style={{ width: `${pct}%` }}></div>
+                    <div className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-1">{pct}%</div>
+                    <p className="text-slate-500 dark:text-slate-400 mb-6">{stats.correct}/{queue.length} từ đúng</p>
+                    <div className="w-full h-3 bg-slate-100 dark:bg-slate-800 rounded-full mb-6 overflow-hidden">
+                        <div className="h-full bg-primary-500 rounded-full transition-all" style={{ width: `${pct}%` }}></div>
                     </div>
                     <div className="flex gap-3">
                         <button onClick={() => setPhase('setup')}
-                            className="flex-1 py-3 border-2 border-gray-200 text-gray-600 rounded-xl font-medium hover:bg-gray-50 transition-colors">
+                            className="flex-1 py-3 border-2 border-slate-200 dark:border-slate-700 text-slate-600 dark:text-slate-300 rounded-xl font-medium hover:bg-slate-50 dark:hover:bg-slate-800 transition-colors">
                             Chọn lại
                         </button>
                         <button onClick={start}
-                            className="flex-1 py-3 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-colors">
+                            className="flex-1 py-3 bg-primary-500 text-white rounded-xl font-bold hover:bg-primary-600 transition-colors">
                             Làm lại
                         </button>
                     </div>
@@ -161,45 +162,45 @@ const EnglishWritingTab = memo(({ vocabData, levelId }: { vocabData: any[], leve
     if (!currentWord) return null;
     return (
         <div className="max-w-lg mx-auto animate-fade-in mt-6">
-            <div className="flex justify-between items-center mb-4 text-sm text-gray-500">
+            <div className="flex justify-between items-center mb-4 text-sm text-slate-500 dark:text-slate-400">
                 <div className="flex items-center gap-3">
-                    <button onClick={() => setPhase('setup')} className="w-8 h-8 flex items-center justify-center rounded-full bg-red-50 text-red-500 hover:bg-red-100 hover:text-red-600 transition-colors" title="Thoát">
-                        <i className="fa-solid fa-xmark"></i>
+                    <button onClick={() => setPhase('setup')} className="w-8 h-8 flex items-center justify-center rounded-full bg-red-50 dark:bg-red-500/10 text-red-500 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-500/20 transition-colors" title="Thoát">
+                        <X className="w-4 h-4" />
                     </button>
-                    <span className="font-medium bg-gray-100 px-3 py-1 rounded-full">Câu {idx + 1}/{queue.length}</span>
+                    <span className="font-medium bg-slate-100 dark:bg-slate-800 px-3 py-1 rounded-full">Câu {idx + 1}/{queue.length}</span>
                 </div>
-                <div className="flex gap-3 bg-white px-3 py-1 rounded-full shadow-sm border border-gray-100">
-                    <span className="text-green-600 font-bold">✓ {stats.correct}</span>
-                    <span className="text-red-500 font-bold">✗ {stats.wrong}</span>
+                <div className="flex gap-3 bg-white dark:bg-slate-900 px-3 py-1 rounded-full shadow-sm border border-slate-100 dark:border-slate-800">
+                    <span className="text-green-600 dark:text-green-400 font-bold">✓ {stats.correct}</span>
+                    <span className="text-red-500 dark:text-red-400 font-bold">✗ {stats.wrong}</span>
                 </div>
             </div>
-            <div className="w-full h-1.5 bg-gray-100 rounded-full mb-5 overflow-hidden">
-                <div className="h-full bg-indigo-500 rounded-full transition-all"
+            <div className="w-full h-1.5 bg-slate-100 dark:bg-slate-800 rounded-full mb-5 overflow-hidden">
+                <div className="h-full bg-primary-500 rounded-full transition-all"
                     style={{ width: `${(idx / queue.length) * 100}%` }}></div>
             </div>
-            
-            <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 mb-4 text-center relative overflow-hidden">
-                <span className="text-xs font-bold px-3 py-1 rounded-full bg-indigo-100 text-indigo-700 uppercase mb-4 inline-block">
+
+            <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 mb-4 text-center relative overflow-hidden">
+                <span className="text-xs font-bold px-3 py-1 rounded-full bg-primary-100 dark:bg-primary-500/20 text-primary-700 dark:text-primary-300 uppercase mb-4 inline-block">
                     {currentWord.type}
                 </span>
-                <div className="text-3xl font-bold text-gray-800 mb-2">{currentWord.meaning}</div>
+                <div className="text-3xl font-bold text-slate-800 dark:text-slate-100 mb-2">{currentWord.meaning}</div>
                 <button onClick={() => playAudio(currentWord.word, true)}
-                    className="mt-2 w-10 h-10 rounded-full bg-indigo-50 text-indigo-600 flex items-center justify-center mx-auto hover:bg-indigo-100 transition-colors">
-                    <i className="fa-solid fa-volume-high"></i>
+                    className="mt-2 w-10 h-10 rounded-full bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 flex items-center justify-center mx-auto hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors">
+                    <Volume2 className="w-4 h-4" />
                 </button>
-                
+
                 {showHint && (
-                    <div className="mt-4 text-indigo-500 font-mono tracking-widest text-xl animate-fade-in">
+                    <div className="mt-4 text-primary-500 dark:text-primary-400 font-mono tracking-widest text-xl animate-fade-in">
                         {(currentWord.word || '').split('').map((c: string, i: number) => i === 0 ? c : '_').join(' ')}
                     </div>
                 )}
                 {!showHint && result !== 'correct' && (
-                    <button onClick={() => setShowHint(true)} className="mt-4 text-xs text-gray-400 hover:text-gray-600 font-medium">
-                        <i className="fa-regular fa-lightbulb"></i> Xem gợi ý
+                    <button onClick={() => setShowHint(true)} className="mt-4 text-xs text-slate-400 dark:text-slate-500 hover:text-slate-600 dark:hover:text-slate-300 font-medium inline-flex items-center gap-1">
+                        <Lightbulb className="w-3 h-3" /> Xem gợi ý
                     </button>
                 )}
             </div>
-            
+
             <div className="flex gap-2 mb-4">
                 <input ref={inputRef} type="text" value={input}
                     onChange={e => setInput(e.target.value)}
@@ -213,26 +214,26 @@ const EnglishWritingTab = memo(({ vocabData, levelId }: { vocabData: any[], leve
                     disabled={!!result}
                     placeholder="Gõ từ tiếng Anh..."
                     className={`flex-1 border-2 rounded-xl px-5 py-4 text-lg outline-none transition-colors
-                        ${result === 'correct' ? 'border-green-500 bg-green-50 text-green-700 font-bold' :
-                          result === 'wrong' ? 'border-red-400 bg-red-50 text-red-700 font-bold' :
-                          'border-gray-200 focus:border-indigo-400 bg-white text-gray-800'}`}
+                        ${result === 'correct' ? 'border-green-500 bg-green-50 dark:bg-green-500/10 text-green-700 dark:text-green-300 font-bold' :
+                          result === 'wrong' ? 'border-red-400 bg-red-50 dark:bg-red-500/10 text-red-700 dark:text-red-300 font-bold' :
+                          'border-slate-200 dark:border-slate-700 focus:border-primary-400 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100'}`}
                 />
                 {!result && (
-                    <button onClick={check} className="px-6 py-4 bg-indigo-600 text-white rounded-xl font-bold hover:bg-indigo-700 transition-colors">
-                        <i className="fa-solid fa-check"></i>
+                    <button onClick={check} className="px-6 py-4 bg-primary-500 text-white rounded-xl font-bold hover:bg-primary-600 transition-colors">
+                        <Check className="w-5 h-5" />
                     </button>
                 )}
             </div>
-            
+
             {result === 'wrong' && (
-                <div className="bg-red-50 border border-red-200 rounded-xl p-4 animate-fade-in mb-4">
-                    <p className="text-red-600 font-bold">✗ Đáp án đúng: <span className="font-mono text-red-700 text-lg ml-1">{currentWord.word}</span></p>
+                <div className="bg-red-50 dark:bg-red-500/10 border border-red-200 dark:border-red-500/30 rounded-xl p-4 animate-fade-in mb-4">
+                    <p className="text-red-600 dark:text-red-400 font-bold">✗ Đáp án đúng: <span className="font-mono text-red-700 dark:text-red-300 text-lg ml-1">{currentWord.word}</span></p>
                 </div>
             )}
-            
+
             {result && (
-                <button onClick={handleNext} className="w-full py-4 bg-indigo-600 text-white rounded-2xl font-bold hover:bg-indigo-700 transition-colors animate-fade-in flex items-center justify-center gap-2">
-                    {idx < queue.length - 1 ? <>Câu tiếp theo <i className="fa-solid fa-arrow-right"></i></> : <>Xem kết quả <i className="fa-solid fa-flag-checkered"></i></>}
+                <button onClick={handleNext} className="w-full py-4 bg-primary-500 text-white rounded-2xl font-bold hover:bg-primary-600 transition-colors animate-fade-in flex items-center justify-center gap-2">
+                    {idx < queue.length - 1 ? <>Câu tiếp theo <ArrowRight className="w-4 h-4" /></> : <>Xem kết quả <Flag className="w-4 h-4" /></>}
                 </button>
             )}
         </div>
@@ -241,7 +242,7 @@ const EnglishWritingTab = memo(({ vocabData, levelId }: { vocabData: any[], leve
 
 // --- CHINESE WRITING TAB ---
 const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId: string }) => {
-    const [testState, setTestState] = useState('setup'); 
+    const [testState, setTestState] = useState('setup');
     const [questions, setQuestions] = useState<any[]>([]);
     const [currentQIdx, setCurrentQIdx] = useState(0);
     const [currentCharIdx, setCurrentCharIdx] = useState(0);
@@ -290,7 +291,8 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
         const container = canvasRef.current;
         if (!container) return;
         container.innerHTML = '';
-        
+
+        // Màu nét vẽ HanziWriter là tham số canvas (functional), giữ cố định để hiển thị đúng trên nền trắng
         writerRef.current = HanziWriterClass.current.create(container, currentChar, {
             width: 260, height: 260,
             strokeAnimationSpeed: 4,
@@ -299,7 +301,7 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
             showOutline: true,
             strokeColor: '#4f46e5',
         });
-        
+
         writerRef.current.animateCharacter({
             onComplete: () => {
                 setTimeout(() => {
@@ -324,7 +326,7 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
                                 return newArr;
                             });
                             setWordMistakes(prev => [...prev, mistakesCount]);
-                            
+
                             const word = questions[currentQIdx];
                             if (currentCharIdx + 1 < word.hanzi.length) {
                                 setTimeout(handleNextChar, 600);
@@ -343,11 +345,11 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
     const startTest = (num: number) => {
         const validWords = vocabData.filter(w => /^[\u4e00-\u9fa5]+$/.test(w.hanzi || ''));
         const shuffled = fisherYatesShuffle(validWords).slice(0, num);
-        setQuestions(shuffled); 
-        setCurrentQIdx(0); 
-        setCurrentCharIdx(0); 
+        setQuestions(shuffled);
+        setCurrentQIdx(0);
+        setCurrentCharIdx(0);
         setIsWordFinished(false);
-        setCharResults([]); 
+        setCharResults([]);
         setWordMistakes([]);
         setTestState('testing');
     };
@@ -358,16 +360,16 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
             if (!word) return;
             const char = word.hanzi[currentCharIdx];
             canvasRef.current.innerHTML = '';
-            
+
             try {
                 writerRef.current = HanziWriterClass.current.create(canvasRef.current, char, {
-                    width: 260, height: 260, padding: 15, showOutline: false, showCharacter: false, 
+                    width: 260, height: 260, padding: 15, showOutline: false, showCharacter: false,
                     strokeColor: '#4f46e5', radicalColor: '#16a34a', drawingColor: '#ec4899', drawingWidth: 15,
                     strokeAnimationSpeed: 4, delayBetweenStrokes: 10
                 });
                 let mistakesCount = 0;
                 writerRef.current.quiz({
-                    showHintAfterMisses: 3, 
+                    showHintAfterMisses: 3,
                     onMistake: () => { mistakesCount++; playSoundEffect('error'); },
                     onComplete: () => {
                         playSoundEffect('success');
@@ -378,12 +380,12 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
                             return newArr;
                         });
                         setWordMistakes(prev => [...prev, mistakesCount]);
-                        
+
                         if (currentCharIdx + 1 < word.hanzi.length) {
                             setTimeout(handleNextChar, 600);
-                        } else { 
-                            setIsWordFinished(true); 
-                            playAudio(word.hanzi, false); 
+                        } else {
+                            setIsWordFinished(true);
+                            playAudio(word.hanzi, false);
                             const total = [...wordMistakes, mistakesCount].reduce((a,b)=>a+b,0);
                             SRS.updateCard(levelId, word._uuid || word.id, total === 0);
                         }
@@ -394,15 +396,15 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
     }, [testState, currentQIdx, currentCharIdx, isWordFinished, questions]);
 
     const handleNextQuestion = () => {
-        if (currentQIdx + 1 < questions.length) { 
-            setCurrentQIdx(prev => prev + 1); 
-            setCurrentCharIdx(0); 
-            setIsWordFinished(false); 
+        if (currentQIdx + 1 < questions.length) {
+            setCurrentQIdx(prev => prev + 1);
+            setCurrentCharIdx(0);
+            setIsWordFinished(false);
             setCharResults([]);
             setWordMistakes([]);
-        } else { 
-            setTestState('finished'); 
-            playSoundEffect('success'); 
+        } else {
+            setTestState('finished');
+            playSoundEffect('success');
         }
     };
 
@@ -426,17 +428,17 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
 
     if (testState === 'setup') {
         return (
-            <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-sm border border-gray-100 p-10 text-center animate-fade-in mt-10">
-                <div className="w-24 h-24 bg-pink-100 text-pink-600 rounded-full flex items-center justify-center mx-auto mb-6"><i className="fa-solid fa-pen-nib text-4xl"></i></div>
-                <h2 className="text-3xl font-bold text-gray-800 mb-4">Kiểm Tra Năng Lực Viết</h2>
-                <p className="text-gray-600 mb-8 text-lg leading-relaxed">
+            <div className="max-w-2xl mx-auto bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-10 text-center animate-fade-in mt-10">
+                <div className="w-24 h-24 bg-primary-100 dark:bg-primary-500/20 text-primary-600 dark:text-primary-400 rounded-full flex items-center justify-center mx-auto mb-6"><PenTool className="w-10 h-10" /></div>
+                <h2 className="text-3xl font-bold text-slate-800 dark:text-slate-100 mb-4">Kiểm Tra Năng Lực Viết</h2>
+                <p className="text-slate-600 dark:text-slate-400 mb-8 text-lg leading-relaxed">
                     Đã đến lúc kiểm tra trí nhớ của bạn! Hãy viết ra chữ Hán tương ứng dựa trên Pinyin và Nghĩa.<br/>
-                    <span className="text-pink-500 font-bold">Lưu ý: Sẽ không có nét mờ nào để nhìn theo đâu nhé!</span>
+                    <span className="text-primary-500 dark:text-primary-400 font-bold">Lưu ý: Sẽ không có nét mờ nào để nhìn theo đâu nhé!</span>
                 </p>
                 <div className="flex justify-center gap-4 flex-wrap">
-                    <button onClick={() => startTest(5)} className="px-8 py-4 bg-pink-50 hover:bg-pink-100 text-pink-700 font-bold text-lg rounded-2xl transition-colors border border-pink-200">5 Câu</button>
-                    <button onClick={() => startTest(10)} className="px-8 py-4 bg-pink-500 hover:bg-pink-600 text-white font-bold text-lg rounded-2xl transition-colors shadow-lg shadow-pink-500/30">10 Câu</button>
-                    <button onClick={() => startTest(20)} className="px-8 py-4 bg-pink-50 hover:bg-pink-100 text-pink-700 font-bold text-lg rounded-2xl transition-colors border border-pink-200">20 Câu</button>
+                    <button onClick={() => startTest(5)} className="px-8 py-4 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 text-primary-700 dark:text-primary-300 font-bold text-lg rounded-2xl transition-colors border border-primary-200 dark:border-primary-500/30">5 Câu</button>
+                    <button onClick={() => startTest(10)} className="px-8 py-4 bg-primary-500 hover:bg-primary-600 text-white font-bold text-lg rounded-2xl transition-colors shadow-lg">10 Câu</button>
+                    <button onClick={() => startTest(20)} className="px-8 py-4 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 text-primary-700 dark:text-primary-300 font-bold text-lg rounded-2xl transition-colors border border-primary-200 dark:border-primary-500/30">20 Câu</button>
                 </div>
             </div>
         );
@@ -444,11 +446,11 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
 
     if (testState === 'finished') {
         return (
-            <div className="max-w-2xl mx-auto bg-white rounded-3xl shadow-sm border border-gray-100 p-10 text-center animate-fade-in mt-10">
-                <div className="w-24 h-24 bg-green-100 text-green-500 rounded-full flex items-center justify-center mx-auto mb-6"><i className="fa-solid fa-trophy text-5xl"></i></div>
-                <h2 className="text-4xl font-bold text-gray-800 mb-4">Hoàn Thành Xuất Sắc! 🎉</h2>
-                <p className="text-gray-600 mb-8 text-lg">Bạn đã tự tay viết chính xác {questions.length} từ vựng mà không cần nhìn mẫu.</p>
-                <button onClick={() => setTestState('setup')} className="bg-indigo-600 hover:bg-indigo-700 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors shadow-md">
+            <div className="max-w-2xl mx-auto bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-10 text-center animate-fade-in mt-10">
+                <div className="w-24 h-24 bg-green-100 dark:bg-green-500/20 text-green-500 dark:text-green-400 rounded-full flex items-center justify-center mx-auto mb-6"><Trophy className="w-11 h-11" /></div>
+                <h2 className="text-4xl font-bold text-slate-800 dark:text-slate-100 mb-4">Hoàn Thành Xuất Sắc! 🎉</h2>
+                <p className="text-slate-600 dark:text-slate-400 mb-8 text-lg">Bạn đã tự tay viết chính xác {questions.length} từ vựng mà không cần nhìn mẫu.</p>
+                <button onClick={() => setTestState('setup')} className="bg-primary-500 hover:bg-primary-600 text-white px-8 py-4 rounded-full font-bold text-lg transition-colors shadow-md">
                     Làm lại bài kiểm tra
                 </button>
             </div>
@@ -460,27 +462,27 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
 
     return (
         <div className="max-w-4xl mx-auto flex flex-col md:flex-row gap-8 animate-fade-in mt-6">
-            <div className="w-full md:w-1/3 bg-white rounded-3xl shadow-sm border border-gray-100 p-6 flex flex-col">
+            <div className="w-full md:w-1/3 bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-6 flex flex-col">
                 <div className="flex justify-between items-center mb-6">
-                    <div className="text-sm font-bold text-pink-500 uppercase tracking-widest bg-pink-50 px-3 py-1 rounded-full">
+                    <div className="text-sm font-bold text-primary-500 dark:text-primary-400 uppercase tracking-widest bg-primary-50 dark:bg-primary-500/10 px-3 py-1 rounded-full">
                         Tiến độ: Câu {currentQIdx + 1} / {questions.length}
                     </div>
-                    <button onClick={() => setTestState('setup')} className="w-8 h-8 flex items-center justify-center rounded-full bg-red-50 text-red-500 hover:bg-red-100 hover:text-red-600 transition-colors" title="Thoát">
-                        <i className="fa-solid fa-xmark"></i>
+                    <button onClick={() => setTestState('setup')} className="w-8 h-8 flex items-center justify-center rounded-full bg-red-50 dark:bg-red-500/10 text-red-500 dark:text-red-400 hover:bg-red-100 dark:hover:bg-red-500/20 transition-colors" title="Thoát">
+                        <X className="w-4 h-4" />
                     </button>
                 </div>
                 <div className="flex-1 flex flex-col justify-center items-center text-center">
-                    <p className="text-4xl font-bold text-indigo-600 mb-3 tracking-widest">{word.pinyin}</p>
-                    <p className="text-xl text-gray-600 mb-10 font-medium">{word.meaning}</p>
+                    <p className="text-4xl font-bold text-primary-600 dark:text-primary-400 mb-3 tracking-widest">{word.pinyin}</p>
+                    <p className="text-xl text-slate-600 dark:text-slate-300 mb-10 font-medium">{word.meaning}</p>
                     <div className="flex justify-center gap-3 mb-4 flex-wrap">
                         {word.hanzi.split('').map((char: string, i: number) => {
                             const isCompleted = i < currentCharIdx || isWordFinished;
                             const result = charResults[i];
                             return (
                                 <div key={i} className={`w-16 h-16 rounded-2xl flex items-center justify-center text-3xl font-bold border-2 transition-all duration-300 ${
-                                    isCompleted ? 'bg-green-50 border-green-400 text-green-600 shadow-sm' : 
-                                    i === currentCharIdx ? 'bg-pink-50 border-pink-400 text-pink-500 shadow-inner scale-110' : 
-                                    'bg-gray-50 border-gray-200 text-transparent'
+                                    isCompleted ? 'bg-green-50 dark:bg-green-500/10 border-green-400 dark:border-green-500/40 text-green-600 dark:text-green-400 shadow-sm' :
+                                    i === currentCharIdx ? 'bg-primary-50 dark:bg-primary-500/10 border-primary-400 dark:border-primary-500/50 text-primary-500 dark:text-primary-400 shadow-inner scale-110' :
+                                    'bg-slate-50 dark:bg-slate-800 border-slate-200 dark:border-slate-700 text-transparent'
                                 }`}>
                                     {isCompleted && result ? result.label : (isCompleted ? char : (i === currentCharIdx ? '?' : ''))}
                                 </div>
@@ -490,41 +492,42 @@ const WritingTestTab = memo(({ vocabData, levelId }: { vocabData: any[], levelId
                 </div>
                 {!isWordFinished && (
                     <div className="mt-auto flex flex-col gap-3">
-                        <button onClick={handleFullCharacterHint} className="w-full py-4 bg-pink-50 hover:bg-pink-100 text-pink-600 font-bold rounded-2xl transition-colors border border-pink-200 flex items-center justify-center gap-2">
-                            <i className="fa-regular fa-lightbulb"></i> Xem gợi ý
+                        <button onClick={handleFullCharacterHint} className="w-full py-4 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 text-primary-600 dark:text-primary-400 font-bold rounded-2xl transition-colors border border-primary-200 dark:border-primary-500/30 flex items-center justify-center gap-2">
+                            <Lightbulb className="w-4 h-4" /> Xem gợi ý
                         </button>
                     </div>
                 )}
             </div>
-            
-            <div className="w-full md:w-2/3 bg-white rounded-3xl shadow-sm border border-gray-100 p-8 flex flex-col items-center justify-center min-h-[450px] relative overflow-hidden">
+
+            <div className="w-full md:w-2/3 bg-white dark:bg-slate-900 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800 p-8 flex flex-col items-center justify-center min-h-[450px] relative overflow-hidden">
                 {!isWordFinished ? (
                     <>
-                        <p className="text-gray-500 mb-6 font-medium text-lg">
-                            Hãy tự vẽ chữ Hán thứ <span className="text-pink-500 font-bold text-2xl mx-1">{currentCharIdx + 1}</span> vào ô trống
+                        <p className="text-slate-500 dark:text-slate-400 mb-6 font-medium text-lg">
+                            Hãy tự vẽ chữ Hán thứ <span className="text-primary-500 dark:text-primary-400 font-bold text-2xl mx-1">{currentCharIdx + 1}</span> vào ô trống
                         </p>
-                        <div className="bg-gray-50 p-4 rounded-[2.5rem] shadow-inner border border-gray-200">
-                            <div ref={canvasRef} className="border-2 border-dashed border-gray-300 rounded-3xl bg-white touch-none cursor-crosshair overflow-hidden" style={{width: '260px', height: '260px'}}></div>
+                        {/* Canvas vẽ chữ luôn nền trắng (cố định) để nét chữ HanziWriter hiển thị rõ */}
+                        <div className="bg-slate-50 dark:bg-slate-800 p-4 rounded-[2.5rem] shadow-inner border border-slate-200 dark:border-slate-700">
+                            <div ref={canvasRef} className="border-2 border-dashed border-slate-300 rounded-3xl bg-white touch-none cursor-crosshair overflow-hidden" style={{width: '260px', height: '260px'}}></div>
                         </div>
                     </>
                 ) : (
                     <div className="text-center animate-fade-in flex flex-col items-center z-10">
-                        <div className="w-24 h-24 bg-green-100 text-green-500 rounded-full flex items-center justify-center text-5xl mb-6 shadow-sm">
-                            <i className="fa-solid fa-check"></i>
+                        <div className="w-24 h-24 bg-green-100 dark:bg-green-500/20 text-green-500 dark:text-green-400 rounded-full flex items-center justify-center mb-6 shadow-sm">
+                            <Check className="w-11 h-11" />
                         </div>
-                        <h3 className="text-7xl font-bold text-gray-800 mb-4">{word.hanzi}</h3>
-                        <p className="text-2xl text-green-600 mb-10 font-bold">Chính xác!</p>
-                        <button onClick={handleNextQuestion} className="bg-indigo-600 hover:bg-indigo-700 text-white px-10 py-4 rounded-2xl font-bold text-xl shadow-lg shadow-indigo-600/20 transition-all hover:-translate-y-1 flex items-center gap-3">
-                            Câu tiếp theo <i className="fa-solid fa-arrow-right"></i>
+                        <h3 className="text-7xl font-bold text-slate-800 dark:text-slate-100 mb-4">{word.hanzi}</h3>
+                        <p className="text-2xl text-green-600 dark:text-green-400 mb-10 font-bold">Chính xác!</p>
+                        <button onClick={handleNextQuestion} className="bg-primary-500 hover:bg-primary-600 text-white px-10 py-4 rounded-2xl font-bold text-xl shadow-lg transition-all hover:-translate-y-1 flex items-center gap-3">
+                            Câu tiếp theo <ArrowRight className="w-5 h-5" />
                         </button>
                     </div>
                 )}
-                
+
                 {/* Background decoration for success */}
                 {isWordFinished && (
                     <div className="absolute inset-0 pointer-events-none opacity-20">
                         <div className="absolute -top-20 -right-20 w-64 h-64 bg-green-400 rounded-full blur-3xl mix-blend-multiply"></div>
-                        <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-indigo-400 rounded-full blur-3xl mix-blend-multiply"></div>
+                        <div className="absolute -bottom-20 -left-20 w-64 h-64 bg-primary-400 rounded-full blur-3xl mix-blend-multiply"></div>
                     </div>
                 )}
             </div>
@@ -552,6 +555,6 @@ export function WritingTab({ vocabData, passagesData = [], levelId = 'hsk1' }: {
     if (isEnglish) {
         return <EnglishWritingTab vocabData={vocabData} levelId={levelId} />;
     }
-    
+
     return <WritingTestTab vocabData={vocabData} levelId={levelId} />;
 }

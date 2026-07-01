@@ -2,6 +2,7 @@
 
 import React, { useState, useMemo, useCallback, useEffect, useRef } from 'react';
 import { SpeechEngine } from '@/lib/speech-engine';
+import { Play, PenLine, Volume2, Mic, Square, XCircle, AlertTriangle, X } from 'lucide-react';
 
 const playSoundEffect = (type: 'success' | 'error') => {
     const audio = new Audio(`/audio/${type}.mp3`);
@@ -38,16 +39,17 @@ const SingleHanziWriter = ({ character }: { character: string }) => {
 
     return (
         <div className="flex flex-col items-center gap-3">
-            <div ref={containerRef} className="w-[180px] h-[180px] bg-white border-2 border-dashed border-indigo-200 rounded-xl overflow-hidden shadow-inner flex items-center justify-center"></div>
+            {/* Nền canvas luôn để trắng (cố định) vì nét chữ mẫu của HanziWriter không tự đổi theo dark mode */}
+            <div ref={containerRef} className="w-[180px] h-[180px] bg-white border-2 border-dashed border-primary-200 rounded-xl overflow-hidden shadow-inner flex items-center justify-center"></div>
             <div className="flex gap-2">
-                <button onClick={() => writerRef.current?.animateCharacter()} className="px-3 py-1.5 bg-indigo-50 text-indigo-600 rounded-lg text-sm font-bold hover:bg-indigo-100 transition-colors shadow-sm border border-indigo-100">
-                    <i className="fa-solid fa-play mr-1"></i> Vẽ mẫu
+                <button onClick={() => writerRef.current?.animateCharacter()} className="flex items-center gap-1.5 px-3 py-1.5 bg-primary-50 dark:bg-primary-500/10 text-primary-600 dark:text-primary-400 rounded-lg text-sm font-bold hover:bg-primary-100 dark:hover:bg-primary-500/20 transition-colors shadow-sm border border-primary-100 dark:border-primary-500/20">
+                    <Play className="w-3.5 h-3.5" /> Vẽ mẫu
                 </button>
                 <button onClick={() => writerRef.current?.quiz({
                     onMistake: () => playSoundEffect('error'),
                     onCorrectStroke: () => playSoundEffect('success'),
-                })} className="px-3 py-1.5 bg-green-50 text-green-600 rounded-lg text-sm font-bold hover:bg-green-100 transition-colors shadow-sm border border-green-100">
-                    <i className="fa-solid fa-pencil mr-1"></i> Tự viết
+                })} className="flex items-center gap-1.5 px-3 py-1.5 bg-green-50 dark:bg-green-500/10 text-green-600 dark:text-green-400 rounded-lg text-sm font-bold hover:bg-green-100 dark:hover:bg-green-500/20 transition-colors shadow-sm border border-green-100 dark:border-green-500/20">
+                    <PenLine className="w-3.5 h-3.5" /> Tự viết
                 </button>
             </div>
         </div>
@@ -77,18 +79,18 @@ const VocabCard = React.memo(({ word, onOpenDetail }: { word: any, onOpenDetail:
     return (
         <div
             onClick={() => onOpenDetail && onOpenDetail(word)}
-            className="bg-white rounded-2xl border border-gray-100 shadow-sm hover:shadow-md
+            className="bg-white dark:bg-slate-900 rounded-2xl border border-slate-100 dark:border-slate-800 shadow-sm hover:shadow-md
                 transition-all cursor-pointer active:scale-95 p-4 flex items-center gap-4">
 
             {/* CỘT TRÁI — Chữ Hán lớn */}
             <div className="flex-shrink-0 w-20 h-20 flex items-center justify-center
-                bg-indigo-50 rounded-xl border border-indigo-100">
+                bg-primary-50 dark:bg-primary-500/10 rounded-xl border border-primary-100 dark:border-primary-500/20">
                 {word.hanzi ? (
-                    <span className="text-4xl font-bold text-gray-800 leading-none">
+                    <span className="text-4xl font-bold text-slate-800 dark:text-slate-100 leading-none">
                         {word.hanzi}
                     </span>
                 ) : (
-                    <span className="text-2xl font-bold text-emerald-700 text-center leading-tight">
+                    <span className="text-2xl font-bold text-slate-800 dark:text-slate-100 text-center leading-tight">
                         {word.word}
                     </span>
                 )}
@@ -98,18 +100,18 @@ const VocabCard = React.memo(({ word, onOpenDetail }: { word: any, onOpenDetail:
             <div className="flex-1 min-w-0">
                 {/* Loại từ */}
                 <span className="inline-block text-xs font-bold px-2 py-0.5 rounded-full mb-1
-                    bg-indigo-100 text-indigo-700 uppercase tracking-wide">
+                    bg-primary-100 dark:bg-primary-500/20 text-primary-700 dark:text-primary-300 uppercase tracking-wide">
                     {word.type || 'N/A'}
                 </span>
                 {/* Pinyin / IPA */}
                 {word.pinyin && (
-                    <p className="text-indigo-500 font-medium text-sm mb-0.5">{word.pinyin}</p>
+                    <p className="text-primary-500 dark:text-primary-400 font-medium text-sm mb-0.5">{word.pinyin}</p>
                 )}
                 {word.ipa && (
-                    <p className="text-emerald-500 font-mono text-sm mb-0.5">{word.ipa}</p>
+                    <p className="text-primary-500 dark:text-primary-400 font-mono text-sm mb-0.5">{word.ipa}</p>
                 )}
                 {/* Nghĩa */}
-                <p className="text-gray-700 font-medium text-sm leading-snug truncate">
+                <p className="text-slate-700 dark:text-slate-300 font-medium text-sm leading-snug truncate">
                     {word.meaning}
                 </p>
             </div>
@@ -127,9 +129,9 @@ const VocabCard = React.memo(({ word, onOpenDetail }: { word: any, onOpenDetail:
                     }
                 }}
                 className="shrink-0 w-8 h-8 flex items-center justify-center
-                    text-gray-400 hover:text-indigo-600 hover:bg-indigo-50
+                    text-slate-400 dark:text-slate-500 hover:text-primary-600 dark:hover:text-primary-400 hover:bg-primary-50 dark:hover:bg-primary-500/10
                     rounded-full transition-colors">
-                <i className="fa-solid fa-volume-high text-sm"></i>
+                <Volume2 className="w-4 h-4" />
             </button>
         </div>
     );
@@ -200,35 +202,35 @@ const VocabReader = ({ word }: { word: any }) => {
     return (
         <div className="flex flex-col items-center gap-4 w-full">
             <button onClick={handleSpeak} className={`w-full flex items-center justify-center gap-2 py-4 rounded-2xl font-bold transition-all shadow-sm
-                ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' : 
-                  speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' : 
-                  'bg-green-50 text-green-700 hover:bg-green-100 border border-green-100'}`}>
-                <i className={`fa-solid ${speechState === 'listening' ? 'fa-stop' : 'fa-microphone'}`}></i>
+                ${speechState === 'listening' ? 'bg-red-500 text-white animate-pulse shadow-red-500/30' :
+                  speechState === 'success' ? 'bg-green-500 text-white shadow-green-500/30' :
+                  'bg-green-50 dark:bg-green-500/10 text-green-700 dark:text-green-400 hover:bg-green-100 dark:hover:bg-green-500/20 border border-green-100 dark:border-green-500/20'}`}>
+                {speechState === 'listening' ? <Square className="w-4 h-4" /> : <Mic className="w-4 h-4" />}
                 {speechState === 'listening' ? 'Đang nghe...' : 'Bấm để đọc'}
             </button>
 
             {score !== null && (
-                <div className="w-full bg-gray-50 rounded-2xl border border-gray-100 p-4 relative overflow-hidden">
+                <div className="w-full bg-slate-50 dark:bg-slate-800/60 rounded-2xl border border-slate-100 dark:border-slate-800 p-4 relative overflow-hidden">
                     <div className="flex items-center justify-between mb-3 relative z-10">
-                        <span className="text-sm font-bold text-gray-800">{scoreLabel}</span>
+                        <span className="text-sm font-bold text-slate-800 dark:text-slate-100">{scoreLabel}</span>
                         <span className={`text-xl font-black ${score >= 80 ? 'text-green-500' : score >= 50 ? 'text-yellow-500' : 'text-red-500'}`}>
                             {score}%
                         </span>
                     </div>
-                    <div className="w-full h-2 bg-gray-200 rounded-full overflow-hidden mb-3 relative z-10">
+                    <div className="w-full h-2 bg-slate-200 dark:bg-slate-700 rounded-full overflow-hidden mb-3 relative z-10">
                         <div className={`h-full rounded-full transition-all duration-700 ease-out ${barColor}`} style={{ width: `${score}%` }}></div>
                     </div>
                     {heard && (
-                        <div className="bg-white p-3 rounded-lg relative z-10 border border-gray-100 shadow-sm">
-                            <p className="text-[10px] text-gray-400 mb-0.5 uppercase tracking-wider font-bold">Hệ thống nghe được:</p>
-                            <p className="text-base font-bold text-gray-700">{heard}</p>
+                        <div className="bg-white dark:bg-slate-900 p-3 rounded-lg relative z-10 border border-slate-100 dark:border-slate-800 shadow-sm">
+                            <p className="text-[10px] text-slate-400 dark:text-slate-500 mb-0.5 uppercase tracking-wider font-bold">Hệ thống nghe được:</p>
+                            <p className="text-base font-bold text-slate-700 dark:text-slate-200">{heard}</p>
                         </div>
                     )}
                 </div>
             )}
             {speechState === 'error' && score === null && heard && (
-                <div className="w-full text-center text-xs font-medium text-red-500 bg-red-50 rounded-xl p-3 border border-red-100">
-                    <i className="fa-solid fa-triangle-exclamation mr-1"></i> {heard}
+                <div className="w-full flex items-center gap-2 text-center text-xs font-medium text-red-500 dark:text-red-400 bg-red-50 dark:bg-red-500/10 rounded-xl p-3 border border-red-100 dark:border-red-500/20">
+                    <AlertTriangle className="w-3.5 h-3.5 flex-shrink-0" /> {heard}
                 </div>
             )}
         </div>
@@ -249,16 +251,16 @@ export const VocabDetailModal = React.memo(({ word, onClose }: { word: any, onCl
             justifyContent: 'center',
             padding: '16px'
         }} onClick={onClose}>
-            <div className="bg-white rounded-3xl shadow-2xl w-full max-w-md overflow-hidden animate-fade-in" onClick={e => e.stopPropagation()}>
+            <div className="bg-white dark:bg-slate-900 rounded-3xl shadow-2xl w-full max-w-md overflow-hidden animate-fade-in" onClick={e => e.stopPropagation()}>
 
-                {/* Header */}
-                <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-6">
+                {/* Header — luôn dùng accent đậm làm dải màu thương hiệu, không phụ thuộc light/dark */}
+                <div className="bg-gradient-to-br from-primary-600 to-primary-700 text-white p-6">
                     <div className="flex justify-between items-start">
                         <div>
                             <div className="text-6xl font-bold mb-2">{word.hanzi || word.word}</div>
                             <div className="flex items-center gap-2">
-                                {word.pinyin && <span className="text-indigo-200 text-lg">{word.pinyin}</span>}
-                                {word.ipa && <span className="text-emerald-200 text-lg">{word.ipa}</span>}
+                                {word.pinyin && <span className="text-primary-100 text-lg">{word.pinyin}</span>}
+                                {word.ipa && <span className="text-primary-100 text-lg">{word.ipa}</span>}
                                 <span className="text-xs bg-white/20 px-2 py-0.5 rounded-full">
                                     {word.type || 'N/A'}
                                 </span>
@@ -266,7 +268,7 @@ export const VocabDetailModal = React.memo(({ word, onClose }: { word: any, onCl
                         </div>
                         <button onClick={onClose}
                             className="text-white/70 hover:text-white w-8 h-8 flex items-center justify-center rounded-full hover:bg-white/10">
-                            <i className="fa-solid fa-xmark text-xl"></i>
+                            <X className="w-5 h-5" />
                         </button>
                     </div>
                 </div>
@@ -275,15 +277,15 @@ export const VocabDetailModal = React.memo(({ word, onClose }: { word: any, onCl
                 <div className="p-6 space-y-4">
                     {/* Nghĩa & Ví dụ */}
                     <div className="flex flex-col gap-3">
-                        <div className="flex items-center gap-3 bg-gray-50 rounded-2xl p-4">
+                        <div className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800/60 rounded-2xl p-4">
                             <span className="text-2xl">📖</span>
-                            <span className="text-xl font-medium text-gray-800">{word.meaning}</span>
+                            <span className="text-xl font-medium text-slate-800 dark:text-slate-100">{word.meaning}</span>
                         </div>
                         {(word.example_en || word.example) && (
-                            <div className="bg-blue-50/50 rounded-2xl p-4 border border-blue-100">
-                                <h4 className="text-[10px] font-bold text-blue-500 uppercase tracking-widest mb-1">Ví dụ minh họa</h4>
-                                <p className="text-blue-900 font-medium">{word.example_en || word.example}</p>
-                                {word.example_vi && <p className="text-blue-700/70 text-sm mt-1">{word.example_vi}</p>}
+                            <div className="bg-primary-50/50 dark:bg-primary-500/10 rounded-2xl p-4 border border-primary-100 dark:border-primary-500/20">
+                                <h4 className="text-[10px] font-bold text-primary-600 dark:text-primary-400 uppercase tracking-widest mb-1">Ví dụ minh họa</h4>
+                                <p className="text-primary-900 dark:text-primary-100 font-medium">{word.example_en || word.example}</p>
+                                {word.example_vi && <p className="text-primary-700/70 dark:text-primary-300/70 text-sm mt-1">{word.example_vi}</p>}
                             </div>
                         )}
                     </div>
@@ -300,39 +302,39 @@ export const VocabDetailModal = React.memo(({ word, onClose }: { word: any, onCl
                                     window.speechSynthesis.speak(u);
                                 }
                             }}
-                            className="flex flex-col items-center justify-center gap-1 py-3 bg-blue-50 hover:bg-blue-100 text-blue-700 rounded-2xl font-medium transition-colors text-sm">
-                            <i className="fa-solid fa-volume-high text-lg"></i> Nghe
+                            className="flex flex-col items-center justify-center gap-1 py-3 bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 text-primary-700 dark:text-primary-300 rounded-2xl font-medium transition-colors text-sm">
+                            <Volume2 className="w-4 h-4" /> Nghe
                         </button>
 
                         <button
                             onClick={() => setActiveTab(activeTab === 'reader' ? null : 'reader')}
                             className={`flex flex-col items-center justify-center gap-1 py-3 rounded-2xl font-medium transition-colors text-sm
-                                ${activeTab === 'reader' ? 'bg-green-600 text-white shadow-md' : 'bg-green-50 hover:bg-green-100 text-green-700'}`}>
-                            <i className="fa-solid fa-microphone text-lg"></i> Đọc
+                                ${activeTab === 'reader' ? 'bg-green-600 text-white shadow-md' : 'bg-green-50 dark:bg-green-500/10 hover:bg-green-100 dark:hover:bg-green-500/20 text-green-700 dark:text-green-400'}`}>
+                            <Mic className="w-4 h-4" /> Đọc
                         </button>
 
                         {word.hanzi ? (
                             <button
                                 onClick={() => setActiveTab(activeTab === 'writer' ? null : 'writer')}
                                 className={`flex flex-col items-center justify-center gap-1 py-3 rounded-2xl font-medium transition-colors text-sm
-                                    ${activeTab === 'writer' ? 'bg-indigo-600 text-white shadow-md' : 'bg-indigo-50 hover:bg-indigo-100 text-indigo-700'}`}>
-                                <i className="fa-solid fa-pencil text-lg"></i> Viết
+                                    ${activeTab === 'writer' ? 'bg-primary-600 text-white shadow-md' : 'bg-primary-50 dark:bg-primary-500/10 hover:bg-primary-100 dark:hover:bg-primary-500/20 text-primary-700 dark:text-primary-300'}`}>
+                                <PenLine className="w-4 h-4" /> Viết
                             </button>
                         ) : (
-                            <div className="flex flex-col items-center justify-center gap-1 py-3 bg-gray-50 text-gray-400 rounded-2xl font-medium text-sm cursor-not-allowed">
-                                <i className="fa-solid fa-pencil text-lg"></i> Viết
+                            <div className="flex flex-col items-center justify-center gap-1 py-3 bg-slate-50 dark:bg-slate-800/60 text-slate-400 dark:text-slate-600 rounded-2xl font-medium text-sm cursor-not-allowed">
+                                <PenLine className="w-4 h-4" /> Viết
                             </div>
                         )}
                     </div>
-                    
+
                     {activeTab === 'writer' && word.hanzi && (
-                        <div className="mt-2 animate-fade-in border-t border-gray-100 pt-6">
+                        <div className="mt-2 animate-fade-in border-t border-slate-100 dark:border-slate-800 pt-6">
                             <VocabHanziWriter character={word.hanzi} />
                         </div>
                     )}
 
                     {activeTab === 'reader' && (
-                        <div className="mt-2 animate-fade-in border-t border-gray-100 pt-6">
+                        <div className="mt-2 animate-fade-in border-t border-slate-100 dark:border-slate-800 pt-6">
                             <VocabReader word={word} />
                         </div>
                     )}
@@ -396,31 +398,43 @@ export function VocabTab({ vocabData }: { vocabData: any[] }) {
 
     return (
         <div className="max-w-7xl mx-auto px-4 py-8">
-            <h1 className="text-3xl font-bold text-gray-800 mb-8">Từ điển tổng hợp ({totalCount} từ)</h1>
-            <div className="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 mb-6 animate-fade-in">
+            {/* Hero panel */}
+            <div className="relative overflow-hidden rounded-3xl border border-primary-100/70 dark:border-primary-500/10 bg-gradient-to-br from-primary-50 via-white to-white dark:from-primary-500/10 dark:via-slate-900 dark:to-slate-900 p-6 sm:p-8 mb-6">
+                <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-white">
+                    Từ điển tổng hợp
+                </h1>
+                <p className="text-sm text-slate-500 dark:text-slate-400 mt-1">{totalCount} từ đã mở khóa</p>
+            </div>
+
+            <div className="bg-white dark:bg-slate-900 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800 p-6 mb-6 animate-fade-in">
                 <div className="flex flex-col gap-3 mb-5">
                     <div className="flex-1">
-                        <input value={searchTerm} onChange={e => setSearchTerm(e.target.value)} placeholder="Tìm bằng chữ Hán, pinyin hoặc tiếng Việt..." className="w-full px-4 py-3 border border-gray-200 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-indigo-300" />
+                        <input
+                            value={searchTerm}
+                            onChange={e => setSearchTerm(e.target.value)}
+                            placeholder="Tìm bằng chữ Hán, pinyin hoặc tiếng Việt..."
+                            className="w-full px-4 py-3 border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-100 placeholder:text-slate-400 dark:placeholder:text-slate-500 rounded-2xl shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-300 dark:focus:ring-primary-500/40"
+                        />
                     </div>
                     <div className="flex flex-wrap items-center gap-3">
                         <button type="button" onClick={() => setSearchMode('meaning')}
-                            className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'meaning' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                            className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'meaning' ? 'bg-primary-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'}`}>
                             🇻🇳 Tiếng Việt
                         </button>
                         {vocabData[0]?.hanzi ? (
                             <>
                                 <button type="button" onClick={() => setSearchMode('hanzi')}
-                                    className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'hanzi' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                                    className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'hanzi' ? 'bg-primary-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'}`}>
                                     🀄 Hán tự
                                 </button>
                                 <button type="button" onClick={() => setSearchMode('pinyin')}
-                                    className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'pinyin' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                                    className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'pinyin' ? 'bg-primary-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'}`}>
                                     🔤 Pinyin
                                 </button>
                             </>
                         ) : (
                             <button type="button" onClick={() => setSearchMode('word')}
-                                className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'word' ? 'bg-indigo-600 text-white' : 'bg-gray-100 text-gray-600 hover:bg-gray-200'}`}>
+                                className={`px-4 py-3 rounded-2xl text-sm font-semibold transition ${searchMode === 'word' ? 'bg-primary-500 text-white' : 'bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700'}`}>
                                 🇬🇧 Tiếng Anh
                             </button>
                         )}
@@ -428,14 +442,14 @@ export function VocabTab({ vocabData }: { vocabData: any[] }) {
                 </div>
 
                 {searchTerm.trim() !== '' && resultCount === 0 ? (
-                    <div className="border border-dashed border-red-200 rounded-3xl py-16 text-center text-red-600">
-                        <div className="flex justify-center mb-4"><i className="fa-solid fa-circle-xmark text-4xl"></i></div>
+                    <div className="border border-dashed border-red-200 dark:border-red-500/30 rounded-3xl py-16 text-center text-red-600 dark:text-red-400">
+                        <div className="flex justify-center mb-4"><XCircle className="w-10 h-10" /></div>
                         <p className="text-lg font-semibold">Không tìm thấy từ nào phù hợp</p>
                     </div>
                 ) : (
                     <>
-                        <div className="text-sm text-gray-500 mb-4">
-                            Đang hiển thị <span className="font-semibold text-gray-800">{visibleWords.length}</span> / {resultCount} kết quả
+                        <div className="text-sm text-slate-500 dark:text-slate-400 mb-4">
+                            Đang hiển thị <span className="font-semibold text-slate-800 dark:text-slate-100">{visibleWords.length}</span> / {resultCount} kết quả
                         </div>
                         <VocabGrid vocabList={visibleWords} onOpenDetail={handleOpenDetail} />
                     </>
