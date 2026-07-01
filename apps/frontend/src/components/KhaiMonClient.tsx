@@ -5,7 +5,7 @@
 // Mục đích: Render nội dung bài Khai môn theo Step Flow (từng bước)
 // Không thay đổi gì khác.
 
-import React, { useMemo, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 
@@ -290,6 +290,20 @@ export default function KhaiMonClient({
 
   const step = steps[currentStep];
 
+  // Chế độ tập trung khi học: ẩn nav site trên (mobile) + tab đáy — xem body.lesson-focus trong globals.css
+  useEffect(() => {
+    document.body.classList.add('lesson-focus');
+    return () => document.body.classList.remove('lesson-focus');
+  }, []);
+
+  // Đổi bước → tự cuộn về đầu trang, khỏi phải tự cuộn lên
+  useEffect(() => {
+    const toTop = () => window.scrollTo(0, 0);
+    toTop();
+    const id = requestAnimationFrame(toTop);
+    return () => cancelAnimationFrame(id);
+  }, [currentStep]);
+
   const handleNext = () => {
     if (currentStep < steps.length - 1) {
       setCurrentStep((prev) => prev + 1);
@@ -322,21 +336,31 @@ export default function KhaiMonClient({
   return (
     <div className="min-h-screen bg-slate-50 dark:bg-slate-950">
       {/* Header cố định */}
-      <div className="sticky top-0 z-10 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-4 py-3 space-y-2">
+      <div className="sticky top-0 z-10 bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 px-4 py-2.5 sm:py-3 sm:space-y-2">
         <div className="flex items-center gap-3">
           <button
             onClick={onBack}
-            className="p-2 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-500"
+            className="p-2 -ml-1 rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors text-slate-500 flex-shrink-0"
           >
             ←
           </button>
-          <div className="flex-1 min-w-0">
+          {/* Tên bài chỉ hiện desktop — mobile ẩn cho gọn (chế độ tập trung) */}
+          <div className="hidden sm:block flex-1 min-w-0">
             <p className="text-xs text-slate-400 dark:text-slate-500 truncate">{programName}</p>
             <p className="font-semibold text-slate-800 dark:text-white text-sm truncate">{lesson.title}</p>
           </div>
+          {/* Progress — trên mobile nằm cùng hàng nút back cho gọn */}
+          <div className="flex sm:hidden items-center gap-2 flex-1">
+            <div className="flex-1 h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
+              <div className="h-full bg-primary-500 transition-all duration-300" style={{ width: `${((currentStep + 1) / steps.length) * 100}%` }} />
+            </div>
+            <span className="text-sm font-medium text-slate-500 dark:text-slate-400 whitespace-nowrap">
+              {currentStep + 1} / {steps.length}
+            </span>
+          </div>
         </div>
-        {/* Progress bar */}
-        <div className="flex items-center gap-2">
+        {/* Progress — desktop xuống hàng riêng (giữ như cũ) */}
+        <div className="hidden sm:flex items-center gap-2">
           <div className="flex-1 h-2 bg-slate-100 dark:bg-slate-800 rounded-full overflow-hidden">
             <div
               className="h-full bg-primary-500 transition-all duration-300"
@@ -350,7 +374,7 @@ export default function KhaiMonClient({
       </div>
 
       {/* Nội dung từng bước */}
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-2xl mx-auto px-4 py-6 sm:py-8">
         {step.kind === "theory" && (
           <section>
             <div className="flex items-center gap-2 mb-4">

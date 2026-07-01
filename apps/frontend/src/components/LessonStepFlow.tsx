@@ -130,6 +130,12 @@ export default function LessonStepFlow({
     window.speechSynthesis.onvoiceschanged = loadVoices;
   }, []);
 
+  // Chế độ tập trung khi học: ẩn nav site trên (mobile) + tab đáy — xem body.lesson-focus trong globals.css
+  useEffect(() => {
+    document.body.classList.add('lesson-focus');
+    return () => document.body.classList.remove('lesson-focus');
+  }, []);
+
   const isZH = vocabItems?.[0]?.hanzi && !vocabItems?.[0]?.word;
   const defaultLang = isZH ? 'zh-CN' : 'en-US';
   const speak = (text: string, lang = defaultLang, onEnd?: () => void) => {
@@ -225,6 +231,14 @@ export default function LessonStepFlow({
 
   const step = steps[currentStep];
 
+  // Mỗi khi đổi bước (Tiếp theo / Trước / xong test) tự cuộn về đầu trang, người dùng khỏi phải tự cuộn lên
+  useEffect(() => {
+    const toTop = () => window.scrollTo(0, 0);
+    toTop();
+    const id = requestAnimationFrame(toTop); // chạy lại sau khi vẽ xong, phòng effect con cuộn lại
+    return () => cancelAnimationFrame(id);
+  }, [currentStep]);
+
   const handleNextStep = () => {
     if (currentStep < steps.length - 1) {
       setCurrentStep((prev) => prev + 1);
@@ -268,18 +282,17 @@ export default function LessonStepFlow({
     <SpeechContext.Provider value={{ settings: { rate: speechRate, voiceURI: selectedVoiceURI }, speak }}>
       <div className="min-h-screen bg-slate-50 flex flex-col">
         {/* Topbar */}
-        <div className="bg-white border-b sticky top-0 z-10 px-4 py-3 flex items-center justify-between shadow-sm gap-3">
-          <div className="flex items-center gap-3">
-            <button
-              onClick={() => onBack ? onBack() : window.history.back()}
-              className="p-2 rounded-lg hover:bg-slate-100 text-slate-500 transition-colors"
-            >
-              ←
-            </button>
-            <div className="font-semibold text-slate-800">{lessonTitle}</div>
-          </div>
+        <div className="bg-white border-b sticky top-0 z-10 px-3 sm:px-4 py-2.5 sm:py-3 flex items-center gap-2 sm:gap-3 shadow-sm">
+          <button
+            onClick={() => onBack ? onBack() : window.history.back()}
+            className="p-2 -ml-1 rounded-lg hover:bg-slate-100 text-slate-500 transition-colors flex-shrink-0"
+          >
+            ←
+          </button>
+          {/* Tên bài chỉ hiện trên desktop — vào bài trên mobile ẩn cho gọn (chế độ tập trung) */}
+          <div className="hidden sm:block font-semibold text-slate-800 truncate flex-1">{lessonTitle}</div>
 
-          <div className="flex items-center gap-3 ml-auto">
+          <div className="flex items-center gap-2 sm:gap-3 ml-auto">
 
             {/* Chọn giọng đọc */}
             {voices.length > 1 && (
@@ -316,13 +329,13 @@ export default function LessonStepFlow({
 
             {/* Progress */}
             <div className="flex items-center gap-2">
-              <div className="w-24 h-2 bg-slate-100 rounded-full overflow-hidden">
+              <div className="w-20 sm:w-24 h-2 bg-slate-100 rounded-full overflow-hidden">
                 <div
                   className="h-full bg-blue-500 transition-all duration-300"
                   style={{ width: `${((currentStep + 1) / steps.length) * 100}%` }}
                 />
               </div>
-              <span className="text-sm font-medium text-slate-500 whitespace-nowrap">
+              <span className="hidden sm:inline text-sm font-medium text-slate-500 whitespace-nowrap">
                 {currentStep + 1} / {steps.length}
               </span>
             </div>
@@ -382,18 +395,20 @@ function VocabStep({ data, onNext, onPrev }: { data: any[]; onNext: () => void; 
   const { speak } = React.useContext(SpeechContext);
   const isZH = data?.[0]?.hanzi && !data?.[0]?.word;
   const [detailWord, setDetailWord] = useState<any | null>(null);
+  // Ví dụ ẩn/hiện theo từng thẻ — chỉ áp dụng trên mobile (desktop luôn hiện, xem class sm:block)
+  const [expandedEx, setExpandedEx] = useState<Record<number, boolean>>({});
 
   return (
     <div className="flex flex-col flex-1">
-      <h2 className="text-2xl font-bold text-slate-800 mb-6 flex justify-between items-center">
+      <h2 className="text-xl sm:text-2xl font-bold text-slate-800 mb-4 sm:mb-6 flex justify-between items-center gap-3">
         <span>Từ vựng mới</span>
-        {isZH && <span className="text-sm font-normal text-indigo-500 bg-indigo-50 px-3 py-1 rounded-full"><i className="fa-solid fa-mouse-pointer mr-2"></i>Bấm vào thẻ từ để luyện viết chữ</span>}
+        {isZH && <span className="hidden sm:inline-block text-sm font-normal text-indigo-500 bg-indigo-50 px-3 py-1 rounded-full flex-shrink-0"><i className="fa-solid fa-mouse-pointer mr-2"></i>Bấm vào thẻ từ để luyện viết chữ</span>}
       </h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 flex-1">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 flex-1">
         {data.map((item, idx) => (
-          <div key={idx} 
+          <div key={idx}
                onClick={() => setDetailWord(item)}
-               className="bg-white p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center relative cursor-pointer hover:shadow-md hover:border-indigo-200 transition-all group">
+               className="bg-white p-4 sm:p-6 rounded-2xl shadow-sm border border-slate-100 flex flex-col items-center justify-center text-center relative cursor-pointer hover:shadow-md hover:border-indigo-200 transition-all group">
             <button
               onClick={(e) => { e.stopPropagation(); speak(item.hanzi || item.word); }}
               className="absolute top-3 right-3 w-8 h-8 flex items-center justify-center rounded-full bg-blue-50 hover:bg-blue-100 text-blue-500 transition-colors z-10"
@@ -420,24 +435,36 @@ function VocabStep({ data, onNext, onPrev }: { data: any[]; onNext: () => void; 
             )}
             <div className="text-lg text-slate-600 mb-4">{item.meaning}</div>
             {(item.example_en || item.example_zh) && (
-              <div
-                onClick={(e) => { e.stopPropagation(); speak(item.example_en || item.example_zh); }}
-                className="text-sm bg-blue-50 text-blue-800 p-3 rounded-lg w-full cursor-pointer hover:bg-blue-100 transition-colors group/ex mt-4"
-              >
-                <div className="flex items-center justify-between mb-1">
-                  <span className="text-xs text-blue-400 group-hover:text-blue-600">Nhấn để nghe ví dụ</span>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400">
-                    <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
-                    <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+              <div className="w-full mt-4">
+                {/* Nút bật/tắt ví dụ — chỉ hiện trên mobile để bớt cuộn; desktop luôn hiện ví dụ */}
+                <button
+                  onClick={(e) => { e.stopPropagation(); setExpandedEx(prev => ({ ...prev, [idx]: !prev[idx] })); }}
+                  className="sm:hidden w-full flex items-center justify-center gap-1 text-xs font-medium text-blue-500 py-1.5 rounded-lg hover:bg-blue-50 transition-colors"
+                >
+                  {expandedEx[idx] ? 'Ẩn ví dụ' : 'Xem ví dụ'}
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className={`transition-transform ${expandedEx[idx] ? 'rotate-180' : ''}`}>
+                    <polyline points="6 9 12 15 18 9"/>
                   </svg>
-                </div>
-                <div>{item.example_en || item.example_zh}</div>
-                {(item.example_py || item.example_zh) && (
-                  <div className="text-indigo-400 text-xs mb-1 font-medium">
-                    {item.example_py || (item.example_zh ? pinyin(item.example_zh) : '')}
+                </button>
+                <div
+                  onClick={(e) => { e.stopPropagation(); speak(item.example_en || item.example_zh); }}
+                  className={`${expandedEx[idx] ? 'block' : 'hidden'} sm:block text-sm bg-blue-50 text-blue-800 p-3 rounded-lg w-full cursor-pointer hover:bg-blue-100 transition-colors mt-2 sm:mt-0`}
+                >
+                  <div className="flex items-center justify-between mb-1">
+                    <span className="text-xs text-blue-400">Nhấn để nghe ví dụ</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="text-blue-400">
+                      <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"/>
+                      <path d="M15.54 8.46a5 5 0 0 1 0 7.07"/>
+                    </svg>
                   </div>
-                )}
-                <div className="text-blue-600/80">{item.example_vi}</div>
+                  <div>{item.example_en || item.example_zh}</div>
+                  {(item.example_py || item.example_zh) && (
+                    <div className="text-indigo-400 text-xs mb-1 font-medium">
+                      {item.example_py || (item.example_zh ? pinyin(item.example_zh) : '')}
+                    </div>
+                  )}
+                  <div className="text-blue-600/80">{item.example_vi}</div>
+                </div>
               </div>
             )}
           </div>

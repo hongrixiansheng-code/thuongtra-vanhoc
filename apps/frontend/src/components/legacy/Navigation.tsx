@@ -110,7 +110,7 @@ export function Navigation() {
     const btnColor = currentSubject?.color || 'bg-indigo-500';
 
     return (
-        <header className="bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
+        <header className="site-topnav bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
             <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-4">
                 {/* Logo */}
                 <Link href="/" className="flex items-center gap-2 shrink-0">

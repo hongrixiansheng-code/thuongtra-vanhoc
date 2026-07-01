@@ -115,6 +115,13 @@
 
 .mobile-bottom-nav { display: none; }
 
+/* Chế độ tập trung khi vào bài học (body.lesson-focus do LessonStepFlow bật) —
+   ẩn tab đáy ở mọi khổ, và ẩn nav site trên chỉ trên mobile để còn 1 thanh gọn */
+body.lesson-focus .mobile-bottom-nav { display: none !important; }
+@media (max-width: 767px) {
+  body.lesson-focus .site-topnav { display: none !important; }
+}
+
 @keyframes slideUp {
     from { transform: translateY(100%); opacity: 0; }
     to   { transform: translateY(0);    opacity: 1; }

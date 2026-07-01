@@ -169,7 +169,7 @@ export default function DashboardClient({ lessons, programName, programCode, isP
         {nextLesson ? (
           <button
             onClick={() => setActiveLessonId(nextLesson.id)}
-            className="group inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold transition-colors active:scale-[0.98]"
+            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-3 sm:py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold transition-colors active:scale-[0.98]"
           >
             Tiếp tục: {nextLesson.title}
             <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
@@ -182,9 +182,23 @@ export default function DashboardClient({ lessons, programName, programCode, isP
         ) : null}
       </div>
 
+      {/* Lối tắt luyện tập — hàng chip cuộn ngang, chỉ hiện trên mobile (desktop dùng sidebar bên phải) */}
+      <div className="lg:hidden flex gap-2 overflow-x-auto scrollbar-hide -mx-1 px-1 pb-1 mb-4">
+        {quickLinks.map(({ label, href, icon: Icon }) => (
+          <Link
+            key={label}
+            href={href}
+            className="flex-shrink-0 inline-flex items-center gap-1.5 px-3 py-2 rounded-full border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 text-xs font-medium text-slate-600 dark:text-slate-300 active:scale-[0.98] transition-transform"
+          >
+            <Icon className="w-3.5 h-3.5 text-slate-400 dark:text-slate-500 flex-shrink-0" />
+            {label}
+          </Link>
+        ))}
+      </div>
+
       <div className="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-6">
         {/* Danh sách bài học — lưới dày, không tách section theo theme */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-4 content-start">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:gap-4 content-start">
           {lessons.map((lesson, idx) => {
             const status = statusById.get(lesson.id)!;
             const { isProgressLocked, isPremiumLocked, isLocked, isCompleted } = status;
@@ -196,7 +210,7 @@ export default function DashboardClient({ lessons, programName, programCode, isP
                 key={lesson.id}
                 onClick={() => !isLocked && setActiveLessonId(lesson.id)}
                 disabled={isLocked}
-                className={`group relative text-left p-5 rounded-2xl border transition-all duration-200
+                className={`group relative text-left p-4 sm:p-5 rounded-2xl border transition-all duration-200
                   ${isLocked
                     ? 'border-slate-100 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-900/40 opacity-60 cursor-not-allowed'
                     : isNext
@@ -224,7 +238,7 @@ export default function DashboardClient({ lessons, programName, programCode, isP
                       </span>
                       <span className="font-semibold text-slate-800 dark:text-slate-200 text-sm whitespace-pre-line leading-relaxed">{lesson.title}</span>
                     </div>
-                    <div className="flex gap-3 text-xs text-slate-400 dark:text-slate-500 pl-8">
+                    <div className="hidden sm:flex gap-3 text-xs text-slate-400 dark:text-slate-500 pl-8">
                       {programCode === 'khai-mon' ? (
                         <>
                           {(lesson.vocab?.length || 0) > 0 && <span>Lý thuyết</span>}
@@ -261,7 +275,7 @@ export default function DashboardClient({ lessons, programName, programCode, isP
         </div>
 
         {/* Sidebar: tiến độ tổng quan + lối tắt luyện tập */}
-        <aside className="lg:sticky lg:top-24 h-fit space-y-4">
+        <aside className="hidden lg:block lg:sticky lg:top-24 h-fit space-y-4">
           <div className="rounded-2xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 p-5 flex items-center gap-4">
             <ProgressRing percent={progressPercent} />
             <div>
