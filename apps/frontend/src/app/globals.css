@@ -5,7 +5,7 @@
 /*
  * Giá trị lưu dạng "R G B" (không phải hex) để Tailwind tính được opacity modifier
  * (vd bg-primary-500/10) qua rgb(var(--color-primary-500) / <alpha-value>) trong tailwind.config.ts.
- * Lưu hex sẽ khiến mọi class primary-*/NN bị Tailwind bỏ qua hoàn toàn (không sinh CSS).
+ * Lưu hex sẽ khiến mọi class primary opacity (dạng primary-500 kèm /NN) bị Tailwind bỏ qua hoàn toàn (không sinh CSS).
  */
 /* :root chỉ là fallback khi chưa có data-accent (vd lần paint đầu tiên trước khi script client chạy) */
 :root {
