@@ -1,17 +1,22 @@
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/auth";
 import { redirect } from "next/navigation";
+import { isSessionRevokedById } from "@/lib/sessionGuard";
 import AdminSidebar from "./AdminSidebar";
 
 export default async function AdminLayout({ children }: { children: React.ReactNode }) {
   const session = await getServerSession(authOptions);
-  
+
   if (!session) {
     redirect("/login");
   }
-  
+
   if ((session.user as any)?.role !== "ADMIN") {
     redirect("/dashboard");
+  }
+
+  if (await isSessionRevokedById((session.user as any).id, (session.user as any).iat)) {
+    redirect("/login");
   }
 
   const navItems = [

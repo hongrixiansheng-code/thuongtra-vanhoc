@@ -1,7 +1,43 @@
 import prisma from '@/lib/prisma';
 import { getServerSession } from 'next-auth';
+import { redirect } from 'next/navigation';
 import { authOptions } from '@/lib/auth';
 import { syncExpiredSubscription, isSubscriptionActive } from '@/lib/subscription';
+import { isRevoked } from '@/lib/sessionGuard';
+
+// Chương trình mặc định khi user không truyền ?level= — ưu tiên program của lớp đang active,
+// sau đó program học gần nhất (lastReviewedAt), cuối cùng mới fallback về hsk1. Tránh việc học sinh
+// lớp en-ket/... bị đẩy nhầm vào HSK1 (và dính programLocked) chỉ vì thiếu query param.
+export async function getDefaultProgramCode(): Promise<string> {
+  const FALLBACK = 'hsk1';
+  const session = await getServerSession(authOptions);
+  if (!session?.user?.email) return FALLBACK;
+
+  const user = await prisma.user.findUnique({
+    where: { email: session.user.email },
+    select: {
+      enrollments: {
+        where: { class: { isActive: true } },
+        select: { class: { select: { program: { select: { code: true } } } } }
+      },
+      progress: {
+        where: { completed: true },
+        orderBy: { lastReviewedAt: 'desc' },
+        take: 1,
+        select: { lesson: { select: { program: { select: { code: true } } } } }
+      }
+    }
+  });
+  if (!user) return FALLBACK;
+
+  if (user.enrollments.length > 0) {
+    return user.enrollments[0].class.program.code;
+  }
+  if (user.progress.length > 0) {
+    return user.progress[0].lesson.program.code;
+  }
+  return FALLBACK;
+}
 
 export async function getCompletedLessonIds(programCode?: string): Promise<{
   completedLessonIds: string[];
@@ -33,15 +69,21 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
 
   if (!user) return { completedLessonIds: [], isAdmin: false, isPremiumUser: false };
 
+  if (isRevoked(user, (session.user as any).iat)) {
+    redirect('/login');
+  }
+
   const syncedUser = await syncExpiredSubscription(user);
 
   const isAdmin = user.role === 'ADMIN';
-  const isPremiumUser = isAdmin || isSubscriptionActive(syncedUser);
+  const isTeacher = user.role === 'TEACHER';
+  const bypassLock = isAdmin || isTeacher; // Giáo viên cũng được mở hết bài học như admin, để xem trước nội dung mọi chương trình
+  const isPremiumUser = bypassLock || isSubscriptionActive(syncedUser);
   const completedLessonIds = user.progress.map(p => p.lessonId);
   const scoreByLessonId = Object.fromEntries(user.progress.map(p => [p.lessonId, p.score]));
 
-  // Admin nhận toàn bộ lessonId của program (bypass mọi khóa)
-  if (isAdmin) {
+  // Admin/Teacher nhận toàn bộ lessonId của program (bypass mọi khóa)
+  if (bypassLock) {
     const allLessons = await prisma.lesson.findMany({
       where: programCode
         ? { program: { code: programCode } }
@@ -50,7 +92,7 @@ export async function getCompletedLessonIds(programCode?: string): Promise<{
     });
     return {
       completedLessonIds: allLessons.map(l => l.id),
-      isAdmin: true,
+      isAdmin,
       isPremiumUser: true,
       allLessonIds: allLessons.map(l => l.id)
     };

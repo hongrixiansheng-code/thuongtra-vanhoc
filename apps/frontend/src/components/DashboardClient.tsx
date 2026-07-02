@@ -5,7 +5,7 @@ import Link from "next/link";
 import {
   ArrowRight, Check, Gem, Lock,
   MessageCircle, Users, Hash, Calendar, MapPin, Utensils, CloudSun, ShoppingBag, Clock, Heart,
-  BookOpen, PenSquare, MessagesSquare, Dumbbell,
+  BookOpen, PenSquare, MessagesSquare, Dumbbell, CalendarClock,
 } from "lucide-react";
 import LessonStepFlow from "@/components/LessonStepFlow";
 import KhaiMonClient from "@/components/KhaiMonClient";
@@ -25,6 +25,15 @@ interface Lesson {
   speaking?: any[];
 }
 
+interface ActiveAssignment {
+  id: string;
+  lessonId: string;
+  lessonTitle: string;
+  className: string;
+  dueDate: string | Date | null;
+  note: string | null;
+}
+
 interface DashboardClientProps {
   lessons: Lesson[];
   programName: string;
@@ -33,9 +42,20 @@ interface DashboardClientProps {
   isAdmin?: boolean;
   progressMap: Record<string, boolean>;
   scoreMap?: Record<string, number>;
+  assignments?: ActiveAssignment[];
 }
 
 const THEME_ICONS = [MessageCircle, Users, Hash, Calendar, MapPin, Utensils, CloudSun, ShoppingBag, Clock, Heart];
+
+// Nhãn thời hạn theo độ gấp: quá hạn / sắp hết hạn (<=3 ngày) → tone gấp, còn lại bình thường
+function dueInfo(due: string | Date | null): { text: string; tone: "over" | "urgent" | "normal" } | null {
+  if (!due) return null;
+  const days = Math.ceil((new Date(due).getTime() - Date.now()) / 86400000);
+  if (days < 0) return { text: `Quá hạn ${Math.abs(days)} ngày`, tone: "over" };
+  if (days === 0) return { text: "Hạn hôm nay", tone: "urgent" };
+  if (days <= 3) return { text: `Còn ${days} ngày`, tone: "urgent" };
+  return { text: `Còn ${days} ngày`, tone: "normal" };
+}
 
 function ProgressRing({ percent }: { percent: number }) {
   const radius = 22;
@@ -55,7 +75,7 @@ function ProgressRing({ percent }: { percent: number }) {
   );
 }
 
-export default function DashboardClient({ lessons, programName, programCode, isPremiumUser, isAdmin, progressMap, scoreMap }: DashboardClientProps) {
+export default function DashboardClient({ lessons, programName, programCode, isPremiumUser, isAdmin, progressMap, scoreMap, assignments }: DashboardClientProps) {
   const [activeLessonId, setActiveLessonId] = useState<string | null>(null);
 
   const activeLesson = lessons.find(l => l.id === activeLessonId);
@@ -89,6 +109,20 @@ export default function DashboardClient({ lessons, programName, programCode, isP
     () => new Map(lessonStatuses.map(s => [s.lessonId, s])),
     [lessonStatuses]
   );
+
+  // Hiện TẤT CẢ bài tập được giao chưa hoàn thành (kể cả bài học sinh chưa mở khóa tới, để học sinh biết mục tiêu cần đạt)
+  // — nhưng bài chưa mở khóa thì không cho bấm vào học thẳng, vẫn phải mở khóa tuần tự bình thường.
+  const visibleAssignments = useMemo(() => {
+    if (!assignments || assignments.length === 0) return [];
+    const rank = (a: { isCompleted: boolean; isLocked: boolean }) =>
+      a.isCompleted ? 2 : a.isLocked ? 1 : 0; // đang cần làm lên đầu, khóa ở giữa, hoàn thành xuống cuối
+    return assignments
+      .map(a => {
+        const status = statusById.get(a.lessonId);
+        return { ...a, isLocked: status ? status.isLocked : true, isCompleted: status ? status.isCompleted : false };
+      })
+      .sort((x, y) => rank(x) - rank(y));
+  }, [assignments, statusById]);
 
   const completedCount = lessonStatuses.filter(s => s.isCompleted).length;
   const totalCount = lessons.length;
@@ -154,33 +188,103 @@ export default function DashboardClient({ lessons, programName, programCode, isP
   // Màn hình chọn bài
   return (
     <div className="w-full py-2">
-      {/* Hero panel: tiêu đề + tiến độ + CTA */}
-      <div className="relative overflow-hidden rounded-3xl border border-primary-100/70 dark:border-primary-500/10 bg-gradient-to-br from-primary-50 via-white to-white dark:from-primary-500/10 dark:via-slate-900 dark:to-slate-900 p-6 sm:p-8 mb-6">
-        <h1 className="text-2xl sm:text-3xl font-bold tracking-tight text-slate-900 dark:text-white mb-1">{programName}</h1>
-        <p className="text-sm text-slate-500 dark:text-slate-400 mb-4">
-          {completedCount}/{totalCount} bài đã hoàn thành
-        </p>
-        <div className="h-1.5 rounded-full bg-white/70 dark:bg-slate-800 overflow-hidden mb-5 max-w-md">
-          <div
-            className="h-full rounded-full bg-primary-500 transition-all duration-500 ease-out"
-            style={{ width: `${progressPercent}%` }}
-          />
-        </div>
-        {nextLesson ? (
-          <button
-            onClick={() => setActiveLessonId(nextLesson.id)}
-            className="group w-full sm:w-auto inline-flex items-center justify-center gap-2 px-4 py-3 sm:py-2.5 rounded-xl bg-primary-500 hover:bg-primary-600 text-white text-sm font-semibold transition-colors active:scale-[0.98]"
-          >
-            Tiếp tục: {nextLesson.title}
-            <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
-          </button>
-        ) : allCompleted ? (
-          <div className="inline-flex items-center gap-2 text-sm font-medium text-primary-700 dark:text-primary-300">
-            <Check className="w-4 h-4 flex-shrink-0" />
-            Bạn đã hoàn thành tất cả bài học của chương trình này.
+
+
+      {/* Bài tập được giáo viên giao — khung LED chạy sáng khi chưa hoàn thành, xanh đứng yên khi xong */}
+      {/* Bài tập được giáo viên giao — Bản siêu nổi bật */}
+      {visibleAssignments.length > 0 && (
+        <div className="mb-8 bg-white dark:bg-slate-800/40 p-6 rounded-[2rem] border border-slate-200 dark:border-slate-700 shadow-[0_8px_30px_rgb(0,0,0,0.08)] dark:shadow-none">
+          <div className="mb-5 flex items-center gap-3">
+            <div className="bg-rose-500 p-2.5 rounded-xl text-white shadow-lg shadow-rose-200 dark:shadow-rose-900/20">
+              <CalendarClock className="w-5 h-5" />
+            </div>
+            <h2 className="text-lg sm:text-xl font-extrabold text-slate-900 dark:text-white uppercase tracking-wider">
+              Nhiệm Vụ Khẩn
+            </h2>
           </div>
-        ) : null}
-      </div>
+          <div className="space-y-4">
+            {visibleAssignments.map(a => {
+              const due = dueInfo(a.dueDate);
+              const dueClass = !due
+                ? "bg-white text-slate-800"
+                : due.tone === "normal"
+                  ? "bg-amber-100 text-amber-800"
+                  : "bg-white text-rose-600 animate-pulse";
+
+              // Đã hoàn thành
+              if (a.isCompleted) {
+                return (
+                  <div key={a.id} className="flex items-center justify-between gap-3 px-5 py-4 rounded-2xl border-2 border-emerald-200 dark:border-emerald-500/50 bg-emerald-50 dark:bg-emerald-900/20 shadow-sm">
+                    <div className="min-w-0">
+                      <p className="text-base font-semibold text-slate-600 dark:text-slate-300 truncate line-through decoration-emerald-500/70">{a.lessonTitle}</p>
+                      <p className="text-sm font-bold text-emerald-600 dark:text-emerald-400 mt-1">Đã hoàn thành</p>
+                    </div>
+                    <span className="w-9 h-9 rounded-full bg-emerald-500 text-white flex items-center justify-center flex-shrink-0 shadow-sm shadow-emerald-300">
+                      <Check className="w-5 h-5" />
+                    </span>
+                  </div>
+                );
+              }
+
+              // Chưa mở khóa
+              if (a.isLocked) {
+                return (
+                  <div key={a.id} className="flex items-center justify-between gap-3 px-5 py-4 rounded-2xl border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-900 shadow-sm">
+                    <div className="min-w-0">
+                      <p className="text-base font-semibold text-slate-700 dark:text-slate-300 truncate">{a.lessonTitle}</p>
+                      <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1.5 flex flex-wrap items-center gap-1.5">
+                        <span className="bg-slate-100 dark:bg-slate-800 px-2 py-0.5 rounded-md text-xs">{a.className}</span>
+                        {due ? <span className="text-rose-500">{`· ${due.text}`}</span> : ""}
+                        <span>· Cần hoàn thành bài trước để mở khóa</span>
+                      </p>
+                    </div>
+                    <div className="w-9 h-9 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center flex-shrink-0">
+                      <Lock className="w-4 h-4 text-slate-400 dark:text-slate-500" />
+                    </div>
+                  </div>
+                );
+              }
+
+              // Chưa hoàn thành + đã mở khóa (ACTIVE)
+              return (
+                <div key={a.id} className="relative rounded-2xl overflow-hidden bg-gradient-to-br from-orange-500 via-rose-500 to-red-600 text-white shadow-xl shadow-rose-500/30 transform transition-all hover:-translate-y-1 hover:shadow-2xl hover:shadow-rose-500/40 border border-rose-400/30 group">
+                  <div className="absolute inset-0 opacity-10" style={{ backgroundImage: 'radial-gradient(circle at 2px 2px, white 1px, transparent 0)', backgroundSize: '20px 20px' }}></div>
+                  <button
+                    onClick={() => setActiveLessonId(a.lessonId)}
+                    className="relative w-full text-left p-5 sm:p-6 flex flex-col sm:flex-row sm:items-center justify-between gap-5 focus:outline-none focus:ring-2 focus:ring-white focus:ring-inset"
+                  >
+                    <div className="min-w-0 flex-1">
+                      <div className="flex flex-wrap items-center gap-2 mb-2">
+                        <span className={`inline-flex items-center gap-1 text-[11px] font-black px-2.5 py-1 rounded-full uppercase tracking-wider shadow-sm ${dueClass}`}>
+                          <CalendarClock className="w-3.5 h-3.5" /> {due ? due.text : "Chưa đặt hạn"}
+                        </span>
+                        <span className="bg-black/20 text-white text-[11px] px-2 py-1 rounded-md font-medium border border-white/20">
+                          {a.className}
+                        </span>
+                      </div>
+                      <p className="text-xl sm:text-2xl font-black truncate drop-shadow-md tracking-tight mb-2">{a.lessonTitle}</p>
+                      
+                      {/* Lời dặn dò - Được làm to và cực kỳ nổi bật */}
+                      {a.note && (
+                        <div className="mt-3 bg-white/20 p-3.5 rounded-xl border border-white/40 backdrop-blur-md shadow-inner">
+                          <p className="flex items-start gap-2.5 text-base sm:text-lg text-white font-bold drop-shadow-md">
+                            <PenSquare className="w-5 h-5 mt-0.5 text-yellow-300 flex-shrink-0" />
+                            <span className="italic leading-snug">"{a.note}"</span>
+                          </p>
+                        </div>
+                      )}
+                    </div>
+                    
+                    <span className="flex-shrink-0 w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-3 text-sm font-black text-rose-600 bg-white rounded-xl shadow-lg hover:shadow-xl transition-all group-hover:scale-105 mt-2 sm:mt-0">
+                      THỰC HIỆN NGAY <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
+                    </span>
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       {/* Lối tắt luyện tập — hàng chip cuộn ngang, chỉ hiện trên mobile (desktop dùng sidebar bên phải) */}
       <div className="lg:hidden flex gap-2 overflow-x-auto scrollbar-hide -mx-1 px-1 pb-1 mb-4">
@@ -212,10 +316,10 @@ export default function DashboardClient({ lessons, programName, programCode, isP
                 disabled={isLocked}
                 className={`group relative text-left p-4 sm:p-5 rounded-2xl border transition-all duration-200
                   ${isLocked
-                    ? 'border-slate-100 dark:border-slate-800 bg-slate-50/60 dark:bg-slate-900/40 opacity-60 cursor-not-allowed'
+                    ? 'border-stone-300 dark:border-slate-800 bg-stone-200 dark:bg-slate-900/40 opacity-70 cursor-not-allowed shadow-sm shadow-stone-300/50 dark:shadow-none'
                     : isNext
-                      ? 'border-primary-300 dark:border-primary-500/50 bg-primary-50/50 dark:bg-primary-500/5 hover:border-primary-400 dark:hover:border-primary-500/70 hover:shadow-sm cursor-pointer active:scale-[0.98]'
-                      : 'border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 hover:border-slate-300 dark:hover:border-slate-700 hover:shadow-sm cursor-pointer active:scale-[0.98]'
+                      ? 'border-orange-400 dark:border-primary-500/50 bg-orange-100 dark:bg-primary-500/5 shadow-md shadow-orange-300/50 dark:shadow-none hover:border-orange-500 dark:hover:border-primary-500/70 hover:shadow-lg cursor-pointer active:scale-[0.98]'
+                      : 'border-stone-300 dark:border-slate-800 bg-orange-50 dark:bg-slate-900 shadow-md shadow-stone-300/50 dark:shadow-none hover:border-stone-400 dark:hover:border-slate-700 hover:shadow-lg cursor-pointer active:scale-[0.98]'
                   }`}
               >
                 {isNext && (

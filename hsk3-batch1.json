@@ -1,0 +1,485 @@
+[
+  {
+    "title": "Bài 1: Thông tin & đặc điểm cá nhân",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & ĐẶC ĐIỂM",
+    "orderIndex": 0,
+    "vocab": [
+      { "hanzi": "个人", "pinyin": "gèrén", "type": "Danh từ", "type_short": "n", "meaning": "cá nhân", "example_zh": "这是我的个人意见。", "example_vi": "Đây là ý kiến cá nhân của tôi." },
+      { "hanzi": "特征", "pinyin": "tèzhēng", "type": "Danh từ", "type_short": "n", "meaning": "đặc điểm, đặc trưng", "example_zh": "他的特征很明显。", "example_vi": "Đặc điểm của anh ấy rất rõ ràng." },
+      { "hanzi": "性格", "pinyin": "xìnggé", "type": "Danh từ", "type_short": "n", "meaning": "tính cách", "example_zh": "她的性格很好。", "example_vi": "Tính cách của cô ấy rất tốt." },
+      { "hanzi": "外向", "pinyin": "wàixiàng", "type": "Tính từ", "type_short": "adj", "meaning": "hướng ngoại", "example_zh": "我哥哥很外向。", "example_vi": "Anh trai tôi rất hướng ngoại." },
+      { "hanzi": "内向", "pinyin": "nèixiàng", "type": "Tính từ", "type_short": "adj", "meaning": "hướng nội", "example_zh": "她比较内向。", "example_vi": "Cô ấy khá hướng nội." },
+      { "hanzi": "联系", "pinyin": "liánxì", "type": "Động từ", "type_short": "v", "meaning": "liên lạc", "example_zh": "请跟我联系。", "example_vi": "Xin liên lạc với tôi." },
+      { "hanzi": "地址", "pinyin": "dìzhǐ", "type": "Danh từ", "type_short": "n", "meaning": "địa chỉ", "example_zh": "你的地址是什么？", "example_vi": "Địa chỉ của bạn là gì?" },
+      { "hanzi": "身份证", "pinyin": "shēnfènzhèng", "type": "Danh từ", "type_short": "n", "meaning": "chứng minh thư, căn cước", "example_zh": "请出示身份证。", "example_vi": "Xin xuất trình chứng minh thư." },
+      { "hanzi": "签名", "pinyin": "qiānmíng", "type": "Động từ", "type_short": "v", "meaning": "ký tên", "example_zh": "请在这里签名。", "example_vi": "Xin ký tên ở đây." },
+      { "hanzi": "介绍", "pinyin": "jièshào", "type": "Động từ", "type_short": "v", "meaning": "giới thiệu", "example_zh": "我来介绍一下自己。", "example_vi": "Tôi xin giới thiệu một chút về bản thân." }
+    ],
+    "grammar": [
+      {
+        "title": "Động từ năng nguyện 应该/需要",
+        "desc": "'应该' (yīnggāi - nên) diễn tả nghĩa vụ/lời khuyên; '需要' (xūyào - cần) diễn tả nhu cầu thiết yếu. Cả hai đứng trước động từ chính, là 2 trong 5 modal verb mới quan trọng nhất của HSK3.",
+        "formula": [
+          { "text": "Chủ ngữ + 应该/需要 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "你应该注意身体。", "pinyin": "Nǐ yīnggāi zhùyì shēntǐ.", "meaning": "Bạn nên chú ý sức khỏe." },
+          { "correct": "我需要你的帮助。", "pinyin": "Wǒ xūyào nǐ de bāngzhù.", "meaning": "Tôi cần sự giúp đỡ của bạn." },
+          { "correct": "办身份证需要带照片。", "pinyin": "Bàn shēnfènzhèng xūyào dài zhàopiàn.", "meaning": "Làm chứng minh thư cần mang theo ảnh." }
+        ]
+      },
+      {
+        "title": "Ôn 是...的: nhấn mạnh nguồn gốc/cách thức",
+        "desc": "Ôn lại cấu trúc '是...的' đã học ở HSK2, mở rộng dùng để nhấn mạnh nguồn gốc, cách thức hoặc người thực hiện một việc đã xảy ra trong quá khứ.",
+        "formula": [
+          { "text": "Chủ ngữ + 是 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "thông tin nhấn mạnh +", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "的", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "这个地址是他告诉我的。", "pinyin": "Zhège dìzhǐ shì tā gàosu wǒ de.", "meaning": "Địa chỉ này là anh ấy nói cho tôi." },
+          { "correct": "我是去年办的身份证。", "pinyin": "Wǒ shì qùnián bàn de shēnfènzhèng.", "meaning": "Tôi làm chứng minh thư là vào năm ngoái." },
+          { "correct": "这份介绍是谁写的？", "pinyin": "Zhè fèn jièshào shì shéi xiě de?", "meaning": "Bài giới thiệu này là ai viết?" }
+        ]
+      },
+      {
+        "title": "Ôn 比 tổng hợp từ HSK2",
+        "desc": "Ôn lại tổng hợp các dạng câu so sánh '比' đã học ở HSK2 (cơ bản, kèm mức độ, kèm 一点儿/多了) trong ngữ cảnh mô tả tính cách/đặc điểm cá nhân.",
+        "formula": [
+          { "text": "A + 比 + B +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "tính từ (+一点儿/多了)", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "他比我外向一点儿。", "pinyin": "Tā bǐ wǒ wàixiàng yìdiǎnr.", "meaning": "Anh ấy hướng ngoại hơn tôi một chút." },
+          { "correct": "她的性格比以前开朗多了。", "pinyin": "Tā de xìnggé bǐ yǐqián kāilǎng duō le.", "meaning": "Tính cách cô ấy cởi mở hơn trước nhiều." },
+          { "correct": "我的特征跟你不太一样。", "pinyin": "Wǒ de tèzhēng gēn nǐ bú tài yīyàng.", "meaning": "Đặc điểm của tôi không giống bạn lắm." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Làm thủ tục cá nhân",
+        "lines": [
+          { "speaker": "A", "zh": "您好，办理这个需要带什么证件？", "py": "Nínhǎo, bànlǐ zhège xūyào dài shénme zhèngjiàn?", "vi": "Xin chào, làm cái này cần mang theo giấy tờ gì?" },
+          { "speaker": "B", "zh": "您需要带身份证，还应该填一张表。", "py": "Nín xūyào dài shēnfènzhèng, hái yīnggāi tián yì zhāng biǎo.", "vi": "Bạn cần mang chứng minh thư, còn nên điền một tờ biểu mẫu." },
+          { "speaker": "A", "zh": "这个地址是我现在住的地方写的对吗？", "py": "Zhège dìzhǐ shì wǒ xiànzài zhù de dìfang xiě de duì ma?", "vi": "Địa chỉ này là viết nơi tôi đang ở hiện tại đúng không?" },
+          { "speaker": "B", "zh": "对，写完以后请在这里签名。", "py": "Duì, xiě wán yǐhòu qǐng zài zhèlǐ qiānmíng.", "vi": "Đúng rồi, viết xong xin ký tên ở đây." },
+          { "speaker": "A", "zh": "好的，谢谢您的介绍。", "py": "Hǎo de, xièxie nín de jièshào.", "vi": "Được rồi, cảm ơn bạn đã hướng dẫn." }
+        ]
+      },
+      {
+        "title": "Giới thiệu bản thân",
+        "lines": [
+          { "speaker": "A", "zh": "我来介绍一下自己，我叫李明。", "py": "Wǒ lái jièshào yíxià zìjǐ, wǒ jiào Lǐ Míng.", "vi": "Tôi xin giới thiệu một chút về bản thân, tôi tên Lý Minh." },
+          { "speaker": "B", "zh": "你好，你的性格是外向的还是内向的？", "py": "Nǐhǎo, nǐ de xìnggé shì wàixiàng de háishi nèixiàng de?", "vi": "Xin chào, tính cách của bạn là hướng ngoại hay hướng nội?" },
+          { "speaker": "A", "zh": "我比较外向，喜欢认识新朋友。", "py": "Wǒ bǐjiào wàixiàng, xǐhuan rènshi xīn péngyou.", "vi": "Tôi khá hướng ngoại, thích quen bạn mới." },
+          { "speaker": "B", "zh": "太好了！以后我们多联系。", "py": "Tài hǎo le! Yǐhòu wǒmen duō liánxì.", "vi": "Tuyệt quá! Sau này chúng ta liên lạc nhiều nhé." },
+          { "speaker": "A", "zh": "好，这是我的联系方式。", "py": "Hǎo, zhè shì wǒ de liánxì fāngshì.", "vi": "Được, đây là cách liên lạc của tôi." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 2: Tính cách & cảm xúc",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & ĐẶC ĐIỂM",
+    "orderIndex": 1,
+    "vocab": [
+      { "hanzi": "认真", "pinyin": "rènzhēn", "type": "Tính từ", "type_short": "adj", "meaning": "nghiêm túc, chăm chỉ", "example_zh": "他工作很认真。", "example_vi": "Anh ấy làm việc rất nghiêm túc." },
+      { "hanzi": "热情", "pinyin": "rèqíng", "type": "Tính từ", "type_short": "adj", "meaning": "nhiệt tình", "example_zh": "她对人很热情。", "example_vi": "Cô ấy đối xử với người khác rất nhiệt tình." },
+      { "hanzi": "耐心", "pinyin": "nàixīn", "type": "Tính từ", "type_short": "adj", "meaning": "kiên nhẫn", "example_zh": "老师很有耐心。", "example_vi": "Giáo viên rất kiên nhẫn." },
+      { "hanzi": "诚实", "pinyin": "chéngshí", "type": "Tính từ", "type_short": "adj", "meaning": "thành thật", "example_zh": "他是个诚实的人。", "example_vi": "Anh ấy là người thành thật." },
+      { "hanzi": "细心", "pinyin": "xìxīn", "type": "Tính từ", "type_short": "adj", "meaning": "tỉ mỉ, cẩn thận", "example_zh": "她做事很细心。", "example_vi": "Cô ấy làm việc rất tỉ mỉ." },
+      { "hanzi": "骄傲", "pinyin": "jiāoào", "type": "Tính từ", "type_short": "adj", "meaning": "kiêu ngạo / tự hào", "example_zh": "我为你感到骄傲。", "example_vi": "Tôi cảm thấy tự hào về bạn." },
+      { "hanzi": "后悔", "pinyin": "hòuhuǐ", "type": "Động từ", "type_short": "v", "meaning": "hối hận", "example_zh": "我很后悔没去。", "example_vi": "Tôi rất hối hận vì đã không đi." },
+      { "hanzi": "满意", "pinyin": "mǎnyì", "type": "Tính từ", "type_short": "adj", "meaning": "hài lòng", "example_zh": "我对结果很满意。", "example_vi": "Tôi rất hài lòng với kết quả." },
+      { "hanzi": "失望", "pinyin": "shīwàng", "type": "Tính từ", "type_short": "adj", "meaning": "thất vọng", "example_zh": "她对我很失望。", "example_vi": "Cô ấy rất thất vọng về tôi." },
+      { "hanzi": "羡慕", "pinyin": "xiànmù", "type": "Động từ", "type_short": "v", "meaning": "ngưỡng mộ, ghen tị (tích cực)", "example_zh": "我很羡慕你。", "example_vi": "Tôi rất ngưỡng mộ bạn." }
+    ],
+    "grammar": [
+      {
+        "title": "越来越: ngày càng",
+        "desc": "'越来越' (yuè lái yuè) đứng trước tính từ/động từ tâm lý để diễn đạt sự biến đổi tăng dần theo thời gian, không cần nêu mốc thời gian cụ thể.",
+        "formula": [
+          { "text": "Chủ ngữ + 越来越 +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "tính từ/động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "她的汉语越来越好。", "pinyin": "Tā de Hànyǔ yuè lái yuè hǎo.", "meaning": "Tiếng Trung của cô ấy ngày càng tốt." },
+          { "correct": "我越来越喜欢这里了。", "pinyin": "Wǒ yuè lái yuè xǐhuan zhèlǐ le.", "meaning": "Tôi ngày càng thích nơi đây." },
+          { "correct": "天气越来越冷了。", "pinyin": "Tiānqì yuè lái yuè lěng le.", "meaning": "Thời tiết ngày càng lạnh." }
+        ]
+      },
+      {
+        "title": "其实/终于: trạng từ khẳng định",
+        "desc": "'其实' (qíshí - thực ra) dùng để đính chính/bổ sung sự thật; '终于' (zhōngyú - cuối cùng) diễn tả kết quả đạt được sau một quá trình chờ đợi/cố gắng.",
+        "formula": [
+          { "text": "其实 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "mệnh đề", "classes": "border-gray-200 bg-gray-50 text-gray-600" },
+          { "text": "/ 终于 + động từ", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "其实他很聪明。", "pinyin": "Qíshí tā hěn cōngming.", "meaning": "Thực ra anh ấy rất thông minh." },
+          { "correct": "他终于来了。", "pinyin": "Tā zhōngyú lái le.", "meaning": "Cuối cùng anh ấy cũng đến rồi." },
+          { "correct": "我终于完成了这个工作，很满意。", "pinyin": "Wǒ zhōngyú wánchéng le zhège gōngzuò, hěn mǎnyì.", "meaning": "Cuối cùng tôi cũng hoàn thành công việc này, rất hài lòng." }
+        ]
+      },
+      {
+        "title": "Ôn 觉得/认为 + mệnh đề",
+        "desc": "Ôn lại '觉得' và '认为' đã học ở HSK2, mở rộng dùng để diễn đạt nhận xét về tính cách/cảm xúc của bản thân hoặc người khác.",
+        "formula": [
+          { "text": "Chủ ngữ + 觉得/认为 +", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "mệnh đề", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我觉得他很诚实。", "pinyin": "Wǒ juéde tā hěn chéngshí.", "meaning": "Tôi thấy anh ấy rất thành thật." },
+          { "correct": "大家都认为她很细心。", "pinyin": "Dàjiā dōu rènwéi tā hěn xìxīn.", "meaning": "Mọi người đều cho rằng cô ấy rất tỉ mỉ." },
+          { "correct": "你觉得这样做对吗？", "pinyin": "Nǐ juéde zhèyàng zuò duì ma?", "meaning": "Bạn thấy làm vậy có đúng không?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Nhận xét về tính cách",
+        "lines": [
+          { "speaker": "A", "zh": "你觉得你的新同事怎么样？", "py": "Nǐ juéde nǐ de xīn tóngshì zěnmeyàng?", "vi": "Bạn thấy đồng nghiệp mới của bạn thế nào?" },
+          { "speaker": "B", "zh": "他很认真，也很热情，对人很有耐心。", "py": "Tā hěn rènzhēn, yě hěn rèqíng, duì rén hěn yǒu nàixīn.", "vi": "Anh ấy rất nghiêm túc, cũng rất nhiệt tình, kiên nhẫn với mọi người." },
+          { "speaker": "A", "zh": "其实我也认识他，是个很诚实的人。", "py": "Qíshí wǒ yě rènshi tā, shì gè hěn chéngshí de rén.", "vi": "Thực ra tôi cũng quen anh ấy, là người rất thành thật." },
+          { "speaker": "B", "zh": "对，而且他做事越来越细心了。", "py": "Duì, érqiě tā zuòshì yuè lái yuè xìxīn le.", "vi": "Đúng, hơn nữa anh ấy làm việc ngày càng tỉ mỉ." },
+          { "speaker": "A", "zh": "我很羡慕你们这个团队。", "py": "Wǒ hěn xiànmù nǐmen zhège tuánduì.", "vi": "Tôi rất ngưỡng mộ đội nhóm của các bạn." }
+        ]
+      },
+      {
+        "title": "Chia sẻ cảm xúc",
+        "lines": [
+          { "speaker": "A", "zh": "这次考试结果你满意吗？", "py": "Zhè cì kǎoshì jiéguǒ nǐ mǎnyì ma?", "vi": "Kết quả thi lần này bạn có hài lòng không?" },
+          { "speaker": "B", "zh": "不太满意，老师对我也有点儿失望。", "py": "Bú tài mǎnyì, lǎoshī duì wǒ yě yǒudiǎnr shīwàng.", "vi": "Không hài lòng lắm, giáo viên cũng hơi thất vọng về tôi." },
+          { "speaker": "A", "zh": "别难过，下次努力就好了，别后悔。", "py": "Bié nánguò, xià cì nǔlì jiù hǎo le, bié hòuhuǐ.", "vi": "Đừng buồn, lần sau cố gắng là được, đừng hối hận." },
+          { "speaker": "B", "zh": "谢谢你，我会更认真的。", "py": "Xièxie nǐ, wǒ huì gèng rènzhēn de.", "vi": "Cảm ơn bạn, tôi sẽ nghiêm túc hơn." },
+          { "speaker": "A", "zh": "其实你已经越来越进步了。", "py": "Qíshí nǐ yǐjīng yuè lái yuè jìnbù le.", "vi": "Thực ra bạn đã tiến bộ ngày càng nhiều rồi." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 3: Gia đình & cuộc sống gia đình",
+    "theme": "CHƯƠNG 1: THÔNG TIN CÁ NHÂN & ĐẶC ĐIỂM",
+    "orderIndex": 2,
+    "vocab": [
+      { "hanzi": "习惯", "pinyin": "xíguàn", "type": "Danh từ", "type_short": "n", "meaning": "thói quen", "example_zh": "这是我的生活习惯。", "example_vi": "Đây là thói quen sinh hoạt của tôi." },
+      { "hanzi": "分工", "pinyin": "fēngōng", "type": "Động từ", "type_short": "v", "meaning": "phân công", "example_zh": "我们要分工合作。", "example_vi": "Chúng ta cần phân công hợp tác." },
+      { "hanzi": "家务", "pinyin": "jiāwù", "type": "Danh từ", "type_short": "n", "meaning": "việc nhà", "example_zh": "我每天做家务。", "example_vi": "Tôi làm việc nhà mỗi ngày." },
+      { "hanzi": "做饭", "pinyin": "zuòfàn", "type": "Động từ", "type_short": "v", "meaning": "nấu cơm", "example_zh": "妈妈在做饭。", "example_vi": "Mẹ đang nấu cơm." },
+      { "hanzi": "照顾", "pinyin": "zhàogu", "type": "Động từ", "type_short": "v", "meaning": "chăm sóc", "example_zh": "她照顾孩子很辛苦。", "example_vi": "Cô ấy chăm sóc con cái rất vất vả." },
+      { "hanzi": "关心", "pinyin": "guānxīn", "type": "Động từ", "type_short": "v", "meaning": "quan tâm", "example_zh": "父母很关心我。", "example_vi": "Cha mẹ rất quan tâm tôi." },
+      { "hanzi": "争吵", "pinyin": "zhēngchǎo", "type": "Động từ", "type_short": "v", "meaning": "cãi nhau", "example_zh": "他们经常争吵。", "example_vi": "Họ thường xuyên cãi nhau." },
+      { "hanzi": "和解", "pinyin": "héjiě", "type": "Động từ", "type_short": "v", "meaning": "hòa giải", "example_zh": "他们已经和解了。", "example_vi": "Họ đã hòa giải rồi." },
+      { "hanzi": "独立", "pinyin": "dúlì", "type": "Tính từ", "type_short": "adj", "meaning": "độc lập", "example_zh": "她很独立。", "example_vi": "Cô ấy rất độc lập." },
+      { "hanzi": "依赖", "pinyin": "yīlài", "type": "Động từ", "type_short": "v", "meaning": "phụ thuộc, ỷ lại", "example_zh": "孩子不应该太依赖父母。", "example_vi": "Trẻ em không nên quá phụ thuộc vào cha mẹ." }
+    ],
+    "grammar": [
+      {
+        "title": "才¹: mới chỉ / mới đến bây giờ",
+        "desc": "'才' (cái) khi đứng trước số từ/thời gian diễn tả 'mới chỉ' (ít, sớm hơn dự kiến); khi đứng trước thời điểm muộn lại diễn tả 'mới đến bây giờ' (muộn hơn dự kiến) — cần phân biệt theo ngữ cảnh.",
+        "formula": [
+          { "text": "Chủ ngữ + 才 +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "số từ/thời gian + động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "他才八岁。", "pinyin": "Tā cái bā suì.", "meaning": "Nó mới chỉ tám tuổi." },
+          { "correct": "你怎么才来？", "pinyin": "Nǐ zěnme cái lái?", "meaning": "Sao bây giờ bạn mới đến?" },
+          { "correct": "我才知道这件事。", "pinyin": "Wǒ cái zhīdào zhè jiàn shì.", "meaning": "Tôi mới biết chuyện này." }
+        ]
+      },
+      {
+        "title": "一直: xuyên suốt, liên tục",
+        "desc": "'一直' (yīzhí) đứng trước động từ để diễn tả một hành động/trạng thái diễn ra liên tục, không gián đoạn từ một thời điểm nào đó.",
+        "formula": [
+          { "text": "Chủ ngữ + 一直 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我一直等你。", "pinyin": "Wǒ yīzhí děng nǐ.", "meaning": "Tôi đợi bạn liên tục." },
+          { "correct": "她一直照顾生病的妈妈。", "pinyin": "Tā yīzhí zhàogu shēngbìng de māma.", "meaning": "Cô ấy luôn chăm sóc mẹ bị bệnh." },
+          { "correct": "他们一直没有和解。", "pinyin": "Tāmen yīzhí méiyǒu héjiě.", "meaning": "Họ vẫn chưa hòa giải." }
+        ]
+      },
+      {
+        "title": "Ôn 使令句 让/叫 mở rộng",
+        "desc": "Ôn lại cấu trúc câu cầu khiến '让/叫' đã học ở HSK2, mở rộng dùng trong ngữ cảnh phân công việc nhà và chăm sóc gia đình.",
+        "formula": [
+          { "text": "Người A + 让/叫 + Người B +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "妈妈让我做家务。", "pinyin": "Māma ràng wǒ zuò jiāwù.", "meaning": "Mẹ bảo tôi làm việc nhà." },
+          { "correct": "爸爸叫我照顾妹妹。", "pinyin": "Bàba jiào wǒ zhàogu mèimei.", "meaning": "Bố bảo tôi chăm sóc em gái." },
+          { "correct": "她让孩子学会独立。", "pinyin": "Tā ràng háizi xuéhuì dúlì.", "meaning": "Cô ấy để con học cách độc lập." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Phân công việc nhà",
+        "lines": [
+          { "speaker": "A", "zh": "我们应该怎么分工做家务？", "py": "Wǒmen yīnggāi zěnme fēngōng zuò jiāwù?", "vi": "Chúng ta nên phân công việc nhà thế nào?" },
+          { "speaker": "B", "zh": "我才做完饭，你来照顾孩子吧。", "py": "Wǒ cái zuò wán fàn, nǐ lái zhàogu háizi ba.", "vi": "Mình vừa nấu cơm xong, bạn chăm con nhé." },
+          { "speaker": "A", "zh": "好，我一直很关心孩子的习惯。", "py": "Hǎo, wǒ yīzhí hěn guānxīn háizi de xíguàn.", "vi": "Được, mình luôn quan tâm thói quen của con." },
+          { "speaker": "B", "zh": "孩子不应该太依赖我们，要学独立。", "py": "Háizi bù yīnggāi tài yīlài wǒmen, yào xué dúlì.", "vi": "Con không nên quá phụ thuộc chúng ta, phải học độc lập." },
+          { "speaker": "A", "zh": "对，这样以后才不会有问题。", "py": "Duì, zhèyàng yǐhòu cái bú huì yǒu wèntí.", "vi": "Đúng vậy, như thế sau này mới không có vấn đề gì." }
+        ]
+      },
+      {
+        "title": "Hòa giải mâu thuẫn",
+        "lines": [
+          { "speaker": "A", "zh": "你们两个怎么又争吵了？", "py": "Nǐmen liǎng gè zěnme yòu zhēngchǎo le?", "vi": "Hai bạn sao lại cãi nhau rồi?" },
+          { "speaker": "B", "zh": "为了家务的事，我们一直没有和解。", "py": "Wèile jiāwù de shì, wǒmen yīzhí méiyǒu héjiě.", "vi": "Vì chuyện việc nhà, chúng tôi vẫn chưa hòa giải." },
+          { "speaker": "A", "zh": "你们应该好好谈一谈。", "py": "Nǐmen yīnggāi hǎohǎo tán yi tán.", "vi": "Hai bạn nên nói chuyện cho kỹ." },
+          { "speaker": "B", "zh": "好吧，其实我也想和解了。", "py": "Hǎo ba, qíshí wǒ yě xiǎng héjiě le.", "vi": "Được rồi, thực ra mình cũng muốn hòa giải rồi." },
+          { "speaker": "A", "zh": "这样才对，家人不应该总争吵。", "py": "Zhèyàng cái duì, jiārén bù yīnggāi zǒng zhēngchǎo.", "vi": "Như vậy mới đúng, người nhà không nên cứ cãi nhau." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 4: Xử lý việc hàng ngày",
+    "theme": "CHƯƠNG 2: SINH HOẠT HÀNG NGÀY & DỊCH VỤ",
+    "orderIndex": 3,
+    "vocab": [
+      { "hanzi": "事务", "pinyin": "shìwù", "type": "Danh từ", "type_short": "n", "meaning": "công việc, sự vụ", "example_zh": "今天有很多事务要处理。", "example_vi": "Hôm nay có nhiều việc cần xử lý." },
+      { "hanzi": "处理", "pinyin": "chǔlǐ", "type": "Động từ", "type_short": "v", "meaning": "xử lý", "example_zh": "我来处理这件事。", "example_vi": "Tôi sẽ xử lý việc này." },
+      { "hanzi": "办理", "pinyin": "bànlǐ", "type": "Động từ", "type_short": "v", "meaning": "làm thủ tục", "example_zh": "我要办理银行卡。", "example_vi": "Tôi muốn làm thẻ ngân hàng." },
+      { "hanzi": "手续", "pinyin": "shǒuxù", "type": "Danh từ", "type_short": "n", "meaning": "thủ tục", "example_zh": "这个手续很简单。", "example_vi": "Thủ tục này rất đơn giản." },
+      { "hanzi": "证件", "pinyin": "zhèngjiàn", "type": "Danh từ", "type_short": "n", "meaning": "giấy tờ tùy thân", "example_zh": "请带好证件。", "example_vi": "Xin mang theo đầy đủ giấy tờ." },
+      { "hanzi": "填写", "pinyin": "tiánxiě", "type": "Động từ", "type_short": "v", "meaning": "điền (vào biểu mẫu)", "example_zh": "请填写这张表格。", "example_vi": "Xin điền vào biểu mẫu này." },
+      { "hanzi": "申请", "pinyin": "shēnqǐng", "type": "Động từ", "type_short": "v", "meaning": "đăng ký, xin (cấp)", "example_zh": "我要申请签证。", "example_vi": "Tôi muốn xin visa." },
+      { "hanzi": "通知", "pinyin": "tōngzhī", "type": "Động từ", "type_short": "v", "meaning": "thông báo", "example_zh": "请通知我结果。", "example_vi": "Xin thông báo kết quả cho tôi." },
+      { "hanzi": "收到", "pinyin": "shōudào", "type": "Động từ", "type_short": "v", "meaning": "nhận được", "example_zh": "我收到了你的邮件。", "example_vi": "Tôi đã nhận được email của bạn." },
+      { "hanzi": "确认", "pinyin": "quèrèn", "type": "Động từ", "type_short": "v", "meaning": "xác nhận", "example_zh": "请确认一下时间。", "example_vi": "Xin xác nhận lại thời gian." }
+    ],
+    "grammar": [
+      {
+        "title": "Ly hợp từ (离合词) 1: 见个面/结个婚",
+        "desc": "Một số động từ song âm tiết tiếng Trung thực chất là cụm động từ + tân ngữ gắn liền (离合词), có thể chèn lượng từ/bổ ngữ vào giữa hai âm tiết: 见面 → 见个面, 结婚 → 结个婚.",
+        "formula": [
+          { "text": "Âm tiết 1 + (个/次...) +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "Âm tiết 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我们见个面吧。", "pinyin": "Wǒmen jiàn gè miàn ba.", "meaning": "Chúng ta gặp mặt một lần nhé." },
+          { "correct": "他们打算下个月结个婚。", "pinyin": "Tāmen dǎsuàn xià gè yuè jié gè hūn.", "meaning": "Họ dự định tháng sau kết hôn." },
+          { "correct": "你昨天洗澡了吗？", "pinyin": "Nǐ zuótiān xǐzǎo le ma?", "meaning": "Hôm qua bạn tắm chưa?" }
+        ]
+      },
+      {
+        "title": "Mở rộng cách dùng ly hợp từ: 他们结婚了 vs 他们结了婚",
+        "desc": "Vì 离合词 là động từ+tân ngữ gắn liền, trợ từ '了' phải chèn vào giữa hai âm tiết khi nhấn mạnh hành động đã hoàn thành ở một thời điểm cụ thể, không đặt cuối câu như động từ thường.",
+        "formula": [
+          { "text": "Âm tiết 1 + 了 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "Âm tiết 2 (+ thời gian)", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "他们结了三年婚了。", "pinyin": "Tāmen jié le sān nián hūn le.", "meaning": "Họ đã kết hôn được ba năm rồi." },
+          { "correct": "我们见过一次面。", "pinyin": "Wǒmen jiàn guò yí cì miàn.", "meaning": "Chúng tôi đã từng gặp mặt một lần." },
+          { "correct": "她请了一天假。", "pinyin": "Tā qǐng le yì tiān jià.", "meaning": "Cô ấy đã xin nghỉ một ngày." }
+        ]
+      },
+      {
+        "title": "Ôn V+完/好: bổ ngữ kết quả",
+        "desc": "Ôn lại bổ ngữ kết quả '完/好' đã học ở HSK2, áp dụng vào ngữ cảnh xử lý thủ tục/giấy tờ hành chính.",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "完/好 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "(了)", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "表格我已经填写完了。", "pinyin": "Biǎogé wǒ yǐjīng tiánxiě wán le.", "meaning": "Biểu mẫu tôi đã điền xong rồi." },
+          { "correct": "手续办好了吗？", "pinyin": "Shǒuxù bàn hǎo le ma?", "meaning": "Thủ tục đã làm xong chưa?" },
+          { "correct": "我处理完这件事就联系你。", "pinyin": "Wǒ chǔlǐ wán zhè jiàn shì jiù liánxì nǐ.", "meaning": "Tôi xử lý xong việc này thì liên lạc với bạn." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Làm thủ tục hành chính",
+        "lines": [
+          { "speaker": "A", "zh": "我要申请新的证件，手续怎么办理？", "py": "Wǒ yào shēnqǐng xīn de zhèngjiàn, shǒuxù zěnme bànlǐ?", "vi": "Tôi muốn xin giấy tờ mới, thủ tục làm thế nào?" },
+          { "speaker": "B", "zh": "您先填写这张表，然后办理就好了。", "py": "Nín xiān tiánxiě zhè zhāng biǎo, ránhòu bànlǐ jiù hǎo le.", "vi": "Bạn điền tờ này trước, rồi làm thủ tục là được." },
+          { "speaker": "A", "zh": "表格我填写完了，这是我的事务申请。", "py": "Biǎogé wǒ tiánxiě wán le, zhè shì wǒ de shìwù shēnqǐng.", "vi": "Biểu mẫu tôi điền xong rồi, đây là đơn xin việc của tôi." },
+          { "speaker": "B", "zh": "好的，我们处理完会通知您。", "py": "Hǎo de, wǒmen chǔlǐ wán huì tōngzhī nín.", "vi": "Được rồi, chúng tôi xử lý xong sẽ thông báo cho bạn." },
+          { "speaker": "A", "zh": "谢谢，我等您的通知。", "py": "Xièxie, wǒ děng nín de tōngzhī.", "vi": "Cảm ơn, tôi đợi thông báo của bạn." }
+        ]
+      },
+      {
+        "title": "Xác nhận thông tin",
+        "lines": [
+          { "speaker": "A", "zh": "我收到了您的邮件，需要确认一下信息。", "py": "Wǒ shōudào le nín de yóujiàn, xūyào quèrèn yíxià xìnxī.", "vi": "Tôi đã nhận được email của bạn, cần xác nhận một chút thông tin." },
+          { "speaker": "B", "zh": "好的，您需要确认什么？", "py": "Hǎo de, nín xūyào quèrèn shénme?", "vi": "Được, bạn cần xác nhận gì?" },
+          { "speaker": "A", "zh": "请确认您的地址和证件号码。", "py": "Qǐng quèrèn nín de dìzhǐ hé zhèngjiàn hàomǎ.", "vi": "Xin xác nhận địa chỉ và số giấy tờ của bạn." },
+          { "speaker": "B", "zh": "都是对的，手续应该没问题了吧？", "py": "Dōu shì duì de, shǒuxù yīnggāi méi wèntí le ba?", "vi": "Đều đúng cả, thủ tục chắc không có vấn đề gì nữa nhỉ?" },
+          { "speaker": "A", "zh": "对，我们会尽快处理。", "py": "Duì, wǒmen huì jǐnkuài chǔlǐ.", "vi": "Đúng vậy, chúng tôi sẽ xử lý sớm nhất có thể." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 5: Giao tiếp lịch sự & cảm xúc xã hội",
+    "theme": "CHƯƠNG 2: SINH HOẠT HÀNG NGÀY & DỊCH VỤ",
+    "orderIndex": 4,
+    "vocab": [
+      { "hanzi": "礼貌", "pinyin": "lǐmào", "type": "Danh từ", "type_short": "n", "meaning": "lễ phép, lịch sự", "example_zh": "他说话很有礼貌。", "example_vi": "Anh ấy nói chuyện rất lịch sự." },
+      { "hanzi": "态度", "pinyin": "tàidu", "type": "Danh từ", "type_short": "n", "meaning": "thái độ", "example_zh": "她的态度很好。", "example_vi": "Thái độ của cô ấy rất tốt." },
+      { "hanzi": "决定", "pinyin": "juédìng", "type": "Động từ", "type_short": "v", "meaning": "quyết định", "example_zh": "我决定去旅游。", "example_vi": "Tôi quyết định đi du lịch." },
+      { "hanzi": "建议", "pinyin": "jiànyì", "type": "Động từ", "type_short": "v", "meaning": "đề nghị, gợi ý", "example_zh": "我建议你多休息。", "example_vi": "Tôi đề nghị bạn nghỉ ngơi nhiều hơn." },
+      { "hanzi": "回答", "pinyin": "huídá", "type": "Động từ", "type_short": "v", "meaning": "trả lời", "example_zh": "请回答我的问题。", "example_vi": "Xin trả lời câu hỏi của tôi." },
+      { "hanzi": "同意", "pinyin": "tóngyì", "type": "Động từ", "type_short": "v", "meaning": "đồng ý", "example_zh": "我同意你的看法。", "example_vi": "Tôi đồng ý với quan điểm của bạn." },
+      { "hanzi": "反对", "pinyin": "fǎnduì", "type": "Động từ", "type_short": "v", "meaning": "phản đối", "example_zh": "他反对这个计划。", "example_vi": "Anh ấy phản đối kế hoạch này." },
+      { "hanzi": "坚持", "pinyin": "jiānchí", "type": "Động từ", "type_short": "v", "meaning": "kiên trì", "example_zh": "你要坚持下去。", "example_vi": "Bạn phải kiên trì tiếp tục." },
+      { "hanzi": "放弃", "pinyin": "fàngqì", "type": "Động từ", "type_short": "v", "meaning": "từ bỏ", "example_zh": "别放弃你的梦想。", "example_vi": "Đừng từ bỏ ước mơ của bạn." },
+      { "hanzi": "原谅", "pinyin": "yuánliàng", "type": "Động từ", "type_short": "v", "meaning": "tha thứ", "example_zh": "请原谅我。", "example_vi": "Xin hãy tha thứ cho tôi." }
+    ],
+    "grammar": [
+      {
+        "title": "大概/好像: phó từ phỏng đoán",
+        "desc": "'大概' (dàgài - có lẽ, khoảng) và '好像' (hǎoxiàng - hình như) đều đứng trước động từ/tính từ để diễn đạt sự phỏng đoán không chắc chắn.",
+        "formula": [
+          { "text": "大概/好像 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ/tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "他大概不来了。", "pinyin": "Tā dàgài bù lái le.", "meaning": "Có lẽ anh ấy không đến nữa." },
+          { "correct": "好像要下雨了。", "pinyin": "Hǎoxiàng yào xiàyǔ le.", "meaning": "Hình như sắp mưa rồi." },
+          { "correct": "她大概同意了。", "pinyin": "Tā dàgài tóngyì le.", "meaning": "Có lẽ cô ấy đã đồng ý rồi." }
+        ]
+      },
+      {
+        "title": "当然/其实: trạng từ khẳng định",
+        "desc": "'当然' (dāngrán - tất nhiên) dùng để khẳng định mạnh mẽ điều hiển nhiên; '其实' (đã học bài 2) tiếp tục được dùng để đính chính, bổ sung cho sự khẳng định.",
+        "formula": [
+          { "text": "当然 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "可以/mệnh đề", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "当然可以！", "pinyin": "Dāngrán kěyǐ!", "meaning": "Tất nhiên được!" },
+          { "correct": "其实不难，你可以试试。", "pinyin": "Qíshí bù nán, nǐ kěyǐ shìshi.", "meaning": "Thực ra không khó, bạn có thể thử." },
+          { "correct": "他当然会坚持下去。", "pinyin": "Tā dāngrán huì jiānchí xiàqù.", "meaning": "Tất nhiên anh ấy sẽ kiên trì tiếp tục." }
+        ]
+      },
+      {
+        "title": "Ôn 还是...吧: đưa ra gợi ý",
+        "desc": "Ôn lại cấu trúc '还是...吧' đã học ở HSK2, áp dụng khi đưa ra đề nghị/quyết định sau khi cân nhắc trong giao tiếp xã hội.",
+        "formula": [
+          { "text": "还是 + mệnh đề +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "吧", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "我们还是同意他的建议吧。", "pinyin": "Wǒmen háishi tóngyì tā de jiànyì ba.", "meaning": "Chúng ta vẫn nên đồng ý đề nghị của anh ấy thì hơn." },
+          { "correct": "你还是原谅他吧。", "pinyin": "Nǐ háishi yuánliàng tā ba.", "meaning": "Bạn vẫn nên tha thứ cho anh ấy thì hơn." },
+          { "correct": "还是别放弃吧。", "pinyin": "Háishi bié fàngqì ba.", "meaning": "Vẫn đừng từ bỏ thì hơn." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Đưa ra ý kiến",
+        "lines": [
+          { "speaker": "A", "zh": "我决定不参加这个活动了，你同意吗？", "py": "Wǒ juédìng bù cānjiā zhège huódòng le, nǐ tóngyì ma?", "vi": "Mình quyết định không tham gia hoạt động này nữa, bạn có đồng ý không?" },
+          { "speaker": "B", "zh": "其实我有点儿反对，你还是再想想吧。", "py": "Qíshí wǒ yǒudiǎnr fǎnduì, nǐ háishi zài xiǎngxiang ba.", "vi": "Thực ra mình hơi phản đối, bạn vẫn nên suy nghĩ thêm thì hơn." },
+          { "speaker": "A", "zh": "我建议你说说你的态度。", "py": "Wǒ jiànyì nǐ shuōshuo nǐ de tàidu.", "vi": "Mình đề nghị bạn nói thử thái độ của bạn." },
+          { "speaker": "B", "zh": "好，我大概觉得你应该坚持下去。", "py": "Hǎo, wǒ dàgài juéde nǐ yīnggāi jiānchí xiàqù.", "vi": "Được, mình thấy có lẽ bạn nên kiên trì tiếp tục." },
+          { "speaker": "A", "zh": "好吧，那我不放弃了，谢谢你。", "py": "Hǎo ba, nà wǒ bú fàngqì le, xièxie nǐ.", "vi": "Được rồi, vậy mình không từ bỏ nữa, cảm ơn bạn." }
+        ]
+      },
+      {
+        "title": "Xin lỗi và tha thứ",
+        "lines": [
+          { "speaker": "A", "zh": "对不起，我昨天的态度不太好，请原谅我。", "py": "Duìbuqǐ, wǒ zuótiān de tàidu bú tài hǎo, qǐng yuánliàng wǒ.", "vi": "Xin lỗi, thái độ của tôi hôm qua không tốt lắm, xin hãy tha thứ cho tôi." },
+          { "speaker": "B", "zh": "没关系，你说话一直很有礼貌的。", "py": "Méiguānxi, nǐ shuōhuà yīzhí hěn yǒu lǐmào de.", "vi": "Không sao, bạn nói chuyện luôn rất lịch sự mà." },
+          { "speaker": "A", "zh": "好像是我误会了，其实我同意你的建议。", "py": "Hǎoxiàng shì wǒ wùhuì le, qíshí wǒ tóngyì nǐ de jiànyì.", "vi": "Hình như là tôi hiểu lầm rồi, thực ra tôi đồng ý đề nghị của bạn." },
+          { "speaker": "B", "zh": "当然没问题，我们继续合作吧。", "py": "Dāngrán méi wèntí, wǒmen jìxù hézuò ba.", "vi": "Tất nhiên không vấn đề gì, chúng ta tiếp tục hợp tác nhé." },
+          { "speaker": "A", "zh": "谢谢你的原谅。", "py": "Xièxie nǐ de yuánliàng.", "vi": "Cảm ơn bạn đã tha thứ." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 6: Cộng đồng & khu phố",
+    "theme": "CHƯƠNG 2: SINH HOẠT HÀNG NGÀY & DỊCH VỤ",
+    "orderIndex": 5,
+    "vocab": [
+      { "hanzi": "社区", "pinyin": "shèqū", "type": "Danh từ", "type_short": "n", "meaning": "cộng đồng dân cư, khu dân cư", "example_zh": "我们社区很安静。", "example_vi": "Khu dân cư của chúng tôi rất yên tĩnh." },
+      { "hanzi": "邻居", "pinyin": "línjū", "type": "Danh từ", "type_short": "n", "meaning": "hàng xóm", "example_zh": "我的邻居很友好。", "example_vi": "Hàng xóm của tôi rất thân thiện." },
+      { "hanzi": "小区", "pinyin": "xiǎoqū", "type": "Danh từ", "type_short": "n", "meaning": "khu chung cư", "example_zh": "这个小区很新。", "example_vi": "Khu chung cư này rất mới." },
+      { "hanzi": "楼道", "pinyin": "lóudào", "type": "Danh từ", "type_short": "n", "meaning": "hành lang (tòa nhà)", "example_zh": "楼道里很干净。", "example_vi": "Hành lang rất sạch sẽ." },
+      { "hanzi": "物业", "pinyin": "wùyè", "type": "Danh từ", "type_short": "n", "meaning": "ban quản lý (chung cư)", "example_zh": "请联系物业。", "example_vi": "Xin liên hệ ban quản lý." },
+      { "hanzi": "安全", "pinyin": "ānquán", "type": "Tính từ", "type_short": "adj", "meaning": "an toàn", "example_zh": "这里很安全。", "example_vi": "Nơi này rất an toàn." },
+      { "hanzi": "设施", "pinyin": "shèshī", "type": "Danh từ", "type_short": "n", "meaning": "cơ sở vật chất, tiện ích", "example_zh": "小区的设施很好。", "example_vi": "Tiện ích của khu chung cư rất tốt." },
+      { "hanzi": "安静", "pinyin": "ānjìng", "type": "Tính từ", "type_short": "adj", "meaning": "yên tĩnh", "example_zh": "这条街很安静。", "example_vi": "Con phố này rất yên tĩnh." },
+      { "hanzi": "吵闹", "pinyin": "chǎonào", "type": "Tính từ", "type_short": "adj", "meaning": "ồn ào", "example_zh": "楼上太吵闹了。", "example_vi": "Tầng trên quá ồn ào." },
+      { "hanzi": "投诉", "pinyin": "tóusù", "type": "Động từ", "type_short": "v", "meaning": "khiếu nại", "example_zh": "我要投诉这件事。", "example_vi": "Tôi muốn khiếu nại việc này." }
+    ],
+    "grammar": [
+      {
+        "title": "Tiềm năng bổ ngữ (潜在补语) 1: 听得懂/听不懂",
+        "desc": "Bổ ngữ tiềm năng diễn tả khả năng có thể/không thể đạt được kết quả, tạo bằng cách chèn '得' (có thể) hoặc '不' (không thể) giữa động từ và bổ ngữ kết quả.",
+        "formula": [
+          { "text": "Động từ + 得/不 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "bổ ngữ kết quả", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "你的话我听得懂。", "pinyin": "Nǐ de huà wǒ tīng de dǒng.", "meaning": "Lời bạn nói tôi nghe hiểu được." },
+          { "correct": "这个字我看不懂。", "pinyin": "Zhège zì wǒ kàn bu dǒng.", "meaning": "Chữ này tôi nhìn không hiểu." },
+          { "correct": "楼道太吵，我睡不着。", "pinyin": "Lóudào tài chǎo, wǒ shuì bu zháo.", "meaning": "Hành lang quá ồn, tôi không ngủ được." }
+        ]
+      },
+      {
+        "title": "V+得/不+好/完/对: mở rộng tiềm năng bổ ngữ",
+        "desc": "Mở rộng bổ ngữ tiềm năng kết hợp các bổ ngữ kết quả khác đã học (好/完/对), diễn tả khả năng hoàn thành/làm đúng một việc.",
+        "formula": [
+          { "text": "Động từ + 得/不 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "好/完/对", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "这件事今天做得完。", "pinyin": "Zhè jiàn shì jīntiān zuò de wán.", "meaning": "Việc này hôm nay làm xong được." },
+          { "correct": "他的字写得不好。", "pinyin": "Tā de zì xiě de bù hǎo.", "meaning": "Chữ của anh ấy viết không đẹp." },
+          { "correct": "这个问题你回答得对吗？", "pinyin": "Zhège wèntí nǐ huídá de duì ma?", "meaning": "Câu hỏi này bạn trả lời đúng không?" }
+        ]
+      },
+      {
+        "title": "Phân biệt 结果补语 vs 潜在补语",
+        "desc": "'结果补语' (như 听懂了) khẳng định một sự việc đã thực sự xảy ra; '潜在补语' (như 听得懂) chỉ diễn tả khả năng có thể xảy ra, không khẳng định đã xảy ra hay chưa.",
+        "formula": [
+          { "text": "V + 懂了 (đã hiểu)", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "≠ V + 得懂 (có thể hiểu)", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "我听懂了，谢谢你解释。", "pinyin": "Wǒ tīng dǒng le, xièxie nǐ jiěshì.", "meaning": "Tôi đã hiểu rồi, cảm ơn bạn giải thích." },
+          { "correct": "你说慢一点儿，我才听得懂。", "pinyin": "Nǐ shuō màn yìdiǎnr, wǒ cái tīng de dǒng.", "meaning": "Bạn nói chậm một chút thì tôi mới nghe hiểu được." },
+          { "correct": "这本书太难了，我看不懂。", "pinyin": "Zhè běn shū tài nán le, wǒ kàn bu dǒng.", "meaning": "Cuốn sách này quá khó, tôi đọc không hiểu." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Khiếu nại với ban quản lý",
+        "lines": [
+          { "speaker": "A", "zh": "您好，我想投诉一下，楼道太吵闹了。", "py": "Nínhǎo, wǒ xiǎng tóusù yíxià, lóudào tài chǎonào le.", "vi": "Xin chào, tôi muốn khiếu nại một chút, hành lang quá ồn ào." },
+          { "speaker": "B", "zh": "好的，我听得懂您的意思，我们会处理。", "py": "Hǎo de, wǒ tīng de dǒng nín de yìsi, wǒmen huì chǔlǐ.", "vi": "Vâng, tôi hiểu ý của bạn, chúng tôi sẽ xử lý." },
+          { "speaker": "A", "zh": "另外，小区的设施也应该检查一下安全问题。", "py": "Lìngwài, xiǎoqū de shèshī yě yīnggāi jiǎnchá yíxià ānquán wèntí.", "vi": "Ngoài ra, tiện ích của khu chung cư cũng nên kiểm tra vấn đề an toàn." },
+          { "speaker": "B", "zh": "好的，我们物业今天就检查得完。", "py": "Hǎo de, wǒmen wùyè jīntiān jiù jiǎnchá de wán.", "vi": "Vâng, ban quản lý chúng tôi hôm nay sẽ kiểm tra xong." },
+          { "speaker": "A", "zh": "谢谢，希望以后这里更安静。", "py": "Xièxie, xīwàng yǐhòu zhèlǐ gèng ānjìng.", "vi": "Cảm ơn, hy vọng sau này nơi đây yên tĩnh hơn." }
+        ]
+      },
+      {
+        "title": "Trò chuyện với hàng xóm",
+        "lines": [
+          { "speaker": "A", "zh": "你好，我是新搬来的邻居。", "py": "Nǐhǎo, wǒ shì xīn bān lái de línjū.", "vi": "Xin chào, tôi là hàng xóm mới chuyển đến." },
+          { "speaker": "B", "zh": "欢迎！我们这个社区很安全也很安静。", "py": "Huānyíng! Wǒmen zhège shèqū hěn ānquán yě hěn ānjìng.", "vi": "Chào mừng! Khu dân cư chúng tôi rất an toàn và yên tĩnh." },
+          { "speaker": "A", "zh": "太好了，这里的设施怎么样？", "py": "Tài hǎo le, zhèlǐ de shèshī zěnmeyàng?", "vi": "Tuyệt quá, tiện ích ở đây thế nào?" },
+          { "speaker": "B", "zh": "都很好，有问题可以联系物业。", "py": "Dōu hěn hǎo, yǒu wèntí kěyǐ liánxì wùyè.", "vi": "Đều rất tốt, có vấn đề gì có thể liên hệ ban quản lý." },
+          { "speaker": "A", "zh": "好的，谢谢你的介绍。", "py": "Hǎo de, xièxie nǐ de jièshào.", "vi": "Được rồi, cảm ơn bạn đã giới thiệu." }
+        ]
+      }
+    ]
+  }
+]

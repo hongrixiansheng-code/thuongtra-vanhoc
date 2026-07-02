@@ -1,7 +1,7 @@
 export const dynamic = 'force-dynamic';
 import { ListeningTab } from "@/components/legacy/ListeningTab";
 import { getAllVocabData, getAllPassagesData } from "@/lib/data";
-import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import { getCompletedLessonIds, getDefaultProgramCode } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 import PremiumLocked from "@/components/PremiumLocked";
 import PracticeEmptyState from "@/components/PracticeEmptyState";
@@ -9,7 +9,7 @@ import { Headphones } from "lucide-react";
 
 export default async function ListeningPage(props: any) {
   const searchParams = await props.searchParams;
-  const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
+  const level = (searchParams && searchParams.level) ? searchParams.level : await getDefaultProgramCode();
 
   const { completedLessonIds, programLocked, isPremiumUser } = await getCompletedLessonIds(level);
 

@@ -92,7 +92,10 @@
 }
 
 #loading-screen { 
-  position: fixed; inset: 0; background: #f9fafb; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; 
+  position: fixed; inset: 0; background: #FDFBF7; display: flex; flex-direction: column; align-items: center; justify-content: center; z-index: 9999; 
+}
+.dark #loading-screen {
+  background: #020617;
 }
 #loading-screen.hidden { display: none; }
 
@@ -127,3 +130,28 @@ body.lesson-focus .mobile-bottom-nav { display: none !important; }
     to   { transform: translateY(0);    opacity: 1; }
 }
 .slide-up { animation: slideUp 0.25s ease-out forwards; }
+
+/* ===== Viền LED chạy quanh khung bài tập chưa hoàn thành =====
+   Dùng conic-gradient xoay theo góc --led-angle; màu lấy từ accent người dùng.
+   Đặt .led-border ở lớp ngoài (padding 2px), thẻ nội dung bên trong có nền đặc che tâm,
+   chỉ chừa 2px viền để lộ dải sáng chạy. */
+@property --led-angle {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
+}
+@keyframes led-rotate {
+  to { --led-angle: 360deg; }
+}
+.led-border {
+  background: conic-gradient(from var(--led-angle),
+    rgb(var(--color-primary-500)) 0deg,
+    rgb(var(--color-primary-500) / 0.08) 70deg,
+    #fb7185 150deg,
+    rgb(var(--color-primary-500) / 0.08) 230deg,
+    rgb(var(--color-primary-500)) 360deg);
+  animation: led-rotate 4s linear infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .led-border { animation: none; }
+}

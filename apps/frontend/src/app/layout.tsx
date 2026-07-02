@@ -43,14 +43,20 @@ export default function RootLayout({
         />
       </head>
       <body
-        className={`${inter.className} antialiased min-h-screen bg-gray-50`}
+        className={`${inter.className} antialiased min-h-screen bg-[#FDFBF7] dark:bg-slate-950 relative text-slate-800 dark:text-slate-200`}
         suppressHydrationWarning
       >
+        {/* Họa tiết Grid chìm */}
+        <div className="pointer-events-none fixed inset-0 z-[-1] opacity-[0.25] dark:opacity-[0.03]" style={{ backgroundImage: 'radial-gradient(#94a3b8 1px, transparent 1px)', backgroundSize: '24px 24px' }}></div>
+        {/* Mesh Gradients lơ lửng */}
+        <div className="pointer-events-none fixed top-[-10%] left-[-10%] w-[40%] h-[40%] rounded-full bg-orange-400/15 dark:bg-orange-500/5 blur-[120px] z-[-1]"></div>
+        <div className="pointer-events-none fixed bottom-[-10%] right-[-5%] w-[35%] h-[40%] rounded-full bg-rose-400/10 dark:bg-rose-500/5 blur-[120px] z-[-1]"></div>
+
         <Providers>
           <Suspense fallback={<div>Loading Navigation...</div>}>
             <Navigation />
           </Suspense>
-          <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 pb-24 md:pb-6 relative">
+          <main className="flex-1 max-w-7xl w-full mx-auto p-4 md:p-6 mt-2 md:mt-4 pb-24 md:pb-12 relative z-0">
             {children}
           </main>
         </Providers>

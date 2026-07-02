@@ -1,14 +1,14 @@
 export const dynamic = 'force-dynamic';
 import GrammarClient from "@/components/GrammarClient";
 import { getAllGrammarData } from "@/lib/data";
-import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import { getCompletedLessonIds, getDefaultProgramCode } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 import Link from "next/link";
 import { BookOpen } from "lucide-react";
 
 export default async function GrammarPage(props: any) {
   const searchParams = await props.searchParams;
-  const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
+  const level = (searchParams && searchParams.level) ? searchParams.level : await getDefaultProgramCode();
 
   const { completedLessonIds, programLocked } = await getCompletedLessonIds(level);
 

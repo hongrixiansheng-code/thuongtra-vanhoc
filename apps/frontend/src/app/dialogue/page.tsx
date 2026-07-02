@@ -1,13 +1,13 @@
 export const dynamic = 'force-dynamic';
 import { getAllDialogueData } from "@/lib/data";
-import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import { getCompletedLessonIds, getDefaultProgramCode } from '@/lib/getProgressIds';
 import DialogueClient from "@/components/DialogueClient";
 import ProgramLocked from "@/components/ProgramLocked";
 import { MessagesSquare } from "lucide-react";
 
 export default async function DialoguePage(props: any) {
   const searchParams = await props.searchParams;
-  const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
+  const level = (searchParams && searchParams.level) ? searchParams.level : await getDefaultProgramCode();
 
   const { completedLessonIds, programLocked } = await getCompletedLessonIds(level);
 

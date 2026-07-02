@@ -124,3 +124,75 @@ export async function removeStudentFromClass(formData: FormData) {
     return { error: "Đã xảy ra lỗi khi xóa học sinh khỏi lớp." };
   }
 }
+
+export async function upsertAssignment(formData: FormData) {
+  const classId = formData.get("classId") as string;
+  const result = await requireOwnedClass(classId);
+  if ("error" in result) return result;
+
+  const lessonId = formData.get("lessonId") as string;
+  const dueDateRaw = (formData.get("dueDate") as string) || "";
+  const note = ((formData.get("note") as string) || "").trim();
+
+  if (!lessonId) return { error: "Thiếu bài học." };
+
+  const dueDate = dueDateRaw ? new Date(dueDateRaw) : null;
+
+  try {
+    // Bài học sau trong chương trình không được có hạn sớm hơn bài học trước (và ngược lại) —
+    // vì học sinh phải hoàn thành tuần tự, hạn ngược thứ tự là vô lý.
+    if (dueDate) {
+      const lesson = await prisma.lesson.findUnique({ where: { id: lessonId }, select: { orderIndex: true } });
+      if (!lesson) return { error: "Không tìm thấy bài học." };
+
+      const otherAssignments = await prisma.assignment.findMany({
+        where: { classId, lessonId: { not: lessonId }, dueDate: { not: null } },
+        include: { lesson: { select: { orderIndex: true, title: true } } }
+      });
+
+      for (const other of otherAssignments) {
+        if (!other.dueDate) continue;
+        if (other.lesson.orderIndex < lesson.orderIndex && other.dueDate.getTime() > dueDate.getTime()) {
+          return {
+            error: `Hạn không hợp lý: bài "${other.lesson.title}" học TRƯỚC bài này nhưng đang có hạn muộn hơn (${other.dueDate.toLocaleDateString('vi-VN')}). Hãy chọn hạn từ ${other.dueDate.toLocaleDateString('vi-VN')} trở đi.`
+          };
+        }
+        if (other.lesson.orderIndex > lesson.orderIndex && other.dueDate.getTime() < dueDate.getTime()) {
+          return {
+            error: `Hạn không hợp lý: bài "${other.lesson.title}" học SAU bài này nhưng đang có hạn sớm hơn (${other.dueDate.toLocaleDateString('vi-VN')}). Hãy chọn hạn trước ${other.dueDate.toLocaleDateString('vi-VN')}.`
+          };
+        }
+      }
+    }
+
+    await prisma.assignment.upsert({
+      where: { classId_lessonId: { classId, lessonId } },
+      update: { dueDate, note: note || null },
+      create: { classId, lessonId, dueDate, note: note || null }
+    });
+
+    revalidatePath(`/teacher/classes/${classId}`);
+    return { success: true };
+  } catch (error) {
+    console.error("Lỗi khi giao bài tập:", error);
+    return { error: "Đã xảy ra lỗi khi giao bài tập." };
+  }
+}
+
+export async function removeAssignment(formData: FormData) {
+  const classId = formData.get("classId") as string;
+  const result = await requireOwnedClass(classId);
+  if ("error" in result) return result;
+
+  const assignmentId = formData.get("assignmentId") as string;
+  if (!assignmentId) return { error: "Thiếu thông tin bài tập." };
+
+  try {
+    await prisma.assignment.delete({ where: { id: assignmentId } });
+    revalidatePath(`/teacher/classes/${classId}`);
+    return { success: true };
+  } catch (error) {
+    console.error("Lỗi khi hủy giao bài tập:", error);
+    return { error: "Đã xảy ra lỗi khi hủy giao bài tập." };
+  }
+}

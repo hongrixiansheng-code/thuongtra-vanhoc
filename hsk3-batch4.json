@@ -1,0 +1,802 @@
+[
+  {
+    "title": "Bài 22: Công việc văn phòng hàng ngày",
+    "theme": "CHƯƠNG 8: CÔNG VIỆC & VĂN PHÒNG",
+    "orderIndex": 21,
+    "vocab": [
+      { "hanzi": "会议", "pinyin": "huìyì", "type": "Danh từ", "type_short": "n", "meaning": "cuộc họp", "example_zh": "下午有一个会议。", "example_vi": "Chiều nay có một cuộc họp." },
+      { "hanzi": "议程", "pinyin": "yìchéng", "type": "Danh từ", "type_short": "n", "meaning": "chương trình họp", "example_zh": "请看一下今天的议程。", "example_vi": "Xin xem chương trình họp hôm nay." },
+      { "hanzi": "汇报", "pinyin": "huìbào", "type": "Động từ", "type_short": "v", "meaning": "báo cáo", "example_zh": "我要向经理汇报。", "example_vi": "Tôi cần báo cáo với giám đốc." },
+      { "hanzi": "邮件", "pinyin": "yóujiàn", "type": "Danh từ", "type_short": "n", "meaning": "thư điện tử, email", "example_zh": "我发了一封邮件。", "example_vi": "Tôi đã gửi một email." },
+      { "hanzi": "出勤", "pinyin": "chūqín", "type": "Động từ", "type_short": "v", "meaning": "đi làm đúng giờ, có mặt", "example_zh": "他今天没有出勤。", "example_vi": "Hôm nay anh ấy không có mặt làm việc." },
+      { "hanzi": "请假", "pinyin": "qǐngjià", "type": "Động từ", "type_short": "v", "meaning": "xin nghỉ phép", "example_zh": "我想请假一天。", "example_vi": "Tôi muốn xin nghỉ một ngày." },
+      { "hanzi": "加班", "pinyin": "jiābān", "type": "Động từ", "type_short": "v", "meaning": "làm thêm giờ", "example_zh": "今天要加班。", "example_vi": "Hôm nay phải làm thêm giờ." },
+      { "hanzi": "绩效", "pinyin": "jìxiào", "type": "Danh từ", "type_short": "n", "meaning": "hiệu suất công việc (KPI)", "example_zh": "他的绩效很好。", "example_vi": "Hiệu suất công việc của anh ấy rất tốt." },
+      { "hanzi": "合作", "pinyin": "hézuò", "type": "Động từ", "type_short": "v", "meaning": "hợp tác", "example_zh": "我们要好好合作。", "example_vi": "Chúng ta cần hợp tác cho tốt." },
+      { "hanzi": "协调", "pinyin": "xiétiáo", "type": "Động từ", "type_short": "v", "meaning": "phối hợp", "example_zh": "请帮忙协调一下时间。", "example_vi": "Xin giúp phối hợp thời gian một chút." }
+    ],
+    "grammar": [
+      {
+        "title": "Ly hợp từ (离合词) 2 nâng cao: 请个假/开个会/出个差",
+        "desc": "Mở rộng ly hợp từ đã học ở bài 4 với nhóm từ vựng văn phòng — 请假, 开会, 出差 đều có thể chèn lượng từ vào giữa khi muốn diễn đạt 'một lần'.",
+        "formula": [
+          { "text": "Âm tiết 1 + 个 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "Âm tiết 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我想请个假。", "pinyin": "Wǒ xiǎng qǐng gè jià.", "meaning": "Tôi muốn xin nghỉ phép." },
+          { "correct": "我们开个会讨论一下。", "pinyin": "Wǒmen kāi gè huì tǎolùn yíxià.", "meaning": "Chúng ta họp một buổi để bàn bạc." },
+          { "correct": "他下周要出个差。", "pinyin": "Tā xià zhōu yào chū gè chāi.", "meaning": "Tuần sau anh ấy phải đi công tác một chuyến." }
+        ]
+      },
+      {
+        "title": "Đa định ngữ (多项定语): nhiều định ngữ cùng bổ nghĩa danh từ",
+        "desc": "Khi một danh từ có nhiều định ngữ (số lượng, tính chất, chất liệu...) bổ nghĩa, các định ngữ được sắp xếp theo trật tự cố định trước danh từ trung tâm.",
+        "formula": [
+          { "text": "Số lượng + tính chất +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "(的) + danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "这是一封重要的邮件。", "pinyin": "Zhè shì yì fēng zhòngyào de yóujiàn.", "meaning": "Đây là một email quan trọng." },
+          { "correct": "我们开了一个长长的会议。", "pinyin": "Wǒmen kāi le yí gè chángcháng de huìyì.", "meaning": "Chúng tôi đã họp một cuộc họp dài." },
+          { "correct": "他是一位有经验的同事。", "pinyin": "Tā shì yí wèi yǒu jīngyàn de tóngshì.", "meaning": "Anh ấy là một đồng nghiệp có kinh nghiệm." }
+        ]
+      },
+      {
+        "title": "Ôn 把字句 trong ngữ cảnh văn phòng",
+        "desc": "Ôn lại câu '把' đã học, áp dụng vào ngữ cảnh xử lý công việc văn phòng (email, báo cáo, lịch họp).",
+        "formula": [
+          { "text": "把 + tân ngữ +", "classes": "border-red-200 bg-red-50 text-red-700" },
+          { "text": "动词 + 结果", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "请把邮件发给我。", "pinyin": "Qǐng bǎ yóujiàn fā gěi wǒ.", "meaning": "Xin gửi email cho tôi." },
+          { "correct": "我把汇报写好了。", "pinyin": "Wǒ bǎ huìbào xiě hǎo le.", "meaning": "Tôi đã viết xong báo cáo." },
+          { "correct": "他把会议时间协调好了。", "pinyin": "Tā bǎ huìyì shíjiān xiétiáo hǎo le.", "meaning": "Anh ấy đã phối hợp xong thời gian họp." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Sắp xếp cuộc họp",
+        "lines": [
+          { "speaker": "A", "zh": "下午的会议议程是什么？", "py": "Xiàwǔ de huìyì yìchéng shì shénme?", "vi": "Chương trình họp chiều nay là gì?" },
+          { "speaker": "B", "zh": "我们要汇报这个月的绩效。", "py": "Wǒmen yào huìbào zhège yuè de jìxiào.", "vi": "Chúng ta cần báo cáo hiệu suất tháng này." },
+          { "speaker": "A", "zh": "好，我把汇报写好了，等会儿发给你。", "py": "Hǎo, wǒ bǎ huìbào xiě hǎo le, děnghuǐr fā gěi nǐ.", "vi": "Được, tôi đã viết xong báo cáo, lát nữa gửi cho bạn." },
+          { "speaker": "B", "zh": "谢谢，我们今天能开个会确认一下吗？", "py": "Xièxie, wǒmen jīntiān néng kāi gè huì quèrèn yíxià ma?", "vi": "Cảm ơn, hôm nay chúng ta họp một buổi để xác nhận được không?" },
+          { "speaker": "A", "zh": "可以，三点我们一起协调时间。", "py": "Kěyǐ, sān diǎn wǒmen yìqǐ xiétiáo shíjiān.", "vi": "Được, ba giờ chúng ta cùng phối hợp thời gian." }
+        ]
+      },
+      {
+        "title": "Xin nghỉ phép & làm thêm giờ",
+        "lines": [
+          { "speaker": "A", "zh": "我想请个假，明天有事。", "py": "Wǒ xiǎng qǐng gè jià, míngtiān yǒushì.", "vi": "Tôi muốn xin nghỉ phép, ngày mai có việc." },
+          { "speaker": "B", "zh": "好的，那今天的邮件你处理完了吗？", "py": "Hǎo de, nà jīntiān de yóujiàn nǐ chǔlǐ wán le ma?", "vi": "Được, vậy email hôm nay bạn xử lý xong chưa?" },
+          { "speaker": "A", "zh": "我把这封重要的邮件处理好了。", "py": "Wǒ bǎ zhè fēng zhòngyào de yóujiàn chǔlǐ hǎo le.", "vi": "Tôi đã xử lý xong cái email quan trọng này." },
+          { "speaker": "B", "zh": "好，那我们今晚就不用加班了。", "py": "Hǎo, nà wǒmen jīnwǎn jiù búyòng jiābān le.", "vi": "Được, vậy tối nay chúng ta không cần làm thêm giờ nữa." },
+          { "speaker": "A", "zh": "好，明天我会准时出勤的。", "py": "Hǎo, míngtiān wǒ huì zhǔnshí chūqín de.", "vi": "Được, ngày mai tôi sẽ đi làm đúng giờ." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 23: Môi trường & mối quan hệ công sở",
+    "theme": "CHƯƠNG 8: CÔNG VIỆC & VĂN PHÒNG",
+    "orderIndex": 22,
+    "vocab": [
+      { "hanzi": "同事", "pinyin": "tóngshì", "type": "Danh từ", "type_short": "n", "meaning": "đồng nghiệp", "example_zh": "我的同事很热情。", "example_vi": "Đồng nghiệp của tôi rất nhiệt tình." },
+      { "hanzi": "上级", "pinyin": "shàngjí", "type": "Danh từ", "type_short": "n", "meaning": "cấp trên", "example_zh": "上级对我很信任。", "example_vi": "Cấp trên rất tin tưởng tôi." },
+      { "hanzi": "下级", "pinyin": "xiàjí", "type": "Danh từ", "type_short": "n", "meaning": "cấp dưới", "example_zh": "他对下级很尊重。", "example_vi": "Anh ấy rất tôn trọng cấp dưới." },
+      { "hanzi": "沟通", "pinyin": "gōutōng", "type": "Động từ", "type_short": "v", "meaning": "giao tiếp, trao đổi", "example_zh": "我们要多沟通。", "example_vi": "Chúng ta cần trao đổi nhiều hơn." },
+      { "hanzi": "误解", "pinyin": "wùjiě", "type": "Danh từ", "type_short": "n", "meaning": "hiểu lầm", "example_zh": "这是一个误解。", "example_vi": "Đây là một sự hiểu lầm." },
+      { "hanzi": "信任", "pinyin": "xìnrèn", "type": "Động từ", "type_short": "v", "meaning": "tin tưởng", "example_zh": "我很信任他。", "example_vi": "Tôi rất tin tưởng anh ấy." },
+      { "hanzi": "尊重", "pinyin": "zūnzhòng", "type": "Động từ", "type_short": "v", "meaning": "tôn trọng", "example_zh": "我们要互相尊重。", "example_vi": "Chúng ta cần tôn trọng lẫn nhau." },
+      { "hanzi": "表扬", "pinyin": "biǎoyáng", "type": "Động từ", "type_short": "v", "meaning": "khen ngợi", "example_zh": "老板表扬了我。", "example_vi": "Sếp đã khen ngợi tôi." },
+      { "hanzi": "批评", "pinyin": "pīpíng", "type": "Động từ", "type_short": "v", "meaning": "phê bình", "example_zh": "他被批评了。", "example_vi": "Anh ấy bị phê bình." },
+      { "hanzi": "氛围", "pinyin": "fēnwéi", "type": "Danh từ", "type_short": "n", "meaning": "bầu không khí", "example_zh": "公司的氛围很好。", "example_vi": "Bầu không khí công ty rất tốt." }
+    ],
+    "grammar": [
+      {
+        "title": "Câu bị động (被动句) 3: 受到/遭到 tự nhiên",
+        "desc": "Tiếp tục mở rộng '受到/遭到' (đã học bài 16) trong ngữ cảnh công sở — '受到表扬' mang sắc thái tích cực, '遭到批评' mang sắc thái tiêu cực, đây là cách diễn đạt bị động rất tự nhiên trong tiếng Trung trang trọng.",
+        "formula": [
+          { "text": "Chủ ngữ + 受到/遭到 +", "classes": "border-rose-200 bg-rose-50 text-rose-700" },
+          { "text": "danh từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "他受到了老板的表扬。", "pinyin": "Tā shòudào le lǎobǎn de biǎoyáng.", "meaning": "Anh ấy đã nhận được lời khen của sếp." },
+          { "correct": "这个项目遭到了批评。", "pinyin": "Zhège xiàngmù zāodào le pīpíng.", "meaning": "Dự án này đã bị phê bình." },
+          { "correct": "新同事受到了大家的尊重。", "pinyin": "Xīn tóngshì shòudào le dàjiā de zūnzhòng.", "meaning": "Đồng nghiệp mới đã nhận được sự tôn trọng của mọi người." }
+        ]
+      },
+      {
+        "title": "在...上/下/中 mở rộng",
+        "desc": "Mở rộng '在...上/下/中' đã học ở bài 9, đặc biệt '在...的帮助/支持下' rất thường gặp trong ngữ cảnh công việc nhóm.",
+        "formula": [
+          { "text": "在 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "danh từ + 的帮助/支持下", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "在大家的帮助下，问题解决了。", "pinyin": "Zài dàjiā de bāngzhù xià, wèntí jiějué le.", "meaning": "Dưới sự giúp đỡ của mọi người, vấn đề đã được giải quyết." },
+          { "correct": "在上级的支持下，我们完成了任务。", "pinyin": "Zài shàngjí de zhīchí xià, wǒmen wánchéng le rènwù.", "meaning": "Dưới sự ủng hộ của cấp trên, chúng tôi đã hoàn thành nhiệm vụ." },
+          { "correct": "在沟通中，误解慢慢消除了。", "pinyin": "Zài gōutōng zhōng, wùjiě mànmàn xiāochú le.", "meaning": "Trong quá trình trao đổi, hiểu lầm dần dần được xóa bỏ." }
+        ]
+      },
+      {
+        "title": "Ôn 虽然...可是 trong ngữ cảnh công việc",
+        "desc": "Ôn lại liên từ nhượng bộ đã học, áp dụng khi nói về khó khăn trong quan hệ công sở nhưng vẫn duy trì được sự hợp tác.",
+        "formula": [
+          { "text": "虽然 + mệnh đề 1 +", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "可是/但是 + mệnh đề 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "虽然有误解，可是我们沟通后就好了。", "pinyin": "Suīrán yǒu wùjiě, kěshì wǒmen gōutōng hòu jiù hǎo le.", "meaning": "Tuy có hiểu lầm, nhưng sau khi trao đổi thì ổn rồi." },
+          { "correct": "虽然他是下级，但是我很尊重他。", "pinyin": "Suīrán tā shì xiàjí, dànshì wǒ hěn zūnzhòng tā.", "meaning": "Tuy anh ấy là cấp dưới, nhưng tôi rất tôn trọng anh ấy." },
+          { "correct": "虽然遭到批评，可是他没有放弃。", "pinyin": "Suīrán zāodào pīpíng, kěshì tā méiyǒu fàngqì.", "meaning": "Tuy bị phê bình, nhưng anh ấy đã không từ bỏ." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Giải quyết hiểu lầm với đồng nghiệp",
+        "lines": [
+          { "speaker": "A", "zh": "我和同事之间好像有点儿误解。", "py": "Wǒ hé tóngshì zhījiān hǎoxiàng yǒudiǎnr wùjiě.", "vi": "Giữa tôi và đồng nghiệp hình như có chút hiểu lầm." },
+          { "speaker": "B", "zh": "你们应该多沟通，互相信任。", "py": "Nǐmen yīnggāi duō gōutōng, hùxiāng xìnrèn.", "vi": "Hai bạn nên trao đổi nhiều hơn, tin tưởng lẫn nhau." },
+          { "speaker": "A", "zh": "虽然有误解，可是我很尊重他。", "py": "Suīrán yǒu wùjiě, kěshì wǒ hěn zūnzhòng tā.", "vi": "Tuy có hiểu lầm, nhưng tôi rất tôn trọng anh ấy." },
+          { "speaker": "B", "zh": "在大家的帮助下，问题会解决的。", "py": "Zài dàjiā de bāngzhù xià, wèntí huì jiějué de.", "vi": "Dưới sự giúp đỡ của mọi người, vấn đề sẽ được giải quyết." },
+          { "speaker": "A", "zh": "好，公司的氛围一直很好，我相信会没事的。", "py": "Hǎo, gōngsī de fēnwéi yīzhí hěn hǎo, wǒ xiāngxìn huì méishì de.", "vi": "Được, bầu không khí công ty luôn rất tốt, tôi tin sẽ ổn thôi." }
+        ]
+      },
+      {
+        "title": "Được khen và bị phê bình",
+        "lines": [
+          { "speaker": "A", "zh": "听说你这个月的项目受到了表扬？", "py": "Tīngshuō nǐ zhège yuè de xiàngmù shòudào le biǎoyáng?", "vi": "Nghe nói dự án tháng này của bạn được khen ngợi?" },
+          { "speaker": "B", "zh": "对，在上级的支持下，我们做得很好。", "py": "Duì, zài shàngjí de zhīchí xià, wǒmen zuò de hěn hǎo.", "vi": "Đúng, dưới sự ủng hộ của cấp trên, chúng tôi làm rất tốt." },
+          { "speaker": "A", "zh": "上次那个项目不是遭到批评了吗？", "py": "Shàng cì nàge xiàngmù búshì zāodào pīpíng le ma?", "vi": "Dự án lần trước chẳng phải đã bị phê bình sao?" },
+          { "speaker": "B", "zh": "是的，但是我们沟通后改进了很多。", "py": "Shì de, dànshì wǒmen gōutōng hòu gǎijìn le hěn duō.", "vi": "Đúng vậy, nhưng sau khi trao đổi chúng tôi đã cải thiện rất nhiều." },
+          { "speaker": "A", "zh": "很好，互相尊重和信任真的很重要。", "py": "Hěn hǎo, hùxiāng zūnzhòng hé xìnrèn zhēn de hěn zhòngyào.", "vi": "Tốt lắm, tôn trọng và tin tưởng lẫn nhau thật sự rất quan trọng." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 24: Kinh nghiệm & đánh giá nghề nghiệp",
+    "theme": "CHƯƠNG 8: CÔNG VIỆC & VĂN PHÒNG",
+    "orderIndex": 23,
+    "vocab": [
+      { "hanzi": "职业", "pinyin": "zhíyè", "type": "Danh từ", "type_short": "n", "meaning": "nghề nghiệp", "example_zh": "你的职业是什么？", "example_vi": "Nghề nghiệp của bạn là gì?" },
+      { "hanzi": "发展", "pinyin": "fāzhǎn", "type": "Động từ", "type_short": "v", "meaning": "phát triển", "example_zh": "这个行业发展很快。", "example_vi": "Ngành này phát triển rất nhanh." },
+      { "hanzi": "晋升", "pinyin": "jìnshēng", "type": "Động từ", "type_short": "v", "meaning": "thăng chức", "example_zh": "他晋升了。", "example_vi": "Anh ấy đã được thăng chức." },
+      { "hanzi": "辞职", "pinyin": "cízhí", "type": "Động từ", "type_short": "v", "meaning": "từ chức, nghỉ việc", "example_zh": "她决定辞职。", "example_vi": "Cô ấy quyết định nghỉ việc." },
+      { "hanzi": "创业", "pinyin": "chuàngyè", "type": "Động từ", "type_short": "v", "meaning": "khởi nghiệp", "example_zh": "他想自己创业。", "example_vi": "Anh ấy muốn tự khởi nghiệp." },
+      { "hanzi": "经验", "pinyin": "jīngyàn", "type": "Danh từ", "type_short": "n", "meaning": "kinh nghiệm", "example_zh": "他有很多工作经验。", "example_vi": "Anh ấy có nhiều kinh nghiệm làm việc." },
+      { "hanzi": "能力", "pinyin": "nénglì", "type": "Danh từ", "type_short": "n", "meaning": "năng lực", "example_zh": "她的能力很强。", "example_vi": "Năng lực của cô ấy rất mạnh." },
+      { "hanzi": "优势", "pinyin": "yōushì", "type": "Danh từ", "type_short": "n", "meaning": "ưu thế, lợi thế", "example_zh": "这是我们的优势。", "example_vi": "Đây là ưu thế của chúng tôi." },
+      { "hanzi": "不足", "pinyin": "bùzú", "type": "Danh từ", "type_short": "n", "meaning": "điểm yếu, thiếu sót", "example_zh": "我们要改进不足。", "example_vi": "Chúng ta cần cải thiện thiếu sót." },
+      { "hanzi": "目标", "pinyin": "mùbiāo", "type": "Danh từ", "type_short": "n", "meaning": "mục tiêu", "example_zh": "我的目标是当经理。", "example_vi": "Mục tiêu của tôi là trở thành giám đốc." }
+    ],
+    "grammar": [
+      {
+        "title": "Liên từ 只有...才: chỉ có...mới",
+        "desc": "'只有...才' (zhǐyǒu...cái) diễn tả điều kiện cần — chỉ khi điều kiện vế trước được thỏa mãn thì kết quả vế sau mới có thể xảy ra (chặt chẽ hơn '只要...就').",
+        "formula": [
+          { "text": "只有 + điều kiện cần +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "才 + kết quả", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "只有努力工作，才能成功。", "pinyin": "Zhǐyǒu nǔlì gōngzuò, cái néng chénggōng.", "meaning": "Chỉ có làm việc chăm chỉ, mới có thể thành công." },
+          { "correct": "只有积累经验，才能提高能力。", "pinyin": "Zhǐyǒu jīlěi jīngyàn, cái néng tígāo nénglì.", "meaning": "Chỉ có tích lũy kinh nghiệm, mới có thể nâng cao năng lực." },
+          { "correct": "只有发现不足，才能更好地发展。", "pinyin": "Zhǐyǒu fāxiàn bùzú, cái néng gèng hǎo de fāzhǎn.", "meaning": "Chỉ có nhận ra thiếu sót, mới có thể phát triển tốt hơn." }
+        ]
+      },
+      {
+        "title": "Bổ ngữ xu hướng mở rộng (引申) 2: V+下去 — tiếp tục",
+        "desc": "'下去' đứng sau động từ để diễn tả việc tiếp tục thực hiện hành động đang diễn ra, không dừng lại.",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "下去", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "请坚持下去。", "pinyin": "Qǐng jiānchí xiàqù.", "meaning": "Xin hãy kiên trì tiếp tục." },
+          { "correct": "他继续说下去。", "pinyin": "Tā jìxù shuō xiàqù.", "meaning": "Anh ấy tiếp tục nói." },
+          { "correct": "这份工作我做不下去了。", "pinyin": "Zhè fèn gōngzuò wǒ zuò bu xiàqù le.", "meaning": "Công việc này tôi làm không tiếp tục được nữa." }
+        ]
+      },
+      {
+        "title": "Ôn 需要/愿意 (modal verbs)",
+        "desc": "Ôn lại '需要' (cần) đã học bài 1, mở rộng '愿意' (yuànyì - sẵn lòng) trong ngữ cảnh nói về định hướng nghề nghiệp.",
+        "formula": [
+          { "text": "Chủ ngữ + 需要/愿意 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我需要更多工作经验。", "pinyin": "Wǒ xūyào gèng duō gōngzuò jīngyàn.", "meaning": "Tôi cần thêm kinh nghiệm làm việc." },
+          { "correct": "她愿意尝试创业。", "pinyin": "Tā yuànyì chángshì chuàngyè.", "meaning": "Cô ấy sẵn lòng thử khởi nghiệp." },
+          { "correct": "你愿意为这个目标努力吗？", "pinyin": "Nǐ yuànyì wèi zhège mùbiāo nǔlì ma?", "meaning": "Bạn có sẵn lòng cố gắng vì mục tiêu này không?" }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Bàn về phát triển nghề nghiệp",
+        "lines": [
+          { "speaker": "A", "zh": "你对自己的职业发展有什么目标？", "py": "Nǐ duì zìjǐ de zhíyè fāzhǎn yǒu shénme mùbiāo?", "vi": "Bạn có mục tiêu gì cho sự phát triển nghề nghiệp của mình?" },
+          { "speaker": "B", "zh": "我希望明年能晋升，只有努力才能实现。", "py": "Wǒ xīwàng míngnián néng jìnshēng, zhǐyǒu nǔlì cái néng shíxiàn.", "vi": "Mình hy vọng năm sau có thể thăng chức, chỉ có cố gắng mới thực hiện được." },
+          { "speaker": "A", "zh": "你觉得自己的优势是什么？", "py": "Nǐ juéde zìjǐ de yōushì shì shénme?", "vi": "Bạn thấy ưu thế của mình là gì?" },
+          { "speaker": "B", "zh": "我有不少经验，但也有一些不足。", "py": "Wǒ yǒu bùshǎo jīngyàn, dàn yě yǒu yìxiē bùzú.", "vi": "Mình có khá nhiều kinh nghiệm, nhưng cũng có một số thiếu sót." },
+          { "speaker": "A", "zh": "只要坚持下去，能力会越来越强的。", "py": "Zhǐyào jiānchí xiàqù, nénglì huì yuè lái yuè qiáng de.", "vi": "Chỉ cần kiên trì tiếp tục, năng lực sẽ ngày càng mạnh hơn." }
+        ]
+      },
+      {
+        "title": "Quyết định khởi nghiệp",
+        "lines": [
+          { "speaker": "A", "zh": "我听说你要辞职去创业？", "py": "Wǒ tīngshuō nǐ yào cízhí qù chuàngyè?", "vi": "Mình nghe nói bạn sắp nghỉ việc để khởi nghiệp?" },
+          { "speaker": "B", "zh": "对，我愿意尝试新的发展方向。", "py": "Duì, wǒ yuànyì chángshì xīn de fāzhǎn fāngxiàng.", "vi": "Đúng vậy, mình sẵn lòng thử hướng phát triển mới." },
+          { "speaker": "A", "zh": "这个行业需要什么样的能力？", "py": "Zhège hángyè xūyào shénmeyàng de nénglì?", "vi": "Ngành này cần năng lực như thế nào?" },
+          { "speaker": "B", "zh": "只有有经验和能力，才能做得好。", "py": "Zhǐyǒu yǒu jīngyàn hé nénglì, cái néng zuò de hǎo.", "vi": "Chỉ có kinh nghiệm và năng lực, mới có thể làm tốt." },
+          { "speaker": "A", "zh": "祝你成功，坚持下去一定可以的！", "py": "Zhù nǐ chénggōng, jiānchí xiàqù yídìng kěyǐ de!", "vi": "Chúc bạn thành công, kiên trì tiếp tục chắc chắn được mà!" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 25: Tìm việc & phỏng vấn",
+    "theme": "CHƯƠNG 8: CÔNG VIỆC & VĂN PHÒNG",
+    "orderIndex": 24,
+    "vocab": [
+      { "hanzi": "求职", "pinyin": "qiúzhí", "type": "Động từ", "type_short": "v", "meaning": "tìm việc", "example_zh": "我正在求职。", "example_vi": "Tôi đang tìm việc." },
+      { "hanzi": "简历", "pinyin": "jiǎnlì", "type": "Danh từ", "type_short": "n", "meaning": "sơ yếu lý lịch, CV", "example_zh": "请把简历发给我。", "example_vi": "Xin gửi CV cho tôi." },
+      { "hanzi": "面试", "pinyin": "miànshì", "type": "Danh từ", "type_short": "n", "meaning": "phỏng vấn", "example_zh": "明天我有一个面试。", "example_vi": "Ngày mai tôi có một buổi phỏng vấn." },
+      { "hanzi": "应聘", "pinyin": "yìngpìn", "type": "Động từ", "type_short": "v", "meaning": "ứng tuyển", "example_zh": "我应聘了这个职位。", "example_vi": "Tôi đã ứng tuyển vị trí này." },
+      { "hanzi": "录用", "pinyin": "lùyòng", "type": "Động từ", "type_short": "v", "meaning": "tuyển dụng, nhận vào làm", "example_zh": "我被录用了！", "example_vi": "Tôi đã được nhận vào làm!" },
+      { "hanzi": "自我介绍", "pinyin": "zìwǒ jièshào", "type": "Danh từ", "type_short": "n", "meaning": "tự giới thiệu bản thân", "example_zh": "请先做一下自我介绍。", "example_vi": "Xin hãy tự giới thiệu bản thân trước." },
+      { "hanzi": "优点", "pinyin": "yōudiǎn", "type": "Danh từ", "type_short": "n", "meaning": "ưu điểm", "example_zh": "你的优点是什么？", "example_vi": "Ưu điểm của bạn là gì?" },
+      { "hanzi": "缺点", "pinyin": "quēdiǎn", "type": "Danh từ", "type_short": "n", "meaning": "nhược điểm", "example_zh": "每个人都有缺点。", "example_vi": "Ai cũng có nhược điểm." },
+      { "hanzi": "薪资", "pinyin": "xīnzī", "type": "Danh từ", "type_short": "n", "meaning": "lương bổng", "example_zh": "薪资待遇怎么样？", "example_vi": "Chế độ lương bổng thế nào?" },
+      { "hanzi": "offer", "pinyin": "offer", "type": "Danh từ", "type_short": "n", "meaning": "thư mời nhận việc", "example_zh": "我收到了offer。", "example_vi": "Tôi đã nhận được thư mời nhận việc." }
+    ],
+    "grammar": [
+      {
+        "title": "Ôn 只有...才 trong ngữ cảnh phỏng vấn",
+        "desc": "Ôn lại '只有...才' đã học ở bài 24, áp dụng vào ngữ cảnh chuẩn bị phỏng vấn xin việc.",
+        "formula": [
+          { "text": "只有 + điều kiện cần +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "才 + kết quả", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "只有准备充分，才能面试成功。", "pinyin": "Zhǐyǒu zhǔnbèi chōngfèn, cái néng miànshì chénggōng.", "meaning": "Chỉ có chuẩn bị đầy đủ, mới có thể phỏng vấn thành công." },
+          { "correct": "只有写好简历，才会被邀请面试。", "pinyin": "Zhǐyǒu xiě hǎo jiǎnlì, cái huì bèi yāoqǐng miànshì.", "meaning": "Chỉ có viết CV tốt, mới được mời phỏng vấn." },
+          { "correct": "只有了解自己的优缺点，才能回答好问题。", "pinyin": "Zhǐyǒu liǎojiě zìjǐ de yōu quēdiǎn, cái néng huídá hǎo wèntí.", "meaning": "Chỉ có hiểu rõ ưu nhược điểm của mình, mới trả lời tốt câu hỏi." }
+        ]
+      },
+      {
+        "title": "Ôn câu bị động 被 trong ngữ cảnh tuyển dụng",
+        "desc": "Ôn lại câu '被' đã học, áp dụng khi nói về kết quả ứng tuyển — được nhận vào làm hay bị từ chối.",
+        "formula": [
+          { "text": "Chủ ngữ + 被 +", "classes": "border-rose-200 bg-rose-50 text-rose-700" },
+          { "text": "(công ty) + 录用/拒绝", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我被这家公司录用了。", "pinyin": "Wǒ bèi zhè jiā gōngsī lùyòng le.", "meaning": "Tôi đã được công ty này tuyển dụng." },
+          { "correct": "他的简历被很多公司关注。", "pinyin": "Tā de jiǎnlì bèi hěn duō gōngsī guānzhù.", "meaning": "CV của anh ấy được nhiều công ty chú ý." },
+          { "correct": "面试结果被通知了吗？", "pinyin": "Miànshì jiéguǒ bèi tōngzhī le ma?", "meaning": "Kết quả phỏng vấn đã được thông báo chưa?" }
+        ]
+      },
+      {
+        "title": "Ôn 应该/需要 trong ngữ cảnh phỏng vấn",
+        "desc": "Ôn lại modal verb '应该/需要' đã học ở bài 1, áp dụng khi tư vấn cách chuẩn bị cho buổi phỏng vấn xin việc.",
+        "formula": [
+          { "text": "Chủ ngữ + 应该/需要 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "面试前你应该准备自我介绍。", "pinyin": "Miànshì qián nǐ yīnggāi zhǔnbèi zìwǒ jièshào.", "meaning": "Trước khi phỏng vấn bạn nên chuẩn bị phần tự giới thiệu." },
+          { "correct": "你需要了解这家公司的薪资待遇。", "pinyin": "Nǐ xūyào liǎojiě zhè jiā gōngsī de xīnzī dàiyù.", "meaning": "Bạn cần tìm hiểu chế độ lương bổng của công ty này." },
+          { "correct": "应聘的时候应该展示自己的优点。", "pinyin": "Yìngpìn de shíhou yīnggāi zhǎnshì zìjǐ de yōudiǎn.", "meaning": "Khi ứng tuyển nên thể hiện ưu điểm của bản thân." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Chuẩn bị phỏng vấn",
+        "lines": [
+          { "speaker": "A", "zh": "我明天有一个面试，有点儿紧张。", "py": "Wǒ míngtiān yǒu yí gè miànshì, yǒudiǎnr jǐnzhāng.", "vi": "Ngày mai mình có một buổi phỏng vấn, hơi căng thẳng." },
+          { "speaker": "B", "zh": "别担心，只有准备充分，才能成功。", "py": "Bié dānxīn, zhǐyǒu zhǔnbèi chōngfèn, cái néng chénggōng.", "vi": "Đừng lo, chỉ có chuẩn bị đầy đủ, mới thành công được." },
+          { "speaker": "A", "zh": "我应该准备什么内容？", "py": "Wǒ yīnggāi zhǔnbèi shénme nèiróng?", "vi": "Mình nên chuẩn bị nội dung gì?" },
+          { "speaker": "B", "zh": "你需要准备自我介绍，还有自己的优缺点。", "py": "Nǐ xūyào zhǔnbèi zìwǒ jièshào, hái yǒu zìjǐ de yōu quēdiǎn.", "vi": "Bạn cần chuẩn bị phần tự giới thiệu, còn cả ưu nhược điểm của mình." },
+          { "speaker": "A", "zh": "好，谢谢你，我会好好准备的。", "py": "Hǎo, xièxie nǐ, wǒ huì hǎohǎo zhǔnbèi de.", "vi": "Được, cảm ơn bạn, mình sẽ chuẩn bị thật kỹ." }
+        ]
+      },
+      {
+        "title": "Nhận kết quả phỏng vấn",
+        "lines": [
+          { "speaker": "A", "zh": "你的面试结果怎么样了？", "py": "Nǐ de miànshì jiéguǒ zěnmeyàng le?", "vi": "Kết quả phỏng vấn của bạn thế nào rồi?" },
+          { "speaker": "B", "zh": "太好了，我被那家公司录用了！", "py": "Tài hǎo le, wǒ bèi nà jiā gōngsī lùyòng le!", "vi": "Tuyệt quá, mình đã được công ty đó nhận vào làm!" },
+          { "speaker": "A", "zh": "恭喜你！薪资待遇怎么样？", "py": "Gōngxǐ nǐ! Xīnzī dàiyù zěnmeyàng?", "vi": "Chúc mừng bạn! Chế độ lương bổng thế nào?" },
+          { "speaker": "B", "zh": "还不错，他们给了我offer。", "py": "Hái búcuò, tāmen gěi le wǒ offer.", "vi": "Cũng khá, họ đã gửi cho mình thư mời nhận việc." },
+          { "speaker": "A", "zh": "真为你高兴，你的简历写得很好！", "py": "Zhēn wèi nǐ gāoxìng, nǐ de jiǎnlì xiě de hěn hǎo!", "vi": "Thật mừng cho bạn, CV của bạn viết rất tốt!" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 26: Khí hậu & mùa",
+    "theme": "CHƯƠNG 9: THIÊN NHIÊN & MÔI TRƯỜNG",
+    "orderIndex": 25,
+    "vocab": [
+      { "hanzi": "气候", "pinyin": "qìhòu", "type": "Danh từ", "type_short": "n", "meaning": "khí hậu", "example_zh": "这里的气候很好。", "example_vi": "Khí hậu ở đây rất tốt." },
+      { "hanzi": "季节", "pinyin": "jìjié", "type": "Danh từ", "type_short": "n", "meaning": "mùa", "example_zh": "我最喜欢的季节是秋天。", "example_vi": "Mùa tôi thích nhất là mùa thu." },
+      { "hanzi": "干旱", "pinyin": "gānhàn", "type": "Danh từ", "type_short": "n", "meaning": "hạn hán", "example_zh": "今年这里发生了干旱。", "example_vi": "Năm nay nơi này xảy ra hạn hán." },
+      { "hanzi": "洪水", "pinyin": "hóngshuǐ", "type": "Danh từ", "type_short": "n", "meaning": "lũ lụt", "example_zh": "洪水造成了很大损失。", "example_vi": "Lũ lụt gây ra thiệt hại lớn." },
+      { "hanzi": "台风", "pinyin": "táifēng", "type": "Danh từ", "type_short": "n", "meaning": "bão (nhiệt đới)", "example_zh": "明天有台风。", "example_vi": "Ngày mai có bão." },
+      { "hanzi": "暴风雪", "pinyin": "bàofēngxuě", "type": "Danh từ", "type_short": "n", "meaning": "bão tuyết", "example_zh": "北方有暴风雪。", "example_vi": "Miền Bắc có bão tuyết." },
+      { "hanzi": "温度", "pinyin": "wēndù", "type": "Danh từ", "type_short": "n", "meaning": "nhiệt độ", "example_zh": "今天的温度很高。", "example_vi": "Nhiệt độ hôm nay rất cao." },
+      { "hanzi": "湿度", "pinyin": "shīdù", "type": "Danh từ", "type_short": "n", "meaning": "độ ẩm", "example_zh": "这里的湿度很大。", "example_vi": "Độ ẩm ở đây rất lớn." },
+      { "hanzi": "变化", "pinyin": "biànhuà", "type": "Danh từ", "type_short": "n", "meaning": "sự thay đổi", "example_zh": "气候变化很大。", "example_vi": "Sự thay đổi khí hậu rất lớn." },
+      { "hanzi": "影响", "pinyin": "yǐngxiǎng", "type": "Động từ", "type_short": "v", "meaning": "ảnh hưởng", "example_zh": "天气影响了我们的计划。", "example_vi": "Thời tiết đã ảnh hưởng đến kế hoạch của chúng tôi." }
+    ],
+    "grammar": [
+      {
+        "title": "越...越: càng...càng",
+        "desc": "'越...越' (yuè...yuè) là mở rộng của '越来越' đã học ở bài 2, diễn tả hai trạng thái/hành động biến đổi tăng tiến đồng thời theo nhau, có thể dùng hai chủ ngữ khác nhau ở mỗi vế.",
+        "formula": [
+          { "text": "越 + mệnh đề 1，", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "越 + mệnh đề 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "天气越来越冷，雨越下越大。", "pinyin": "Tiānqì yuè lái yuè lěng, yǔ yuè xià yuè dà.", "meaning": "Thời tiết ngày càng lạnh, mưa càng rơi càng to." },
+          { "correct": "他越做越熟练。", "pinyin": "Tā yuè zuò yuè shúliàn.", "meaning": "Anh ấy càng làm càng thành thạo." },
+          { "correct": "气候变化越严重，影响越大。", "pinyin": "Qìhòu biànhuà yuè yánzhòng, yǐngxiǎng yuè dà.", "meaning": "Biến đổi khí hậu càng nghiêm trọng, ảnh hưởng càng lớn." }
+        ]
+      },
+      {
+        "title": "Ôn 从...起: kể từ...",
+        "desc": "Ôn lại '从...起' đã học ở bài 11, áp dụng vào ngữ cảnh nói về sự thay đổi khí hậu theo mùa.",
+        "formula": [
+          { "text": "从 + thời điểm +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "起，mệnh đề", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "从春天起，天气变暖。", "pinyin": "Cóng chūntiān qǐ, tiānqì biàn nuǎn.", "meaning": "Từ mùa xuân, thời tiết trở nên ấm áp." },
+          { "correct": "从这个季节起，台风变多了。", "pinyin": "Cóng zhège jìjié qǐ, táifēng biàn duō le.", "meaning": "Từ mùa này, bão trở nên nhiều hơn." },
+          { "correct": "从去年起，这里经常干旱。", "pinyin": "Cóng qùnián qǐ, zhèlǐ jīngcháng gānhàn.", "meaning": "Từ năm ngoái, nơi đây thường xuyên hạn hán." }
+        ]
+      },
+      {
+        "title": "Ôn 才/马上/一会儿: trạng từ thời gian",
+        "desc": "Ôn lại '才' (mới), mở rộng '马上' (lập tức) và '一会儿' (một lát) — các trạng từ thời gian thường gặp khi nói về diễn biến thời tiết.",
+        "formula": [
+          { "text": "才/马上/一会儿 +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "台风马上就要来了。", "pinyin": "Táifēng mǎshàng jiù yào lái le.", "meaning": "Bão sắp đến ngay rồi." },
+          { "correct": "等一会儿，雨就会停。", "pinyin": "Děng yíhuìr, yǔ jiù huì tíng.", "meaning": "Đợi một lát, mưa sẽ tạnh." },
+          { "correct": "天气预报说温度才会下降。", "pinyin": "Tiānqì yùbào shuō wēndù cái huì xiàjiàng.", "meaning": "Dự báo thời tiết nói nhiệt độ mới sẽ giảm." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Nói về sự thay đổi khí hậu",
+        "lines": [
+          { "speaker": "A", "zh": "今年的气候变化好像很大。", "py": "Jīnnián de qìhòu biànhuà hǎoxiàng hěn dà.", "vi": "Sự thay đổi khí hậu năm nay hình như rất lớn." },
+          { "speaker": "B", "zh": "对，从去年起，这里经常干旱。", "py": "Duì, cóng qùnián qǐ, zhèlǐ jīngcháng gānhàn.", "vi": "Đúng vậy, từ năm ngoái, nơi đây thường xuyên hạn hán." },
+          { "speaker": "A", "zh": "听说台风马上就要来了。", "py": "Tīngshuō táifēng mǎshàng jiù yào lái le.", "vi": "Nghe nói bão sắp đến ngay rồi." },
+          { "speaker": "B", "zh": "是的，温度越来越高，影响越大。", "py": "Shì de, wēndù yuè lái yuè gāo, yǐngxiǎng yuè dà.", "vi": "Đúng vậy, nhiệt độ ngày càng cao, ảnh hưởng càng lớn." },
+          { "speaker": "A", "zh": "希望这个季节能快点儿过去。", "py": "Xīwàng zhège jìjié néng kuài diǎnr guòqù.", "vi": "Hy vọng mùa này có thể qua đi nhanh hơn một chút." }
+        ]
+      },
+      {
+        "title": "Theo dõi dự báo thời tiết",
+        "lines": [
+          { "speaker": "A", "zh": "今天的湿度好像很大。", "py": "Jīntiān de shīdù hǎoxiàng hěn dà.", "vi": "Độ ẩm hôm nay hình như rất lớn." },
+          { "speaker": "B", "zh": "对，天气预报说一会儿会下雨。", "py": "Duì, tiānqì yùbào shuō yíhuìr huì xiàyǔ.", "vi": "Đúng vậy, dự báo thời tiết nói lát nữa sẽ mưa." },
+          { "speaker": "A", "zh": "北方好像有暴风雪。", "py": "Běifāng hǎoxiàng yǒu bàofēngxuě.", "vi": "Miền Bắc hình như có bão tuyết." },
+          { "speaker": "B", "zh": "是的，那边的气候越来越极端了。", "py": "Shì de, nàbiān de qìhòu yuè lái yuè jíduān le.", "vi": "Đúng vậy, khí hậu nơi đó ngày càng cực đoan." },
+          { "speaker": "A", "zh": "希望洪水不要影响太多人。", "py": "Xīwàng hóngshuǐ búyào yǐngxiǎng tài duō rén.", "vi": "Hy vọng lũ lụt không ảnh hưởng quá nhiều người." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 27: Động vật & thực vật",
+    "theme": "CHƯƠNG 9: THIÊN NHIÊN & MÔI TRƯỜNG",
+    "orderIndex": 26,
+    "vocab": [
+      { "hanzi": "动物", "pinyin": "dòngwù", "type": "Danh từ", "type_short": "n", "meaning": "động vật", "example_zh": "我喜欢动物。", "example_vi": "Tôi thích động vật." },
+      { "hanzi": "植物", "pinyin": "zhíwù", "type": "Danh từ", "type_short": "n", "meaning": "thực vật", "example_zh": "这是一种稀有植物。", "example_vi": "Đây là một loài thực vật quý hiếm." },
+      { "hanzi": "保护", "pinyin": "bǎohù", "type": "Động từ", "type_short": "v", "meaning": "bảo vệ", "example_zh": "我们要保护动物。", "example_vi": "Chúng ta cần bảo vệ động vật." },
+      { "hanzi": "濒危", "pinyin": "bīnwēi", "type": "Tính từ", "type_short": "adj", "meaning": "nguy cấp", "example_zh": "这是濒危动物。", "example_vi": "Đây là động vật nguy cấp." },
+      { "hanzi": "灭绝", "pinyin": "mièjué", "type": "Động từ", "type_short": "v", "meaning": "tuyệt chủng", "example_zh": "这种动物快要灭绝了。", "example_vi": "Loài động vật này sắp tuyệt chủng." },
+      { "hanzi": "栖息地", "pinyin": "qīxīdì", "type": "Danh từ", "type_short": "n", "meaning": "môi trường sống", "example_zh": "它们的栖息地被破坏了。", "example_vi": "Môi trường sống của chúng đã bị phá hủy." },
+      { "hanzi": "自然保护区", "pinyin": "zìrán bǎohùqū", "type": "Danh từ", "type_short": "n", "meaning": "khu bảo tồn thiên nhiên", "example_zh": "这里是自然保护区。", "example_vi": "Đây là khu bảo tồn thiên nhiên." },
+      { "hanzi": "繁殖", "pinyin": "fánzhí", "type": "Động từ", "type_short": "v", "meaning": "sinh sản", "example_zh": "这种鸟很难繁殖。", "example_vi": "Loài chim này rất khó sinh sản." },
+      { "hanzi": "树木", "pinyin": "shùmù", "type": "Danh từ", "type_short": "n", "meaning": "cây cối", "example_zh": "公园里有很多树木。", "example_vi": "Trong công viên có nhiều cây cối." },
+      { "hanzi": "花草", "pinyin": "huācǎo", "type": "Danh từ", "type_short": "n", "meaning": "hoa cỏ", "example_zh": "这里的花草很美。", "example_vi": "Hoa cỏ ở đây rất đẹp." }
+    ],
+    "grammar": [
+      {
+        "title": "Đại từ nghi vấn phi nghi vấn 3: bất định chỉ (不定指)",
+        "desc": "Đại từ nghi vấn còn có thể diễn tả ý 'một cái gì đó/nơi nào đó không xác định' (khác với any-reference đã học ở bài 20), thường đi cùng động từ như 想/要.",
+        "formula": [
+          { "text": "Chủ ngữ + động từ +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "đại từ nghi vấn (bất định)", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "我想吃点什么。", "pinyin": "Wǒ xiǎng chī diǎn shénme.", "meaning": "Tôi muốn ăn một chút gì đó." },
+          { "correct": "你去哪里都行。", "pinyin": "Nǐ qù nǎlǐ dōu xíng.", "meaning": "Bạn đi đâu cũng được." },
+          { "correct": "好像有什么动物在树木里。", "pinyin": "Hǎoxiàng yǒu shénme dòngwù zài shùmù lǐ.", "meaning": "Hình như có con vật gì đó ở trong cây." }
+        ]
+      },
+      {
+        "title": "看来/看起来/看上去: có vẻ như",
+        "desc": "'看来/看起来/看上去' đều dùng để diễn tả nhận xét dựa trên quan sát bề ngoài, đặt đầu câu hoặc trước tính từ/mệnh đề.",
+        "formula": [
+          { "text": "看来/看起来/看上去 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "mệnh đề/tính từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "看来要下雨了。", "pinyin": "Kànlái yào xiàyǔ le.", "meaning": "Có vẻ sắp mưa rồi." },
+          { "correct": "这种动物看起来很可爱。", "pinyin": "Zhè zhǒng dòngwù kàn qǐlái hěn kě'ài.", "meaning": "Loài động vật này trông có vẻ rất dễ thương." },
+          { "correct": "这片栖息地看上去被破坏了。", "pinyin": "Zhè piàn qīxīdì kàn shàngqù bèi pòhuài le.", "meaning": "Khu vực sinh sống này trông có vẻ đã bị phá hủy." }
+        ]
+      },
+      {
+        "title": "Ôn 一直 + 不断: liên tục",
+        "desc": "Ôn lại '一直' đã học ở bài 3, mở rộng '不断' (búduàn - không ngừng) để diễn tả một quá trình liên tục, không gián đoạn.",
+        "formula": [
+          { "text": "一直/不断 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "động từ", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "这种动物的数量一直在减少。", "pinyin": "Zhè zhǒng dòngwù de shùliàng yīzhí zài jiǎnshǎo.", "meaning": "Số lượng loài động vật này liên tục giảm." },
+          { "correct": "保护区不断扩大。", "pinyin": "Bǎohùqū búduàn kuòdà.", "meaning": "Khu bảo tồn không ngừng mở rộng." },
+          { "correct": "我们一直在努力保护环境。", "pinyin": "Wǒmen yīzhí zài nǔlì bǎohù huánjìng.", "meaning": "Chúng tôi luôn cố gắng bảo vệ môi trường." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Nói về động vật quý hiếm",
+        "lines": [
+          { "speaker": "A", "zh": "这种动物看起来很特别，是濒危动物吗？", "py": "Zhè zhǒng dòngwù kàn qǐlái hěn tèbié, shì bīnwēi dòngwù ma?", "vi": "Loài động vật này trông có vẻ rất đặc biệt, có phải động vật nguy cấp không?" },
+          { "speaker": "B", "zh": "对，它们的栖息地一直在减少，快要灭绝了。", "py": "Duì, tāmen de qīxīdì yīzhí zài jiǎnshǎo, kuàiyào mièjué le.", "vi": "Đúng vậy, môi trường sống của chúng liên tục giảm, sắp tuyệt chủng rồi." },
+          { "speaker": "A", "zh": "那我们应该怎么保护它们？", "py": "Nà wǒmen yīnggāi zěnme bǎohù tāmen?", "vi": "Vậy chúng ta nên bảo vệ chúng thế nào?" },
+          { "speaker": "B", "zh": "可以建立自然保护区，帮助它们繁殖。", "py": "Kěyǐ jiànlì zìrán bǎohùqū, bāngzhù tāmen fánzhí.", "vi": "Có thể xây dựng khu bảo tồn thiên nhiên, giúp chúng sinh sản." },
+          { "speaker": "A", "zh": "希望保护区能不断扩大。", "py": "Xīwàng bǎohùqū néng búduàn kuòdà.", "vi": "Hy vọng khu bảo tồn có thể không ngừng mở rộng." }
+        ]
+      },
+      {
+        "title": "Đi dạo công viên",
+        "lines": [
+          { "speaker": "A", "zh": "我们去公园看看花草吧。", "py": "Wǒmen qù gōngyuán kànkan huācǎo ba.", "vi": "Chúng mình đi công viên ngắm hoa cỏ đi." },
+          { "speaker": "B", "zh": "好啊，我想吃点什么再去。", "py": "Hǎo a, wǒ xiǎng chī diǎn shénme zài qù.", "vi": "Được, mình muốn ăn gì đó trước rồi đi." },
+          { "speaker": "A", "zh": "好像有什么动物在那些树木里。", "py": "Hǎoxiàng yǒu shénme dòngwù zài nàxiē shùmù lǐ.", "vi": "Hình như có con vật gì đó ở trong những cái cây kia." },
+          { "speaker": "B", "zh": "看起来这里的植物保护得很好。", "py": "Kàn qǐlái zhèlǐ de zhíwù bǎohù de hěn hǎo.", "vi": "Trông có vẻ thực vật ở đây được bảo vệ rất tốt." },
+          { "speaker": "A", "zh": "对，去哪里看都很美。", "py": "Duì, qù nǎlǐ kàn dōu hěn měi.", "vi": "Đúng vậy, đi đâu ngắm cũng đẹp." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 28: Môi trường & bảo vệ môi trường",
+    "theme": "CHƯƠNG 9: THIÊN NHIÊN & MÔI TRƯỜNG",
+    "orderIndex": 27,
+    "vocab": [
+      { "hanzi": "环境", "pinyin": "huánjìng", "type": "Danh từ", "type_short": "n", "meaning": "môi trường", "example_zh": "我们要保护环境。", "example_vi": "Chúng ta cần bảo vệ môi trường." },
+      { "hanzi": "污染", "pinyin": "wūrǎn", "type": "Danh từ", "type_short": "n", "meaning": "ô nhiễm", "example_zh": "空气污染很严重。", "example_vi": "Ô nhiễm không khí rất nghiêm trọng." },
+      { "hanzi": "垃圾分类", "pinyin": "lājī fēnlèi", "type": "Danh từ", "type_short": "n", "meaning": "phân loại rác", "example_zh": "这个城市开始垃圾分类了。", "example_vi": "Thành phố này đã bắt đầu phân loại rác." },
+      { "hanzi": "节能", "pinyin": "jiénéng", "type": "Động từ", "type_short": "v", "meaning": "tiết kiệm năng lượng", "example_zh": "我们要节能。", "example_vi": "Chúng ta cần tiết kiệm năng lượng." },
+      { "hanzi": "低碳", "pinyin": "dītàn", "type": "Tính từ", "type_short": "adj", "meaning": "thải ít carbon", "example_zh": "这是低碳生活方式。", "example_vi": "Đây là lối sống thải ít carbon." },
+      { "hanzi": "可再生能源", "pinyin": "kě zàishēng néngyuán", "type": "Danh từ", "type_short": "n", "meaning": "năng lượng tái tạo", "example_zh": "太阳能是可再生能源。", "example_vi": "Năng lượng mặt trời là năng lượng tái tạo." },
+      { "hanzi": "节约", "pinyin": "jiéyuē", "type": "Động từ", "type_short": "v", "meaning": "tiết kiệm", "example_zh": "我们应该节约用水。", "example_vi": "Chúng ta nên tiết kiệm nước." },
+      { "hanzi": "意识", "pinyin": "yìshi", "type": "Danh từ", "type_short": "n", "meaning": "ý thức", "example_zh": "环保意识很重要。", "example_vi": "Ý thức bảo vệ môi trường rất quan trọng." },
+      { "hanzi": "责任", "pinyin": "zérèn", "type": "Danh từ", "type_short": "n", "meaning": "trách nhiệm", "example_zh": "这是我们的责任。", "example_vi": "Đây là trách nhiệm của chúng ta." },
+      { "hanzi": "行动", "pinyin": "xíngdòng", "type": "Danh từ", "type_short": "n", "meaning": "hành động", "example_zh": "我们要用行动保护环境。", "example_vi": "Chúng ta cần dùng hành động để bảo vệ môi trường." }
+    ],
+    "grammar": [
+      {
+        "title": "为了...，...: vì...để...",
+        "desc": "'为了' (wèile) đứng đầu câu để nêu mục đích, vế sau là hành động được thực hiện nhằm đạt mục đích đó.",
+        "formula": [
+          { "text": "为了 + mục đích，", "classes": "border-emerald-200 bg-emerald-50 text-emerald-700" },
+          { "text": "mệnh đề hành động", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "为了环境，我们应该节约用水。", "pinyin": "Wèile huánjìng, wǒmen yīnggāi jiéyuē yòng shuǐ.", "meaning": "Vì môi trường, chúng ta nên tiết kiệm nước." },
+          { "correct": "为了减少污染，城市开始垃圾分类。", "pinyin": "Wèile jiǎnshǎo wūrǎn, chéngshì kāishǐ lājī fēnlèi.", "meaning": "Để giảm ô nhiễm, thành phố bắt đầu phân loại rác." },
+          { "correct": "为了节能，我们应该用可再生能源。", "pinyin": "Wèile jiénéng, wǒmen yīnggāi yòng kě zàishēng néngyuán.", "meaning": "Để tiết kiệm năng lượng, chúng ta nên dùng năng lượng tái tạo." }
+        ]
+      },
+      {
+        "title": "根据: căn cứ theo",
+        "desc": "'根据' (gēnjù) đứng đầu câu hoặc trước danh từ để nêu căn cứ/cơ sở cho thông tin hoặc hành động được nói đến.",
+        "formula": [
+          { "text": "根据 +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "danh từ/nguồn tin，mệnh đề", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "根据天气预报，明天会下雨。", "pinyin": "Gēnjù tiānqì yùbào, míngtiān huì xiàyǔ.", "meaning": "Căn cứ theo dự báo thời tiết, ngày mai sẽ mưa." },
+          { "correct": "根据研究，空气污染影响健康。", "pinyin": "Gēnjù yánjiū, kōngqì wūrǎn yǐngxiǎng jiànkāng.", "meaning": "Căn cứ theo nghiên cứu, ô nhiễm không khí ảnh hưởng sức khỏe." },
+          { "correct": "根据规定，垃圾要分类。", "pinyin": "Gēnjù guīdìng, lājī yào fēnlèi.", "meaning": "Căn cứ theo quy định, rác cần được phân loại." }
+        ]
+      },
+      {
+        "title": "Ôn 如果...就 trong ngữ cảnh môi trường",
+        "desc": "Ôn lại liên từ điều kiện '如果...就' đã học ở bài 19, áp dụng vào ngữ cảnh kêu gọi hành động bảo vệ môi trường.",
+        "formula": [
+          { "text": "如果 + điều kiện +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "就 + kết quả", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "如果大家都有环保意识，环境就会更好。", "pinyin": "Rúguǒ dàjiā dōu yǒu huánbǎo yìshi, huánjìng jiù huì gèng hǎo.", "meaning": "Nếu mọi người đều có ý thức bảo vệ môi trường, thì môi trường sẽ tốt hơn." },
+          { "correct": "如果不行动，污染就会越来越严重。", "pinyin": "Rúguǒ bù xíngdòng, wūrǎn jiù huì yuè lái yuè yánzhòng.", "meaning": "Nếu không hành động, ô nhiễm sẽ ngày càng nghiêm trọng." },
+          { "correct": "如果每个人都尽责任，环境就会改善。", "pinyin": "Rúguǒ měi gè rén dōu jìn zérèn, huánjìng jiù huì gǎishàn.", "meaning": "Nếu mỗi người đều làm tròn trách nhiệm, môi trường sẽ được cải thiện." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Bàn về bảo vệ môi trường",
+        "lines": [
+          { "speaker": "A", "zh": "为了保护环境，我们应该做什么？", "py": "Wèile bǎohù huánjìng, wǒmen yīnggāi zuò shénme?", "vi": "Để bảo vệ môi trường, chúng ta nên làm gì?" },
+          { "speaker": "B", "zh": "根据规定，我们要做好垃圾分类。", "py": "Gēnjù guīdìng, wǒmen yào zuò hǎo lājī fēnlèi.", "vi": "Căn cứ theo quy định, chúng ta cần làm tốt việc phân loại rác." },
+          { "speaker": "A", "zh": "如果大家都节约用水，环境就会更好。", "py": "Rúguǒ dàjiā dōu jiéyuē yòng shuǐ, huánjìng jiù huì gèng hǎo.", "vi": "Nếu mọi người đều tiết kiệm nước, môi trường sẽ tốt hơn." },
+          { "speaker": "B", "zh": "对，这是我们每个人的责任。", "py": "Duì, zhè shì wǒmen měi gè rén de zérèn.", "vi": "Đúng vậy, đây là trách nhiệm của mỗi người chúng ta." },
+          { "speaker": "A", "zh": "我们要用实际行动保护环境。", "py": "Wǒmen yào yòng shíjì xíngdòng bǎohù huánjìng.", "vi": "Chúng ta cần dùng hành động thực tế để bảo vệ môi trường." }
+        ]
+      },
+      {
+        "title": "Nói về năng lượng tái tạo",
+        "lines": [
+          { "speaker": "A", "zh": "为了节能，这里用可再生能源了吗？", "py": "Wèile jiénéng, zhèlǐ yòng kě zàishēng néngyuán le ma?", "vi": "Để tiết kiệm năng lượng, ở đây đã dùng năng lượng tái tạo chưa?" },
+          { "speaker": "B", "zh": "用了，根据数据，污染已经减少很多。", "py": "Yòng le, gēnjù shùjù, wūrǎn yǐjīng jiǎnshǎo hěn duō.", "vi": "Đã dùng rồi, căn cứ theo số liệu, ô nhiễm đã giảm rất nhiều." },
+          { "speaker": "A", "zh": "如果更多城市低碳生活，会怎么样？", "py": "Rúguǒ gèng duō chéngshì dītàn shēnghuó, huì zěnmeyàng?", "vi": "Nếu nhiều thành phố hơn sống thải ít carbon, sẽ thế nào?" },
+          { "speaker": "B", "zh": "环境意识提高了，未来会更好。", "py": "Huánjìng yìshi tígāo le, wèilái huì gèng hǎo.", "vi": "Ý thức môi trường được nâng cao, tương lai sẽ tốt hơn." },
+          { "speaker": "A", "zh": "希望大家都能尽自己的责任。", "py": "Xīwàng dàjiā dōu néng jìn zìjǐ de zérèn.", "vi": "Hy vọng mọi người đều có thể làm tròn trách nhiệm của mình." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 29: Cuộc sống hiện đại & thanh toán di động",
+    "theme": "CHƯƠNG 10: XÃ HỘI HIỆN ĐẠI & CUỘC SỐNG ĐÔ THỊ",
+    "orderIndex": 28,
+    "vocab": [
+      { "hanzi": "现代生活", "pinyin": "xiàndài shēnghuó", "type": "Danh từ", "type_short": "n", "meaning": "cuộc sống hiện đại", "example_zh": "现代生活很方便。", "example_vi": "Cuộc sống hiện đại rất tiện lợi." },
+      { "hanzi": "移动支付", "pinyin": "yídòng zhīfù", "type": "Danh từ", "type_short": "n", "meaning": "thanh toán di động", "example_zh": "现在大家都用移动支付。", "example_vi": "Hiện nay mọi người đều dùng thanh toán di động." },
+      { "hanzi": "共享单车", "pinyin": "gòngxiǎng dānchē", "type": "Danh từ", "type_short": "n", "meaning": "xe đạp chia sẻ", "example_zh": "我经常骑共享单车。", "example_vi": "Tôi thường xuyên đi xe đạp chia sẻ." },
+      { "hanzi": "网约车", "pinyin": "wǎngyuēchē", "type": "Danh từ", "type_short": "n", "meaning": "xe đặt qua app", "example_zh": "我叫了一辆网约车。", "example_vi": "Tôi đã gọi một chiếc xe đặt qua app." },
+      { "hanzi": "人脸识别", "pinyin": "rénliǎn shíbié", "type": "Danh từ", "type_short": "n", "meaning": "nhận diện khuôn mặt", "example_zh": "这里用人脸识别。", "example_vi": "Ở đây dùng nhận diện khuôn mặt." },
+      { "hanzi": "便利", "pinyin": "biànlì", "type": "Tính từ", "type_short": "adj", "meaning": "tiện lợi", "example_zh": "这给我们带来了便利。", "example_vi": "Điều này mang lại sự tiện lợi cho chúng ta." },
+      { "hanzi": "智能", "pinyin": "zhìnéng", "type": "Tính từ", "type_short": "adj", "meaning": "thông minh (công nghệ)", "example_zh": "这是智能手机。", "example_vi": "Đây là điện thoại thông minh." },
+      { "hanzi": "依赖", "pinyin": "yīlài", "type": "Động từ", "type_short": "v", "meaning": "phụ thuộc", "example_zh": "我们越来越依赖手机。", "example_vi": "Chúng ta ngày càng phụ thuộc điện thoại." },
+      { "hanzi": "隐私", "pinyin": "yǐnsī", "type": "Danh từ", "type_short": "n", "meaning": "quyền riêng tư", "example_zh": "我们要保护隐私。", "example_vi": "Chúng ta cần bảo vệ quyền riêng tư." },
+      { "hanzi": "安全", "pinyin": "ānquán", "type": "Tính từ", "type_short": "adj", "meaning": "an toàn", "example_zh": "这个支付方式安全吗？", "example_vi": "Phương thức thanh toán này có an toàn không?" }
+    ],
+    "grammar": [
+      {
+        "title": "Phân biệt 在...看来 vs 对...来说",
+        "desc": "'在...看来' (theo quan điểm của...) nhấn mạnh ý kiến chủ quan của một chủ thể; '对...来说' (đối với...mà nói, đã học bài 9) nhấn mạnh góc độ ảnh hưởng/liên quan đến chủ thể đó.",
+        "formula": [
+          { "text": "在 + chủ thể + 看来，mệnh đề", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "≠ 对 + chủ thể + 来说，mệnh đề", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "在我看来，移动支付很方便。", "pinyin": "Zài wǒ kànlái, yídòng zhīfù hěn fāngbiàn.", "meaning": "Theo quan điểm của tôi, thanh toán di động rất tiện." },
+          { "correct": "对老人来说，智能设备有点儿难用。", "pinyin": "Duì lǎorén lái shuō, zhìnéng shèbèi yǒudiǎnr nán yòng.", "meaning": "Đối với người già mà nói, thiết bị thông minh hơi khó dùng." },
+          { "correct": "在年轻人看来，共享单车很实用。", "pinyin": "Zài niánqīngrén kànlái, gòngxiǎng dānchē hěn shíyòng.", "meaning": "Theo quan điểm của người trẻ, xe đạp chia sẻ rất thực dụng." }
+        ]
+      },
+      {
+        "title": "一般来说: nói chung",
+        "desc": "'一般来说' (yìbān láishuō) đặt đầu câu để đưa ra nhận định chung, mang tính khái quát, không phải tuyệt đối.",
+        "formula": [
+          { "text": "一般来说，", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "mệnh đề", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "一般来说，年轻人更喜欢网购。", "pinyin": "Yìbān láishuō, niánqīngrén gèng xǐhuan wǎnggòu.", "meaning": "Nói chung, người trẻ thích mua hàng online hơn." },
+          { "correct": "一般来说，移动支付比现金方便。", "pinyin": "Yìbān láishuō, yídòng zhīfù bǐ xiànjīn fāngbiàn.", "meaning": "Nói chung, thanh toán di động tiện hơn tiền mặt." },
+          { "correct": "一般来说，人脸识别比较安全。", "pinyin": "Yìbān láishuō, rénliǎn shíbié bǐjiào ānquán.", "meaning": "Nói chung, nhận diện khuôn mặt khá an toàn." }
+        ]
+      },
+      {
+        "title": "Ôn 比较/特别/挺: trạng từ chỉ mức độ",
+        "desc": "Ôn tổng hợp 3 trạng từ chỉ mức độ thường gặp: '比较' (khá), '特别' (đặc biệt), '挺' (khá, mang sắc thái khẩu ngữ) đứng trước tính từ.",
+        "formula": [
+          { "text": "比较/特别/挺 +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "tính từ", "classes": "border-gray-200 bg-gray-50 text-gray-600" }
+        ],
+        "practiceList": [
+          { "correct": "这个App比较好用。", "pinyin": "Zhège App bǐjiào hǎoyòng.", "meaning": "Ứng dụng này khá dễ dùng." },
+          { "correct": "我特别依赖手机。", "pinyin": "Wǒ tèbié yīlài shǒujī.", "meaning": "Tôi đặc biệt phụ thuộc vào điện thoại." },
+          { "correct": "网约车挺方便的。", "pinyin": "Wǎngyuēchē tǐng fāngbiàn de.", "meaning": "Xe đặt qua app khá tiện." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Bàn về tiện ích công nghệ",
+        "lines": [
+          { "speaker": "A", "zh": "在你看来，移动支付方便吗？", "py": "Zài nǐ kànlái, yídòng zhīfù fāngbiàn ma?", "vi": "Theo bạn, thanh toán di động có tiện không?" },
+          { "speaker": "B", "zh": "特别方便，一般来说我都不带现金了。", "py": "Tèbié fāngbiàn, yìbān láishuō wǒ dōu bú dài xiànjīn le.", "vi": "Đặc biệt tiện, nói chung mình không mang tiền mặt nữa." },
+          { "speaker": "A", "zh": "对老人来说，这些智能设备好用吗？", "py": "Duì lǎorén lái shuō, zhèxiē zhìnéng shèbèi hǎoyòng ma?", "vi": "Đối với người già mà nói, các thiết bị thông minh này có dễ dùng không?" },
+          { "speaker": "B", "zh": "比较难，他们更依赖传统方式。", "py": "Bǐjiào nán, tāmen gèng yīlài chuántǒng fāngshì.", "vi": "Khá khó, họ phụ thuộc nhiều hơn vào cách truyền thống." },
+          { "speaker": "A", "zh": "人脸识别会不会有隐私问题？", "py": "Rénliǎn shíbié huì bu huì yǒu yǐnsī wèntí?", "vi": "Nhận diện khuôn mặt có gặp vấn đề về quyền riêng tư không?" }
+        ]
+      },
+      {
+        "title": "Trải nghiệm xe chia sẻ",
+        "lines": [
+          { "speaker": "A", "zh": "你常用共享单车还是网约车？", "py": "Nǐ cháng yòng gòngxiǎng dānchē háishi wǎngyuēchē?", "vi": "Bạn thường dùng xe đạp chia sẻ hay xe đặt qua app?" },
+          { "speaker": "B", "zh": "在我看来，共享单车挺方便的，又便宜。", "py": "Zài wǒ kànlái, gòngxiǎng dānchē tǐng fāngbiàn de, yòu piányi.", "vi": "Theo mình, xe đạp chia sẻ khá tiện, lại rẻ." },
+          { "speaker": "A", "zh": "一般来说，这些App安全吗？", "py": "Yìbān láishuō, zhèxiē App ānquán ma?", "vi": "Nói chung, các ứng dụng này có an toàn không?" },
+          { "speaker": "B", "zh": "比较安全，不过我们还是要注意隐私。", "py": "Bǐjiào ānquán, búguò wǒmen háishi yào zhùyì yǐnsī.", "vi": "Khá an toàn, nhưng chúng ta vẫn cần chú ý quyền riêng tư." },
+          { "speaker": "A", "zh": "现代生活真的很便利。", "py": "Xiàndài shēnghuó zhēn de hěn biànlì.", "vi": "Cuộc sống hiện đại thật sự rất tiện lợi." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 30: Phát triển đô thị",
+    "theme": "CHƯƠNG 10: XÃ HỘI HIỆN ĐẠI & CUỘC SỐNG ĐÔ THỊ",
+    "orderIndex": 29,
+    "vocab": [
+      { "hanzi": "城市", "pinyin": "chéngshì", "type": "Danh từ", "type_short": "n", "meaning": "thành phố", "example_zh": "这是一个大城市。", "example_vi": "Đây là một thành phố lớn." },
+      { "hanzi": "发展", "pinyin": "fāzhǎn", "type": "Động từ", "type_short": "v", "meaning": "phát triển", "example_zh": "这座城市发展很快。", "example_vi": "Thành phố này phát triển rất nhanh." },
+      { "hanzi": "基础设施", "pinyin": "jīchǔ shèshī", "type": "Danh từ", "type_short": "n", "meaning": "cơ sở hạ tầng", "example_zh": "基础设施很完善。", "example_vi": "Cơ sở hạ tầng rất hoàn thiện." },
+      { "hanzi": "交通便利", "pinyin": "jiāotōng biànlì", "type": "Tính từ", "type_short": "adj", "meaning": "giao thông thuận tiện", "example_zh": "这里交通便利。", "example_vi": "Ở đây giao thông thuận tiện." },
+      { "hanzi": "地铁网络", "pinyin": "dìtiě wǎngluò", "type": "Danh từ", "type_short": "n", "meaning": "mạng lưới tàu điện ngầm", "example_zh": "地铁网络很发达。", "example_vi": "Mạng lưới tàu điện ngầm rất phát triển." },
+      { "hanzi": "公共服务", "pinyin": "gōnggòng fúwù", "type": "Danh từ", "type_short": "n", "meaning": "dịch vụ công cộng", "example_zh": "公共服务越来越好。", "example_vi": "Dịch vụ công cộng ngày càng tốt." },
+      { "hanzi": "居住", "pinyin": "jūzhù", "type": "Động từ", "type_short": "v", "meaning": "cư trú, sinh sống", "example_zh": "我居住在这个城市。", "example_vi": "Tôi sinh sống ở thành phố này." },
+      { "hanzi": "改善", "pinyin": "gǎishàn", "type": "Động từ", "type_short": "v", "meaning": "cải thiện", "example_zh": "环境改善了很多。", "example_vi": "Môi trường đã được cải thiện nhiều." },
+      { "hanzi": "问题", "pinyin": "wèntí", "type": "Danh từ", "type_short": "n", "meaning": "vấn đề", "example_zh": "这是一个大问题。", "example_vi": "Đây là một vấn đề lớn." },
+      { "hanzi": "解决", "pinyin": "jiějué", "type": "Động từ", "type_short": "v", "meaning": "giải quyết", "example_zh": "这个问题解决了。", "example_vi": "Vấn đề này đã được giải quyết." }
+    ],
+    "grammar": [
+      {
+        "title": "Câu chữ 把 (把字句) 4: nâng cao",
+        "desc": "Lần ôn tập thứ 3 của câu '把' với độ phức tạp cao hơn — kết hợp với bổ ngữ kết quả phức tạp và mệnh đề mở rộng, thường gặp trong văn phong báo cáo/chính sách đô thị.",
+        "formula": [
+          { "text": "把 + tân ngữ + 动词 +", "classes": "border-red-200 bg-red-50 text-red-700" },
+          { "text": "好/完 + mệnh đề mở rộng", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "政府把问题解决好了。", "pinyin": "Zhèngfǔ bǎ wèntí jiějué hǎo le.", "meaning": "Chính quyền đã giải quyết tốt vấn đề." },
+          { "correct": "他们把城市建设得越来越好。", "pinyin": "Tāmen bǎ chéngshì jiànshè de yuè lái yuè hǎo.", "meaning": "Họ xây dựng thành phố ngày càng tốt." },
+          { "correct": "我们要把基础设施改善好。", "pinyin": "Wǒmen yào bǎ jīchǔ shèshī gǎishàn hǎo.", "meaning": "Chúng ta cần cải thiện tốt cơ sở hạ tầng." }
+        ]
+      },
+      {
+        "title": "Bổ ngữ xu hướng mở rộng (引申) 3: V+出来 — xuất hiện kết quả",
+        "desc": "'出来' đứng sau động từ để diễn tả việc một kết quả/giải pháp xuất hiện sau quá trình suy nghĩ/thực hiện, hoàn thiện bộ ba 起来/下去/出来.",
+        "formula": [
+          { "text": "Động từ +", "classes": "border-orange-200 bg-orange-50 text-orange-700" },
+          { "text": "出来", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "他们想出来了一个好办法。", "pinyin": "Tāmen xiǎng chūlái le yí gè hǎo bànfǎ.", "meaning": "Họ đã nghĩ ra được một cách hay." },
+          { "correct": "这个计划做出来了。", "pinyin": "Zhège jìhuà zuò chūlái le.", "meaning": "Kế hoạch này đã được làm ra." },
+          { "correct": "新的地铁网络建出来了。", "pinyin": "Xīn de dìtiě wǎngluò jiàn chūlái le.", "meaning": "Mạng lưới tàu điện ngầm mới đã được xây xong." }
+        ]
+      },
+      {
+        "title": "Ôn câu bị động 被 trong ngữ cảnh xã hội",
+        "desc": "Ôn lại câu '被' đã học, áp dụng vào ngữ cảnh nói về các vấn đề xã hội/đô thị được giải quyết hoặc cải thiện.",
+        "formula": [
+          { "text": "Vấn đề + 被 +", "classes": "border-rose-200 bg-rose-50 text-rose-700" },
+          { "text": "(chủ thể) + 解决/改善", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "交通问题被政府解决了。", "pinyin": "Jiāotōng wèntí bèi zhèngfǔ jiějué le.", "meaning": "Vấn đề giao thông đã được chính quyền giải quyết." },
+          { "correct": "公共服务被大大改善了。", "pinyin": "Gōnggòng fúwù bèi dàdà gǎishàn le.", "meaning": "Dịch vụ công cộng đã được cải thiện rất nhiều." },
+          { "correct": "这个城市被建设得很现代。", "pinyin": "Zhège chéngshì bèi jiànshè de hěn xiàndài.", "meaning": "Thành phố này được xây dựng rất hiện đại." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Nói về phát triển thành phố",
+        "lines": [
+          { "speaker": "A", "zh": "这座城市的发展真快。", "py": "Zhè zuò chéngshì de fāzhǎn zhēn kuài.", "vi": "Sự phát triển của thành phố này thật nhanh." },
+          { "speaker": "B", "zh": "是的，地铁网络也建出来了。", "py": "Shì de, dìtiě wǎngluò yě jiàn chūlái le.", "vi": "Đúng vậy, mạng lưới tàu điện ngầm cũng đã được xây xong." },
+          { "speaker": "A", "zh": "交通问题被政府解决了吗？", "py": "Jiāotōng wèntí bèi zhèngfǔ jiějué le ma?", "vi": "Vấn đề giao thông đã được chính quyền giải quyết chưa?" },
+          { "speaker": "B", "zh": "解决了不少，现在交通便利多了。", "py": "Jiějué le bùshǎo, xiànzài jiāotōng biànlì duō le.", "vi": "Đã giải quyết khá nhiều, bây giờ giao thông thuận tiện hơn nhiều." },
+          { "speaker": "A", "zh": "希望基础设施能改善得更好。", "py": "Xīwàng jīchǔ shèshī néng gǎishàn de gèng hǎo.", "vi": "Hy vọng cơ sở hạ tầng có thể được cải thiện tốt hơn." }
+        ]
+      },
+      {
+        "title": "Cuộc sống ở đô thị",
+        "lines": [
+          { "speaker": "A", "zh": "你居住在这个城市多久了？", "py": "Nǐ jūzhù zài zhège chéngshì duōjiǔ le?", "vi": "Bạn sống ở thành phố này bao lâu rồi?" },
+          { "speaker": "B", "zh": "五年了，公共服务被改善了很多。", "py": "Wǔ nián le, gōnggòng fúwù bèi gǎishàn le hěn duō.", "vi": "Năm năm rồi, dịch vụ công cộng đã được cải thiện nhiều." },
+          { "speaker": "A", "zh": "他们想出来了什么新办法吗？", "py": "Tāmen xiǎng chūlái le shénme xīn bànfǎ ma?", "vi": "Họ đã nghĩ ra phương án mới nào không?" },
+          { "speaker": "B", "zh": "有，他们把基础设施建设得越来越好。", "py": "Yǒu, tāmen bǎ jīchǔ shèshī jiànshè de yuè lái yuè hǎo.", "vi": "Có, họ xây dựng cơ sở hạ tầng ngày càng tốt." },
+          { "speaker": "A", "zh": "希望以后还能解决更多问题。", "py": "Xīwàng yǐhòu hái néng jiějué gèng duō wèntí.", "vi": "Hy vọng sau này có thể giải quyết được nhiều vấn đề hơn." }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Bài 31: Giải trí & nghệ thuật",
+    "theme": "CHƯƠNG 10: XÃ HỘI HIỆN ĐẠI & CUỘC SỐNG ĐÔ THỊ",
+    "orderIndex": 30,
+    "vocab": [
+      { "hanzi": "文艺活动", "pinyin": "wényì huódòng", "type": "Danh từ", "type_short": "n", "meaning": "hoạt động văn nghệ", "example_zh": "这周有文艺活动。", "example_vi": "Tuần này có hoạt động văn nghệ." },
+      { "hanzi": "演出", "pinyin": "yǎnchū", "type": "Danh từ", "type_short": "n", "meaning": "buổi biểu diễn", "example_zh": "今晚有一场演出。", "example_vi": "Tối nay có một buổi biểu diễn." },
+      { "hanzi": "节目", "pinyin": "jiémù", "type": "Danh từ", "type_short": "n", "meaning": "tiết mục, chương trình", "example_zh": "这个节目很受欢迎。", "example_vi": "Chương trình này rất được ưa chuộng." },
+      { "hanzi": "比赛", "pinyin": "bǐsài", "type": "Danh từ", "type_short": "n", "meaning": "cuộc thi", "example_zh": "明天有一场比赛。", "example_vi": "Ngày mai có một cuộc thi." },
+      { "hanzi": "选手", "pinyin": "xuǎnshǒu", "type": "Danh từ", "type_short": "n", "meaning": "thí sinh, vận động viên", "example_zh": "他是个优秀的选手。", "example_vi": "Anh ấy là một thí sinh xuất sắc." },
+      { "hanzi": "才艺", "pinyin": "cáiyì", "type": "Danh từ", "type_short": "n", "meaning": "tài năng nghệ thuật", "example_zh": "她有很多才艺。", "example_vi": "Cô ấy có nhiều tài năng nghệ thuật." },
+      { "hanzi": "流行", "pinyin": "liúxíng", "type": "Tính từ", "type_short": "adj", "meaning": "thịnh hành, phổ biến", "example_zh": "这首歌很流行。", "example_vi": "Bài hát này rất thịnh hành." },
+      { "hanzi": "受欢迎", "pinyin": "shòu huānyíng", "type": "Tính từ", "type_short": "adj", "meaning": "được ưa chuộng", "example_zh": "这个节目很受欢迎。", "example_vi": "Chương trình này rất được ưa chuộng." },
+      { "hanzi": "宣传", "pinyin": "xuānchuán", "type": "Động từ", "type_short": "v", "meaning": "quảng bá", "example_zh": "我们要宣传这个活动。", "example_vi": "Chúng ta cần quảng bá hoạt động này." },
+      { "hanzi": "海报", "pinyin": "hǎibào", "type": "Danh từ", "type_short": "n", "meaning": "áp phích, poster", "example_zh": "这是演出的海报。", "example_vi": "Đây là áp phích của buổi biểu diễn." }
+    ],
+    "grammar": [
+      {
+        "title": "Cụm đồng vị (同位短语)",
+        "desc": "Cụm đồng vị (appositive) đặt hai danh từ/cụm danh từ liền nhau để cùng chỉ một đối tượng, danh từ sau bổ sung giải thích cho danh từ trước.",
+        "formula": [
+          { "text": "Danh từ 1 (người/vật) +", "classes": "border-blue-200 bg-blue-50 text-blue-700" },
+          { "text": "Danh từ 2 (thân phận/đặc điểm)", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "我的朋友小王是个选手。", "pinyin": "Wǒ de péngyou Xiǎo Wáng shì gè xuǎnshǒu.", "meaning": "Bạn tôi, Tiểu Vương, là một thí sinh." },
+          { "correct": "这位演员，著名的歌手，今晚有演出。", "pinyin": "Zhè wèi yǎnyuán, zhùmíng de gēshǒu, jīnwǎn yǒu yǎnchū.", "meaning": "Vị diễn viên này, ca sĩ nổi tiếng, tối nay có buổi biểu diễn." },
+          { "correct": "我们的老师，一位有才艺的人，会唱歌。", "pinyin": "Wǒmen de lǎoshī, yí wèi yǒu cáiyì de rén, huì chànggē.", "meaning": "Giáo viên của chúng tôi, một người có tài năng nghệ thuật, biết hát." }
+        ]
+      },
+      {
+        "title": "或者...或者...: hoặc...hoặc...",
+        "desc": "'或者...或者...' (huòzhě...huòzhě) dùng để liệt kê các lựa chọn có thể xảy ra trong câu trần thuật (khác với 'A 还是 B' dùng trong câu hỏi).",
+        "formula": [
+          { "text": "或者 + lựa chọn 1，", "classes": "border-purple-200 bg-purple-50 text-purple-700" },
+          { "text": "或者 + lựa chọn 2", "classes": "border-orange-200 bg-orange-50 text-orange-700" }
+        ],
+        "practiceList": [
+          { "correct": "周末我们或者看电影，或者听音乐。", "pinyin": "Zhōumò wǒmen huòzhě kàn diànyǐng, huòzhě tīng yīnyuè.", "meaning": "Cuối tuần chúng tôi hoặc xem phim, hoặc nghe nhạc." },
+          { "correct": "这个节目或者很流行，或者很冷门。", "pinyin": "Zhège jiémù huòzhě hěn liúxíng, huòzhě hěn lěngmén.", "meaning": "Chương trình này hoặc rất thịnh hành, hoặc rất ít người biết." },
+          { "correct": "宣传或者用海报，或者用网络。", "pinyin": "Xuānchuán huòzhě yòng hǎibào, huòzhě yòng wǎngluò.", "meaning": "Quảng bá hoặc dùng áp phích, hoặc dùng mạng internet." }
+        ]
+      },
+      {
+        "title": "Ôn 一边...一边 trong nghệ thuật/giải trí",
+        "desc": "Ôn lại '一边...一边' đã học ở bài 7, áp dụng vào ngữ cảnh hoạt động giải trí/nghệ thuật.",
+        "formula": [
+          { "text": "一边 + động từ 1 +", "classes": "border-pink-200 bg-pink-50 text-pink-700" },
+          { "text": "一边 + động từ 2", "classes": "border-purple-200 bg-purple-50 text-purple-700" }
+        ],
+        "practiceList": [
+          { "correct": "选手们一边唱歌一边跳舞。", "pinyin": "Xuǎnshǒumen yībiān chànggē yībiān tiàowǔ.", "meaning": "Các thí sinh vừa hát vừa nhảy." },
+          { "correct": "我们一边看演出一边拍照。", "pinyin": "Wǒmen yībiān kàn yǎnchū yībiān pāizhào.", "meaning": "Chúng tôi vừa xem biểu diễn vừa chụp ảnh." },
+          { "correct": "他一边练习才艺一边准备比赛。", "pinyin": "Tā yībiān liànxí cáiyì yībiān zhǔnbèi bǐsài.", "meaning": "Anh ấy vừa luyện tập tài năng vừa chuẩn bị cho cuộc thi." }
+        ]
+      }
+    ],
+    "dialogue": [
+      {
+        "title": "Bàn về cuộc thi tài năng",
+        "lines": [
+          { "speaker": "A", "zh": "这周末有个文艺活动，你知道吗？", "py": "Zhè zhōumò yǒu gè wényì huódòng, nǐ zhīdào ma?", "vi": "Cuối tuần này có một hoạt động văn nghệ, bạn biết không?" },
+          { "speaker": "B", "zh": "知道，我的朋友小李，一位优秀选手，会参加。", "py": "Zhīdào, wǒ de péngyou Xiǎo Lǐ, yí wèi yōuxiù xuǎnshǒu, huì cānjiā.", "vi": "Biết chứ, bạn mình, Tiểu Lý, một thí sinh xuất sắc, sẽ tham gia." },
+          { "speaker": "A", "zh": "他有什么才艺？", "py": "Tā yǒu shénme cáiyì?", "vi": "Anh ấy có tài năng gì?" },
+          { "speaker": "B", "zh": "他一边弹琴一边唱歌，节目很受欢迎。", "py": "Tā yībiān tánqín yībiān chànggē, jiémù hěn shòu huānyíng.", "vi": "Anh ấy vừa đàn vừa hát, tiết mục rất được ưa chuộng." },
+          { "speaker": "A", "zh": "好，我们一定要去看他的演出。", "py": "Hǎo, wǒmen yídìng yào qù kàn tā de yǎnchū.", "vi": "Được, chúng mình nhất định phải đi xem buổi biểu diễn của anh ấy." }
+        ]
+      },
+      {
+        "title": "Lên kế hoạch cuối tuần",
+        "lines": [
+          { "speaker": "A", "zh": "周末我们做什么？", "py": "Zhōumò wǒmen zuò shénme?", "vi": "Cuối tuần chúng mình làm gì?" },
+          { "speaker": "B", "zh": "或者看比赛，或者去看演出，你选一个吧。", "py": "Huòzhě kàn bǐsài, huòzhě qù kàn yǎnchū, nǐ xuǎn yí gè ba.", "vi": "Hoặc xem thi đấu, hoặc đi xem biểu diễn, bạn chọn một cái đi." },
+          { "speaker": "A", "zh": "这个演出的海报我看到了，很流行。", "py": "Zhège yǎnchū de hǎibào wǒ kàndào le, hěn liúxíng.", "vi": "Áp phích buổi biểu diễn này mình đã thấy rồi, rất thịnh hành." },
+          { "speaker": "B", "zh": "好，那我们一边吃东西一边看演出吧。", "py": "Hǎo, nà wǒmen yībiān chī dōngxi yībiān kàn yǎnchū ba.", "vi": "Được, vậy chúng mình vừa ăn vừa xem biểu diễn nhé." },
+          { "speaker": "A", "zh": "好主意，我去宣传一下叫上朋友。", "py": "Hǎo zhǔyi, wǒ qù xuānchuán yíxià jiào shàng péngyou.", "vi": "Ý hay đấy, mình đi quảng bá rủ thêm bạn bè." }
+        ]
+      }
+    ]
+  }
+]

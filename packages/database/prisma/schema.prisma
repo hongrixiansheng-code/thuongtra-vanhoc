@@ -8,23 +8,44 @@ datasource db {
 }
 
 model User {
-  id                  String         @id @default(uuid())
-  name                String?
-  email               String?        @unique
-  emailVerified       DateTime?
-  image               String?
-  passwordHash        String?
-  role                String         @default("USER") // "USER" | "ADMIN" | "TEACHER"
-  subscriptionStatus  String         @default("FREE") // "FREE" | "PREMIUM"
-  subscriptionEndDate DateTime?
-  createdAt           DateTime       @default(now())
+  id                    String         @id @default(uuid())
+  name                  String?
+  email                 String?        @unique
+  emailVerified         DateTime?
+  image                 String?
+  passwordHash          String?
+  role                  String         @default("USER") // "USER" | "ADMIN" | "TEACHER"
+  subscriptionStatus    String         @default("FREE") // "FREE" | "PREMIUM"
+  subscriptionEndDate   DateTime?
+  createdAt             DateTime       @default(now())
 
-  accounts            Account[]
-  sessions            Session[]
-  progress            UserProgress[]
-  payments            Payment[]
-  taughtClasses       Class[]            @relation("TeacherClasses")
-  enrollments         ClassEnrollment[]  @relation("StudentEnrollments")
+  isBanned              Boolean        @default(false)
+  lastLoginAt           DateTime?
+  nameChangedAt         DateTime?      // chuẩn bị cho tính năng tương lai: user tự đổi tên, 14 ngày/lần
+  sessionsInvalidatedAt DateTime?      // set = now() khi Force Logout hoặc Ban để buộc phiên JWT hiện tại phải đăng nhập lại
+
+  accounts              Account[]
+  sessions              Session[]
+  progress              UserProgress[]
+  payments              Payment[]
+  taughtClasses         Class[]            @relation("TeacherClasses")
+  enrollments           ClassEnrollment[]  @relation("StudentEnrollments")
+  auditLogsAsAdmin      AdminAuditLog[]    @relation("AuditLogAdmin")
+  auditLogsAsTarget     AdminAuditLog[]    @relation("AuditLogTarget")
+}
+
+model AdminAuditLog {
+  id           String   @id @default(uuid())
+  adminId      String?
+  adminEmail   String   // snapshot lúc ghi log, đọc được kể cả sau khi admin bị xóa
+  targetUserId String?
+  targetEmail  String   // snapshot lúc ghi log, đọc được kể cả sau khi target bị xóa
+  action       String   // "ROLE_CHANGE" | "SUBSCRIPTION_CHANGE" | "BAN" | "UNBAN" | "DELETE" | "FORCE_LOGOUT" | "NAME_CHANGE" | "EMAIL_CHANGE" | "CREATE"
+  detail       Json?    // { before: ..., after: ... }
+  createdAt    DateTime @default(now())
+
+  admin        User?    @relation("AuditLogAdmin", fields: [adminId], references: [id], onDelete: SetNull)
+  targetUser   User?    @relation("AuditLogTarget", fields: [targetUserId], references: [id], onDelete: SetNull)
 }
 
 model Account {
@@ -99,6 +120,7 @@ model Lesson {
   program     Program   @relation(fields: [programId], references: [id])
   contents    LessonContent[]
   userProgress UserProgress[]
+  assignments  Assignment[]
 }
 
 model LessonContent {
@@ -149,6 +171,7 @@ model Class {
   program     Program           @relation(fields: [programId], references: [id])
   teacher     User              @relation("TeacherClasses", fields: [teacherId], references: [id])
   enrollments ClassEnrollment[]
+  assignments Assignment[]
 }
 
 model ClassEnrollment {
@@ -161,4 +184,18 @@ model ClassEnrollment {
   student   User  @relation("StudentEnrollments", fields: [studentId], references: [id], onDelete: Cascade)
 
   @@unique([classId, studentId])
+}
+
+model Assignment {
+  id        String    @id @default(uuid())
+  classId   String
+  lessonId  String
+  dueDate   DateTime?
+  note      String?
+  createdAt DateTime  @default(now())
+
+  class     Class     @relation(fields: [classId], references: [id], onDelete: Cascade)
+  lesson    Lesson    @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+
+  @@unique([classId, lessonId])
 }

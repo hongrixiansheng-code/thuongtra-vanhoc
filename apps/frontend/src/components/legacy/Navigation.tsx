@@ -39,10 +39,10 @@ export function Navigation() {
     const pathname = usePathname();
     const router = useRouter();
     const searchParams = useSearchParams();
-    const levelParam = searchParams?.get('level') || 'hsk1';
+    const levelParam = searchParams?.get('level');
 
     const [openMenu, setOpenMenu] = useState<string | null>(null);
-    const [currentLevel, setCurrentLevel] = useState(levelParam);
+    const [currentLevel, setCurrentLevel] = useState(levelParam || 'hsk1');
     const [showMore, setShowMore] = useState(false);
     const [subjects, setSubjects] = useState<any[]>(FALLBACK_SUBJECTS);
     const { data: session } = useSession();
@@ -60,6 +60,25 @@ export function Navigation() {
             })
             .catch(() => {}); // giữ fallback nếu lỗi
     }, []);
+
+    // URL có ?level= thì dùng đúng giá trị đó. Nếu KHÔNG có (vd. vừa vào "/" hoặc "/dashboard"
+    // trần), tránh hardcode 'hsk1' — hỏi server chương trình mặc định thật của user (lớp đang học,
+    // hoặc chương trình học gần nhất) để mọi link điều hướng (Tiến độ, Học tập, Luyện tập...) build
+    // đúng ?level=, không tự động đẩy học sinh lớp khác về HSK1.
+    useEffect(() => {
+        if (levelParam) {
+            setCurrentLevel(levelParam);
+            return;
+        }
+        let cancelled = false;
+        fetch('/api/default-level')
+            .then(r => r.json())
+            .then(data => {
+                if (!cancelled && data?.level) setCurrentLevel(data.level);
+            })
+            .catch(() => {});
+        return () => { cancelled = true; };
+    }, [levelParam]);
 
     // Map routes → activeTab
     let activeTab = 'curriculum';
@@ -107,35 +126,38 @@ export function Navigation() {
         handleSelectProgram(prog.code);
     };
 
-    const btnColor = currentSubject?.color || 'bg-indigo-500';
+    const btnColor = 'bg-primary-500 hover:bg-primary-600';
 
     return (
-        <header className="site-topnav bg-white shadow-sm border-b border-gray-200 sticky top-0 z-20">
-            <div className="max-w-7xl mx-auto px-4 h-16 flex items-center gap-4">
-                {/* Logo */}
+        <>
+        <header className="site-topnav bg-white/80 dark:bg-slate-900/80 backdrop-blur-md shadow-sm border-b border-slate-200/50 dark:border-slate-800/50 sticky top-0 z-50 transition-colors">
+            <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between gap-2 sm:gap-4">
+                {/* Logo (Left) */}
                 <Link href="/" className="flex items-center gap-2 shrink-0">
-                    <div className="bg-primary-600 text-white p-2 rounded-lg">
+                    <div className="bg-primary-600 text-white p-2 rounded-xl shadow-sm">
                         <i className="fa-solid fa-graduation-cap text-lg"></i>
                     </div>
-                    <span className="font-bold text-gray-800 hidden sm:block">Thưởng Trà - Vấn Học</span>
+                    <span className="font-extrabold text-slate-800 dark:text-white hidden lg:block tracking-tight">Thưởng Trà - Vấn Học</span>
                 </Link>
 
-                {/* Dropdown chọn chương trình — ĐỌC ĐỘNG TỪ DB */}
-                <div className="relative shrink-0" id="curriculum-dropdown">
+                {/* Center Content */}
+                <div className="flex items-center justify-center gap-2 sm:gap-4 flex-1">
+                    {/* Dropdown chọn chương trình — ĐỌC ĐỘNG TỪ DB */}
+                    <div className="relative shrink-0" id="curriculum-dropdown">
                     <button
                         onClick={() => setOpenMenu(openMenu === 'curriculum' ? null : 'curriculum')}
-                        className={`flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-bold border-2 transition-all ${btnColor} text-white border-transparent`}>
+                        className={`flex items-center gap-1.5 sm:gap-2 px-3 sm:px-4 py-1.5 sm:py-2 rounded-full text-xs sm:text-sm font-bold border-2 transition-all ${btnColor} text-white border-transparent shadow-sm`}>
                         <span>{currentSubject?.flag || '🌐'}</span>
                         <span>{shortLabel(currentProgram?.name || currentLevel, currentLevel)}</span>
                         <i className="fa-solid fa-chevron-down text-xs"></i>
                     </button>
 
                     {openMenu === 'curriculum' && (
-                        <div className="absolute top-11 left-0 bg-white border border-gray-200 rounded-2xl shadow-xl z-50 min-w-[400px] max-w-[600px] overflow-hidden animate-fade-in">
+                        <div className="absolute top-11 left-1/2 -translate-x-1/2 sm:translate-x-0 sm:right-0 sm:left-auto bg-white border border-gray-200 rounded-2xl shadow-xl z-50 w-[90vw] sm:w-auto sm:min-w-[400px] sm:max-w-[600px] overflow-hidden animate-fade-in origin-top sm:origin-top-right">
                             <div className="px-4 py-3 border-b border-gray-100 bg-gray-50">
                                 <p className="text-xs font-semibold text-gray-400 uppercase tracking-wider">Chọn giáo trình</p>
                             </div>
-                            <div className="flex divide-x divide-gray-100">
+                            <div className="flex flex-col sm:flex-row sm:divide-x divide-gray-100 max-h-[70vh] overflow-y-auto sm:max-h-auto sm:overflow-visible">
                                 {subjects.map(subject => {
                                     if (subject.code === 'en') {
                                         return (
@@ -216,25 +238,18 @@ export function Navigation() {
                             </div>
                         </div>
                     )}
-                </div>
-
-                {/* Desktop Nav */}
-                <nav className="desktop-nav flex items-center gap-1 flex-1">
-                    <Link href="/"
-                        className={`px-4 py-2 rounded-full text-sm font-medium transition-colors
-                            ${activeTab === 'home' ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
-                        Trang chủ
-                    </Link>
-
+                    </div>
+                {/* Desktop Tabs */}
+                <nav className="desktop-nav hidden md:flex items-center justify-center gap-1">
                     {/* Học tập */}
                     <div className="relative">
                         <button onClick={() => setOpenMenu(openMenu === 'hoctap' ? null : 'hoctap')}
-                            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors
-                                ${['vocab', 'grammar', 'dialogue'].includes(activeTab) ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
-                            Học tập <i className="fa-solid fa-chevron-down text-xs"></i>
+                            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all
+                                ${['vocab', 'grammar', 'dialogue'].includes(activeTab) ? 'bg-primary-50 dark:bg-primary-500/10 text-primary-600' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}>
+                            Học tập <i className={`fa-solid fa-chevron-down text-[10px] transition-transform ${openMenu === 'hoctap' ? 'rotate-180' : ''}`}></i>
                         </button>
                         {openMenu === 'hoctap' && (
-                            <div className="absolute top-10 left-0 bg-white border border-gray-200 rounded-xl shadow-lg z-50 min-w-[180px] overflow-hidden animate-fade-in">
+                            <div className="absolute top-12 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl shadow-xl z-50 min-w-[200px] overflow-hidden animate-fade-in">
                                 {[
                                     { id: 'curriculum', icon: 'fa-route', label: 'Giáo trình', route: '/dashboard' },
                                     { id: 'vocab', icon: 'fa-book-open', label: 'Từ vựng', route: '/vocab' },
@@ -242,9 +257,10 @@ export function Navigation() {
                                     { id: 'dialogue', icon: 'fa-comments', label: 'Hội thoại', route: '/dialogue' },
                                 ].map(item => (
                                     <Link href={`${item.route}?level=${currentLevel}`} key={item.id} onClick={() => setOpenMenu(null)}
-                                        className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-gray-50
-                                            ${activeTab === item.id ? 'text-primary-600 font-medium bg-primary-50' : 'text-gray-700'}`}>
-                                        <i className={`fa-solid ${item.icon} w-4 text-center`}></i> {item.label}
+                                        className={`w-full text-left px-5 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-slate-50 dark:hover:bg-slate-700/50
+                                            ${activeTab === item.id ? 'text-primary-600 font-bold bg-primary-50/50 dark:bg-primary-500/5' : 'text-slate-700 dark:text-slate-300'}`}>
+                                        <div className="w-6 text-center text-slate-400"><i className={`fa-solid ${item.icon}`}></i></div> 
+                                        {item.label}
                                     </Link>
                                 ))}
                             </div>
@@ -254,13 +270,13 @@ export function Navigation() {
                     {/* Luyện tập */}
                     <div className="relative">
                         <button onClick={() => setOpenMenu(openMenu === 'luyentap' ? null : 'luyentap')}
-                            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors
+                            className={`flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-semibold transition-all
                                 ${['flashcard', 'quiz', 'speaking-test', 'writing-test', 'mock-test', 'reading-test'].includes(activeTab)
-                                    ? 'bg-primary-600 text-white' : 'text-gray-600 hover:bg-gray-100'}`}>
-                            Luyện tập <i className="fa-solid fa-chevron-down text-xs"></i>
+                                    ? 'bg-primary-50 dark:bg-primary-500/10 text-primary-600' : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'}`}>
+                            Luyện tập <i className={`fa-solid fa-chevron-down text-[10px] transition-transform ${openMenu === 'luyentap' ? 'rotate-180' : ''}`}></i>
                         </button>
                         {openMenu === 'luyentap' && (
-                            <div className="absolute top-10 left-0 bg-white border border-gray-200 rounded-xl shadow-lg z-50 min-w-[200px] overflow-hidden animate-fade-in">
+                            <div className="absolute top-12 left-1/2 -translate-x-1/2 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-2xl shadow-xl z-50 min-w-[200px] overflow-hidden animate-fade-in">
                                 {[
                                     { id: 'flashcard', icon: 'fa-gamepad', label: 'Trò chơi', route: '/games' },
                                     { id: 'quiz', icon: 'fa-brain', label: 'Ôn tập SRS', route: '/practice' },
@@ -270,19 +286,35 @@ export function Navigation() {
                                     { id: 'mock-test', icon: 'fa-graduation-cap', label: 'Thi Thử', route: '/mock-test' },
                                 ].map(item => (
                                     <Link href={`${item.route}?level=${currentLevel}`} key={item.id} onClick={() => setOpenMenu(null)}
-                                        className={`w-full text-left px-4 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-gray-50
-                                            ${activeTab === item.id ? 'text-primary-600 font-medium bg-primary-50' : 'text-gray-700'}`}>
-                                        <i className={`fa-solid ${item.icon} w-4 text-center`}></i> {item.label}
+                                        className={`w-full text-left px-5 py-3 text-sm flex items-center gap-3 transition-colors hover:bg-slate-50 dark:hover:bg-slate-700/50
+                                            ${activeTab === item.id ? 'text-primary-600 font-bold bg-primary-50/50 dark:bg-primary-500/5' : 'text-slate-700 dark:text-slate-300'}`}>
+                                        <div className="w-6 text-center text-slate-400"><i className={`fa-solid ${item.icon}`}></i></div> 
+                                        {item.label}
                                     </Link>
                                 ))}
                             </div>
                         )}
                     </div>
                 </nav>
+                </div>
 
-                {/* Right: user menu */}
-                <div className="flex items-center gap-3 shrink-0 ml-auto relative">
+                {/* Controls & User (Right) */}
+                <div className="flex items-center gap-2 sm:gap-4 shrink-0 ml-auto relative">
+                    
+                    {/* Gamification (Streak & Coins) */}
+                    <div className="hidden sm:flex items-center gap-3 px-3 py-1.5 bg-slate-100 dark:bg-slate-800 rounded-full border border-slate-200 dark:border-slate-700 mr-2">
+                        <div className="flex items-center gap-1.5 text-sm font-bold text-orange-500">
+                            <i className="fa-solid fa-fire"></i>
+                            <span>12</span>
+                        </div>
+
+                    </div>
+
+
+                    
+                    <div className="w-px h-6 bg-slate-200 dark:bg-slate-700 hidden sm:block mx-1"></div>
                     <ThemeSwitcher />
+                    
                     {session ? (
                         <>
                             <button onClick={() => setOpenMenu(openMenu === 'user' ? null : 'user')}
@@ -329,6 +361,8 @@ export function Navigation() {
                 </div>
             </div>
 
+        </header>
+
             {openMenu && <div className="fixed inset-0 z-40" onClick={() => setOpenMenu(null)}></div>}
 
             {/* Mobile Bottom Nav */}
@@ -366,6 +400,6 @@ export function Navigation() {
                     <span className="text-[10px] font-medium">Thêm</span>
                 </button>
             </nav>
-        </header>
+        </>
     );
 }

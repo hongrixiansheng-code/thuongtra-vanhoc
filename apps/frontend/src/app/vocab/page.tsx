@@ -1,12 +1,12 @@
 export const dynamic = 'force-dynamic';
 import { VocabTab } from "@/components/legacy/VocabTab";
 import { getAllVocabData } from "@/lib/data";
-import { getCompletedLessonIds } from '@/lib/getProgressIds';
+import { getCompletedLessonIds, getDefaultProgramCode } from '@/lib/getProgressIds';
 import ProgramLocked from "@/components/ProgramLocked";
 
 export default async function VocabPage(props: any) {
   const searchParams = await props.searchParams;
-  const level = (searchParams && searchParams.level) ? searchParams.level : 'hsk1';
+  const level = (searchParams && searchParams.level) ? searchParams.level : await getDefaultProgramCode();
 
   const { completedLessonIds, programLocked } = await getCompletedLessonIds(level);
 

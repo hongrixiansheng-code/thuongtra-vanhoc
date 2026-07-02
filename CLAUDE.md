@@ -32,6 +32,23 @@ edu-platform/
 ### Database (packages/database)
 - **ORM**: Prisma Client
 - **Production DB**: PostgreSQL (Neon), `DATABASE_URL` env
+- Không có thư mục `prisma/migrations/` — dự án dùng quy trình schema-first qua `npx prisma db push` (chạy trong `packages/database`), KHÔNG dùng `prisma migrate dev/deploy`.
+
+### 🌿 Neon Branch — Local Dev DB (từ 2026-07-01)
+
+Từ 2026-07-01, **local dev và production KHÔNG còn dùng chung 1 database** — owner đã có người dùng thật, tách riêng để tránh thao tác nhầm ảnh hưởng dữ liệu thật.
+
+- **Branch `local-dev`** (Neon project `ThuongTra-VanHoc`, parent = `production`, auto-delete: Never) — copy toàn bộ dữ liệu + schema tại thời điểm tạo (2026-07-01).
+- `apps/frontend/.env` và `packages/database/.env` → cả 2 đều trỏ `DATABASE_URL` sang branch `local-dev` (không còn trỏ production).
+- **Vercel** (production deploy) vẫn giữ nguyên biến môi trường trỏ branch `production` — KHÔNG đổi, không liên quan tới thay đổi này.
+
+**🚫 Quy tắc cứng (owner yêu cầu, không được vi phạm dù chỉ 1 lần):**
+Mọi thay đổi/dữ liệu phát sinh trên branch `local-dev` (kể cả do test, seed thử, sửa tay qua SQL Editor...) **TUYỆT ĐỐI KHÔNG được đưa ngược vào production** dưới bất kỳ hình thức nào — không "Reset from parent" theo chiều ngược, không promote branch, không copy dữ liệu từ branch qua production. Dữ liệu gốc trên production luôn được giữ nguyên.
+
+Quy trình đúng khi cần thay đổi **schema** (thêm bảng/field...):
+1. Sửa `packages/database/prisma/schema.prisma`, chạy `npx prisma db push` — lúc này `.env` đang trỏ `local-dev` nên chỉ áp dụng lên branch, kiểm tra kỹ ổn định.
+2. Khi đã chắc chắn, đổi tạm `DATABASE_URL` sang production (lấy từ biến môi trường Vercel hoặc hỏi owner), chạy lại **đúng `npx prisma db push`** đó để áp schema lên production — thao tác này chỉ đồng bộ *cấu trúc bảng*, không đụng tới dữ liệu hàng (rows) đang có.
+3. Đổi `DATABASE_URL` lại về branch `local-dev` ngay sau khi xong.
 
 ---
 
@@ -217,7 +234,7 @@ Xem **DATA_CONTRACTS.md** — single source of truth cho format vocab/grammar/di
 - Các gói ngắn (3/7/15 ngày) cố tình có giá/ngày cao hơn — dùng cho trải nghiệm thử, không phải lựa chọn tối ưu chi phí
 - Khi hiển thị UI, luôn nhấn mạnh giá/ngày + % tiết kiệm cho gói 90/180/360 ngày để đẩy người dùng lên gói lớn — KHÔNG đổi mốc giá này khi chưa được yêu cầu
 
-- Khóa bài theo điểm: HSK1-2 cần 7/10, HSK3-4 cần 8/10 để mở bài tiếp
+- Khóa bài theo điểm: tất cả chương trình chỉ cần 4/10 (40%) để mở bài tiếp theo — ngưỡng dùng chung `score >= 40` (`LessonStepFlow.tsx`, `api/progress/route.ts`), không phân biệt theo cấp độ/chương trình
 - Premium mở khóa: flashcard, listening drills, reading drills — chỉ cho bài đã hoàn thành (Contextual Unlock)
 - Tăng trưởng: dùng thử Premium 7 ngày không cần thẻ; giải đấu tuần tặng mã Premium
 

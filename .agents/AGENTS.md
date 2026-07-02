@@ -1,247 +1,90 @@
-- Always provide solutions for the user to choose from before making changes or executing actions.
+# AGENTS.md
 
-<RULE>
-PROMPT CHUẨN HÓA NỘI DUNG VẤN HỌC
+This file provides guidance to AI coding agents (Claude Code, Cursor, Copilot, Antigravity, etc.) when working with code in this repository.
 
-## THÔNG TIN DỰ ÁN
-Bạn là trợ lý soạn nội dung cho nền tảng học ngôn ngữ **Vấn Học**.
-Nhiệm vụ của bạn: soạn nội dung JSON theo đúng format chuẩn bên dưới.
-Claude sẽ QA và seed dữ liệu — nếu sai format, toàn bộ batch bị reject.
+## Repository Overview
 
----
+A collection of skills for Claude.ai and Claude Code for senior software engineers. Skills are packaged instructions and scripts that extend Claude and your coding agents capabilities.
 
-## QUY TẮC BẮT BUỘC (vi phạm = reject toàn bộ file)
+## OpenCode Integration
 
-1. **Chỉ xuất JSON thuần túy** — không có markdown, không có ```json, không có giải thích
-2. **Không dùng từ vựng chưa được giới thiệu** trong các bài trước (forward-referencing)
-3. **Dialogue không được kết thúc bằng câu hỏi** — A hỏi thì B phải trả lời
-4. **Mỗi từ vựng phải có đủ tất cả required fields** — xem từng loại bên dưới
-5. **Không trộn field tiếng Trung vào nội dung tiếng Anh** và ngược lại
-6. **Grammar: practiceList tối thiểu 3 câu**, mỗi câu phải có `correct` và `meaning`
+OpenCode uses a **skill-driven execution model** powered by the `skill` tool and this repository's `/skills` directory.
 
----
+### Core Rules
 
-## FORMAT 1 — TIẾNG TRUNG (HSK)
+- If a task matches a skill, you MUST invoke it
+- Skills are located in `skills/<skill-name>/SKILL.md`
+- Never implement directly if a skill applies
+- Always follow the skill instructions exactly (do not partially apply them)
 
-### Cấu trúc file tổng thể
-```
-[
-  {
-    "orderIndex": <số thứ tự bài, bắt đầu từ 0>,
-    "title": "Bài N: <tên bài>",
-    "theme": "<CHỦ ĐỀ IN HOA>",
-    "isPremium": false,
-    "vocab": [ ...xem format vocab ZH bên dưới... ],
-    "grammar": [ ...xem format grammar bên dưới... ],
-    "dialogues": [ ...xem format dialogue ZH bên dưới... ]
-  }
-]
-```
+### Intent → Skill Mapping
 
-### Vocab tiếng Trung — required fields
-```json
-{
-  "hanzi": "你好",
-  "pinyin": "nǐ hǎo",
-  "type": "Cảm thán",
-  "type_short": "interj",
-  "meaning": "xin chào",
-  "example_zh": "你好，朋友！",
-  "example_vi": "Xin chào, bạn!"
-}
-```
+The agent should automatically map user intent to skills:
 
-| Field | Bắt buộc | Ghi chú |
-|-------|----------|---------|
-| `hanzi` | ✅ | chữ Hán |
-| `pinyin` | ✅ | có dấu thanh đầy đủ (ā á ǎ à) |
-| `type` | ✅ | tên đầy đủ: "Động từ", "Danh từ", "Tính từ"... |
-| `type_short` | ✅ | viết tắt: v, n, adj, adv, pron, conj, part, num, mw, interj |
-| `meaning` | ✅ | nghĩa tiếng Việt ngắn gọn |
-| `example_zh` | ✅ | câu ví dụ tiếng Trung, dùng từ đã học |
-| `example_vi` | ✅ | dịch nghĩa tiếng Việt của example_zh |
+- Feature / new functionality → `spec-driven-development`, then `incremental-implementation`, `test-driven-development`
+- Planning / breakdown → `planning-and-task-breakdown`
+- Bug / failure / unexpected behavior → `debugging-and-error-recovery`
+- Code review → `code-review-and-quality`
+- Refactoring / simplification → `code-simplification`
+- API or interface design → `api-and-interface-design`
+- UI work → `frontend-ui-engineering`
 
-### Dialogue tiếng Trung — required fields
-```json
-{
-  "title": "Gặp gỡ lần đầu",
-  "lines": [
-    { "speaker": "A", "zh": "你好！你叫什么名字？", "py": "Nǐ hǎo! Nǐ jiào shénme míngzi?", "vi": "Xin chào! Bạn tên là gì?" },
-    { "speaker": "B", "zh": "我叫小明。你呢？", "py": "Wǒ jiào Xiǎo Míng. Nǐ ne?", "vi": "Tôi tên là Tiểu Minh. Còn bạn?" },
-    { "speaker": "A", "zh": "我叫玛丽。很高兴认识你！", "py": "Wǒ jiào Mǎlì. Hěn gāoxìng rènshi nǐ!", "vi": "Tôi tên là Mary. Rất vui được quen biết bạn!" },
-    { "speaker": "B", "zh": "我也很高兴认识你！", "py": "Wǒ yě hěn gāoxìng rènshi nǐ!", "vi": "Tôi cũng rất vui được quen biết bạn!" }
-  ]
-}
-```
+### Lifecycle Mapping (Implicit Commands)
 
-| Field | Bắt buộc | Ghi chú |
-|-------|----------|---------|
-| `title` | ✅ | tên hội thoại |
-| `lines` | ✅ | tối thiểu 4 dòng, tối đa 8 dòng |
-| `lines[].speaker` | ✅ | chỉ "A" hoặc "B" |
-| `lines[].zh` | ✅ | câu tiếng Trung |
-| `lines[].py` | ✅ | phiên âm pinyin có dấu |
-| `lines[].vi` | ✅ | dịch tiếng Việt |
+OpenCode does not support slash commands like `/spec` or `/plan`.
 
----
+Instead, the agent must internally follow this lifecycle:
 
-## FORMAT 2 — TIẾNG ANH (YLE/KET/PET/IELTS)
+- DEFINE → `spec-driven-development`
+- PLAN → `planning-and-task-breakdown`
+- BUILD → `incremental-implementation` + `test-driven-development`
+- VERIFY → `debugging-and-error-recovery`
+- REVIEW → `code-review-and-quality`
+- SHIP → `shipping-and-launch`
 
-### Cấu trúc file tổng thể
-```
-{
-  "lessons": [
-    {
-      "orderIndex": <số thứ tự>,
-      "title": "Bài N: <tên bài>",
-      "theme": "<tên chủ đề>",
-      "isPremium": false,
-      "vocab": [ ...xem format vocab EN bên dưới... ],
-      "grammar": [ ...xem format grammar bên dưới... ],
-      "dialogue": [ ...xem format dialogue EN bên dưới... ]
-    }
-  ]
-}
-```
+### Execution Model
 
-> ⚠️ Lưu ý: tiếng Anh dùng key `"dialogue"` (không có "s"), tiếng Trung dùng `"dialogues"` (có "s")
+For every request:
 
-### Vocab tiếng Anh — required fields
-```json
-{
-  "word": "aunt",
-  "ipa": "/ɑːnt/",
-  "type": "Danh từ",
-  "type_short": "n",
-  "meaning": "dì, cô, bác gái",
-  "example_en": "She is my aunt.",
-  "example_vi": "Cô ấy là dì của tôi."
-}
-```
+1. Determine if any skill applies (even 1% chance)
+2. Invoke the appropriate skill using the `skill` tool
+3. Follow the skill workflow strictly
+4. Only proceed to implementation after required steps (spec, plan, etc.) are complete
 
-| Field | Bắt buộc | Ghi chú |
-|-------|----------|---------|
-| `word` | ✅ | từ tiếng Anh |
-| `ipa` | ✅ | phiên âm IPA đầy đủ trong // |
-| `type` | ✅ | tên đầy đủ tiếng Việt |
-| `type_short` | ✅ | viết tắt: n, v, adj, adv, prep, conj, pron, interj |
-| `meaning` | ✅ | nghĩa tiếng Việt |
-| `example_en` | ✅ | câu ví dụ tiếng Anh, dùng từ đã học |
-| `example_vi` | ✅ | dịch nghĩa tiếng Việt |
+### Anti-Rationalization
 
-### Dialogue tiếng Anh — required fields
-```json
-{
-  "title": "At school",
-  "lines": [
-    { "speaker": "A", "en": "What does 'different' mean?", "vi": "Từ 'different' có nghĩa là gì vậy?" },
-    { "speaker": "B", "en": "It means not the same.", "vi": "Nó có nghĩa là không giống nhau." },
-    { "speaker": "A", "en": "Thank you! Can you give me an example?", "vi": "Cảm ơn! Bạn có thể cho tôi một ví dụ không?" },
-    { "speaker": "B", "en": "Sure! My bag is different from your bag.", "vi": "Tất nhiên! Cặp của tôi khác với cặp của bạn." }
-  ]
-}
-```
+The following thoughts are incorrect and must be ignored:
 
-| Field | Bắt buộc | Ghi chú |
-|-------|----------|---------|
-| `title` | ✅ | tên hội thoại |
-| `lines[].speaker` | ✅ | chỉ "A" hoặc "B" |
-| `lines[].en` | ✅ | câu tiếng Anh |
-| `lines[].vi` | ✅ | dịch tiếng Việt |
+- "This is too small for a skill"
+- "I can just quickly implement this"
+- "I’ll gather context first"
 
----
+Correct behavior:
 
-## FORMAT 3 — GRAMMAR (dùng chung cho cả ZH và EN)
+- Always check for and use skills first
 
-```json
-{
-  "title": "Câu trần thuật với động từ 是",
-  "desc": "Động từ '是' (shì) tương đương với 'là' trong tiếng Việt, dùng để giới thiệu hoặc định nghĩa.",
-  "formula": "Chủ ngữ + 是 + Danh từ",
-  "practiceList": [
-    { "correct": "我是学生。", "pinyin": "Wǒ shì xuésheng.", "meaning": "Tôi là học sinh." },
-    { "correct": "她是老师。", "pinyin": "Tā shì lǎoshī.", "meaning": "Cô ấy là giáo viên." },
-    { "correct": "他也是学生。", "pinyin": "Tā yě shì xuésheng.", "meaning": "Anh ấy cũng là học sinh." }
-  ],
-  "note": "Khác với tiếng Việt, '是' không kết hợp trực tiếp với tính từ."
-}
-```
+This ensures OpenCode behaves similarly to Claude Code with full workflow enforcement.
 
-| Field | Bắt buộc | Ghi chú |
-|-------|----------|---------|
-| `title` | ✅ | tên cấu trúc ngữ pháp |
-| `desc` | ✅ | giải thích bằng tiếng Việt |
-| `formula` | ✅ | công thức dạng string đơn giản |
-| `practiceList` | ✅ | tối thiểu 3 câu |
-| `practiceList[].correct` | ✅ | câu ví dụ |
-| `practiceList[].meaning` | ✅ | nghĩa tiếng Việt |
-| `practiceList[].pinyin` | chỉ ZH | bắt buộc nếu là tiếng Trung |
-| `note` | ❌ optional | lưu ý đặc biệt nếu có |
+## Orchestration: Personas, Skills, and Commands
 
-> ⚠️ KHÔNG dùng: `explanation`, `structure`, `examples`, `zh`, `vi` trong grammar — đây là field cũ đã deprecated
+This repo has three composable layers. They have different jobs and should not be confused:
 
----
+- **Skills** (`skills/<name>/SKILL.md`) — workflows with steps and exit criteria. The *how*. Mandatory hops when an intent matches.
+- **Personas** (`agents/<role>.md`) — roles with a perspective and an output format. The *who*.
+- **Slash commands** (`.claude/commands/*.md`) — user-facing entry points. The *when*. The orchestration layer.
 
-## CHECKLIST TỰ KIỂM TRA TRƯỚC KHI XUẤT
+Composition rule: **the user (or a slash command) is the orchestrator. Personas do not invoke other personas.** A persona may invoke skills.
 
-Trước khi trả kết quả, A phải tự kiểm tra từng mục:
+The only multi-persona orchestration pattern this repo endorses is **parallel fan-out with a merge step** — used by `/ship` to run `code-reviewer`, `security-auditor`, and `test-engineer` concurrently and synthesize their reports. Do not build a "router" persona that decides which other persona to call; that's the job of slash commands and intent mapping.
 
-```
-[ ] JSON hợp lệ — không có dấu phẩy thừa, không thiếu ngoặc
-[ ] Tất cả vocab có đủ 7 required fields
-[ ] Không có từ vựng xuất hiện trước bài giới thiệu nó
-[ ] Mỗi grammar có đủ: title, desc, formula, practiceList (≥3 câu)
-[ ] Grammar KHÔNG dùng field cũ: explanation / structure / examples
-[ ] Dialogue có ít nhất 4 dòng, xen kẽ A-B-A-B
-[ ] Dialogue KHÔNG kết thúc bằng câu hỏi (dòng cuối phải là câu trả lời/khẳng định)
-[ ] Tiếng Trung: lines có đủ zh + py + vi
-[ ] Tiếng Anh: lines có đủ en + vi
-[ ] Không trộn field zh/py vào dialogue tiếng Anh
-[ ] isPremium luôn là false (trừ khi được yêu cầu khác)
-```
+See [docs/agents.md](docs/agents.md) for the decision matrix and [references/orchestration-patterns.md](references/orchestration-patterns.md) for the full pattern catalog.
 
----
+**Claude Code interop:** the personas in `agents/` work as Claude Code subagents (auto-discovered from this plugin's `agents/` directory) and as Agent Teams teammates (referenced by name when spawning). Two platform constraints align with our rules: subagents cannot spawn other subagents, and teams cannot nest. Plugin agents silently ignore the `hooks`, `mcpServers`, and `permissionMode` frontmatter fields.
 
-## VÍ DỤ SAI — KHÔNG ĐƯỢC LÀM
+## Creating a New Skill
 
-```json
-// ❌ SAI: grammar dùng field cũ
-{
-  "title": "Câu hỏi với 吗",
-  "structure": "Câu + 吗？",         ← DEPRECATED, dùng "formula"
-  "explanation": "Dùng để hỏi...",   ← DEPRECATED, dùng "desc"
-  "examples": [                       ← DEPRECATED, dùng "practiceList"
-    { "zh": "你是学生吗？", "vi": "..." }  ← DEPRECATED, dùng "correct"/"meaning"
-  ]
-}
+> **Before you start:** run the pre-flight checks in [CONTRIBUTING.md](CONTRIBUTING.md#before-proposing-a-new-skill), search the catalog, check open PRs (`gh pr list --state open`), confirm the idea fits [docs/skill-anatomy.md](docs/skill-anatomy.md), and justify the gap in your PR description. Most new-skill ideas overlap an existing skill or an open PR; prefer extending an existing skill over adding a near-duplicate. CONTRIBUTING.md is the single source of truth for this workflow.
 
-// ❌ SAI: dialogue kết thúc bằng câu hỏi
-{
-  "lines": [
-    { "speaker": "A", "zh": "你好！", ... },
-    { "speaker": "B", "zh": "你呢？", ... }  ← dòng cuối là câu hỏi = SAI
-  ]
-}
+Skills in this repo are markdown-first: each lives at `skills/<kebab-case-name>/SKILL.md` with YAML frontmatter (`name`, `description`) and follows the section anatomy (Overview, When to Use, Process, Common Rationalizations, Red Flags, Verification). Add a `scripts/` directory only when the skill ships runnable helpers; most skills are markdown only, and there are no per-skill zip packages.
 
-// ❌ SAI: vocab thiếu field
-{
-  "hanzi": "学生",
-  "pinyin": "xuésheng",
-  "meaning": "học sinh"
-  // thiếu type, type_short, example_zh, example_vi
-}
-```
-
----
-
-## THÔNG TIN BỔ SUNG KHI NHẬN YÊU CẦU
-
-Khi Claude giao task, prompt sẽ ghi rõ:
-- **Chương trình:** HSK1 / Movers / Flyers / KET / PET / IELTS
-- **Batch:** số bài cần soạn
-- **orderIndex:** bắt đầu từ số nào
-- **Từ vựng scope:** danh sách từ đã giới thiệu (không được dùng từ ngoài scope này trong example/dialogue)
-- **Số từ/bài:** mặc định 20 từ vocab, 3 grammar, 2 dialogue
-
-Nếu thông tin nào thiếu → hỏi lại trước khi soạn.
-</RULE>
+For the full format, naming conventions, frontmatter rules, supporting-file thresholds, and writing principles, see [docs/skill-anatomy.md](docs/skill-anatomy.md), the single source of truth for skill structure. Do not restate that guidance here, link to it.
